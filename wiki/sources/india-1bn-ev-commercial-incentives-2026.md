@@ -1,4 +1,5 @@
 ---
+sources: [2026-05-21-India-1bn-Incentives-Electric-Buses-Trucks.md]
 tags: [source]
 source-file: 2026-05-21-India-1bn-Incentives-Electric-Buses-Trucks.md
 updated: 2026-05-21

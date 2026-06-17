@@ -1,4 +1,5 @@
 ---
+sources: [2026-05-19-India-Two-Wheeler-Market-FY27-Demand-Bifurcation.md]
 tags: [source]
 source-file: 2026-05-19-India-Two-Wheeler-Market-FY27-Demand-Bifurcation.md
 updated: 2026-05-21

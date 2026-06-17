@@ -1,6 +1,6 @@
 ---
+sources: [2026-05-22-First-drive-in-the-Kia-EV2-Compact-EV-with-a-surprisingly-mature-setup.md]
 tags: [source]
-sources: []
 updated: 2026-05-22
 ---
 

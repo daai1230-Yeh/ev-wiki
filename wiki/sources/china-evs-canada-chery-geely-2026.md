@@ -1,4 +1,5 @@
 ---
+sources: [2026-05-12-first-chinese-evs-land-canada-chery-geely.md]
 tags: [source]
 source-file: 2026-05-12-first-chinese-evs-land-canada-chery-geely.md
 updated: 2026-05-13

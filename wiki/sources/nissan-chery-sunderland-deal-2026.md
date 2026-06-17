@@ -1,4 +1,5 @@
 ---
+sources: [2026-04-17-nissan-eyes-chery-deal-sunderland-plant.md]
 tags: [source]
 source-file: 2026-06-05-electrive-TODAY-digest.md
 updated: 2026-06-10

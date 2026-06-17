@@ -1,6 +1,6 @@
 ---
 tags: [source]
-sources: []
+sources: [2026-05-21-nordic-countries-ev-two-thirds.md]
 updated: 2026-05-22
 ---
 

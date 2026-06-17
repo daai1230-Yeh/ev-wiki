@@ -1,4 +1,5 @@
 ---
+sources: [2026-05-19-BMW-iX3-Neue-Klasse-Video-Review.md]
 tags: [source]
 source-file: 2026-05-19-BMW-iX3-Neue-Klasse-Video-Review.md
 updated: 2026-05-18

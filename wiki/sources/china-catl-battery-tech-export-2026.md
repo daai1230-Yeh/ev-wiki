@@ -1,4 +1,5 @@
 ---
+sources: [2026-06-11-china-cheap-battery-tech-gm-lmr-lfp.md]
 tags: [source]
 source-file: 2026-05-21-中國收緊鋰電池技術輸出紅線-寧德時代.md
 updated: 2026-05-21

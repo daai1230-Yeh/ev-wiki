@@ -1,4 +1,5 @@
 ---
+sources: [windrose-offers-electric-hgvs-for-less-than-200000.md]
 tags: [source]
 source-file: windrose-offers-electric-hgvs-for-less-than-200000.md
 updated: 2026-05-15

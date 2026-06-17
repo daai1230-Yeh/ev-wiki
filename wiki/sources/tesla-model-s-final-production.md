@@ -1,4 +1,5 @@
 ---
+sources: [2026-05-12-final-tesla-model-s-rolls-off-production-line.md]
 tags: [source]
 source-file: 2026-05-12-final-tesla-model-s-rolls-off-production-line.md
 updated: 2026-05-12

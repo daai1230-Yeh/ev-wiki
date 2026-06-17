@@ -1,4 +1,5 @@
 ---
+sources: [2026-04-20-samsung-sdi-mercedes-benz-ev-battery-supply-deal.md]
 tags: [source]
 source-file: 2026-06-10-福斯傳引進三星SDI歐製方形電池-打造鋰電池三足鼎立版圖.md
 updated: 2026-06-10

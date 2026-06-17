@@ -1,4 +1,5 @@
 ---
+sources: [2026-05-16-honda-lost-9-billion-ev-hybrid-pivot.md]
 tags: [source]
 source-file: 2026-05-16-honda-lost-9-billion-ev-hybrid-pivot.md
 updated: 2026-05-16

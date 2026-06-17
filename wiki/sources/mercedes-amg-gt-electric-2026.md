@@ -1,4 +1,5 @@
 ---
+sources: [2026-05-21-mercedes-amg-gt-4-door-coupe-electric-unveiled.md]
 tags: [source]
 source-file: 2026-05-21-Mercedes-AMG-GT-Electric-Super-Sedan.md
 updated: 2026-05-21

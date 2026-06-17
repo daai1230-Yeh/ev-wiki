@@ -1,6 +1,6 @@
 ---
+sources: [2026-05-21-svolt-semi-solid-state-battery-production-september.md]
 tags: [source]
-sources: []
 updated: 2026-05-21
 ---
 

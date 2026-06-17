@@ -1,6 +1,6 @@
 ---
+sources: [2026-05-22-Ganfeng-starts-pilot-production-of-500-Wh-kg-solid-state-batteries.md]
 tags: [source]
-sources: []
 updated: 2026-05-22
 ---
 

@@ -1,6 +1,6 @@
 ---
+sources: [2026-05-21-zenobe-go-ahead-280-electric-buses-framework.md]
 tags: [source]
-sources: []
 updated: 2026-05-21
 ---
 

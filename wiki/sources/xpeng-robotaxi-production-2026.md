@@ -1,4 +1,5 @@
 ---
+sources: [2026-05-21-Xpeng-Robotaxi-Series-Production.md]
 tags: [source]
 source-file: 2026-05-21-Xpeng-Robotaxi-Series-Production.md, 2026-05-20-小鵬首款無人計程車量產下線-2027正式營運.md
 updated: 2026-05-21

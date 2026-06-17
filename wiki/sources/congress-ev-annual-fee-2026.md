@@ -1,4 +1,5 @@
 ---
+sources: [2026-05-19-Congress-130-Dollar-Annual-EV-Fee.md]
 tags: [source]
 source-file: 2026-05-19-Congress-130-Dollar-Annual-EV-Fee.md
 updated: 2026-05-18

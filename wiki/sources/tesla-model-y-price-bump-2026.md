@@ -1,4 +1,5 @@
 ---
+sources: [2026-05-19-Tesla-Model-Y-Price-Bump-Ioniq5-MachE.md]
 tags: [source]
 source-file: 2026-05-19-Tesla-Model-Y-Price-Bump-Ioniq5-MachE.md
 updated: 2026-05-19

@@ -1,6 +1,6 @@
 ---
 tags: [source]
-sources: []
+sources: [2026-05-21-europe-v2g-bidirectional-charging.md]
 updated: 2026-05-22
 ---
 

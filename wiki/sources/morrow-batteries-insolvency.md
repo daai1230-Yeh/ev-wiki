@@ -1,4 +1,5 @@
 ---
+sources: [2026-05-12-morrow-batteries-files-for-insolvency.md]
 tags: [source]
 source-file: 2026-05-12-morrow-batteries-files-for-insolvency.md
 updated: 2026-05-12

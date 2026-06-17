@@ -1,4 +1,5 @@
 ---
+sources: [2026-05-19-Ather-Energy-EL-Platform-Electric-Scooter.md]
 tags: [source]
 source-file: 2026-05-19-Ather-Energy-EL-Platform-Electric-Scooter.md
 updated: 2026-05-08

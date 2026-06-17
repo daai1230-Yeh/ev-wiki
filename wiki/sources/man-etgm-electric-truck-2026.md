@@ -1,4 +1,5 @@
 ---
+sources: [2026-05-18-man-unveils-electric-16-tonne-truck-etgm.md]
 tags: [source]
 source-file: 2026-05-13-man-unveils-electric-16-tonne-truck-etgm.md
 updated: 2026-05-15

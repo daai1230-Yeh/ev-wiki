@@ -1,6 +1,6 @@
 ---
+sources: [2026-05-23-Tata-Stellantis-Alliance-Global-Jeep-SUV-India.md]
 tags: [source]
-sources: []
 updated: 2026-05-25
 ---
 

@@ -1,6 +1,6 @@
 ---
 tags: [source]
-sources: []
+sources: [2026-05-20-malta-electric-buses-autonomous-shuttle.md]
 updated: 2026-05-21
 ---
 

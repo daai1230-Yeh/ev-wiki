@@ -1,6 +1,6 @@
 ---
+sources: [2026-05-22-Honda-India-Comeback-10-Models-EV-Hybrid-Strategy.md]
 tags: [source]
-sources: []
 updated: 2026-05-25
 ---
 

@@ -1,4 +1,5 @@
 ---
+sources: [2026-05-22-Ganfeng-starts-pilot-production-of-500-Wh-kg-solid-state-batteries.md]
 tags: [source]
 source-file: 三星SDI全固態電池商用化在即？傳研發人力大舉轉調量產部門.md
 updated: 2026-05-15

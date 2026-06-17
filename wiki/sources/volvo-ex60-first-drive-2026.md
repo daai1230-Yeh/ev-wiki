@@ -1,4 +1,5 @@
 ---
+sources: [2026-05-21-volvo-ex60-first-drive-review-best-volvo-ever.md]
 tags: [source]
 source-file: 2026-05-21-Volvo-EX60-First-Drive-Best-Volvo-Ever.md, 2026-05-21-Volvo-EX60-Gemini-AI-Cameras.md
 updated: 2026-05-21

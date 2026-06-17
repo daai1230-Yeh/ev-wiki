@@ -1,4 +1,5 @@
 ---
+sources: [cam-analysis-byd-tops-global-innovation-ranking-for-first-time.md]
 tags: [source]
 source-file: 2026-05-12-geely-vw-byd-top-ev-innovation-ranking-2026-cam-report.md
 updated: 2026-05-15

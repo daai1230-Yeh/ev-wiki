@@ -1,4 +1,5 @@
 ---
+sources: [2026-04-14-volvo-trucks-fh-aero-electric-700km-range.md]
 tags: [source]
 source-file: 2026-04-14-volvo-trucks-fh-aero-electric-700km-range.md
 updated: 2026-05-15
