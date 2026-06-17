@@ -83,12 +83,14 @@ def parse_log():
         if m:
             if current: entries.append(current)
             current = {'date': m.group(1), 'type': m.group(2),
-                       'title': m.group(3), 'details': []}
+                       'title': m.group(3), 'details': [], 'details_raw': []}
         elif line.startswith('- ') and current:
-            clean = re.sub(r'\[\[([^\]|]+)(?:\|[^\]]+)?\]\]', r'\1', line[2:]).strip()
+            raw = line[2:].strip()
+            clean = re.sub(r'\[\[([^\]|]+)(?:\|[^\]]+)?\]\]', r'\1', raw).strip()
             clean = re.sub(r'\*\*([^*]+)\*\*', r'\1', clean)
             if clean and len(clean) > 3:
                 current['details'].append(clean[:180])
+                current['details_raw'].append(raw)
     if current: entries.append(current)
     entries.sort(key=lambda x: x['date'], reverse=True)
     return entries[:18]
@@ -108,6 +110,7 @@ def parse_concepts():
             'source_count': len(fm.get('sources', [])),
             'sections': len(h2s),
             'section_titles': h2s[:6],
+            'body': rest.strip(),          # full markdown for the detail subpage
         })
     out.sort(key=lambda x: -x['source_count'])
     return out
@@ -123,9 +126,36 @@ def parse_entities():
             'file': f.stem, 'title': title,
             'summary': first_paragraph(rest, 160),
             'updated': fm.get('updated', ''),
-            'source_count': len(fm.get('sources', []))
+            'source_count': len(fm.get('sources', [])),
+            'body': rest.strip(),          # full markdown for the detail subpage
         })
     out.sort(key=lambda x: -x['source_count'])
+    return out
+
+def parse_source_url(body):
+    """Extract the original-article URL from a source page body."""
+    m = re.search(r'\*\*來源\*\*[：:]\s*\[[^\]]+\]\((https?://[^)]+)\)', body)
+    if m:
+        return m.group(1)
+    m = re.search(r'\*\*來源\*\*[：:]\s*(https?://\S+)', body)
+    if m:
+        return m.group(1).rstrip('）)　,。')
+    m = re.search(r'(https?://\S+)', body)
+    return m.group(1).rstrip('）)　,。') if m else ''
+
+def parse_sources_full():
+    """name -> {title, url, body, updated} for every source page on disk."""
+    out = {}
+    for f in sorted((WIKI_DIR / "sources").glob("*.md")):
+        text = f.read_text(encoding='utf-8')
+        fm, rest = parse_frontmatter(text)
+        title_m = re.search(r'^# (.+)$', rest, re.MULTILINE)
+        out[f.stem] = {
+            'title': title_m.group(1) if title_m else f.stem,
+            'url': parse_source_url(rest),
+            'updated': fm.get('updated', ''),
+            'body': rest.strip(),
+        }
     return out
 
 def build_charts(sections):
@@ -168,6 +198,7 @@ HTML_TEMPLATE = r'''<!DOCTYPE html>
 <title>電動車產業知識庫 Dashboard</title>
 <script src="https://cdn.tailwindcss.com"></script>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/marked@12.0.0/marked.min.js"></script>
 <style>
   ::-webkit-scrollbar{width:5px;height:5px}
   ::-webkit-scrollbar-track{background:#1e293b}
@@ -196,6 +227,41 @@ HTML_TEMPLATE = r'''<!DOCTYPE html>
   .chart-wrap{position:relative;width:100%;height:220px}
   .chart-wrap-tall{position:relative;width:100%;height:280px}
   .chart-wrap-donut{position:relative;width:100%;height:220px}
+  .clickable{cursor:pointer}
+
+  /* ── Detail subpage (slide-over) ── */
+  #detail-overlay{position:fixed;inset:0;z-index:100;display:none}
+  #detail-overlay.open{display:block}
+  #detail-backdrop{position:absolute;inset:0;background:rgba(2,6,23,.7);backdrop-filter:blur(2px);animation:fadeIn .2s ease}
+  #detail-panel{position:absolute;top:0;right:0;height:100%;width:min(760px,94vw);
+    background:#0f172a;border-left:1px solid #1e293b;box-shadow:-20px 0 60px rgba(0,0,0,.5);
+    display:flex;flex-direction:column;transform:translateX(100%);transition:transform .25s ease}
+  #detail-overlay.open #detail-panel{transform:translateX(0)}
+  #detail-head{flex-shrink:0;border-bottom:1px solid #1e293b;padding:16px 22px;
+    background:#0f172a;display:flex;align-items:flex-start;gap:12px}
+  #detail-body{overflow-y:auto;padding:22px 26px 60px}
+
+  /* rendered-markdown prose */
+  .md-body{color:#cbd5e1;font-size:.9rem;line-height:1.75}
+  .md-body h1{font-size:1.4rem;font-weight:700;color:#f1f5f9;margin:.2em 0 .6em}
+  .md-body h2{font-size:1.1rem;font-weight:600;color:#34d399;margin:1.5em 0 .5em;
+    padding-bottom:.25em;border-bottom:1px solid #1e293b}
+  .md-body h3{font-size:.98rem;font-weight:600;color:#93c5fd;margin:1.1em 0 .4em}
+  .md-body p{margin:.6em 0}
+  .md-body ul,.md-body ol{margin:.5em 0 .5em 1.3em;list-style:revert}
+  .md-body li{margin:.25em 0}
+  .md-body strong{color:#f1f5f9;font-weight:600}
+  .md-body code{background:#1e293b;color:#fbbf24;padding:1px 5px;border-radius:4px;font-size:.85em}
+  .md-body a{color:#38bdf8;text-decoration:none;border-bottom:1px dotted #38bdf8}
+  .md-body a:hover{color:#7dd3fc}
+  .md-body a.wl{color:#a78bfa;border-bottom:1px dashed #a78bfa;cursor:pointer}
+  .md-body a.wl:hover{color:#c4b5fd;background:rgba(167,139,250,.1)}
+  .md-body table{border-collapse:collapse;width:100%;margin:1em 0;font-size:.82rem;display:block;overflow-x:auto}
+  .md-body th,.md-body td{border:1px solid #1e293b;padding:6px 10px;text-align:left}
+  .md-body th{background:#1e293b;color:#e2e8f0;font-weight:600}
+  .md-body tr:nth-child(even){background:rgba(30,41,59,.4)}
+  .md-body blockquote{border-left:3px solid #475569;padding-left:1em;color:#94a3b8;margin:.8em 0}
+  .md-body hr{border:0;border-top:1px solid #1e293b;margin:1.4em 0}
 </style>
 </head>
 <body class="bg-slate-900 text-slate-100 min-h-screen font-sans">
@@ -214,7 +280,7 @@ HTML_TEMPLATE = r'''<!DOCTYPE html>
       <a href="#overview"  class="nav-link block px-3 py-2 rounded-lg text-sm text-slate-300 hover:bg-slate-700 cursor-pointer">📊 總覽</a>
       <a href="#activity"  class="nav-link block px-3 py-2 rounded-lg text-sm text-slate-300 hover:bg-slate-700 cursor-pointer">📰 最新動態</a>
       <a href="#concepts"  class="nav-link block px-3 py-2 rounded-lg text-sm text-slate-300 hover:bg-slate-700 cursor-pointer">🗺️ 概念地圖</a>
-      <a href="#entities"  class="nav-link block px-3 py-2 rounded-lg text-sm text-slate-300 hover:bg-slate-700 cursor-pointer">🏢 企業資料庫</a>
+      <a href="#entities"  class="nav-link block px-3 py-2 rounded-lg text-sm text-slate-300 hover:bg-slate-700 cursor-pointer">🏭 車廠資料庫</a>
       <a href="#sources"   class="nav-link block px-3 py-2 rounded-lg text-sm text-slate-300 hover:bg-slate-700 cursor-pointer">📚 來源追蹤</a>
     </nav>
     <div class="p-3 border-t border-slate-700 text-xs text-slate-500 leading-relaxed">
@@ -274,7 +340,7 @@ HTML_TEMPLATE = r'''<!DOCTYPE html>
       <section id="activity">
         <h2 class="section-title text-lg font-semibold text-slate-200 mb-5 flex items-center gap-2">
           <span class="text-emerald-400">◈</span> 最新動態
-          <span class="ml-2 text-xs text-slate-500 font-normal">（近期 ingest 批次）</span>
+          <span class="ml-2 text-xs text-slate-500 font-normal">（點擊每則看詳情與原文連結）</span>
         </h2>
         <div id="activity-list" class="relative border-l-2 border-slate-700 ml-3 pl-6 space-y-5"></div>
       </section>
@@ -284,6 +350,7 @@ HTML_TEMPLATE = r'''<!DOCTYPE html>
         <div class="flex flex-wrap items-center justify-between gap-3 mb-5">
           <h2 class="section-title text-lg font-semibold text-slate-200 flex items-center gap-2">
             <span class="text-emerald-400">◈</span> 概念地圖
+            <span class="ml-2 text-xs text-slate-500 font-normal">（點擊卡片看完整內容）</span>
           </h2>
           <div class="flex gap-2 flex-wrap" id="concept-filters"></div>
         </div>
@@ -293,7 +360,8 @@ HTML_TEMPLATE = r'''<!DOCTYPE html>
       <!-- ── Entities ── -->
       <section id="entities">
         <h2 class="section-title text-lg font-semibold text-slate-200 mb-5 flex items-center gap-2">
-          <span class="text-emerald-400">◈</span> 企業資料庫
+          <span class="text-emerald-400">◈</span> 車廠資料庫
+          <span class="ml-2 text-xs text-slate-500 font-normal">（點擊卡片看完整資料）</span>
         </h2>
         <div id="entities-grid" class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3"></div>
       </section>
@@ -309,6 +377,23 @@ HTML_TEMPLATE = r'''<!DOCTYPE html>
 
     </div>
   </main>
+</div>
+
+<!-- ── Detail subpage (slide-over) ── -->
+<div id="detail-overlay" aria-hidden="true">
+  <div id="detail-backdrop"></div>
+  <div id="detail-panel" role="dialog" aria-modal="true">
+    <div id="detail-head">
+      <button id="detail-back" class="hidden flex-shrink-0 text-slate-400 hover:text-emerald-400 text-lg leading-none mt-0.5" title="返回">←</button>
+      <div class="flex-1 min-w-0">
+        <div id="detail-kicker" class="text-xs font-medium mb-0.5"></div>
+        <div id="detail-title" class="text-base font-semibold text-slate-100 leading-snug break-words"></div>
+        <div id="detail-meta" class="mt-1"></div>
+      </div>
+      <button id="detail-close" class="flex-shrink-0 text-slate-400 hover:text-rose-400 text-2xl leading-none" title="關閉 (Esc)">×</button>
+    </div>
+    <div id="detail-body"></div>
+  </div>
 </div>
 
 <!-- ── JavaScript ── -->
@@ -340,6 +425,120 @@ const esc = s => String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>
 const $  = id => document.getElementById(id);
 const mk = (tag, cls, html='') => { const e=document.createElement(tag); e.className=cls; e.innerHTML=html; return e; };
 
+// ── Detail subpage engine ────────────────────────────────────────────────────
+// Lookup maps keyed by file/name so wikilinks can resolve to a detail view.
+const CMAP = {}, EMAP = {}, SMAP = D.source_pages || {};
+D.concepts.forEach(c => CMAP[c.file] = c);
+D.entities.forEach(e => EMAP[e.file] = e);
+const TITLE_TO_ENTITY = {}; D.entities.forEach(e => TITLE_TO_ENTITY[e.title] = e.file);
+const TITLE_TO_CONCEPT = {}; D.concepts.forEach(c => TITLE_TO_CONCEPT[c.file] = c.file);
+
+if (window.marked) marked.setOptions({ gfm:true, breaks:false });
+
+// Convert [[wikilinks]] into clickable cross-links before markdown rendering.
+function resolveWikilinks(md){
+  return md.replace(/\[\[([^\]|]+)(?:\|([^\]]+))?\]\]/g, (m, target, label) => {
+    target = target.trim();
+    const seg = target.split('/');
+    const key = seg[seg.length - 1].trim();
+    let type = '';
+    if (/^sources\//i.test(target) && SMAP[key]) type = 'source';
+    else if (/^entit(y|ies)\//i.test(target)) type = 'entity';
+    else if (/^concepts?\//i.test(target)) type = 'concept';
+    else if (SMAP[key]) type = 'source';
+    else if (EMAP[key] || TITLE_TO_ENTITY[key]) type = 'entity';
+    else if (CMAP[key]) type = 'concept';
+    const text = (label || key).trim();
+    if (!type) return esc(text);
+    const ekey = (type === 'entity' && !EMAP[key] && TITLE_TO_ENTITY[key]) ? TITLE_TO_ENTITY[key] : key;
+    return `<a class="wl" data-t="${esc(type)}" data-k="${esc(ekey)}">${esc(text)}</a>`;
+  });
+}
+
+function renderMarkdown(md){
+  const html = (window.marked ? marked.parse(resolveWikilinks(md)) : esc(md));
+  // open every external link in a new tab
+  return html.replace(/<a\s+href="(https?:)/g, '<a target="_blank" rel="noopener" href="$1');
+}
+
+const detailHist = [];
+function openDetail(type, key, push=true){
+  let item, kicker, kColor, meta = '';
+  if (type === 'concept'){
+    item = CMAP[key]; if (!item) return;
+    kicker = '🗺️ 概念地圖'; kColor = 'text-blue-400';
+    meta = `<span class="text-xs text-slate-500">${esc(item.source_count)} 個來源 · 更新 ${esc(item.updated||'—')}</span>`;
+  } else if (type === 'entity'){
+    item = EMAP[key]; if (!item) return;
+    kicker = '🏭 車廠資料庫'; kColor = 'text-amber-400';
+    meta = `<span class="text-xs text-slate-500">${esc(item.source_count)} 個來源 · 更新 ${esc(item.updated||'—')}</span>`;
+  } else if (type === 'source'){
+    item = SMAP[key]; if (!item) return;
+    kicker = '📄 來源'; kColor = 'text-emerald-400';
+    if (item.url) meta = `<a href="${esc(item.url)}" target="_blank" rel="noopener"
+        class="inline-flex items-center gap-1 text-xs bg-emerald-500/15 text-emerald-300 border border-emerald-500/40 rounded-full px-3 py-1 hover:bg-emerald-500/25 transition">↗ 查看原文</a>`;
+  } else return;
+
+  if (push) detailHist.push({type, key});
+  $('detail-kicker').className = 'text-xs font-medium mb-0.5 ' + kColor;
+  $('detail-kicker').textContent = kicker;
+  $('detail-title').textContent = item.title || key;
+  $('detail-meta').innerHTML = meta;
+  $('detail-body').innerHTML = `<div class="md-body">${renderMarkdown(item.body || '_（無內容）_')}</div>`;
+  $('detail-back').classList.toggle('hidden', detailHist.length < 2);
+  const ov = $('detail-overlay');
+  ov.classList.add('open'); ov.setAttribute('aria-hidden','false');
+  $('detail-body').scrollTop = 0;
+  document.body.style.overflow = 'hidden';
+}
+
+function openActivity(i, push=true){
+  const e = D.log[i]; if (!e) return;
+  const TYPE_LABELS = {ingest:'Ingest', query:'Query', maintenance:'維護', synthesis:'綜合分析', init:'初始化'};
+  if (push){ detailHist.length = 0; detailHist.push({type:'activity', key:i}); }
+  $('detail-kicker').className = 'text-xs font-medium mb-0.5 type-' + e.type;
+  $('detail-kicker').textContent = '📰 ' + (TYPE_LABELS[e.type] || e.type);
+  $('detail-title').textContent = e.title;
+  $('detail-meta').innerHTML = `<span class="text-xs font-mono text-slate-500">${esc(e.date)}</span>`;
+  const lines = (e.details_raw && e.details_raw.length ? e.details_raw : e.details) || [];
+  const md = lines.map(l => '- ' + l).join('\n');
+  $('detail-body').innerHTML = `<div class="md-body">${renderMarkdown(md)}</div>`;
+  $('detail-back').classList.toggle('hidden', detailHist.length < 2);
+  const ov = $('detail-overlay');
+  ov.classList.add('open'); ov.setAttribute('aria-hidden','false');
+  $('detail-body').scrollTop = 0;
+  document.body.style.overflow = 'hidden';
+}
+
+function closeDetail(){
+  const ov = $('detail-overlay');
+  ov.classList.remove('open'); ov.setAttribute('aria-hidden','true');
+  detailHist.length = 0;
+  document.body.style.overflow = '';
+}
+
+function setupDetail(){
+  $('detail-close').addEventListener('click', closeDetail);
+  $('detail-backdrop').addEventListener('click', closeDetail);
+  $('detail-back').addEventListener('click', () => {
+    detailHist.pop();                       // current
+    const prev = detailHist[detailHist.length - 1];
+    if (!prev) return;
+    if (prev.type === 'activity') openActivity(prev.key, false);
+    else openDetail(prev.type, prev.key, false);
+  });
+  // wikilink navigation inside the detail body
+  $('detail-body').addEventListener('click', ev => {
+    const a = ev.target.closest('a.wl');
+    if (!a) return;
+    ev.preventDefault();
+    openDetail(a.dataset.t, a.dataset.k);
+  });
+  document.addEventListener('keydown', ev => {
+    if (ev.key === 'Escape' && $('detail-overlay').classList.contains('open')) closeDetail();
+  });
+}
+
 // ── Render: Stats ────────────────────────────────────────────────────────────
 function renderStats(){
   const s = D.stats;
@@ -348,13 +547,13 @@ function renderStats(){
   $('top-stats').innerHTML =
     `<span class="text-emerald-400 font-semibold">${s.sources}</span> 來源 ·
      <span class="text-blue-400 font-semibold">${s.concepts}</span> 概念 ·
-     <span class="text-amber-400 font-semibold">${s.entities}</span> 企業 ·
+     <span class="text-amber-400 font-semibold">${s.entities}</span> 車廠 ·
      最後更新 <span class="text-slate-300">${s.last_updated}</span>`;
 
   const cards = [
     {icon:'📚', label:'來源總數',   val: s.sources,   color:'text-emerald-400', bg:'bg-emerald-500/10 border-emerald-500/30'},
     {icon:'🗺️', label:'概念頁數',   val: s.concepts,  color:'text-blue-400',    bg:'bg-blue-500/10 border-blue-500/30'},
-    {icon:'🏢', label:'企業資料庫', val: s.entities,  color:'text-amber-400',   bg:'bg-amber-500/10 border-amber-500/30'},
+    {icon:'🏭', label:'車廠資料庫', val: s.entities,  color:'text-amber-400',   bg:'bg-amber-500/10 border-amber-500/30'},
     {icon:'📄', label:'Wiki 總頁數',val: s.pages,     color:'text-purple-400',  bg:'bg-purple-500/10 border-purple-500/30'},
   ];
   $('stat-cards').innerHTML = cards.map(c => `
@@ -446,27 +645,34 @@ function renderCharts(){
 // ── Render: Activity Timeline ────────────────────────────────────────────────
 function renderActivity(){
   const el = $('activity-list');
-  el.innerHTML = D.log.map(e => {
+  el.innerHTML = D.log.map((e, i) => {
     const icon  = TYPE_ICONS[e.type] || '📌';
     const cls   = `type-${e.type}`;
     const label = TYPE_LABELS[e.type] || e.type;
     const details = e.details.slice(0,4).map(d =>
       `<li class="text-slate-400 text-xs leading-relaxed">${esc(d)}</li>`).join('');
+    const more = e.details.length > 4 ? `<div class="text-[11px] text-slate-500 mt-1">…還有 ${e.details.length - 4} 項</div>` : '';
     return `
       <div class="relative fade-in">
         <div class="absolute -left-9 top-1 w-4 h-4 rounded-full bg-slate-700 border-2 border-slate-600 flex items-center justify-center text-xs">
           <span class="${cls}">${icon}</span>
         </div>
-        <div class="bg-slate-800/60 rounded-xl border border-slate-700/60 p-4">
+        <div class="bg-slate-800/60 rounded-xl border border-slate-700/60 p-4 clickable hover:border-emerald-500/50 transition" data-log="${i}">
           <div class="flex items-center gap-2 mb-1">
             <span class="text-xs font-mono text-slate-500">${e.date}</span>
             <span class="tag ${cls} border-current opacity-70">${label}</span>
+            <span class="ml-auto text-[11px] text-emerald-400/70">詳情 →</span>
           </div>
           <div class="text-sm font-medium text-slate-200">${esc(e.title)}</div>
           ${details ? `<ul class="mt-2 space-y-1 list-disc list-inside">${details}</ul>` : ''}
+          ${more}
         </div>
       </div>`;
   }).join('');
+  el.onclick = ev => {
+    const card = ev.target.closest('[data-log]');
+    if (card) openActivity(+card.dataset.log);
+  };
 }
 
 // ── Render: Concepts Grid ────────────────────────────────────────────────────
@@ -497,7 +703,8 @@ function renderConcepts(){
     const sections = c.section_titles.slice(0,4).map(s =>
       `<span class="inline-block bg-slate-700/60 text-slate-300 text-xs rounded px-1.5 py-0.5 mr-1 mb-1">${esc(s.replace(/：.*/,'').substring(0,18))}</span>`).join('');
     return `
-      <div class="card bg-slate-800 border border-slate-700 rounded-2xl p-5 flex flex-col gap-3 fade-in">
+      <div class="card clickable bg-slate-800 border border-slate-700 rounded-2xl p-5 flex flex-col gap-3 fade-in"
+           data-concept="${esc(c.file)}">
         <div class="flex items-start justify-between gap-2">
           <h3 class="text-base font-semibold text-slate-100 leading-tight">${esc(c.title)}</h3>
           <span class="flex-shrink-0 text-xs text-emerald-400 font-mono">${c.source_count} 來源</span>
@@ -510,21 +717,34 @@ function renderConcepts(){
           </div>
           <span class="text-xs text-slate-500">${c.updated}</span>
         </div>
+        <div class="text-[11px] text-blue-400/70 mt-1">點擊看完整內容 →</div>
       </div>`;
   }).join('');
+  $('concepts-grid').onclick = ev => {
+    const card = ev.target.closest('[data-concept]');
+    if (card) openDetail('concept', card.dataset.concept);
+  };
 }
 
 // ── Render: Entities ────────────────────────────────────────────────────────
 function renderEntities(){
   $('entities-grid').innerHTML = D.entities.map(e => `
-    <div class="card bg-slate-800 border border-slate-700 rounded-xl p-4 flex flex-col gap-2 fade-in">
+    <div class="card clickable bg-slate-800 border border-slate-700 rounded-xl p-4 flex flex-col gap-2 fade-in"
+         data-entity="${esc(e.file)}">
       <div class="flex items-center justify-between">
         <h3 class="text-sm font-semibold text-slate-100">${esc(e.title)}</h3>
         <span class="text-xs text-amber-400 font-mono">${e.source_count}</span>
       </div>
       <p class="text-xs text-slate-400 leading-relaxed">${esc(e.summary)}</p>
-      <div class="text-xs text-slate-600 mt-auto">${e.updated}</div>
+      <div class="flex items-center justify-between mt-auto">
+        <span class="text-xs text-slate-600">${e.updated}</span>
+        <span class="text-[11px] text-amber-400/70">看完整資料 →</span>
+      </div>
     </div>`).join('');
+  $('entities-grid').onclick = ev => {
+    const card = ev.target.closest('[data-entity]');
+    if (card) openDetail('entity', card.dataset.entity);
+  };
 }
 
 // ── Render: Sources (Tabbed) ─────────────────────────────────────────────────
@@ -567,20 +787,34 @@ function renderSourcePanel(){
           <tr class="border-b border-slate-700">
             <th class="text-left px-4 py-3 text-xs text-slate-400 font-medium w-28">日期</th>
             <th class="text-left px-4 py-3 text-xs text-slate-400 font-medium">摘要</th>
+            <th class="text-right px-4 py-3 text-xs text-slate-400 font-medium w-24">原文</th>
           </tr>
         </thead>
         <tbody>
-          ${[...srcs].reverse().map(s => `
-            <tr class="source-row border-b border-slate-700/50 transition">
+          ${[...srcs].reverse().map(s => {
+            const sp = SMAP[s.name] || {};
+            const ext = sp.url
+              ? `<a href="${esc(sp.url)}" target="_blank" rel="noopener" data-stop="1"
+                    class="inline-flex items-center gap-1 text-xs text-emerald-400 hover:text-emerald-300 whitespace-nowrap">↗ 原文</a>`
+              : `<span class="text-xs text-slate-600">—</span>`;
+            return `
+            <tr class="source-row clickable border-b border-slate-700/50 transition" data-source="${esc(s.name)}">
               <td class="px-4 py-3 text-xs font-mono text-slate-500 align-top">${esc(s.date)}</td>
               <td class="px-4 py-3 text-xs text-slate-300 leading-relaxed align-top">
                 <span class="font-mono text-slate-500 mr-2">${esc(s.name)}</span>
                 ${esc(s.desc)}
               </td>
-            </tr>`).join('')}
+              <td class="px-4 py-3 text-right align-top">${ext}</td>
+            </tr>`;
+          }).join('')}
         </tbody>
       </table>
     </div>`;
+  $('source-panel').onclick = ev => {
+    if (ev.target.closest('[data-stop]')) return;   // let the ↗ 原文 link work
+    const row = ev.target.closest('[data-source]');
+    if (row) openDetail('source', row.dataset.source);
+  };
 }
 
 // ── Search ───────────────────────────────────────────────────────────────────
@@ -590,10 +824,10 @@ function setupSearch(){
 
   function buildIndex(){
     const idx = [];
-    D.concepts.forEach(c => idx.push({type:'概念', icon:'🗺️', title:c.title, sub:c.summary, color:'text-blue-400'}));
-    D.entities.forEach(e => idx.push({type:'企業', icon:'🏢', title:e.title, sub:e.summary, color:'text-amber-400'}));
+    D.concepts.forEach(c => idx.push({type:'概念', icon:'🗺️', title:c.title, sub:c.summary, color:'text-blue-400', dt:'concept', dk:c.file}));
+    D.entities.forEach(e => idx.push({type:'車廠', icon:'🏭', title:e.title, sub:e.summary, color:'text-amber-400', dt:'entity', dk:e.file}));
     Object.entries(D.sections).forEach(([sec, srcs]) =>
-      srcs.forEach(s => idx.push({type:'來源', icon:'📄', title:s.name, sub:s.desc, color:'text-emerald-400', sec}))
+      srcs.forEach(s => idx.push({type:'來源', icon:'📄', title:s.name, sub:s.desc, color:'text-emerald-400', sec, dt:'source', dk:s.name}))
     );
     return idx;
   }
@@ -609,7 +843,8 @@ function setupSearch(){
     if (!hits.length) { res.innerHTML = '<div class="p-4 text-slate-500 text-sm">無結果</div>'; }
     else {
       res.innerHTML = hits.map(h => `
-        <div class="flex items-start gap-3 px-4 py-3 hover:bg-slate-700 cursor-pointer border-b border-slate-700/50 last:border-0">
+        <div class="search-hit flex items-start gap-3 px-4 py-3 hover:bg-slate-700 cursor-pointer border-b border-slate-700/50 last:border-0"
+             data-t="${esc(h.dt)}" data-k="${esc(h.dk)}">
           <span class="text-lg mt-0.5">${h.icon}</span>
           <div class="flex-1 min-w-0">
             <div class="flex items-center gap-2">
@@ -621,6 +856,14 @@ function setupSearch(){
         </div>`).join('');
     }
     res.classList.remove('hidden');
+  });
+
+  res.addEventListener('click', e => {
+    const hit = e.target.closest('.search-hit');
+    if (!hit) return;
+    res.classList.add('hidden');
+    box.value = '';
+    openDetail(hit.dataset.t, hit.dataset.k);
   });
 
   document.addEventListener('click', e => {
@@ -656,6 +899,7 @@ renderEntities();
 renderSourceTabs();
 setupSearch();
 setupScrollspy();
+setupDetail();
 
 })();
 </script>
@@ -673,28 +917,31 @@ def generate():
     log_entries      = parse_log()
     concepts         = parse_concepts()
     entities         = parse_entities()
+    source_pages     = parse_sources_full()
     charts           = build_charts(sections)
 
     entity_count = len(entities)
 
     data = {
         'stats': {**stats, 'entities': entity_count, 'concepts': len(concepts)},
-        'log':       log_entries,
-        'concepts':  concepts,
-        'entities':  entities,
-        'sections':  sections,
-        'charts':    charts,
+        'log':          log_entries,
+        'concepts':     concepts,
+        'entities':     entities,
+        'sections':     sections,
+        'source_pages': source_pages,
+        'charts':       charts,
         'generated_at': datetime.now().strftime('%Y-%m-%d %H:%M'),
     }
 
-    html = HTML_TEMPLATE.replace('__WIKI_DATA__',
-                                  json.dumps(data, ensure_ascii=False, indent=2))
+    payload = json.dumps(data, ensure_ascii=False, indent=2)
+    payload = payload.replace('</', '<\\/')   # keep markdown bodies from closing the <script>
+    html = HTML_TEMPLATE.replace('__WIKI_DATA__', payload)
 
     out = OUTPUT_DIR / "index.html"
     out.write_text(html, encoding='utf-8')
 
     print(f"✅ Dashboard → {out}")
-    print(f"   📚 {stats['sources']} 來源  |  🗺️ {len(concepts)} 概念  |  🏢 {entity_count} 企業  |  📄 {stats['pages']} 頁")
+    print(f"   📚 {stats['sources']} 來源  |  🗺️ {len(concepts)} 概念  |  🏭 {entity_count} 車廠  |  📄 {stats['pages']} 頁")
     print()
     print("── 本機預覽 ─────────────────────────────────────────────")
     print("   cd docs && python -m http.server 8080")
