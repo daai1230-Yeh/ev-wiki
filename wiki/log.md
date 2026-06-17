@@ -841,3 +841,48 @@ To get last 5 entries: `grep "^## \[" wiki/log.md | tail -5`
 1. **中國市場結構性降溫**：不再是線性增長，NIO 警示 -15~-20% 之重要，標誌中國 EV 市場進入成熟期整合競爭
 2. **固態電池時間表現實化**：CATL CEO 直接澆冷水，2030 大規模商業化「不現實」——行業最權威聲音重新設定市場預期
 3. **英國 ZEV 鬆綁的示範效應**：若歐洲主要市場開始調低 2030 目標，對全球 EV 供應鏈投資邏輯產生深遠影響
+
+---
+
+## [2026-06-17] ingest | Batch 31 — 14 篇新文章（2026-06-12 至 2026-06-17）
+
+### 新來源頁（14）
+- [[sources/gm-lmr-battery-2026]] — GM LMR 電池 2028 量產，比 LFP 能量密度 +33%
+- [[sources/mercedes-vle-van-ea-production-2026]] — Mercedes VAN.EA 首款商用 800V 平台量產
+- [[sources/scania-wibax-electric-truck-2026]] — 歐盟最大電動重卡訂單：105 輛 Scania P-Series BEV
+- [[sources/bmw-ix5-neue-klasse-2027]] — BMW iX5 2027：144kWh、800V、Neue Klasse
+- [[sources/lucid-cosmos-2026]] — Lucid Cosmos：~$50K 800V V2G，年底沙烏地量產
+- [[sources/rivian-chargescape-v2g-2026]] — Rivian ChargeScape：家用充電排程 + V2G
+- [[sources/xiaomi-su7-ultra-review-2026]] — 小米 SU7 Ultra 試駕：1,526hp、$75K、賽道易駕
+- [[sources/india-ev-market-jun2026]] — 印度 EV 市場 6 月動態（ETAuto digest）
+- [[sources/xiaomi-manufacturing-song-gang-2026]] — 宋鋼：Tesla 護城河在製造，小米借鑒 91% 自動化
+- [[sources/hyundai-china-ev-benchmark-2026]] — 現代購買中國競品親自解剖研究
+- [[sources/lithium-carbonate-sodium-battery-2026]] — 碳酸鋰 2H26 挑戰人民幣 20 萬/噸
+- [[sources/sodium-ion-battery-vs-lfp-2026]] — 鈉電 vs LFP 完整技術比較
+- [[sources/innocience-gan-infineon-patent-2026]] — 英諾賽科 GaN 專利對英飛凌終審勝訴
+- [[sources/nio-china-ev-market-warning-2026]] — 李斌：中國車市 2026 年恐衰退 15~20%
+
+### Raw assets
+全部對應 `raw/assets/2026-06-12-*` 至 `raw/assets/2026-06-17-*`（14 個檔案）
+
+### 未更新（等待使用者確認）
+以下概念頁有新資訊待更新：
+- [[concepts/電池技術路線]] — GM LMR、BMW iX5 144kWh、碳酸鋰漲勢、鈉電對 LFP
+- [[concepts/鈉離子電池]] — 兩篇新文章（技術比較 + 碳酸鋰驅動因素）
+- [[concepts/中國EV市場競爭格局]] — 李斌警告市場萎縮、現代研究中國 EV、SU7 Ultra 評測
+- [[concepts/車用半導體供應鏈]] — 英諾賽科 GaN 勝訴英飛凌，中國 4 成缺口本土填補
+- [[concepts/電動卡車市場]] — Scania 105 輛歐盟最大訂單
+- [[concepts/電動商用車]] — Mercedes VLE VAN.EA 量產啟動
+- [[concepts/充電基礎建設]] — Rivian ChargeScape V2G 家用平台
+- [[concepts/印度EV市場]] — ETAuto 6 月 digest
+- [[entities/小米汽車]] — SU7 Ultra 評測 + 宋鋼製造戰略
+- [[entities/蔚來]] — 李斌示警
+- [[entities/通用汽車]] — LMR 電池策略轉向
+- [[entities/Rivian]] — ChargeScape V2G
+
+### Key additions
+1. **電池路線多元化加速**：GM 棄 LFP 轉 LMR（+33% 密度），BMW iX5 144kWh 旗艦規格，碳酸鋰漲促鈉電替代
+2. **中國車市結構性降溫**：李斌確認 -15~20%，現代親赴中國買競品研究，顯示中國技術領先已被認可
+3. **GaN 半導體博弈**：英諾賽科勝訴英飛凌為中國在核心半導體領域轉守為攻的重要里程碑
+
+- index.md 更新：Pages 361→375，Sources 301→315

@@ -1,12 +1,16 @@
 # Wiki Index
 
-Last updated: 2026-06-16 | Pages: 347 | Sources: 287
+Last updated: 2026-06-17 | Pages: 375 | Sources: 315
 
 ---
 
 ## Sources（來源摘要）
 
 ### 電動乘用車
+- [[sources/xiaomi-manufacturing-song-gang-2026]] — 小米汽車宋鋼：Tesla 真正護城河在製造能力（軟體只是賦能器）；小米 91% 自動化工廠借鑒 Tesla，SU7 已逼近特斯拉品質上限。(2026-06-17)
+- [[sources/xiaomi-su7-ultra-review-2026]] — 小米 SU7 Ultra 試駕：1,526hp，$75K 起，賽道易駕好評，中國 EV 技術里程碑。(2026-06-16)
+- [[sources/lucid-cosmos-2026]] — Lucid Cosmos 專利圖曝光：~$50,000，800V，V2G，年底沙烏地量產，Uber Robotaxi 平台。(2026-06-16)
+- [[sources/bmw-ix5-neue-klasse-2027]] — 2027 BMW iX5：144 kWh，800V，Neue Klasse 技術，含氫燃料電池版。(2026-06-15)
 - [[sources/xiaomi-su7-2026-update]] — 小米 SU7 2026：工廠 91% 自動化（76秒/台）；SU7 Max 680hp/101.7kWh NMC/897V/530kW/3.1s；Ford CEO 參訪。(2026-06-16)
 - [[sources/byd-great-han-2026]] — 比亞迪大漢 2026：5.26m 旗艦、370/570kW、LFP >1,000km CLTC、PHEV 370km 純電、閃充網路；2026 下半年上市。(2026-06-16)
 - [[sources/eu-ev-updates-jun2026]] — BMW iX3 40 RWD €63,400 開放訂購（637km/300kW DC/V2G 標配）；Audi E7X 中國上市（900V/500kW/$34-46K）；Toyota Lexus LF-ZC 取消；德國 1-4 月 BEV 23.6%（+41.3% YoY）。(2026-05-29)
@@ -73,6 +77,8 @@ Last updated: 2026-06-16 | Pages: 347 | Sources: 287
 ### 電動商用車與電動巴士
 - [[sources/tesla-cybercab-specs-2026]] — Tesla Cybercab EPA 認證：48kWh、293 英里、3,113 磅、FWD（Tesla 首款）、169hp；目標售價 <$30,000；生產已啟動。(2026-06-16)
 - [[sources/china-heavy-truck-nev-plan-2030]] — 中國重卡 NEV 2030 計畫（11 部委）：2030 年 NEV 滲透率 40%、160 萬輛重卡、3,000 個換充電站、3 萬公里走廊。(2026-06-16)
+- [[sources/mercedes-vle-van-ea-production-2026]] — Mercedes-Benz VLE 系列量產啟動（Vitoria 廠）：VAN.EA 平台 800V/300kW，首款全電動大型廂型車 L4H2/L4H3，2026 年年中出廠。(2026-06-12)
+- [[sources/scania-wibax-electric-truck-2026]] — Scania × Wibax 歐盟史上最大電動重卡單筆訂單：105 輛 P-Series BEV，瑞典化工物流，2026 下半年起交付。(2026-06-12)
 - [[sources/volvo-fh-aero-electric-specs-2026]] — Volvo FH Aero Electric 完整規格：780/725 kWh（93% 可用率業界最高）、700km、700kW MCS、6×2，2026-09 量產。(2026-06-11)
 - [[sources/rivian-r2-deliveries-2026]] — Rivian R2 正式開始交車（2026-06-10）：Launch Package $57,990，後續 ~$45K；Normal IL 量產；Uber 1 萬輛預訂 2028 起。(2026-06-10)
 - [[sources/zum-sfusd-school-bus-v2g-2026]] — Zum × SFUSD 美國最大電動校車隊（238 輛）+ V2G 3GWh/年；舊金山，2026-08 第一批上線。(2026-05-29)
@@ -122,6 +128,9 @@ Last updated: 2026-06-16 | Pages: 347 | Sources: 287
 - [[sources/europe-etruck-jun2026]] — Daimler eActros Lowliner（2027量產，500km）+ Scania 法國 Angers €7,000 萬電動卡車廠投資。(2026-06-04~05)
 
 ### 市場與政策
+- [[sources/nio-china-ev-market-warning-2026]] — 蔚來李斌：2026 年中國乘用車零售恐年減 15~20%；前 5 月已跌近兩成；5 月 NEV 滲透率 62.9%，BEV 佔比 >67%。(2026-06-17)
+- [[sources/hyundai-china-ev-benchmark-2026]] — 現代自駕中國 EV 赴韓研究：購買競品解剖比較，EV6/Ioniq 5 對標小鵬/問界，承認技術差距。(2026-06-17)
+- [[sources/india-ev-market-jun2026]] — 印度 EV 市場 6 月動態：Ola S1 Pro 佔 30%；Tata Punch EV 回升；充電基礎設施缺口仍大；2W 電動化加速。(2026-06-17)
 - [[sources/uk-zev-mandate-relaxation-2026]] — 英國 ZEV 強制令鬆綁：Starmer 擬將 2030 年目標從 80% 降至 50~70%；汽車業/工會壓力促成妥協。(2026-06-16)
 - [[sources/china-ev-market-slowdown-jun2026]] — 中國 EV 市場降溫：NIO 李斌警示 2026 年 -15~-20% YoY；1~5 月 -19.5%；Q1 利潤率 3.2%；芯片成本 5 倍；價格戰邊際效應遞減。(2026-06-16)
 - [[sources/waymo-arizona-expansion-2026]] — Waymo 以 $2.2 億收購蘋果亞利桑那 5,500 英畝測試場；車隊近 4,000 輛，目標 2026 底 100 萬次/週付費乘車；倫敦/東京為首批海外城市。(2026-06-12)
@@ -228,6 +237,9 @@ Last updated: 2026-06-16 | Pages: 347 | Sources: 287
 - [[sources/ev-news-digest-jun1-10-2026]] — 2026/6/1~6/10 電動車新聞彙整：跨越 7 大主題，18 個重要故事交叉索引，含3個本彙整獨有新故事。(2026-06-10)
 
 ### 電池技術
+- [[sources/gm-lmr-battery-2026]] — GM LMR 電池戰略：2028 年 LG Energy Solution 合作美國量產，能量密度比 LFP +33%，成本相近；LFP→LMR 策略大轉彎。(2026-06-12)
+- [[sources/lithium-carbonate-sodium-battery-2026]] — 碳酸鋰 2H26 挑戰人民幣 20 萬/噸（花旗預測）；7.5 萬噸供需缺口；中國礦區環保停產 + 辛巴威出口稅。(2026-06-17)
+- [[sources/sodium-ion-battery-vs-lfp-2026]] — 鈉電 vs LFP 技術比較：120~160 Wh/kg（較低）、低溫優、快充潛力佳，適合儲能/2W/低速車；碳酸鋰漲則替代效應加速。(2026-06-17)
 - [[sources/catl-solid-state-caution-2026]] — 寧德時代 CEO 曾毓群：固態電池 2030 年大規模商業化不現實（TRL4）；硫化物電解質；500Wh/kg 試產；成本 3~5 倍；2027 首批限量供應 >¥25 萬車款。(2026-06-16)
 - [[sources/gm-battery-diversification-2026]] — GM 電池三軌並行：Peak Energy 鈉離子 ESS（2028+）+ Redwood 二次利用（現在）+ LMR 車用電池（33% 高密度，2028 GM+LG 美國量產）。(2026-06-11~12)
 - [[sources/tesla-lfp-taiwan-2026]] — Tesla LFP 前驅體：台灣立凱電能（2027-07 起 1.2 萬→5 萬噸/年）；德州 Megafactory 40~50 GWh ESS；中國技術出口管制背景。(2026-06-12)
@@ -269,6 +281,7 @@ Last updated: 2026-06-16 | Pages: 347 | Sources: 287
 - [[sources/vw-samsung-sdi-europe-battery-2026]] — 福斯傳引進三星SDI 匈牙利廠歐製方形電池（2027），形成 PowerCo+國軒高科+三星SDI「三足鼎立」，規避 EU IAA 法規。(2026-06-10)
 
 ### 充電基礎建設
+- [[sources/rivian-chargescape-v2g-2026]] — Rivian ChargeScape（Rivian+Ford+Honda 合資）：透過家用充電排程降低尖峰電費，兼具 V2G 潛力，2026 年部分市場推出。(2026-06-16)
 - [[sources/enercity-hyundai-v2g-europe-2026]] — Enercity × VW ID. Buzz 12 輛首次 V2G 電力交易獲利（53h，145 次）；Hyundai × Vattenfall 荷蘭 80 戶 V2G 試驗（EV9/Ioniq 9，6 個月）。(2026-05-29)
 - [[sources/europe-v2g-bidirectional-2026]] — 歐洲 V2G 商業化：BMW×E.ON 已啟動；Ford/VW/Renault/Mercedes 2026 跟進；德國官僚阻礙，其他歐洲國家已先行。(2026-05-21)
 - [[sources/hanoi-1000-bss-2026]] — 河內換電站全市計畫：Q3 2026 試點 50 站，Q3 2027 擴張至 1,000 站（LGES × Honda × 河內市）。(2026-05-21)
@@ -293,6 +306,7 @@ Last updated: 2026-06-16 | Pages: 347 | Sources: 287
 - [[sources/taiwan-ev-charging-upower]] — U-POWER 大同承德站啟用：960 kW，12 席，10 分鐘補充 350 km 續航。(2026-04-10)
 
 ### 半導體供應鏈
+- [[sources/innocience-gan-infineon-patent-2026]] — 英諾賽科對英飛凌 GaN 專利訴訟終審勝訴（最高人民法院）；部分產品中國禁售 + 賠償人民幣 1,000 萬；中國 GaN 本土廠商搶佔 4 成缺口。(2026-06-17)
 - [[sources/feoc-taiwan-auto-supply-chain-2026]] — FEOC 驅動台系車鏈去中化；汽車零件關稅 26.71%→15%；V2X/IVI 封殺為台灣 ICT 機遇；2026-27 效益發酵；台灣綠能20年：製造撤退→系統韌性重建。(2026-06-01)
 - [[sources/in-cabin-ai-sensing-2026]] — Smart Eye 獲日系 OEM 追加訂單，DMS→全艙感知 AI，2027 量產；GSR 2026-07 強制 ADDW。(2026-04-30)
 - [[sources/rivian-lidar-china-partner-2026]] — Rivian CEO：考慮與中國廠商合資在美生產 LiDAR；RAP-1 晶片（台積電 5nm）2026 年上市。(2026-05-06)
