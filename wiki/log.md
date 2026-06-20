@@ -1009,3 +1009,17 @@ Pages 375 → 406，Sources 315 → 346
 
 ### Index 更新
 - Sources: 346 → 354；Pages: 415 → 423
+
+## [2026-06-20] lint | Countries 頁面全量回掃（351 sources）
+- 系統性讀取全部 351 篇 wiki/sources 頁面，萃取各國資訊回填 8 個國家頁
+- Pages updated: [[countries/中國]], [[countries/美國]], [[countries/歐洲]], [[countries/印度]], [[countries/日本]], [[countries/台灣]], [[countries/韓國]], [[countries/東南亞]]
+- 主要新增：
+  - 中國：出口紀錄(3月34.9萬+140%)、北京車展、三位一體競爭、CATL超級科技日、鈉電池、Robotaxi成本、BYD ESS第一/DiPilot、外資豪車失守、電池技術出口管制
+  - 美國：底特律三雄倒退、Tesla Q1/Semi/Model S-X停產、GM電池多元化、國會路費、VW/Nissan退縮、Slate/Lucid、Waymo/Mobileye擴張、BYD列軍工名單
+  - 歐洲：英國200萬輛/ZEV、北歐滲透率、德國補貼立法、電池產能腰斬/Morrow破產、MG西班牙廠/小鵬收購VW廠、中國品牌進歐全圖、V2G、Robotaxi(Uber×WeRide馬德里)、Tesla FSD
+  - 印度：FY2026 245萬輛+25%、品牌市占、Ather、Tesla放棄設廠、豐田/Honda/Mahindra/Tata-Stellantis-Chery、PM E-Drive充電、$10億商用激勵
+  - 日本：本田$90億虧損押注混動、三菱/馬自達EV後退、Nissan稀土減90%、Isuzu-Toyota FCV、大阪中國e-bus停用危機、K-Car戰場
+  - 台灣：Tesla市占77.5%、運具電動化落後(8.1%)、鴻海CDMS/Foxtron、FEOC去中化、華德上市
+  - 韓國：Tesla首奪進口冠軍、起亞超越現代、Honda退出、ESS成長引擎、Chaevi IPO、光州自駕實證、補貼進口限制
+  - 東南亞：泰國EV3.5/GWM Ora5/吉利Riddara/Volvo起火、馬來西亞CBU新規/BYD停工、VinFast重組、印尼豐田CATL
+- Issues：少數純技術/全球性文章（如電池壽命、被動元件、機器人電池）未對應特定國家，符合預期跳過
