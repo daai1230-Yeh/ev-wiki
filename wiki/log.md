@@ -987,3 +987,25 @@ Pages 375 → 406，Sources 315 → 346
 
 ### Entity 頁面更新
 - [[entities/比亞迪]] — 新增：大唐 SUV 正式上市規格、巴西電池組裝廠擴建
+
+## [2026-06-20] ingest | Batch 33 — 8 篇新來源頁（2026-06-16~20）
+
+### 來源頁（新建 8 頁）
+- [[sources/buhck-electric-truck-tco-2026]] — Buhck 四年電動卡車 TCO 實測：比柴油便宜 15%，€125/天，500,000+ km，550 噸 CO₂e 避排
+- [[sources/electrive-commercial-jun18-2026]] — electrive COMMERCIAL 電子報 6/18：e-bus（Zenobē £980M）、e-truck（Scania×Wibax 105台）、中國重卡NEV 2030年40%、Einride上市
+- [[sources/etauto-india-jun20-2026]] — ETAuto 印度 6/20 摘要：德里 EV Policy 2.0、Reliance 換電計畫、歐盟 PHEV 關稅、JBM Auto ₹750 裂融資
+- [[sources/google-alerts-ev-jun20-2026]] — Google Alerts 中文彙整 6/20：台達電泰國擴產、吉利遠程甲醇電動登港、鴻海科學園區布局
+- [[sources/honda-quantumscape-solid-state-2026]] — 本田 × QuantumScape 固態電池聯合研究協議（多年期）；Honda 自研目標 -50% 體積/1,000km
+- [[sources/insideevs-critical-materials-jun20-2026]] — InsideEVs Critical Materials 6/20 週報：Rivian R2 效率、BMW i3 預訂、Waymo 召回、Tesla Cybercab 極小電池
+- [[sources/london-zero-emission-buses-3000-2026]] — 倫敦 3,000 輛零排放巴士里程碑（TfL 車隊 1/3），年減 CO₂ 10 萬噸，五年再翻倍
+- [[sources/rivian-r2-efficiency-tesla-2026]] — Rivian R2 Performance EPA 330 英里、32kWh/100mi，比 Tesla Model Y 重 230kg 但效率相同
+
+### 確認重複跳過（5 篇）
+- byd-great-tang（已有 byd-great-tang-launch-2026）
+- ford-lfp（已有 ford-lfp-catl-michigan-2026）
+- gm-silicon-anode（已有 gm-silicon-anode-battery-2026）
+- kia-ev5-review（已有 kia-ev5-review-2026）
+- foxconn-emp-poland（已有 foxconn-emp-poland-2026）
+
+### Index 更新
+- Sources: 346 → 354；Pages: 415 → 423

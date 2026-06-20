@@ -4,7 +4,7 @@ sources: [2026-06-11-volvo-trucks-boosts-net-battery-capacity-record-level.md]
 updated: 2026-06-12
 ---
 
-**來源**：electrive（2026-06-11）
+**來源**：[electrive — Volvo Trucks boosts net battery capacity to record level](https://www.electrive.com/2026/06/11/volvo-trucks-boosts-net-battery-capacity-to-record-level/)（2026-06-11）
 
 # Volvo FH Aero Electric：業界最高可用電量（725 kWh / 700 km）
 

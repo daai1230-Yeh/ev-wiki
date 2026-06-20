@@ -4,7 +4,7 @@ sources: [2026-06-16-catl-tempers-solid-state-battery-expectations.md]
 updated: 2026-06-16
 ---
 
-**來源**：electrive（2026-06-15）
+**來源**：[electrive — CATL tempers near-term expectations for solid-state batteries](https://www.electrive.com/2026/06/15/catl-tempers-near-term-expectations-for-solid-state-batteries/)（2026-06-15）
 
 # 寧德時代 CEO 對固態電池潑冷水：2030 年大規模量產不可能
 

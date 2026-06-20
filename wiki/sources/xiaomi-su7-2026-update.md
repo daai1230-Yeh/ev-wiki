@@ -4,7 +4,7 @@ sources: [2026-06-16-xiaomi-su7-conquered-china-insideevs.md]
 updated: 2026-06-16
 ---
 
-**來源**：InsideEVs（2026-06-15）
+**來源**：[InsideEVs — Xiaomi SU7 Conquered China](https://insideevs.com/features/798764/xiaomi-su7-drive-wins-china/)（2026-06-15）
 
 # 小米 SU7 2026 款：91% 自動化工廠 + 全系 LIDAR，征服中國的方程式
 

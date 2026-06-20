@@ -4,7 +4,7 @@ sources: [2026-06-11-General-Motors-Is-Bringing-Sodium-Ion-Battery-Production-To
 updated: 2026-06-12
 ---
 
-**來源**：InsideEVs / electrive / Digitimes（2026-06-09~11）
+**來源**：[InsideEVs — GM Sodium-Ion Battery Production](https://insideevs.com/news/798154/general-motors-sodium-ion-battery-production/)；[electrive — GM and Redwood expand partnership](https://www.electrive.com/2026/06/10/gm-and-redwood-expand-partnership-with-second-life-battery-storage-project/)；[InsideEVs — GM LMR vs LFP](https://insideevs.com/news/798481/gm-lmr-not-lpf-batteries/)；[Digitimes — GM × Peak Energy 鈉離子電池](https://www.digitimes.com.tw/tech/dt/n/shwnws.asp?CnlID=&id=758338)（2026-06-09~12）
 
 # GM 電池多元化戰略：鈉離子 + 二次利用 + LMR（2026-06）
 

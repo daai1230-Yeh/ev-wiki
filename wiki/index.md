@@ -1,6 +1,6 @@
 # Wiki Index
 
-Last updated: 2026-06-20 | Pages: 415 | Sources: 346
+Last updated: 2026-06-20 | Pages: 423 | Sources: 354
 
 ---
 
@@ -79,6 +79,7 @@ Last updated: 2026-06-20 | Pages: 415 | Sources: 346
 - [[sources/byd-dipilot-adas-2026]] — 比亞迪天神之眼 ADAS 分析：裝車 250 萬輛，但訓練數據僅 Tesla 一半。(2026-04-09)
 - [[sources/tesla-ass-nhtsa-probe-closed]] — Tesla ASS 功能通過 NHTSA 調查結案，純視覺方案獲美國監管認可。(2026-04-07)
 - [[sources/rivian-r2-range-specs]] — Rivian R2 Performance EPA 續航 335 英里，能效優於 Tesla Model Y。(2026-04-07)
+- [[sources/rivian-r2-efficiency-tesla-2026]] — Rivian R2 Performance EPA 330 英里、32kWh/100mi，與 Tesla Model Y 相同效率但重 230kg；Rivian 電驅技術成熟里程碑。(2026-06-19)
 - [[sources/xiaomi-ev-europe-2027]] — 小米 2027 年進軍歐洲，大量從 Tesla 德國團隊挖角。(2026-04-08)
 - [[sources/chery-qq3-vs-byd-seagull]] — 奇瑞 QQ3 以人民幣 5.89 萬直接挑戰比亞迪海鷗。(2026-04-07)
 - [[sources/vw-gamechanger-production]] — VW「Gamechanger」計畫：沃爾夫斯堡廠整體改造（Megacasting + SSP 平台），目標德國本土生產平價 BEV。(2026-05-06)
@@ -139,6 +140,9 @@ Last updated: 2026-06-20 | Pages: 415 | Sources: 346
 - [[sources/ikarus-north-macedonia-2026]] — Ikarus 匈牙利電動巴士復興：北馬其頓最大訂單（150 輛 120e V4 + 75 座充電站），Ikarus 歷史最大單筆。(2026-05-06)
 - [[sources/ebus-global-jun2026]] — 全球電動巴士 6 月動態：Zenobē×Vectalia €1.2 億西班牙 BaaS、西約克郡 193 輛 Wrightbus、拉美近 10,000 輛、NY 校車延遲 5 年、Karsan FIFA 服務。(2026-06-03~09)
 - [[sources/europe-etruck-jun2026]] — Daimler eActros Lowliner（2027量產，500km）+ Scania 法國 Angers €7,000 萬電動卡車廠投資。(2026-06-04~05)
+- [[sources/buhck-electric-truck-tco-2026]] — Buhck 四年電動卡車 TCO 實測：比柴油便宜 15%，€125/天，關鍵：自有場站充電；歐盟最真實大規模艦隊數據。(2026-06-18)
+- [[sources/london-zero-emission-buses-3000-2026]] — 倫敦 3,000 輛零排放巴士里程碑（TfL 車隊 1/3）；年減 CO₂ 10 萬噸；五年內目標再翻倍。(2026-06-16)
+- [[sources/electrive-commercial-jun18-2026]] — electrive COMMERCIAL 電子報 6/18：Zenobē £980M、Scania×Wibax 105 台（歐盟最大）、中國重卡 NEV 2030 年 40%、Einride 上市。(2026-06-18)
 
 ### 市場與政策
 - [[sources/bnef-ev-forecast-2026]] — BNEF 2026 全球 EV：2,300 萬輛（+11%），27% 市占；美國 -19%，中國 +10% 放緩，2040 年 66% 市占。(2026-06-17)
@@ -251,6 +255,9 @@ Last updated: 2026-06-20 | Pages: 415 | Sources: 346
 - [[sources/australia-china-ev-milestone-2026]] — 中國EV品牌在澳洲首次超越日系車（28年主導終結）；澳洲政府公務車清單新增7款中國EV。(2026-06-08~09)
 - [[sources/byd-hungary-labour-report-2026]] — CLW 報告指控 BYD 匈牙利科馬羅姆廠：移工債務束縛、非法簽證、超時工作；CSDDD 法規即將強制期。(2026-06-05)
 - [[sources/ev-news-digest-jun1-10-2026]] — 2026/6/1~6/10 電動車新聞彙整：跨越 7 大主題，18 個重要故事交叉索引，含3個本彙整獨有新故事。(2026-06-10)
+- [[sources/etauto-india-jun20-2026]] — ETAuto 印度 6/20 摘要：德里 EV Policy 2.0、Reliance 換電計畫、BYD 大唐歐洲計畫、歐盟擬對中國 PHEV 加稅、JBM Auto ₹750 裂融資。(2026-06-20)
+- [[sources/google-alerts-ev-jun20-2026]] — Google Alerts 6/20 中文彙整：台達電泰國擴產、吉利遠程甲醇電動登港、歐盟 PHEV 關稅、加拿大限額進口、鴻海海外科學園區布局。(2026-06-20)
+- [[sources/insideevs-critical-materials-jun20-2026]] — InsideEVs Critical Materials 6/20：Rivian R2 效率、BMW i3 提前預訂、Waymo 二度召回、Tesla Cybercab 極小電池、Uber×Stellantis×Wayve MOU。(2026-06-20)
 
 ### 電池技術
 - [[sources/gm-silicon-anode-battery-2026]] — GM 矽陽極電池策略（Kurt Kelty）：Sila/Group14/Amprius 現已量產；比固態電池早 10 年可用。(2026-06-18)
@@ -263,6 +270,7 @@ Last updated: 2026-06-20 | Pages: 415 | Sources: 346
 - [[sources/lithium-carbonate-sodium-battery-2026]] — 碳酸鋰 2H26 挑戰人民幣 20 萬/噸（花旗預測）；7.5 萬噸供需缺口；中國礦區環保停產 + 辛巴威出口稅。(2026-06-17)
 - [[sources/sodium-ion-battery-vs-lfp-2026]] — 鈉電 vs LFP 技術比較：120~160 Wh/kg（較低）、低溫優、快充潛力佳，適合儲能/2W/低速車；碳酸鋰漲則替代效應加速。(2026-06-17)
 - [[sources/catl-solid-state-caution-2026]] — 寧德時代 CEO 曾毓群：固態電池 2030 年大規模商業化不現實（TRL4）；硫化物電解質；500Wh/kg 試產；成本 3~5 倍；2027 首批限量供應 >¥25 萬車款。(2026-06-16)
+- [[sources/honda-quantumscape-solid-state-2026]] — 本田 × QuantumScape 固態電池聯合研究協議（多年期）；Honda 同時自研（-50%體積/-35%重/-25%成本/1,000km目標）。(2026-06-19)
 - [[sources/gm-battery-diversification-2026]] — GM 電池三軌並行：Peak Energy 鈉離子 ESS（2028+）+ Redwood 二次利用（現在）+ LMR 車用電池（33% 高密度，2028 GM+LG 美國量產）。(2026-06-11~12)
 - [[sources/tesla-lfp-taiwan-2026]] — Tesla LFP 前驅體：台灣立凱電能（2027-07 起 1.2 萬→5 萬噸/年）；德州 Megafactory 40~50 GWh ESS；中國技術出口管制背景。(2026-06-12)
 - [[sources/eu-battery-booster-2026]] — EU Battery Booster Facility 正式啟動：€15 億免息貸款（ETS 資金），Q3 2026 徵案，≥10 GWh，目標 ACC/Verkor/PowerCo。(2026-06-11)

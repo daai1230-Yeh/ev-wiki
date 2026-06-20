@@ -132,6 +132,29 @@ def parse_entities():
     out.sort(key=lambda x: -x['source_count'])
     return out
 
+def parse_countries():
+    out = []
+    cdir = WIKI_DIR / "countries"
+    if not cdir.exists():
+        return out
+    for f in sorted(cdir.glob("*.md")):
+        text = f.read_text(encoding='utf-8')
+        fm, rest = parse_frontmatter(text)
+        title_m = re.search(r'^# (.+)$', rest, re.MULTILINE)
+        title = title_m.group(1) if title_m else f.stem
+        h2s = re.findall(r'^## (.+)', rest, re.MULTILINE)
+        out.append({
+            'file': f.stem, 'title': title,
+            'summary': first_paragraph(rest),
+            'updated': fm.get('updated', ''),
+            'source_count': len(fm.get('sources', [])),
+            'sections': len(h2s),
+            'section_titles': h2s[:6],
+            'body': rest.strip(),          # full markdown for the detail subpage
+        })
+    out.sort(key=lambda x: -x['source_count'])
+    return out
+
 def parse_source_url(body):
     """Extract the original-article URL from a source page body."""
     m = re.search(r'\*\*來源\*\*[：:]\s*\[[^\]]+\]\((https?://[^)]+)\)', body)
@@ -280,6 +303,7 @@ HTML_TEMPLATE = r'''<!DOCTYPE html>
       <a href="#overview"  class="nav-link block px-3 py-2 rounded-lg text-sm text-slate-300 hover:bg-slate-700 cursor-pointer">📊 總覽</a>
       <a href="#activity"  class="nav-link block px-3 py-2 rounded-lg text-sm text-slate-300 hover:bg-slate-700 cursor-pointer">📰 最新動態</a>
       <a href="#concepts"  class="nav-link block px-3 py-2 rounded-lg text-sm text-slate-300 hover:bg-slate-700 cursor-pointer">🗺️ 概念地圖</a>
+      <a href="#countries" class="nav-link block px-3 py-2 rounded-lg text-sm text-slate-300 hover:bg-slate-700 cursor-pointer">🌍 國家動態</a>
       <a href="#entities"  class="nav-link block px-3 py-2 rounded-lg text-sm text-slate-300 hover:bg-slate-700 cursor-pointer">🏭 車廠資料庫</a>
       <a href="#sources"   class="nav-link block px-3 py-2 rounded-lg text-sm text-slate-300 hover:bg-slate-700 cursor-pointer">📚 來源追蹤</a>
     </nav>
@@ -357,6 +381,15 @@ HTML_TEMPLATE = r'''<!DOCTYPE html>
         <div id="concepts-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4"></div>
       </section>
 
+      <!-- ── Countries ── -->
+      <section id="countries">
+        <h2 class="section-title text-lg font-semibold text-slate-200 mb-5 flex items-center gap-2">
+          <span class="text-emerald-400">◈</span> 國家動態
+          <span class="ml-2 text-xs text-slate-500 font-normal">（點擊卡片看完整內容）</span>
+        </h2>
+        <div id="countries-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4"></div>
+      </section>
+
       <!-- ── Entities ── -->
       <section id="entities">
         <h2 class="section-title text-lg font-semibold text-slate-200 mb-5 flex items-center gap-2">
@@ -427,9 +460,10 @@ const mk = (tag, cls, html='') => { const e=document.createElement(tag); e.class
 
 // ── Detail subpage engine ────────────────────────────────────────────────────
 // Lookup maps keyed by file/name so wikilinks can resolve to a detail view.
-const CMAP = {}, EMAP = {}, SMAP = D.source_pages || {};
+const CMAP = {}, EMAP = {}, NMAP = {}, SMAP = D.source_pages || {};
 D.concepts.forEach(c => CMAP[c.file] = c);
 D.entities.forEach(e => EMAP[e.file] = e);
+(D.countries || []).forEach(n => NMAP[n.file] = n);
 const TITLE_TO_ENTITY = {}; D.entities.forEach(e => TITLE_TO_ENTITY[e.title] = e.file);
 const TITLE_TO_CONCEPT = {}; D.concepts.forEach(c => TITLE_TO_CONCEPT[c.file] = c.file);
 
@@ -444,9 +478,11 @@ function resolveWikilinks(md){
     let type = '';
     if (/^sources\//i.test(target) && SMAP[key]) type = 'source';
     else if (/^entit(y|ies)\//i.test(target)) type = 'entity';
+    else if (/^countr(y|ies)\//i.test(target)) type = 'country';
     else if (/^concepts?\//i.test(target)) type = 'concept';
     else if (SMAP[key]) type = 'source';
     else if (EMAP[key] || TITLE_TO_ENTITY[key]) type = 'entity';
+    else if (NMAP[key]) type = 'country';
     else if (CMAP[key]) type = 'concept';
     const text = (label || key).trim();
     if (!type) return esc(text);
@@ -467,6 +503,10 @@ function openDetail(type, key, push=true){
   if (type === 'concept'){
     item = CMAP[key]; if (!item) return;
     kicker = '🗺️ 概念地圖'; kColor = 'text-blue-400';
+    meta = `<span class="text-xs text-slate-500">${esc(item.source_count)} 個來源 · 更新 ${esc(item.updated||'—')}</span>`;
+  } else if (type === 'country'){
+    item = NMAP[key]; if (!item) return;
+    kicker = '🌍 國家動態'; kColor = 'text-teal-400';
     meta = `<span class="text-xs text-slate-500">${esc(item.source_count)} 個來源 · 更新 ${esc(item.updated||'—')}</span>`;
   } else if (type === 'entity'){
     item = EMAP[key]; if (!item) return;
@@ -547,6 +587,7 @@ function renderStats(){
   $('top-stats').innerHTML =
     `<span class="text-emerald-400 font-semibold">${s.sources}</span> 來源 ·
      <span class="text-blue-400 font-semibold">${s.concepts}</span> 概念 ·
+     <span class="text-teal-400 font-semibold">${s.countries||0}</span> 國家 ·
      <span class="text-amber-400 font-semibold">${s.entities}</span> 車廠 ·
      最後更新 <span class="text-slate-300">${s.last_updated}</span>`;
 
@@ -726,6 +767,35 @@ function renderConcepts(){
   };
 }
 
+// ── Render: Countries Grid ───────────────────────────────────────────────────
+function renderCountries(){
+  const list = D.countries || [];
+  const grid = $('countries-grid');
+  if (!grid) return;
+  grid.innerHTML = list.map(c => {
+    const sections = c.section_titles.slice(0,4).map(s =>
+      `<span class="inline-block bg-slate-700/60 text-slate-300 text-xs rounded px-1.5 py-0.5 mr-1 mb-1">${esc(s.replace(/：.*/,'').substring(0,18))}</span>`).join('');
+    return `
+      <div class="card clickable bg-slate-800 border border-slate-700 rounded-2xl p-5 flex flex-col gap-3 fade-in"
+           data-country="${esc(c.file)}">
+        <div class="flex items-start justify-between gap-2">
+          <h3 class="text-base font-semibold text-slate-100 leading-tight">🌍 ${esc(c.title)}</h3>
+          <span class="flex-shrink-0 text-xs text-teal-400 font-mono">${c.source_count} 來源</span>
+        </div>
+        <p class="text-xs text-slate-400 leading-relaxed flex-1">${esc(c.summary)}</p>
+        ${sections ? `<div class="flex flex-wrap">${sections}</div>` : ''}
+        <div class="flex items-center justify-between mt-auto">
+          <span class="text-xs text-slate-500">${c.updated}</span>
+          <span class="text-[11px] text-teal-400/70">看完整內容 →</span>
+        </div>
+      </div>`;
+  }).join('');
+  grid.onclick = ev => {
+    const card = ev.target.closest('[data-country]');
+    if (card) openDetail('country', card.dataset.country);
+  };
+}
+
 // ── Render: Entities ────────────────────────────────────────────────────────
 function renderEntities(){
   $('entities-grid').innerHTML = D.entities.map(e => `
@@ -825,6 +895,7 @@ function setupSearch(){
   function buildIndex(){
     const idx = [];
     D.concepts.forEach(c => idx.push({type:'概念', icon:'🗺️', title:c.title, sub:c.summary, color:'text-blue-400', dt:'concept', dk:c.file}));
+    (D.countries||[]).forEach(n => idx.push({type:'國家', icon:'🌍', title:n.title, sub:n.summary, color:'text-teal-400', dt:'country', dk:n.file}));
     D.entities.forEach(e => idx.push({type:'車廠', icon:'🏭', title:e.title, sub:e.summary, color:'text-amber-400', dt:'entity', dk:e.file}));
     Object.entries(D.sections).forEach(([sec, srcs]) =>
       srcs.forEach(s => idx.push({type:'來源', icon:'📄', title:s.name, sub:s.desc, color:'text-emerald-400', sec, dt:'source', dk:s.name}))
@@ -873,7 +944,7 @@ function setupSearch(){
 
 // ── Scrollspy ────────────────────────────────────────────────────────────────
 function setupScrollspy(){
-  const sections = ['overview','activity','concepts','entities','sources'];
+  const sections = ['overview','activity','concepts','countries','entities','sources'];
   const links = document.querySelectorAll('.nav-link');
   const scroll = $('main-scroll');
   scroll.addEventListener('scroll', () => {
@@ -895,6 +966,7 @@ renderCharts();
 renderActivity();
 renderConceptFilters();
 renderConcepts();
+renderCountries();
 renderEntities();
 renderSourceTabs();
 setupSearch();
@@ -916,6 +988,7 @@ def generate():
     stats, sections = parse_index()
     log_entries      = parse_log()
     concepts         = parse_concepts()
+    countries        = parse_countries()
     entities         = parse_entities()
     source_pages     = parse_sources_full()
     charts           = build_charts(sections)
@@ -923,9 +996,11 @@ def generate():
     entity_count = len(entities)
 
     data = {
-        'stats': {**stats, 'entities': entity_count, 'concepts': len(concepts)},
+        'stats': {**stats, 'entities': entity_count, 'concepts': len(concepts),
+                  'countries': len(countries)},
         'log':          log_entries,
         'concepts':     concepts,
+        'countries':    countries,
         'entities':     entities,
         'sections':     sections,
         'source_pages': source_pages,
@@ -941,7 +1016,7 @@ def generate():
     out.write_text(html, encoding='utf-8')
 
     print(f"✅ Dashboard → {out}")
-    print(f"   📚 {stats['sources']} 來源  |  🗺️ {len(concepts)} 概念  |  🏭 {entity_count} 車廠  |  📄 {stats['pages']} 頁")
+    print(f"   📚 {stats['sources']} 來源  |  🗺️ {len(concepts)} 概念  |  🌍 {len(countries)} 國家  |  🏭 {entity_count} 車廠  |  📄 {stats['pages']} 頁")
     print()
     print("── 本機預覽 ─────────────────────────────────────────────")
     print("   cd docs && python -m http.server 8080")

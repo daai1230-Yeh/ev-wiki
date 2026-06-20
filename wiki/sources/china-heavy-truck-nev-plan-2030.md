@@ -4,7 +4,7 @@ sources: [2026-06-16-china-unveils-master-plan-for-roll-out-of-heavy-duty-electr
 updated: 2026-06-16
 ---
 
-**來源**：electrive（2026-06-15）
+**來源**：[electrive — China unveils master plan for roll-out of heavy-duty electric trucks](https://www.electrive.com/2026/06/15/china-unveils-master-plan-for-roll-out-of-heavy-duty-electric-trucks/)（2026-06-15）
 
 # 中國重型新能源貨車 2030 國家路線圖
 

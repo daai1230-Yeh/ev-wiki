@@ -4,7 +4,7 @@ source-file: 2026-06-10-電動車新聞彙整-6.1-6.10.md
 updated: 2026-06-10
 ---
 
-**來源**：內部彙整（Claude 整理自 electrive、ETAuto、Google Alerts、InsideEVs、Sustainable Bus、Digitimes 等每日摘要）
+**來源**：內部彙整（2026-06-10，整理自 electrive、ETAuto、Google Alerts、InsideEVs、Sustainable Bus、Digitimes 等每日摘要）— 本頁為跨來源綜合彙整，各子議題無單一原文 URL
 
 # 電動車新聞彙整：2026/6/1 - 6/10
 

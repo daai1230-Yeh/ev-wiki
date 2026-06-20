@@ -4,7 +4,7 @@ sources: [2026-06-16-uk-to-relax-2030-ev-target.md]
 updated: 2026-06-16
 ---
 
-**來源**：electrive（2026-06-15）
+**來源**：[electrive — UK to relax 2030 EV target](https://www.electrive.com/2026/06/15/uk-to-relax-2030-ev-target/)（2026-06-15）
 
 # 英國 ZEV 授權目標大幅下調：2030 年 80% → 50%
 

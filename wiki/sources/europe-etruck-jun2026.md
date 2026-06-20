@@ -4,7 +4,7 @@ sources: [2026-06-10-電動車新聞彙整-6.1-6.10.md]
 updated: 2026-06-10
 ---
 
-**來源**：electrive / 廠商公告（2026-06-04~06-05）
+**來源**：彙整自 electrive 及廠商公告（2026-06-04~06-05）— 內部彙整頁，無單一原文 URL
 
 # 歐洲電動卡車重大進展：Daimler eActros Lowliner + Scania 法國廠
 

@@ -4,7 +4,7 @@ sources: [2026-06-16-full-tesla-cybercab-specs-epa-documents.md]
 updated: 2026-06-16
 ---
 
-**來源**：InsideEVs（2026-06-15）
+**來源**：[InsideEVs — Full Tesla Cybercab Specs](https://insideevs.com/news/798790/tesla-cybercab-specs/)（2026-06-15）
 
 # Tesla Cybercab EPA 正式規格揭露
 

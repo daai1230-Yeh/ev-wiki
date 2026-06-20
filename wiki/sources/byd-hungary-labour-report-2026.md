@@ -4,7 +4,7 @@ sources: [2026-06-10-電動車新聞彙整-6.1-6.10.md]
 updated: 2026-06-10
 ---
 
-**來源**：中國勞工通訊（CLW）報告（2026-06-05）
+**來源**：中國勞工通訊（CLW）報告（2026-06-05）— 報告全文：[China Labour Bulletin](https://clb.org.hk/)；彙整自 Google Alerts EV digest 2026-06-05
 
 # BYD 匈牙利廠勞工爭議：CLW 報告指控
 

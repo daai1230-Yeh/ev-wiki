@@ -4,7 +4,7 @@ sources: [2026-06-16-great-han-byd-expands-its-premium-saloon-line-up.md]
 updated: 2026-06-16
 ---
 
-**來源**：electrive（2026-06-15）
+**來源**：[electrive — Great Han: BYD expands its premium saloon line-up](https://www.electrive.com/2026/06/15/great-han-byd-expands-its-premium-saloon-line-up/)（2026-06-15）
 
 # BYD 大漢（Great Han）：5.26 公尺旗艦 EV 轎車
 

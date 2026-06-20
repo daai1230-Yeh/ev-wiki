@@ -4,7 +4,7 @@ sources: [2026-06-11-Green-light-for-the-EUs-Battery-Booster.md]
 updated: 2026-06-12
 ---
 
-**來源**：electrive / 歐盟執委會（2026-06-10）
+**來源**：[electrive — Green light for the EU's Battery Booster](https://www.electrive.com/2026/06/10/green-light-for-the-eus-battery-booster/)（2026-06-10）
 
 # EU Battery Booster Facility 正式啟動
 

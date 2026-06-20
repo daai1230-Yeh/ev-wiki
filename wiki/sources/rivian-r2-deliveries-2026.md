@@ -4,7 +4,7 @@ sources: [2026-06-11-Rivian-begins-deliveries-of-its-highly-anticipated-R2.md]
 updated: 2026-06-12
 ---
 
-**來源**：electrive（2026-06-10）
+**來源**：[electrive — Rivian begins deliveries of its highly anticipated R2](https://www.electrive.com/2026/06/10/rivian-begins-deliveries-of-its-highly-anticipated-r2/)（2026-06-10）
 
 # Rivian R2 正式開始交車
 
