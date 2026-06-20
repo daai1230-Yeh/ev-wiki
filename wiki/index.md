@@ -1,12 +1,23 @@
 # Wiki Index
 
-Last updated: 2026-06-17 | Pages: 375 | Sources: 315
+Last updated: 2026-06-20 | Pages: 415 | Sources: 346
 
 ---
 
 ## Sources（來源摘要）
 
 ### 電動乘用車
+- [[sources/xiaomi-eu-import-autohelden-2026]] — 小米對 Autohelden 提告阻止歐洲平行進口（GB/T 充電問題、品牌保護，官方 2027 才進歐洲）。(2026-06-17)
+- [[sources/kia-ev5-review-2026]] — Kia EV5 試駕：81.4kWh、503km WLTP、400V/150kW，均衡全面，Sportage 同級電動替代。(2026-06-18)
+- [[sources/mercedes-cla-review-2026]] — Mercedes CLA EV：85kWh、374英里、800V/320kW，駕駛佳但 AI 助手和使用細節仍有待打磨。(2026-06-17)
+- [[sources/porsche-taycan-2027-eshift]] — Porsche Taycan 2027：E-Shift 模擬換檔（€1,000 選配），首次突破 700km WLTP。(2026-06-17)
+- [[sources/bmw-i3-neue-klasse-preorders-2026]] — BMW i3（Neue Klasse）提前開放預訂（108kWh/400kW/900km），但利潤率下修至 1~3%。(2026-06-18)
+- [[sources/bmw-china-clar-phaseout-2026]] — BMW 中國 7 月廢除 CLAR 電動車款（iX1/i3/i5）騰出產能給 Neue Klasse。(2026-06-18)
+- [[sources/byd-great-tang-launch-2026]] — BYD 大唐 SUV 上市：1,000V、130kWh 刀片、9 分鐘快充、950km CLTC，150,000 預訂。(2026-06-18)
+- [[sources/jlr-ema-hybrid-2026]] — JLR EMA 平台擴展 HEV：Land Rover 走多動力路線（HEV/PHEV/BEV），Jaguar 仍純電。(2026-06-17)
+- [[sources/vinfast-2026-deliveries]] — VinFast 2026 目標 30 萬輛（Q1 5.8 萬+61%），但關係企業下單疑似「左手倒右手」。(2026-06-18)
+- [[sources/rivian-layoffs-2026]] — Rivian R2 上市後仍再裁員數百人（<2%），軟體/服務收入 +222% 撐起獲利期望。(2026-06-17)
+- [[sources/foxconn-emp-poland-2026]] — 鴻海 × EMP 波蘭 Jaworzno 電動 SUV 廠 2029 年投產，年產能 40 萬輛，EU 復甦基金 €10.6 億。(2026-06-18)
 - [[sources/xiaomi-manufacturing-song-gang-2026]] — 小米汽車宋鋼：Tesla 真正護城河在製造能力（軟體只是賦能器）；小米 91% 自動化工廠借鑒 Tesla，SU7 已逼近特斯拉品質上限。(2026-06-17)
 - [[sources/xiaomi-su7-ultra-review-2026]] — 小米 SU7 Ultra 試駕：1,526hp，$75K 起，賽道易駕好評，中國 EV 技術里程碑。(2026-06-16)
 - [[sources/lucid-cosmos-2026]] — Lucid Cosmos 專利圖曝光：~$50,000，800V，V2G，年底沙烏地量產，Uber Robotaxi 平台。(2026-06-16)
@@ -77,6 +88,8 @@ Last updated: 2026-06-17 | Pages: 375 | Sources: 315
 ### 電動商用車與電動巴士
 - [[sources/tesla-cybercab-specs-2026]] — Tesla Cybercab EPA 認證：48kWh、293 英里、3,113 磅、FWD（Tesla 首款）、169hp；目標售價 <$30,000；生產已啟動。(2026-06-16)
 - [[sources/china-heavy-truck-nev-plan-2030]] — 中國重卡 NEV 2030 計畫（11 部委）：2030 年 NEV 滲透率 40%、160 萬輛重卡、3,000 個換充電站、3 萬公里走廊。(2026-06-16)
+- [[sources/zenobe-funding-2026]] — Zenobē £9.8 億融資（累計 £32 億）：支持 1,200 輛電動巴士，目標 2028 年前 5,000 輛英歐。(2026-06-17)
+- [[sources/renault-flexis-acquisition-2026]] — Renault 全資收購 Flexis（原三方 JV）：電動輕商車 2027 年 Sandouville 廠量產。(2026-02-23)
 - [[sources/mercedes-vle-van-ea-production-2026]] — Mercedes-Benz VLE 系列量產啟動（Vitoria 廠）：VAN.EA 平台 800V/300kW，首款全電動大型廂型車 L4H2/L4H3，2026 年年中出廠。(2026-06-12)
 - [[sources/scania-wibax-electric-truck-2026]] — Scania × Wibax 歐盟史上最大電動重卡單筆訂單：105 輛 P-Series BEV，瑞典化工物流，2026 下半年起交付。(2026-06-12)
 - [[sources/volvo-fh-aero-electric-specs-2026]] — Volvo FH Aero Electric 完整規格：780/725 kWh（93% 可用率業界最高）、700km、700kW MCS、6×2，2026-09 量產。(2026-06-11)
@@ -128,6 +141,9 @@ Last updated: 2026-06-17 | Pages: 375 | Sources: 315
 - [[sources/europe-etruck-jun2026]] — Daimler eActros Lowliner（2027量產，500km）+ Scania 法國 Angers €7,000 萬電動卡車廠投資。(2026-06-04~05)
 
 ### 市場與政策
+- [[sources/bnef-ev-forecast-2026]] — BNEF 2026 全球 EV：2,300 萬輛（+11%），27% 市占；美國 -19%，中國 +10% 放緩，2040 年 66% 市占。(2026-06-17)
+- [[sources/google-alerts-ev-jun19-2026]] — 6/19 EV 彙整：台灣巴士巴拉圭、華德動能墨西哥、泰國電池回收、印度電池 223GWh 目標。(2026-06-19)
+- [[sources/japan-india-assam-2026]] — 高市早苗 7 月訪印度阿薩姆，50+ 家日企（鈴木/豐田通商）隨行，半導體+基建合作。(2026-06-18)
 - [[sources/nio-china-ev-market-warning-2026]] — 蔚來李斌：2026 年中國乘用車零售恐年減 15~20%；前 5 月已跌近兩成；5 月 NEV 滲透率 62.9%，BEV 佔比 >67%。(2026-06-17)
 - [[sources/hyundai-china-ev-benchmark-2026]] — 現代自駕中國 EV 赴韓研究：購買競品解剖比較，EV6/Ioniq 5 對標小鵬/問界，承認技術差距。(2026-06-17)
 - [[sources/india-ev-market-jun2026]] — 印度 EV 市場 6 月動態：Ola S1 Pro 佔 30%；Tata Punch EV 回升；充電基礎設施缺口仍大；2W 電動化加速。(2026-06-17)
@@ -237,6 +253,12 @@ Last updated: 2026-06-17 | Pages: 375 | Sources: 315
 - [[sources/ev-news-digest-jun1-10-2026]] — 2026/6/1~6/10 電動車新聞彙整：跨越 7 大主題，18 個重要故事交叉索引，含3個本彙整獨有新故事。(2026-06-10)
 
 ### 電池技術
+- [[sources/gm-silicon-anode-battery-2026]] — GM 矽陽極電池策略（Kurt Kelty）：Sila/Group14/Amprius 現已量產；比固態電池早 10 年可用。(2026-06-18)
+- [[sources/ford-lfp-catl-michigan-2026]] — Ford BlueOval 密西根廠 2026 年首批 LFP 電芯（CATL 技術授權，非 JV），D-Sample 已生產。(2026-06-18)
+- [[sources/byd-brazil-battery-2026]] — BYD 巴西擴大電池組裝（不含電芯），目標 2027 年初 50% 本地化，£9.3 億投資。(2026-06-17)
+- [[sources/hyundai-ioniq3-turkey-2026]] — 現代 Ioniq 3 土耳其 İzmit 廠 2026/08 投產，首設電池組裝（€7.15 億），27,000 輛/年。(2026-06-18)
+- [[sources/robot-battery-ev-difference-2026]] — 機器人電池 vs EV 電池：伺機充電+換電（A-PRO），AI 電源管理 BrainNet 2.0。(2026-06-18)
+- [[sources/sk-on-hyundai-us-battery-2026]] — SK On 獨家供應 HMGMA（現代美國廠），現代集團佔 SKBA 產能 80%；2028 後 LGES 合資廠接棒。(2026-06-18)
 - [[sources/gm-lmr-battery-2026]] — GM LMR 電池戰略：2028 年 LG Energy Solution 合作美國量產，能量密度比 LFP +33%，成本相近；LFP→LMR 策略大轉彎。(2026-06-12)
 - [[sources/lithium-carbonate-sodium-battery-2026]] — 碳酸鋰 2H26 挑戰人民幣 20 萬/噸（花旗預測）；7.5 萬噸供需缺口；中國礦區環保停產 + 辛巴威出口稅。(2026-06-17)
 - [[sources/sodium-ion-battery-vs-lfp-2026]] — 鈉電 vs LFP 技術比較：120~160 Wh/kg（較低）、低溫優、快充潛力佳，適合儲能/2W/低速車；碳酸鋰漲則替代效應加速。(2026-06-17)
@@ -281,6 +303,10 @@ Last updated: 2026-06-17 | Pages: 375 | Sources: 315
 - [[sources/vw-samsung-sdi-europe-battery-2026]] — 福斯傳引進三星SDI 匈牙利廠歐製方形電池（2027），形成 PowerCo+國軒高科+三星SDI「三足鼎立」，規避 EU IAA 法規。(2026-06-10)
 
 ### 充電基礎建設
+- [[sources/bidi-wallbox-v2g-2026]] — ChargeLine BiDi V2G 牆充（Mobility House+EcoG+EV-Tech）：11kW 800V DC，ISO 15118-20，開放標準。(2026-06-18)
+- [[sources/electrify-america-hub-2026]] — Electrify America 聖芭芭拉 20 位 + 1.9MW BESS：最大公共儲能充電樞紐。(2026-06-18)
+- [[sources/chargy-enfield-charging-2026]] — Char.gy 倫敦恩菲爾德 1,000 個路燈充電點（5/7kW AC），ISO 15118，解決無車位居民充電難題。(2026-06-18)
+- [[sources/mahle-chargebig-2026]] — Mahle chargeBIG smallBOX Public：4 位 AC 22kW 一體式，Power2Drive 慕尼黑展出。(2026-06-18)
 - [[sources/rivian-chargescape-v2g-2026]] — Rivian ChargeScape（Rivian+Ford+Honda 合資）：透過家用充電排程降低尖峰電費，兼具 V2G 潛力，2026 年部分市場推出。(2026-06-16)
 - [[sources/enercity-hyundai-v2g-europe-2026]] — Enercity × VW ID. Buzz 12 輛首次 V2G 電力交易獲利（53h，145 次）；Hyundai × Vattenfall 荷蘭 80 戶 V2G 試驗（EV9/Ioniq 9，6 個月）。(2026-05-29)
 - [[sources/europe-v2g-bidirectional-2026]] — 歐洲 V2G 商業化：BMW×E.ON 已啟動；Ford/VW/Renault/Mercedes 2026 跟進；德國官僚阻礙，其他歐洲國家已先行。(2026-05-21)
@@ -306,6 +332,11 @@ Last updated: 2026-06-17 | Pages: 375 | Sources: 315
 - [[sources/taiwan-ev-charging-upower]] — U-POWER 大同承德站啟用：960 kW，12 席，10 分鐘補充 350 km 續航。(2026-04-10)
 
 ### 半導體供應鏈
+- [[sources/mobileye-robotaxi-2026]] — Mobileye 自建 Robotaxi 業務：2027 美國 100 輛上路，5 年內 17,000 輛，垂直整合供應商翻身運營商。(2026-06-18)
+- [[sources/uber-stellantis-wayve-2026]] — Uber+Stellantis+Wayve 三方 MOU：全球 L4 Robotaxi，Wayve 無地圖 AI，倫敦/東京 2026 底。(2026-06-17)
+- [[sources/tesla-fsd-netherlands-2026]] — 荷蘭 Tesla FSD：4 萬輛、2,400 萬公里、0 重大事故；RDW 推動全歐盟核准。(2026-06-18)
+- [[sources/amigo-l4-switzerland-2026]] — AmiGo（Baidu Apollo+PostBus）瑞士 L4 許可：80km² 東瑞士，2026-06-01 試駕，2027 商業化。(2026-06-18)
+- [[sources/tesla-fsd-doll-hack-2026]] — Tesla FSD 被娃娃頭愚弄：中國電商販售「旅行夥伴」，頭部監控持續被破解的貓鼠遊戲。(2026-06-17)
 - [[sources/innocience-gan-infineon-patent-2026]] — 英諾賽科對英飛凌 GaN 專利訴訟終審勝訴（最高人民法院）；部分產品中國禁售 + 賠償人民幣 1,000 萬；中國 GaN 本土廠商搶佔 4 成缺口。(2026-06-17)
 - [[sources/feoc-taiwan-auto-supply-chain-2026]] — FEOC 驅動台系車鏈去中化；汽車零件關稅 26.71%→15%；V2X/IVI 封殺為台灣 ICT 機遇；2026-27 效益發酵；台灣綠能20年：製造撤退→系統韌性重建。(2026-06-01)
 - [[sources/in-cabin-ai-sensing-2026]] — Smart Eye 獲日系 OEM 追加訂單，DMS→全艙感知 AI，2027 量產；GSR 2026-07 強制 ADDW。(2026-04-30)
@@ -393,6 +424,19 @@ Last updated: 2026-06-17 | Pages: 375 | Sources: 315
 - [[concepts/基礎設施與供應鏈/充電基礎建設]] — 歐洲 V2G 商業化（BMW×E.ON）；Tesla Basecharger 125kW；Rocsys M1 機器人充電；Moto UK £5 億擴建；河內 1,000 BSS。
 - [[concepts/基礎設施與供應鏈/儲能市場]] — Q1 2026 全球 195.5 GWh（+78%）；LGES +253%；家用 ESS +209%；AI 資料中心+能源危機雙引擎。
 - [[concepts/基礎設施與供應鏈/車用半導體供應鏈]] — 中國廠商引入歐洲技術（英飛凌SONOS），布局車用供應鏈。
+
+---
+
+## Countries（國家/地區）
+
+- [[countries/中國]] — 全球最大 EV 市場，2026 年決賽期：NEV >60%、利潤率歷史新低、出口成核心增長。
+- [[countries/美國]] — 本土電池製造加速（Ford BlueOval/GM）、Robotaxi 快速擴張、充電設施大型化。
+- [[countries/歐洲]] — 德國補貼提振 Q1 +32.5%，電池本土製造持續受挫，中國品牌借殼工廠加速。
+- [[countries/印度]] — EV 起步期，三大障礙（價格/充電/習慣），日本 + 本土廠商搶攻電池 R&D 布局。
+- [[countries/日本]] — 2030 自駕車市占目標 25%，固態電池（豐田/日產）領先，HEV 仍為國內市場主流。
+- [[countries/台灣]] — 車用半導體/充電設備/LFP 前驅體供應鏈關鍵角色，智駕特殊場景差異化策略。
+- [[countries/韓國]] — 三大電池廠（LGES/三星SDI/SK On）主導全球高端電池，現代/起亞 EV 旗艦量產。
+- [[countries/東南亞]] — 中國 EV 出口橋頭堡，越南 VinFast 本土品牌崛起，機車換電基礎建設快速擴張。
 
 ---
 

@@ -163,10 +163,42 @@ BYD 最新旗艦轎車：
 - 預計 2026 年底中國上市
 - 參見：[[sources/byd-great-han-2026]] | [[entities/比亞迪]]
 
+## BYD 大唐 SUV：1,000V 高壓旗艦，15 萬筆預訂（2026-06）
+
+BYD 王朝系列旗艦 SUV 正式上市：
+
+| 項目 | 數值 |
+|------|------|
+| 電池 | 105.7 / 130.1 kWh（二代刀片 LFP）|
+| 電壓 | **1,000V** 高壓架構 |
+| 快充 | **9 分鐘 10→97%**（閃充）|
+| 續航 | 800~950 km CLTC |
+| 四驅最大功率 | **585 kW** |
+| 售價 | 人民幣 239,900~309,900 |
+| 預訂量 | 北京車展後至今 **15 萬筆** |
+
+- 王朝系列整體攻勢：大唐（SUV）＋大漢（轎車，>1,000 km LFP）
+- 1,000V 架構：繼比亞迪仰望之後再次下沉至大眾旗艦
+- 參見：[[sources/byd-great-tang-launch-2026]] | [[entities/比亞迪]]
+
+## BMW 中國深度衰退：CLAR 平台退場，Neue Klasse 接棒（2026-06）
+
+| 指標 | 數值 |
+|------|------|
+| 2026 年 1~5 月 BMW 中國銷量 | **-17.6% YoY** |
+| BMW 汽車利潤率下修 | 4~6% → **1~3%** |
+
+- CLAR 平台廢除：iX1、i3（中國版）、i5 → 2026-07 瀋陽廠停產，騰產能給 Neue Klasse
+- Neue Klasse 接棒：iX3 長軸版 + i3 長軸版（中國專屬）
+- 語音互動：中國版採 DeepSeek 合作夥伴（非 Amazon Alexa）
+- BMW i3（Neue Klasse）提前開放預訂：市場反應意外強勁（北京車展後中國需求強）
+- 參見：[[sources/bmw-china-clar-phaseout-2026]] | [[sources/bmw-i3-neue-klasse-preorders-2026]]
+
 ## Related
 - [[entities/比亞迪]]
 - [[entities/奇瑞]]
 - [[entities/小米汽車]]
+- [[entities/BMW]]
 - [[concepts/中國EV出海策略]]
 - [[concepts/平價電動車市場]]
 - [[sources/china-ev-market-consolidation]]
@@ -177,3 +209,6 @@ BYD 最新旗艦轎車：
 - [[sources/beijing-auto-show-2026]]
 - [[sources/china-nev-april-involution-2026]]
 - [[sources/china-nev-april-2026]]
+- [[sources/byd-great-tang-launch-2026]]
+- [[sources/bmw-china-clar-phaseout-2026]]
+- [[sources/bmw-i3-neue-klasse-preorders-2026]]

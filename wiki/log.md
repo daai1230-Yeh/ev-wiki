@@ -886,3 +886,104 @@ To get last 5 entries: `grep "^## \[" wiki/log.md | tail -5`
 3. **GaN 半導體博弈**：英諾賽科勝訴英飛凌為中國在核心半導體領域轉守為攻的重要里程碑
 
 - index.md 更新：Pages 361→375，Sources 301→315
+
+---
+
+## [2026-06-20] ingest | Batch 32 — 31 篇新文章（2026-06-18 至 2026-06-19）
+
+### 新來源頁（31，排除 2 個重複檔案）
+**電動乘用車（11）：**
+- [[sources/bnef-ev-forecast-2026]] — BNEF 2026 全球 EV 23M 輛 +11%，美國 -19%
+- [[sources/mercedes-cla-review-2026]] — Mercedes CLA EV 首試駕：85kWh/374英里/800V/320kW
+- [[sources/kia-ev5-review-2026]] — Kia EV5 81.4kWh/503km/400V/150kW，均衡全面
+- [[sources/porsche-taycan-2027-eshift]] — Porsche Taycan E-Shift 模擬換檔（€1,000 選配）
+- [[sources/bmw-i3-neue-klasse-preorders-2026]] — BMW i3 Neue Klasse 提前開放預訂（108kWh/400kW），利潤率下修至 1~3%
+- [[sources/bmw-china-clar-phaseout-2026]] — BMW 中國 7 月廢除 CLAR 電動款，騰產能給 Neue Klasse
+- [[sources/byd-great-tang-launch-2026]] — BYD 大唐 SUV：1,000V/130kWh/9分鐘快充/950km CLTC，15 萬預訂
+- [[sources/jlr-ema-hybrid-2026]] — JLR EMA 平台納入 HEV，Land Rover 多動力
+- [[sources/vinfast-2026-deliveries]] — VinFast 2026 目標 30 萬輛，關係企業單疑左手倒右手
+- [[sources/rivian-layoffs-2026]] — Rivian 再裁員（<2%），軟體服務收入 +222% 撐起
+- [[sources/foxconn-emp-poland-2026]] — 鴻海 EMP 波蘭電動 SUV 廠 2029 年，40 萬輛/年
+- [[sources/xiaomi-eu-import-autohelden-2026]] — 小米提告 Autohelden 阻歐洲平行進口，官方 2027 才進歐
+
+**Robotaxi/自駕（5）：**
+- [[sources/mobileye-robotaxi-2026]] — Mobileye 2027 美國 100 輛上路，5 年 17,000 輛計劃
+- [[sources/uber-stellantis-wayve-2026]] — Uber+Stellantis+Wayve L4 全球 Robotaxi MOU
+- [[sources/tesla-fsd-netherlands-2026]] — 荷蘭 Tesla FSD 4 萬輛 0 重大事故，推動全 EU 核准
+- [[sources/amigo-l4-switzerland-2026]] — AmiGo（Baidu+PostBus）瑞士 L4 許可，2027 商業化
+- [[sources/tesla-fsd-doll-hack-2026]] — Tesla FSD 被娃娃頭騙過，監控貓鼠遊戲持續
+
+**電池技術（7）：**
+- [[sources/gm-silicon-anode-battery-2026]] — GM 矽陽極電池策略，Sila/Group14 現已量產
+- [[sources/ford-lfp-catl-michigan-2026]] — Ford BlueOval 密西根 LFP 電芯（CATL 技術授權）
+- [[sources/byd-brazil-battery-2026]] — BYD 巴西電池組裝擴張，2027 年 50% 本地化
+- [[sources/hyundai-ioniq3-turkey-2026]] — 現代 Ioniq 3 土耳其廠 2026/08 投產，電池組裝
+- [[sources/robot-battery-ev-difference-2026]] — 機器人電池 vs EV 電池設計差異，A-PRO 換電
+- [[sources/sk-on-hyundai-us-battery-2026]] — SK On 獨家供應 HMGMA，2028 後 LGES 接棒
+- [[sources/zenobe-funding-2026]] — Zenobē £9.8 億融資，1,200 輛電動巴士
+- [[sources/renault-flexis-acquisition-2026]] — Renault 全資收購 Flexis 電動輕商車 JV
+
+**充電基礎建設（4）：**
+- [[sources/bidi-wallbox-v2g-2026]] — ChargeLine BiDi V2G 牆充（開放標準 ISO 15118-20）
+- [[sources/electrify-america-hub-2026]] — Electrify America 聖芭芭拉 20 位 + 1.9MW BESS
+- [[sources/chargy-enfield-charging-2026]] — Char.gy 倫敦 1,000 個路燈充電點
+- [[sources/mahle-chargebig-2026]] — Mahle chargeBIG smallBOX Public 4 位 AC 22kW
+
+**市場/分析（3）：**
+- [[sources/bnef-ev-forecast-2026]]（已列上方）
+- [[sources/japan-india-assam-2026]] — 高市早苗 7 月訪印阿薩姆，50+ 日企搶攻
+- [[sources/google-alerts-ev-jun19-2026]] — 6/19 日報彙整（泰國/台灣/印度/中國）
+
+**跳過（重複）：**
+- `2026-06-18-bmw-ix5-141kwh-battery-range-king.md` → 已有 bmw-ix5-neue-klasse-2027
+- `2026-06-18-xiaomi-su7-ultra-test-drive-review.md` → 已有 xiaomi-su7-ultra-review-2026
+
+### index.md 更新
+Pages 375 → 406，Sources 315 → 346
+
+### 未更新（等待使用者確認）
+以下 concept/entity 頁面有新資訊：
+- [[concepts/電池技術路線]] — GM 矽陽極、Ford LFP 量產、Hyundai 土耳其、BYD 巴西、SK On
+- [[concepts/Robotaxi自動計程車]] — Mobileye 自建、Uber+Stellantis+Wayve、AmiGo 瑞士、Tesla FSD 荷蘭
+- [[concepts/充電基礎建設]] — BiDi V2G、Electrify America BESS、Char.gy 路燈充電
+- [[concepts/歐洲EV市場]] — Kia EV5、Mercedes CLA、BMW i3/CLAR 退場、JLR EMA HEV
+- [[concepts/中國EV市場競爭格局]] — BYD 大唐 1,000V、BMW 中國 -17.6%、Xiaomi 平行進口阻止
+- [[entities/BMW]] — CLAR 退場、i3 提前預訂、利潤率下修
+- [[entities/比亞迪]] — 大唐 SUV + 巴西電池
+- [[entities/Rivian]] — 再裁員 + R2 上市
+- [[entities/鴻海科技]] — 波蘭 EMP 40 萬輛工廠
+- [[entities/小米汽車]] — 歐洲平行進口阻止
+- [[concepts/VinFast]] → [[entities/VinFast]] — 2026 30 萬輛目標與關係企業疑慮
+
+### 本批次關鍵主題
+1. **自駕加速商業化**：Mobileye 從技術供應商變運營商、Wayve 倫敦/東京、荷蘭 Tesla FSD 0 事故——自駕市場格局快速演化
+2. **BMW Neue Klasse 全面推進**：iX3、i3 提前開放預訂，CLAR 電動車款中國退場，財務雖然收縮但產品攻勢最強
+3. **矽陽極電池現實化**：GM 押注 Silicon Anode（Sila/Group14 已量產），同時推 LMR——固態電池時代前的過渡方案
+4. **充電 V2G 走向標準化**：BiDi Wallbox 採 ISO 15118-20 開放標準，Electrify America 大型 BESS 充電站，基礎設施逐漸成熟
+
+## [2026-06-20] meta | 新增 Countries 分類 + Batch 31&32 Concept/Entity 更新
+
+### 架構變更
+- **新增 `wiki/countries/` 目錄**：國家/地區分類，層級同 concepts（依使用者要求）
+- **更新 CLAUDE.md**：加入 countries/ 到目錄結構、Steps 5a（每次 ingest 更新國家頁）、log format 加 Countries updated、Index Format 加 Countries 節
+- **更新 wiki/index.md**：新增 Countries 節（8 個地區），Pages 406 → 415
+
+### 新建 Countries 頁面（8 個）
+- [[countries/中國]] — 決賽期市場概況、政策、BYD/BMW/蔚來/小鵬動態
+- [[countries/美國]] — 本土電池製造（Ford/GM）、Robotaxi（Waymo/Tesla）、充電設施
+- [[countries/歐洲]] — Q1+32.5%、電池困境、V2G 商業化、BMW i3/Kia EV5/JLR EMA
+- [[countries/印度]] — 三大障礙、Tata Agratas、JSW、日本企業攻勢
+- [[countries/日本]] — 2030 自駕目標、固態電池（豐田/日產）、印度外交佈局
+- [[countries/台灣]] — 充電生態、GaN/LFP 前驅體供應鏈、台灣智駕特殊場景
+- [[countries/韓國]] — 三大電池廠（LGES/三星SDI/SK On）、現代/起亞 EV
+- [[countries/東南亞]] — VinFast、河內換電站、泰國中國品牌、新加坡自駕
+
+### Concept 頁面更新（Batch 31 + 32 累積）
+- [[concepts/電池技術路線]] — 新增：GM 矽陽極（Sila/Group14 量產中）、Ford BlueOval LFP（CATL 授權，35 GWh，2026 底）
+- [[concepts/Robotaxi自動計程車]] — 新增：Mobileye 垂直整合（2027 美國 100 輛起）、Uber×Stellantis×Wayve MOU、Tesla FSD 荷蘭 40,000 輛、AmiGo L4 瑞士配送
+- [[concepts/充電基礎建設]] — 新增：BiDi Wallbox V2G（ISO 15118-20 開放標準）、Electrify America 1.9MW BESS 樞紐、Rivian ChargeScape V2G、Mahle chargeBIG smallBOX、Char.gy 倫敦路燈充電
+- [[concepts/歐洲EV市場]] — 新增：Kia EV5 評測（81.4kWh，503km，€51,990）、JLR EMA 擴展 HEV、BMW i3 Neue Klasse 提前預訂
+- [[concepts/中國EV市場競爭格局]] — 新增：BYD 大唐 1,000V 旗艦（15 萬預訂）、BMW 中國 -17.6%（CLAR 退場）
+
+### Entity 頁面更新
+- [[entities/比亞迪]] — 新增：大唐 SUV 正式上市規格、巴西電池組裝廠擴建

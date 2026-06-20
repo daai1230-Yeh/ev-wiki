@@ -28,6 +28,7 @@ This file is the schema for this LLM Wiki. It tells Claude how to maintain this 
     ├── index.md       ← Master content catalog (always keep updated).
     ├── log.md         ← Append-only chronological record.
     ├── overview.md    ← High-level synthesis of the whole knowledge base.
+    ├── countries/     ← 國家/地區分類頁面（政策、市場、產業）
     └── ...            ← Entity, concept, and topic pages.
 ```
 
@@ -70,21 +71,42 @@ Content...
 
 When the user says "ingest [source]" or drops a file into `raw/`:
 
+#### Step 0 — 確保原文存在（必做）
+每一篇 `wiki/sources/` 頁必須對應至少一個 `raw/assets/` 原文檔。
+- 若原文已在 `raw/assets/`：直接進行步驟 1。
+- 若**尚未抓取**：先使用 **news-clipper skill**（`/news-clipper`）將原文剪輯並存入 `raw/assets/`，再繼續。
+  - electrive.com、sustainable-bus.com：公開，可直接抓取。
+  - digitimes.com.tw：需使用者已登入 Chrome。
+  - 其他來源：嘗試直接抓取；失敗則在 frontmatter 記錄 `clipped: pending`。
+
+#### Steps 1–8（正式流程）
+
 1. Read the source document fully.
 2. Discuss key takeaways with the user — ask what to emphasize.
 3. Create `wiki/sources/[source-name].md` — a structured summary page.
+   - **必填**：frontmatter 的 `sources:` 欄位必須填入對應的 `raw/assets/` 檔名。
+   - 格式：`sources: [filename.md]`（可多個，逗號分隔）
 4. Identify 5–15 existing wiki pages that need updating based on new info.
 5. Update those pages: revise claims, add cross-references, note contradictions.
+   5a. **國家頁面**：同步更新 `wiki/countries/` 下對應的國家/地區頁面（政策、市場、產業動態）。
 6. If a key entity or concept has no page, create one.
 7. Update `wiki/index.md` — add the new source summary and any new pages.
 8. Append to `wiki/log.md`:
    ```
    ## [YYYY-MM-DD] ingest | [Source Title]
    - Summary page: [[sources/source-name]]
+   - Raw asset: raw/assets/[filename.md]
    - Pages updated: [[Page1]], [[Page2]], ...
+   - Countries updated: [[countries/X]], [[countries/Y]], ...
    - New pages created: [[NewPage1]], ...
    - Key additions: brief note on what changed
    ```
+
+#### Dashboard 更新（每次 ingest 後）
+```bash
+python3 generate_dashboard.py
+git add docs/index.html wiki/ && git commit -m "update: $(date +%Y-%m-%d)" && git push
+```
 
 ### QUERY — Answering questions
 
@@ -141,6 +163,9 @@ Last updated: YYYY-MM-DD | Pages: N | Sources: N
 
 ## Entities
 - [[entity-name]] — One-line summary.
+
+## Countries
+- [[countries/國家名]] — One-line summary.
 
 ## Syntheses & Comparisons
 - [[synthesis-name]] — One-line summary.

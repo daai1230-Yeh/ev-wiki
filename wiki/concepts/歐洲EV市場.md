@@ -572,7 +572,51 @@ AMG.EA 平台首款車，技術指標打破西方車廠記錄：
 - 每國獨立核准（無 EU 統一批准），仍屬臨時授權
 - 參見：[[sources/tesla-fsd-eu-expansion-2026]]
 
+## Kia EV5：均衡派代表，Sportage 同級電動版（2026-06）
+
+| 規格 | 數值 |
+|------|------|
+| 電池 | **81.4 kWh** |
+| 續航（WLTP，FWD GT-Line）| **503 km** |
+| 充電架構 | **400V**（非 800V，不同於 EV6/EV9）|
+| 最高 DC 功率 | **150 kW**，10-80% 30 分鐘 |
+| 起售價 | **€51,990**（GT-Line）|
+
+- 被 electrive.com 評為「最令人印象深刻的 EV 之一」（非最快，但最全面）
+- 高速噪音低、後排空間寬裕、能量回收設定次次保留
+- 填補 Kia 電動 SUV 中間空缺（EV3/EV2 入門 ↔ EV6/EV9 旗艦）
+- 參見：[[sources/kia-ev5-review-2026]]
+
+## JLR EMA 平台擴展支援 HEV：Land Rover 走多動力路線（2026-06）
+
+| 品牌 | 策略 |
+|------|------|
+| **Jaguar** | 仍維持純電品牌（Type 01 電動 GT 確認）|
+| **Land Rover** | MHEV / HEV / PHEV / BEV 全覆蓋（無純 ICE）|
+
+- EMA 平台原設計純 BEV 800V，現擴展支援 Full HEV
+- 即將上市：Range Rover Electric（MLA）、Range Rover Sport Electric（MLA）、首款 EMA BEV Range Rover（含 HEV 版）
+- 戰略意義：JLR 承認單一 BEV 不足以覆蓋全球市場，與 BMW、Mercedes 「彈性平台」趨勢一致
+- 參見：[[sources/jlr-ema-hybrid-2026]]
+
+## BMW i3（Neue Klasse）提前開放預訂（2026-06）
+
+| 規格 | 數值 |
+|------|------|
+| 電池 | **108 kWh** |
+| 最大續航 | **900 km**（待確認）|
+| DC 快充 | **400 kW**（21 分鐘 10-80%）|
+| 投產 | 慕尼黑主廠 **2026 年 8 月** |
+
+- 提前至 2026-06-18 開放（原計畫秋季），北京車展後中國需求意外強勁
+- 財務矛盾：同步下修汽車業務利潤率至 1~3%（原 4~6%）
+- 參見：[[sources/bmw-i3-neue-klasse-preorders-2026]]
+
 ## Related
 - [[sources/gwm-ora03-uk-exit]]
 - [[sources/netherlands-ev-scrappage-2026]]
 - [[sources/porsche-cayenne-coupe-electric]]
+- [[sources/kia-ev5-review-2026]]
+- [[sources/jlr-ema-hybrid-2026]]
+- [[sources/bmw-i3-neue-klasse-preorders-2026]]
+- [[sources/bmw-china-clar-phaseout-2026]]

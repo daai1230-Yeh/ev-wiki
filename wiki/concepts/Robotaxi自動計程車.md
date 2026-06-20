@@ -230,6 +230,50 @@ EPA 申報文件揭露完整規格：
 - 超輕量化（媲美 Honda Civic）換來極低成本，Robotaxi 運營最優化設計
 - 參見：[[sources/tesla-cybercab-specs-2026]]
 
+## Mobileye 垂直整合：從技術供應商自建 Robotaxi 業務（2026-06）
+
+Mobileye 宣布成立垂直整合 Robotaxi 部門，從技術供應商轉型為直接營運者：
+
+| 階段 | 內容 |
+|------|------|
+| 2027 年 | 美國某主要城市上線，初始 **100 輛** |
+| 5 年內 | 擴展至 **17,000 輛** |
+
+- 技術架構：Mobileye Drive（自駕系統）+ Moovit（子公司，城市移動數據，3,500+ 城市 11.2 億用戶）
+- 不自製車輛：與外部製造商和車隊整合夥伴合作
+- **邊界難題**：Mobileye 同時為 VW ID.Buzz AD、Holon、Verne 等客戶提供技術，自建業務引發利益衝突疑慮
+- 2026 年 Lyft 達拉斯已採用 Mobileye 技術
+- 參見：[[sources/mobileye-robotaxi-2026]]
+
+## Uber × Stellantis × Wayve：三方 MOU 全球 Robotaxi（2026-06）
+
+| 公司 | 角色 |
+|------|------|
+| Stellantis | 提供車輛（L4 相容平台 + 感測器套件）|
+| **Wayve** | 自動駕駛軟體（**無地圖 AI**，6 攝影機 + 1 雷達）|
+| Uber | 整合至全球叫車網路 |
+
+- 目標：在「歐洲、北美及以外」城市部署無人 Robotaxi
+- Wayve 無地圖（Mapless）AI：透過觀察人類駕駛學習行為（倫敦街頭累積自 2018 年）
+- 協議性質：非約束性 MOU（意向書），落地時程未確定
+- 更廣背景：Uber 同步與 Lucid、Rivian、VW、Nissan、Zoox、WeRide 合作，已成業界最大 Robotaxi 平台整合商
+- 參見：[[sources/uber-stellantis-wayve-2026]]
+
+## Tesla FSD 荷蘭：40,000 輛監督模式（2026-06）
+
+- 荷蘭 RDW 核准 Tesla FSD（Supervised，SAE Level 2）：荷蘭 **40,000 輛** Tesla 啟用
+- 非完全自駕（駕駛仍須監看），但為歐洲最大單一國家 FSD 部署
+- 分階段向歐洲各國推進（立陶宛首批 → 比利時 → 荷蘭等）
+- 參見：[[sources/tesla-fsd-netherlands-2026]]
+
+## AmiGo：瑞士 L4 無人配送車（2026-06）
+
+- PostBus（瑞士）計劃在瑞士引入 **AmiGo 自動配送車**（L4，無司機）
+- 應用：末端物流配送，低速（< 25 km/h），城市道路
+- 目標：2026 年開始試點，後續商業化
+- 代表趨勢：L4 自駕從「大型 Robotaxi」向「小型配送」拓展新場景
+- 參見：[[sources/amigo-l4-switzerland-2026]]
+
 ## Related
 - [[concepts/ADAS智駕系統]]
 - [[concepts/自動駕駛安全監管]]
@@ -248,3 +292,7 @@ EPA 申報文件揭露完整規格：
 - [[sources/uber-ev-infrastructure-investment]]
 - [[sources/rocsys-m1-robotic-charging]]
 - [[entities/台灣智駕]]
+- [[sources/mobileye-robotaxi-2026]]
+- [[sources/uber-stellantis-wayve-2026]]
+- [[sources/tesla-fsd-netherlands-2026]]
+- [[sources/amigo-l4-switzerland-2026]]
