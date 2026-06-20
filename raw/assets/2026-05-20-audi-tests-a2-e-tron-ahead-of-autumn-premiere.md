@@ -5,30 +5,32 @@ date: 2026-05-20
 source: https://www.electrive.com/2026/05/20/audi-tests-a2-e-tron-ahead-of-autumn-premiere/
 tags:
   - electrive
-  - EV
-  - automotive
   - Audi
-  - newsletter-clipping
-clipped: 2026-05-21
+  - A2-e-tron
+  - MEB
+  - BEV
+  - automobile
+clipped: 2026-06-17
 ---
 
 # Audi tests A2 E-Tron ahead of autumn premiere
 
-**Author**: Daniel Bönnighausen | **Date**: 2026-05-20
+**By** Daniel Bönnighausen | **Date:** 20.05.2026
 
 ---
 
-Audi confirmed the A2 e-tron as the brand's new entry-level electric model in March and has just unveiled a camouflaged prototype. Before its official premiere in autumn 2026, the compact electric vehicle is undergoing various testing phases — including trials in the Nordics, in the wind tunnel, and on public roads.
+Audi confirmed the A2 e-tron as the brand's new entry-level electric model in March and the Ingolstadt-based company has just unveiled a camouflaged prototype. Before its official premiere in autumn 2026, the compact electric vehicle is undergoing various testing phases—including trials in the Nordics, in the wind tunnel, and on public roads.
 
-The A2 E-Tron marks the expansion of Audi's electric portfolio into the compact segment. Audi describes it as a fully electric entry into the premium compact class, designed to make 'premium electric mobility' more accessible. The model will be produced at Audi's home plant in Ingolstadt.
+The A2 E-Tron marks the expansion of Audi's electric portfolio into the compact segment. The German carmaker describes it as a fully electric entry into the premium compact class, designed to make 'premium electric mobility' more accessible. Audi officially confirmed the model during its annual press conference in March, also announcing that the new series would be produced at its home plant in Ingolstadt.
 
-Testing phases include:
-- **Cold-weather trials in Lapland**: evaluation on snow-covered roads, icy handling courses, and a frozen lake, focusing on thermal management, battery performance, drivetrain-brake-chassis interaction.
-- **Wind tunnel tests**: aerodynamics at up to 300 km/h wind speeds, focusing on the A2 e-tron's distinctive roofline.
-- **Public road testing** in Germany's Altmühltal region: inclines, varying surfaces, and tight corners for chassis and ADAS evaluation.
+Ahead of its premiere, the camouflaged A2 E-Tron is undergoing extensive testing. These tests include cold-weather trials in Lapland, where Audi is evaluating the prototype on snow-covered roads, icy handling courses, and even a frozen lake. According to the manufacturer, the focus is not only on driving dynamics but also on thermal management and battery performance. The interaction between the electric drivetrain, brake control system, and chassis is also being fine-tuned.
 
-Audi has not yet revealed drivetrain details, though the MEB platform is widely expected given the SSP platform isn't ready and PPE is reserved for larger models. The autumn 2026 world premiere will provide full details.
+Meanwhile, the car's aerodynamics are being tested and optimised in Audi's Technical Development wind tunnel in Germany. The roofline of the A2 E-Tron is a particular focus. With wind speeds of up to 300 km/h, high-precision aeroacoustic measurements, and a 235 km/h rolling road, the wind tunnel provides ideal conditions for improving the vehicle's airflow, noise levels, and thermal stability.
+
+Audi is testing the vehicle on routes around the German Altmühltal region, which features inclines, varying road surfaces, and tight corners. Here, the focus is primarily on evaluating the chassis and driver assistance systems under everyday conditions.
+
+Beyond the tests and the confirmation that the A2 E-Tron will be fully electric, Audi has not yet revealed further details about the drivetrain. However, with its world premiere scheduled for this autumn, it is unlikely that the new electric Audi will be based on any platform other than the MEB electric toolkit. The SSP platform is not yet ready, and the PPE (on which the Q6 E-Tron is being built in Ingolstadt) is designed for larger premium models. As such, the facelift of the Cupra Born and the VW ID.3 Neo could provide a strong indication of what the Audi A2 E-Tron will offer.
 
 ---
 
-*Source: [electrive.com](https://www.electrive.com/2026/05/20/audi-tests-a2-e-tron-ahead-of-autumn-premiere/)*
+*來源：[electrive.com](https://www.electrive.com/2026/05/20/audi-tests-a2-e-tron-ahead-of-autumn-premiere/)*
