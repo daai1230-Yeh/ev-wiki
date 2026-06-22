@@ -79,15 +79,49 @@ def parse_filename(fname: str):
     return date_str, base_key, attach_idx, clean_title
 
 
+# ─── 政府公文固定樣板清理 ────────────────────────────────
+def clean_gov_boilerplate(text: str) -> str:
+    """
+    移除政府公文 PDF 中的固定無關內容：
+    1. 裝訂線（｜ 豎排符號 + 裝/訂/線 單字）
+    2. 檔　　號：/ 保存年限：
+    3. 頁碼、form-feed 字元
+    4. 連續空行收斂為最多兩行
+    """
+    lines = text.splitlines()
+    cleaned = []
+    for line in lines:
+        stripped = line.strip()
+
+        # 跳過：只含 ｜ 或 | 或 . 的裝訂線行
+        if re.fullmatch(r'[｜|\.\s]+', stripped):
+            continue
+        # 跳過：單獨一個「裝」「訂」「線」字
+        if stripped in ('裝', '訂', '線', '裝 ', ' 裝', ' 訂', ' 線'):
+            continue
+        # 跳過：檔　　號 / 保存年限（允許全形空格、冒號變體）
+        if re.match(r'^檔[\s　]*號[：:]', stripped):
+            continue
+        if re.match(r'^保存年限[：:]', stripped):
+            continue
+        # 跳過：form-feed 字元獨行
+        if stripped in ('\x0c', ''):
+            cleaned.append('')
+            continue
+
+        cleaned.append(line)
+
+    # 合併多個連續空行為最多一個空行
+    result = re.sub(r'\n{3,}', '\n\n', '\n'.join(cleaned))
+    return result.strip()
+
+
 # ─── 文字擷取 ─────────────────────────────────────────────
 def extract_pdf(path: Path) -> str:
     try:
         from pdfminer.high_level import extract_text
         text = extract_text(str(path))
-        # 去掉裝訂線（豎排｜字元）
-        text = re.sub(r'[｜|]{2,}', '', text)
-        text = re.sub(r'\n{3,}', '\n\n', text)
-        return text.strip()
+        return clean_gov_boilerplate(text)
     except Exception as e:
         return f"[PDF 擷取失敗：{e}]"
 
