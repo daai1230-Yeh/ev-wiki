@@ -1120,3 +1120,17 @@ Pages 375 → 406，Sources 315 → 346
   - [[countries/日本]]：CHAdeMO 式微、Honda×Toyota 電池採購、日產×鴻海合作、無線充電進展
   - [[countries/韓國]]：CATL 黑名單脈絡、川普關稅影響
   - [[entities/鴻海科技]]：日產橫須賀/追濱廠合作（與 ZF 買家合併更新）
+
+## [2026-06-22] ingest | 駐外新聞 2025 剩餘批次（土耳其/歐盟/西歐/東南亞/北美非美）
+- Summary pages: [[sources/駐外新聞-土耳其-2025]], [[sources/駐外新聞-歐盟比利時-2025]], [[sources/駐外新聞-西歐市場-2025]], [[sources/駐外新聞-東南亞-2025]], [[sources/駐外新聞-北美非美-2025]]
+- Raw assets: 土耳其(17)+歐盟/比利時(16)+法/西/英/義/荷/丹(32)+越/星/印尼/泰/菲(21)+墨/加(11)，合計 97 篇
+- Coverage: 2025 全年
+- Key themes:
+  - 土耳其：BYD Manisa 廠 $10 億（2026 底）、奇瑞 Samsun 廠停滯（中國政府介入）、現代 Izmit BEV 2026-08、SWM 設廠、土耳其出口導向策略
+  - 歐盟/比利時：EU Automotive Package 2025-12-16（2035 後 90% 尾管+10% 補償/PHEV 存活/小型 EV 超積分/Banking&Borrowing）、CO2 三年平均彈性、中國 EV 平衡稅期中檢討
+  - 西歐：CATL 西班牙 Aragón 廠（€41 億/50 GWh/Stellantis/2028/1847 中國技工）、英國 DRIVE35 £25 億、Nexperia 晶片禁令（600 顆/輛依賴）、丹麥 65% EV 市占
+  - 東南亞：新加坡 660 輛電動巴士採購、自駕委員會、台資首超日資投資泰國
+  - 北美非美：墨西哥中國車廠 30% 市占（USMCA 漏洞脈絡）、台加氫能合作
+- Pages updated: [[countries/歐洲]], [[entities/比亞迪]], [[entities/寧德時代]], [[concepts/車用半導體供應鏈]], [[countries/東南亞]], [[countries/美國]]
+- Countries updated: [[countries/歐洲]], [[countries/東南亞]], [[countries/美國]]
+- New pages created: 5 個批量摘要頁面
