@@ -17,102 +17,6 @@ clipped: 2026-06-22
 
 ## 主文
 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-裝 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-訂 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-線 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-
-檔　　號:
-保存年限:
-
 駐美國代表處經濟組 函
 
 地址：4301, Connecticut Ave., Suite 
@@ -165,100 +69,7 @@ Howard Lutnick將與歐盟官員會面，討論美歐關稅協定後
 
 第 1 頁，共 3 頁
 
-55
-
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-裝 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-訂 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-線 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
+55
 
 (二)雖然，歐盟執委會已於8月提出相關立法，但後續進展遲
 
@@ -313,99 +124,6 @@ Lange主席表示，提出此要求之緣由，在因應美國商務部
 (六)此外，美國要求歐盟簽署具法律拘束力之協定，並對歐
 
 第 2 頁，共 3 頁
-
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-裝 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-訂 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-線 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
 
 48
 
@@ -523,8 +241,7 @@ l
 
 l
 
- 
-Howard Lutnick, who is expected to travel to Brussels next week for meetings, according to Bloomberg
+Howard Lutnick, who is expected to travel to Brussels next week for meetings, according to Bloomberg
 (https://www.bloomberg.com/news/articles/2025-11-17/eu-to-warn-lutnick-against-expanding-scope-of-
 
 us-steel-tariffs).
@@ -609,7 +326,7 @@ bloc’s 27 member states, will raise the issue with US Commerce Secretary
 
 Howard Lutnick when they meet in Brussels Nov. 24, according to people
 
-familiar with the matter. EU ambassadors prepared for the intervention last
+familiar with the matter. EU ambassadors prepared for the intervention last
 
 week.
 
@@ -645,7 +362,7 @@ technical levels,” he said in an email.
 
 EU Is the Biggest Source of US Imports
 
-Partner
+Partner
 
 US imports value
 
@@ -740,7 +457,7 @@ flooding their markets.
 Sefcovic will also meet with US Trade Representative Jamieson Greer Nov.
 23, another person said, ahead of his talks with Lutnick the following day.
 
-For its part, Washington has been demanding a legally binding agreement
+For its part, Washington has been demanding a legally binding agreement
 
 similar to those it negotiated with others, said the people. The US sent
 

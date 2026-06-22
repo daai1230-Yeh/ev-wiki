@@ -17,103 +17,7 @@ clipped: 2026-06-22
 
 ## 主文
 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-裝 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-訂 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-線 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-
 駐歐盟兼駐比利時代表處經濟組 函
-
-檔　　號:
-保存年限:
 
 地址：Square de Meeus 27, 1000 
 Brussels
@@ -164,99 +68,6 @@ Product Passport,DPP)以及二手車與車輛零組件之循環經
 (一)H幕僚首先強調歐盟執委會本次任期首次將「循環經濟」
 
 第 1 頁，共 3 頁
-
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-裝 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-訂 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-線 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
 
 73
 
@@ -313,99 +124,6 @@ Compass)之三大支柱「創新、脫碳及安全」之關聯：
 購物者產品之永續程度如何)，使消費者更容易與快速
 
 第 2 頁，共 3 頁
-
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-裝 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-訂 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-線 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
 
 68
 
@@ -501,7 +219,7 @@ https://es.gov.mailcloud.tw/cgi-bin/msg_read?cmd=print_mail&m=61289174&mbox=@&ms
 
 1/5
 
-2025/2/3 下午6:05
+2025/2/3 下午6:05
 
 In-Person Roundtable with eBay: Apply to Discuss Europe’s Circular Economy at 'From Waste to Worth'
 
@@ -554,7 +272,7 @@ https://es.gov.mailcloud.tw/cgi-bin/msg_read?cmd=print_mail&m=61289174&mbox=@&ms
 
 2/5
 
-2025/2/3 下午6:05
+2025/2/3 下午6:05
 
 In-Person Roundtable with eBay: Apply to Discuss Europe’s Circular Economy at 'From Waste to Worth'
 
@@ -604,7 +322,7 @@ https://es.gov.mailcloud.tw/cgi-bin/msg_read?cmd=print_mail&m=61289174&mbox=@&ms
 
 3/5
 
-2025/2/3 下午6:05
+2025/2/3 下午6:05
 
 In-Person Roundtable with eBay: Apply to Discuss Europe’s Circular Economy at 'From Waste to Worth'
 

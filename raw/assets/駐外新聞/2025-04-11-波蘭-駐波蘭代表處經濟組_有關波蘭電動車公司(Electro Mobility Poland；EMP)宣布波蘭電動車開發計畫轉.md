@@ -17,102 +17,6 @@ clipped: 2026-06-22
 
 ## 主文
 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-裝 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-訂 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-線 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-
-檔　　號:
-保存年限:
-
 駐波蘭代表處經濟組 函
 
 地址：00113Emilii Plater 53, Warsaw, 
@@ -164,99 +68,6 @@ Email：investpol@mofa.gov.tw
 8
 
 第 1 頁，共 3 頁
-
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-裝 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-訂 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-線 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
 
 65
 
@@ -314,102 +125,9 @@ Email：investpol@mofa.gov.tw
 
 第 2 頁，共 3 頁
 
-副本：經濟部國際貿易署
+副本：經濟部國際貿易署
 
 13
-
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-裝 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-訂 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-線 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
 
 第 3 頁，共 3 頁
 
@@ -477,14 +195,7 @@ located in Poland. New ventures such as an innovation center, a local supply cha
 research and development units are to be created around the investment, creating a 
 production and development hub. 
 
- 
- 
- 
- 
- 
- 
- 
-–  The  holistic  approach  makes  the  project  an  effective  tool  of  industrial  policy  – 
+–  The  holistic  approach  makes  the  project  an  effective  tool  of  industrial  policy  – 
 
 conducted  by  the  state  and  constitutes  a  proactive  response  to  dynamic  market 
 
@@ -591,16 +302,7 @@ in a break in the project continuity and the need to update almost all assumptio
 
 1 
 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-In a text by EMP CEO Tomasz Kędzierski published on the EMP website, he assessed 
+In a text by EMP CEO Tomasz Kędzierski published on the EMP website, he assessed 
 
 that the Izera project was implemented at a pace corresponding to industry standards 
 
@@ -666,15 +368,7 @@ The Minister then indicated that in order to remain a reliable partner for the C
 
 2 
 
- 
- 
- 
- 
- 
- 
- 
- 
-side, a legal solution had been prepared enabling the transfer of loan funds from the 
+side, a legal solution had been prepared enabling the transfer of loan funds from the 
 
 KPO to the cluster project, which would increase the EMP capital. 
 

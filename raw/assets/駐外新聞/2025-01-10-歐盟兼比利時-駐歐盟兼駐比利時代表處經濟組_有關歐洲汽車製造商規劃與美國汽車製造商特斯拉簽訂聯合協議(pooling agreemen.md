@@ -17,103 +17,7 @@ clipped: 2026-06-22
 
 ## 主文
 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-裝 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-訂 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-線 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-
 駐歐盟兼駐比利時代表處經濟組 函
-
-檔　　號:
-保存年限:
 
 地址：Square de Meeus 27, 1000 
 Brussels
@@ -164,99 +68,6 @@ commercial vehicles,N1)需減排15%；2030年起新乘
 第 1 頁，共 3 頁
 
 4
-
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-裝 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-訂 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-線 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
 
 94
 
@@ -313,99 +124,6 @@ Benz)亦宣布與Volvo、Polester及Smart等車廠亦組成聯
 車產業脫碳。
 
 第 2 頁，共 3 頁
-
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-裝 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-訂 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-線 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
 
 47
 
@@ -494,7 +212,7 @@ about:blank
 
 5/16
 
-10-01-2025, 09:10
+10-01-2025, 09:10
 
 Print
 
@@ -620,7 +338,7 @@ IP/24/6542
 
 Quote(s):
 
-"The automotive industry is a European pride and is crucial for Europe’s prosperity. It drives innovation, supports millions of jobs,
+"The automotive industry is a European pride and is crucial for Europe’s prosperity. It drives innovation, supports millions of jobs,
 and is the largest private investor in research and development. Each sector has unique needs, and it is our responsibility to tailor
 solutions that are both clean and competitive. We need to support this industry in the deep and disruptive transition ahead. And
 we must ensure that the future of cars remains firmly rooted in Europe. This is why I have called for a Strategic Dialogue on the

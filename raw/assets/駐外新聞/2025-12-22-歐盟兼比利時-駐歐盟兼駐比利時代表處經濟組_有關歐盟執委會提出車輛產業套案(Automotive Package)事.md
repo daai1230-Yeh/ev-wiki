@@ -80,8 +80,7 @@ savings thanks to all omnibuses and simplification initiatives the Commission ha
 around €14.3bn per year. The Omnibus also delivers on the Small Affordable Cars initiative by
 proposing a simple technical definition of “small electric vehicle”.
 
- 
-How will this automotive package drive economic growth and jobs?
+How will this automotive package drive economic growth and jobs?
 
 The transition to zero-emission vehicles is expected to generate significant long-term cost
 savings, supporting economic growth. It will also strengthen the competitiveness of the
@@ -145,8 +144,7 @@ In the years up to 2035, the proposal recognises the structural near-term challe
 of electric vans and adjusts the 2030 CO2 target from 50% to 40% emission reduction. Flexibility
 is also provided to car manufacturers on the counting of small affordable electric cars made in
 
- 
-the EU for CO2 target compliance. By granting them “super credits”, instead of counting as 1 those
+the EU for CO2 target compliance. By granting them “super credits”, instead of counting as 1 those
 will be counted as 1.3, it will incentivise the production of such small EVs made in the EU.
 
 In the period 2030-2032, multiannual compliance or  “banking and borrowing” flexibility is
@@ -206,10 +204,7 @@ corporate car and van registrations by large companies in their territory is zer
 emission from 2030 onwards. It aims to support the uptake of zero- and low-emission vehicles in
 corporate vehicles and drive the transition towards clean mobility. By providing market certainty and
 
- 
- 
- 
-stimulating demand, the proposal will help European automotive manufacturers to strengthen their
+stimulating demand, the proposal will help European automotive manufacturers to strengthen their
 global competitiveness, while reducing emissions and fossil fuel dependence in the road transport
 sector.
 
@@ -271,10 +266,7 @@ sector?
 
 In her political guidelines for the European Commission's 2024–2029, President von der Leyen
 
- 
- 
- 
-outlined a vision focused on sustainable prosperity and strengthening competitiveness across Europe,
+outlined a vision focused on sustainable prosperity and strengthening competitiveness across Europe,
 emphasising the need to make doing business faster and easier.
 
 In this context, the Automotive Omnibus package is expected to bring significant relief to businesses,
@@ -336,10 +328,7 @@ Factsheet - Taking action for a clean and competitive European automotive sector
 
 Factsheet – Revision of the CO2 standards and Corportate vehicles Proposal
 
- 
- 
- 
-Press contacts:
+Press contacts:
 
 Anna-Kaisa ITKONEN (+32 2 29 57501)
 Ana CRESPO PARRONDO (+32 2 29 81325)
@@ -414,7 +403,7 @@ heavy-duty vehicles with a flexibility easing the compliance with the 2030 targe
 
 Regarding corporate vehicles, mandatory targets are set at the Member State level to support
 
-the zero- and low-emission vehicle uptake by large companies. Having more zero- and low-emission
+the zero- and low-emission vehicle uptake by large companies. Having more zero- and low-emission
 vehicles on the market, both first- and second-hand markets – will benefit all customers. As
 companies' cars cover higher yearly mileages, it also means more emission reductions. It will also
 make zero- or low- emissions and “Made in the EU” a pre-requisite for vehicles benefitting from public
@@ -476,11 +465,7 @@ Clean Industrial Deal
 
 Net-Zero Industry Act
 
- 
- 
- 
- 
-Quote(s):
+Quote(s):
 
 IP/25/3051
 

@@ -17,102 +17,6 @@ clipped: 2026-06-22
 
 ## 主文
 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-裝 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-訂 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-線 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-
-檔　　號:
-保存年限:
-
 駐印度代表處經濟組 函
 
 地址：34 Paschimi Marg, New Delhi, 
@@ -164,99 +68,6 @@ Maruti Suzuki 的4個創新計畫選拔後，將有資格參與加速
 來附加價值。印度新創企業具備巨大潛力，其係創新及經
 
 第 1 頁，共 2 頁
-
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-裝 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-訂 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-線 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
 
 93
 
@@ -311,9 +122,7 @@ partners.
 Startups chosen through Maruti Suzuki’s four innovation programs:1) Accelerator, 2) Incubation, 
 3) Mobility Challenge and 4) Nurture, will be eligible to participate in these events.  
 
- 
- 
-Information Classification- Restricted 
+Information Classification- Restricted 
 
 Startups from Japan can explore the Indian startup ecosystem by participating through JETRO. 
 

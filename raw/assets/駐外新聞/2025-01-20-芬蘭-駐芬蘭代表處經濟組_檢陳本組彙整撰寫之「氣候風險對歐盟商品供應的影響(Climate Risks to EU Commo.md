@@ -17,102 +17,6 @@ clipped: 2026-06-22
 
 ## 主文
 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-裝 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-訂 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-線 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-
-檔　　號:
-保存年限:
-
 駐芬蘭代表處經濟組 函
 
 地址：Aleksanterinkatu 17, 4th 
@@ -161,7 +65,7 @@ Protecting people and prosperity
 
 pwc.com/climaterisks
 
-2  PwC Climate risks to EU commodity supplies
+2  PwC Climate risks to EU commodity supplies
 
 Table of Contents
 
@@ -191,7 +95,7 @@ Acknowledgements
 
 48
 
-3  PwC Climate risks to EU commodity supplies
+3  PwC Climate risks to EU commodity supplies
 
 Introduction
 
@@ -214,7 +118,7 @@ economy:
 
 systems, and a successful transition to a low carbon economy.
 
-4  PwC Climate risks to EU commodity supplies
+4  PwC Climate risks to EU commodity supplies
 
    Three vital metals: iron, aluminium, and zinc that are widely used in manufacturing, transport, 
 
@@ -295,7 +199,7 @@ Source for labour productivity impact: Rockefeller Foundation Resilience Center,
 
 WBGT = Wet Bulb Globe Temperature, a measure of heat and humidity
 
-5  PwC Climate risks to EU commodity supplies
+5  PwC Climate risks to EU commodity supplies
 
 Our analysis reveals the proportion of EU commodity supplies that will be exposed to significant, high, or 
 extreme levels of heat stress and drought risk at their point of origin on mines and farms. 
@@ -339,7 +243,7 @@ all nine commodities face significant climate risks from heat stress or drought 
 For example, at least half of wheat, maize, lithium, and cobalt supplies in the EU face significant drought 
 risk by 2050 in a low emissions scenario.
 
-6  PwC Climate risks to EU commodity supplies
+6  PwC Climate risks to EU commodity supplies
 
 EU Commodities at risk
 Low emissions scenario, Year 2050
@@ -453,7 +357,7 @@ Business leaders and policymakers may need to employ different strategies to man
 critical minerals and vital metals (which are often imported) vs food crops (which are often produced 
 domestically).  
 
-7  PwC Climate risks to EU commodity supplies
+7  PwC Climate risks to EU commodity supplies
 
 Now is the time for commodity producers and consumers to prepare for growing disruption risk.  
 We offer three steps to help adapt to a changing climate. First, enhance resilience by identifying and 
@@ -479,7 +383,7 @@ supply that could be exposed to significant, high, or extreme levels of heat str
 quantify the potential disruption, such as how much the EU supply could fall. It is possible - and advisable - 
 that commodity producers take action to protect their operations from climate disruption. 
 
-8  PwC Climate risks to EU commodity supplies
+8  PwC Climate risks to EU commodity supplies
 
 Chapter 1:  
 Climate risks to EU 
@@ -503,7 +407,7 @@ to commodity consumers.
 Below, we examine risk exposures to each commodity group (critical minerals, vital metals, food crops) in 
 turn and the sources from which these risks arise. 
 
-9  PwC Climate risks to EU commodity supplies
+9  PwC Climate risks to EU commodity supplies
 
 Climate risks to EU critical minerals
 
@@ -696,19 +600,7 @@ n Significant risk  n High risk  n Extreme risk  n Significant risk  n High risk
 
 Source: Protecting People and Prosperity
 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-10  PwC Climate risks to EU commodity supplies
+10  PwC Climate risks to EU commodity supplies
 
 The EU’s lithium, cobalt, and copper supplies face steeply rising drought risks. Even in a low emissions 
 scenario, over 30% of copper, 60% of cobalt, and 70% of lithium supplies may face significant drought 
@@ -724,7 +616,7 @@ middlemen and to be combined with raw materials from multiple sources. As a resu
 of processed commodities may be harder to trace than those of raw, unprocessed commodities. Therefore, 
 we say that processed commodities may have a higher level of hard-to-trace or ‘hidden’ climate risk.9  
 
-11  PwC Climate risks to EU commodity supplies
+11  PwC Climate risks to EU commodity supplies
 
 The charts below show the % of EU supply that comes from various sources that face significant or higher 
 climate risks.
@@ -827,7 +719,7 @@ the sources of that at-risk supply. Each % means the % of the total EU copper su
 a certain at-risk source. For example, at the top of the tallest bar, we can see that 6% of the total EU 
 copper supply is exposed to climate risk via its origins in Peru.
 
-12  PwC Climate risks to EU commodity supplies
+12  PwC Climate risks to EU commodity supplies
 
 Sources of the EU’s at-risk Cobalt
 
@@ -878,7 +770,7 @@ Source: Protecting People and Prosperity
 
 CHN = China, COD = Democratic Republic of Congo, MAR = Morocco, USA = United States of America
 
-13  PwC Climate risks to EU commodity supplies
+13  PwC Climate risks to EU commodity supplies
 
 Sources of the EU’s at-risk Lithium
 
@@ -937,7 +829,7 @@ Most of the EU’s at-risk lithium arrives in the EU in processed form so may ha
 Consumers of EU lithium would be well-advised to know the countries where their lithium originates and the 
 climate risks to these locations. 
 
-14  PwC Climate risks to EU commodity supplies
+14  PwC Climate risks to EU commodity supplies
 
 Case study: Two ways to manage risk to EU lithium imports
 
@@ -960,7 +852,7 @@ expand recycling efficiency and material recovery for batteries starting in 2025
 and material recovery of lithium could help to decrease the reliance of the EU on lithium imports and add 
 flexibility to the lithium supply chain.
 
-15  PwC Climate risks to EU commodity supplies
+15  PwC Climate risks to EU commodity supplies
 
 Climate risks to EU vital metals
 
@@ -1156,19 +1048,7 @@ n Significant risk  n High risk  n Extreme risk  n Significant risk  n High risk
 
 Source: Protecting People and Prosperity
 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-16  PwC Climate risks to EU commodity supplies
+16  PwC Climate risks to EU commodity supplies
 
 EU supplies of all three vital metals face increasing disruption risks from climate change. Most notably, 
 drought risks are rising to all three metals while bauxite also faces rising heat stress risk.
@@ -1249,7 +1129,7 @@ Source: Protecting People and Prosperity
 
 SAU = Saudi Arabia, ESP = Spain, CHN = China, BRA = Brazil, TUR = Turkey, IND = India, AUS = Australia
 
-17  PwC Climate risks to EU commodity supplies
+17  PwC Climate risks to EU commodity supplies
 
 Sources of the EU’s at-risk Iron
 
@@ -1328,7 +1208,7 @@ Source: Protecting People and Prosperity
 
 MRT = Mauritania, BRA = Brazil, UKR = Ukraine, TUR = Turkey, LBR = Liberia, IND = India
 
-18  PwC Climate risks to EU commodity supplies
+18  PwC Climate risks to EU commodity supplies
 
 Sources of the EU’s at-risk Zinc
 
@@ -1397,7 +1277,7 @@ Source: Protecting People and Prosperity
 
 NAM = Namibia, PER = Peru, SAU = Saudi Arabia, PRT = Portugal, BOL = Bolivia, MEX = Mexico, BFA = Burkina Faso, TUR = Turkey, AUS = Australia
 
-19  PwC Climate risks to EU commodity supplies
+19  PwC Climate risks to EU commodity supplies
 
 Climate risks to EU food crops 
 
@@ -1585,19 +1465,7 @@ The vast majority of EU crops at risk from drought come from the EU’s own farm
 EU has more scope to implement measures to help these farms adapt to a drier future. On the other hand, 
 most EU rice at risk from heat stress is imported from Myanmar, Pakistan, Thailand, and other countries.
 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-20  PwC Climate risks to EU commodity supplies
+20  PwC Climate risks to EU commodity supplies
 
 The charts below show the % of EU supply that comes from various sources that face significant or higher 
 climate risks
@@ -1653,7 +1521,7 @@ Source: Protecting People and Prosperity
 
 SRB = Serbia, UKR = Ukraine, BRA = Brazil
 
-21  PwC Climate risks to EU commodity supplies
+21  PwC Climate risks to EU commodity supplies
 
 Sources of the EU’s at-risk Wheat
 
@@ -1693,7 +1561,7 @@ Source: Protecting People and Prosperity
 
 RUS = Russia, CAN = Canada
 
-22  PwC Climate risks to EU commodity supplies
+22  PwC Climate risks to EU commodity supplies
 
 Sources of the EU’s at-risk Rice
 
@@ -1765,7 +1633,7 @@ analysis underlines the need for producers and consumers of EU commodities to ma
 continuing to strive to reduce emissions. The next chapter of this report outlines some steps that can be 
 taken to manage climate risks to commodity supplies.
 
-23  PwC Climate risks to EU commodity supplies
+23  PwC Climate risks to EU commodity supplies
 
 Chapter 2:  
 Next steps for 
@@ -1788,7 +1656,7 @@ adapting to physical climate impacts. We trust this will make the chapter more u
 variety of sectors that would like to manage the full spectrum of ways that physical climate change impacts 
 may affect their business.
 
-24  PwC Climate risks to EU commodity supplies
+24  PwC Climate risks to EU commodity supplies
 
 Three pillars to adapt to a changing climate
 
@@ -1873,7 +1741,7 @@ Climate change can have knock-on effects far beyond its direct physical impacts.
 actions to safeguard supplies can have consequences for global prices and availability. In 2023, for 
 example, the Indian government banned exports of non-basmati white rice, partly due to fears of domestic 
 
-25  PwC Climate risks to EU commodity supplies
+25  PwC Climate risks to EU commodity supplies
 
 rice shortages caused by the disruption from El Nino, the weather event that causes sea temperatures 
 to rise. This has caused global rice prices to rise sharply as available supplies are reduced.30 Companies 
@@ -1901,7 +1769,7 @@ sustainable consumption across all stages of production. Other businesses are co
 to infrastructure; for example, building elevated storage facilities in areas prone to flooding or investing in 
 structures to provide shade. 
 
-26  PwC Climate risks to EU commodity supplies
+26  PwC Climate risks to EU commodity supplies
 
 Case study: Chilean mines are combating water scarcity with desalination plants -  
 and now Direct Lithium Extraction (DLE)
@@ -1923,7 +1791,7 @@ extraction of lithium ions directly from lithium-rich solutions. This method, wh
 into Chile’s national lithium strategy, bypasses the need for evaporation ponds, allowing for faster 
 extraction rates, reduced water consumption, and minimized environmental impact.32
 
-27  PwC Climate risks to EU commodity supplies
+27  PwC Climate risks to EU commodity supplies
 
 In farming, adaptation strategies include, for example, introducing drought-resistant crop varieties, 
 alternative cropping patterns, biologicals (crop protection products derived from living organisms), and 
@@ -1942,7 +1810,7 @@ this can cause. The government of India is incentivising the use of these drones
 of purchasing them, while startups are offering training programmes for farmers interested in learning 
 about their application.33 
 
-28  PwC Climate risks to EU commodity supplies
+28  PwC Climate risks to EU commodity supplies
 
 With a clear picture of their climate risks, commodity producers can build a plan to manage them, as for 
 example Mosaic did:
@@ -1967,7 +1835,7 @@ Mosaic’s future plans and mitigation efforts to give increased focus to the an
 The exercise helped Mosaic refine its estimates of the potential impacts that certain physical risks could 
 have on its global operations. It will also enable it to make more informed decisions in the future. 
 
-29  PwC Climate risks to EU commodity supplies
+29  PwC Climate risks to EU commodity supplies
 
 How commodity consumers are enhancing resilience
 
@@ -1989,7 +1857,7 @@ furniture company Ikea tracks materials such as wood and cotton to monitor clima
 deforestation, water usage and carbon emissions35. Consumer goods firm Procter & Gamble maps the 
 supply chains of commodities including palm oil and paper pulp to monitor climate risks.36
 
-30  PwC Climate risks to EU commodity supplies
+30  PwC Climate risks to EU commodity supplies
 
 Innovative technology software can help with analysing and managing supply chain risks as this example 
 shows:
@@ -2021,7 +1889,7 @@ PwC’s solution enables companies to comply with supply chain regulations in a 
 traceable way which could in turn help companies to identify and mitigate climate risks to their supply 
 chain.37  
 
-31  PwC Climate risks to EU commodity supplies
+31  PwC Climate risks to EU commodity supplies
 
 Many commodity consumers have used the Taskforce on Climate-related Financial Disclosures (TCFD) 
 framework which is designed to help organisations analyse their climate-related risks and opportunities. 
@@ -2051,7 +1919,7 @@ scenarios. These findings were used to highlight the climate risks for each regi
 Through this analysis we identified several different climate hazards that could affect and damage the 
 crops, especially drought caused by rising temperatures and water scarcity.
 
-32  PwC Climate risks to EU commodity supplies
+32  PwC Climate risks to EU commodity supplies
 
 Uncovering climate risks throughout the value chain can help to create urgency to adapt while providing the 
 granular information needed to take the right protective actions, as PwC learned when we took the time to 
@@ -2072,7 +1940,7 @@ that climate change’s effects will happen only in the distant future, elsewher
 businesses. We made public highlights of our climate risks, in part to encourage other companies to 
 examine theirs.
 
-33  PwC Climate risks to EU commodity supplies
+33  PwC Climate risks to EU commodity supplies
 
 Some forward-looking businesses are managing climate risks by adapting their sourcing and operational 
 strategies, diversifying their supplier bases, and developing contingency plans to safeguard their supply 
@@ -2103,7 +1971,7 @@ processes, including risk management and executive compensation. It is implement
 measures identified under the strategy across all geographies and markets where the company 
 operates. Learn more.
 
-34  PwC Climate risks to EU commodity supplies
+34  PwC Climate risks to EU commodity supplies
 
 Tesla, a major consumer of lithium and cobalt, uses a range of adaptation strategies including collaborating 
 with other battery makers:
@@ -2126,7 +1994,7 @@ business including site-specific reviews of its gigafactories and other manufact
 results from these analyses, Tesla is looking at ways to protect its manufacturing activities against 
 medium-term and long-term climate impacts. Learn more
 
-35  PwC Climate risks to EU commodity supplies
+35  PwC Climate risks to EU commodity supplies
 
 PwC helped a global consumer packaged goods company to quantify the value of commodities at risk and 
 model the impacts of climate change on future prices of key commodities:
@@ -2159,7 +2027,7 @@ PwC also developed a model using historical country-level yield data and project
 juice prices due to a potential spread in Citrus Greening disease under different climate scenarios to 
 represent the financial impact of the disease on the future orange juice prices.
 
-36  PwC Climate risks to EU commodity supplies
+36  PwC Climate risks to EU commodity supplies
 
 Recycling can help to protect commodity users from climate risks to mines by reducing dependence on 
 newly mined commodities. For instance, recycling one tonneof steel in the US conserves 1.1 tonnes of iron 
@@ -2182,7 +2050,7 @@ engaging in industry initiatives such as the Responsible Minerals Initiative (RM
 for Accelerating the Circular Economy (PACE), a global collaboration platform for public and private 
 decisions makers to share best practises towards a circular economy.39 
 
-37  PwC Climate risks to EU commodity supplies
+37  PwC Climate risks to EU commodity supplies
 
 Recycling is a key element in the development of self-sustaining circularity as this example shows:
 
@@ -2213,7 +2081,7 @@ next few years. If all of the planned recycling facilities come online, the US w
 process all of the expected end-of-life batteries from EVs until 2044. Many of these recycling facilities are 
 being built next to battery manufacturers which helps to create a coherent manufacturing ecosystem.41  
 
-38  PwC Climate risks to EU commodity supplies
+38  PwC Climate risks to EU commodity supplies
 
 Pillar 2: Capitalise on Opportunities
 
@@ -2241,7 +2109,7 @@ Conservation International to use data analytics, climate models and field surve
 changes caused by climate, as well as provide support for sustainable agricultural practices to preserve 
 and enhance biodiversity.42 
 
-39  PwC Climate risks to EU commodity supplies
+39  PwC Climate risks to EU commodity supplies
 
 Some commodity producers are partnering with others in their industry to develop methods of protecting 
 operations from climate perils like extreme heat:
@@ -2269,7 +2137,7 @@ The project has created an action plan for mine and refinery owners and communit
 them to easily identify and assess climate-related impacts on workers, and then put in place adaptations 
 to minimise these impacts. 
 
-40  PwC Climate risks to EU commodity supplies
+40  PwC Climate risks to EU commodity supplies
 
 A great example of what can be achieved by identifying opportunities to mitigate the impact of climate risk 
 is this innovative solution from PwC’s Middle East team:
@@ -2294,7 +2162,7 @@ that will reduce the impact of the flooding in the event of a real-life emergenc
 out targeted emergency evacuations to safeguard communities.43 Tools like this can help to increase 
 commodity producers’ ability to manage climate risks.
 
-41  PwC Climate risks to EU commodity supplies
+41  PwC Climate risks to EU commodity supplies
 
 Pillar 3: Shape collaborative outcomes
 
@@ -2334,7 +2202,7 @@ and protect watersheds. By supporting farmers in this way, PepsiCo aims to help 
 helping farmers address the challenges of climate change and prepare for agricultural challenges of the 
 future. Learn more.
 
-42  PwC Climate risks to EU commodity supplies
+42  PwC Climate risks to EU commodity supplies
 
 Businesses may be able to find ways to work closely with their suppliers over the long term to manage 
 climate risks and ensure consistent supplies, as brewer Molson Coors has done: 
@@ -2361,7 +2229,7 @@ patterns, drought and poor soil. The result is a win-win, with the program provi
 farmers, many of them family-owned operations who have worked with Molson Coors for decades, and 
 consistently high quality barley for the business.
 
-43  PwC Climate risks to EU commodity supplies
+43  PwC Climate risks to EU commodity supplies
 
 Businesses may choose to work together with their suppliers to introduce regenerative farming practices 
 which protect and support the land, as Unilever is doing:
@@ -2403,7 +2271,7 @@ drought, genetic modification can protect yields achieved by farmers in adverse 
 which are likely to increase with climate change, maintaining profitability and reducing the risk of food 
 shortages.46
 
-44  PwC Climate risks to EU commodity supplies
+44  PwC Climate risks to EU commodity supplies
 
 Some companies are seeking innovative ways to find partners with specialist expertise that can support 
 their suppliers. This example suggests one way in which this can be done:
@@ -2426,7 +2294,7 @@ sourcing locations around the world. As part of its efforts to support its farme
 sharing expertise on regenerative agriculture, encompassing practices that restore soil health, reverse 
 biodiversity loss and strengthen ecosystems.47 
 
-45  PwC Climate risks to EU commodity supplies
+45  PwC Climate risks to EU commodity supplies
 
 Partnerships can also span countries and nations to deliver added impact, as the examples below show:
 
@@ -2458,7 +2326,7 @@ green transition.50 Similarly, the US aims to mobilise US$100 billion per year t
 to the impacts of climate change.51 Helping the key producers of critical commodities mitigate climate 
 risks in turn strengthens the supply chains of EU industries.
 
-46  PwC Climate risks to EU commodity supplies
+46  PwC Climate risks to EU commodity supplies
 
 Endnotes
 
@@ -2543,7 +2411,7 @@ Plants, 2023. Chilean Desalination Association, Mining Ministry, Scientific Advi
 
 34.  General Mills
 
-47  PwC Climate risks to EU commodity supplies
+47  PwC Climate risks to EU commodity supplies
 
 35.  Ikea Sustainability report
 
@@ -2579,7 +2447,7 @@ Plants, 2023. Chilean Desalination Association, Mining Ministry, Scientific Advi
 
 51.  US International Climate Finance Plan 
 
-48  PwC Climate risks to EU commodity supplies
+48  PwC Climate risks to EU commodity supplies
 
 Acknowledgements
 
@@ -2615,7 +2483,7 @@ Toby Petit, Economist, Strategy&, Associate, PwC UK
 Elvira Lomas Irisarri, Economist, Strategy&, Associate, PwC UK 
 Mustafa Rupawala, Economist, Strategy&, Associate, PwC UK
 
-49  PwC Climate risks to EU commodity supplies
+49  PwC Climate risks to EU commodity supplies
 
 Advisors
 
@@ -2665,37 +2533,7 @@ María Soledad Aguilar, Consulting, Senior Associate, PwC Chile
 Luca Fecci, Consulting, Associate, PwC Chile 
 Rob Turner, Energy Consulting, Partner, PwC UK 
 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-50  PwC Climate risks to EU commodity supplies
+50  PwC Climate risks to EU commodity supplies
 
 Kareem Mohamednur, Operations Transformation - Sourcing & Procurement, Partner, PwC US 
 David Wijeratne, International Growth, Partner, PwC Singapore 
@@ -2710,7 +2548,7 @@ Content development
 
 Sarah Brown, Content Development, Director, PwC UK
 
-pwc.com/climaterisks
+pwc.com/climaterisks
 
 © 2024 PwC. All rights reserved. PwC refers to the PwC network and/or one or more of its member firms, 
 each of which is a separate legal entity. Please see www.pwc.com/structure for further details. This content 
@@ -2769,7 +2607,7 @@ tax services. Find out more and tell us what matters to you by visiting us at ww
   (六)氣候風險對淨零轉型的威脅：氣候變遷對於可再生能源技術
 所需商品如鋰和銅的供應構成重大威脅，可能阻礙電動車、
 
-風能和太陽能技術的發展。高碳排放情境下，風險增長更為
+風能和太陽能技術的發展。高碳排放情境下，風險增長更為
 顯著，凸顯緊急採取行動的必要性。 
 
    (七)企業與政策制定者的應對差異: (1)企業需根據進口商品和
@@ -2816,7 +2654,7 @@ DLE），該技術能減少水消耗和對環境的影響，成為鋰提取的
 
      2、Tesla 公司的關鍵礦物供應保護策略：Tesla 作為電動車巨
 
-頭，需穩定供應鋰和鈷來生產電池。該公司採用多管齊下策
+頭，需穩定供應鋰和鈷來生產電池。該公司採用多管齊下策
 略，包括在美國德州建設鋰精煉廠。與美國和加拿大的鋰、
 鎳供應商簽訂長期供應協議，與其他電池製造商合作，確保
 供應穩定性。Tesla 還進行年度企業風險評估，以評估其全

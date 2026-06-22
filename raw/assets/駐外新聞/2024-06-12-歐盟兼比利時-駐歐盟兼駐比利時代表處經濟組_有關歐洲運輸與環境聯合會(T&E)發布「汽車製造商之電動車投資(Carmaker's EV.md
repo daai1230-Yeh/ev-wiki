@@ -19,46 +19,10 @@ clipped: 2026-06-22
 
 駐歐盟兼駐比利時代表處經濟組 函
 
-檔　　號：
-
-保存年限：
-
 地址：Square de Meeus 27, 1000 Brussels
 承辦人：曹嘉純
 電話：32-2-2872842
 Email：cctsao@sa.moea.gov.tw
-
-｜
-｜
-｜
-｜
-｜
-｜
-｜
-裝
-｜
-｜
-｜
-｜
-｜
-｜
-｜
-訂
-｜
-｜
-｜
-｜
-｜
-｜
-｜
-線
-｜
-｜
-｜
-｜
-｜
-｜
-｜
 
 受文者：經濟部產業發展署
 
@@ -108,7 +72,7 @@ and Environment,T&E)於本(113)年6月6日發布「汽車製造
 
 第1頁，共4頁
 
-(三)
+(三)
 
 國(20%)與韓國(18%)汽車製造商。雖然歐洲汽車製造商
 在電動化投資最多，但北美卻是最大的投資地點，占所
@@ -157,7 +121,7 @@ Stellantis主要製造中心僅吸引13億歐元，且該投資似
 
 第2頁，共4頁
 
-(五)
+(五)
 
 吸引或留住歐洲電動車投資的建議：吸引電動車投資至
 歐洲，對於維持歐洲汽車產業優勢及就業機會相當重
@@ -223,9 +187,9 @@ Stellantis主要製造中心僅吸引13億歐元，且該投資似
 
 閱
 
-可
-
 訊
+
+可
 
 https://www.transportenvironment.org/uploads/files/2024_06_
 OEM_EV_investment_briefing_compressed.pdf，併請卓參。
@@ -240,7 +204,7 @@ OEM_EV_investment_briefing_compressed.pdf，併請卓參。
 
 第3頁，共4頁
 
-副本：經濟部國際貿易署、經濟部陳政務次長室(請經濟部代轉陳)
+副本：經濟部國際貿易署、經濟部陳政務次長室(請經濟部代轉陳)
 
 2024/06/13
 08:00:04
@@ -265,7 +229,7 @@ Carmaker’s EV investments:
 
 Is Europe falling behind?
 
-Summary
+Summary
 
 Since 2019, global BEV sales have rapidly grown from 1.6 million to
 9.6 million cars in 2023, or around 15% of the global market.
@@ -278,7 +242,7 @@ winning when it comes to EV investments.
 
 2 | Brieﬁng
 
-investment announcements in EVs, battery cells and charging by the 19
+investment announcements in EVs, battery cells and charging by the 19
 Total global
 carmakers analysed in this study1 have increased almost six fold between 2021 and 2023,
 reaching €150 billion in 2023 alone. In total €265 billion of investments were announced
@@ -304,7 +268,7 @@ strategies of carmakers.
 
 3 | Brieﬁng
 
-Act for EV and battery production. In contrast the majority of investments in Europe (80%)
+Act for EV and battery production. In contrast the majority of investments in Europe (80%)
 are by European carmakers, with the remaining majority coming from Tesla, Geely, Nissan
 and Ford. The small share of investments by non European carmakers indicates a lack of
 attractiveness of Europe as a destination for foreign EV investments compared to North
@@ -326,7 +290,7 @@ VW was the only investor in Spain, with announcements worth €10 billion. Italy
 
 4 | Brieﬁng
 
-manufacturing hub for Stellantis, managed to attract just €1.3 billion and this investment
+manufacturing hub for Stellantis, managed to attract just €1.3 billion and this investment
 now appears to be delayed2.
 
 While European carmakers have spent the most on EV investments in total between 2021
@@ -346,7 +310,7 @@ European EV investments are by European carmakers and several European carmakers
 
 5 | Brieﬁng
 
-such as Mercedes, VW and JLR have recently announced delays in EV investments or their
+such as Mercedes, VW and JLR have recently announced delays in EV investments or their
 EV targets.
 
 Attracting EV investment to Europe is critical for maintaining the strength of the European
@@ -391,7 +355,7 @@ France with its “eco-score” concept.
 
 6 | Brieﬁng
 
-1. Introduction
+1. Introduction
 Global BEV sales have grown from 1.6 million in 2019 to 9.6 million cars in 2023, reaching
 around 15% of the global car market4. China is currently the world’s biggest BEV market with 2
 out of every 3 BEV sold there. In total, Chinese car buyers bought 6.7 million BEVs last year5,
@@ -414,7 +378,7 @@ full-year 2021.
 
 7 | Brieﬁng
 
-average CO2 targets with an annual ZEV mandate starting in 2024. The mandate requires 22%
+average CO2 targets with an annual ZEV mandate starting in 2024. The mandate requires 22%
 BEV sales in 2024, ramping up to 100% in 2035. Many Member States and the UK also deployed
 various subsidies8 and tax cuts9 to encourage BEV uptake, however many EV purchase
 subsidies have now been reduced or phased out as the European BEV market matures.
@@ -462,7 +426,7 @@ company.
 
 8 | Brieﬁng
 
-To meet the requirements of global regulations aimed at driving electriﬁcation and their own
+To meet the requirements of global regulations aimed at driving electriﬁcation and their own
 voluntary commitments, carmakers have to make substantial investments in BEVs, batteries
 and charging infrastructure this decade. For the European economy, securing investments in
 EVs and the EV supply chain is critical to continuing Europe’s global automotive industrial
@@ -510,7 +474,7 @@ picture of the entire investment strategies of carmakers.
 
 9 | Brieﬁng
 
-infrastructure have increased almost sixfold from €27 billion in 2021 to €150 billion in 2023. In
+infrastructure have increased almost sixfold from €27 billion in 2021 to €150 billion in 2023. In
 total, carmakers announced €265 billion of investment between 2021 and 2023. This is almost
 the annual GDP of Romania19.
 
@@ -533,7 +497,7 @@ the smallest share of investments at 12% (€32 billion).
 
 10 | Brieﬁng
 
-Fig. 3 Share of 2021-2023 investment per carmaker origin
+Fig. 3 Share of 2021-2023 investment per carmaker origin
 
 2.2 North America takes the lead as destination for EV investments
 While European carmakers have announced the largest investments in electriﬁcation, Europe20
@@ -553,7 +517,7 @@ share (19% in Europe and 15% in North America). By contrast, China appears to be
 
 11 | Brieﬁng
 
-underperforming, attracting just 19% of investment announcements compared to its 34%
+underperforming, attracting just 19% of investment announcements compared to its 34%
 production market share22.
 
 Fig. 4 Share of 2021-2023 investment per destination region
@@ -569,7 +533,7 @@ investment into EVs as discussed in this section .
 
 12 | Brieﬁng
 
-Fig. 5 EV investments in China, U.S., Europe between 2021 and 2023.
+Fig. 5 EV investments in China, U.S., Europe between 2021 and 2023.
 
 Continued higher levels of EV investment in North America are likely to have been supported by
 the 2022 introduction of the U.S Inﬂation Reduction Act. The regulation provides signiﬁcant
@@ -590,7 +554,7 @@ manufacturing concluded that around half of the battery production planned for E
 
 13 | Brieﬁng
 
-U.S. Inﬂation Reduction Act
+U.S. Inﬂation Reduction Act
 
 Part of the U.S. IRA package is designed to increase U.S. EV uptake and drive U.S. EV
 manufacturing and supply chain localisation, key policies within the IRA which have helped
@@ -642,7 +606,7 @@ recycled in North America).
 
 14 | Brieﬁng
 
-investment in the region. Section 3 covers key policies required to secure European EV
+investment in the region. Section 3 covers key policies required to secure European EV
 investments.
 
 2.3 Europe mostly attracts investment from European carmakers
@@ -666,7 +630,7 @@ have located more than 50% of their 2021-2023 announced investments in Europe. O
 
 15 | Brieﬁng
 
-carmakers, JLR has the highest share, 100%, followed by Mercedes 78%, Renault 74%, VW 53%
+carmakers, JLR has the highest share, 100%, followed by Mercedes 78%, Renault 74%, VW 53%
 and BMW 52%. Nissan was the only non-European carmaker which located more than 50% of
 investments in Europe, with 72% located mostly in the UK. Surprisingly, Stellantis, which
 includes amongst its portfolio the iconic European Citroen, Peugeot and Fiat brands, has
@@ -692,7 +656,7 @@ strategy is delivering big proﬁts.
 
 16 | Brieﬁng
 
-compared to 2021 and increased almost three fold again in 2023. Similarly, Hyundai doubled
+compared to 2021 and increased almost three fold again in 2023. Similarly, Hyundai doubled
 their announced EV investments in North America from 2022 to 2023. Once more this
 demonstrates the impact that the U.S. IRA has had on attracting EV investment to the U.S and
 North America.
@@ -748,7 +712,7 @@ amid brutal price war at home.
 
 17 | Brieﬁng
 
-Several Chinese carmakers already have R&D or design centres in Europe including GAC in
+Several Chinese carmakers already have R&D or design centres in Europe including GAC in
 Milan39, Geely in Frankfurt40 and Nio near Tesla’s German factory in Grünheide41.
 
 These are all positive announcements for the European economy and EU governments should
@@ -792,7 +756,7 @@ bigger plans.
 
 18 | Brieﬁng
 
-Fig 8. Carmaker EV, battery and charging investments in Europe.
+Fig 8. Carmaker EV, battery and charging investments in Europe.
 
 The largest
 investment destination was the UK (ﬁgure 9) predominantly due to large
@@ -803,7 +767,7 @@ investor in Spain, with announcements worth €10 billion.
 
 19 | Brieﬁng
 
-Fig. 9 Breakdown of European investments per carmaker in terms of value (left) and share (right)
+Fig. 9 Breakdown of European investments per carmaker in terms of value (left) and share (right)
 
 Although Italy is the 5th biggest car producing EU Member State44, where the automotive sector
 employs 110,000 workers in direct manufacturing45 and is responsible for 5.2% of GDP46, Italy
@@ -830,7 +794,7 @@ In EU Funding For Supercharger Network Expansion.
 
 20 | Brieﬁng
 
-investment in a battery plant in Italy has been delayed. The Italian government has met with
+investment in a battery plant in Italy has been delayed. The Italian government has met with
 Tesla and several Chinese carmakers (including Chery) to attract one of them to manufacture
 cars in Italy in order to reduce Italy’s automotive industry’s dependency on Stellantis50.
 
@@ -853,7 +817,7 @@ Fig. 10 Investments between 2021-2023 by carmaker origin.
 
 21 | Brieﬁng
 
-While total EV investments have been the highest for European carmakers, European carmakers
+While total EV investments have been the highest for European carmakers, European carmakers
 have lagged behind on announced investment during the 2021-2023 period when normalised by
 sales volume (based on the number of cars sold in 2023, ﬁgure 11)51 compared to U.S.
 carmakers . On average European carmakers invested €3,840 per car sold compared to €4,970
@@ -877,7 +841,7 @@ differentiation between cars and vans is available for most carmakers. Excludes 
 
 22 | Brieﬁng
 
-● Mercedes announced a delay of their target of 50% of sales to be electriﬁed vehicles in
+● Mercedes announced a delay of their target of 50% of sales to be electriﬁed vehicles in
 2025 to 2030 and instead focusing on updating its internal combustion engine models52
 and that it will stop development of its large EV platform53. Mercedes further cautioned
 that European sales will likely not be all electric by 203054.
@@ -933,7 +897,7 @@ maintain market share while ignoring the mass market is a shortsighted strategy 
 
 23 | Brieﬁng
 
-carmakers enter the European mass market with affordable, good quality and competitive BEVs
+carmakers enter the European mass market with affordable, good quality and competitive BEVs
 and start to establish a manufacturing foothold in Europe.
 
 European carmakers should be investing in small, affordable BEVs
@@ -978,7 +942,7 @@ should provide grants, loans and guarantees to scale up EV production in Europe 
 
 24 | Brieﬁng
 
-support the EV battery value chain. This is key to accelerate and de-risk private
+support the EV battery value chain. This is key to accelerate and de-risk private
 investments. EU funding as well as national funding via State Aid support should be
 linked to strong environmental and social conditions in support of a ‘Made in EU’
 strategy.
@@ -1031,7 +995,7 @@ certainty and de-risking European EV investments. Leaving those unchanged,
 
 25 | Brieﬁng
 
-2035 ICE phase out date is key, otherwise Europe risks sending EV investments elsewhere.
+2035 ICE phase out date is key, otherwise Europe risks sending EV investments elsewhere.
 Likewise, the EU should learn from the U.S. and set up a Green Industry Fund to provide a
 competitive ﬁnancial incentive for scaling up sustainable EV and battery production in Europe.
 This must be bolstered by ‘Made in EU’ provisions for subsidy and incentive schemes to ensure

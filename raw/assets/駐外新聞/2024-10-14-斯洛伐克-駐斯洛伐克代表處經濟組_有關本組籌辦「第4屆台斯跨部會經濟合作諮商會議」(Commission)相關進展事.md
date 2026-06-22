@@ -19,10 +19,6 @@ clipped: 2026-06-22
 
 駐斯洛伐克代表處經濟組 函
 
-檔　　號：
-
-保存年限：
-
 地址：Mostova 2, Bratislava
 承辦人：李慧寧
 電話：421-2582-53224
@@ -71,38 +67,6 @@ Email：hnlee@sa.moea.gov.tw
 排代表團團長親赴SAS及STUBA參觀。
 歐洲電動車市場擴大將帶動車載變流器、車載充電
 
-｜
-｜
-｜
-｜
-｜
-｜
-｜
-裝
-｜
-｜
-｜
-｜
-｜
-｜
-｜
-訂
-｜
-｜
-｜
-｜
-｜
-｜
-｜
-線
-｜
-｜
-｜
-｜
-｜
-｜
-｜
-
 器及直流變壓器的商機，配合斯國在汽車產業強
 項， 斯國成立Slovak Chips Centre(法人機構)，瞄準
 功率半導體的技術發展，以台斯合作案為基礎，盼
@@ -115,7 +79,7 @@ Email：hnlee@sa.moea.gov.tw
 
 第1頁，共4頁
 
-借助工研院研發量能，與工研院合作，針對工業控
+借助工研院研發量能，與工研院合作，針對工業控
 制、車載充電、驅動、充電展開所需之後段模組封
 
 裝，發展所需之技術解決方案。斯方盼串聯專精前
@@ -173,7 +137,7 @@ mobile towers)
 
 第2頁，共4頁
 
-(Horizontal  methods  for  growing  artificial  optical
+(Horizontal  methods  for  growing  artificial  optical
 crystals , needed for strong lasers)
 有機熱解纖維（用於過濾器和複合材料）(Organic
 pyrolyzed fibers , for filters and composites)
@@ -230,7 +194,7 @@ Forum及地緣政治與經貿議題規劃邀請智庫研議(謹參照本
 
 第3頁，共4頁
 
-組本年10月8日1130000133號函)外，另邀請斯國STUBA科
+組本年10月8日1130000133號函)外，另邀請斯國STUBA科
 技大學來處研議亮點節目安排，並與本地主要經濟媒體刊
 
 物記者會晤，討論廣宣事宜，而本組將併同相關經貿議題

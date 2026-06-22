@@ -21,7 +21,7 @@ Growing Present Promising Future
 
 Strengthening Relationship
 
-About Himadri
+About Himadri
 
 Integrated Carbon Corporation based in Kolkata, India, with market leadership across multiple segments and presence across 
 34+ countries 
@@ -41,7 +41,7 @@ in India
 
 Focused on R&D and Innovation with 42 personnel including 14 PhDs globally
 
-Our Journey – Main Products
+Our Journey – Main Products
 
 Coal Tar Pitch Capacity Expansion 
 in KMT
@@ -131,7 +131,7 @@ in KMT
 
 2027 (E)
 
-Himadri’s Foray into Battery Supply Chain – Anode Material
+Himadri’s Foray into Battery Supply Chain – Anode Material
 
 • As far back as 2010, identified the  nascent potential of Electric Vehicle (EV) globally 
 
@@ -162,11 +162,11 @@ Onwards
 
 by 2025 & 100,000 MT by 2027
 
-Working of a Lithium - Ion Battery(LIB) Cell and its composition
+Working of a Lithium - Ion Battery(LIB) Cell and its composition
 
 Working of a LIB cell
 
-Battery Energy Storge in India – Demand Assessment
+Battery Energy Storge in India – Demand Assessment
 
 Annual Market Demand (in GWh)
 
@@ -242,7 +242,7 @@ Optimistic Case
 
 Estimates & Forecast
 
-Himadri Cathode Value Proposition – LFP Cathode Material
+Himadri Cathode Value Proposition – LFP Cathode Material
 
 LFP Cathode Production 
 
@@ -345,7 +345,7 @@ Note: The total demand shown in grey outline corresponds to the base case and th
 
 Estimates & Forecast
 
-Benefits of LFP manufacturing in India 
+Benefits of LFP manufacturing in India 
 
 LFP is the Preferred Cathode Chemistry
 
@@ -370,7 +370,7 @@ tonnes in base case scenario and 385 thousand tonnes in promising case scenario
 
 • (source: PwC market survey)
 
-Proposed LIB Raw Material Hub at Southern State of Tamil Nadu 
+Proposed LIB Raw Material Hub at Southern State of Tamil Nadu 
 
 Himadri wants to set up a Raw Material Hub for LIB for manufacturing Anode and 
 
@@ -397,7 +397,7 @@ NPV basis.
 
 Estimates & Forecast
 
-Battery Storage Market Revolution in India – Part 1
+Battery Storage Market Revolution in India – Part 1
 
 •5th largest economy in the world 
 
@@ -425,7 +425,7 @@ Consumer Market
 
 Estimates & Forecast
 
-Battery Storage Market Revolution in India – Part 2
+Battery Storage Market Revolution in India – Part 2
 
 •Currently world’s 4th 
 largest automotive 
@@ -477,7 +477,7 @@ Energy
 
 Estimates & Forecast
 
-Details & Benefits of Indian Government Scheme
+Details & Benefits of Indian Government Scheme
 
 LIB PLI scheme 
 
@@ -536,7 +536,7 @@ etc.
 
 Estimates & Forecast
 
-HIMADRI 
+HIMADRI 
 
 INTENDS TO BE A SIGNIFICANT PLAYER IN THE 
 
@@ -548,7 +548,7 @@ AND WE LOOK FORWARD TO WIN-WIN
 
 PARTNERSHIPS
 
-THANK YOU
+THANK YOU
 
 This presentation has been prepared for general guidance on matters of interest only and does not constitute professional advice. You should not act upon the information 
 contained in this presentation without obtaining specific professional advice. No representation or warranty (express or implied) is given as to the accuracy or completeness of the 

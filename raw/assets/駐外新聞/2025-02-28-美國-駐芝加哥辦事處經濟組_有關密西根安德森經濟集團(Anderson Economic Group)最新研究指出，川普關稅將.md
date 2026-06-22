@@ -68,7 +68,7 @@ https://www.wsj.com/opinion/trump-tariffs-american-auto-industry-anderson-econom
 
 1/4
 
-2025/2/28 下午3:24
+2025/2/28 下午3:24
 
 Trump’s Tariffs Will Punish Michigan - WSJ
 
@@ -140,7 +140,7 @@ https://www.wsj.com/opinion/trump-tariffs-american-auto-industry-anderson-econom
 
 2/4
 
-2025/2/28 下午3:24
+2025/2/28 下午3:24
 
 Trump’s Tariffs Will Punish Michigan - WSJ
 
@@ -174,7 +174,7 @@ https://www.wsj.com/opinion/trump-tariffs-american-auto-industry-anderson-econom
 
 3/4
 
-2025/2/28 下午3:24
+2025/2/28 下午3:24
 
 Tariffs could cause more harm to auto industry than a UAW strike
 
@@ -220,7 +220,7 @@ https://www.freep.com/story/money/cars/2025/02/21/tariffs-raise-new-car-price-90
 
 1/4
 
-2025/2/28 下午3:24
+2025/2/28 下午3:24
 
 Tariffs could cause more harm to auto industry than a UAW strike
 
@@ -273,7 +273,7 @@ https://www.freep.com/story/money/cars/2025/02/21/tariffs-raise-new-car-price-90
 
 2/4
 
-2025/2/28 下午3:24
+2025/2/28 下午3:24
 
 Tariffs could cause more harm to auto industry than a UAW strike
 
@@ -329,7 +329,7 @@ https://www.freep.com/story/money/cars/2025/02/21/tariffs-raise-new-car-price-90
 
 3/4
 
-2025/2/28 下午3:24
+2025/2/28 下午3:24
 
 Tariffs could cause more harm to auto industry than a UAW strike
 

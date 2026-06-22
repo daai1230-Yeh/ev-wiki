@@ -17,10 +17,6 @@ clipped: 2026-06-22
 
 ## 主文
 
-檔　　號：
-
-保存年限：
-
 駐立陶宛代表處經濟組 函
 
 地址：J.Jasinskio g. 16B, 16th FL, LT-03163,
@@ -30,38 +26,6 @@ Vilnius, Lithuania
 承辦人：簡琦哲
 電話：00370-52044129
 Email：ccchien@sa.moea.gov.tw
-
-｜
-｜
-｜
-｜
-｜
-｜
-｜
-裝
-｜
-｜
-｜
-｜
-｜
-｜
-｜
-訂
-｜
-｜
-｜
-｜
-｜
-｜
-｜
-線
-｜
-｜
-｜
-｜
-｜
-｜
-｜
 
 受文者：經濟部產業發展署
 
@@ -114,7 +78,7 @@ Novus City V7電動巴士車款長7.5公尺、寬2.1公尺，乘
 
 第1頁，共3頁
 
-(四)
+(四)
 
 (五)
 
@@ -160,7 +124,7 @@ Forveda UAB，2023年營業額為1,080萬歐元，較前一年
 
 第2頁，共3頁
 
-三、
+三、
 
 本組將持續關注立陶宛電動巴士發展現況並適時陳報，檢
 陳VZ報導與A公司新聞稿如附，併請鈞參。
@@ -308,7 +272,7 @@ and manager, has been growing rapidly recently.
 
 https://www.vz.lt/logistika-ir-transportas/2024/10/23/altas-auto-ruosiasi-augti-su-nauju-kinisku-lietuvisku-modeliu
 
-2024/10/24 上午11:17
+2024/10/24 上午11:17
 
 „Altas Auto“ ruošiasi augti su nauju kinišku-lietuvišku modeliu - lietuvišku modeliu
 
@@ -397,7 +361,7 @@ https://www.vz.lt/logistika-ir-transportas/2024/10/23/altas-auto-ruosiasi-augti-
 
 2/11
 
-2024/10/24 上午11:17
+2024/10/24 上午11:17
 
 „Altas Auto“ ruošiasi augti su nauju kinišku-lietuvišku modeliu - lietuvišku modeliu
 
@@ -475,7 +439,8 @@ new
 
 3/11
 
-NaPRstrPaKita00:NaPRstrPaKita00:2024/10/24 上午11:17
+NaPRstrPaKita00:NaPRstrPaKita00:
+2024/10/24 上午11:17
 
 „Altas Auto“ ruošiasi augti su nauju kinišku-lietuvišku modeliu - lietuvišku modeliu
 
@@ -536,7 +501,7 @@ https://www.vz.lt/logistika-ir-transportas/2024/10/23/altas-auto-ruosiasi-augti-
 
 4/11
 
-2024/10/24 上午11:17
+2024/10/24 上午11:17
 
 „Altas Auto“ ruošiasi augti su nauju kinišku-lietuvišku modeliu - lietuvišku modeliu
 
@@ -668,7 +633,7 @@ look
 
 5/11
 
-2024/10/24 上午11:17
+2024/10/24 上午11:17
 
 „Altas Auto“ ruošiasi augti su nauju kinišku-lietuvišku modeliu - lietuvišku modeliu
 
@@ -796,7 +761,8 @@ https://www.vz.lt/logistika-ir-transportas/2024/10/23/altas-auto-ruosiasi-augti-
 
 6/11
 
-NaPRstrPaKita00:NaPRstrPaKita00:2024/10/24 上午11:17
+NaPRstrPaKita00:NaPRstrPaKita00:
+2024/10/24 上午11:17
 
 „Altas Auto“ ruošiasi augti su nauju kinišku-lietuvišku modeliu - lietuvišku modeliu
 
@@ -976,7 +942,7 @@ https://altasauto.com/lt/naujasis-altas-auto-el-autobusas-jau-prieinamas-lietuvo
 
 1/3
 
-2024/10/24 上午9:48
+2024/10/24 上午9:48
 
 The new ALTAS AUTO e. bus - already available to Lithuanian carriers - ALTAS AUTO
 
@@ -1042,7 +1008,7 @@ https://altasauto.com/lt/naujasis-altas-auto-el-autobusas-jau-prieinamas-lietuvo
 
 2/3
 
-2024/10/24 上午9:48
+2024/10/24 上午9:48
 
 The new ALTAS AUTO e. bus - already available to Lithuanian carriers - ALTAS AUTO
 

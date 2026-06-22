@@ -17,102 +17,6 @@ clipped: 2026-06-22
 
 ## 主文
 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-裝 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-訂 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-線 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-
-檔　　號:
-保存年限:
-
 駐斯洛伐克代表處經濟組 函
 
 地址：Mostova 2, 81102, Bratislava, 
@@ -164,99 +68,6 @@ TESLA Liptovsky Hradok等公司，仍具備弱電系統與工
 業電子整合能力，為區域內重要技術供應者。
 
 第 1 頁，共 2 頁
-
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-裝 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-訂 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-線 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
 
 38
 
@@ -350,7 +161,7 @@ in its successful history and a step towards a future full of innovation
 
 and excellence
 
-ABOUT
+ABOUT
 
 US
 
@@ -382,7 +193,7 @@ customer satisfaction and fosters strong relationships
 
 with our clients.
 
-Company area: 127 575 m²
+Company area: 127 575 m²
 
 Buildings: 30 552 m²
 
@@ -392,7 +203,7 @@ Logistic area: 7 155 m²
 
 Employees: 460
 
-OUR
+OUR
 
 VISION
 
@@ -418,7 +229,7 @@ and ensuring the satisfaction
 
 of our employees.
 
-COMPANY DIVISIONS
+COMPANY DIVISIONS
 
 DESIGN
 DEVELOPMENT
@@ -445,7 +256,7 @@ involving new materials,
 complex shapes, and various 
 sizes.
 
-COMPANY DIVISIONS
+COMPANY DIVISIONS
 
 PRODUCTION
 
@@ -469,7 +280,7 @@ strategies, and planning,
 from transportation through 
 to customer sales.
 
-COMPANY DIVISIONS
+COMPANY DIVISIONS
 
 PURCHASING
 
@@ -488,7 +299,7 @@ internal departments
 and the end consumer 
 or client.
 
-TECHNOLOGY
+TECHNOLOGY
 
 PLASTICS
 
@@ -504,26 +315,26 @@ PLASTICS
 
 molding)
 
-AUTOMOTIVE INTERIOR 
+AUTOMOTIVE INTERIOR 
 COMPONENTS
 
 Manufacturing of plastic aesthetic and 
 functional parts
 
-AUTOMOTIVE INTERIOR 
+AUTOMOTIVE INTERIOR 
 COMPONENTS
 
-AUTOMOTIVE 
+AUTOMOTIVE 
 INJECTIONS & ASSEMBLY
 • Assembly process by Poka Yoke - designed 
 
 and manufactured internally.
 
-TAMPOPRINT
+TAMPOPRINT
 
 • Pad printing of single or multi-color printing
 
-AUTOMOTIVE
+AUTOMOTIVE
 PIEZOELECTRIC CERAMIC DISCS
 
 Piezoelectric Ceramics
@@ -544,7 +355,7 @@ membranes of various diameters, piezoelectric
 
 transducers and buzzers
 
-PRODUCT PORTFOLIO 2025
+PRODUCT PORTFOLIO 2025
 
 Automotive
 
@@ -562,7 +373,7 @@ Metal Production
 
 Specialized Telephones
 
-MARKETING
+MARKETING
 
 LOGISTICS
 
@@ -582,7 +393,7 @@ TECHNOLOGY
 
 TOOLING SHOP
 
-DIVISON
+DIVISON
 
 of
 
@@ -600,7 +411,7 @@ products
 • Testing and trials in an internal laboratory
 • CATIA, CREO
 
-TECHNOLOGY
+TECHNOLOGY
 
 PIEZOELECTRIC CERAMIC 
 
@@ -612,7 +423,7 @@ configurations
 
 (according to customer requirements)
 
-TECHNOLOGY 
+TECHNOLOGY 
 
 METALS
 
@@ -638,7 +449,7 @@ lathes
 
 • Screen Print
 
-DIVISION
+DIVISION
 
 TOOL SHOP
 
@@ -658,7 +469,7 @@ Design and production
 
 • 3D measurement
 
-TOOL SHOP
+TOOL SHOP
 
 KNOW-HOW IN CONSTRUCTION, TECHNOLOGY & PRODUCTION OF TOOLS AND FORMS
 
@@ -697,11 +508,11 @@ Welding:
 
 • ALM 200 digital (laser), TIG
 
-AUTOMOTIVE
+AUTOMOTIVE
 
-OTHERS
+OTHERS
 
-INOVATION
+INOVATION
 
 WE ADAPT TO THE TIMES
 
@@ -710,7 +521,7 @@ PHOTOVOLTAICS
 540 panels
 297 kWh
 
-www.TESLA.sk
+www.TESLA.sk
 
 Hviezdoslavova 37/46
 Stropkov  091 12

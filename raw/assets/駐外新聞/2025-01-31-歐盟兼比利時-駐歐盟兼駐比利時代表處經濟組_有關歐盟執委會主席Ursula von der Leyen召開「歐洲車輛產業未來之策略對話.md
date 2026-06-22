@@ -17,103 +17,7 @@ clipped: 2026-06-22
 
 ## 主文
 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-裝 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-訂 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-線 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-
 駐歐盟兼駐比利時代表處經濟組 函
-
-檔　　號:
-保存年限:
 
 地址：Square de Meeus 27, 1000 
 Brussels
@@ -165,100 +69,7 @@ der Leyen於本年1月30日邀集歐洲主要產業領袖、社會群
 
 第 1 頁，共 3 頁
 
-49
-
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-裝 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-訂 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-線 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
+49
 
 迫切需要，vdL主席已責成負責運輸與觀光之執委
 
@@ -314,100 +125,7 @@ Roxana Mînzatu將針對車輛產業之技能與社會觀點。
 
 第 2 頁，共 3 頁
 
-77
-
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-裝 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-訂 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-線 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
-. 
+77
 
 後國際競爭對手，歐盟執委會爰進行公眾諮詢，作為制定
 
@@ -509,7 +227,7 @@ Commissioner Mînzatu will lead on Skills and Social considerations within the s
 The output of this consultative process will inspire the Action Plan, to be presented by Commissioner
 Tzitzikostas.
 
-The Council and European Parliament will be closely involved in the process and will be regularly
+The Council and European Parliament will be closely involved in the process and will be regularly
 informed and consulted on the Dialogue.
 
 For more information
@@ -566,8 +284,6 @@ Law
 
 Future of the European automotive industry
 
-...
-
 Have your say - Public Consultations and Feedback (./have-your-say)
 
 Published initiatives (./have-your-say/initiatives)
@@ -613,7 +329,7 @@ https://ec.europa.eu/info/law/better-regulation/have-your-say/initiatives/14487-
 
 1/2
 
-2025/1/31 上午10:07
+2025/1/31 上午10:07
 
 Topic
 

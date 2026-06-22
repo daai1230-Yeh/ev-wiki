@@ -17,10 +17,6 @@ clipped: 2026-06-22
 
 ## 主文
 
-檔　　號：
-
-保存年限：
-
 駐加拿大代表處經濟組 函
 
 地址：45 O'Connor St. Suite 1960, Ottawa, ON K1P
@@ -29,38 +25,6 @@ clipped: 2026-06-22
 承 辦 人：陳重江
 聯絡電話：16132319028
 電子郵件：chungchen@sa.moea.gov.tw
-
-｜
-｜
-｜
-｜
-｜
-｜
-｜
-裝
-｜
-｜
-｜
-｜
-｜
-｜
-｜
-訂
-｜
-｜
-｜
-｜
-｜
-｜
-｜
-線
-｜
-｜
-｜
-｜
-｜
-｜
-｜
 
 受文者：經濟部產業發展署
 
@@ -114,8 +78,7 @@ S前經貿談判代表主張該協議是美加汽車產業整合關鍵基
 
 第1頁，共2頁
 
-　
-自由在北美配置產能，以達到規模經濟。該協議成功吸引
+自由在北美配置產能，以達到規模經濟。該協議成功吸引
 底特律三大車廠(GM、Ford、Chrysler)在安大略省大規模
 投資，後續也促使日本車廠如 Honda、Toyota 在加國設立
 生產基地，使安大略成為北美最重要汽車製造中心之一。
@@ -250,7 +213,7 @@ market access for foreign carmakers if they produce in Canada, it does seem
 that Ottawa is looking to this period for guidance. But the federal government
 is not thinking big enough.
 
-How	Canada’s	auto	sector	can	survive	its	terrible,	no-good,	very	bad	year
+How	Canada’s	auto	sector	can	survive	its	terrible,	no-good,	very	bad	year
 
 FLASH SALE
 
@@ -351,7 +314,7 @@ United States-Mexico-Canada Agreement, (with the main change from NAFTA
 coming from higher North American content requirements to qualify for duty-
 free trade).
 
-How	Canada’s	auto	sector	can	survive	its	terrible,	no-good,	very	bad	year
+How	Canada’s	auto	sector	can	survive	its	terrible,	no-good,	very	bad	year
 
 FLASH SALE
 
@@ -506,8 +469,7 @@ participating companies, the higher the rate, the greater the incentive to match
 production to sales. Companies that choose not to participate in the scheme
 would pay full duties on bilateral trade.
 
- 
-How	Canada’s	auto	sector	can	survive	its	terrible,	no-good,	very	bad	year
+How	Canada’s	auto	sector	can	survive	its	terrible,	no-good,	very	bad	year
 
 It is not clear how Mexico could fit into this
 formulation. Currently Mexico has a disproportionate
@@ -595,7 +557,7 @@ Editorial code of conduct
 
 Related stories
 
-How	Canada’s	auto	sector	can	survive	its	terrible,	no-good,	very	bad	year
+How	Canada’s	auto	sector	can	survive	its	terrible,	no-good,	very	bad	year
 
 FLASH SALE
 

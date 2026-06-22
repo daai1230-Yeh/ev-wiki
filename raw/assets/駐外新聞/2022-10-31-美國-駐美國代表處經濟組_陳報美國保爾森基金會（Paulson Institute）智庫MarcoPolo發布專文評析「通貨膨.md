@@ -73,11 +73,7 @@ https://macropolo.org/analysis/us-battery-mandate-slow-ev-adoption/
 
 1/11
 
- 
- 
- 
- 
-2022/10/25 下午4:38
+2022/10/25 下午4:38
 
 Will US Battery Mandate Slow Down EV Adoption? - MacroPolo
 
@@ -155,7 +151,7 @@ https://macropolo.org/analysis/us-battery-mandate-slow-ev-adoption/
 
 2/11
 
-2022/10/25 下午4:38
+2022/10/25 下午4:38
 
 Will US Battery Mandate Slow Down EV Adoption? - MacroPolo
 
@@ -229,7 +225,7 @@ https://macropolo.org/analysis/us-battery-mandate-slow-ev-adoption/
 
 3/11
 
-2022/10/25 下午4:38
+2022/10/25 下午4:38
 
 Will US Battery Mandate Slow Down EV Adoption? - MacroPolo
 
@@ -436,7 +432,7 @@ https://macropolo.org/analysis/us-battery-mandate-slow-ev-adoption/
 
 4/11
 
-2022/10/25 下午4:38
+2022/10/25 下午4:38
 
 Will US Battery Mandate Slow Down EV Adoption? - MacroPolo
 
@@ -604,7 +600,7 @@ https://macropolo.org/analysis/us-battery-mandate-slow-ev-adoption/
 
 5/11
 
-2022/10/25 下午4:38
+2022/10/25 下午4:38
 
 Will US Battery Mandate Slow Down EV Adoption? - MacroPolo
 
@@ -634,7 +630,7 @@ https://macropolo.org/analysis/us-battery-mandate-slow-ev-adoption/
 
 6/11
 
-2022/10/25 下午4:38
+2022/10/25 下午4:38
 
 Will US Battery Mandate Slow Down EV Adoption? - MacroPolo
 
@@ -740,7 +736,7 @@ https://macropolo.org/analysis/us-battery-mandate-slow-ev-adoption/
 
 7/11
 
-2022/10/25 下午4:38
+2022/10/25 下午4:38
 
 Will US Battery Mandate Slow Down EV Adoption? - MacroPolo
 
@@ -792,7 +788,7 @@ https://macropolo.org/analysis/us-battery-mandate-slow-ev-adoption/
 
 8/11
 
-2022/10/25 下午4:38
+2022/10/25 下午4:38
 
 Will US Battery Mandate Slow Down EV Adoption? - MacroPolo
 

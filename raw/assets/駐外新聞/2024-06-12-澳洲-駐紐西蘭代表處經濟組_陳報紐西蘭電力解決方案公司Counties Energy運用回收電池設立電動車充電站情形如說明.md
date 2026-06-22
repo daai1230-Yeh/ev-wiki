@@ -43,7 +43,7 @@ The low-voltage Berm Battery can charge at up to 180 kilowatts (kW) compared wit
 It can also be used to charge EVs in a power outage or grid emergency. Two conventional EV chargers were
 installed in Mercer in 2022, which were co-funded up to $112,00 by the Energy Efficiency Conservation
 
-Authority as part of the government’s Low Emission Vehicles Contestable Fund.
+Authority as part of the government’s Low Emission Vehicles Contestable Fund.
 
 In contrast, the new Berm Battery was fully funded by Counties Energy.
 

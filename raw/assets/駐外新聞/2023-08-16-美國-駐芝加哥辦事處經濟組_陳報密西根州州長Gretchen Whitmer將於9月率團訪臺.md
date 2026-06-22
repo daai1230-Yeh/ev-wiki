@@ -77,19 +77,7 @@ and departing first thing in the morning on 9/12/23.
 
 1
 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-The purpose of her visit is to seek opportunities for economic cooperation and to deepen the 
+The purpose of her visit is to seek opportunities for economic cooperation and to deepen the 
 relationship between Taiwan and Michigan. 
 
 We’d welcome the opportunity to discuss the visit with your team, and there are a few areas where 
