@@ -1075,3 +1075,48 @@ Pages 375 → 406，Sources 315 → 346
   - [[concepts/電動商用車]]：補充氫能卡車崩潰、加州電動卡車 TaaS 模式
   - [[entities/Tesla]]：Tesla 去中國化供應鏈細節
   - [[entities/通用汽車]]：GM CATL LFP 進口、稀土磁鐵協議、BrightDrop 滯銷
+
+## [2026-06-22] ingest | 駐外新聞 歐洲汽車製造國 2025（批量摘要）
+- Summary page: [[sources/駐外新聞-歐洲汽車製造國-2025]]
+- Raw assets: raw/assets/駐外新聞/2025-*-德國-*.md, 2025-*-斯洛伐克-*.md, 2025-*-匈牙利-*.md, 2025-*-奧地利-*.md, 2025-*-波蘭-*.md（約65篇）
+- Coverage: 德國(13)、斯洛伐克(19)、匈牙利(14)、奧地利(11)、波蘭(8)；2025 全年
+- Key themes:
+  1. 德國零件商裁員危機：Bosch 12,000 + Continental 12,200 + ZF 14,000 + Schaeffler 4,700；總裁員超過 40,000 人
+  2. ZF 出售 e-drive 事業（最可能買家：鴻海，已持有 ZF 車軸子公司 50% 股權）
+  3. 斯洛伐克：Gotion InoBat €12億 20 GWh 電池廠（2027 年 Phase 1）、Volvo Košice EV 廠（Polestar 7，2027-2028）
+  4. 匈牙利：BYD 匈牙利廠延遲（原訂 150-350k 削減為「數萬輛，2026 年」）、BYD 歐洲總部遷至布達佩斯（2,000 人、€2.5億 R&D）
+  5. 奧地利：Voestalpine 鋼鐵供應 BYD、奧地利稀土出口管制威脅分析
+  6. 波蘭：FPG New Smart Energy × SKB MoU、成運汽車電動巴士評估
+- Pages to update (pending user confirmation):
+  - [[countries/歐洲]]：德國零件商危機詳情、ZF×鴻海、Gotion InoBat、Volvo Košice、BYD Szeged 延遲、BYD 歐洲總部
+  - [[entities/鴻海科技]]：ZF e-drive 最可能買家 + 與日產工廠合作
+  - [[concepts/電動商用車]]：成運汽車歐洲評估
+
+## [2026-06-22] ingest | 駐外新聞 印度 2025（批量摘要）
+- Summary page: [[sources/駐外新聞-印度-2025]]
+- Raw assets: raw/assets/駐外新聞/2025-*-印度-*.md（21篇）
+- Coverage: 駐孟買辦事處；2025 全年
+- Key themes:
+  1. 印度 EV 政策完整版：FAME II → PM E-DRIVE → PLI-ACC → PM e-Bus（38,000 輛）→ SPMEPCI
+  2. Tesla 印度失敗登場：孟買展示間 2025-07-15 開幕；~600 訂單；~100 輛交付；₹600-680 萬（$70-80K）= 本地品牌 2-3 倍；只有 12,000-15,000 充電站支援
+  3. VinFast 印度：$15 億馬哈拉施特拉邦 MoU
+  4. 氫能試點 + 綠氫認證計畫
+  5. Bajaj × KTM：€6 億投資（奧地利 KTM 危機中的台廠布局）
+- Pages to update (pending user confirmation):
+  - [[countries/印度]]：Tesla India 失敗啟動細節、完整政策時間表、VinFast MoU
+
+## [2026-06-22] ingest | 駐外新聞 東亞（日本/韓國）2025（批量摘要）
+- Summary page: [[sources/駐外新聞-東亞-2025]]
+- Raw assets: raw/assets/駐外新聞/2025-*-日本-*.md, 2025-*-韓國-*.md（18篇）
+- Coverage: 日本(13)、韓國(5)；2025 全年
+- Key themes:
+  1. 日本 EV 診斷 4 大弱點：整車落後、電池競爭力下滑、CHAdeMO 式微、自動駕駛落後
+  2. 川普關稅衝擊：日本 24% 關稅；Honda 向 Toyota 採購美製 HV 電池（本田跨廠供應，史上首次）
+  3. 日產 × 鴻海：橫須賀/追濱廠潛在合作；橫濱 353 家 Tier-1 供應商面臨風險
+  4. 日本 METI：首次補貼氫燃料商用車燃料費
+  5. 無線充電：日本長距離測試完成；障礙：基礎設施成本 + 安全認證
+  6. 韓國：CATL 韓系電池廠黑名單脈絡；川普關稅對現代/起亞生產布局影響
+- Pages to update (pending user confirmation):
+  - [[countries/日本]]：CHAdeMO 式微、Honda×Toyota 電池採購、日產×鴻海合作、無線充電進展
+  - [[countries/韓國]]：CATL 黑名單脈絡、川普關稅影響
+  - [[entities/鴻海科技]]：日產橫須賀/追濱廠合作（與 ZF 買家合併更新）
