@@ -1,6 +1,6 @@
 # Wiki Index
 
-Last updated: 2026-06-20 | Pages: 423 | Sources: 354
+Last updated: 2026-06-22 | Pages: 435 | Sources: 365
 
 ---
 
@@ -62,6 +62,9 @@ Last updated: 2026-06-20 | Pages: 423 | Sources: 354
 - [[sources/tesla-india-model-y-l]] — Tesla 印度推出 Model Y L：₹61.99 萬，6 座，681km，2026-06 交車。(2026-04-22)
 - [[sources/bmw-i7-neue-klasse-2027]] — 2027 BMW i7：Neue Klasse 技術前移，第六代圓柱電池，350+ 英里 EPA，250kW 充電，NACS 標配。(2026-04-22)
 - [[sources/volvo-ex60-production-2026]] — Volvo EX60 SPA3 800V 平台量產啟動：810km 旗艦版，370kW 峰值充電。(2026-04-22)
+- [[sources/smart-concept2-microcar-2026]] — Smart Concept #2：回歸 Fortwo 微型車定位，中國北京車展前發表，合資品牌（Daimler+吉利）。(2026-04-22)
+- [[sources/vwcv-id-buzz-2026-update]] — VW ID. Buzz 2026 年改：新增 Pro 4MOTION 250kW AWD、單踏板、V2L 功能，86kWh 長軸版。(2026-04-22)
+- [[sources/opel-formula-e-gse27fe-2026]] — Opel GSE 27FE 亮相：取代 DS 代表 Stellantis 參戰 Formula E Gen4，Citroën 同期接替 Maserati。(2026-04-22)
 - [[sources/nissan-sakura-japan-kei-ev]] — 日産 Sakura 改款：日本 K-Car EV 戰場白熱化，鈴木/本田/比亞迪全面進場。(2026-04-23)
 - [[sources/hyundai-iccu-warranty-2026]] — 現代 E-GMP 車型 ICCU 保固從 5 年延至 15 年 / 18 萬英里；Kia 跟進。(2026-04-22)
 - [[sources/tesla-25k-ev-us-price-parity]] — Tesla 重啟 $25k 平價車計畫（4.28m，上海廠）+ 美國 EV 均價創歷史最低價差 $5,800。(2026-04-17)
@@ -87,6 +90,7 @@ Last updated: 2026-06-20 | Pages: 423 | Sources: 354
 - [[sources/xpeng-physical-ai-pivot-2026]] — 小鵬汽車更名「小鵬集團」，CEO 何小鵬宣布從智慧電動車企轉型為「物理AI（Physical AI）」公司。(2026-06-06)
 
 ### 電動商用車與電動巴士
+- [[sources/amazon-einride-electric-trucks-2026]] — Amazon 向 Einride 租賃 75 輛 BEV 卡車用於美國中程物流，年行 300 萬英里，Einride 全套管理。(2026-04-22)
 - [[sources/tesla-cybercab-specs-2026]] — Tesla Cybercab EPA 認證：48kWh、293 英里、3,113 磅、FWD（Tesla 首款）、169hp；目標售價 <$30,000；生產已啟動。(2026-06-16)
 - [[sources/china-heavy-truck-nev-plan-2030]] — 中國重卡 NEV 2030 計畫（11 部委）：2030 年 NEV 滲透率 40%、160 萬輛重卡、3,000 個換充電站、3 萬公里走廊。(2026-06-16)
 - [[sources/zenobe-funding-2026]] — Zenobē £9.8 億融資（累計 £32 億）：支持 1,200 輛電動巴士，目標 2028 年前 5,000 輛英歐。(2026-06-17)
@@ -145,6 +149,7 @@ Last updated: 2026-06-20 | Pages: 423 | Sources: 354
 - [[sources/electrive-commercial-jun18-2026]] — electrive COMMERCIAL 電子報 6/18：Zenobē £980M、Scania×Wibax 105 台（歐盟最大）、中國重卡 NEV 2030 年 40%、Einride 上市。(2026-06-18)
 
 ### 市場與政策
+- [[sources/eu-automotive-package-2035-2026]] — 歐盟汽車套案談判延至 2026/09，以德國立場為基準放寬 2035 燃油禁令。(2026-04-22)
 - [[sources/bnef-ev-forecast-2026]] — BNEF 2026 全球 EV：2,300 萬輛（+11%），27% 市占；美國 -19%，中國 +10% 放緩，2040 年 66% 市占。(2026-06-17)
 - [[sources/google-alerts-ev-jun19-2026]] — 6/19 EV 彙整：台灣巴士巴拉圭、華德動能墨西哥、泰國電池回收、印度電池 223GWh 目標。(2026-06-19)
 - [[sources/japan-india-assam-2026]] — 高市早苗 7 月訪印度阿薩姆，50+ 家日企（鈴木/豐田通商）隨行，半導體+基建合作。(2026-06-18)
@@ -259,7 +264,13 @@ Last updated: 2026-06-20 | Pages: 423 | Sources: 354
 - [[sources/google-alerts-ev-jun20-2026]] — Google Alerts 6/20 中文彙整：台達電泰國擴產、吉利遠程甲醇電動登港、歐盟 PHEV 關稅、加拿大限額進口、鴻海海外科學園區布局。(2026-06-20)
 - [[sources/insideevs-critical-materials-jun20-2026]] — InsideEVs Critical Materials 6/20：Rivian R2 效率、BMW i3 提前預訂、Waymo 二度召回、Tesla Cybercab 極小電池、Uber×Stellantis×Wayve MOU。(2026-06-20)
 
+### 駐外新聞批量摘要
+- [[sources/駐外新聞-美國-2025]] — 2025 全年 83 篇；川普 EV 補貼削減/25% 汽車關稅/CAFE 放寬、底特律倒退、BESS 轉型、Tesla 去中國化供應鏈、氫能卡車崩潰。(2026-06-22)
+
 ### 電池技術
+- [[sources/catl-super-tech-day-2026]] — CATL 超級科技日：神行三代（LFP 全壽命超充）、麒麟三代、鈉電、凝聚態電池全面發表。(2026-04-22)
+- [[sources/bosch-sic-gen3-chips-2026]] — Bosch 第三代 SiC 功率晶片：效能提升 20%、體積更緊湊，用於逆變器。(2026-04-22)
+- [[sources/redwood-materials-layoffs-pivot-2026]] — Redwood Materials 裁員 10%（135 人），轉向儲能（BESS），北美電池回收市場領導者，年處理 20GWh。(2026-04-22)
 - [[sources/gm-silicon-anode-battery-2026]] — GM 矽陽極電池策略（Kurt Kelty）：Sila/Group14/Amprius 現已量產；比固態電池早 10 年可用。(2026-06-18)
 - [[sources/ford-lfp-catl-michigan-2026]] — Ford BlueOval 密西根廠 2026 年首批 LFP 電芯（CATL 技術授權，非 JV），D-Sample 已生產。(2026-06-18)
 - [[sources/byd-brazil-battery-2026]] — BYD 巴西擴大電池組裝（不含電芯），目標 2027 年初 50% 本地化，£9.3 億投資。(2026-06-17)
@@ -311,6 +322,8 @@ Last updated: 2026-06-20 | Pages: 423 | Sources: 354
 - [[sources/vw-samsung-sdi-europe-battery-2026]] — 福斯傳引進三星SDI 匈牙利廠歐製方形電池（2027），形成 PowerCo+國軒高科+三星SDI「三足鼎立」，規避 EU IAA 法規。(2026-06-10)
 
 ### 充電基礎建設
+- [[sources/uk-ultrafast-charging-hub-2026]] — 英國 1.44MW 超快充站案例：Power Electronics NB Station，16 點同時充電，年 6 萬次，歐洲最高標準。(2026-04-22)
+- [[sources/vietnam-ford-tasco-charging-2026]] — 越南：Ford × Tasco Auto MoU，89 座 DC 快充站，2026 年底前完成，補充 VinFast 充電網。(2026-04-22)
 - [[sources/bidi-wallbox-v2g-2026]] — ChargeLine BiDi V2G 牆充（Mobility House+EcoG+EV-Tech）：11kW 800V DC，ISO 15118-20，開放標準。(2026-06-18)
 - [[sources/electrify-america-hub-2026]] — Electrify America 聖芭芭拉 20 位 + 1.9MW BESS：最大公共儲能充電樞紐。(2026-06-18)
 - [[sources/chargy-enfield-charging-2026]] — Char.gy 倫敦恩菲爾德 1,000 個路燈充電點（5/7kW AC），ISO 15118，解決無車位居民充電難題。(2026-06-18)
@@ -427,6 +440,7 @@ Last updated: 2026-06-20 | Pages: 423 | Sources: 354
 - [[concepts/電池與技術/自動駕駛安全監管]] — NHTSA 事後調查機制，Tesla ASS 結案為重要里程碑。
 - [[concepts/電池與技術/自動召喚功能]] — Tesla ASS 功能，1% 事故率，已通過 NHTSA 審查。
 - [[concepts/電池與技術/電池交換技術]] — 本田/鈴木/山葉共同推動 Gachaco；河內 1,000 站全市計畫；Hanoi BSS 是越南 E2W 發展關鍵。
+- [[concepts/電池回收]] — Redwood Materials（北美市場領袖）裁員並轉向 BESS；廢舊電池回收量不足規模化，商業化節奏落後預期。
 
 ### 基礎設施與供應鏈／
 - [[concepts/基礎設施與供應鏈/充電基礎建設]] — 歐洲 V2G 商業化（BMW×E.ON）；Tesla Basecharger 125kW；Rocsys M1 機器人充電；Moto UK £5 億擴建；河內 1,000 BSS。

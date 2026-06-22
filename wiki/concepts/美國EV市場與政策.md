@@ -1,7 +1,7 @@
 ---
 tags: [concept]
-sources: [gm-ford-q1-2026-sales, us-ev-battery-demand-mismatch, rivian-r2-range-specs, vw-id4-chattanooga-stop, tesla-25k-ev-us-price-parity, slate-auto-ev-pickup, ford-ev-restructure-doug-field, vw-id4-us-writedown, tesla-q1-2026-earnings, gm-ev-delay-detroit-three, nissan-mississippi-ev-abandonment, honda-canada-ev-freeze-2026, tesla-model-s-final-production, mazda-ev-delay-2029, ford-catl-michigan-factory-2026, honda-9b-loss-hybrid-pivot-2026, tesla-model-y-price-bump-2026, congress-ev-annual-fee-2026, rivian-r2-deliveries-2026, chevy-bolt-2027-review]
-updated: 2026-06-12
+sources: [gm-ford-q1-2026-sales, us-ev-battery-demand-mismatch, rivian-r2-range-specs, vw-id4-chattanooga-stop, tesla-25k-ev-us-price-parity, slate-auto-ev-pickup, ford-ev-restructure-doug-field, vw-id4-us-writedown, tesla-q1-2026-earnings, gm-ev-delay-detroit-three, nissan-mississippi-ev-abandonment, honda-canada-ev-freeze-2026, tesla-model-s-final-production, mazda-ev-delay-2029, ford-catl-michigan-factory-2026, honda-9b-loss-hybrid-pivot-2026, tesla-model-y-price-bump-2026, congress-ev-annual-fee-2026, rivian-r2-deliveries-2026, chevy-bolt-2027-review, 駐外新聞-美國-2025]
+updated: 2026-06-22
 ---
 
 # 美國 EV 市場與政策
@@ -9,6 +9,31 @@ updated: 2026-06-12
 美國 EV 市場在 Trump 2.0 政策下成長放緩，補貼縮減、傳統車廠下修投資，但豐田等品牌逆勢成長。EV 均價持續下滑，車商自行填補補貼缺口。
 
 ## 政策環境（2025–2026）
+
+### 川普新政全貌（台灣駐外新聞觀察）
+
+| 時間 | 政策行動 |
+|------|------|
+| 2025-01-20 | 取消《電動汽車強制令》（2032 年 2/3 BEV 目標），終止 IRA 新能源補貼撥款 |
+| 2025-04-03 | **進口汽車 25% 關稅**生效（所有進口汽車）|
+| 2025-04-29 | 放寬：允許美國本土車商以國產零件比例抵銷汽車零件關稅 |
+| 2025-09-30 | IRA Section 30D **$7,500 EV 稅額抵免廢止** |
+| 2025-10-06 | **中重型卡車 25% 關稅**宣布（11 月 1 日起）|
+| 2025-12-03 | **CAFE 燃油經濟標準大幅放寬**，追溯至 2022 年車款 |
+
+**CAFE 放寬細節**（2025-12）：
+- 川普在白宮橢圓形辦公室宣布（底特律三大車廠高層在場），由 NHTSA 提案
+- 每年燃油標準提升幅度均低於拜登政府時代，大幅減輕車廠生產 EV 的壓力
+- 底特律三大車廠（GM、Ford、Stellantis）明確支持
+- 宣稱未來 6 年為美國人節省 1,090 億美元
+
+參見：[[sources/駐外新聞-美國-2025]]
+
+### 中國 EV 管制強化（2025）
+- **聯網車軟硬體管制**（2025-01）：商務部公告限制中俄廠商提供的聯網車零組件
+- **ITIF 報告**（2025-09）：華府智庫建議「不應允許中國 EV 廠商赴美設廠」，稱其為「**滅絕級事件**」（extinction-level event）；可能成為美中貿易談判籌碼
+- **GM × CATL**：即使面對 80% 累計關稅，GM 仍向 CATL 採購 LFP 電池（Bolt 過渡期），顯示美國本土低成本電池替代方案尚不成熟
+
 - EV 購車補貼縮減
 - 燃油車碳排規範放寬
 - IRA 補貼細節調整中
@@ -318,6 +343,21 @@ Rivian 於 **2026-06-10** 開始交付 **R2** 電動 SUV，標誌其從高端（
 
 - 加州法規要求：政府新購輕型車輛至少 **50%** 為零排放車輛
 - 2025-08 前 Rivian 累計公部門銷量約 700 輛；此次單筆即超越多數先前合約
+
+## 美國放棄 EV 企圖心蔓延全球（2025-10）
+
+McKinsey 顧問與 WSJ 報導（駐美投資處 2025-10）指出，美國 EV 退潮擴散至全球：
+
+| 國家/地區 | 動作 |
+|------|------|
+| 美國 | GM 提列 16 億美元 EV 損失，重新評估電動車產能，歸咎聯邦取消 EV 補貼 |
+| 加拿大 | 暫停原訂 2026 年生效電動車銷售規定（Carney 政府因應川普貿易戰）|
+| 英國 | 放寬電動車目標時程 |
+| 歐盟 | 重新檢視 2035 年汽車零碳排目標 |
+
+**共同根因**：車廠認為電池成本仍偏高 + 充電網路不足 + 政府補貼縮減 → EV 商業模式難以獲利。
+
+參見：[[sources/駐外新聞-美國-2025]]
 
 ## Related
 - [[entities/豐田]]

@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [tesla-ass-nhtsa-probe-closed, tesla-taiwan-march-2026, xiaomi-ev-europe-2027, tesla-4680-musk-strategy, tesla-korea-q1-2026, tesla-q1-2026-earnings, tesla-india-model-y-l]
-updated: 2026-04-23
+sources: [tesla-ass-nhtsa-probe-closed, tesla-taiwan-march-2026, xiaomi-ev-europe-2027, tesla-4680-musk-strategy, tesla-korea-q1-2026, tesla-q1-2026-earnings, tesla-india-model-y-l, 駐外新聞-美國-2025]
+updated: 2026-06-22
 ---
 
 # Tesla
@@ -84,6 +84,22 @@ updated: 2026-04-23
 - **印度 Model Y L**：₹61.99 萬，6 座，681km，2026-06 交車
 
 - 參見：[[sources/tesla-q1-2026-earnings]] | [[sources/tesla-india-model-y-l]]
+
+## 去中國化供應鏈（2025-11）
+
+華爾街日報（2025-11）報導：
+
+- Tesla **2025 年初**決定要求供應商不得使用中國製造零組件，計畫 **1-2 年內**全面去中國化
+- **動因**：新冠疫情供應中斷 + 川普高關稅 + Nexperia（安世半導體）晶片出口爭議
+- Tesla 上海廠有 **400+ 家中國直接供應商**，其中 60+ 家亦供應全球產線
+- 部分中國供應商已被要求在**墨西哥及東南亞**建廠作為替代
+
+### LFP 電池：最大難題
+- 中國 **CATL** 為 Tesla LFP 電池主要供應商（Model 3/Y 標準版）
+- 短期內無法在中國以外找到同等成本效益的 LFP 替代來源
+- Tesla 自研 4680 圓柱電池（Gigafactory Nevada）是長期替代路線，但產能仍在爬坡
+
+參見：[[sources/駐外新聞-美國-2025]] | [[entities/寧德時代]]
 
 ## 競爭壓力
 - 小米 2027 年目標進軍歐洲，大量從 Tesla 德國團隊挖角

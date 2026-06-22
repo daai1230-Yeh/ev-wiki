@@ -1,7 +1,7 @@
 ---
 tags: [concept]
-sources: [cupra-raval-launch, vw-id4-id5-battery-update, mgs6-ev-first-drive, opel-peugeot-long-range-delay, europe-battery-capacity-cuts, byd-denza-europe-debut, germany-ev-incentive-2026, vw-id3-neo-premiere, honda-eny1-withdrawal-europe, nissan-chery-sunderland-plant, acea-eu-ev-q1-2026, vw-id-polo-launch, polestar-3-800v-upgrade, audi-q4-etron-facelift-2026, gwm-ora03-uk-exit, netherlands-ev-scrappage-2026, porsche-cayenne-coupe-electric, uk-ev-2million-2026, vw-gamechanger-production, zeekr-x-2026-europe, morrow-batteries-insolvency, citroen-china-ev-strategy-2026, jpmorgan-china-ev-europe-2028, eu-iaa-japan-auto-protest-2026, bmw-ix3-neue-klasse-2026, volvo-ex60-production-2026, audi-a2-etron-testing-2026, kia-ev2-first-drive-2026, stellantis-fastlane-2030, nordic-ev-april-2026, europe-v2g-bidirectional-2026, tesla-fsd-eu-expansion-2026, china-ev-europe-factory-takeover-2026, europe-ev-market-may2026, eu-battery-tariff-2027-delay-2026, citroen-15k-electric-2cv-2026, uk-zev-mandate-relaxation-2026]
-updated: 2026-06-16
+sources: [cupra-raval-launch, vw-id4-id5-battery-update, mgs6-ev-first-drive, opel-peugeot-long-range-delay, europe-battery-capacity-cuts, byd-denza-europe-debut, germany-ev-incentive-2026, vw-id3-neo-premiere, honda-eny1-withdrawal-europe, nissan-chery-sunderland-plant, acea-eu-ev-q1-2026, vw-id-polo-launch, polestar-3-800v-upgrade, audi-q4-etron-facelift-2026, gwm-ora03-uk-exit, netherlands-ev-scrappage-2026, porsche-cayenne-coupe-electric, uk-ev-2million-2026, vw-gamechanger-production, zeekr-x-2026-europe, morrow-batteries-insolvency, citroen-china-ev-strategy-2026, jpmorgan-china-ev-europe-2028, eu-iaa-japan-auto-protest-2026, bmw-ix3-neue-klasse-2026, volvo-ex60-production-2026, audi-a2-etron-testing-2026, kia-ev2-first-drive-2026, stellantis-fastlane-2030, nordic-ev-april-2026, europe-v2g-bidirectional-2026, tesla-fsd-eu-expansion-2026, china-ev-europe-factory-takeover-2026, europe-ev-market-may2026, eu-battery-tariff-2027-delay-2026, citroen-15k-electric-2cv-2026, uk-zev-mandate-relaxation-2026, eu-automotive-package-2035-2026, vwcv-id-buzz-2026-update, opel-formula-e-gse27fe-2026]
+updated: 2026-06-22
 ---
 
 # 歐洲 EV 市場
@@ -198,6 +198,20 @@ BMW Neue Klasse 首款量產電動車：
 - 2030 年電池產能目標腰斬，轉向「納入並規範」中國技術
 - 法國撥款 €4.5 億補助電動巴士轉型（2025 年）
 - **德國**：2026 年恢復 EV 補貼（BEV 最高 €6,000，溯及 2026-01-01 起購車）
+
+### EU 汽車套案（Automotive Package）談判延至 2026 年 9 月
+
+歐盟委員會於 2025 年 12 月提出「汽車套案」，對**2035 年燃油車禁售令**進行重大放寬。2026 年 4 月現況：
+
+| 項目 | 現況 |
+|------|------|
+| 談判進展 | 歐洲議會加速推進，預計年底前達成折衷方案 |
+| 最終協議 | 可能延至 **2026 年 9 月** |
+| 主要歧異 | 德國認為 EU 版本放寬不足，以德國立場為非正式談判基準 |
+| 核心議題 | 放寬幅度多大？合成燃料（e-fuel）豁免？ |
+
+若最終方案向德國立場靠攏，將延長 ICE 車款銷售生命周期，影響全球 OEM 在歐投資決策。
+參見：[[sources/eu-automotive-package-2035-2026]]
 
 ## 英國純電動車突破 200 萬輛，4 月市占 26%（2026-05）
 

@@ -1,7 +1,7 @@
 ---
 tags: [entity]
 sources: [stellantis-leapmotor-canada-rejected, us-ev-battery-demand-mismatch, europe-battery-capacity-cuts, stellantis-opel-leapmotor-suv, opel-peugeot-long-range-delay]
-updated: 2026-04-13
+updated: 2026-06-22
 ---
 
 # 斯特蘭蒂斯（Stellantis）
@@ -29,10 +29,31 @@ updated: 2026-04-13
 - **規模**：年產目標 5 萬輛；可能延伸至 Alfa Romeo
 - **邏輯**：Stellantis EV 業務 2022 年大幅減損後，利用零跑技術降低開發成本
 
+## Formula E 重整（2026-04）
+
+Stellantis 旗下 Formula E 參賽品牌重組：
+
+| 品牌 | 動態 |
+|------|------|
+| **DS Automobiles** | 退出（多年參賽後）|
+| **Maserati** | 被 Citroën 取代 |
+| **Opel** | 接替 DS，首輛賽車命名 **GSE 27FE**（代表 2026/27 賽季 Formula E）|
+| **Citroën** | 接替 Maserati |
+
+未來代表 Stellantis 參賽：**Opel + Citroën**（Gen4 Formula E 起）
+參見：[[sources/opel-formula-e-gse27fe-2026]]
+
+## FaSTLAne 2030 轉型計畫
+- €600 億投資，29 款 BEV，STLA One 全通用平台（800V + LFP + Cell-to-Body）
+- 合作夥伴：Wayve 自駕、Qualcomm、NVIDIA、CATL、零跑
+- 目標：2028 年每年節省 €60 億，2035 年 200 萬輛/年
+
 ## Related
 - [[entities/零跑汽車]]
-- [[concepts/地理市場/中國EV出海策略]]
-- [[concepts/地理市場/北美EV關稅與政策]]
-- [[concepts/歐洲EV政策]]
+- [[concepts/中國EV出海策略]]
+- [[concepts/北美EV關稅與政策]]
+- [[concepts/歐洲EV市場]]
 - [[sources/stellantis-leapmotor-canada-rejected]]
 - [[sources/stellantis-opel-leapmotor-suv]]
+- [[sources/opel-formula-e-gse27fe-2026]]
+- [[sources/stellantis-fastlane-2030]]

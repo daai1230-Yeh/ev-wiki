@@ -1023,3 +1023,55 @@ Pages 375 → 406，Sources 315 → 346
   - 韓國：Tesla首奪進口冠軍、起亞超越現代、Honda退出、ESS成長引擎、Chaevi IPO、光州自駕實證、補貼進口限制
   - 東南亞：泰國EV3.5/GWM Ora5/吉利Riddara/Volvo起火、馬來西亞CBU新規/BYD停工、VinFast重組、印尼豐田CATL
 - Issues：少數純技術/全球性文章（如電池壽命、被動元件、機器人電池）未對應特定國家，符合預期跳過
+
+## [2026-06-22] ingest | Batch 34 — 舊 electrive-2026-04-22 補漏（10 篇）
+- 背景：electrive-2026-04-22 資料夾已刪除，但 15 個 raw/assets MD 仍在磁碟；其中 5 篇已在先前 wiki/sources（bmw-i7、chargepoint、gm-delay、volvo-ex60、vw-china），本批補建剩餘 10 篇
+- 新建 wiki/sources 頁面：
+  - [[sources/amazon-einride-electric-trucks-2026]] — Amazon 租 Einride 75 輛 BEV 中程物流
+  - [[sources/bosch-sic-gen3-chips-2026]] — Bosch Gen3 SiC 晶片效能 +20%
+  - [[sources/catl-super-tech-day-2026]] — CATL 超級科技日：神行三代、麒麟三代、鈉電、凝聚態
+  - [[sources/eu-automotive-package-2035-2026]] — 歐盟汽車套案談判延至 9 月
+  - [[sources/opel-formula-e-gse27fe-2026]] — Opel GSE 27FE 接替 DS 參戰 Formula E Gen4
+  - [[sources/redwood-materials-layoffs-pivot-2026]] — Redwood Materials 裁員 10%、轉向 BESS
+  - [[sources/smart-concept2-microcar-2026]] — Smart Concept #2 回歸微型車
+  - [[sources/uk-ultrafast-charging-hub-2026]] — 英國 1.44MW 超快充站，年 6 萬次
+  - [[sources/vwcv-id-buzz-2026-update]] — VW ID. Buzz 年改：AWD 250kW + V2L
+  - [[sources/vietnam-ford-tasco-charging-2026]] — 越南 Ford×Tasco 89 座 DC 快充
+- Index 更新：Sources 354→364；Pages 423→433
+
+## [2026-06-22] ingest | Batch 34 頁面更新（concepts + entities + countries）
+- Pages updated: [[concepts/電池技術路線]], [[concepts/充電基礎建設]], [[concepts/電動商用車]], [[concepts/歐洲EV市場]], [[concepts/車用半導體供應鏈]], [[entities/寧德時代]], [[entities/Stellantis]], [[countries/中國]], [[countries/歐洲]], [[countries/美國]], [[countries/東南亞]]
+- New pages created: [[concepts/電池回收]]
+- Key additions:
+  - 電池技術路線：Redwood Materials BESS 轉型 + Bosch SiC +20%
+  - 充電基礎建設：英國 1.44MW 超快充案例 + 越南 Ford×Tasco 89 DC 站
+  - 電動商用車：Amazon×Einride 75 輛 MaaS 中程物流模式
+  - 歐洲EV市場：EU 汽車套案延至 9 月（德國主導方向）
+  - 車用半導體：Bosch Gen3 SiC +20%
+  - 寧德時代：全面擴充（Super Tech Day 5 款新電池、固態立場、技術授權策略）
+  - Stellantis：Opel Formula E GSE 27FE（取代 DS），Citroën 取代 Maserati
+  - 中國：Smart Concept #2 北京發表
+  - 歐洲：EU 汽車套案 + VW ID. Buzz AWD/V2L + UK 超快充 + Opel Formula E
+  - 美國：Amazon×Einride + Redwood Materials 轉向
+  - 東南亞：Vietnam Ford×Tasco 快充布局
+  - 新頁面：電池回收概念頁（Redwood Materials + Waymo B2U + 科羅拉多立法）
+
+## [2026-06-22] ingest | 駐外新聞 美國 2025（批量摘要）
+- Summary page: [[sources/駐外新聞-美國-2025]]
+- Raw assets: raw/assets/駐外新聞/2025-*-美國-*.md（83 篇）
+- Coverage: 2025-01 至 2025-12；來源包括駐美國代表處、駐休士頓、駐洛杉磯、駐芝加哥、駐亞特蘭大、駐美投資貿易服務處
+- Key themes:
+  1. 川普新政：IRA 削減、EV 強制令取消、25% 汽車關稅（4月）、中重型卡車 25% 關稅（10月）、CAFE 標準大幅放寬（12月）
+  2. 美國 EV 市場降溫：GM BrightDrop 滯銷、美國放棄 EV 企圖心蔓延全球、EV 電池廠轉向 BESS
+  3. 中國 EV 管制強化：聯網車軟硬體管制、GM 仍向 CATL 進口 LFP（80% 累計關稅）、ITIF 報告「不應允許中國 EV 廠商赴美設廠」、GM 稀土磁鐵國內協議
+  4. Tesla 去中國化供應鏈：LFP 依賴是最大挑戰
+  5. 氫能卡車崩潰（製造商逐一倒閉）
+  6. 加州電動卡車困境 + 無人駕駛電動接駁巴士（河濱市）
+  7. 台廠美國布局：堤維西密西根新廠、成運汽車電動巴士 CTE 視訊
+- Pages to update (pending user confirmation):
+  - [[countries/美國]]：補充川普 CAFE 放寬、EV 電池廠轉 BESS 全貌、GM CATL LFP 進口、Tesla 去中國化、GM 稀土磁鐵協議
+  - [[concepts/美國EV市場與政策]]：補充 CAFE 放寬、EV 市場降溫全貌、ITIF 報告
+  - [[concepts/電池技術路線]]：補充 BESS 轉型對電池廠的影響
+  - [[concepts/電動商用車]]：補充氫能卡車崩潰、加州電動卡車 TaaS 模式
+  - [[entities/Tesla]]：Tesla 去中國化供應鏈細節
+  - [[entities/通用汽車]]：GM CATL LFP 進口、稀土磁鐵協議、BrightDrop 滯銷
