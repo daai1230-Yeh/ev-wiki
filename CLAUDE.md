@@ -73,11 +73,13 @@ When the user says "ingest [source]" or drops a file into `raw/`:
 
 #### Step 0 — 確保原文存在（必做）
 每一篇 `wiki/sources/` 頁必須對應至少一個 `raw/assets/` 原文檔。
-- 若原文已在 `raw/assets/`：直接進行步驟 1。
+- 若原文已在 `raw/assets/` 或 `raw/assets/駐外新聞/`：直接進行步驟 1。
 - 若**尚未抓取**：先使用 **news-clipper skill**（`/news-clipper`）將原文剪輯並存入 `raw/assets/`，再繼續。
   - electrive.com、sustainable-bus.com：公開，可直接抓取。
   - digitimes.com.tw：需使用者已登入 Chrome。
   - 其他來源：嘗試直接抓取；失敗則在 frontmatter 記錄 `clipped: pending`。
+- **駐外新聞**：原文 PDF/DOCX 已轉換為 `raw/assets/駐外新聞/` 下的 MD 檔案，直接使用。
+  若有新增駐外新聞，先執行 `/foreign-news-clipper` 更新後再 ingest。
 
 #### Steps 1–8（正式流程）
 
@@ -105,8 +107,26 @@ When the user says "ingest [source]" or drops a file into `raw/`:
 #### Dashboard 更新（每次 ingest 後）
 ```bash
 python3 generate_dashboard.py
-git add docs/index.html wiki/ && git commit -m "update: $(date +%Y-%m-%d)" && git push
+git add docs/index.html wiki/ raw/assets/駐外新聞/ && git commit -m "update: $(date +%Y-%m-%d)" && git push
 ```
+
+### FOREIGN-NEWS-CLIPPER — 駐外新聞轉換
+
+當使用者說「更新駐外新聞」或「有新的駐外新聞」時：
+
+1. 執行轉換腳本：
+   ```bash
+   cd "/Users/claude/Documents/Claude code AI筆記"
+   python3 convert_foreign_news.py
+   ```
+2. 腳本會自動偵測 Google Drive 駐外新聞資料夾的新增/更新檔案，只處理有變動的。
+3. 轉換完成後，向使用者報告更新清單。
+4. 若使用者接著要求 ingest，將新增的 `raw/assets/駐外新聞/*.md` 納入 INGEST 流程。
+
+**路徑**：
+- 來源：`~/Library/CloudStorage/GoogleDrive-daai1230@gmail.com/我的雲端硬碟/駐外新聞/`
+- 輸出：`raw/assets/駐外新聞/`
+- 腳本：`convert_foreign_news.py`（專案根目錄）
 
 ### QUERY — Answering questions
 
