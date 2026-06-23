@@ -1,6 +1,6 @@
 # Wiki Index
 
-Last updated: 2026-06-22 | Pages: 443 | Sources: 373
+Last updated: 2026-06-23 | Pages: 448 | Sources: 377
 
 ---
 
@@ -264,6 +264,12 @@ Last updated: 2026-06-22 | Pages: 443 | Sources: 373
 - [[sources/google-alerts-ev-jun20-2026]] — Google Alerts 6/20 中文彙整：台達電泰國擴產、吉利遠程甲醇電動登港、歐盟 PHEV 關稅、加拿大限額進口、鴻海海外科學園區布局。(2026-06-20)
 - [[sources/insideevs-critical-materials-jun20-2026]] — InsideEVs Critical Materials 6/20：Rivian R2 效率、BMW i3 提前預訂、Waymo 二度召回、Tesla Cybercab 極小電池、Uber×Stellantis×Wayve MOU。(2026-06-20)
 
+### 每日新聞批次
+- [[sources/electrive-batch-2026-04-22]] — 2026-04-22 electrive 15篇：GM延遲EV皮卡至2030、Volvo EX60量產、VW中國攻勢、ChargePoint 600kW、Redwood轉型儲能。(2026-06-23)
+- [[sources/digitimes-2026-06-18-update]] — Digitimes 4篇：Mobileye Robotaxi 2027美國自營、SK On×現代HMGMA獨家供電、機器人電池設計、荷蘭Tesla FSD 4萬輛上路。(2026-06-23)
+- [[sources/ev-news-2026-06-22]] — 2026-06-22 混合13篇：EU PHEV關稅、MW閃充大戰（BYD/吉利/CATL）、EV電池→儲能轉型、BYD人形機器人、QuantumScape×Honda、India-UK FTA。(2026-06-23)
+- [[sources/ev-news-2026-06-23]] — 2026-06-23 混合15篇：CATL×Octopus Energy「Swaptopus」歐洲重卡換電、匈牙利EV污染調查（BYD/CATL/SDI）、Lucid 18%裁員、Lyten×Northvolt Heide、Alpitronic 1000kW、Busworld Turkey 2026。(2026-06-23)
+
 ### 駐外新聞批量摘要
 - [[sources/駐外新聞-美國-2025]] — 2025 全年 83 篇；川普 EV 補貼削減/25% 汽車關稅/CAFE 放寬、底特律倒退、BESS 轉型、Tesla 去中國化供應鏈、氫能卡車崩潰。(2026-06-22)
 - [[sources/駐外新聞-歐洲汽車製造國-2025]] — 德國+斯洛伐克+匈牙利+奧地利+波蘭；德國供應商危機（5萬裁員/ZF出售）、Volvo Kosice EV廠、國軒€12億電池廠、BYD匈牙利歐洲總部+工廠延誤。(2026-06-22)
@@ -449,6 +455,7 @@ Last updated: 2026-06-22 | Pages: 443 | Sources: 373
 - [[concepts/電池與技術/自動召喚功能]] — Tesla ASS 功能，1% 事故率，已通過 NHTSA 審查。
 - [[concepts/電池與技術/電池交換技術]] — 本田/鈴木/山葉共同推動 Gachaco；河內 1,000 站全市計畫；Hanoi BSS 是越南 E2W 發展關鍵。
 - [[concepts/電池回收]] — Redwood Materials（北美市場領袖）裁員並轉向 BESS；廢舊電池回收量不足規模化，商業化節奏落後預期。
+- [[concepts/人形機器人]] — BYD 秘密研發 4 年後宣布進軍；A-PRO Hot-Swap 換電設計；中國車廠（小鵬/理想/BYD）全面進軍；GM×Fanuc 工廠自動化。
 
 ### 基礎設施與供應鏈／
 - [[concepts/基礎設施與供應鏈/充電基礎建設]] — 歐洲 V2G 商業化（BMW×E.ON）；Tesla Basecharger 125kW；Rocsys M1 機器人充電；Moto UK £5 億擴建；河內 1,000 BSS。

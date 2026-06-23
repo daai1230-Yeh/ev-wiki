@@ -1134,3 +1134,39 @@ Pages 375 → 406，Sources 315 → 346
 - Pages updated: [[countries/歐洲]], [[entities/比亞迪]], [[entities/寧德時代]], [[concepts/車用半導體供應鏈]], [[countries/東南亞]], [[countries/美國]]
 - Countries updated: [[countries/歐洲]], [[countries/東南亞]], [[countries/美國]]
 - New pages created: 5 個批量摘要頁面
+
+## [2026-06-23] ingest | electrive.com 2026-04-22 批次（15 篇）
+- Summary page: [[sources/electrive-batch-2026-04-22]]
+- Raw assets: raw/assets/2026-04-22-*.md（15 個檔案）
+- Key additions: GM 延遲次世代 EV 皮卡/SUV（2028→2030+）、Volvo EX60 SPA3 量產啟動（810km P12 AWD）、VW 中國攻勢 20+ 款新車、ChargePoint Express Solo 600kW、Redwood Materials 轉型儲能、Amazon×Einride 75 電動卡車
+- Note: Bosch SiC Gen3 和 CATL Super Tech Day 已有 wiki source 頁面，本批次為 electrive 同日版本
+
+## [2026-06-23] ingest | Digitimes 2026-06-18 批次（4 篇）
+- Summary page: [[sources/digitimes-2026-06-18-update]]
+- Raw assets: raw/assets/2026-06-18-Mobileye*.md, raw/assets/2026-06-18-SK-On*.md, raw/assets/2026-06-18-機器人電池*.md, raw/assets/2026-06-18-荷蘭*.md
+- Key additions: Mobileye 宣布 2027 年美國自營 Robotaxi（100→17,000 輛）；SK On 獨家供應 HMGMA；機器人電池 Hot-Swap 設計；荷蘭 Tesla FSD 4 萬輛 / 2,400 萬公里零重大事故
+
+## [2026-06-23] ingest | EV 市場快訊 2026-06-22（13 篇）
+- Summary page: [[sources/ev-news-2026-06-22]]
+- Raw assets: raw/assets/2026-06-22-*.md（13 個檔案）
+- Key additions: EU 計畫對中國 PHEV 加徵關稅；MW 閃充三方角力（BYD 76°C 溫度爭議）；EV 電池→儲能（LCOE 降至燃煤水準）；BYD 秘密研發人形機器人 4 年；QuantumScape×Honda；VW MEBeco（APP290）Győr 廠量產；Stellantis E-Car 純電小車；India-UK FTA EV 2031 起降稅
+
+## [2026-06-23] ingest | EV 市場快訊 2026-06-23（15 篇）
+- Summary page: [[sources/ev-news-2026-06-23]]
+- Raw assets: raw/assets/2026-06-23-*.md（15 個檔案）
+- Key additions: CATL×Octopus Energy「Swaptopus」歐洲重卡換電合資（2027 英國首站，2035 年 30+ 站）；匈牙利新政府嚴查 BYD/CATL/三星 SDI 環保問題；BYD Q4 2026 開始 Szeged 組裝；Lucid 18% 裁員（第二輪）；Lyten €6,000 萬收購 Northvolt Heide；Alpitronic 1000kW CCS；GM×Fanuc 機器人引 UAW 勞資衝突；Busworld Turkey 2026
+
+## [2026-06-23] update | 批次頁面更新（新聞批次 electrive-2026-04-22 / digitimes-2026-06-18 / ev-news-2026-06-22 / ev-news-2026-06-23）
+- Pages updated: [[concepts/電池技術路線]], [[concepts/充電基礎建設]], [[concepts/Robotaxi自動計程車]], [[countries/歐洲]], [[countries/美國]], [[countries/印度]], [[countries/韓國]], [[entities/比亞迪]], [[entities/寧德時代]]
+- New pages created: [[concepts/人形機器人]]
+- Key additions:
+  - 電池技術路線：MW閃充三方競賽（BYD 6分/76°C vs 吉利 5分/<64°C vs CATL 4分）、EV→BESS LCOE 達燃煤平價（$72/$77 MWh）、QuantumScape×Honda 固態合作
+  - 充電基礎建設：ChargePoint Express Solo 600kW 一體式、Alpitronic HYC1000 升至 1,000kW、ChargePoint 歐洲私人客戶退出 B2B
+  - Robotaxi：中國智駕供應鏈 2H26（吉利 Robotaxi 2027、小鵬 GX、Momenta 80万辆、實體AI+艙駕融合）
+  - 人形機器人（新建）：BYD 4年秘密研發宣布、A-PRO Hot-Swap 換電設計、GM×Fanuc 工廠自動化
+  - 歐洲：EU PHEV 關稅擴大分析（中國品牌歐盟+英國市占 8%→10%）、Stellantis BEV 小車平台確認、匈牙利新政府調查 BYD/CATL/SDI、Lyten €6,000萬收購 Northvolt Heide、BYD Szeged Q4 2026 啟動
+  - 美國：GM 次世代電動皮卡/SUV 延至 2030+、Lucid 18% 裁員（年內第二次）
+  - 印度：印度—英國 FTA（7月生效，EV 關稅 Year 6~10% 路徑）
+  - 韓國：SK On HMGMA 獨家供應更新（+24.2% YoY、80% 產能、LGES JV 2028-29 接力）
+  - 比亞迪：人形機器人宣布、Szeged Q4+第二廠（塞爾維亞）、MW 76°C 爭議、匈牙利調查
+  - 寧德時代：Swaptopus（×Octopus Energy，英歐 eHGV 換電，500kWh/5分鐘，2027英國先行）、匈牙利調查
