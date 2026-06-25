@@ -1170,3 +1170,34 @@ Pages 375 → 406，Sources 315 → 346
   - 韓國：SK On HMGMA 獨家供應更新（+24.2% YoY、80% 產能、LGES JV 2028-29 接力）
   - 比亞迪：人形機器人宣布、Szeged Q4+第二廠（塞爾維亞）、MW 76°C 爭議、匈牙利調查
   - 寧德時代：Swaptopus（×Octopus Energy，英歐 eHGV 換電，500kWh/5分鐘，2027英國先行）、匈牙利調查
+
+## [2026-06-25] ingest | EV News 批次 2026-06-24（16 篇）+ 2026-06-25（17 篇）
+- Summary page: [[sources/ev-news-2026-06-24]]
+- Summary page: [[sources/ev-news-2026-06-25]]
+- Raw assets: raw/assets/2026-06-24-*.md（16 篇）, raw/assets/2026-06-25-*.md（17 篇）
+- Pages updated: wiki/index.md（Sources 新增 2 條）
+- Key additions (06-24):
+  - EU 5月BEV 203,417 輛（+42.9% YoY），累計 5 個月 950,521 輛（20% 市占）
+  - ICCT Q1 2026：宇通首次奪歐盟電動巴士第一；Mercedes-Benz Trucks 重卡第一
+  - Škoda Peaq 七座 SUV：€49,900，642km，V2G，Kia EV9 同級更便宜
+  - Smart #2 ECA 平台：<€20K，300km，<20min DC
+  - Rivian：停售廉價 R1T/R1S，R2 開始交車（$57,990）
+  - Ford Mach-E 不遷移 UEV 平台，後繼車款前途未明
+  - SK On：取得中國鹽城廠 100% 股權（提前 3 個月）
+  - 中國 L3/L4 強制國標：2027-07 實施，130m 感測，4 秒接管，黑盒子強制
+  - 現代挖角 Tesla 金東旭（SDV 平台中心長）+ NVIDIA 人才，AVP 重組
+  - CATL 曾毓群 WEF 大連：EV 閒置算力 → AI Token 工廠構想
+  - 鴻華先進歐洲 BOL 主場：波蘭 EMP 合作，27.5% 美國關稅促轉向歐洲
+- Key additions (06-25):
+  - Slate Auto 皮卡：$24,950（史上最廉價美國 EV）；Gotion 伊利諾 LFP，205mi
+  - 澳洲 NSW：AUD$65 億電動巴士計畫，1,700 輛，10 年
+  - 韓國：BEV +125.3% YoY，補貼恐 8 月耗盡，研議氫能補貼轉移 EV
+  - 西班牙 Plan Auto+：7 月啟動，€4,500 上限，EU 製造 +€675 獎勵
+  - CATL 天恒鈉電 ESS：15,000 次循環，25-30 年壽命，>30MWh/套，9 月中國交付
+  - CATL 鈉電 EV：2026 年 1-2 萬輛，可在 -30°C 工作
+  - 本田中國 120→72 萬輛，供應鏈「去本田化」（G-Tekt 等 5 家）
+  - Waymo：$2.2 億購 Apple Project Titan 基地（5,500 英畝，亞利桑那）
+  - 中系車廠漲價後踩煞車：碳酸鋰 +130%，15 品牌先漲後縮，Tesla 降價施壓
+  - 中國固態電解質研究：Li₃OCl+PVDF，350 次後 84%（vs QS 1,000 次後 95%+）
+  - Solaris 年產能 +500 輛；VW Cariad 柏林 AI Hub 1,000 AI 專家
+- New pages created: 無（待使用者確認後更新現有頁面）

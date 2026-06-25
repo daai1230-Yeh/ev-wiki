@@ -1,6 +1,6 @@
 # Wiki Index
 
-Last updated: 2026-06-23 | Pages: 448 | Sources: 377
+Last updated: 2026-06-25 | Pages: 450 | Sources: 379
 
 ---
 
@@ -269,6 +269,8 @@ Last updated: 2026-06-23 | Pages: 448 | Sources: 377
 - [[sources/digitimes-2026-06-18-update]] — Digitimes 4篇：Mobileye Robotaxi 2027美國自營、SK On×現代HMGMA獨家供電、機器人電池設計、荷蘭Tesla FSD 4萬輛上路。(2026-06-23)
 - [[sources/ev-news-2026-06-22]] — 2026-06-22 混合13篇：EU PHEV關稅、MW閃充大戰（BYD/吉利/CATL）、EV電池→儲能轉型、BYD人形機器人、QuantumScape×Honda、India-UK FTA。(2026-06-23)
 - [[sources/ev-news-2026-06-23]] — 2026-06-23 混合15篇：CATL×Octopus Energy「Swaptopus」歐洲重卡換電、匈牙利EV污染調查（BYD/CATL/SDI）、Lucid 18%裁員、Lyten×Northvolt Heide、Alpitronic 1000kW、Busworld Turkey 2026。(2026-06-23)
+- [[sources/ev-news-2026-06-24]] — 2026-06-24 混合16篇：EU 5月BEV 203K輛(+43%)/20%市占、ICCT宇通首奪EU e-bus第一、Škoda Peaq七座上市、Smart #2 ECA、Rivian停售廉價R1、SK On鹽城廠100%、中國L3/L4強制標準2027-07、現代挖角Tesla/NVIDIA、CATL曾毓群EV→AI Token構想、鴻華先進BOL歐洲主場。(2026-06-25)
+- [[sources/ev-news-2026-06-25]] — 2026-06-25 混合17篇：Slate皮卡$24,950、澳洲NSW AUD$65億電動巴士、韓國氫能補貼轉EV討論、西班牙Plan Auto+€4,500、CATL天恒鈉電ESS（15K循環/25-30年壽命）、本田中國減產供應鏈去本田化、Waymo接手Apple Project Titan基地、中系車廠漲價後踩煞車（碳酸鋰+130%）。(2026-06-25)
 
 ### 駐外新聞批量摘要
 - [[sources/駐外新聞-美國-2025]] — 2025 全年 83 篇；川普 EV 補貼削減/25% 汽車關稅/CAFE 放寬、底特律倒退、BESS 轉型、Tesla 去中國化供應鏈、氫能卡車崩潰。(2026-06-22)
