@@ -1,7 +1,7 @@
 ---
 tags: [entity]
 sources: [rivian-r2-range-specs, rivian-service-network-2026, rivian-lidar-china-partner-2026]
-updated: 2026-05-06
+updated: 2026-06-29
 ---
 
 # Rivian
@@ -57,6 +57,18 @@ updated: 2026-05-06
 
 - 已投入**數億美元**，以與 Tesla 自研晶片競爭
 - 參見：[[sources/rivian-lidar-china-partner-2026]]
+
+## R2 開始交車 + 停售低配 R1（2026-06）
+
+| 動態 | 細節 |
+|------|------|
+| **R2 首批交車**啟動 | 中型電動 SUV，Uber 合約首批 |
+| 停售 Dual Standard R1T | 低配雙馬達皮卡停產，聚焦高利潤版本 |
+| 停售 Dual Standard R1S | 低配雙馬達 SUV 同步停產 |
+
+- 策略調整：Rivian 將資源集中於 R2（量）與高配 R1（利潤），放棄低價版本
+- 與 Slate Auto $24,950 皮卡路線形成差異化（Rivian 走品質路線）
+- 參見：[[sources/ev-news-2026-06-24]] | [[countries/美國]]
 
 ## Related
 - [[entities/Tesla]]

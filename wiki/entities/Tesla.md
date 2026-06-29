@@ -1,7 +1,7 @@
 ---
 tags: [entity]
 sources: [tesla-ass-nhtsa-probe-closed, tesla-taiwan-march-2026, xiaomi-ev-europe-2027, tesla-4680-musk-strategy, tesla-korea-q1-2026, tesla-q1-2026-earnings, tesla-india-model-y-l, 駐外新聞-美國-2025]
-updated: 2026-06-22
+updated: 2026-06-29
 ---
 
 # Tesla
@@ -100,6 +100,22 @@ updated: 2026-06-22
 - Tesla 自研 4680 圓柱電池（Gigafactory Nevada）是長期替代路線，但產能仍在爬坡
 
 參見：[[sources/駐外新聞-美國-2025]] | [[entities/寧德時代]]
+
+## FSD 歐洲七國上線（2026-06）
+
+Tesla FSD（Full Self-Driving，SAE Level 2 監督模式）以 **v14 軟體**擴展至歐洲七國：
+
+| 項目 | 細節 |
+|------|------|
+| 國家 | 德國、法國、英國、西班牙、義大利、比利時、荷蘭 |
+| 主導國 | **德國**（柏林廠 + 最大歐洲市場）|
+| 訂閱費 | **€99/月** |
+| 法規路徑 | 荷蘭 RDW 型式核准 → 德國 KBA 相互認可 |
+| 前情 | 立陶宛（2026-05）→ 荷蘭 40,000 輛 → 七國同步 |
+
+v14 架構升級強化神經網路感知，歐洲大規模收集訓練數據。
+
+參見：[[sources/ev-news-2026-06-29]] | [[concepts/ADAS智駕系統]] | [[countries/歐洲]]
 
 ## 競爭壓力
 - 小米 2027 年目標進軍歐洲，大量從 Tesla 德國團隊挖角

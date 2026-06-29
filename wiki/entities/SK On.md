@@ -1,7 +1,7 @@
 ---
 tags: [entity]
 sources: [sk-on-hungary-utilization, sk-on-nissan-battery-doubt-2026, ski-q1-2026-results, sk-on-erev-battery-hyundai-2027]
-updated: 2026-05-15
+updated: 2026-06-29
 ---
 
 # SK On
@@ -50,13 +50,23 @@ updated: 2026-05-15
 - EREV 單車電池 40kWh（>HEV 20 倍），市場潛力高
 - 參見：[[sources/sk-on-erev-battery-hyundai-2027]]
 
+## 鹽城廠 100% 股權收購完成（2026-06）
+
+SK On 完成對中國**江蘇鹽城**電池廠的完全控股收購：
+- 原為合資廠（SK On + 中國合作方），完全控股後可靈活調整產能
+- 鹽城廠產能可供應中國本土及出口市場
+- 背景：SK On 在華策略整合，聚焦高效益廠區
+- 參見：[[sources/ev-news-2026-06-24]] | [[countries/韓國]]
+
 ## Related
 - [[entities/LGES]]
 - [[concepts/電池與技術/電池技術路線]]
 - [[concepts/地理市場/歐洲EV市場]]
 - [[concepts/地理市場/美國EV市場與政策]]
 - [[concepts/基礎設施與供應鏈/儲能市場]]
+- [[countries/韓國]]
 - [[sources/sk-on-hungary-utilization]]
 - [[sources/sk-on-nissan-battery-doubt-2026]]
 - [[sources/ski-q1-2026-results]]
 - [[sources/sk-on-erev-battery-hyundai-2027]]
+- [[sources/ev-news-2026-06-24]]

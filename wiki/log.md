@@ -1228,3 +1228,36 @@ Pages 375 → 406，Sources 315 → 346
   - 印度三大廠（Mahindra/Maruti/Tata）評估英國 EV 出口（FTA Year 6 起配額 17,600 輛）
   - 現代 1 年生產量 ≈ Tesla 近 10 年銷量（朴旼宇，實體 AI 時代製造優勢）
 - New pages created: 無（待使用者確認後更新現有頁面）
+
+## [2026-06-29] update | 全數更新（2026-06-24/25/26/29 批次累積）
+
+本次更新涵蓋兩個 ingest 批次（共 33 篇文章）觸發的所有概念、國家、實體頁面更新。
+
+### 更新頁面
+
+- Concepts: [[concepts/鈉離子電池]]（天恒 ESS 15K 循環）
+- Concepts: [[concepts/ADAS智駕系統]]（FSD 7 國 EU 上線、中國 L3/L4 強制標準 2027-07）
+- Concepts: [[concepts/電池技術路線]]（天恒鈉電 ESS、碳酸鋰+130%漲價撤回）
+- Concepts: [[concepts/充電基礎建設]]（台達電 100kW Eichrecht、西班牙 Plan Auto+）
+- Concepts: [[concepts/電動巴士市場]]（ICCT 宇通 EU Q1 第一、NSW $65 億、大阪 EVMJ 醜聞、Solaris 擴產）
+- Countries: [[countries/歐洲]]（5 月 BEV 203K +43%、Škoda Peaq、Smart #2 ECA、FSD 7 國、HEV/PHEV 11%）
+- Countries: [[countries/美國]]（Polestar 禁售、Toyota vs GM、Slate $24,950）
+- Countries: [[countries/日本]]（荷莫茲 10 萬輛減產、EVMJ 醜聞、無稀土電機、本田中國 -40%）
+- Countries: [[countries/中國]]（L3/L4 強制標準、漲價撤回、EV 出口 $92 億、HEV/PHEV EU 11%）
+- Countries: [[countries/韓國]]（BEV +125.3%、補貼轉移、SK On 鹽城 100%）
+- Countries: [[countries/印度]]（FTA 配額細節 17,600→88,000 輛/年）
+- Entities: [[entities/Tesla]]（FSD 7 國 EU v14 €99/月）
+- Entities: [[entities/豐田]]（Toyota vs GM HEV 策略勝出、荷莫茲減產）
+- Entities: [[entities/吉利汽車]]（Lotus 加拿大 2026-07 交車、極氪 EU 豪華定位）
+- Entities: [[entities/寧德時代]]（天恒鈉電 ESS 規格）
+- Entities: [[entities/比亞迪]]（漲價撤回）
+- Entities: [[entities/Rivian]]（R2 交車啟動、停售低配 R1）
+- Entities: [[entities/福特]]（Mach-E 不採 UEV 平台）
+- Entities: [[entities/鴻海]]（Foxtron BOL 歐洲主場）
+- Entities: [[entities/SK On]]（鹽城 100% 收購）
+
+### 新建頁面
+- Entities: [[entities/現代汽車]]（Tesla/NVIDIA 挖角、美國鋰礦、Atria AI）
+- Entities: [[entities/Waymo]]（Apple Titan 場地 $2.2 億、車隊 4,000 輛）
+- Entities: [[entities/Slate Auto]]（$24,950 電動皮卡、Gotion LFP）
+- Countries: [[countries/澳洲]]（NSW 電動巴士 $65 億、中國品牌超日系）
