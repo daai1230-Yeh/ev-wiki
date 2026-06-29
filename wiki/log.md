@@ -1201,3 +1201,30 @@ Pages 375 → 406，Sources 315 → 346
   - 中國固態電解質研究：Li₃OCl+PVDF，350 次後 84%（vs QS 1,000 次後 95%+）
   - Solaris 年產能 +500 輛；VW Cariad 柏林 AI Hub 1,000 AI 專家
 - New pages created: 無（待使用者確認後更新現有頁面）
+
+## [2026-06-29] ingest | EV News 批次 2026-06-26（4 篇）+ 2026-06-29（13 篇）
+- Summary page: [[sources/ev-news-2026-06-26]]
+- Summary page: [[sources/ev-news-2026-06-29]]
+- Raw assets: raw/assets/2026-06-25-Tesla*.md, raw/assets/2026-06-26-*.md（3篇）, raw/assets/2026-06-29-*.md（13篇）
+- Note: 8 個 2026-06-25 無空格版本為同批文章重新抓取（重複），記錄備查
+- Pages updated: wiki/index.md（Sources 新增 2 條）
+- Key additions (06-26):
+  - Tesla+SpaceX 合併傳聞（IPO 後投資人期待）
+  - 極氪副總：10 年內全球前 5 豪華品牌將有 1-2 個中國品牌
+  - 現代汽車搶進美國鋰礦開發（IRA 去中化）
+  - 立凱電從 IP 授權轉向自主製造，搶北美 LFP 材料龍頭
+- Key additions (06-29):
+  - Tesla FSD：德國領軍，7 國歐洲上線（v14，€99/月），RDW→KBA 互認框架
+  - Polestar：美國禁止 2027 年式起銷售新車（Connected Vehicle Rule，吉利所有權）；Volvo 獲豁免
+  - Toyota vs GM：H1 2026 差距縮至 <10 萬輛；Toyota HEV +10% vs GM EV -23.3%
+  - 中國 HEV/PHEV 繞關稅：5 月歐洲市占 11%（歷史首次突破 10%）
+  - 加拿大 × 中國：Lotus 7 月首批交車，年配額 49,000 輛；BYD/奇瑞秋季跟進
+  - 大阪 Metro 醜聞：190 輛假冒日本製中國巴士（EVMJ），67 億日圓損失，CEO 被告背信罪
+  - 日企無稀土電機：Astemo（日立×本田）鐵基電機，2030 量產；日產 LEAF 稀土 -90%
+  - 中國 5 月 EV 出口：$92 億美元歷史新高（油價催化）
+  - 豐田荷莫茲衝擊：2026-06~2027-02 海外累計減產 10 萬輛
+  - 鋰電材料全鏈通膨：上游壓力蔓延中游電芯廠
+  - 台達電 100kW 快充取得德國 Eichrecht 認證（50kW/100kW/500kW 三款齊全）
+  - 印度三大廠（Mahindra/Maruti/Tata）評估英國 EV 出口（FTA Year 6 起配額 17,600 輛）
+  - 現代 1 年生產量 ≈ Tesla 近 10 年銷量（朴旼宇，實體 AI 時代製造優勢）
+- New pages created: 無（待使用者確認後更新現有頁面）
