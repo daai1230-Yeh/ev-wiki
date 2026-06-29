@@ -1,6 +1,6 @@
 # Wiki Index
 
-Last updated: 2026-06-29 | Pages: 452 | Sources: 381
+Last updated: 2026-06-29 | Pages: 454 | Sources: 381
 
 ---
 
@@ -409,6 +409,7 @@ Last updated: 2026-06-29 | Pages: 452 | Sources: 381
 - [[entities/比亞迪]] — 中國最大 NEV 廠，全球電動巴士最大生產商，海鷗為出口主力。
 - [[entities/奇瑞]] — 中國老牌自主車廠，QQ3 直接挑戰比亞迪海鷗。
 - [[entities/零跑汽車]] — 中國 EV 新創，Stellantis 持股 20%，嘗試借道進入北美。
+- [[entities/Polestar]] — 瑞典吉利旗下電動車品牌，2027年式起美國禁售（Connected Vehicle Rule），業務重心轉歐洲。
 
 ### 電池廠
 - [[entities/三星SDI]] — 韓國電池廠（三星集團），高鎳 NMC 電池，已供應 BMW/VW，**2026-04-20 正式簽署賓士合約**（€58 億，MMA 平台，2028）。
@@ -478,6 +479,7 @@ Last updated: 2026-06-29 | Pages: 452 | Sources: 381
 - [[countries/台灣]] — 車用半導體/充電設備/LFP 前驅體供應鏈關鍵角色，智駕特殊場景差異化策略。
 - [[countries/韓國]] — 三大電池廠（LGES/三星SDI/SK On）主導全球高端電池，現代/起亞 EV 旗艦量產。
 - [[countries/東南亞]] — 中國 EV 出口橋頭堡，越南 VinFast 本土品牌崛起，機車換電基礎建設快速擴張。
+- [[countries/加拿大]] — 卡尼政府開放中國EV進口（年配額49,000輛），Lotus率先交車，BYD/奇瑞2026秋跟進。
 
 ---
 
