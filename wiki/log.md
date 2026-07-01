@@ -1292,3 +1292,52 @@ Pages 375 → 406，Sources 315 → 346
 - **德里 EV Policy 2.0**：2027-01 起禁新注登記電動三輪替代品等；2030 目標 95% 新車 EV
 - **Northvolt**：德國資產以 €6,000 萬出售給 Lyten（比成本低超過 €3 億）
 - **歐洲二手 EV**：油價推升後需求翻倍（AutoScout24 YoY +100%），VW ID.3 供不應求
+
+## [2026-07-01] update | 全數更新批次：概念/國家/實體（2026-06-17~07-01 批次）
+
+### 操作摘要
+承接 d65a154 批次 ingest（43 篇原文，4 個 source 頁面），完成全部概念、國家、實體頁面的全數更新。
+
+### Concepts 更新（共 7 頁）
+- [[concepts/電動巴士市場]] — +10 節：Zenobē £9.8 億、Solaris 新廠、RSV Reutlingen、Piedmont €112.4M、聖保羅 1,759 輛、EIB/Qbuzz、Alexandria DASH、Volvo BZL、BVG 柏林、Bolzano 氫能
+- [[concepts/充電基礎建設]] — +6 節：Alexandria DASH 360kW、Gridserve Tamworth 32 bays、Electra 800K eMSP、Terawatt $300M AV 充電、法國租賃第三輪、德里 32K 充電站
+- [[concepts/ADAS智駕系統]] — +4 節：VW-Bosch L3 傳拆夥、Honda/Nissan/Mitsubishi SDV ECU 2029、Tesla Cybercab 無輪測試、Micron L2+ 記憶體需求
+- [[concepts/電池技術路線]] — +2 節：Northvolt→Lyten €60M 詳細分析、Renault R4/R5 LFP 路線圖
+- [[concepts/鈉離子電池]] — +1 節：CATL Naxtra 2026（175 Wh/kg、10-20K 輛、長安 Nevo A06）
+- [[concepts/儲能市場]] — +2 節：Honda Ohio ESS 轉型、CATL Tener 慕尼黑發布
+- [[concepts/氫燃料電池商用車]] — +1 節：Bolzano HAV 2MW 電解槽 + 1.5MW PV + SASA 120+ ZEB
+
+### Countries 新建（3 頁）
+- [[countries/英國]] — NEWLY CREATED：BEV 200 萬、ZEV Mandate 50%、London 3,000 ZEB、Zenobē £980M、Gridserve Tamworth
+- [[countries/德國]] — NEWLY CREATED：VW 4 廠關閉、VW-Bosch L3 傳拆、RSV e-bus、BVG 柏林充電、Northvolt→Lyten
+- [[countries/巴西]] — NEWLY CREATED：聖保羅 1,759 輛 e-bus、BYD 265 輛、2022 禁柴油、COP30 2040 ZEV
+
+### Countries 更新（5 頁）
+- [[countries/澳洲]] — +Volvo BZL Electric 18m WA PTA 首發
+- [[countries/歐洲]] — +5 節：Piedmont €112.4M、法國租賃第三輪、Electra 800K、油價→二手 EV 翻倍、Sunsundegui 破產
+- [[countries/美國]] — +4 節：加州 $135M CA HQ 豁免、Alexandria DASH 路線充電、Terawatt $300M AV 充電、Tesla Cybercab
+- [[countries/印度]] — +德里 EV Policy 2.0（2027 ICE 禁）、中印 EV 平台合作
+- [[countries/日本]] — +Honda/Nissan SDV ECU 2029、Toyota×Joby Aviation JV
+
+### Entities 更新（7 頁）
+- [[entities/寧德時代]] — +Naxtra 2026 10-20K 輛目標
+- [[entities/本田]] — +FY2025 ¥423.9B 虧損、Ohio ESS 轉型、SDV ECU 合作
+- [[entities/豐田]] — +Toyota×Joby Aviation JV（51/49，~$1B 累計）
+- [[entities/Tesla]] — +Cybercab 無方向盤 Austin 測試
+- [[entities/比亞迪]] — +聖保羅 265 輛 D9W+BC22
+- [[entities/Rivian]] — +加州 $135M 無上限豁免
+- [[entities/蔚來]] — +ES8 第三代 10 萬輛 7 個月、NIO 轉盈
+
+### Entities 新建（7 頁）
+- [[entities/Volkswagen]] — NEWLY CREATED：4 廠關閉、10 萬裁員、VW-Bosch L3、美國退出、中國本土化
+- [[entities/BMW]] — NEWLY CREATED：iX5（141 kWh/460 kW/Spartanburg 2026-08）、LGES 46 系列 100 GWh、Neue Klasse
+- [[entities/Lucid]] — NEWLY CREATED：Air/Gravity/Cosmos/Earth、PIF 持股、CA HQ 補貼豁免
+- [[entities/Renault]] — NEWLY CREATED：AmpR Small、R4/R5 Gen2、LFP 路線圖、法國租賃受益
+- [[entities/Zoox]] — NEWLY CREATED：Amazon 旗下、Las Vegas/SF 運營、Hayward 量產、100 輛/週目標
+- [[entities/Northvolt]] — NEWLY CREATED：破產始末、Heide €60M 賤賣、德國政府 >€300M 損失
+- [[entities/日産]] — NEWLY CREATED：固態電池 FY2028 橫濱量產、Sunderland×奇瑞、SDV ECU 2029、稀土 -90%
+
+### Index 更新
+- Pages: 464 → 474
+- 新增 10 條 entity/country 索引條目
+

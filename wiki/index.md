@@ -424,12 +424,17 @@ Last updated: 2026-07-01 | Pages: 474 | Sources: 385
 - [[entities/三星SDI]] — 韓國電池廠（三星集團），高鎳 NMC 電池，已供應 BMW/VW，**2026-04-20 正式簽署賓士合約**（€58 億，MMA 平台，2028）。
 - [[entities/SK On]] — 韓國第二大電池廠，匈牙利廠 2026 年產能利用率 85%，為 VW/Ford 供應 NCM 電池。
 - [[entities/寧德時代]] — 全球最大動力電池廠，主導鈉電池量產，技術授權至美國。
+- [[entities/Northvolt]] — 瑞典電池廠，2024 年破產，德國 Heide 廠 €6,000 萬賤賣給 Lyten（資產原值 >€3.6 億）。
 
 ### 傳統車廠（轉型中）
 - [[entities/豐田]] — 佐藤恒治「維持現狀無法生存」；FY2026 利潤目標下修 21%（3.8 兆）；bZ 系列逆勢成長。
 - [[entities/通用汽車]] — 美國最大車廠，Q1 2026 EV 銷量年減 19%。
 - [[entities/福特]] — 美國第二大車廠，Q1 2026 EV 銷量重挫 70%，轉型儲能（Ford Energy）。
 - [[entities/Stellantis]] — 歐美跨國車廠，持股零跑 20%，EV 策略面臨多重壓力。
+- [[entities/Volkswagen]] — 德國最大車廠，計劃關閉 4 座德國工廠裁員 10 萬人，VW-Bosch L3 聯盟傳分裂。
+- [[entities/BMW]] — 德國豪華車廠，iX5（141 kWh/460 kW DC）世界首映，Spartanburg 廠 2026-08 量產。
+- [[entities/Renault]] — 法國最大車廠，RNM Alliance，R4/R5 Gen2 2026 年底，LFP 路線圖已列入。
+- [[entities/日産]] — 日本第三大車廠，固態電池 23 層驗證 FY2028 量產，Honda/Nissan SDV ECU 合作 2029。
 
 ### 電動商用車
 - [[entities/鴻海]] — 台灣製造巨頭，與三菱FUSO合作電動巴士，目標外銷東南亞；Cavira 乘用車 2026 年上市。
@@ -490,6 +495,9 @@ Last updated: 2026-07-01 | Pages: 474 | Sources: 385
 - [[countries/東南亞]] — 中國 EV 出口橋頭堡，越南 VinFast 本土品牌崛起，機車換電基礎建設快速擴張。
 - [[countries/加拿大]] — 卡尼政府開放中國EV進口（年配額49,000輛），Lotus率先交車，BYD/奇瑞2026秋跟進。
 - [[countries/澳洲]] — 中國品牌首超日系（2025），NSW AUD$65億/1,700輛電動巴士10年計畫。
+- [[countries/英國]] — BEV 累計 200 萬輛，ZEV Mandate 鬆綁至 50%，Zenobē £980M 電動巴士融資，Gridserve Tamworth 32 bays。
+- [[countries/德國]] — VW 4 廠關閉計畫，供應商 43K 裁員，Northvolt→Lyten €60M，BVG Berlin 20 充電站，RSV Reutlingen e-bus。
+- [[countries/巴西]] — São Paulo 1,759 輛電動巴士，265 輛 BYD D9W+BC22，2022 年起禁柴油，COP30 2040 ZEV 目標。
 
 ---
 
