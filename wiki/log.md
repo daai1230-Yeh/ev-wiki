@@ -1261,3 +1261,34 @@ Pages 375 → 406，Sources 315 → 346
 - Entities: [[entities/Waymo]]（Apple Titan 場地 $2.2 億、車隊 4,000 輛）
 - Entities: [[entities/Slate Auto]]（$24,950 電動皮卡、Gotion LFP）
 - Countries: [[countries/澳洲]]（NSW 電動巴士 $65 億、中國品牌超日系）
+
+## [2026-07-01] ingest | 2026-06-17~07-01 批次（電動巴士 + 英文 EV + 中文補充 + 06-30~07-01）
+
+### Source Pages Created
+- [[sources/ev-news-ebus-2026-06-17-30]] — 14 篇電動巴士（Zenobē、Solaris、RSV、Piedmont 標案、聖保羅 BYD、EIB Qbuzz、Alexandria DASH、Sunsundegui、TruckTower、Volvo BZL 澳洲、BVG 柏林、Hydrogen Bolzano）
+- [[sources/ev-news-2026-06-27-29-en]] — 12 篇英文 EV（Slate 試乘、Zoox 量產前升級、CATL 鈉電 20K 輛、VW 4 廠關閉、Lucid Cosmos/Earth、NIO ES8 轉盈、Porsche Cayenne 萊比錫、Renault R4/R5 升級、Terawatt $3 億、Gridserve 坦沃斯、Electra 80 萬點、法國社會租賃第三輪）
+- [[sources/ev-news-2026-06-29-zh]] — 3 篇中文補充（本田電池廠→AI 儲能、陸系車歐洲 11% 混動戰略、美光 CEO 機器人/自駕記憶體需求）
+- [[sources/ev-news-2026-06-30-07-01]] — 14 篇混合（Honda/Nissan/Mitsubishi SDV 平台、VW-Bosch L3 聯盟評估拆夥、格斯董座、歐洲二手 EV 搶購、Polestar 退出美國補充、豐田×Joby、加州 $1.35 億補貼、德里 EV Policy 2.0、Northvolt→Lyten、Tesla Cybercab、BMW iX5 首發）
+
+### Raw Assets
+- `raw/assets/2026-06-17-Zenobe-980-million-pounds-1200-electric-buses-UK-Ireland.md`
+- `raw/assets/2026-06-23-Solaris-assembly-hall-Sroda-Wielkopolska-Poland-500-buses.md`
+- `raw/assets/2026-06-25-RSV-Reutlingen-12-MAN-electric-articulated-buses.md`
+- `raw/assets/2026-06-26-ALSA-ATM-RATP-Piedmont-regional-bus-tender-112m.md`
+- `raw/assets/2026-06-26-Sao-Paulo-500-electric-buses-BYD-265-fleet-1759.md`
+- `raw/assets/2026-06-27-Slate-EV-Truck-first-ride-impressions.md`
+- `raw/assets/2026-06-27-Zoox-upgrades-robotaxi-ahead-of-series-production.md`（原為 EIB Qbuzz electrive）
+- （共約 43 個新 raw/assets 檔案，含中英文）
+
+### Key Additions
+- **電動巴士**：Zenobē £9.8 億第三輪、Solaris 新廠 +500/年、EIB €7,000 萬 / Qbuzz 275 輛、聖保羅累計 1,759 輛（禁購柴油）、Volvo BZL 18m 澳洲首發、BVG 柏林 20 站計畫
+- **CATL**：鈉離子電池 2026 年目標 10–20K 輛裝車；Tener ESS 慕尼黑發布
+- **VW**：傳計劃關閉漢諾威/茨維考/埃姆登/奧迪 Neckarsulm 4 廠，裁員最多 10 萬
+- **L3 智駕**：VW-Bosch 聯盟傳評估拆夥；本田/日產/三菱 SDV ECU 共通化 2029
+- **本田**：俄亥俄電池廠轉 AI 儲能（LGES 合資）；2025 年度首次年度虧損
+- **BMW iX5**：141kWh / 460kW DC / 2027 上市；2028 年推出氫燃料電池版
+- **Tesla Cybercab**：無方向盤版本奧斯汀街道測試啟動（2027 前上市目標）
+- **加州**：$1.35 億 EV 補貼，Rivian/Lucid 特別豁免（無價格上限）
+- **德里 EV Policy 2.0**：2027-01 起禁新注登記電動三輪替代品等；2030 目標 95% 新車 EV
+- **Northvolt**：德國資產以 €6,000 萬出售給 Lyten（比成本低超過 €3 億）
+- **歐洲二手 EV**：油價推升後需求翻倍（AutoScout24 YoY +100%），VW ID.3 供不應求

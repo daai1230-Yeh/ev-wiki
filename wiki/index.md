@@ -1,6 +1,6 @@
 # Wiki Index
 
-Last updated: 2026-06-29 | Pages: 460 | Sources: 381
+Last updated: 2026-07-01 | Pages: 464 | Sources: 385
 
 ---
 
@@ -273,6 +273,10 @@ Last updated: 2026-06-29 | Pages: 460 | Sources: 381
 - [[sources/ev-news-2026-06-25]] — 2026-06-25 混合17篇：Slate皮卡$24,950、澳洲NSW AUD$65億電動巴士、韓國氫能補貼轉EV討論、西班牙Plan Auto+€4,500、CATL天恒鈉電ESS（15K循環/25-30年壽命）、本田中國減產供應鏈去本田化、Waymo接手Apple Project Titan基地、中系車廠漲價後踩煞車（碳酸鋰+130%）。(2026-06-25)
 - [[sources/ev-news-2026-06-26]] — 2026-06-26 補充4篇：Tesla/SpaceX合併傳聞、極氪打入歐洲高端豪車、現代汽車搶進美國鋰礦（去中化）、立凱電從IP授權轉向自主製造（北美LFP龍頭目標）。(2026-06-29)
 - [[sources/ev-news-2026-06-29]] — 2026-06-29 混合13篇：Tesla FSD德國領軍7國、美國禁售Polestar（Connected Vehicle Rule）、Toyota逼近GM（HEV策略見效）、中國HEV/PHEV繞關稅奪歐洲11%、加拿大Lotus率先交車、大阪Metro 190輛假冒日本製巴士醜聞、日企無稀土電機（Astemo 2030）、豐田荷莫茲衝擊減產10萬輛、中國5月EV出口$92億歷史新高。(2026-06-29)
+- [[sources/ev-news-ebus-2026-06-17-30]] — 電動巴士批次14篇（06-17~30）：Zenobē £9.8億/1,200輛、Solaris波蘭新廠+500輛、RSV Reutlingen 12輛MAN鉸接、ALSA/ATM/RATP皮埃蒙特€1.124億標案、聖保羅265輛BYD、EIB/Qbuzz荷蘭€7,000萬、Alexandria DASH路線充電、Volvo BZL 18m澳洲、BVG柏林20個快充站、Hydrogen Adige Valley。(2026-07-01)
+- [[sources/ev-news-2026-06-27-29-en]] — 英文EV批次12篇（06-27~29）：Slate $24,950試乘、Zoox機器人計程車量產、CATL鈉電10-20K輛、VW關閉4廠/裁員10萬、Lucid Cosmos/Earth $50K、NIO ES8 10萬輛轉盈、保時捷Cayenne萊比錫遷廠、Renault R4/R5升級、Terawatt $3億AV充電場站、Electra 80萬充電點、法國社會租賃第三輪。(2026-07-01)
+- [[sources/ev-news-2026-06-29-zh]] — 中文補充批次3篇：本田俄亥俄電池廠轉AI儲能（LGES合資/2026-06）、陸系車歐洲11%（混動繞關稅）、美光CEO人形機器人記憶體10倍自駕車/數十年超級週期。(2026-07-01)
+- [[sources/ev-news-2026-06-30-07-01]] — 中英混合批次14篇（06-30~07-01）：本田/日產/三菱SDV平台/ECU共通化2029、VW-Bosch L3聯盟傳拆夥、格斯科技沈國榮接董座、歐洲二手EV搶購潮、Polestar退出美國（CVR補充）、豐田×Joby合資飛天車、加州$1.35億EV補貼（Rivian/Lucid受惠）、德里EV Policy 2.0/ICE漸禁、德國Northvolt→Lyten €6千萬、Tesla Cybercab無方向盤測試、BMW iX5首發141kWh/460kW。(2026-07-01)
 
 ### 駐外新聞批量摘要
 - [[sources/駐外新聞-美國-2025]] — 2025 全年 83 篇；川普 EV 補貼削減/25% 汽車關稅/CAFE 放寬、底特律倒退、BESS 轉型、Tesla 去中國化供應鏈、氫能卡車崩潰。(2026-06-22)
