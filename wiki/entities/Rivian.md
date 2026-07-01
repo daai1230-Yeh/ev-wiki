@@ -1,7 +1,7 @@
 ---
 tags: [entity]
 sources: [rivian-r2-range-specs, rivian-service-network-2026, rivian-lidar-china-partner-2026]
-updated: 2026-06-29
+updated: 2026-07-01
 ---
 
 # Rivian
@@ -70,10 +70,26 @@ updated: 2026-06-29
 - 與 Slate Auto $24,950 皮卡路線形成差異化（Rivian 走品質路線）
 - 參見：[[sources/ev-news-2026-06-24]] | [[countries/美國]]
 
+## 加州 $1.35 億激勵計畫：無價格上限豁免（2026-06）
+
+加州 CARB EV 激勵計畫對**加州總部 ZEV 廠商**設特殊豁免：
+| 項目 | 細節 |
+|------|------|
+| 計畫規模 | **$1.35 億** |
+| 一般條件 | 首次購車者 + 新車 ≤$50,000 |
+| Rivian 豁免 | **Irvine, CA 總部** → **不受 $50K 上限限制** |
+| R2 Performance | $57,990 + Launch Package 仍可享補貼 |
+| R2 Standard（預期）| ~$45K → 一般條件亦符合 |
+
+- 加州 HQ 邏輯：優先支持在加州創造就業的本土 EV 廠商
+- 參見：[[sources/ev-news-2026-06-30-07-01]] | [[countries/美國]]
+
 ## Related
 - [[entities/Tesla]]
+- [[entities/Lucid]]
 - [[concepts/地理市場/美國EV市場與政策]]
 - [[concepts/電池與技術/ADAS智駕系統]]
 - [[sources/rivian-r2-range-specs]]
 - [[sources/rivian-service-network-2026]]
 - [[sources/rivian-lidar-china-partner-2026]]
+- [[sources/ev-news-2026-06-30-07-01]]

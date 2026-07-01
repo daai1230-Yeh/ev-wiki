@@ -1,6 +1,6 @@
 # Wiki Index
 
-Last updated: 2026-07-01 | Pages: 464 | Sources: 385
+Last updated: 2026-07-01 | Pages: 474 | Sources: 385
 
 ---
 
@@ -417,6 +417,8 @@ Last updated: 2026-07-01 | Pages: 464 | Sources: 385
 - [[entities/現代汽車]] — 韓國最大整車廠，Pleos SDV OS、Atria AI 自駕，2026年大規模挖角 Tesla/NVIDIA 人才。
 - [[entities/Waymo]] — Alphabet 旗下 Robotaxi 領先者，4,000 輛/10+ 城市/50 萬次週服務，$2.2 億收購 Apple Titan 場地。
 - [[entities/Slate Auto]] — 美國電動皮卡新創，$24,950 採 Gotion LFP，主打美國最平價量產電動皮卡。
+- [[entities/Lucid]] — 美國豪華電動車新創，Newark CA 總部，PIF 主要股東，Cosmos ~$50K 中型 SUV 2026 底量產。
+- [[entities/Zoox]] — Amazon 旗下 Purpose-built Robotaxi，已在拉斯維加斯/舊金山商業運營，Hayward 工廠進入系列生產。
 
 ### 電池廠
 - [[entities/三星SDI]] — 韓國電池廠（三星集團），高鎳 NMC 電池，已供應 BMW/VW，**2026-04-20 正式簽署賓士合約**（€58 億，MMA 平台，2028）。

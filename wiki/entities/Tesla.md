@@ -1,7 +1,7 @@
 ---
 tags: [entity]
 sources: [tesla-ass-nhtsa-probe-closed, tesla-taiwan-march-2026, xiaomi-ev-europe-2027, tesla-4680-musk-strategy, tesla-korea-q1-2026, tesla-q1-2026-earnings, tesla-india-model-y-l, 駐外新聞-美國-2025]
-updated: 2026-06-29
+updated: 2026-07-01
 ---
 
 # Tesla
@@ -121,10 +121,26 @@ v14 架構升級強化神經網路感知，歐洲大規模收集訓練數據。
 - 小米 2027 年目標進軍歐洲，大量從 Tesla 德國團隊挖角
 - Rivian R2 能效超越 Tesla Model Y Performance
 
+## Cybercab：無方向盤版本德州路測（2026-06-30）
+
+Tesla Cybercab 在德州奧斯汀進行公路測試，確認無方向盤設計：
+| 項目 | 細節 |
+|------|------|
+| 測試日期 | 2026-06-30（公開目擊報告）|
+| 車輛設計 | **無方向盤、無踏板**（無駕駛控制介面）|
+| 安全監督員 | 坐右後方位（非駕駛位），可能有遠端介入能力 |
+| 上路目標 | 2027 年前完成監管許可並商業化 |
+
+- 核心挑戰：Tesla 擬採私人所有制（車主付費自駕），vs Waymo/Zoox 的車隊運營模式
+- 私人所有制監管路徑差異大：車隊模式可集中管控，私有車輛難以統一遠端監督
+- 實際進度落後：德州登記數量僅 42 輛（vs Musk 承諾 1,000+）
+- 參見：[[sources/ev-news-2026-06-30-07-01]] | [[concepts/ADAS智駕系統]] | [[countries/美國]]
+
 ## Related
 - [[entities/NHTSA]]
 - [[entities/小米汽車]]
 - [[entities/Rivian]]
+- [[concepts/ADAS智駕系統]]
 - [[concepts/電池與技術/自動召喚功能]]
 - [[concepts/電池與技術/自動駕駛安全監管]]
 - [[concepts/地理市場/台灣EV市場]]
@@ -136,4 +152,5 @@ v14 架構升級強化神經網路感知，歐洲大規模收集訓練數據。
 - [[sources/tesla-korea-q1-2026]]
 - [[sources/tesla-q1-2026-earnings]]
 - [[sources/tesla-india-model-y-l]]
+- [[sources/ev-news-2026-06-30-07-01]]
 - [[concepts/電池與技術/電池技術路線]]
