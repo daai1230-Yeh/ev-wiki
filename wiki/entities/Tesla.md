@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [tesla-ass-nhtsa-probe-closed, tesla-taiwan-march-2026, xiaomi-ev-europe-2027, tesla-4680-musk-strategy, tesla-korea-q1-2026, tesla-q1-2026-earnings, tesla-india-model-y-l, 駐外新聞-美國-2025]
-updated: 2026-07-01
+sources: [tesla-ass-nhtsa-probe-closed, tesla-taiwan-march-2026, xiaomi-ev-europe-2027, tesla-4680-musk-strategy, tesla-korea-q1-2026, tesla-q1-2026-earnings, tesla-india-model-y-l, 駐外新聞-美國-2025, ev-news-2026-07-02]
+updated: 2026-07-02
 ---
 
 # Tesla
@@ -27,6 +27,13 @@ updated: 2026-07-01
 | 2026-04 | NHTSA 結束調查，正式結案 |
 
 ## 市場表現
+
+### 台灣（2026 年 6 月）
+- 交付量：**4,369 輛（+158% YoY / +145% MoM）**
+- 全市場排名：**第 2 名**（超越多數傳統品牌；Toyota 第 1）
+- 台灣總市場份額：**10.6%**（總市場 41,361 輛，+21%）
+- 2026-06 為 Tesla 台灣的大幅月度反彈
+- 參見：[[sources/ev-news-2026-07-02]] | [[countries/台灣]]
 
 ### 台灣（2026 年 3 月）
 - 交付量：5,421 輛
@@ -135,6 +142,23 @@ Tesla Cybercab 在德州奧斯汀進行公路測試，確認無方向盤設計�
 - 私人所有制監管路徑差異大：車隊模式可集中管控，私有車輛難以統一遠端監督
 - 實際進度落後：德州登記數量僅 42 輛（vs Musk 承諾 1,000+）
 - 參見：[[sources/ev-news-2026-06-30-07-01]] | [[concepts/ADAS智駕系統]] | [[countries/美國]]
+
+## 電池健康度案例：展示車車齡效應（2026-07）
+
+一輛 2022 年 Tesla Model 3 Performance（前展示車）的實測電池健康度揭示展示車歷史的影響：
+
+| 評估來源 | 電池健康度 |
+|---------|----------|
+| Recurrent App（舊估值）| 89% |
+| Recurrent App（新估值）| 92% |
+| **Tesla 官方測試（實測）** | **88%** |
+| 原廠 EPA 續航 | 303 英里；實測顯示 276 英里 |
+
+- 此車在 5 個月車齡時以 1,000 英里低里程買入，後車主全程以 L2 牆充為主
+- 車主推測：原因在於展示車時期被頻繁 DC 快充至滿電並長時間高 SoC 放置
+- **教訓**：低里程二手 EV 不代表電池健康——**展示車歷史是評估盲點**，買前應實測電池
+- Tesla 保固標準：電池容量低於 70% 在 8 年或里程保固內才觸發換電
+- 參見：[[sources/ev-news-2026-07-02]]
 
 ## Related
 - [[entities/NHTSA]]

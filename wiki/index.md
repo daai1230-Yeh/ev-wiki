@@ -1,6 +1,6 @@
 # Wiki Index
 
-Last updated: 2026-07-01 | Pages: 474 | Sources: 385
+Last updated: 2026-07-02 | Pages: 475 | Sources: 386
 
 ---
 
@@ -277,6 +277,7 @@ Last updated: 2026-07-01 | Pages: 474 | Sources: 385
 - [[sources/ev-news-2026-06-27-29-en]] — 英文EV批次12篇（06-27~29）：Slate $24,950試乘、Zoox機器人計程車量產、CATL鈉電10-20K輛、VW關閉4廠/裁員10萬、Lucid Cosmos/Earth $50K、NIO ES8 10萬輛轉盈、保時捷Cayenne萊比錫遷廠、Renault R4/R5升級、Terawatt $3億AV充電場站、Electra 80萬充電點、法國社會租賃第三輪。(2026-07-01)
 - [[sources/ev-news-2026-06-29-zh]] — 中文補充批次3篇：本田俄亥俄電池廠轉AI儲能（LGES合資/2026-06）、陸系車歐洲11%（混動繞關稅）、美光CEO人形機器人記憶體10倍自駕車/數十年超級週期。(2026-07-01)
 - [[sources/ev-news-2026-06-30-07-01]] — 中英混合批次14篇（06-30~07-01）：本田/日產/三菱SDV平台/ECU共通化2029、VW-Bosch L3聯盟傳拆夥、格斯科技沈國榮接董座、歐洲二手EV搶購潮、Polestar退出美國（CVR補充）、豐田×Joby合資飛天車、加州$1.35億EV補貼（Rivian/Lucid受惠）、德里EV Policy 2.0/ICE漸禁、德國Northvolt→Lyten €6千萬、Tesla Cybercab無方向盤測試、BMW iX5首發141kWh/460kW。(2026-07-01)
+- [[sources/ev-news-2026-07-02]] — 混合批次17篇（07-02）：挪威6月BEV 96.5%/H1 97.6%、台灣6月+21%（Toyota#1/Tesla#2+158%）、印度Q1FY27 ePV 82,700輛（Tata 39%/Mahindra 24%）、韓國BYD補貼取消/ESS 312→847 GWh、德里EV補貼全額（2W ₹30K/三輪₹50K/LCV ₹1L）、Northvolt Heide LOI完整細節（€6億轉換貸款/Lyten/5方簽署）、GM×Micron第16份SCA/DRAM+70%、CATL 60天帳期/11廠、大阪世博巴士130輛送富山、BYD Q2 BEV 557K（超Tesla）、VW評估中國EV引進歐洲（ID.Era 9X）、日本GO上市/Tier IV IPO、Slate不進加拿大（25%關稅）、Dacia Spring £11,990、Tesla電池88%展示車、電吸門安全隱患。(2026-07-02)
 
 ### 駐外新聞批量摘要
 - [[sources/駐外新聞-美國-2025]] — 2025 全年 83 篇；川普 EV 補貼削減/25% 汽車關稅/CAFE 放寬、底特律倒退、BESS 轉型、Tesla 去中國化供應鏈、氫能卡車崩潰。(2026-06-22)
@@ -498,6 +499,7 @@ Last updated: 2026-07-01 | Pages: 474 | Sources: 385
 - [[countries/英國]] — BEV 累計 200 萬輛，ZEV Mandate 鬆綁至 50%，Zenobē £980M 電動巴士融資，Gridserve Tamworth 32 bays。
 - [[countries/德國]] — VW 4 廠關閉計畫，供應商 43K 裁員，Northvolt→Lyten €60M，BVG Berlin 20 充電站，RSV Reutlingen e-bus。
 - [[countries/巴西]] — São Paulo 1,759 輛電動巴士，265 輛 BYD D9W+BC22，2022 年起禁柴油，COP30 2040 ZEV 目標。
+- [[countries/挪威]] — 全球 BEV 市占最高國：2026 年 6 月 96.5%、H1 97.6%，電動車隊超 100 萬輛，Tesla 品牌市占 16.5%。
 
 ---
 

@@ -1341,3 +1341,42 @@ Pages 375 → 406，Sources 315 → 346
 - Pages: 464 → 474
 - 新增 10 條 entity/country 索引條目
 
+## [2026-07-02] ingest | ev-news-2026-07-02（混合批次 17 篇）
+
+- Summary page: [[sources/ev-news-2026-07-02]]
+- Raw assets: raw/assets/2026-07-02-*.md（17 篇）
+- 來源批次：挪威 BEV 96.5%、台灣 6 月車市、印度 Q1FY27、韓國補貼/ESS、德里 EV Policy、Northvolt LOI 完整、GM×Micron SCA、CATL 60 天帳期、大阪世博巴士、BYD Q2、VW 中國 EV、GO/Tier IV、Slate 加拿大、Dacia Spring、Tesla 電池健康、電吸門安全
+
+## [2026-07-02] update | 全數更新：概念/國家/實體（2026-07-02 批次）
+
+### Countries 新建（1 頁）
+- [[countries/挪威]] — NEWLY CREATED：BEV 96.5%（2026-06）/ H1 97.6%、電動車隊 100 萬輛、Tesla 16.5%、電動廂型車 54.5%
+
+### Countries 更新（5 頁）
+- [[countries/台灣]] — +2026 年 6 月市場：41,361 輛（+21%）、Toyota #1 / Tesla #2 +158% YoY
+- [[countries/韓國]] — +BYD 補貼資格取消（60/100 門檻失敗）、+ESS 稅制改革（312→847 GWh 預測）
+- [[countries/德國]] — +Northvolt LOI 完整細節（€6 億轉換貸款、5 方簽署、Reiche/Günther）
+- [[countries/歐洲]] — +Dacia Spring £11,990、+VW 中國 EV 評估（ID.Era 9X）、+挪威 96.5% 摘要
+- [[countries/印度]] — +Q1 FY27 ePV 82,700 輛品牌市占表（Tata 39%/Mahindra 24%/JSW MG 20%）
+
+### Entities 更新（6 頁）
+- [[entities/Volkswagen]] — +評估引進中國開發 EV（ID.Era 9X EREV + CSP 平台 SUV）
+- [[entities/比亞迪]] — +Q2 2026 BEV 557,090 輛奪冠、+韓國補貼取消
+- [[entities/Tesla]] — +台灣 6 月 4,369 輛 +158% YoY、+電池健康度展示車案例 88%
+- [[entities/寧德時代]] — +中國供應鏈 60 天帳期倡議（11 廠、SME 現金付款）
+- [[entities/Northvolt]] — +LOI 完整資產表、€6 億轉換貸款、5 方名單、Reiche/Günther、Lyten 薪資 7/1 起
+- [[entities/Slate Auto]] — +加拿大不計劃進軍（25% 關稅 $24,950→~$44,500 CAD）
+
+### Concepts 更新（4 頁）
+- [[concepts/ADAS智駕系統]] — +GO 上市 / Tier IV IPO（日本 Robotaxi）、+GM×Micron SCA DRAM +70%、+電吸門安全隱患（電吸門、BYD/Huawei/Xiaomi 無防夾）
+- [[concepts/電池技術路線]] — +Northvolt LOI 財務細節（€6 億轉換貸款 vs €60M 回收）+ Lyten 鋰硫技術
+- [[concepts/儲能市場]] — +韓國 ESS 312→847 GWh（IRA AMPC 驅動）、+CATL 60 天帳期信號
+- [[concepts/充電基礎建設]] — +德里 EV Policy 2.0 完整補貼額度（2W ₹30K、三輪 ₹50K、LCV ₹1L、免稅門檻、₹15,000 crore 投資）
+
+### Concepts 更新（1 頁）
+- [[concepts/電動巴士市場]] — +大阪世博 EVMJ 130 輛巴士送富山處理場（2026-05~06）
+
+### Index 更新
+- Pages: 474 → 475（新增 [[countries/挪威]]）
+- Sources: 385 → 386（新增 [[sources/ev-news-2026-07-02]]）
+

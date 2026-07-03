@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [vw-restructure-china-offensive-2026, ev-news-2026-06-27-29-en, ev-news-2026-06-30-07-01]
-updated: 2026-07-01
+sources: [vw-restructure-china-offensive-2026, ev-news-2026-06-27-29-en, ev-news-2026-06-30-07-01, ev-news-2026-07-02]
+updated: 2026-07-02
 ---
 
 # Volkswagen（福斯集團）
@@ -76,6 +76,24 @@ VW 董事會據報計劃關閉德國四座工廠，裁員最多 10 萬人：
 - VW 自建電芯子公司 PowerCo，歐洲多廠布局（包含 EU Battery Booster 受益廠商）
 - Samsung SDI 引入：匈牙利廠添加 2 條產線，最快 2027 年，建立「三足鼎立」供應體系（PowerCo + Gotion + Samsung SDI）
 
+## 評估將中國開發 EV 引進歐洲（2026-07）
+
+VW 正式評估將中國開發的 EREV 車型引入歐洲市場，以規避 EU BEV 反補貼稅：
+
+| 車型 | 規格 | 亮點 |
+|------|------|------|
+| **ID. Era 9X（EREV）** | 220kW、51.1/65.2kWh 電池、1.5L 增程器、全長 5.21m | 與 SAIC 聯合開發；不受 EU BEV 額外關稅限制 |
+| **CSP 平台 SUV** | Touareg 尺寸，2027 年後 | 尚在評估階段 |
+
+**策略邏輯**：
+- EU 對中國 BEV 加徵 35%+ 反補貼稅，但 EREV（增程電動車）屬於 PHEV 分類，**稅率較低**
+- 軟體/法規本地化是主要障礙：歐洲監管要求、OTA 認證、語言系統等
+- **Zwickau 廠**（目前面臨關閉風險）為潛在歐洲生產地
+- 下薩克森州總理 Lies 支持此方案（可保住 Zwickau 廠就業）
+- 中國市場策略（「在中國、為中國」）與歐洲市場需求加速合流
+
+參見：[[sources/ev-news-2026-07-02]] | [[countries/歐洲]] | [[countries/德國]]
+
 ## Related
 - [[entities/BMW]]
 - [[entities/Bosch]]
@@ -87,3 +105,4 @@ VW 董事會據報計劃關閉德國四座工廠，裁員最多 10 萬人：
 - [[sources/vw-restructure-china-offensive-2026]]
 - [[sources/ev-news-2026-06-27-29-en]]
 - [[sources/ev-news-2026-06-30-07-01]]
+- [[sources/ev-news-2026-07-02]]
