@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [lges-bmw-46series-order, ev-news-2026-06-30-07-01]
-updated: 2026-07-01
+sources: [lges-bmw-46series-order, ev-news-2026-06-30-07-01, ev-news-2026-07-10-electrive-batch]
+updated: 2026-07-10
 ---
 
 # BMW（寶馬）
@@ -74,6 +74,19 @@ BMW 旗艦電動 SUV 全球首映，進入新能量密度區間：
 | 目標市場 | 全球，包含中國、美國、歐洲 |
 
 - BMW CLAR 平台：中國市場 iX1/i3/i5（CLAR 平台）2026-07 起廢除，Neue Klasse 接棒
+
+## AESC 46120 大圓柱電芯量產：iX5 首搭（2026-07）
+
+> **結論**：AESC 正式量產 46120 大圓柱電芯（首搭 BMW iX5），可用能量較舊格式提升近 30%，是 BMW 第六代 eDrive 電池技術落地的關鍵一步。
+
+**主因（數字敘事）**：
+- 規格突破：46mm×120mm 電芯，能量密度達 **310 Wh/kg**，可用能量較前代提升**近 30%** → 電芯數量減少、系統整合更簡化，車輛設計彈性提高
+- 化學升級：鎳高正極 + 矽摻雜負極 → 兼顧能量密度與熱穩定性
+- 首搭車款 iX5：141kWh 淨電量、800V 架構，美國 Spartanburg 廠生產 → 雖仍基於 CLAR 平台（非 Neue Klasse），已導入第六代 eDrive 電芯技術，成為新舊平台間的技術橋接產品
+
+**觀察**：AESC 美國南卡 Florence County 廠（原 2025 中暫停）是否重啟以供應此電芯；iX5 實際上市時程（2026 底至 2027 初）。
+
+- 參見：[[sources/ev-news-2026-07-10-electrive-batch]]
 
 ## Related
 - [[entities/Volkswagen]]

@@ -1,6 +1,6 @@
 ---
 tags: [entity]
-sources: [tesla-ass-nhtsa-probe-closed, tesla-taiwan-march-2026, xiaomi-ev-europe-2027, tesla-4680-musk-strategy, tesla-korea-q1-2026, tesla-q1-2026-earnings, tesla-india-model-y-l, 駐外新聞-美國-2025, ev-news-2026-07-02, ev-news-2026-07-03-08, ev-news-2026-07-09]
+sources: [tesla-ass-nhtsa-probe-closed, tesla-taiwan-march-2026, xiaomi-ev-europe-2027, tesla-4680-musk-strategy, tesla-korea-q1-2026, tesla-q1-2026-earnings, tesla-india-model-y-l, 駐外新聞-美國-2025, ev-news-2026-07-02, ev-news-2026-07-03-08, ev-news-2026-07-09, ev-news-2026-07-10-insideevs-batch]
 updated: 2026-07-10
 ---
 
@@ -213,6 +213,19 @@ Tesla Cybercab 在德州奧斯汀進行公路測試，確認無方向盤設計�
 - Model 3 **61.2%**、Model X 60.5%、Model Y 54.2%；中國品牌多集中在 47% 區間（BYD 海鷗 51% 為本土最佳）
 - 核心差異：二手流通管道完善 + 改款節奏穩定；中國品牌迭代過快反而壓縮舊車殘值 → 「內捲」的隱性代價浮現
 - 參見：[[sources/ev-news-2026-07-03-08]] | [[countries/中國]]
+
+## 紐澤西擬立法禁純視覺 Robotaxi 技術（2026-07）
+
+> **結論**：紐澤西州法案要求自駕車須配備攝影機以外兩種獨立感測技術，直接挑戰 Tesla 純視覺自駕路線的合法性，紐約州亦有類似草案研擬中。
+
+**主因（數字敘事）**：
+- 法案要求：攝影機系統 + **兩種獨立感測模式**（如光達、雷達）→ 否定「純視覺已足夠」的技術主張；授權前需完成至少 **5 萬英里**無事故監督測試（試點期 3 年）
+- 產業對照：Waymo（多感測器）已達每週 **50 萬次**付費行程/10+ 城市規模；Zoox、Nuro、Rivian、Lucid 均採多感測器路線 → Tesla 純視覺策略在監管與產業共識上日趨孤立
+- 擴散風險：若紐約州跟進立法，可能形成跨州監管趨勢，對 Tesla Robotaxi 商業化擴張構成系統性障礙
+
+**觀察**：紐澤西法案投票結果與生效時程；Tesla 是否調整感測器策略因應。
+
+- 參見：[[sources/ev-news-2026-07-10-insideevs-batch]] | [[concepts/自動駕駛安全監管]]
 
 ## Related
 - [[entities/NHTSA]]

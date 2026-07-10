@@ -1519,3 +1519,44 @@ Pages 375 → 406，Sources 315 → 346
 ### Index 更新
 - Pages: 484 → 485（新增 [[entities/起亞]]）
 - Sources: 388 → 390（新增 2 個批次 source 頁）
+
+## [2026-07-10] deliverable | Tesla-FSD 推動現況 單題快報＋逐字稿
+- 產出: /特斯拉車廠簡報/Tesla-FSD推動現況快報/ 下 Tesla-FSD推動現況.pptx（14頁）＋_逐字稿.docx
+- 主題定位: 單題「變化」——FSD 從功能長成三線並進平台（訂閱變現／監理落地／Robotaxi 商轉），純視覺為底座
+- 體裁: DIGITIMES 單題快報（兩段式標題、技術路線對比表、歐洲監理落地時間軸、Robotaxi 成本 gap 圖、影響因素歸因表、編號論點卡結語；無下一步觀察藍條，Control 入逐字稿）
+- 資料通道: ①知識庫（ADAS/Robotaxi/中國訴訟/歐洲上線）②WebSearch（FSD v14 Lite、Robotaxi Austin 全都會+9市場——修正先前 HW3 無法升級、區分 Robotaxi 服務 vs Cybercab）
+- 對台意涵: 純視覺放大 CMOS/鏡頭需求利台灣光學感測供應鏈、AI 晶片代工台積電關鍵（標明為路線判斷非個別供應確認）
+- Pages consulted: [[entities/Tesla]], [[concepts/ADAS智駕系統]], [[sources/robotaxi-market-2026]], [[sources/tesla-fsd-china-lawsuit-2026]]
+
+## [2026-07-11] ingest | ev-news-2026-07-10-electrive-batch + ev-news-2026-07-10-insideevs-batch（兩批次共 23 篇）
+
+- Summary pages: [[sources/ev-news-2026-07-10-electrive-batch]]、[[sources/ev-news-2026-07-10-insideevs-batch]]
+- Raw assets: raw/assets/2026-06-22~2026-07-10 各檔案（electrive、Sustainable Bus、InsideEVs）
+- 所有 source 頁均含原文網址（inline hyperlink）
+- 內容主軸：電動卡車走廊實績（Mars×Rewe、Woolworths、Stickel）、荷蘭貨車通行費、印度電動巴士採購、歐洲充電營運商整併、AESC 46120 電芯、豐田 Highlander EV 延後、紐澤西自駕監管立法
+
+## [2026-07-11] update | 全數更新：套用 RRC 三層結構＋數字敘事＋DIGITIMES 用語（依 CLAUDE.md 規範）
+
+### Concepts 更新（4 頁）
+- [[concepts/電動卡車市場]] — +荷蘭貨車通行費、+企業電動貨運走廊實績（Mars×Rewe/Woolworths/Stickel）、+美國 WattEV 充電網絡擴張
+- [[concepts/電動巴士市場]] — +印度電動巴士採購潮（德里+300輛/Switch Mobility）、+全球零散案例（義大利/盧安達/英國核電廠）
+- [[concepts/充電基礎建設]] — +歐洲充電營運商整併潮（Allego 換後台/Vattenfall 退出 B2B）
+- [[concepts/自動駕駛安全監管]] — +紐澤西擬立法強制多感測器（挑戰 Tesla 純視覺路線）
+
+### Countries 更新（4 頁）
+- [[countries/印度]] — +德里電動巴士再擴充（車隊達 4,845 輛）
+- [[countries/德國]] — +Stickel 電動卡車生態系建設實錄、+AESC 46120 電芯量產
+- [[countries/歐洲]] — +荷蘭貨車通行費、+充電營運商整併潮
+- [[countries/美國]] — +豐田 Highlander EV 延後、+紐澤西自駕監管立法
+
+### Entities 更新（4 頁）
+- [[entities/Tesla]] — +紐澤西擬立法禁純視覺 Robotaxi 技術
+- [[entities/豐田]] — +Highlander EV 延後上市（燃油版需求強勁）
+- [[entities/BMW]] — +AESC 46120 大圓柱電芯量產（首搭 iX5）
+- [[entities/現代汽車]] — +浦項製鐵合作高矽電磁鋼
+
+### Schema 套用確認
+- CLAUDE.md 中的 RRC 三層結構（結論／主因／觀察）與 DIGITIMES 用語規範已於本批次全面套用於新增章節
+
+### Index 更新
+- Sources: 390 → 392（新增 2 個批次 source 頁）
