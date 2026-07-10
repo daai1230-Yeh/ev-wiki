@@ -1,8 +1,7 @@
 ---
 tags: [concept]
-sources: [byd-dipilot-adas-2026, robotaxi-market-2026, toyota-adas-vs-fsd-subscription, hyundai-pleos-sdv-os, in-cabin-ai-sensing-2026, l2plus-adas-adoption-2026, rivian-lidar-china-partner-2026, hyundai-kia-atria-ai-gwangju-2026, hesai-color-lidar-2026, ev-news-digest-jun1-10-2026, ev-news-2026-06-27-29-en, ev-news-2026-06-30-07-01, ev-news-2026-06-29-zh]
-updated: 2026-07-01
-updated: 2026-06-10
+sources: [byd-dipilot-adas-2026, robotaxi-market-2026, toyota-adas-vs-fsd-subscription, hyundai-pleos-sdv-os, in-cabin-ai-sensing-2026, l2plus-adas-adoption-2026, rivian-lidar-china-partner-2026, hyundai-kia-atria-ai-gwangju-2026, hesai-color-lidar-2026, ev-news-digest-jun1-10-2026, ev-news-2026-06-27-29-en, ev-news-2026-06-30-07-01, ev-news-2026-06-29-zh, ev-news-2026-07-02, ev-news-2026-07-03-08, ev-news-2026-07-09]
+updated: 2026-07-10
 ---
 
 # ADAS 智駕系統（Advanced Driver Assistance System）
@@ -282,6 +281,28 @@ GM 與美光（Micron）簽署 **第 16 份供應協議（SCA）**，涵蓋汽�
 - 監管空缺：目前中國無強制性電吸門防夾標準
 - 意義：隨電動車電吸門從豪車標配下沉至大眾 NEV，安全標準制定成為迫切課題
 - 參見：[[sources/ev-news-2026-07-02]]
+
+## Ford × Micron 車用記憶體長約：車廠搶佔 DRAM 產能（2026-07）
+
+> **結論**：繼 GM 之後，Ford 亦與美光敲定車用記憶體長期合約（LPDRAM/NOR Flash/UFS NAND），車廠「提前鎖定記憶體」從個案變成產業標配動作。
+
+- 背景：DRAM 均價半年飆漲 70%（AI 資料中心搶產能）→ ADAS/IVI 記憶體需求持續擴張下，車用供應被邊緣化的風險上升
+- 意涵：記憶體正式加入「車用晶片戰略物資」清單，SCA（戰略供應協議）模式從 SiC、稀土擴展至記憶體
+- 參見：[[sources/ev-news-2026-07-03-08]] | [[entities/福特]] | [[entities/通用汽車]]
+
+## AIDV 論述與 Tesla 的缺席（2026-07）
+
+> **結論**：供應鏈指出 Tesla 從不談 AIDV（AI 定義汽車）的原因——其品牌本身就是 SDV/智駕的代名詞；AIDV 更像是其他車廠重新定位的敘事工具，商業價值尚無市場共識。
+
+**主因**：
+- AIDV 目前主要落點僅在 IVI 與 AI 語音助理 → 多數功能可被手機鏡像替代，消費者付費意願未經證實
+- 安全要求不因 AIDV 而改變 → 主流車廠「保守漸進」有其正當性，Zonal 區域控制架構將循同一邏輯演進
+- Tesla 的 AI 生態系最完整：FSD → Robotaxi → Optimus → 生產環節，同一運算平台貫穿 → 競爭者以 AIDV 敘事追趕，Tesla 以垂直整合落地
+- 歐洲車廠表態（慕尼黑論壇）：斯柯達視 AIDV 為「持續學習的智慧機器」、賓士強調用戶數據主權
+
+**觀察**：AIDV 是否出現可驗證的付費商業模式；Zonal 架構量產時點（多數車廠 2028+）。
+
+- 參見：[[sources/ev-news-2026-07-09]] | [[entities/Tesla]]
 
 ## Related
 - [[entities/Tesla]]

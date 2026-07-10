@@ -1380,3 +1380,142 @@ Pages 375 → 406，Sources 315 → 346
 - Pages: 474 → 475（新增 [[countries/挪威]]）
 - Sources: 385 → 386（新增 [[sources/ev-news-2026-07-02]]）
 
+## [2026-07-07] ingest | 比亞迪韓國補貼排除原因深探（Korea JoongAng Daily / Seoul Economic Daily / Korea Times）
+- 來源頁：[[sources/byd-korea-subsidy-exclusion-2026]]
+- 原文（新抓取，raw/assets/）：
+  - raw/assets/2026-06-30-BYD-loses-Korea-EV-subsidies.md（Korea JoongAng Daily）
+  - raw/assets/2026-06-30-BYD-Fails-Korea-Supply-Chain-Test-Loses-Key-Subsidy.md（Seoul Economic Daily）
+  - raw/assets/2026-07-02-BYD-Korea-looks-to-offset-subsidy-exclusion-with-PHEV-sales.md（Korea Times）
+- 背景：延續 [[sources/ev-news-2026-07-02]] 已提及的「南韓排除比亞迪補貼資格」事件，本次深挖具體失分原因
+- Pages updated：[[countries/韓國]]
+- Countries updated：[[countries/韓國]]
+- Key additions：確認核心敗因為「供應鏈貢獻」評分項（40 分，占比最高）——比亞迪無韓國生產設施、電池非韓系供應（Tesla 用 LGES 加分）、採經銷商模式（vs Tesla 直營）；比亞迪應對策略為轉推 Sealion 6 PHEV（3,750 萬韓元）
+- Index 更新：Pages 475 → 476（新增 [[sources/byd-korea-subsidy-exclusion-2026]]）；Sources 386 → 387
+
+## [2026-07-07] ingest | 補貼金額查證修正 + 特斯拉補貼過關即日漲價（韓文原始報導交叉驗證）
+- 使用者要求查證前次 250 萬韓元補貼金額、300-400萬韓元價差、Sealion 6 PHEV 3,750萬韓元是否有來源，並補充特斯拉漲價資訊
+- 來源頁（新建）：[[sources/tesla-korea-price-hike-2026-07]]
+- 原文（新抓取，raw/assets/）：
+  - raw/assets/2026-07-01-테슬라-보조금-첫날-기습-가격-인상-모델3-최대700만원.md（ZDNet Korea）
+  - raw/assets/2026-07-07-BYD-7월-자체보조금-최대152만원.md（오토데일리）
+  - raw/assets/2026-06-30-BYD-보조금-끊긴다-정부평가탈락.md（뉴스피릿）
+- 查證結果：
+  - 五大評核配分（40/20/15/15/10）：確認有來源（Seoul Economic Daily），韓媒交叉驗證一致
+  - 「250萬韓元補貼」：修正為區間表示，韓媒說法不一致（뉴스피릿稱約200萬韓元；另有報導稱國費100-300萬+地方補助合計500萬+），不宜引用單一數字
+  - 「比同級車便宜300-400萬韓元」：僅見於 Seoul Economic Daily 英文版單一來源，標註信心度較低
+  - Sealion 6 PHEV 3,750萬韓元：確認來源（Korea Times）
+  - 新增：Tesla 補貼過關當日（2026-07-01）調漲 Model 3/Y 售價 300-700萬韓元（ZDNet Korea 확認）
+  - 新增：比亞迪 7 月起自體補助貼補消費者（Atto 3 126萬/Seagull 169萬/Dolphin 109萬/Yuan Plus 7 152萬韓元），因應策略為自體補助＋PHEV雙軌並行
+- Pages updated：[[countries/韓國]]、[[entities/比亞迪]]、[[entities/Tesla]]、[[sources/byd-korea-subsidy-exclusion-2026]]
+- Countries updated：[[countries/韓國]]
+- Index 更新：Pages 476 → 477（新增 [[sources/tesla-korea-price-hike-2026-07]]）；Sources 387 → 388
+
+
+## [2026-07-09] create | 簡報模板 × 政策追蹤層建立
+- New pages created: [[templates/國家簡報模板]], [[templates/車廠簡報模板]], [[policies/日本]], [[policies/韓國]]
+- Pages updated: [[index]]
+- Key additions: 建立兩份簡報架構模板（國家版 18–22 頁／車廠版 15–18 頁，內建 RRC 三層頁面結構＋設計規範：#30629A/#61B7B2/#698FB4/#F4E4C7、微軟正黑體粗體、40/24/20pt）；新增 wiki/policies/ 政策追蹤層，將日韓補助新制等政策整理為結構化總表
+
+## [2026-07-09] query | 豐田在日本發展現況（RRC 示範）
+- Pages consulted: [[entities/豐田]], [[countries/日本]], [[policies/日本]]
+- 外部佐證: IEA Global EV Outlook 2026、Toyota Global Newsroom（電池路線圖/METI認證）、Electrek
+- Filed back: 無（示範性質，內容已在既有頁面）
+
+## [2026-07-09] create | 數字敘事心法
+- New pages created: [[templates/數字敘事心法]]
+- Pages updated: [[templates/國家簡報模板]], [[templates/車廠簡報模板]], [[index]]
+- Key additions: 數字四問（比較基準/成因/影響/觀察指標）＋三種敘事手法（差距/拆解/比率），以日韓簡報實際數字為範例；兩份模板檢查清單各加一條數字因果檢查
+
+## [2026-07-09] update | 模板升級為詳細版（Read Deck）
+- Pages updated: [[templates/國家簡報模板]], [[templates/車廠簡報模板]]
+- Key additions: 篇幅擴為國家版25–30頁/車廠版20–26頁；每頁新增「導讀段」規範（不聽報告也看得懂）；視覺化規範（每頁至少一視覺元素、主題色圖示、2.5D地圖＋箭頭動線、國家版必備產業地圖頁/車廠版必備全球布局地圖頁）；文字用色改為僅黑/紅/白三色，主題色僅用於圖形
+
+## [2026-07-09] update | 模板新增車輛圖片與價格規範
+- Pages updated: [[templates/國家簡報模板]], [[templates/車廠簡報模板]]
+- Key additions: 熱銷/主力車型價格卡頁（官方車圖＋售價）；外幣售價一律加（新台幣約OOO元）與匯率基準日；建立 raw/assets/車輛圖片/ 圖片資料夾與「品牌-車型.jpg」命名規則；流程為 Claude 產出圖片清單→使用者下載→嵌入
+
+## [2026-07-09] deliverable | 特斯拉車廠深度分析簡報（車廠模板首次實戰）
+- Pages consulted: [[entities/Tesla]], [[countries/韓國]], [[countries/台灣]], [[countries/日本]], [[templates/車廠簡報模板]], [[templates/數字敘事心法]]
+- 外部查核: CNBC/Tesla 8-K（2025 交付 164 萬）、Edmunds/KBB（2026-07 美國售價）、Electrek（Model Y L 上市）、匯率
+- 產出: /Users/claude/Claude ARTC/02-產業調研/02-車籍資料庫/特斯拉車廠簡報/特斯拉車廠深度分析.pptx（25 頁）
+- 特點: RRC 三層＋導讀段全頁覆蓋；2.5D 全球工廠地圖＋出口動線；交付趨勢/區域表現圖表；4 張車型價格卡（待使用者放入車圖：Tesla-Model3/ModelY/ModelYL/Cybertruck.jpg 至 raw/assets/車輛圖片/）
+
+## [2026-07-09] update | 四通道資料流程制度化＋Tesla 簡報數據升級
+- Pages updated: [[templates/國家簡報模板]], [[templates/車廠簡報模板]]
+- Key additions: 四通道資料規範（知識庫→WebSearch→Chrome付費站→匯出檔）＋「銷量一律 EV Volumes」鐵律寫入模板
+- 通道③首次實戰: Chrome 登入 MarkLines OEM Plants 資料庫查得 Tesla 全球 14 據點——關鍵新情報：內華達廠 2026 起量產 LFP 電芯（去中國化死結鬆動）、Fremont Model S/X 生產年份 2012–2026、墨西哥廠傳 2027
+- Tesla 簡報更新: 地圖頁升級為 MarkLines 9 據點版（含規劃中/角色轉變圖例）、電池頁與供應鏈頁論點修正、4 張車圖嵌入價格卡
+- 通道④缺口: 現有 EV Volumes 匯出檔為 Brand=(All) 彙總，無品牌明細——已定義匯出規格待使用者執行
+
+## [2026-07-10] query | DIGITIMES 簡報方法論分析（49 份）
+- 分析對象: /Claude ARTC/02-產業調研/04-外部產業報告/2026年/2026年_Digitimes簡報（40 pptx＋9 pdf，逐份文字抽取＋語料統計＋版面實查）
+- Filed back: [[syntheses/DIGITIMES簡報方法論解構]]
+- 關鍵發現: 兩段式標題36/40、內容頁標題含數字47%、結語頁35/40、中位數15頁單題快報體裁、圖表三件套（單位/註/來源）、結語編號論點卡
+- 待使用者決定: 模板調整七項＋新增「單題快報模板」＋Tesla 簡報六項升級
+
+## [2026-07-10] create | 單題快報模板
+- New pages created: [[templates/單題快報模板]]
+- Pages updated: [[index]]
+- Key additions: 依 [[syntheses/DIGITIMES簡報方法論解構]] 建立第三種模板（12–16 頁單題體裁）；使用者裁定：不修改原兩模板、來源署名「〈原始來源〉，車輛中心整理(YYYY/M)」、不自行預測（引用預測須標出處）
+
+## [2026-07-10] update | 逐字稿規範＋單題快報模板補 RRC
+- Pages updated: [[templates/國家簡報模板]], [[templates/車廠簡報模板]], [[templates/單題快報模板]]
+- Key additions: 每份簡報必附逐字稿 docx（說故事開場鉤子＋150–250字口語講稿＋轉場句＋來源網址，每頁45–60秒）；單題快報模板將 RRC 三層改為每頁標配、數字敘事入檢查清單
+
+## [2026-07-10] update | 下一步觀察移至逐字稿
+- Pages updated: [[templates/國家簡報模板]], [[templates/車廠簡報模板]], [[templates/單題快報模板]]
+- Key change: 使用者裁定 RRC 的 Control（下一步觀察）統一從簡報頁面移到逐字稿，簡報頁面不再放藍色橫條；三份模板 RRC 段、逐字稿規範、檢查清單同步更新
+
+## [2026-07-10] deliverable | Tesla-LFP 單題快報＋兩份逐字稿（單題快報模板首次實戰）
+- 產出1: /特斯拉車廠簡報/Tesla-LFP去中國化快報/Tesla-LFP去中國化_台廠成關鍵解方.pptx（13頁，DIGITIMES 體裁：兩段式標題、五段供應鏈流程圖、立凱爬坡圖、影響因素歸因表、編號論點卡結語；無下一步觀察藍條）
+- 產出2: Tesla-LFP去中國化_逐字稿.docx（開場鉤子＋講稿＋下一步觀察＋轉場＋超連結來源）
+- 產出3: 特斯拉車廠深度分析_逐字稿.docx（25頁簡報之逐字稿，DIGITIMES 用語）；特斯拉深度簡報同步移除下一步觀察藍條
+- 資料通道: ①知識庫（立凱/FEOC）②MarkLines（內華達 LFP 據點）③DIGITIMES ④—；銷量口徑遵循鐵律
+- 台廠角度: 立凱電能（前驅體、繞開中國專利）＋FEOC 去中化紅利（和大/台達電/貿聯等）
+- 全程以 Opus 4.8 完成（含 MarkLines 連網查詢），驗證換模型不影響工作流
+
+## [2026-07-10] ingest | ev-news-2026-07-03-08 + ev-news-2026-07-09（兩批次共 ~39 篇）
+
+- Summary pages: [[sources/ev-news-2026-07-03-08]]、[[sources/ev-news-2026-07-09]]
+- Raw assets: raw/assets/2026-07-03-*.md ~ 2026-07-09-*.md
+- 所有 source 頁均含原文網址（inline hyperlink）
+
+## [2026-07-10] update | 全數更新：首批 RRC 三層結構＋數字敘事格式（依新 CLAUDE.md 規範）
+
+### Schema 變更
+- CLAUDE.md 新增「RRC 三層結構」與「DIGITIMES 用語規範」；本批次起 concept/country 新增章節一律適用
+
+### Entities 更新（13 頁）+ 新建（1 頁）
+- [[entities/Tesla]] — +Q2 480K、韓國 H1 28.2%、Grünheide 18GWh、台灣進口冠軍、中國保值率榜首
+- [[entities/比亞迪]] — +6月/Q2 海外爆發內需失速、Renault 入股遭拒×2、韓國市佔 5.9%
+- [[entities/豐田]] — +Lexus LF-ZC 取消、中國出口潮唯一例外、Archion 釋股
+- [[entities/寧德時代]] — +採礦戰略、CarbonScape 生物石墨、Tectrans II 8C
+- [[entities/三星SDI]] — +全固態 2027H2 量產有譜（無負極/銀碳塗層）
+- [[entities/LGES]] — +俄亥俄合資廠 ESS 電芯量產
+- [[entities/Rivian]] — +Q2 超預期、上調全年展望 65-70K
+- [[entities/Renault]] — +兩拒 BYD 入股
+- [[entities/Volkswagen]] — +BYD 收購傳言與結構危機論
+- [[entities/現代汽車]] — +南韓 EV 跌至第三
+- [[entities/蔚來]] — +上海電池研發中心（固態 2028）
+- [[entities/通用汽車]] — +Cadillac Optiq 採中國逍遙平台
+- [[entities/起亞]] — NEWLY CREATED：南韓 EV 本土龍頭 36.2%、中國產能 68% 出口、美規 Niro 取消純電
+
+### Countries 更新（7 頁）
+- [[countries/中國]] — +2027 取消 PHEV 車船稅豁免、外資市佔崩跌 30%/出口潮、EV 保值率
+- [[countries/歐洲]] — +中國車首超日系（歷史性轉折）、EU 生產補貼聯名信、賓士 BEV +87%、零跑 B03X
+- [[countries/德國]] — +BYD 收購福斯傳言、Tesla Grünheide 雙樞紐
+- [[countries/日本]] — +Lexus LF-ZC 取消、Archion 釋股
+- [[countries/韓國]] — +H1 EV 市場全貌（Tesla/起亞/現代/BYD/極氪）
+- [[countries/台灣]] — +Tesla 進口車冠軍、超充新費率
+- [[countries/印度]] — +電動巴士 H1 +40%（Switch Mobility 領跑）
+
+### Concepts 更新（5 頁）
+- [[concepts/電池技術路線]] — +三星SDI 固態 2027H2（韓中分歧）、LF-ZC 取消、Tectrans II 8C、蔚來研發中心
+- [[concepts/鈉離子電池]] — +成本反超時程確立（2027 低於 LFP；MS 2030 市占 20%）
+- [[concepts/儲能市場]] — +LGES×本田 ESS 量產、鈉電切入長時儲能
+- [[concepts/中國EV出海策略]] — +歐洲首超日系、BYD 資本叩關升級、Cadillac 逍遙平台（反向技術輸出）、外資出口潮
+- [[concepts/ADAS智駕系統]] — +Ford×Micron 記憶體長約、AIDV 論述與 Tesla 缺席
+
+### Index 更新
+- Pages: 484 → 485（新增 [[entities/起亞]]）
+- Sources: 388 → 390（新增 2 個批次 source 頁）

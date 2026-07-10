@@ -63,6 +63,40 @@ Content...
 - [[Linked Page 2]]
 ```
 
+### RRC 三層結構（concept / country 頁面各節標配）
+
+每次 ingest 更新 concept 或 country 頁面時，新增/改寫的章節採 **RRC 三層結構**：
+
+```markdown
+## 章節標題（YYYY-MM）
+
+> **結論**：一句話 bottom line（發生了什麼 + 為何重要）。
+
+**主因**（2–3 點，每點套用數字敘事：基準 → 因果 → so what）：
+- 主因一：基準數字 → 變化與原因 → 對產業的意涵
+- 主因二：...
+
+**觀察**：後續 1–2 個值得追蹤的指標或事件（含預期時間點）。
+
+- 參見：[[sources/xxx]] | [[相關頁]]
+```
+
+- **結論帶**：用 `> **結論**：` blockquote 開頭，讓讀者掃視即得重點。
+- **數字敘事**：每個數字必附「基準」（vs 去年/上季/對手）與「so what」（對市場/政策/供應鏈的意涵），禁止裸數字。
+- **觀察條**：寫下一步該追蹤什麼（如「Q3 財報確認毛利率」「2027-01 政策生效後銷量變化」）。
+- 資料表仍可使用，置於主因之後作為佐證。
+- 既有章節不強制回溯改寫；新增與大改的章節一律適用。
+
+### 用語規範（DIGITIMES 專業用語）
+
+寫作採 DIGITIMES 產業新聞慣用語彙：
+- 成長表述：**年增/年減（YoY）、季增/季減（QoQ）、月增（MoM）**，不用「同比/環比」
+- 市場：**市佔（率）、掛牌數、交車量、滲透率、動能、放緩、回溫、承壓**
+- 產能：**量產爬坡、產能利用率、稼動率、擴產、去化**
+- 供應鏈：**布局、切入、打入（供應鏈）、卡位、出海、在地化、去中化**
+- 財務：**毛利率、營益率、認列（損失）、資產減損、轉虧為盈**
+- 公司名：Volkswagen→**福斯**、Hyundai→**現代汽車**、Mercedes-Benz→**賓士**、比亞迪/寧德時代用中文
+
 ---
 
 ## Operations
@@ -90,6 +124,7 @@ When the user says "ingest [source]" or drops a file into `raw/`:
    - 格式：`sources: [filename.md]`（可多個，逗號分隔）
 4. Identify 5–15 existing wiki pages that need updating based on new info.
 5. Update those pages: revise claims, add cross-references, note contradictions.
+   **新增/大改章節一律採 RRC 三層結構＋數字敘事，並使用 DIGITIMES 專業用語（見 Page Conventions）。**
    5a. **國家頁面**：同步更新 `wiki/countries/` 下對應的國家/地區頁面（政策、市場、產業動態）。
 6. If a key entity or concept has no page, create one.
 7. Update `wiki/index.md` — add the new source summary and any new pages.

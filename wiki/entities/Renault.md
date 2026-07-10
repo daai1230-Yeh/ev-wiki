@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [renault-flexis-acquisition-2026, ev-news-2026-06-27-29-en]
-updated: 2026-07-01
+sources: [renault-flexis-acquisition-2026, ev-news-2026-06-27-29-en, ev-news-2026-07-09]
+updated: 2026-07-10
 ---
 
 # Renault（雷諾）
@@ -65,6 +65,19 @@ Renault 宣布全資收購 **Flexis** 電動廂型車合資公司：
 - Ampere 子公司在法國 Cléon 工廠自製電動馬達
 - 具本土化製造優勢，符合 EU 產業加速法案（IAA）本地化要求
 - 目標：2030 年電動馬達年產超過 100 萬台
+
+## 兩年內兩度拒絕比亞迪入股（2026-07）
+
+> **結論**：法媒 Les Échos 揭露比亞迪曾兩度提議入股 Renault（最近一次為 2025 年秋），因「有掌控意圖」遭拒——Renault 堅守歐洲核心市場主導權。
+
+**主因**：
+- 交易構想：Renault 取得 BYD 的 BEV/PHEV 技術與電池產能，BYD 取得 **Renault 歐洲工廠** → 對急尋歐洲產能的 BYD 極具吸引力，但對 Renault 形同讓渡歐洲主場
+- Renault 並非排斥中國夥伴：吉利已持有 Renault Korea 34%、投資 Renault do Brasil，共營 Horse Powertrain → differentiator 在於「聯盟」與「被控制」的界線
+- 雙方均未官方證實（僅知情人士消息）→ 但 BYD 歐洲擴張意圖公開明確（Stella Li：傾向收購現有工廠）
+
+**觀察**：BYD 南歐廠址選定；Renault 資本結構是否出現其他策略投資者。
+
+- 參見：[[sources/ev-news-2026-07-09]] | [[entities/比亞迪]] | [[entities/吉利汽車]]
 
 ## Related
 - [[entities/Volkswagen]]

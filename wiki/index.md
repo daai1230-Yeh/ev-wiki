@@ -1,6 +1,6 @@
 # Wiki Index
 
-Last updated: 2026-07-02 | Pages: 475 | Sources: 386
+Last updated: 2026-07-10 | Pages: 485 | Sources: 390
 
 ---
 
@@ -278,6 +278,10 @@ Last updated: 2026-07-02 | Pages: 475 | Sources: 386
 - [[sources/ev-news-2026-06-29-zh]] — 中文補充批次3篇：本田俄亥俄電池廠轉AI儲能（LGES合資/2026-06）、陸系車歐洲11%（混動繞關稅）、美光CEO人形機器人記憶體10倍自駕車/數十年超級週期。(2026-07-01)
 - [[sources/ev-news-2026-06-30-07-01]] — 中英混合批次14篇（06-30~07-01）：本田/日產/三菱SDV平台/ECU共通化2029、VW-Bosch L3聯盟傳拆夥、格斯科技沈國榮接董座、歐洲二手EV搶購潮、Polestar退出美國（CVR補充）、豐田×Joby合資飛天車、加州$1.35億EV補貼（Rivian/Lucid受惠）、德里EV Policy 2.0/ICE漸禁、德國Northvolt→Lyten €6千萬、Tesla Cybercab無方向盤測試、BMW iX5首發141kWh/460kW。(2026-07-01)
 - [[sources/ev-news-2026-07-02]] — 混合批次17篇（07-02）：挪威6月BEV 96.5%/H1 97.6%、台灣6月+21%（Toyota#1/Tesla#2+158%）、印度Q1FY27 ePV 82,700輛（Tata 39%/Mahindra 24%）、韓國BYD補貼取消/ESS 312→847 GWh、德里EV補貼全額（2W ₹30K/三輪₹50K/LCV ₹1L）、Northvolt Heide LOI完整細節（€6億轉換貸款/Lyten/5方簽署）、GM×Micron第16份SCA/DRAM+70%、CATL 60天帳期/11廠、大阪世博巴士130輛送富山、BYD Q2 BEV 557K（超Tesla）、VW評估中國EV引進歐洲（ID.Era 9X）、日本GO上市/Tier IV IPO、Slate不進加拿大（25%關稅）、Dacia Spring £11,990、Tesla電池88%展示車、電吸門安全隱患。(2026-07-02)
+- [[sources/byd-korea-subsidy-exclusion-2026]] — 比亞迪韓國補貼排除深探：核心敗因為「供應鏈貢獻」（40分/占比最高）——無韓國生產設施、電池非韓系供應、經銷商模式（vs Tesla直營+LGES電池加分）；因應策略為自體補助＋主推 Sealion 6 PHEV。(2026-07-07)
+- [[sources/tesla-korea-price-hike-2026-07]] — Tesla韓國補貼過關即日漲價：Model 3/Y多數配置調漲300–700萬韓元，韓媒質疑補貼利益轉嫁漲價，與同期失去補貼的比亞迪成對比。(2026-07-07)
+- [[sources/ev-news-2026-07-03-08]] — 混合批次28篇（07-03~08）：Tesla Q2 480K（+25%）、BYD 6月海外175K（+95%/佔43%）、豐田Lexus LF-ZC取消（補償數百億日圓）、中國2027取消PHEV稅豁免、歐洲5月中國車首超日系（12.01% vs 11.32%）、外資中國出口潮（Kia 68%/豐田例外）、匈牙利電池環境監管（Semcorp吊照）、LGES×本田ESS量產、三星SDI固態2027H2、CATL採礦/CarbonScape石墨/Tectrans II 8C、鈉電池2027成本反超LFP、Rivian Q2超預期、EV保值率Tesla榜首、印度電動巴士H1+40%。(2026-07-08)
+- [[sources/ev-news-2026-07-09]] — 混合批次11篇（07-08~09）：Renault兩拒BYD入股（換歐洲工廠）、南韓H1 EV市場（Tesla 28.2%/起亞36.2%/現代跌第三/BYD 5.9%）、Tesla Grünheide電芯18GWh+Cell Giga Challenge、Archion釋股（豐田19.9%/戴姆勒26.7%）、賓士Q2 BEV 63K（+50%/歐洲+87%）、Cadillac Optiq採中國逍遙平台、蔚來上海電池研發中心（固態2028）、Fiat Topolino $13,995、零跑B03X €24,900、EU cleantech生產補貼聯名信、Tesla SDV/AIDV論述。(2026-07-09)
 
 ### 駐外新聞批量摘要
 - [[sources/駐外新聞-美國-2025]] — 2025 全年 83 篇；川普 EV 補貼削減/25% 汽車關稅/CAFE 放寬、底特律倒退、BESS 轉型、Tesla 去中國化供應鏈、氫能卡車崩潰。(2026-06-22)
@@ -415,7 +419,8 @@ Last updated: 2026-07-02 | Pages: 475 | Sources: 386
 - [[entities/奇瑞]] — 中國老牌自主車廠，QQ3 直接挑戰比亞迪海鷗。
 - [[entities/零跑汽車]] — 中國 EV 新創，Stellantis 持股 20%，嘗試借道進入北美。
 - [[entities/Polestar]] — 瑞典吉利旗下電動車品牌，2027年式起美國禁售（Connected Vehicle Rule），業務重心轉歐洲。
-- [[entities/現代汽車]] — 韓國最大整車廠，Pleos SDV OS、Atria AI 自駕，2026年大規模挖角 Tesla/NVIDIA 人才。
+- [[entities/現代汽車]] — 韓國最大整車廠，Pleos SDV OS、Atria AI 自駕；2026 H1 南韓 EV 市場跌至第三（被 Tesla/起亞超越）。
+- [[entities/起亞]] — 現代集團旗下品牌，南韓 EV 本土龍頭（H1 2026 市佔 36.2%），中國產能 68% 出口 89 國。
 - [[entities/Waymo]] — Alphabet 旗下 Robotaxi 領先者，4,000 輛/10+ 城市/50 萬次週服務，$2.2 億收購 Apple Titan 場地。
 - [[entities/Slate Auto]] — 美國電動皮卡新創，$24,950 採 Gotion LFP，主打美國最平價量產電動皮卡。
 - [[entities/Lucid]] — 美國豪華電動車新創，Newark CA 總部，PIF 主要股東，Cosmos ~$50K 中型 SUV 2026 底量產。
@@ -503,8 +508,26 @@ Last updated: 2026-07-02 | Pages: 475 | Sources: 386
 
 ---
 
+## Policies（政策追蹤）
+
+- [[policies/日本]] — 日本車輛政策結構化追蹤表：GX 戰略、2035 電動化目標（含 HEV）、CEV 補助金評分新制、氫能/自駕/關稅因應。
+- [[policies/韓國]] — 韓國車輛政策結構化追蹤表：2030 NDC、K-Battery、補貼評核新制（BYD 除名）、預算耗盡風險、AMPC 式稅改倡議。
+
+---
+
+## Templates（簡報模板）
+
+- [[templates/國家簡報模板]] — 單一國家車輛產業簡報架構（18–22 頁）：基本盤→歷史→市場→政策→車廠→供應鏈→對台意涵；含 RRC 三層頁面結構與設計規範。
+- [[templates/車廠簡報模板]] — 單一車廠深度分析簡報架構（15–18 頁）：快照→沿革→戰略→銷量→技術→供應鏈→市場攻防→風險→觀點。
+- [[templates/單題快報模板]] — 單一議題/事件的 12–16 頁快報（DIGITIMES 體裁：兩段式標題、圖表三件套、編號論點結語；不做預測、署名車輛中心整理）。
+- [[templates/數字敘事心法]] — 把數字講成判斷：數字四問＋三種敘事手法（差距/拆解/比率），附日韓實例。
+
+---
+
 ## Syntheses & Comparisons（綜合分析）
 
+- [[syntheses/Tesla-LFP去中國化快報]] — 單題快報實例：Tesla 內華達 LFP 量產、台廠立凱成前驅體關鍵解方（含逐字稿）。(2026-07-10)
+- [[syntheses/DIGITIMES簡報方法論解構]] — 49 份 DIGITIMES 簡報的結構化解構：兩段式標題、預測語態、圖表三件套、結語論點卡等六個可移植方法論。(2026-07-10)
 - [[syntheses/電動巴士產業全景]] — 全球電動巴士 2025~2026 全景：市場規模、歐洲政策與案例、印度起飛、台灣鴻海×FUSO 外銷佈局、六大趨勢整合。(2026-04-23)
 
 _建議新增主題：_

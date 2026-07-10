@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [rivian-r2-range-specs, rivian-service-network-2026, rivian-lidar-china-partner-2026]
-updated: 2026-07-01
+sources: [rivian-r2-range-specs, rivian-service-network-2026, rivian-lidar-china-partner-2026, ev-news-2026-07-03-08]
+updated: 2026-07-10
 ---
 
 # Rivian
@@ -83,6 +83,20 @@ updated: 2026-07-01
 
 - 加州 HQ 邏輯：優先支持在加州創造就業的本土 EV 廠商
 - 參見：[[sources/ev-news-2026-06-30-07-01]] | [[countries/美國]]
+
+## Q2 2026 交車超預期，上調全年展望（2026-07）
+
+> **結論**：Rivian Q2 交車 12,194 輛（年增 14.4%）超越自身財測上緣，隨 R2 開始交付上調全年展望至 65,000~70,000 輛。
+
+**主因**：
+- Q2 交車 12,194 輛 vs 自身引導 9,000~11,000 輛、華爾街預期 ~10,600 輛 → 在**聯邦 EV 稅收抵免取消**的逆風下仍實現年增，R2 上市是關鍵拉力
+- 全年展望由 62,000~67,000 上調至 **65,000~70,000 輛**（2025 年僅 42,247 輛）→ 中點已高於分析師預期
+- R2（起售 ~$58,000）擔綱由小眾豪華走向大眾市場的轉型：Normal 廠 R2 年產能 15.5 萬輛，Georgia 廠（含 R3）接力 → 2027 年底再推 ~$45,000 入門車款
+- 財務現實：2025 年虧損 $36 億、Q1 2026 每輛虧約 $6,000 → 量產爬坡與規模化是轉虧為盈唯一路徑
+
+**觀察**：R2 毛利率何時轉正（Q3/Q4 財報）；R2 歐洲出口啟動時點（Rivian 首款外銷車型）。
+
+- 參見：[[sources/ev-news-2026-07-03-08]] | [[countries/美國]]
 
 ## Related
 - [[entities/Tesla]]

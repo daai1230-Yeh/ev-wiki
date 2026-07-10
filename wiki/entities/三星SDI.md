@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [samsung-sdi-mercedes-battery-deal, samsung-sdi-mercedes-confirmed-deal, samsung-sdi-solid-state-production-2026]
-updated: 2026-05-15
+sources: [samsung-sdi-mercedes-battery-deal, samsung-sdi-mercedes-confirmed-deal, samsung-sdi-solid-state-production-2026, ev-news-2026-07-03-08]
+updated: 2026-07-10
 ---
 
 # 三星 SDI（Samsung SDI）
@@ -46,6 +46,22 @@ updated: 2026-05-15
 - **應用多元化**：EV 方型 → 擴展至人形機器人、航空系統、穿戴裝置
 - LGES / SK On 固態電池目標量產：2029 年（三星SDI 早約 2 年）
 - 參見：[[sources/samsung-sdi-solid-state-production-2026]]
+
+## 全固態電池獲客戶肯定：2027H2 量產有譜（2026-07）
+
+> **結論**：三星SDI 首度由高階主管公開全固態電池進度，樣品獲全球客戶正面評價，2027 下半量產目標維持不變——與放慢腳步的寧德時代形成鮮明對比。
+
+**主因**：
+- 量產開發團隊常務金銀河（首位公開說明的高管）證實：樣品在**能量密度與安全性**均獲客戶正面回饋 → 多家全球客戶測試中，2027H2 量產推進
+- 核心技術：**無負極（anode-free）結構 + 銀碳混合塗層 + 輥壓（Roll Press）製程** → 兼顧性能與未來量產降本
+- 對照中國路線：寧德時代自評 TRL 僅 4/9、2030 年前難大規模量產；比亞迪同步放慢 → 韓中在固態路線上的時程分歧擴大至約 3 年
+- 成本仍是最大障礙：全固態 **$400~600/kWh** vs LFP ~$81/kWh、NCM ~$128/kWh → 初期僅高階應用可吸收
+
+**應用擴展**：EV → 人形機器人等 Physical AI → 行動裝置；2025-10 已與 BMW、Solid Power 合作導入次世代車款實車驗證。
+
+**觀察**：2027H2 首批量產客戶與規模；成本下降曲線能否支撐 Physical AI 應用放量。
+
+- 參見：[[sources/ev-news-2026-07-03-08]] | [[concepts/電池技術路線]]
 
 ## Related
 - [[entities/LGES]]

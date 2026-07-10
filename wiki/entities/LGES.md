@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [lges-loss-ess-2026, ira-supply-chain-compliance, us-ev-battery-demand-mismatch, lges-tesla-4680-supplier, lges-bmw-46series-order]
-updated: 2026-05-05
+sources: [lges-loss-ess-2026, ira-supply-chain-compliance, us-ev-battery-demand-mismatch, lges-tesla-4680-supplier, lges-bmw-46series-order, ev-news-2026-07-03-08]
+updated: 2026-07-10
 ---
 
 # 樂金能源解決方案（LG Energy Solution，LGES）
@@ -57,6 +57,19 @@ updated: 2026-05-05
 
 ## 全球市占（2026 年 1–2 月）
 - 韓系三廠（LGES + SKOn + 三星SDI）合計：15%（-2.2pp YoY）
+
+## 與本田俄亥俄合資廠：正式量產 ESS 電芯（2026-07）
+
+> **結論**：L-H Battery Company（LGES × 本田）俄亥俄廠正式啟動 ESS 用 LFP 電芯商業量產，成為北美 EV 需求放緩下「EV 廠轉 ESS」的最新例證。
+
+**主因**：
+- 合資廠 2023 年以「EV 電池」為目標成立 → 北美 EV 需求趨緩後轉向需求穩定的 ESS，電芯供應 LGES 美國 ESS 事業部 Vertex 封裝
+- 同步啟動 **HEV 電池**產線 → 呼應本田 2026-03 宣布的「以 HEV 為核心」策略轉型
+- 產品出海口：電網、住宅、商用與大型公用事業 → AI 資料中心電力需求為結構性拉力
+
+**觀察**：Vertex LFP ESS 產品上市時點；HEV 電池量產規模與本田新車型搭載進度。
+
+- 參見：[[sources/ev-news-2026-07-03-08]] | [[entities/本田]] | [[concepts/儲能市場]]
 
 ## Related
 - [[entities/寧德時代]]

@@ -1,7 +1,7 @@
 ---
 tags: [concept]
-sources: [stellantis-leapmotor-canada-rejected, xiaomi-ev-europe-2027, foxconn-mitsubishi-fuso-electric-bus, xpeng-mexico-launch, byd-denza-europe-debut, china-autonomous-driving-overseas, stellantis-opel-leapmotor-suv, thailand-ev-market-2026, china-ev-export-record-march-2026, byd-malaysia-factory-negotiation, europe-robotaxi-verne-ponyai, byd-april-exports-q1-2026, leapmotor-t03-germany-2026, malaysia-cbv-ev-regulation-2026, china-ev-europe-challenges-2026, china-nev-april-2026, china-evs-canada-chery-geely-2026, jpmorgan-china-ev-europe-2028, china-nev-april-involution-2026, geely-thailand-pickup-2026, byd-korea-10k-record-2026, china-ev-us-market-2026, osaka-expo-chinese-ebus-defect-2026, global-ev-demand-may2026, stellantis-china-ev-europe-factories-2026, xpeng-vw-europe-factory-2026, china-k-car-micro-ev-concept-2026, china-ev-europe-factory-takeover-2026, mg-saic-spain-factory-2026, nissan-chery-sunderland-deal-2026, tata-chery-avinya-platform-2026, byd-dod-military-list-2026, australia-china-ev-milestone-2026, byd-hungary-labour-report-2026, ev-news-digest-jun1-10-2026, byd-flash-charging-europe-2026]
-updated: 2026-06-12
+sources: [stellantis-leapmotor-canada-rejected, xiaomi-ev-europe-2027, foxconn-mitsubishi-fuso-electric-bus, xpeng-mexico-launch, byd-denza-europe-debut, china-autonomous-driving-overseas, stellantis-opel-leapmotor-suv, thailand-ev-market-2026, china-ev-export-record-march-2026, byd-malaysia-factory-negotiation, europe-robotaxi-verne-ponyai, byd-april-exports-q1-2026, leapmotor-t03-germany-2026, malaysia-cbv-ev-regulation-2026, china-ev-europe-challenges-2026, china-nev-april-2026, china-evs-canada-chery-geely-2026, jpmorgan-china-ev-europe-2028, china-nev-april-involution-2026, geely-thailand-pickup-2026, byd-korea-10k-record-2026, china-ev-us-market-2026, osaka-expo-chinese-ebus-defect-2026, global-ev-demand-may2026, stellantis-china-ev-europe-factories-2026, xpeng-vw-europe-factory-2026, china-k-car-micro-ev-concept-2026, china-ev-europe-factory-takeover-2026, mg-saic-spain-factory-2026, nissan-chery-sunderland-deal-2026, tata-chery-avinya-platform-2026, byd-dod-military-list-2026, australia-china-ev-milestone-2026, byd-hungary-labour-report-2026, ev-news-digest-jun1-10-2026, byd-flash-charging-europe-2026, ev-news-2026-07-03-08, ev-news-2026-07-09]
+updated: 2026-07-10
 ---
 
 # 中國 EV 出海策略
@@ -235,7 +235,7 @@ MG Motor（上汽 SAIC 旗下）在西班牙加利西亞建設歐盟首座中國
 
 → BYD 充電網路是「整車 + 充電生態」一體化出海的體現：車賣到哪裡，充電網建到哪裡
 → 目標定價低於歐洲現行商業充電均價（歐洲 Ionity 約 €0.79/kWh），是競爭差異點
-- 參見：[[sources/byd-flash-charging-europe-2026]] | [[concepts/充電基礎建設]]
+- 參見：[[sources/byd-flash-charging-europe-2026, ev-news-2026-07-03-08, ev-news-2026-07-09]] | [[concepts/充電基礎建設]]
 
 ## 比亞迪列入美國 DoD 軍工企業名單（2026-06-08）
 
@@ -279,6 +279,46 @@ MG Motor（上汽 SAIC 旗下）在西班牙加利西亞建設歐盟首座中國
 - 進口商 EVMJ 申請破產，75 億日圓購車款回收存疑
 - 日本市場對中國電動車信任危機加深
 - 參見：[[sources/osaka-expo-chinese-ebus-defect-2026]]
+
+## 歷史性轉折：5 月中國車歐洲銷量首超日系（2026-07）
+
+> **結論**：ACEA 數據顯示 5 月中國五大車企歐洲 31 國註冊量 13.84 萬輛，首度超越日系六大（13.04 萬輛），市佔 12.01% vs 11.32%——出海策略在歐洲取得標誌性戰果。
+
+**主因（數字敘事）**：
+- 增長極端分化：中國車企年增 **64.6%**（零跑 +465%、奇瑞 +244%、比亞迪 +137%）vs 日系年減 3.1% → 產品組合對準電動化增量（BEV 20% + PHEV 9.7%），日系電動布局薄弱
+- 關稅套利持續：歐盟 BEV 平衡稅最高 45.3% **不涵蓋 PHEV** → 中國車企加大插混出口對沖，政策漏洞成為出海通道
+- 在地化四路並進：零跑（Stellantis 西班牙）、奇瑞（西英合資）、比亞迪（匈牙利 Q4 投產）、吉利（Volvo 體系）→ 由「出口車輛」全面轉向「本地研發生產＋歐洲專屬車型」
+
+**觀察**：歐盟平衡稅期中檢討是否擴及 PHEV；比亞迪匈牙利廠投產後的定價策略。
+
+- 參見：[[sources/ev-news-2026-07-03-08]] | [[countries/歐洲]] | [[countries/日本]]
+
+## 資本叩關升級：BYD 兩度求購 Renault 股權（2026-07）
+
+> **結論**：比亞迪被爆兩年內兩度提議入股 Renault 以換取歐洲工廠（均遭拒），加上「收購福斯」傳言與對 Maserati 的興趣，中國車企出海已從「借廠合作」升級至「資本收購」階段。
+
+- 出海路徑演進：出口 → 借殼代工（零跑×Stellantis）→ 自建廠（BYD 匈牙利）→ **入股/收購傳統車廠**（Renault 案、Maserati 興趣）
+- Renault 拒絕主因：「有掌控意圖」——借廠可以、讓渡主導權不行 → 歐洲車廠的底線逐漸清晰
+- BYD 現況：土耳其廠暫停、南歐尋址中，Stella Li 明言「傾向收購現有工廠」
+- 參見：[[sources/ev-news-2026-07-09]] | [[entities/比亞迪]] | [[entities/Renault]]
+
+## 反向技術輸出：Cadillac Optiq 採中國平台（2026-07）
+
+> **結論**：GM 下一代 Cadillac Optiq 將棄用美國 Ultium、改用上汽通用 PATAC 開發的逍遙平台——「中國研發、全球銷售」模式從中國品牌擴散至西方傳統大廠。
+
+- 逍遙平台：900V、支援 BEV/PHEV/EREV、SDV 架構；Buick Electra L7/E7 已採用
+- 動因：Ultium 在中國市場失敗（Electra E5/E4 低迷）→ 在中國、為中國開發的平台反而更具全球競爭力
+- 同類案例：Renault Twingo（上海研發）、Audi/現代汽車計畫以中國為研發中樞、VW 評估 ID. Era 9X 引進歐洲
+- 限制：美國市場因中國軟硬體管制不太可能採用 → 技術地緣分裂（bifurcation）成為新變數
+- 參見：[[sources/ev-news-2026-07-09]] | [[entities/通用汽車]] | [[entities/Volkswagen]]
+
+## 外資車廠中國產能出口潮（2026-07）
+
+> **結論**：外資中國市佔崩跌至 30% 後，「立足中國、面向全球」成為外資車廠新生存法則——中國作為全球出口樞紐的地位由本土品牌與外資共同強化。
+
+- 起亞中國產量 **68% 出口 89 國**；福特出口較 2022 年翻倍；豐田為唯一例外
+- 兩階段預測：第一階段燃油車與零組件出口 → 第二階段**中國製 EV 與車用電子**藉既有通路輸出全球
+- 參見：[[sources/ev-news-2026-07-03-08]] | [[countries/中國]] | [[entities/起亞]]
 
 ## Related
 - [[entities/比亞迪]]

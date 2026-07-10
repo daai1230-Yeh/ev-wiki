@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [vw-restructure-china-offensive-2026, ev-news-2026-06-27-29-en, ev-news-2026-06-30-07-01, ev-news-2026-07-02]
-updated: 2026-07-02
+sources: [vw-restructure-china-offensive-2026, ev-news-2026-06-27-29-en, ev-news-2026-06-30-07-01, ev-news-2026-07-02, ev-news-2026-07-03-08]
+updated: 2026-07-10
 ---
 
 # Volkswagen（福斯集團）
@@ -93,6 +93,15 @@ VW 正式評估將中國開發的 EREV 車型引入歐洲市場，以規避 EU B
 - 中國市場策略（「在中國、為中國」）與歐洲市場需求加速合流
 
 參見：[[sources/ev-news-2026-07-02]] | [[countries/歐洲]] | [[countries/德國]]
+
+## 「比亞迪收購福斯」傳言：德國結構危機的照妖鏡（2026-07）
+
+> **結論**：BYD 收購福斯的市場傳言雖未獲證實，但德國 IfW 所長 Schularick 指出，其震撼力正源自它揭示的德國車業深層結構性危機。
+
+- 傳統車廠 EV 轉型遲緩 + 中國車廠強攻 → 市佔持續流失，市場已開始認真評估中國資本入主德國傳統車廠的情境
+- 對照事實：福斯已關閉 4 座工廠、裁員 10 萬人；BYD 歐洲執行長 Stella Li 公開表態傾向「收購現有工廠」並對 Maserati 表達興趣
+- 目前狀態：**僅為傳言**，雙方均無官方確認
+- 參見：[[sources/ev-news-2026-07-03-08]] | [[entities/比亞迪]] | [[countries/德國]]
 
 ## Related
 - [[entities/BMW]]
