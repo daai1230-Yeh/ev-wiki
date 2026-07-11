@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [vw-restructure-china-offensive-2026, ev-news-2026-06-27-29-en, ev-news-2026-06-30-07-01, ev-news-2026-07-02, ev-news-2026-07-03-08]
-updated: 2026-07-10
+sources: [vw-restructure-china-offensive-2026, ev-news-2026-06-27-29-en, ev-news-2026-06-30-07-01, ev-news-2026-07-02, ev-news-2026-07-03-08, ev-news-2026-07-10-supplement]
+updated: 2026-07-11
 ---
 
 # Volkswagen（福斯集團）
@@ -102,6 +102,23 @@ VW 正式評估將中國開發的 EREV 車型引入歐洲市場，以規避 EU B
 - 對照事實：福斯已關閉 4 座工廠、裁員 10 萬人；BYD 歐洲執行長 Stella Li 公開表態傾向「收購現有工廠」並對 Maserati 表達興趣
 - 目前狀態：**僅為傳言**，雙方均無官方確認
 - 參見：[[sources/ev-news-2026-07-03-08]] | [[entities/比亞迪]] | [[countries/德國]]
+
+## 董事會擬 2031 年起關廠：具體時間表曝光（2026-07）
+
+> **結論**：VW 董事會提出分階段關廠計畫，Zwickau/Emden 2031 年起停產，並向監事會提出裁員 10 萬人的更激進重組方案。
+
+- 關廠時程：Zwickau/Emden（2031）→ Hanover（2032）→ Audi Neckarsulm（2034），涉及 4 萬員工、年產能 75 萬輛
+- 投資縮減：€1,800 億 → **€1,350 億**（2027-2031）；車型陣容擬砍 50%、年產能目標下修至約 900 萬輛
+- 工會反應：主席 Daniela Cavallo 公開表達不滿，要求 CEO Blume 正面回應
+- 參見：[[sources/ev-news-2026-07-10-supplement]] | [[countries/德國]]
+
+## Audi Q4 e-tron 改款：首款支援雙向充電（2026-07）
+
+- 效率提升：新一代後軸馬達效率 +10%，WLTP 續航增加約 30km；DC 快充峰值 165kW（quattro 高階 185kW）
+- **首款支援 V2L 雙向充電的 Audi**：230V 車內插座，最大 3.6kW 輸出
+- 定價：quattro 版起 €55,900
+- 美國市場對照：Audi H1 2026 美國僅賣 1,730 輛 EV，多數車型年減 80-99%（Q4 e-tron 僅 150 輛，年減 93%）
+- 參見：[[sources/ev-news-2026-07-10-supplement]] | [[sources/ev-news-2026-07-11]]
 
 ## Related
 - [[entities/BMW]]

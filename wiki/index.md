@@ -1,6 +1,6 @@
 # Wiki Index
 
-Last updated: 2026-07-11 | Pages: 485 | Sources: 392
+Last updated: 2026-07-11 | Pages: 485 | Sources: 394
 
 ---
 
@@ -284,6 +284,8 @@ Last updated: 2026-07-11 | Pages: 485 | Sources: 392
 - [[sources/ev-news-2026-07-09]] — 混合批次11篇（07-08~09）：Renault兩拒BYD入股（換歐洲工廠）、南韓H1 EV市場（Tesla 28.2%/起亞36.2%/現代跌第三/BYD 5.9%）、Tesla Grünheide電芯18GWh+Cell Giga Challenge、Archion釋股（豐田19.9%/戴姆勒26.7%）、賓士Q2 BEV 63K（+50%/歐洲+87%）、Cadillac Optiq採中國逍遙平台、蔚來上海電池研發中心（固態2028）、Fiat Topolino $13,995、零跑B03X €24,900、EU cleantech生產補貼聯名信、Tesla SDV/AIDV論述。(2026-07-09)
 - [[sources/ev-news-2026-07-10-electrive-batch]] — electrive/SustainableBus批次19篇：荷蘭貨車通行費（電動不全豁免）、Mars×Rewe/Woolworths/Stickel電動卡車走廊實績、WattEV第7充電場站、印度德里+300輛巴士（達4,845輛）、Switch Mobility EiV9、Allego換後台/Vattenfall退出B2B充電、Kia EV2 UK補助、浦項×現代高矽電磁鋼、AESC 46120電芯首搭BMW iX5、Fiat Topolino美國上市。(2026-07-10)
 - [[sources/ev-news-2026-07-10-insideevs-batch]] — InsideEVs批次4篇：豐田Highlander EV延後上市（燃油版仍熱銷）、Nissan Leaf如何定義電池衰退恐懼（氣冷vs液冷對比）、Scout Traveler/Terra實拍（VW財務壓力陰影）、紐澤西擬立法禁Tesla純視覺Robotaxi技術。(2026-07-10)
+- [[sources/ev-news-2026-07-10-supplement]] — 07-10補遺5篇：VW董事會擬2031年起關廠（裁員10萬人）、中國2030 NEV車隊佔比30%行動計畫、Audi Q4 e-tron改款首款雙向充電、LGES×GM田納西ESS用LFP量產、馬來西亞充電樁落後目標/比亞迪CKD廠傳暫停。(2026-07-10)
+- [[sources/ev-news-2026-07-11]] — 混合批次4篇完整文章+6份電子報摘要：美國Q2 EV銷量回溫24.7萬輛、Tesla Q2分市場解讀（歐洲強/美國穩/中國緩跌）、Audi美國EV銷量崩跌僅1,730輛、BYD Denza Z超跑1,582匹馬力1.5MW充電、鴻海×PTT泰國合資、華德動能千輛巴士籌備上市。(2026-07-11)
 
 ### 駐外新聞批量摘要
 - [[sources/駐外新聞-美國-2025]] — 2025 全年 83 篇；川普 EV 補貼削減/25% 汽車關稅/CAFE 放寬、底特律倒退、BESS 轉型、Tesla 去中國化供應鏈、氫能卡車崩潰。(2026-06-22)

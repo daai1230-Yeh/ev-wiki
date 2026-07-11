@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [tesla-ass-nhtsa-probe-closed, tesla-taiwan-march-2026, xiaomi-ev-europe-2027, tesla-4680-musk-strategy, tesla-korea-q1-2026, tesla-q1-2026-earnings, tesla-india-model-y-l, 駐外新聞-美國-2025, ev-news-2026-07-02, ev-news-2026-07-03-08, ev-news-2026-07-09, ev-news-2026-07-10-insideevs-batch]
-updated: 2026-07-10
+sources: [tesla-ass-nhtsa-probe-closed, tesla-taiwan-march-2026, xiaomi-ev-europe-2027, tesla-4680-musk-strategy, tesla-korea-q1-2026, tesla-q1-2026-earnings, tesla-india-model-y-l, 駐外新聞-美國-2025, ev-news-2026-07-02, ev-news-2026-07-03-08, ev-news-2026-07-09, ev-news-2026-07-10-insideevs-batch, ev-news-2026-07-11]
+updated: 2026-07-11
 ---
 
 # Tesla
@@ -226,6 +226,20 @@ Tesla Cybercab 在德州奧斯汀進行公路測試，確認無方向盤設計�
 **觀察**：紐澤西法案投票結果與生效時程；Tesla 是否調整感測器策略因應。
 
 - 參見：[[sources/ev-news-2026-07-10-insideevs-batch]] | [[concepts/自動駕駛安全監管]]
+
+## Q2 分市場解讀：歐洲強、美國穩、中國緩跌（2026-07）
+
+> **結論**：Tesla Q2 全球交車 48 萬輛的成長主要由歐洲插電車市場整體 booming 帶動，而非單靠品牌力回升，美國本土與中國市場實際仍呈現下滑。
+
+**主因（數字敘事）**：
+- 歐洲：1-5 月銷量年增 **77%**，但同期歐洲插電車市場整體年增 27%（高油價+新補貼驅動）→ Tesla 是受惠者而非唯一驅動力；分析師警告油價回落至 ~$70/桶恐使下半年買氣降溫
+- 美國：Q2 賣出 124,800 輛（年減 13%），Model Y 僅微跌 1.5%，但 Model 3/Cybertruck 跌幅較大
+- 中國：Q2 年減約 2%，連續第 5 季下滑，但**優於同業**（比亞迪 6 月中國內銷年減 22%）→ Model Y 6 月單月仍賣近 3.9 萬輛
+- 關鍵新品：**Model Y L**（加長版）已在美上市，被視為近年最具意義的產品更新，可望帶動下半年買氣
+
+**觀察**：Q3 歐洲買氣是否隨油價回落而降溫；Model Y L 對美國銷量的實際拉動效果。
+
+- 參見：[[sources/ev-news-2026-07-11]] | [[countries/美國]] | [[countries/歐洲]]
 
 ## Related
 - [[entities/NHTSA]]

@@ -1560,3 +1560,50 @@ Pages 375 → 406，Sources 315 → 346
 
 ### Index 更新
 - Sources: 390 → 392（新增 2 個批次 source 頁）
+
+## [2026-07-10] deliverable | 歐洲電動車＋電動巴士 兩份單題快報＋逐字稿
+- 產出資料夾: /02-車籍資料庫/歐洲電動車與電動巴士簡報/
+  - 歐洲電動車推動現況.pptx（15頁）＋_逐字稿.docx
+  - 歐洲電動巴士推動現況.pptx（15頁）＋_逐字稿.docx
+- 體裁: 單題快報（沿用 FSD 那份的體裁，使用者偏好；兩段式標題、圖表三件套、編號論點卡結語、無下一步觀察藍條、Control 入逐字稿）
+- 電動車來源: 知識庫（countries/歐洲）＋ MarkLines 概念（工廠地圖用知識庫工廠資訊）；主題「需求回溫/政策鬆綁/中國叩關」三重變局；2.5D 歐洲地圖（各國市占+中國品牌設廠紅星）
+- 電動巴士來源: IEA Global EV Outlook 2026（全球8萬輛/中國~62%/歐洲第二）＋ sustainable-bus.com（歐洲2025年13,384輛+32%、BYD領先、中國廠近1/3、城市巴士零排放51%）；主題「城市過半、城際與L4自駕新前沿」
+- 對台意涵: 電動車=鴻海買ZF e-drive/零件轉單；電動巴士=鴻海×FUSO/華德動能
+- 註: 原歐洲電動車曾做23頁詳細版，依使用者回饋改為15頁單題快報體裁
+
+## [2026-07-11] deliverable | 美國汽車關稅政策演變與台日韓因應 單題快報＋逐字稿
+- 產出: /02-車籍資料庫/美國關稅政策與台日韓因應快報/ 下 美國汽車關稅政策演變與台日韓因應.pptx（17頁）＋_逐字稿.docx
+- 主題定位: 單題「變化」——2025/4 美國232條25%關稅基準 → 日韓2025下半年談判至15%（附鉅額對美投資承諾）→ 台灣2026初以「零件關稅15%上限換自身市場零關稅」不對稱協議收場 → 2026/2最高法院IEEPA判決為執行添變數
+- 資料通道: ①知識庫（countries/日本、韓國、台灣、美國既有關稅段落）②WebSearch補齊日韓台三份協議具體生效日期/稅率/投資承諾金額（CBT News、S&P Global、Federal Register）③WebFetch查證台灣車廠具體因應（TaiwanPlus：賓士台灣調價、裕隆評估引進美製車、政府9500萬美元紓困）及最高法院判決對協議的影響（DIGITIMES）
+- 體裁: 單題快報（兩段式標題、時間軸、三國比較表、2張圖表：關稅稅率前後對比+投資承諾對比、影響因素歸因表、編號論點卡結語；無下一步觀察藍條，Control入逐字稿）
+- 特色: 首次挖出「台灣是唯一被要求開放自身市場換關稅減負」的不對稱結構，並點出最高法院IEEPA判決（232條不受影響但協議執行添變數）這條交叉線索
+- Pages consulted: [[countries/日本]], [[countries/韓國]], [[countries/台灣]], [[countries/美國]], [[concepts/北美EV關稅與政策]]
+
+## [2026-07-11] ingest | ev-news-2026-07-10-supplement + ev-news-2026-07-11（補遺5篇 + 混合批次10篇）
+
+- Summary pages: [[sources/ev-news-2026-07-10-supplement]]、[[sources/ev-news-2026-07-11]]
+- Raw assets: raw/assets/2026-07-10~11 各檔案（electrive、InsideEVs、Google Alerts、ETAuto 電子報摘要）
+- 所有 source 頁均含原文網址（inline hyperlink）
+- 補遺說明：ev-news-2026-07-10-supplement 收錄先前批次遺漏未 ingest 的 5 篇原文（VW 關廠計畫、中國 NEV 目標、Audi Q4 e-tron、LGES×GM 田納西、馬來西亞充電）
+- 內容主軸：VW 董事會 2031 年起關廠計畫、中國 2030 NEV 30% 目標、美國 Q2 EV 銷量回溫、Tesla Q2 分市場表現、Audi 美國銷量崩跌、BYD Denza Z 超跑、鴻海×PTT 泰國合資、馬來西亞充電樁落後
+
+### Concepts 更新（3 頁）
+- [[concepts/儲能市場]] — +LGES×GM 田納西廠 ESS 量產
+- [[concepts/充電基礎建設]] — +馬來西亞充電樁落後目標
+- [[concepts/電動巴士市場]] — +台灣華德動能千輛巴士籌備上市
+
+### Countries 更新（4 頁）
+- [[countries/中國]] — +2030 NEV 車隊佔比 30% 行動計畫
+- [[countries/德國]] — +VW 董事會 2031 年起關廠時間表
+- [[countries/美國]] — +Q2 EV 銷量回溫（24.7 萬輛）
+- [[countries/東南亞]] — +鴻海×PTT 泰國合資、+馬來西亞充電落後/比亞迪 CKD 廠暫停
+
+### Entities 更新（5 頁）
+- [[entities/Volkswagen]] — +董事會關廠時間表、+Audi Q4 e-tron 改款
+- [[entities/LGES]] — +田納西廠 ESS 量產
+- [[entities/比亞迪]] — +Denza Z 超跑、+Masdar 儲能合作/1,700萬輛里程碑
+- [[entities/Tesla]] — +Q2 分市場解讀（歐洲/美國/中國）
+- [[entities/鴻海]] — +PTT 泰國合資
+
+### Index 更新
+- Sources: 392 → 394（新增 2 個批次 source 頁）

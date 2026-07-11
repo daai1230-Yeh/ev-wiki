@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [lges-loss-ess-2026, ira-supply-chain-compliance, us-ev-battery-demand-mismatch, lges-tesla-4680-supplier, lges-bmw-46series-order, ev-news-2026-07-03-08]
-updated: 2026-07-10
+sources: [lges-loss-ess-2026, ira-supply-chain-compliance, us-ev-battery-demand-mismatch, lges-tesla-4680-supplier, lges-bmw-46series-order, ev-news-2026-07-03-08, ev-news-2026-07-10-supplement]
+updated: 2026-07-11
 ---
 
 # 樂金能源解決方案（LG Energy Solution，LGES）
@@ -70,6 +70,19 @@ updated: 2026-07-10
 **觀察**：Vertex LFP ESS 產品上市時點；HEV 電池量產規模與本田新車型搭載進度。
 
 - 參見：[[sources/ev-news-2026-07-03-08]] | [[entities/本田]] | [[concepts/儲能市場]]
+
+## × GM 田納西廠：ESS 用 LFP 電池量產（2026-07）
+
+> **結論**：LGES×GM 合資 Ultium Cells 田納西廠正式啟動 ESS 用 LFP 電芯量產，距公布計畫僅 4 個月，LGES 北美 ESS 產能佈局擴至 5 處。
+
+**主因（數字敘事）**：
+- 投資 **$7,000 萬**將既有 EV 產線轉換為 ESS 產線 → 2026-01 一度停工的員工已全數復工，產線轉型速度快於一般電池廠
+- 北美 ESS 佈局擴至 **5 處**（密西根 Holland、加拿大 NextStar、L-H Battery、密西根 Lansing、田納西 Spring Hill）→ 目標 2026 年底北美 ESS 產能達 **50+ GWh**
+- 客戶基礎：Terra-Gen、Tesla、韓華 Q CELLS，加上 2026-05 與 DTE Energy 簽署 6 GWh／$16 億合約 → ESS 已成為 LGES 在美 EV 需求放緩下的核心成長引擎
+
+**觀察**：50 GWh 目標達成進度；是否有更多既有 EV 產線轉換為 ESS。
+
+- 參見：[[sources/ev-news-2026-07-10-supplement]] | [[concepts/儲能市場]]
 
 ## Related
 - [[entities/寧德時代]]
