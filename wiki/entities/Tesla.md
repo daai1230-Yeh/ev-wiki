@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [tesla-ass-nhtsa-probe-closed, tesla-taiwan-march-2026, xiaomi-ev-europe-2027, tesla-4680-musk-strategy, tesla-korea-q1-2026, tesla-q1-2026-earnings, tesla-india-model-y-l, 駐外新聞-美國-2025, ev-news-2026-07-02, ev-news-2026-07-03-08, ev-news-2026-07-09, ev-news-2026-07-10-insideevs-batch, ev-news-2026-07-11]
-updated: 2026-07-11
+sources: [tesla-ass-nhtsa-probe-closed, tesla-taiwan-march-2026, xiaomi-ev-europe-2027, tesla-4680-musk-strategy, tesla-korea-q1-2026, tesla-q1-2026-earnings, tesla-india-model-y-l, 駐外新聞-美國-2025, ev-news-2026-07-02, ev-news-2026-07-03-08, ev-news-2026-07-09, ev-news-2026-07-10-insideevs-batch, ev-news-2026-07-11, ev-news-2026-07-12-13-digest, ev-news-2026-07-12-13-electrive, ev-news-2026-07-13-digitimes]
+updated: 2026-07-13
 ---
 
 # Tesla
@@ -240,6 +240,20 @@ Tesla Cybercab 在德州奧斯汀進行公路測試，確認無方向盤設計�
 **觀察**：Q3 歐洲買氣是否隨油價回落而降溫；Model Y L 對美國銷量的實際拉動效果。
 
 - 參見：[[sources/ev-news-2026-07-11]] | [[countries/美國]] | [[countries/歐洲]]
+
+## Q2 交付創高但股價重挫；LGES 擴大供應（2026-07）
+
+> **結論**：Tesla Q2 交付創紀錄 48 萬輛，財報發布後股價卻重挫 8%，LGES 同步擴大南京廠圓柱電芯產能以支應成長訂單。
+
+**主因**：
+- 股價反應：交付創高但股價跌 8%，年初至今累計下滑逾 9%，華爾街評級分歧（強力買進 to 強力賣出）→ 市場對成長可持續性存疑
+- 供應鏈跟進：LGES 南京廠新增產線支應 Tesla 訂單，總產能擴增至兩位數 GWh
+- Fremont 廠 Model S/X 產線僅耗時 **46 天**即拆除完畢，全面改造 Optimus 量產基地；Optimus 第三代量產目標 9 月週產 1,000 部、年底 2,000 部
+- Robotaxi 擴張至邁阿密；美國 NHTSA 考慮取消方向盤強制規定，直接受惠 Cybercab
+
+**觀察**：Q3 財報是否扭轉市場疑慮；Optimus 量產目標達成進度。
+
+- 參見：[[sources/ev-news-2026-07-12-13-digest]] | [[sources/ev-news-2026-07-12-13-electrive]] | [[sources/ev-news-2026-07-13-digitimes]] | [[entities/LGES]]
 
 ## Related
 - [[entities/NHTSA]]

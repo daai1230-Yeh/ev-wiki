@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [lges-bmw-46series-order, ev-news-2026-06-30-07-01, ev-news-2026-07-10-electrive-batch]
-updated: 2026-07-10
+sources: [lges-bmw-46series-order, ev-news-2026-06-30-07-01, ev-news-2026-07-10-electrive-batch, ev-news-2026-07-12-13-electrive]
+updated: 2026-07-13
 ---
 
 # BMW（寶馬）
@@ -87,6 +87,20 @@ BMW 旗艦電動 SUV 全球首映，進入新能量密度區間：
 **觀察**：AESC 美國南卡 Florence County 廠（原 2025 中暫停）是否重啟以供應此電芯；iX5 實際上市時程（2026 底至 2027 初）。
 
 - 參見：[[sources/ev-news-2026-07-10-electrive-batch]]
+
+## H1 BEV 銷量年減 7.4%：新款 iX3 帶動歐洲 Q2 反彈（2026-07）
+
+> **結論**：BMW（含 MINI、Rolls-Royce）H1 售出 20.4 萬輛 BEV，年減 7.4%，但 Q2 因新款 iX3 上市帶動歐洲銷量激增 38%，季增轉正 5.2%。
+
+**主因（數字敘事）**：
+- Q1 大幅衰退、Q2 反彈至 11.68 萬輛（季增 5.2%）→ 完全由歐洲 iX3 首發驅動，歐洲 Q2 BEV 達 8.14 萬輛（**+38.0%**），德國掛牌純電躍居第二
+- 電動化滲透率：BEV 佔比 **17.6%**（含 PHEV 達 25.5%，每 4 輛新車 1 輛插電）→ 遠高於 VW（10.6%）與賓士（~13%），居德系三雄之冠
+- 中國拖累：H1 中國銷量年減 20.4%（26.18 萬輛），Q2 單季暴跌 30%
+- 對比集團：MINI 全球銷量逆勢 +11.7%（連續 6 季成長，純電為主要動能）
+
+**觀察**：iX3 熱潮能否延續至下半年；中國市場衰退是否進一步擴大。
+
+- 參見：[[sources/ev-news-2026-07-12-13-electrive]] | [[countries/德國]] | [[countries/中國]]
 
 ## Related
 - [[entities/Volkswagen]]

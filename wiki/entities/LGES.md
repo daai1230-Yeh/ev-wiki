@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [lges-loss-ess-2026, ira-supply-chain-compliance, us-ev-battery-demand-mismatch, lges-tesla-4680-supplier, lges-bmw-46series-order, ev-news-2026-07-03-08, ev-news-2026-07-10-supplement]
-updated: 2026-07-11
+sources: [lges-loss-ess-2026, ira-supply-chain-compliance, us-ev-battery-demand-mismatch, lges-tesla-4680-supplier, lges-bmw-46series-order, ev-news-2026-07-03-08, ev-news-2026-07-10-supplement, ev-news-2026-07-12-13-electrive]
+updated: 2026-07-13
 ---
 
 # 樂金能源解決方案（LG Energy Solution，LGES）
@@ -83,6 +83,14 @@ updated: 2026-07-11
 **觀察**：50 GWh 目標達成進度；是否有更多既有 EV 產線轉換為 ESS。
 
 - 參見：[[sources/ev-news-2026-07-10-supplement]] | [[concepts/儲能市場]]
+
+## 擴大南京圓柱電芯產能：支應 Tesla 訂單成長（2026-07）
+
+> **結論**：LGES 南京廠新增產線以支應 Tesla 訂單成長，兩條新產線 2026 下半啟用，總產能將擴增至兩位數 GWh。
+
+- 現況：南京廠已滿載運轉；LGES 圓柱電池總年產能約 50GWh，其中約 30GWh 供應 Tesla 上海超級工廠
+- 背景：Tesla Model Y 需求持續成長，上海廠前 5 月出貨近 37.9 萬輛（+29%）
+- 參見：[[sources/ev-news-2026-07-12-13-electrive]] | [[entities/Tesla]]
 
 ## Related
 - [[entities/寧德時代]]

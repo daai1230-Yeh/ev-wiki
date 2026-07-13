@@ -1,6 +1,6 @@
 # Wiki Index
 
-Last updated: 2026-07-11 | Pages: 485 | Sources: 394
+Last updated: 2026-07-13 | Pages: 485 | Sources: 397
 
 ---
 
@@ -286,6 +286,9 @@ Last updated: 2026-07-11 | Pages: 485 | Sources: 394
 - [[sources/ev-news-2026-07-10-insideevs-batch]] — InsideEVs批次4篇：豐田Highlander EV延後上市（燃油版仍熱銷）、Nissan Leaf如何定義電池衰退恐懼（氣冷vs液冷對比）、Scout Traveler/Terra實拍（VW財務壓力陰影）、紐澤西擬立法禁Tesla純視覺Robotaxi技術。(2026-07-10)
 - [[sources/ev-news-2026-07-10-supplement]] — 07-10補遺5篇：VW董事會擬2031年起關廠（裁員10萬人）、中國2030 NEV車隊佔比30%行動計畫、Audi Q4 e-tron改款首款雙向充電、LGES×GM田納西ESS用LFP量產、馬來西亞充電樁落後目標/比亞迪CKD廠傳暫停。(2026-07-10)
 - [[sources/ev-news-2026-07-11]] — 混合批次4篇完整文章+6份電子報摘要：美國Q2 EV銷量回溫24.7萬輛、Tesla Q2分市場解讀（歐洲強/美國穩/中國緩跌）、Audi美國EV銷量崩跌僅1,730輛、BYD Denza Z超跑1,582匹馬力1.5MW充電、鴻海×PTT泰國合資、華德動能千輛巴士籌備上市。(2026-07-11)
+- [[sources/ev-news-2026-07-12-13-electrive]] — electrive批次10篇：VW集團H1 BEV -5.8%（中美重挫/歐洲+8.4%）、BMW H1 BEV -7.4%（iX3帶動Q2反彈）、VW內部權力鬥爭（監事會未過半）、中國6月NEV出口首破50萬輛、LGES擴大南京產能供Tesla、Eviny×Mer北歐最大快充商合併、Grab越南充電15倍擴張、賓士AMG電動CLA45、Alpine電動A110、Peugeot狗主題概念車。(2026-07-13)
+- [[sources/ev-news-2026-07-13-digitimes]] — Digitimes批次3篇：美中同步鬆綁Robotaxi法規（NHTSA擬取消方向盤/中國L3-L4國標2027生效）、普利司通AirFree無氣輪胎商轉（自駕巴士）、豐田喊停Lexus LF-ZC內幕（新任財務長社長決策+比亞迪Z9GT搶先卡位）。(2026-07-13)
+- [[sources/ev-news-2026-07-12-13-digest]] — 電子報摘要彙整5份：全球6月EV銷量破200萬輛、Tesla Q2交付創高股價卻重挫8%、Optimus量產目標、Cadillac Vistiq召回、印度GST電池關稅降/德里運輸工會反對強制EV化、德系車廠中國銷量重挫、台灣華德動能日本市占目標32%、中國NEV換車週期壓縮至1.8年。(2026-07-13)
 
 ### 駐外新聞批量摘要
 - [[sources/駐外新聞-美國-2025]] — 2025 全年 83 篇；川普 EV 補貼削減/25% 汽車關稅/CAFE 放寬、底特律倒退、BESS 轉型、Tesla 去中國化供應鏈、氫能卡車崩潰。(2026-06-22)

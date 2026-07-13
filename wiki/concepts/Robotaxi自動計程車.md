@@ -1,7 +1,7 @@
 ---
 tags: [concept]
-sources: [robotaxi-market-2026, china-autonomous-driving-overseas, europe-robotaxi-verne-ponyai, waymo-miami-orlando-expansion, taiwan-av-special-scenes, japan-2030-autonomous-ai-strategy, ratp-karsan-autonomous-bus-paris, av-physical-ai-trends-2026, tesla-fsd-eu-expansion-2026, tesla-robotaxi-texas-reality-2026, uber-robotaxi-europe-expansion-2026, waymo-battery-secondlife-colorado-recycling-2026, toyota-tier-iv-l4-investment-2026, waymo-arizona-expansion-2026, tesla-cybercab-specs-2026, mobileye-robotaxi-2026, tesla-fsd-netherlands-2026, ev-news-2026-06-22]
-updated: 2026-06-23
+sources: [robotaxi-market-2026, china-autonomous-driving-overseas, europe-robotaxi-verne-ponyai, waymo-miami-orlando-expansion, taiwan-av-special-scenes, japan-2030-autonomous-ai-strategy, ratp-karsan-autonomous-bus-paris, av-physical-ai-trends-2026, tesla-fsd-eu-expansion-2026, tesla-robotaxi-texas-reality-2026, uber-robotaxi-europe-expansion-2026, waymo-battery-secondlife-colorado-recycling-2026, toyota-tier-iv-l4-investment-2026, waymo-arizona-expansion-2026, tesla-cybercab-specs-2026, mobileye-robotaxi-2026, tesla-fsd-netherlands-2026, ev-news-2026-06-22, ev-news-2026-07-13-digitimes]
+updated: 2026-07-13
 ---
 
 # Robotaxi（自動計程車）
@@ -289,6 +289,15 @@ Mobileye 宣布成立垂直整合 Robotaxi 部門，從技術供應商轉型為�
 - **艙駕融合**：座艙互動（語音、視覺）與行車輔助系統深度整合，提升用戶黏著度
 - ADAS 供應鏈 2H26 爆發：高算力晶片（地平線、黑芝麻）+ 感知（大疆、速騰）+ 演算法（Momenta、Mobileye）需求激增
 - 參見：[[sources/ev-news-2026-06-22]]
+
+## 美中同步鬆綁法規：Robotaxi 商業化障礙加速掃除（2026-07）
+
+> **結論**：美國 NHTSA 擬取消方向盤強制配置規定，中國同步建立 L3/L4 國家標準（2027-07 生效），兩大市場的法規進展被視為 Robotaxi「大航海時代」的關鍵轉折。
+
+- 美國受惠者：Tesla Cybercab（已投產無方向盤設計）、Amazon Zoox、Waymo
+- 中國受惠者：L3 申請測試階段的比亞迪、華為、小鵬；L4 營運代表百度蘿蔔快跑、小馬智行
+- 詳見：[[concepts/自動駕駛安全監管]]
+- 參見：[[sources/ev-news-2026-07-13-digitimes]]
 
 ## Related
 - [[concepts/ADAS智駕系統]]

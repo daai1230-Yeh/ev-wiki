@@ -1,8 +1,8 @@
 ---
 title: LGES攜GM搶攻儲能商機　田納西廠啟動LFP電池量產
-author: 蔡云瑄／綜合報導
+author: 蔡云瑄
 date: 2026-07-10
-source: https://www.digitimes.com.tw/tech/dt/n/shwnws.asp?CnlID=&id=761252&grid_seq1=&grid_seq2=
+source: https://www.digitimes.com.tw/tech/dt/n/shwnws.asp?id=761252
 tags:
   - LGES
   - GM
@@ -11,12 +11,12 @@ tags:
   - 儲能
   - Digitimes
   - 未來車供應鏈
-clipped: 2026-07-10
+clipped: 2026-07-13
 ---
 
 # LGES攜GM搶攻儲能商機　田納西廠啟動LFP電池量產
 
-**作者**：蔡云瑄／綜合報導　｜　**日期**：2026-07-10　｜　**來源**：[原文連結](https://www.digitimes.com.tw/tech/dt/n/shwnws.asp?CnlID=&id=761252&grid_seq1=&grid_seq2=)
+**作者**：蔡云瑄　｜　**日期**：2026-07-10　｜　**來源**：[原文連結](https://www.digitimes.com.tw/tech/dt/n/shwnws.asp?id=761252)
 
 ---
 
@@ -38,4 +38,4 @@ LGES的計畫是，在2026年底前，在北美建立起50GWh以上的ESS電池�
 
 ---
 
-*來源：[DIGITIMES](https://www.digitimes.com.tw/tech/dt/n/shwnws.asp?CnlID=&id=761252&grid_seq1=&grid_seq2=)*
+*來源：[DIGITIMES](https://www.digitimes.com.tw/tech/dt/n/shwnws.asp?id=761252)*

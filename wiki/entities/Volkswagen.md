@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [vw-restructure-china-offensive-2026, ev-news-2026-06-27-29-en, ev-news-2026-06-30-07-01, ev-news-2026-07-02, ev-news-2026-07-03-08, ev-news-2026-07-10-supplement]
-updated: 2026-07-11
+sources: [vw-restructure-china-offensive-2026, ev-news-2026-06-27-29-en, ev-news-2026-06-30-07-01, ev-news-2026-07-02, ev-news-2026-07-03-08, ev-news-2026-07-10-supplement, ev-news-2026-07-12-13-electrive]
+updated: 2026-07-13
 ---
 
 # Volkswagen（福斯集團）
@@ -119,6 +119,28 @@ VW 正式評估將中國開發的 EREV 車型引入歐洲市場，以規避 EU B
 - 定價：quattro 版起 €55,900
 - 美國市場對照：Audi H1 2026 美國僅賣 1,730 輛 EV，多數車型年減 80-99%（Q4 e-tron 僅 150 輛，年減 93%）
 - 參見：[[sources/ev-news-2026-07-10-supplement]] | [[sources/ev-news-2026-07-11]]
+
+## H1 BEV 銷量年減 5.8%：中美重挫、歐洲逆勢成長（2026-07）
+
+> **結論**：VW 集團 H1 交付 43.85 萬輛 BEV，年減 5.8%，歐洲市場逆勢成長 8.4%，但美國崩跌 68.8%、中國崩跌 47.9%，電動化版圖正快速向歐洲收斂。
+
+**主因（數字敘事）**：
+- 分市場對比：歐洲 37.7 萬輛（+8.4%）> 中國 3.09 萬輛（-47.9%）> 美國 0.98 萬輛（**-68.8%**）→ 事實上已退守歐洲單一市場，美國衰退歸因於補貼退場+關稅，中國則因本土開發電動車尚處導入初期
+- 品牌分化：Škoda +48.3%（108,200 輛）成長最快，VW 乘用車部門卻重挫 -28.2%（138,300 輛）→ Škoda 與 VW 品牌 BEV 差距已由去年 12 萬輛收窄至僅 3 萬輛
+- 正面訊號：歐洲 BEV 未交付訂單年增逾 50%；新推出 Electric Urban Car Family（ID. Polo/Škoda Epiq/Cupra Raval）已累積超過 5.4 萬張訂單
+
+**觀察**：Electric Urban Car Family 訂單能否轉化為實際交車；中國本土開發 EV（ID. ERA 系列）能否扭轉頹勢。
+
+- 參見：[[sources/ev-news-2026-07-12-13-electrive]] | [[countries/中國]] | [[countries/歐洲]]
+
+## 內部權力鬥爭：董事會重組方案未獲監事會支持（2026-07）
+
+> **結論**：CEO Blume 主導的重組方案在監事會初次表決未獲多數支持，VW 恐面臨數月權力拉鋸；Blume 同時鬆口稱關廠並非唯一選項。
+
+- 表決受挫：監事會初次表決未過半 → 先前曝光的關廠時間表尚未定案
+- Blume 立場軟化：稱「有比關廠更聰明的解決方案」，德國廠成本 2025 年已平均降低 20% → 暗示可能引入合作夥伴或轉型工廠用途
+- 對外/對內口徑落差：CEO 對外表態「不會關廠」，與監事會內部激烈交鋒形成對比
+- 參見：[[sources/ev-news-2026-07-12-13-electrive]] | [[sources/ev-news-2026-07-12-13-digest]] | [[countries/德國]]
 
 ## Related
 - [[entities/BMW]]
