@@ -1,7 +1,7 @@
 ---
 tags: [concept]
-sources: [stellantis-leapmotor-canada-rejected, xiaomi-ev-europe-2027, foxconn-mitsubishi-fuso-electric-bus, xpeng-mexico-launch, byd-denza-europe-debut, china-autonomous-driving-overseas, stellantis-opel-leapmotor-suv, thailand-ev-market-2026, china-ev-export-record-march-2026, byd-malaysia-factory-negotiation, europe-robotaxi-verne-ponyai, byd-april-exports-q1-2026, leapmotor-t03-germany-2026, malaysia-cbv-ev-regulation-2026, china-ev-europe-challenges-2026, china-nev-april-2026, china-evs-canada-chery-geely-2026, jpmorgan-china-ev-europe-2028, china-nev-april-involution-2026, geely-thailand-pickup-2026, byd-korea-10k-record-2026, china-ev-us-market-2026, osaka-expo-chinese-ebus-defect-2026, global-ev-demand-may2026, stellantis-china-ev-europe-factories-2026, xpeng-vw-europe-factory-2026, china-k-car-micro-ev-concept-2026, china-ev-europe-factory-takeover-2026, mg-saic-spain-factory-2026, nissan-chery-sunderland-deal-2026, tata-chery-avinya-platform-2026, byd-dod-military-list-2026, australia-china-ev-milestone-2026, byd-hungary-labour-report-2026, ev-news-digest-jun1-10-2026, byd-flash-charging-europe-2026, ev-news-2026-07-03-08, ev-news-2026-07-09]
-updated: 2026-07-10
+sources: [stellantis-leapmotor-canada-rejected, xiaomi-ev-europe-2027, foxconn-mitsubishi-fuso-electric-bus, xpeng-mexico-launch, byd-denza-europe-debut, china-autonomous-driving-overseas, stellantis-opel-leapmotor-suv, thailand-ev-market-2026, china-ev-export-record-march-2026, byd-malaysia-factory-negotiation, europe-robotaxi-verne-ponyai, byd-april-exports-q1-2026, leapmotor-t03-germany-2026, malaysia-cbv-ev-regulation-2026, china-ev-europe-challenges-2026, china-nev-april-2026, china-evs-canada-chery-geely-2026, jpmorgan-china-ev-europe-2028, china-nev-april-involution-2026, geely-thailand-pickup-2026, byd-korea-10k-record-2026, china-ev-us-market-2026, osaka-expo-chinese-ebus-defect-2026, global-ev-demand-may2026, stellantis-china-ev-europe-factories-2026, xpeng-vw-europe-factory-2026, china-k-car-micro-ev-concept-2026, china-ev-europe-factory-takeover-2026, mg-saic-spain-factory-2026, nissan-chery-sunderland-deal-2026, tata-chery-avinya-platform-2026, byd-dod-military-list-2026, australia-china-ev-milestone-2026, byd-hungary-labour-report-2026, ev-news-digest-jun1-10-2026, byd-flash-charging-europe-2026, ev-news-2026-07-03-08, ev-news-2026-07-09, ev-news-2026-07-14-16-electrive]
+updated: 2026-07-16
 ---
 
 # 中國 EV 出海策略
@@ -360,6 +360,19 @@ MG Motor（上汽 SAIC 旗下）在西班牙加利西亞建設歐盟首座中國
 - 菲律賓為 N7 **首個中國以外市場**
 - 日產借東風合資（Dongfeng）出口 N7 至拉美 + 東南亞
 - 復刻「Primera」品牌名稱（ICE 時代 2000 年代停用），重走品牌記憶牌
+
+## T&E 分析：歐盟關稅逼退西方車廠，中系品牌反而擴大進口（2026-07）
+
+> **結論**：T&E 分析顯示歐盟對中國 EV 關稅使中國製造市佔由 22%（2024 高峰）降至 17%，但下滑主因是西方車廠（Tesla/BMW/Volvo）減少中國產能外銷，比亞迪等低關稅中系品牌進口反而翻倍以上。
+
+**主因（數字敘事）**：
+- 歐洲車廠中國製造份額：2024 年 38% → 2026 Q1 **23%**（Tesla 由 26%→19%）→ 西方車廠主動撤出中國產能，並非關稅奏效
+- 品牌分化：SAIC（35%+10%關稅）進口幾近腰斬；**比亞迪（17%+10%關稅）進口翻倍以上** → 低關稅品牌反而受惠加速擴張
+- 中國 BEV 均價仍比歐洲製造便宜 21%；已宣布 10 座歐洲產線規避關稅；PHEV 轉單使中國品牌歐盟 PHEV 市佔由 3%（2024）躍升至 **13%**
+
+**觀察**：T&E 建議對中國電池課徵 20% 關稅；德國是否支持產業加速法案與企業車隊規範。
+
+- 參見：[[sources/ev-news-2026-07-14-16-electrive]] | [[entities/比亞迪]] | [[countries/歐洲]]
 
 ## Related
 - [[concepts/電動巴士市場]]

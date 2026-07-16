@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [ev-news-2026-06-25, ev-news-2026-07-02]
-updated: 2026-07-02
+sources: [ev-news-2026-06-25, ev-news-2026-07-02, ev-news-2026-07-14-16-insideevs]
+updated: 2026-07-16
 ---
 
 # Slate Auto
@@ -46,6 +46,13 @@ Slate Auto 確認**無計劃將皮卡在加拿大銷售**，主因加拿大 25% 
 - 若未來關稅調整，可能重新評估
 
 參見：[[sources/ev-news-2026-07-02]] | [[countries/美國]]
+
+## 目的地費揭曉：總價 $26,400（2026-07）
+
+- 目的地費 $1,450（美國皮卡最低），加上基本車價達總價 **$26,400**（未稅）
+- 極簡配置換取低價：無電動窗/鏡子/音響/中控螢幕/烤漆；EPA 續航 205 英里、181 匹馬力
+- 對比：Chevy Silverado EV（約 $58,000）、Tesla Cybertruck（約 $70,000）——Slate 定價優勢明確
+- 參見：[[sources/ev-news-2026-07-14-16-insideevs]]
 
 ## Related
 - [[entities/Rivian]]

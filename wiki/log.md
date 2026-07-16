@@ -1654,3 +1654,63 @@ Pages 375 → 406，Sources 315 → 346
 
 ### Index 更新
 - Sources: 394 → 397（新增 3 個批次 source 頁）
+
+## [2026-07-12] update | 簡報字級調整＋配色改逐次指定
+- Pages updated: [[templates/國家簡報模板]], [[templates/車廠簡報模板]], [[templates/單題快報模板]]
+- Key changes: ①大綱項目/小標題/表格標題列統一為22pt（原24pt，先前實作常誤縮至15-17pt）②內文與表格內容統一為20pt（含hblocks/cols條列說明文字，先前實作常誤縮至14-18pt）③配色改為「每次製作前先確認/由使用者於提示詞指定」，不再假設固定配色，未指定時才預設沿用#30629A系列
+- 同步更新記憶檔 deck-design-spec.md 與 MEMORY.md 索引
+
+## [2026-07-12] create | 逐字稿專家口吻指南（源自同事簡報逐字稿分析）
+- New pages created: [[templates/逐字稿專家口吻指南]]
+- Pages updated: [[templates/國家簡報模板]], [[templates/車廠簡報模板]], [[templates/單題快報模板]]（逐字稿規範段掛入指南）, [[index]]
+- 來源: 使用者提供「電動車簡報表達技巧分析.docx」（宗儒技正 2026-06-16 簡報逐字稿×投影片對照分析，28頁逐頁技巧＋8條跨頁共通模式）
+- Key additions: 提煉20條可執行規則，分四類——A整體語氣（聊天不演講/先給地圖/歡迎提問/首尾呼應）B逐頁寫法（先大後小/只講最值得注意的/進度條思維/主動說複雜再解開/大局+唯一缺口）C修辭工具箱（個人化例子/假設情境/反常識記憶點/畫面感用詞/有據誇飾/輕幽默，每份至少用3種）D誠信底氣（主動說挑戰/回應反對意見/承認不確定/解釋波動/因果鏈完整）
+- 同步寫入長期記憶 script-expert-tone.md
+
+## [2026-07-12] correction | 逐字稿專家口吻指南出處更正
+- 更正: 專家口吻的範本講者為使用者同事**莊閔任（Nick）**；宗儒技正為聽講者（原分析docx內標註有誤導）。指南、index、記憶均已同步更正
+
+## [2026-07-16] query | 波蘭車輛產業＋東歐設廠＋歐洲2025銷量＋鴻海EMP（供長官簡訊）
+- Pages consulted: [[sources/foxconn-emp-poland-2026]], [[sources/駐外新聞-歐洲汽車製造國-2025]], [[entities/鴻海]], [[countries/歐洲]]
+- Web查證: PZPM波蘭掛牌/產量、OICA 2024（波蘭55.5萬/捷克145.9萬）、捷克2025全年144.6萬、ACEA 2025全年（EU 1,082萬/BEV 17.4%）、Leapmotor退出波蘭Tychy改落西班牙Zaragoza
+- Filed back: 無（文字答覆，未新建頁面）
+
+## [2026-07-16] ingest | ev-news-2026-07-14-16 四批次（digitimes/electrive/insideevs/etauto-india，共約 34 篇）
+
+- Summary pages: [[sources/ev-news-2026-07-14-16-digitimes]]、[[sources/ev-news-2026-07-14-16-electrive]]、[[sources/ev-news-2026-07-14-16-insideevs]]、[[sources/ev-news-2026-07-16-etauto-india]]
+- Raw assets: raw/assets/2026-07-14~16 各檔案（Digitimes、electrive、InsideEVs、ETAuto、Sustainable Bus）
+- 所有 source 頁均含原文網址（inline hyperlink）；已排除數個重複剪輯檔案（VW 權力鬥爭、BEV日皮中骨、三星SDI、IONIQ5、充電站數據、Chip Motors 等均有格式微異的重複檔）
+- 內容主軸：南韓進口車市佔破 25%（Tesla/比亞迪）、日系「日皮中骨」模式、中國價格戰記憶體鋰價齊漲、Tesla 撞民宅致死案 NTSB 證實、美國 Q2 充電放緩 Tesla 市佔跌破 50%、UNECE 自駕框架、T&E 歐盟關稅分析、Lucid 破產傳言、近萬輛 EV 電池衰退實測
+
+### Concepts 更新（9 頁）
+- [[concepts/電池技術路線]] — +近萬輛 EV 電池衰退實測（韓系奪冠）
+- [[concepts/鈉離子電池]] — +日本次世代鈉電池計畫
+- [[concepts/儲能市場]] — +三星SDI 美國 ESS 產線
+- [[concepts/中國EV出海策略]] — +T&E 歐盟關稅分析
+- [[concepts/自動駕駛安全監管]] — +UNECE 框架、+Tesla NTSB 撞民宅案
+- [[concepts/Robotaxi自動計程車]] — +UNECE 框架、+Jacksonville NAVI 週年
+- [[concepts/充電基礎建設]] — +美國 Q2 充電放緩、+都柏林導電弓
+- [[concepts/電動巴士市場]] — +耶拿強制電動巴士、+車王電雙動能
+
+### Countries 更新（7 頁）
+- [[countries/中國]] — +價格戰記憶體鋰價齊漲
+- [[countries/日本]] — +日皮中骨模式、+鈉電池計畫、+NVIDIA×豐田
+- [[countries/韓國]] — +進口車市佔破 25%
+- [[countries/美國]] — +Q2 充電放緩、+加州補貼、+清潔能源失業
+- [[countries/歐洲]] — +奧地利 BEV 追平燃油、+T&E 關稅分析、+賓士匈牙利擴廠
+- [[countries/台灣]] — +車王電雙動能
+- [[countries/印度]] — +Hero×Ather、+Sun Mobility、+Tata CAFE 反對
+
+### Entities 更新（9 頁）
+- [[entities/LGES]] — +南京廠首投產供 Tesla
+- [[entities/三星SDI]] — +美國 ESS 產線供 Tesla
+- [[entities/現代汽車]] — +IONIQ5 降價奏效
+- [[entities/Tesla]] — +NTSB 撞民宅案、+充電市佔跌破 50%
+- [[entities/豐田]] — +日皮中骨、+NVIDIA 合作
+- [[entities/日産]] — +日皮中骨（N6/N7 源自東風）
+- [[entities/Volkswagen]] — +ID. Cross 發表
+- [[entities/Lucid]] — +破產傳言
+- [[entities/Slate Auto]] — +目的地費揭曉
+
+### Index 更新
+- Sources: 397 → 401（新增 4 個批次 source 頁）

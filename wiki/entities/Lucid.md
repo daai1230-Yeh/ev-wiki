@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [lucid-cosmos-2026, ev-news-2026-06-27-29-en, ev-news-2026-06-30-07-01]
-updated: 2026-07-01
+sources: [lucid-cosmos-2026, ev-news-2026-06-27-29-en, ev-news-2026-06-30-07-01, ev-news-2026-07-14-16-electrive]
+updated: 2026-07-16
 ---
 
 # Lucid Motors
@@ -69,6 +69,14 @@ updated: 2026-07-01
 - **能效**：Lucid Air Pure 能效 4.6 mi/kWh（EPA，業界最高）
 - **電機技術**：Lucid 自研電機（原為 Formula E 設計），功率密度業界領先
 - **軟體**：DreamDrive（ADAS），L2 輔助駕駛
+
+## 否認破產傳言：股價單日重挫 57%（2026-07）
+
+> **結論**：媒體報導 Lucid 委託 AlixPartners 評估私有化或破產保護選項，股價重挫最深 57%，公司迅速否認並強調流動性充足。
+
+- 財務現況：2025 年虧損約 $27 億，每季燒現金約 $10 億；Q2 生產 4,774 輛僅交付 3,953 輛；本月再向 PIF 借款 $8 億
+- 背景：新 CEO Silvio Napoli 主導重組，6 月已裁美國員工 18%、撤 COO 職位；5 月已暫緩產量指引
+- 參見：[[sources/ev-news-2026-07-14-16-electrive]]
 
 ## Related
 - [[entities/Rivian]]

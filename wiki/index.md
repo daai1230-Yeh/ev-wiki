@@ -1,6 +1,6 @@
 # Wiki Index
 
-Last updated: 2026-07-13 | Pages: 485 | Sources: 397
+Last updated: 2026-07-16 | Pages: 485 | Sources: 401
 
 ---
 
@@ -289,6 +289,10 @@ Last updated: 2026-07-13 | Pages: 485 | Sources: 397
 - [[sources/ev-news-2026-07-12-13-electrive]] — electrive批次10篇：VW集團H1 BEV -5.8%（中美重挫/歐洲+8.4%）、BMW H1 BEV -7.4%（iX3帶動Q2反彈）、VW內部權力鬥爭（監事會未過半）、中國6月NEV出口首破50萬輛、LGES擴大南京產能供Tesla、Eviny×Mer北歐最大快充商合併、Grab越南充電15倍擴張、賓士AMG電動CLA45、Alpine電動A110、Peugeot狗主題概念車。(2026-07-13)
 - [[sources/ev-news-2026-07-13-digitimes]] — Digitimes批次3篇：美中同步鬆綁Robotaxi法規（NHTSA擬取消方向盤/中國L3-L4國標2027生效）、普利司通AirFree無氣輪胎商轉（自駕巴士）、豐田喊停Lexus LF-ZC內幕（新任財務長社長決策+比亞迪Z9GT搶先卡位）。(2026-07-13)
 - [[sources/ev-news-2026-07-12-13-digest]] — 電子報摘要彙整5份：全球6月EV銷量破200萬輛、Tesla Q2交付創高股價卻重挫8%、Optimus量產目標、Cadillac Vistiq召回、印度GST電池關稅降/德里運輸工會反對強制EV化、德系車廠中國銷量重挫、台灣華德動能日本市占目標32%、中國NEV換車週期壓縮至1.8年。(2026-07-13)
+- [[sources/ev-news-2026-07-14-16-digitimes]] — Digitimes批次10篇：LGES南京廠首投產供Tesla、LGES×本田ESS量產、車王電雙動能、南韓進口車市佔破25%（Tesla/比亞迪）、日本鈉電池計畫、中國價格戰記憶體鋰價齊漲、日系「日皮中骨」模式、三星SDI美國ESS產線、現代IONIQ5降價奏效、NVIDIA×豐田深化合作。(2026-07-16)
+- [[sources/ev-news-2026-07-14-16-electrive]] — electrive批次9篇：奧地利BEV追平燃油、T&E歐盟關稅分析（比亞迪反擴大進口）、UNECE自駕國際框架、Lucid否認破產傳言股價重挫57%、VW ID.Cross發表、賓士匈牙利擴廠電動C-Class投產、都柏林導電弓充電、耶拿強制電動巴士、Jacksonville自駕巴士週年。(2026-07-16)
+- [[sources/ev-news-2026-07-14-16-insideevs]] — InsideEVs批次9篇：近萬輛EV電池衰退實測（韓系奪冠）、Slate目的地費揭曉、Volvo擬2028重返美國轎旅、美國Q2充電放緩Tesla市佔跌破50%、Chip Motors低速車、Model S末代轉賣、Tesla撞民宅致死案NTSB證實人為超速、加州3,500補貼上路、清潔能源失業11萬人。(2026-07-16)
+- [[sources/ev-news-2026-07-16-etauto-india]] — ETAuto批次6篇：Hero MotoCorp加碼Ather持股至30.68%、Sun Mobility能源轉型出海非洲、Tata Motors反對CAFE-II額度機制、印度二輪車聖嬰威脅、AIS浮法玻璃廠、DRiV品牌代言。(2026-07-16)
 
 ### 駐外新聞批量摘要
 - [[sources/駐外新聞-美國-2025]] — 2025 全年 83 篇；川普 EV 補貼削減/25% 汽車關稅/CAFE 放寬、底特律倒退、BESS 轉型、Tesla 去中國化供應鏈、氫能卡車崩潰。(2026-06-22)
@@ -527,6 +531,7 @@ Last updated: 2026-07-13 | Pages: 485 | Sources: 397
 - [[templates/國家簡報模板]] — 單一國家車輛產業簡報架構（18–22 頁）：基本盤→歷史→市場→政策→車廠→供應鏈→對台意涵；含 RRC 三層頁面結構與設計規範。
 - [[templates/車廠簡報模板]] — 單一車廠深度分析簡報架構（15–18 頁）：快照→沿革→戰略→銷量→技術→供應鏈→市場攻防→風險→觀點。
 - [[templates/單題快報模板]] — 單一議題/事件的 12–16 頁快報（DIGITIMES 體裁：兩段式標題、圖表三件套、編號論點結語；不做預測、署名車輛中心整理）。
+- [[templates/逐字稿專家口吻指南]] — 資深專家口吻20條規則（聊天式語氣/反常識記憶點/假設情境法/誠信底氣），源自莊閔任Nick簡報逐字稿分析。
 - [[templates/數字敘事心法]] — 把數字講成判斷：數字四問＋三種敘事手法（差距/拆解/比率），附日韓實例。
 
 ---

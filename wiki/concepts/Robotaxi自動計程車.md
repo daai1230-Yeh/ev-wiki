@@ -1,7 +1,7 @@
 ---
 tags: [concept]
-sources: [robotaxi-market-2026, china-autonomous-driving-overseas, europe-robotaxi-verne-ponyai, waymo-miami-orlando-expansion, taiwan-av-special-scenes, japan-2030-autonomous-ai-strategy, ratp-karsan-autonomous-bus-paris, av-physical-ai-trends-2026, tesla-fsd-eu-expansion-2026, tesla-robotaxi-texas-reality-2026, uber-robotaxi-europe-expansion-2026, waymo-battery-secondlife-colorado-recycling-2026, toyota-tier-iv-l4-investment-2026, waymo-arizona-expansion-2026, tesla-cybercab-specs-2026, mobileye-robotaxi-2026, tesla-fsd-netherlands-2026, ev-news-2026-06-22, ev-news-2026-07-13-digitimes]
-updated: 2026-07-13
+sources: [robotaxi-market-2026, china-autonomous-driving-overseas, europe-robotaxi-verne-ponyai, waymo-miami-orlando-expansion, taiwan-av-special-scenes, japan-2030-autonomous-ai-strategy, ratp-karsan-autonomous-bus-paris, av-physical-ai-trends-2026, tesla-fsd-eu-expansion-2026, tesla-robotaxi-texas-reality-2026, uber-robotaxi-europe-expansion-2026, waymo-battery-secondlife-colorado-recycling-2026, toyota-tier-iv-l4-investment-2026, waymo-arizona-expansion-2026, tesla-cybercab-specs-2026, mobileye-robotaxi-2026, tesla-fsd-netherlands-2026, ev-news-2026-06-22, ev-news-2026-07-13-digitimes, ev-news-2026-07-14-16-electrive]
+updated: 2026-07-16
 ---
 
 # Robotaxi（自動計程車）
@@ -298,6 +298,12 @@ Mobileye 宣布成立垂直整合 Robotaxi 部門，從技術供應商轉型為�
 - 中國受惠者：L3 申請測試階段的比亞迪、華為、小鵬；L4 營運代表百度蘿蔔快跑、小馬智行
 - 詳見：[[concepts/自動駕駛安全監管]]
 - 參見：[[sources/ev-news-2026-07-13-digitimes]]
+
+## UNECE 全自動駕駛國際框架 + Jacksonville NAVI 週年（2026-07）
+
+- UNECE 通過首部 ADS 國際協調法規框架（約一個月後生效），詳見 [[concepts/自動駕駛安全監管]]
+- Jacksonville NAVI（美國首個常設無人駕駛公共運輸服務）首年運送逾 15,200 人次，累計自駕里程逾 61,000 英里；JTA 執行長 Ford 任內促成 HOLON 美國首座自駕車製造廠（$2 億投資）
+- 參見：[[sources/ev-news-2026-07-14-16-electrive]]
 
 ## Related
 - [[concepts/ADAS智駕系統]]

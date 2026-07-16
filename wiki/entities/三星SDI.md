@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [samsung-sdi-mercedes-battery-deal, samsung-sdi-mercedes-confirmed-deal, samsung-sdi-solid-state-production-2026, ev-news-2026-07-03-08]
-updated: 2026-07-10
+sources: [samsung-sdi-mercedes-battery-deal, samsung-sdi-mercedes-confirmed-deal, samsung-sdi-solid-state-production-2026, ev-news-2026-07-03-08, ev-news-2026-07-14-16-digitimes]
+updated: 2026-07-16
 ---
 
 # 三星 SDI（Samsung SDI）
@@ -62,6 +62,14 @@ updated: 2026-07-10
 **觀察**：2027H2 首批量產客戶與規模；成本下降曲線能否支撐 Physical AI 應用放量。
 
 - 參見：[[sources/ev-news-2026-07-03-08]] | [[concepts/電池技術路線]]
+
+## 美國產線傳供 Tesla ESS：第二家美國本土供應商（2026-07）
+
+> **結論**：三星SDI 傳於 StarPlus Energy 第一廠建置 300Ah 級 LFP 產線供應 Tesla ESS，成為繼 LGES 密西根蘭辛廠後第二座在美供應 Tesla ESS 電池的產地。
+
+- StarPlus Energy（三星SDI×Stellantis 合資）4 條產線中 3 條轉 ESS：NCA 已量產、200Ah LFP 2026 下半啟用、300Ah LFP 2027 Q2 新增
+- 2026-01 已公告合約規模約 3~5 兆韓元（$20.1~33.6 億），業界推估主要客戶即為 Tesla，此為首次正式供貨
+- 參見：[[sources/ev-news-2026-07-14-16-digitimes]] | [[entities/Tesla]] | [[concepts/儲能市場]]
 
 ## Related
 - [[entities/LGES]]

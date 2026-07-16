@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [vw-restructure-china-offensive-2026, ev-news-2026-06-27-29-en, ev-news-2026-06-30-07-01, ev-news-2026-07-02, ev-news-2026-07-03-08, ev-news-2026-07-10-supplement, ev-news-2026-07-12-13-electrive]
-updated: 2026-07-13
+sources: [vw-restructure-china-offensive-2026, ev-news-2026-06-27-29-en, ev-news-2026-06-30-07-01, ev-news-2026-07-02, ev-news-2026-07-03-08, ev-news-2026-07-10-supplement, ev-news-2026-07-12-13-electrive, ev-news-2026-07-14-16-electrive]
+updated: 2026-07-16
 ---
 
 # Volkswagen（福斯集團）
@@ -141,6 +141,14 @@ VW 正式評估將中國開發的 EREV 車型引入歐洲市場，以規避 EU B
 - Blume 立場軟化：稱「有比關廠更聰明的解決方案」，德國廠成本 2025 年已平均降低 20% → 暗示可能引入合作夥伴或轉型工廠用途
 - 對外/對內口徑落差：CEO 對外表態「不會關廠」，與監事會內部激烈交鋒形成對比
 - 參見：[[sources/ev-news-2026-07-12-13-electrive]] | [[sources/ev-news-2026-07-12-13-digest]] | [[countries/德國]]
+
+## ID. Cross 世界首發：MEB+ 入門級電動 SUV（2026-07）
+
+> **結論**：VW ID. Cross 起售 €28,000，是繼 ID. Polo 之後今年最重要的產品發表，與 Škoda Epiq、Cupra Raval 共享 MEB+ 平台完成集團電動小車陣容。
+
+- 規格：85kW 馬達+37kWh LFP 電池（續航 316km）起，頂規 155kW+52kWh NMC（續航 436km）
+- 定位：T-Cross 電動替代車款，秋季上市
+- 參見：[[sources/ev-news-2026-07-14-16-electrive]]
 
 ## Related
 - [[entities/BMW]]

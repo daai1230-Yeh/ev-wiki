@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [tesla-ass-nhtsa-probe-closed, tesla-taiwan-march-2026, xiaomi-ev-europe-2027, tesla-4680-musk-strategy, tesla-korea-q1-2026, tesla-q1-2026-earnings, tesla-india-model-y-l, 駐外新聞-美國-2025, ev-news-2026-07-02, ev-news-2026-07-03-08, ev-news-2026-07-09, ev-news-2026-07-10-insideevs-batch, ev-news-2026-07-11, ev-news-2026-07-12-13-digest, ev-news-2026-07-12-13-electrive, ev-news-2026-07-13-digitimes]
-updated: 2026-07-13
+sources: [tesla-ass-nhtsa-probe-closed, tesla-taiwan-march-2026, xiaomi-ev-europe-2027, tesla-4680-musk-strategy, tesla-korea-q1-2026, tesla-q1-2026-earnings, tesla-india-model-y-l, 駐外新聞-美國-2025, ev-news-2026-07-02, ev-news-2026-07-03-08, ev-news-2026-07-09, ev-news-2026-07-10-insideevs-batch, ev-news-2026-07-11, ev-news-2026-07-12-13-digest, ev-news-2026-07-12-13-electrive, ev-news-2026-07-13-digitimes, ev-news-2026-07-14-16-insideevs, ev-news-2026-07-14-16-digitimes]
+updated: 2026-07-16
 ---
 
 # Tesla
@@ -254,6 +254,21 @@ Tesla Cybercab 在德州奧斯汀進行公路測試，確認無方向盤設計�
 **觀察**：Q3 財報是否扭轉市場疑慮；Optimus 量產目標達成進度。
 
 - 參見：[[sources/ev-news-2026-07-12-13-digest]] | [[sources/ev-news-2026-07-12-13-electrive]] | [[sources/ev-news-2026-07-13-digitimes]] | [[entities/LGES]]
+
+## NTSB 證實德州撞民宅致死案為駕駛人為超速（2026-07）
+
+> **結論**：NTSB 調查證實德州 Katy 撞民宅致死案駕駛啟動 FSD 後手動介入將油門踩到底，時速飆至 70 英里（限速僅 30 英里），支持 Tesla「駕駛個人行為主因」的主張。
+
+- 車輛數據還原確認：駕駛以油門 100% 覆蓋自動駕駛系統，NTSB 說法與 Tesla AI 副總裁先前聲明一致
+- 背景：NHTSA 自 2016 年來已對疑似涉及自動輔助駕駛的 Tesla 車禍展開近 50 起特別調查，通報約 24 起死亡案例
+- 參見：[[sources/ev-news-2026-07-14-16-insideevs]] | [[concepts/自動駕駛安全監管]]
+
+## 美國充電市佔跌破 50%；LGES/三星SDI 供應南京擴產（2026-07）
+
+- 美國 Q2 新建充電埠 Tesla 市佔首次跌破 **50%**（僅佔 27%），Walmart、ChargePoint 急起直追
+- LGES 南京第九廠首度投產供應 Tesla 圓柱電池；三星SDI 傳於美國 StarPlus Energy 廠建置 ESS 產線供應 Tesla
+- 詳見：[[entities/LGES]] | [[entities/三星SDI]] | [[concepts/充電基礎建設]]
+- 參見：[[sources/ev-news-2026-07-14-16-insideevs]] | [[sources/ev-news-2026-07-14-16-digitimes]]
 
 ## Related
 - [[entities/NHTSA]]

@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [lges-loss-ess-2026, ira-supply-chain-compliance, us-ev-battery-demand-mismatch, lges-tesla-4680-supplier, lges-bmw-46series-order, ev-news-2026-07-03-08, ev-news-2026-07-10-supplement, ev-news-2026-07-12-13-electrive]
-updated: 2026-07-13
+sources: [lges-loss-ess-2026, ira-supply-chain-compliance, us-ev-battery-demand-mismatch, lges-tesla-4680-supplier, lges-bmw-46series-order, ev-news-2026-07-03-08, ev-news-2026-07-10-supplement, ev-news-2026-07-12-13-electrive, ev-news-2026-07-14-16-digitimes]
+updated: 2026-07-16
 ---
 
 # 樂金能源解決方案（LG Energy Solution，LGES）
@@ -91,6 +91,14 @@ updated: 2026-07-13
 - 現況：南京廠已滿載運轉；LGES 圓柱電池總年產能約 50GWh，其中約 30GWh 供應 Tesla 上海超級工廠
 - 背景：Tesla Model Y 需求持續成長，上海廠前 5 月出貨近 37.9 萬輛（+29%）
 - 參見：[[sources/ev-news-2026-07-12-13-electrive]] | [[entities/Tesla]]
+
+## 南京廠第九廠首度投產：專供 Tesla 圓柱電池（2026-07）
+
+> **結論**：LGESNJ 南京第九廠（建成 2~3 年來首度投產）啟用圓柱電池新產線因應 Tesla 訂單擴大，同期公布 Q2 財報顯示 Tesla 需求拉抬營收但 ESS 轉型成本壓縮獲利。
+
+- 產線時程：2026-07-20 前後投入運作，比照技術最成熟的第六廠（年產能 30GWh，主供上海超級工廠）標竿建置
+- Q2 財報：營收 7.56 兆韓元（+24.8%）主要由 Tesla 圓柱電池出貨推升，但營業利益年減 77%，反映北美 ESS 產線轉換與產能利用率投入的成本壓力
+- 參見：[[sources/ev-news-2026-07-14-16-digitimes]] | [[entities/Tesla]]
 
 ## Related
 - [[entities/寧德時代]]
