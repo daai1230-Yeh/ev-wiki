@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [lges-loss-ess-2026, ira-supply-chain-compliance, us-ev-battery-demand-mismatch, lges-tesla-4680-supplier, lges-bmw-46series-order, ev-news-2026-07-03-08, ev-news-2026-07-10-supplement, ev-news-2026-07-12-13-electrive, ev-news-2026-07-14-16-digitimes]
-updated: 2026-07-16
+sources: [lges-loss-ess-2026, ira-supply-chain-compliance, us-ev-battery-demand-mismatch, lges-tesla-4680-supplier, lges-bmw-46series-order, ev-news-2026-07-03-08, ev-news-2026-07-10-supplement, ev-news-2026-07-12-13-electrive, ev-news-2026-07-14-16-digitimes, ev-news-2026-07-17-20-digitimes]
+updated: 2026-07-20
 ---
 
 # 樂金能源解決方案（LG Energy Solution，LGES）
@@ -99,6 +99,15 @@ updated: 2026-07-16
 - 產線時程：2026-07-20 前後投入運作，比照技術最成熟的第六廠（年產能 30GWh，主供上海超級工廠）標竿建置
 - Q2 財報：營收 7.56 兆韓元（+24.8%）主要由 Tesla 圓柱電池出貨推升，但營業利益年減 77%，反映北美 ESS 產線轉換與產能利用率投入的成本壓力
 - 參見：[[sources/ev-news-2026-07-14-16-digitimes]] | [[entities/Tesla]]
+
+## 鈉離子電池迎戰寧德時代：AZS 製程為關鍵差異化（2026-07）
+
+> **結論**：LGES 傳將於南韓梧倉工廠建置鈉離子電池母線，採自主 AZS（Advanced Z-Stacking）製程對抗寧德時代捲繞式產線，目標 2030 年前建立大規模量產。
+
+- AZS 較捲繞式製程更有效利用電池內部空間，同尺寸下能量密度更高，並降低電極變形風險
+- 時程：2027 年起針對北美客戶展開 PoC；既有鋰電產線部分轉換以降低投資負擔
+- 戰略動機：北美 LFP 市場由中國企業主導，鈉電池被視為建立去中國化供應鏈的新機會
+- 參見：[[sources/ev-news-2026-07-17-20-digitimes]] | [[concepts/鈉離子電池]]
 
 ## Related
 - [[entities/寧德時代]]

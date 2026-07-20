@@ -1,6 +1,6 @@
 # Wiki Index
 
-Last updated: 2026-07-16 | Pages: 485 | Sources: 401
+Last updated: 2026-07-20 | Pages: 485 | Sources: 405
 
 ---
 
@@ -293,6 +293,10 @@ Last updated: 2026-07-16 | Pages: 485 | Sources: 401
 - [[sources/ev-news-2026-07-14-16-electrive]] — electrive批次9篇：奧地利BEV追平燃油、T&E歐盟關稅分析（比亞迪反擴大進口）、UNECE自駕國際框架、Lucid否認破產傳言股價重挫57%、VW ID.Cross發表、賓士匈牙利擴廠電動C-Class投產、都柏林導電弓充電、耶拿強制電動巴士、Jacksonville自駕巴士週年。(2026-07-16)
 - [[sources/ev-news-2026-07-14-16-insideevs]] — InsideEVs批次9篇：近萬輛EV電池衰退實測（韓系奪冠）、Slate目的地費揭曉、Volvo擬2028重返美國轎旅、美國Q2充電放緩Tesla市佔跌破50%、Chip Motors低速車、Model S末代轉賣、Tesla撞民宅致死案NTSB證實人為超速、加州3,500補貼上路、清潔能源失業11萬人。(2026-07-16)
 - [[sources/ev-news-2026-07-16-etauto-india]] — ETAuto批次6篇：Hero MotoCorp加碼Ather持股至30.68%、Sun Mobility能源轉型出海非洲、Tata Motors反對CAFE-II額度機制、印度二輪車聖嬰威脅、AIS浮法玻璃廠、DRiV品牌代言。(2026-07-16)
+- [[sources/ev-news-2026-07-17-20-digitimes]] — Digitimes/Google Alerts批次15篇：大阪世博巴士832起故障董事長辭職、本田正式停產Prologue退出美國EV、白宮顧問砲轟比亞迪如海盜、中國削價大戰下游慘賠上游暴利、中國衝擊歐盟東南亞、LGES鈉電池AZS製程、樂金化學進豐田供應鏈、Lucid再駁破產傳聞、現代SK On喬治亞廠、泰國EV+83%、比亞迪叩關日本K-Car、福斯ID.Cross、台灣賓士CLA/GLB攻勢、車王電專訪。(2026-07-20)
+- [[sources/ev-news-2026-07-17-20-electrive]] — electrive批次25篇：歐洲EV銷量H1破百萬、BMW召回3萬輛PHEV、小鵬L03慕尼黑首發、Geely EX2/16合1電驅、Volvo EX60交付/EX90升800V、匈牙利前外長投效比亞迪、賓士GLA留守Rastatt、Porsche生產長異動、法國社會租賃第三輪、MAN克拉科夫電動卡車廠、多起充電/巴士零散案例。(2026-07-20)
+- [[sources/ev-news-2026-07-17-20-insideevs]] — InsideEVs批次6篇：美國Q2 EV贏家輸家（本田出局/豐田倍增）、東風平價EV進軍加拿大、Escalade IQL實測、Ioniq 5 N降價、GM WeaveGrid充電、Geely Thunder電驅。(2026-07-17)
+- [[sources/ev-news-2026-07-17-20-etauto-india]] — ETAuto/印度批次10篇：德里EV政策轉強制令、現代收購波士頓動力、JSW MG ADAPT平台、CAFE III草案獎勵生質燃料、Amara Raja電池廠、地方政府EV補貼零散案例。(2026-07-20)
 
 ### 駐外新聞批量摘要
 - [[sources/駐外新聞-美國-2025]] — 2025 全年 83 篇；川普 EV 補貼削減/25% 汽車關稅/CAFE 放寬、底特律倒退、BESS 轉型、Tesla 去中國化供應鏈、氫能卡車崩潰。(2026-06-22)

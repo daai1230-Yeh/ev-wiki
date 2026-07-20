@@ -1714,3 +1714,41 @@ Pages 375 → 406，Sources 315 → 346
 
 ### Index 更新
 - Sources: 397 → 401（新增 4 個批次 source 頁）
+
+## [2026-07-20] ingest | ev-news-2026-07-17-20 四批次（digitimes/electrive/insideevs/etauto-india，共約 56 篇）
+
+- Summary pages: [[sources/ev-news-2026-07-17-20-digitimes]]、[[sources/ev-news-2026-07-17-20-electrive]]、[[sources/ev-news-2026-07-17-20-insideevs]]、[[sources/ev-news-2026-07-17-20-etauto-india]]
+- Raw assets: raw/assets/2026-07-17~20 各檔案（Digitimes、electrive、InsideEVs、ETAuto、Google Alerts）
+- 所有 source 頁均含原文網址（inline hyperlink）；已排除逾 15 篇跨日期重複剪輯檔案（VW/Honda/California rebate/China 650 models/Volvo Trucks/E-retrofits/Volvo EX90/中國衝擊/IONIQ5/Hero MotoCorp/Nearly 10,000 EVs 等均有格式微異的重複檔）
+- 內容主軸：大阪世博巴士醜聞落幕（832 起故障）、本田正式退出美國 EV 市場、白宮顧問砲轟比亞迪、中國削價大戰下游慘賠上游暴利、中國出口衝擊歐盟東南亞、美國 Q2 EV 贏家輸家（豐田倍增/本田出局）、歐洲 EV 銷量 H1 破百萬、匈牙利前外長投效比亞迪、現代收購波士頓動力、德里 EV 政策轉強制令
+
+### Concepts 更新（5 頁）
+- [[concepts/電動巴士市場]] — +大阪世博 832 起故障、+E-retrofit 研究
+- [[concepts/中國EV出海策略]] — +中國衝擊歐盟東南亞、+白宮顧問砲轟
+- [[concepts/鈉離子電池]] — +LGES AZS 製程迎戰寧德時代
+- [[concepts/充電基礎建設]] — +歐美充電網絡擴張零散案例
+- [[concepts/電動卡車市場]] — +MAN 克拉科夫廠、+Isuzu 換電試驗
+
+### Countries 更新（7 頁）
+- [[countries/日本]] — +大阪世博醜聞落幕、+比亞迪叩關K-Car、+本田退出美國EV
+- [[countries/美國]] — +Q2 EV贏家輸家、+現代收購波士頓動力
+- [[countries/中國]] — +削價大戰上下游分化
+- [[countries/歐洲]] — +EV銷量H1破百萬、+匈牙利前外長投效比亞迪
+- [[countries/印度]] — +德里政策轉強制、+CAFE III草案
+- [[countries/台灣]] — +賓士CLA/GLB攻勢、+車王電專訪
+- [[countries/東南亞]] — +泰國EV銷量激增83%
+
+### Entities 更新（10 頁）
+- [[entities/本田]] — +正式停產Prologue退出美國EV
+- [[entities/Lucid]] — +再駁破產傳聞
+- [[entities/現代汽車]] — +收購波士頓動力、+SK On喬治亞廠啟用
+- [[entities/比亞迪]] — +白宮顧問砲轟、+匈牙利前外長、+日本K-Car叩關
+- [[entities/LGES]] — +鈉電池AZS製程
+- [[entities/Volkswagen]] — +油價助攻ID.Cross買氣
+- [[entities/豐田]] — +美國Q2銷量倍增
+- [[entities/小鵬汽車]] — +L03世界首發
+- [[entities/吉利汽車]] — +EX2英國定價、+16合1電驅
+- [[entities/通用汽車]] — +Escalade IQL實測、+WeaveGrid充電
+
+### Index 更新
+- Sources: 401 → 405（新增 4 個批次 source 頁）

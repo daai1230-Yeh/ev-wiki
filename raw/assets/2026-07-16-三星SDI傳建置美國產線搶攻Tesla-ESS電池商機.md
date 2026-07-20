@@ -1,24 +1,23 @@
 ---
 title: 三星SDI傳建置美國產線　搶攻Tesla ESS電池商機
-author: 陳玟靜
+author: 陳玟靜／綜合報導
 date: 2026-07-16
-source: https://www.digitimes.com.tw/tech/dt/n/shwnws.asp?CnlID=&id=761799
+source: https://www.digitimes.com.tw/tech/dt/n/shwnws.asp?id=761799
 tags:
-  - 電池
-  - Tesla
   - 三星SDI
-  - LGES
+  - Tesla
+  - 電池
   - ESS
   - LFP
-  - 美國
+  - LGES
   - Digitimes
   - 未來車供應鏈
-clipped: 2026-07-16
+clipped: 2026-07-19
 ---
 
 # 三星SDI傳建置美國產線　搶攻Tesla ESS電池商機
 
-**作者**：陳玟靜／綜合報導　｜　**日期**：2026-07-16　｜　**來源**：[原文連結](https://www.digitimes.com.tw/tech/dt/n/shwnws.asp?CnlID=&id=761799)
+**作者**：陳玟靜／綜合報導　｜　**日期**：2026-07-16　｜　**來源**：[原文連結](https://www.digitimes.com.tw/tech/dt/n/shwnws.asp?id=761799)
 
 ---
 
@@ -40,4 +39,4 @@ StarPlus Energy第一工廠共設有4條產線，有3條正轉型為ESS用電池
 
 ---
 
-*來源：[DIGITIMES](https://www.digitimes.com.tw/tech/dt/n/shwnws.asp?CnlID=&id=761799)*
+*來源：[DIGITIMES](https://www.digitimes.com.tw/tech/dt/n/shwnws.asp?id=761799)*

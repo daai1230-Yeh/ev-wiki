@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [vw-restructure-china-offensive-2026, ev-news-2026-06-27-29-en, ev-news-2026-06-30-07-01, ev-news-2026-07-02, ev-news-2026-07-03-08, ev-news-2026-07-10-supplement, ev-news-2026-07-12-13-electrive, ev-news-2026-07-14-16-electrive]
-updated: 2026-07-16
+sources: [vw-restructure-china-offensive-2026, ev-news-2026-06-27-29-en, ev-news-2026-06-30-07-01, ev-news-2026-07-02, ev-news-2026-07-03-08, ev-news-2026-07-10-supplement, ev-news-2026-07-12-13-electrive, ev-news-2026-07-14-16-electrive, ev-news-2026-07-17-20-digitimes]
+updated: 2026-07-20
 ---
 
 # Volkswagen（福斯集團）
@@ -149,6 +149,12 @@ VW 正式評估將中國開發的 EREV 車型引入歐洲市場，以規避 EU B
 - 規格：85kW 馬達+37kWh LFP 電池（續航 316km）起，頂規 155kW+52kWh NMC（續航 436km）
 - 定位：T-Cross 電動替代車款，秋季上市
 - 參見：[[sources/ev-news-2026-07-14-16-electrive]]
+
+## 油價高漲助攻平價 EV 買氣（2026-07）
+
+- ID. Cross 對標比亞迪 Dolphin Surf；歐洲 1-5 月 PHEV 銷量 +29%，高油價是購車轉向關鍵因素
+- CEO Blume 坦言對比亞迪、奇瑞 5 月首度達歐洲 10% 市佔感到意外；內部討論全球裁員擬翻倍至 10 萬人
+- 參見：[[sources/ev-news-2026-07-17-20-digitimes]] | [[countries/歐洲]]
 
 ## Related
 - [[entities/BMW]]

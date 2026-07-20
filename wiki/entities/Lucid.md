@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [lucid-cosmos-2026, ev-news-2026-06-27-29-en, ev-news-2026-06-30-07-01, ev-news-2026-07-14-16-electrive]
-updated: 2026-07-16
+sources: [lucid-cosmos-2026, ev-news-2026-06-27-29-en, ev-news-2026-06-30-07-01, ev-news-2026-07-14-16-electrive, ev-news-2026-07-17-20-digitimes]
+updated: 2026-07-20
 ---
 
 # Lucid Motors
@@ -77,6 +77,12 @@ updated: 2026-07-16
 - 財務現況：2025 年虧損約 $27 億，每季燒現金約 $10 億；Q2 生產 4,774 輛僅交付 3,953 輛；本月再向 PIF 借款 $8 億
 - 背景：新 CEO Silvio Napoli 主導重組，6 月已裁美國員工 18%、撤 COO 職位；5 月已暫緩產量指引
 - 參見：[[sources/ev-news-2026-07-14-16-electrive]]
+
+## 再度駁斥破產傳聞：強調資金可撐至 2027 年（2026-07）
+
+- 官方重申傳聞「完全不實」，未設特別委員會探討破產或私有化選項
+- 業務亮點：與 Uber、Nuro 合作豪華 Robotaxi 服務（2026 底前推出），Uber 已承諾採購至少 35,000 輛
+- 參見：[[sources/ev-news-2026-07-17-20-digitimes]]
 
 ## Related
 - [[entities/Rivian]]
