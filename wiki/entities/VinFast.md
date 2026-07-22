@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [vinfast-india-investment]
-updated: 2026-04-17
+sources: [vinfast-india-investment, ev-news-2026-07-20-21-electrive-en]
+updated: 2026-07-22
 ---
 
 # VinFast
@@ -31,7 +31,22 @@ VinFast 是越南最大企業集團 Vingroup 旗下的電動車品牌，被稱�
 - 印度、東南亞是 VinFast 主要海外目標市場（規避歐美關稅）
 - Vingroup 旗下 VinEnergo 亦在印度布局再生能源
 
+## H1 2026 越南國內破紀錄銷量：71.55% 年增（2026-07）
+
+> **結論**：VinFast 2026上半年越南國內銷售115,916輛EV，年增71.55%，是越南首次有車廠半年內售出逾10萬輛，連續21個月蟬聯市場冠軍。
+
+**主因**：
+- 銷量基準：H1 2025僅67,569輛 → H1 2026達115,916輛，年增71.55% → 若維持動能，2026全年可望突破20萬輛（2025全年175,099輛）
+- 車型結構：Limo Green（商用MPV）27,927輛居冠，VF 3（城市小車）23,781輛、VF 5（20,167輛）緊追，顯示平價/商用車型是走量主力而非VF 8/9等高端SUV
+- 產品線擴充：VF 2（Minio Green乘用版）本月上市，188百萬越南盾（約€6,300），持續下探低價市場鞏固國內龍頭地位
+- 公務車採購佐證：海防市（Hai Phong）另採購99輛VF 8組建政府車隊，支持該市2030年公務車全面電動化目標，顯示地方政府採購亦成為VinFast銷量的穩定支撐
+
+**觀察**：下半年能否延續71.55%的年增動能以突破20萬輛全年目標；VF 8/VF 9等高端SUV銷量遲遲未單獨揭露的原因。
+
+- 參見：[[sources/ev-news-2026-07-20-21-electrive-en]] | [[countries/東南亞]]
+
 ## Related
 - [[concepts/地理市場/印度EV市場]]
 - [[concepts/地理市場/東南亞EV市場]]
 - [[sources/vinfast-india-investment]]
+- [[sources/ev-news-2026-07-20-21-electrive-en]]

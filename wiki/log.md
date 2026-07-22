@@ -1752,3 +1752,41 @@ Pages 375 → 406，Sources 315 → 346
 
 ### Index 更新
 - Sources: 401 → 405（新增 4 個批次 source 頁）
+
+## [2026-07-22] ingest | ev-news-2026-07-20-22 兩批次（digitimes 12篇 + electrive/insideevs/etauto-india 23篇，共約 35 篇）
+
+- Summary pages: [[sources/ev-news-2026-07-21-22-digitimes]]、[[sources/ev-news-2026-07-20-21-electrive-en]]
+- Raw assets: raw/assets/2026-07-20~22 各檔案（Digitimes、Google Alerts、electrive、InsideEVs、ETAuto、Sustainable Bus）
+- 所有 source 頁均含原文網址（inline hyperlink）；已排除 1 篇疑似重複剪輯（Kia e-Niro電池研究，與 07-14-16 批次「近萬輛EV電池衰退實測」為同一 Carla 研究不同角度報導，予以保留並標註對照）；非EV相關文章（陽台太陽能微逆變器）予以排除
+- 內容主軸：小鵬德國/比亞迪香港雙線突破燃油車發源地與亞洲試金石市場、匈牙利前外長投效比亞迪引爆利益衝突調查、本田廣汽續約10年至2038年（中國銷量僅剩64萬輛）、本田北美擬增新廠、小鵬轉型「實體AI」供應商（Robotaxi/人形機器人/飛行車三線）、鴻海關潤預言2040年L4搭載率8成、Tesla Optimus 7月底量產、Tesla Grünheide 2025財報+18GWh電芯擴產、VinFast H1破紀錄115,916輛、福斯JSW印度股權談判、賓士CLA L中國停產、EcoPro BM/住友化學固態電池新路線、德國電動巴士補助砍68%、英國充電稅制兩極化
+
+### Concepts 更新（6 頁）
+- [[concepts/電池技術路線]] — +EcoPro BM硫化物電解質、+住友化學鹵化物路線
+- [[concepts/中國EV出海策略]] — +小鵬德國/比亞迪香港雙線突破
+- [[concepts/充電基礎建設]] — +英國充電稅制兩極化、+歐洲石油公司退出加油站
+- [[concepts/電動巴士市場]] — +德國補助砍68%、+金龍×Ebusco碳纖維巴士、+科莫10年標案
+- [[concepts/人形機器人]] — +Tesla Optimus量產、+小鵬Iron量產規劃
+- [[concepts/Robotaxi自動計程車]] — +小鵬Tier 1供應商模式
+- [[concepts/ADAS智駕系統]] — +Stellantis×Mobileye雲端REM平台
+
+### Countries 更新（8 頁）
+- [[countries/德國]] — +小鵬叩關德國、+Tesla Grünheide財報
+- [[countries/中國]] — +本田廣汽續約10年
+- [[countries/日本]] — +本田北美擴產、+鴻海關潤L4預言
+- [[countries/韓國]] — +EcoPro BM固態電池藍圖
+- [[countries/台灣]] — +補貼政策萬年不變評論
+- [[countries/歐洲]] — +比亞迪匈牙利前外長爭議、+英國充電稅制
+- [[countries/印度]] — +福斯JSW股權談判
+- [[countries/東南亞]] — +VinFast H1破紀錄銷量
+
+### Entities 更新（7 頁）
+- [[entities/小鵬汽車]] — +實體AI轉型、+德國65國市場
+- [[entities/比亞迪]] — +香港集團銷量超越Tesla、+匈牙利前外長爭議
+- [[entities/本田]] — +廣汽續約10年、+北美增設新廠
+- [[entities/鴻海]] — +關潤2040年L4預言
+- [[entities/Tesla]] — +Optimus量產、+Grünheide財報
+- [[entities/Volkswagen]] — +印度JSW談判、+Amarok BEV化
+- [[entities/VinFast]] — +H1破紀錄銷量71.55%
+
+### Index 更新
+- Sources: 405 → 407（新增 2 個批次 source 頁）

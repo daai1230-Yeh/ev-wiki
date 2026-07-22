@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [vw-restructure-china-offensive-2026, ev-news-2026-06-27-29-en, ev-news-2026-06-30-07-01, ev-news-2026-07-02, ev-news-2026-07-03-08, ev-news-2026-07-10-supplement, ev-news-2026-07-12-13-electrive, ev-news-2026-07-14-16-electrive, ev-news-2026-07-17-20-digitimes]
-updated: 2026-07-20
+sources: [vw-restructure-china-offensive-2026, ev-news-2026-06-27-29-en, ev-news-2026-06-30-07-01, ev-news-2026-07-02, ev-news-2026-07-03-08, ev-news-2026-07-10-supplement, ev-news-2026-07-12-13-electrive, ev-news-2026-07-14-16-electrive, ev-news-2026-07-17-20-digitimes, ev-news-2026-07-20-21-electrive-en]
+updated: 2026-07-22
 ---
 
 # Volkswagen（福斯集團）
@@ -155,6 +155,25 @@ VW 正式評估將中國開發的 EREV 車型引入歐洲市場，以規避 EU B
 - ID. Cross 對標比亞迪 Dolphin Surf；歐洲 1-5 月 PHEV 銷量 +29%，高油價是購車轉向關鍵因素
 - CEO Blume 坦言對比亞迪、奇瑞 5 月首度達歐洲 10% 市佔感到意外；內部討論全球裁員擬翻倍至 10 萬人
 - 參見：[[sources/ev-news-2026-07-17-20-digitimes]] | [[countries/歐洲]]
+
+## 印度JSW股權談判深化 + 削減EV平台支出（2026-07）
+
+> **結論**：福斯與印度JSW集團就出售Skoda Auto Volkswagen India多數股權進行深度談判，盼數週內定案，同時將印度電動車平台支出由10億美元下修至7億美元，反映其全球成本削減與尋找在地夥伴分攤財務壓力的雙重策略。
+
+**主因**：
+- 談判進度：JSW尋求多數股權，雙方三年前即開始接觸（原聚焦浦那/Chhatrapati Sambhajinagar廠代工），如今升級為股權交易 → 印度耕耘逾20年仍難建立規模，凸顯單打獨鬥策略在印度市場的侷限
+- 支出下修：EV平台預算自10億美元砍至7億美元 → 與集團全球裁員(最多10萬人)、車型陣容擬砍半的緊縮基調一致
+- 對JSW的意義：藉此取得福斯車輛平台，並可能成為與歐洲車廠更廣泛合作的跳板；JSW同時經營與上汽MG的合資及自主品牌造車計畫
+
+**觀察**：交易能否於數週內定案（此前談判已有破局先例）；印度EV平台縮編後的具體車型規劃是否受影響。
+
+- 參見：[[sources/ev-news-2026-07-20-21-electrive-en]] | [[countries/印度]]
+
+## 商用車Amarok第三代將電動化，Audi A2 e-tron定價曝光（2026-07）
+
+福斯商用車確認第三代Amarok皮卡（預計2029或2030年上市，與現行福特代工合約到期時間吻合）將推出純電版本；現行車型不受影響，與福特下一代合作關係尚未定案。同期集團旗下Audi A2 e-tron（緊湊型入門電動車）起價確認為€38,200，WLTP最大續航649公里，秋季全球首演後四種動力規格即可全數開放訂購，技術上與VW ID.3 Neo、Cupra Born同宗（更新版MEB平台），因戈爾施塔特總廠量產，策略上將電動產品線大幅下探至Q4 e-tron之下。
+
+- 參見：[[sources/ev-news-2026-07-20-21-electrive-en]]
 
 ## Related
 - [[entities/BMW]]

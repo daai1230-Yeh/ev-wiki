@@ -1,7 +1,7 @@
 ---
 tags: [concept]
-sources: [byd-dipilot-adas-2026, robotaxi-market-2026, toyota-adas-vs-fsd-subscription, hyundai-pleos-sdv-os, in-cabin-ai-sensing-2026, l2plus-adas-adoption-2026, rivian-lidar-china-partner-2026, hyundai-kia-atria-ai-gwangju-2026, hesai-color-lidar-2026, ev-news-digest-jun1-10-2026, ev-news-2026-06-27-29-en, ev-news-2026-06-30-07-01, ev-news-2026-06-29-zh, ev-news-2026-07-02, ev-news-2026-07-03-08, ev-news-2026-07-09]
-updated: 2026-07-10
+sources: [byd-dipilot-adas-2026, robotaxi-market-2026, toyota-adas-vs-fsd-subscription, hyundai-pleos-sdv-os, in-cabin-ai-sensing-2026, l2plus-adas-adoption-2026, rivian-lidar-china-partner-2026, hyundai-kia-atria-ai-gwangju-2026, hesai-color-lidar-2026, ev-news-digest-jun1-10-2026, ev-news-2026-06-27-29-en, ev-news-2026-06-30-07-01, ev-news-2026-06-29-zh, ev-news-2026-07-02, ev-news-2026-07-03-08, ev-news-2026-07-09, ev-news-2026-07-21-22-digitimes]
+updated: 2026-07-22
 ---
 
 # ADAS 智駕系統（Advanced Driver Assistance System）
@@ -303,6 +303,19 @@ GM 與美光（Micron）簽署 **第 16 份供應協議（SCA）**，涵蓋汽�
 **觀察**：AIDV 是否出現可驗證的付費商業模式；Zonal 架構量產時點（多數車廠 2028+）。
 
 - 參見：[[sources/ev-news-2026-07-09]] | [[entities/Tesla]]
+
+## Stellantis × Mobileye：雲端REM平台強化免手動駕駛（2026-07）
+
+> **結論**：Mobileye將向Stellantis供應雲端驅動ADAS技術，是全球十大車廠中第5家與Mobileye道路體驗管理（REM）平台合作的企業，2027年起導入車道維持與免手動駕駛功能。
+
+**主因**：
+- REM平台規模：涵蓋美歐超過95%公共道路，2025年已有超過800萬輛車在平台累積340億英里實際駕駛數據 → 群眾協作收集的道路數據規模是Mobileye相對Tesla純視覺路線的核心差異化資產
+- 導入時程：Stellantis部分車型（含Jeep、Chrysler）自2027年起整合REM平台，美國部分車型同期配置 → 與Mobileye先前自建Robotaxi業務（[[concepts/Robotaxi自動計程車]]）形成技術供應商與自營業務並行的雙軌策略
+- 監管現況：即便標榜免手動駕駛，各國監管機構普遍仍要求駕駛保持清醒專注 → ADAS距離真正L3/L4仍有法規與責任歸屬的中間地帶
+
+**觀察**：Stellantis其他品牌（Jeep之外）是否跟進導入REM平台；Mobileye技術供應商與自營Robotaxi兩項業務間的潛在利益衝突是否浮現。
+
+- 參見：[[sources/ev-news-2026-07-21-22-digitimes]] | [[entities/Stellantis]]
 
 ## Related
 - [[entities/Tesla]]

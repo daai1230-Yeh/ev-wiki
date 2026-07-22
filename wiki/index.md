@@ -1,6 +1,6 @@
 # Wiki Index
 
-Last updated: 2026-07-20 | Pages: 485 | Sources: 405
+Last updated: 2026-07-22 | Pages: 485 | Sources: 407
 
 ---
 
@@ -297,6 +297,8 @@ Last updated: 2026-07-20 | Pages: 485 | Sources: 405
 - [[sources/ev-news-2026-07-17-20-electrive]] — electrive批次25篇：歐洲EV銷量H1破百萬、BMW召回3萬輛PHEV、小鵬L03慕尼黑首發、Geely EX2/16合1電驅、Volvo EX60交付/EX90升800V、匈牙利前外長投效比亞迪、賓士GLA留守Rastatt、Porsche生產長異動、法國社會租賃第三輪、MAN克拉科夫電動卡車廠、多起充電/巴士零散案例。(2026-07-20)
 - [[sources/ev-news-2026-07-17-20-insideevs]] — InsideEVs批次6篇：美國Q2 EV贏家輸家（本田出局/豐田倍增）、東風平價EV進軍加拿大、Escalade IQL實測、Ioniq 5 N降價、GM WeaveGrid充電、Geely Thunder電驅。(2026-07-17)
 - [[sources/ev-news-2026-07-17-20-etauto-india]] — ETAuto/印度批次10篇：德里EV政策轉強制令、現代收購波士頓動力、JSW MG ADAPT平台、CAFE III草案獎勵生質燃料、Amara Raja電池廠、地方政府EV補貼零散案例。(2026-07-20)
+- [[sources/ev-news-2026-07-21-22-digitimes]] — Digitimes/中文批次12篇：小鵬德國/比亞迪香港雙線突破、匈牙利前外長投效比亞迪、本田廣汽續約10年/北美增設新廠、小鵬轉型實體AI供應商、鴻海關潤2040年L4預言、EcoPro BM固態電池、Stellantis×Mobileye雲端ADAS、台灣補貼政策評論。(2026-07-22)
+- [[sources/ev-news-2026-07-20-21-electrive-en]] — electrive/InsideEVs/ETAuto英文批次23篇：VinFast H1破紀錄115,916輛、福斯JSW印度股權談判、賓士CLA L中國停產、Tesla Grünheide財報/18GWh電芯擴產、Audi A2 e-tron、住友化學固態電池、德國電動巴士補助砍68%、英國充電稅制、二手EV保值率回升。(2026-07-22)
 
 ### 駐外新聞批量摘要
 - [[sources/駐外新聞-美國-2025]] — 2025 全年 83 篇；川普 EV 補貼削減/25% 汽車關稅/CAFE 放寬、底特律倒退、BESS 轉型、Tesla 去中國化供應鏈、氫能卡車崩潰。(2026-06-22)

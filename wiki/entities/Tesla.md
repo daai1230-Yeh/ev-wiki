@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [tesla-ass-nhtsa-probe-closed, tesla-taiwan-march-2026, xiaomi-ev-europe-2027, tesla-4680-musk-strategy, tesla-korea-q1-2026, tesla-q1-2026-earnings, tesla-india-model-y-l, 駐外新聞-美國-2025, ev-news-2026-07-02, ev-news-2026-07-03-08, ev-news-2026-07-09, ev-news-2026-07-10-insideevs-batch, ev-news-2026-07-11, ev-news-2026-07-12-13-digest, ev-news-2026-07-12-13-electrive, ev-news-2026-07-13-digitimes, ev-news-2026-07-14-16-insideevs, ev-news-2026-07-14-16-digitimes]
-updated: 2026-07-16
+sources: [tesla-ass-nhtsa-probe-closed, tesla-taiwan-march-2026, xiaomi-ev-europe-2027, tesla-4680-musk-strategy, tesla-korea-q1-2026, tesla-q1-2026-earnings, tesla-india-model-y-l, 駐外新聞-美國-2025, ev-news-2026-07-02, ev-news-2026-07-03-08, ev-news-2026-07-09, ev-news-2026-07-10-insideevs-batch, ev-news-2026-07-11, ev-news-2026-07-12-13-digest, ev-news-2026-07-12-13-electrive, ev-news-2026-07-13-digitimes, ev-news-2026-07-14-16-insideevs, ev-news-2026-07-14-16-digitimes, ev-news-2026-07-21-22-digitimes, ev-news-2026-07-20-21-electrive-en]
+updated: 2026-07-22
 ---
 
 # Tesla
@@ -269,6 +269,33 @@ Tesla Cybercab 在德州奧斯汀進行公路測試，確認無方向盤設計�
 - LGES 南京第九廠首度投產供應 Tesla 圓柱電池；三星SDI 傳於美國 StarPlus Energy 廠建置 ESS 產線供應 Tesla
 - 詳見：[[entities/LGES]] | [[entities/三星SDI]] | [[concepts/充電基礎建設]]
 - 參見：[[sources/ev-news-2026-07-14-16-insideevs]] | [[sources/ev-news-2026-07-14-16-digitimes]]
+
+## Optimus人形機器人7月底量產：電動車共用平台優勢（2026-07）
+
+> **結論**：Tesla人形機器人Optimus將於7月底正式啟動量產，DIGITIMES Research分析認為Tesla憑藉電動車累積的技術平台（電池、AI晶片、E2E神經網路）具備規模化生產人形機器人的獨特優勢。
+
+**主因**：
+- 產線改造效率：先前曾在46天內改造電動車產線因應機器人量產需求 → 顯示Tesla製造彈性可快速轉移至新產品線
+- 技術共用：自駕系統與人形機器人皆採端到端（E2E）基礎模型及自研AI晶片（車載AI4、機器人優先導入AI5）→ 電動車技術平台可視為人形機器人的延伸應用，降低重複研發成本
+- 電池自主：德州4680電池廠年產能約40GWh已穩定量產 → 為機器人與電動車共用電源提供成本優勢
+- 產能規劃：兩條產線分別規劃年產能100萬台與1,000萬台，預期2027年起導入外部應用場域
+
+**觀察**：Optimus量產爬坡速度（Musk坦言手臂/靈巧手工程仍是最大挑戰）；中系車廠（小鵬、比亞迪）人形機器人進度是否對Tesla先發優勢構成實質威脅。
+
+- 參見：[[sources/ev-news-2026-07-21-22-digitimes]] | [[concepts/人形機器人]]
+
+## 德國Grünheide：2025財報淨利成長但產量下滑，電芯擴產至18GWh（2026-07）
+
+> **結論**：Tesla德國子公司Tesla Manufacturing Brandenburg SE 2025財年淨利成長至€7,710萬（前一年€5,680萬），但產量與營收雙雙下滑，同時規劃2026年大幅提升產能並擴大電芯自製規模。
+
+**主因**：
+- 財務背離：淨利+36%（€5,680萬→€7,710萬）但營收由€77億降至€71億、產量減少約9,000輛（產能利用率56%→54%）→ 獲利提升主因可能是產品組合優化，而非規模效應
+- 降產原因：產線改造以生產Model Y Performance及加拿大出口版，造成暫時停產與爬坡期 → 屬於策略性短期陣痛，2026年目標「顯著提升」產能，最終週產7,500輛（年產能約37.5萬輛）
+- 電芯擴產：規劃產能由8GWh上修至18GWh（加碼投資2.5億美元），2027上半年投產，新增約1,500個工作機會 → 與先前追蹤的Cell Giga Challenge開放式研發計畫相互呼應
+
+**觀察**：2026年產能爬坡是否如期達成7,500輛/週目標；18GWh電芯廠2027上半年投產時程是否兌現。
+
+- 參見：[[sources/ev-news-2026-07-20-21-electrive-en]] | [[countries/德國]]
 
 ## Related
 - [[entities/NHTSA]]

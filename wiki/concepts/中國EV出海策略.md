@@ -1,7 +1,7 @@
 ---
 tags: [concept]
-sources: [stellantis-leapmotor-canada-rejected, xiaomi-ev-europe-2027, foxconn-mitsubishi-fuso-electric-bus, xpeng-mexico-launch, byd-denza-europe-debut, china-autonomous-driving-overseas, stellantis-opel-leapmotor-suv, thailand-ev-market-2026, china-ev-export-record-march-2026, byd-malaysia-factory-negotiation, europe-robotaxi-verne-ponyai, byd-april-exports-q1-2026, leapmotor-t03-germany-2026, malaysia-cbv-ev-regulation-2026, china-ev-europe-challenges-2026, china-nev-april-2026, china-evs-canada-chery-geely-2026, jpmorgan-china-ev-europe-2028, china-nev-april-involution-2026, geely-thailand-pickup-2026, byd-korea-10k-record-2026, china-ev-us-market-2026, osaka-expo-chinese-ebus-defect-2026, global-ev-demand-may2026, stellantis-china-ev-europe-factories-2026, xpeng-vw-europe-factory-2026, china-k-car-micro-ev-concept-2026, china-ev-europe-factory-takeover-2026, mg-saic-spain-factory-2026, nissan-chery-sunderland-deal-2026, tata-chery-avinya-platform-2026, byd-dod-military-list-2026, australia-china-ev-milestone-2026, byd-hungary-labour-report-2026, ev-news-digest-jun1-10-2026, byd-flash-charging-europe-2026, ev-news-2026-07-03-08, ev-news-2026-07-09, ev-news-2026-07-14-16-electrive, ev-news-2026-07-17-20-digitimes]
-updated: 2026-07-20
+sources: [stellantis-leapmotor-canada-rejected, xiaomi-ev-europe-2027, foxconn-mitsubishi-fuso-electric-bus, xpeng-mexico-launch, byd-denza-europe-debut, china-autonomous-driving-overseas, stellantis-opel-leapmotor-suv, thailand-ev-market-2026, china-ev-export-record-march-2026, byd-malaysia-factory-negotiation, europe-robotaxi-verne-ponyai, byd-april-exports-q1-2026, leapmotor-t03-germany-2026, malaysia-cbv-ev-regulation-2026, china-ev-europe-challenges-2026, china-nev-april-2026, china-evs-canada-chery-geely-2026, jpmorgan-china-ev-europe-2028, china-nev-april-involution-2026, geely-thailand-pickup-2026, byd-korea-10k-record-2026, china-ev-us-market-2026, osaka-expo-chinese-ebus-defect-2026, global-ev-demand-may2026, stellantis-china-ev-europe-factories-2026, xpeng-vw-europe-factory-2026, china-k-car-micro-ev-concept-2026, china-ev-europe-factory-takeover-2026, mg-saic-spain-factory-2026, nissan-chery-sunderland-deal-2026, tata-chery-avinya-platform-2026, byd-dod-military-list-2026, australia-china-ev-milestone-2026, byd-hungary-labour-report-2026, ev-news-digest-jun1-10-2026, byd-flash-charging-europe-2026, ev-news-2026-07-03-08, ev-news-2026-07-09, ev-news-2026-07-14-16-electrive, ev-news-2026-07-17-20-digitimes, ev-news-2026-07-21-22-digitimes]
+updated: 2026-07-22
 ---
 
 # 中國 EV 出海策略
@@ -386,6 +386,19 @@ MG Motor（上汽 SAIC 旗下）在西班牙加利西亞建設歐盟首座中國
 **觀察**：歐盟是否進一步收緊關稅或調查範圍；美國國會對「墨西哥繞道」的立法動向。
 
 - 參見：[[sources/ev-news-2026-07-17-20-digitimes]] | [[entities/比亞迪]] | [[countries/歐洲]] | [[countries/東南亞]]
+
+## 德國「燃油車發源地」正式被攻破：小鵬65國/比亞迪香港雙線突破（2026-07）
+
+> **結論**：小鵬MONA L03慕尼黑發表進入65國，正式叩關德國這個燃油車百年壁壘；同期比亞迪集團在香港銷量首度超越Tesla，顯示出海策略在「傳統強國」與「亞洲試金石市場」同步取得標誌性戰果。
+
+**主因**：
+- 德國突破：2026年5月中國車企歐洲月度新車註冊量首超日系（比亞迪、奇瑞、零跑年增分別136.57%、244.1%、465.1%）；德國本地調查顯示52%受訪者對中國車型持開放態度（2024年初僅37%）→ 消費者認知轉變快於預期，非僅價格因素
+- 出口數據佐證：2026上半年中國新能源汽車出口235.5萬輛（+120%），德國市場1-5月新能源汽車出口暴增211.2% → 德國從「防守陣地」轉為「主動渗透」目標市場
+- 香港試金石：比亞迪＋騰勢集團銷量超越Tesla，右駕在地化（充電樁/服務網絡）成功複製模式，為東南亞/紐澳等右駕市場提供可複製範本
+
+**觀察**：德國消費者實際掛牌數據能否持續驗證52%開放度調查；香港模式（右駕本地化+服務網絡）是否加速複製至其他右駕市場（如印度、澳洲）。
+
+- 參見：[[sources/ev-news-2026-07-21-22-digitimes]] | [[countries/德國]] | [[entities/小鵬汽車]] | [[entities/比亞迪]]
 
 ## Related
 - [[concepts/電動巴士市場]]

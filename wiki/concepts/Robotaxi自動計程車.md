@@ -1,7 +1,7 @@
 ---
 tags: [concept]
-sources: [robotaxi-market-2026, china-autonomous-driving-overseas, europe-robotaxi-verne-ponyai, waymo-miami-orlando-expansion, taiwan-av-special-scenes, japan-2030-autonomous-ai-strategy, ratp-karsan-autonomous-bus-paris, av-physical-ai-trends-2026, tesla-fsd-eu-expansion-2026, tesla-robotaxi-texas-reality-2026, uber-robotaxi-europe-expansion-2026, waymo-battery-secondlife-colorado-recycling-2026, toyota-tier-iv-l4-investment-2026, waymo-arizona-expansion-2026, tesla-cybercab-specs-2026, mobileye-robotaxi-2026, tesla-fsd-netherlands-2026, ev-news-2026-06-22, ev-news-2026-07-13-digitimes, ev-news-2026-07-14-16-electrive]
-updated: 2026-07-16
+sources: [robotaxi-market-2026, china-autonomous-driving-overseas, europe-robotaxi-verne-ponyai, waymo-miami-orlando-expansion, taiwan-av-special-scenes, japan-2030-autonomous-ai-strategy, ratp-karsan-autonomous-bus-paris, av-physical-ai-trends-2026, tesla-fsd-eu-expansion-2026, tesla-robotaxi-texas-reality-2026, uber-robotaxi-europe-expansion-2026, waymo-battery-secondlife-colorado-recycling-2026, toyota-tier-iv-l4-investment-2026, waymo-arizona-expansion-2026, tesla-cybercab-specs-2026, mobileye-robotaxi-2026, tesla-fsd-netherlands-2026, ev-news-2026-06-22, ev-news-2026-07-13-digitimes, ev-news-2026-07-14-16-electrive, ev-news-2026-07-21-22-digitimes]
+updated: 2026-07-22
 ---
 
 # Robotaxi（自動計程車）
@@ -304,6 +304,19 @@ Mobileye 宣布成立垂直整合 Robotaxi 部門，從技術供應商轉型為�
 - UNECE 通過首部 ADS 國際協調法規框架（約一個月後生效），詳見 [[concepts/自動駕駛安全監管]]
 - Jacksonville NAVI（美國首個常設無人駕駛公共運輸服務）首年運送逾 15,200 人次，累計自駕里程逾 61,000 英里；JTA 執行長 Ford 任內促成 HOLON 美國首座自駕車製造廠（$2 億投資）
 - 參見：[[sources/ev-news-2026-07-14-16-electrive]]
+
+## 小鵬轉型Tier 1供應商模式：Robotaxi不自營車隊（2026-07）
+
+> **結論**：小鵬董事長何小鵬宣布未來10年轉型為實體AI供應商，Robotaxi業務採一級供應商（Tier 1）模式而非自營車隊，以GX大型SUV 2026~2027年於中國測試後推進歐洲。
+
+**主因**：
+- 商業模式選擇：小鵬不打算自營車隊，改為提供整合軟體、硬體與服務的平台，與各地營運夥伴合作 → 相較Waymo/Zoox的重資產自營模式，小鵬選擇輕資產、可複製至全球市場的路徑，降低單一市場監管風險
+- 法規路徑：現階段各地法規仍要求駕駛座須有人員乘坐，未來朝雲端遠端監控模式發展 → 與鴻海關潤「自駕系統成本降至2,000~3,000美元」的預測共同指向法規鬆綁後的規模化拐點
+- 安全論述：何小鵬強調自駕技術普及後安全標準可望較現階段提升百倍，並紓解尖峰交通壅塞 → 呼應鴻海關潤「死亡車禍降至10分之1~20分之1」的產業共識
+
+**觀察**：GX Robotaxi中國測試的具體監管許可進度；小鵬「Tier 1模式」與百度蘿蔔快跑、小馬智行等中國同業自營模式的市場區隔效果。
+
+- 參見：[[sources/ev-news-2026-07-21-22-digitimes]] | [[entities/小鵬汽車]] | [[entities/鴻海]]
 
 ## Related
 - [[concepts/ADAS智駕系統]]
