@@ -1790,3 +1790,41 @@ Pages 375 → 406，Sources 315 → 346
 
 ### Index 更新
 - Sources: 405 → 407（新增 2 個批次 source 頁）
+
+## [2026-07-24] ingest | ev-news-2026-07-22-24 兩批次（digitimes 13篇 + electrive/insideevs/etauto-india 35篇，共約 48 篇）
+
+- Summary pages: [[sources/ev-news-2026-07-22-24-digitimes]]、[[sources/ev-news-2026-07-22-23-electrive-en]]
+- Raw assets: raw/assets/2026-07-22~24 各檔案（Digitimes、Google Alerts、電子報、electrive、InsideEVs、ETAuto、Automotive World、BusinessMirror）
+- 所有 source 頁均含原文網址（inline hyperlink）；已排除 8 篇重複剪輯：Illinois EV rebate、Range Rover GT、Tesla Megacharger、USA Hyundai Ioniq5N、Sila $300M（皆取更完整07-24版本）、Mercedes GLC L（取內容更完整版本）、中國電池消費稅公告（同一篇762673重複剪輯）、MAN Kraków量產與India JBM EV 500輛巴士（與07-17-20批次重複，本次未再收錄）
+- 內容主軸：Tesla Q2財報全貌（交車創高480,126輛但自由現金流轉負、Musk預告AI6晶片）、Tesla以Grünheide員工訓練Optimus、VW×地平線Carizon目標2027下半年中國L3量產、中國電池消費稅改革（傳統鋰電加稅/固態鈉電免稅至2028）、廣汽埃安CALB電池品質爭議重燃「去寧化」討論、DRAM暴漲衝擊車用供應鏈、Mobileye創辦人卸任執行長轉向Robotaxi、中國重啟Robotaxi牌照核發、住友化學鹵化物固態電解質2028量產、Hyundai-SK On喬治亞電池廠量產、保時捷新產線負責人與EV專案延後、參議院法案恐波及賓士、寮國全球最激進燃油禁令、Mahle重卡增程系統、多起電動卡車/充電基建部署案例
+
+### Concepts 更新（7 頁）
+- [[concepts/電池技術路線]] — +中國電池消費稅改革、+Sila矽負極擴產、+CALB/GAC品質爭議
+- [[concepts/人形機器人]] — +Tesla Grünheide員工訓練Optimus、+Mobileye收購Mentee Robotics
+- [[concepts/Robotaxi自動計程車]] — +中國重啟牌照核發、+Mobileye轉向自營
+- [[concepts/ADAS智駕系統]] — +VW×地平線Carizon中國L3、+印度ADAS民主化討論
+- [[concepts/電動卡車市場]] — +Mahle增程系統、+南韓CO2新規、+Einride/DSV/BillionE部署案例
+- [[concepts/充電基礎建設]] — +BC Hydro/伊利諾/現代印度App、+Circontrol更名/SEG Matrix Charging
+- [[concepts/車用半導體供應鏈]] — +DRAM飆升衝擊車用供應鏈
+
+### Countries 更新（10 頁）
+- [[countries/中國]] — +電池消費稅改革/去寧化/DRAM三重夾擊
+- [[countries/德國]] — +Grünheide訓練Optimus、+VW ID.Cross開賣、+保時捷新產線負責人
+- [[countries/韓國]] — +Hyundai-SK On喬治亞電池廠、+南韓電動重卡CO2新規
+- [[countries/印度]] — +現代3萬充電點整合、+ADAS民主化、+BillionE電動重卡
+- [[countries/東南亞]] — +寮國燃油禁令、+鴻海越南充電設備、+JAECOO菲律賓
+- [[countries/台灣]] — +華德動能8/10掛牌
+- [[countries/日本]] — +住友化學鹵化物固態電解質2028
+- [[countries/美國]] — +參議院法案波及賓士、+伊利諾補貼重啟
+- [[countries/加拿大]] — +BC Hydro充電網絡擴大
+- [[countries/澳洲]] — +澳洲郵政車隊電動化
+
+### Entities 更新（5 頁）
+- [[entities/Tesla]] — +Q2財報全貌、+Grünheide訓練Optimus、+加州Megacharger
+- [[entities/Volkswagen]] — +VW×地平線中國L3、+ID.Cross德國開賣
+- [[entities/寧德時代]] — +去寧化困境、+電池消費稅改革受惠
+- [[entities/現代汽車]] — +Hyundai-SK On電池廠、+印度充電網絡、+Ioniq5N降價
+- [[entities/鴻海]] — +工業富聯越南EV充電設備
+
+### Index 更新
+- Sources: 407 → 409（新增 2 個批次 source 頁）

@@ -1,7 +1,7 @@
 ---
 tags: [concept]
-sources: [byd-dipilot-adas-2026, robotaxi-market-2026, toyota-adas-vs-fsd-subscription, hyundai-pleos-sdv-os, in-cabin-ai-sensing-2026, l2plus-adas-adoption-2026, rivian-lidar-china-partner-2026, hyundai-kia-atria-ai-gwangju-2026, hesai-color-lidar-2026, ev-news-digest-jun1-10-2026, ev-news-2026-06-27-29-en, ev-news-2026-06-30-07-01, ev-news-2026-06-29-zh, ev-news-2026-07-02, ev-news-2026-07-03-08, ev-news-2026-07-09, ev-news-2026-07-21-22-digitimes]
-updated: 2026-07-22
+sources: [byd-dipilot-adas-2026, robotaxi-market-2026, toyota-adas-vs-fsd-subscription, hyundai-pleos-sdv-os, in-cabin-ai-sensing-2026, l2plus-adas-adoption-2026, rivian-lidar-china-partner-2026, hyundai-kia-atria-ai-gwangju-2026, hesai-color-lidar-2026, ev-news-digest-jun1-10-2026, ev-news-2026-06-27-29-en, ev-news-2026-06-30-07-01, ev-news-2026-06-29-zh, ev-news-2026-07-02, ev-news-2026-07-03-08, ev-news-2026-07-09, ev-news-2026-07-21-22-digitimes, ev-news-2026-07-22-23-electrive-en]
+updated: 2026-07-24
 ---
 
 # ADAS 智駕系統（Advanced Driver Assistance System）
@@ -316,6 +316,20 @@ GM 與美光（Micron）簽署 **第 16 份供應協議（SCA）**，涵蓋汽�
 **觀察**：Stellantis其他品牌（Jeep之外）是否跟進導入REM平台；Mobileye技術供應商與自營Robotaxi兩項業務間的潛在利益衝突是否浮現。
 
 - 參見：[[sources/ev-news-2026-07-21-22-digitimes]] | [[entities/Stellantis]]
+
+## VW×地平線Carizon目標2027下半年中國L3量產（2026-07）
+
+> **結論**：福斯與地平線機器人合資公司Carizon目標2027下半年在中國量產首款L3自駕系統，全場景ADAS已進入量產階段，2026 Q3起於3家中國合資企業7款電動車型部署。
+
+- Carizon採白盒授權模式，運用地平線AI基礎模型結合自研C7H系統單晶片與GAIA世界模型數據平台，同時支援福斯L3/L4能力與未來Robotaxi應用；技術將深度整合福斯首個本土化區域電子電氣架構（CEA）
+- 產業背景：中國上半年逾30%新車配備進階領航輔助駕駛，國際車廠加速借助中國科技公司開發智駕能力（Stellantis×小馬智行歐洲Robotaxi、賓士×Momenta阿布達比Robotaxi）
+- 參見：[[sources/ev-news-2026-07-22-23-electrive-en]] | [[entities/Volkswagen]] | [[countries/中國]]
+
+## 印度ADAS民主化：單鏡頭方案降低導入門檻（2026-07）
+
+第7屆ETAuto科技高峰會，Tata Motors與Mobileye就印度ADAS普及化展開討論：成本優化是關鍵，單一鏡頭搭配具成本效益晶片即可提供有效ADAS，降低價格敏感市場門檻；人類駕駛行為與接受度是印度路況下ADAS真正發揮效用的關鍵變數。Mobileye ADAS已獲Mahindra、Tata Motors採用，預測2027年前印度乘用車市場免持駕駛採用率將增加28%；與談者將2026年視為執行年，2027年隨法規演進迎來更廣泛部署。
+
+- 參見：[[sources/ev-news-2026-07-22-23-electrive-en]] | [[countries/印度]]
 
 ## Related
 - [[entities/Tesla]]

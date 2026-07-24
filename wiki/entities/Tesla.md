@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [tesla-ass-nhtsa-probe-closed, tesla-taiwan-march-2026, xiaomi-ev-europe-2027, tesla-4680-musk-strategy, tesla-korea-q1-2026, tesla-q1-2026-earnings, tesla-india-model-y-l, 駐外新聞-美國-2025, ev-news-2026-07-02, ev-news-2026-07-03-08, ev-news-2026-07-09, ev-news-2026-07-10-insideevs-batch, ev-news-2026-07-11, ev-news-2026-07-12-13-digest, ev-news-2026-07-12-13-electrive, ev-news-2026-07-13-digitimes, ev-news-2026-07-14-16-insideevs, ev-news-2026-07-14-16-digitimes, ev-news-2026-07-21-22-digitimes, ev-news-2026-07-20-21-electrive-en]
-updated: 2026-07-22
+sources: [tesla-ass-nhtsa-probe-closed, tesla-taiwan-march-2026, xiaomi-ev-europe-2027, tesla-4680-musk-strategy, tesla-korea-q1-2026, tesla-q1-2026-earnings, tesla-india-model-y-l, 駐外新聞-美國-2025, ev-news-2026-07-02, ev-news-2026-07-03-08, ev-news-2026-07-09, ev-news-2026-07-10-insideevs-batch, ev-news-2026-07-11, ev-news-2026-07-12-13-digest, ev-news-2026-07-12-13-electrive, ev-news-2026-07-13-digitimes, ev-news-2026-07-14-16-insideevs, ev-news-2026-07-14-16-digitimes, ev-news-2026-07-21-22-digitimes, ev-news-2026-07-20-21-electrive-en, ev-news-2026-07-22-24-digitimes, ev-news-2026-07-22-23-electrive-en]
+updated: 2026-07-24
 ---
 
 # Tesla
@@ -296,6 +296,31 @@ Tesla Cybercab 在德州奧斯汀進行公路測試，確認無方向盤設計�
 **觀察**：2026年產能爬坡是否如期達成7,500輛/週目標；18GWh電芯廠2027上半年投產時程是否兌現。
 
 - 參見：[[sources/ev-news-2026-07-20-21-electrive-en]] | [[countries/德國]]
+
+## Q2 2026財報：交車創紀錄但獲利承壓、自由現金流轉負（2026-07）
+
+> **結論**：Tesla Q2交車480,126輛創歷史新高（+25% YoY），營收282.4億美元優於預期，但淨利年減5%、毛利率降至16.8%，自由現金流兩年多來首次轉負（-11億美元），資本支出年增142%達57.9億美元反映AI/機器人投入全面加速。
+
+**主因**：
+- 交車與獲利背離：交車創高、營收優於預期，但毛利率17.2%→16.8%（低於市場預估19.4%），主因平均售價下降+碳權收入減少，且期間推出較低價Model 3/Y、停售高價Model S/X → 規模成長未轉化為獲利成長
+- 資本配置轉向：Q2資本支出翻倍以上至57.9億美元（全年估170億美元，低於原250億目標），營業費用年增47%達43.5億美元 → 資金重心從汽車製造轉向AI/Optimus/Robotaxi
+- Musk預告AI6邊緣晶片將是「世界最好」，台積電與三星美國廠是Optimus供應鏈關鍵後盾；Tesla與SpaceX合資Terafab選址將公布，市場分析兩公司合併機率達9成
+
+**觀察**：Q3自由現金流是否回正；AI6晶片與Optimus量產進度是否兌現財報說法。
+
+- 參見：[[sources/ev-news-2026-07-22-24-digitimes]] | [[sources/ev-news-2026-07-22-23-electrive-en]]
+
+## Grünheide員工背包攝影機訓練Optimus；Reutlingen擴大機器人零件開發（2026-07）
+
+Tesla將在德國Grünheide廠讓部分員工配戴背包式攝影機記錄組裝動作，用以訓練人形機器人Optimus（美國已有「數據收集操作員」採用類似方式）；同時在Reutlingen（2025年向破產機械廠Manz收購部分廠址）擴大機器人業務，招募專才開發感測器、齒輪箱、致動器等零件及量產設備。據《Handelsblatt》報導，此計畫尚未與員工工會討論，德國勞動法下監控員工行為/績效的技術系統可能須經共同決定程序。Tesla目前僅在加州Fremont廠中試產線生產Optimus，未公開產量，長期目標為年產能100萬台工廠。
+
+- 參見：[[sources/ev-news-2026-07-22-23-electrive-en]] | [[concepts/人形機器人]] | [[countries/德國]]
+
+## 加州開設首座公共1.2MW Megacharger（2026-07）
+
+Tesla在加州Bloomington開設首座全規模公共Semi兆瓦充電站，6個充電位、每位最高1.2MW，支援新MC2接頭（30分鐘充至60%）。此前一座較小規模站（2位、第一代MC1接頭、最高750kW）原被視為首座公共Megacharger站。Tesla目標北美至少64個據點，未來或擴展加拿大。
+
+- 參見：[[sources/ev-news-2026-07-22-23-electrive-en]] | [[concepts/充電基礎建設]] | [[concepts/電動卡車市場]]
 
 ## Related
 - [[entities/NHTSA]]

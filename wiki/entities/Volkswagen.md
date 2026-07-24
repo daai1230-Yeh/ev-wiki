@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [vw-restructure-china-offensive-2026, ev-news-2026-06-27-29-en, ev-news-2026-06-30-07-01, ev-news-2026-07-02, ev-news-2026-07-03-08, ev-news-2026-07-10-supplement, ev-news-2026-07-12-13-electrive, ev-news-2026-07-14-16-electrive, ev-news-2026-07-17-20-digitimes, ev-news-2026-07-20-21-electrive-en]
-updated: 2026-07-22
+sources: [vw-restructure-china-offensive-2026, ev-news-2026-06-27-29-en, ev-news-2026-06-30-07-01, ev-news-2026-07-02, ev-news-2026-07-03-08, ev-news-2026-07-10-supplement, ev-news-2026-07-12-13-electrive, ev-news-2026-07-14-16-electrive, ev-news-2026-07-17-20-digitimes, ev-news-2026-07-20-21-electrive-en, ev-news-2026-07-22-23-electrive-en]
+updated: 2026-07-24
 ---
 
 # Volkswagen（福斯集團）
@@ -174,6 +174,19 @@ VW 正式評估將中國開發的 EREV 車型引入歐洲市場，以規避 EU B
 福斯商用車確認第三代Amarok皮卡（預計2029或2030年上市，與現行福特代工合約到期時間吻合）將推出純電版本；現行車型不受影響，與福特下一代合作關係尚未定案。同期集團旗下Audi A2 e-tron（緊湊型入門電動車）起價確認為€38,200，WLTP最大續航649公里，秋季全球首演後四種動力規格即可全數開放訂購，技術上與VW ID.3 Neo、Cupra Born同宗（更新版MEB平台），因戈爾施塔特總廠量產，策略上將電動產品線大幅下探至Q4 e-tron之下。
 
 - 參見：[[sources/ev-news-2026-07-20-21-electrive-en]]
+
+## 中國目標2027下半年量產L3自駕；ID. Cross德國開賣（2026-07）
+
+> **結論**：福斯與地平線機器人合資公司Carizon目標2027下半年在中國量產首款L3自駕系統，同時ID. Cross於德國以€34,025起售，反映福斯「中國研發、全球銷售」與「歐洲平價電動車」雙軸並進。
+
+**主因**：
+- Carizon投資規模：福斯投資約€24億、持股60%，已為ID. UNYX 07/06量產全場景ADAS（含城市領航輔助駕駛），2026 Q3起於3家中國合資企業7款電動車型部署 → 中國技術反向輸出至福斯全球研發體系
+- ID. Cross定價：Life版€36,525（補貼後€34,025）、Style版€39,110（補貼後€35,610），入門Trend版€27,995將於10月中旬開放訂購 → 與Škoda Epiq、Cupra Raval共同完成MEB+平價電動車陣容
+- CEO Blume表態：中國已成集團「軟體、AI與自動駕駛」關鍵創新樞紐，技術將反饋至部分國際市場
+
+**觀察**：Carizon L3系統2027下半年量產時程是否兌現；ID. Cross在德國實際掛牌數據能否對抗比亞迪Dolphin Surf等中系平價車型。
+
+- 參見：[[sources/ev-news-2026-07-22-23-electrive-en]] | [[countries/中國]] | [[countries/德國]]
 
 ## Related
 - [[entities/BMW]]

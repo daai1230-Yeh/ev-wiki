@@ -1,7 +1,7 @@
 ---
 tags: [concept]
-sources: [robotaxi-market-2026, china-autonomous-driving-overseas, europe-robotaxi-verne-ponyai, waymo-miami-orlando-expansion, taiwan-av-special-scenes, japan-2030-autonomous-ai-strategy, ratp-karsan-autonomous-bus-paris, av-physical-ai-trends-2026, tesla-fsd-eu-expansion-2026, tesla-robotaxi-texas-reality-2026, uber-robotaxi-europe-expansion-2026, waymo-battery-secondlife-colorado-recycling-2026, toyota-tier-iv-l4-investment-2026, waymo-arizona-expansion-2026, tesla-cybercab-specs-2026, mobileye-robotaxi-2026, tesla-fsd-netherlands-2026, ev-news-2026-06-22, ev-news-2026-07-13-digitimes, ev-news-2026-07-14-16-electrive, ev-news-2026-07-21-22-digitimes]
-updated: 2026-07-22
+sources: [robotaxi-market-2026, china-autonomous-driving-overseas, europe-robotaxi-verne-ponyai, waymo-miami-orlando-expansion, taiwan-av-special-scenes, japan-2030-autonomous-ai-strategy, ratp-karsan-autonomous-bus-paris, av-physical-ai-trends-2026, tesla-fsd-eu-expansion-2026, tesla-robotaxi-texas-reality-2026, uber-robotaxi-europe-expansion-2026, waymo-battery-secondlife-colorado-recycling-2026, toyota-tier-iv-l4-investment-2026, waymo-arizona-expansion-2026, tesla-cybercab-specs-2026, mobileye-robotaxi-2026, tesla-fsd-netherlands-2026, ev-news-2026-06-22, ev-news-2026-07-13-digitimes, ev-news-2026-07-14-16-electrive, ev-news-2026-07-21-22-digitimes, ev-news-2026-07-22-24-digitimes, ev-news-2026-07-22-23-electrive-en]
+updated: 2026-07-24
 ---
 
 # Robotaxi（自動計程車）
@@ -317,6 +317,19 @@ Mobileye 宣布成立垂直整合 Robotaxi 部門，從技術供應商轉型為�
 **觀察**：GX Robotaxi中國測試的具體監管許可進度；小鵬「Tier 1模式」與百度蘿蔔快跑、小馬智行等中國同業自營模式的市場區隔效果。
 
 - 參見：[[sources/ev-news-2026-07-21-22-digitimes]] | [[entities/小鵬汽車]] | [[entities/鴻海]]
+
+## 中國重啟Robotaxi牌照核發；Mobileye轉向自營Robotaxi（2026-07）
+
+> **結論**：中國在百度Apollo Go武漢車隊3月故障事件後暫停新牌照4個月，6月底完成全行業安全審查後重啟核發（小馬智行率先取得深圳新牌照）；同期Mobileye創辦人卸任執行長轉向自營Robotaxi業務，目標2027年美國城市上路。
+
+**主因**：
+- 事故背景：2026-03-31百度Apollo Go多輛自駕車在武漢道路中央同時停止，觸發4月起的全行業牌照暫停 → 監管機構選擇「暫停審查」而非永久收緊，反映中國仍以規模化商轉為政策優先
+- 重啟節奏：完成安全審查後選擇性重啟（小馬智行深圳率先獲批），此前暫停的自駕計程車服務同步恢復 → 監管路徑呈現「事故→暫停→審查→分批重啟」的可預期模式
+- Mobileye策略轉向：創辦人Shashua留任董事長聚焦Robotaxi、自有自駕系統與人形機器人（含先前9億美元收購Mentee Robotics），新任執行長接手成熟ADAS業務 → 技術供應商角色升級為自營運營商，與鴻海CDMS「代工轉自營」邏輯相反
+
+**觀察**：中國其他城市牌照重啟時程；Mobileye 2027年美國Robotaxi具體城市與規模。
+
+- 參見：[[sources/ev-news-2026-07-22-23-electrive-en]] | [[sources/ev-news-2026-07-22-24-digitimes]] | [[countries/中國]]
 
 ## Related
 - [[concepts/ADAS智駕系統]]

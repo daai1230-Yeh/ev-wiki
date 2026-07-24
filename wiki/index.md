@@ -1,6 +1,6 @@
 # Wiki Index
 
-Last updated: 2026-07-22 | Pages: 485 | Sources: 407
+Last updated: 2026-07-24 | Pages: 485 | Sources: 409
 
 ---
 
@@ -299,6 +299,8 @@ Last updated: 2026-07-22 | Pages: 485 | Sources: 407
 - [[sources/ev-news-2026-07-17-20-etauto-india]] — ETAuto/印度批次10篇：德里EV政策轉強制令、現代收購波士頓動力、JSW MG ADAPT平台、CAFE III草案獎勵生質燃料、Amara Raja電池廠、地方政府EV補貼零散案例。(2026-07-20)
 - [[sources/ev-news-2026-07-21-22-digitimes]] — Digitimes/中文批次12篇：小鵬德國/比亞迪香港雙線突破、匈牙利前外長投效比亞迪、本田廣汽續約10年/北美增設新廠、小鵬轉型實體AI供應商、鴻海關潤2040年L4預言、EcoPro BM固態電池、Stellantis×Mobileye雲端ADAS、台灣補貼政策評論。(2026-07-22)
 - [[sources/ev-news-2026-07-20-21-electrive-en]] — electrive/InsideEVs/ETAuto英文批次23篇：VinFast H1破紀錄115,916輛、福斯JSW印度股權談判、賓士CLA L中國停產、Tesla Grünheide財報/18GWh電芯擴產、Audi A2 e-tron、住友化學固態電池、德國電動巴士補助砍68%、英國充電稅制、二手EV保值率回升。(2026-07-22)
+- [[sources/ev-news-2026-07-22-24-digitimes]] — Digitimes/中文批次13篇：Tesla Q2財報全貌、Musk AI6晶片、中國電池消費稅改革、「去寧化」兩難、Mobileye創辦人卸任、住友化學固態電池2028、Hyundai-SK On美國電池廠、寮國燃油禁令、華德動能掛牌。(2026-07-24)
+- [[sources/ev-news-2026-07-22-23-electrive-en]] — electrive/InsideEVs/ETAuto英文批次35篇：Tesla Q2交車創高、VW L3自駕中國2027、保時捷新產線負責人/EV延後、CALB電池品質爭議、中國Robotaxi牌照重啟、參議院法案波及賓士、Mahle重卡增程系統、多起充電/卡車部署案例。(2026-07-24)
 
 ### 駐外新聞批量摘要
 - [[sources/駐外新聞-美國-2025]] — 2025 全年 83 篇；川普 EV 補貼削減/25% 汽車關稅/CAFE 放寬、底特律倒退、BESS 轉型、Tesla 去中國化供應鏈、氫能卡車崩潰。(2026-06-22)
