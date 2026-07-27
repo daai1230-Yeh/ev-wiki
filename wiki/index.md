@@ -1,6 +1,6 @@
 # Wiki Index
 
-Last updated: 2026-07-24 | Pages: 485 | Sources: 409
+Last updated: 2026-07-27 | Pages: 485 | Sources: 411
 
 ---
 
@@ -301,6 +301,8 @@ Last updated: 2026-07-24 | Pages: 485 | Sources: 409
 - [[sources/ev-news-2026-07-20-21-electrive-en]] — electrive/InsideEVs/ETAuto英文批次23篇：VinFast H1破紀錄115,916輛、福斯JSW印度股權談判、賓士CLA L中國停產、Tesla Grünheide財報/18GWh電芯擴產、Audi A2 e-tron、住友化學固態電池、德國電動巴士補助砍68%、英國充電稅制、二手EV保值率回升。(2026-07-22)
 - [[sources/ev-news-2026-07-22-24-digitimes]] — Digitimes/中文批次13篇：Tesla Q2財報全貌、Musk AI6晶片、中國電池消費稅改革、「去寧化」兩難、Mobileye創辦人卸任、住友化學固態電池2028、Hyundai-SK On美國電池廠、寮國燃油禁令、華德動能掛牌。(2026-07-24)
 - [[sources/ev-news-2026-07-22-23-electrive-en]] — electrive/InsideEVs/ETAuto英文批次35篇：Tesla Q2交車創高、VW L3自駕中國2027、保時捷新產線負責人/EV延後、CALB電池品質爭議、中國Robotaxi牌照重啟、參議院法案波及賓士、Mahle重卡增程系統、多起充電/卡車部署案例。(2026-07-24)
+- [[sources/ev-news-2026-07-25-27-digitimes]] — Digitimes/中文批次11篇：GM中國連7季獲利、BBA豪華車降價承壓、現代/起亞Q2營收漲獲利跌、LGES重啟Ultium電池廠、極氪海外鎖車爭議、泰國擬提高EV國產化、Tesla股價重挫18%、福斯ID.Polo熱銷、桃機自駕電巴轉包爭議、豐田×Uber歐洲車隊、起亞Syros EV印度。(2026-07-27)
+- [[sources/ev-news-2026-07-24-27-electrive-en]] — electrive等英文批次9篇：BMW英國補貼/墨西哥產能、福特×吉利西班牙合資、Kia Syros EV印度、Peugeot E-208 GTi英國開賣、西班牙Auto+補貼、Bajaj Auto電動機車財報。(2026-07-27)
 
 ### 駐外新聞批量摘要
 - [[sources/駐外新聞-美國-2025]] — 2025 全年 83 篇；川普 EV 補貼削減/25% 汽車關稅/CAFE 放寬、底特律倒退、BESS 轉型、Tesla 去中國化供應鏈、氫能卡車崩潰。(2026-06-22)

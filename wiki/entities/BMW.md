@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [lges-bmw-46series-order, ev-news-2026-06-30-07-01, ev-news-2026-07-10-electrive-batch, ev-news-2026-07-12-13-electrive]
-updated: 2026-07-13
+sources: [lges-bmw-46series-order, ev-news-2026-06-30-07-01, ev-news-2026-07-10-electrive-batch, ev-news-2026-07-12-13-electrive, ev-news-2026-07-24-27-electrive-en]
+updated: 2026-07-27
 ---
 
 # BMW（寶馬）
@@ -112,3 +112,9 @@ BMW 旗艦電動 SUV 全球首映，進入新能量密度區間：
 - [[countries/歐洲]]
 - [[sources/lges-bmw-46series-order]]
 - [[sources/ev-news-2026-06-30-07-01]]
+
+## 英國iX1/iX2符合最高補貼級距；墨西哥廠2027量產i3/iX3（2026-07）
+
+BMW調降英國iX1/iX2售價使其符合£3,750電動車補貼（ECG）最高級距，成為首個達此門檻的德系豪華品牌；補貼後iX1 eDrive20 Sport起價£33,315，甚至低於同級燃油版X1。同時確認墨西哥San Luis Potosí廠將自2027年生產Neue Klasse i3與iX3並配建第六代高壓電池組裝中心（總投資€8億），為BMW全球四座Neue Klasse生產基地之一（另含匈牙利Debrecen、德國慕尼黑、中國瀋陽）。
+
+- 參見：[[sources/ev-news-2026-07-24-27-electrive-en]] | [[countries/英國]]

@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [lges-loss-ess-2026, ira-supply-chain-compliance, us-ev-battery-demand-mismatch, lges-tesla-4680-supplier, lges-bmw-46series-order, ev-news-2026-07-03-08, ev-news-2026-07-10-supplement, ev-news-2026-07-12-13-electrive, ev-news-2026-07-14-16-digitimes, ev-news-2026-07-17-20-digitimes]
-updated: 2026-07-20
+sources: [lges-loss-ess-2026, ira-supply-chain-compliance, us-ev-battery-demand-mismatch, lges-tesla-4680-supplier, lges-bmw-46series-order, ev-news-2026-07-03-08, ev-news-2026-07-10-supplement, ev-news-2026-07-12-13-electrive, ev-news-2026-07-14-16-digitimes, ev-news-2026-07-17-20-digitimes, ev-news-2026-07-25-27-digitimes]
+updated: 2026-07-27
 ---
 
 # 樂金能源解決方案（LG Energy Solution，LGES）
@@ -121,3 +121,11 @@ updated: 2026-07-20
 - [[sources/lges-loss-ess-2026]]
 - [[sources/lges-tesla-4680-supplier]]
 - [[sources/us-ev-battery-demand-mismatch]]
+
+## × GM重啟俄亥俄Ultium 1號廠：EV需求斷層提前結束跡象（2026-07）
+
+> **結論**：LGES準備重啟與GM合資、因EV需求急跌於2026年1月停工的俄亥俄Ultium Cells 1號廠，約850名解雇員工7/27起陸續復職，業界認為中東戰爭油價衝擊使EV需求復甦時程提前逾2年（原預期需等到2027年後）。
+
+- 復工節奏：先進行設備維護與產能爬坡，預計2026年Q4正式恢復大規模生產；同期田納西Ultium Cells 2號廠（已轉產ESS用LFP電池）約700名員工也已復職
+- 稼動率回升：LGES整體工廠稼動率預計由2026年Q1的46.9%於下半年提升至約60%，喬治亞現代合資廠亦已完工準備量產
+- 參見：[[sources/ev-news-2026-07-25-27-digitimes]] | [[entities/通用汽車]] | [[countries/美國]]

@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [vw-restructure-china-offensive-2026, ev-news-2026-06-27-29-en, ev-news-2026-06-30-07-01, ev-news-2026-07-02, ev-news-2026-07-03-08, ev-news-2026-07-10-supplement, ev-news-2026-07-12-13-electrive, ev-news-2026-07-14-16-electrive, ev-news-2026-07-17-20-digitimes, ev-news-2026-07-20-21-electrive-en, ev-news-2026-07-22-23-electrive-en]
-updated: 2026-07-24
+sources: [vw-restructure-china-offensive-2026, ev-news-2026-06-27-29-en, ev-news-2026-06-30-07-01, ev-news-2026-07-02, ev-news-2026-07-03-08, ev-news-2026-07-10-supplement, ev-news-2026-07-12-13-electrive, ev-news-2026-07-14-16-electrive, ev-news-2026-07-17-20-digitimes, ev-news-2026-07-20-21-electrive-en, ev-news-2026-07-22-23-electrive-en, ev-news-2026-07-25-27-digitimes, ev-news-2026-07-24-27-electrive-en]
+updated: 2026-07-27
 ---
 
 # Volkswagen（福斯集團）
@@ -187,6 +187,12 @@ VW 正式評估將中國開發的 EREV 車型引入歐洲市場，以規避 EU B
 **觀察**：Carizon L3系統2027下半年量產時程是否兌現；ID. Cross在德國實際掛牌數據能否對抗比亞迪Dolphin Surf等中系平價車型。
 
 - 參見：[[sources/ev-news-2026-07-22-23-electrive-en]] | [[countries/中國]] | [[countries/德國]]
+
+## ID.Polo歐洲熱銷：接單2.5萬張，追加入門小電池版本（2026-07）
+
+福斯ID.Polo（MEB+平台）在歐洲開放訂購數週內累積2.5萬張訂單，追加開放37kWh入門小電池車型（起價€24,995，較先發的52kWh車型€33,795更親民）。動力涵蓋85kW/99kW（37kWh LFP，續航329km）與155kW/166kW（52kWh NMC，續航454km，23分鐘10→80%快充）兩線規格，顯示平價電動小車在歐洲市場需求強勁。
+
+- 參見：[[sources/ev-news-2026-07-25-27-digitimes]] | [[concepts/平價電動車市場]] | [[countries/歐洲]]
 
 ## Related
 - [[entities/BMW]]

@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [tesla-ass-nhtsa-probe-closed, tesla-taiwan-march-2026, xiaomi-ev-europe-2027, tesla-4680-musk-strategy, tesla-korea-q1-2026, tesla-q1-2026-earnings, tesla-india-model-y-l, 駐外新聞-美國-2025, ev-news-2026-07-02, ev-news-2026-07-03-08, ev-news-2026-07-09, ev-news-2026-07-10-insideevs-batch, ev-news-2026-07-11, ev-news-2026-07-12-13-digest, ev-news-2026-07-12-13-electrive, ev-news-2026-07-13-digitimes, ev-news-2026-07-14-16-insideevs, ev-news-2026-07-14-16-digitimes, ev-news-2026-07-21-22-digitimes, ev-news-2026-07-20-21-electrive-en, ev-news-2026-07-22-24-digitimes, ev-news-2026-07-22-23-electrive-en]
-updated: 2026-07-24
+sources: [tesla-ass-nhtsa-probe-closed, tesla-taiwan-march-2026, xiaomi-ev-europe-2027, tesla-4680-musk-strategy, tesla-korea-q1-2026, tesla-q1-2026-earnings, tesla-india-model-y-l, 駐外新聞-美國-2025, ev-news-2026-07-02, ev-news-2026-07-03-08, ev-news-2026-07-09, ev-news-2026-07-10-insideevs-batch, ev-news-2026-07-11, ev-news-2026-07-12-13-digest, ev-news-2026-07-12-13-electrive, ev-news-2026-07-13-digitimes, ev-news-2026-07-14-16-insideevs, ev-news-2026-07-14-16-digitimes, ev-news-2026-07-21-22-digitimes, ev-news-2026-07-20-21-electrive-en, ev-news-2026-07-22-24-digitimes, ev-news-2026-07-22-23-electrive-en, ev-news-2026-07-25-27-digitimes]
+updated: 2026-07-27
 ---
 
 # Tesla
@@ -321,6 +321,15 @@ Tesla將在德國Grünheide廠讓部分員工配戴背包式攝影機記錄組�
 Tesla在加州Bloomington開設首座全規模公共Semi兆瓦充電站，6個充電位、每位最高1.2MW，支援新MC2接頭（30分鐘充至60%）。此前一座較小規模站（2位、第一代MC1接頭、最高750kW）原被視為首座公共Megacharger站。Tesla目標北美至少64個據點，未來或擴展加拿大。
 
 - 參見：[[sources/ev-news-2026-07-22-23-electrive-en]] | [[concepts/充電基礎建設]] | [[concepts/電動卡車市場]]
+
+## 股價單週重挫18%：市場質疑250億資本支出回報時程（2026-07）
+
+> **結論**：Tesla Q2財報後股價單週重挫18%（約330美元跌至313美元附近），市場並非質疑營收（優於預期），而是質疑EPS疲弱+資本支出加碼（250億美元）的燒錢速度能否被Robotaxi/FSD商業化進度跟上。
+
+- 三項後續觀察指標：Q3 EPS指引是否回到0.45美元以上、下半年單季資本支出是否破150億美元、Robotaxi德州商業運營是否於Q3前提供具體收費數據（從「故事」變「生意」）
+- 台灣供應鏈影響：充電樁、車用電子、電池芯相關廠商訂單能見度是否隨資本支出擴張同步延長，是觀察拉貨動能的關鍵指標
+
+- 參見：[[sources/ev-news-2026-07-25-27-digitimes]] | [[countries/台灣]]
 
 ## Related
 - [[entities/NHTSA]]

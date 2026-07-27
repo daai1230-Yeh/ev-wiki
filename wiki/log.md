@@ -1828,3 +1828,35 @@ Pages 375 → 406，Sources 315 → 346
 
 ### Index 更新
 - Sources: 407 → 409（新增 2 個批次 source 頁）
+
+## [2026-07-27] ingest | ev-news-2026-07-24-27 兩批次（digitimes 11篇 + electrive等英文 9篇，共約 20 篇）
+
+- Summary pages: [[sources/ev-news-2026-07-25-27-digitimes]]、[[sources/ev-news-2026-07-24-27-electrive-en]]
+- Raw assets: raw/assets/2026-07-24~27 各檔案（Digitimes、Google Alerts、electrive、Motoroids、JUKSY、Car1.hk、CMoney、自由時報）
+- 所有 source 頁均含原文網址（inline hyperlink）；已排除 3 組重複剪輯：Volkswagen JSW印度股權談判（與07-21批次同篇報導）、Kia Syros EV（英文/中文版同一上市新聞，合併引用）、Bajaj Auto電動機車FY28（與07-21批次同一則法說會消息，本次補充Q1財報數據後合併呈現）
+- 內容主軸：GM中國逆勢連7季獲利、德系BBA豪華車中國降價承壓、現代/起亞Q2財報「營收漲獲利跌」、LGES×GM重啟美國Ultium電池廠（EV需求斷層提前結束跡象）、極氪海外自駕鎖車爭議、泰國擬提高EV國產化要求、Tesla股價單週重挫18%、福特×吉利西班牙Valencia合資、福斯ID.Polo歐洲接單2.5萬張、西班牙Auto+補貼方案、BMW英國補貼/墨西哥產能、桃機自駕電巴轉包爭議、豐田×Uber歐洲電氣化車隊、起亞Syros EV印度上市
+
+### Concepts 更新（1 頁）
+- [[concepts/平價電動車市場]] — +福斯ID.Polo歐洲接單2.5萬張
+
+### Countries 更新（6 頁）
+- [[countries/中國]] — +GM連7季獲利、+BBA降價承壓、+極氪鎖車爭議
+- [[countries/韓國]] — +現代/起亞Q2財報、+LGES重啟Ultium
+- [[countries/台灣]] — +桃機自駕電巴轉包爭議、+Tesla股價牽動供應鏈
+- [[countries/東南亞]] — +泰國擬提高EV國產化要求
+- [[countries/歐洲]] — +福特×吉利西班牙合資、+西班牙Auto+補貼、+福斯ID.Polo熱銷
+- [[countries/印度]] — +起亞Syros EV上市
+
+### Entities 更新（8 頁）
+- [[entities/通用汽車]] — +中國連7季獲利策略
+- [[entities/起亞]] — +Q2財報、+Syros EV印度
+- [[entities/現代汽車]] — +Q2財報
+- [[entities/Volkswagen]] — +ID.Polo歐洲熱銷
+- [[entities/BMW]] — +英國ECG補貼、+墨西哥產能
+- [[entities/福特]] — +吉利西班牙合資
+- [[entities/吉利汽車]] — +福特西班牙合資、+極氪鎖車爭議
+- [[entities/LGES]] — +重啟Ultium電池廠
+- [[entities/Tesla]] — +股價重挫18%解讀
+
+### Index 更新
+- Sources: 409 → 411（新增 2 個批次 source 頁）
