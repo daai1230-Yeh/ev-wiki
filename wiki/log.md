@@ -1860,3 +1860,43 @@ Pages 375 → 406，Sources 315 → 346
 
 ### Index 更新
 - Sources: 409 → 411（新增 2 個批次 source 頁）
+
+## [2026-07-28] ingest | ev-news-2026-07-21-28 三批次（digitimes 6篇 + electrive等英文19篇 + Sustainable Bus 9篇，共約34篇）
+
+- Summary pages: [[sources/ev-news-2026-07-28-digitimes]]、[[sources/ev-news-2026-07-24-28-electrive-en]]、[[sources/ev-news-2026-07-21-28-sustainablebus]]
+- Raw assets: raw/assets/2026-07-21~28 各檔案（Digitimes、Google Alerts、electrive、InsideEVs、ETAuto、Sustainable Bus、Automotive World）
+- 所有 source 頁均含原文網址（inline hyperlink）；已排除 7 篇重複剪輯：BMW iX1/iX2 UK ECG、BMW i3/iX3 Mexico、Ford-Geely Valencia合資、Spain Auto+補貼、Peugeot E-208 GTi UK開賣、ID.Polo入門版€24,995（皆與07-24-27批次同篇報導）、寮國禁售燃油車英文版（與先前中文版「寮國/老撾6月起禁止進口燃油小客車」同篇報導）
+- 內容主軸：Tesla AI資本支出「與Big Tech反向脫節」惹議（Q2執行僅83億/250億目標）、寧德時代1H26獲利+42%（儲能業務+88%成第二引擎）、日本Tier IV正式掛牌（開源自駕平台）、歐洲中大型SUV市場中系車衝25%市佔、車用晶片2Q26需求意外回溫、保時捷裁員9,000人、BMW美國南卡州電池自製、Denza Z9 GT英國定價、現代/起亞V2X整合品牌AllDayEnergy、Schwarz集團暫停EV公司車、印度EV出口暴增14倍（Maruti/Tata/Mahindra）、Rivian R2 EPA效率存疑、Aurora第二代無人卡車、澳洲巴士博覽會（中國Sunwin叩關/Wrightbus進軍/Volgren第500輛）、波蘭GZM電動巴士交付、義大利熱那亞無軌電車投運、鋰金屬電池新老化機制研究、國軒摩洛哥電池廠、泰國7.14億美元EV補貼、極氪海外鎖車爭議延燒
+
+### Concepts 更新（7 頁）
+- [[concepts/電動巴士市場]] — +澳洲巴士博覽會中系Sunwin叩關、+MAN/GZM/熱那亞無軌電車
+- [[concepts/電池技術路線]] — +鋰滲入銅集電體老化機制、+BMW美國電池自製、+國軒摩洛哥廠
+- [[concepts/儲能市場]] — +寧德時代1H26儲能營收+88%
+- [[concepts/Robotaxi自動計程車]] — +日本Tier IV掛牌
+- [[concepts/車用半導體供應鏈]] — +車用晶片2Q26需求回溫
+- [[concepts/充電基礎建設]] — +現代/起亞AllDayEnergy品牌、+澳洲智慧電網補助
+- [[concepts/電動卡車市場]] — +Aurora第二代無人卡車、+蘇格蘭貨運技能基金
+
+### Countries 更新（11 頁）
+- [[countries/中國]] — +智己直營店縮編、+寧德時代儲能撐盤
+- [[countries/韓國]] — +Volvo ES90韓國上市
+- [[countries/日本]] — +Tier IV正式掛牌
+- [[countries/台灣]] — +車用晶片需求回溫
+- [[countries/德國]] — +保時捷裁員9,000人、+Schwarz集團暫停EV公司車
+- [[countries/歐洲]] — +中大型SUV中系市佔25%、+Denza英國定價、+國軒摩洛哥廠、+波蘭/熱那亞巴士
+- [[countries/東南亞]] — +泰國7.14億美元EV補貼
+- [[countries/印度]] — +EV出口暴增14倍
+- [[countries/澳洲]] — +智慧電網補助、+巴士博覽會中系叩關
+- [[countries/美國]] — +BMW南卡電池自製、+Aurora無人卡車、+Rivian R2效率存疑
+- [[countries/英國]] — +Denza定價、+Wrightbus威爾斯訂單
+
+### Entities 更新（8 頁）
+- [[entities/Tesla]] — +AI資本支出反向脫節分析
+- [[entities/寧德時代]] — +1H26獲利+42%
+- [[entities/比亞迪]] — +Denza Z9 GT英國定價
+- [[entities/現代汽車]] — +AllDayEnergy品牌
+- [[entities/Volkswagen]] — +保時捷裁員9,000人
+- [[entities/Rivian]] — +R2 EPA效率存疑
+
+### Index 更新
+- Sources: 411 → 414（新增 3 個批次 source 頁）

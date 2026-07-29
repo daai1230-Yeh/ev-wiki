@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [tesla-ass-nhtsa-probe-closed, tesla-taiwan-march-2026, xiaomi-ev-europe-2027, tesla-4680-musk-strategy, tesla-korea-q1-2026, tesla-q1-2026-earnings, tesla-india-model-y-l, 駐外新聞-美國-2025, ev-news-2026-07-02, ev-news-2026-07-03-08, ev-news-2026-07-09, ev-news-2026-07-10-insideevs-batch, ev-news-2026-07-11, ev-news-2026-07-12-13-digest, ev-news-2026-07-12-13-electrive, ev-news-2026-07-13-digitimes, ev-news-2026-07-14-16-insideevs, ev-news-2026-07-14-16-digitimes, ev-news-2026-07-21-22-digitimes, ev-news-2026-07-20-21-electrive-en, ev-news-2026-07-22-24-digitimes, ev-news-2026-07-22-23-electrive-en, ev-news-2026-07-25-27-digitimes]
-updated: 2026-07-27
+sources: [tesla-ass-nhtsa-probe-closed, tesla-taiwan-march-2026, xiaomi-ev-europe-2027, tesla-4680-musk-strategy, tesla-korea-q1-2026, tesla-q1-2026-earnings, tesla-india-model-y-l, 駐外新聞-美國-2025, ev-news-2026-07-02, ev-news-2026-07-03-08, ev-news-2026-07-09, ev-news-2026-07-10-insideevs-batch, ev-news-2026-07-11, ev-news-2026-07-12-13-digest, ev-news-2026-07-12-13-electrive, ev-news-2026-07-13-digitimes, ev-news-2026-07-14-16-insideevs, ev-news-2026-07-14-16-digitimes, ev-news-2026-07-21-22-digitimes, ev-news-2026-07-20-21-electrive-en, ev-news-2026-07-22-24-digitimes, ev-news-2026-07-22-23-electrive-en, ev-news-2026-07-25-27-digitimes, ev-news-2026-07-28-digitimes]
+updated: 2026-07-28
 ---
 
 # Tesla
@@ -330,6 +330,20 @@ Tesla在加州Bloomington開設首座全規模公共Semi兆瓦充電站，6個�
 - 台灣供應鏈影響：充電樁、車用電子、電池芯相關廠商訂單能見度是否隨資本支出擴張同步延長，是觀察拉貨動能的關鍵指標
 
 - 參見：[[sources/ev-news-2026-07-25-27-digitimes]] | [[countries/台灣]]
+
+## AI資本支出「與Big Tech反向脫節」：250億美元執行進度落後（2026-07）
+
+> **結論**：相較Alphabet、Amazon、Meta、微軟2026資本支出預測合計7,250億美元，Tesla原定250億美元已顯保守，但上半兩季實際僅執行83億美元，市場質疑「支出過少不可能實現目標」——沒有支出就沒有成長。
+
+**主因**：
+- 汽車業務獲利擠壓：每輛車平均營收由Q1的45,345美元降至42,730美元，監管積分收入年減約三分之二至1.46億美元，汽車毛利率僅16.3%（低於預期18.04%）
+- 資本支出加速但仍落後：Q2資本支出增至58億美元（去年同期及Q1的2倍以上），推動自由現金流轉負11億美元（兩年多來首見），2026全年計畫超過250億美元（近2025年3倍），但執行進度（上半年僅83億美元）與目標仍有落差
+- 成長支柱：FSD訂閱150萬戶（+56%）、能源儲存部署Q2達13.5GWh（Q1為8.8GWh）、平價車型策略（簡配版Model 3/Y、六座版Model Y）
+- SpaceX 6月上市加劇執行壓力：外界認為公開上市的SpaceX迫使Tesla必須拿出真實交付物與更緊湊時間表，若無法在機器人/Robotaxi展現執行力，市場將不再對延遲保持耐心
+
+**觀察**：Tesla是否加快資本支出執行速度以追上250億美元目標；Robotaxi/FSD能否在下半年轉化為可衡量營收。
+
+- 參見：[[sources/ev-news-2026-07-28-digitimes]] | [[concepts/人形機器人]] | [[concepts/Robotaxi自動計程車]]
 
 ## Related
 - [[entities/NHTSA]]

@@ -1,6 +1,6 @@
 # Wiki Index
 
-Last updated: 2026-07-27 | Pages: 485 | Sources: 411
+Last updated: 2026-07-28 | Pages: 485 | Sources: 414
 
 ---
 
@@ -303,6 +303,9 @@ Last updated: 2026-07-27 | Pages: 485 | Sources: 411
 - [[sources/ev-news-2026-07-22-23-electrive-en]] — electrive/InsideEVs/ETAuto英文批次35篇：Tesla Q2交車創高、VW L3自駕中國2027、保時捷新產線負責人/EV延後、CALB電池品質爭議、中國Robotaxi牌照重啟、參議院法案波及賓士、Mahle重卡增程系統、多起充電/卡車部署案例。(2026-07-24)
 - [[sources/ev-news-2026-07-25-27-digitimes]] — Digitimes/中文批次11篇：GM中國連7季獲利、BBA豪華車降價承壓、現代/起亞Q2營收漲獲利跌、LGES重啟Ultium電池廠、極氪海外鎖車爭議、泰國擬提高EV國產化、Tesla股價重挫18%、福斯ID.Polo熱銷、桃機自駕電巴轉包爭議、豐田×Uber歐洲車隊、起亞Syros EV印度。(2026-07-27)
 - [[sources/ev-news-2026-07-24-27-electrive-en]] — electrive等英文批次9篇：BMW英國補貼/墨西哥產能、福特×吉利西班牙合資、Kia Syros EV印度、Peugeot E-208 GTi英國開賣、西班牙Auto+補貼、Bajaj Auto電動機車財報。(2026-07-27)
+- [[sources/ev-news-2026-07-28-digitimes]] — Digitimes/中文批次6篇：Tesla AI資本支出反向脫節、寧德時代1H26獲利+42%、日本Tier IV IPO、歐洲中大型SUV中系市佔25%、車用晶片2Q26需求回溫、Google Alerts彙整。(2026-07-28)
+- [[sources/ev-news-2026-07-24-28-electrive-en]] — electrive/InsideEVs/ETAuto英文批次19篇：保時捷裁員9,000人、BMW美國電池自製、Denza Z9 GT英國定價、現代/起亞AllDayEnergy品牌、Schwarz集團暫停EV公司車、印度EV出口暴增14倍、混合動力航空器測試。(2026-07-28)
+- [[sources/ev-news-2026-07-21-28-sustainablebus]] — Sustainable Bus電動巴士專題批次9篇：波蘭GZM 73輛巴士、Driventic新電驅系統、MAN上半年銷售、義大利熱那亞無軌電車、澳洲巴士博覽會（中國Sunwin/Wrightbus/Volgren）、威爾斯Wrightbus雙層巴士。(2026-07-28)
 
 ### 駐外新聞批量摘要
 - [[sources/駐外新聞-美國-2025]] — 2025 全年 83 篇；川普 EV 補貼削減/25% 汽車關稅/CAFE 放寬、底特律倒退、BESS 轉型、Tesla 去中國化供應鏈、氫能卡車崩潰。(2026-06-22)

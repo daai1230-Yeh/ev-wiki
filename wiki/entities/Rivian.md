@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [rivian-r2-range-specs, rivian-service-network-2026, rivian-lidar-china-partner-2026, ev-news-2026-07-03-08]
-updated: 2026-07-10
+sources: [rivian-r2-range-specs, rivian-service-network-2026, rivian-lidar-china-partner-2026, ev-news-2026-07-03-08, ev-news-2026-07-24-28-electrive-en]
+updated: 2026-07-28
 ---
 
 # Rivian
@@ -97,6 +97,12 @@ updated: 2026-07-10
 **觀察**：R2 毛利率何時轉正（Q3/Q4 財報）；R2 歐洲出口啟動時點（Rivian 首款外銷車型）。
 
 - 參見：[[sources/ev-news-2026-07-03-08]] | [[countries/美國]]
+
+## R2 EPA效率評級存疑：實測落後Model Y達18~26%（2026-07）
+
+R2性能版與Tesla Model Y性能版帳面EPA效率評級完全相同（均105 MPGe），但第三方實測顯示R2在50-80mph各速域均多耗能18.4%~26.5%，低速走停測試多耗約25%。R2設計偏越野取向（離地間隙更高、可機械斷開前電機切純後驅模式），並非效率差，但兩車評級數字相同卻實測差距懸殊，測試者質疑可能是EPA測試流程與修正係數不同所致（R2走完整五循環測試，Model Y數據疑似來自較短測試+修正係數）。
+
+- 參見：[[sources/ev-news-2026-07-24-28-electrive-en]] | [[entities/Tesla]]
 
 ## Related
 - [[entities/Tesla]]

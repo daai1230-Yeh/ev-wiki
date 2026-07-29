@@ -1,7 +1,7 @@
 ---
 tags: [concept]
-sources: [robotaxi-market-2026, china-autonomous-driving-overseas, europe-robotaxi-verne-ponyai, waymo-miami-orlando-expansion, taiwan-av-special-scenes, japan-2030-autonomous-ai-strategy, ratp-karsan-autonomous-bus-paris, av-physical-ai-trends-2026, tesla-fsd-eu-expansion-2026, tesla-robotaxi-texas-reality-2026, uber-robotaxi-europe-expansion-2026, waymo-battery-secondlife-colorado-recycling-2026, toyota-tier-iv-l4-investment-2026, waymo-arizona-expansion-2026, tesla-cybercab-specs-2026, mobileye-robotaxi-2026, tesla-fsd-netherlands-2026, ev-news-2026-06-22, ev-news-2026-07-13-digitimes, ev-news-2026-07-14-16-electrive, ev-news-2026-07-21-22-digitimes, ev-news-2026-07-22-24-digitimes, ev-news-2026-07-22-23-electrive-en]
-updated: 2026-07-24
+sources: [robotaxi-market-2026, china-autonomous-driving-overseas, europe-robotaxi-verne-ponyai, waymo-miami-orlando-expansion, taiwan-av-special-scenes, japan-2030-autonomous-ai-strategy, ratp-karsan-autonomous-bus-paris, av-physical-ai-trends-2026, tesla-fsd-eu-expansion-2026, tesla-robotaxi-texas-reality-2026, uber-robotaxi-europe-expansion-2026, waymo-battery-secondlife-colorado-recycling-2026, toyota-tier-iv-l4-investment-2026, waymo-arizona-expansion-2026, tesla-cybercab-specs-2026, mobileye-robotaxi-2026, tesla-fsd-netherlands-2026, ev-news-2026-06-22, ev-news-2026-07-13-digitimes, ev-news-2026-07-14-16-electrive, ev-news-2026-07-21-22-digitimes, ev-news-2026-07-22-24-digitimes, ev-news-2026-07-22-23-electrive-en, ev-news-2026-07-28-digitimes]
+updated: 2026-07-28
 ---
 
 # Robotaxi（自動計程車）
@@ -330,6 +330,18 @@ Mobileye 宣布成立垂直整合 Robotaxi 部門，從技術供應商轉型為�
 **觀察**：中國其他城市牌照重啟時程；Mobileye 2027年美國Robotaxi具體城市與規模。
 
 - 參見：[[sources/ev-news-2026-07-22-23-electrive-en]] | [[sources/ev-news-2026-07-22-24-digitimes]] | [[countries/中國]]
+
+## 日本Tier IV正式掛牌：開源自駕平台迎商業化考驗（2026-07）
+
+> **結論**：日本自駕新創Tier IV於7月22日在東京證交所掛牌，社長加藤真平表示上市目的在籌資加速開源自駕生態圈發展，惟上市首日股價低於市場預期，公司尚未轉虧為盈。
+
+- 開源策略邏輯：海外成熟自駕系統多採封閉式架構，Tier IV參照PC/智慧型手機發展經驗，押注開源自駕OS及軟硬體生態系具備後發先至潛力
+- 技術與應用落差：加藤真平指出若將自駕技術發展分10階段，L4/L5全自動駕駛研發已近終點（第10階段），但實際應用僅推進至約第5階段，主因是法規發展落後於技術成熟度，而非技術本身不足
+- 合作生態：豐田、山葉、Sony、KDDI、JR東海、大成建設、SOMPO等跨產業日本大廠均為Tier IV合作方，顯示開源平台已建立一定產業採用基礎，是上市籌資的信心來源
+
+**觀察**：Tier IV股價後續表現能否反映開源策略的長期價值；是否有更多國際合作夥伴加入生態系。
+
+- 參見：[[sources/ev-news-2026-07-28-digitimes]] | [[countries/日本]]
 
 ## Related
 - [[concepts/ADAS智駕系統]]
