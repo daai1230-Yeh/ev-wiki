@@ -1,7 +1,7 @@
 ---
 tags: [concept]
-sources: [robotaxi-market-2026, china-autonomous-driving-overseas, europe-robotaxi-verne-ponyai, waymo-miami-orlando-expansion, taiwan-av-special-scenes, japan-2030-autonomous-ai-strategy, ratp-karsan-autonomous-bus-paris, av-physical-ai-trends-2026, tesla-fsd-eu-expansion-2026, tesla-robotaxi-texas-reality-2026, uber-robotaxi-europe-expansion-2026, waymo-battery-secondlife-colorado-recycling-2026, toyota-tier-iv-l4-investment-2026, waymo-arizona-expansion-2026, tesla-cybercab-specs-2026, mobileye-robotaxi-2026, tesla-fsd-netherlands-2026, ev-news-2026-06-22, ev-news-2026-07-13-digitimes, ev-news-2026-07-14-16-electrive, ev-news-2026-07-21-22-digitimes, ev-news-2026-07-22-24-digitimes, ev-news-2026-07-22-23-electrive-en, ev-news-2026-07-28-digitimes]
-updated: 2026-07-28
+sources: [robotaxi-market-2026, china-autonomous-driving-overseas, europe-robotaxi-verne-ponyai, waymo-miami-orlando-expansion, taiwan-av-special-scenes, japan-2030-autonomous-ai-strategy, ratp-karsan-autonomous-bus-paris, av-physical-ai-trends-2026, tesla-fsd-eu-expansion-2026, tesla-robotaxi-texas-reality-2026, uber-robotaxi-europe-expansion-2026, waymo-battery-secondlife-colorado-recycling-2026, toyota-tier-iv-l4-investment-2026, waymo-arizona-expansion-2026, tesla-cybercab-specs-2026, mobileye-robotaxi-2026, tesla-fsd-netherlands-2026, ev-news-2026-06-22, ev-news-2026-07-13-digitimes, ev-news-2026-07-14-16-electrive, ev-news-2026-07-21-22-digitimes, ev-news-2026-07-22-24-digitimes, ev-news-2026-07-22-23-electrive-en, ev-news-2026-07-28-digitimes, ev-news-2026-07-28-30-electrive-en]
+updated: 2026-07-30
 ---
 
 # Robotaxi（自動計程車）
@@ -342,6 +342,18 @@ Mobileye 宣布成立垂直整合 Robotaxi 部門，從技術供應商轉型為�
 **觀察**：Tier IV股價後續表現能否反映開源策略的長期價值；是否有更多國際合作夥伴加入生態系。
 
 - 參見：[[sources/ev-news-2026-07-28-digitimes]] | [[countries/日本]]
+
+## Zoox獲美國首張無方向盤Robotaxi商轉許可（2026-07）
+
+> **結論**：NHTSA授予Amazon旗下Zoox臨時豁免，允許每年商業部署最多2,500輛無方向盤/踏板自駕計程車，是美國首次核准此類專用車型收費商轉，先於Tesla Cybercab取得同等監管地位。
+
+- 差異化定位：相較Waymo改裝Jaguar I-Pace、Tesla依賴Model Y，Zoox車輛為加州自製、雙向對座專用自駕座艙；此前已在拉斯維加斯、舊金山提供免費試乘，8月起拉斯維加斯率先開始收費
+- 監管路徑意義：Tesla若要推出無方向盤/踏板Cybercab需取得相同豁免；已停業的GM旗下Cruise曾為其Origin接駁車申請此類豁免但從未獲准，顯示此門檻並非人人可跨過
+- 配套政策：NHTSA同步發布過渡期最終規則（豁免前製造車輛可納入商轉資格）、簡化豁免申請流程，並與SAE產業聯盟出資三年期計畫制定全國統一自駕標準（因應現行州級法規碎片化問題）
+
+**觀察**：Zoox在加州（需另取得DMV及公用事業委員會核准）的收費服務啟動時程；Tesla Cybercab是否跟進申請同類豁免。
+
+- 參見：[[sources/ev-news-2026-07-28-30-electrive-en]] | [[entities/Tesla]] | [[countries/美國]]
 
 ## Related
 - [[concepts/ADAS智駕系統]]

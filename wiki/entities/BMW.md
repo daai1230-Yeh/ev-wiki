@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [lges-bmw-46series-order, ev-news-2026-06-30-07-01, ev-news-2026-07-10-electrive-batch, ev-news-2026-07-12-13-electrive, ev-news-2026-07-24-27-electrive-en]
-updated: 2026-07-27
+sources: [lges-bmw-46series-order, ev-news-2026-06-30-07-01, ev-news-2026-07-10-electrive-batch, ev-news-2026-07-12-13-electrive, ev-news-2026-07-24-27-electrive-en, ev-news-2026-07-29-31-digitimes, ev-news-2026-07-28-30-electrive-en]
+updated: 2026-07-31
 ---
 
 # BMW（寶馬）
@@ -118,3 +118,16 @@ BMW 旗艦電動 SUV 全球首映，進入新能量密度區間：
 BMW調降英國iX1/iX2售價使其符合£3,750電動車補貼（ECG）最高級距，成為首個達此門檻的德系豪華品牌；補貼後iX1 eDrive20 Sport起價£33,315，甚至低於同級燃油版X1。同時確認墨西哥San Luis Potosí廠將自2027年生產Neue Klasse i3與iX3並配建第六代高壓電池組裝中心（總投資€8億），為BMW全球四座Neue Klasse生產基地之一（另含匈牙利Debrecen、德國慕尼黑、中國瀋陽）。
 
 - 參見：[[sources/ev-news-2026-07-24-27-electrive-en]] | [[countries/英國]]
+
+## 兩階段化解FEOC供應風險；中國長軸版iX5亮相（2026-07）
+
+> **結論**：BMW南卡州Woodruff電池廠透過「全球調撥電芯→在地供應」兩階段策略，成功化解電芯供應商遠景動力（AESC）因FEOC爭議一度暫停美國建廠帶來的斷料風險，同期為中國市場推出加長13公分軸距的專屬iX5版本，展現「全球製造彈性」與「在地產品客製化」雙軌並進。
+
+**主因**：
+- FEOC風險化解：遠景動力具「日系技術、中資控股」背景，美國新廠曾因設備關稅、IRA合規不確定性及FEOC爭議於2025年宣布暫停；BMW第一階段由遠景動力日本、中國、歐洲廠跨國調撥第六代圓柱電芯供應Woodruff廠避免斷料，第二階段待美國廠建成後無縫轉為在地生產在地供應
+- Spartanburg廠地位：年產量約40萬輛、半數外銷全球120國，兼具製造與出口樞紐角色，分散對單一供應商/政策的依賴風險
+- 中國專屬iX5：軸距加長至3.165米（+13公分）因應後座空間需求，CLTC續航逾1,000公里（西方版WLTP 645-845公里），自駕輔助與Momenta合作採在地訓練端到端AI，2027年上市，技術上仍基於CLAR平台而非全新電動架構
+
+**觀察**：Woodruff廠2026年底量產進度是否如期；中國iX5與Momenta合作的自駕輔助表現能否對抗本土品牌。
+
+- 參見：[[sources/ev-news-2026-07-29-31-digitimes]] | [[sources/ev-news-2026-07-28-30-electrive-en]] | [[countries/美國]] | [[countries/中國]]

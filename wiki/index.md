@@ -1,6 +1,6 @@
 # Wiki Index
 
-Last updated: 2026-07-28 | Pages: 485 | Sources: 414
+Last updated: 2026-07-31 | Pages: 485 | Sources: 416
 
 ---
 
@@ -306,6 +306,8 @@ Last updated: 2026-07-28 | Pages: 485 | Sources: 414
 - [[sources/ev-news-2026-07-28-digitimes]] — Digitimes/中文批次6篇：Tesla AI資本支出反向脫節、寧德時代1H26獲利+42%、日本Tier IV IPO、歐洲中大型SUV中系市佔25%、車用晶片2Q26需求回溫、Google Alerts彙整。(2026-07-28)
 - [[sources/ev-news-2026-07-24-28-electrive-en]] — electrive/InsideEVs/ETAuto英文批次19篇：保時捷裁員9,000人、BMW美國電池自製、Denza Z9 GT英國定價、現代/起亞AllDayEnergy品牌、Schwarz集團暫停EV公司車、印度EV出口暴增14倍、混合動力航空器測試。(2026-07-28)
 - [[sources/ev-news-2026-07-21-28-sustainablebus]] — Sustainable Bus電動巴士專題批次9篇：波蘭GZM 73輛巴士、Driventic新電驅系統、MAN上半年銷售、義大利熱那亞無軌電車、澳洲巴士博覽會（中國Sunwin/Wrightbus/Volgren）、威爾斯Wrightbus雙層巴士。(2026-07-28)
+- [[sources/ev-news-2026-07-29-31-digitimes]] — Digitimes/中文批次15篇：BMW FEOC供應風險化解、小米崑崙增程系統、福斯改押PHEV關稅、比亞迪Racco叩關日本、豐田第五代接班、寧德時代Tier1躍居第三、中國「電池強勢整車承壓」、LGES/現代/三星電管電池布局、福特上修獲利、德里電動機車補貼近對折。(2026-07-31)
+- [[sources/ev-news-2026-07-28-30-electrive-en]] — electrive/InsideEVs英文批次16篇：保時捷官方確認裁員9,000人、Tesla累計產量破1,000萬輛、Zoox獲無方向盤Robotaxi商轉許可、BMW中國長軸iX5、賓士GLA全球首發、紅旗12C超充電池、Factorial攜手SK On固態電池、中國SuperPanther奧地利量產。(2026-07-30)
 
 ### 駐外新聞批量摘要
 - [[sources/駐外新聞-美國-2025]] — 2025 全年 83 篇；川普 EV 補貼削減/25% 汽車關稅/CAFE 放寬、底特律倒退、BESS 轉型、Tesla 去中國化供應鏈、氫能卡車崩潰。(2026-06-22)

@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [tesla-ass-nhtsa-probe-closed, tesla-taiwan-march-2026, xiaomi-ev-europe-2027, tesla-4680-musk-strategy, tesla-korea-q1-2026, tesla-q1-2026-earnings, tesla-india-model-y-l, 駐外新聞-美國-2025, ev-news-2026-07-02, ev-news-2026-07-03-08, ev-news-2026-07-09, ev-news-2026-07-10-insideevs-batch, ev-news-2026-07-11, ev-news-2026-07-12-13-digest, ev-news-2026-07-12-13-electrive, ev-news-2026-07-13-digitimes, ev-news-2026-07-14-16-insideevs, ev-news-2026-07-14-16-digitimes, ev-news-2026-07-21-22-digitimes, ev-news-2026-07-20-21-electrive-en, ev-news-2026-07-22-24-digitimes, ev-news-2026-07-22-23-electrive-en, ev-news-2026-07-25-27-digitimes, ev-news-2026-07-28-digitimes]
-updated: 2026-07-28
+sources: [tesla-ass-nhtsa-probe-closed, tesla-taiwan-march-2026, xiaomi-ev-europe-2027, tesla-4680-musk-strategy, tesla-korea-q1-2026, tesla-q1-2026-earnings, tesla-india-model-y-l, 駐外新聞-美國-2025, ev-news-2026-07-02, ev-news-2026-07-03-08, ev-news-2026-07-09, ev-news-2026-07-10-insideevs-batch, ev-news-2026-07-11, ev-news-2026-07-12-13-digest, ev-news-2026-07-12-13-electrive, ev-news-2026-07-13-digitimes, ev-news-2026-07-14-16-insideevs, ev-news-2026-07-14-16-digitimes, ev-news-2026-07-21-22-digitimes, ev-news-2026-07-20-21-electrive-en, ev-news-2026-07-22-24-digitimes, ev-news-2026-07-22-23-electrive-en, ev-news-2026-07-25-27-digitimes, ev-news-2026-07-28-digitimes, ev-news-2026-07-28-30-electrive-en]
+updated: 2026-07-30
 ---
 
 # Tesla
@@ -344,6 +344,12 @@ Tesla在加州Bloomington開設首座全規模公共Semi兆瓦充電站，6個�
 **觀察**：Tesla是否加快資本支出執行速度以追上250億美元目標；Robotaxi/FSD能否在下半年轉化為可衡量營收。
 
 - 參見：[[sources/ev-news-2026-07-28-digitimes]] | [[concepts/人形機器人]] | [[concepts/Robotaxi自動計程車]]
+
+## 累計產量突破1,000萬輛：距Musk薪酬方案里程碑僅過半（2026-07）
+
+Tesla本週在Fremont廠達成累計生產1,000萬輛電動車，自2020年達成第100萬輛以來僅費時6年，是全球首家達成八位數產量的專業電動車製造商（比亞迪2024年已達1,000萬輛新能源車銷量但含PHEV）。此數字也是Musk約1兆美元薪酬方案中2,000萬輛營運里程碑的一半，須達2,000萬輛才能解鎖該筆分期。惟近兩年成長明顯停滯：2023年交車創紀錄181萬輛後連兩年下滑，Cybertruck未達預期銷量、Robotaxi推展緩慢；Q2交車年增25%為正面訊號（歐洲高油價推升需求），美國本月推出加長版Model Y L，據報也在開發Bolt級距小型EV。汽車業務仍是資助AI/機器人/自駕投資的資金來源，維持投資需賣出遠超1,000萬輛的規模。
+
+- 參見：[[sources/ev-news-2026-07-28-30-electrive-en]] | [[concepts/人形機器人]]
 
 ## Related
 - [[entities/NHTSA]]

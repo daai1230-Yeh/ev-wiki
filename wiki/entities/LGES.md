@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [lges-loss-ess-2026, ira-supply-chain-compliance, us-ev-battery-demand-mismatch, lges-tesla-4680-supplier, lges-bmw-46series-order, ev-news-2026-07-03-08, ev-news-2026-07-10-supplement, ev-news-2026-07-12-13-electrive, ev-news-2026-07-14-16-digitimes, ev-news-2026-07-17-20-digitimes, ev-news-2026-07-25-27-digitimes]
-updated: 2026-07-27
+sources: [lges-loss-ess-2026, ira-supply-chain-compliance, us-ev-battery-demand-mismatch, lges-tesla-4680-supplier, lges-bmw-46series-order, ev-news-2026-07-03-08, ev-news-2026-07-10-supplement, ev-news-2026-07-12-13-electrive, ev-news-2026-07-14-16-digitimes, ev-news-2026-07-17-20-digitimes, ev-news-2026-07-25-27-digitimes, ev-news-2026-07-29-31-digitimes]
+updated: 2026-07-31
 ---
 
 # 樂金能源解決方案（LG Energy Solution，LGES）
@@ -129,3 +129,14 @@ updated: 2026-07-27
 - 復工節奏：先進行設備維護與產能爬坡，預計2026年Q4正式恢復大規模生產；同期田納西Ultium Cells 2號廠（已轉產ESS用LFP電池）約700名員工也已復職
 - 稼動率回升：LGES整體工廠稼動率預計由2026年Q1的46.9%於下半年提升至約60%，喬治亞現代合資廠亦已完工準備量產
 - 參見：[[sources/ev-news-2026-07-25-27-digitimes]] | [[entities/通用汽車]] | [[countries/美國]]
+
+## 繼Tesla後傳再奪本田方型電池訂單：美國基地擴至3處（2026-07）
+
+> **結論**：LGES傳取得本田作為方型電池新客戶（本田首度採用LGES方型電池），將於南韓梧倉廠試產驗證後移轉至美國俄亥俄州L-H Battery Company合資廠量產，使LGES美國方型電池生產基地擴增至3處（另含蘭辛廠Tesla ESS用電池、評估中的GM合資Ultium二廠）。
+
+- 背景轉折：俄亥俄廠原規劃全數由本田獨家採購電動車電池，但美國取消EV稅額抵減後需求趨緩，已將部分產線轉作ESS用途（第二代袋型JF2電芯已量產），未來也將生產HEV電池——反映車廠與電池廠合資廠正逐步從單一車型/客戶依賴轉向多元用途分散風險
+- 本田背景呼應：本田已中止3款北美EV開發案並停產Prologue，轉向HEV為重心，此次改採側面端子方型電池設計，業界推測仍可能用於電動車專案
+
+**觀察**：LGES方型電池搭載本田具體車款；美國第三處方型電池基地的產能規劃時程。
+
+- 參見：[[sources/ev-news-2026-07-29-31-digitimes]] | [[entities/本田]] | [[countries/韓國]] | [[countries/美國]]

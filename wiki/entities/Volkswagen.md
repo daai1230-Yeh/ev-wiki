@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [vw-restructure-china-offensive-2026, ev-news-2026-06-27-29-en, ev-news-2026-06-30-07-01, ev-news-2026-07-02, ev-news-2026-07-03-08, ev-news-2026-07-10-supplement, ev-news-2026-07-12-13-electrive, ev-news-2026-07-14-16-electrive, ev-news-2026-07-17-20-digitimes, ev-news-2026-07-20-21-electrive-en, ev-news-2026-07-22-23-electrive-en, ev-news-2026-07-25-27-digitimes, ev-news-2026-07-24-27-electrive-en, ev-news-2026-07-24-28-electrive-en]
-updated: 2026-07-28
+sources: [vw-restructure-china-offensive-2026, ev-news-2026-06-27-29-en, ev-news-2026-06-30-07-01, ev-news-2026-07-02, ev-news-2026-07-03-08, ev-news-2026-07-10-supplement, ev-news-2026-07-12-13-electrive, ev-news-2026-07-14-16-electrive, ev-news-2026-07-17-20-digitimes, ev-news-2026-07-20-21-electrive-en, ev-news-2026-07-22-23-electrive-en, ev-news-2026-07-25-27-digitimes, ev-news-2026-07-24-27-electrive-en, ev-news-2026-07-24-28-electrive-en, ev-news-2026-07-29-31-digitimes, ev-news-2026-07-28-30-electrive-en]
+updated: 2026-07-31
 ---
 
 # Volkswagen（福斯集團）
@@ -212,3 +212,28 @@ VW 正式評估將中國開發的 EREV 車型引入歐洲市場，以規避 EU B
 - [[sources/ev-news-2026-06-27-29-en]]
 - [[sources/ev-news-2026-06-30-07-01]]
 - [[sources/ev-news-2026-07-02]]
+
+## 改押PHEV關稅：3年立場逆轉的三大壓力（2026-07）
+
+> **結論**：福斯執行長Blume公開呼籲歐盟儘快對中國PHEV課稅，與2023年反對中國BEV反補貼調查的立場明顯逆轉，反映中國市場失利、中系PHEV歐洲市佔飆升、自身經營壓力三重擠壓。
+
+**主因**：
+- 中國市場失利：中國合資企業營業利益由2025全年10億歐元驟降至2026上半僅1.84億歐元，即使已關閉部分中國工廠仍未改善
+- 中系PHEV威脅：2026上半中系PHEV歐洲銷量20.8萬輛、市佔28.3%，比亞迪Seal U/Atto 2及奇瑞Jaecoo包辦銷量前三，福斯Tiguan（2025年冠軍）被擠至第四；中系品牌歐洲總銷量年增逾一倍、市佔由5%升至9.5%
+- 政策漏洞邏輯：PHEV長期被視為中國車廠規避BEV關稅的「後座力」出口（提高PHEV/ICE銷售比重降低BEV關稅衝擊），若歐盟對PHEV課稅即補強BEV關稅制度漏洞
+
+**策略**：福斯現採「歐洲設防、中國合縱」雙軌策略——支持PHEV關稅+加速「歐洲製造」，但不比照Stellantis、Ford開放歐洲工廠供中國車廠代工，同時持續在中國與本土車廠合作開發技術、由中國反哺全球布局。
+
+- 參見：[[sources/ev-news-2026-07-29-31-digitimes]] | [[countries/歐洲]] | [[entities/比亞迪]]
+
+## Gotion可能入股PowerCo西班牙電池廠（2026-07）
+
+福斯子公司PowerCo位於西班牙Sagunto（Gigafactory Valencia）興建中的電池廠，可能在完工前就與中國國軒高科成立合資——據報導雙方正就出售多數股權予國軒進行深度談判，福斯為國軒最大股東（持股約四分之一）。該廠戰略意義重大，將供應統一電芯予西班牙、葡萄牙車廠；專案同時面臨延誤（試量產延至2026年12月，員工招募僅50/500人到位）。PowerCo回應「無放棄控制權計畫」但未排除國軒參與可能性。
+
+- 參見：[[sources/ev-news-2026-07-28-30-electrive-en]] | [[countries/歐洲]]
+
+## 保時捷官方確認再裁5,000人：至2035年總計9,000職位（2026-07）
+
+保時捷正式宣布「Future Package」重組：至2035年在Zuffenhausen及Weissach廠再裁5,000職位（主要透過退休、自願離職），加計先前措施總計約9,000職位受影響。作為交換，管理層將兩廠員工雇用保證延長至2035年並承諾投資21億歐元；員工則同意薪資讓步（加薪3.5%扣留、聖誕獎金由100%降至60%月薪、遠端工作天數減少）。2026上半年保時捷營業利益率降至7.8%，中國銷量下滑、美國關稅及電動化投資未產生回報是主因。此協議可能影響福斯與奧迪並行中的重組談判。
+
+- 參見：[[sources/ev-news-2026-07-28-30-electrive-en]] | [[countries/德國]]

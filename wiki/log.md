@@ -1900,3 +1900,41 @@ Pages 375 → 406，Sources 315 → 346
 
 ### Index 更新
 - Sources: 411 → 414（新增 3 個批次 source 頁）
+
+## [2026-07-31] ingest | ev-news-2026-07-28-31 兩批次（digitimes 15篇 + electrive/InsideEVs 16篇，共約31篇）
+
+- Summary pages: [[sources/ev-news-2026-07-29-31-digitimes]]、[[sources/ev-news-2026-07-28-30-electrive-en]]
+- Raw assets: raw/assets/2026-07-28~31 各檔案（Digitimes、Google Alerts、electrive、InsideEVs）
+- 所有 source 頁均含原文網址（inline hyperlink）；已排除6組重複剪輯：BMW兩階段電芯布局、現代汽車首座電池廠、川普大讚GM（各以連字號/無連字號兩版本重複剪輯）、Big Tech/儲能成第二/Tier IV IPO三篇與07-28批次已收錄同篇文章重複、Mercedes GLA與Ferrari Luce各兩版本標題差異剪輯（取內容較完整版本）
+- 內容主軸：BMW兩階段化解遠景動力FEOC供應風險+中國長軸版iX5、小米崑崙增程系統客製化策略、福斯改押PHEV關稅3年立場逆轉、比亞迪Racco輕型電動車叩關日本K-Car、豐田第五代接班（豐田大輔重返母集團）+FCV戰略擴至歐洲（結盟戴姆勒/Volvo）、寧德時代Tier1排名躍居第三+「電池強勢整車承壓」產業結構分析、LGES再奪本田方型電池訂單、現代首座自產電池廠MAAC設備進駐、三星電管10月起美國轉產儲能電池、福特二度上修2026獲利展望、川普造訪GM底特律廠讚揚產線回流、保時捷官方確認再裁5,000人（總計9,000）、Tesla累計產量突破1,000萬輛、Zoox獲美國首張無方向盤Robotaxi商轉許可、賓士GLA全球首發、紅旗12C超快充電池、Factorial攜手SK On固態電池量產驗證、中國SuperPanther電動卡車奧地利量產、Gotion可能入股PowerCo西班牙電池廠、德里電動機車補貼近對折、泰國AAPICO警示日系車廠須與中國合作、MCS兆瓦充電深度分析
+
+### Concepts 更新（5 頁）
+- [[concepts/電池技術路線]] — +紅旗12C超充、+Factorial×SK On固態電池、+BMW FEOC化解
+- [[concepts/電動卡車市場]] — +MCS多元介面分析、+中國SuperPanther奧地利量產
+- [[concepts/Robotaxi自動計程車]] — +Zoox無方向盤商轉許可
+- [[concepts/儲能市場]] — +三星SDI/福特車用電池產線轉攻儲能
+
+### Countries 更新（8 頁）
+- [[countries/中國]] — +電池強勢整車承壓、+寧德時代Tier1躍居第三
+- [[countries/日本]] — +比亞迪Racco叩關K-Car、+豐田第五代接班+FCV歐洲結盟
+- [[countries/韓國]] — +LGES本田訂單、+現代MAAC電池廠、+三星SDI轉攻儲能
+- [[countries/美國]] — +川普讚GM回流、+Tesla破1,000萬輛、+Zoox商轉許可
+- [[countries/德國]] — +保時捷官方確認裁員9,000人、+福斯PHEV關稅逆轉、+賓士GLA首發
+- [[countries/歐洲]] — +國軒入股PowerCo西班牙、+SuperPanther奧地利、+Smart#1中國先發
+- [[countries/東南亞]] — +泰國AAPICO警示
+- [[countries/印度]] — +德里電動機車補貼近對折
+
+### Entities 更新（10 頁）
+- [[entities/BMW]] — +FEOC供應風險化解、+中國長軸iX5
+- [[entities/Volkswagen]] — +PHEV關稅立場逆轉、+Gotion入股談判、+保時捷裁員確認
+- [[entities/寧德時代]] — +Tier1躍居第三、+電池強勢整車承壓分析
+- [[entities/比亞迪]] — +Racco叩關日本K-Car
+- [[entities/現代汽車]] — +首座自產電池廠MAAC
+- [[entities/LGES]] — +再奪本田方型電池訂單
+- [[entities/Tesla]] — +累計產量破1,000萬輛
+- [[entities/福特]] — +二度上修獲利展望
+- [[entities/通用汽車]] — +川普讚產線回流
+- [[entities/豐田]] — +第五代接班布局、+FCV歐洲結盟
+
+### Index 更新
+- Sources: 414 → 416（新增 2 個批次 source 頁）
