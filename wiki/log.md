@@ -1938,3 +1938,13 @@ Pages 375 → 406，Sources 315 → 346
 
 ### Index 更新
 - Sources: 414 → 416（新增 2 個批次 source 頁）
+
+## [2026-08-03] ingest | ev-news-2026-08-01-03 兩批次（中文12篇＋英文17篇，共29篇；另2組重複檔未另計）
+- Summary pages: [[sources/ev-news-2026-08-01-03-cn]], [[sources/ev-news-2026-08-01-03-en]]
+- Raw assets: raw/assets/2026-08-03-*.md（31檔）＋ raw/assets/印尼HEV激勵新制（2024-12舊文補檔）
+- Pages updated (concepts): [[concepts/電池回收]], [[concepts/充電基礎建設]], [[concepts/Robotaxi自動計程車]], [[concepts/平價電動車市場]]
+- Countries updated: [[countries/中國]], [[countries/美國]], [[countries/印度]], [[countries/歐洲]], [[countries/英國]], [[countries/加拿大]], [[countries/東南亞]]
+- Entities updated: [[entities/Tesla]], [[entities/比亞迪]], [[entities/現代汽車]], [[entities/福特]]
+- New pages created: 無（僅2個批次source頁）
+- Key additions: 比亞迪7月41.9萬輛創高（海外43%、Szeged再延Q4、FBI蘭卡斯特調查）；中國廢止梯次利用（白名單156→48）；Tesla累計破千萬＋中國分拆傳聞＋NHTSA 120萬輛懸吊調查；PwC全球H1 BEV僅+9%（歐洲+33%獨強）；歐洲平價段開打（ID. Polo £23,945/Ioniq 3 €27,995）；Zoox獲首張purpose-built robotaxi商業豁免；印度7月創紀錄月＋EV出口14倍（Maruti占97%）；MCS兆瓦充電標準專題；台達電泰國第八廠
+- 備註: raw/assets 有2組重複檔（中國廢止退役電池、現代汽車挖角），source頁僅引用主檔

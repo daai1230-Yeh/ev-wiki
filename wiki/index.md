@@ -1,12 +1,14 @@
 # Wiki Index
 
-Last updated: 2026-07-31 | Pages: 485 | Sources: 416
+Last updated: 2026-08-03 | Pages: 487 | Sources: 418
 
 ---
 
 ## Sources（來源摘要）
 
 ### 電動乘用車
+- [[sources/ev-news-2026-08-01-03-cn]] — 中文批次12篇：比亞迪7月41.9萬創高（海外43%）、中國廢止梯次利用（白名單砍7成）、PwC全球EV放緩、NXP洽購Ambarella。(2026-08-03)
+- [[sources/ev-news-2026-08-01-03-en]] — 英文批次17篇：Tesla累計破千萬輛＋NHTSA懸吊調查、ID. Polo/Ioniq 3平價開戰、Zoox首張robotaxi商業豁免、印度創紀錄月＋EV出口14倍。(2026-08-03)
 - [[sources/xiaomi-eu-import-autohelden-2026]] — 小米對 Autohelden 提告阻止歐洲平行進口（GB/T 充電問題、品牌保護，官方 2027 才進歐洲）。(2026-06-17)
 - [[sources/kia-ev5-review-2026]] — Kia EV5 試駕：81.4kWh、503km WLTP、400V/150kW，均衡全面，Sportage 同級電動替代。(2026-06-18)
 - [[sources/mercedes-cla-review-2026]] — Mercedes CLA EV：85kWh、374英里、800V/320kW，駕駛佳但 AI 助手和使用細節仍有待打磨。(2026-06-17)

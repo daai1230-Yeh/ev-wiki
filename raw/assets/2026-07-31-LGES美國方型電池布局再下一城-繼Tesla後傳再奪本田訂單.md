@@ -1,23 +1,23 @@
 ---
 title: LGES美國方型電池布局再下一城　繼Tesla後傳再奪本田訂單
-author: 陳玟靜／綜合報導
+author: 陳玟靜
 date: 2026-07-31
-source: https://www.digitimes.com.tw/tech/dt/n/shwnws.asp?CnlID=&id=763327&grid_seq1=&grid_seq2=
+source: https://www.digitimes.com.tw/tech/dt/n/shwnws.asp?CnlID=&id=763327
 tags:
   - LGES
-  - 本田
-  - Tesla
-  - 電動車
   - 電池
-  - 方型電池
+  - Tesla
+  - 本田
+  - EV
+  - 電動車
   - Digitimes
   - 未來車供應鏈
-clipped: 2026-07-30
+clipped: 2026-08-03
 ---
 
 # LGES美國方型電池布局再下一城　繼Tesla後傳再奪本田訂單
 
-**作者**：陳玟靜／綜合報導　｜　**日期**：2026-07-31　｜　**來源**：[原文連結](https://www.digitimes.com.tw/tech/dt/n/shwnws.asp?CnlID=&id=763327&grid_seq1=&grid_seq2=)
+**作者**：陳玟靜　｜　**日期**：2026-07-31　｜　**來源**：[原文連結](https://www.digitimes.com.tw/tech/dt/n/shwnws.asp?CnlID=&id=763327)
 
 ---
 
@@ -45,4 +45,4 @@ clipped: 2026-07-30
 
 ---
 
-*來源：[DIGITIMES](https://www.digitimes.com.tw/tech/dt/n/shwnws.asp?CnlID=&id=763327&grid_seq1=&grid_seq2=)*
+*來源：[DIGITIMES](https://www.digitimes.com.tw/tech/dt/n/shwnws.asp?CnlID=&id=763327)*

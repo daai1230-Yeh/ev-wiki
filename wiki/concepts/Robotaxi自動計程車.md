@@ -1,7 +1,7 @@
 ---
 tags: [concept]
-sources: [robotaxi-market-2026, china-autonomous-driving-overseas, europe-robotaxi-verne-ponyai, waymo-miami-orlando-expansion, taiwan-av-special-scenes, japan-2030-autonomous-ai-strategy, ratp-karsan-autonomous-bus-paris, av-physical-ai-trends-2026, tesla-fsd-eu-expansion-2026, tesla-robotaxi-texas-reality-2026, uber-robotaxi-europe-expansion-2026, waymo-battery-secondlife-colorado-recycling-2026, toyota-tier-iv-l4-investment-2026, waymo-arizona-expansion-2026, tesla-cybercab-specs-2026, mobileye-robotaxi-2026, tesla-fsd-netherlands-2026, ev-news-2026-06-22, ev-news-2026-07-13-digitimes, ev-news-2026-07-14-16-electrive, ev-news-2026-07-21-22-digitimes, ev-news-2026-07-22-24-digitimes, ev-news-2026-07-22-23-electrive-en, ev-news-2026-07-28-digitimes, ev-news-2026-07-28-30-electrive-en]
-updated: 2026-07-30
+sources: [robotaxi-market-2026, china-autonomous-driving-overseas, europe-robotaxi-verne-ponyai, waymo-miami-orlando-expansion, taiwan-av-special-scenes, japan-2030-autonomous-ai-strategy, ratp-karsan-autonomous-bus-paris, av-physical-ai-trends-2026, tesla-fsd-eu-expansion-2026, tesla-robotaxi-texas-reality-2026, uber-robotaxi-europe-expansion-2026, waymo-battery-secondlife-colorado-recycling-2026, toyota-tier-iv-l4-investment-2026, waymo-arizona-expansion-2026, tesla-cybercab-specs-2026, mobileye-robotaxi-2026, tesla-fsd-netherlands-2026, ev-news-2026-06-22, ev-news-2026-07-13-digitimes, ev-news-2026-07-14-16-electrive, ev-news-2026-07-21-22-digitimes, ev-news-2026-07-22-24-digitimes, ev-news-2026-07-22-23-electrive-en, ev-news-2026-07-28-digitimes, ev-news-2026-07-28-30-electrive-en, ev-news-2026-08-01-03-en]
+updated: 2026-08-03
 ---
 
 # Robotaxi（自動計程車）
@@ -354,6 +354,19 @@ Mobileye 宣布成立垂直整合 Robotaxi 部門，從技術供應商轉型為�
 **觀察**：Zoox在加州（需另取得DMV及公用事業委員會核准）的收費服務啟動時程；Tesla Cybercab是否跟進申請同類豁免。
 
 - 參見：[[sources/ev-news-2026-07-28-30-electrive-en]] | [[entities/Tesla]] | [[countries/美國]]
+
+## Zoox 獲首張 purpose-built 商業豁免（2026-08）
+
+> **結論**：NHTSA 發出美國首張「無方向盤/踏板專用 robotaxi」商業收費豁免給 Zoox（限 2,500 輛/年×2 年），並同步啟動 AV 國家標準制定——美國 robotaxi 監管從個案測試走向制度化。
+
+**主因**：
+- Zoox 下月起於拉斯維加斯收費：免費階段已載客逾 50 萬人次、候補名單 50 萬人；定價料對標 Uber/Lyft
+- NHTSA 配套：與 SAE ITC 三年 500 萬美元制定統一安全標準、翻修 2017 年技術指引（緊急應變/遠端協助）——目標避免監管碎片化
+- 路線對照：Waymo 改裝量產車已規模化收費，Zoox 專用車路線首度取得商業收費資格——兩種架構正式並駕
+
+**觀察**：豁免額度使用速度；舊金山收費開放時程。
+
+- 參見：[[sources/ev-news-2026-08-01-03-en]] | [[entities/Zoox]] | [[entities/Waymo]]
 
 ## Related
 - [[concepts/ADAS智駕系統]]

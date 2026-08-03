@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [tesla-ass-nhtsa-probe-closed, tesla-taiwan-march-2026, xiaomi-ev-europe-2027, tesla-4680-musk-strategy, tesla-korea-q1-2026, tesla-q1-2026-earnings, tesla-india-model-y-l, 駐外新聞-美國-2025, ev-news-2026-07-02, ev-news-2026-07-03-08, ev-news-2026-07-09, ev-news-2026-07-10-insideevs-batch, ev-news-2026-07-11, ev-news-2026-07-12-13-digest, ev-news-2026-07-12-13-electrive, ev-news-2026-07-13-digitimes, ev-news-2026-07-14-16-insideevs, ev-news-2026-07-14-16-digitimes, ev-news-2026-07-21-22-digitimes, ev-news-2026-07-20-21-electrive-en, ev-news-2026-07-22-24-digitimes, ev-news-2026-07-22-23-electrive-en, ev-news-2026-07-25-27-digitimes, ev-news-2026-07-28-digitimes, ev-news-2026-07-28-30-electrive-en]
-updated: 2026-07-30
+sources: [tesla-ass-nhtsa-probe-closed, tesla-taiwan-march-2026, xiaomi-ev-europe-2027, tesla-4680-musk-strategy, tesla-korea-q1-2026, tesla-q1-2026-earnings, tesla-india-model-y-l, 駐外新聞-美國-2025, ev-news-2026-07-02, ev-news-2026-07-03-08, ev-news-2026-07-09, ev-news-2026-07-10-insideevs-batch, ev-news-2026-07-11, ev-news-2026-07-12-13-digest, ev-news-2026-07-12-13-electrive, ev-news-2026-07-13-digitimes, ev-news-2026-07-14-16-insideevs, ev-news-2026-07-14-16-digitimes, ev-news-2026-07-21-22-digitimes, ev-news-2026-07-20-21-electrive-en, ev-news-2026-07-22-24-digitimes, ev-news-2026-07-22-23-electrive-en, ev-news-2026-07-25-27-digitimes, ev-news-2026-07-28-digitimes, ev-news-2026-07-28-30-electrive-en, ev-news-2026-08-01-03-cn, ev-news-2026-08-01-03-en]
+updated: 2026-08-03
 ---
 
 # Tesla
@@ -350,6 +350,19 @@ Tesla在加州Bloomington開設首座全規模公共Semi兆瓦充電站，6個�
 Tesla本週在Fremont廠達成累計生產1,000萬輛電動車，自2020年達成第100萬輛以來僅費時6年，是全球首家達成八位數產量的專業電動車製造商（比亞迪2024年已達1,000萬輛新能源車銷量但含PHEV）。此數字也是Musk約1兆美元薪酬方案中2,000萬輛營運里程碑的一半，須達2,000萬輛才能解鎖該筆分期。惟近兩年成長明顯停滯：2023年交車創紀錄181萬輛後連兩年下滑，Cybertruck未達預期銷量、Robotaxi推展緩慢；Q2交車年增25%為正面訊號（歐洲高油價推升需求），美國本月推出加長版Model Y L，據報也在開發Bolt級距小型EV。汽車業務仍是資助AI/機器人/自駕投資的資金來源，維持投資需賣出遠超1,000萬輛的規模。
 
 - 參見：[[sources/ev-news-2026-07-28-30-electrive-en]] | [[concepts/人形機器人]]
+
+## 累計產量破千萬＋中國分拆傳聞＋懸吊調查（2026-08）
+
+> **結論**：累計產量破 1,000 萬輛、成首家達標的純電車廠，但同週面臨 WSJ 中國分拆報導與 NHTSA 120 萬輛懸吊調查——規模里程碑與地緣、品質風險並存。
+
+**主因**：
+- 第 1,000 萬輛（Model Y）於 Fremont 下線：2020 年春才破 100 萬、6 年成長十倍，上海/柏林/德州擴廠是主動力（2025 年銷量年減 9% 仍達標）
+- WSJ：為 SpaceX 合併預作切割中國準備（上海廠占 2025 年交付 52%、2026 H1 營收約 18%；SpaceX 軍事業務使中國曝險成合併障礙）；Musk 斥「荒謬假新聞」；分析師指逾 400 家本地供應商、分拆不具經濟可行性
+- NHTSA 初步調查 2018-20 Model 3／2021-23 Model Y 前懸吊下橫拉桿脫落（156 件投訴、約 120 萬輛）；FSD 低能見度事故調查亦已擴至 320 萬輛
+
+**觀察**：SpaceX 合併議程推進時分拆傳聞是否再起；懸吊案是否升級工程分析進而召回。
+
+- 參見：[[sources/ev-news-2026-08-01-03-en]] | [[sources/ev-news-2026-08-01-03-cn]] | [[entities/NHTSA]]
 
 ## Related
 - [[entities/NHTSA]]
