@@ -1,7 +1,7 @@
 ---
 tags: [concept]
-sources: [robotaxi-market-2026, china-autonomous-driving-overseas, europe-robotaxi-verne-ponyai, waymo-miami-orlando-expansion, taiwan-av-special-scenes, japan-2030-autonomous-ai-strategy, ratp-karsan-autonomous-bus-paris, av-physical-ai-trends-2026, tesla-fsd-eu-expansion-2026, tesla-robotaxi-texas-reality-2026, uber-robotaxi-europe-expansion-2026, waymo-battery-secondlife-colorado-recycling-2026, toyota-tier-iv-l4-investment-2026, waymo-arizona-expansion-2026, tesla-cybercab-specs-2026, mobileye-robotaxi-2026, tesla-fsd-netherlands-2026, ev-news-2026-06-22, ev-news-2026-07-13-digitimes, ev-news-2026-07-14-16-electrive, ev-news-2026-07-21-22-digitimes, ev-news-2026-07-22-24-digitimes, ev-news-2026-07-22-23-electrive-en, ev-news-2026-07-28-digitimes, ev-news-2026-07-28-30-electrive-en, ev-news-2026-08-01-03-en, ev-news-2026-08-04-06-digitimes, ev-news-2026-08-03-06-electrive-en]
-updated: 2026-08-06
+sources: [robotaxi-market-2026, china-autonomous-driving-overseas, europe-robotaxi-verne-ponyai, waymo-miami-orlando-expansion, taiwan-av-special-scenes, japan-2030-autonomous-ai-strategy, ratp-karsan-autonomous-bus-paris, av-physical-ai-trends-2026, tesla-fsd-eu-expansion-2026, tesla-robotaxi-texas-reality-2026, uber-robotaxi-europe-expansion-2026, waymo-battery-secondlife-colorado-recycling-2026, toyota-tier-iv-l4-investment-2026, waymo-arizona-expansion-2026, tesla-cybercab-specs-2026, mobileye-robotaxi-2026, tesla-fsd-netherlands-2026, ev-news-2026-06-22, ev-news-2026-07-13-digitimes, ev-news-2026-07-14-16-electrive, ev-news-2026-07-21-22-digitimes, ev-news-2026-07-22-24-digitimes, ev-news-2026-07-22-23-electrive-en, ev-news-2026-07-28-digitimes, ev-news-2026-07-28-30-electrive-en, ev-news-2026-08-01-03-en, ev-news-2026-08-04-06-digitimes, ev-news-2026-08-03-06-electrive-en, ev-news-2026-08-06-07-electrive-en]
+updated: 2026-08-07
 ---
 
 # Robotaxi（自動計程車）
@@ -381,6 +381,16 @@ Mobileye 宣布成立垂直整合 Robotaxi 部門，從技術供應商轉型為�
 **觀察**：Waymo×Uber合約2028年5月到期前是否有新協議；歐盟10月FSD表決結果對Tesla歐洲布局的實際衝擊。
 
 - 參見：[[sources/ev-news-2026-08-04-06-digitimes]] | [[sources/ev-news-2026-08-03-06-electrive-en]] | [[entities/Tesla]] | [[countries/德國]]
+
+## Wayve×Uber倫敦Robotaxi項目通過監管關鍵關卡（2026-08）
+
+> **結論**：TfL已核發私人租賃車輛牌照給Wayve改裝的福特Mustang Mach-E自駕車隊，是Wayve×Uber倫敦Robotaxi計畫的重要里程碑，但完全無人商轉仍待更多監管核准，反映英國Robotaxi商轉路徑正逐步、分階段開放。
+
+- 牌照符合英國「三重鎖」規範（營運商、駕駛、車輛須同一監管機構核發牌照），現階段仍須配置TfL認證安全駕駛員在車監控
+- 需求端熱度：過去8週已有逾10萬人加入倫敦候補名單，選定用戶預計今夏開始試乘
+- 後續門檻：完全driverless商轉需通過英國AV測試與核准法規下的額外監管審查（含完整安全展示與營運牌照），英國6月才開放Robotaxi試營運牌照申請；Uber×Wayve另在東京攜手日產推進類似計畫
+
+- 參見：[[sources/ev-news-2026-08-06-07-electrive-en]] | [[countries/英國]]
 
 ## Related
 - [[concepts/ADAS智駕系統]]

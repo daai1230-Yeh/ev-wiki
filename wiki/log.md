@@ -1960,3 +1960,14 @@ Pages 375 → 406，Sources 315 → 346
 - New pages created: [[entities/三菱汽車]]
 - Key additions: 中國「上肥下瘦」利潤結構未解（利潤年減20%、寧德時代Tier1躍居第三）＋工信部突擊查5家車廠電池智駕；Waymo評估退出Uber合作轉自營App；Momenta取得德國全境L4測試許可；福斯Sagunto電池廠主導權之爭延燒（國軒高科爭取多數股權）；豐田/本田同步上修財測但熊本地震致本田日本3廠全數停工；南韓中國製電動車掛牌市占年增178.7%飆至35%；L&F南韓首條LFP量產線出貨；中國首輛鈉離子傾卸卡車商用；歐洲電池獲利未來4年恐損失105億歐元（Deloitte）；BYD 7月銷量+22%創年內新高；Rivian Q2虧損收斂25%；Lucid中型平台延至2027下半＋7月美國僅售860輛；Tesla FSD法國遭拒核准＋HW3疑似過熱；Kia墨西哥投產EV3進軍美國；三菱東南亞市場遭中國BEV改寫（新建頁）
 - 備註: 兩篇泰國EV補貼Digitimes報導（id=763709與id=0000763709...）內容完全相同，僅計入一篇
+
+## [2026-08-07] ingest | ev-news-2026-08-07（三批次共33篇：Digitimes 7、electrive/InsideEVs 16、中文財經媒體+Detroit News 10）
+- Source pages（新建3頁）：
+  - [[sources/ev-news-2026-08-07-digitimes]] — 中系車出海邁向2.0（CAAM價格戰轉價值戰）、南韓儲能雙雄北美擴張+71%、美國禁鎢與電池廢料出口、Terafab AI晶片基地168億美元、Lucid瘦身計畫
+  - [[sources/ev-news-2026-08-06-07-electrive-en]] — SAIC-GM合資延至2047、BMW i3量產、Wayve×Uber倫敦Robotaxi過關、Tesla Supercharger開放（EVgo/日本7-Eleven）、Kia電池召回、Lucid Cosmos首曝光、小米SkyNomad
+  - [[sources/ev-news-2026-08-06-07-cn-misc]] — Ford平價電動皮卡Fathom、中國巴士出口262億淨利、法國7月純電35%、中國躍居韓國最大進口車來源國、馬斯克去紅鏈台灣電池股啟動、特斯拉SpaceX市值蒸發1.4兆美元
+- Pages updated: [[concepts/Robotaxi自動計程車]], [[concepts/儲能市場]], [[concepts/中國EV出海策略]], [[concepts/電池回收]], [[entities/Tesla]], [[entities/Lucid]], [[entities/通用汽車]], [[entities/福特]], [[entities/本田]], [[entities/起亞]]
+- Countries updated: [[countries/韓國]], [[countries/歐洲]], [[countries/台灣]], [[countries/美國]]
+- New pages created: 無
+- Key additions: Musk Terafab AI晶片基地首投資168億美元（去紅鏈為SpaceX整併鋪路，台灣電池股受惠）但特斯拉+SpaceX市值蒸發1.4兆美元；SAIC-GM合資延長至2047年（Buick Electra E7 10月起出口）；Wayve×Uber倫敦Robotaxi取得TfL牌照；Ford發表平價UEV電動皮卡Fathom（起價28,350美元、密西根LFP電池）；全球ESS出貨上半年+71%、非中國市場首度過半（LGES北美市佔躍居第三）；中國出海邁向2.0（CAAM價格戰轉價值戰，巴士出口262億淨利）；法國7月純電市佔35%；加州MyFirstEV補貼上路；美國禁鎢與電池廢料出口；Lucid 14億美元瘦身計畫+Cosmos首曝光延至2027年初；本田整車平台首度全外包印度塔塔科技；Kia全球召回第一代e-Niro（起火風險）
+- 備註: 本批次原於前次commit（993b143）中已隨raw/assets一併提交但尚未ingest，本次據內容日期（2026-08-07）補齊wiki處理

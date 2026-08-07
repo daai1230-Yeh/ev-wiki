@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [lucid-cosmos-2026, ev-news-2026-06-27-29-en, ev-news-2026-06-30-07-01, ev-news-2026-07-14-16-electrive, ev-news-2026-07-17-20-digitimes, ev-news-2026-08-03-06-electrive-en, ev-news-2026-08-04-06-cn-misc]
-updated: 2026-08-06
+sources: [lucid-cosmos-2026, ev-news-2026-06-27-29-en, ev-news-2026-06-30-07-01, ev-news-2026-07-14-16-electrive, ev-news-2026-07-17-20-digitimes, ev-news-2026-08-03-06-electrive-en, ev-news-2026-08-04-06-cn-misc, ev-news-2026-08-06-07-electrive-en, ev-news-2026-08-07-digitimes]
+updated: 2026-08-07
 ---
 
 # Lucid Motors
@@ -96,6 +96,12 @@ updated: 2026-08-06
 **觀察**：Back to Basics計畫14億美元年度節省目標是否兌現；中型平台2027下半能否如期上市。
 
 - 參見：[[sources/ev-news-2026-08-03-06-electrive-en]] | [[sources/ev-news-2026-08-04-06-cn-misc]] | [[countries/美國]]
+
+## Cosmos中型SUV首曝光：沙國廠投產延至2027年初（2026-08）
+
+首張Cosmos官方照片隨財報揭露：溜背造型近似BMW X4等轎跑SUV，水平LED尾燈、極窄頭燈組。原訂2026年底於沙烏地阿拉伯AMP-2廠投產已延至2027年初（下半年放量），Napoli強調公司列出四大「必贏專案」——中型車系列（Cosmos+另兩款）、Robotaxi（與Uber合作）、沙國廠投產、及涵蓋裁員與14億美元現金流改善的「營運重整」。
+
+- 參見：[[sources/ev-news-2026-08-06-07-electrive-en]] | [[sources/ev-news-2026-08-07-digitimes]]
 
 ## Related
 - [[entities/Rivian]]

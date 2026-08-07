@@ -1,12 +1,15 @@
 # Wiki Index
 
-Last updated: 2026-08-06 | Pages: 489 | Sources: 422
+Last updated: 2026-08-07 | Pages: 489 | Sources: 425
 
 ---
 
 ## Sources（來源摘要）
 
 ### 電動乘用車
+- [[sources/ev-news-2026-08-07-digitimes]] — Digitimes批次7篇：中系車出海邁向2.0（CAAM價格戰轉價值戰）、南韓儲能雙雄北美擴張+71%、美國禁鎢與電池廢料出口、Terafab AI晶片基地168億美元、Lucid瘦身計畫。(2026-08-07)
+- [[sources/ev-news-2026-08-06-07-electrive-en]] — electrive/InsideEVs批次16篇：SAIC-GM合資延至2047、BMW i3量產、Wayve×Uber倫敦Robotaxi過關、Tesla Supercharger開放（EVgo/日本7-Eleven）、Kia電池召回、Lucid Cosmos首曝光、小米SkyNomad。(2026-08-07)
+- [[sources/ev-news-2026-08-06-07-cn-misc]] — 中文財經媒體批次10篇：Ford平價電動皮卡Fathom、中國巴士出口262億淨利、法國7月純電35%、中國躍居韓國最大進口車來源國、馬斯克去紅鏈台灣電池股啟動、特斯拉SpaceX市值蒸發1.4兆美元。(2026-08-07)
 - [[sources/ev-news-2026-08-04-06-digitimes]] — Digitimes批次22篇：Waymo-Uber裂痕、Momenta德國全境L4、比亞迪璇璣A3晶片、中國整頓內捲突擊查電池智駕、福斯國軒Sagunto角力、豐田本田財測季+熊本地震停工。(2026-08-06)
 - [[sources/ev-news-2026-08-03-06-electrive-en]] — electrive/InsideEVs批次38篇：BYD 7月+22%、Rivian Q2轉佳、Lucid延後中型車、歐洲電池獲利外流、鈉離子傾卸卡車、Tesla NHTSA調查與FSD過熱。(2026-08-06)
 - [[sources/ev-news-2026-08-04-06-cn-misc]] — 中文財經媒體批次7篇：Lucid美國7月僅售860輛、中國擬禁智駕小藍燈、特斯拉破千萬輛但成長停滯、Kia墨西哥投產EV3、韓國中國製EV市占飆35%。(2026-08-06)

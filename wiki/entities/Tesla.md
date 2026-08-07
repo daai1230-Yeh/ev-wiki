@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [tesla-ass-nhtsa-probe-closed, tesla-taiwan-march-2026, xiaomi-ev-europe-2027, tesla-4680-musk-strategy, tesla-korea-q1-2026, tesla-q1-2026-earnings, tesla-india-model-y-l, 駐外新聞-美國-2025, ev-news-2026-07-02, ev-news-2026-07-03-08, ev-news-2026-07-09, ev-news-2026-07-10-insideevs-batch, ev-news-2026-07-11, ev-news-2026-07-12-13-digest, ev-news-2026-07-12-13-electrive, ev-news-2026-07-13-digitimes, ev-news-2026-07-14-16-insideevs, ev-news-2026-07-14-16-digitimes, ev-news-2026-07-21-22-digitimes, ev-news-2026-07-20-21-electrive-en, ev-news-2026-07-22-24-digitimes, ev-news-2026-07-22-23-electrive-en, ev-news-2026-07-25-27-digitimes, ev-news-2026-07-28-digitimes, ev-news-2026-07-28-30-electrive-en, ev-news-2026-08-01-03-cn, ev-news-2026-08-01-03-en, ev-news-2026-08-04-06-digitimes, ev-news-2026-08-03-06-electrive-en, ev-news-2026-08-04-06-cn-misc]
-updated: 2026-08-06
+sources: [tesla-ass-nhtsa-probe-closed, tesla-taiwan-march-2026, xiaomi-ev-europe-2027, tesla-4680-musk-strategy, tesla-korea-q1-2026, tesla-q1-2026-earnings, tesla-india-model-y-l, 駐外新聞-美國-2025, ev-news-2026-07-02, ev-news-2026-07-03-08, ev-news-2026-07-09, ev-news-2026-07-10-insideevs-batch, ev-news-2026-07-11, ev-news-2026-07-12-13-digest, ev-news-2026-07-12-13-electrive, ev-news-2026-07-13-digitimes, ev-news-2026-07-14-16-insideevs, ev-news-2026-07-14-16-digitimes, ev-news-2026-07-21-22-digitimes, ev-news-2026-07-20-21-electrive-en, ev-news-2026-07-22-24-digitimes, ev-news-2026-07-22-23-electrive-en, ev-news-2026-07-25-27-digitimes, ev-news-2026-07-28-digitimes, ev-news-2026-07-28-30-electrive-en, ev-news-2026-08-01-03-cn, ev-news-2026-08-01-03-en, ev-news-2026-08-04-06-digitimes, ev-news-2026-08-03-06-electrive-en, ev-news-2026-08-04-06-cn-misc, ev-news-2026-08-07-digitimes, ev-news-2026-08-06-07-cn-misc, ev-news-2026-08-06-07-electrive-en]
+updated: 2026-08-07
 ---
 
 # Tesla
@@ -377,6 +377,20 @@ Tesla本週在Fremont廠達成累計生產1,000萬輛電動車，自2020年達�
 **觀察**：歐盟10月FSD表決結果；Tesla是否為HW3車主提供硬體升級方案；Zoox等對手在無方向盤Robotaxi監管競賽中是否進一步拉開差距。
 
 - 參見：[[sources/ev-news-2026-08-04-06-digitimes]] | [[sources/ev-news-2026-08-03-06-electrive-en]] | [[sources/ev-news-2026-08-04-06-cn-misc]] | [[concepts/Robotaxi自動計程車]]
+
+## Terafab AI晶片基地首投資168億美元，特斯拉/SpaceX市值蒸發1.4兆美元（2026-08）
+
+> **結論**：SpaceX×Tesla啟動德州Terafab半導體園區（首期168億美元），為Musk打造晶片-能源-AI-太空垂直整合版圖鋪路；但同期特斯拉+SpaceX合計市值已蒸發約1.4兆美元，凸顯「整併敘事」尚未獲市場買單。
+
+**主因**：
+- Terafab落地：德州格萊姆斯郡半導體園區首期168億美元、未來總投資上看1,190億美元，整合先進邏輯與記憶體晶片製造封裝測試，供應Optimus、Cybercab及SpaceX太空資料中心運算需求；英特爾加入合作，SpaceX並自建天然氣發電廠與Megapack儲能確保電力自主
+- 去紅鏈為SpaceX整併鋪路：特斯拉北美產線規劃2027年前美國廠停用中國零組件，台灣電池封裝廠（如順達）可望承接鋰電池模組、BMS、BBU轉單商機
+- 市值代價：自6月中SpaceX股價觸頂以來，兩家公司合計市值蒸發約1.4兆美元，馬斯克身家較高點1.33兆美元下跌逾6,000億美元（單月蒸發6,460億美元，創個人財富損失史上最大紀錄）；Tesla Q2財報公布後單日暴跌14.52%、市值蒸發約2,000億美元
+- Supercharger開放策略持續擴大：EVgo將在全美部署Tesla V4 Superchargers（掛牌EVgo Superchargers，秋季動工）；日本7-Eleven超充站啟動，日本網路已達152站，目標2027年成為日本第一大進口車品牌
+
+**觀察**：Terafab記憶體布局是否具體衝擊三星電子、SK海力士、美光市佔；特斯拉/SpaceX市值能否隨Terafab進展回穩。
+
+- 參見：[[sources/ev-news-2026-08-07-digitimes]] | [[sources/ev-news-2026-08-06-07-cn-misc]] | [[sources/ev-news-2026-08-06-07-electrive-en]] | [[countries/台灣]]
 
 ## Related
 - [[entities/NHTSA]]
