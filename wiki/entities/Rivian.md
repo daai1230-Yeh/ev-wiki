@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [rivian-r2-range-specs, rivian-service-network-2026, rivian-lidar-china-partner-2026, ev-news-2026-07-03-08, ev-news-2026-07-24-28-electrive-en]
-updated: 2026-07-28
+sources: [rivian-r2-range-specs, rivian-service-network-2026, rivian-lidar-china-partner-2026, ev-news-2026-07-03-08, ev-news-2026-07-24-28-electrive-en, ev-news-2026-08-03-06-electrive-en]
+updated: 2026-08-06
 ---
 
 # Rivian
@@ -103,6 +103,19 @@ updated: 2026-07-28
 R2性能版與Tesla Model Y性能版帳面EPA效率評級完全相同（均105 MPGe），但第三方實測顯示R2在50-80mph各速域均多耗能18.4%~26.5%，低速走停測試多耗約25%。R2設計偏越野取向（離地間隙更高、可機械斷開前電機切純後驅模式），並非效率差，但兩車評級數字相同卻實測差距懸殊，測試者質疑可能是EPA測試流程與修正係數不同所致（R2走完整五循環測試，Model Y數據疑似來自較短測試+修正係數）。
 
 - 參見：[[sources/ev-news-2026-07-24-28-electrive-en]] | [[entities/Tesla]]
+
+## Q2營收年增27%、虧損收斂25%，R2帶動增開第二班（2026-08）
+
+> **結論**：Rivian Q2財報顯示R2放量正在改善財務體質——營收年增27%、淨損收斂25%，並上修全年交付展望，Illinois廠計劃9月底前增開第二班產線因應需求。
+
+**主因**：
+- 財務改善：Q2營收16.58億美元（年增27%），淨損8.37億美元（較去年同期收斂25%）；軟體服務部門營收年增37%至5.15億美元，其中60%（3.08億美元）來自與福斯合資開發軟體/電子架構——福斯現為Rivian最大股東（持股15.9%）
+- R2放量：6月啟動交付後，Q2交付12,194輛（含R1系列），全年展望由6.2~6.7萬輛上修至6.5~7萬輛；已獲逾20萬份R2預訂、5.7萬次試駕，Illinois Normal廠計劃9月底前增開第二班，喬治亞州第二廠投產後產能將進一步擴張
+- Amazon合作深化：Amazon旗下電動貨車已逾4萬輛在北美數千城市營運，凸顯Rivian商用車業務規模持續擴大
+
+**觀察**：R2毛利率轉正時點；喬治亞州第二廠投產時程對整體產能的疊加效益。
+
+- 參見：[[sources/ev-news-2026-08-03-06-electrive-en]] | [[countries/美國]]
 
 ## Related
 - [[entities/Tesla]]

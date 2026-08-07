@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [vw-restructure-china-offensive-2026, ev-news-2026-06-27-29-en, ev-news-2026-06-30-07-01, ev-news-2026-07-02, ev-news-2026-07-03-08, ev-news-2026-07-10-supplement, ev-news-2026-07-12-13-electrive, ev-news-2026-07-14-16-electrive, ev-news-2026-07-17-20-digitimes, ev-news-2026-07-20-21-electrive-en, ev-news-2026-07-22-23-electrive-en, ev-news-2026-07-25-27-digitimes, ev-news-2026-07-24-27-electrive-en, ev-news-2026-07-24-28-electrive-en, ev-news-2026-07-29-31-digitimes, ev-news-2026-07-28-30-electrive-en]
-updated: 2026-07-31
+sources: [vw-restructure-china-offensive-2026, ev-news-2026-06-27-29-en, ev-news-2026-06-30-07-01, ev-news-2026-07-02, ev-news-2026-07-03-08, ev-news-2026-07-10-supplement, ev-news-2026-07-12-13-electrive, ev-news-2026-07-14-16-electrive, ev-news-2026-07-17-20-digitimes, ev-news-2026-07-20-21-electrive-en, ev-news-2026-07-22-23-electrive-en, ev-news-2026-07-25-27-digitimes, ev-news-2026-07-24-27-electrive-en, ev-news-2026-07-24-28-electrive-en, ev-news-2026-07-29-31-digitimes, ev-news-2026-07-28-30-electrive-en, ev-news-2026-08-04-06-digitimes, ev-news-2026-08-03-06-electrive-en]
+updated: 2026-08-06
 ---
 
 # Volkswagen（福斯集團）
@@ -237,3 +237,16 @@ VW 正式評估將中國開發的 EREV 車型引入歐洲市場，以規避 EU B
 保時捷正式宣布「Future Package」重組：至2035年在Zuffenhausen及Weissach廠再裁5,000職位（主要透過退休、自願離職），加計先前措施總計約9,000職位受影響。作為交換，管理層將兩廠員工雇用保證延長至2035年並承諾投資21億歐元；員工則同意薪資讓步（加薪3.5%扣留、聖誕獎金由100%降至60%月薪、遠端工作天數減少）。2026上半年保時捷營業利益率降至7.8%，中國銷量下滑、美國關稅及電動化投資未產生回報是主因。此協議可能影響福斯與奧迪並行中的重組談判。
 
 - 參見：[[sources/ev-news-2026-07-28-30-electrive-en]] | [[countries/德國]]
+
+## Sagunto電池廠主導權之爭延燒；國軒堅持爭取多數股權（2026-08）
+
+> **結論**：福斯Sagunto電池廠（原訂2026年9月投產已延至年底以後）主導權爭議未解，國軒高科仍在爭取多數股權與經營主導權，福斯目前無意退讓——凸顯歐美日韓車廠傳統供應鏈管理模式在鋰電池領域正遭遇結構性挑戰。
+
+**主因**：
+- 主導權角力升溫：福斯投資30億歐元興建的Sagunto廠面臨延誤與汽車本業裁員關廠壓力，急於引入外部資金技術；國軒高科（福斯持股26.47%第一大股東）欲藉此擴大歐洲在地製造布局並保障自身技術專利優勢，避免核心技術流向福斯自有電池事業PowerCo
+- 傳統模式失靈：歐美日韓車廠慣常「初期自研掌握核心技術、成熟後交由代工廠量產」模式在鋰電池領域難以複製——Northvolt已破產、Stellantis支持的ACC暫停德義擴產，福斯自身建廠進度也一再延後，被迫擴大與中國電池廠合作（福斯×國軒、Stellantis×寧德時代）
+- 歐洲電池自主化持續落後：Deloitte研究指出歐洲電芯廠雖佔全球產能13%市佔，但98%產能仍由亞洲業者控制，若不能自產電芯未來4年恐損失105億歐元利潤
+
+**觀察**：福斯與國軒股權談判最終結果；Sagunto廠實際投產時程是否進一步延後至2027年。
+
+- 參見：[[sources/ev-news-2026-08-04-06-digitimes]] | [[sources/ev-news-2026-08-03-06-electrive-en]] | [[countries/德國]]

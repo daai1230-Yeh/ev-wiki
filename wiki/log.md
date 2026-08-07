@@ -1948,3 +1948,15 @@ Pages 375 → 406，Sources 315 → 346
 - New pages created: 無（僅2個批次source頁）
 - Key additions: 比亞迪7月41.9萬輛創高（海外43%、Szeged再延Q4、FBI蘭卡斯特調查）；中國廢止梯次利用（白名單156→48）；Tesla累計破千萬＋中國分拆傳聞＋NHTSA 120萬輛懸吊調查；PwC全球H1 BEV僅+9%（歐洲+33%獨強）；歐洲平價段開打（ID. Polo £23,945/Ioniq 3 €27,995）；Zoox獲首張purpose-built robotaxi商業豁免；印度7月創紀錄月＋EV出口14倍（Maruti占97%）；MCS兆瓦充電標準專題；台達電泰國第八廠
 - 備註: raw/assets 有2組重複檔（中國廢止退役電池、現代汽車挖角），source頁僅引用主檔
+
+## [2026-08-06] ingest | ev-news-2026-08-04-06（四批次共73篇：Digitimes 22、electrive/InsideEVs 38、中文財經媒體7、ETAuto/印度6）
+- Source pages（新建4頁）：
+  - [[sources/ev-news-2026-08-04-06-digitimes]] — Waymo-Uber裂痕、Momenta德國全境L4、比亞迪璇璣A3晶片、中國整頓內捲突擊查電池智駕、福斯國軒Sagunto角力、豐田本田財測季+熊本地震停工
+  - [[sources/ev-news-2026-08-03-06-electrive-en]] — BYD 7月+22%、Rivian Q2轉佳、Lucid延後中型車、歐洲電池獲利外流、鈉離子傾卸卡車、Tesla NHTSA調查與FSD過熱
+  - [[sources/ev-news-2026-08-04-06-cn-misc]] — Lucid美國7月僅售860輛、中國擬禁智駕小藍燈、特斯拉破千萬輛但成長停滯、Kia墨西哥投產EV3、韓國中國製EV市占飆35%
+  - [[sources/ev-news-2026-08-04-06-india-en]] — 印度7月乘用車銷量創紀錄年增33%、Ather產能追不上需求、Audi印度豪華車市占目標
+- Pages updated: [[concepts/Robotaxi自動計程車]], [[concepts/電池技術路線]], [[concepts/鈉離子電池]], [[entities/Tesla]], [[entities/比亞迪]], [[entities/Volkswagen]], [[entities/豐田]], [[entities/本田]], [[entities/通用汽車]], [[entities/Rivian]], [[entities/Lucid]], [[entities/起亞]]
+- Countries updated: [[countries/中國]], [[countries/日本]], [[countries/韓國]], [[countries/德國]], [[countries/東南亞]], [[countries/印度]], [[countries/歐洲]], [[countries/美國]]
+- New pages created: [[entities/三菱汽車]]
+- Key additions: 中國「上肥下瘦」利潤結構未解（利潤年減20%、寧德時代Tier1躍居第三）＋工信部突擊查5家車廠電池智駕；Waymo評估退出Uber合作轉自營App；Momenta取得德國全境L4測試許可；福斯Sagunto電池廠主導權之爭延燒（國軒高科爭取多數股權）；豐田/本田同步上修財測但熊本地震致本田日本3廠全數停工；南韓中國製電動車掛牌市占年增178.7%飆至35%；L&F南韓首條LFP量產線出貨；中國首輛鈉離子傾卸卡車商用；歐洲電池獲利未來4年恐損失105億歐元（Deloitte）；BYD 7月銷量+22%創年內新高；Rivian Q2虧損收斂25%；Lucid中型平台延至2027下半＋7月美國僅售860輛；Tesla FSD法國遭拒核准＋HW3疑似過熱；Kia墨西哥投產EV3進軍美國；三菱東南亞市場遭中國BEV改寫（新建頁）
+- 備註: 兩篇泰國EV補貼Digitimes報導（id=763709與id=0000763709...）內容完全相同，僅計入一篇

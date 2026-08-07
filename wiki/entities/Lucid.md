@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [lucid-cosmos-2026, ev-news-2026-06-27-29-en, ev-news-2026-06-30-07-01, ev-news-2026-07-14-16-electrive, ev-news-2026-07-17-20-digitimes]
-updated: 2026-07-20
+sources: [lucid-cosmos-2026, ev-news-2026-06-27-29-en, ev-news-2026-06-30-07-01, ev-news-2026-07-14-16-electrive, ev-news-2026-07-17-20-digitimes, ev-news-2026-08-03-06-electrive-en, ev-news-2026-08-04-06-cn-misc]
+updated: 2026-08-06
 ---
 
 # Lucid Motors
@@ -83,6 +83,19 @@ updated: 2026-07-20
 - 官方重申傳聞「完全不實」，未設特別委員會探討破產或私有化選項
 - 業務亮點：與 Uber、Nuro 合作豪華 Robotaxi 服務（2026 底前推出），Uber 已承諾採購至少 35,000 輛
 - 參見：[[sources/ev-news-2026-07-17-20-digitimes]]
+
+## 中型平台延至2027下半，7月美國僅售860輛（2026-08）
+
+> **結論**：新任執行長Silvio Napoli推出「Back to Basics」轉型計畫、目標年省14億美元，但中型平台上市時程再延，7月美國銷量創低點，凸顯轉型陣痛期尚未見底。
+
+**主因**：
+- 中型平台延後：原訂2026年底上市的中型車（Cosmos、Earth等，起價低於5萬美元）延至2027下半，Napoli坦言「執行不一致、對品質問題反應過慢」，Atlas驅動單元與原型車已進入紐西蘭低溫測試階段，電池包已達量產成熟度
+- Q2財務現況：淨損12.6億美元（累計虧損已達176.7億美元），營收4.05億美元（年增56%但僅單季虧損的1/3），Q2僅交付3,953輛（Air+Gravity）
+- 7月美國銷售創低點：即便祭出史上最大促銷（Gravity 72個月零利率+1萬美元抵免+3,000美元忠誠回饋），7月美國僅售860輛（年減3.4%、月減5.7%），低於3~6月平均888輛；同期Tesla約42,435輛、Rivian約4,700輛；挪威市場已連續4個月零掛牌
+
+**觀察**：Back to Basics計畫14億美元年度節省目標是否兌現；中型平台2027下半能否如期上市。
+
+- 參見：[[sources/ev-news-2026-08-03-06-electrive-en]] | [[sources/ev-news-2026-08-04-06-cn-misc]] | [[countries/美國]]
 
 ## Related
 - [[entities/Rivian]]

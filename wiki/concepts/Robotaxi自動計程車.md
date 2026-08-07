@@ -1,7 +1,7 @@
 ---
 tags: [concept]
-sources: [robotaxi-market-2026, china-autonomous-driving-overseas, europe-robotaxi-verne-ponyai, waymo-miami-orlando-expansion, taiwan-av-special-scenes, japan-2030-autonomous-ai-strategy, ratp-karsan-autonomous-bus-paris, av-physical-ai-trends-2026, tesla-fsd-eu-expansion-2026, tesla-robotaxi-texas-reality-2026, uber-robotaxi-europe-expansion-2026, waymo-battery-secondlife-colorado-recycling-2026, toyota-tier-iv-l4-investment-2026, waymo-arizona-expansion-2026, tesla-cybercab-specs-2026, mobileye-robotaxi-2026, tesla-fsd-netherlands-2026, ev-news-2026-06-22, ev-news-2026-07-13-digitimes, ev-news-2026-07-14-16-electrive, ev-news-2026-07-21-22-digitimes, ev-news-2026-07-22-24-digitimes, ev-news-2026-07-22-23-electrive-en, ev-news-2026-07-28-digitimes, ev-news-2026-07-28-30-electrive-en, ev-news-2026-08-01-03-en]
-updated: 2026-08-03
+sources: [robotaxi-market-2026, china-autonomous-driving-overseas, europe-robotaxi-verne-ponyai, waymo-miami-orlando-expansion, taiwan-av-special-scenes, japan-2030-autonomous-ai-strategy, ratp-karsan-autonomous-bus-paris, av-physical-ai-trends-2026, tesla-fsd-eu-expansion-2026, tesla-robotaxi-texas-reality-2026, uber-robotaxi-europe-expansion-2026, waymo-battery-secondlife-colorado-recycling-2026, toyota-tier-iv-l4-investment-2026, waymo-arizona-expansion-2026, tesla-cybercab-specs-2026, mobileye-robotaxi-2026, tesla-fsd-netherlands-2026, ev-news-2026-06-22, ev-news-2026-07-13-digitimes, ev-news-2026-07-14-16-electrive, ev-news-2026-07-21-22-digitimes, ev-news-2026-07-22-24-digitimes, ev-news-2026-07-22-23-electrive-en, ev-news-2026-07-28-digitimes, ev-news-2026-07-28-30-electrive-en, ev-news-2026-08-01-03-en, ev-news-2026-08-04-06-digitimes, ev-news-2026-08-03-06-electrive-en]
+updated: 2026-08-06
 ---
 
 # Robotaxi（自動計程車）
@@ -367,6 +367,20 @@ Mobileye 宣布成立垂直整合 Robotaxi 部門，從技術供應商轉型為�
 **觀察**：豁免額度使用速度；舊金山收費開放時程。
 
 - 參見：[[sources/ev-news-2026-08-01-03-en]] | [[entities/Zoox]] | [[entities/Waymo]]
+
+## Waymo評估退出Uber合作，Momenta取得德國全境L4測試許可（2026-08）
+
+> **結論**：Waymo正評估退出與Uber的Robotaxi合作、轉向自營Waymo App直接面對消費者，同期中國自駕業者Momenta取得德國全國性L4測試許可——顯示Robotaxi龍頭「自營化」與中國業者「歐洲擴張」兩條主線同步升溫。
+
+**主因**：
+- Waymo×Uber裂痕：6月已終止鳳凰城合作，計劃2028年起在奧斯汀、亞特蘭大改由Waymo App直營取代Uber獨家營運；核心矛盾在平台主導權（Uber想做多方聚合平台、Waymo堅持自營入口）與安全溝通互信破裂（Waymo事故常由媒體而非官方管道通知Uber），Uber則加碼投資Avride、Lucid、Nuro、Rivian分散對Waymo依賴
+- Momenta德國全國許可：此前僅限慕尼黑，如今升級為全德適用，合作夥伴為Uber而非德國車廠；主要對手Waymo已在德國設子公司規劃柏林、慕尼黑測試，德系車廠（賓士、BMW、福斯）則普遍轉向策略聯盟並收斂資源至L2+與L4
+- WeRide丹麥擴張：與GreenMobility合作進入丹麥（歐洲第6市場，含西班牙馬德里/Uber、斯洛伐克），但6國均尚未進入商轉，反映中國Robotaxi業者「廣泛卡位、緩慢商轉」的歐洲擴張節奏
+- Tesla FSD歐洲受挫：法國正式拒絕核准現行FSD版本上路（瑞典先前已反對），歐盟10月將就FSD通用認證表決（需55%成員國、65%人口贊成），法國反對恐使荷、丹、比、立、愛5個已豁免國家面臨FSD被鎖回限制版的風險
+
+**觀察**：Waymo×Uber合約2028年5月到期前是否有新協議；歐盟10月FSD表決結果對Tesla歐洲布局的實際衝擊。
+
+- 參見：[[sources/ev-news-2026-08-04-06-digitimes]] | [[sources/ev-news-2026-08-03-06-electrive-en]] | [[entities/Tesla]] | [[countries/德國]]
 
 ## Related
 - [[concepts/ADAS智駕系統]]

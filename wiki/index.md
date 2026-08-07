@@ -1,12 +1,16 @@
 # Wiki Index
 
-Last updated: 2026-08-03 | Pages: 487 | Sources: 418
+Last updated: 2026-08-06 | Pages: 489 | Sources: 422
 
 ---
 
 ## Sources（來源摘要）
 
 ### 電動乘用車
+- [[sources/ev-news-2026-08-04-06-digitimes]] — Digitimes批次22篇：Waymo-Uber裂痕、Momenta德國全境L4、比亞迪璇璣A3晶片、中國整頓內捲突擊查電池智駕、福斯國軒Sagunto角力、豐田本田財測季+熊本地震停工。(2026-08-06)
+- [[sources/ev-news-2026-08-03-06-electrive-en]] — electrive/InsideEVs批次38篇：BYD 7月+22%、Rivian Q2轉佳、Lucid延後中型車、歐洲電池獲利外流、鈉離子傾卸卡車、Tesla NHTSA調查與FSD過熱。(2026-08-06)
+- [[sources/ev-news-2026-08-04-06-cn-misc]] — 中文財經媒體批次7篇：Lucid美國7月僅售860輛、中國擬禁智駕小藍燈、特斯拉破千萬輛但成長停滯、Kia墨西哥投產EV3、韓國中國製EV市占飆35%。(2026-08-06)
+- [[sources/ev-news-2026-08-04-06-india-en]] — ETAuto/印度批次6篇：印度7月乘用車銷量創紀錄年增33%、Ather產能追不上需求、Audi印度豪華車市占目標。(2026-08-06)
 - [[sources/ev-news-2026-08-01-03-cn]] — 中文批次12篇：比亞迪7月41.9萬創高（海外43%）、中國廢止梯次利用（白名單砍7成）、PwC全球EV放緩、NXP洽購Ambarella。(2026-08-03)
 - [[sources/ev-news-2026-08-01-03-en]] — 英文批次17篇：Tesla累計破千萬輛＋NHTSA懸吊調查、ID. Polo/Ioniq 3平價開戰、Zoox首張robotaxi商業豁免、印度創紀錄月＋EV出口14倍。(2026-08-03)
 - [[sources/xiaomi-eu-import-autohelden-2026]] — 小米對 Autohelden 提告阻止歐洲平行進口（GB/T 充電問題、品牌保護，官方 2027 才進歐洲）。(2026-06-17)
@@ -430,6 +434,7 @@ Last updated: 2026-08-03 | Pages: 487 | Sources: 418
 ## Entities（實體）
 
 ### 電動乘用車廠
+- [[entities/三菱汽車]] — 日本車廠，東南亞市場遭中國BEV品牌搶市（銷量年減8%），加碼投資泰國160億泰銖鎖定電動化SUV/皮卡出口基地。
 - [[entities/台灣智駕]] — 台灣自動駕駛新創，特殊封閉場景策略，日本鋼鐵廠 + 沖繩港口落地實績。
 - [[entities/蔚來]] — 中國高端 EV 品牌，自研晶片 55 萬顆出貨，推動去 NVIDIA 化垂直整合。
 - [[entities/吉利汽車]] — 中國第三大車廠，i-HEV 平台 2.22 L/100km 超越豐田 Prius，2025 年全球第 8。

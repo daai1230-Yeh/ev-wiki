@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [tesla-ass-nhtsa-probe-closed, tesla-taiwan-march-2026, xiaomi-ev-europe-2027, tesla-4680-musk-strategy, tesla-korea-q1-2026, tesla-q1-2026-earnings, tesla-india-model-y-l, 駐外新聞-美國-2025, ev-news-2026-07-02, ev-news-2026-07-03-08, ev-news-2026-07-09, ev-news-2026-07-10-insideevs-batch, ev-news-2026-07-11, ev-news-2026-07-12-13-digest, ev-news-2026-07-12-13-electrive, ev-news-2026-07-13-digitimes, ev-news-2026-07-14-16-insideevs, ev-news-2026-07-14-16-digitimes, ev-news-2026-07-21-22-digitimes, ev-news-2026-07-20-21-electrive-en, ev-news-2026-07-22-24-digitimes, ev-news-2026-07-22-23-electrive-en, ev-news-2026-07-25-27-digitimes, ev-news-2026-07-28-digitimes, ev-news-2026-07-28-30-electrive-en, ev-news-2026-08-01-03-cn, ev-news-2026-08-01-03-en]
-updated: 2026-08-03
+sources: [tesla-ass-nhtsa-probe-closed, tesla-taiwan-march-2026, xiaomi-ev-europe-2027, tesla-4680-musk-strategy, tesla-korea-q1-2026, tesla-q1-2026-earnings, tesla-india-model-y-l, 駐外新聞-美國-2025, ev-news-2026-07-02, ev-news-2026-07-03-08, ev-news-2026-07-09, ev-news-2026-07-10-insideevs-batch, ev-news-2026-07-11, ev-news-2026-07-12-13-digest, ev-news-2026-07-12-13-electrive, ev-news-2026-07-13-digitimes, ev-news-2026-07-14-16-insideevs, ev-news-2026-07-14-16-digitimes, ev-news-2026-07-21-22-digitimes, ev-news-2026-07-20-21-electrive-en, ev-news-2026-07-22-24-digitimes, ev-news-2026-07-22-23-electrive-en, ev-news-2026-07-25-27-digitimes, ev-news-2026-07-28-digitimes, ev-news-2026-07-28-30-electrive-en, ev-news-2026-08-01-03-cn, ev-news-2026-08-01-03-en, ev-news-2026-08-04-06-digitimes, ev-news-2026-08-03-06-electrive-en, ev-news-2026-08-04-06-cn-misc]
+updated: 2026-08-06
 ---
 
 # Tesla
@@ -363,6 +363,20 @@ Tesla本週在Fremont廠達成累計生產1,000萬輛電動車，自2020年達�
 **觀察**：SpaceX 合併議程推進時分拆傳聞是否再起；懸吊案是否升級工程分析進而召回。
 
 - 參見：[[sources/ev-news-2026-08-01-03-en]] | [[sources/ev-news-2026-08-01-03-cn]] | [[entities/NHTSA]]
+
+## 累計產量破1,000萬輛，但FSD歐洲受挫、HW3過熱爭議浮現（2026-08）
+
+> **結論**：Tesla累計產量達1,000萬輛純電車里程碑，但增長動能已連兩年下滑；FSD在法國遭正式拒絕核准，加上部分HW3車主反映V14 Lite更新後電腦過熱，顯示Tesla「賣車動能停滯、轉押Robotaxi/Optimus」的策略正面臨多重技術與監管考驗。
+
+**主因**：
+- 1,000萬輛里程碑但成長停滯：2025年交付163.6萬輛（年減9%，連續第二年下滑），2026年Q2按季化僅約180萬輛，較其聲稱237.5萬輛年產能少逾50萬輛，反映受限於需求而非供應——公司資源已轉向Robotaxi與Optimus，未推出新一代平價車型
+- FSD歐洲受挫：法國正式拒絕核准現行FSD版本（不符限速規定、駕駛監控不足），歐盟10月將就FSD通用認證表決（需55%成員國、65%人口贊成），法國反對恐使荷、丹、比、立、愛5個已豁免國家面臨FSD被鎖回限制版風險；FSD訂閱數Q2已達148萬（年增56%），北美新車交付55%選配FSD
+- HW3硬體過熱疑慮：部分Hardware 3車主反映升級V14 Lite後電腦溫度達102°C（約待機值2倍），系統於90°C強制斷開FSD；Musk已承認HW3（記憶體頻寬僅HW4的1/8）無法達成真正無監督自駕，需靠「微工廠」升級硬體
+- Cybercab供應鏈成形：三星電機、樂金Innotek傳全數拿下Cybercab相機模組訂單（每輛8顆500萬畫素相機），三星電機已7月量產，首批規模2萬~3萬輛，若達Musk宣示年產200萬輛目標可望擴大至數兆韓元規模
+
+**觀察**：歐盟10月FSD表決結果；Tesla是否為HW3車主提供硬體升級方案；Zoox等對手在無方向盤Robotaxi監管競賽中是否進一步拉開差距。
+
+- 參見：[[sources/ev-news-2026-08-04-06-digitimes]] | [[sources/ev-news-2026-08-03-06-electrive-en]] | [[sources/ev-news-2026-08-04-06-cn-misc]] | [[concepts/Robotaxi自動計程車]]
 
 ## Related
 - [[entities/NHTSA]]
