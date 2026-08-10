@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [lucid-cosmos-2026, ev-news-2026-06-27-29-en, ev-news-2026-06-30-07-01, ev-news-2026-07-14-16-electrive, ev-news-2026-07-17-20-digitimes, ev-news-2026-08-03-06-electrive-en, ev-news-2026-08-04-06-cn-misc, ev-news-2026-08-06-07-electrive-en, ev-news-2026-08-07-digitimes]
-updated: 2026-08-07
+sources: [lucid-cosmos-2026, ev-news-2026-06-27-29-en, ev-news-2026-06-30-07-01, ev-news-2026-07-14-16-electrive, ev-news-2026-07-17-20-digitimes, ev-news-2026-08-03-06-electrive-en, ev-news-2026-08-04-06-cn-misc, ev-news-2026-08-06-07-electrive-en, ev-news-2026-08-07-digitimes, ev-news-2026-08-07-10-electrive-en]
+updated: 2026-08-10
 ---
 
 # Lucid Motors
@@ -102,6 +102,12 @@ updated: 2026-08-07
 首張Cosmos官方照片隨財報揭露：溜背造型近似BMW X4等轎跑SUV，水平LED尾燈、極窄頭燈組。原訂2026年底於沙烏地阿拉伯AMP-2廠投產已延至2027年初（下半年放量），Napoli強調公司列出四大「必贏專案」——中型車系列（Cosmos+另兩款）、Robotaxi（與Uber合作）、沙國廠投產、及涵蓋裁員與14億美元現金流改善的「營運重整」。
 
 - 參見：[[sources/ev-news-2026-08-06-07-electrive-en]] | [[sources/ev-news-2026-08-07-digitimes]]
+
+## 對比Rivian：EV新創之路走向分岔（2026-08）
+
+InsideEVs分析指出，Lucid的Q2淨損擴大至逾10億美元（營收4.05億美元），流動性30億美元估可撐至2027年；相較同期起步的Rivian已啟動量產放量，Lucid仍在延後中型平台上市並執行大規模重整。核心「必贏專案」包括與Uber、Nuro的Robotaxi合作及50,000美元級Cosmos車型；沙烏地阿拉伯主權基金持續加碼支持（含上月一位沙國王子購入公司5%股權），技術實力仍被視為業界領先，但能否轉化為銷量仍是最大挑戰。
+
+- 參見：[[sources/ev-news-2026-08-07-10-electrive-en]] | [[entities/Rivian]]
 
 ## Related
 - [[entities/Rivian]]

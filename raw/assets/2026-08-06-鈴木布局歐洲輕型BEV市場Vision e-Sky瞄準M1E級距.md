@@ -1,21 +1,22 @@
 ---
 title: 鈴木布局歐洲輕型BEV市場　Vision e-Sky瞄準M1E級距
-author: 范仁志／綜合外電
+author: 范仁志
 date: 2026-08-06
 source: https://www.digitimes.com.tw/tech/dt/n/shwnws.asp?CnlID=&id=763784&grid_seq1=&grid_seq2=
 tags:
   - BEV
   - 電動車
   - 鈴木
-  - 歐盟
+  - 比亞迪
+  - 歐洲
   - Digitimes
   - 未來車供應鏈
-clipped: 2026-08-09
+clipped: 2026-08-10
 ---
 
 # 鈴木布局歐洲輕型BEV市場　Vision e-Sky瞄準M1E級距
 
-**作者**：范仁志／綜合外電　｜　**日期**：2026-08-06　｜　**來源**：[原文連結](https://www.digitimes.com.tw/tech/dt/n/shwnws.asp?CnlID=&id=763784&grid_seq1=&grid_seq2=)
+**作者**：范仁志　｜　**日期**：2026-08-06　｜　**來源**：[原文連結](https://www.digitimes.com.tw/tech/dt/n/shwnws.asp?CnlID=&id=763784&grid_seq1=&grid_seq2=)
 
 ---
 

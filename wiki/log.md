@@ -1971,3 +1971,14 @@ Pages 375 → 406，Sources 315 → 346
 - New pages created: 無
 - Key additions: Musk Terafab AI晶片基地首投資168億美元（去紅鏈為SpaceX整併鋪路，台灣電池股受惠）但特斯拉+SpaceX市值蒸發1.4兆美元；SAIC-GM合資延長至2047年（Buick Electra E7 10月起出口）；Wayve×Uber倫敦Robotaxi取得TfL牌照；Ford發表平價UEV電動皮卡Fathom（起價28,350美元、密西根LFP電池）；全球ESS出貨上半年+71%、非中國市場首度過半（LGES北美市佔躍居第三）；中國出海邁向2.0（CAAM價格戰轉價值戰，巴士出口262億淨利）；法國7月純電市佔35%；加州MyFirstEV補貼上路；美國禁鎢與電池廢料出口；Lucid 14億美元瘦身計畫+Cosmos首曝光延至2027年初；本田整車平台首度全外包印度塔塔科技；Kia全球召回第一代e-Niro（起火風險）
 - 備註: 本批次原於前次commit（993b143）中已隨raw/assets一併提交但尚未ingest，本次據內容日期（2026-08-07）補齊wiki處理
+
+## [2026-08-10] ingest | ev-news-2026-08-07-10（三批次共24篇：electrive/InsideEVs 14、ETAuto/印度3、中文財經媒體7；另7篇經tail-diff比對確認為8月06~07既有報導之重複剪輯，未計入）
+- Source pages（新建3頁）：
+  - [[sources/ev-news-2026-08-07-10-electrive-en]] — CATL市佔擴大至40%、BYD固態電池新專利、Ford Fathom正式命名、Rivian/Lucid財報對比、Tesla FSD硬體反應時間實測、Moove融資2.5億美元
+  - [[sources/ev-news-2026-08-07-09-india-en]] — 印度7月EV零售創紀錄年增66%、Ola Electric轉型經銷商自救、Maruti小型車市場展望
+  - [[sources/ev-news-2026-08-06-10-cn-misc]] — 德國政策補助催生中系車銷售熱潮、本田平台開發外包印度細節、Terafab晶圓廠補充報導、加州MyFirstEV正式啟動、中國AI電動車扛出口內外失衡、鴻華先進接單破千台、泰國MG電動車自燃
+- Pages updated: [[entities/寧德時代]], [[entities/Tesla]], [[entities/Rivian]], [[entities/Lucid]], [[entities/福特]], [[entities/本田]], [[entities/Volkswagen]], [[concepts/Robotaxi自動計程車]], [[concepts/電動巴士市場]]
+- Countries updated: [[countries/德國]], [[countries/美國]], [[countries/印度]], [[countries/中國]]
+- New pages created: 無
+- Key additions: CATL上半年全球電池市佔擴大至近40%（與比亞迪合計逾54%）；Ford電動皮卡正式命名Fathom（起價29,945美元）＋業界評論EV發表週期過長；Rivian/Lucid財報對比分析（兩大美國EV新創走向分岔）；德國7月BEV掛牌+61.7%但比亞迪+365.4%成最大受益者（安永警示補貼帶動假性需求）；加州MyFirstEV正式啟動（紐森親自宣布）；印度7月EV零售創紀錄年增66%＋Ola Electric市佔崩跌轉型經銷商；福斯傳與JSW集團合資印度EV生產；本田平台外包印度Tata Technologies補充細節（1948年來首次年虧損背景）；中國7月出口+23.9%但內需疲弱、外熱內冷失衡加劇；Moove融資2.5億美元擴大Robotaxi車隊布局；Ostrava再訂70輛Solaris電動巴士；鴻華先進Model B接單破千台
+- 備註: 本次比對發現7篇8月10日「新增」檔案實為8月06~07既有報導的重複剪輯（僅frontmatter標籤/clipped日期不同，內文一致），依既有慣例僅保留較早/較完整版本，重複檔案不計入ingest範圍：豐田集團供應鏈北美採購、鈴木歐洲BEV布局、AI驅動智慧電動車轉型、全球儲能電池出貨、歐美IDM大廠、美國禁鎢電池廢料出口（以上6篇為8-04-06/8-07批次重複）、EV Reveals Have Gotten Way Too Drawn Out（8-08版本已收錄）、MG EV fire（8-08版本已收錄）、Rivian and Lucid are in very different places（已收錄8-09版本What Rivian And Lucid Latest Earnings Say）

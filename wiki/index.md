@@ -1,12 +1,15 @@
 # Wiki Index
 
-Last updated: 2026-08-07 | Pages: 489 | Sources: 425
+Last updated: 2026-08-10 | Pages: 489 | Sources: 428
 
 ---
 
 ## Sources（來源摘要）
 
 ### 電動乘用車
+- [[sources/ev-news-2026-08-07-10-electrive-en]] — electrive/InsideEVs批次14篇：CATL市佔擴大至40%、BYD固態電池新專利、Ford Fathom正式命名、Rivian/Lucid財報對比、Tesla FSD硬體反應時間實測、Moove融資2.5億美元。(2026-08-10)
+- [[sources/ev-news-2026-08-07-09-india-en]] — ETAuto/印度批次3篇：印度7月EV零售創紀錄年增66%、Ola Electric轉型經銷商自救、Maruti小型車市場展望。(2026-08-10)
+- [[sources/ev-news-2026-08-06-10-cn-misc]] — 中文財經媒體批次7篇：德國政策補助催生中系車銷售熱潮、本田平台開發外包印度細節、Terafab晶圓廠補充報導、加州MyFirstEV正式啟動、中國AI電動車扛出口內外失衡、鴻華先進接單破千台、泰國MG電動車自燃。(2026-08-10)
 - [[sources/ev-news-2026-08-07-digitimes]] — Digitimes批次7篇：中系車出海邁向2.0（CAAM價格戰轉價值戰）、南韓儲能雙雄北美擴張+71%、美國禁鎢與電池廢料出口、Terafab AI晶片基地168億美元、Lucid瘦身計畫。(2026-08-07)
 - [[sources/ev-news-2026-08-06-07-electrive-en]] — electrive/InsideEVs批次16篇：SAIC-GM合資延至2047、BMW i3量產、Wayve×Uber倫敦Robotaxi過關、Tesla Supercharger開放（EVgo/日本7-Eleven）、Kia電池召回、Lucid Cosmos首曝光、小米SkyNomad。(2026-08-07)
 - [[sources/ev-news-2026-08-06-07-cn-misc]] — 中文財經媒體批次10篇：Ford平價電動皮卡Fathom、中國巴士出口262億淨利、法國7月純電35%、中國躍居韓國最大進口車來源國、馬斯克去紅鏈台灣電池股啟動、特斯拉SpaceX市值蒸發1.4兆美元。(2026-08-07)

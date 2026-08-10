@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [vw-restructure-china-offensive-2026, ev-news-2026-06-27-29-en, ev-news-2026-06-30-07-01, ev-news-2026-07-02, ev-news-2026-07-03-08, ev-news-2026-07-10-supplement, ev-news-2026-07-12-13-electrive, ev-news-2026-07-14-16-electrive, ev-news-2026-07-17-20-digitimes, ev-news-2026-07-20-21-electrive-en, ev-news-2026-07-22-23-electrive-en, ev-news-2026-07-25-27-digitimes, ev-news-2026-07-24-27-electrive-en, ev-news-2026-07-24-28-electrive-en, ev-news-2026-07-29-31-digitimes, ev-news-2026-07-28-30-electrive-en, ev-news-2026-08-04-06-digitimes, ev-news-2026-08-03-06-electrive-en]
-updated: 2026-08-06
+sources: [vw-restructure-china-offensive-2026, ev-news-2026-06-27-29-en, ev-news-2026-06-30-07-01, ev-news-2026-07-02, ev-news-2026-07-03-08, ev-news-2026-07-10-supplement, ev-news-2026-07-12-13-electrive, ev-news-2026-07-14-16-electrive, ev-news-2026-07-17-20-digitimes, ev-news-2026-07-20-21-electrive-en, ev-news-2026-07-22-23-electrive-en, ev-news-2026-07-25-27-digitimes, ev-news-2026-07-24-27-electrive-en, ev-news-2026-07-24-28-electrive-en, ev-news-2026-07-29-31-digitimes, ev-news-2026-07-28-30-electrive-en, ev-news-2026-08-04-06-digitimes, ev-news-2026-08-03-06-electrive-en, ev-news-2026-08-07-10-electrive-en]
+updated: 2026-08-10
 ---
 
 # Volkswagen（福斯集團）
@@ -250,3 +250,9 @@ VW 正式評估將中國開發的 EREV 車型引入歐洲市場，以規避 EU B
 **觀察**：福斯與國軒股權談判最終結果；Sagunto廠實際投產時程是否進一步延後至2027年。
 
 - 參見：[[sources/ev-news-2026-08-04-06-digitimes]] | [[sources/ev-news-2026-08-03-06-electrive-en]] | [[countries/德國]]
+
+## 傳與印度JSW集團合資，擬售Skoda印度51%股權（2026-08）
+
+Skoda Auto Volkswagen India傳與JSW集團洽談合資，最快10月初簽署非約束性備忘錄，福斯全球高層預計8月18日於孟買會商核准。資金將用於發展基於中國CMP平台衍生的「印度主力平台」（IMP），供福斯與Skoda品牌在地製造多款電動SUV；此前福斯已將印度專屬EV平台投資由10億美元下修至約7億美元。JSW集團已持有JSW MG Motor（與上汽合資）35%股權並新設JSW Motors獨立車廠，若合資成立可望提供福斯期待已久的印度在地產業夥伴與資金奧援，最快2026年底至2027年初正式成立。
+
+- 參見：[[sources/ev-news-2026-08-07-10-electrive-en]] | [[countries/印度]]

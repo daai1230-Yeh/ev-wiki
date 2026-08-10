@@ -1,7 +1,7 @@
 ---
 tags: [concept]
-sources: [robotaxi-market-2026, china-autonomous-driving-overseas, europe-robotaxi-verne-ponyai, waymo-miami-orlando-expansion, taiwan-av-special-scenes, japan-2030-autonomous-ai-strategy, ratp-karsan-autonomous-bus-paris, av-physical-ai-trends-2026, tesla-fsd-eu-expansion-2026, tesla-robotaxi-texas-reality-2026, uber-robotaxi-europe-expansion-2026, waymo-battery-secondlife-colorado-recycling-2026, toyota-tier-iv-l4-investment-2026, waymo-arizona-expansion-2026, tesla-cybercab-specs-2026, mobileye-robotaxi-2026, tesla-fsd-netherlands-2026, ev-news-2026-06-22, ev-news-2026-07-13-digitimes, ev-news-2026-07-14-16-electrive, ev-news-2026-07-21-22-digitimes, ev-news-2026-07-22-24-digitimes, ev-news-2026-07-22-23-electrive-en, ev-news-2026-07-28-digitimes, ev-news-2026-07-28-30-electrive-en, ev-news-2026-08-01-03-en, ev-news-2026-08-04-06-digitimes, ev-news-2026-08-03-06-electrive-en, ev-news-2026-08-06-07-electrive-en]
-updated: 2026-08-07
+sources: [robotaxi-market-2026, china-autonomous-driving-overseas, europe-robotaxi-verne-ponyai, waymo-miami-orlando-expansion, taiwan-av-special-scenes, japan-2030-autonomous-ai-strategy, ratp-karsan-autonomous-bus-paris, av-physical-ai-trends-2026, tesla-fsd-eu-expansion-2026, tesla-robotaxi-texas-reality-2026, uber-robotaxi-europe-expansion-2026, waymo-battery-secondlife-colorado-recycling-2026, toyota-tier-iv-l4-investment-2026, waymo-arizona-expansion-2026, tesla-cybercab-specs-2026, mobileye-robotaxi-2026, tesla-fsd-netherlands-2026, ev-news-2026-06-22, ev-news-2026-07-13-digitimes, ev-news-2026-07-14-16-electrive, ev-news-2026-07-21-22-digitimes, ev-news-2026-07-22-24-digitimes, ev-news-2026-07-22-23-electrive-en, ev-news-2026-07-28-digitimes, ev-news-2026-07-28-30-electrive-en, ev-news-2026-08-01-03-en, ev-news-2026-08-04-06-digitimes, ev-news-2026-08-03-06-electrive-en, ev-news-2026-08-06-07-electrive-en, ev-news-2026-08-07-10-electrive-en]
+updated: 2026-08-10
 ---
 
 # Robotaxi（自動計程車）
@@ -391,6 +391,12 @@ Mobileye 宣布成立垂直整合 Robotaxi 部門，從技術供應商轉型為�
 - 後續門檻：完全driverless商轉需通過英國AV測試與核准法規下的額外監管審查（含完整安全展示與營運牌照），英國6月才開放Robotaxi試營運牌照申請；Uber×Wayve另在東京攜手日產推進類似計畫
 
 - 參見：[[sources/ev-news-2026-08-06-07-electrive-en]] | [[countries/英國]]
+
+## Moove融資2.5億美元擴大Robotaxi車隊布局（2026-08）
+
+自駕車隊營運商Moove完成C輪融資2.5億美元（估值21億美元，Mubadala領投、Toyota成長基金參與），資金用於擴大自駕車隊及興建「Nests」（自駕車充電維護場站）。核心策略夥伴為Waymo，已在鳳凰城、邁阿密提供服務，倫敦將成歐洲首個合作城市；Moove現於13國29城營運約4.2萬輛車，自稱Uber全球最大車隊夥伴，此輪融資反映Robotaxi基礎設施（車隊營運、充電、維護）正成為與自駕技術本身同等重要的投資焦點。
+
+- 參見：[[sources/ev-news-2026-08-07-10-electrive-en]]
 
 ## Related
 - [[concepts/ADAS智駕系統]]

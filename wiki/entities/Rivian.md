@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [rivian-r2-range-specs, rivian-service-network-2026, rivian-lidar-china-partner-2026, ev-news-2026-07-03-08, ev-news-2026-07-24-28-electrive-en, ev-news-2026-08-03-06-electrive-en]
-updated: 2026-08-06
+sources: [rivian-r2-range-specs, rivian-service-network-2026, rivian-lidar-china-partner-2026, ev-news-2026-07-03-08, ev-news-2026-07-24-28-electrive-en, ev-news-2026-08-03-06-electrive-en, ev-news-2026-08-07-10-electrive-en]
+updated: 2026-08-10
 ---
 
 # Rivian
@@ -116,6 +116,12 @@ R2性能版與Tesla Model Y性能版帳面EPA效率評級完全相同（均105 M
 **觀察**：R2毛利率轉正時點；喬治亞州第二廠投產時程對整體產能的疊加效益。
 
 - 參見：[[sources/ev-news-2026-08-03-06-electrive-en]] | [[countries/美國]]
+
+## 對比Lucid：兩大美國EV新創走向分岔（2026-08）
+
+InsideEVs分析指出，Rivian與Lucid雖同期創立（2021年同期上市、首批交車僅相隔數週），如今處境已明顯分岔：Rivian已啟動R2交付、全年展望上修至6.5~7萬輛，福斯合資單季挹注約3億美元營收，被視為「基本已抵達自家Model 3時刻」；反觀Lucid仍在延後中型平台上市並啟動大規模重整。分析認為分野部分源於產品策略——Rivian早期即推出美國消費者剛需的皮卡/SUV量產車型，Lucid則以高價四門轎車起步、市場空間受限，且推出新車型速度明顯較慢。
+
+- 參見：[[sources/ev-news-2026-08-07-10-electrive-en]] | [[entities/Lucid]]
 
 ## Related
 - [[entities/Tesla]]

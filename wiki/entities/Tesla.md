@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [tesla-ass-nhtsa-probe-closed, tesla-taiwan-march-2026, xiaomi-ev-europe-2027, tesla-4680-musk-strategy, tesla-korea-q1-2026, tesla-q1-2026-earnings, tesla-india-model-y-l, 駐外新聞-美國-2025, ev-news-2026-07-02, ev-news-2026-07-03-08, ev-news-2026-07-09, ev-news-2026-07-10-insideevs-batch, ev-news-2026-07-11, ev-news-2026-07-12-13-digest, ev-news-2026-07-12-13-electrive, ev-news-2026-07-13-digitimes, ev-news-2026-07-14-16-insideevs, ev-news-2026-07-14-16-digitimes, ev-news-2026-07-21-22-digitimes, ev-news-2026-07-20-21-electrive-en, ev-news-2026-07-22-24-digitimes, ev-news-2026-07-22-23-electrive-en, ev-news-2026-07-25-27-digitimes, ev-news-2026-07-28-digitimes, ev-news-2026-07-28-30-electrive-en, ev-news-2026-08-01-03-cn, ev-news-2026-08-01-03-en, ev-news-2026-08-04-06-digitimes, ev-news-2026-08-03-06-electrive-en, ev-news-2026-08-04-06-cn-misc, ev-news-2026-08-07-digitimes, ev-news-2026-08-06-07-cn-misc, ev-news-2026-08-06-07-electrive-en]
-updated: 2026-08-07
+sources: [tesla-ass-nhtsa-probe-closed, tesla-taiwan-march-2026, xiaomi-ev-europe-2027, tesla-4680-musk-strategy, tesla-korea-q1-2026, tesla-q1-2026-earnings, tesla-india-model-y-l, 駐外新聞-美國-2025, ev-news-2026-07-02, ev-news-2026-07-03-08, ev-news-2026-07-09, ev-news-2026-07-10-insideevs-batch, ev-news-2026-07-11, ev-news-2026-07-12-13-digest, ev-news-2026-07-12-13-electrive, ev-news-2026-07-13-digitimes, ev-news-2026-07-14-16-insideevs, ev-news-2026-07-14-16-digitimes, ev-news-2026-07-21-22-digitimes, ev-news-2026-07-20-21-electrive-en, ev-news-2026-07-22-24-digitimes, ev-news-2026-07-22-23-electrive-en, ev-news-2026-07-25-27-digitimes, ev-news-2026-07-28-digitimes, ev-news-2026-07-28-30-electrive-en, ev-news-2026-08-01-03-cn, ev-news-2026-08-01-03-en, ev-news-2026-08-04-06-digitimes, ev-news-2026-08-03-06-electrive-en, ev-news-2026-08-04-06-cn-misc, ev-news-2026-08-07-digitimes, ev-news-2026-08-06-07-cn-misc, ev-news-2026-08-06-07-electrive-en, ev-news-2026-08-06-10-cn-misc, ev-news-2026-08-07-10-electrive-en]
+updated: 2026-08-10
 ---
 
 # Tesla
@@ -391,6 +391,16 @@ Tesla本週在Fremont廠達成累計生產1,000萬輛電動車，自2020年達�
 **觀察**：Terafab記憶體布局是否具體衝擊三星電子、SK海力士、美光市佔；特斯拉/SpaceX市值能否隨Terafab進展回穩。
 
 - 參見：[[sources/ev-news-2026-08-07-digitimes]] | [[sources/ev-news-2026-08-06-07-cn-misc]] | [[sources/ev-news-2026-08-06-07-electrive-en]] | [[countries/台灣]]
+
+**補充細節**：SpaceX年初已收購Musk旗下AI新創xAI（聚焦太空資料中心），合併後新公司6月完成史上最大規模IPO；特斯拉4月已在德州超級工廠北園區動工興建研發中心，作為Terafab前期試驗計畫。
+
+- 參見：[[sources/ev-news-2026-08-06-10-cn-misc]]
+
+## FSD硬體世代反應時間實測：HW4比HW3快近6成（2026-08）
+
+YouTuber實測顯示，搭載HW4與最新FSD v14.3.4的車輛反應時間0.450秒，較搭載HW3且執行舊版v12.6.4的車輛（1.065秒）快57.8%；同為HW3但升級至v14 Lite後反應時間降至0.675秒，較舊軟體快36.6%，顯示軟體升級可大幅改善舊硬體表現但仍不及新硬體。Tesla計劃為新一代HW4倍增記憶體，並開發更強大的AI5晶片以支援更密集的推論模型。
+
+- 參見：[[sources/ev-news-2026-08-07-10-electrive-en]]
 
 ## Related
 - [[entities/NHTSA]]

@@ -6,13 +6,11 @@ source: https://www.digitimes.com.tw/tech/dt/n/shwnws.asp?CnlID=&id=764082&grid_
 tags:
   - Tesla
   - Robotaxi
-  - 自駕車
   - 電動車
-  - 三星電機
-  - LG Innotek
+  - 自駕車
   - Digitimes
   - 未來車供應鏈
-clipped: 2026-08-06
+clipped: 2026-08-09
 ---
 
 # 傳全數拿下Tesla Cybercab相機模組大單　三星電機、樂金Innotek搶佔實體AI先機
