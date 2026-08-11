@@ -1,12 +1,14 @@
 # Wiki Index
 
-Last updated: 2026-08-10 | Pages: 489 | Sources: 428
+Last updated: 2026-08-11 | Pages: 489 | Sources: 430
 
 ---
 
 ## Sources（來源摘要）
 
 ### 電動乘用車
+- [[sources/ev-news-2026-08-11-digitimes]] — Digitimes 1篇：傳東風攜Peugeot進軍南韓，中國EV大軍壓境南韓業界拉警報。(2026-08-11)
+- [[sources/ev-news-2026-08-10-11-electrive-en]] — electrive 2篇：加州MyFirstEV正式開放申請、賓士AMG GT 4門版入門車型定價115,430歐元。(2026-08-11)
 - [[sources/ev-news-2026-08-07-10-electrive-en]] — electrive/InsideEVs批次14篇：CATL市佔擴大至40%、BYD固態電池新專利、Ford Fathom正式命名、Rivian/Lucid財報對比、Tesla FSD硬體反應時間實測、Moove融資2.5億美元。(2026-08-10)
 - [[sources/ev-news-2026-08-07-09-india-en]] — ETAuto/印度批次3篇：印度7月EV零售創紀錄年增66%、Ola Electric轉型經銷商自救、Maruti小型車市場展望。(2026-08-10)
 - [[sources/ev-news-2026-08-06-10-cn-misc]] — 中文財經媒體批次7篇：德國政策補助催生中系車銷售熱潮、本田平台開發外包印度細節、Terafab晶圓廠補充報導、加州MyFirstEV正式啟動、中國AI電動車扛出口內外失衡、鴻華先進接單破千台、泰國MG電動車自燃。(2026-08-10)

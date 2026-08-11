@@ -1982,3 +1982,13 @@ Pages 375 → 406，Sources 315 → 346
 - New pages created: 無
 - Key additions: CATL上半年全球電池市佔擴大至近40%（與比亞迪合計逾54%）；Ford電動皮卡正式命名Fathom（起價29,945美元）＋業界評論EV發表週期過長；Rivian/Lucid財報對比分析（兩大美國EV新創走向分岔）；德國7月BEV掛牌+61.7%但比亞迪+365.4%成最大受益者（安永警示補貼帶動假性需求）；加州MyFirstEV正式啟動（紐森親自宣布）；印度7月EV零售創紀錄年增66%＋Ola Electric市佔崩跌轉型經銷商；福斯傳與JSW集團合資印度EV生產；本田平台外包印度Tata Technologies補充細節（1948年來首次年虧損背景）；中國7月出口+23.9%但內需疲弱、外熱內冷失衡加劇；Moove融資2.5億美元擴大Robotaxi車隊布局；Ostrava再訂70輛Solaris電動巴士；鴻華先進Model B接單破千台
 - 備註: 本次比對發現7篇8月10日「新增」檔案實為8月06~07既有報導的重複剪輯（僅frontmatter標籤/clipped日期不同，內文一致），依既有慣例僅保留較早/較完整版本，重複檔案不計入ingest範圍：豐田集團供應鏈北美採購、鈴木歐洲BEV布局、AI驅動智慧電動車轉型、全球儲能電池出貨、歐美IDM大廠、美國禁鎢電池廢料出口（以上6篇為8-04-06/8-07批次重複）、EV Reveals Have Gotten Way Too Drawn Out（8-08版本已收錄）、MG EV fire（8-08版本已收錄）、Rivian and Lucid are in very different places（已收錄8-09版本What Rivian And Lucid Latest Earnings Say）
+
+## [2026-08-11] ingest | ev-news-2026-08-11（三篇新文章：electrive 2、Digitimes 1；另2篇經tail-diff比對確認為8月07/10既有報導之重複剪輯，未計入）
+- Source pages（新建2頁）：
+  - [[sources/ev-news-2026-08-10-11-electrive-en]] — 加州MyFirstEV正式開放申請（總規模2.71億美元）、賓士AMG GT 4門版入門車型定價115,430歐元
+  - [[sources/ev-news-2026-08-11-digitimes]] — 傳東風攜Peugeot進軍南韓，中國EV大軍壓境南韓業界拉警報
+- Pages updated: 無concept
+- Countries updated: [[countries/美國]], [[countries/韓國]]
+- New pages created: 無
+- Key additions: 加州MyFirstEV正式開放申請（總規模2.71億美元，太陽能發電已超越天然氣成州內最大電力來源）；東風攜Peugeot評估進軍南韓（Concept 6/Concept 8），與吉利極氪、奇瑞×KG Mobility並列中國車廠叩關南韓的最新案例，南韓業界呼籲政策支援未獲採納
+- 備註: 2篇重複剪輯已排除：全球儲能電池出貨暴增71%南韓雙雄搶進北美新戰場（8-07既有版本）、本田首度外包車輛平台開發攜手印度Tata Technologies拚降本（8-10既有版本）
