@@ -1,12 +1,14 @@
 # Wiki Index
 
-Last updated: 2026-08-11 | Pages: 489 | Sources: 430
+Last updated: 2026-08-12 | Pages: 489 | Sources: 432
 
 ---
 
 ## Sources（來源摘要）
 
 ### 電動乘用車
+- [[sources/ev-news-2026-08-11-12-electrive-en]] — electrive/InsideEVs批次15篇：GM退出三星SDI電池合資、CATL固態電池2027目標、Chevrolet退出中國、Kia EV3美國定價、Sila獲美防部14億美元融資、多起UK巴士充電基建新聞。(2026-08-12)
+- [[sources/ev-news-2026-08-11-12-digitimes]] — Digitimes/中文媒體批次8篇：三星SDI退出GM電池合資、南韓LFP轉單中國龍蟠、德國補貼最大贏家其實是Tesla、立凱電奪Tesla 20年LFP大單、豐田2027年產量拚新高、GM 45億美元供應鏈韌性計畫。(2026-08-12)
 - [[sources/ev-news-2026-08-11-digitimes]] — Digitimes 1篇：傳東風攜Peugeot進軍南韓，中國EV大軍壓境南韓業界拉警報。(2026-08-11)
 - [[sources/ev-news-2026-08-10-11-electrive-en]] — electrive 2篇：加州MyFirstEV正式開放申請、賓士AMG GT 4門版入門車型定價115,430歐元。(2026-08-11)
 - [[sources/ev-news-2026-08-07-10-electrive-en]] — electrive/InsideEVs批次14篇：CATL市佔擴大至40%、BYD固態電池新專利、Ford Fathom正式命名、Rivian/Lucid財報對比、Tesla FSD硬體反應時間實測、Moove融資2.5億美元。(2026-08-10)

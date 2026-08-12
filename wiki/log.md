@@ -1992,3 +1992,12 @@ Pages 375 → 406，Sources 315 → 346
 - New pages created: 無
 - Key additions: 加州MyFirstEV正式開放申請（總規模2.71億美元，太陽能發電已超越天然氣成州內最大電力來源）；東風攜Peugeot評估進軍南韓（Concept 6/Concept 8），與吉利極氪、奇瑞×KG Mobility並列中國車廠叩關南韓的最新案例，南韓業界呼籲政策支援未獲採納
 - 備註: 2篇重複剪輯已排除：全球儲能電池出貨暴增71%南韓雙雄搶進北美新戰場（8-07既有版本）、本田首度外包車輛平台開發攜手印度Tata Technologies拚降本（8-10既有版本）
+
+## [2026-08-12] ingest | ev-news-2026-08-11-12（兩批次共23篇：electrive/InsideEVs 15、Digitimes/中文媒體8）
+- Source pages（新建2頁）：
+  - [[sources/ev-news-2026-08-11-12-electrive-en]] — GM退出三星SDI電池合資、CATL固態電池2027目標、Chevrolet退出中國、Kia EV3美國定價、Sila獲美防部14億美元融資、多起UK巴士充電基建新聞
+  - [[sources/ev-news-2026-08-11-12-digitimes]] — 三星SDI退出GM電池合資、南韓LFP轉單中國龍蟠、德國補貼最大贏家其實是Tesla、立凱電奪Tesla 20年LFP大單、豐田2027年產量拚新高、GM 45億美元供應鏈韌性計畫
+- Pages updated: [[entities/寧德時代]], [[entities/豐田]], [[entities/起亞]], [[entities/比亞迪]], [[concepts/電池技術路線]]
+- Countries updated: [[countries/德國]], [[countries/韓國]], [[countries/台灣]], [[countries/英國]]
+- New pages created: 無
+- Key additions: GM同週宣布Chevrolet退出中國市場並再退出三星SDI電池合資（改推45億美元供應鏈韌性計畫）；CATL固態電池試產時程與比亞迪對齊2027年；德國BAFA官方數據澄清EV補貼最大贏家其實是Tesla（非中系品牌，比亞迪僅440輛受補貼遠低於Model 3的1,500+輛）；南韓三星SDI收回電池廠獨資權、LGES轉向中國龍蟠科技鎖35.7億美元LFP長約；台灣立凱電取得Tesla 20年LFP前驅體供應合約（新廠可望落腳台南）；豐田2027年生產計畫瞄準歷史新高（HEV需求回溫）；Kia EV3美國定價31,385美元起（較預期便宜）；美國防部提供Sila最高14億美元融資擴大負極材料產能；英國DRIVE35計畫首波撥款6,500萬英鎊+多城電動巴士部署（Stagecoach赫爾、Arriva倫敦）
