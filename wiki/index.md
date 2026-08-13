@@ -1,10 +1,13 @@
 # Wiki Index
 
-Last updated: 2026-08-12 | Pages: 489 | Sources: 432
+Last updated: 2026-08-13 | Pages: 489 | Sources: 433
 
 ---
 
 ## Sources（來源摘要）
+
+### 電動乘用車
+- [[sources/ev-news-2026-08-13-digitimes]] — Digitimes批次7篇：德系車廠「中國速度」失守、現代汽車集團EV排名遭比亞迪超車、寧德時代跨入eVTOL電池、福特Lincoln回流美國、中國鋰鈉稅差催動鈉電池商用化。(2026-08-13)
 
 ### 電動乘用車
 - [[sources/ev-news-2026-08-11-12-electrive-en]] — electrive/InsideEVs批次15篇：GM退出三星SDI電池合資、CATL固態電池2027目標、Chevrolet退出中國、Kia EV3美國定價、Sila獲美防部14億美元融資、多起UK巴士充電基建新聞。(2026-08-12)

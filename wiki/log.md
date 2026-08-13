@@ -2001,3 +2001,11 @@ Pages 375 → 406，Sources 315 → 346
 - Countries updated: [[countries/德國]], [[countries/韓國]], [[countries/台灣]], [[countries/英國]]
 - New pages created: 無
 - Key additions: GM同週宣布Chevrolet退出中國市場並再退出三星SDI電池合資（改推45億美元供應鏈韌性計畫）；CATL固態電池試產時程與比亞迪對齊2027年；德國BAFA官方數據澄清EV補貼最大贏家其實是Tesla（非中系品牌，比亞迪僅440輛受補貼遠低於Model 3的1,500+輛）；南韓三星SDI收回電池廠獨資權、LGES轉向中國龍蟠科技鎖35.7億美元LFP長約；台灣立凱電取得Tesla 20年LFP前驅體供應合約（新廠可望落腳台南）；豐田2027年生產計畫瞄準歷史新高（HEV需求回溫）；Kia EV3美國定價31,385美元起（較預期便宜）；美國防部提供Sila最高14億美元融資擴大負極材料產能；英國DRIVE35計畫首波撥款6,500萬英鎊+多城電動巴士部署（Stagecoach赫爾、Arriva倫敦）
+
+## [2026-08-13] ingest | ev-news-2026-08-13（Digitimes 7篇）
+- Source pages（新建1頁）：
+  - [[sources/ev-news-2026-08-13-digitimes]] — 德系車廠「中國速度」失守、現代汽車集團EV排名遭比亞迪超車、寧德時代跨入eVTOL電池、福特Lincoln回流美國、中國鋰鈉稅差催動鈉電池商用化、台灣廣錠能源儲能案動土、立凱電美國擴產布局背景
+- Pages updated: [[entities/Volkswagen]], [[entities/寧德時代]], [[entities/現代汽車]], [[entities/福特]], [[concepts/鈉離子電池]]
+- Countries updated: [[countries/中國]], [[countries/台灣]]
+- New pages created: 無
+- Key additions: 「中國速度」（150品牌、18個月一代車型迭代）碾壓德系賓士/BMW/福斯品牌優勢與市佔；現代汽車集團排除中國市場仍遭比亞迪超車、EV排名降至第4；寧德時代航空電池通過安全測試正式跨入eVTOL低空經濟；福特終止Lincoln中國逆向進口、產線2030年回流美國；中國28個月「鋰鈉稅差」窗口催動鈉電池商用化，美系鈉電池新創陷售價過高與補助排除中國材料雙重困境（唯Tesla/福特/GM等大型車廠切入門檻較低）；台灣廣錠能源東盟實業儲能案動土（1Q27商轉）；立凱電回歸美國製造體系的政策背景補充（台南先投產、下階段赴美擴產配合Tesla）

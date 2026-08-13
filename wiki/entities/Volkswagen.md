@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [vw-restructure-china-offensive-2026, ev-news-2026-06-27-29-en, ev-news-2026-06-30-07-01, ev-news-2026-07-02, ev-news-2026-07-03-08, ev-news-2026-07-10-supplement, ev-news-2026-07-12-13-electrive, ev-news-2026-07-14-16-electrive, ev-news-2026-07-17-20-digitimes, ev-news-2026-07-20-21-electrive-en, ev-news-2026-07-22-23-electrive-en, ev-news-2026-07-25-27-digitimes, ev-news-2026-07-24-27-electrive-en, ev-news-2026-07-24-28-electrive-en, ev-news-2026-07-29-31-digitimes, ev-news-2026-07-28-30-electrive-en, ev-news-2026-08-04-06-digitimes, ev-news-2026-08-03-06-electrive-en, ev-news-2026-08-07-10-electrive-en]
-updated: 2026-08-10
+sources: [vw-restructure-china-offensive-2026, ev-news-2026-06-27-29-en, ev-news-2026-06-30-07-01, ev-news-2026-07-02, ev-news-2026-07-03-08, ev-news-2026-07-10-supplement, ev-news-2026-07-12-13-electrive, ev-news-2026-07-14-16-electrive, ev-news-2026-07-17-20-digitimes, ev-news-2026-07-20-21-electrive-en, ev-news-2026-07-22-23-electrive-en, ev-news-2026-07-25-27-digitimes, ev-news-2026-07-24-27-electrive-en, ev-news-2026-07-24-28-electrive-en, ev-news-2026-07-29-31-digitimes, ev-news-2026-07-28-30-electrive-en, ev-news-2026-08-04-06-digitimes, ev-news-2026-08-03-06-electrive-en, ev-news-2026-08-07-10-electrive-en, ev-news-2026-08-13-digitimes]
+updated: 2026-08-13
 ---
 
 # Volkswagen（福斯集團）
@@ -199,6 +199,18 @@ VW 正式評估將中國開發的 EREV 車型引入歐洲市場，以規避 EU B
 保時捷計劃至2035年裁減約9,000個職位（逾21%員工），主要透過自然離職與提前退休。文章回顧其電動化路線反覆搖擺：Macan轉純電後因高價+消費者偏好燃油被迫重新開發燃油版；電動Boxster/Cayman一再延後、改推燃油版；新款Cayenne Electric雖實測表現亮眼卻並非取代燃油版而是並行銷售。中國銷量已從2021年峰值95,671輛跌至去年不到42,000輛。文章指出保時捷等小量豪華車廠反覆調整車型規劃代價高昂，資本受限下未來更可能專注燃油車獲利而非追求EV「登月計畫」。
 
 - 參見：[[sources/ev-news-2026-07-24-28-electrive-en]] | [[countries/德國]] | [[countries/中國]]
+
+## 「中國速度」席捲中國車市，德系品牌優勢流失（2026-08）
+
+> **結論**：賓士、BMW、福斯等德系車廠在中國市場品牌優勢與市佔雙雙流失，核心癥結不只是價格戰，更在於中國車廠「18個月一代」的產品迭代速度遠超德系傳統「4年一代」節奏，車用軟體與電動化技術也已落後。
+
+- 銷量對比懸殊：賓士2026上半中國僅售1,153輛，同期小米同價位SU7交付逾8萬輛；摩根大通指出德系車廠不願像中國廠商承受虧本降價壓力，是市佔流失主因
+- 「中國速度」結構性優勢：中國政府支持下已催生約150個汽車品牌，2026上半合計推出約500款新車或改款車型，多數品牌18個月即可推新車或改版並立即量產，德系車廠仍維持燃油車時代4年以上的產品週期
+- 中國車廠本身亦非高枕無憂：比亞迪2026年Q1獲利年減55%（3年多來新低）、吉利同期收益下滑，顯示中國車市內捲競爭激烈程度並非只衝擊外資品牌
+
+**觀察**：福斯是否加快在中國車型迭代速度以縮短與本土品牌的世代差距；德系三強能否在軟體定義汽車（SDV）能力上實質追趕。
+
+- 參見：[[sources/ev-news-2026-08-13-digitimes]] | [[countries/中國]] | [[entities/比亞迪]]
 
 ## Related
 - [[entities/BMW]]
