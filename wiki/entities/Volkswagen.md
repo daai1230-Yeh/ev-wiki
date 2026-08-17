@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [vw-restructure-china-offensive-2026, ev-news-2026-06-27-29-en, ev-news-2026-06-30-07-01, ev-news-2026-07-02, ev-news-2026-07-03-08, ev-news-2026-07-10-supplement, ev-news-2026-07-12-13-electrive, ev-news-2026-07-14-16-electrive, ev-news-2026-07-17-20-digitimes, ev-news-2026-07-20-21-electrive-en, ev-news-2026-07-22-23-electrive-en, ev-news-2026-07-25-27-digitimes, ev-news-2026-07-24-27-electrive-en, ev-news-2026-07-24-28-electrive-en, ev-news-2026-07-29-31-digitimes, ev-news-2026-07-28-30-electrive-en, ev-news-2026-08-04-06-digitimes, ev-news-2026-08-03-06-electrive-en, ev-news-2026-08-07-10-electrive-en, ev-news-2026-08-13-digitimes]
-updated: 2026-08-13
+sources: [vw-restructure-china-offensive-2026, ev-news-2026-06-27-29-en, ev-news-2026-06-30-07-01, ev-news-2026-07-02, ev-news-2026-07-03-08, ev-news-2026-07-10-supplement, ev-news-2026-07-12-13-electrive, ev-news-2026-07-14-16-electrive, ev-news-2026-07-17-20-digitimes, ev-news-2026-07-20-21-electrive-en, ev-news-2026-07-22-23-electrive-en, ev-news-2026-07-25-27-digitimes, ev-news-2026-07-24-27-electrive-en, ev-news-2026-07-24-28-electrive-en, ev-news-2026-07-29-31-digitimes, ev-news-2026-07-28-30-electrive-en, ev-news-2026-08-04-06-digitimes, ev-news-2026-08-03-06-electrive-en, ev-news-2026-08-07-10-electrive-en, ev-news-2026-08-13-digitimes, ev-news-2026-08-14-17-digitimes]
+updated: 2026-08-17
 ---
 
 # Volkswagen（福斯集團）
@@ -211,6 +211,19 @@ VW 正式評估將中國開發的 EREV 車型引入歐洲市場，以規避 EU B
 **觀察**：福斯是否加快在中國車型迭代速度以縮短與本土品牌的世代差距；德系三強能否在軟體定義汽車（SDV）能力上實質追趕。
 
 - 參見：[[sources/ev-news-2026-08-13-digitimes]] | [[countries/中國]] | [[entities/比亞迪]]
+
+## 保時捷脫離福斯碳排池，改與小鵬結盟（2026-08）
+
+> **結論**：保時捷正式退出福斯集團「封閉式碳排池」、改與小鵬汽車共組「開放式碳排池」因應歐盟2026-27年減排要求，凸顯主流車廠「多元動力策略」（降BEV加碼燃油/HEV）與嚴格碳排框架之間的結構性矛盾，也顯示福斯集團自身碳排壓力已大到須放行子品牌自尋出路。
+
+**主因**：
+- 分拆邏輯：福斯與保時捷BEV銷售均不如預期，轉向多元動力策略後雙方碳排負擔同步加重，分拆反而可降低整體減排壓力；保時捷向歐盟提交文件確認已退出福斯碳排池，改與小鵬（福斯持股約5%）共組新碳排池
+- 福斯自身壓力沉重：2025年集團碳排預估每公里100克已超歐盟93.6克標準，若2026-27年未改善最高恐面臨15億歐元罰款（每年約4~5億歐元）；歐盟現行電動化程度較高的中國車廠及Tesla反而是減排框架下的相對受益者
+- 開放式碳排池生態成形：現有陣營包括Tesla（含福特、本田、馬自達、鈴木）、賓士（含Volvo、極星、Smart），新增保時捷×小鵬陣營，反映「與電動化領先者結盟換取合規空間」已成主流車廠應對歐盟減排框架的共同策略
+
+**觀察**：保時捷×小鵬碳排池是否吸引其他第三方車廠加入；福斯集團在無保時捷分擔後能否於2026-27年達標。
+
+- 參見：[[sources/ev-news-2026-08-14-17-digitimes]] | [[entities/小鵬汽車]] | [[countries/歐洲]]
 
 ## Related
 - [[entities/BMW]]

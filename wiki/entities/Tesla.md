@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [tesla-ass-nhtsa-probe-closed, tesla-taiwan-march-2026, xiaomi-ev-europe-2027, tesla-4680-musk-strategy, tesla-korea-q1-2026, tesla-q1-2026-earnings, tesla-india-model-y-l, 駐外新聞-美國-2025, ev-news-2026-07-02, ev-news-2026-07-03-08, ev-news-2026-07-09, ev-news-2026-07-10-insideevs-batch, ev-news-2026-07-11, ev-news-2026-07-12-13-digest, ev-news-2026-07-12-13-electrive, ev-news-2026-07-13-digitimes, ev-news-2026-07-14-16-insideevs, ev-news-2026-07-14-16-digitimes, ev-news-2026-07-21-22-digitimes, ev-news-2026-07-20-21-electrive-en, ev-news-2026-07-22-24-digitimes, ev-news-2026-07-22-23-electrive-en, ev-news-2026-07-25-27-digitimes, ev-news-2026-07-28-digitimes, ev-news-2026-07-28-30-electrive-en, ev-news-2026-08-01-03-cn, ev-news-2026-08-01-03-en, ev-news-2026-08-04-06-digitimes, ev-news-2026-08-03-06-electrive-en, ev-news-2026-08-04-06-cn-misc, ev-news-2026-08-07-digitimes, ev-news-2026-08-06-07-cn-misc, ev-news-2026-08-06-07-electrive-en, ev-news-2026-08-06-10-cn-misc, ev-news-2026-08-07-10-electrive-en]
-updated: 2026-08-10
+sources: [tesla-ass-nhtsa-probe-closed, tesla-taiwan-march-2026, xiaomi-ev-europe-2027, tesla-4680-musk-strategy, tesla-korea-q1-2026, tesla-q1-2026-earnings, tesla-india-model-y-l, 駐外新聞-美國-2025, ev-news-2026-07-02, ev-news-2026-07-03-08, ev-news-2026-07-09, ev-news-2026-07-10-insideevs-batch, ev-news-2026-07-11, ev-news-2026-07-12-13-digest, ev-news-2026-07-12-13-electrive, ev-news-2026-07-13-digitimes, ev-news-2026-07-14-16-insideevs, ev-news-2026-07-14-16-digitimes, ev-news-2026-07-21-22-digitimes, ev-news-2026-07-20-21-electrive-en, ev-news-2026-07-22-24-digitimes, ev-news-2026-07-22-23-electrive-en, ev-news-2026-07-25-27-digitimes, ev-news-2026-07-28-digitimes, ev-news-2026-07-28-30-electrive-en, ev-news-2026-08-01-03-cn, ev-news-2026-08-01-03-en, ev-news-2026-08-04-06-digitimes, ev-news-2026-08-03-06-electrive-en, ev-news-2026-08-04-06-cn-misc, ev-news-2026-08-07-digitimes, ev-news-2026-08-06-07-cn-misc, ev-news-2026-08-06-07-electrive-en, ev-news-2026-08-06-10-cn-misc, ev-news-2026-08-07-10-electrive-en, ev-news-2026-08-13-15-electrive-en]
+updated: 2026-08-15
 ---
 
 # Tesla
@@ -401,6 +401,12 @@ Tesla本週在Fremont廠達成累計生產1,000萬輛電動車，自2020年達�
 YouTuber實測顯示，搭載HW4與最新FSD v14.3.4的車輛反應時間0.450秒，較搭載HW3且執行舊版v12.6.4的車輛（1.065秒）快57.8%；同為HW3但升級至v14 Lite後反應時間降至0.675秒，較舊軟體快36.6%，顯示軟體升級可大幅改善舊硬體表現但仍不及新硬體。Tesla計劃為新一代HW4倍增記憶體，並開發更強大的AI5晶片以支援更密集的推論模型。
 
 - 參見：[[sources/ev-news-2026-08-07-10-electrive-en]]
+
+## 「飛行版」二代Roadster傳本月發表，搭載SpaceX推進器（2026-08）
+
+第二代Roadster自2017年首度發表以來歷經多次延遲，傳將於SpaceX德州McGregor測試場展示搭載SpaceX冷氣推進器技術的限量版本（不具道路合法性、遙控演示，售價恐達數十萬至百萬美元），同場並展示標準版Roadster。
+
+- 參見：[[sources/ev-news-2026-08-13-15-electrive-en]]
 
 ## Related
 - [[entities/NHTSA]]
