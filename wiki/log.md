@@ -2031,3 +2031,15 @@ Pages 375 → 406，Sources 315 → 346
 - New pages created: 無
 - Key additions: 現代汽車集團與福斯集團全球銷量差距由76萬輛收窄至53萬輛（低中國依賴、產品組合彈性、獲利能力三方面優勢）；GM正式證實終止Chevrolet中國零售聚焦出口；吉利創辦人李書福卸任汽車板塊CEO（安聰慧接任）；Waymo取得加州史上最大範圍擴張＋加州DMV首發自駕重型卡車路測許可（Aurora、Kodiak）；Walmart/Ionna充電價格戰浮現；中國祭「帶電池報廢」令堵住7成退役電池黑市；韓系三雄（三星SDI、LGES、SK On）持續退出北美電池合資轉ESS產能；陸製電動巴士墨西哥市占逾8成引本土DINA「Taruk」反制；地平線J7晶片瞄準2027年量產對標Tesla AI5
 - 備註: 4篇重複剪輯已排除（寧德時代拓展電池版圖eVTOL、中國AI電池技術深植全球供應鏈、材料供給震盪與稅負新規、全球電動車7月銷量年增9%，均為8月13/17既有報導的無空格/連字號變體重複剪輯）
+
+## [2026-08-19] ingest | ev-news-2026-08-18-19（四批次共17篇：electrive/InsideEVs 8、Digitimes 3、ETAuto/印度3、中文媒體3；另1篇經比對確認為既有報導重複剪輯，未計入）
+- Source pages（新建4頁）：
+  - [[sources/ev-news-2026-08-18-19-electrive-en]] — 吉利借道Volvo歐洲廠生產、現代Ioniq 3土耳其量產、LGES密西根新廠投產、Lucid Gravity歐洲改款降價、Mahle電動卡車增程系統
+  - [[sources/ev-news-2026-08-19-digitimes]] — Tesla資本支出翻倍壓注AI與Robotaxi、吉利出口翻倍仍不敵比亞迪、歐盟加嚴二次電池回收規範
+  - [[sources/ev-news-2026-08-19-india-en]] — 印度提案延長EV使用年限5年、Mahindra Scorpio Lifestyler皮卡、VinFast亞洲業務執行長人事案
+  - [[sources/ev-news-2026-08-18-19-cn-misc]] — 墨西哥推國產電動巴士、法拉利Luce拍出12.8億天價、泰國擬調降汽車貨物稅
+- Pages updated: [[entities/吉利汽車]], [[entities/Tesla]], [[entities/現代汽車]], [[concepts/電池回收]], [[concepts/電動卡車市場]]
+- Countries updated: [[countries/東南亞]]
+- New pages created: 無
+- Key additions: 吉利借道Volvo歐洲廠2028年起生產較高價車型、Q2獲利年增36%但出口仍不敵比亞迪；Tesla資本支出翻倍達58億美元重押AI與Robotaxi（Cybercab傳最快8月上路載客測試）；現代Ioniq 3土耳其正式投產（首家外資車廠在當地產電動車）；歐盟8月12日草案對境內回收材料計算加成1.3倍，材料可追溯性成電池廠新合規門檻；Mahle發表電動卡車增程系統瞄準中國商用車廠歐洲攻勢；泰國擬調降汽車貨物稅由吸引投資轉向要求在地化；墨西哥/法拉利Luce/印度相關人事與政策新聞
+- 備註: 1篇重複剪輯已排除（全球電動車7月銷量年增9%歐洲強勁成長抵銷中美市場疲弱，為8月18日既有報導的無百分比符號變體重複剪輯）

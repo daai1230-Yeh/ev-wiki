@@ -1,10 +1,16 @@
 # Wiki Index
 
-Last updated: 2026-08-18 | Pages: 489 | Sources: 439
+Last updated: 2026-08-19 | Pages: 489 | Sources: 443
 
 ---
 
 ## Sources（來源摘要）
+
+### 電動乘用車
+- [[sources/ev-news-2026-08-18-19-electrive-en]] — electrive/InsideEVs批次8篇：吉利借道Volvo歐洲廠生產、現代Ioniq 3土耳其量產、LGES密西根新廠投產、Lucid Gravity歐洲改款降價、Mahle電動卡車增程系統。(2026-08-19)
+- [[sources/ev-news-2026-08-19-digitimes]] — Digitimes批次3篇：Tesla資本支出翻倍壓注AI與Robotaxi、吉利出口翻倍仍不敵比亞迪、歐盟加嚴二次電池回收規範。(2026-08-19)
+- [[sources/ev-news-2026-08-19-india-en]] — ETAuto/印度批次3篇：印度提案延長EV使用年限5年、Mahindra Scorpio Lifestyler皮卡、VinFast亞洲業務執行長人事案。(2026-08-19)
+- [[sources/ev-news-2026-08-18-19-cn-misc]] — 中文財經媒體批次3篇：墨西哥推國產電動巴士、法拉利Luce拍出12.8億天價、泰國擬調降汽車貨物稅。(2026-08-19)
 
 ### 電動乘用車
 - [[sources/ev-news-2026-08-17-18-electrive-en]] — electrive/InsideEVs批次13篇：GM終止Chevrolet中國零售、吉利創辦人李書福卸任、Waymo加州大擴張、加州自駕卡車解禁、Walmart/Ionna充電價格戰。(2026-08-18)

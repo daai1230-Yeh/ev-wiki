@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [tesla-ass-nhtsa-probe-closed, tesla-taiwan-march-2026, xiaomi-ev-europe-2027, tesla-4680-musk-strategy, tesla-korea-q1-2026, tesla-q1-2026-earnings, tesla-india-model-y-l, 駐外新聞-美國-2025, ev-news-2026-07-02, ev-news-2026-07-03-08, ev-news-2026-07-09, ev-news-2026-07-10-insideevs-batch, ev-news-2026-07-11, ev-news-2026-07-12-13-digest, ev-news-2026-07-12-13-electrive, ev-news-2026-07-13-digitimes, ev-news-2026-07-14-16-insideevs, ev-news-2026-07-14-16-digitimes, ev-news-2026-07-21-22-digitimes, ev-news-2026-07-20-21-electrive-en, ev-news-2026-07-22-24-digitimes, ev-news-2026-07-22-23-electrive-en, ev-news-2026-07-25-27-digitimes, ev-news-2026-07-28-digitimes, ev-news-2026-07-28-30-electrive-en, ev-news-2026-08-01-03-cn, ev-news-2026-08-01-03-en, ev-news-2026-08-04-06-digitimes, ev-news-2026-08-03-06-electrive-en, ev-news-2026-08-04-06-cn-misc, ev-news-2026-08-07-digitimes, ev-news-2026-08-06-07-cn-misc, ev-news-2026-08-06-07-electrive-en, ev-news-2026-08-06-10-cn-misc, ev-news-2026-08-07-10-electrive-en, ev-news-2026-08-13-15-electrive-en]
-updated: 2026-08-15
+sources: [tesla-ass-nhtsa-probe-closed, tesla-taiwan-march-2026, xiaomi-ev-europe-2027, tesla-4680-musk-strategy, tesla-korea-q1-2026, tesla-q1-2026-earnings, tesla-india-model-y-l, 駐外新聞-美國-2025, ev-news-2026-07-02, ev-news-2026-07-03-08, ev-news-2026-07-09, ev-news-2026-07-10-insideevs-batch, ev-news-2026-07-11, ev-news-2026-07-12-13-digest, ev-news-2026-07-12-13-electrive, ev-news-2026-07-13-digitimes, ev-news-2026-07-14-16-insideevs, ev-news-2026-07-14-16-digitimes, ev-news-2026-07-21-22-digitimes, ev-news-2026-07-20-21-electrive-en, ev-news-2026-07-22-24-digitimes, ev-news-2026-07-22-23-electrive-en, ev-news-2026-07-25-27-digitimes, ev-news-2026-07-28-digitimes, ev-news-2026-07-28-30-electrive-en, ev-news-2026-08-01-03-cn, ev-news-2026-08-01-03-en, ev-news-2026-08-04-06-digitimes, ev-news-2026-08-03-06-electrive-en, ev-news-2026-08-04-06-cn-misc, ev-news-2026-08-07-digitimes, ev-news-2026-08-06-07-cn-misc, ev-news-2026-08-06-07-electrive-en, ev-news-2026-08-06-10-cn-misc, ev-news-2026-08-07-10-electrive-en, ev-news-2026-08-13-15-electrive-en, ev-news-2026-08-19-digitimes]
+updated: 2026-08-19
 ---
 
 # Tesla
@@ -407,6 +407,19 @@ YouTuber實測顯示，搭載HW4與最新FSD v14.3.4的車輛反應時間0.450�
 第二代Roadster自2017年首度發表以來歷經多次延遲，傳將於SpaceX德州McGregor測試場展示搭載SpaceX冷氣推進器技術的限量版本（不具道路合法性、遙控演示，售價恐達數十萬至百萬美元），同場並展示標準版Roadster。
 
 - 參見：[[sources/ev-news-2026-08-13-15-electrive-en]]
+
+## 資本支出翻倍至58億美元，重金壓注AI與Robotaxi擺脫傳統車廠定位（2026-08）
+
+> **結論**：Cybercab傳最快8月啟動美國公開道路載客測試，Tesla資本支出較去年翻倍達近58億美元、絕大部分投入AI專案，凸顯Musk正押注全公司資源將Tesla重新定位為AI/自駕企業而非傳統車廠，但Robotaxi累計無人駕駛里程（38萬英里）仍與Waymo（逾2.2億英里）差距懸殊。
+
+**主因**：
+- Cybercab測試進度：奧斯汀現登記186輛改裝Model Y（加裝自潔鏡頭及第二套通訊單元）提供載客服務，尚不清楚Cybercab將全數汰換Model Y車隊或並行營運；Musk已鬆口2026年不再預期Cybercab大規模量產
+- 資本支出結構轉向：7月財報揭露資本支出年增逾1倍達近58億美元，絕大部分投入AI專案，呼應Musk反覆強調「市場不應只把Tesla當傳統車廠」的策略定位
+- 與Waymo規模差距仍大：Tesla Robotaxi各據點累計僅38萬英里無人駕駛里程，Waymo自2020年起商業化營運已累計逾2.2億英里；Tesla進軍邁阿密等新市場已逐步減少隨車安全員配置以壓低營運成本
+
+**觀察**：Cybercab公開道路載客測試實際啟動時程；Tesla能否在無人駕駛里程規模上縮小與Waymo的差距。
+
+- 參見：[[sources/ev-news-2026-08-19-digitimes]] | [[entities/Waymo]] | [[concepts/Robotaxi自動計程車]]
 
 ## Related
 - [[entities/NHTSA]]
