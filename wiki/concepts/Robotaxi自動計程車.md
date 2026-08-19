@@ -1,7 +1,7 @@
 ---
 tags: [concept]
-sources: [robotaxi-market-2026, china-autonomous-driving-overseas, europe-robotaxi-verne-ponyai, waymo-miami-orlando-expansion, taiwan-av-special-scenes, japan-2030-autonomous-ai-strategy, ratp-karsan-autonomous-bus-paris, av-physical-ai-trends-2026, tesla-fsd-eu-expansion-2026, tesla-robotaxi-texas-reality-2026, uber-robotaxi-europe-expansion-2026, waymo-battery-secondlife-colorado-recycling-2026, toyota-tier-iv-l4-investment-2026, waymo-arizona-expansion-2026, tesla-cybercab-specs-2026, mobileye-robotaxi-2026, tesla-fsd-netherlands-2026, ev-news-2026-06-22, ev-news-2026-07-13-digitimes, ev-news-2026-07-14-16-electrive, ev-news-2026-07-21-22-digitimes, ev-news-2026-07-22-24-digitimes, ev-news-2026-07-22-23-electrive-en, ev-news-2026-07-28-digitimes, ev-news-2026-07-28-30-electrive-en, ev-news-2026-08-01-03-en, ev-news-2026-08-04-06-digitimes, ev-news-2026-08-03-06-electrive-en, ev-news-2026-08-06-07-electrive-en, ev-news-2026-08-07-10-electrive-en]
-updated: 2026-08-10
+sources: [robotaxi-market-2026, china-autonomous-driving-overseas, europe-robotaxi-verne-ponyai, waymo-miami-orlando-expansion, taiwan-av-special-scenes, japan-2030-autonomous-ai-strategy, ratp-karsan-autonomous-bus-paris, av-physical-ai-trends-2026, tesla-fsd-eu-expansion-2026, tesla-robotaxi-texas-reality-2026, uber-robotaxi-europe-expansion-2026, waymo-battery-secondlife-colorado-recycling-2026, toyota-tier-iv-l4-investment-2026, waymo-arizona-expansion-2026, tesla-cybercab-specs-2026, mobileye-robotaxi-2026, tesla-fsd-netherlands-2026, ev-news-2026-06-22, ev-news-2026-07-13-digitimes, ev-news-2026-07-14-16-electrive, ev-news-2026-07-21-22-digitimes, ev-news-2026-07-22-24-digitimes, ev-news-2026-07-22-23-electrive-en, ev-news-2026-07-28-digitimes, ev-news-2026-07-28-30-electrive-en, ev-news-2026-08-01-03-en, ev-news-2026-08-04-06-digitimes, ev-news-2026-08-03-06-electrive-en, ev-news-2026-08-06-07-electrive-en, ev-news-2026-08-07-10-electrive-en, ev-news-2026-08-17-18-electrive-en]
+updated: 2026-08-18
 ---
 
 # Robotaxi（自動計程車）
@@ -397,6 +397,18 @@ Mobileye 宣布成立垂直整合 Robotaxi 部門，從技術供應商轉型為�
 自駕車隊營運商Moove完成C輪融資2.5億美元（估值21億美元，Mubadala領投、Toyota成長基金參與），資金用於擴大自駕車隊及興建「Nests」（自駕車充電維護場站）。核心策略夥伴為Waymo，已在鳳凰城、邁阿密提供服務，倫敦將成歐洲首個合作城市；Moove現於13國29城營運約4.2萬輛車，自稱Uber全球最大車隊夥伴，此輪融資反映Robotaxi基礎設施（車隊營運、充電、維護）正成為與自駕技術本身同等重要的投資焦點。
 
 - 參見：[[sources/ev-news-2026-08-07-10-electrive-en]]
+
+## Waymo取得加州最大規模擴張批准，自駕卡車同步在加州上路（2026-08）
+
+> **結論**：加州公用事業委員會核准Waymo史上最大範圍營運擴張（洛杉磯、舊金山區域可望擴大逾3倍），同期加州DMV首度發出自駕重型卡車路測許可（Aurora、Kodiak），凸顯Robotaxi與自駕貨運兩條主線同步在加州取得監管突破。
+
+- Waymo擴張範圍：新增聖地牙哥、沙加緬度及Marin、Napa、Orange、Riverside等郡，涵蓋北至Sonoma、南至聖地牙哥共18行政區；第六代Ojai車型（與吉利Zeekr合作，Zeekr產底盤車體、Waymo裝感測器軟體）與現有約3,000輛Jaguar I-Pace車隊並行部署
+- 自駕卡車路測解禁：加州DMV今年4月28日解除逾10,000磅自駕車禁令，Aurora、Kodiak為首批取得路測許可業者，此前兩家加州公司僅能在德州（Aurora於Fort Worth-El Paso等高速公路路線）營運；現階段仍須配置安全駕駛員、限速25英里/時以下道路禁止測試
+- 監管突破的共同邏輯：兩者均反映加州在「驅逐測試安全駕駛員」與「擴大營運地理範圍」兩個維度上正逐步放寬Robotaxi/自駕貨運監管框架，為業者提供更大規模商業化驗證場域
+
+**觀察**：Waymo新增區域driverless服務實際上線時程；Aurora、Kodiak能否將德州營運經驗複製到加州本土市場。
+
+- 參見：[[sources/ev-news-2026-08-17-18-electrive-en]] | [[entities/Waymo]] | [[countries/美國]]
 
 ## Related
 - [[concepts/ADAS智駕系統]]

@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [vw-restructure-china-offensive-2026, ev-news-2026-06-27-29-en, ev-news-2026-06-30-07-01, ev-news-2026-07-02, ev-news-2026-07-03-08, ev-news-2026-07-10-supplement, ev-news-2026-07-12-13-electrive, ev-news-2026-07-14-16-electrive, ev-news-2026-07-17-20-digitimes, ev-news-2026-07-20-21-electrive-en, ev-news-2026-07-22-23-electrive-en, ev-news-2026-07-25-27-digitimes, ev-news-2026-07-24-27-electrive-en, ev-news-2026-07-24-28-electrive-en, ev-news-2026-07-29-31-digitimes, ev-news-2026-07-28-30-electrive-en, ev-news-2026-08-04-06-digitimes, ev-news-2026-08-03-06-electrive-en, ev-news-2026-08-07-10-electrive-en, ev-news-2026-08-13-digitimes, ev-news-2026-08-14-17-digitimes]
-updated: 2026-08-17
+sources: [vw-restructure-china-offensive-2026, ev-news-2026-06-27-29-en, ev-news-2026-06-30-07-01, ev-news-2026-07-02, ev-news-2026-07-03-08, ev-news-2026-07-10-supplement, ev-news-2026-07-12-13-electrive, ev-news-2026-07-14-16-electrive, ev-news-2026-07-17-20-digitimes, ev-news-2026-07-20-21-electrive-en, ev-news-2026-07-22-23-electrive-en, ev-news-2026-07-25-27-digitimes, ev-news-2026-07-24-27-electrive-en, ev-news-2026-07-24-28-electrive-en, ev-news-2026-07-29-31-digitimes, ev-news-2026-07-28-30-electrive-en, ev-news-2026-08-04-06-digitimes, ev-news-2026-08-03-06-electrive-en, ev-news-2026-08-07-10-electrive-en, ev-news-2026-08-13-digitimes, ev-news-2026-08-14-17-digitimes, ev-news-2026-08-18-digitimes]
+updated: 2026-08-18
 ---
 
 # Volkswagen（福斯集團）
@@ -224,6 +224,12 @@ VW 正式評估將中國開發的 EREV 車型引入歐洲市場，以規避 EU B
 **觀察**：保時捷×小鵬碳排池是否吸引其他第三方車廠加入；福斯集團在無保時捷分擔後能否於2026-27年達標。
 
 - 參見：[[sources/ev-news-2026-08-14-17-digitimes]] | [[entities/小鵬汽車]] | [[countries/歐洲]]
+
+## 中國依賴成罩門，現代汽車集團步步逼近全球車市二哥（2026-08）
+
+福斯集團2026上半全球銷量413萬輛（年減6%），與三哥現代汽車集團（360萬輛）差距已由2025上半76萬輛大幅收窄至53萬輛。核心癥結在於中國依賴度過高（2025年中國銷量269萬輛占其總銷量30%，深陷中國「燃油退、新能源進」轉型下的價格戰夾擊）、油電車產品組合彈性不足（2025年全球僅43萬輛，遠低於現代112萬輛），以及獲利能力落後（上半營業利益率3.8% vs 現代5.6%）；福斯正靠關廠裁員等結構性手段推進轉型陣痛期。
+
+- 參見：[[sources/ev-news-2026-08-18-digitimes]] | [[entities/現代汽車]] | [[countries/中國]]
 
 ## Related
 - [[entities/BMW]]

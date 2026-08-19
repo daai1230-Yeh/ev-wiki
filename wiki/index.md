@@ -1,12 +1,15 @@
 # Wiki Index
 
-Last updated: 2026-08-17 | Pages: 489 | Sources: 436
+Last updated: 2026-08-18 | Pages: 489 | Sources: 439
 
 ---
 
 ## Sources（來源摘要）
 
 ### 電動乘用車
+- [[sources/ev-news-2026-08-17-18-electrive-en]] — electrive/InsideEVs批次13篇：GM終止Chevrolet中國零售、吉利創辦人李書福卸任、Waymo加州大擴張、加州自駕卡車解禁、Walmart/Ionna充電價格戰。(2026-08-18)
+- [[sources/ev-news-2026-08-18-digitimes]] — Digitimes批次3篇：現代逼近福斯全球車市二哥、全球EV銷量7月+9%、地平線J7晶片對標Tesla AI5。(2026-08-18)
+- [[sources/ev-news-2026-08-17-18-cn-misc]] — 中文媒體批次3篇：中國祭帶電池報廢令、陸製EV巴士墨西哥市占逾8成、韓國三大電池廠轉離美國合資。(2026-08-18)
 - [[sources/ev-news-2026-08-14-17-digitimes]] — Digitimes批次9篇：中國車市內冷外熱出口暴增88%、中系車攻歐市佔飆升至9.5%、保時捷脫離福斯改與小鵬結盟、中國BEV首度攻下澳洲進口冠軍、豐田前會長奧田碩辭世。(2026-08-17)
 - [[sources/ev-news-2026-08-13-15-electrive-en]] — electrive/InsideEVs批次4篇：全球EV銷量7月達185萬輛、DS N7試駕、Rivian R1S六人座、Tesla飛行版Roadster傳本月發表。(2026-08-15)
 - [[sources/ev-news-2026-08-15-cn-misc]] — 中時新聞網1篇：中東戰事推升油價，陸製電動卡車亞洲出口大增。(2026-08-15)
