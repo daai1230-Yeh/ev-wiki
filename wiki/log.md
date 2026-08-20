@@ -2043,3 +2043,14 @@ Pages 375 → 406，Sources 315 → 346
 - New pages created: 無
 - Key additions: 吉利借道Volvo歐洲廠2028年起生產較高價車型、Q2獲利年增36%但出口仍不敵比亞迪；Tesla資本支出翻倍達58億美元重押AI與Robotaxi（Cybercab傳最快8月上路載客測試）；現代Ioniq 3土耳其正式投產（首家外資車廠在當地產電動車）；歐盟8月12日草案對境內回收材料計算加成1.3倍，材料可追溯性成電池廠新合規門檻；Mahle發表電動卡車增程系統瞄準中國商用車廠歐洲攻勢；泰國擬調降汽車貨物稅由吸引投資轉向要求在地化；墨西哥/法拉利Luce/印度相關人事與政策新聞
 - 備註: 1篇重複剪輯已排除（全球電動車7月銷量年增9%歐洲強勁成長抵銷中美市場疲弱，為8月18日既有報導的無百分比符號變體重複剪輯）
+
+## [2026-08-20] ingest | ev-news-2026-08-19-20（三批次共31篇：electrive/InsideEVs 16、Digitimes 5、中文財經媒體10）
+- Source pages（新建3頁）：
+  - [[sources/ev-news-2026-08-19-20-electrive-en]] — LGES蘭辛廠投產、EBM-Papst售予Madison Air、Denza N8達1,000公里續航、Einride採購500輛Tesla Semi、Ionity倫敦首座快充站、Octopus Charge進軍北美、BMW中國版iX3單充640英里、Lucid Gravity為Tesla Model 3充電、Fiat Topolino攪動美國高球車市場
+  - [[sources/ev-news-2026-08-20-digitimes]] — LGES北美ESS五大據點完成並評估切入無人機國防電池、三菱攜鴻華先進推ASX VR-e反攻澳紐、三星攜手現代從晶片延伸至實體AI、Tesla Cybercab傳奧斯汀公路首測
+  - [[sources/ev-news-2026-08-19-20-cn-misc]] — 中國EV出口暴增9成引美方立法反制、泰國擬調高進口關稅鼓勵本土製造、友鋮打入Volvo EX60供應鏈、台塑新智慧奪歐盟電池認證、華德動能受惠643億客運電動化計畫、Hyundai Ioniq 3英國正式開賣、Tesla市值跌破1.5兆美元
+- Pages updated: [[entities/LGES]], [[entities/現代汽車]], [[entities/三菱汽車]], [[entities/Tesla]], [[concepts/儲能市場]], [[concepts/Robotaxi自動計程車]], [[concepts/電動巴士市場]]
+- Countries updated: [[countries/美國]], [[countries/中國]], [[countries/澳洲]], [[countries/台灣]], [[countries/東南亞]]
+- New pages created: 無
+- Key additions: LGES蘭辛廠正式投產完成北美ESS五大生產據點布局（3獨資+2合資），目標年底前北美ESS產能突破50GWh，同時評估切入無人機/國防電池供應鏈；三菱攜台灣鴻華先進推出首款純電ASX VR-e反攻澳紐市場（三菱澳洲市佔已由5.4%降至3.9%，主因中國BEV搶市）；三星SDI電池傳搭載Genesis GV90，三星與現代結盟自晶片延伸至實體AI（機器人電池）；Tesla Cybercab傳8月底奧斯汀公路載客首測，同期股價年初至今跌約24%、市值跌破1.5兆美元；美國進口車商協會（AIADA）發起「拒絕中國車」運動要求國會永久立法封殺；中國7月EV出口年增88%創新高，德系BBA在華價格戰承壓；泰國財政部研議調降在地製造貨物稅、另擬提高進口電動車關稅，雙軌並進推動供應鏈在地化；台灣友鋮打入Volvo EX60緊固件供應鏈、台塑新智慧取得歐盟R100.03電池認證、華德動能可望受惠國內643億元客運電動化計畫；Ebusco獲主要股東再挹注600萬歐元續命
+- 備註: 本批次31篇原文未發現重複剪輯

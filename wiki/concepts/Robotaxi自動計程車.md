@@ -1,7 +1,7 @@
 ---
 tags: [concept]
-sources: [robotaxi-market-2026, china-autonomous-driving-overseas, europe-robotaxi-verne-ponyai, waymo-miami-orlando-expansion, taiwan-av-special-scenes, japan-2030-autonomous-ai-strategy, ratp-karsan-autonomous-bus-paris, av-physical-ai-trends-2026, tesla-fsd-eu-expansion-2026, tesla-robotaxi-texas-reality-2026, uber-robotaxi-europe-expansion-2026, waymo-battery-secondlife-colorado-recycling-2026, toyota-tier-iv-l4-investment-2026, waymo-arizona-expansion-2026, tesla-cybercab-specs-2026, mobileye-robotaxi-2026, tesla-fsd-netherlands-2026, ev-news-2026-06-22, ev-news-2026-07-13-digitimes, ev-news-2026-07-14-16-electrive, ev-news-2026-07-21-22-digitimes, ev-news-2026-07-22-24-digitimes, ev-news-2026-07-22-23-electrive-en, ev-news-2026-07-28-digitimes, ev-news-2026-07-28-30-electrive-en, ev-news-2026-08-01-03-en, ev-news-2026-08-04-06-digitimes, ev-news-2026-08-03-06-electrive-en, ev-news-2026-08-06-07-electrive-en, ev-news-2026-08-07-10-electrive-en, ev-news-2026-08-17-18-electrive-en]
-updated: 2026-08-18
+sources: [robotaxi-market-2026, china-autonomous-driving-overseas, europe-robotaxi-verne-ponyai, waymo-miami-orlando-expansion, taiwan-av-special-scenes, japan-2030-autonomous-ai-strategy, ratp-karsan-autonomous-bus-paris, av-physical-ai-trends-2026, tesla-fsd-eu-expansion-2026, tesla-robotaxi-texas-reality-2026, uber-robotaxi-europe-expansion-2026, waymo-battery-secondlife-colorado-recycling-2026, toyota-tier-iv-l4-investment-2026, waymo-arizona-expansion-2026, tesla-cybercab-specs-2026, mobileye-robotaxi-2026, tesla-fsd-netherlands-2026, ev-news-2026-06-22, ev-news-2026-07-13-digitimes, ev-news-2026-07-14-16-electrive, ev-news-2026-07-21-22-digitimes, ev-news-2026-07-22-24-digitimes, ev-news-2026-07-22-23-electrive-en, ev-news-2026-07-28-digitimes, ev-news-2026-07-28-30-electrive-en, ev-news-2026-08-01-03-en, ev-news-2026-08-04-06-digitimes, ev-news-2026-08-03-06-electrive-en, ev-news-2026-08-06-07-electrive-en, ev-news-2026-08-07-10-electrive-en, ev-news-2026-08-17-18-electrive-en, ev-news-2026-08-20-digitimes, ev-news-2026-08-19-20-cn-misc]
+updated: 2026-08-20
 ---
 
 # Robotaxi（自動計程車）
@@ -409,6 +409,17 @@ Mobileye 宣布成立垂直整合 Robotaxi 部門，從技術供應商轉型為�
 **觀察**：Waymo新增區域driverless服務實際上線時程；Aurora、Kodiak能否將德州營運經驗複製到加州本土市場。
 
 - 參見：[[sources/ev-news-2026-08-17-18-electrive-en]] | [[entities/Waymo]] | [[countries/美國]]
+
+## Tesla Cybercab傳德州奧斯汀公路載客首測（2026-08）
+
+> **結論**：Tesla傳將於8月底啟動Cybercab在奧斯汀公路的載客測試（已完成當地急救人員安全訓練），但相較Waymo已在多州大規模擴張並累積可觀行駛里程，Tesla此次測試規模仍屬起步階段，凸顯兩家業者在Robotaxi商業化進度上的量級差距。
+
+- 測試現況：奧斯汀當地急救單位已完成Cybercab相關安全訓練，市場解讀為公路載客測試即將啟動的前置訊號；但相較Waymo在加州、亞利桑那、佛羅里達等地已運營逾三年並持續擴大服務範圍，Tesla目前仍處於單一城市小規模驗證階段
+- 資本市場連動：Tesla股價年初至今下跌約24%（同期標普500上漲13.8%），市值已跌破1.5兆美元，2026年資本支出確認將超過250億美元投入Optimus、Robotaxi車隊、Terafab與AI運算，管理層已將FSD v15進度與Robotaxi行駛里程列為新的關鍵績效指標
+
+**觀察**：Cybercab奧斯汀公路測試實際啟動時程與初期車隊規模；FSD v15進度能否於後續財報成為具體佐證數據。
+
+- 參見：[[sources/ev-news-2026-08-20-digitimes]] | [[sources/ev-news-2026-08-19-20-cn-misc]] | [[entities/Tesla]]
 
 ## Related
 - [[concepts/ADAS智駕系統]]

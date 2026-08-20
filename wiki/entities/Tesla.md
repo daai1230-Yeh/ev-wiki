@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [tesla-ass-nhtsa-probe-closed, tesla-taiwan-march-2026, xiaomi-ev-europe-2027, tesla-4680-musk-strategy, tesla-korea-q1-2026, tesla-q1-2026-earnings, tesla-india-model-y-l, 駐外新聞-美國-2025, ev-news-2026-07-02, ev-news-2026-07-03-08, ev-news-2026-07-09, ev-news-2026-07-10-insideevs-batch, ev-news-2026-07-11, ev-news-2026-07-12-13-digest, ev-news-2026-07-12-13-electrive, ev-news-2026-07-13-digitimes, ev-news-2026-07-14-16-insideevs, ev-news-2026-07-14-16-digitimes, ev-news-2026-07-21-22-digitimes, ev-news-2026-07-20-21-electrive-en, ev-news-2026-07-22-24-digitimes, ev-news-2026-07-22-23-electrive-en, ev-news-2026-07-25-27-digitimes, ev-news-2026-07-28-digitimes, ev-news-2026-07-28-30-electrive-en, ev-news-2026-08-01-03-cn, ev-news-2026-08-01-03-en, ev-news-2026-08-04-06-digitimes, ev-news-2026-08-03-06-electrive-en, ev-news-2026-08-04-06-cn-misc, ev-news-2026-08-07-digitimes, ev-news-2026-08-06-07-cn-misc, ev-news-2026-08-06-07-electrive-en, ev-news-2026-08-06-10-cn-misc, ev-news-2026-08-07-10-electrive-en, ev-news-2026-08-13-15-electrive-en, ev-news-2026-08-19-digitimes]
-updated: 2026-08-19
+sources: [tesla-ass-nhtsa-probe-closed, tesla-taiwan-march-2026, xiaomi-ev-europe-2027, tesla-4680-musk-strategy, tesla-korea-q1-2026, tesla-q1-2026-earnings, tesla-india-model-y-l, 駐外新聞-美國-2025, ev-news-2026-07-02, ev-news-2026-07-03-08, ev-news-2026-07-09, ev-news-2026-07-10-insideevs-batch, ev-news-2026-07-11, ev-news-2026-07-12-13-digest, ev-news-2026-07-12-13-electrive, ev-news-2026-07-13-digitimes, ev-news-2026-07-14-16-insideevs, ev-news-2026-07-14-16-digitimes, ev-news-2026-07-21-22-digitimes, ev-news-2026-07-20-21-electrive-en, ev-news-2026-07-22-24-digitimes, ev-news-2026-07-22-23-electrive-en, ev-news-2026-07-25-27-digitimes, ev-news-2026-07-28-digitimes, ev-news-2026-07-28-30-electrive-en, ev-news-2026-08-01-03-cn, ev-news-2026-08-01-03-en, ev-news-2026-08-04-06-digitimes, ev-news-2026-08-03-06-electrive-en, ev-news-2026-08-04-06-cn-misc, ev-news-2026-08-07-digitimes, ev-news-2026-08-06-07-cn-misc, ev-news-2026-08-06-07-electrive-en, ev-news-2026-08-06-10-cn-misc, ev-news-2026-08-07-10-electrive-en, ev-news-2026-08-13-15-electrive-en, ev-news-2026-08-19-digitimes, ev-news-2026-08-20-digitimes, ev-news-2026-08-19-20-cn-misc]
+updated: 2026-08-20
 ---
 
 # Tesla
@@ -420,6 +420,10 @@ YouTuber實測顯示，搭載HW4與最新FSD v14.3.4的車輛反應時間0.450�
 **觀察**：Cybercab公開道路載客測試實際啟動時程；Tesla能否在無人駕駛里程規模上縮小與Waymo的差距。
 
 - 參見：[[sources/ev-news-2026-08-19-digitimes]] | [[entities/Waymo]] | [[concepts/Robotaxi自動計程車]]
+
+**後續進展**：Cybercab傳最快8月底於奧斯汀展開公開道路載客測試，奧斯汀市已證實Tesla完成與當地第一線應變人員的緊急培訓；同期股價年初至今累跌近24%（同期標普漲13.8%），市值失守1.5萬億美元，2026年資本開支確認將超過250億美元（投入Optimus、Robotaxi車隊、Terafab、AI運算），管理層轉向以FSD v15開發進度及Robotaxi行駛里程作為新評估指標，分析師持續下修盈利共識。
+
+- 參見：[[sources/ev-news-2026-08-20-digitimes]] | [[sources/ev-news-2026-08-19-20-cn-misc]]
 
 ## Related
 - [[entities/NHTSA]]

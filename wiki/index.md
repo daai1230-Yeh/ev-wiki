@@ -1,10 +1,15 @@
 # Wiki Index
 
-Last updated: 2026-08-19 | Pages: 489 | Sources: 443
+Last updated: 2026-08-20 | Pages: 489 | Sources: 446
 
 ---
 
 ## Sources（來源摘要）
+
+### 電動乘用車
+- [[sources/ev-news-2026-08-19-20-electrive-en]] — electrive/InsideEVs批次16篇：LGES蘭辛廠投產、Einride採購500輛Tesla Semi、Ionity倫敦首座快充站、BMW中國版iX3單充續航640英里、Lucid Gravity為Tesla Model 3充電。(2026-08-20)
+- [[sources/ev-news-2026-08-20-digitimes]] — Digitimes批次5篇：LGES北美ESS五大據點完成並評估切入國防電池、三菱攜鴻華先進推ASX VR-e反攻澳紐、三星攜手現代從晶片延伸至實體AI、Tesla Cybercab傳奧斯汀首測。(2026-08-20)
+- [[sources/ev-news-2026-08-19-20-cn-misc]] — 中文財經媒體批次10篇：中國EV出口暴增9成引美方立法反制、泰國擬調高進口關稅鼓勵本土製造、友鋮打入Volvo EX60供應鏈、台塑新智慧奪歐盟電池認證。(2026-08-20)
 
 ### 電動乘用車
 - [[sources/ev-news-2026-08-18-19-electrive-en]] — electrive/InsideEVs批次8篇：吉利借道Volvo歐洲廠生產、現代Ioniq 3土耳其量產、LGES密西根新廠投產、Lucid Gravity歐洲改款降價、Mahle電動卡車增程系統。(2026-08-19)

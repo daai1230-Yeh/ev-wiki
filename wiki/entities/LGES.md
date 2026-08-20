@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [lges-loss-ess-2026, ira-supply-chain-compliance, us-ev-battery-demand-mismatch, lges-tesla-4680-supplier, lges-bmw-46series-order, ev-news-2026-07-03-08, ev-news-2026-07-10-supplement, ev-news-2026-07-12-13-electrive, ev-news-2026-07-14-16-digitimes, ev-news-2026-07-17-20-digitimes, ev-news-2026-07-25-27-digitimes, ev-news-2026-07-29-31-digitimes]
-updated: 2026-07-31
+sources: [lges-loss-ess-2026, ira-supply-chain-compliance, us-ev-battery-demand-mismatch, lges-tesla-4680-supplier, lges-bmw-46series-order, ev-news-2026-07-03-08, ev-news-2026-07-10-supplement, ev-news-2026-07-12-13-electrive, ev-news-2026-07-14-16-digitimes, ev-news-2026-07-17-20-digitimes, ev-news-2026-07-25-27-digitimes, ev-news-2026-07-29-31-digitimes, ev-news-2026-08-20-digitimes, ev-news-2026-08-19-20-cn-misc, ev-news-2026-08-19-20-electrive-en]
+updated: 2026-08-20
 ---
 
 # 樂金能源解決方案（LG Energy Solution，LGES）
@@ -108,6 +108,19 @@ updated: 2026-07-31
 - 時程：2027 年起針對北美客戶展開 PoC；既有鋰電產線部分轉換以降低投資負擔
 - 戰略動機：北美 LFP 市場由中國企業主導，鈉電池被視為建立去中國化供應鏈的新機會
 - 參見：[[sources/ev-news-2026-07-17-20-digitimes]] | [[concepts/鈉離子電池]]
+
+## 蘭辛廠正式投產完成北美ESS五大據點；評估切入無人機國防市場（2026-08）
+
+> **結論**：LGES蘭辛廠正式啟用完成北美ESS五大生產據點布局，同時傳出正與美方洽談無人機電池供應——LGES正將美國EV需求放緩下閒置的產能，同步轉向儲能與國防兩個新成長引擎，並首度考慮打破樂金集團長期迴避國防產業的傳統。
+
+**主因**：
+- 蘭辛廠複合布局：北美第七座生產基地，年產能逾35GWh，NMC電池供應豐田2027年式Highlander、LFP電池透過子公司Vertech供應ESS客戶（含約43億美元Tesla供應合約及DTE Energy、Cypress Creek/Google專案）；北美ESS訂單儲備已達140GWh，上半年新簽逾3兆韓元
+- 五大據點成形：3座自有廠（蘭辛、密西根荷蘭、加拿大NextStar安大略）加2座合資廠（本田L-H Battery俄亥俄、GM Ultium Cells田納西），2026年底前目標北美ESS用LFP產能擴大至逾50GWh；另計入年底投產的亞利桑那Queen Creek圓柱電池廠，北美8座生產設施將全數量產（46系列客戶預計擴大至賓士、BMW）
+- 國防市場評估：北美法人社長Bob Lee向彭博證實已接獲美方多家潛在夥伴的國防合作詢問，川普政府積極補充伊朗、烏克蘭戰事消耗軍需並推動無人機供應鏈本土化（進口無人機加徵最高100%關稅）；Bob Lee並已向美國內政部長Doug Burgum建議限制中國企業進入美國ESS市場並獲支持
+
+**觀察**：LGES國防電池合作能否從初步接觸轉為具體合約；美國政府後續是否採納LGES建議收緊中國企業ESS市場准入。
+
+- 參見：[[sources/ev-news-2026-08-20-digitimes]] | [[sources/ev-news-2026-08-19-20-cn-misc]] | [[sources/ev-news-2026-08-19-20-electrive-en]] | [[concepts/儲能市場]] | [[entities/豐田]]
 
 ## Related
 - [[entities/寧德時代]]
