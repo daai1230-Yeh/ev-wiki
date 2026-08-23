@@ -1,7 +1,7 @@
 ---
 tags: [concept]
-sources: [robotaxi-market-2026, china-autonomous-driving-overseas, europe-robotaxi-verne-ponyai, waymo-miami-orlando-expansion, taiwan-av-special-scenes, japan-2030-autonomous-ai-strategy, ratp-karsan-autonomous-bus-paris, av-physical-ai-trends-2026, tesla-fsd-eu-expansion-2026, tesla-robotaxi-texas-reality-2026, uber-robotaxi-europe-expansion-2026, waymo-battery-secondlife-colorado-recycling-2026, toyota-tier-iv-l4-investment-2026, waymo-arizona-expansion-2026, tesla-cybercab-specs-2026, mobileye-robotaxi-2026, tesla-fsd-netherlands-2026, ev-news-2026-06-22, ev-news-2026-07-13-digitimes, ev-news-2026-07-14-16-electrive, ev-news-2026-07-21-22-digitimes, ev-news-2026-07-22-24-digitimes, ev-news-2026-07-22-23-electrive-en, ev-news-2026-07-28-digitimes, ev-news-2026-07-28-30-electrive-en, ev-news-2026-08-01-03-en, ev-news-2026-08-04-06-digitimes, ev-news-2026-08-03-06-electrive-en, ev-news-2026-08-06-07-electrive-en, ev-news-2026-08-07-10-electrive-en, ev-news-2026-08-17-18-electrive-en, ev-news-2026-08-20-digitimes, ev-news-2026-08-19-20-cn-misc]
-updated: 2026-08-20
+sources: [robotaxi-market-2026, china-autonomous-driving-overseas, europe-robotaxi-verne-ponyai, waymo-miami-orlando-expansion, taiwan-av-special-scenes, japan-2030-autonomous-ai-strategy, ratp-karsan-autonomous-bus-paris, av-physical-ai-trends-2026, tesla-fsd-eu-expansion-2026, tesla-robotaxi-texas-reality-2026, uber-robotaxi-europe-expansion-2026, waymo-battery-secondlife-colorado-recycling-2026, toyota-tier-iv-l4-investment-2026, waymo-arizona-expansion-2026, tesla-cybercab-specs-2026, mobileye-robotaxi-2026, tesla-fsd-netherlands-2026, ev-news-2026-06-22, ev-news-2026-07-13-digitimes, ev-news-2026-07-14-16-electrive, ev-news-2026-07-21-22-digitimes, ev-news-2026-07-22-24-digitimes, ev-news-2026-07-22-23-electrive-en, ev-news-2026-07-28-digitimes, ev-news-2026-07-28-30-electrive-en, ev-news-2026-08-01-03-en, ev-news-2026-08-04-06-digitimes, ev-news-2026-08-03-06-electrive-en, ev-news-2026-08-06-07-electrive-en, ev-news-2026-08-07-10-electrive-en, ev-news-2026-08-17-18-electrive-en, ev-news-2026-08-20-digitimes, ev-news-2026-08-19-20-cn-misc, ev-news-2026-08-21-23-electrive-en]
+updated: 2026-08-23
 ---
 
 # Robotaxi（自動計程車）
@@ -420,6 +420,19 @@ Mobileye 宣布成立垂直整合 Robotaxi 部門，從技術供應商轉型為�
 **觀察**：Cybercab奧斯汀公路測試實際啟動時程與初期車隊規模；FSD v15進度能否於後續財報成為具體佐證數據。
 
 - 參見：[[sources/ev-news-2026-08-20-digitimes]] | [[sources/ev-news-2026-08-19-20-cn-misc]] | [[entities/Tesla]]
+
+## 內華達核准Tesla、Waymo、Uber付費Robotaxi；Waymo新款Ojai廂型車開放付費載客（2026-08）
+
+> **結論**：內華達州運輸管理局核准Tesla、Waymo、Uber在克拉克郡（含拉斯維加斯）部署逾5,000輛付費Robotaxi，Tesla取得最大配額（5,000輛）但實際目標僅2,500輛；同期Waymo新一代Zeekr代工Ojai廂型車已在舊金山、洛杉磯、鳳凰城開放付費載客，凸顯美國Robotaxi監管與車隊擴張同步加速，但業者間商業化節奏仍有落差。
+
+**主因**：
+- 內華達配額分配懸殊：Tesla獲最高5,000輛配額（Waymo、Uber透過Zoox/Motional各僅1,000輛），但Tesla代表坦承實際部署目標僅2,500輛，且首席工程師Eric Early明言瓶頸「不是技術」，暗示產能與營運爬坡速度才是真正制約
+- Waymo車隊迭代降本：新款Ojai廂型車（Zeekr代工、第六代硬體）已在舊金山等三地開放付費載客，約300輛上路，相較Jaguar I-Pace更具成本優勢且更適合家庭乘客，丹佛、拉斯維加斯、聖地牙哥將於年底前跟進，反映Waymo以車隊迭代持續壓低單位營運成本
+- 監管開放加速：內華達此次核准使拉斯維加斯加入舊金山、鳳凰城等城市，成為美國又一Robotaxi商業化戰場，三家業者同時取得許可也顯示監管態度正從單一領先者放行轉向多業者並行競爭
+
+**觀察**：Tesla實際部署車輛數能否於12個月內達成2,500輛目標；Waymo Ojai車隊擴張至丹佛/拉斯維加斯/聖地牙哥的實際時程。
+
+- 參見：[[sources/ev-news-2026-08-21-23-electrive-en]] | [[entities/Tesla]] | [[entities/Waymo]] | [[countries/美國]]
 
 ## Related
 - [[concepts/ADAS智駕系統]]

@@ -1,10 +1,15 @@
 # Wiki Index
 
-Last updated: 2026-08-20 | Pages: 489 | Sources: 446
+Last updated: 2026-08-23 | Pages: 489 | Sources: 449
 
 ---
 
 ## Sources（來源摘要）
+
+### 電動乘用車
+- [[sources/ev-news-2026-08-21-23-electrive-en]] — electrive/InsideEVs批次25篇：LGES蘭辛廠$20億電池廠深度報導、固態電池「大型化量產仍是瓶頸」、Tesla Semi歐洲9月IAA公布規格、內華達核准Tesla 5,000輛付費Robotaxi、Waymo Ojai開放付費載客。(2026-08-23)
+- [[sources/ev-news-2026-08-21-digitimes]] — Digitimes批次5篇：LGES研發支出逆勢年增17%押注LFP/LMR/鈉電池、中國固態電池新規97%玩家恐遭淘汰、Einride採購500輛Tesla Semi、Waymo幕後推手創辦Dulo機器人新創。(2026-08-23)
+- [[sources/ev-news-2026-08-20-22-cn-misc]] — 中文財經媒體批次6篇：萬鋼談中國新能源車產業內捲需補後市場短板、Genesis GV90深度介紹、泰國4,000億泰銖借款補貼巴士改裝、中企併購潮悄悄掌控歐洲零件供應鏈。(2026-08-23)
 
 ### 電動乘用車
 - [[sources/ev-news-2026-08-19-20-electrive-en]] — electrive/InsideEVs批次16篇：LGES蘭辛廠投產、Einride採購500輛Tesla Semi、Ionity倫敦首座快充站、BMW中國版iX3單充續航640英里、Lucid Gravity為Tesla Model 3充電。(2026-08-20)

@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [lges-loss-ess-2026, ira-supply-chain-compliance, us-ev-battery-demand-mismatch, lges-tesla-4680-supplier, lges-bmw-46series-order, ev-news-2026-07-03-08, ev-news-2026-07-10-supplement, ev-news-2026-07-12-13-electrive, ev-news-2026-07-14-16-digitimes, ev-news-2026-07-17-20-digitimes, ev-news-2026-07-25-27-digitimes, ev-news-2026-07-29-31-digitimes, ev-news-2026-08-20-digitimes, ev-news-2026-08-19-20-cn-misc, ev-news-2026-08-19-20-electrive-en]
-updated: 2026-08-20
+sources: [lges-loss-ess-2026, ira-supply-chain-compliance, us-ev-battery-demand-mismatch, lges-tesla-4680-supplier, lges-bmw-46series-order, ev-news-2026-07-03-08, ev-news-2026-07-10-supplement, ev-news-2026-07-12-13-electrive, ev-news-2026-07-14-16-digitimes, ev-news-2026-07-17-20-digitimes, ev-news-2026-07-25-27-digitimes, ev-news-2026-07-29-31-digitimes, ev-news-2026-08-20-digitimes, ev-news-2026-08-19-20-cn-misc, ev-news-2026-08-19-20-electrive-en, ev-news-2026-08-21-digitimes, ev-news-2026-08-21-23-electrive-en]
+updated: 2026-08-23
 ---
 
 # 樂金能源解決方案（LG Energy Solution，LGES）
@@ -121,6 +121,19 @@ updated: 2026-08-20
 **觀察**：LGES國防電池合作能否從初步接觸轉為具體合約；美國政府後續是否採納LGES建議收緊中國企業ESS市場准入。
 
 - 參見：[[sources/ev-news-2026-08-20-digitimes]] | [[sources/ev-news-2026-08-19-20-cn-misc]] | [[sources/ev-news-2026-08-19-20-electrive-en]] | [[concepts/儲能市場]] | [[entities/豐田]]
+
+## 研發不降反升17%：LFP、LMR、鈉電池與AI製造成新主軸（2026-08）
+
+> **結論**：LGES 2026上半研發支出年增17%達7,258億韓元，逆勢於資本支出削減逾4成之際維持技術投入強度，戰略重心從單押高鎳電池轉向LFP/LMR/鈉離子多元並進，並以AI自主製造做為下一階段成本競爭力來源；同期蘭辛廠深度報導與固態電池「大型化量產仍是瓶頸」的坦言，共同勾勒LGES在EV需求放緩下的技術與產能雙軌轉型全貌。
+
+**主因**：
+- 資本收斂但研發加碼：2026年資本支出較2025年削減逾40%（更多既有EV產線轉ESS用途），但研發費用年增17%、佔營收比重維持5.1%，形成「少蓋一些廠，但不能少做技術」的鮮明對比
+- 化學體系多元化：LFP已在北美量產供應Tesla（43億美元合約）與DTE Energy；LMR定位高鎳與LFP之間的成本/能量密度平衡點，與GM合作2027年底試產、2028年Ultium Cells美國廠量產；鈉離子電池首度列入半年報主要下一代研發項目，籌備北美ESS試產計畫
+- 固態電池坦言瓶頸：北美總裁Robert Lee於蘭辛廠媒體圓桌直言，固態電池小型態能量密度表現佳，但「多數企業在大型態量產上仍在掙扎」，預期EV應用將落後手機約十年；中國陣營（比亞迪、寧德時代、吉利）仍積極衝刺2027年試產形成對比
+
+**觀察**：LGES LMR方形電池2027年試產進度是否如期；鈉離子ESS試產計畫具體時程與首批客戶。
+
+- 參見：[[sources/ev-news-2026-08-21-digitimes]] | [[sources/ev-news-2026-08-21-23-electrive-en]] | [[concepts/電池技術路線]]
 
 ## Related
 - [[entities/寧德時代]]

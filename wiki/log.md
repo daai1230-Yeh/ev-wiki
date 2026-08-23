@@ -2054,3 +2054,14 @@ Pages 375 → 406，Sources 315 → 346
 - New pages created: 無
 - Key additions: LGES蘭辛廠正式投產完成北美ESS五大生產據點布局（3獨資+2合資），目標年底前北美ESS產能突破50GWh，同時評估切入無人機/國防電池供應鏈；三菱攜台灣鴻華先進推出首款純電ASX VR-e反攻澳紐市場（三菱澳洲市佔已由5.4%降至3.9%，主因中國BEV搶市）；三星SDI電池傳搭載Genesis GV90，三星與現代結盟自晶片延伸至實體AI（機器人電池）；Tesla Cybercab傳8月底奧斯汀公路載客首測，同期股價年初至今跌約24%、市值跌破1.5兆美元；美國進口車商協會（AIADA）發起「拒絕中國車」運動要求國會永久立法封殺；中國7月EV出口年增88%創新高，德系BBA在華價格戰承壓；泰國財政部研議調降在地製造貨物稅、另擬提高進口電動車關稅，雙軌並進推動供應鏈在地化；台灣友鋮打入Volvo EX60緊固件供應鏈、台塑新智慧取得歐盟R100.03電池認證、華德動能可望受惠國內643億元客運電動化計畫；Ebusco獲主要股東再挹注600萬歐元續命
 - 備註: 本批次31篇原文未發現重複剪輯
+
+## [2026-08-23] ingest | ev-news-2026-08-20-23（三批次共36篇：electrive/InsideEVs 25、Digitimes 5、中文財經媒體6；另5篇經比對確認為既有報導重複剪輯，未計入）
+- Source pages（新建3頁）：
+  - [[sources/ev-news-2026-08-21-23-electrive-en]] — LGES蘭辛廠$20億電池廠深度報導（供應Tesla/Toyota）、固態電池「多數企業大型化量產仍在掙扎」、Tesla Semi歐洲9月IAA公布規格、內華達核准Tesla最高5,000輛付費Robotaxi、Waymo Ojai開放付費載客、BYD Atto 3 Evo實測、奇瑞德國市場首發、Genesis GV90豪華旗艦、多款商用車/礦卡新聞
+  - [[sources/ev-news-2026-08-21-digitimes]] — LGES研發支出逆勢年增17%押注LFP/LMR/鈉電池與AI製造、中國固態電池新國標上路97%玩家恐遭淘汰、Einride採購500輛Tesla Semi、Waymo幕後推手Sebastian Thrun創辦機器人新創Dulo、LMR電池科普
+  - [[sources/ev-news-2026-08-20-22-cn-misc]] — 萬鋼談中國新能源車產業內捲需補後市場短板、泰國4,000億泰銖借款補貼巴士計程車小巴改裝EV、泰國調降汽車貨物稅政策分析、中企併購潮悄悄掌控歐洲零件供應鏈、吉利Monjaro EM-i插混SUV登陸歐洲、Genesis GV90深度介紹
+- Pages updated: [[entities/LGES]], [[entities/現代汽車]], [[entities/Tesla]], [[concepts/Robotaxi自動計程車]], [[concepts/電池技術路線]], [[concepts/電動卡車市場]]
+- Countries updated: [[countries/東南亞]], [[countries/歐洲]], [[countries/中國]]
+- New pages created: 無
+- Key additions: LGES研發支出逆勢年增17%（資本支出同步削減逾4成），戰略轉向LFP/LMR/鈉離子多元並進+AI自主製造，同時坦言固態電池大型化量產仍是瓶頸；中國固態電池新國標（5%液態電解液紅線+18項安全測試）上路，市場傳320餘家業者恐僅9家存活；Genesis GV90純電旗艦問世，123.5kWh電池、Neolun版無B柱對開車門直接對標BMW X7/GLS；Tesla Semi確認9月IAA公布歐洲規格，內華達核准其最高5,000輛付費Robotaxi配額（Waymo/Uber各僅1,000輛）；Waymo新款Ojai廂型車開放三城市付費載客；泰國同步啟動4,000億泰銖借款補貼巴士改裝EV與調降在地製造貨物稅雙軌政策；中企併購潮3年間對歐洲EV供應鏈投資暴增2.45倍達71億歐元，被歐洲官員視為10年來最嚴峻挑戰；萬鋼公開反思中國新能源車產業「內捲」根源，門把手安全新規召回近300萬輛車
+- 備註: 5篇重複剪輯已排除（LGES蘭辛廠啟用、LGES無人機電池評估、Tesla Cybercab奧斯汀首測、三菱ASX VR-e、三星現代結盟報導，均為8月20日既有報導的無空格/連字號變體重複剪輯）
