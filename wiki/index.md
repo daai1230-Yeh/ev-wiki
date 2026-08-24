@@ -1,10 +1,16 @@
 # Wiki Index
 
-Last updated: 2026-08-23 | Pages: 489 | Sources: 449
+Last updated: 2026-08-24 | Pages: 489 | Sources: 453
 
 ---
 
 ## Sources（來源摘要）
+
+### 電動乘用車
+- [[sources/ev-news-2026-08-21-22-electrive-en]] — electrive批次10篇：Genesis GV90技術規格深度報導、中國門把手召回擴大至逾400萬輛、內華達Robotaxi許可補充細節（Zoox已握百輛）、Xiaomi EV Q2再度虧損、充電基建與商用車動態。(2026-08-24)
+- [[sources/ev-news-2026-07-23-08-24-etauto-india]] — ETAuto/印度批次3篇：Sona Comstar機器人/Denso結盟策略、Volkswagen印度確認Sub-4米SUV、印度中型SUV市佔升至18.2%但利潤率承壓。(2026-08-24)
+- [[sources/ev-news-2026-08-24-digitimes]] — Digitimes批次3篇：和泰車南陽保守看2H26車市、日產本田加速轉向E2E自動駕駛結盟AI夥伴、中國稀土磁鐵受惠電動車與機器人需求。(2026-08-24)
+- [[sources/ev-news-2026-07-20-08-22-cn-misc]] — 中文財經媒體補充批次2篇：Honda旗艦休旅Avancier復活、蔚來李斌談中國車市最殘酷決賽階段。(2026-08-24)
 
 ### 電動乘用車
 - [[sources/ev-news-2026-08-21-23-electrive-en]] — electrive/InsideEVs批次25篇：LGES蘭辛廠$20億電池廠深度報導、固態電池「大型化量產仍是瓶頸」、Tesla Semi歐洲9月IAA公布規格、內華達核准Tesla 5,000輛付費Robotaxi、Waymo Ojai開放付費載客。(2026-08-23)

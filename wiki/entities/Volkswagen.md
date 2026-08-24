@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [vw-restructure-china-offensive-2026, ev-news-2026-06-27-29-en, ev-news-2026-06-30-07-01, ev-news-2026-07-02, ev-news-2026-07-03-08, ev-news-2026-07-10-supplement, ev-news-2026-07-12-13-electrive, ev-news-2026-07-14-16-electrive, ev-news-2026-07-17-20-digitimes, ev-news-2026-07-20-21-electrive-en, ev-news-2026-07-22-23-electrive-en, ev-news-2026-07-25-27-digitimes, ev-news-2026-07-24-27-electrive-en, ev-news-2026-07-24-28-electrive-en, ev-news-2026-07-29-31-digitimes, ev-news-2026-07-28-30-electrive-en, ev-news-2026-08-04-06-digitimes, ev-news-2026-08-03-06-electrive-en, ev-news-2026-08-07-10-electrive-en, ev-news-2026-08-13-digitimes, ev-news-2026-08-14-17-digitimes, ev-news-2026-08-18-digitimes]
-updated: 2026-08-18
+sources: [vw-restructure-china-offensive-2026, ev-news-2026-06-27-29-en, ev-news-2026-06-30-07-01, ev-news-2026-07-02, ev-news-2026-07-03-08, ev-news-2026-07-10-supplement, ev-news-2026-07-12-13-electrive, ev-news-2026-07-14-16-electrive, ev-news-2026-07-17-20-digitimes, ev-news-2026-07-20-21-electrive-en, ev-news-2026-07-22-23-electrive-en, ev-news-2026-07-25-27-digitimes, ev-news-2026-07-24-27-electrive-en, ev-news-2026-07-24-28-electrive-en, ev-news-2026-07-29-31-digitimes, ev-news-2026-07-28-30-electrive-en, ev-news-2026-08-04-06-digitimes, ev-news-2026-08-03-06-electrive-en, ev-news-2026-08-07-10-electrive-en, ev-news-2026-08-13-digitimes, ev-news-2026-08-14-17-digitimes, ev-news-2026-08-18-digitimes, ev-news-2026-07-23-08-24-etauto-india]
+updated: 2026-08-24
 ---
 
 # Volkswagen（福斯集團）
@@ -230,6 +230,12 @@ VW 正式評估將中國開發的 EREV 車型引入歐洲市場，以規避 EU B
 福斯集團2026上半全球銷量413萬輛（年減6%），與三哥現代汽車集團（360萬輛）差距已由2025上半76萬輛大幅收窄至53萬輛。核心癥結在於中國依賴度過高（2025年中國銷量269萬輛占其總銷量30%，深陷中國「燃油退、新能源進」轉型下的價格戰夾擊）、油電車產品組合彈性不足（2025年全球僅43萬輛，遠低於現代112萬輛），以及獲利能力落後（上半營業利益率3.8% vs 現代5.6%）；福斯正靠關廠裁員等結構性手段推進轉型陣痛期。
 
 - 參見：[[sources/ev-news-2026-08-18-digitimes]] | [[entities/現代汽車]] | [[countries/中國]]
+
+## 印度市場重整：確認推出Sub-4米SUV，因應全球「解耦」策略（2026-08）
+
+品牌CEO Thomas Schäfer確認明年於印度推出Sub-4米級SUV，將印度定位為集團全球「解耦」策略下更重要的生產、出口（現已出口逾40國，含墨西哥）與工程研發樞紐，未來投資「並非排除選項」；此舉呼應福斯正同步面臨中國市場價格戰夾擊、歐洲削產壓力下加速分散地緣風險的整體策略調整。
+
+- 參見：[[sources/ev-news-2026-07-23-08-24-etauto-india]] | [[countries/印度]]
 
 ## Related
 - [[entities/BMW]]

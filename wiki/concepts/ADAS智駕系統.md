@@ -1,7 +1,7 @@
 ---
 tags: [concept]
-sources: [byd-dipilot-adas-2026, robotaxi-market-2026, toyota-adas-vs-fsd-subscription, hyundai-pleos-sdv-os, in-cabin-ai-sensing-2026, l2plus-adas-adoption-2026, rivian-lidar-china-partner-2026, hyundai-kia-atria-ai-gwangju-2026, hesai-color-lidar-2026, ev-news-digest-jun1-10-2026, ev-news-2026-06-27-29-en, ev-news-2026-06-30-07-01, ev-news-2026-06-29-zh, ev-news-2026-07-02, ev-news-2026-07-03-08, ev-news-2026-07-09, ev-news-2026-07-21-22-digitimes, ev-news-2026-07-22-23-electrive-en]
-updated: 2026-07-24
+sources: [byd-dipilot-adas-2026, robotaxi-market-2026, toyota-adas-vs-fsd-subscription, hyundai-pleos-sdv-os, in-cabin-ai-sensing-2026, l2plus-adas-adoption-2026, rivian-lidar-china-partner-2026, hyundai-kia-atria-ai-gwangju-2026, hesai-color-lidar-2026, ev-news-digest-jun1-10-2026, ev-news-2026-06-27-29-en, ev-news-2026-06-30-07-01, ev-news-2026-06-29-zh, ev-news-2026-07-02, ev-news-2026-07-03-08, ev-news-2026-07-09, ev-news-2026-07-21-22-digitimes, ev-news-2026-07-22-23-electrive-en, ev-news-2026-08-24-digitimes]
+updated: 2026-08-24
 ---
 
 # ADAS 智駕系統（Advanced Driver Assistance System）
@@ -330,6 +330,18 @@ GM 與美光（Micron）簽署 **第 16 份供應協議（SCA）**，涵蓋汽�
 第7屆ETAuto科技高峰會，Tata Motors與Mobileye就印度ADAS普及化展開討論：成本優化是關鍵，單一鏡頭搭配具成本效益晶片即可提供有效ADAS，降低價格敏感市場門檻；人類駕駛行為與接受度是印度路況下ADAS真正發揮效用的關鍵變數。Mobileye ADAS已獲Mahindra、Tata Motors採用，預測2027年前印度乘用車市場免持駕駛採用率將增加28%；與談者將2026年視為執行年，2027年隨法規演進迎來更廣泛部署。
 
 - 參見：[[sources/ev-news-2026-07-22-23-electrive-en]] | [[countries/印度]]
+
+## 日產、本田加速轉向E2E自動駕駛技術，結盟外部AI夥伴追趕美中車廠（2026-08）
+
+> **結論**：日經新聞報導，日產、本田正加速轉向端到端（E2E）自動駕駛技術，並透過結盟外部AI新創/軟體/晶片業者的模式追趕已量產E2E的美中車廠，日產社長警告若日系車廠未來1~2年內無法搶先推出新型E2E自駕車，恐面臨被邊緣化、淪為單純汽車組裝廠的危機。
+
+- 日產技術路線：與英國自駕新創Wayve Technologies合作E2E技術、叫車服務攜手Uber、車載晶片採NVIDIA方案，搭載Wayve AI軟體的Ariya已在東京銀座、新橋鬧區測試累積實績，2027年度規劃將E2E系統導入大型MPV Elgrand，並計劃2026年內與日本計程車業者合作展開公眾道路Robotaxi開放試營運，目標自駕功能新車比率拉高至9成
+- 本田技術路線：2028年上市的HEV新型「Vezel」規劃搭載與美國新創Helm.ai共同開發的E2E軟體，先借外部合作加快研發速度，自家團隊專注優化建立技術獨特性；旗下Astemo（與日立合資）聚焦E2E虛擬驗證，2026年8月另與Tier IV展開自駕實證與開發支援合作
+- 產業競爭邏輯：E2E技術實現「L2++」等級自駕（車輛可自動行駛高速公路與一般道路至目的地，惟駕駛主體仍是人），已成自駕技術競爭主戰場，美中車廠量產進度領先日系一段時間，凸顯日系此輪結盟本質是「借外力搶時間」而非自主技術突破
+
+**觀察**：日產Elgrand E2E系統2027年度能否如期量產；本田Vezel E2E軟體實際上車表現與自研版本的技術差距。
+
+- 參見：[[sources/ev-news-2026-08-24-digitimes]] | [[countries/日本]] | [[concepts/Robotaxi自動計程車]]
 
 ## Related
 - [[entities/Tesla]]

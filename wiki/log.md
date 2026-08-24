@@ -2065,3 +2065,15 @@ Pages 375 → 406，Sources 315 → 346
 - New pages created: 無
 - Key additions: LGES研發支出逆勢年增17%（資本支出同步削減逾4成），戰略轉向LFP/LMR/鈉離子多元並進+AI自主製造，同時坦言固態電池大型化量產仍是瓶頸；中國固態電池新國標（5%液態電解液紅線+18項安全測試）上路，市場傳320餘家業者恐僅9家存活；Genesis GV90純電旗艦問世，123.5kWh電池、Neolun版無B柱對開車門直接對標BMW X7/GLS；Tesla Semi確認9月IAA公布歐洲規格，內華達核准其最高5,000輛付費Robotaxi配額（Waymo/Uber各僅1,000輛）；Waymo新款Ojai廂型車開放三城市付費載客；泰國同步啟動4,000億泰銖借款補貼巴士改裝EV與調降在地製造貨物稅雙軌政策；中企併購潮3年間對歐洲EV供應鏈投資暴增2.45倍達71億歐元，被歐洲官員視為10年來最嚴峻挑戰；萬鋼公開反思中國新能源車產業「內捲」根源，門把手安全新規召回近300萬輛車
 - 備註: 5篇重複剪輯已排除（LGES蘭辛廠啟用、LGES無人機電池評估、Tesla Cybercab奧斯汀首測、三菱ASX VR-e、三星現代結盟報導，均為8月20日既有報導的無空格/連字號變體重複剪輯）
+
+## [2026-08-24] ingest | ev-news-2026-07-20-08-24（四批次共18篇：electrive 10、ETAuto/印度3、Digitimes 3、中文財經媒體2；另5篇經比對確認為8月20日既有報導的重複剪輯，未計入）
+- Source pages（新建4頁）：
+  - [[sources/ev-news-2026-08-21-22-electrive-en]] — Genesis GV90技術規格深度報導（eMP平台/雙馬達精確數據）、中國門把手召回擴大至11家車廠逾400萬輛（含Tesla追加274萬輛駕駛監測召回）、內華達Robotaxi許可補充細節（總額度8,000輛、Zoox已握百輛）、Xiaomi EV Q2再度虧損26億人民幣、Tatra首款純電8x8越野卡車、充電基建（Engie Vianeo德國重卡充電、Hubject×Localiser數據合作、Hypercharge家用充電獎勵）
+  - [[sources/ev-news-2026-07-23-08-24-etauto-india]] — Sona Comstar「2.0策略」攜手Denso切入電動/油電動力總成並跨足機器人、Volkswagen印度確認推出Sub-4米SUV、印度中型SUV市佔升至18.2%但原物料成本壓縮OEM利潤率
+  - [[sources/ev-news-2026-08-24-digitimes]] — 和泰車、南陽實業因地緣政治與油價下修2H26台灣車市展望、日產本田加速轉向E2E自駕技術並結盟Wayve/Helm.ai等外部AI夥伴、中國稀土磁鐵龍頭金力永磁受惠電動車與機器人雙需求引擎營收創高
+  - [[sources/ev-news-2026-07-20-08-22-cn-misc]] — Honda旗艦休旅Avancier確認重返全球市場並申請台灣商標、蔚來董事長李斌談中國汽車業進入「最殘酷決賽」未來兩年是關鍵期
+- Pages updated: [[entities/現代汽車]], [[entities/小米汽車]], [[entities/Volkswagen]], [[concepts/Robotaxi自動計程車]], [[concepts/ADAS智駕系統]]
+- Countries updated: [[countries/中國]], [[countries/台灣]], [[countries/印度]]
+- New pages created: 無
+- Key additions: Genesis GV90技術細節補完（前軸240kW+後軸250kW綜效490kW、蔚山新純電廠首發車型、對標Mercedes EQS SUV/Maybach EQS SUV）；中國門把手召回規模擴大確認為11家車廠逾400萬輛（Tesla近298萬輛+Xiaomi 39萬輛+零跑37萬輛+小鵬26萬輛+極氪9萬輛等），同日Tesla另追加274萬輛駕駛監測召回，單日總召回逾700萬輛；小米EV業務Q2再度轉虧26億人民幣，推翻此前「2026年轉盈」舊敘事；內華達Robotaxi許可總額度確認為8,000輛且Zoox已先握百輛許可；Volkswagen確認明年於印度推出Sub-4米SUV因應全球「解耦」策略；日產本田同步結盟Wayve、Helm.ai等外部AI夥伴加速轉向E2E自動駕駛技術，日產社長警告日系車廠若1-2年內未能跟上恐被邊緣化；和泰車、南陽實業因地緣政治與油價不確定性雙雙下修台灣2H26車市展望；蔚來李斌公開呼應萬鋼「內捲」反思，直言中國車企正進入最殘酷決賽兩年關鍵期
+- 備註: 5篇重複剪輯已排除（LGES蘭辛廠啟用、LGES無人機電池評估、Tesla Cybercab奧斯汀首測、三菱ASX VR-e、三星現代結盟報導，均為8月20日既有報導的無空格/連字號變體重複剪輯，本次仍為未收錄狀態）
