@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [lges-loss-ess-2026, ira-supply-chain-compliance, us-ev-battery-demand-mismatch, lges-tesla-4680-supplier, lges-bmw-46series-order, ev-news-2026-07-03-08, ev-news-2026-07-10-supplement, ev-news-2026-07-12-13-electrive, ev-news-2026-07-14-16-digitimes, ev-news-2026-07-17-20-digitimes, ev-news-2026-07-25-27-digitimes, ev-news-2026-07-29-31-digitimes, ev-news-2026-08-20-digitimes, ev-news-2026-08-19-20-cn-misc, ev-news-2026-08-19-20-electrive-en, ev-news-2026-08-21-digitimes, ev-news-2026-08-21-23-electrive-en]
-updated: 2026-08-23
+sources: [lges-loss-ess-2026, ira-supply-chain-compliance, us-ev-battery-demand-mismatch, lges-tesla-4680-supplier, lges-bmw-46series-order, ev-news-2026-07-03-08, ev-news-2026-07-10-supplement, ev-news-2026-07-12-13-electrive, ev-news-2026-07-14-16-digitimes, ev-news-2026-07-17-20-digitimes, ev-news-2026-07-25-27-digitimes, ev-news-2026-07-29-31-digitimes, ev-news-2026-08-20-digitimes, ev-news-2026-08-19-20-cn-misc, ev-news-2026-08-19-20-electrive-en, ev-news-2026-08-21-digitimes, ev-news-2026-08-21-23-electrive-en, ev-news-2026-08-26-digitimes]
+updated: 2026-08-26
 ---
 
 # 樂金能源解決方案（LG Energy Solution，LGES）
@@ -134,6 +134,19 @@ updated: 2026-08-23
 **觀察**：LGES LMR方形電池2027年試產進度是否如期；鈉離子ESS試產計畫具體時程與首批客戶。
 
 - 參見：[[sources/ev-news-2026-08-21-digitimes]] | [[sources/ev-news-2026-08-21-23-electrive-en]] | [[concepts/電池技術路線]]
+
+## 國防商機評估進展：北美社長證實已收到美方國防企業邀約（2026-08）
+
+> **結論**：LGES北美法人社長Bob Lee證實已收到美國主要國防企業關於無人機電池供應的邀約，正在評估中；樂金集團過去因與LIG集團、GS集團分拆後默契維持業務不重疊而刻意迴避國防領域，此次公開討論進軍國防本身即是重大策略轉向，凸顯商機（美國NDAA法案2027年10月起禁採中國電池）與ESG品牌風險、中美地緣政治敏感度之間的拉鋸。
+
+**主因**：
+- 業務版圖轉向的歷史意義：Bob Lee形容樂金集團過去對國防領域的審慎立場「如同消費品企業聲明不做酒類或菸草事業」，此次公開評估進軍國防已是重大轉變
+- 政策面利多明確：美國NDAA規定2027年10月起禁止向寧德時代、比亞迪等6家中國企業採購電池，南韓企業成為少數可替代供應商，全球軍用電池市場估將由2025年24億美元成長至2034年52.2億美元（北美佔比36.25%為最大市場）
+- 技術能力已具備：LGES 2026年3月InterBattery展會已展示搭載2170圓柱型電池的血液運輸無人機，該電池技術可延伸至無人地面車輛、監視偵察機器人等設備，惟正式簽約前仍須權衡ESG評級衝擊及中國市場業務風險
+
+**觀察**：LGES是否於未來1-2季內正式簽署國防電池供應合約；樂金集團其他子公司是否跟進評估國防領域布局。
+
+- 參見：[[sources/ev-news-2026-08-26-digitimes]] | [[countries/美國]]
 
 ## Related
 - [[entities/寧德時代]]

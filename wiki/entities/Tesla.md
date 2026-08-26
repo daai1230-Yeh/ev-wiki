@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [tesla-ass-nhtsa-probe-closed, tesla-taiwan-march-2026, xiaomi-ev-europe-2027, tesla-4680-musk-strategy, tesla-korea-q1-2026, tesla-q1-2026-earnings, tesla-india-model-y-l, 駐外新聞-美國-2025, ev-news-2026-07-02, ev-news-2026-07-03-08, ev-news-2026-07-09, ev-news-2026-07-10-insideevs-batch, ev-news-2026-07-11, ev-news-2026-07-12-13-digest, ev-news-2026-07-12-13-electrive, ev-news-2026-07-13-digitimes, ev-news-2026-07-14-16-insideevs, ev-news-2026-07-14-16-digitimes, ev-news-2026-07-21-22-digitimes, ev-news-2026-07-20-21-electrive-en, ev-news-2026-07-22-24-digitimes, ev-news-2026-07-22-23-electrive-en, ev-news-2026-07-25-27-digitimes, ev-news-2026-07-28-digitimes, ev-news-2026-07-28-30-electrive-en, ev-news-2026-08-01-03-cn, ev-news-2026-08-01-03-en, ev-news-2026-08-04-06-digitimes, ev-news-2026-08-03-06-electrive-en, ev-news-2026-08-04-06-cn-misc, ev-news-2026-08-07-digitimes, ev-news-2026-08-06-07-cn-misc, ev-news-2026-08-06-07-electrive-en, ev-news-2026-08-06-10-cn-misc, ev-news-2026-08-07-10-electrive-en, ev-news-2026-08-13-15-electrive-en, ev-news-2026-08-19-digitimes, ev-news-2026-08-20-digitimes, ev-news-2026-08-19-20-cn-misc, ev-news-2026-08-21-digitimes, ev-news-2026-08-21-23-electrive-en]
-updated: 2026-08-23
+sources: [tesla-ass-nhtsa-probe-closed, tesla-taiwan-march-2026, xiaomi-ev-europe-2027, tesla-4680-musk-strategy, tesla-korea-q1-2026, tesla-q1-2026-earnings, tesla-india-model-y-l, 駐外新聞-美國-2025, ev-news-2026-07-02, ev-news-2026-07-03-08, ev-news-2026-07-09, ev-news-2026-07-10-insideevs-batch, ev-news-2026-07-11, ev-news-2026-07-12-13-digest, ev-news-2026-07-12-13-electrive, ev-news-2026-07-13-digitimes, ev-news-2026-07-14-16-insideevs, ev-news-2026-07-14-16-digitimes, ev-news-2026-07-21-22-digitimes, ev-news-2026-07-20-21-electrive-en, ev-news-2026-07-22-24-digitimes, ev-news-2026-07-22-23-electrive-en, ev-news-2026-07-25-27-digitimes, ev-news-2026-07-28-digitimes, ev-news-2026-07-28-30-electrive-en, ev-news-2026-08-01-03-cn, ev-news-2026-08-01-03-en, ev-news-2026-08-04-06-digitimes, ev-news-2026-08-03-06-electrive-en, ev-news-2026-08-04-06-cn-misc, ev-news-2026-08-07-digitimes, ev-news-2026-08-06-07-cn-misc, ev-news-2026-08-06-07-electrive-en, ev-news-2026-08-06-10-cn-misc, ev-news-2026-08-07-10-electrive-en, ev-news-2026-08-13-15-electrive-en, ev-news-2026-08-19-digitimes, ev-news-2026-08-20-digitimes, ev-news-2026-08-19-20-cn-misc, ev-news-2026-08-21-digitimes, ev-news-2026-08-21-23-electrive-en, ev-news-2026-08-26-digitimes]
+updated: 2026-08-26
 ---
 
 # Tesla
@@ -437,6 +437,18 @@ YouTuber實測顯示，搭載HW4與最新FSD v14.3.4的車輛反應時間0.450�
 **觀察**：Tesla Semi歐規實際定價與交付時程；內華達5,000輛配額實際部署進度能否追上Waymo既有商業化基礎。
 
 - 參見：[[sources/ev-news-2026-08-21-digitimes]] | [[sources/ev-news-2026-08-21-23-electrive-en]] | [[concepts/電動卡車市場]] | [[concepts/Robotaxi自動計程車]]
+
+## Musk力推自研AI5晶片：效能看齊NVIDIA、成本僅一成，整合Dojo資源（2026-08）
+
+> **結論**：Musk表示Tesla自研AI5推論晶片每瓦效能可望比NVIDIA高2~3倍、成本僅約對手一成，並將原本獨立推進的Dojo超級電腦計畫整合進AI5平台，策略聚焦自駕車與Optimus機器人等長時間運作、受限功耗與成本的終端推論市場，而非正面挑戰NVIDIA在資料中心訓練市場的主導地位。
+
+- 差異化競爭邊界：Tesla仍將持續採用NVIDIA晶片進行LLM訓練與資料中心運算，AI5鎖定自駕車、機器人等專用推論市場——此市場規模更容易擴張且對成本與功耗更敏感
+- 技術進度：AI5已於4月完成設計定案（tape-out），交由三星電子代工；單顆SoC效能估計接近NVIDIA Hopper世代，雙晶片組合有機會逼近Blackwell等級但功耗與製造成本更低
+- 資源整合邏輯：Musk坦言Dojo與AI5過去分頭推進均面臨瓶頸，因此決定集中工程資源整合至AI5平台，反映數百萬輛車＋大量Optimus機器人的規模化部署下，成本控制重要性可能超越單純峰值算力
+
+**觀察**：AI5量產時程與首發應用（Cybercab或Optimus機器人）；三星代工良率與產能是否成為瓶頸。
+
+- 參見：[[sources/ev-news-2026-08-26-digitimes]]
 
 ## Related
 - [[entities/NHTSA]]

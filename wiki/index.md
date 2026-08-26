@@ -1,10 +1,14 @@
 # Wiki Index
 
-Last updated: 2026-08-24 | Pages: 489 | Sources: 453
+Last updated: 2026-08-26 | Pages: 489 | Sources: 455
 
 ---
 
 ## Sources（來源摘要）
+
+### 電動乘用車
+- [[sources/ev-news-2026-08-24-25-electrive-en]] — electrive/InsideEVs批次6篇：雙向AC充電押注量產化、墨西哥Olinia平價電動輕卡、Opel Corsa純電化延後至2028年、Renault 5升級續航、Walmart充電網絡破百站、Mercedes CLA實測續航超標73英里。(2026-08-26)
+- [[sources/ev-news-2026-08-26-digitimes]] — Digitimes批次6篇：Tesla力推自研AI5晶片挑戰NVIDIA、LGES國防電池商機評估進展、中國鋰電併購監管開綠燈、本田評估美國設新HEV車廠、旭化成鋰預參雜技術提升密度10%、美國電池新創轉戰國防軍工。(2026-08-26)
 
 ### 電動乘用車
 - [[sources/ev-news-2026-08-21-22-electrive-en]] — electrive批次10篇：Genesis GV90技術規格深度報導、中國門把手召回擴大至逾400萬輛、內華達Robotaxi許可補充細節（Zoox已握百輛）、Xiaomi EV Q2再度虧損、充電基建與商用車動態。(2026-08-24)

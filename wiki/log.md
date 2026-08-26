@@ -2077,3 +2077,13 @@ Pages 375 → 406，Sources 315 → 346
 - New pages created: 無
 - Key additions: Genesis GV90技術細節補完（前軸240kW+後軸250kW綜效490kW、蔚山新純電廠首發車型、對標Mercedes EQS SUV/Maybach EQS SUV）；中國門把手召回規模擴大確認為11家車廠逾400萬輛（Tesla近298萬輛+Xiaomi 39萬輛+零跑37萬輛+小鵬26萬輛+極氪9萬輛等），同日Tesla另追加274萬輛駕駛監測召回，單日總召回逾700萬輛；小米EV業務Q2再度轉虧26億人民幣，推翻此前「2026年轉盈」舊敘事；內華達Robotaxi許可總額度確認為8,000輛且Zoox已先握百輛許可；Volkswagen確認明年於印度推出Sub-4米SUV因應全球「解耦」策略；日產本田同步結盟Wayve、Helm.ai等外部AI夥伴加速轉向E2E自動駕駛技術，日產社長警告日系車廠若1-2年內未能跟上恐被邊緣化；和泰車、南陽實業因地緣政治與油價不確定性雙雙下修台灣2H26車市展望；蔚來李斌公開呼應萬鋼「內捲」反思，直言中國車企正進入最殘酷決賽兩年關鍵期
 - 備註: 5篇重複剪輯已排除（LGES蘭辛廠啟用、LGES無人機電池評估、Tesla Cybercab奧斯汀首測、三菱ASX VR-e、三星現代結盟報導，均為8月20日既有報導的無空格/連字號變體重複剪輯，本次仍為未收錄狀態）
+
+## [2026-08-26] ingest | ev-news-2026-08-24-26（兩批次共12篇：electrive/InsideEVs 6、Digitimes 6；另11篇經比對確認為既有報導的重複剪輯或內部無空格/連字號變體，未計入）
+- Source pages（新建2頁）：
+  - [[sources/ev-news-2026-08-24-25-electrive-en]] — 雙向AC充電押注量產化（Cubos/Compleo/Valeo）、墨西哥Olinia平價電動輕卡、Opel Corsa純電化延後至2028年、Renault 5升級續航新增LFP入門版、Walmart充電網絡破百站、Mercedes CLA 350實測續航超標73英里
+  - [[sources/ev-news-2026-08-26-digitimes]] — Tesla力推自研AI5晶片挑戰NVIDIA且整合Dojo資源、LGES國防電池商機評估進展（Bob Lee證實收到美方國防企業邀約）、中國鋰電併購監管10天快速開綠燈、本田評估美國設新HEV車廠因應川普加拿大關稅威脅、旭化成鋰預參雜技術提升能量密度10%、美國電池新創轉戰國防軍工領域
+- Pages updated: [[entities/LGES]], [[entities/Tesla]], [[entities/本田]], [[concepts/電池技術路線]], [[concepts/充電基礎建設]], [[concepts/電動卡車市場]]
+- Countries updated: [[countries/美國]]
+- New pages created: 無
+- Key additions: Tesla Musk表態自研AI5推論晶片效能看齊NVIDIA、成本僅一成，並整合Dojo超算資源聚焦自駕/機器人終端推論市場；LGES北美社長證實已收到美國國防企業無人機電池供應邀約，正評估中，樂金集團史上首度公開討論進軍國防領域；中國監管部門快速無條件核准6起鋰電併購案（最快10天），產業從「拼產能」轉向「拼能力」；本田評估在美國興建北美第8座工廠擴大HEV陣容，因應川普政府對加拿大製汽車加徵50%關稅及不再續簽NAFTA的貿易政策變化；旭化成開發鋰預參雜技術可將高電壓鋰電池能量密度提升10%且免產線改造；美國OBBBA削減EV補貼致需求萎縮，電池新創轉戰國防軍工（無人機、魚雷等）尋求出路，能源部撥款5億美元強化本土供應鏈；雙向AC充電三業者（Cubos/Compleo/Valeo）不約而同押注取代成本過高的DC方案作為量產化路徑；Walmart充電網絡突破百站里程碑（20州）
+- 備註: 11篇重複剪輯已排除——5篇為8月20日既有報導的舊有無空格/連字號變體（LGES蘭辛廠啟用、LGES無人機電池評估、Tesla Cybercab奧斯汀首測、三菱ASX VR-e、三星現代結盟報導，持續未收錄），另1篇為8月21日既有報導「Massive recall in China」的連字號變體重複剪輯，另5篇為本批次內部同一文章的空格/連字號變體重複剪輯（LGES國防商機、中國鋰電併購、旭化成鋰預參雜、美國電池新創轉戰國防、Mercedes CLA時間戳差異版）
