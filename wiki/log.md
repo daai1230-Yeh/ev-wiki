@@ -2087,3 +2087,14 @@ Pages 375 → 406，Sources 315 → 346
 - New pages created: 無
 - Key additions: Tesla Musk表態自研AI5推論晶片效能看齊NVIDIA、成本僅一成，並整合Dojo超算資源聚焦自駕/機器人終端推論市場；LGES北美社長證實已收到美國國防企業無人機電池供應邀約，正評估中，樂金集團史上首度公開討論進軍國防領域；中國監管部門快速無條件核准6起鋰電併購案（最快10天），產業從「拼產能」轉向「拼能力」；本田評估在美國興建北美第8座工廠擴大HEV陣容，因應川普政府對加拿大製汽車加徵50%關稅及不再續簽NAFTA的貿易政策變化；旭化成開發鋰預參雜技術可將高電壓鋰電池能量密度提升10%且免產線改造；美國OBBBA削減EV補貼致需求萎縮，電池新創轉戰國防軍工（無人機、魚雷等）尋求出路，能源部撥款5億美元強化本土供應鏈；雙向AC充電三業者（Cubos/Compleo/Valeo）不約而同押注取代成本過高的DC方案作為量產化路徑；Walmart充電網絡突破百站里程碑（20州）
 - 備註: 11篇重複剪輯已排除——5篇為8月20日既有報導的舊有無空格/連字號變體（LGES蘭辛廠啟用、LGES無人機電池評估、Tesla Cybercab奧斯汀首測、三菱ASX VR-e、三星現代結盟報導，持續未收錄），另1篇為8月21日既有報導「Massive recall in China」的連字號變體重複剪輯，另5篇為本批次內部同一文章的空格/連字號變體重複剪輯（LGES國防商機、中國鋰電併購、旭化成鋰預參雜、美國電池新創轉戰國防、Mercedes CLA時間戳差異版）
+
+## [2026-08-27] ingest | ev-news-2026-08-21-27（三批次共24篇：electrive/InsideEVs/ETAuto 15、Digitimes 6、中文財經媒體複合報導3；另11篇仍為8月20/26日既有報導的重複剪輯，未計入）
+- Source pages（新建3頁）：
+  - [[sources/ev-news-2026-08-26-27-electrive-en]] — 現代汽車CEO投資人日2030策略（3篇多角度報導：electrive全球版、InsideEVs北美Santa Fe EREV版、ETAuto印度26款新車版）、Geely瞄準1000V充電架構追趕比亞迪、Waymo宣布2027慕尼黑Robotaxi計畫、SK Innovation合併SKIET、Asahi Kasei北美濕式隔離膜產能、Tesla Cybertruck再度漲價、多項商用車/充電/消費端動態
+  - [[sources/ev-news-2026-08-27-digitimes]] — 中國擬修《道交法》L3自駕責任歸屬車廠、LGES固態電池時程再確認（手機早電動車10年商用化）、福特攜手蘋果Apple Maps直攻下一代智駕、鈴木e-SKY搶進日本輕型BEV市場、馬來西亞電動化車市躍升主流（BEV首超HEV）、馬國充電樁建置進度落後中國硬體業者卡位
+  - [[sources/ev-news-2026-08-21-26-cn-misc]] — 中國道交法修訂快訊版、Tesla中國門把手召回傷亡數據補充（彭博12起事故15死）、馬斯克AI5晶片進展細節補充（新增AMD競爭對象、Dojo3/AI6同步研發）
+- Pages updated: [[entities/現代汽車]], [[entities/LGES]], [[entities/福特]], [[entities/Tesla]], [[concepts/電池技術路線]], [[concepts/ADAS智駕系統]], [[concepts/Robotaxi自動計程車]]
+- Countries updated: [[countries/中國]], [[countries/東南亞]]
+- New pages created: 無
+- Key additions: 現代汽車CEO投資人日發表2030策略——全球逾100款新/改款車型、電動化占比目標由23%拉高至60%、明年推出集團首款EREV Santa Fe（續航逾600英里）、Genesis GV90首發熱失控防護技術、Q4起向Waymo交付Ioniq 5 Robotaxi車隊；中國《道路交通安全法修訂草案》首次提請審議並新增自動駕駛專章，L3及以上自駕功能啟用期間事故責任改由車廠承擔，終結全球車廠對中國成為L3法規鬆綁突破口的期待；LGES再次強調全固態電池大尺寸量產瓶頸，預期手機商用化將較電動車早10年；福特採用蘋果MapKit for Automotive導入BlueCruise系統，車廠與科技巨頭關係從CarPlay時代對立轉向務實合作；Waymo宣布2027年慕尼黑Robotaxi商用化計畫，若如期將成歐盟首個常態無人載客服務城市；馬來西亞2026上半BEV銷量年增106%首度超越HEV，惟充電樁建置進度明顯落後政府目標（僅約1,500座 vs 目標1萬座）
+- 備註: 11篇重複剪輯已排除，均為8月20日與8月26日既有批次報導的無空格/連字號變體，持續未收錄

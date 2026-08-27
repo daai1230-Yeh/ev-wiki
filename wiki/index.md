@@ -1,10 +1,15 @@
 # Wiki Index
 
-Last updated: 2026-08-26 | Pages: 489 | Sources: 455
+Last updated: 2026-08-27 | Pages: 489 | Sources: 458
 
 ---
 
 ## Sources（來源摘要）
+
+### 電動乘用車
+- [[sources/ev-news-2026-08-26-27-electrive-en]] — electrive/InsideEVs/ETAuto批次15篇：現代汽車CEO投資人日2030策略（3篇多角度報導，含首款EREV Santa Fe）、Geely瞄準1000V充電架構、Waymo 2027慕尼黑Robotaxi計畫、SK Innovation合併SKIET、Tesla Cybertruck再度漲價。(2026-08-27)
+- [[sources/ev-news-2026-08-27-digitimes]] — Digitimes批次6篇：中國擬修法L3自駕責任歸屬車廠、LGES固態電池時程再確認、福特攜手蘋果Apple Maps直攻智駕、鈴木e-SKY搶進輕型BEV、馬來西亞電動化車市與充電樁布局。(2026-08-27)
+- [[sources/ev-news-2026-08-21-26-cn-misc]] — 中文財經媒體補充批次3篇：中國道交法修訂快訊、Tesla中國召回傷亡數據補充（彭博12起事故15死）、馬斯克AI5晶片進展補充。(2026-08-27)
 
 ### 電動乘用車
 - [[sources/ev-news-2026-08-24-25-electrive-en]] — electrive/InsideEVs批次6篇：雙向AC充電押注量產化、墨西哥Olinia平價電動輕卡、Opel Corsa純電化延後至2028年、Renault 5升級續航、Walmart充電網絡破百站、Mercedes CLA實測續航超標73英里。(2026-08-26)

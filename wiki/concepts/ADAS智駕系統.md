@@ -1,7 +1,7 @@
 ---
 tags: [concept]
-sources: [byd-dipilot-adas-2026, robotaxi-market-2026, toyota-adas-vs-fsd-subscription, hyundai-pleos-sdv-os, in-cabin-ai-sensing-2026, l2plus-adas-adoption-2026, rivian-lidar-china-partner-2026, hyundai-kia-atria-ai-gwangju-2026, hesai-color-lidar-2026, ev-news-digest-jun1-10-2026, ev-news-2026-06-27-29-en, ev-news-2026-06-30-07-01, ev-news-2026-06-29-zh, ev-news-2026-07-02, ev-news-2026-07-03-08, ev-news-2026-07-09, ev-news-2026-07-21-22-digitimes, ev-news-2026-07-22-23-electrive-en, ev-news-2026-08-24-digitimes]
-updated: 2026-08-24
+sources: [byd-dipilot-adas-2026, robotaxi-market-2026, toyota-adas-vs-fsd-subscription, hyundai-pleos-sdv-os, in-cabin-ai-sensing-2026, l2plus-adas-adoption-2026, rivian-lidar-china-partner-2026, hyundai-kia-atria-ai-gwangju-2026, hesai-color-lidar-2026, ev-news-digest-jun1-10-2026, ev-news-2026-06-27-29-en, ev-news-2026-06-30-07-01, ev-news-2026-06-29-zh, ev-news-2026-07-02, ev-news-2026-07-03-08, ev-news-2026-07-09, ev-news-2026-07-21-22-digitimes, ev-news-2026-07-22-23-electrive-en, ev-news-2026-08-24-digitimes, ev-news-2026-08-27-digitimes]
+updated: 2026-08-27
 ---
 
 # ADAS 智駕系統（Advanced Driver Assistance System）
@@ -342,6 +342,17 @@ GM 與美光（Micron）簽署 **第 16 份供應協議（SCA）**，涵蓋汽�
 **觀察**：日產Elgrand E2E系統2027年度能否如期量產；本田Vezel E2E軟體實際上車表現與自研版本的技術差距。
 
 - 參見：[[sources/ev-news-2026-08-24-digitimes]] | [[countries/日本]] | [[concepts/Robotaxi自動計程車]]
+
+## 福特攜手蘋果Apple Maps，中國擬修法L3責任歸屬車廠（2026-08）
+
+> **結論**：福特採用蘋果MapKit for Automotive套件開發新一代BlueCruise ADAS，標誌車廠與科技巨頭關係從CarPlay時代對立轉向務實合作；同期中國《道路交通安全法修訂草案》首次提請審議，傾向L3及以上自駕功能啟用期間發生事故由車廠承擔責任，終結全球車廠對中國成為L3法規鬆綁突破口的期待，兩則新聞共同指向自駕技術正從「單純賣點」邁向「須承擔法律與供應鏈責任的產品」新階段。
+
+- 福特×蘋果合作範疇：涵蓋車用地圖四層架構的前三層（基礎導航、動態路況、ADAS速限/車道數地圖），福特仍全權掌握車機介面主導權，僅借重蘋果數據與工具作為BlueCruise升級基礎，與CarPlay時代車廠防備科技巨頭主導權旁落的態度形成對比
+- 中國L3修法責任分流：草案規定L3/L4自駕功能於系統設計運行範圍內啟用時發生違規事故改由車廠或進口企業承擔，車廠須配置強制保險並承擔行車/網路/資料安全責任；此前中國因法規空白一度被視為全球L3突破口，如今責任明確化後多數車廠恐轉向直接布局L4~L5尋找商業模式
+
+**觀察**：其他車廠是否跟進採用蘋果MapKit for Automotive；中國修法草案正式生效時間及對L3商業化進度的實際影響。
+
+- 參見：[[sources/ev-news-2026-08-27-digitimes]] | [[entities/福特]] | [[countries/中國]]
 
 ## Related
 - [[entities/Tesla]]

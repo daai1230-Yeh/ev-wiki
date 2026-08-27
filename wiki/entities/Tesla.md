@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [tesla-ass-nhtsa-probe-closed, tesla-taiwan-march-2026, xiaomi-ev-europe-2027, tesla-4680-musk-strategy, tesla-korea-q1-2026, tesla-q1-2026-earnings, tesla-india-model-y-l, 駐外新聞-美國-2025, ev-news-2026-07-02, ev-news-2026-07-03-08, ev-news-2026-07-09, ev-news-2026-07-10-insideevs-batch, ev-news-2026-07-11, ev-news-2026-07-12-13-digest, ev-news-2026-07-12-13-electrive, ev-news-2026-07-13-digitimes, ev-news-2026-07-14-16-insideevs, ev-news-2026-07-14-16-digitimes, ev-news-2026-07-21-22-digitimes, ev-news-2026-07-20-21-electrive-en, ev-news-2026-07-22-24-digitimes, ev-news-2026-07-22-23-electrive-en, ev-news-2026-07-25-27-digitimes, ev-news-2026-07-28-digitimes, ev-news-2026-07-28-30-electrive-en, ev-news-2026-08-01-03-cn, ev-news-2026-08-01-03-en, ev-news-2026-08-04-06-digitimes, ev-news-2026-08-03-06-electrive-en, ev-news-2026-08-04-06-cn-misc, ev-news-2026-08-07-digitimes, ev-news-2026-08-06-07-cn-misc, ev-news-2026-08-06-07-electrive-en, ev-news-2026-08-06-10-cn-misc, ev-news-2026-08-07-10-electrive-en, ev-news-2026-08-13-15-electrive-en, ev-news-2026-08-19-digitimes, ev-news-2026-08-20-digitimes, ev-news-2026-08-19-20-cn-misc, ev-news-2026-08-21-digitimes, ev-news-2026-08-21-23-electrive-en, ev-news-2026-08-26-digitimes]
-updated: 2026-08-26
+sources: [tesla-ass-nhtsa-probe-closed, tesla-taiwan-march-2026, xiaomi-ev-europe-2027, tesla-4680-musk-strategy, tesla-korea-q1-2026, tesla-q1-2026-earnings, tesla-india-model-y-l, 駐外新聞-美國-2025, ev-news-2026-07-02, ev-news-2026-07-03-08, ev-news-2026-07-09, ev-news-2026-07-10-insideevs-batch, ev-news-2026-07-11, ev-news-2026-07-12-13-digest, ev-news-2026-07-12-13-electrive, ev-news-2026-07-13-digitimes, ev-news-2026-07-14-16-insideevs, ev-news-2026-07-14-16-digitimes, ev-news-2026-07-21-22-digitimes, ev-news-2026-07-20-21-electrive-en, ev-news-2026-07-22-24-digitimes, ev-news-2026-07-22-23-electrive-en, ev-news-2026-07-25-27-digitimes, ev-news-2026-07-28-digitimes, ev-news-2026-07-28-30-electrive-en, ev-news-2026-08-01-03-cn, ev-news-2026-08-01-03-en, ev-news-2026-08-04-06-digitimes, ev-news-2026-08-03-06-electrive-en, ev-news-2026-08-04-06-cn-misc, ev-news-2026-08-07-digitimes, ev-news-2026-08-06-07-cn-misc, ev-news-2026-08-06-07-electrive-en, ev-news-2026-08-06-10-cn-misc, ev-news-2026-08-07-10-electrive-en, ev-news-2026-08-13-15-electrive-en, ev-news-2026-08-19-digitimes, ev-news-2026-08-20-digitimes, ev-news-2026-08-19-20-cn-misc, ev-news-2026-08-21-digitimes, ev-news-2026-08-21-23-electrive-en, ev-news-2026-08-26-digitimes, ev-news-2026-08-21-26-cn-misc, ev-news-2026-08-26-27-electrive-en]
+updated: 2026-08-27
 ---
 
 # Tesla
@@ -449,6 +449,8 @@ YouTuber實測顯示，搭載HW4與最新FSD v14.3.4的車輛反應時間0.450�
 **觀察**：AI5量產時程與首發應用（Cybercab或Optimus機器人）；三星代工良率與產能是否成為瓶頸。
 
 - 參見：[[sources/ev-news-2026-08-26-digitimes]]
+
+**補充細節**：Musk於與避險基金經理人Ron Baron對談中補充，Tesla需在AI推論運算領域同時與NVIDIA及AMD競爭（此前僅提及NVIDIA），並於X平台證實AI5晶片設計團隊已完成「流片」（tape out），AI6、Dojo3等後續晶片也正同步研發中。同期Tesla在美國第二度調漲Cybertruck售價：雙馬達AWD版再漲5,000美元至74,990美元（較2月上市價累計漲25%），Premium AWD同步漲至84,990美元，惟美國Cybertruck銷量Q1年減45.1%，漲價與需求疲軟並存的矛盾處境持續。參見：[[sources/ev-news-2026-08-21-26-cn-misc]] | [[sources/ev-news-2026-08-26-27-electrive-en]]
 
 ## Related
 - [[entities/NHTSA]]

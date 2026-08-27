@@ -1,7 +1,7 @@
 ---
 tags: [concept]
-sources: [robotaxi-market-2026, china-autonomous-driving-overseas, europe-robotaxi-verne-ponyai, waymo-miami-orlando-expansion, taiwan-av-special-scenes, japan-2030-autonomous-ai-strategy, ratp-karsan-autonomous-bus-paris, av-physical-ai-trends-2026, tesla-fsd-eu-expansion-2026, tesla-robotaxi-texas-reality-2026, uber-robotaxi-europe-expansion-2026, waymo-battery-secondlife-colorado-recycling-2026, toyota-tier-iv-l4-investment-2026, waymo-arizona-expansion-2026, tesla-cybercab-specs-2026, mobileye-robotaxi-2026, tesla-fsd-netherlands-2026, ev-news-2026-06-22, ev-news-2026-07-13-digitimes, ev-news-2026-07-14-16-electrive, ev-news-2026-07-21-22-digitimes, ev-news-2026-07-22-24-digitimes, ev-news-2026-07-22-23-electrive-en, ev-news-2026-07-28-digitimes, ev-news-2026-07-28-30-electrive-en, ev-news-2026-08-01-03-en, ev-news-2026-08-04-06-digitimes, ev-news-2026-08-03-06-electrive-en, ev-news-2026-08-06-07-electrive-en, ev-news-2026-08-07-10-electrive-en, ev-news-2026-08-17-18-electrive-en, ev-news-2026-08-20-digitimes, ev-news-2026-08-19-20-cn-misc, ev-news-2026-08-21-23-electrive-en, ev-news-2026-08-21-22-electrive-en]
-updated: 2026-08-24
+sources: [robotaxi-market-2026, china-autonomous-driving-overseas, europe-robotaxi-verne-ponyai, waymo-miami-orlando-expansion, taiwan-av-special-scenes, japan-2030-autonomous-ai-strategy, ratp-karsan-autonomous-bus-paris, av-physical-ai-trends-2026, tesla-fsd-eu-expansion-2026, tesla-robotaxi-texas-reality-2026, uber-robotaxi-europe-expansion-2026, waymo-battery-secondlife-colorado-recycling-2026, toyota-tier-iv-l4-investment-2026, waymo-arizona-expansion-2026, tesla-cybercab-specs-2026, mobileye-robotaxi-2026, tesla-fsd-netherlands-2026, ev-news-2026-06-22, ev-news-2026-07-13-digitimes, ev-news-2026-07-14-16-electrive, ev-news-2026-07-21-22-digitimes, ev-news-2026-07-22-24-digitimes, ev-news-2026-07-22-23-electrive-en, ev-news-2026-07-28-digitimes, ev-news-2026-07-28-30-electrive-en, ev-news-2026-08-01-03-en, ev-news-2026-08-04-06-digitimes, ev-news-2026-08-03-06-electrive-en, ev-news-2026-08-06-07-electrive-en, ev-news-2026-08-07-10-electrive-en, ev-news-2026-08-17-18-electrive-en, ev-news-2026-08-20-digitimes, ev-news-2026-08-19-20-cn-misc, ev-news-2026-08-21-23-electrive-en, ev-news-2026-08-21-22-electrive-en, ev-news-2026-08-26-27-electrive-en]
+updated: 2026-08-27
 ---
 
 # Robotaxi（自動計程車）
@@ -435,6 +435,18 @@ Mobileye 宣布成立垂直整合 Robotaxi 部門，從技術供應商轉型為�
 - 參見：[[sources/ev-news-2026-08-21-23-electrive-en]] | [[entities/Tesla]] | [[entities/Waymo]] | [[countries/美國]]
 
 **補充細節**：electrive報導確認內華達正式核准總額度實為8,000輛（Tesla 5,000+Uber 1,000+Waymo 1,000，報導未解釋為何官方稱8,000而非7,000），且Tesla此次為其6月申請的正式核准（此前僅先取得10輛拉斯維加斯大道限定臨時許可）；另外Amazon旗下Zoox已在內華達握有100輛自駕車網路營運許可，意味這場「Robotaxi四方混戰」競爭者已不只Tesla、Waymo、Uber三家。參見：[[sources/ev-news-2026-08-21-22-electrive-en]]
+
+## Waymo宣布2027年慕尼黑上路計畫，現代同步向Waymo交付Ioniq 5車隊（2026-08）
+
+> **結論**：Waymo宣布未來數週將在德國慕尼黑派出首批車輛進行道路測繪，2027年底前推出商用無人載客服務，若如期落地將是歐盟首個常態無人Robotaxi服務城市；同期現代汽車CEO投資人日證實Q4起將向Waymo交付Ioniq 5 Robotaxi車隊，凸顯傳統車廠正從單純供應車輛角色轉為Robotaxi生態系的關鍵夥伴。
+
+- Waymo慕尼黑時程：初期配安全駕駛員進行道路測繪與交通條件評估，隨後部署Waymo Driver自駕系統，2027年底前商用化；德國子公司6月已完成商業登記，巴伐利亞邦政府與聯邦交通部均表態政治支持，市場預期同時有Uber及以色列AI公司Autobrains投入布局
+- Waymo全球實績持續累積：累計已完成逾2,000萬次自駕載客、逾3.5億公里全自駕行駛里程，事故率低於人類駕駛（惟慕尼黑交通條件與既有營運區域不同，實績能否直接複製仍待驗證）
+- 現代加入Robotaxi供應鏈：Q4起向Waymo交付Ioniq 5 Robotaxi車隊，旗下Motional子公司同步啟動自有無人載客服務，反映傳統車廠正尋求在Robotaxi浪潮中卡位供應端角色而非僅被動觀望
+
+**觀察**：慕尼黑Waymo測繪期實際進度與正式商用化時程；現代Ioniq 5車隊交付Waymo後的實際部署規模。
+
+- 參見：[[sources/ev-news-2026-08-26-27-electrive-en]] | [[entities/Waymo]] | [[entities/現代汽車]] | [[countries/歐洲]]
 
 ## Related
 - [[concepts/ADAS智駕系統]]

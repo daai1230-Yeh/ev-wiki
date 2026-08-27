@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [lges-loss-ess-2026, ira-supply-chain-compliance, us-ev-battery-demand-mismatch, lges-tesla-4680-supplier, lges-bmw-46series-order, ev-news-2026-07-03-08, ev-news-2026-07-10-supplement, ev-news-2026-07-12-13-electrive, ev-news-2026-07-14-16-digitimes, ev-news-2026-07-17-20-digitimes, ev-news-2026-07-25-27-digitimes, ev-news-2026-07-29-31-digitimes, ev-news-2026-08-20-digitimes, ev-news-2026-08-19-20-cn-misc, ev-news-2026-08-19-20-electrive-en, ev-news-2026-08-21-digitimes, ev-news-2026-08-21-23-electrive-en, ev-news-2026-08-26-digitimes]
-updated: 2026-08-26
+sources: [lges-loss-ess-2026, ira-supply-chain-compliance, us-ev-battery-demand-mismatch, lges-tesla-4680-supplier, lges-bmw-46series-order, ev-news-2026-07-03-08, ev-news-2026-07-10-supplement, ev-news-2026-07-12-13-electrive, ev-news-2026-07-14-16-digitimes, ev-news-2026-07-17-20-digitimes, ev-news-2026-07-25-27-digitimes, ev-news-2026-07-29-31-digitimes, ev-news-2026-08-20-digitimes, ev-news-2026-08-19-20-cn-misc, ev-news-2026-08-19-20-electrive-en, ev-news-2026-08-21-digitimes, ev-news-2026-08-21-23-electrive-en, ev-news-2026-08-26-digitimes, ev-news-2026-08-27-digitimes]
+updated: 2026-08-27
 ---
 
 # 樂金能源解決方案（LG Energy Solution，LGES）
@@ -147,6 +147,17 @@ updated: 2026-08-26
 **觀察**：LGES是否於未來1-2季內正式簽署國防電池供應合約；樂金集團其他子公司是否跟進評估國防領域布局。
 
 - 參見：[[sources/ev-news-2026-08-26-digitimes]] | [[countries/美國]]
+
+## 固態電池時程再確認：手機商用化恐早電動車10年（2026-08）
+
+> **結論**：北美法人社長Bob Lee再度強調全固態電池核心瓶頸在於大尺寸量產，能量密度優勢目前僅能實現於小型外型規格產品，預期智慧型手機等消費性電子應用商用化時點將較電動車早約10年，特殊用途（無人機、高性能超跑）可能是EV/ESS普及前的中繼站，延續此前蘭辛廠受訪時「多數企業在大型態量產上仍在掙扎」的一貫立場。
+
+- LGES自身路線：目標2029年商用化硫化物系全固態電池，核心技術為無負極（anodeless）設計與乾式電極製程，計畫先驗證20分鐘快充與安全性後從高性能高階電動車起步，再擴大至船舶、ESS應用
+- 全球陣營時程對照：賓士已搭載Factorial Energy半固態電池路測；BMW、Stellantis將Solid Power電池單元搭載原型車測試；中國寧德時代、比亞迪、吉利均瞄準2027年試點生產，形成中韓美三方各自時程競速格局
+
+**觀察**：LGES 2029年硫化物系固態電池商用化時程是否如期；特殊用途（無人機/超跑）先導應用是否率先出現商業化案例。
+
+- 參見：[[sources/ev-news-2026-08-27-digitimes]] | [[concepts/電池技術路線]]
 
 ## Related
 - [[entities/寧德時代]]
