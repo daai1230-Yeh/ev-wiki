@@ -2098,3 +2098,14 @@ Pages 375 → 406，Sources 315 → 346
 - New pages created: 無
 - Key additions: 現代汽車CEO投資人日發表2030策略——全球逾100款新/改款車型、電動化占比目標由23%拉高至60%、明年推出集團首款EREV Santa Fe（續航逾600英里）、Genesis GV90首發熱失控防護技術、Q4起向Waymo交付Ioniq 5 Robotaxi車隊；中國《道路交通安全法修訂草案》首次提請審議並新增自動駕駛專章，L3及以上自駕功能啟用期間事故責任改由車廠承擔，終結全球車廠對中國成為L3法規鬆綁突破口的期待；LGES再次強調全固態電池大尺寸量產瓶頸，預期手機商用化將較電動車早10年；福特採用蘋果MapKit for Automotive導入BlueCruise系統，車廠與科技巨頭關係從CarPlay時代對立轉向務實合作；Waymo宣布2027年慕尼黑Robotaxi商用化計畫，若如期將成歐盟首個常態無人載客服務城市；馬來西亞2026上半BEV銷量年增106%首度超越HEV，惟充電樁建置進度明顯落後政府目標（僅約1,500座 vs 目標1萬座）
 - 備註: 11篇重複剪輯已排除，均為8月20日與8月26日既有批次報導的無空格/連字號變體，持續未收錄
+
+## [2026-08-29] ingest | ev-news-2026-08-27-29（三批次共30篇：electrive/InsideEVs 21、Digitimes 5、ETAuto/Google快訊每日摘要4；另24篇經比對確認為既有批次報導或本批次內部的重複剪輯，未計入）
+- Source pages（新建3頁）：
+  - [[sources/ev-news-2026-08-27-29-electrive-en]] — BMW突破200萬輛純電動車銷售iX3扛起成長大旗、BYD超快充電池耐久測試（9天350次快充僅剩1.3%衰減）、中國門把手召回擴大至430萬輛歐洲KBA/RDW調查未決、Tesla Cybercab奧斯汀正式發表活動將至、Rivian財務長離職、Lucid召回2.7萬輛Air因起火風險、JLR電動Defender延後、多項充電基建動態彙整
+  - [[sources/ev-news-2026-08-28-digitimes]] — 中國1H26吃下全球逾7成電池市佔南韓三雄陷苦戰（LGES 8.6%/SK On 4%/三星SDI跌出前10）、NVIDIA自駕L2+到Robotaxi全階段卡位、豐田Lexus上海新廠2027年秋Gigacast電動車量產、豐田發表L2++乘用車普及藍圖2030年進軍L4商用市場、Waymo慕尼黑計畫補充細節（法荷西已註冊營運實體）
+  - [[sources/ev-news-2026-08-28-29-digest]] — 台灣7月EV銷量Foxtron反超Tesla居冠（未查證）、歐盟擬聯手英日韓組反中聯盟、比亞迪Q2獲利增近30%出口挽救獲利、本田美國設廠傳聞補充、Rivian/BMW新聞交叉引用
+- Pages updated: [[entities/BMW]], [[entities/比亞迪]], [[entities/Tesla]], [[entities/豐田]], [[entities/Lucid]], [[entities/Rivian]], [[concepts/電池技術路線]], [[concepts/Robotaxi自動計程車]], [[concepts/ADAS智駕系統]], [[concepts/充電基礎建設]]
+- Countries updated: [[countries/台灣]]
+- New pages created: 無
+- Key additions: 中國前七大電池企業全球市佔達72.4%（寧德時代39.9%+比亞迪14.4%過半），南韓三雄全面潰退且鈉離子/固態電池布局同步落後；BMW純電動車累計銷售突破200萬輛，iX3扛起Neue Klasse世代成長動能；BYD仰望U7完成9天350次超快充耐久測試僅剩1.3%容量衰減；中國門把手召回擴大至11家車廠430萬輛，歐洲RDW調查（源於德國Schwerte 3死事故）仍未決；NVIDIA同步布局L2+至Robotaxi全階段自駕市場，Tesla Cybercab宣布奧斯汀正式發表活動；豐田Lexus次世代電動車2027年秋於上海新廠採Gigacast量產，並發表2028年L2++自駕藍圖規劃2030年進軍L4商用接駁市場；Lucid因低壓電子保險絲缺陷召回2.7萬輛Air（史上最大規模）；Rivian財務長Claire McDonough離職轉任GE Vernova；Lyten收購破產Morrow Batteries延續歐洲電池廠整併潮
+- 備註: 24篇重複剪輯已排除——11篇為8月20/26日既有批次報導的無空格/連字號變體，13篇為本批次內部08-28與08-29重複剪輯的日期變體（AEM、Cadillac、EKPO、Estonia、Huge Tesla recalls、Hyundai Kaluza、India Chennai、JLR、Lyten、Terra Charge、VW Tiguan、Ubitricity、Vehicle to life，均保留08-28原始版本）；另3個html練習檔非新聞來源未納入

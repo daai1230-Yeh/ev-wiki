@@ -1,7 +1,7 @@
 ---
 tags: [concept]
-sources: [robotaxi-market-2026, china-autonomous-driving-overseas, europe-robotaxi-verne-ponyai, waymo-miami-orlando-expansion, taiwan-av-special-scenes, japan-2030-autonomous-ai-strategy, ratp-karsan-autonomous-bus-paris, av-physical-ai-trends-2026, tesla-fsd-eu-expansion-2026, tesla-robotaxi-texas-reality-2026, uber-robotaxi-europe-expansion-2026, waymo-battery-secondlife-colorado-recycling-2026, toyota-tier-iv-l4-investment-2026, waymo-arizona-expansion-2026, tesla-cybercab-specs-2026, mobileye-robotaxi-2026, tesla-fsd-netherlands-2026, ev-news-2026-06-22, ev-news-2026-07-13-digitimes, ev-news-2026-07-14-16-electrive, ev-news-2026-07-21-22-digitimes, ev-news-2026-07-22-24-digitimes, ev-news-2026-07-22-23-electrive-en, ev-news-2026-07-28-digitimes, ev-news-2026-07-28-30-electrive-en, ev-news-2026-08-01-03-en, ev-news-2026-08-04-06-digitimes, ev-news-2026-08-03-06-electrive-en, ev-news-2026-08-06-07-electrive-en, ev-news-2026-08-07-10-electrive-en, ev-news-2026-08-17-18-electrive-en, ev-news-2026-08-20-digitimes, ev-news-2026-08-19-20-cn-misc, ev-news-2026-08-21-23-electrive-en, ev-news-2026-08-21-22-electrive-en, ev-news-2026-08-26-27-electrive-en]
-updated: 2026-08-27
+sources: [robotaxi-market-2026, china-autonomous-driving-overseas, europe-robotaxi-verne-ponyai, waymo-miami-orlando-expansion, taiwan-av-special-scenes, japan-2030-autonomous-ai-strategy, ratp-karsan-autonomous-bus-paris, av-physical-ai-trends-2026, tesla-fsd-eu-expansion-2026, tesla-robotaxi-texas-reality-2026, uber-robotaxi-europe-expansion-2026, waymo-battery-secondlife-colorado-recycling-2026, toyota-tier-iv-l4-investment-2026, waymo-arizona-expansion-2026, tesla-cybercab-specs-2026, mobileye-robotaxi-2026, tesla-fsd-netherlands-2026, ev-news-2026-06-22, ev-news-2026-07-13-digitimes, ev-news-2026-07-14-16-electrive, ev-news-2026-07-21-22-digitimes, ev-news-2026-07-22-24-digitimes, ev-news-2026-07-22-23-electrive-en, ev-news-2026-07-28-digitimes, ev-news-2026-07-28-30-electrive-en, ev-news-2026-08-01-03-en, ev-news-2026-08-04-06-digitimes, ev-news-2026-08-03-06-electrive-en, ev-news-2026-08-06-07-electrive-en, ev-news-2026-08-07-10-electrive-en, ev-news-2026-08-17-18-electrive-en, ev-news-2026-08-20-digitimes, ev-news-2026-08-19-20-cn-misc, ev-news-2026-08-21-23-electrive-en, ev-news-2026-08-21-22-electrive-en, ev-news-2026-08-26-27-electrive-en, ev-news-2026-08-28-digitimes]
+updated: 2026-08-29
 ---
 
 # Robotaxi（自動計程車）
@@ -447,6 +447,21 @@ Mobileye 宣布成立垂直整合 Robotaxi 部門，從技術供應商轉型為�
 **觀察**：慕尼黑Waymo測繪期實際進度與正式商用化時程；現代Ioniq 5車隊交付Waymo後的實際部署規模。
 
 - 參見：[[sources/ev-news-2026-08-26-27-electrive-en]] | [[entities/Waymo]] | [[entities/現代汽車]] | [[countries/歐洲]]
+
+**慕尼黑進度補充**：Digitimes報導確認Waymo慕尼黑為繼倫敦、東京後第三個海外據點，截至2026年3月累計全自駕里程近2.21億英里；除德國外已在法國、荷蘭、西班牙註冊營運實體為歐盟市場鋪路，惟歐洲競爭已白熱化——除英國Wayve外，百度與小馬智行也已在德國展開自駕測試，Uber亦攜手Autobrains規劃慕尼黑服務。參見：[[sources/ev-news-2026-08-28-digitimes]]
+
+## AI改寫自駕商業模式，NVIDIA從L2+到Robotaxi全面卡位；Tesla Cybercab發表活動將至（2026-08）
+
+> **結論**：AI技術正改變自駕產業競爭順序——車廠不再一味追逐更高自駕等級，轉而先將AI導入L2+讓駕駛獲得接近L3的體驗（責任仍歸屬駕駛人，無需等待法規到位即可商業化），同時累積道路數據反哺L4/Robotaxi發展；NVIDIA則同步布局DRIVE AV、DRIVE Hyperion、Alpamayo等產品對應L2+到Robotaxi全階段市場，而Tesla宣布下週於奧斯汀舉行Cybercab正式發表活動，但商轉規模（累計約38萬英里）仍遠落後Waymo（逾2億英里、每週50萬次付費乘車）。
+
+**主因**：
+- L2+成為AI自駕商業入口：ADAS選配直接增加單車收入、AI能力持續更新維持車輛殘值、OTA降低售後維修成本，使汽車銷售從一次性交易轉為軟體定義汽車持續創造收益的模式；凱捷顧問預估ADAS市場將由2026年240億美元成長至2030年代初約1,000億美元
+- NVIDIA全階段卡位：DRIVE AV切入量產車AI駕駛、DRIVE Hyperion導入高階自駕平台，2026 Q2財報點名合作夥伴含鴻海、VinFast、Uber、HUMAIN；Alpamayo已升級至2 Super版本強化AI推理能力
+- Tesla Cybercab發表懸念未解：售價能否維持3萬美元目標、無線充電基礎設施進度、純視覺路線可靠性（Waymo公開質疑「僅靠攝影機不足以支撐大規模安全自駕」）均為未知數；Amazon旗下Zoox已獲美國政府核准兩年內商用部署最高5,000輛無方向盤自駕車豁免，Robotaxi賽局競爭者已不限Tesla、Waymo兩家
+
+**觀察**：NVIDIA合作夥伴陣容後續擴張規模；Tesla Cybercab奧斯汀發表活動公布的具體規格與售價。
+
+- 參見：[[sources/ev-news-2026-08-28-digitimes]] | [[sources/ev-news-2026-08-27-29-electrive-en]] | [[entities/Tesla]] | [[entities/Waymo]]
 
 ## Related
 - [[concepts/ADAS智駕系統]]

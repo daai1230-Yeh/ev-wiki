@@ -1,10 +1,15 @@
 # Wiki Index
 
-Last updated: 2026-08-27 | Pages: 489 | Sources: 458
+Last updated: 2026-08-29 | Pages: 489 | Sources: 461
 
 ---
 
 ## Sources（來源摘要）
+
+### 電動乘用車
+- [[sources/ev-news-2026-08-27-29-electrive-en]] — electrive/InsideEVs批次21篇：BMW突破200萬輛EV銷售、BYD超快充電池耐久測試（9天350次快充僅剩1.3%衰減）、中國門把手召回歐洲KBA/RDW調查、Tesla Cybercab奧斯汀發表活動將至、Rivian財務長離職、Lucid召回2.7萬輛。(2026-08-29)
+- [[sources/ev-news-2026-08-28-digitimes]] — Digitimes批次5篇：中國1H26吃下全球逾7成電池市佔南韓三雄陷苦戰、NVIDIA自駕全階段卡位策略、豐田Lexus上海新廠Gigacast電動車、豐田L2++自駕藍圖、Waymo慕尼黑計畫補充細節。(2026-08-28)
+- [[sources/ev-news-2026-08-28-29-digest]] — ETAuto/Google快訊每日摘要批次4篇：台灣7月EV銷量Foxtron反超Tesla、歐盟擬組反中聯盟、比亞迪Q2獲利增近30%、本田美國設廠傳聞補充。(2026-08-29)
 
 ### 電動乘用車
 - [[sources/ev-news-2026-08-26-27-electrive-en]] — electrive/InsideEVs/ETAuto批次15篇：現代汽車CEO投資人日2030策略（3篇多角度報導，含首款EREV Santa Fe）、Geely瞄準1000V充電架構、Waymo 2027慕尼黑Robotaxi計畫、SK Innovation合併SKIET、Tesla Cybertruck再度漲價。(2026-08-27)

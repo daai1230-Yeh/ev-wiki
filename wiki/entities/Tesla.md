@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [tesla-ass-nhtsa-probe-closed, tesla-taiwan-march-2026, xiaomi-ev-europe-2027, tesla-4680-musk-strategy, tesla-korea-q1-2026, tesla-q1-2026-earnings, tesla-india-model-y-l, 駐外新聞-美國-2025, ev-news-2026-07-02, ev-news-2026-07-03-08, ev-news-2026-07-09, ev-news-2026-07-10-insideevs-batch, ev-news-2026-07-11, ev-news-2026-07-12-13-digest, ev-news-2026-07-12-13-electrive, ev-news-2026-07-13-digitimes, ev-news-2026-07-14-16-insideevs, ev-news-2026-07-14-16-digitimes, ev-news-2026-07-21-22-digitimes, ev-news-2026-07-20-21-electrive-en, ev-news-2026-07-22-24-digitimes, ev-news-2026-07-22-23-electrive-en, ev-news-2026-07-25-27-digitimes, ev-news-2026-07-28-digitimes, ev-news-2026-07-28-30-electrive-en, ev-news-2026-08-01-03-cn, ev-news-2026-08-01-03-en, ev-news-2026-08-04-06-digitimes, ev-news-2026-08-03-06-electrive-en, ev-news-2026-08-04-06-cn-misc, ev-news-2026-08-07-digitimes, ev-news-2026-08-06-07-cn-misc, ev-news-2026-08-06-07-electrive-en, ev-news-2026-08-06-10-cn-misc, ev-news-2026-08-07-10-electrive-en, ev-news-2026-08-13-15-electrive-en, ev-news-2026-08-19-digitimes, ev-news-2026-08-20-digitimes, ev-news-2026-08-19-20-cn-misc, ev-news-2026-08-21-digitimes, ev-news-2026-08-21-23-electrive-en, ev-news-2026-08-26-digitimes, ev-news-2026-08-21-26-cn-misc, ev-news-2026-08-26-27-electrive-en]
-updated: 2026-08-27
+sources: [tesla-ass-nhtsa-probe-closed, tesla-taiwan-march-2026, xiaomi-ev-europe-2027, tesla-4680-musk-strategy, tesla-korea-q1-2026, tesla-q1-2026-earnings, tesla-india-model-y-l, 駐外新聞-美國-2025, ev-news-2026-07-02, ev-news-2026-07-03-08, ev-news-2026-07-09, ev-news-2026-07-10-insideevs-batch, ev-news-2026-07-11, ev-news-2026-07-12-13-digest, ev-news-2026-07-12-13-electrive, ev-news-2026-07-13-digitimes, ev-news-2026-07-14-16-insideevs, ev-news-2026-07-14-16-digitimes, ev-news-2026-07-21-22-digitimes, ev-news-2026-07-20-21-electrive-en, ev-news-2026-07-22-24-digitimes, ev-news-2026-07-22-23-electrive-en, ev-news-2026-07-25-27-digitimes, ev-news-2026-07-28-digitimes, ev-news-2026-07-28-30-electrive-en, ev-news-2026-08-01-03-cn, ev-news-2026-08-01-03-en, ev-news-2026-08-04-06-digitimes, ev-news-2026-08-03-06-electrive-en, ev-news-2026-08-04-06-cn-misc, ev-news-2026-08-07-digitimes, ev-news-2026-08-06-07-cn-misc, ev-news-2026-08-06-07-electrive-en, ev-news-2026-08-06-10-cn-misc, ev-news-2026-08-07-10-electrive-en, ev-news-2026-08-13-15-electrive-en, ev-news-2026-08-19-digitimes, ev-news-2026-08-20-digitimes, ev-news-2026-08-19-20-cn-misc, ev-news-2026-08-21-digitimes, ev-news-2026-08-21-23-electrive-en, ev-news-2026-08-26-digitimes, ev-news-2026-08-21-26-cn-misc, ev-news-2026-08-26-27-electrive-en, ev-news-2026-08-27-29-electrive-en]
+updated: 2026-08-29
 ---
 
 # Tesla
@@ -451,6 +451,18 @@ YouTuber實測顯示，搭載HW4與最新FSD v14.3.4的車輛反應時間0.450�
 - 參見：[[sources/ev-news-2026-08-26-digitimes]]
 
 **補充細節**：Musk於與避險基金經理人Ron Baron對談中補充，Tesla需在AI推論運算領域同時與NVIDIA及AMD競爭（此前僅提及NVIDIA），並於X平台證實AI5晶片設計團隊已完成「流片」（tape out），AI6、Dojo3等後續晶片也正同步研發中。同期Tesla在美國第二度調漲Cybertruck售價：雙馬達AWD版再漲5,000美元至74,990美元（較2月上市價累計漲25%），Premium AWD同步漲至84,990美元，惟美國Cybertruck銷量Q1年減45.1%，漲價與需求疲軟並存的矛盾處境持續。參見：[[sources/ev-news-2026-08-21-26-cn-misc]] | [[sources/ev-news-2026-08-26-27-electrive-en]]
+
+## 歐洲門把手召回進度：RDW調查未決；Cybercab奧斯汀正式發表活動將至（2026-08）
+
+> **結論**：中國門把手召回擴大至430萬輛（含Tesla近298萬輛）之際，歐洲監管機關仍謹慎觀望——荷蘭RDW（歐盟型式認證主管機關）針對德國Schwerte造成3人死亡的Tesla事故調查仍未有結論，尚無召回但未排除；同期Tesla宣布下週四於奧斯汀舉行Cybercab正式發表活動，惟其Robotaxi商轉規模（累計約38萬英里）仍遠落後Waymo（逾2億英里、每週50萬次付費乘車）。
+
+- 歐洲調查焦點：RDW調查源於2026年4月德國一起車門機制失效導致3名乘客死亡的事故，主張車輛須能在電力系統失效等所有情況下無需工具即可從車內外直覺開啟；報導並釐清此輪爭議實涉及外部電子伸縮把手（已遭中國明年起全面禁止）與車內機械應急拉柄辨識度不足（本輪召回焦點）兩個不同議題
+- Cybercab發表懸念未解：售價能否維持3萬美元目標、無線充電基礎設施進度、純視覺路線可靠性（Waymo公開質疑「僅靠攝影機不足以支撐大規模安全自駕」）均為關鍵未知數；因Cybercab為全新底盤需先累積專屬駕駛數據，人工駕駛版本已在全美多地測試
+- 商轉規模差距懸殊：Amazon旗下Zoox已獲美國政府核准兩年內商用部署最高5,000輛無方向盤自駕車豁免，凸顯Robotaxi賽局競爭者已不限Tesla、Waymo兩家
+
+**觀察**：RDW調查結論及是否要求歐洲召回；Cybercab奧斯汀發表活動公布的具體規格與售價。
+
+- 參見：[[sources/ev-news-2026-08-27-29-electrive-en]] | [[countries/歐洲]] | [[concepts/Robotaxi自動計程車]]
 
 ## Related
 - [[entities/NHTSA]]

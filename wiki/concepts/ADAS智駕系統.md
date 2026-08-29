@@ -1,7 +1,7 @@
 ---
 tags: [concept]
-sources: [byd-dipilot-adas-2026, robotaxi-market-2026, toyota-adas-vs-fsd-subscription, hyundai-pleos-sdv-os, in-cabin-ai-sensing-2026, l2plus-adas-adoption-2026, rivian-lidar-china-partner-2026, hyundai-kia-atria-ai-gwangju-2026, hesai-color-lidar-2026, ev-news-digest-jun1-10-2026, ev-news-2026-06-27-29-en, ev-news-2026-06-30-07-01, ev-news-2026-06-29-zh, ev-news-2026-07-02, ev-news-2026-07-03-08, ev-news-2026-07-09, ev-news-2026-07-21-22-digitimes, ev-news-2026-07-22-23-electrive-en, ev-news-2026-08-24-digitimes, ev-news-2026-08-27-digitimes]
-updated: 2026-08-27
+sources: [byd-dipilot-adas-2026, robotaxi-market-2026, toyota-adas-vs-fsd-subscription, hyundai-pleos-sdv-os, in-cabin-ai-sensing-2026, l2plus-adas-adoption-2026, rivian-lidar-china-partner-2026, hyundai-kia-atria-ai-gwangju-2026, hesai-color-lidar-2026, ev-news-digest-jun1-10-2026, ev-news-2026-06-27-29-en, ev-news-2026-06-30-07-01, ev-news-2026-06-29-zh, ev-news-2026-07-02, ev-news-2026-07-03-08, ev-news-2026-07-09, ev-news-2026-07-21-22-digitimes, ev-news-2026-07-22-23-electrive-en, ev-news-2026-08-24-digitimes, ev-news-2026-08-27-digitimes, ev-news-2026-08-28-digitimes]
+updated: 2026-08-29
 ---
 
 # ADAS 智駕系統（Advanced Driver Assistance System）
@@ -353,6 +353,18 @@ GM 與美光（Micron）簽署 **第 16 份供應協議（SCA）**，涵蓋汽�
 **觀察**：其他車廠是否跟進採用蘋果MapKit for Automotive；中國修法草案正式生效時間及對L3商業化進度的實際影響。
 
 - 參見：[[sources/ev-news-2026-08-27-digitimes]] | [[entities/福特]] | [[countries/中國]]
+
+## 豐田發表L2++乘用車普及藍圖，規則導向+E2E混合模式差異化（2026-08）
+
+> **結論**：豐田宣布2028年將AI自動駕駛系統（端到端E2E技術，實現市區放手駕駛的L2++等級）推向市場、2030年起擴大搭載普及化，同時規劃2030年左右開發L4商用接駁車款，採取「規則導向（Rule-based）+ E2E AI」混合模式與Tesla及中國新興車廠的純E2E路線形成差異化。
+
+- 技術路線選擇：雖與Waymo等外部專業企業合作，但原則上以自主研發實現AI自動駕駛；透過預先規範符合交通規則的規則導向安全機制搭配E2E AI雙軌並行，防範AI做出非預期判斷
+- 日系集體追趕態勢：日產目標2027年度推出搭載E2E技術的AI自駕車（與Wayve合作）、本田規劃2028年於VEZEL導入E2E技術（與Helm.ai合作），凸顯美中車廠在E2E領域持續保持領先地位
+- L4商用市場布局：e-Palette電動接駁巴士規劃2027年度導入L4技術；日本政府設定2030年代自駕車銷量全球市佔3成目標，國交省並將於2026年內建立L2++認證制度
+
+**觀察**：豐田2028年L2++系統實際上市車型與市場反應；e-Palette L4技術2027年度導入進度是否如期。
+
+- 參見：[[sources/ev-news-2026-08-28-digitimes]] | [[entities/豐田]] | [[countries/日本]]
 
 ## Related
 - [[entities/Tesla]]

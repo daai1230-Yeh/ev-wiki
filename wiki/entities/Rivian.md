@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [rivian-r2-range-specs, rivian-service-network-2026, rivian-lidar-china-partner-2026, ev-news-2026-07-03-08, ev-news-2026-07-24-28-electrive-en, ev-news-2026-08-03-06-electrive-en, ev-news-2026-08-07-10-electrive-en]
-updated: 2026-08-10
+sources: [rivian-r2-range-specs, rivian-service-network-2026, rivian-lidar-china-partner-2026, ev-news-2026-07-03-08, ev-news-2026-07-24-28-electrive-en, ev-news-2026-08-03-06-electrive-en, ev-news-2026-08-07-10-electrive-en, ev-news-2026-08-27-29-electrive-en]
+updated: 2026-08-29
 ---
 
 # Rivian
@@ -122,6 +122,12 @@ R2性能版與Tesla Model Y性能版帳面EPA效率評級完全相同（均105 M
 InsideEVs分析指出，Rivian與Lucid雖同期創立（2021年同期上市、首批交車僅相隔數週），如今處境已明顯分岔：Rivian已啟動R2交付、全年展望上修至6.5~7萬輛，福斯合資單季挹注約3億美元營收，被視為「基本已抵達自家Model 3時刻」；反觀Lucid仍在延後中型平台上市並啟動大規模重整。分析認為分野部分源於產品策略——Rivian早期即推出美國消費者剛需的皮卡/SUV量產車型，Lucid則以高價四門轎車起步、市場空間受限，且推出新車型速度明顯較慢。
 
 - 參見：[[sources/ev-news-2026-08-07-10-electrive-en]] | [[entities/Lucid]]
+
+## 財務長離職，正值R2交付爬坡關鍵期（2026-08）
+
+Rivian財務長Claire McDonough（任職近6年，任內完成上市、R1T/R1S/商用貨車三款首發、與福斯集團技術合資）將於10月底離職轉任GE Vernova財務長，財務副總裁Derek Mulvey暫代並同步啟動繼任人選搜尋。離職時點正值Rivian力拚R2交付爬坡衝刺全年6.5-7萬輛銷量目標、追求規模化與獲利能力的關鍵期，人事變動能否影響營運節奏值得觀察。
+
+- 參見：[[sources/ev-news-2026-08-27-29-electrive-en]]
 
 ## Related
 - [[entities/Tesla]]

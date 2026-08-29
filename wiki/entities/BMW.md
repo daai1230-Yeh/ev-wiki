@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [lges-bmw-46series-order, ev-news-2026-06-30-07-01, ev-news-2026-07-10-electrive-batch, ev-news-2026-07-12-13-electrive, ev-news-2026-07-24-27-electrive-en, ev-news-2026-07-29-31-digitimes, ev-news-2026-07-28-30-electrive-en]
-updated: 2026-07-31
+sources: [lges-bmw-46series-order, ev-news-2026-06-30-07-01, ev-news-2026-07-10-electrive-batch, ev-news-2026-07-12-13-electrive, ev-news-2026-07-24-27-electrive-en, ev-news-2026-07-29-31-digitimes, ev-news-2026-07-28-30-electrive-en, ev-news-2026-08-27-29-electrive-en]
+updated: 2026-08-29
 ---
 
 # BMW（寶馬）
@@ -101,6 +101,18 @@ BMW 旗艦電動 SUV 全球首映，進入新能量密度區間：
 **觀察**：iX3 熱潮能否延續至下半年；中國市場衰退是否進一步擴大。
 
 - 參見：[[sources/ev-news-2026-07-12-13-electrive]] | [[countries/德國]] | [[countries/中國]]
+
+## 突破200萬輛純電動車銷售，iX3扛起成長大旗（2026-08）
+
+> **結論**：BMW（含Mini）累計純電動車銷量突破200萬輛（第200萬輛為i5 M60 xDrive），若計入插電式混合動力車則累計電動化車輛達350萬輛，全球每4輛BMW即有逾1輛電動化；新世代Neue Klasse首發車型iX3訂單近10萬輛，成為當前歐洲市場成長的關鍵引擎。
+
+- 里程碑車型：第200萬輛純電BMW（i5 M60 xDrive）於Dingolfing廠生產、交付西班牙客戶，標誌自2013年i3上市13年來的階段性成果
+- iX3扛起歐洲成長：2026 Q2歐洲EV銷量年增38%達81,445輛多數受惠iX3訂單，上半年BEV佔歐洲銷量28%（其中1/3為iX3），X3車系訂單約半數已轉為iX3
+- 後續動能：去年全球EV銷量約44.2萬輛年增小幅提升，美國EV銷量今年雖疲軟但整體趨勢向上；即將推出i3（估計續航440英里）與iX5延續Neue Klasse世代動能
+
+**觀察**：i3、iX5上市後能否延續iX3的訂單熱度；美國市場EV銷量能否止跌回升。
+
+- 參見：[[sources/ev-news-2026-08-27-29-electrive-en]] | [[countries/歐洲]]
 
 ## Related
 - [[entities/Volkswagen]]

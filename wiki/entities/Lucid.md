@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [lucid-cosmos-2026, ev-news-2026-06-27-29-en, ev-news-2026-06-30-07-01, ev-news-2026-07-14-16-electrive, ev-news-2026-07-17-20-digitimes, ev-news-2026-08-03-06-electrive-en, ev-news-2026-08-04-06-cn-misc, ev-news-2026-08-06-07-electrive-en, ev-news-2026-08-07-digitimes, ev-news-2026-08-07-10-electrive-en]
-updated: 2026-08-10
+sources: [lucid-cosmos-2026, ev-news-2026-06-27-29-en, ev-news-2026-06-30-07-01, ev-news-2026-07-14-16-electrive, ev-news-2026-07-17-20-digitimes, ev-news-2026-08-03-06-electrive-en, ev-news-2026-08-04-06-cn-misc, ev-news-2026-08-06-07-electrive-en, ev-news-2026-08-07-digitimes, ev-news-2026-08-07-10-electrive-en, ev-news-2026-08-27-29-electrive-en]
+updated: 2026-08-29
 ---
 
 # Lucid Motors
@@ -108,6 +108,18 @@ updated: 2026-08-10
 InsideEVs分析指出，Lucid的Q2淨損擴大至逾10億美元（營收4.05億美元），流動性30億美元估可撐至2027年；相較同期起步的Rivian已啟動量產放量，Lucid仍在延後中型平台上市並執行大規模重整。核心「必贏專案」包括與Uber、Nuro的Robotaxi合作及50,000美元級Cosmos車型；沙烏地阿拉伯主權基金持續加碼支持（含上月一位沙國王子購入公司5%股權），技術實力仍被視為業界領先，但能否轉化為銷量仍是最大挑戰。
 
 - 參見：[[sources/ev-news-2026-08-07-10-electrive-en]] | [[entities/Rivian]]
+
+## 召回27,185輛Air因起火風險，史上最大規模召回（2026-08）
+
+> **結論**：Lucid因軟體控制的低壓電子保險絲（eFuse）保護失效恐導致線路過熱起火，召回2022-2026年式Air共27,185輛——為公司史上最大規模召回（相較去年僅交付15,841輛顯得比例懸殊），也是Air今年第4次召回，惟修復僅需軟體更新且已完成逾75%車輛更新。
+
+- 技術根因：問題出在低壓電子系統而非高壓牽引電池，Lucid採軟體控制eFuse（而非傳統保險絲）偵測與保護過電流事件，防護失效導致電路可能持續通電並過熱
+- 今年第4次召回：5月因傳動單元逆變器故障召回2,039輛、3月因半軸螺栓固定不當召回3,627輛、1月因後視鏡攝影機顯示異常召回10,816輛，反映Air車系品質控管持續面臨挑戰
+- 修復進度良好：解方為純軟體更新且已廣泛部署，逾75%（20,700輛）受影響車輛已完成更新，實際安全風險視窗有限
+
+**觀察**：此輪召回是否影響Lucid品牌信譽與Cosmos新車銷售預期；後續是否有更多Air品質問題浮現。
+
+- 參見：[[sources/ev-news-2026-08-27-29-electrive-en]]
 
 ## Related
 - [[entities/Rivian]]
