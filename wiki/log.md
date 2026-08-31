@@ -2109,3 +2109,21 @@ Pages 375 → 406，Sources 315 → 346
 - New pages created: 無
 - Key additions: 中國前七大電池企業全球市佔達72.4%（寧德時代39.9%+比亞迪14.4%過半），南韓三雄全面潰退且鈉離子/固態電池布局同步落後；BMW純電動車累計銷售突破200萬輛，iX3扛起Neue Klasse世代成長動能；BYD仰望U7完成9天350次超快充耐久測試僅剩1.3%容量衰減；中國門把手召回擴大至11家車廠430萬輛，歐洲RDW調查（源於德國Schwerte 3死事故）仍未決；NVIDIA同步布局L2+至Robotaxi全階段自駕市場，Tesla Cybercab宣布奧斯汀正式發表活動；豐田Lexus次世代電動車2027年秋於上海新廠採Gigacast量產，並發表2028年L2++自駕藍圖規劃2030年進軍L4商用接駁市場；Lucid因低壓電子保險絲缺陷召回2.7萬輛Air（史上最大規模）；Rivian財務長Claire McDonough離職轉任GE Vernova；Lyten收購破產Morrow Batteries延續歐洲電池廠整併潮
 - 備註: 24篇重複剪輯已排除——11篇為8月20/26日既有批次報導的無空格/連字號變體，13篇為本批次內部08-28與08-29重複剪輯的日期變體（AEM、Cadillac、EKPO、Estonia、Huge Tesla recalls、Hyundai Kaluza、India Chennai、JLR、Lyten、Terra Charge、VW Tiguan、Ubitricity、Vehicle to life，均保留08-28原始版本）；另3個html練習檔非新聞來源未納入
+
+## [2026-08-31] update | 電動巴士市場 concept 回填（2026-08-20~29 素材）
+- Pages updated: [[concepts/電動巴士市場]]（新增 4 節，updated 2026-08-20 → 2026-08-31）
+- Key additions: ICCT 2025全球中重型電動商用車52萬輛/年增86%/中國佔88%；泰國4,000億泰銖借款專款補貼巴士油改電；波哥大首批50輛電動鉸接巴士＋Solaris捷克Olomouc 20輛＋印度清奈130輛；丹佛28輛電動校車充電基建＋豐田e-Palette 2027年度L4
+- Sources added to frontmatter: ev-news-2026-08-20-22-cn-misc, ev-news-2026-08-21-22-electrive-en, ev-news-2026-08-21-23-electrive-en, ev-news-2026-08-26-27-electrive-en, ev-news-2026-08-27-29-electrive-en, ev-news-2026-08-28-digitimes
+- Note: 各 countries 頁（東南亞/印度/歐洲/美國/日本）於原 ingest 時已收錄，本次僅回填 concept 層
+
+## [2026-08-31] ingest | ev-news-2026-08-30-31（四批次共31篇：electrive 12、Digitimes 2、中文財經媒體15、ETAuto/Google快訊摘要2；另1篇經比對確認為8月28日既有報導的重複剪輯，未計入）
+- Source pages（新建4頁）：
+  - [[sources/ev-news-2026-08-31-electrive-en]] — BYD Flash Charger突破1萬座里程碑、匈牙利CATL廠鎳暴露事件衝擊產能爬坡、歐洲電池回收經濟性研究（每公斤虧損1.90歐元）、Munich Electrification晶片式高壓斷路器、Skyworth L4自駕重卡、Cape Town/Drivn/Mahle/Hubject商用車與充電動態、VW新車命名ID. Up與California Cruise露營車
+  - [[sources/ev-news-2026-08-31-digitimes]] — 現代汽車揭EV需求斷層已結束2030年推逾100款新車擴產127萬輛（NVIDIA合作SDV、Waymo供貨、Atlas機器人）、Waymo自駕AI三大難題毫秒決策成關鍵
+  - [[sources/ev-news-2026-08-30-31-cn-misc]] — 中國人大正式通過道交法修正案舉證責任倒置、日產本田攜手打造SDV聯盟對抗美中、比亞迪輕型車技術X-PACK擬推向歐洲全球市場、現代Kia全面退出乘用柴油車、Waymo供應商轉向現代豐田、豐田Shanghai廠打破日本先產慣例補充數據、台中電動巴士上路、帛琉MIT電動巴士外交、馬斯克充電/晶片廠雜談
+  - [[sources/ev-news-2026-08-30-digest]] — ETAuto週日回顧與Google快訊交叉引用（多與既有批次重疊）
+- Pages updated: [[entities/現代汽車]], [[entities/豐田]], [[entities/比亞迪]], [[entities/Waymo]], [[entities/寧德時代]], [[entities/本田]], [[entities/日産]], [[entities/Tesla]], [[concepts/ADAS智駕系統]], [[concepts/充電基礎建設]], [[concepts/電池技術路線]], [[concepts/電動巴士市場]]
+- Countries updated: [[countries/中國]], [[countries/台灣]]
+- New pages created: 無
+- Key additions: 中國人大28日正式通過《道路交通安全法修正案》（較25日首次審議僅隔3天），明確企業「舉證責任倒置」機制；日產本田最快8月31日就SDV核心技術達成全面合作協議，2029年導入新車款，合併銷量672萬輛可躍居全球第4；比亞迪計畫將Racco輕型車X-PACK電池包技術推向歐洲M1E小型純電動車類別；現代汽車社長宣告「EV需求斷層已結束」並補充NVIDIA合作2028年SDV/2029年AI資料中心/Waymo Robotaxi供貨/Atlas機器人部署細節；現代與Kia全面退出韓國乘用柴油車市場；Waymo傳因Zeekr合作受阻轉向現代Ioniq 5與豐田Woven平台；CATL匈牙利廠因鎳暴露事件暫停3生產區域，疊加原已延誤的量產時程；BYD Flash Charger突破1萬座（全年2萬座目標過半）；歐盟Safeloop研究指出電池回收優化後可由每公斤虧損1.90歐元轉為13歐分獲利
+- 備註: 1篇重複剪輯已排除（Waymo無人計程車進軍歐盟-2027年德國慕尼黑上路，為8月28日既有報導的無空格/日期戳變體重複剪輯）；另注意到8月20/26/27日已ingest之部分raw檔案（如福特Apple Maps、豐田Lexus上海廠、AI改寫自駕商業模式、中國1H26電池市佔、Waymo慕尼黑等）於本次批次期間遭自動剪輯工具以精簡版內容覆寫同名檔案（frontmatter與內文均有縮減但事實內容一致），屬既有引用來源的metadata更新非新內容，未重新ingest

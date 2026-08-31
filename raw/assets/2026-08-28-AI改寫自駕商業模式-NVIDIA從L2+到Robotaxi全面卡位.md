@@ -1,22 +1,22 @@
 ---
-title: AI改寫自駕商業模式 NVIDIA從L2+到Robotaxi全面卡位
+title: AI改寫自駕商業模式　NVIDIA從L2+到Robotaxi全面卡位
 author: 黃女瑛
 date: 2026-08-28
-source: https://www.digitimes.com.tw/tech/dt/n/shwnws.asp?CnlID=&id=766477&grid_seq1=&grid_seq2=
+source: https://www.digitimes.com.tw/tech/dt/n/shwnws.asp?CnlID=&id=766477
 tags:
-  - 自動駕駛
-  - NVIDIA
-  - Robotaxi
+  - 自駕
   - ADAS
+  - Robotaxi
+  - NVIDIA
   - AI
   - Digitimes
   - 未來車供應鏈
-clipped: 2026-08-29
+clipped: 2026-08-31
 ---
 
-# AI改寫自駕商業模式 NVIDIA從L2+到Robotaxi全面卡位
+# AI改寫自駕商業模式　NVIDIA從L2+到Robotaxi全面卡位
 
-**作者**：黃女瑛　｜　**日期**：2026-08-28　｜　**來源**：[原文連結](https://www.digitimes.com.tw/tech/dt/n/shwnws.asp?CnlID=&id=766477&grid_seq1=&grid_seq2=)
+**作者**：黃女瑛　｜　**日期**：2026-08-28　｜　**來源**：[原文連結](https://www.digitimes.com.tw/tech/dt/n/shwnws.asp?CnlID=&id=766477)
 
 ---
 
@@ -50,4 +50,4 @@ NVIDIA的布局也正朝完整自駕路徑延伸，對應L2+、L3至L4以上的�
 
 ---
 
-*來源：[DIGITIMES](https://www.digitimes.com.tw/tech/dt/n/shwnws.asp?CnlID=&id=766477&grid_seq1=&grid_seq2=)*
+*來源：[DIGITIMES](https://www.digitimes.com.tw/tech/dt/n/shwnws.asp?CnlID=&id=766477)*

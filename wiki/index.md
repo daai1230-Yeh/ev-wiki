@@ -1,10 +1,16 @@
 # Wiki Index
 
-Last updated: 2026-08-29 | Pages: 489 | Sources: 461
+Last updated: 2026-08-31 | Pages: 489 | Sources: 465
 
 ---
 
 ## Sources（來源摘要）
+
+### 電動乘用車
+- [[sources/ev-news-2026-08-31-electrive-en]] — electrive批次12篇：BYD Flash Charger突破1萬座里程碑、匈牙利CATL廠鎳暴露事件衝擊產能爬坡、歐洲電池回收經濟性研究、多項商用車與充電基建動態、VW新車命名ID. Up。(2026-08-31)
+- [[sources/ev-news-2026-08-31-digitimes]] — Digitimes批次2篇：現代汽車揭EV需求斷層已結束2030年推逾100款新車、Waymo自駕AI三大難題毫秒決策成關鍵。(2026-08-31)
+- [[sources/ev-news-2026-08-30-31-cn-misc]] — 中文財經媒體批次15篇：中國人大正式通過自駕修法舉證責任倒置、日產本田攜手打造SDV聯盟、比亞迪輕型車技術X-PACK擬推向歐洲、現代Kia全面退出柴油車、Waymo供應商轉向現代豐田。(2026-08-31)
+- [[sources/ev-news-2026-08-30-digest]] — ETAuto/Google快訊每日摘要批次2篇：本週回顧交叉引用，含台灣車電去中化紅利、蔚來現金流壓力等補充條目。(2026-08-30)
 
 ### 電動乘用車
 - [[sources/ev-news-2026-08-27-29-electrive-en]] — electrive/InsideEVs批次21篇：BMW突破200萬輛EV銷售、BYD超快充電池耐久測試（9天350次快充僅剩1.3%衰減）、中國門把手召回歐洲KBA/RDW調查、Tesla Cybercab奧斯汀發表活動將至、Rivian財務長離職、Lucid召回2.7萬輛。(2026-08-29)

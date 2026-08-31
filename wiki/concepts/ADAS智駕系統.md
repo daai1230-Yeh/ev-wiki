@@ -1,7 +1,7 @@
 ---
 tags: [concept]
-sources: [byd-dipilot-adas-2026, robotaxi-market-2026, toyota-adas-vs-fsd-subscription, hyundai-pleos-sdv-os, in-cabin-ai-sensing-2026, l2plus-adas-adoption-2026, rivian-lidar-china-partner-2026, hyundai-kia-atria-ai-gwangju-2026, hesai-color-lidar-2026, ev-news-digest-jun1-10-2026, ev-news-2026-06-27-29-en, ev-news-2026-06-30-07-01, ev-news-2026-06-29-zh, ev-news-2026-07-02, ev-news-2026-07-03-08, ev-news-2026-07-09, ev-news-2026-07-21-22-digitimes, ev-news-2026-07-22-23-electrive-en, ev-news-2026-08-24-digitimes, ev-news-2026-08-27-digitimes, ev-news-2026-08-28-digitimes]
-updated: 2026-08-29
+sources: [byd-dipilot-adas-2026, robotaxi-market-2026, toyota-adas-vs-fsd-subscription, hyundai-pleos-sdv-os, in-cabin-ai-sensing-2026, l2plus-adas-adoption-2026, rivian-lidar-china-partner-2026, hyundai-kia-atria-ai-gwangju-2026, hesai-color-lidar-2026, ev-news-digest-jun1-10-2026, ev-news-2026-06-27-29-en, ev-news-2026-06-30-07-01, ev-news-2026-06-29-zh, ev-news-2026-07-02, ev-news-2026-07-03-08, ev-news-2026-07-09, ev-news-2026-07-21-22-digitimes, ev-news-2026-07-22-23-electrive-en, ev-news-2026-08-24-digitimes, ev-news-2026-08-27-digitimes, ev-news-2026-08-28-digitimes, ev-news-2026-08-30-31-cn-misc]
+updated: 2026-08-31
 ---
 
 # ADAS 智駕系統（Advanced Driver Assistance System）
@@ -365,6 +365,18 @@ GM 與美光（Micron）簽署 **第 16 份供應協議（SCA）**，涵蓋汽�
 **觀察**：豐田2028年L2++系統實際上市車型與市場反應；e-Palette L4技術2027年度導入進度是否如期。
 
 - 參見：[[sources/ev-news-2026-08-28-digitimes]] | [[entities/豐田]] | [[countries/日本]]
+
+## 中國道交法修正案正式通過，L3自駕舉證責任倒置（2026-08）
+
+> **結論**：全國人大常委會8月28日正式通過《道路交通安全法修正案》，較8月25日首次提請審議僅隔3天，修法推進速度快於預期；正式條文明確「舉證責任倒置」——企業若認為違法行為與自駕功能無關，須自行承擔舉證責任，較先前草案更進一步保護消費者，象徵中國自駕監理正式從審議進入立法生效階段。
+
+- 立法內容確立：新增「自動駕駛汽車的特別規定」專章明確定義自動駕駛與輔助駕駛概念，禁止車企虛假誇大宣傳自駕能力，L3及以上自駕功能啟用期間發生違法由車廠或進口企業擔責
+- 市場現況驅動修法：中國L2組合駕駛輔助功能乘用車滲透率已達70%，首批L3有條件自動駕駛車型已在多個城市特定區域上路，修法回應的是已規模化的市場現況而非超前部署
+- 全球比較意涵：此前中國因法規空白一度被視為全球L3法規鬆綁的可能突破口，如今責任明確化（且加碼舉證責任倒置）後，多數車廠恐須轉向L4~L5直接布局尋找商業模式
+
+**觀察**：修正案正式生效日期及配套細則（賠償機制、駕駛人接管時限）；舉證責任倒置對車廠自駕系統設計與行銷用語的實際影響。
+
+- 參見：[[sources/ev-news-2026-08-30-31-cn-misc]] | [[countries/中國]]
 
 ## Related
 - [[entities/Tesla]]
