@@ -1,6 +1,6 @@
 # Wiki Index
 
-Last updated: 2026-08-31 | Pages: 489 | Sources: 465
+Last updated: 2026-09-01 | Pages: 489 | Sources: 467
 
 ---
 
@@ -11,6 +11,8 @@ Last updated: 2026-08-31 | Pages: 489 | Sources: 465
 - [[sources/ev-news-2026-08-31-digitimes]] — Digitimes批次2篇：現代汽車揭EV需求斷層已結束2030年推逾100款新車、Waymo自駕AI三大難題毫秒決策成關鍵。(2026-08-31)
 - [[sources/ev-news-2026-08-30-31-cn-misc]] — 中文財經媒體批次15篇：中國人大正式通過自駕修法舉證責任倒置、日產本田攜手打造SDV聯盟、比亞迪輕型車技術X-PACK擬推向歐洲、現代Kia全面退出柴油車、Waymo供應商轉向現代豐田。(2026-08-31)
 - [[sources/ev-news-2026-08-30-digest]] — ETAuto/Google快訊每日摘要批次2篇：本週回顧交叉引用，含台灣車電去中化紅利、蔚來現金流壓力等補充條目。(2026-08-30)
+- [[sources/ev-news-2026-09-01-electrive-en]] — electrive/InsideEVs/Sustainable Bus批次26篇：本田日產SDV正式官宣、歐洲H1電動巴士登記年增49%宇通稱冠、美國EREV車型九款盤點、多項商用車與充電基建動態。(2026-09-01)
+- [[sources/ev-news-2026-09-01-digitimes]] — Digitimes批次7篇：LGES取得8萬噸碳酸鋰長約強化北美原料鏈、Waymo兩億英里報告暗批Tesla三隱患、比亞迪Q2獲利終結連4季衰退甩開吉利、台灣自駕生態系動態。(2026-09-01)
 
 ### 電動乘用車
 - [[sources/ev-news-2026-08-27-29-electrive-en]] — electrive/InsideEVs批次21篇：BMW突破200萬輛EV銷售、BYD超快充電池耐久測試（9天350次快充僅剩1.3%衰減）、中國門把手召回歐洲KBA/RDW調查、Tesla Cybercab奧斯汀發表活動將至、Rivian財務長離職、Lucid召回2.7萬輛。(2026-08-29)

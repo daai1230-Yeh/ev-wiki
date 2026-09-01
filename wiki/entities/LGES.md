@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [lges-loss-ess-2026, ira-supply-chain-compliance, us-ev-battery-demand-mismatch, lges-tesla-4680-supplier, lges-bmw-46series-order, ev-news-2026-07-03-08, ev-news-2026-07-10-supplement, ev-news-2026-07-12-13-electrive, ev-news-2026-07-14-16-digitimes, ev-news-2026-07-17-20-digitimes, ev-news-2026-07-25-27-digitimes, ev-news-2026-07-29-31-digitimes, ev-news-2026-08-20-digitimes, ev-news-2026-08-19-20-cn-misc, ev-news-2026-08-19-20-electrive-en, ev-news-2026-08-21-digitimes, ev-news-2026-08-21-23-electrive-en, ev-news-2026-08-26-digitimes, ev-news-2026-08-27-digitimes]
-updated: 2026-08-27
+sources: [lges-loss-ess-2026, ira-supply-chain-compliance, us-ev-battery-demand-mismatch, lges-tesla-4680-supplier, lges-bmw-46series-order, ev-news-2026-07-03-08, ev-news-2026-07-10-supplement, ev-news-2026-07-12-13-electrive, ev-news-2026-07-14-16-digitimes, ev-news-2026-07-17-20-digitimes, ev-news-2026-07-25-27-digitimes, ev-news-2026-07-29-31-digitimes, ev-news-2026-08-20-digitimes, ev-news-2026-08-19-20-cn-misc, ev-news-2026-08-19-20-electrive-en, ev-news-2026-08-21-digitimes, ev-news-2026-08-21-23-electrive-en, ev-news-2026-08-26-digitimes, ev-news-2026-08-27-digitimes, ev-news-2026-09-01-digitimes]
+updated: 2026-09-01
 ---
 
 # 樂金能源解決方案（LG Energy Solution，LGES）
@@ -158,6 +158,18 @@ updated: 2026-08-27
 **觀察**：LGES 2029年硫化物系固態電池商用化時程是否如期；特殊用途（無人機/超跑）先導應用是否率先出現商業化案例。
 
 - 參見：[[sources/ev-news-2026-08-27-digitimes]] | [[concepts/電池技術路線]]
+
+## 美國取得8萬噸碳酸鋰長約，2029年起10年強化北美原料鏈（2026-09）
+
+> **結論**：LGES與美商Smackover Lithium（Standard Lithium與挪威Equinor合資）簽署長期供應合約，自2029年起10年間取得美國阿肯色州South West Arkansas Project產出的8萬噸碳酸鋰（採直接抽出技術DLE低碳製程），供應量可支應約180萬輛續航逾500公里的電動車，進一步完善北美從原料採購到電池生產的完整供應鏈。
+
+- 供應鏈完整性提升：LGES目前已在北美建置8座生產設施，此次合約使其得以從當地原料採購銜接電池生產，降低對進口原料依賴、強化因應IRA規範的能力
+- 全球鋰資源多點布局：LGES同期已與全球最大鋰生產商智利SQM簽署10萬噸氫氧化鋰及碳酸鋰長約，並與澳洲Liontown Resources簽署175萬噸鋰精礦供應合約，反映其正分散地緣政治風險、建立多元原料來源
+- 環保製程加分：DLE技術較傳統蒸發池提取更具環保效益、碳排放更低，符合下游車廠對永續供應鏈的訴求
+
+**觀察**：Smackover Lithium South West Arkansas Project 2029年投產時程是否如期；LGES是否進一步擴大美國本土鋰礦長約規模。
+
+- 參見：[[sources/ev-news-2026-09-01-digitimes]] | [[countries/美國]]
 
 ## Related
 - [[entities/寧德時代]]

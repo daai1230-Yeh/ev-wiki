@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [waymo-arizona-expansion-2026, ev-news-2026-06-25, ev-news-2026-08-30-31-cn-misc, ev-news-2026-08-31-digitimes]
-updated: 2026-08-31
+sources: [waymo-arizona-expansion-2026, ev-news-2026-06-25, ev-news-2026-08-30-31-cn-misc, ev-news-2026-08-31-digitimes, ev-news-2026-09-01-digitimes]
+updated: 2026-09-01
 ---
 
 # Waymo
@@ -53,6 +53,18 @@ Waymo 以 **$2.2 億美元**收購 Apple 位於亞利桑那州的 **5,500 英畝
 **觀察**：Waymo與現代、豐田合作車型的正式量產與部署時程；Zeekr合作受阻的具體法規/政治細節是否進一步明朗化。
 
 - 參見：[[sources/ev-news-2026-08-30-31-cn-misc]] | [[sources/ev-news-2026-08-31-digitimes]] | [[entities/現代汽車]] | [[entities/豐田]]
+
+## 全自動駕駛2億英里報告，十大啟示暗批Tesla三隱患（2026-09）
+
+> **結論**：Waymo AI基礎部門主管Srikanth Thirumalai根據旗下車輛累積逾2億英里全自駕里程，發布十項自駕AI安全啟示，其中三項未點名但明顯針對Tesla現行純視覺+端到端FSD策略提出質疑，凸顯兩家業者在技術路線與商業化規模上的根本分歧。
+
+- 純視覺路線受質疑：第一項啟示指出僅靠攝影機視覺資料無法實現安全且全面的自動駕駛，直接對應Tesla Vision純攝影機自駕系統設計
+- 端到端黑盒模式風險：第四項警告不應將攝影機原始影像透過端對端神經網路直接轉換為駕駛指令（如同黑盒子、可靠性不穩定），此正是Tesla FSD過去兩年的核心技術路線
+- 「輔助駕駛進化為自駕」邏輯遭否定：第十項直言透過訓練較低階駕駛輔助系統逐步進化至更高階自駕的做法「完全是一種假象」，唯有透過專為全自動駕駛打造的系統、在無人類監督情境下的嚴苛駕駛經驗方能真正驗證高階自駕能力；Waymo現每週逾50萬次付費乘車、目標年底前破100萬次，遠超Tesla Robotaxi累計38萬英里
+
+**觀察**：Tesla是否對Waymo十大啟示公開回應；兩種技術路線孰優孰劣需待更長時間商業化數據驗證。
+
+- 參見：[[sources/ev-news-2026-09-01-digitimes]] | [[entities/Tesla]] | [[concepts/Robotaxi自動計程車]]
 
 ## Related
 - [[concepts/Robotaxi自動計程車]]
