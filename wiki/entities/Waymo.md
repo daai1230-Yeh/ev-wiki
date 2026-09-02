@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [waymo-arizona-expansion-2026, ev-news-2026-06-25, ev-news-2026-08-30-31-cn-misc, ev-news-2026-08-31-digitimes, ev-news-2026-09-01-digitimes]
-updated: 2026-09-01
+sources: [waymo-arizona-expansion-2026, ev-news-2026-06-25, ev-news-2026-08-30-31-cn-misc, ev-news-2026-08-31-digitimes, ev-news-2026-09-01-digitimes, ev-news-2026-09-02-electrive-en]
+updated: 2026-09-02
 ---
 
 # Waymo
@@ -74,3 +74,9 @@ Waymo 以 **$2.2 億美元**收購 Apple 位於亞利桑那州的 **5,500 英畝
 - [[sources/waymo-arizona-expansion-2026]]
 - [[sources/waymo-miami-orlando-expansion]]
 - [[sources/waymo-battery-secondlife-colorado-recycling-2026]]
+
+## 擴至丹佛/聖地牙哥/坦帕，首度挑戰降雪常態化城市（2026-09）
+
+Waymo新開放丹佛、聖地牙哥、坦帕三城市無安全員自駕載客服務，其中丹佛（年均降雪56英寸）是Waymo首個常態性降雪城市部署，遠超此前最冷據點納什維爾（年均不到5英寸），標誌Waymo自駕運營範圍首度由溫帶氣候城市延伸至冬季氣候更嚴苛的地區。聖地牙哥與丹佛率先導入新款Zeekr Ojai車型；官方安全部落格強調惡劣天氣（暴雨、沙塵暴）下車輛會自動安全停車而非強行運行，尚未明確說明降雪天候下的具體運營限制。Waymo此前已在密西根州Novi、紐約州Buffalo進行降雪測試，並曾規劃底特律、紐約市服務（紐約因當地法規受阻），顯示其正逐步累積應對降雪環境的技術準備。
+
+- 參見：[[sources/ev-news-2026-09-02-electrive-en]] | [[countries/美國]] | [[concepts/Robotaxi自動計程車]]

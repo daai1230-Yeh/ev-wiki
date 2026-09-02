@@ -1,6 +1,6 @@
 # Wiki Index
 
-Last updated: 2026-09-01 | Pages: 489 | Sources: 467
+Last updated: 2026-09-02 | Pages: 489 | Sources: 470
 
 ---
 
@@ -13,6 +13,9 @@ Last updated: 2026-09-01 | Pages: 489 | Sources: 467
 - [[sources/ev-news-2026-08-30-digest]] — ETAuto/Google快訊每日摘要批次2篇：本週回顧交叉引用，含台灣車電去中化紅利、蔚來現金流壓力等補充條目。(2026-08-30)
 - [[sources/ev-news-2026-09-01-electrive-en]] — electrive/InsideEVs/Sustainable Bus批次26篇：本田日產SDV正式官宣、歐洲H1電動巴士登記年增49%宇通稱冠、美國EREV車型九款盤點、多項商用車與充電基建動態。(2026-09-01)
 - [[sources/ev-news-2026-09-01-digitimes]] — Digitimes批次7篇：LGES取得8萬噸碳酸鋰長約強化北美原料鏈、Waymo兩億英里報告暗批Tesla三隱患、比亞迪Q2獲利終結連4季衰退甩開吉利、台灣自駕生態系動態。(2026-09-01)
+- [[sources/ev-news-2026-09-02-electrive-en]] — electrive/InsideEVs批次9篇：比亞迪Racco輕型車技術擬移植歐洲、歐洲電動巴士登記完整排行（義大利居冠宇通稱王）、慕尼黑工大籲修訂CO2法規、Hubject執行長專訪補充、Toyota 2028年L2++自駕系統、Waymo挑戰降雪城市。(2026-09-02)
+- [[sources/ev-news-2026-09-02-digest]] — ETAuto/Google Alerts批次2篇：印度8月乘用車出貨創同期新高、泰國汽車稅制改採CO2排放標準。(2026-09-02)
+- [[sources/ev-news-2026-09-02-digitimes]] — Digitimes批次6篇：比亞迪8月銷量年增18%海外出口飆升、Stellantis加拿大閒置廠比亞迪曾洽詢進駐、豐田美國EV產線延後、現代Unigrid鈉離子電池驗證、台灣車市動能趨緩、歐盟電池回收獲利困境。(2026-09-02)
 
 ### 電動乘用車
 - [[sources/ev-news-2026-08-27-29-electrive-en]] — electrive/InsideEVs批次21篇：BMW突破200萬輛EV銷售、BYD超快充電池耐久測試（9天350次快充僅剩1.3%衰減）、中國門把手召回歐洲KBA/RDW調查、Tesla Cybercab奧斯汀發表活動將至、Rivian財務長離職、Lucid召回2.7萬輛。(2026-08-29)
