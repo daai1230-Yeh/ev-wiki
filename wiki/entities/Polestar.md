@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [ev-news-2026-06-29]
-updated: 2026-06-29
+sources: [ev-news-2026-06-29, ev-news-2026-09-04-electrive-en]
+updated: 2026-09-04
 ---
 
 # Polestar
@@ -67,3 +67,9 @@ CEO Lohscheller 聲明：
 - [[countries/歐洲]]
 - [[countries/美國]]
 - [[sources/ev-news-2026-06-29]]
+
+## Polestar 4 SUV版本發表，德國起售€57,900（2026-09）
+
+Polestar發表Polestar 4 SUV版本，沿用與Coupé相同的400V平台架構（Polestar 3則採800V SPA2平台），車身尺寸相近但車頂線條延伸更垂直、配備傳統後擋風玻璃（Coupé僅靠數位後視鏡）。動力沿用後驅200kW或雙馬達400kW兩種規格，續航略優於Coupé版本（後驅630km vs 620km、雙馬達600km vs 590km）。德國起售€57,900（較同規格Coupé折扣價低€2,000），已於南韓釜山廠投產，Q4起交車。
+
+- 參見：[[sources/ev-news-2026-09-04-electrive-en]] | [[countries/歐洲]]

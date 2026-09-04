@@ -1,6 +1,6 @@
 # Wiki Index
 
-Last updated: 2026-09-02 | Pages: 489 | Sources: 470
+Last updated: 2026-09-04 | Pages: 489 | Sources: 473
 
 ---
 
@@ -16,6 +16,9 @@ Last updated: 2026-09-02 | Pages: 489 | Sources: 470
 - [[sources/ev-news-2026-09-02-electrive-en]] — electrive/InsideEVs批次9篇：比亞迪Racco輕型車技術擬移植歐洲、歐洲電動巴士登記完整排行（義大利居冠宇通稱王）、慕尼黑工大籲修訂CO2法規、Hubject執行長專訪補充、Toyota 2028年L2++自駕系統、Waymo挑戰降雪城市。(2026-09-02)
 - [[sources/ev-news-2026-09-02-digest]] — ETAuto/Google Alerts批次2篇：印度8月乘用車出貨創同期新高、泰國汽車稅制改採CO2排放標準。(2026-09-02)
 - [[sources/ev-news-2026-09-02-digitimes]] — Digitimes批次6篇：比亞迪8月銷量年增18%海外出口飆升、Stellantis加拿大閒置廠比亞迪曾洽詢進駐、豐田美國EV產線延後、現代Unigrid鈉離子電池驗證、台灣車市動能趨緩、歐盟電池回收獲利困境。(2026-09-02)
+- [[sources/ev-news-2026-09-04-electrive-en]] — electrive/InsideEVs批次24篇：比亞迪8月BEV首破25萬輛完整數據、中國發布出海新規範、IAA Transportation電動卡車展前瞻、福特Fathom挑戰Tesla、德國氫能卡車聯盟、Wayve×Uber倫敦自駕、SHERLOCK黑粉回收計畫、50萬筆電池健康度研究。(2026-09-04)
+- [[sources/ev-news-2026-09-04-digitimes]] — Digitimes批次6篇：GM豐田等籲美國會立法禁中國連網車、本田要求供應商降本30%、三星SDI固態電池材料布局中國、中國NEV進口探底、東南亞EV政策轉向本地生產、現代擴編美國技術研究所。(2026-09-04)
+- [[sources/ev-news-2026-09-04-digest]] — Google Alerts批次1篇：現代摩比斯斯洛伐克新廠啟用強化歐洲供應鏈。(2026-09-04)
 
 ### 電動乘用車
 - [[sources/ev-news-2026-08-27-29-electrive-en]] — electrive/InsideEVs批次21篇：BMW突破200萬輛EV銷售、BYD超快充電池耐久測試（9天350次快充僅剩1.3%衰減）、中國門把手召回歐洲KBA/RDW調查、Tesla Cybercab奧斯汀發表活動將至、Rivian財務長離職、Lucid召回2.7萬輛。(2026-08-29)

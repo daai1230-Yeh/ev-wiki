@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [samsung-sdi-mercedes-battery-deal, samsung-sdi-mercedes-confirmed-deal, samsung-sdi-solid-state-production-2026, ev-news-2026-07-03-08, ev-news-2026-07-14-16-digitimes]
-updated: 2026-07-16
+sources: [samsung-sdi-mercedes-battery-deal, samsung-sdi-mercedes-confirmed-deal, samsung-sdi-solid-state-production-2026, ev-news-2026-07-03-08, ev-news-2026-07-14-16-digitimes, ev-news-2026-09-04-digitimes]
+updated: 2026-09-04
 ---
 
 # 三星 SDI（Samsung SDI）
@@ -79,3 +79,9 @@ updated: 2026-07-16
 - [[sources/samsung-sdi-mercedes-battery-deal]]
 - [[sources/samsung-sdi-mercedes-confirmed-deal]]
 - [[sources/samsung-sdi-solid-state-production-2026]]
+
+## 全固態電池量產倒數，採購團隊赴中國布局電解質供應鏈（2026-09）
+
+三星SDI採購團隊傳於2026年8月中旬造訪中國電解液龍頭天賜材料生產基地，延續自2025年以來的既有供應合作，此舉受中國業界高度關注，主因三星SDI相對積極的全固態電池量產時程——規劃2027年商業化，投資16兆韓元（約118億美元）於南韓蔚山廠建置全球首座全固態電池量產線，較寧德時代（2027年小量生產、2030年目標大規模量產）更為積極。天賜材料已於2026年在硫化物系固態電解質試產線上開始試產；三星SDI同時與南韓EcoPro BM等本土材料商就固態電解質供應展開協商。三星SDI計劃先將全固態電池應用於人形機器人等實體AI（Physical AI）領域，再逐步擴大至電動車應用。
+
+- 參見：[[sources/ev-news-2026-09-04-digitimes]] | [[concepts/電池技術路線]] | [[countries/韓國]]
