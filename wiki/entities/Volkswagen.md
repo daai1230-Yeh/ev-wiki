@@ -1,6 +1,6 @@
 ---
 tags: [entity]
-sources: [vw-restructure-china-offensive-2026, ev-news-2026-06-27-29-en, ev-news-2026-06-30-07-01, ev-news-2026-07-02, ev-news-2026-07-03-08, ev-news-2026-07-10-supplement, ev-news-2026-07-12-13-electrive, ev-news-2026-07-14-16-electrive, ev-news-2026-07-17-20-digitimes, ev-news-2026-07-20-21-electrive-en, ev-news-2026-07-22-23-electrive-en, ev-news-2026-07-25-27-digitimes, ev-news-2026-07-24-27-electrive-en, ev-news-2026-07-24-28-electrive-en, ev-news-2026-07-29-31-digitimes, ev-news-2026-07-28-30-electrive-en, ev-news-2026-08-04-06-digitimes, ev-news-2026-08-03-06-electrive-en, ev-news-2026-08-07-10-electrive-en, ev-news-2026-08-13-digitimes, ev-news-2026-08-14-17-digitimes, ev-news-2026-08-18-digitimes, ev-news-2026-07-23-08-24-etauto-india, ev-news-2026-09-07-08-electrive-en, ev-news-2026-09-07-08-digest]
+sources: [vw-restructure-china-offensive-2026, ev-news-2026-06-27-29-en, ev-news-2026-06-30-07-01, ev-news-2026-07-02, ev-news-2026-07-03-08, ev-news-2026-07-10-supplement, ev-news-2026-07-12-13-electrive, ev-news-2026-07-14-16-electrive, ev-news-2026-07-17-20-digitimes, ev-news-2026-07-20-21-electrive-en, ev-news-2026-07-22-23-electrive-en, ev-news-2026-07-25-27-digitimes, ev-news-2026-07-24-27-electrive-en, ev-news-2026-07-24-28-electrive-en, ev-news-2026-07-29-31-digitimes, ev-news-2026-07-28-30-electrive-en, ev-news-2026-08-04-06-digitimes, ev-news-2026-08-03-06-electrive-en, ev-news-2026-08-07-10-electrive-en, ev-news-2026-08-13-digitimes, ev-news-2026-08-14-17-digitimes, ev-news-2026-08-18-digitimes, ev-news-2026-07-23-08-24-etauto-india, ev-news-2026-09-07-08-electrive-en, ev-news-2026-09-07-08-digest, ev-news-2026-09-08-electrive-en]
 updated: 2026-09-08
 ---
 
@@ -306,3 +306,9 @@ Skoda Auto Volkswagen India傳與JSW集團洽談合資，最快10月初簽署非
 **觀察**：4座受影響德國廠替代用途研議進度；10萬人瘦身計畫的具體時程與地區分布。
 
 - 參見：[[sources/ev-news-2026-09-07-08-electrive-en]] | [[sources/ev-news-2026-09-07-08-digest]] | [[countries/歐洲]] | [[countries/中國]]
+
+## ID. Polo供不應求候車逾10個月，Audi A2 e-tron重返效率導向（2026-09）
+
+福斯ID. Polo歐洲累計訂單已逾3萬輛，個別配置候車時間至少10個月，入門版€24,995（37kWh LFP、續航323km）實現長期承諾的「2.5萬歐元以下電動車」，Škoda同平台Epiq車型訂單也逾3.5萬輛，反映福斯集團小型電動車家族需求「顯著超出原始預期」——與同期已收錄福斯監事會批准大規模重組裁員的背景形成對比，顯示集團在瘦身同時仍有具體暢銷新車型支撐。同集團Audi另發表A2 e-tron（基於MEB+平台，德國起售€38,200，12月起交車），WLTP能耗12.8 kWh/100km逼近Tesla Model 3效率水準，支援V2H居家能源平衡，定位介於VW ID.3之上、與BMW/賓士現階段無直接對手的價格帶。
+
+- 參見：[[sources/ev-news-2026-09-08-electrive-en]] | [[countries/歐洲]]

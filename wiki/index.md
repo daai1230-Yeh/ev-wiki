@@ -1,6 +1,6 @@
 # Wiki Index
 
-Last updated: 2026-09-08 | Pages: 489 | Sources: 476
+Last updated: 2026-09-08 | Pages: 490 | Sources: 478
 
 ---
 
@@ -22,6 +22,8 @@ Last updated: 2026-09-08 | Pages: 489 | Sources: 476
 - [[sources/ev-news-2026-09-07-08-electrive-en]] — electrive/InsideEVs批次14篇：福斯監事會批准未來計畫重組、Tesla Cybercab悄然開放試乘惹NHTSA調查、Polestar連網車禁令衝擊財報、中國電池消費稅上路、小米德國經銷網布局。(2026-09-07~08)
 - [[sources/ev-news-2026-09-07-08-digitimes]] — Digitimes批次10篇：Uber裁員10%押注Robotaxi、中國智駕晶片三大瓶頸、比亞迪傳購海上艦隊、南韓UBATT鋰金屬電池、豐田氫能布局能源安全、中國太陽能裝機超燃煤。(2026-09-07~08)
 - [[sources/ev-news-2026-09-07-08-digest]] — Google Alerts/中文財經媒體批次12篇：中國車市內銷連10月下滑出口暴增近倍、福斯裁員10萬人補充、比亞迪印尼廠投產、瑪莎拉蒂華為雙logo合作、中國電池報廢潮逾百萬噸、台灣建大/鴻華先進動態。(2026-09-07~08)
+- [[sources/ev-news-2026-09-08-electrive-en]] — electrive/Sustainable Bus批次7篇：輝能科技台灣廠啟動Gen 3.5固態電池量產、Audi A2 e-tron發表、VW ID. Polo供不應求、Zagreb/羅馬/什切青電動巴士採購動態、VDL巴士部門持續虧損。(2026-09-08)
+- [[sources/ev-news-2026-09-08-digest]] — Google Alerts批次2篇：泰國貨物稅鎖定出口高值零件、泰國製造業四大行業告急恐掀倒閉潮。(2026-09-08)
 
 ### 電動乘用車
 - [[sources/ev-news-2026-08-27-29-electrive-en]] — electrive/InsideEVs批次21篇：BMW突破200萬輛EV銷售、BYD超快充電池耐久測試（9天350次快充僅剩1.3%衰減）、中國門把手召回歐洲KBA/RDW調查、Tesla Cybercab奧斯汀發表活動將至、Rivian財務長離職、Lucid召回2.7萬輛。(2026-08-29)
@@ -538,6 +540,7 @@ Last updated: 2026-09-08 | Pages: 489 | Sources: 476
 - [[entities/SK On]] — 韓國第二大電池廠，匈牙利廠 2026 年產能利用率 85%，為 VW/Ford 供應 NCM 電池。
 - [[entities/寧德時代]] — 全球最大動力電池廠，主導鈉電池量產，技術授權至美國。
 - [[entities/Northvolt]] — 瑞典電池廠，2024 年破產，德國 Heide 廠 €6,000 萬賤賣給 Lyten（資產原值 >€3.6 億）。
+- [[entities/輝能科技]] — 台灣固態電池專家（ProLogium），2026-09 啟動Gen 3.5鋰陶瓷電池量產，TÜV認證能量密度381Wh/kg，法國敦克爾克廠同步布局。
 
 ### 傳統車廠（轉型中）
 - [[entities/豐田]] — 佐藤恒治「維持現狀無法生存」；FY2026 利潤目標下修 21%（3.8 兆）；bZ 系列逆勢成長。
