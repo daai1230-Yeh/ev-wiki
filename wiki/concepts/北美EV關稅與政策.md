@@ -1,7 +1,7 @@
 ---
 tags: [concept]
-sources: [tesla-canada-model3-2026, nissan-mississippi-ev-abandonment, china-evs-canada-chery-geely-2026, ford-catl-michigan-factory-2026, china-ev-us-market-2026, nissan-canada-dongfeng-ev-quota-2026]
-updated: 2026-05-21
+sources: [tesla-canada-model3-2026, nissan-mississippi-ev-abandonment, china-evs-canada-chery-geely-2026, ford-catl-michigan-factory-2026, china-ev-us-market-2026, nissan-canada-dongfeng-ev-quota-2026, ev-news-2026-09-07-08-electrive-en]
+updated: 2026-09-08
 ---
 
 # 北美 EV 關稅與政策
@@ -130,3 +130,9 @@ updated: 2026-05-21
 - [[sources/nissan-mississippi-ev-abandonment]]
 - [[sources/china-ev-us-market-2026]]
 - [[sources/nissan-canada-dongfeng-ev-quota-2026]]
+
+## Polestar連網車禁令豁免遭拒，重組成本增2.11億美元（2026-09）
+
+Polestar H1 2026財報顯示，美國商務部拒絕給予其連網車規則（2027年起禁止中國科技連網車）豁免，導致重組成本額外增加2.11億美元，淨損收斂幅度（29%）遠不如營業損失收斂幅度（43%），Nasdaq股價聞訊重挫30%創歷史新低；同屬吉利集團的Volvo已透過滿足更長串條件成功取得豁免，凸顯集團內部品牌在美國合規地位上的分化，一家New Jersey經銷商已對Polestar提起訴訟指控該規則實為退出美國市場的藉口。此案是繼GM、豐田等組成AAI聯盟籲國會永久立法禁止中國連網車（09-04已收錄）後，連網車政策對個別車廠財報產生實質衝擊的首個具體案例。
+
+- 參見：[[sources/ev-news-2026-09-07-08-electrive-en]] | [[entities/Polestar]] | [[countries/美國]]

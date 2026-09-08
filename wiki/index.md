@@ -1,6 +1,6 @@
 # Wiki Index
 
-Last updated: 2026-09-04 | Pages: 489 | Sources: 473
+Last updated: 2026-09-08 | Pages: 489 | Sources: 476
 
 ---
 
@@ -19,6 +19,9 @@ Last updated: 2026-09-04 | Pages: 489 | Sources: 473
 - [[sources/ev-news-2026-09-04-electrive-en]] — electrive/InsideEVs批次24篇：比亞迪8月BEV首破25萬輛完整數據、中國發布出海新規範、IAA Transportation電動卡車展前瞻、福特Fathom挑戰Tesla、德國氫能卡車聯盟、Wayve×Uber倫敦自駕、SHERLOCK黑粉回收計畫、50萬筆電池健康度研究。(2026-09-04)
 - [[sources/ev-news-2026-09-04-digitimes]] — Digitimes批次6篇：GM豐田等籲美國會立法禁中國連網車、本田要求供應商降本30%、三星SDI固態電池材料布局中國、中國NEV進口探底、東南亞EV政策轉向本地生產、現代擴編美國技術研究所。(2026-09-04)
 - [[sources/ev-news-2026-09-04-digest]] — Google Alerts批次1篇：現代摩比斯斯洛伐克新廠啟用強化歐洲供應鏈。(2026-09-04)
+- [[sources/ev-news-2026-09-07-08-electrive-en]] — electrive/InsideEVs批次14篇：福斯監事會批准未來計畫重組、Tesla Cybercab悄然開放試乘惹NHTSA調查、Polestar連網車禁令衝擊財報、中國電池消費稅上路、小米德國經銷網布局。(2026-09-07~08)
+- [[sources/ev-news-2026-09-07-08-digitimes]] — Digitimes批次10篇：Uber裁員10%押注Robotaxi、中國智駕晶片三大瓶頸、比亞迪傳購海上艦隊、南韓UBATT鋰金屬電池、豐田氫能布局能源安全、中國太陽能裝機超燃煤。(2026-09-07~08)
+- [[sources/ev-news-2026-09-07-08-digest]] — Google Alerts/中文財經媒體批次12篇：中國車市內銷連10月下滑出口暴增近倍、福斯裁員10萬人補充、比亞迪印尼廠投產、瑪莎拉蒂華為雙logo合作、中國電池報廢潮逾百萬噸、台灣建大/鴻華先進動態。(2026-09-07~08)
 
 ### 電動乘用車
 - [[sources/ev-news-2026-08-27-29-electrive-en]] — electrive/InsideEVs批次21篇：BMW突破200萬輛EV銷售、BYD超快充電池耐久測試（9天350次快充僅剩1.3%衰減）、中國門把手召回歐洲KBA/RDW調查、Tesla Cybercab奧斯汀發表活動將至、Rivian財務長離職、Lucid召回2.7萬輛。(2026-08-29)

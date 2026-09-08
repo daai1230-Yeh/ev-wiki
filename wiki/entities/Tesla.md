@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [tesla-ass-nhtsa-probe-closed, tesla-taiwan-march-2026, xiaomi-ev-europe-2027, tesla-4680-musk-strategy, tesla-korea-q1-2026, tesla-q1-2026-earnings, tesla-india-model-y-l, 駐外新聞-美國-2025, ev-news-2026-07-02, ev-news-2026-07-03-08, ev-news-2026-07-09, ev-news-2026-07-10-insideevs-batch, ev-news-2026-07-11, ev-news-2026-07-12-13-digest, ev-news-2026-07-12-13-electrive, ev-news-2026-07-13-digitimes, ev-news-2026-07-14-16-insideevs, ev-news-2026-07-14-16-digitimes, ev-news-2026-07-21-22-digitimes, ev-news-2026-07-20-21-electrive-en, ev-news-2026-07-22-24-digitimes, ev-news-2026-07-22-23-electrive-en, ev-news-2026-07-25-27-digitimes, ev-news-2026-07-28-digitimes, ev-news-2026-07-28-30-electrive-en, ev-news-2026-08-01-03-cn, ev-news-2026-08-01-03-en, ev-news-2026-08-04-06-digitimes, ev-news-2026-08-03-06-electrive-en, ev-news-2026-08-04-06-cn-misc, ev-news-2026-08-07-digitimes, ev-news-2026-08-06-07-cn-misc, ev-news-2026-08-06-07-electrive-en, ev-news-2026-08-06-10-cn-misc, ev-news-2026-08-07-10-electrive-en, ev-news-2026-08-13-15-electrive-en, ev-news-2026-08-19-digitimes, ev-news-2026-08-20-digitimes, ev-news-2026-08-19-20-cn-misc, ev-news-2026-08-21-digitimes, ev-news-2026-08-21-23-electrive-en, ev-news-2026-08-26-digitimes, ev-news-2026-08-21-26-cn-misc, ev-news-2026-08-26-27-electrive-en, ev-news-2026-08-27-29-electrive-en, ev-news-2026-08-30-31-cn-misc]
-updated: 2026-08-31
+sources: [tesla-ass-nhtsa-probe-closed, tesla-taiwan-march-2026, xiaomi-ev-europe-2027, tesla-4680-musk-strategy, tesla-korea-q1-2026, tesla-q1-2026-earnings, tesla-india-model-y-l, 駐外新聞-美國-2025, ev-news-2026-07-02, ev-news-2026-07-03-08, ev-news-2026-07-09, ev-news-2026-07-10-insideevs-batch, ev-news-2026-07-11, ev-news-2026-07-12-13-digest, ev-news-2026-07-12-13-electrive, ev-news-2026-07-13-digitimes, ev-news-2026-07-14-16-insideevs, ev-news-2026-07-14-16-digitimes, ev-news-2026-07-21-22-digitimes, ev-news-2026-07-20-21-electrive-en, ev-news-2026-07-22-24-digitimes, ev-news-2026-07-22-23-electrive-en, ev-news-2026-07-25-27-digitimes, ev-news-2026-07-28-digitimes, ev-news-2026-07-28-30-electrive-en, ev-news-2026-08-01-03-cn, ev-news-2026-08-01-03-en, ev-news-2026-08-04-06-digitimes, ev-news-2026-08-03-06-electrive-en, ev-news-2026-08-04-06-cn-misc, ev-news-2026-08-07-digitimes, ev-news-2026-08-06-07-cn-misc, ev-news-2026-08-06-07-electrive-en, ev-news-2026-08-06-10-cn-misc, ev-news-2026-08-07-10-electrive-en, ev-news-2026-08-13-15-electrive-en, ev-news-2026-08-19-digitimes, ev-news-2026-08-20-digitimes, ev-news-2026-08-19-20-cn-misc, ev-news-2026-08-21-digitimes, ev-news-2026-08-21-23-electrive-en, ev-news-2026-08-26-digitimes, ev-news-2026-08-21-26-cn-misc, ev-news-2026-08-26-27-electrive-en, ev-news-2026-08-27-29-electrive-en, ev-news-2026-08-30-31-cn-misc, ev-news-2026-09-07-08-electrive-en, ev-news-2026-09-07-08-digest]
+updated: 2026-09-08
 ---
 
 # Tesla
@@ -484,3 +484,16 @@ YouTuber實測顯示，搭載HW4與最新FSD v14.3.4的車輛反應時間0.450�
 - [[sources/tesla-india-model-y-l]]
 - [[sources/ev-news-2026-06-30-07-01]]
 - [[concepts/電池與技術/電池技術路線]]
+
+## Cybercab悄然開放公眾試乘，NHTSA隨即啟動認證調查（2026-09）
+
+> **結論**：Tesla未經任何造勢宣傳悄然在奧斯汀開放Cybercab機器人計程車App預約載客，這是Tesla首度公開使用量產版Cybercab車型載客；發布3天後美國國家公路交通安全管理局（NHTSA）宣布啟動調查，審查Tesla自我認證Cybercab符合聯邦機動車安全標準的流程與技術數據。
+
+**主因**：
+- 低調發布策略：Tesla目前在德州僅獲准營運45輛Cybercab，無方向盤與煞車踏板的雙座無人車自今年4月於Giga Texas量產，此次是首度供公眾實際搭乘量產版本；Tesla與Waymo、Zoox相同，仍配置遠端指揮中心介入監控，並非完全無人監督
+- 監管介入時點敏感：NHTSA審查重點是Tesla如何自行認定「特定FMVSS規範不適用於本車款」的判斷依據，調查恰發生在Cybercab開放公眾試乘僅3天後，凸顯監管機構對Tesla自我認證流程的關注升溫
+- 規格細節：依美國EPA認證文件，Cybercab搭載約48kWh鋰電池、前驅163kW馬達，整備重量1,412公斤，綜合續航約673公里，目標定價低於3萬美元、每英里營運成本控制在0.2美元內，並整合Starlink V5衛星網路
+
+**觀察**：NHTSA調查結果是否影響Cybercab既有45輛營運許可或後續擴大規模的時程；Tesla是否公開回應認證流程細節。
+
+- 參見：[[sources/ev-news-2026-09-07-08-electrive-en]] | [[sources/ev-news-2026-09-07-08-digest]] | [[concepts/Robotaxi自動計程車]] | [[countries/美國]]

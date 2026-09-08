@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [vw-restructure-china-offensive-2026, ev-news-2026-06-27-29-en, ev-news-2026-06-30-07-01, ev-news-2026-07-02, ev-news-2026-07-03-08, ev-news-2026-07-10-supplement, ev-news-2026-07-12-13-electrive, ev-news-2026-07-14-16-electrive, ev-news-2026-07-17-20-digitimes, ev-news-2026-07-20-21-electrive-en, ev-news-2026-07-22-23-electrive-en, ev-news-2026-07-25-27-digitimes, ev-news-2026-07-24-27-electrive-en, ev-news-2026-07-24-28-electrive-en, ev-news-2026-07-29-31-digitimes, ev-news-2026-07-28-30-electrive-en, ev-news-2026-08-04-06-digitimes, ev-news-2026-08-03-06-electrive-en, ev-news-2026-08-07-10-electrive-en, ev-news-2026-08-13-digitimes, ev-news-2026-08-14-17-digitimes, ev-news-2026-08-18-digitimes, ev-news-2026-07-23-08-24-etauto-india]
-updated: 2026-08-24
+sources: [vw-restructure-china-offensive-2026, ev-news-2026-06-27-29-en, ev-news-2026-06-30-07-01, ev-news-2026-07-02, ev-news-2026-07-03-08, ev-news-2026-07-10-supplement, ev-news-2026-07-12-13-electrive, ev-news-2026-07-14-16-electrive, ev-news-2026-07-17-20-digitimes, ev-news-2026-07-20-21-electrive-en, ev-news-2026-07-22-23-electrive-en, ev-news-2026-07-25-27-digitimes, ev-news-2026-07-24-27-electrive-en, ev-news-2026-07-24-28-electrive-en, ev-news-2026-07-29-31-digitimes, ev-news-2026-07-28-30-electrive-en, ev-news-2026-08-04-06-digitimes, ev-news-2026-08-03-06-electrive-en, ev-news-2026-08-07-10-electrive-en, ev-news-2026-08-13-digitimes, ev-news-2026-08-14-17-digitimes, ev-news-2026-08-18-digitimes, ev-news-2026-07-23-08-24-etauto-india, ev-news-2026-09-07-08-electrive-en, ev-news-2026-09-07-08-digest]
+updated: 2026-09-08
 ---
 
 # Volkswagen（福斯集團）
@@ -293,3 +293,16 @@ VW 正式評估將中國開發的 EREV 車型引入歐洲市場，以規避 EU B
 Skoda Auto Volkswagen India傳與JSW集團洽談合資，最快10月初簽署非約束性備忘錄，福斯全球高層預計8月18日於孟買會商核准。資金將用於發展基於中國CMP平台衍生的「印度主力平台」（IMP），供福斯與Skoda品牌在地製造多款電動SUV；此前福斯已將印度專屬EV平台投資由10億美元下修至約7億美元。JSW集團已持有JSW MG Motor（與上汽合資）35%股權並新設JSW Motors獨立車廠，若合資成立可望提供福斯期待已久的印度在地產業夥伴與資金奧援，最快2026年底至2027年初正式成立。
 
 - 參見：[[sources/ev-news-2026-08-07-10-electrive-en]] | [[countries/印度]]
+
+## 監事會批准「未來計畫」重組，Blume闖過關鍵一關（2026-09）
+
+> **結論**：福斯監事會出乎意料地一致通過執行長Blume的「未來計畫」重組案（此前2個月一次表決一度膠著），核心品牌是否分拆的爭議決定暫緩處理（下薩克森邦持有20%股權具否決權、強烈反對分拆），此舉似乎化解緊張關係並促成本次過關，工會將此定調為「降溫」而非投降；中文財經媒體另揭露德國埃姆登廠時薪74歐元/單車成本4,850歐元/人均年產29輛，相較中國天津廠時薪12歐元/單車成本1,078歐元/人均年產51.3輛的懸殊差距，凸顯此次裁員10萬人、車型砍半重組決策的財務背景。
+
+**主因**：
+- 過剩產能坦承：計畫承認歐洲產能過剩50萬輛，4座德國廠（Zwickau、Emden、Hanover、Audi Neckarsulm）2031-2034年後續接產能無法保證，影響逾4萬名員工與年產能約75萬輛，惟廠區替代用途仍在並行研議而非確認關廠
+- 全球性瘦身：全球員工規模將縮減約10萬人（占全球員工約15%），車系陣容2035年前削減約50%、產品複雜度降低約75%，福斯將投入三位數十億歐元規模資金聚焦最具吸引力、量產規模最大的車型
+- 中德成本結構懸殊：德國埃姆登廠人均年產僅29輛（時薪74歐元），中國天津廠人均年產51.3輛（時薪僅12歐元），內部評估若關閉相關德國產線至2038年可望創造29億歐元淨效益，凸顯重組決策背後的具體經濟邏輯
+
+**觀察**：4座受影響德國廠替代用途研議進度；10萬人瘦身計畫的具體時程與地區分布。
+
+- 參見：[[sources/ev-news-2026-09-07-08-electrive-en]] | [[sources/ev-news-2026-09-07-08-digest]] | [[countries/歐洲]] | [[countries/中國]]

@@ -1,7 +1,7 @@
 ---
 tags: [concept]
-sources: [byd-dipilot-adas-2026, robotaxi-market-2026, toyota-adas-vs-fsd-subscription, hyundai-pleos-sdv-os, in-cabin-ai-sensing-2026, l2plus-adas-adoption-2026, rivian-lidar-china-partner-2026, hyundai-kia-atria-ai-gwangju-2026, hesai-color-lidar-2026, ev-news-digest-jun1-10-2026, ev-news-2026-06-27-29-en, ev-news-2026-06-30-07-01, ev-news-2026-06-29-zh, ev-news-2026-07-02, ev-news-2026-07-03-08, ev-news-2026-07-09, ev-news-2026-07-21-22-digitimes, ev-news-2026-07-22-23-electrive-en, ev-news-2026-08-24-digitimes, ev-news-2026-08-27-digitimes, ev-news-2026-08-28-digitimes, ev-news-2026-08-30-31-cn-misc]
-updated: 2026-08-31
+sources: [byd-dipilot-adas-2026, robotaxi-market-2026, toyota-adas-vs-fsd-subscription, hyundai-pleos-sdv-os, in-cabin-ai-sensing-2026, l2plus-adas-adoption-2026, rivian-lidar-china-partner-2026, hyundai-kia-atria-ai-gwangju-2026, hesai-color-lidar-2026, ev-news-digest-jun1-10-2026, ev-news-2026-06-27-29-en, ev-news-2026-06-30-07-01, ev-news-2026-06-29-zh, ev-news-2026-07-02, ev-news-2026-07-03-08, ev-news-2026-07-09, ev-news-2026-07-21-22-digitimes, ev-news-2026-07-22-23-electrive-en, ev-news-2026-08-24-digitimes, ev-news-2026-08-27-digitimes, ev-news-2026-08-28-digitimes, ev-news-2026-08-30-31-cn-misc, ev-news-2026-09-07-08-digitimes]
+updated: 2026-09-08
 ---
 
 # ADAS 智駕系統（Advanced Driver Assistance System）
@@ -396,3 +396,16 @@ GM 與美光（Micron）簽署 **第 16 份供應協議（SCA）**，涵蓋汽�
 - [[sources/hyundai-kia-atria-ai-gwangju-2026]]
 - [[sources/hesai-color-lidar-2026]]
 - [[sources/ev-news-2026-07-02]]
+
+## 中國智駕晶片開進深水區，量產、成本、自主研發成三大瓶頸（2026-09）
+
+> **結論**：地平線與黑芝麻智能最新半年報顯示，中國智駕晶片競爭已從「TOPS規格大戰」轉向更現實的量產轉化、成本控制與車廠自主研發三大瓶頸——地平線雖取得近500款車型專案，晶片毛利率卻由44.2%降至36.2%，反映高算力晶片商業模式的結構性壓力正逐漸浮現。
+
+**主因**：
+- 專案導入≠量產出貨：地平線中高階智駕產品專案接近130款，但征程系列實際出貨僅221.8萬套（年增12.1%），車廠採用後仍須經過晶片驗證、軟體整合、域控整合、功能安全測試及道路測試等冗長轉換期
+- 高算力與成本矛盾：車廠不會單純為堆疊TOPS犧牲BOM成本，地平線硬體業務毛利率年減8個百分點至36.2%，顯示智駕晶片商業模式正面臨結構性壓力
+- 車廠自主研發改變市場結構：比亞迪、蔚來、小鵬等持續強化自主智駕能力，部分甚至自研晶片；當城市NOA從選配變成核心賣點，智駕系統已從零組件升級為車企差異化競爭關鍵，晶片供應商研發投入（地平線27.55億人民幣、黑芝麻8.6億人民幣，均超過或接近同期營收）反映競爭已從硬體規格延伸至端到端、世界模型等系統級能力
+
+**觀察**：地平線、黑芝麻毛利率能否止穩；車廠自研晶片比例是否進一步侵蝕第三方晶片商市占。
+
+- 參見：[[sources/ev-news-2026-09-07-08-digitimes]] | [[entities/比亞迪]] | [[countries/中國]]

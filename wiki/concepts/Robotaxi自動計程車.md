@@ -1,7 +1,7 @@
 ---
 tags: [concept]
-sources: [robotaxi-market-2026, china-autonomous-driving-overseas, europe-robotaxi-verne-ponyai, waymo-miami-orlando-expansion, taiwan-av-special-scenes, japan-2030-autonomous-ai-strategy, ratp-karsan-autonomous-bus-paris, av-physical-ai-trends-2026, tesla-fsd-eu-expansion-2026, tesla-robotaxi-texas-reality-2026, uber-robotaxi-europe-expansion-2026, waymo-battery-secondlife-colorado-recycling-2026, toyota-tier-iv-l4-investment-2026, waymo-arizona-expansion-2026, tesla-cybercab-specs-2026, mobileye-robotaxi-2026, tesla-fsd-netherlands-2026, ev-news-2026-06-22, ev-news-2026-07-13-digitimes, ev-news-2026-07-14-16-electrive, ev-news-2026-07-21-22-digitimes, ev-news-2026-07-22-24-digitimes, ev-news-2026-07-22-23-electrive-en, ev-news-2026-07-28-digitimes, ev-news-2026-07-28-30-electrive-en, ev-news-2026-08-01-03-en, ev-news-2026-08-04-06-digitimes, ev-news-2026-08-03-06-electrive-en, ev-news-2026-08-06-07-electrive-en, ev-news-2026-08-07-10-electrive-en, ev-news-2026-08-17-18-electrive-en, ev-news-2026-08-20-digitimes, ev-news-2026-08-19-20-cn-misc, ev-news-2026-08-21-23-electrive-en, ev-news-2026-08-21-22-electrive-en, ev-news-2026-08-26-27-electrive-en, ev-news-2026-08-28-digitimes, ev-news-2026-09-04-electrive-en]
-updated: 2026-09-04
+sources: [robotaxi-market-2026, china-autonomous-driving-overseas, europe-robotaxi-verne-ponyai, waymo-miami-orlando-expansion, taiwan-av-special-scenes, japan-2030-autonomous-ai-strategy, ratp-karsan-autonomous-bus-paris, av-physical-ai-trends-2026, tesla-fsd-eu-expansion-2026, tesla-robotaxi-texas-reality-2026, uber-robotaxi-europe-expansion-2026, waymo-battery-secondlife-colorado-recycling-2026, toyota-tier-iv-l4-investment-2026, waymo-arizona-expansion-2026, tesla-cybercab-specs-2026, mobileye-robotaxi-2026, tesla-fsd-netherlands-2026, ev-news-2026-06-22, ev-news-2026-07-13-digitimes, ev-news-2026-07-14-16-electrive, ev-news-2026-07-21-22-digitimes, ev-news-2026-07-22-24-digitimes, ev-news-2026-07-22-23-electrive-en, ev-news-2026-07-28-digitimes, ev-news-2026-07-28-30-electrive-en, ev-news-2026-08-01-03-en, ev-news-2026-08-04-06-digitimes, ev-news-2026-08-03-06-electrive-en, ev-news-2026-08-06-07-electrive-en, ev-news-2026-08-07-10-electrive-en, ev-news-2026-08-17-18-electrive-en, ev-news-2026-08-20-digitimes, ev-news-2026-08-19-20-cn-misc, ev-news-2026-08-21-23-electrive-en, ev-news-2026-08-21-22-electrive-en, ev-news-2026-08-26-27-electrive-en, ev-news-2026-08-28-digitimes, ev-news-2026-09-04-electrive-en, ev-news-2026-09-07-08-digitimes, ev-news-2026-09-07-08-electrive-en]
+updated: 2026-09-08
 ---
 
 # Robotaxi（自動計程車）
@@ -491,3 +491,16 @@ Mobileye 宣布成立垂直整合 Robotaxi 部門，從技術供應商轉型為�
 Wayve與Uber在倫敦推出自駕叫車服務（UberX、Uber Electric、Uber Comfort適用），採福特Mustang Mach-E電動車搭載Wayve AI Driver系統，惟現階段仍配置具倫敦交通局執照的安全駕駛監督與介入，屬「監督式自駕」而非全無人駕駛。倫敦是Wayve與Uber合作布局全球12個市場的首站，逾14萬名倫敦用戶已在App中啟用該選項；東京服務（採日產Leaf搭載NVIDIA Drive Hyperion架構）預計年底前上路。
 
 - 參見：[[sources/ev-news-2026-09-04-electrive-en]] | [[countries/歐洲]]
+
+## Uber裁員10%砸百億美元押注Robotaxi，Tesla Cybercab惹NHTSA調查（2026-09）
+
+> **結論**：Uber宣布裁員約3,300人（占全球員工約10%，為2020年以來最大裁員），同時宣布未來數年將投入逾100億美元發展Robotaxi業務，凸顯無人計程車崛起正壓縮其作為「人力駕駛媒合平台」的傳統獲利模式；同期Tesla悄然開放Cybercab公眾試乘，發布3天後NHTSA即啟動認證調查，LG Innotek則於Zoox相機模組量產後加碼招募自駕感測AI人才，顯示Robotaxi產業鏈上下游同步進入白熱化競爭階段。
+
+**主因**：
+- Uber商業模式轉型壓力：Waymo（美國最大Robotaxi營運商）已開始不透過Uber獨立進軍新市場，Tesla等競爭者同步加速拓展，意味Uber若僅作媒合平台恐失去議價權，故轉向重資產自駕布局並簡化管理層級（削減20%中間管理職）
+- Tesla監管風險升溫：NHTSA審查Tesla如何自行認定「特定FMVSS規範不適用於本車款」，調查恰發生在Cybercab開放公眾試乘僅3天後；Tesla目前僅獲准在德州營運45輛Cybercab
+- 感測器供應鏈同步升級：LG Innotek於8月量產Zoox專用Robotaxi相機模組後，隨即加碼招募多模態感測融合AI人才，將布局從硬體延伸至軟硬體整合方案，呼應Mobileye、Aptiv等業者的競爭模式
+
+**觀察**：Uber與Waymo既有合作關係是否因後者獨立擴張而生變；NHTSA調查結果是否影響Cybercab既有營運許可規模。
+
+- 參見：[[sources/ev-news-2026-09-07-08-digitimes]] | [[sources/ev-news-2026-09-07-08-electrive-en]] | [[entities/Tesla]] | [[countries/美國]] | [[countries/韓國]]
