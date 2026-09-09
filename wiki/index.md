@@ -1,6 +1,6 @@
 # Wiki Index
 
-Last updated: 2026-09-08 | Pages: 490 | Sources: 478
+Last updated: 2026-09-09 | Pages: 490 | Sources: 481
 
 ---
 
@@ -24,6 +24,9 @@ Last updated: 2026-09-08 | Pages: 490 | Sources: 478
 - [[sources/ev-news-2026-09-07-08-digest]] — Google Alerts/中文財經媒體批次12篇：中國車市內銷連10月下滑出口暴增近倍、福斯裁員10萬人補充、比亞迪印尼廠投產、瑪莎拉蒂華為雙logo合作、中國電池報廢潮逾百萬噸、台灣建大/鴻華先進動態。(2026-09-07~08)
 - [[sources/ev-news-2026-09-08-electrive-en]] — electrive/Sustainable Bus批次7篇：輝能科技台灣廠啟動Gen 3.5固態電池量產、Audi A2 e-tron發表、VW ID. Polo供不應求、Zagreb/羅馬/什切青電動巴士採購動態、VDL巴士部門持續虧損。(2026-09-08)
 - [[sources/ev-news-2026-09-08-digest]] — Google Alerts批次2篇：泰國貨物稅鎖定出口高值零件、泰國製造業四大行業告急恐掀倒閉潮。(2026-09-08)
+- [[sources/ev-news-2026-09-09-electrive-en]] — electrive/InsideEVs批次16篇：比亞迪印尼廠完整投產細節、輝能科技量產規格補充、Audi重組中國合資、加拿大關稅配額Tesla意外得利、Dacia Spring產地移歐、Tesla Cybercab不用稀土。(2026-09-09)
+- [[sources/ev-news-2026-09-09-digitimes]] — Digitimes批次2篇：中系車廠出海進入決戰點全球化恐僅剩個位數、豐田確認2028年E2E AI自駕。(2026-09-09)
+- [[sources/ev-news-2026-09-09-digest]] — Google Alerts批次5篇：中國8月零售連11月下滑出口年增77.5%、韓國微型車熱銷比亞迪Dolphin進口車前四、美國擺脫中國電池依賴挑戰重重。(2026-09-09)
 
 ### 電動乘用車
 - [[sources/ev-news-2026-08-27-29-electrive-en]] — electrive/InsideEVs批次21篇：BMW突破200萬輛EV銷售、BYD超快充電池耐久測試（9天350次快充僅剩1.3%衰減）、中國門把手召回歐洲KBA/RDW調查、Tesla Cybercab奧斯汀發表活動將至、Rivian財務長離職、Lucid召回2.7萬輛。(2026-08-29)

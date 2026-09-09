@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [vw-restructure-china-offensive-2026, ev-news-2026-06-27-29-en, ev-news-2026-06-30-07-01, ev-news-2026-07-02, ev-news-2026-07-03-08, ev-news-2026-07-10-supplement, ev-news-2026-07-12-13-electrive, ev-news-2026-07-14-16-electrive, ev-news-2026-07-17-20-digitimes, ev-news-2026-07-20-21-electrive-en, ev-news-2026-07-22-23-electrive-en, ev-news-2026-07-25-27-digitimes, ev-news-2026-07-24-27-electrive-en, ev-news-2026-07-24-28-electrive-en, ev-news-2026-07-29-31-digitimes, ev-news-2026-07-28-30-electrive-en, ev-news-2026-08-04-06-digitimes, ev-news-2026-08-03-06-electrive-en, ev-news-2026-08-07-10-electrive-en, ev-news-2026-08-13-digitimes, ev-news-2026-08-14-17-digitimes, ev-news-2026-08-18-digitimes, ev-news-2026-07-23-08-24-etauto-india, ev-news-2026-09-07-08-electrive-en, ev-news-2026-09-07-08-digest, ev-news-2026-09-08-electrive-en]
-updated: 2026-09-08
+sources: [vw-restructure-china-offensive-2026, ev-news-2026-06-27-29-en, ev-news-2026-06-30-07-01, ev-news-2026-07-02, ev-news-2026-07-03-08, ev-news-2026-07-10-supplement, ev-news-2026-07-12-13-electrive, ev-news-2026-07-14-16-electrive, ev-news-2026-07-17-20-digitimes, ev-news-2026-07-20-21-electrive-en, ev-news-2026-07-22-23-electrive-en, ev-news-2026-07-25-27-digitimes, ev-news-2026-07-24-27-electrive-en, ev-news-2026-07-24-28-electrive-en, ev-news-2026-07-29-31-digitimes, ev-news-2026-07-28-30-electrive-en, ev-news-2026-08-04-06-digitimes, ev-news-2026-08-03-06-electrive-en, ev-news-2026-08-07-10-electrive-en, ev-news-2026-08-13-digitimes, ev-news-2026-08-14-17-digitimes, ev-news-2026-08-18-digitimes, ev-news-2026-07-23-08-24-etauto-india, ev-news-2026-09-07-08-electrive-en, ev-news-2026-09-07-08-digest, ev-news-2026-09-08-electrive-en, ev-news-2026-09-09-electrive-en]
+updated: 2026-09-09
 ---
 
 # Volkswagen（福斯集團）
@@ -312,3 +312,22 @@ Skoda Auto Volkswagen India傳與JSW集團洽談合資，最快10月初簽署非
 福斯ID. Polo歐洲累計訂單已逾3萬輛，個別配置候車時間至少10個月，入門版€24,995（37kWh LFP、續航323km）實現長期承諾的「2.5萬歐元以下電動車」，Škoda同平台Epiq車型訂單也逾3.5萬輛，反映福斯集團小型電動車家族需求「顯著超出原始預期」——與同期已收錄福斯監事會批准大規模重組裁員的背景形成對比，顯示集團在瘦身同時仍有具體暢銷新車型支撐。同集團Audi另發表A2 e-tron（基於MEB+平台，德國起售€38,200，12月起交車），WLTP能耗12.8 kWh/100km逼近Tesla Model 3效率水準，支援V2H居家能源平衡，定位介於VW ID.3之上、與BMW/賓士現階段無直接對手的價格帶。
 
 - 參見：[[sources/ev-news-2026-09-08-electrive-en]] | [[countries/歐洲]]
+
+## Audi重組中國合資架構，FAW承接四環燃油/電動、SAIC專注AUDI子品牌（2026-09）
+
+> **結論**：Audi傳將重組其中國兩大合資夥伴關係——SAIC合資公司將完全退出傳統四環業務、專注全電動「AUDI」子品牌，四環燃油與電動車型（含e-tron家族）則全數整合至FAW合資公司；此舉在Audi中國上半年合資利潤暴跌74%至僅€7,300萬的財務壓力下，被視為對董事會形成實質行動壓力的結果，儘管執行長Döllner今年3月才公開否認合併傳聞。
+
+**主因**：
+- 財務壓力驅動重組：Audi中國合資利潤年減74%至€7,300萬，SAIC Audi近月已大幅減產或完全停產A5L Sportback、A7L、Q6等四環車型，並以37-40%的大幅折扣出清庫存
+- 分工邏輯清晰化：SAIC Audi聚焦全電動AUDI子品牌（現有E5 Sportback、E7X兩款車型，上海AITC研發中心編制300人開發次世代ADP平台），FAW Audi則整合全部四環燃油與電動產品線
+- 執行細節仍待敲定：協議原則上已達成但法律與組織層面尚未完全定案，經銷商補償機制、SAIC既有客戶售後服務移轉至FAW等細節仍在協商中
+
+**觀察**：重組正式簽署時程；SAIC/FAW經銷商網絡整併對既有客戶售後服務的實際影響。
+
+- 參見：[[sources/ev-news-2026-09-09-electrive-en]] | [[countries/中國]]
+
+## Audi A2 e-tron完整規格：4種動力等級、V2H居家儲能三國先行（2026-09）
+
+補充09-08已收錄Audi A2 e-tron發表報導的完整規格：基於VW集團MEB 31平台（Variant 1，較Audi Q4 e-tron/VW ID.4所用Variant 2更輕量化），提供168/188/228/322匹馬力四種動力等級（均後驅、暫無quattro四驅版本），續航263-401英里（423-646km）視電池規格而定（52/61/84kWh）；效率版WLTP能耗12.8kWh/100km逼近Tesla Model 3；V2H居家能源平衡率先於德國、奧地利、瑞士三國提供；德國起售€38,200，12月起交車，暫無美國銷售計畫。
+
+- 參見：[[sources/ev-news-2026-09-09-electrive-en]] | [[countries/歐洲]]

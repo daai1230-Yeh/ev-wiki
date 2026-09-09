@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [tesla-ass-nhtsa-probe-closed, tesla-taiwan-march-2026, xiaomi-ev-europe-2027, tesla-4680-musk-strategy, tesla-korea-q1-2026, tesla-q1-2026-earnings, tesla-india-model-y-l, 駐外新聞-美國-2025, ev-news-2026-07-02, ev-news-2026-07-03-08, ev-news-2026-07-09, ev-news-2026-07-10-insideevs-batch, ev-news-2026-07-11, ev-news-2026-07-12-13-digest, ev-news-2026-07-12-13-electrive, ev-news-2026-07-13-digitimes, ev-news-2026-07-14-16-insideevs, ev-news-2026-07-14-16-digitimes, ev-news-2026-07-21-22-digitimes, ev-news-2026-07-20-21-electrive-en, ev-news-2026-07-22-24-digitimes, ev-news-2026-07-22-23-electrive-en, ev-news-2026-07-25-27-digitimes, ev-news-2026-07-28-digitimes, ev-news-2026-07-28-30-electrive-en, ev-news-2026-08-01-03-cn, ev-news-2026-08-01-03-en, ev-news-2026-08-04-06-digitimes, ev-news-2026-08-03-06-electrive-en, ev-news-2026-08-04-06-cn-misc, ev-news-2026-08-07-digitimes, ev-news-2026-08-06-07-cn-misc, ev-news-2026-08-06-07-electrive-en, ev-news-2026-08-06-10-cn-misc, ev-news-2026-08-07-10-electrive-en, ev-news-2026-08-13-15-electrive-en, ev-news-2026-08-19-digitimes, ev-news-2026-08-20-digitimes, ev-news-2026-08-19-20-cn-misc, ev-news-2026-08-21-digitimes, ev-news-2026-08-21-23-electrive-en, ev-news-2026-08-26-digitimes, ev-news-2026-08-21-26-cn-misc, ev-news-2026-08-26-27-electrive-en, ev-news-2026-08-27-29-electrive-en, ev-news-2026-08-30-31-cn-misc, ev-news-2026-09-07-08-electrive-en, ev-news-2026-09-07-08-digest]
-updated: 2026-09-08
+sources: [tesla-ass-nhtsa-probe-closed, tesla-taiwan-march-2026, xiaomi-ev-europe-2027, tesla-4680-musk-strategy, tesla-korea-q1-2026, tesla-q1-2026-earnings, tesla-india-model-y-l, 駐外新聞-美國-2025, ev-news-2026-07-02, ev-news-2026-07-03-08, ev-news-2026-07-09, ev-news-2026-07-10-insideevs-batch, ev-news-2026-07-11, ev-news-2026-07-12-13-digest, ev-news-2026-07-12-13-electrive, ev-news-2026-07-13-digitimes, ev-news-2026-07-14-16-insideevs, ev-news-2026-07-14-16-digitimes, ev-news-2026-07-21-22-digitimes, ev-news-2026-07-20-21-electrive-en, ev-news-2026-07-22-24-digitimes, ev-news-2026-07-22-23-electrive-en, ev-news-2026-07-25-27-digitimes, ev-news-2026-07-28-digitimes, ev-news-2026-07-28-30-electrive-en, ev-news-2026-08-01-03-cn, ev-news-2026-08-01-03-en, ev-news-2026-08-04-06-digitimes, ev-news-2026-08-03-06-electrive-en, ev-news-2026-08-04-06-cn-misc, ev-news-2026-08-07-digitimes, ev-news-2026-08-06-07-cn-misc, ev-news-2026-08-06-07-electrive-en, ev-news-2026-08-06-10-cn-misc, ev-news-2026-08-07-10-electrive-en, ev-news-2026-08-13-15-electrive-en, ev-news-2026-08-19-digitimes, ev-news-2026-08-20-digitimes, ev-news-2026-08-19-20-cn-misc, ev-news-2026-08-21-digitimes, ev-news-2026-08-21-23-electrive-en, ev-news-2026-08-26-digitimes, ev-news-2026-08-21-26-cn-misc, ev-news-2026-08-26-27-electrive-en, ev-news-2026-08-27-29-electrive-en, ev-news-2026-08-30-31-cn-misc, ev-news-2026-09-07-08-electrive-en, ev-news-2026-09-07-08-digest, ev-news-2026-09-09-electrive-en, ev-news-2026-09-09-digest]
+updated: 2026-09-09
 ---
 
 # Tesla
@@ -497,3 +497,16 @@ YouTuber實測顯示，搭載HW4與最新FSD v14.3.4的車輛反應時間0.450�
 **觀察**：NHTSA調查結果是否影響Cybercab既有45輛營運許可或後續擴大規模的時程；Tesla是否公開回應認證流程細節。
 
 - 參見：[[sources/ev-news-2026-09-07-08-electrive-en]] | [[sources/ev-news-2026-09-07-08-digest]] | [[concepts/Robotaxi自動計程車]] | [[countries/美國]]
+
+## 加拿大關稅配額意外最大贏家、Cybercab不用稀土新驅動單元、隱藏搖桿控制曝光（2026-09）
+
+> **結論**：加拿大對中國製電動車6.1%優惠關稅配額（原稅率106.1%）因規則鎖定「中國製造」而非「中國車廠」，使Tesla成為最大受益者——自5月起恢復自上海超級工廠對加拿大出口，前6個月配額15,603輛進口中Tesla貢獻主力，比亞迪等中國車廠年底前仍未進入加拿大市場；同期Tesla揭露Cybercab全新驅動單元完全不含稀土磁性材料（體積縮小18%、重量減輕25%），並曝光車內隱藏觸控搖桿手動移車介面。
+
+**主因**：
+- 加拿大關稅規則漏洞：優惠關稅適用「中國製造的電動車」而非「中國車廠」，使Tesla、Lotus、Polestar、GM Lincoln等非中資品牌的中國產車型均可受惠，上海廠生產成本顯著低於美國/德國廠的優勢重新開啟套利空間；未用完配額8,897輛已展延至9月-2月第二階段（總額擴大至33,397輛）
+- 稀土去依賴技術突破：新驅動單元採扁線繞組定子與簡化潤滑系統（單次生產週期低於10秒），馬斯克證實在不用稀土前提下仍維持相同續航表現，惟坦言技術難度極高；若延伸至更多車型或被其他車廠採用，有望降低全球電動車產業對中國稀土供應鏈的依賴
+- Cybercab手動控制介面曝光：乘客意外發現車內隱藏服務選單搭載虛擬搖桿可低速（最高7mph）手動操控車輛，官方急救指南證實此為第一線救援人員刷卡認證啟用的機制，惟一般乘客誤觸的安全防護措施尚不明朗
+
+**觀察**：比亞迪等中國車廠年底進入加拿大市場後第二階段配額爭奪態勢；Tesla稀土去依賴驅動單元是否延伸至其他車型。
+
+- 參見：[[sources/ev-news-2026-09-09-electrive-en]] | [[sources/ev-news-2026-09-09-digest]] | [[concepts/北美EV關稅與政策]] | [[countries/美國]]

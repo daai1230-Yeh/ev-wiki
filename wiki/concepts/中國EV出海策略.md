@@ -1,7 +1,7 @@
 ---
 tags: [concept]
-sources: [stellantis-leapmotor-canada-rejected, xiaomi-ev-europe-2027, foxconn-mitsubishi-fuso-electric-bus, xpeng-mexico-launch, byd-denza-europe-debut, china-autonomous-driving-overseas, stellantis-opel-leapmotor-suv, thailand-ev-market-2026, china-ev-export-record-march-2026, byd-malaysia-factory-negotiation, europe-robotaxi-verne-ponyai, byd-april-exports-q1-2026, leapmotor-t03-germany-2026, malaysia-cbv-ev-regulation-2026, china-ev-europe-challenges-2026, china-nev-april-2026, china-evs-canada-chery-geely-2026, jpmorgan-china-ev-europe-2028, china-nev-april-involution-2026, geely-thailand-pickup-2026, byd-korea-10k-record-2026, china-ev-us-market-2026, osaka-expo-chinese-ebus-defect-2026, global-ev-demand-may2026, stellantis-china-ev-europe-factories-2026, xpeng-vw-europe-factory-2026, china-k-car-micro-ev-concept-2026, china-ev-europe-factory-takeover-2026, mg-saic-spain-factory-2026, nissan-chery-sunderland-deal-2026, tata-chery-avinya-platform-2026, byd-dod-military-list-2026, australia-china-ev-milestone-2026, byd-hungary-labour-report-2026, ev-news-digest-jun1-10-2026, byd-flash-charging-europe-2026, ev-news-2026-07-03-08, ev-news-2026-07-09, ev-news-2026-07-14-16-electrive, ev-news-2026-07-17-20-digitimes, ev-news-2026-07-21-22-digitimes, ev-news-2026-08-07-digitimes, ev-news-2026-08-06-07-cn-misc, ev-news-2026-09-04-electrive-en, ev-news-2026-09-04-digitimes]
-updated: 2026-09-04
+sources: [stellantis-leapmotor-canada-rejected, xiaomi-ev-europe-2027, foxconn-mitsubishi-fuso-electric-bus, xpeng-mexico-launch, byd-denza-europe-debut, china-autonomous-driving-overseas, stellantis-opel-leapmotor-suv, thailand-ev-market-2026, china-ev-export-record-march-2026, byd-malaysia-factory-negotiation, europe-robotaxi-verne-ponyai, byd-april-exports-q1-2026, leapmotor-t03-germany-2026, malaysia-cbv-ev-regulation-2026, china-ev-europe-challenges-2026, china-nev-april-2026, china-evs-canada-chery-geely-2026, jpmorgan-china-ev-europe-2028, china-nev-april-involution-2026, geely-thailand-pickup-2026, byd-korea-10k-record-2026, china-ev-us-market-2026, osaka-expo-chinese-ebus-defect-2026, global-ev-demand-may2026, stellantis-china-ev-europe-factories-2026, xpeng-vw-europe-factory-2026, china-k-car-micro-ev-concept-2026, china-ev-europe-factory-takeover-2026, mg-saic-spain-factory-2026, nissan-chery-sunderland-deal-2026, tata-chery-avinya-platform-2026, byd-dod-military-list-2026, australia-china-ev-milestone-2026, byd-hungary-labour-report-2026, ev-news-digest-jun1-10-2026, byd-flash-charging-europe-2026, ev-news-2026-07-03-08, ev-news-2026-07-09, ev-news-2026-07-14-16-electrive, ev-news-2026-07-17-20-digitimes, ev-news-2026-07-21-22-digitimes, ev-news-2026-08-07-digitimes, ev-news-2026-08-06-07-cn-misc, ev-news-2026-09-04-electrive-en, ev-news-2026-09-04-digitimes, ev-news-2026-09-09-digitimes, ev-news-2026-09-09-electrive-en]
+updated: 2026-09-09
 ---
 
 # 中國 EV 出海策略
@@ -434,3 +434,16 @@ MG Motor（上汽 SAIC 旗下）在西班牙加利西亞建設歐盟首座中國
 - **東南亞政策轉向本地生產**：馬來西亞7月起限制進口BEV須售價逾20萬令吉且馬達功率逾180kW，直接排除比亞迪主力車款整車進口資格，為區域政策從「補貼銷售」轉向「本地生產」浪潮的一環，詳見[[countries/東南亞]]
 
 - 參見：[[sources/ev-news-2026-09-04-electrive-en]] | [[sources/ev-news-2026-09-04-digitimes]] | [[countries/中國]]
+
+## 出海征戰進入決戰點，全球化中系車廠恐僅剩「個位數」（2026-09）
+
+> **結論**：中國汽車產業競爭焦點已從「自主品牌數量增減」轉向「海外征戰成績單」，頭部車廠正形成「中國市場訓練能力、全球市場變現獲利、海外利潤回饋再投資」的商業模式，比亞迪2026上半境外收入已佔總收入過半且海外毛利率高於境內，惟市場預估未來能真正建立全球化布局的中系車廠恐僅剩「個位數」；同期Dacia Spring產地由中國武漢移至歐洲斯洛伐克（動力系統工程仍由上海研發中心操刀），俄羅斯燃油短缺帶動的市場真空也幾乎全由中國品牌填補，凸顯中國車廠全球布局模式的多元路徑與局限。
+
+**主因**：
+- 全球在地化成硬門檻：單純出口裝船模式已無法因應關稅壁壘、地緣政治與在地法規，車廠需重資產投入建立當地研發、製造、產品定義與品牌營運完整體系；奇瑞（20年海外經驗）、吉利（跨國併購資產）、零跑（Stellantis策略聯盟）代表三種不同路徑
+- 在地化數位能力是最難突破環節：中系車高度依賴中國本土數位生態（地圖、支付、AI大模型、雲端服務），全球數位體系加速區域化下，車廠須與當地生態有效整合，各國網路安全法規趨嚴持續影響布局進度
+- 中國技術輸出模式多元化：雷諾Dacia Spring歐洲生產但動力系統工程完全由上海ACDC中心操刀（與寧德時代、上海電驅合作）；俄羅斯市場真空由吉利極氪、理想等官方通路及Evolute/Moskwa等本土組裝品牌（採東風/江淮CKD套件）共同填補，顯示中國汽車技術輸出已超越單純整車出口，延伸至研發代工與供應鏈授權模式
+
+**觀察**：市場預估的「個位數」全球化中系車廠最終將是哪些品牌；中國研發代工模式（如Dacia Spring案例）是否成為更多西方車廠的選項。
+
+- 參見：[[sources/ev-news-2026-09-09-digitimes]] | [[sources/ev-news-2026-09-09-electrive-en]] | [[entities/比亞迪]] | [[entities/吉利汽車]] | [[countries/歐洲]]

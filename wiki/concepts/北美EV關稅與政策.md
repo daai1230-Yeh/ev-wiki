@@ -1,7 +1,7 @@
 ---
 tags: [concept]
-sources: [tesla-canada-model3-2026, nissan-mississippi-ev-abandonment, china-evs-canada-chery-geely-2026, ford-catl-michigan-factory-2026, china-ev-us-market-2026, nissan-canada-dongfeng-ev-quota-2026, ev-news-2026-09-07-08-electrive-en]
-updated: 2026-09-08
+sources: [tesla-canada-model3-2026, nissan-mississippi-ev-abandonment, china-evs-canada-chery-geely-2026, ford-catl-michigan-factory-2026, china-ev-us-market-2026, nissan-canada-dongfeng-ev-quota-2026, ev-news-2026-09-07-08-electrive-en, ev-news-2026-09-09-electrive-en]
+updated: 2026-09-09
 ---
 
 # 北美 EV 關稅與政策
@@ -136,3 +136,16 @@ updated: 2026-09-08
 Polestar H1 2026財報顯示，美國商務部拒絕給予其連網車規則（2027年起禁止中國科技連網車）豁免，導致重組成本額外增加2.11億美元，淨損收斂幅度（29%）遠不如營業損失收斂幅度（43%），Nasdaq股價聞訊重挫30%創歷史新低；同屬吉利集團的Volvo已透過滿足更長串條件成功取得豁免，凸顯集團內部品牌在美國合規地位上的分化，一家New Jersey經銷商已對Polestar提起訴訟指控該規則實為退出美國市場的藉口。此案是繼GM、豐田等組成AAI聯盟籲國會永久立法禁止中國連網車（09-04已收錄）後，連網車政策對個別車廠財報產生實質衝擊的首個具體案例。
 
 - 參見：[[sources/ev-news-2026-09-07-08-electrive-en]] | [[entities/Polestar]] | [[countries/美國]]
+
+## 加拿大中國車關稅配額，美國Tesla意外成最大贏家（2026-09）
+
+> **結論**：加拿大與中國1月達成協議，允許4.9萬輛中國製電動車以6.1%優惠關稅（原稅率106.1%）進口加拿大，惟前6個月僅進口15,603輛（未達核配2.45萬輛），最大受益者竟是美國Tesla——因規則鎖定「中國製造」而非「中國車廠」，Tesla自5月起恢復自上海超級工廠對加拿大出口。
+
+**主因**：
+- 規則設計漏洞：優惠關稅適用對象是「中國製造的電動車」而非「中國車廠」，使Tesla、Lotus、Polestar、GM Lincoln等非中資品牌的中國產車型均可受惠，比亞迪、吉利、零跑、Nio、小鵬、Zeekr等中國車廠品牌尚未在加拿大布局銷售網絡
+- Tesla成本優勢延續：上海超級工廠生產成本顯著低於美國/德國廠，2024年加拿大曾比照美國加徵100%關稅迫使Tesla暫停對加出口，此次優惠關稅重新開啟該套利空間
+- 下半年競爭升溫：未用完配額8,897輛已展延至9月-2月第二階段（總額擴大至33,397輛），接近尾聲時Tesla可能面臨比亞迪等中國品牌真正進入市場後的配額爭奪
+
+**觀察**：比亞迪等中國車廠年底進入加拿大市場後，第二階段配額爭奪態勢；加拿大是否修正「中國製造」規則漏洞。
+
+- 參見：[[sources/ev-news-2026-09-09-electrive-en]] | [[entities/Tesla]] | [[countries/美國]]
