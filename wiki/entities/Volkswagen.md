@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [vw-restructure-china-offensive-2026, ev-news-2026-06-27-29-en, ev-news-2026-06-30-07-01, ev-news-2026-07-02, ev-news-2026-07-03-08, ev-news-2026-07-10-supplement, ev-news-2026-07-12-13-electrive, ev-news-2026-07-14-16-electrive, ev-news-2026-07-17-20-digitimes, ev-news-2026-07-20-21-electrive-en, ev-news-2026-07-22-23-electrive-en, ev-news-2026-07-25-27-digitimes, ev-news-2026-07-24-27-electrive-en, ev-news-2026-07-24-28-electrive-en, ev-news-2026-07-29-31-digitimes, ev-news-2026-07-28-30-electrive-en, ev-news-2026-08-04-06-digitimes, ev-news-2026-08-03-06-electrive-en, ev-news-2026-08-07-10-electrive-en, ev-news-2026-08-13-digitimes, ev-news-2026-08-14-17-digitimes, ev-news-2026-08-18-digitimes, ev-news-2026-07-23-08-24-etauto-india, ev-news-2026-09-07-08-electrive-en, ev-news-2026-09-07-08-digest, ev-news-2026-09-08-electrive-en, ev-news-2026-09-09-electrive-en]
-updated: 2026-09-09
+sources: [vw-restructure-china-offensive-2026, ev-news-2026-06-27-29-en, ev-news-2026-06-30-07-01, ev-news-2026-07-02, ev-news-2026-07-03-08, ev-news-2026-07-10-supplement, ev-news-2026-07-12-13-electrive, ev-news-2026-07-14-16-electrive, ev-news-2026-07-17-20-digitimes, ev-news-2026-07-20-21-electrive-en, ev-news-2026-07-22-23-electrive-en, ev-news-2026-07-25-27-digitimes, ev-news-2026-07-24-27-electrive-en, ev-news-2026-07-24-28-electrive-en, ev-news-2026-07-29-31-digitimes, ev-news-2026-07-28-30-electrive-en, ev-news-2026-08-04-06-digitimes, ev-news-2026-08-03-06-electrive-en, ev-news-2026-08-07-10-electrive-en, ev-news-2026-08-13-digitimes, ev-news-2026-08-14-17-digitimes, ev-news-2026-08-18-digitimes, ev-news-2026-07-23-08-24-etauto-india, ev-news-2026-09-07-08-electrive-en, ev-news-2026-09-07-08-digest, ev-news-2026-09-08-electrive-en, ev-news-2026-09-09-electrive-en, ev-news-2026-09-09-10-etauto-india]
+updated: 2026-09-10
 ---
 
 # Volkswagen（福斯集團）
@@ -331,3 +331,16 @@ Skoda Auto Volkswagen India傳與JSW集團洽談合資，最快10月初簽署非
 補充09-08已收錄Audi A2 e-tron發表報導的完整規格：基於VW集團MEB 31平台（Variant 1，較Audi Q4 e-tron/VW ID.4所用Variant 2更輕量化），提供168/188/228/322匹馬力四種動力等級（均後驅、暫無quattro四驅版本），續航263-401英里（423-646km）視電池規格而定（52/61/84kWh）；效率版WLTP能耗12.8kWh/100km逼近Tesla Model 3；V2H居家能源平衡率先於德國、奧地利、瑞士三國提供；德國起售€38,200，12月起交車，暫無美國銷售計畫。
 
 - 參見：[[sources/ev-news-2026-09-09-electrive-en]] | [[countries/歐洲]]
+
+## JSW集團簽署51:49印度合資意向書，12月前拚簽定案協議（2026-09）
+
+> **結論**：JSW集團與福斯集團簽署非拘束意向書，就福斯印度乘用車業務成立51:49合資公司啟動排他性談判，目標12月前完成具約束力協議，預估專案投資與資本承諾逾€10億（約1,000億盧比），將涵蓋福斯與Skoda在印度銷售的8個品牌及未來新車款（含電動車）。
+
+**主因**：
+- 產能利用最大化考量：合資將運用福斯位於Chhatrapati Sambhajinagar與Chakan的現有廠房（合計年產能約40萬輛），並評估以印度作為出口樞紐（尤其電動車）
+- 關稅爭議影響估值：福斯面臨約2,000億盧比的關稅潛在負債爭議（海關指控以「個別零組件」申報方式進口近乎整車套件規避較高關稅），JSW不太可能承接此負債，須納入估值考量
+- 豪華品牌暫排除在外：Audi、保時捷、藍寶堅尼、賓利等品牌預期暫留合資範圍之外，惟JSW對日後納入抱持開放態度
+
+**觀察**：12月具約束力協議是否如期簽署；關稅爭議負債最終如何反映在合資估值中。
+
+- 參見：[[sources/ev-news-2026-09-09-10-etauto-india]] | [[countries/印度]]

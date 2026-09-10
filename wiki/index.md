@@ -1,6 +1,6 @@
 # Wiki Index
 
-Last updated: 2026-09-09 | Pages: 490 | Sources: 481
+Last updated: 2026-09-10 | Pages: 490 | Sources: 484
 
 ---
 
@@ -27,6 +27,9 @@ Last updated: 2026-09-09 | Pages: 490 | Sources: 481
 - [[sources/ev-news-2026-09-09-electrive-en]] — electrive/InsideEVs批次16篇：比亞迪印尼廠完整投產細節、輝能科技量產規格補充、Audi重組中國合資、加拿大關稅配額Tesla意外得利、Dacia Spring產地移歐、Tesla Cybercab不用稀土。(2026-09-09)
 - [[sources/ev-news-2026-09-09-digitimes]] — Digitimes批次2篇：中系車廠出海進入決戰點全球化恐僅剩個位數、豐田確認2028年E2E AI自駕。(2026-09-09)
 - [[sources/ev-news-2026-09-09-digest]] — Google Alerts批次5篇：中國8月零售連11月下滑出口年增77.5%、韓國微型車熱銷比亞迪Dolphin進口車前四、美國擺脫中國電池依賴挑戰重重。(2026-09-09)
+- [[sources/ev-news-2026-09-09-10-electrive-en]] — electrive/InsideEVs批次2篇：Jeep Recon純電越野試駕、賓士VLE四驅版發表。(2026-09-09~10)
+- [[sources/ev-news-2026-09-09-10-etauto-india]] — ETAuto/India批次4篇：JSW-福斯簽署51:49合資意向書、世界電動車日印度本土供應鏈反思、ICCT印度總監專訪籲法規強制帶動規模化。(2026-09-09~10)
+- [[sources/ev-news-2026-09-10-digitimes]] — Digitimes批次5篇：比亞迪2026海外銷量拚200萬輛海外每車獲利逾本土6倍、比亞迪馬來西亞建廠新計畫、Panasonic全固態電池150°C方形樣品、台灣充電站越蓋越賠區塊證推AI營運大腦。(2026-09-10)
 
 ### 電動乘用車
 - [[sources/ev-news-2026-08-27-29-electrive-en]] — electrive/InsideEVs批次21篇：BMW突破200萬輛EV銷售、BYD超快充電池耐久測試（9天350次快充僅剩1.3%衰減）、中國門把手召回歐洲KBA/RDW調查、Tesla Cybercab奧斯汀發表活動將至、Rivian財務長離職、Lucid召回2.7萬輛。(2026-08-29)
