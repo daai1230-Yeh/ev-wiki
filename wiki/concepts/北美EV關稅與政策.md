@@ -1,7 +1,7 @@
 ---
 tags: [concept]
-sources: [tesla-canada-model3-2026, nissan-mississippi-ev-abandonment, china-evs-canada-chery-geely-2026, ford-catl-michigan-factory-2026, china-ev-us-market-2026, nissan-canada-dongfeng-ev-quota-2026, ev-news-2026-09-07-08-electrive-en, ev-news-2026-09-09-electrive-en]
-updated: 2026-09-09
+sources: [tesla-canada-model3-2026, nissan-mississippi-ev-abandonment, china-evs-canada-chery-geely-2026, ford-catl-michigan-factory-2026, china-ev-us-market-2026, nissan-canada-dongfeng-ev-quota-2026, ev-news-2026-09-07-08-electrive-en, ev-news-2026-09-09-electrive-en, ev-news-2026-09-14-digest, ev-news-2026-09-11-digitimes, ev-news-2026-09-14-digitimes]
+updated: 2026-09-14
 ---
 
 # 北美 EV 關稅與政策
@@ -149,3 +149,16 @@ Polestar H1 2026財報顯示，美國商務部拒絕給予其連網車規則（2
 **觀察**：比亞迪等中國車廠年底進入加拿大市場後，第二階段配額爭奪態勢；加拿大是否修正「中國製造」規則漏洞。
 
 - 參見：[[sources/ev-news-2026-09-09-electrive-en]] | [[entities/Tesla]] | [[countries/美國]]
+
+## 川普鬆口中國車廠可來美造車、福特遭DOT質疑、極星確認2027年退出美國（2026-09）
+
+> **結論**：川普在川習二會（9月24日）倒數11天之際接受福斯新聞專訪表示，若中國車廠願赴美設廠雇用美國勞工「可以接受」，但維持對中國製汽車直接進口的實質禁令；同期美國運輸部長Duffy公開質疑福特與中國企業合作（寧德時代LFP授權、吉利西班牙合資）恐威脅國安，惟同一週白宮官方帳號卻公開稱讚福特，凸顯聯邦政府對中國車業政策執行標準混亂；極星則於SEC財報中正式證實2027年起新車因連網車規則豁免遭拒將退出美國市場。
+
+**主因**：
+- 政策矛盾持續發酵：民主黨參議員Slotkin稱聽聞川普可能為達成更大協議放寬中國車限制屬「戰略性錯誤」，川普反駁為「假謠言」；同集團Polestar被踢出美國市場、Volvo卻成功豁免（兩者共用南卡羅來納州同一產線平台），規則適用標準模糊
+- DOT越權質疑福特：Duffy質疑內容應屬商務部及國安相關部門職掌而非運輸部本職業務，未指控福特違法，福特強力反駁並強調自身是美國時薪員工僱用人數最多的車廠
+- 川習會前政治訊號紛雜：北京同步考慮組成科技/電動車/航太企業高管代表團隨行訪美，農產品採購與禁毒合作作為善意訊號，惟汽車議題仍是美中貿易談判焦點之一
+
+**觀察**：川習會後中國車廠赴美設廠具體條件是否明朗化；福特與寧德時代LFP合作是否因政治壓力調整或中止。
+
+- 參見：[[sources/ev-news-2026-09-14-digest]] | [[sources/ev-news-2026-09-11-digitimes]] | [[sources/ev-news-2026-09-14-digitimes]] | [[entities/福特]] | [[entities/Polestar]] | [[countries/美國]]

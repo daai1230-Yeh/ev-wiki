@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [ev-news-2026-06-29, ev-news-2026-09-04-electrive-en, ev-news-2026-09-07-08-electrive-en]
-updated: 2026-09-08
+sources: [ev-news-2026-06-29, ev-news-2026-09-04-electrive-en, ev-news-2026-09-07-08-electrive-en, ev-news-2026-09-14-digitimes]
+updated: 2026-09-14
 ---
 
 # Polestar
@@ -86,3 +86,9 @@ Polestar發表Polestar 4 SUV版本，沿用與Coupé相同的400V平台架構（
 **觀察**：Polestar是否尋求其他途徑重新申請美國連網車規則豁免；New Jersey經銷商訴訟進展。
 
 - 參見：[[sources/ev-news-2026-09-07-08-electrive-en]] | [[countries/美國]] | [[concepts/北美EV關稅與政策]]
+
+## SEC財報證實2027年起新車正式退出美國市場（確認，2026-09）
+
+極星9月3日向SEC提交2026上半財報，正式證實美國商務部工業與安全局（BIS）拒絕其連網車規則豁免申請，旗下所有使用中國軟硬體的新車型將自2027年起無法在美國銷售，確認09-09已收錄「連網車禁令豁免遭拒、重組成本增2.11億美元」報導的最終結果。
+
+- 參見：[[sources/ev-news-2026-09-14-digitimes]] | [[concepts/北美EV關稅與政策]] | [[countries/美國]]

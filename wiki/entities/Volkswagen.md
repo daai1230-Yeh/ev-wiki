@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [vw-restructure-china-offensive-2026, ev-news-2026-06-27-29-en, ev-news-2026-06-30-07-01, ev-news-2026-07-02, ev-news-2026-07-03-08, ev-news-2026-07-10-supplement, ev-news-2026-07-12-13-electrive, ev-news-2026-07-14-16-electrive, ev-news-2026-07-17-20-digitimes, ev-news-2026-07-20-21-electrive-en, ev-news-2026-07-22-23-electrive-en, ev-news-2026-07-25-27-digitimes, ev-news-2026-07-24-27-electrive-en, ev-news-2026-07-24-28-electrive-en, ev-news-2026-07-29-31-digitimes, ev-news-2026-07-28-30-electrive-en, ev-news-2026-08-04-06-digitimes, ev-news-2026-08-03-06-electrive-en, ev-news-2026-08-07-10-electrive-en, ev-news-2026-08-13-digitimes, ev-news-2026-08-14-17-digitimes, ev-news-2026-08-18-digitimes, ev-news-2026-07-23-08-24-etauto-india, ev-news-2026-09-07-08-electrive-en, ev-news-2026-09-07-08-digest, ev-news-2026-09-08-electrive-en, ev-news-2026-09-09-electrive-en, ev-news-2026-09-09-10-etauto-india]
-updated: 2026-09-10
+sources: [vw-restructure-china-offensive-2026, ev-news-2026-06-27-29-en, ev-news-2026-06-30-07-01, ev-news-2026-07-02, ev-news-2026-07-03-08, ev-news-2026-07-10-supplement, ev-news-2026-07-12-13-electrive, ev-news-2026-07-14-16-electrive, ev-news-2026-07-17-20-digitimes, ev-news-2026-07-20-21-electrive-en, ev-news-2026-07-22-23-electrive-en, ev-news-2026-07-25-27-digitimes, ev-news-2026-07-24-27-electrive-en, ev-news-2026-07-24-28-electrive-en, ev-news-2026-07-29-31-digitimes, ev-news-2026-07-28-30-electrive-en, ev-news-2026-08-04-06-digitimes, ev-news-2026-08-03-06-electrive-en, ev-news-2026-08-07-10-electrive-en, ev-news-2026-08-13-digitimes, ev-news-2026-08-14-17-digitimes, ev-news-2026-08-18-digitimes, ev-news-2026-07-23-08-24-etauto-india, ev-news-2026-09-07-08-electrive-en, ev-news-2026-09-07-08-digest, ev-news-2026-09-08-electrive-en, ev-news-2026-09-09-electrive-en, ev-news-2026-09-09-10-etauto-india, ev-news-2026-09-11-electrive-en]
+updated: 2026-09-14
 ---
 
 # Volkswagen（福斯集團）
@@ -344,3 +344,9 @@ Skoda Auto Volkswagen India傳與JSW集團洽談合資，最快10月初簽署非
 **觀察**：12月具約束力協議是否如期簽署；關稅爭議負債最終如何反映在合資估值中。
 
 - 參見：[[sources/ev-news-2026-09-09-10-etauto-india]] | [[countries/印度]]
+
+## ID.3 Neo實測：MEB+平台導入LFP電芯，效率與充電表現雙優（2026-09）
+
+福斯ID.3 Neo（第二次大改款）實測平均能耗15kWh/100km（含2/3高速公路里程），較WLTP規格（485km續航）實際換算約387km；DC快充實測達126kW（優於官方規格105kW），25分鐘充入44kWh、可支撐逾550km續航。技術面採用MEB+平台（50/58kWh版本改用LFP電芯取代先前NMC電芯，成本更低、更安全耐用但能量密度較低）；福斯證實58kWh電池版本以軟體限制僅開放80%容量對外行銷為50kWh版（等同永久處於電池保養模式）。今年1-7月ID.3是德國第二暢銷電動車（僅次於Škoda Elroq），德國起售€33,995。
+
+- 參見：[[sources/ev-news-2026-09-11-electrive-en]] | [[countries/歐洲]]

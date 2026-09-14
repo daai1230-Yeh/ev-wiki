@@ -1,7 +1,7 @@
 ---
 tags: [concept]
-sources: [stellantis-leapmotor-canada-rejected, xiaomi-ev-europe-2027, foxconn-mitsubishi-fuso-electric-bus, xpeng-mexico-launch, byd-denza-europe-debut, china-autonomous-driving-overseas, stellantis-opel-leapmotor-suv, thailand-ev-market-2026, china-ev-export-record-march-2026, byd-malaysia-factory-negotiation, europe-robotaxi-verne-ponyai, byd-april-exports-q1-2026, leapmotor-t03-germany-2026, malaysia-cbv-ev-regulation-2026, china-ev-europe-challenges-2026, china-nev-april-2026, china-evs-canada-chery-geely-2026, jpmorgan-china-ev-europe-2028, china-nev-april-involution-2026, geely-thailand-pickup-2026, byd-korea-10k-record-2026, china-ev-us-market-2026, osaka-expo-chinese-ebus-defect-2026, global-ev-demand-may2026, stellantis-china-ev-europe-factories-2026, xpeng-vw-europe-factory-2026, china-k-car-micro-ev-concept-2026, china-ev-europe-factory-takeover-2026, mg-saic-spain-factory-2026, nissan-chery-sunderland-deal-2026, tata-chery-avinya-platform-2026, byd-dod-military-list-2026, australia-china-ev-milestone-2026, byd-hungary-labour-report-2026, ev-news-digest-jun1-10-2026, byd-flash-charging-europe-2026, ev-news-2026-07-03-08, ev-news-2026-07-09, ev-news-2026-07-14-16-electrive, ev-news-2026-07-17-20-digitimes, ev-news-2026-07-21-22-digitimes, ev-news-2026-08-07-digitimes, ev-news-2026-08-06-07-cn-misc, ev-news-2026-09-04-electrive-en, ev-news-2026-09-04-digitimes, ev-news-2026-09-09-digitimes, ev-news-2026-09-09-electrive-en]
-updated: 2026-09-09
+sources: [stellantis-leapmotor-canada-rejected, xiaomi-ev-europe-2027, foxconn-mitsubishi-fuso-electric-bus, xpeng-mexico-launch, byd-denza-europe-debut, china-autonomous-driving-overseas, stellantis-opel-leapmotor-suv, thailand-ev-market-2026, china-ev-export-record-march-2026, byd-malaysia-factory-negotiation, europe-robotaxi-verne-ponyai, byd-april-exports-q1-2026, leapmotor-t03-germany-2026, malaysia-cbv-ev-regulation-2026, china-ev-europe-challenges-2026, china-nev-april-2026, china-evs-canada-chery-geely-2026, jpmorgan-china-ev-europe-2028, china-nev-april-involution-2026, geely-thailand-pickup-2026, byd-korea-10k-record-2026, china-ev-us-market-2026, osaka-expo-chinese-ebus-defect-2026, global-ev-demand-may2026, stellantis-china-ev-europe-factories-2026, xpeng-vw-europe-factory-2026, china-k-car-micro-ev-concept-2026, china-ev-europe-factory-takeover-2026, mg-saic-spain-factory-2026, nissan-chery-sunderland-deal-2026, tata-chery-avinya-platform-2026, byd-dod-military-list-2026, australia-china-ev-milestone-2026, byd-hungary-labour-report-2026, ev-news-digest-jun1-10-2026, byd-flash-charging-europe-2026, ev-news-2026-07-03-08, ev-news-2026-07-09, ev-news-2026-07-14-16-electrive, ev-news-2026-07-17-20-digitimes, ev-news-2026-07-21-22-digitimes, ev-news-2026-08-07-digitimes, ev-news-2026-08-06-07-cn-misc, ev-news-2026-09-04-electrive-en, ev-news-2026-09-04-digitimes, ev-news-2026-09-09-digitimes, ev-news-2026-09-09-electrive-en, ev-news-2026-09-11-digitimes, ev-news-2026-09-14-digest]
+updated: 2026-09-14
 ---
 
 # 中國 EV 出海策略
@@ -447,3 +447,9 @@ MG Motor（上汽 SAIC 旗下）在西班牙加利西亞建設歐盟首座中國
 **觀察**：市場預估的「個位數」全球化中系車廠最終將是哪些品牌；中國研發代工模式（如Dacia Spring案例）是否成為更多西方車廠的選項。
 
 - 參見：[[sources/ev-news-2026-09-09-digitimes]] | [[sources/ev-news-2026-09-09-electrive-en]] | [[entities/比亞迪]] | [[entities/吉利汽車]] | [[countries/歐洲]]
+
+## 中國車市連跌11個月出海成保命符，川習會前科技電動車天團醞釀赴美（2026-09）
+
+中國8月乘用車零售銷量年減24%至154萬輛，連續第11個月衰退，同期出口激增78%達88.8萬輛，海外銷售佔比由一年前20%躍升至38%，比亞迪已將2026海外銷售目標由150萬輛上修至200萬輛；惟中國乘聯會警告，激烈降價折扣已使產業獲利率降至3.6%（遠低於整體下游工業6.5%平均），車廠面臨上游議價能力強、下游競爭白熱化的雙重擠壓。川習二會（9月24日）倒數之際，北京同步考慮組成科技/電動車/航太企業高管代表團隨行訪美（仿效川普5月訪陸模式），汽車議題已成美中貿易談判前哨戰焦點之一；川普同時鬆口若中國車廠赴美設廠雇用美國勞工「可以接受」，但反對經墨西哥轉運規避模式。
+
+- 參見：[[sources/ev-news-2026-09-11-digitimes]] | [[sources/ev-news-2026-09-14-digest]] | [[entities/比亞迪]] | [[countries/中國]] | [[countries/美國]]

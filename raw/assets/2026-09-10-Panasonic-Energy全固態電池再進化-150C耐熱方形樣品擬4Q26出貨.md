@@ -1,22 +1,21 @@
 ---
 title: Panasonic Energy全固態電池再進化　150°C耐熱方形樣品擬4Q26出貨
-author: 江仁傑／綜合報導
+author: 江仁傑
 date: 2026-09-10
 source: https://www.digitimes.com.tw/tech/dt/n/shwnws.asp?CnlID=&id=768030&grid_seq1=&grid_seq2=
 tags:
-  - Panasonic
   - 全固態電池
+  - Panasonic
   - 電池
-  - EV
-  - 機器人
+  - 電動車
   - Digitimes
   - 未來車供應鏈
-clipped: 2026-09-10
+clipped: 2026-09-13
 ---
 
 # Panasonic Energy全固態電池再進化　150°C耐熱方形樣品擬4Q26出貨
 
-**作者**：江仁傑／綜合報導　｜　**日期**：2026-09-10　｜　**來源**：[原文連結](https://www.digitimes.com.tw/tech/dt/n/shwnws.asp?CnlID=&id=768030&grid_seq1=&grid_seq2=)
+**作者**：江仁傑　｜　**日期**：2026-09-10　｜　**來源**：[原文連結](https://www.digitimes.com.tw/tech/dt/n/shwnws.asp?CnlID=&id=768030&grid_seq1=&grid_seq2=)
 
 ---
 

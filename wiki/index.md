@@ -1,6 +1,6 @@
 # Wiki Index
 
-Last updated: 2026-09-10 | Pages: 490 | Sources: 484
+Last updated: 2026-09-14 | Pages: 490 | Sources: 490
 
 ---
 
@@ -30,6 +30,12 @@ Last updated: 2026-09-10 | Pages: 490 | Sources: 484
 - [[sources/ev-news-2026-09-09-10-electrive-en]] — electrive/InsideEVs批次2篇：Jeep Recon純電越野試駕、賓士VLE四驅版發表。(2026-09-09~10)
 - [[sources/ev-news-2026-09-09-10-etauto-india]] — ETAuto/India批次4篇：JSW-福斯簽署51:49合資意向書、世界電動車日印度本土供應鏈反思、ICCT印度總監專訪籲法規強制帶動規模化。(2026-09-09~10)
 - [[sources/ev-news-2026-09-10-digitimes]] — Digitimes批次5篇：比亞迪2026海外銷量拚200萬輛海外每車獲利逾本土6倍、比亞迪馬來西亞建廠新計畫、Panasonic全固態電池150°C方形樣品、台灣充電站越蓋越賠區塊證推AI營運大腦。(2026-09-10)
+- [[sources/ev-news-2026-09-11-electrive-en]] — electrive/InsideEVs批次5篇：T&E警告中美業者恐奪歐洲電動卡車市場1/4、Sany歐洲電動卡車陣容擴大、保時捷完成出脫布加迪Rimac、VW ID.3 Neo實測、Toyota三電動車型比較。(2026-09-11)
+- [[sources/ev-news-2026-09-11-digitimes]] — Digitimes批次5篇：中國儲能5年暴增50倍儲能蟑螂引整頓、中國車市連跌11月出海保命符、樂金Innotek自駕布局、現代傳開發燃油車自駕、美國運輸部質疑福特對中合作。(2026-09-11)
+- [[sources/ev-news-2026-09-12-electrive-en]] — ETAuto/InsideEVs批次3篇：福特vs川普運輸部政策矛盾、BMW印度EV滲透率拚30%、Hero MotoCorp乙醇彈性燃料機車熱銷。(2026-09-12)
+- [[sources/ev-news-2026-09-12-digest]] — Google Alerts批次2篇：泰國核准三級制電動車貨物稅、三菱160億泰銖升級泰國產線。(2026-09-12)
+- [[sources/ev-news-2026-09-14-digitimes]] — Digitimes批次9篇：極星確認2027年退出美國、AIDC推動車廠轉攻儲能、ZF押注中國電動卡車、中國車市8月BEV唯一持平、本田AI團隊擴編、Tesla次世代Roadster、五糧液攻矽碳負極。(2026-09-14)
+- [[sources/ev-news-2026-09-14-digest]] — Google Alerts批次9篇：川普鬆口中國車廠可來美造車、中國電動車低價叩關美國、中國8成二手車商拒購5年電動車、Tesla美國市佔重返52%、捷豹路虎裁員4千、台灣324家廠商赴法蘭克福。(2026-09-14)
 
 ### 電動乘用車
 - [[sources/ev-news-2026-08-27-29-electrive-en]] — electrive/InsideEVs批次21篇：BMW突破200萬輛EV銷售、BYD超快充電池耐久測試（9天350次快充僅剩1.3%衰減）、中國門把手召回歐洲KBA/RDW調查、Tesla Cybercab奧斯汀發表活動將至、Rivian財務長離職、Lucid召回2.7萬輛。(2026-08-29)

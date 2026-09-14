@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [tesla-ass-nhtsa-probe-closed, tesla-taiwan-march-2026, xiaomi-ev-europe-2027, tesla-4680-musk-strategy, tesla-korea-q1-2026, tesla-q1-2026-earnings, tesla-india-model-y-l, 駐外新聞-美國-2025, ev-news-2026-07-02, ev-news-2026-07-03-08, ev-news-2026-07-09, ev-news-2026-07-10-insideevs-batch, ev-news-2026-07-11, ev-news-2026-07-12-13-digest, ev-news-2026-07-12-13-electrive, ev-news-2026-07-13-digitimes, ev-news-2026-07-14-16-insideevs, ev-news-2026-07-14-16-digitimes, ev-news-2026-07-21-22-digitimes, ev-news-2026-07-20-21-electrive-en, ev-news-2026-07-22-24-digitimes, ev-news-2026-07-22-23-electrive-en, ev-news-2026-07-25-27-digitimes, ev-news-2026-07-28-digitimes, ev-news-2026-07-28-30-electrive-en, ev-news-2026-08-01-03-cn, ev-news-2026-08-01-03-en, ev-news-2026-08-04-06-digitimes, ev-news-2026-08-03-06-electrive-en, ev-news-2026-08-04-06-cn-misc, ev-news-2026-08-07-digitimes, ev-news-2026-08-06-07-cn-misc, ev-news-2026-08-06-07-electrive-en, ev-news-2026-08-06-10-cn-misc, ev-news-2026-08-07-10-electrive-en, ev-news-2026-08-13-15-electrive-en, ev-news-2026-08-19-digitimes, ev-news-2026-08-20-digitimes, ev-news-2026-08-19-20-cn-misc, ev-news-2026-08-21-digitimes, ev-news-2026-08-21-23-electrive-en, ev-news-2026-08-26-digitimes, ev-news-2026-08-21-26-cn-misc, ev-news-2026-08-26-27-electrive-en, ev-news-2026-08-27-29-electrive-en, ev-news-2026-08-30-31-cn-misc, ev-news-2026-09-07-08-electrive-en, ev-news-2026-09-07-08-digest, ev-news-2026-09-09-electrive-en, ev-news-2026-09-09-digest]
-updated: 2026-09-09
+sources: [tesla-ass-nhtsa-probe-closed, tesla-taiwan-march-2026, xiaomi-ev-europe-2027, tesla-4680-musk-strategy, tesla-korea-q1-2026, tesla-q1-2026-earnings, tesla-india-model-y-l, 駐外新聞-美國-2025, ev-news-2026-07-02, ev-news-2026-07-03-08, ev-news-2026-07-09, ev-news-2026-07-10-insideevs-batch, ev-news-2026-07-11, ev-news-2026-07-12-13-digest, ev-news-2026-07-12-13-electrive, ev-news-2026-07-13-digitimes, ev-news-2026-07-14-16-insideevs, ev-news-2026-07-14-16-digitimes, ev-news-2026-07-21-22-digitimes, ev-news-2026-07-20-21-electrive-en, ev-news-2026-07-22-24-digitimes, ev-news-2026-07-22-23-electrive-en, ev-news-2026-07-25-27-digitimes, ev-news-2026-07-28-digitimes, ev-news-2026-07-28-30-electrive-en, ev-news-2026-08-01-03-cn, ev-news-2026-08-01-03-en, ev-news-2026-08-04-06-digitimes, ev-news-2026-08-03-06-electrive-en, ev-news-2026-08-04-06-cn-misc, ev-news-2026-08-07-digitimes, ev-news-2026-08-06-07-cn-misc, ev-news-2026-08-06-07-electrive-en, ev-news-2026-08-06-10-cn-misc, ev-news-2026-08-07-10-electrive-en, ev-news-2026-08-13-15-electrive-en, ev-news-2026-08-19-digitimes, ev-news-2026-08-20-digitimes, ev-news-2026-08-19-20-cn-misc, ev-news-2026-08-21-digitimes, ev-news-2026-08-21-23-electrive-en, ev-news-2026-08-26-digitimes, ev-news-2026-08-21-26-cn-misc, ev-news-2026-08-26-27-electrive-en, ev-news-2026-08-27-29-electrive-en, ev-news-2026-08-30-31-cn-misc, ev-news-2026-09-07-08-electrive-en, ev-news-2026-09-07-08-digest, ev-news-2026-09-09-electrive-en, ev-news-2026-09-09-digest, ev-news-2026-09-14-digest, ev-news-2026-09-14-digitimes]
+updated: 2026-09-14
 ---
 
 # Tesla
@@ -510,3 +510,16 @@ YouTuber實測顯示，搭載HW4與最新FSD v14.3.4的車輛反應時間0.450�
 **觀察**：比亞迪等中國車廠年底進入加拿大市場後第二階段配額爭奪態勢；Tesla稀土去依賴驅動單元是否延伸至其他車型。
 
 - 參見：[[sources/ev-news-2026-09-09-electrive-en]] | [[sources/ev-news-2026-09-09-digest]] | [[concepts/北美EV關稅與政策]] | [[countries/美國]]
+
+## 美國市佔重返52%惟屬「剩者為王」，10月1日預告發表次世代Roadster（2026-09）
+
+> **結論**：Tesla今年1-8月美國電動車市佔率由去年43%回升至52%，惟銷量本身仍年減16%至32萬5,351輛（整體電動車市場萎縮30%），凸顯此成長並非需求復甦，而是傳統車廠（福特、通用等）縮減虧損電動車業務（含停產本田Prologue、福特F-150 Lightning）讓出市場份額所致，Model Y貢獻約1/3美國電動車購買量；同期Tesla預告10月1日「準備發射」活動將展示歷經多次延宕的第二代Roadster，傳配備SpaceX合作研發冷氣體推進器，甚至可能實現短暫懸浮飛行等突破性功能，地點傳在德州韋科（鄰近SpaceX火箭測試基地）。
+
+**主因**：
+- 市佔提升源於對手退場：聯邦補貼到期後傳統車廠對電動車投資轉趨謹慎，Tesla相對韌性（Model Y僅年減2%）使其市佔被動提升，而非自身需求顯著改善
+- Roadster延宕多年終見曙光：2017年首度亮相、財報會議中確認仍處「設計研發」階段，此次活動命名呼應SpaceX發射任務，進一步強化市場對Tesla與SpaceX合併的揣測
+- 未來挑戰仍待克服：分析師認為Tesla要應對更強勁市場挑戰，需要更便宜的電池技術、更新法規支援或消費者需求顯著改善
+
+**觀察**：福特、通用等傳統車廠電動車業務縮減是否持續深化Tesla的市佔優勢；10月1日Roadster發表會實際規格與量產時程。
+
+- 參見：[[sources/ev-news-2026-09-14-digest]] | [[sources/ev-news-2026-09-14-digitimes]] | [[countries/美國]]
