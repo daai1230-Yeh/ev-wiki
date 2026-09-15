@@ -1,7 +1,7 @@
 ---
 tags: [concept]
-sources: [byd-dipilot-adas-2026, robotaxi-market-2026, toyota-adas-vs-fsd-subscription, hyundai-pleos-sdv-os, in-cabin-ai-sensing-2026, l2plus-adas-adoption-2026, rivian-lidar-china-partner-2026, hyundai-kia-atria-ai-gwangju-2026, hesai-color-lidar-2026, ev-news-digest-jun1-10-2026, ev-news-2026-06-27-29-en, ev-news-2026-06-30-07-01, ev-news-2026-06-29-zh, ev-news-2026-07-02, ev-news-2026-07-03-08, ev-news-2026-07-09, ev-news-2026-07-21-22-digitimes, ev-news-2026-07-22-23-electrive-en, ev-news-2026-08-24-digitimes, ev-news-2026-08-27-digitimes, ev-news-2026-08-28-digitimes, ev-news-2026-08-30-31-cn-misc, ev-news-2026-09-07-08-digitimes, ev-news-2026-09-08-electrive-en, ev-news-2026-09-09-digitimes, ev-news-2026-09-11-digitimes]
-updated: 2026-09-14
+sources: [byd-dipilot-adas-2026, robotaxi-market-2026, toyota-adas-vs-fsd-subscription, hyundai-pleos-sdv-os, in-cabin-ai-sensing-2026, l2plus-adas-adoption-2026, rivian-lidar-china-partner-2026, hyundai-kia-atria-ai-gwangju-2026, hesai-color-lidar-2026, ev-news-digest-jun1-10-2026, ev-news-2026-06-27-29-en, ev-news-2026-06-30-07-01, ev-news-2026-06-29-zh, ev-news-2026-07-02, ev-news-2026-07-03-08, ev-news-2026-07-09, ev-news-2026-07-21-22-digitimes, ev-news-2026-07-22-23-electrive-en, ev-news-2026-08-24-digitimes, ev-news-2026-08-27-digitimes, ev-news-2026-08-28-digitimes, ev-news-2026-08-30-31-cn-misc, ev-news-2026-09-07-08-digitimes, ev-news-2026-09-08-electrive-en, ev-news-2026-09-09-digitimes, ev-news-2026-09-11-digitimes, ev-news-2026-09-15-digitimes]
+updated: 2026-09-15
 ---
 
 # ADAS 智駕系統（Advanced Driver Assistance System）
@@ -415,3 +415,5 @@ GM 與美光（Micron）簽署 **第 16 份供應協議（SCA）**，涵蓋汽�
 **補充**：豐田確認2028年推出端到端（E2E）AI自駕商業化，搭配「規則導向」安全機制形成混合模式與純E2E車款差異化，並規劃2030年左右L4商用接駁車普及日本全境。參見：[[sources/ev-news-2026-09-09-digitimes]] | [[entities/豐田]]
 
 **補充**：現代汽車集團傳開發「燃油車自駕」技術，計劃將Tesla等級Level 2+自動駕駛應用於燃油車與HEV，是全球唯一投入此領域的車廠，盼藉此建立電動車業者難以跨足的市場「護城河」（技術瓶頸在燃油車電力供應不穩定）；LG Innotek同步加速自駕布局，招募多模態感測融合AI人才朝自駕解決方案商轉型。參見：[[sources/ev-news-2026-09-11-digitimes]] | [[entities/現代汽車]]
+
+**補充**：現代汽車集團採「雙軌」戰略加速自駕量產——先用NVIDIA已驗證平台（2028年L2+/L2++量產），同時自主開發「Atria AI」（2029下半量產），透過約40輛IONIQ 5資料收集車在首爾全天候運行建立「Data Flywheel」資料飛輪，整合現代/起亞/42dot/Motional多源資料形成規模優勢，判斷自駕競爭本質為「資料與學習速度的競爭」。參見：[[sources/ev-news-2026-09-15-digitimes]] | [[entities/現代汽車]]

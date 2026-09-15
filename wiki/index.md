@@ -1,6 +1,6 @@
 # Wiki Index
 
-Last updated: 2026-09-14 | Pages: 490 | Sources: 490
+Last updated: 2026-09-15 | Pages: 490 | Sources: 494
 
 ---
 
@@ -36,6 +36,10 @@ Last updated: 2026-09-14 | Pages: 490 | Sources: 490
 - [[sources/ev-news-2026-09-12-digest]] — Google Alerts批次2篇：泰國核准三級制電動車貨物稅、三菱160億泰銖升級泰國產線。(2026-09-12)
 - [[sources/ev-news-2026-09-14-digitimes]] — Digitimes批次9篇：極星確認2027年退出美國、AIDC推動車廠轉攻儲能、ZF押注中國電動卡車、中國車市8月BEV唯一持平、本田AI團隊擴編、Tesla次世代Roadster、五糧液攻矽碳負極。(2026-09-14)
 - [[sources/ev-news-2026-09-14-digest]] — Google Alerts批次9篇：川普鬆口中國車廠可來美造車、中國電動車低價叩關美國、中國8成二手車商拒購5年電動車、Tesla美國市佔重返52%、捷豹路虎裁員4千、台灣324家廠商赴法蘭克福。(2026-09-14)
+- [[sources/ev-news-2026-09-15-electrive-en]] — electrive/InsideEVs/Sustainable Bus批次8篇（IAA Transportation專題）：比亞迪ETT44/Volvo/Tesla電動卡車三強對決、Bolloré擬停產Bluebus、Kia PV7電動廂型車、MG iEV12LE城際巴士、VW Mission Efficiency效率概念車。(2026-09-15)
+- [[sources/ev-news-2026-09-15-etauto-india]] — ETAuto/India批次3篇：印歐FTA首年10萬輛低關稅配額、低速電動二輪車功率上限擬鬆綁、Uno Minda擴產14.15億盧比。(2026-09-15)
+- [[sources/ev-news-2026-09-15-digitimes]] — Digitimes批次3篇：Tesla越南子公司成立、比亞迪馬來西亞CKD廠確定停止、現代借力NVIDIA雙軌加速自駕量產。(2026-09-15)
+- [[sources/ev-news-2026-09-15-digest]] — Google Alerts批次2篇：比亞迪2027年推固態電池車CLTC續航破1,218公里、Tesla美國市佔回升分析補充。(2026-09-15)
 
 ### 電動乘用車
 - [[sources/ev-news-2026-08-27-29-electrive-en]] — electrive/InsideEVs批次21篇：BMW突破200萬輛EV銷售、BYD超快充電池耐久測試（9天350次快充僅剩1.3%衰減）、中國門把手召回歐洲KBA/RDW調查、Tesla Cybercab奧斯汀發表活動將至、Rivian財務長離職、Lucid召回2.7萬輛。(2026-08-29)
