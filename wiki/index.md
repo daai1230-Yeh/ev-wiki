@@ -1,6 +1,6 @@
 # Wiki Index
 
-Last updated: 2026-09-15 | Pages: 490 | Sources: 494
+Last updated: 2026-09-17 | Pages: 490 | Sources: 499
 
 ---
 
@@ -40,6 +40,11 @@ Last updated: 2026-09-15 | Pages: 490 | Sources: 494
 - [[sources/ev-news-2026-09-15-etauto-india]] — ETAuto/India批次3篇：印歐FTA首年10萬輛低關稅配額、低速電動二輪車功率上限擬鬆綁、Uno Minda擴產14.15億盧比。(2026-09-15)
 - [[sources/ev-news-2026-09-15-digitimes]] — Digitimes批次3篇：Tesla越南子公司成立、比亞迪馬來西亞CKD廠確定停止、現代借力NVIDIA雙軌加速自駕量產。(2026-09-15)
 - [[sources/ev-news-2026-09-15-digest]] — Google Alerts批次2篇：比亞迪2027年推固態電池車CLTC續航破1,218公里、Tesla美國市佔回升分析補充。(2026-09-15)
+- [[sources/ev-news-2026-09-16-digitimes]] — Digitimes批次6篇：中國十五五規劃定調2030年NEV佔比70%、泰國EV進口稅三級制後續、Tier IV開源自駕晶片、Waymo東京L4計畫、豐田E2E自駕、人形機器人電池兩大門檻。(2026-09-16)
+- [[sources/ev-news-2026-09-17-electrive-en]] — electrive/InsideEVs批次20篇（IAA Day 2）：CATL卡車電池續航破千公里、BMZ×EVE LMFP電池、Scania/Milence/Tesla/Vinci充電生態圈、匈牙利加壓比亞迪CATL、VW ID.3 GTI首發、Tesla Cybercab遭NHTSA質詢。(2026-09-17)
+- [[sources/ev-news-2026-09-17-india]] — India批次3篇：印歐FTA電動車配額細節（合計31.5萬輛）、Ultraviolette擴產25萬輛、印度8月PV出貨創新高。(2026-09-17)
+- [[sources/ev-news-2026-09-17-digitimes]] — Digitimes批次5篇：傳王傳福入列習近平訪美代表團、裕日車揭台灣NEV滲透率上看50%、日產橫濱擴大L4測試、本田Astemo馬達擴產、豐田擴大氫能商用車版圖。(2026-09-17)
+- [[sources/ev-news-2026-09-17-digest]] — Google Alerts批次1篇：比亞迪入列習近平訪美代表團補充分析。(2026-09-17)
 
 ### 電動乘用車
 - [[sources/ev-news-2026-08-27-29-electrive-en]] — electrive/InsideEVs批次21篇：BMW突破200萬輛EV銷售、BYD超快充電池耐久測試（9天350次快充僅剩1.3%衰減）、中國門把手召回歐洲KBA/RDW調查、Tesla Cybercab奧斯汀發表活動將至、Rivian財務長離職、Lucid召回2.7萬輛。(2026-08-29)

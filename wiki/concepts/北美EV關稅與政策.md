@@ -1,7 +1,7 @@
 ---
 tags: [concept]
-sources: [tesla-canada-model3-2026, nissan-mississippi-ev-abandonment, china-evs-canada-chery-geely-2026, ford-catl-michigan-factory-2026, china-ev-us-market-2026, nissan-canada-dongfeng-ev-quota-2026, ev-news-2026-09-07-08-electrive-en, ev-news-2026-09-09-electrive-en, ev-news-2026-09-14-digest, ev-news-2026-09-11-digitimes, ev-news-2026-09-14-digitimes]
-updated: 2026-09-14
+sources: [tesla-canada-model3-2026, nissan-mississippi-ev-abandonment, china-evs-canada-chery-geely-2026, ford-catl-michigan-factory-2026, china-ev-us-market-2026, nissan-canada-dongfeng-ev-quota-2026, ev-news-2026-09-07-08-electrive-en, ev-news-2026-09-09-electrive-en, ev-news-2026-09-14-digest, ev-news-2026-09-11-digitimes, ev-news-2026-09-14-digitimes, ev-news-2026-09-17-digitimes, ev-news-2026-09-17-digest, ev-news-2026-09-17-electrive-en]
+updated: 2026-09-17
 ---
 
 # 北美 EV 關稅與政策
@@ -162,3 +162,9 @@ Polestar H1 2026財報顯示，美國商務部拒絕給予其連網車規則（2
 **觀察**：川習會後中國車廠赴美設廠具體條件是否明朗化；福特與寧德時代LFP合作是否因政治壓力調整或中止。
 
 - 參見：[[sources/ev-news-2026-09-14-digest]] | [[sources/ev-news-2026-09-11-digitimes]] | [[sources/ev-news-2026-09-14-digitimes]] | [[entities/福特]] | [[entities/Polestar]] | [[countries/美國]]
+
+## 傳王傳福入列習近平訪美代表團、Tesla Cybercab遭NHTSA質詢（2026-09）
+
+中方傳考慮將比亞迪納入習近平9月24日訪美代表團名單，惟比亞迪已遭美國國防部列入黑名單且面臨100%關稅，若成行恐被視為挑釁意味濃厚的安排；川普稍早受訪表示若中國車廠赴美設廠雇用美國勞工「可以接受」，惟美國汽車生產商協會（AAPC）強烈反對。同期NHTSA向Tesla發出詳細問題清單要求說明Cybercab如何符合聯邦機動車安全標準自我認證流程，須9月30日前回覆，業界先例Zoox取得美國首例商用豁免，Tesla案件走向可能循此模式申請年度配額豁免。
+
+- 參見：[[sources/ev-news-2026-09-17-digitimes]] | [[sources/ev-news-2026-09-17-digest]] | [[sources/ev-news-2026-09-17-electrive-en]] | [[entities/比亞迪]] | [[entities/Tesla]] | [[countries/美國]]

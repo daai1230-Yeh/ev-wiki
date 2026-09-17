@@ -2228,3 +2228,16 @@ Pages 375 → 406，Sources 315 → 346
 - New pages created: 無
 - Key additions: IAA Transportation展會電動重卡三強對決正式登場——比亞迪ETT 44首度叩關歐洲（651kWh電池、近600km續航、1.5MW超充）、Volvo FH Aero Electric量產（780kWh總電量、700km續航居歐洲之冠）、Tesla歐洲版Semi犧牲續航（550km）換取更高酬載與更快超充（800kW），三大陣營呈現截然不同產品策略；Bolloré集團擬永久停產Bluebus電動巴士（近700輛部署史畫下句點）並同步調整Blue Solutions Gen4固態電池策略，反映歐洲電動巴士新創面臨規模與價格競爭的結構性壓力；比亞迪馬來西亞CKD廠確定停止，改採在地組裝合作路徑（討論已相當成熟），延續其在地銷售網絡地位；比亞迪同時透露2027年推出固態電池車型（單體能量密度400Wh/kg、CLTC續航1,218公里創中國紀錄），Tesla則於越南設立子公司叩關東南亞最大純電市場（惟由VinFast以親民定價主導）；現代汽車集團採「雙軌」戰略——借力NVIDIA平台加速2028年自駕量產，同時自主開發Atria AI目標2029下半量產，透過首爾市區資料收集車隊建立「Data Flywheel」策略；印度-歐盟FTA關稅表顯示首年開放10萬輛燃油車低關稅配額，惟電動車獨立配額延後至第5年才啟動，凸顯印度優先保護本土電動車產業的政策考量；VW發表風阻係數0.158的Mission Efficiency效率概念車，創下公路合法量產車紀錄
 - 備註: 09-11/09-14批次多篇文章的全形空格檔名變體（樂金Innotek、現代燃油車自駕、AIDC、ZF、中國車市8月、本田AI團隊）於本次確認為既有已收錄報導的重複剪輯，未另計新篇
+
+## [2026-09-17] ingest | ev-news-2026-09-16-17（五批次共32篇：Digitimes 6+5、electrive/InsideEVs 20、India 3、Google Alerts 1；另多篇同批次跨媒體複述及檔名變體重複剪輯已排除，未另計新篇）
+- Source pages（新建5頁）：
+  - [[sources/ev-news-2026-09-16-digitimes]] — 中國「十五五」規劃定調2030年NEV滲透率70%、泰國EV進口稅三級制後續進展、Tier IV開源自駕AI晶片劍指NVIDIA、Waymo攜手日本交通GO東京推L4、豐田E2E自駕Level 2++/L4共用架構、人形機器人動力電池兩大門檻
+  - [[sources/ev-news-2026-09-17-electrive-en]] — IAA Transportation Day 2：CATL卡車電池續航破千公里、BMZ×EVE LMFP電池、Scania駕駛室後置電池720km、EKPO次世代燃料電池堆、Milence×Alpitronic/Tesla/Vinci超充網路擴張、Einride×Lidl無人卡車、Juna百輛電動卡車、匈牙利加壓比亞迪CATL、VW ID.3 GTI首發、Nissan Kicks歐洲、Porsche Cayenne新選配、Tesla Cybercab遭NHTSA質詢、紐約700樁招標、消費端實測彙整
+  - [[sources/ev-news-2026-09-17-india]] — 印歐FTA電動車配額細節（合計31.5萬輛）、Ultraviolette霍蘇爾25萬輛新廠、印度8月PV出貨年增36.5%創新高
+  - [[sources/ev-news-2026-09-17-digitimes]] — 傳比亞迪王傳福入列習近平訪美代表團、裕日車揭台灣NEV滲透率上看50%、日產橫濱10月擴大L4測試、本田Astemo砸3.79億美元擴產馬達、豐田擴大氫能商用車版圖攜手Iveco/Scania
+  - [[sources/ev-news-2026-09-17-digest]] — 比亞迪入列習近平訪美代表團分析補充
+- Pages updated: [[entities/比亞迪]], [[entities/Tesla]], [[entities/Volkswagen]], [[entities/豐田]], [[entities/日産]], [[entities/本田]], [[concepts/電動卡車市場]], [[concepts/電池技術路線]], [[concepts/氫燃料電池商用車]], [[concepts/ADAS智駕系統]], [[concepts/Robotaxi自動計程車]], [[concepts/充電基礎建設]], [[concepts/北美EV關稅與政策]], [[concepts/中國EV出海策略]]
+- Countries updated: [[countries/中國]], [[countries/歐洲]], [[countries/日本]], [[countries/美國]], [[countries/東南亞]], [[countries/台灣]], [[countries/印度]]
+- New pages created: 無
+- Key additions: 中國「十五五」規劃正式設定2030年新能源車滲透率70%目標，並將透過企業整併淘汰低效製造商化解產能過剩；IAA Transportation展會第二天聚焦電池與充電基建協同發展——CATL Tectrans II卡車電池續航上看1,000公里、BMZ×EVE合作開發LMFP電池、Scania駕駛室後置電池方案達720公里續航，Milence×Alpitronic、Tesla（歐洲21站超充網路）、Vinci（9,000萬歐元投資）三方同步擴張MCS充電生態圈；匈牙利新政府加大對比亞迪、CATL投資協議的監管審查，CATL德布勒森廠因環安問題遭當局暫停部分產線；傳中方考慮將比亞迪創辦人王傳福納入習近平9月24日訪美代表團名單，恐被視為挑釁意味濃厚的安排；Tesla Cybercab遭NHTSA正式發函質詢FMVSS自我認證合規性，須9月30日前回覆；日本自駕產業迎來多線進展——Waymo攜手GO與日本交通目標2027年東京推出L4無人計程車、日產橫濱測試10月起擴大規模、豐田公開E2E自駕規畫並考慮加入Waymo事業、Tier IV開源自駕AI晶片設計挑戰NVIDIA主導地位；印歐FTA電動車關稅表細節曝光，雙邊配額合計第14年達31.5萬輛（印度配額結構明顯較歐盟保守）；VW發表史上最強量產GTI（ID.3 GTI）並首度採後驅配置；人形機器人動力電池發展面臨能量密度與客製化成本兩大門檻，電動車電池規模化模式無法直接複製
+- 備註: 09-15批次多篇文章的全形/半形空格檔名變體（Tesla越南子公司、比亞迪馬來西亞、現代NVIDIA自駕）已確認為既有已收錄報導的重複剪輯；09-17「MG-iEV12LE」為09-15已收錄MG城際巴士報導的重新剪輯版本；「New Volkswagen ID3 GTI」（InsideEVs）與「World premiere VW ID.3 GTI」（electrive）為同一發表會的跨媒體複述，內容互補已併入同一章節；「傳比亞迪王傳福入列習近平訪美代表團」（Digitimes）與「比亞迪有望列習近平訪美代表團名單」（Google Alerts）判定為複合來源共同事件，兩篇均收錄

@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [vw-restructure-china-offensive-2026, ev-news-2026-06-27-29-en, ev-news-2026-06-30-07-01, ev-news-2026-07-02, ev-news-2026-07-03-08, ev-news-2026-07-10-supplement, ev-news-2026-07-12-13-electrive, ev-news-2026-07-14-16-electrive, ev-news-2026-07-17-20-digitimes, ev-news-2026-07-20-21-electrive-en, ev-news-2026-07-22-23-electrive-en, ev-news-2026-07-25-27-digitimes, ev-news-2026-07-24-27-electrive-en, ev-news-2026-07-24-28-electrive-en, ev-news-2026-07-29-31-digitimes, ev-news-2026-07-28-30-electrive-en, ev-news-2026-08-04-06-digitimes, ev-news-2026-08-03-06-electrive-en, ev-news-2026-08-07-10-electrive-en, ev-news-2026-08-13-digitimes, ev-news-2026-08-14-17-digitimes, ev-news-2026-08-18-digitimes, ev-news-2026-07-23-08-24-etauto-india, ev-news-2026-09-07-08-electrive-en, ev-news-2026-09-07-08-digest, ev-news-2026-09-08-electrive-en, ev-news-2026-09-09-electrive-en, ev-news-2026-09-09-10-etauto-india, ev-news-2026-09-11-electrive-en, ev-news-2026-09-15-electrive-en]
-updated: 2026-09-15
+sources: [vw-restructure-china-offensive-2026, ev-news-2026-06-27-29-en, ev-news-2026-06-30-07-01, ev-news-2026-07-02, ev-news-2026-07-03-08, ev-news-2026-07-10-supplement, ev-news-2026-07-12-13-electrive, ev-news-2026-07-14-16-electrive, ev-news-2026-07-17-20-digitimes, ev-news-2026-07-20-21-electrive-en, ev-news-2026-07-22-23-electrive-en, ev-news-2026-07-25-27-digitimes, ev-news-2026-07-24-27-electrive-en, ev-news-2026-07-24-28-electrive-en, ev-news-2026-07-29-31-digitimes, ev-news-2026-07-28-30-electrive-en, ev-news-2026-08-04-06-digitimes, ev-news-2026-08-03-06-electrive-en, ev-news-2026-08-07-10-electrive-en, ev-news-2026-08-13-digitimes, ev-news-2026-08-14-17-digitimes, ev-news-2026-08-18-digitimes, ev-news-2026-07-23-08-24-etauto-india, ev-news-2026-09-07-08-electrive-en, ev-news-2026-09-07-08-digest, ev-news-2026-09-08-electrive-en, ev-news-2026-09-09-electrive-en, ev-news-2026-09-09-10-etauto-india, ev-news-2026-09-11-electrive-en, ev-news-2026-09-15-electrive-en, ev-news-2026-09-17-electrive-en]
+updated: 2026-09-17
 ---
 
 # Volkswagen（福斯集團）
@@ -356,3 +356,9 @@ Skoda Auto Volkswagen India傳與JSW集團洽談合資，最快10月初簽署非
 福斯基於ID. Polo同款MEB+平台打造「近乎量產」概念車Mission Efficiency（向經典XL1致敬），風阻係數0.158創下公路合法量產車紀錄。實測從沃爾夫斯堡開往維也納全程1,278公里僅充電一次，抵達後仍餘164公里續航（理論總續航逾1,400公里），能耗僅7.51kWh/100km（含充電損耗）；動力系統與ID. Polo相同（54.9kWh NMC電池軟體解鎖至可用容量、133匹馬力APP290馬達），已通過Record Institute「近乎量產、可日常使用四人座電動車」認證，惟暫無量產計畫。
 
 - 參見：[[sources/ev-news-2026-09-15-electrive-en]] | [[countries/歐洲]]
+
+## ID.3 GTI全球首發，史上最強量產GTI首度後驅化（2026-09）
+
+VW發表ID.3 GTI（240kW/545Nm，0-100km/h 5.6秒，較GTX Performance快0.1秒），為史上最強量產GTI並首度採後驅配置（打破GTI傳統前驅／四驅慣例），沿用已停產的ID.3 GTX Performance動力系統，79kWh電池WLTP續航601km、183kW快充29分鐘達80%（較GTX慢3分鐘）；新增GTI專屬駕駛模式、人工引擎音效及復古儀表顯示，2027年Q1歐洲上市，售價未公布。
+
+- 參見：[[sources/ev-news-2026-09-17-electrive-en]] | [[countries/歐洲]]

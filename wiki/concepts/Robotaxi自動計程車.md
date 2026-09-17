@@ -1,7 +1,7 @@
 ---
 tags: [concept]
-sources: [robotaxi-market-2026, china-autonomous-driving-overseas, europe-robotaxi-verne-ponyai, waymo-miami-orlando-expansion, taiwan-av-special-scenes, japan-2030-autonomous-ai-strategy, ratp-karsan-autonomous-bus-paris, av-physical-ai-trends-2026, tesla-fsd-eu-expansion-2026, tesla-robotaxi-texas-reality-2026, uber-robotaxi-europe-expansion-2026, waymo-battery-secondlife-colorado-recycling-2026, toyota-tier-iv-l4-investment-2026, waymo-arizona-expansion-2026, tesla-cybercab-specs-2026, mobileye-robotaxi-2026, tesla-fsd-netherlands-2026, ev-news-2026-06-22, ev-news-2026-07-13-digitimes, ev-news-2026-07-14-16-electrive, ev-news-2026-07-21-22-digitimes, ev-news-2026-07-22-24-digitimes, ev-news-2026-07-22-23-electrive-en, ev-news-2026-07-28-digitimes, ev-news-2026-07-28-30-electrive-en, ev-news-2026-08-01-03-en, ev-news-2026-08-04-06-digitimes, ev-news-2026-08-03-06-electrive-en, ev-news-2026-08-06-07-electrive-en, ev-news-2026-08-07-10-electrive-en, ev-news-2026-08-17-18-electrive-en, ev-news-2026-08-20-digitimes, ev-news-2026-08-19-20-cn-misc, ev-news-2026-08-21-23-electrive-en, ev-news-2026-08-21-22-electrive-en, ev-news-2026-08-26-27-electrive-en, ev-news-2026-08-28-digitimes, ev-news-2026-09-04-electrive-en, ev-news-2026-09-07-08-digitimes, ev-news-2026-09-07-08-electrive-en, ev-news-2026-09-08-electrive-en]
-updated: 2026-09-08
+sources: [robotaxi-market-2026, china-autonomous-driving-overseas, europe-robotaxi-verne-ponyai, waymo-miami-orlando-expansion, taiwan-av-special-scenes, japan-2030-autonomous-ai-strategy, ratp-karsan-autonomous-bus-paris, av-physical-ai-trends-2026, tesla-fsd-eu-expansion-2026, tesla-robotaxi-texas-reality-2026, uber-robotaxi-europe-expansion-2026, waymo-battery-secondlife-colorado-recycling-2026, toyota-tier-iv-l4-investment-2026, waymo-arizona-expansion-2026, tesla-cybercab-specs-2026, mobileye-robotaxi-2026, tesla-fsd-netherlands-2026, ev-news-2026-06-22, ev-news-2026-07-13-digitimes, ev-news-2026-07-14-16-electrive, ev-news-2026-07-21-22-digitimes, ev-news-2026-07-22-24-digitimes, ev-news-2026-07-22-23-electrive-en, ev-news-2026-07-28-digitimes, ev-news-2026-07-28-30-electrive-en, ev-news-2026-08-01-03-en, ev-news-2026-08-04-06-digitimes, ev-news-2026-08-03-06-electrive-en, ev-news-2026-08-06-07-electrive-en, ev-news-2026-08-07-10-electrive-en, ev-news-2026-08-17-18-electrive-en, ev-news-2026-08-20-digitimes, ev-news-2026-08-19-20-cn-misc, ev-news-2026-08-21-23-electrive-en, ev-news-2026-08-21-22-electrive-en, ev-news-2026-08-26-27-electrive-en, ev-news-2026-08-28-digitimes, ev-news-2026-09-04-electrive-en, ev-news-2026-09-07-08-digitimes, ev-news-2026-09-07-08-electrive-en, ev-news-2026-09-08-electrive-en, ev-news-2026-09-16-digitimes, ev-news-2026-09-17-digitimes, ev-news-2026-09-17-electrive-en]
+updated: 2026-09-17
 ---
 
 # Robotaxi（自動計程車）
@@ -506,3 +506,16 @@ Wayve與Uber在倫敦推出自駕叫車服務（UberX、Uber Electric、Uber Com
 - 參見：[[sources/ev-news-2026-09-07-08-digitimes]] | [[sources/ev-news-2026-09-07-08-electrive-en]] | [[entities/Tesla]] | [[countries/美國]] | [[countries/韓國]]
 
 **補充**：Uber裁員報導再剪輯版本補充：對比2020年5月疫情期間裁員6,700人（近全員1/4）的歷史基準，並首度明確點名「Uber與Waymo關係日益緊張」已令部分投資人感到擔憂。參見：[[sources/ev-news-2026-09-08-electrive-en]]
+
+## Waymo攜手日本交通GO東京推L4、日產橫濱擴大測試、Tesla Cybercab遭NHTSA質詢（2026-09）
+
+> **結論**：Waymo與日本叫車平台GO、東京最大計程車業者日本交通達成策略合作，目標2027年在東京推出日本首個L4完全無人駕駛商用服務（初期100輛捷豹路虎i-PACE），同期日產橫濱測試案10月起擴大規模朝2027年事業化邁進，兩案均反映日本Robotaxi產業正從路測階段邁向商轉倒數；美國Tesla Cybercab則遭NHTSA正式發函質詢FMVSS合規性，須9月30日前回覆，凸顯無方向盤/煞車踏板的purpose-built車型在美國自我認證體制下面臨的法規灰色地帶。
+
+**主因**：
+- 日本Robotaxi商業模式罕見由計程車業界主導：Waymo提供核心技術與車隊管理、GO負責叫車App、日本交通主導第一線營運，若採授權費模式恐侵蝕長期獲利；日本《道路運送法》對目的地多變計程車的L4法規仍待完善
+- 日產測試規模穩步擴大：橫濱測試車輛由5輛增至10輛、車站由26增至28，參與廠商精簡至KDDI、國際自動車、Premier Aid及Moplus，顯示技術與事業模式已逐步確立
+- Tesla面臨美國自我認證體制考驗：NHTSA問題清單涵蓋方向燈自動回正、後視鏡及煞車踏板要求，業界先例Zoox取得美國首例商用豁免，Tesla案件走向可能循此模式申請年度配額豁免
+
+**觀察**：Waymo東京服務2027年是否如期商轉；NHTSA對Tesla Cybercab調查結果是否影響其既有45輛營運許可規模。
+
+- 參見：[[sources/ev-news-2026-09-16-digitimes]] | [[sources/ev-news-2026-09-17-digitimes]] | [[sources/ev-news-2026-09-17-electrive-en]] | [[entities/Tesla]] | [[entities/日産]] | [[countries/日本]] | [[countries/美國]]
