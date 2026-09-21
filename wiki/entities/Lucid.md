@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [lucid-cosmos-2026, ev-news-2026-06-27-29-en, ev-news-2026-06-30-07-01, ev-news-2026-07-14-16-electrive, ev-news-2026-07-17-20-digitimes, ev-news-2026-08-03-06-electrive-en, ev-news-2026-08-04-06-cn-misc, ev-news-2026-08-06-07-electrive-en, ev-news-2026-08-07-digitimes, ev-news-2026-08-07-10-electrive-en, ev-news-2026-08-27-29-electrive-en]
-updated: 2026-08-29
+sources: [lucid-cosmos-2026, ev-news-2026-06-27-29-en, ev-news-2026-06-30-07-01, ev-news-2026-07-14-16-electrive, ev-news-2026-07-17-20-digitimes, ev-news-2026-08-03-06-electrive-en, ev-news-2026-08-04-06-cn-misc, ev-news-2026-08-06-07-electrive-en, ev-news-2026-08-07-digitimes, ev-news-2026-08-07-10-electrive-en, ev-news-2026-08-27-29-electrive-en, ev-news-2026-09-19-electrive-en]
+updated: 2026-09-21
 ---
 
 # Lucid Motors
@@ -129,3 +129,9 @@ InsideEVs分析指出，Lucid的Q2淨損擴大至逾10億美元（營收4.05億�
 - [[sources/lucid-cosmos-2026]]
 - [[sources/ev-news-2026-06-27-29-en]]
 - [[sources/ev-news-2026-06-30-07-01]]
+
+## 與Bolt規劃歐洲Robotaxi，至少2.5萬輛（2026-09）
+
+Lucid與Bolt成立策略夥伴，以Lucid下一代中型平台開發L4車輛，Bolt自持並營運至少2.5萬輛（2035年Bolt平台目標10萬輛），軟體基礎採Nvidia Hyperion，Lucid新設Lucid Technologies整合AI與自駕；首批時程與其他夥伴尚未公布。
+
+- 參見：[[sources/ev-news-2026-09-19-electrive-en]] | [[concepts/Robotaxi自動計程車]] | [[countries/歐洲]]

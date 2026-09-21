@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [tesla-ass-nhtsa-probe-closed, tesla-taiwan-march-2026, xiaomi-ev-europe-2027, tesla-4680-musk-strategy, tesla-korea-q1-2026, tesla-q1-2026-earnings, tesla-india-model-y-l, 駐外新聞-美國-2025, ev-news-2026-07-02, ev-news-2026-07-03-08, ev-news-2026-07-09, ev-news-2026-07-10-insideevs-batch, ev-news-2026-07-11, ev-news-2026-07-12-13-digest, ev-news-2026-07-12-13-electrive, ev-news-2026-07-13-digitimes, ev-news-2026-07-14-16-insideevs, ev-news-2026-07-14-16-digitimes, ev-news-2026-07-21-22-digitimes, ev-news-2026-07-20-21-electrive-en, ev-news-2026-07-22-24-digitimes, ev-news-2026-07-22-23-electrive-en, ev-news-2026-07-25-27-digitimes, ev-news-2026-07-28-digitimes, ev-news-2026-07-28-30-electrive-en, ev-news-2026-08-01-03-cn, ev-news-2026-08-01-03-en, ev-news-2026-08-04-06-digitimes, ev-news-2026-08-03-06-electrive-en, ev-news-2026-08-04-06-cn-misc, ev-news-2026-08-07-digitimes, ev-news-2026-08-06-07-cn-misc, ev-news-2026-08-06-07-electrive-en, ev-news-2026-08-06-10-cn-misc, ev-news-2026-08-07-10-electrive-en, ev-news-2026-08-13-15-electrive-en, ev-news-2026-08-19-digitimes, ev-news-2026-08-20-digitimes, ev-news-2026-08-19-20-cn-misc, ev-news-2026-08-21-digitimes, ev-news-2026-08-21-23-electrive-en, ev-news-2026-08-26-digitimes, ev-news-2026-08-21-26-cn-misc, ev-news-2026-08-26-27-electrive-en, ev-news-2026-08-27-29-electrive-en, ev-news-2026-08-30-31-cn-misc, ev-news-2026-09-07-08-electrive-en, ev-news-2026-09-07-08-digest, ev-news-2026-09-09-electrive-en, ev-news-2026-09-09-digest, ev-news-2026-09-14-digest, ev-news-2026-09-14-digitimes, ev-news-2026-09-15-electrive-en, ev-news-2026-09-15-digitimes, ev-news-2026-09-15-digest, ev-news-2026-09-17-electrive-en]
-updated: 2026-09-17
+sources: [tesla-ass-nhtsa-probe-closed, tesla-taiwan-march-2026, xiaomi-ev-europe-2027, tesla-4680-musk-strategy, tesla-korea-q1-2026, tesla-q1-2026-earnings, tesla-india-model-y-l, 駐外新聞-美國-2025, ev-news-2026-07-02, ev-news-2026-07-03-08, ev-news-2026-07-09, ev-news-2026-07-10-insideevs-batch, ev-news-2026-07-11, ev-news-2026-07-12-13-digest, ev-news-2026-07-12-13-electrive, ev-news-2026-07-13-digitimes, ev-news-2026-07-14-16-insideevs, ev-news-2026-07-14-16-digitimes, ev-news-2026-07-21-22-digitimes, ev-news-2026-07-20-21-electrive-en, ev-news-2026-07-22-24-digitimes, ev-news-2026-07-22-23-electrive-en, ev-news-2026-07-25-27-digitimes, ev-news-2026-07-28-digitimes, ev-news-2026-07-28-30-electrive-en, ev-news-2026-08-01-03-cn, ev-news-2026-08-01-03-en, ev-news-2026-08-04-06-digitimes, ev-news-2026-08-03-06-electrive-en, ev-news-2026-08-04-06-cn-misc, ev-news-2026-08-07-digitimes, ev-news-2026-08-06-07-cn-misc, ev-news-2026-08-06-07-electrive-en, ev-news-2026-08-06-10-cn-misc, ev-news-2026-08-07-10-electrive-en, ev-news-2026-08-13-15-electrive-en, ev-news-2026-08-19-digitimes, ev-news-2026-08-20-digitimes, ev-news-2026-08-19-20-cn-misc, ev-news-2026-08-21-digitimes, ev-news-2026-08-21-23-electrive-en, ev-news-2026-08-26-digitimes, ev-news-2026-08-21-26-cn-misc, ev-news-2026-08-26-27-electrive-en, ev-news-2026-08-27-29-electrive-en, ev-news-2026-08-30-31-cn-misc, ev-news-2026-09-07-08-electrive-en, ev-news-2026-09-07-08-digest, ev-news-2026-09-09-electrive-en, ev-news-2026-09-09-digest, ev-news-2026-09-14-digest, ev-news-2026-09-14-digitimes, ev-news-2026-09-15-electrive-en, ev-news-2026-09-15-digitimes, ev-news-2026-09-15-digest, ev-news-2026-09-17-electrive-en, ev-news-2026-09-18-digitimes, ev-news-2026-09-18-electrive-en, ev-news-2026-09-18-digest, ev-news-2026-09-19-electrive-en, ev-news-2026-09-20-digest]
+updated: 2026-09-21
 ---
 
 # Tesla
@@ -535,3 +535,16 @@ Tesla於IAA Transportation公布歐洲版Semi規格：採標準版電池（推�
 美國國家公路交通安全管理局（NHTSA）向Tesla發出詳細問題清單，要求說明Cybercab如何符合聯邦機動車安全標準（FMVSS）自我認證流程，須於9月30日前回覆，問題涵蓋方向燈自動回正機制（Cybercab無方向盤故不具備）、後視鏡及煞車踏板要求（僅具電子致動煞車、無踏板）；業界先例參照Amazon旗下Zoox同樣自我認證無方向盤車型遭調查後取得美國首例商用豁免，Tesla案件走向可能循此模式申請年度配額豁免。同期Tesla於IAA Transportation公布歐洲貨卡超充網路首階段21站規劃（逾100個MCS充電點，英國2站、瑞典3站，多數集中德法荷比），Megacharger最高輸出達1.2MW（與北美同規，暗示未來可能引入長續航版Semi），2027年中隨歐洲版Semi交車同步啟用。
 
 - 參見：[[sources/ev-news-2026-09-17-electrive-en]] | [[concepts/北美EV關稅與政策]] | [[concepts/電動卡車市場]] | [[countries/美國]] | [[countries/歐洲]]
+
+## Cybercab東京／上海展示、歐洲Megacharger、Optimus赴中審廠與Terafab（2026-09）
+
+> **結論**：Tesla同週在四條線推進——Cybercab於東京（9/11）與上海（9/17~21）靜態展出、Semi歐洲Megacharger首波逾100座、Optimus赴中量產審廠並新增約5,000台訂單、馬斯克以「台灣晶片風險」說明自建Terafab。
+
+**主因**：
+- Cybercab：已於美國7城營運（德州9/3起載客），日本與中國僅展示、不銷售，目的在推動FSD與L4法規放行；純視覺（8鏡頭）配置與無方向盤設計面臨NHTSA合規質詢，是規模化最大變數
+- 充電：Megacharger最高1.2MW、30分鐘充至60%，雙座組合價16.3萬歐元；Forum Mobility加州擴充中，Tesla將營運3個公共站，Semi已有逾330輛訂單（Rancho Dominguez）
+- Optimus：2026年目標約5萬台，參照車規要求單台成本收斂至2萬美元內，並將部分製造由美國轉移至中國供應鏈（均勝電子漲停、拓普＋4.36%、三花＋2.70%）；Terafab預估2027年底前製出可用晶片
+
+**觀察**：NHTSA對Cybercab的回覆（9月30日期限，見09-17前期）與日本是否鬆綁FSD；Optimus Gen3量產節點與中國供應鏈占比。
+
+- 參見：[[sources/ev-news-2026-09-18-digitimes]] | [[sources/ev-news-2026-09-18-electrive-en]] | [[sources/ev-news-2026-09-18-digest]] | [[sources/ev-news-2026-09-19-electrive-en]] | [[sources/ev-news-2026-09-20-digest]] | [[entities/NHTSA]] | [[concepts/人形機器人]]

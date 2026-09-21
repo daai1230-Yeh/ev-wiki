@@ -1,7 +1,7 @@
 ---
 tags: [concept]
-sources: [tesla-canada-model3-2026, nissan-mississippi-ev-abandonment, china-evs-canada-chery-geely-2026, ford-catl-michigan-factory-2026, china-ev-us-market-2026, nissan-canada-dongfeng-ev-quota-2026, ev-news-2026-09-07-08-electrive-en, ev-news-2026-09-09-electrive-en, ev-news-2026-09-14-digest, ev-news-2026-09-11-digitimes, ev-news-2026-09-14-digitimes, ev-news-2026-09-17-digitimes, ev-news-2026-09-17-digest, ev-news-2026-09-17-electrive-en]
-updated: 2026-09-17
+sources: [tesla-canada-model3-2026, nissan-mississippi-ev-abandonment, china-evs-canada-chery-geely-2026, ford-catl-michigan-factory-2026, china-ev-us-market-2026, nissan-canada-dongfeng-ev-quota-2026, ev-news-2026-09-07-08-electrive-en, ev-news-2026-09-09-electrive-en, ev-news-2026-09-14-digest, ev-news-2026-09-11-digitimes, ev-news-2026-09-14-digitimes, ev-news-2026-09-17-digitimes, ev-news-2026-09-17-digest, ev-news-2026-09-17-electrive-en, ev-news-2026-09-20-digest, ev-news-2026-09-18-digest]
+updated: 2026-09-21
 ---
 
 # 北美 EV 關稅與政策
@@ -168,3 +168,12 @@ Polestar H1 2026財報顯示，美國商務部拒絕給予其連網車規則（2
 中方傳考慮將比亞迪納入習近平9月24日訪美代表團名單，惟比亞迪已遭美國國防部列入黑名單且面臨100%關稅，若成行恐被視為挑釁意味濃厚的安排；川普稍早受訪表示若中國車廠赴美設廠雇用美國勞工「可以接受」，惟美國汽車生產商協會（AAPC）強烈反對。同期NHTSA向Tesla發出詳細問題清單要求說明Cybercab如何符合聯邦機動車安全標準自我認證流程，須9月30日前回覆，業界先例Zoox取得美國首例商用豁免，Tesla案件走向可能循此模式申請年度配額豁免。
 
 - 參見：[[sources/ev-news-2026-09-17-digitimes]] | [[sources/ev-news-2026-09-17-digest]] | [[sources/ev-news-2026-09-17-electrive-en]] | [[entities/比亞迪]] | [[entities/Tesla]] | [[countries/美國]]
+
+## 車業團體致函川普，川習峰會前汽車議題升溫（2026-09）
+
+> **結論**：9月24日川習峰會前，美國汽車政策委員會（AAPC）與Auto Drives America等團體聯名致函川普，要求「堅定拒絕」中國車廠在美銷售、進口或生產，直接對抗川普「雇用美國工人就可以接受」的表態；比亞迪傳列訪美代表團使議題更敏感。
+
+**主因**：高關稅使美國尚未面臨歐洲式的中國車湧入 → 團體擔心「在美設廠」開門後衝擊本土產業與就業；連網車資安不會因在地組裝而消除；川習峰會可能牽動比亞迪加州電動巴士廠、福特合資設廠等既有討論（見09-17）。另美國純電Q2市佔僅6%、HEV達16%，稅額抵免2025年9月30日到期後政策不確定性升高。
+**觀察**：9月24日峰會結論；川普是否維持對第三國（如墨西哥）進口中國車的反對立場。
+
+- 參見：[[sources/ev-news-2026-09-20-digest]] | [[sources/ev-news-2026-09-18-digest]] | [[countries/美國]] | [[countries/中國]]

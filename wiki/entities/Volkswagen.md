@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [vw-restructure-china-offensive-2026, ev-news-2026-06-27-29-en, ev-news-2026-06-30-07-01, ev-news-2026-07-02, ev-news-2026-07-03-08, ev-news-2026-07-10-supplement, ev-news-2026-07-12-13-electrive, ev-news-2026-07-14-16-electrive, ev-news-2026-07-17-20-digitimes, ev-news-2026-07-20-21-electrive-en, ev-news-2026-07-22-23-electrive-en, ev-news-2026-07-25-27-digitimes, ev-news-2026-07-24-27-electrive-en, ev-news-2026-07-24-28-electrive-en, ev-news-2026-07-29-31-digitimes, ev-news-2026-07-28-30-electrive-en, ev-news-2026-08-04-06-digitimes, ev-news-2026-08-03-06-electrive-en, ev-news-2026-08-07-10-electrive-en, ev-news-2026-08-13-digitimes, ev-news-2026-08-14-17-digitimes, ev-news-2026-08-18-digitimes, ev-news-2026-07-23-08-24-etauto-india, ev-news-2026-09-07-08-electrive-en, ev-news-2026-09-07-08-digest, ev-news-2026-09-08-electrive-en, ev-news-2026-09-09-electrive-en, ev-news-2026-09-09-10-etauto-india, ev-news-2026-09-11-electrive-en, ev-news-2026-09-15-electrive-en, ev-news-2026-09-17-electrive-en]
-updated: 2026-09-17
+sources: [vw-restructure-china-offensive-2026, ev-news-2026-06-27-29-en, ev-news-2026-06-30-07-01, ev-news-2026-07-02, ev-news-2026-07-03-08, ev-news-2026-07-10-supplement, ev-news-2026-07-12-13-electrive, ev-news-2026-07-14-16-electrive, ev-news-2026-07-17-20-digitimes, ev-news-2026-07-20-21-electrive-en, ev-news-2026-07-22-23-electrive-en, ev-news-2026-07-25-27-digitimes, ev-news-2026-07-24-27-electrive-en, ev-news-2026-07-24-28-electrive-en, ev-news-2026-07-29-31-digitimes, ev-news-2026-07-28-30-electrive-en, ev-news-2026-08-04-06-digitimes, ev-news-2026-08-03-06-electrive-en, ev-news-2026-08-07-10-electrive-en, ev-news-2026-08-13-digitimes, ev-news-2026-08-14-17-digitimes, ev-news-2026-08-18-digitimes, ev-news-2026-07-23-08-24-etauto-india, ev-news-2026-09-07-08-electrive-en, ev-news-2026-09-07-08-digest, ev-news-2026-09-08-electrive-en, ev-news-2026-09-09-electrive-en, ev-news-2026-09-09-10-etauto-india, ev-news-2026-09-11-electrive-en, ev-news-2026-09-15-electrive-en, ev-news-2026-09-17-electrive-en, ev-news-2026-09-18-electrive-en]
+updated: 2026-09-21
 ---
 
 # Volkswagen（福斯集團）
@@ -362,3 +362,16 @@ Skoda Auto Volkswagen India傳與JSW集團洽談合資，最快10月初簽署非
 VW發表ID.3 GTI（240kW/545Nm，0-100km/h 5.6秒，較GTX Performance快0.1秒），為史上最強量產GTI並首度採後驅配置（打破GTI傳統前驅／四驅慣例），沿用已停產的ID.3 GTX Performance動力系統，79kWh電池WLTP續航601km、183kW快充29分鐘達80%（較GTX慢3分鐘）；新增GTI專屬駕駛模式、人工引擎音效及復古儀表顯示，2027年Q1歐洲上市，售價未公布。
 
 - 參見：[[sources/ev-news-2026-09-17-electrive-en]] | [[countries/歐洲]]
+
+## Audi A4 e-tron傳延至2029、MOIA募資失利、Rivian R2成電子架構捐贈者（2026-09）
+
+> **結論**：福斯集團的電動化進度與外部資本同時出現裂縫——SSP架構導入問題使純電A4 e-tron由2028年推遲至最快2029年3月，Robotaxi子公司MOIA在Uber、Lyft退出後短期難以找到投資人。
+
+**主因**：
+- 架構延誤：SSP採Rivian技術（福斯已投入近60億美元），電子架構問題使Audi中型純電房車缺席，BMW i3（Neue Klasse）享有更長時間窗口
+- 資本壓力：福斯處於成本削減與四座德國廠關閉的重整，MOIA／VW ADMT需數十億歐元規模化資金；投資人對計價方式（每公里或每車）、車型（ID. Buzz AD）與是否追加投資意見分歧
+- 對外：小鵬對福斯的研發服務推升其Q2服務營收年增93.9%，並準備輸出至福斯以外車廠；德國三邦總理聯名要求「Made in EU」，福斯所在的下薩克森邦為連署方之一
+
+**觀察**：SSP首款量產車時程是否再延；MOIA是否縮編或出售；Uber在美部署ID. Buzz AD是否如期。
+
+- 參見：[[sources/ev-news-2026-09-18-electrive-en]] | [[entities/Rivian]] | [[entities/小鵬汽車]] | [[concepts/Robotaxi自動計程車]] | [[countries/德國]]

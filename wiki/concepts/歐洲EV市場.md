@@ -1,7 +1,7 @@
 ---
 tags: [concept]
-sources: [cupra-raval-launch, vw-id4-id5-battery-update, mgs6-ev-first-drive, opel-peugeot-long-range-delay, europe-battery-capacity-cuts, byd-denza-europe-debut, germany-ev-incentive-2026, vw-id3-neo-premiere, honda-eny1-withdrawal-europe, nissan-chery-sunderland-plant, acea-eu-ev-q1-2026, vw-id-polo-launch, polestar-3-800v-upgrade, audi-q4-etron-facelift-2026, gwm-ora03-uk-exit, netherlands-ev-scrappage-2026, porsche-cayenne-coupe-electric, uk-ev-2million-2026, vw-gamechanger-production, zeekr-x-2026-europe, morrow-batteries-insolvency, citroen-china-ev-strategy-2026, jpmorgan-china-ev-europe-2028, eu-iaa-japan-auto-protest-2026, bmw-ix3-neue-klasse-2026, volvo-ex60-production-2026, audi-a2-etron-testing-2026, kia-ev2-first-drive-2026, stellantis-fastlane-2030, nordic-ev-april-2026, europe-v2g-bidirectional-2026, tesla-fsd-eu-expansion-2026, china-ev-europe-factory-takeover-2026, europe-ev-market-may2026, eu-battery-tariff-2027-delay-2026, citroen-15k-electric-2cv-2026, uk-zev-mandate-relaxation-2026, eu-automotive-package-2035-2026, vwcv-id-buzz-2026-update, opel-formula-e-gse27fe-2026]
-updated: 2026-06-22
+sources: [cupra-raval-launch, vw-id4-id5-battery-update, mgs6-ev-first-drive, opel-peugeot-long-range-delay, europe-battery-capacity-cuts, byd-denza-europe-debut, germany-ev-incentive-2026, vw-id3-neo-premiere, honda-eny1-withdrawal-europe, nissan-chery-sunderland-plant, acea-eu-ev-q1-2026, vw-id-polo-launch, polestar-3-800v-upgrade, audi-q4-etron-facelift-2026, gwm-ora03-uk-exit, netherlands-ev-scrappage-2026, porsche-cayenne-coupe-electric, uk-ev-2million-2026, vw-gamechanger-production, zeekr-x-2026-europe, morrow-batteries-insolvency, citroen-china-ev-strategy-2026, jpmorgan-china-ev-europe-2028, eu-iaa-japan-auto-protest-2026, bmw-ix3-neue-klasse-2026, volvo-ex60-production-2026, audi-a2-etron-testing-2026, kia-ev2-first-drive-2026, stellantis-fastlane-2030, nordic-ev-april-2026, europe-v2g-bidirectional-2026, tesla-fsd-eu-expansion-2026, china-ev-europe-factory-takeover-2026, europe-ev-market-may2026, eu-battery-tariff-2027-delay-2026, citroen-15k-electric-2cv-2026, uk-zev-mandate-relaxation-2026, eu-automotive-package-2035-2026, vwcv-id-buzz-2026-update, opel-formula-e-gse27fe-2026, ev-news-2026-09-20-digest, ev-news-2026-09-18-electrive-en]
+updated: 2026-09-21
 ---
 
 # 歐洲 EV 市場
@@ -634,3 +634,12 @@ AMG.EA 平台首款車，技術指標打破西方車廠記錄：
 - [[sources/jlr-ema-hybrid-2026]]
 - [[sources/bmw-i3-neue-klasse-preorders-2026]]
 - [[sources/bmw-china-clar-phaseout-2026]]
+
+## 8月BEV占比30.5%、遠超預期；HEV進口與德國「Made in EU」訴求（2026-09）
+
+> **結論**：歐洲16個主要市場8月BEV註冊20.28萬輛、年增54.2%、占比30.5%，1~8月累計167萬輛（年增33.1%），高於T&E全年預測23%與Rho Motion約21%；但中國HEV快速進入使歐盟升高貿易防衛。
+
+**主因**：法國38.3%、德國32.5%、挪威98.7%；BMW Debrecen廠三班制（iX3歐洲10萬張訂單）與Mercedes GLA純電量產顯示歐系新平台供給就位；中國HEV月銷十倍成長 → 德國三邦聯名要求Made in EU與《產業加速法》。
+**觀察**：全年占比是否進一步上修；10月歐盟對中HEV限制談判。
+
+- 參見：[[sources/ev-news-2026-09-20-digest]] | [[sources/ev-news-2026-09-18-electrive-en]] | [[countries/歐洲]] | [[countries/德國]]

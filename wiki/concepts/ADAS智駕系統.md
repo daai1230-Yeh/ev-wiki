@@ -1,7 +1,7 @@
 ---
 tags: [concept]
-sources: [byd-dipilot-adas-2026, robotaxi-market-2026, toyota-adas-vs-fsd-subscription, hyundai-pleos-sdv-os, in-cabin-ai-sensing-2026, l2plus-adas-adoption-2026, rivian-lidar-china-partner-2026, hyundai-kia-atria-ai-gwangju-2026, hesai-color-lidar-2026, ev-news-digest-jun1-10-2026, ev-news-2026-06-27-29-en, ev-news-2026-06-30-07-01, ev-news-2026-06-29-zh, ev-news-2026-07-02, ev-news-2026-07-03-08, ev-news-2026-07-09, ev-news-2026-07-21-22-digitimes, ev-news-2026-07-22-23-electrive-en, ev-news-2026-08-24-digitimes, ev-news-2026-08-27-digitimes, ev-news-2026-08-28-digitimes, ev-news-2026-08-30-31-cn-misc, ev-news-2026-09-07-08-digitimes, ev-news-2026-09-08-electrive-en, ev-news-2026-09-09-digitimes, ev-news-2026-09-11-digitimes, ev-news-2026-09-15-digitimes, ev-news-2026-09-16-digitimes]
-updated: 2026-09-17
+sources: [byd-dipilot-adas-2026, robotaxi-market-2026, toyota-adas-vs-fsd-subscription, hyundai-pleos-sdv-os, in-cabin-ai-sensing-2026, l2plus-adas-adoption-2026, rivian-lidar-china-partner-2026, hyundai-kia-atria-ai-gwangju-2026, hesai-color-lidar-2026, ev-news-digest-jun1-10-2026, ev-news-2026-06-27-29-en, ev-news-2026-06-30-07-01, ev-news-2026-06-29-zh, ev-news-2026-07-02, ev-news-2026-07-03-08, ev-news-2026-07-09, ev-news-2026-07-21-22-digitimes, ev-news-2026-07-22-23-electrive-en, ev-news-2026-08-24-digitimes, ev-news-2026-08-27-digitimes, ev-news-2026-08-28-digitimes, ev-news-2026-08-30-31-cn-misc, ev-news-2026-09-07-08-digitimes, ev-news-2026-09-08-electrive-en, ev-news-2026-09-09-digitimes, ev-news-2026-09-11-digitimes, ev-news-2026-09-15-digitimes, ev-news-2026-09-16-digitimes, ev-news-2026-09-18-digest, ev-news-2026-09-19-digest, ev-news-2026-09-18-electrive-en]
+updated: 2026-09-21
 ---
 
 # ADAS 智駕系統（Advanced Driver Assistance System）
@@ -419,3 +419,9 @@ GM 與美光（Micron）簽署 **第 16 份供應協議（SCA）**，涵蓋汽�
 **補充**：現代汽車集團採「雙軌」戰略加速自駕量產——先用NVIDIA已驗證平台（2028年L2+/L2++量產），同時自主開發「Atria AI」（2029下半量產），透過約40輛IONIQ 5資料收集車在首爾全天候運行建立「Data Flywheel」資料飛輪，整合現代/起亞/42dot/Motional多源資料形成規模優勢，判斷自駕競爭本質為「資料與學習速度的競爭」。參見：[[sources/ev-news-2026-09-15-digitimes]] | [[entities/現代汽車]]
 
 **補充**：Tier IV宣布開源自駕AI晶片設計劍指NVIDIA主導地位（「軟體定義SoC」概念），惟豐田Level 2++已採用NVIDIA「DRIVE AGX」；豐田同步跟隨日產、本田公開E2E AI自駕規畫，私家車Level 2++與商用車Level 4共用混合規則導向架構，2028年量產、2030年推廣商用車。參見：[[sources/ev-news-2026-09-16-digitimes]] | [[entities/豐田]]
+
+## ARTC自研DMS視線追蹤與橫向主動安全導入L3電巴；小鵬輸出智駕（2026-09）
+
+台灣ARTC在2026 TIE展出兩項自研技術並導入國內首輛L3自駕電巴：AI駕駛視線追蹤（口罩、墨鏡、逆光皆可辨識，約10 TOPS即可運行，對應UN R171／R157）與橫向主動安全系統（緊急避障、主動換道、最小風險管理，無需光達、可降約20%側撞與追撞、產值約30億元）；小鵬另計畫將智慧座艙、Turing晶片與ADAS軟體授權至VW以外車廠。意涵：法規導向的DMS與MRM成為L3落地的必要條件，台灣以低成本感測（影像＋雷達）路線切入。
+
+- 參見：[[sources/ev-news-2026-09-18-digest]] | [[sources/ev-news-2026-09-19-digest]] | [[sources/ev-news-2026-09-18-electrive-en]] | [[entities/小鵬汽車]] | [[countries/台灣]]

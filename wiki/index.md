@@ -1,6 +1,6 @@
 # Wiki Index
 
-Last updated: 2026-09-17 | Pages: 490 | Sources: 499
+Last updated: 2026-09-21 | Pages: 490 | Sources: 509
 
 ---
 
@@ -45,6 +45,16 @@ Last updated: 2026-09-17 | Pages: 490 | Sources: 499
 - [[sources/ev-news-2026-09-17-india]] — India批次3篇：印歐FTA電動車配額細節（合計31.5萬輛）、Ultraviolette擴產25萬輛、印度8月PV出貨創新高。(2026-09-17)
 - [[sources/ev-news-2026-09-17-digitimes]] — Digitimes批次5篇：傳王傳福入列習近平訪美代表團、裕日車揭台灣NEV滲透率上看50%、日產橫濱擴大L4測試、本田Astemo馬達擴產、豐田擴大氫能商用車版圖。(2026-09-17)
 - [[sources/ev-news-2026-09-17-digest]] — Google Alerts批次1篇：比亞迪入列習近平訪美代表團補充分析。(2026-09-17)
+- [[sources/ev-news-2026-09-18-electrive-en]] — electrive/InsideEVs批次23篇：IAA電卡賽後回顧、歐盟促中國自願限制HEV、Audi A4 e-tron延至2029、MOIA募資失利、Volvo 13款新車與PHEV 200公里、小鵬技術輸出、Quantron China、Tesla歐洲Megacharger、Porsche 100%回收正極材。(2026-09-18)
+- [[sources/ev-news-2026-09-18-digitimes]] — Digitimes批次8篇：本田次世代HEV提前至2027年2月、豐田年投1兆日圓與40萬台機器人、泰國進口EV消費稅最高30%、比亞迪歐洲4廠、Cybercab東京展示、南北本田暫無合併。(2026-09-18)
+- [[sources/ev-news-2026-09-18-digest]] — 中文財經媒體批次10篇：泰國皮卡鏈危機與198案41億美元投資、中國8月出口101萬輛、美國HEV占16%、Cybercab上海展示、鴻海×Quantron、ARTC L3電巴技術。(2026-09-18)
+- [[sources/ev-news-2026-09-19-electrive-en]] — electrive/InsideEVs批次8篇：Lucid×Bolt歐洲Robotaxi、Factorial固態電池聯盟、Forum Mobility加州卡車充電、赫爾辛基商用車純電、巴基斯坦警用Atto 2、Isuzu泰國換電。(2026-09-19)
+- [[sources/ev-news-2026-09-19-digest]] — 中文媒體1篇：ARTC視線追蹤與橫向主動安全補充。(2026-09-19)
+- [[sources/ev-news-2026-09-20-digest]] — 中文財經媒體批次8篇：豐田2027年中國EREV、歐洲8月BEV占30.5%、美車業團體致函川普、Optimus赴中審廠、Terafab、美國8月EV銷售。(2026-09-20)
+- [[sources/ev-news-2026-09-20-india]] — ETAuto標題摘要1篇：比亞迪召回逾18萬輛、印度商用車批發年增30.7%。(2026-09-20)
+- [[sources/ev-news-2026-09-21-electrive-en]] — electrive批次5篇：Delivan英國100+據點、Onsemi EPP、Grab自駕50輛、Volvo PHEV、Factorial×Mitsui Kinzoku。(2026-09-21)
+- [[sources/ev-news-2026-09-21-digitimes]] — Digitimes批次6篇：中國內銷連11月下滑外銷撐盤、隔離膜中國佔91.5%、鴻海×Quantron、Panasonic研發整併、Whill。(2026-09-21)
+- [[sources/ev-news-2026-09-21-india]] — ETAuto標題摘要1篇：Montra重卡、Volvo新任執行長傳聞。(2026-09-21)
 
 ### 電動乘用車
 - [[sources/ev-news-2026-08-27-29-electrive-en]] — electrive/InsideEVs批次21篇：BMW突破200萬輛EV銷售、BYD超快充電池耐久測試（9天350次快充僅剩1.3%衰減）、中國門把手召回歐洲KBA/RDW調查、Tesla Cybercab奧斯汀發表活動將至、Rivian財務長離職、Lucid召回2.7萬輛。(2026-08-29)

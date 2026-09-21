@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [lges-bmw-46series-order, ev-news-2026-06-30-07-01, ev-news-2026-07-10-electrive-batch, ev-news-2026-07-12-13-electrive, ev-news-2026-07-24-27-electrive-en, ev-news-2026-07-29-31-digitimes, ev-news-2026-07-28-30-electrive-en, ev-news-2026-08-27-29-electrive-en]
-updated: 2026-08-29
+sources: [lges-bmw-46series-order, ev-news-2026-06-30-07-01, ev-news-2026-07-10-electrive-batch, ev-news-2026-07-12-13-electrive, ev-news-2026-07-24-27-electrive-en, ev-news-2026-07-29-31-digitimes, ev-news-2026-07-28-30-electrive-en, ev-news-2026-08-27-29-electrive-en, ev-news-2026-09-18-electrive-en]
+updated: 2026-09-21
 ---
 
 # BMW（寶馬）
@@ -143,3 +143,12 @@ BMW調降英國iX1/iX2售價使其符合£3,750電動車補貼（ECG）最高級
 **觀察**：Woodruff廠2026年底量產進度是否如期；中國iX5與Momenta合作的自駕輔助表現能否對抗本土品牌。
 
 - 參見：[[sources/ev-news-2026-07-29-31-digitimes]] | [[sources/ev-news-2026-07-28-30-electrive-en]] | [[countries/美國]] | [[countries/中國]]
+
+## Debrecen廠iX3改三班制，歐洲訂單10萬張（2026-09）
+
+> **結論**：Neue Klasse首款iX3在匈牙利Debrecen廠9月起由兩班制改三班制，並稱歐洲已累計10萬張訂單，為BMW新廠最快爬坡（約8個月）。
+
+**主因**：需求超預期 → 產能爬坡（2025年10月投產、3月兩班、9月三班）；2027年墨西哥廠平行生產，中國另有國產長軸版。Audi A4 e-tron延後至2029年，使iX3與i3在同級距的窗口延長。
+**觀察**：匈牙利政府對中資電池廠（CATL）的審查是否影響區域供應；墨西哥廠2027年爬坡。
+
+- 參見：[[sources/ev-news-2026-09-18-electrive-en]] | [[countries/德國]] | [[entities/Volkswagen]]

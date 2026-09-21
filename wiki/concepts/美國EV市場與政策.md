@@ -1,7 +1,7 @@
 ---
 tags: [concept]
-sources: [gm-ford-q1-2026-sales, us-ev-battery-demand-mismatch, rivian-r2-range-specs, vw-id4-chattanooga-stop, tesla-25k-ev-us-price-parity, slate-auto-ev-pickup, ford-ev-restructure-doug-field, vw-id4-us-writedown, tesla-q1-2026-earnings, gm-ev-delay-detroit-three, nissan-mississippi-ev-abandonment, honda-canada-ev-freeze-2026, tesla-model-s-final-production, mazda-ev-delay-2029, ford-catl-michigan-factory-2026, honda-9b-loss-hybrid-pivot-2026, tesla-model-y-price-bump-2026, congress-ev-annual-fee-2026, rivian-r2-deliveries-2026, chevy-bolt-2027-review, 駐外新聞-美國-2025]
-updated: 2026-06-22
+sources: [gm-ford-q1-2026-sales, us-ev-battery-demand-mismatch, rivian-r2-range-specs, vw-id4-chattanooga-stop, tesla-25k-ev-us-price-parity, slate-auto-ev-pickup, ford-ev-restructure-doug-field, vw-id4-us-writedown, tesla-q1-2026-earnings, gm-ev-delay-detroit-three, nissan-mississippi-ev-abandonment, honda-canada-ev-freeze-2026, tesla-model-s-final-production, mazda-ev-delay-2029, ford-catl-michigan-factory-2026, honda-9b-loss-hybrid-pivot-2026, tesla-model-y-price-bump-2026, congress-ev-annual-fee-2026, rivian-r2-deliveries-2026, chevy-bolt-2027-review, 駐外新聞-美國-2025, ev-news-2026-09-18-digest, ev-news-2026-09-20-digest]
+updated: 2026-09-21
 ---
 
 # 美國 EV 市場與政策
@@ -379,3 +379,12 @@ McKinsey 顧問與 WSJ 報導（駐美投資處 2025-10）指出，美國 EV 退
 - [[sources/nissan-mississippi-ev-abandonment]]
 - [[sources/congress-ev-annual-fee-2026]]
 - [[sources/tesla-model-y-price-bump-2026]]
+
+## 油電車Q2市佔16%創高、純電6%；8月新舊EV雙升（2026-09）
+
+> **結論**：美國Q2 HEV占輕型新車16%創歷史新高、BEV僅6%（上半年6%，低於去年同期7%）；8月新電動車約78,895輛，月增2.5%但年減46.9%（去年為稅收到期前搶購）。
+
+**主因**：稅額抵免2025年9月30日到期；HEV免充電且價格接近汽油車；Tesla市佔降至51.7%，Toyota電動車月增34.9%（bZ4X）；中古EV月增25.9%、EV與燃油車價差縮至9.7%；廠商反應——本田提前HEV、Kia與現代在喬治亞州增加油電。
+**觀察**：Q3數據是否延續；喬治亞州電池廠轉儲能的比重。
+
+- 參見：[[sources/ev-news-2026-09-18-digest]] | [[sources/ev-news-2026-09-20-digest]] | [[countries/美國]]

@@ -1,7 +1,7 @@
 ---
 tags: [concept]
-sources: [robotaxi-market-2026, china-autonomous-driving-overseas, europe-robotaxi-verne-ponyai, waymo-miami-orlando-expansion, taiwan-av-special-scenes, japan-2030-autonomous-ai-strategy, ratp-karsan-autonomous-bus-paris, av-physical-ai-trends-2026, tesla-fsd-eu-expansion-2026, tesla-robotaxi-texas-reality-2026, uber-robotaxi-europe-expansion-2026, waymo-battery-secondlife-colorado-recycling-2026, toyota-tier-iv-l4-investment-2026, waymo-arizona-expansion-2026, tesla-cybercab-specs-2026, mobileye-robotaxi-2026, tesla-fsd-netherlands-2026, ev-news-2026-06-22, ev-news-2026-07-13-digitimes, ev-news-2026-07-14-16-electrive, ev-news-2026-07-21-22-digitimes, ev-news-2026-07-22-24-digitimes, ev-news-2026-07-22-23-electrive-en, ev-news-2026-07-28-digitimes, ev-news-2026-07-28-30-electrive-en, ev-news-2026-08-01-03-en, ev-news-2026-08-04-06-digitimes, ev-news-2026-08-03-06-electrive-en, ev-news-2026-08-06-07-electrive-en, ev-news-2026-08-07-10-electrive-en, ev-news-2026-08-17-18-electrive-en, ev-news-2026-08-20-digitimes, ev-news-2026-08-19-20-cn-misc, ev-news-2026-08-21-23-electrive-en, ev-news-2026-08-21-22-electrive-en, ev-news-2026-08-26-27-electrive-en, ev-news-2026-08-28-digitimes, ev-news-2026-09-04-electrive-en, ev-news-2026-09-07-08-digitimes, ev-news-2026-09-07-08-electrive-en, ev-news-2026-09-08-electrive-en, ev-news-2026-09-16-digitimes, ev-news-2026-09-17-digitimes, ev-news-2026-09-17-electrive-en]
-updated: 2026-09-17
+sources: [robotaxi-market-2026, china-autonomous-driving-overseas, europe-robotaxi-verne-ponyai, waymo-miami-orlando-expansion, taiwan-av-special-scenes, japan-2030-autonomous-ai-strategy, ratp-karsan-autonomous-bus-paris, av-physical-ai-trends-2026, tesla-fsd-eu-expansion-2026, tesla-robotaxi-texas-reality-2026, uber-robotaxi-europe-expansion-2026, waymo-battery-secondlife-colorado-recycling-2026, toyota-tier-iv-l4-investment-2026, waymo-arizona-expansion-2026, tesla-cybercab-specs-2026, mobileye-robotaxi-2026, tesla-fsd-netherlands-2026, ev-news-2026-06-22, ev-news-2026-07-13-digitimes, ev-news-2026-07-14-16-electrive, ev-news-2026-07-21-22-digitimes, ev-news-2026-07-22-24-digitimes, ev-news-2026-07-22-23-electrive-en, ev-news-2026-07-28-digitimes, ev-news-2026-07-28-30-electrive-en, ev-news-2026-08-01-03-en, ev-news-2026-08-04-06-digitimes, ev-news-2026-08-03-06-electrive-en, ev-news-2026-08-06-07-electrive-en, ev-news-2026-08-07-10-electrive-en, ev-news-2026-08-17-18-electrive-en, ev-news-2026-08-20-digitimes, ev-news-2026-08-19-20-cn-misc, ev-news-2026-08-21-23-electrive-en, ev-news-2026-08-21-22-electrive-en, ev-news-2026-08-26-27-electrive-en, ev-news-2026-08-28-digitimes, ev-news-2026-09-04-electrive-en, ev-news-2026-09-07-08-digitimes, ev-news-2026-09-07-08-electrive-en, ev-news-2026-09-08-electrive-en, ev-news-2026-09-16-digitimes, ev-news-2026-09-17-digitimes, ev-news-2026-09-17-electrive-en, ev-news-2026-09-19-electrive-en, ev-news-2026-09-18-electrive-en, ev-news-2026-09-18-digitimes, ev-news-2026-09-21-electrive-en, ev-news-2026-09-18-digest]
+updated: 2026-09-21
 ---
 
 # Robotaxi（自動計程車）
@@ -519,3 +519,16 @@ Wayve與Uber在倫敦推出自駕叫車服務（UberX、Uber Electric、Uber Com
 **觀察**：Waymo東京服務2027年是否如期商轉；NHTSA對Tesla Cybercab調查結果是否影響其既有45輛營運許可規模。
 
 - 參見：[[sources/ev-news-2026-09-16-digitimes]] | [[sources/ev-news-2026-09-17-digitimes]] | [[sources/ev-news-2026-09-17-electrive-en]] | [[entities/Tesla]] | [[entities/日産]] | [[countries/日本]] | [[countries/美國]]
+
+## Lucid×Bolt、MOIA募資受挫、Grab擴車隊與Cybercab日中展示（2026-09）
+
+> **結論**：Robotaxi商業化資本門檻浮現——歐洲出現Lucid×Bolt（至少2.5萬輛、Nvidia Hyperion）的第三條路，但福斯MOIA因Uber與Lyft退出而募資受挫；東亞則由Tesla Cybercab展示與Grab／WeRide擴車隊帶動。
+
+**主因**：
+- 資本：MOIA需數億歐元起跳、計價與車型分歧使談判破局 → 車廠獨力承擔規模化成本困難，「叫車平台自持車隊」（Bolt）成為替代
+- 車隊規模：Grab新加坡由10輛擴至50輛（累計11萬公里、載客1.2萬人、候補逾1,000人），2030年目標東南亞數千輛
+- 法規：Cybercab在日本（9/11）與上海（9/17~21）只展不賣，美國已在7城營運；日本L4事業2027~2028年展開，Cybercab與FSD尚未通過認證；NHTSA對無方向盤合規質詢
+
+**觀察**：Bolt／Lucid首批上路時程；MOIA最終出路；日本FSD解禁時程。
+
+- 參見：[[sources/ev-news-2026-09-19-electrive-en]] | [[sources/ev-news-2026-09-18-electrive-en]] | [[sources/ev-news-2026-09-18-digitimes]] | [[sources/ev-news-2026-09-21-electrive-en]] | [[entities/Lucid]] | [[entities/Tesla]]

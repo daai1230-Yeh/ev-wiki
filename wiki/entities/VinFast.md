@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [vinfast-india-investment, ev-news-2026-07-20-21-electrive-en]
-updated: 2026-07-22
+sources: [vinfast-india-investment, ev-news-2026-07-20-21-electrive-en, ev-news-2026-09-18-electrive-en]
+updated: 2026-09-21
 ---
 
 # VinFast
@@ -50,3 +50,12 @@ VinFast 是越南最大企業集團 Vingroup 旗下的電動車品牌，被稱�
 - [[concepts/地理市場/東南亞EV市場]]
 - [[sources/vinfast-india-investment]]
 - [[sources/ev-news-2026-07-20-21-electrive-en]]
+
+## 印度策略改為市場專屬車款（2026-09）
+
+> **結論**：VinFast承認全球車款在印度無法達成在地製造成本目標，暫停VF 6／7／3的在地化開發，改評估代號VF X（目標低於1.2萬美元，對標Tata Punch.ev／Nexon.ev）與VF Y。
+
+**主因**：自2025年9月上市僅售約1萬輛，圖蒂科林廠年產能5萬輛（可擴至15萬）利用率偏低 → 7月已請供應商暫停開發並提交待補償投資 → 8月與約200家印度供應商會談，從設計階段導入本地供應商。
+**觀察**：VF X的定價與設計凍結時程；印度歐盟FTA與本地稅制對進口散件（CKD）的影響。
+
+- 參見：[[sources/ev-news-2026-09-18-electrive-en]] | [[countries/印度]] | [[concepts/印度EV市場]]

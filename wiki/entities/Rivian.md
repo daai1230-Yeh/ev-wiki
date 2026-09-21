@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [rivian-r2-range-specs, rivian-service-network-2026, rivian-lidar-china-partner-2026, ev-news-2026-07-03-08, ev-news-2026-07-24-28-electrive-en, ev-news-2026-08-03-06-electrive-en, ev-news-2026-08-07-10-electrive-en, ev-news-2026-08-27-29-electrive-en]
-updated: 2026-08-29
+sources: [rivian-r2-range-specs, rivian-service-network-2026, rivian-lidar-china-partner-2026, ev-news-2026-07-03-08, ev-news-2026-07-24-28-electrive-en, ev-news-2026-08-03-06-electrive-en, ev-news-2026-08-07-10-electrive-en, ev-news-2026-08-27-29-electrive-en, ev-news-2026-09-18-electrive-en]
+updated: 2026-09-21
 ---
 
 # Rivian
@@ -138,3 +138,9 @@ Rivian財務長Claire McDonough（任職近6年，任內完成上市、R1T/R1S/�
 - [[sources/rivian-service-network-2026]]
 - [[sources/rivian-lidar-china-partner-2026]]
 - [[sources/ev-news-2026-06-30-07-01]]
+
+## R2試駕：VW電子架構捐贈者，2028年前不到歐洲（2026-09）
+
+R2（約90kWh、531公里、200kW直流快充、車長4.72m）對標Model Y與BMW iX3；福斯累計投入近60億美元、合資公司電子架構用於未來VW車款，但因SSP導入延誤（見Audi A4 e-tron延至2029），Rivian技術對福斯的價值與時程同受關注。
+
+- 參見：[[sources/ev-news-2026-09-18-electrive-en]] | [[entities/Volkswagen]]

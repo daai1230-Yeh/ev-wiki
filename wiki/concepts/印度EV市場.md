@@ -1,7 +1,7 @@
 ---
 tags: [concept]
-sources: [electric-bus-market-2025-global, delhi-ev-policy-2026, vinfast-india-investment, india-ev-commercial-update-2026, india-tata-jsw-battery-rd-2026, mahindra-ev-expansion-2026, ather-energy-el-platform-2026, india-2w-market-fy27-bifurcation-2026, india-1bn-ev-commercial-incentives-2026, china-catl-battery-tech-export-2026, tesla-india-factory-exit-2026, honda-india-ev-hybrid-2026, tata-stellantis-jeep-india-2026, india-electric-bus-market-2025, tata-chery-avinya-platform-2026, delhi-ev-7year-high-2026, toptec-india-battery-equipment-2026]
-updated: 2026-06-12
+sources: [electric-bus-market-2025-global, delhi-ev-policy-2026, vinfast-india-investment, india-ev-commercial-update-2026, india-tata-jsw-battery-rd-2026, mahindra-ev-expansion-2026, ather-energy-el-platform-2026, india-2w-market-fy27-bifurcation-2026, india-1bn-ev-commercial-incentives-2026, china-catl-battery-tech-export-2026, tesla-india-factory-exit-2026, honda-india-ev-hybrid-2026, tata-stellantis-jeep-india-2026, india-electric-bus-market-2025, tata-chery-avinya-platform-2026, delhi-ev-7year-high-2026, toptec-india-battery-equipment-2026, ev-news-2026-09-18-electrive-en, ev-news-2026-09-20-india, ev-news-2026-09-21-india]
+updated: 2026-09-21
 ---
 
 # 印度 EV 市場
@@ -313,3 +313,9 @@ Tata Motors 採用奇瑞汽車 EV 平台技術開發旗下豪華品牌 **Avinya*
 - 印度首例在中印關係緊張背景下引進中國 EV 平台的案例（技術授權，非直接投資）
 - 奇瑞同期藉 Nissan Sunderland 代工進英國，形成「平台出口」戰略版圖
 - 參見：[[sources/tata-chery-avinya-platform-2026]] | [[concepts/中國EV出海策略]]
+
+## VinFast改弦、ETAuto標題與電巴需求（2026-09）
+
+VinFast暫停VF 6／7／3在地化、改研發低於1.2萬美元的VF X；印度商用車8月批發年增30.7%（ICRA）；Ultraviolette交付183輛X-47給加爾各答警方；Montra押注重型電動卡車（2030年營收10億美元目標）。
+
+- 參見：[[sources/ev-news-2026-09-18-electrive-en]] | [[sources/ev-news-2026-09-20-india]] | [[sources/ev-news-2026-09-21-india]] | [[entities/VinFast]] | [[countries/印度]]

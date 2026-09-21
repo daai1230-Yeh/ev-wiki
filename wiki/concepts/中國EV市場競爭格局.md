@@ -1,7 +1,7 @@
 ---
 tags: [concept]
-sources: [china-ev-market-consolidation, chery-qq3-vs-byd-seagull, china-ev-market-q1-2026, mercedes-benz-china-q1-2026, china-nev-april-involution-2026, china-nev-april-2026, xpeng-physical-ai-pivot-2026, ev-news-digest-jun1-10-2026, china-ev-market-slowdown-jun2026, xiaomi-su7-2026-update, byd-great-han-2026]
-updated: 2026-06-16
+sources: [china-ev-market-consolidation, chery-qq3-vs-byd-seagull, china-ev-market-q1-2026, mercedes-benz-china-q1-2026, china-nev-april-involution-2026, china-nev-april-2026, xpeng-physical-ai-pivot-2026, ev-news-digest-jun1-10-2026, china-ev-market-slowdown-jun2026, xiaomi-su7-2026-update, byd-great-han-2026, ev-news-2026-09-21-digitimes, ev-news-2026-09-18-digitimes, ev-news-2026-09-20-digest]
+updated: 2026-09-21
 ---
 
 # 中國 EV 市場競爭格局
@@ -212,3 +212,12 @@ BYD 王朝系列旗艦 SUV 正式上市：
 - [[sources/byd-great-tang-launch-2026]]
 - [[sources/bmw-china-clar-phaseout-2026]]
 - [[sources/bmw-i3-neue-klasse-preorders-2026]]
+
+## 內銷連11個月下滑、廣汽×一汽整併與豐田EREV（2026-09）
+
+> **結論**：中國內銷9月年減24%、連續第11個月下滑，但NEV占比1~7月達56%；供給端在整併與新路線（EREV）上重排。
+
+**主因**：發改委支持大型企業集團兼併重組；廣汽×一汽意向協議涉及一汽豐田部分股權；豐田2027年中國EREV、日產NX8採EREV、小米新款EREV加入；業者稱NEV展間人多、下訂少，批量購買為主。
+**觀察**：南北本田／南北豐田是否再有整合；Q4政策加碼能否止跌。
+
+- 參見：[[sources/ev-news-2026-09-21-digitimes]] | [[sources/ev-news-2026-09-18-digitimes]] | [[sources/ev-news-2026-09-20-digest]] | [[countries/中國]]

@@ -1,7 +1,7 @@
 ---
 tags: [concept]
-sources: [thailand-ev-market-2026, china-autonomous-driving-overseas, foxconn-mitsubishi-fuso-electric-bus, byd-malaysia-factory-negotiation, byd-malaysia-factory-update-2026, malaysia-cbv-ev-regulation-2026, gwm-ora5-thailand-2026, geely-thailand-pickup-2026, mitsubishi-motors-middle-east-routes-2026, mitsubishi-hev-japan-2028, lges-honda-vietnam-bss-2026, volvo-ex30-thailand-fire-2026, hanoi-1000-bss-2026, ev-news-digest-jun1-10-2026]
-updated: 2026-06-10
+sources: [thailand-ev-market-2026, china-autonomous-driving-overseas, foxconn-mitsubishi-fuso-electric-bus, byd-malaysia-factory-negotiation, byd-malaysia-factory-update-2026, malaysia-cbv-ev-regulation-2026, gwm-ora5-thailand-2026, geely-thailand-pickup-2026, mitsubishi-motors-middle-east-routes-2026, mitsubishi-hev-japan-2028, lges-honda-vietnam-bss-2026, volvo-ex30-thailand-fire-2026, hanoi-1000-bss-2026, ev-news-digest-jun1-10-2026, ev-news-2026-09-18-digest, ev-news-2026-09-18-digitimes, ev-news-2026-09-19-electrive-en]
+updated: 2026-09-21
 ---
 
 # 東南亞 EV 市場
@@ -205,3 +205,16 @@ updated: 2026-06-10
 - [[sources/mitsubishi-motors-middle-east-routes-2026]]
 - [[sources/mitsubishi-hev-japan-2028]]
 - [[sources/hanoi-1000-bss-2026]]
+
+## 泰國：進口EV消費稅、皮卡鏈危機與198案41億美元投資（2026-09）
+
+> **結論**：泰國電動車政策由「吸引整車廠」轉向「在地深度」——消費稅最高約30%、198項投資中電池與零組件案件為整車組裝的3.3倍，但皮卡供應鏈因車貸緊縮而先出現現金流斷點。
+
+**主因**：
+- 進口占比：1~7月純電客車125,411輛（年增97.39%），泰國生產僅37.42%、進口逾62.58% → 稅制檢討（三級消費稅，9月底定稿）
+- 投資結構：BEV與HEV各11.8億美元、電池與儲能10億（57案）、零組件3.73億（49案）、充電2.92億（42案）；Sourcing Day促成逾1,200組供應合作
+- 傳統鏈：皮卡月銷由3萬多輛降至1萬多輛、部分產線稼動率低於六成，2025年泰國汽車產量145萬輛，僅為2013年246萬輛的六成；Isuzu換電試驗（Elf EV，換電7分鐘）試探輕卡電動化
+
+**觀察**：9月底消費稅最終稅率；車貸核准條件；本地含量是否成為投資獎勵的約束。
+
+- 參見：[[sources/ev-news-2026-09-18-digest]] | [[sources/ev-news-2026-09-18-digitimes]] | [[sources/ev-news-2026-09-19-electrive-en]] | [[countries/東南亞]]
