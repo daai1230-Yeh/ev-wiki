@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [vinfast-india-investment, ev-news-2026-07-20-21-electrive-en, ev-news-2026-09-18-electrive-en]
-updated: 2026-09-21
+sources: [vinfast-india-investment, ev-news-2026-07-20-21-electrive-en, ev-news-2026-09-18-electrive-en, ev-news-2026-09-22-electrive-en, ev-news-2026-09-22-digest]
+updated: 2026-09-22
 ---
 
 # VinFast
@@ -59,3 +59,9 @@ VinFast 是越南最大企業集團 Vingroup 旗下的電動車品牌，被稱�
 **觀察**：VF X的定價與設計凍結時程；印度歐盟FTA與本地稅制對進口散件（CKD）的影響。
 
 - 參見：[[sources/ev-news-2026-09-18-electrive-en]] | [[countries/印度]] | [[concepts/印度EV市場]]
+
+## Green SM印尼推電動計程車，新韓金融擴大越南資本市場合作（2026-09）
+
+VinFast叫車子公司Green SM在印尼推出500輛Limo Green電動計程車（NEDC續航450公里）與電動機車租賃計畫；韓國新韓金融集團同步將與越南母公司Vingroup的合作由汽車金融延伸至資本市場，取得Vingroup首次阿里郎債券獨家主辦業務（目標2026年Q4發行），此前新韓越南銀行已為VinFast購車客戶累計承作1億美元貸款、上半年為約1.4萬輛VinFast電動機車提供150億韓元分期融資。越南2025年電動車市佔近四成，躍居東南亞最大電動車市場，VinFast旗下V-Green為越南最大充電網（逾15萬樁）。
+
+- 參見：[[sources/ev-news-2026-09-22-electrive-en]] | [[sources/ev-news-2026-09-22-digest]] | [[countries/東南亞]] | [[countries/韓國]]

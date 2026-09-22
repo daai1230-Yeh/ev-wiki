@@ -1,7 +1,7 @@
 ---
 tags: [concept]
-sources: [thailand-ev-market-2026, china-autonomous-driving-overseas, foxconn-mitsubishi-fuso-electric-bus, byd-malaysia-factory-negotiation, byd-malaysia-factory-update-2026, malaysia-cbv-ev-regulation-2026, gwm-ora5-thailand-2026, geely-thailand-pickup-2026, mitsubishi-motors-middle-east-routes-2026, mitsubishi-hev-japan-2028, lges-honda-vietnam-bss-2026, volvo-ex30-thailand-fire-2026, hanoi-1000-bss-2026, ev-news-digest-jun1-10-2026, ev-news-2026-09-18-digest, ev-news-2026-09-18-digitimes, ev-news-2026-09-19-electrive-en]
-updated: 2026-09-21
+sources: [thailand-ev-market-2026, china-autonomous-driving-overseas, foxconn-mitsubishi-fuso-electric-bus, byd-malaysia-factory-negotiation, byd-malaysia-factory-update-2026, malaysia-cbv-ev-regulation-2026, gwm-ora5-thailand-2026, geely-thailand-pickup-2026, mitsubishi-motors-middle-east-routes-2026, mitsubishi-hev-japan-2028, lges-honda-vietnam-bss-2026, volvo-ex30-thailand-fire-2026, hanoi-1000-bss-2026, ev-news-digest-jun1-10-2026, ev-news-2026-09-18-digest, ev-news-2026-09-18-digitimes, ev-news-2026-09-19-electrive-en, ev-news-2026-09-22-digest, ev-news-2026-09-22-electrive-en]
+updated: 2026-09-22
 ---
 
 # 東南亞 EV 市場
@@ -218,3 +218,12 @@ updated: 2026-09-21
 **觀察**：9月底消費稅最終稅率；車貸核准條件；本地含量是否成為投資獎勵的約束。
 
 - 參見：[[sources/ev-news-2026-09-18-digest]] | [[sources/ev-news-2026-09-18-digitimes]] | [[sources/ev-news-2026-09-19-electrive-en]] | [[countries/東南亞]]
+
+## 越南躍居區域最大EV市場，市佔近四成；Green SM印尼擴張（2026-09）
+
+> **結論**：據Vietnam+，越南2025年電動車銷量占新車總銷量近四成，躍居東南亞最大電動車市場；區域2025年電動車銷量翻倍逾50萬輛（每五輛新車一輛電動車），越南、印尼、泰國為三大成長引擎，泰國14萬輛、年增70%居區域第二。
+
+**主因**：越南自2022年起免徵純電動車牌照註冊費，VinFast以親民定價與V-Green逾15萬樁充電網擴大市場基礎；VinFast叫車子公司Green SM在印尼推出500輛Limo Green電動計程車與電動機車租賃，回應荷姆茲海峽衝突推升的油價壓力。
+**觀察**：IEA預測2035年越南電動車銷量占比恐逾80%，充電網路能否同步支撐；印尼、泰國後續增長動能。
+
+- 參見：[[sources/ev-news-2026-09-22-digest]] | [[sources/ev-news-2026-09-22-electrive-en]] | [[entities/VinFast]] | [[countries/東南亞]]

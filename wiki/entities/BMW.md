@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [lges-bmw-46series-order, ev-news-2026-06-30-07-01, ev-news-2026-07-10-electrive-batch, ev-news-2026-07-12-13-electrive, ev-news-2026-07-24-27-electrive-en, ev-news-2026-07-29-31-digitimes, ev-news-2026-07-28-30-electrive-en, ev-news-2026-08-27-29-electrive-en, ev-news-2026-09-18-electrive-en]
-updated: 2026-09-21
+sources: [lges-bmw-46series-order, ev-news-2026-06-30-07-01, ev-news-2026-07-10-electrive-batch, ev-news-2026-07-12-13-electrive, ev-news-2026-07-24-27-electrive-en, ev-news-2026-07-29-31-digitimes, ev-news-2026-07-28-30-electrive-en, ev-news-2026-08-27-29-electrive-en, ev-news-2026-09-18-electrive-en, ev-news-2026-09-22-electrive-en, ev-news-2026-09-22-digitimes]
+updated: 2026-09-22
 ---
 
 # BMW（寶馬）
@@ -152,3 +152,9 @@ BMW調降英國iX1/iX2售價使其符合£3,750電動車補貼（ECG）最高級
 **觀察**：匈牙利政府對中資電池廠（CATL）的審查是否影響區域供應；墨西哥廠2027年爬坡。
 
 - 參見：[[sources/ev-news-2026-09-18-electrive-en]] | [[countries/德國]] | [[entities/Volkswagen]]
+
+## 美國iX3提前交車；SiC元件首獲羅姆供應（2026-09）
+
+美國iX3因強勁需求提前交車（加州部分經銷商提前10天），起價61,500美元、EPA續航最長434英里；同時羅姆半導體SiC元件首度取得BMW訂單，用於第六代eDrive平台逆變器等電流管理元件，推測搭載於iX3（續航805公里、10分鐘增程372公里）。
+
+- 參見：[[sources/ev-news-2026-09-22-electrive-en]] | [[sources/ev-news-2026-09-22-digitimes]] | [[concepts/車用半導體供應鏈]] | [[countries/美國]] | [[countries/日本]]

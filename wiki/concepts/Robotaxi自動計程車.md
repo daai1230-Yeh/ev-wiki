@@ -1,7 +1,7 @@
 ---
 tags: [concept]
-sources: [robotaxi-market-2026, china-autonomous-driving-overseas, europe-robotaxi-verne-ponyai, waymo-miami-orlando-expansion, taiwan-av-special-scenes, japan-2030-autonomous-ai-strategy, ratp-karsan-autonomous-bus-paris, av-physical-ai-trends-2026, tesla-fsd-eu-expansion-2026, tesla-robotaxi-texas-reality-2026, uber-robotaxi-europe-expansion-2026, waymo-battery-secondlife-colorado-recycling-2026, toyota-tier-iv-l4-investment-2026, waymo-arizona-expansion-2026, tesla-cybercab-specs-2026, mobileye-robotaxi-2026, tesla-fsd-netherlands-2026, ev-news-2026-06-22, ev-news-2026-07-13-digitimes, ev-news-2026-07-14-16-electrive, ev-news-2026-07-21-22-digitimes, ev-news-2026-07-22-24-digitimes, ev-news-2026-07-22-23-electrive-en, ev-news-2026-07-28-digitimes, ev-news-2026-07-28-30-electrive-en, ev-news-2026-08-01-03-en, ev-news-2026-08-04-06-digitimes, ev-news-2026-08-03-06-electrive-en, ev-news-2026-08-06-07-electrive-en, ev-news-2026-08-07-10-electrive-en, ev-news-2026-08-17-18-electrive-en, ev-news-2026-08-20-digitimes, ev-news-2026-08-19-20-cn-misc, ev-news-2026-08-21-23-electrive-en, ev-news-2026-08-21-22-electrive-en, ev-news-2026-08-26-27-electrive-en, ev-news-2026-08-28-digitimes, ev-news-2026-09-04-electrive-en, ev-news-2026-09-07-08-digitimes, ev-news-2026-09-07-08-electrive-en, ev-news-2026-09-08-electrive-en, ev-news-2026-09-16-digitimes, ev-news-2026-09-17-digitimes, ev-news-2026-09-17-electrive-en, ev-news-2026-09-19-electrive-en, ev-news-2026-09-18-electrive-en, ev-news-2026-09-18-digitimes, ev-news-2026-09-21-electrive-en, ev-news-2026-09-18-digest]
-updated: 2026-09-21
+sources: [robotaxi-market-2026, china-autonomous-driving-overseas, europe-robotaxi-verne-ponyai, waymo-miami-orlando-expansion, taiwan-av-special-scenes, japan-2030-autonomous-ai-strategy, ratp-karsan-autonomous-bus-paris, av-physical-ai-trends-2026, tesla-fsd-eu-expansion-2026, tesla-robotaxi-texas-reality-2026, uber-robotaxi-europe-expansion-2026, waymo-battery-secondlife-colorado-recycling-2026, toyota-tier-iv-l4-investment-2026, waymo-arizona-expansion-2026, tesla-cybercab-specs-2026, mobileye-robotaxi-2026, tesla-fsd-netherlands-2026, ev-news-2026-06-22, ev-news-2026-07-13-digitimes, ev-news-2026-07-14-16-electrive, ev-news-2026-07-21-22-digitimes, ev-news-2026-07-22-24-digitimes, ev-news-2026-07-22-23-electrive-en, ev-news-2026-07-28-digitimes, ev-news-2026-07-28-30-electrive-en, ev-news-2026-08-01-03-en, ev-news-2026-08-04-06-digitimes, ev-news-2026-08-03-06-electrive-en, ev-news-2026-08-06-07-electrive-en, ev-news-2026-08-07-10-electrive-en, ev-news-2026-08-17-18-electrive-en, ev-news-2026-08-20-digitimes, ev-news-2026-08-19-20-cn-misc, ev-news-2026-08-21-23-electrive-en, ev-news-2026-08-21-22-electrive-en, ev-news-2026-08-26-27-electrive-en, ev-news-2026-08-28-digitimes, ev-news-2026-09-04-electrive-en, ev-news-2026-09-07-08-digitimes, ev-news-2026-09-07-08-electrive-en, ev-news-2026-09-08-electrive-en, ev-news-2026-09-16-digitimes, ev-news-2026-09-17-digitimes, ev-news-2026-09-17-electrive-en, ev-news-2026-09-19-electrive-en, ev-news-2026-09-18-electrive-en, ev-news-2026-09-18-digitimes, ev-news-2026-09-21-electrive-en, ev-news-2026-09-18-digest, ev-news-2026-09-22-electrive-en]
+updated: 2026-09-22
 ---
 
 # Robotaxi（自動計程車）
@@ -532,3 +532,9 @@ Wayve與Uber在倫敦推出自駕叫車服務（UberX、Uber Electric、Uber Com
 **觀察**：Bolt／Lucid首批上路時程；MOIA最終出路；日本FSD解禁時程。
 
 - 參見：[[sources/ev-news-2026-09-19-electrive-en]] | [[sources/ev-news-2026-09-18-electrive-en]] | [[sources/ev-news-2026-09-18-digitimes]] | [[sources/ev-news-2026-09-21-electrive-en]] | [[entities/Lucid]] | [[entities/Tesla]]
+
+## Cybercab導航問題延續Tesla老毛病（2026-09）
+
+InsideEVs整理乘客回報，Cybercab因限制行駛高速公路與平交道，一趟原10分鐘路程繞行至70分鐘；FSD導航「繞路」問題行之有年，但無人駕駛車隊無人可即時修正，凸顯規模化路權擴張的安全與體驗權衡，相對Waymo拓展高速公路載客前經逾一年純市區驗證更為審慎。
+
+- 參見：[[sources/ev-news-2026-09-22-electrive-en]] | [[entities/Tesla]] | [[countries/美國]]

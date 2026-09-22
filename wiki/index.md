@@ -1,6 +1,6 @@
 # Wiki Index
 
-Last updated: 2026-09-21 | Pages: 490 | Sources: 509
+Last updated: 2026-09-22 | Pages: 491 | Sources: 512
 
 ---
 
@@ -55,6 +55,9 @@ Last updated: 2026-09-21 | Pages: 490 | Sources: 509
 - [[sources/ev-news-2026-09-21-electrive-en]] — electrive批次5篇：Delivan英國100+據點、Onsemi EPP、Grab自駕50輛、Volvo PHEV、Factorial×Mitsui Kinzoku。(2026-09-21)
 - [[sources/ev-news-2026-09-21-digitimes]] — Digitimes批次6篇：中國內銷連11月下滑外銷撐盤、隔離膜中國佔91.5%、鴻海×Quantron、Panasonic研發整併、Whill。(2026-09-21)
 - [[sources/ev-news-2026-09-21-india]] — ETAuto標題摘要1篇：Montra重卡、Volvo新任執行長傳聞。(2026-09-21)
+- [[sources/ev-news-2026-09-22-electrive-en]] — electrive/InsideEVs批次16篇：Klaus Zellmer確定接任Volvo執行長、VW ID. Cross西班牙投產、比亞迪召回18.3萬輛、BMW美國iX3提前交車、Sunwoda萬座MCS計畫、Cybercab導航問題、EV與燃油車價差縮至9.4%。(2026-09-22)
+- [[sources/ev-news-2026-09-22-digitimes]] — Digitimes批次8篇：中系車廠電池主權戰、理想汽車技術外供、羅姆SiC獲BMW訂單、SK On×L&F LFP鏈、德國車隊NEV占比創高、鴻海乘商兩線評論、豐田氫能7廠聯盟、長園科AIDC儲能。(2026-09-22)
+- [[sources/ev-news-2026-09-22-digest]] — Google Alerts批次4篇：越南躍居東南亞最大EV市場、新韓金融×Vingroup資本市場合作、第五代Hyundai Tucson亮相、ARTC技術三度補充。(2026-09-22)
 
 ### 電動乘用車
 - [[sources/ev-news-2026-08-27-29-electrive-en]] — electrive/InsideEVs批次21篇：BMW突破200萬輛EV銷售、BYD超快充電池耐久測試（9天350次快充僅剩1.3%衰減）、中國門把手召回歐洲KBA/RDW調查、Tesla Cybercab奧斯汀發表活動將至、Rivian財務長離職、Lucid召回2.7萬輛。(2026-08-29)

@@ -1,7 +1,7 @@
 ---
 tags: [concept]
-sources: [china-ev-market-consolidation, chery-qq3-vs-byd-seagull, china-ev-market-q1-2026, mercedes-benz-china-q1-2026, china-nev-april-involution-2026, china-nev-april-2026, xpeng-physical-ai-pivot-2026, ev-news-digest-jun1-10-2026, china-ev-market-slowdown-jun2026, xiaomi-su7-2026-update, byd-great-han-2026, ev-news-2026-09-21-digitimes, ev-news-2026-09-18-digitimes, ev-news-2026-09-20-digest]
-updated: 2026-09-21
+sources: [china-ev-market-consolidation, chery-qq3-vs-byd-seagull, china-ev-market-q1-2026, mercedes-benz-china-q1-2026, china-nev-april-involution-2026, china-nev-april-2026, xpeng-physical-ai-pivot-2026, ev-news-digest-jun1-10-2026, china-ev-market-slowdown-jun2026, xiaomi-su7-2026-update, byd-great-han-2026, ev-news-2026-09-21-digitimes, ev-news-2026-09-18-digitimes, ev-news-2026-09-20-digest, ev-news-2026-09-22-electrive-en, ev-news-2026-09-22-digitimes]
+updated: 2026-09-22
 ---
 
 # 中國 EV 市場競爭格局
@@ -221,3 +221,9 @@ BYD 王朝系列旗艦 SUV 正式上市：
 **觀察**：南北本田／南北豐田是否再有整合；Q4政策加碼能否止跌。
 
 - 參見：[[sources/ev-news-2026-09-21-digitimes]] | [[sources/ev-news-2026-09-18-digitimes]] | [[sources/ev-news-2026-09-20-digest]] | [[countries/中國]]
+
+## 比亞迪召回18.3萬輛；理想帶頭掀電池主權戰（2026-09）
+
+比亞迪因煞車踏板止擋塊瑕疵召回2014~2022年秦、唐系列共183,211輛，蔚來Firefly同步召回686輛；8月比亞迪純電乘用車首度單月突破25萬輛，內銷低於去年同期、出口顯著成長，呼應09-21已收錄的「內銷連11月下滑、外銷撐盤」格局。同時理想、蔚來、小米、吉利、廣汽、長城、長安、奇瑞加碼自製電池，車廠與寧德時代圍繞電池自製／委外的拉鋸戰白熱化。
+
+- 參見：[[sources/ev-news-2026-09-22-electrive-en]] | [[sources/ev-news-2026-09-22-digitimes]] | [[entities/比亞迪]] | [[entities/理想汽車]] | [[countries/中國]]

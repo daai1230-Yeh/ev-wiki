@@ -2250,3 +2250,12 @@ Pages 375 → 406，Sources 315 → 346
 - New pages created: 無（僅新增10個來源摘要頁）
 - Key additions: 歐盟要求中國HEV自願限制至約15%市佔（10月北京會談為期限）；本田次世代HEV提前至2027年2月（CR-V），Astemo最高3.79億美元、北美在地採購率2029年91%；豐田年投1兆日圓、40萬台機器人與2027年中國EREV（2028年約40萬輛）；泰國進口EV消費稅最高約30%、198案41億美元投資與皮卡鏈危機；中國8月出口101萬輛、9月內銷連11月下滑；美車業團體致函川普反對中國車廠入美；Audi A4 e-tron延至2029、MOIA募資失利、Lucid×Bolt歐洲Robotaxi；Tesla Cybercab東京／上海展示、歐洲Megacharger、Optimus赴中審廠；比亞迪歐洲4廠；鴻海×Quantron China；Factorial固態電池聯盟；Porsche 100%回收正極材
 - 備註: 「BMW／Rivian／Quantron／Xpeng」等09-19日期的electrive重複剪輯、全形空格檔名變體與跨日期重複檔案不另建來源頁（保持未追蹤）；Kia PV7（ETtoday）、Honda×Astemo、Toyota Hilux FCEV、ARTC L3電巴、Panasonic研發中心、Factorial×Mitsui Kinzoku、鴻海×Quantron等以「補充」章節併入既有報導；ETAuto兩份電子報僅有標題（原站無法抓取），僅列為議題索引
+
+## [2026-09-22] ingest | EV News 2026-09-22 批次（28篇原文，3個來源摘要頁）
+- Summary pages: [[sources/ev-news-2026-09-22-electrive-en]], [[sources/ev-news-2026-09-22-digitimes]], [[sources/ev-news-2026-09-22-digest]]
+- Raw asset: raw/assets/2026-09-22-*.md（各來源頁frontmatter sources欄位列出檔名，內文逐條附原文網址）
+- Pages updated: [[entities/吉利汽車]], [[entities/Volkswagen]], [[entities/比亞迪]], [[entities/Tesla]], [[entities/豐田]], [[entities/BMW]], [[entities/VinFast]], [[entities/現代汽車]], [[entities/寧德時代]], [[entities/SK On]], [[entities/鴻海]]；concepts：[[concepts/充電基礎建設]], [[concepts/電池技術路線]], [[concepts/車用半導體供應鏈]], [[concepts/儲能市場]], [[concepts/中國EV市場競爭格局]], [[concepts/氫燃料電池商用車]], [[concepts/Robotaxi自動計程車]], [[concepts/美國EV市場與政策]], [[concepts/東南亞EV市場]], [[concepts/歐洲EV市場]], [[concepts/ADAS智駕系統]]
+- Countries updated: [[countries/中國]], [[countries/歐洲]], [[countries/美國]], [[countries/德國]], [[countries/韓國]], [[countries/東南亞]], [[countries/台灣]]
+- New pages created: [[entities/理想汽車]]
+- Key additions: 中系車廠（理想、蔚來、小米、吉利、廣汽、長城、長安、奇瑞）掀起電池主權戰，搶回整車3~4成成本控制權，寧德時代回應「會造車不一定會造電池」；理想汽車開放馬赫智駕晶片與SiC模組對外供應；比亞迪召回18.3萬輛秦唐系列、8月純電乘用車首破25萬輛；Klaus Zellmer確定接任Volvo Cars執行長；VW ID. Cross西班牙投產，小型電動車家族到齊；德國車隊8月NEV占比創高48.6%、賓士GLC奪BEV冠軍；羅姆SiC首獲BMW訂單；SK On×L&F建立南韓LFP材料供應鏈；越南躍居東南亞最大電動車市場（市佔近四成）；Sunwoda宣布2027年底前建萬座MCS兆瓦充電站；Tesla Cybercab導航問題曝光；豐田攜戴姆勒卡車、Volvo、博世等8企業推廣歐盟氫能交通
+- 備註: 「BMW iX3、Rivian R2、Quantron×HyperView、Xpeng技術輸出」等09-19日期檔名的electrive重複剪輯（與09-18已收錄同文重複）不另建來源頁；「AI自駕再進化…」（Yahoo汽車機車）為ARTC L3電巴報導第三度re-clip，以補充段落併入既有ADAS章節，未建獨立來源頁條目之外的重複部分；08-20~09-18間多篇既有已收錄報導的重複剪輯（全形/半形空格檔名變體、跨日期重複、ev-speaking-practice系列html練習檔）維持未追蹤狀態
