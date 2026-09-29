@@ -2,26 +2,23 @@
 title: SiC功率半導體競賽升溫　羅姆首獲BMW訂單搶攻高階BEV
 author: 范仁志
 date: 2026-09-22
-source: https://www.digitimes.com.tw/tech/dt/n/shwnws.asp?CnlID=&id=769007&grid_seq1=&grid_seq2=
+source: https://www.digitimes.com.tw/tech/dt/n/shwnws.asp?CnlID=&id=769007
 tags:
   - BEV
-  - EV
   - 電動車
   - SiC
   - 功率半導體
   - BMW
-  - 羅姆半導體
-  - 充電
-  - CarTech
-  - 綠能
+  - 羅姆
+  - 供應鏈
   - Digitimes
   - 未來車供應鏈
-clipped: 2026-09-23
+clipped: 2026-09-26
 ---
 
 # SiC功率半導體競賽升溫　羅姆首獲BMW訂單搶攻高階BEV
 
-**作者**：范仁志　｜　**日期**：2026-09-22　｜　**來源**：[原文連結](https://www.digitimes.com.tw/tech/dt/n/shwnws.asp?CnlID=&id=769007&grid_seq1=&grid_seq2=)
+**作者**：范仁志／綜合外電　｜　**日期**：2026-09-22　｜　**來源**：[原文連結](https://www.digitimes.com.tw/tech/dt/n/shwnws.asp?CnlID=&id=769007)
 
 ---
 
@@ -35,10 +32,10 @@ clipped: 2026-09-23
 
 日本汽車媒體Car Watch報導，羅姆2020年推出的第四代SiC MOSFET，曾獲豐田採用於中國市場BEV車款bZ5，效能獲得不錯評價。另據日刊工業新聞（Nikkan Kogyo Shimbun）報導，羅姆2026年4月發表的第五代SiC產品，高溫電阻較第四代降低30%，更適合需要大電流及高溫環境運作的市場。
 
-羅姆電源用EcoSiC系列第五代產品，早在2025年便向潛在客戶提供裸片樣品，並於2026年3月完成開發，7月起提供模組樣品，應用市場鎖定電動車、再生能源、工業設備，以及新興的AI資料中心等領域。
+羅姆在SiC MOSFET市場的全球佔比約10~15%，目前全球SiC MOSFET由意法半導體（STMicroelectronics）、英飛凌（Infineon）與Wolfspeed三家廠商合計佔據逾5成份額，競爭相當激烈。
 
 **責任編輯**：林廷宇
 
 ---
 
-*來源：[DIGITIMES](https://www.digitimes.com.tw/tech/dt/n/shwnws.asp?CnlID=&id=769007&grid_seq1=&grid_seq2=)*
+*來源：[DIGITIMES](https://www.digitimes.com.tw/tech/dt/n/shwnws.asp?CnlID=&id=769007)*
