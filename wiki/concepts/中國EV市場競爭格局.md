@@ -1,7 +1,7 @@
 ---
 tags: [concept]
-sources: [china-ev-market-consolidation, chery-qq3-vs-byd-seagull, china-ev-market-q1-2026, mercedes-benz-china-q1-2026, china-nev-april-involution-2026, china-nev-april-2026, xpeng-physical-ai-pivot-2026, ev-news-digest-jun1-10-2026, china-ev-market-slowdown-jun2026, xiaomi-su7-2026-update, byd-great-han-2026, ev-news-2026-09-21-digitimes, ev-news-2026-09-18-digitimes, ev-news-2026-09-20-digest, ev-news-2026-09-22-electrive-en, ev-news-2026-09-22-digitimes]
-updated: 2026-09-22
+sources: [china-ev-market-consolidation, chery-qq3-vs-byd-seagull, china-ev-market-q1-2026, mercedes-benz-china-q1-2026, china-nev-april-involution-2026, china-nev-april-2026, xpeng-physical-ai-pivot-2026, ev-news-digest-jun1-10-2026, china-ev-market-slowdown-jun2026, xiaomi-su7-2026-update, byd-great-han-2026, ev-news-2026-09-21-digitimes, ev-news-2026-09-18-digitimes, ev-news-2026-09-20-digest, ev-news-2026-09-22-electrive-en, ev-news-2026-09-22-digitimes, ev-news-2026-09-23-digitimes, ev-news-2026-09-24-digest, ev-news-2026-09-24-digitimes]
+updated: 2026-09-26
 ---
 
 # 中國 EV 市場競爭格局
@@ -227,3 +227,12 @@ BYD 王朝系列旗艦 SUV 正式上市：
 比亞迪因煞車踏板止擋塊瑕疵召回2014~2022年秦、唐系列共183,211輛，蔚來Firefly同步召回686輛；8月比亞迪純電乘用車首度單月突破25萬輛，內銷低於去年同期、出口顯著成長，呼應09-21已收錄的「內銷連11月下滑、外銷撐盤」格局。同時理想、蔚來、小米、吉利、廣汽、長城、長安、奇瑞加碼自製電池，車廠與寧德時代圍繞電池自製／委外的拉鋸戰白熱化。
 
 - 參見：[[sources/ev-news-2026-09-22-electrive-en]] | [[sources/ev-news-2026-09-22-digitimes]] | [[entities/比亞迪]] | [[entities/理想汽車]] | [[countries/中國]]
+
+## 中系車廠掀「成本漲4%、利潤跌20%」價值鏈奪權戰（2026-09）
+
+> **結論**：中國車廠前7個月總營收年增不到3%、成本卻年增近4%，利潤年減20%、銷售利潤率僅約3.6%；三大動作顯示車廠加速奪回價值鏈控制權——擴大自研自製並對外輸出（理想主導BMS並與欣旺達合資、小米自有鋰電池）、重新劃分供應商分工（問界模式：賽力斯主導產品、華為轉向技術賦能）、政府介入供應鏈帳期管理（工信部9月新規範）。
+
+**主因**：中國9月新能源小客車零售市占率達67.9%（1~20日），但今年累計銷售727萬輛年減12%，市占攀升與整體銷量下滑並存；供應鏈端台廠福州新信因比亞迪砍價、付款期拉長而主動轉向合資品牌訂單。
+**觀察**：帳期新規對車廠資金周轉的實際衝擊；自製零組件性價比能否比拼寧德時代等專業代工廠。
+
+- 參見：[[sources/ev-news-2026-09-23-digitimes]] | [[sources/ev-news-2026-09-24-digest]] | [[sources/ev-news-2026-09-24-digitimes]] | [[entities/理想汽車]] | [[entities/寧德時代]] | [[entities/比亞迪]] | [[countries/中國]]

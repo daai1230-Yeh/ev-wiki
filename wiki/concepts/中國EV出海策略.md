@@ -1,7 +1,7 @@
 ---
 tags: [concept]
-sources: [stellantis-leapmotor-canada-rejected, xiaomi-ev-europe-2027, foxconn-mitsubishi-fuso-electric-bus, xpeng-mexico-launch, byd-denza-europe-debut, china-autonomous-driving-overseas, stellantis-opel-leapmotor-suv, thailand-ev-market-2026, china-ev-export-record-march-2026, byd-malaysia-factory-negotiation, europe-robotaxi-verne-ponyai, byd-april-exports-q1-2026, leapmotor-t03-germany-2026, malaysia-cbv-ev-regulation-2026, china-ev-europe-challenges-2026, china-nev-april-2026, china-evs-canada-chery-geely-2026, jpmorgan-china-ev-europe-2028, china-nev-april-involution-2026, geely-thailand-pickup-2026, byd-korea-10k-record-2026, china-ev-us-market-2026, osaka-expo-chinese-ebus-defect-2026, global-ev-demand-may2026, stellantis-china-ev-europe-factories-2026, xpeng-vw-europe-factory-2026, china-k-car-micro-ev-concept-2026, china-ev-europe-factory-takeover-2026, mg-saic-spain-factory-2026, nissan-chery-sunderland-deal-2026, tata-chery-avinya-platform-2026, byd-dod-military-list-2026, australia-china-ev-milestone-2026, byd-hungary-labour-report-2026, ev-news-digest-jun1-10-2026, byd-flash-charging-europe-2026, ev-news-2026-07-03-08, ev-news-2026-07-09, ev-news-2026-07-14-16-electrive, ev-news-2026-07-17-20-digitimes, ev-news-2026-07-21-22-digitimes, ev-news-2026-08-07-digitimes, ev-news-2026-08-06-07-cn-misc, ev-news-2026-09-04-electrive-en, ev-news-2026-09-04-digitimes, ev-news-2026-09-09-digitimes, ev-news-2026-09-09-electrive-en, ev-news-2026-09-11-digitimes, ev-news-2026-09-14-digest, ev-news-2026-09-16-digitimes, ev-news-2026-09-17-electrive-en, ev-news-2026-09-18-digest, ev-news-2026-09-18-electrive-en, ev-news-2026-09-18-digitimes, ev-news-2026-09-20-digest, ev-news-2026-09-21-digitimes]
-updated: 2026-09-21
+sources: [stellantis-leapmotor-canada-rejected, xiaomi-ev-europe-2027, foxconn-mitsubishi-fuso-electric-bus, xpeng-mexico-launch, byd-denza-europe-debut, china-autonomous-driving-overseas, stellantis-opel-leapmotor-suv, thailand-ev-market-2026, china-ev-export-record-march-2026, byd-malaysia-factory-negotiation, europe-robotaxi-verne-ponyai, byd-april-exports-q1-2026, leapmotor-t03-germany-2026, malaysia-cbv-ev-regulation-2026, china-ev-europe-challenges-2026, china-nev-april-2026, china-evs-canada-chery-geely-2026, jpmorgan-china-ev-europe-2028, china-nev-april-involution-2026, geely-thailand-pickup-2026, byd-korea-10k-record-2026, china-ev-us-market-2026, osaka-expo-chinese-ebus-defect-2026, global-ev-demand-may2026, stellantis-china-ev-europe-factories-2026, xpeng-vw-europe-factory-2026, china-k-car-micro-ev-concept-2026, china-ev-europe-factory-takeover-2026, mg-saic-spain-factory-2026, nissan-chery-sunderland-deal-2026, tata-chery-avinya-platform-2026, byd-dod-military-list-2026, australia-china-ev-milestone-2026, byd-hungary-labour-report-2026, ev-news-digest-jun1-10-2026, byd-flash-charging-europe-2026, ev-news-2026-07-03-08, ev-news-2026-07-09, ev-news-2026-07-14-16-electrive, ev-news-2026-07-17-20-digitimes, ev-news-2026-07-21-22-digitimes, ev-news-2026-08-07-digitimes, ev-news-2026-08-06-07-cn-misc, ev-news-2026-09-04-electrive-en, ev-news-2026-09-04-digitimes, ev-news-2026-09-09-digitimes, ev-news-2026-09-09-electrive-en, ev-news-2026-09-11-digitimes, ev-news-2026-09-14-digest, ev-news-2026-09-16-digitimes, ev-news-2026-09-17-electrive-en, ev-news-2026-09-18-digest, ev-news-2026-09-18-electrive-en, ev-news-2026-09-18-digitimes, ev-news-2026-09-20-digest, ev-news-2026-09-21-digitimes, ev-news-2026-09-23-electrive-en, ev-news-2026-09-24-digitimes, ev-news-2026-09-24-digest, ev-news-2026-09-26-electrive-en]
+updated: 2026-09-26
 ---
 
 # 中國 EV 出海策略
@@ -472,3 +472,16 @@ MG Motor（上汽 SAIC 旗下）在西班牙加利西亞建設歐盟首座中國
 **觀察**：10月北京會談結果；泰國9月底最終稅率；中車在歐洲工廠的簽約進度。
 
 - 參見：[[sources/ev-news-2026-09-18-digest]] | [[sources/ev-news-2026-09-18-electrive-en]] | [[sources/ev-news-2026-09-18-digitimes]] | [[sources/ev-news-2026-09-20-digest]] | [[sources/ev-news-2026-09-21-digitimes]] | [[entities/比亞迪]]
+
+## 比亞迪傳洽購義大利Menarini巴士廠、歐盟市佔創高、Parkopedia補齊東南亞充電資料缺口（2026-09）
+
+> **結論**：中國車廠出海進度全面加速——比亞迪傳洽購義大利Menarini巴士廠（Flumeri廠轉產電動車）、8月歐盟掛牌年增163%；奇瑞、Leapmotor同步高速成長；Parkopedia×Voltality合作為中國車廠補齊東南亞充電資料缺口，省去自建在地夥伴關係的流程。
+
+**主因**：
+- 產能在地化：比亞迪延攬多名Iveco、戴姆勒、Stellantis前高層籌建歐洲卡客車團隊，8月歐盟BEV+PHEV掛牌中比亞迪年增163%至177,752輛，奇瑞系年增250.9%、Leapmotor年增426.8%
+- 混動繞道：陸品牌8月占歐洲新車銷量近12%，混合動力銷量中陸品牌占1/4、插電式混動占1/3（因PHEV暫不受純電高關稅衝擊），惟德國已準備對混動車提出新關稅方案並提交歐盟
+- 數位基建借力：Parkopedia整合東南亞充電網路即時資料，提供車規級品質給整車廠直接採用，越南、泰國人口基數大、電動車滲透率快速攀升（2025年新加坡45%、越南38%、泰國21%）
+
+**觀察**：Menarini收購案是否正式簽署；德國對中國HEV關稅提案的具體稅率與時程。
+
+- 參見：[[sources/ev-news-2026-09-23-electrive-en]] | [[sources/ev-news-2026-09-24-digitimes]] | [[sources/ev-news-2026-09-24-digest]] | [[sources/ev-news-2026-09-26-electrive-en]] | [[entities/比亞迪]] | [[entities/奇瑞]] | [[countries/歐洲]] | [[countries/東南亞]]

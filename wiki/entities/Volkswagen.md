@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [vw-restructure-china-offensive-2026, ev-news-2026-06-27-29-en, ev-news-2026-06-30-07-01, ev-news-2026-07-02, ev-news-2026-07-03-08, ev-news-2026-07-10-supplement, ev-news-2026-07-12-13-electrive, ev-news-2026-07-14-16-electrive, ev-news-2026-07-17-20-digitimes, ev-news-2026-07-20-21-electrive-en, ev-news-2026-07-22-23-electrive-en, ev-news-2026-07-25-27-digitimes, ev-news-2026-07-24-27-electrive-en, ev-news-2026-07-24-28-electrive-en, ev-news-2026-07-29-31-digitimes, ev-news-2026-07-28-30-electrive-en, ev-news-2026-08-04-06-digitimes, ev-news-2026-08-03-06-electrive-en, ev-news-2026-08-07-10-electrive-en, ev-news-2026-08-13-digitimes, ev-news-2026-08-14-17-digitimes, ev-news-2026-08-18-digitimes, ev-news-2026-07-23-08-24-etauto-india, ev-news-2026-09-07-08-electrive-en, ev-news-2026-09-07-08-digest, ev-news-2026-09-08-electrive-en, ev-news-2026-09-09-electrive-en, ev-news-2026-09-09-10-etauto-india, ev-news-2026-09-11-electrive-en, ev-news-2026-09-15-electrive-en, ev-news-2026-09-17-electrive-en, ev-news-2026-09-18-electrive-en, ev-news-2026-09-22-electrive-en, ev-news-2026-09-22-digitimes]
-updated: 2026-09-22
+sources: [vw-restructure-china-offensive-2026, ev-news-2026-06-27-29-en, ev-news-2026-06-30-07-01, ev-news-2026-07-02, ev-news-2026-07-03-08, ev-news-2026-07-10-supplement, ev-news-2026-07-12-13-electrive, ev-news-2026-07-14-16-electrive, ev-news-2026-07-17-20-digitimes, ev-news-2026-07-20-21-electrive-en, ev-news-2026-07-22-23-electrive-en, ev-news-2026-07-25-27-digitimes, ev-news-2026-07-24-27-electrive-en, ev-news-2026-07-24-28-electrive-en, ev-news-2026-07-29-31-digitimes, ev-news-2026-07-28-30-electrive-en, ev-news-2026-08-04-06-digitimes, ev-news-2026-08-03-06-electrive-en, ev-news-2026-08-07-10-electrive-en, ev-news-2026-08-13-digitimes, ev-news-2026-08-14-17-digitimes, ev-news-2026-08-18-digitimes, ev-news-2026-07-23-08-24-etauto-india, ev-news-2026-09-07-08-electrive-en, ev-news-2026-09-07-08-digest, ev-news-2026-09-08-electrive-en, ev-news-2026-09-09-electrive-en, ev-news-2026-09-09-10-etauto-india, ev-news-2026-09-11-electrive-en, ev-news-2026-09-15-electrive-en, ev-news-2026-09-17-electrive-en, ev-news-2026-09-18-electrive-en, ev-news-2026-09-22-electrive-en, ev-news-2026-09-22-digitimes, ev-news-2026-09-23-electrive-en, ev-news-2026-09-23-digitimes, ev-news-2026-09-24-electrive-en, ev-news-2026-09-26-electrive-en]
+updated: 2026-09-26
 ---
 
 # Volkswagen（福斯集團）
@@ -381,3 +381,16 @@ VW發表ID.3 GTI（240kW/545Nm，0-100km/h 5.6秒，較GTX Performance快0.1秒�
 福斯ID. Cross於西班牙納瓦拉廠（近Pamplona）開始量產，與ID. Polo、Cupra Raval、Škoda Epiq同屬MEB+平台，德國起價27,995歐元（較ID. Polo貴3,000歐元），小電池LFP版（37kWh、WLTP約316公里）10月才開放預訂；納瓦拉廠累計逾1,000萬輛產量、近5,000名員工，投入逾29萬小時培訓以支援油電共線彈性產線；德國車隊8月NEV占比創高48.6%，但賓士GLC已奪下BEV車隊銷售冠軍，對福斯車隊龍頭地位構成威脅。
 
 - 參見：[[sources/ev-news-2026-09-22-electrive-en]] | [[sources/ev-news-2026-09-22-digitimes]] | [[countries/歐洲]] | [[countries/德國]]
+
+## Wolfsburg減班Emden/Zwickau加班、ID.系列多線進展、營益率展望砍至不到1%（2026-09）
+
+> **結論**：福斯因純電需求超預期調整產能（Wolfsburg燃油減班、Emden/Zwickau純電加班），MEB+城市電動車家族預購破10萬張；但受中國市場急凍衝擊（保時捷股份減記60億歐元、裁員擴至10萬人），營益率展望砍至不到1%。
+
+**主因**：
+- 產能矛盾：純電訂單雖超越燃油車，但電動車單車獲利低於同級燃油車，需求增強反而稀釋整體毛利；Emden將把ID.4切換為ID. Tiguan生產、ID.5停產
+- 中國拖累：中國市場銷量下跌逾20%、豪車市場萎縮尤劇，中系車廠同時以低價電動車攻入歐洲本土，福斯腹背受敵
+- 產品線並進：ID. Buzz Cargo長軸版上市（86kWh、48,490歐元起）；ID. Buzz美國回歸再延至2028年式；中國專屬ID. UNYX 09（與Xpeng聯合開發，26,000歐元起）；Bentley Torcal（共用PPE平台與Cayenne Electric電池）發表
+
+**觀察**：福斯Q3/Q4財報是否進一步下修展望；純電放量是否打亂原訂裁員關廠時程。
+
+- 參見：[[sources/ev-news-2026-09-23-electrive-en]] | [[sources/ev-news-2026-09-23-digitimes]] | [[sources/ev-news-2026-09-24-electrive-en]] | [[sources/ev-news-2026-09-26-electrive-en]] | [[entities/小鵬汽車]] | [[countries/德國]] | [[countries/中國]]

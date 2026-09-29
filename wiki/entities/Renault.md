@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [renault-flexis-acquisition-2026, ev-news-2026-06-27-29-en, ev-news-2026-07-09]
-updated: 2026-07-10
+sources: [renault-flexis-acquisition-2026, ev-news-2026-06-27-29-en, ev-news-2026-07-09, ev-news-2026-09-26-electrive-en]
+updated: 2026-09-26
 ---
 
 # Renault（雷諾）
@@ -87,3 +87,9 @@ Renault 宣布全資收購 **Flexis** 電動廂型車合資公司：
 - [[countries/法國]]
 - [[sources/renault-flexis-acquisition-2026]]
 - [[sources/ev-news-2026-06-27-29-en]]
+
+## R5 E-Tech英國更新開賣、R8 Gordini純電復刻概念車（2026-09）
+
+英國開放預購改款R5 E-Tech，售價不變、續航微增（40kWh版315公里、52kWh版430公里）；巴黎香榭麗舍展廳發表R8 Gordini純電復刻概念車（單一原型，200kW馬達），延續Showcar R17 Electric Restomod、R5 Diamant復古系列，10月巴黎車展同步展出。
+
+- 參見：[[sources/ev-news-2026-09-26-electrive-en]] | [[countries/英國]] | [[countries/歐洲]]

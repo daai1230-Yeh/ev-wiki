@@ -1,7 +1,7 @@
 ---
 tags: [concept]
-sources: [byd-dipilot-adas-2026, robotaxi-market-2026, toyota-adas-vs-fsd-subscription, hyundai-pleos-sdv-os, in-cabin-ai-sensing-2026, l2plus-adas-adoption-2026, rivian-lidar-china-partner-2026, hyundai-kia-atria-ai-gwangju-2026, hesai-color-lidar-2026, ev-news-digest-jun1-10-2026, ev-news-2026-06-27-29-en, ev-news-2026-06-30-07-01, ev-news-2026-06-29-zh, ev-news-2026-07-02, ev-news-2026-07-03-08, ev-news-2026-07-09, ev-news-2026-07-21-22-digitimes, ev-news-2026-07-22-23-electrive-en, ev-news-2026-08-24-digitimes, ev-news-2026-08-27-digitimes, ev-news-2026-08-28-digitimes, ev-news-2026-08-30-31-cn-misc, ev-news-2026-09-07-08-digitimes, ev-news-2026-09-08-electrive-en, ev-news-2026-09-09-digitimes, ev-news-2026-09-11-digitimes, ev-news-2026-09-15-digitimes, ev-news-2026-09-16-digitimes, ev-news-2026-09-18-digest, ev-news-2026-09-19-digest, ev-news-2026-09-18-electrive-en, ev-news-2026-09-22-digest]
-updated: 2026-09-22
+sources: [byd-dipilot-adas-2026, robotaxi-market-2026, toyota-adas-vs-fsd-subscription, hyundai-pleos-sdv-os, in-cabin-ai-sensing-2026, l2plus-adas-adoption-2026, rivian-lidar-china-partner-2026, hyundai-kia-atria-ai-gwangju-2026, hesai-color-lidar-2026, ev-news-digest-jun1-10-2026, ev-news-2026-06-27-29-en, ev-news-2026-06-30-07-01, ev-news-2026-06-29-zh, ev-news-2026-07-02, ev-news-2026-07-03-08, ev-news-2026-07-09, ev-news-2026-07-21-22-digitimes, ev-news-2026-07-22-23-electrive-en, ev-news-2026-08-24-digitimes, ev-news-2026-08-27-digitimes, ev-news-2026-08-28-digitimes, ev-news-2026-08-30-31-cn-misc, ev-news-2026-09-07-08-digitimes, ev-news-2026-09-08-electrive-en, ev-news-2026-09-09-digitimes, ev-news-2026-09-11-digitimes, ev-news-2026-09-15-digitimes, ev-news-2026-09-16-digitimes, ev-news-2026-09-18-digest, ev-news-2026-09-19-digest, ev-news-2026-09-18-electrive-en, ev-news-2026-09-22-digest, ev-news-2026-09-23-electrive-en]
+updated: 2026-09-26
 ---
 
 # ADAS 智駕系統（Advanced Driver Assistance System）
@@ -431,3 +431,9 @@ GM 與美光（Micron）簽署 **第 16 份供應協議（SCA）**，涵蓋汽�
 第三度補充ARTC L3電巴技術報導：董事長王正健強調SDV趨勢下競爭核心在AI能力，車輛中心正布建「AI智慧移動載具測試場域」、「次世代車電研測大樓」與「車電資安中心」，整合既有14個實驗室群提供系統級開發測試、法規驗證與虛實整合服務。
 
 - 參見：[[sources/ev-news-2026-09-22-digest]] | [[sources/ev-news-2026-09-18-digest]] | [[countries/台灣]]
+
+## Tesla FSD捷克過關，歐盟全境表決最快10/6登場（2026-09）
+
+捷克成為第7個承認荷蘭RDW臨時型式認證的歐盟成員國，歐盟技術委員會（TCMV）對此認證的全歐盟表決最快10月6日登場（需27國中15國、涵蓋65%人口的多數決通過）；Tesla另建置儀表板揭露FSD里程與事故數據，現於歐盟分類為SAE Level 2進階駕駛輔助。
+
+- 參見：[[sources/ev-news-2026-09-23-electrive-en]] | [[entities/Tesla]] | [[countries/歐洲]]

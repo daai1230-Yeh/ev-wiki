@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [vinfast-india-investment, ev-news-2026-07-20-21-electrive-en, ev-news-2026-09-18-electrive-en, ev-news-2026-09-22-electrive-en, ev-news-2026-09-22-digest]
-updated: 2026-09-22
+sources: [vinfast-india-investment, ev-news-2026-07-20-21-electrive-en, ev-news-2026-09-18-electrive-en, ev-news-2026-09-22-electrive-en, ev-news-2026-09-22-digest, ev-news-2026-09-23-electrive-en]
+updated: 2026-09-26
 ---
 
 # VinFast
@@ -65,3 +65,9 @@ VinFast 是越南最大企業集團 Vingroup 旗下的電動車品牌，被稱�
 VinFast叫車子公司Green SM在印尼推出500輛Limo Green電動計程車（NEDC續航450公里）與電動機車租賃計畫；韓國新韓金融集團同步將與越南母公司Vingroup的合作由汽車金融延伸至資本市場，取得Vingroup首次阿里郎債券獨家主辦業務（目標2026年Q4發行），此前新韓越南銀行已為VinFast購車客戶累計承作1億美元貸款、上半年為約1.4萬輛VinFast電動機車提供150億韓元分期融資。越南2025年電動車市佔近四成，躍居東南亞最大電動車市場，VinFast旗下V-Green為越南最大充電網（逾15萬樁）。
 
 - 參見：[[sources/ev-news-2026-09-22-electrive-en]] | [[sources/ev-news-2026-09-22-digest]] | [[countries/東南亞]] | [[countries/韓國]]
+
+## VF Wild：越南首款EREV皮卡發表（2026-09）
+
+量產版VF Wild改採增程式電動車（原2024年概念車為純電），160kW馬達＋46.4kWh LFP電池純電續航逾250公里（NEDC）、綜合續航逾1,000公里；越南售價860萬~872萬越南盾（約2.8萬~2.9萬歐元），9月25~30日預購享折扣。呼應同週豐田、本田等日系車廠集體轉向EREV的趨勢。
+
+- 參見：[[sources/ev-news-2026-09-23-electrive-en]] | [[countries/東南亞]]

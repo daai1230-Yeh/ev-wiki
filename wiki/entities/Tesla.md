@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [tesla-ass-nhtsa-probe-closed, tesla-taiwan-march-2026, xiaomi-ev-europe-2027, tesla-4680-musk-strategy, tesla-korea-q1-2026, tesla-q1-2026-earnings, tesla-india-model-y-l, 駐外新聞-美國-2025, ev-news-2026-07-02, ev-news-2026-07-03-08, ev-news-2026-07-09, ev-news-2026-07-10-insideevs-batch, ev-news-2026-07-11, ev-news-2026-07-12-13-digest, ev-news-2026-07-12-13-electrive, ev-news-2026-07-13-digitimes, ev-news-2026-07-14-16-insideevs, ev-news-2026-07-14-16-digitimes, ev-news-2026-07-21-22-digitimes, ev-news-2026-07-20-21-electrive-en, ev-news-2026-07-22-24-digitimes, ev-news-2026-07-22-23-electrive-en, ev-news-2026-07-25-27-digitimes, ev-news-2026-07-28-digitimes, ev-news-2026-07-28-30-electrive-en, ev-news-2026-08-01-03-cn, ev-news-2026-08-01-03-en, ev-news-2026-08-04-06-digitimes, ev-news-2026-08-03-06-electrive-en, ev-news-2026-08-04-06-cn-misc, ev-news-2026-08-07-digitimes, ev-news-2026-08-06-07-cn-misc, ev-news-2026-08-06-07-electrive-en, ev-news-2026-08-06-10-cn-misc, ev-news-2026-08-07-10-electrive-en, ev-news-2026-08-13-15-electrive-en, ev-news-2026-08-19-digitimes, ev-news-2026-08-20-digitimes, ev-news-2026-08-19-20-cn-misc, ev-news-2026-08-21-digitimes, ev-news-2026-08-21-23-electrive-en, ev-news-2026-08-26-digitimes, ev-news-2026-08-21-26-cn-misc, ev-news-2026-08-26-27-electrive-en, ev-news-2026-08-27-29-electrive-en, ev-news-2026-08-30-31-cn-misc, ev-news-2026-09-07-08-electrive-en, ev-news-2026-09-07-08-digest, ev-news-2026-09-09-electrive-en, ev-news-2026-09-09-digest, ev-news-2026-09-14-digest, ev-news-2026-09-14-digitimes, ev-news-2026-09-15-electrive-en, ev-news-2026-09-15-digitimes, ev-news-2026-09-15-digest, ev-news-2026-09-17-electrive-en, ev-news-2026-09-18-digitimes, ev-news-2026-09-18-electrive-en, ev-news-2026-09-18-digest, ev-news-2026-09-19-electrive-en, ev-news-2026-09-20-digest, ev-news-2026-09-22-electrive-en]
-updated: 2026-09-22
+sources: [tesla-ass-nhtsa-probe-closed, tesla-taiwan-march-2026, xiaomi-ev-europe-2027, tesla-4680-musk-strategy, tesla-korea-q1-2026, tesla-q1-2026-earnings, tesla-india-model-y-l, 駐外新聞-美國-2025, ev-news-2026-07-02, ev-news-2026-07-03-08, ev-news-2026-07-09, ev-news-2026-07-10-insideevs-batch, ev-news-2026-07-11, ev-news-2026-07-12-13-digest, ev-news-2026-07-12-13-electrive, ev-news-2026-07-13-digitimes, ev-news-2026-07-14-16-insideevs, ev-news-2026-07-14-16-digitimes, ev-news-2026-07-21-22-digitimes, ev-news-2026-07-20-21-electrive-en, ev-news-2026-07-22-24-digitimes, ev-news-2026-07-22-23-electrive-en, ev-news-2026-07-25-27-digitimes, ev-news-2026-07-28-digitimes, ev-news-2026-07-28-30-electrive-en, ev-news-2026-08-01-03-cn, ev-news-2026-08-01-03-en, ev-news-2026-08-04-06-digitimes, ev-news-2026-08-03-06-electrive-en, ev-news-2026-08-04-06-cn-misc, ev-news-2026-08-07-digitimes, ev-news-2026-08-06-07-cn-misc, ev-news-2026-08-06-07-electrive-en, ev-news-2026-08-06-10-cn-misc, ev-news-2026-08-07-10-electrive-en, ev-news-2026-08-13-15-electrive-en, ev-news-2026-08-19-digitimes, ev-news-2026-08-20-digitimes, ev-news-2026-08-19-20-cn-misc, ev-news-2026-08-21-digitimes, ev-news-2026-08-21-23-electrive-en, ev-news-2026-08-26-digitimes, ev-news-2026-08-21-26-cn-misc, ev-news-2026-08-26-27-electrive-en, ev-news-2026-08-27-29-electrive-en, ev-news-2026-08-30-31-cn-misc, ev-news-2026-09-07-08-electrive-en, ev-news-2026-09-07-08-digest, ev-news-2026-09-09-electrive-en, ev-news-2026-09-09-digest, ev-news-2026-09-14-digest, ev-news-2026-09-14-digitimes, ev-news-2026-09-15-electrive-en, ev-news-2026-09-15-digitimes, ev-news-2026-09-15-digest, ev-news-2026-09-17-electrive-en, ev-news-2026-09-18-digitimes, ev-news-2026-09-18-electrive-en, ev-news-2026-09-18-digest, ev-news-2026-09-19-electrive-en, ev-news-2026-09-20-digest, ev-news-2026-09-22-electrive-en, ev-news-2026-09-23-electrive-en, ev-news-2026-09-24-electrive-en]
+updated: 2026-09-26
 ---
 
 # Tesla
@@ -554,3 +554,16 @@ Tesla於IAA Transportation公布歐洲版Semi規格：採標準版電池（推�
 InsideEVs整理乘客回報，Cybercab因限制行駛高速公路與平交道，德州奧斯汀一趟原10分鐘路程繞行至70分鐘，凸顯FSD導航「繞路」問題延續到無人駕駛車隊、且無人可即時修正；相較Waymo拓展高速公路載客前經逾一年純市區驗證，Tesla策略更為激進。
 
 - 參見：[[sources/ev-news-2026-09-22-electrive-en]] | [[concepts/Robotaxi自動計程車]] | [[countries/美國]]
+
+## FSD捷克過關、Semi獲2,500輛大單與試乘扭轉懷疑論（2026-09）
+
+> **結論**：Tesla FSD（Supervised）成為第7個獲歐盟成員國（捷克）承認的臨時型式認證案例，歐盟全境表決最快10月6日登場；Semi同週傳出2,500輛美國採購聯盟大單（近乎翻倍美國電動Class 8車隊）及Top Gear試乘後好評，商用車業務動能加速。
+
+**主因**：
+- FSD：捷克跟進荷蘭RDW臨時認證（繼立陶宛、愛沙尼亞、丹麥、比利時、斯洛維尼亞），Tesla另建置公開儀表板揭露里程與事故數據爭取信任；歐盟現分類FSD為SAE Level 2
+- Semi訂單：ZET SCALE聯盟（Catalyst Mobility與Smart Freight Centre發起，創始成員含Microsoft、PepsiCo）選定Tesla為主要供應商，車輛分配至10個美國貨運樞紐；疊加Einride 500輛與IMC Logistics 50輛訂單
+- 產品體驗：Top Gear記者實地試乘＋內華達廠參觀後由懷疑轉為肯定，內華達廠設計年產能5萬輛；但Cybercab導航問題（見09-22）與此形成對比，顯示Tesla商用車與Robotaxi業務進展不同步
+
+**觀察**：10月6日歐盟表決結果；2,500輛Semi實際交車時間表（聯盟未公布）。
+
+- 參見：[[sources/ev-news-2026-09-23-electrive-en]] | [[sources/ev-news-2026-09-24-electrive-en]] | [[concepts/電動卡車市場]] | [[countries/歐洲]] | [[countries/美國]]

@@ -1,6 +1,6 @@
 # Wiki Index
 
-Last updated: 2026-09-22 | Pages: 491 | Sources: 512
+Last updated: 2026-09-26 | Pages: 492 | Sources: 521
 
 ---
 
@@ -58,6 +58,15 @@ Last updated: 2026-09-22 | Pages: 491 | Sources: 512
 - [[sources/ev-news-2026-09-22-electrive-en]] — electrive/InsideEVs批次16篇：Klaus Zellmer確定接任Volvo執行長、VW ID. Cross西班牙投產、比亞迪召回18.3萬輛、BMW美國iX3提前交車、Sunwoda萬座MCS計畫、Cybercab導航問題、EV與燃油車價差縮至9.4%。(2026-09-22)
 - [[sources/ev-news-2026-09-22-digitimes]] — Digitimes批次8篇：中系車廠電池主權戰、理想汽車技術外供、羅姆SiC獲BMW訂單、SK On×L&F LFP鏈、德國車隊NEV占比創高、鴻海乘商兩線評論、豐田氫能7廠聯盟、長園科AIDC儲能。(2026-09-22)
 - [[sources/ev-news-2026-09-22-digest]] — Google Alerts批次4篇：越南躍居東南亞最大EV市場、新韓金融×Vingroup資本市場合作、第五代Hyundai Tucson亮相、ARTC技術三度補充。(2026-09-22)
+- [[sources/ev-news-2026-09-23-electrive-en]] — electrive/InsideEVs/Sustainable Bus批次28篇：Ceer Exobot發表、VW產能轉向純電、ACEA要求延後電池原產地規則、Tesla FSD捷克過關、VinFast VF Wild EREV、GM回收電池、IAA商用車與充電基建動態。(2026-09-23)
+- [[sources/ev-news-2026-09-23-digitimes]] — Digitimes批次4篇：福斯營益率展望砍至不到1%、鴻華先進歐洲布局2029年出口、正新虛擬輪胎、中系車廠價值鏈奪權戰。(2026-09-23)
+- [[sources/ev-news-2026-09-23-india]] — ETAuto標題摘要1篇：JSW Greentech e-CV、汽車PLI審查。(2026-09-23)
+- [[sources/ev-news-2026-09-24-electrive-en]] — electrive/InsideEVs批次15篇：Bentley Torcal、CATL Debrecen試產、BMW i3提前預購與iX3效率實測、Geely 2.25MW充電、Hyundai召回與電巴、Leapmotor破千據點、ZET SCALE訂2,500輛Semi。(2026-09-24)
+- [[sources/ev-news-2026-09-24-digitimes]] — Digitimes批次7篇：May Mobility赴那斯達克IPO、三星SDI重啟Synergy Cells、Parkopedia東南亞充電資料、日產Pixo補充、本田俄亥俄HEV新廠、比亞迪砍價衝擊台廠、豐田EREV補充。(2026-09-24)
+- [[sources/ev-news-2026-09-24-digest]] — 中文財經媒體批次7篇：Ultraviolette籌資、成運電巴海外布局、陸新能源車9月市占近7成、混合動力車歐洲市佔創高、港澳一號電巴、KGM進軍衣索比亞、鴻海Ceer。(2026-09-24)
+- [[sources/ev-news-2026-09-24-india]] — ETAuto標題摘要1篇：Bosch印中卡車業務、Ola Electric籌資。(2026-09-24)
+- [[sources/ev-news-2026-09-26-electrive-en]] — electrive/InsideEVs批次18篇：歐盟8月BEV占比27.7%創高、GM回收電池與PG&E充電、Hyundai×LGES儲能試點、Li Auto發表Li I9、VW ID. UNYX 09與Xpeng聯合開發、美國油電混合車創紀錄。(2026-09-26)
+- [[sources/ev-news-2026-09-26-india]] — ETAuto標題摘要1篇：BYD Denza印度經銷網、Bentley首款EV。(2026-09-26)
 
 ### 電動乘用車
 - [[sources/ev-news-2026-08-27-29-electrive-en]] — electrive/InsideEVs批次21篇：BMW突破200萬輛EV銷售、BYD超快充電池耐久測試（9天350次快充僅剩1.3%衰減）、中國門把手召回歐洲KBA/RDW調查、Tesla Cybercab奧斯汀發表活動將至、Rivian財務長離職、Lucid召回2.7萬輛。(2026-08-29)
