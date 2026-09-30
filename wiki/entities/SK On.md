@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [sk-on-hungary-utilization, sk-on-nissan-battery-doubt-2026, ski-q1-2026-results, sk-on-erev-battery-hyundai-2027, ev-news-2026-09-22-digitimes]
-updated: 2026-09-22
+sources: [sk-on-hungary-utilization, sk-on-nissan-battery-doubt-2026, ski-q1-2026-results, sk-on-erev-battery-hyundai-2027, ev-news-2026-09-22-digitimes, ev-news-2026-09-29-digitimes]
+updated: 2026-09-30
 ---
 
 # SK On
@@ -76,3 +76,9 @@ SK On 完成對中國**江蘇鹽城**電池廠的完全控股收購：
 與正極材料商L&F簽約，2026~2028年採購約1,600億韓元（約1.08億美元）高密度第三代LFP正極材料，供瑞山廠與美國喬治亞廠生產ESS用LFP電芯；2月已在南韓ESS中央合約市場標得284MW（約50.3%），8月再與美國NeoVolta Power簽5年9GWh LFP電芯供應合約（估值約1.5兆韓元）。
 
 - 參見：[[sources/ev-news-2026-09-22-digitimes]] | [[concepts/儲能市場]] | [[countries/韓國]] | [[countries/美國]]
+
+## 攜手浦項未來材料簽LFP正極材料8.1億美元大單（2026-09）
+
+浦項未來材料與SK On簽署2027~2029年LFP正極材料供應合約（規模約1.1兆韓元／約8.1億美元），為雙方首度正極材料合約；材料供SK On喬治亞州廠生產的ESS用LFP電芯，助其建立非中國產LFP正極供應鏈。
+
+- 參見：[[sources/ev-news-2026-09-29-digitimes]] | [[concepts/儲能市場]] | [[concepts/電池技術路線]] | [[countries/韓國]] | [[countries/美國]]

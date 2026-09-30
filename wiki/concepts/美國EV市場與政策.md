@@ -1,7 +1,7 @@
 ---
 tags: [concept]
-sources: [gm-ford-q1-2026-sales, us-ev-battery-demand-mismatch, rivian-r2-range-specs, vw-id4-chattanooga-stop, tesla-25k-ev-us-price-parity, slate-auto-ev-pickup, ford-ev-restructure-doug-field, vw-id4-us-writedown, tesla-q1-2026-earnings, gm-ev-delay-detroit-three, nissan-mississippi-ev-abandonment, honda-canada-ev-freeze-2026, tesla-model-s-final-production, mazda-ev-delay-2029, ford-catl-michigan-factory-2026, honda-9b-loss-hybrid-pivot-2026, tesla-model-y-price-bump-2026, congress-ev-annual-fee-2026, rivian-r2-deliveries-2026, chevy-bolt-2027-review, 駐外新聞-美國-2025, ev-news-2026-09-18-digest, ev-news-2026-09-20-digest, ev-news-2026-09-22-electrive-en, ev-news-2026-09-26-electrive-en]
-updated: 2026-09-26
+sources: [gm-ford-q1-2026-sales, us-ev-battery-demand-mismatch, rivian-r2-range-specs, vw-id4-chattanooga-stop, tesla-25k-ev-us-price-parity, slate-auto-ev-pickup, ford-ev-restructure-doug-field, vw-id4-us-writedown, tesla-q1-2026-earnings, gm-ev-delay-detroit-three, nissan-mississippi-ev-abandonment, honda-canada-ev-freeze-2026, tesla-model-s-final-production, mazda-ev-delay-2029, ford-catl-michigan-factory-2026, honda-9b-loss-hybrid-pivot-2026, tesla-model-y-price-bump-2026, congress-ev-annual-fee-2026, rivian-r2-deliveries-2026, chevy-bolt-2027-review, 駐外新聞-美國-2025, ev-news-2026-09-18-digest, ev-news-2026-09-20-digest, ev-news-2026-09-22-electrive-en, ev-news-2026-09-26-electrive-en, ev-news-2026-09-28-digest]
+updated: 2026-09-30
 ---
 
 # 美國 EV 市場與政策
@@ -400,3 +400,9 @@ McKinsey 顧問與 WSJ 報導（駐美投資處 2025-10）指出，美國 EV 退
 Cox Automotive數據顯示美國油電混合車Q2市占達16.3%創新高，豐田仍以44%稱霸（年減4個百分點，Camry、RAV4已全面轉為僅售油電），但Kia（市占9%，Q3年增130%，Telluride Hybrid帶動）與Subaru（市占4%、年增140%）成長最突出；GM同期與PG&E合作推免費居家充電樁換取管理式充電；加州09-22已收錄的充電立法簡化審批同步發酵。
 
 - 參見：[[sources/ev-news-2026-09-26-electrive-en]] | [[entities/豐田]] | [[entities/起亞]] | [[entities/通用汽車]] | [[countries/美國]]
+
+## 哈佛估2030年美國電動車占32%，川普政策拖累6.2個百分點（2026-09）
+
+哈佛大學Salata Institute研究預測，儘管川普政府撤銷稅收抵免、排放限制與加州排放權等政策增添阻力，2030年美國電動車新車銷售占比仍將達32%（現約8%）；若無這些逆風，占比本可望接近48%——單是撤銷7,500美元稅收抵免即拉低6.2個百分點；GM執行長Barra預期2030年電動車占該公司總銷售40~50%。
+
+- 參見：[[sources/ev-news-2026-09-28-digest]] | [[entities/通用汽車]] | [[countries/美國]]

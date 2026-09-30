@@ -1,7 +1,7 @@
 ---
 tags: [concept]
-sources: [tesla-canada-model3-2026, nissan-mississippi-ev-abandonment, china-evs-canada-chery-geely-2026, ford-catl-michigan-factory-2026, china-ev-us-market-2026, nissan-canada-dongfeng-ev-quota-2026, ev-news-2026-09-07-08-electrive-en, ev-news-2026-09-09-electrive-en, ev-news-2026-09-14-digest, ev-news-2026-09-11-digitimes, ev-news-2026-09-14-digitimes, ev-news-2026-09-17-digitimes, ev-news-2026-09-17-digest, ev-news-2026-09-17-electrive-en, ev-news-2026-09-20-digest, ev-news-2026-09-18-digest]
-updated: 2026-09-21
+sources: [tesla-canada-model3-2026, nissan-mississippi-ev-abandonment, china-evs-canada-chery-geely-2026, ford-catl-michigan-factory-2026, china-ev-us-market-2026, nissan-canada-dongfeng-ev-quota-2026, ev-news-2026-09-07-08-electrive-en, ev-news-2026-09-09-electrive-en, ev-news-2026-09-14-digest, ev-news-2026-09-11-digitimes, ev-news-2026-09-14-digitimes, ev-news-2026-09-17-digitimes, ev-news-2026-09-17-digest, ev-news-2026-09-17-electrive-en, ev-news-2026-09-20-digest, ev-news-2026-09-18-digest, ev-news-2026-09-25-digest, ev-news-2026-09-28-digest, ev-news-2026-09-30-digitimes]
+updated: 2026-09-30
 ---
 
 # 北美 EV 關稅與政策
@@ -177,3 +177,12 @@ Polestar H1 2026財報顯示，美國商務部拒絕給予其連網車規則（2
 **觀察**：9月24日峰會結論；川普是否維持對第三國（如墨西哥）進口中國車的反對立場。
 
 - 參見：[[sources/ev-news-2026-09-20-digest]] | [[sources/ev-news-2026-09-18-digest]] | [[countries/美國]] | [[countries/中國]]
+
+## 川習會未談成汽車協議，中國EV叩關美國仍是「時間問題」（2026-09）
+
+> **結論**：華府川習會未達成允許中國電動車進入美國市場的「大交易」，比亞迪、小米等高層雖隨行訪美但未出席峰會或國宴；多位觀察人士認為中國電動車以某種形式進入美國市場幾乎已成定局，福特執行長法利已告訴員工正為五到十年後大陸車企進入美國做準備。
+
+**主因**：現行100%以上關稅加上軟體限制實際排除中國車輛於美國市場外；GM、豐田等組成的汽車創新聯盟峰會前促請通過法案禁止進口敵對國家汽車與軟體；美歐車廠轉向與中國業者結盟借力（Stellantis、福特深化在歐合作，福斯×國軒高科計劃32.2億歐元電池合資）；GlobalData預測中國品牌全球市占率2021年15%增至2026年24%，出口量2026年有望首次突破1,000萬輛。
+**觀察**：美國期中選舉前是否出現政策實質鬆動。
+
+- 參見：[[sources/ev-news-2026-09-25-digest]] | [[sources/ev-news-2026-09-28-digest]] | [[sources/ev-news-2026-09-30-digitimes]] | [[entities/比亞迪]] | [[entities/Volkswagen]] | [[countries/中國]] | [[countries/美國]]

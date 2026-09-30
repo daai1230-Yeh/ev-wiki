@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [renault-flexis-acquisition-2026, ev-news-2026-06-27-29-en, ev-news-2026-07-09, ev-news-2026-09-26-electrive-en]
-updated: 2026-09-26
+sources: [renault-flexis-acquisition-2026, ev-news-2026-06-27-29-en, ev-news-2026-07-09, ev-news-2026-09-26-electrive-en, ev-news-2026-09-28-electrive-en, ev-news-2026-09-29-electrive-en]
+updated: 2026-09-30
 ---
 
 # Renault（雷諾）
@@ -93,3 +93,9 @@ Renault 宣布全資收購 **Flexis** 電動廂型車合資公司：
 英國開放預購改款R5 E-Tech，售價不變、續航微增（40kWh版315公里、52kWh版430公里）；巴黎香榭麗舍展廳發表R8 Gordini純電復刻概念車（單一原型，200kW馬達），延續Showcar R17 Electric Restomod、R5 Diamant復古系列，10月巴黎車展同步展出。
 
 - 參見：[[sources/ev-news-2026-09-26-electrive-en]] | [[countries/英國]] | [[countries/歐洲]]
+
+## 西班牙投資6億歐元，新RGEV Medium 2.0平台生產C級距電動車（2026-09）
+
+雷諾宣布2030年前投資6億歐元升級Valladolid與Palencia兩廠，生產5款新車型（含2款C級距電動車），新增電池組裝線；新車採800V架構「RGEV Medium 2.0」平台，WLTP續航上看750公里（增程版1,400公里）、快充10分鐘可用。Dacia Hipster微型電動車傳2027年沿用中國eGT合資產線量產，L7e級距可能規避歐盟對中國製M1級電動車關稅。
+
+- 參見：[[sources/ev-news-2026-09-28-electrive-en]] | [[sources/ev-news-2026-09-29-electrive-en]] | [[countries/歐洲]] | [[countries/中國]]

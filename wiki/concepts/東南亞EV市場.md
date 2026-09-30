@@ -1,7 +1,7 @@
 ---
 tags: [concept]
-sources: [thailand-ev-market-2026, china-autonomous-driving-overseas, foxconn-mitsubishi-fuso-electric-bus, byd-malaysia-factory-negotiation, byd-malaysia-factory-update-2026, malaysia-cbv-ev-regulation-2026, gwm-ora5-thailand-2026, geely-thailand-pickup-2026, mitsubishi-motors-middle-east-routes-2026, mitsubishi-hev-japan-2028, lges-honda-vietnam-bss-2026, volvo-ex30-thailand-fire-2026, hanoi-1000-bss-2026, ev-news-digest-jun1-10-2026, ev-news-2026-09-18-digest, ev-news-2026-09-18-digitimes, ev-news-2026-09-19-electrive-en, ev-news-2026-09-22-digest, ev-news-2026-09-22-electrive-en]
-updated: 2026-09-22
+sources: [thailand-ev-market-2026, china-autonomous-driving-overseas, foxconn-mitsubishi-fuso-electric-bus, byd-malaysia-factory-negotiation, byd-malaysia-factory-update-2026, malaysia-cbv-ev-regulation-2026, gwm-ora5-thailand-2026, geely-thailand-pickup-2026, mitsubishi-motors-middle-east-routes-2026, mitsubishi-hev-japan-2028, lges-honda-vietnam-bss-2026, volvo-ex30-thailand-fire-2026, hanoi-1000-bss-2026, ev-news-digest-jun1-10-2026, ev-news-2026-09-18-digest, ev-news-2026-09-18-digitimes, ev-news-2026-09-19-electrive-en, ev-news-2026-09-22-digest, ev-news-2026-09-22-electrive-en, ev-news-2026-09-28-digest, ev-news-2026-09-29-digitimes]
+updated: 2026-09-30
 ---
 
 # 東南亞 EV 市場
@@ -227,3 +227,9 @@ updated: 2026-09-22
 **觀察**：IEA預測2035年越南電動車銷量占比恐逾80%，充電網路能否同步支撐；印尼、泰國後續增長動能。
 
 - 參見：[[sources/ev-news-2026-09-22-digest]] | [[sources/ev-news-2026-09-22-electrive-en]] | [[entities/VinFast]] | [[countries/東南亞]]
+
+## 雅加達2030年公車全面電動化、越南Dat Bike挑戰VinFast（2026-09）
+
+雅加達省政府目標2030年讓TransJakarta快捷巴士車隊全面電動化（現4,700輛中僅500輛電動、目標擴增至1萬輛），交通運輸占雅加達直接溫室氣體排放約52%；越南新創Dat Bike發表家庭用電動機車ERA（整合式充電器），主張不需複雜換電生態系即可取代燃油車，挑戰VinFast（406,453輛、4,500座換電站）的市場地位；越南機車市場2025年銷量成長14.9%，電動機車2026年Q1年增177%。
+
+- 參見：[[sources/ev-news-2026-09-28-digest]] | [[sources/ev-news-2026-09-29-digitimes]] | [[entities/VinFast]] | [[countries/東南亞]]

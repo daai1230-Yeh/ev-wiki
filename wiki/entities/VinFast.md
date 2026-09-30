@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [vinfast-india-investment, ev-news-2026-07-20-21-electrive-en, ev-news-2026-09-18-electrive-en, ev-news-2026-09-22-electrive-en, ev-news-2026-09-22-digest, ev-news-2026-09-23-electrive-en]
-updated: 2026-09-26
+sources: [vinfast-india-investment, ev-news-2026-07-20-21-electrive-en, ev-news-2026-09-18-electrive-en, ev-news-2026-09-22-electrive-en, ev-news-2026-09-22-digest, ev-news-2026-09-23-electrive-en, ev-news-2026-09-29-digitimes]
+updated: 2026-09-30
 ---
 
 # VinFast
@@ -71,3 +71,9 @@ VinFast叫車子公司Green SM在印尼推出500輛Limo Green電動計程車（N
 量產版VF Wild改採增程式電動車（原2024年概念車為純電），160kW馬達＋46.4kWh LFP電池純電續航逾250公里（NEDC）、綜合續航逾1,000公里；越南售價860萬~872萬越南盾（約2.8萬~2.9萬歐元），9月25~30日預購享折扣。呼應同週豐田、本田等日系車廠集體轉向EREV的趨勢。
 
 - 參見：[[sources/ev-news-2026-09-23-electrive-en]] | [[countries/東南亞]]
+
+## 越南新創Dat Bike挑戰換電龍頭地位，主張不需複雜生態系（2026-09）
+
+越南新創Dat Bike發表家庭用電動機車ERA（整合式充電器直接嵌入動力系統），創辦人主張電動機車不需仰賴龐大換電網路即可取代燃油車；相對VinFast以406,453輛（近2024年5倍）穩居越南龍頭，已鋪設4,500座換電站並計劃2026年Q1前建成4.5萬座電池櫃。
+
+- 參見：[[sources/ev-news-2026-09-29-digitimes]] | [[countries/東南亞]]

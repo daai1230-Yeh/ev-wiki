@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [vw-restructure-china-offensive-2026, ev-news-2026-06-27-29-en, ev-news-2026-06-30-07-01, ev-news-2026-07-02, ev-news-2026-07-03-08, ev-news-2026-07-10-supplement, ev-news-2026-07-12-13-electrive, ev-news-2026-07-14-16-electrive, ev-news-2026-07-17-20-digitimes, ev-news-2026-07-20-21-electrive-en, ev-news-2026-07-22-23-electrive-en, ev-news-2026-07-25-27-digitimes, ev-news-2026-07-24-27-electrive-en, ev-news-2026-07-24-28-electrive-en, ev-news-2026-07-29-31-digitimes, ev-news-2026-07-28-30-electrive-en, ev-news-2026-08-04-06-digitimes, ev-news-2026-08-03-06-electrive-en, ev-news-2026-08-07-10-electrive-en, ev-news-2026-08-13-digitimes, ev-news-2026-08-14-17-digitimes, ev-news-2026-08-18-digitimes, ev-news-2026-07-23-08-24-etauto-india, ev-news-2026-09-07-08-electrive-en, ev-news-2026-09-07-08-digest, ev-news-2026-09-08-electrive-en, ev-news-2026-09-09-electrive-en, ev-news-2026-09-09-10-etauto-india, ev-news-2026-09-11-electrive-en, ev-news-2026-09-15-electrive-en, ev-news-2026-09-17-electrive-en, ev-news-2026-09-18-electrive-en, ev-news-2026-09-22-electrive-en, ev-news-2026-09-22-digitimes, ev-news-2026-09-23-electrive-en, ev-news-2026-09-23-digitimes, ev-news-2026-09-24-electrive-en, ev-news-2026-09-26-electrive-en]
-updated: 2026-09-26
+sources: [vw-restructure-china-offensive-2026, ev-news-2026-06-27-29-en, ev-news-2026-06-30-07-01, ev-news-2026-07-02, ev-news-2026-07-03-08, ev-news-2026-07-10-supplement, ev-news-2026-07-12-13-electrive, ev-news-2026-07-14-16-electrive, ev-news-2026-07-17-20-digitimes, ev-news-2026-07-20-21-electrive-en, ev-news-2026-07-22-23-electrive-en, ev-news-2026-07-25-27-digitimes, ev-news-2026-07-24-27-electrive-en, ev-news-2026-07-24-28-electrive-en, ev-news-2026-07-29-31-digitimes, ev-news-2026-07-28-30-electrive-en, ev-news-2026-08-04-06-digitimes, ev-news-2026-08-03-06-electrive-en, ev-news-2026-08-07-10-electrive-en, ev-news-2026-08-13-digitimes, ev-news-2026-08-14-17-digitimes, ev-news-2026-08-18-digitimes, ev-news-2026-07-23-08-24-etauto-india, ev-news-2026-09-07-08-electrive-en, ev-news-2026-09-07-08-digest, ev-news-2026-09-08-electrive-en, ev-news-2026-09-09-electrive-en, ev-news-2026-09-09-10-etauto-india, ev-news-2026-09-11-electrive-en, ev-news-2026-09-15-electrive-en, ev-news-2026-09-17-electrive-en, ev-news-2026-09-18-electrive-en, ev-news-2026-09-22-electrive-en, ev-news-2026-09-22-digitimes, ev-news-2026-09-23-electrive-en, ev-news-2026-09-23-digitimes, ev-news-2026-09-24-electrive-en, ev-news-2026-09-26-electrive-en, ev-news-2026-09-28-electrive-en, ev-news-2026-09-29-electrive-en, ev-news-2026-09-30-digitimes]
+updated: 2026-09-30
 ---
 
 # Volkswagen（福斯集團）
@@ -394,3 +394,12 @@ VW發表ID.3 GTI（240kW/545Nm，0-100km/h 5.6秒，較GTX Performance快0.1秒�
 **觀察**：福斯Q3/Q4財報是否進一步下修展望；純電放量是否打亂原訂裁員關廠時程。
 
 - 參見：[[sources/ev-news-2026-09-23-electrive-en]] | [[sources/ev-news-2026-09-23-digitimes]] | [[sources/ev-news-2026-09-24-electrive-en]] | [[sources/ev-news-2026-09-26-electrive-en]] | [[entities/小鵬汽車]] | [[countries/德國]] | [[countries/中國]]
+
+## ID. Buzz美國再延、PowerCo安大略廠延至2029、與Gotion深化三合資、ID. Tiguan取代ID.4（2026-09）
+
+> **結論**：福斯本週電動車策略再現延誤與整併——ID. Buzz美國回歸再延至2028年式、PowerCo安大略電池廠量產延至2029年，同時宣布與中國Gotion深化三項合資（西班牙Sagunto、斯洛伐克、摩洛哥，合計32.2億歐元）以分攤電池投資負擔；並確認以全新命名ID. Tiguan取代服役6年的ID.4。
+
+**主因**：美國市場持續萎縮（4月已停產田納西廠ID.4），高關稅與稅額抵免到期壓縮電動車需求；PowerCo延誤同時反映集團尋求投資人分攤成本；Gotion合資中VW在Sagunto保持控股51%、但斯洛伐克與摩洛哥項目反由Gotion控股51%，凸顯VW對中國電池技術與資本的依賴加深；歐洲8月BEV占比創高（27.7%）與德國需求超預期，則使Wolfsburg燃油減班、Emden/Zwickau純電加班（見09-23）形成對比——美歐兩地電動化步調嚴重分歧。
+**觀察**：Gotion三合資協議正式簽署時程；ID. Tiguan美國導入時間表。
+
+- 參見：[[sources/ev-news-2026-09-28-electrive-en]] | [[sources/ev-news-2026-09-29-electrive-en]] | [[sources/ev-news-2026-09-30-digitimes]] | [[entities/寧德時代]] | [[countries/美國]] | [[countries/加拿大]] | [[countries/歐洲]]

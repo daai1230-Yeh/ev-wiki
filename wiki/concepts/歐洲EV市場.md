@@ -1,7 +1,7 @@
 ---
 tags: [concept]
-sources: [cupra-raval-launch, vw-id4-id5-battery-update, mgs6-ev-first-drive, opel-peugeot-long-range-delay, europe-battery-capacity-cuts, byd-denza-europe-debut, germany-ev-incentive-2026, vw-id3-neo-premiere, honda-eny1-withdrawal-europe, nissan-chery-sunderland-plant, acea-eu-ev-q1-2026, vw-id-polo-launch, polestar-3-800v-upgrade, audi-q4-etron-facelift-2026, gwm-ora03-uk-exit, netherlands-ev-scrappage-2026, porsche-cayenne-coupe-electric, uk-ev-2million-2026, vw-gamechanger-production, zeekr-x-2026-europe, morrow-batteries-insolvency, citroen-china-ev-strategy-2026, jpmorgan-china-ev-europe-2028, eu-iaa-japan-auto-protest-2026, bmw-ix3-neue-klasse-2026, volvo-ex60-production-2026, audi-a2-etron-testing-2026, kia-ev2-first-drive-2026, stellantis-fastlane-2030, nordic-ev-april-2026, europe-v2g-bidirectional-2026, tesla-fsd-eu-expansion-2026, china-ev-europe-factory-takeover-2026, europe-ev-market-may2026, eu-battery-tariff-2027-delay-2026, citroen-15k-electric-2cv-2026, uk-zev-mandate-relaxation-2026, eu-automotive-package-2035-2026, vwcv-id-buzz-2026-update, opel-formula-e-gse27fe-2026, ev-news-2026-09-20-digest, ev-news-2026-09-18-electrive-en, ev-news-2026-09-22-digitimes, ev-news-2026-09-26-electrive-en, ev-news-2026-09-23-electrive-en]
-updated: 2026-09-26
+sources: [cupra-raval-launch, vw-id4-id5-battery-update, mgs6-ev-first-drive, opel-peugeot-long-range-delay, europe-battery-capacity-cuts, byd-denza-europe-debut, germany-ev-incentive-2026, vw-id3-neo-premiere, honda-eny1-withdrawal-europe, nissan-chery-sunderland-plant, acea-eu-ev-q1-2026, vw-id-polo-launch, polestar-3-800v-upgrade, audi-q4-etron-facelift-2026, gwm-ora03-uk-exit, netherlands-ev-scrappage-2026, porsche-cayenne-coupe-electric, uk-ev-2million-2026, vw-gamechanger-production, zeekr-x-2026-europe, morrow-batteries-insolvency, citroen-china-ev-strategy-2026, jpmorgan-china-ev-europe-2028, eu-iaa-japan-auto-protest-2026, bmw-ix3-neue-klasse-2026, volvo-ex60-production-2026, audi-a2-etron-testing-2026, kia-ev2-first-drive-2026, stellantis-fastlane-2030, nordic-ev-april-2026, europe-v2g-bidirectional-2026, tesla-fsd-eu-expansion-2026, china-ev-europe-factory-takeover-2026, europe-ev-market-may2026, eu-battery-tariff-2027-delay-2026, citroen-15k-electric-2cv-2026, uk-zev-mandate-relaxation-2026, eu-automotive-package-2035-2026, vwcv-id-buzz-2026-update, opel-formula-e-gse27fe-2026, ev-news-2026-09-20-digest, ev-news-2026-09-18-electrive-en, ev-news-2026-09-22-digitimes, ev-news-2026-09-26-electrive-en, ev-news-2026-09-23-electrive-en, ev-news-2026-09-26-digest]
+updated: 2026-09-30
 ---
 
 # 歐洲 EV 市場
@@ -658,3 +658,12 @@ Dataforce數據顯示德國8月車隊BEV掛牌約2萬輛（年增41%、占比31.
 **觀察**：挪威8月BEV市佔98.7%持續標竿；10月巴黎車展是否成為歐洲品牌反攻場。
 
 - 參見：[[sources/ev-news-2026-09-26-electrive-en]] | [[sources/ev-news-2026-09-23-electrive-en]] | [[entities/Volkswagen]] | [[countries/歐洲]] | [[countries/德國]]
+
+## 8月電動車占比近三成，油價高漲催動買氣噴發（2026-09）
+
+> **結論**：地緣政治衝擊使歐洲汽油價格漲至每加侖10美元，ACEA公布歐盟8月全電動車新車掛牌數年增52.2%（德國+75%、法國倍增），8月純電新車占比達29%、前8月累計21.7%首度與汽油車持平。
+
+**主因**：荷姆茲海峽封鎖推升德國汽油均價至每公升2.31歐元；柴油因烏克蘭攻擊俄羅斯煉油廠及川普政府評估限制柴油出口而漲勢更兇；BMW今年迄今30%銷量為電動車（年增10個百分點）；福斯德國電動車訂單已超越燃油車，帶動Wolfsburg減班、Emden/Zwickau加班；挪威1~8月電動車占比98%，克羅埃西亞僅4%，國別差異仍大。
+**觀察**：油價若回落，買氣噴發能否延續。
+
+- 參見：[[sources/ev-news-2026-09-26-digest]] | [[entities/Volkswagen]] | [[entities/BMW]] | [[countries/德國]]
