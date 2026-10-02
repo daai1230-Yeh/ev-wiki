@@ -2277,3 +2277,12 @@ Pages 375 → 406，Sources 315 → 346
 - New pages created: 無
 - Key additions: 中國車企集體調整電池供應鏈掀「去寧德化」風暴，寧德時代H股4個月蒸發逾1.4萬億元；Tesla Semi內華達廠啟動量產交付；VW ID. Buzz美國回歸再延2028年式、PowerCo安大略電池廠延至2029、VW×Gotion深化三項電池合資（32.2億歐元）；BMW發表首款純電3系i3（續航912公里）；歐盟8月BEV占比近三成、油價高漲催動歐洲電動車買氣噴發；川習會未談成汽車協議，中國EV叩關美國仍是「時間問題」；Tesla Optimus週產量破百台（較Q2成長10倍）但硬體組裝仍是瓶頸，供應鏈借力中國製造；哈佛估2030年美國電動車占新車銷量32%；南韓百萬韓元級電動車銷量年增2.6倍；里約熱內盧啟動巴西首個電動巴士PPP；Stellantis因ACC電池短缺暫停法國三廠生產
 - 備註: 09-28、09-29兩篇「港澳一號」與「雅加達拚改善空污」重複剪輯（相同來源URL）以「補充」段落併入既有章節、不重複建檔；ETAuto四份電子報（09-26、09-27、09-28、09-30後續待下批次）僅有標題，列為議題索引；filename全形/半形空格與標點變體維持未追蹤
+
+## [2026-10-02] ingest | EV News 2026-10-01~02 批次（28篇原文，4個來源摘要頁）
+- Summary pages: [[sources/ev-news-2026-10-01-electrive-en]], [[sources/ev-news-2026-10-01-digitimes]], [[sources/ev-news-2026-10-02-electrive-en]], [[sources/ev-news-2026-10-02-digitimes]]
+- Raw asset: raw/assets/2026-10-01-*.md ~ 2026-10-02-*.md（各來源頁frontmatter sources欄位列出檔名，內文逐條附原文網址）
+- Pages updated: [[entities/通用汽車]], [[entities/LGES]], [[entities/吉利汽車]], [[entities/比亞迪]], [[entities/豐田]], [[entities/小米汽車]], [[entities/Tesla]], [[entities/BMW]], [[entities/Volkswagen]], [[entities/Stellantis]], [[entities/現代汽車]], [[entities/Rivian]], [[entities/日産]], [[entities/福特]], [[entities/本田]], [[entities/三星SDI]]；concepts：[[concepts/電池技術路線]], [[concepts/電池回收]], [[concepts/充電基礎建設]], [[concepts/中國EV出海策略]], [[concepts/中國EV市場競爭格局]], [[concepts/北美EV關稅與政策]], [[concepts/ADAS智駕系統]], [[concepts/東南亞EV市場]], [[concepts/電動巴士市場]], [[concepts/儲能市場]]
+- Countries updated: [[countries/中國]], [[countries/美國]], [[countries/歐洲]], [[countries/韓國]], [[countries/東南亞]], [[countries/日本]], [[countries/德國]], [[countries/英國]]
+- New pages created: 無
+- Key additions: 瑞銀警示中系車輸歐實際量恐被低估2倍、Tesla FSD歐盟表決延至年底；廣汽擬收購一汽豐田50%股權（豐田中國雙合資重整）；GM新Bolt產量大砍約七成、Ultium Spring Hill改產方形LMR（2028年）；Geely 2.25MW站五城落地與抗衰減技術；小米發布首款EREV Sky Nomad；BMW資本市場日宣布2028年入門Neue Klasse、iX3訂單破10萬；LGES傳為Mercedes打造46100電池；比亞迪撤馬來西亞CKD廠、吉利／寶騰有意接手；Ford執行長稱歐洲對抗中國「已太遲」；Stellantis法國多廠10月停工（補充）
+- 備註: 10-01「Battery shortage Stellantis pauses EV production in France」與09-30已收錄報導內容相同（僅標籤不同）視為重複、不另建檔；Ultium LMR（electrive／Digitimes）、Stellantis停工（Digitimes補充）、廣汽收購一汽豐田（確認09-18~21意向協議標的）以補充段落併入既有章節

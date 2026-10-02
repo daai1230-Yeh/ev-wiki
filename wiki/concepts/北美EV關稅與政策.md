@@ -1,7 +1,7 @@
 ---
 tags: [concept]
-sources: [tesla-canada-model3-2026, nissan-mississippi-ev-abandonment, china-evs-canada-chery-geely-2026, ford-catl-michigan-factory-2026, china-ev-us-market-2026, nissan-canada-dongfeng-ev-quota-2026, ev-news-2026-09-07-08-electrive-en, ev-news-2026-09-09-electrive-en, ev-news-2026-09-14-digest, ev-news-2026-09-11-digitimes, ev-news-2026-09-14-digitimes, ev-news-2026-09-17-digitimes, ev-news-2026-09-17-digest, ev-news-2026-09-17-electrive-en, ev-news-2026-09-20-digest, ev-news-2026-09-18-digest, ev-news-2026-09-25-digest, ev-news-2026-09-28-digest, ev-news-2026-09-30-digitimes]
-updated: 2026-09-30
+sources: [tesla-canada-model3-2026, nissan-mississippi-ev-abandonment, china-evs-canada-chery-geely-2026, ford-catl-michigan-factory-2026, china-ev-us-market-2026, nissan-canada-dongfeng-ev-quota-2026, ev-news-2026-09-07-08-electrive-en, ev-news-2026-09-09-electrive-en, ev-news-2026-09-14-digest, ev-news-2026-09-11-digitimes, ev-news-2026-09-14-digitimes, ev-news-2026-09-17-digitimes, ev-news-2026-09-17-digest, ev-news-2026-09-17-electrive-en, ev-news-2026-09-20-digest, ev-news-2026-09-18-digest, ev-news-2026-09-25-digest, ev-news-2026-09-28-digest, ev-news-2026-09-30-digitimes, ev-news-2026-10-01-electrive-en, ev-news-2026-10-02-digitimes]
+updated: 2026-10-02
 ---
 
 # 北美 EV 關稅與政策
@@ -186,3 +186,9 @@ Polestar H1 2026財報顯示，美國商務部拒絕給予其連網車規則（2
 **觀察**：美國期中選舉前是否出現政策實質鬆動。
 
 - 參見：[[sources/ev-news-2026-09-25-digest]] | [[sources/ev-news-2026-09-28-digest]] | [[sources/ev-news-2026-09-30-digitimes]] | [[entities/比亞迪]] | [[entities/Volkswagen]] | [[countries/中國]] | [[countries/美國]]
+
+## Ford執行長：歐洲「已太遲」，美國應慢慢來（2026-10）
+
+Farley在Automotive News Congress主張美國謹慎對待中國車廠、暫不開放（歐洲因未控管已「太遲」；中國電動車全球市佔上升70%、歐洲約12%、墨西哥25%），並稱大量中國車湧入有國安疑慮；與川普稱可允許中國車廠在美設廠、國會擬禁止持股15%以上中資車廠的法案並存；台廠消息稱比亞迪與吉利將是首批赴美設廠者。
+
+- 參見：[[sources/ev-news-2026-10-01-electrive-en]] | [[sources/ev-news-2026-10-02-digitimes]] | [[entities/福特]] | [[countries/美國]]

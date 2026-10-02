@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [lges-bmw-46series-order, ev-news-2026-06-30-07-01, ev-news-2026-07-10-electrive-batch, ev-news-2026-07-12-13-electrive, ev-news-2026-07-24-27-electrive-en, ev-news-2026-07-29-31-digitimes, ev-news-2026-07-28-30-electrive-en, ev-news-2026-08-27-29-electrive-en, ev-news-2026-09-18-electrive-en, ev-news-2026-09-22-electrive-en, ev-news-2026-09-22-digitimes, ev-news-2026-09-24-electrive-en, ev-news-2026-09-30-electrive-en]
-updated: 2026-09-30
+sources: [lges-bmw-46series-order, ev-news-2026-06-30-07-01, ev-news-2026-07-10-electrive-batch, ev-news-2026-07-12-13-electrive, ev-news-2026-07-24-27-electrive-en, ev-news-2026-07-29-31-digitimes, ev-news-2026-07-28-30-electrive-en, ev-news-2026-08-27-29-electrive-en, ev-news-2026-09-18-electrive-en, ev-news-2026-09-22-electrive-en, ev-news-2026-09-22-digitimes, ev-news-2026-09-24-electrive-en, ev-news-2026-09-30-electrive-en, ev-news-2026-10-01-electrive-en, ev-news-2026-10-02-electrive-en]
+updated: 2026-10-02
 ---
 
 # BMW（寶馬）
@@ -170,3 +170,9 @@ BMW i3美國預購提前至9月29日開放（原訂10月上半），首發i3 50 
 BMW發表首款純電3系i3，共用Neue Klasse平台與iX3同技術套件但續航更勝一籌——i3 50 xDrive搭載108.7kWh淨電池、WLTP續航912公里（較iX3多逾100公里），起價65,900歐元；入門i3 40 xDrive（82.8kWh、710公里）起價59,900歐元；慕尼黑主廠8月已開始量產，成為集團第二座純電專用廠（繼Debrecen後）。南韓市場稍早已傳新i7將加入下半年豪華電動車陣容（見09-28）。
 
 - 參見：[[sources/ev-news-2026-09-30-electrive-en]] | [[countries/歐洲]] | [[countries/德國]]
+
+## 美規i3初估EPA 468英里、資本市場日：iX3訂單破10萬、2028年再推入門Neue Klasse（2026-10）
+
+美規i3 50 xDrive初估EPA續航468英里（Model 3 Long Range AWD 342英里）、NACS、起價61,500美元、2027年Q1交車；BMW資本市場日宣布年內發表純電iX4、2028年再推歐洲為主的入門Neue Klasse（外界推測i1）；iX3訂單逾10萬、交車逾3萬、訂單簿排至2027年Q2、利潤率與燃油車持平。
+
+- 參見：[[sources/ev-news-2026-10-01-electrive-en]] | [[sources/ev-news-2026-10-02-electrive-en]] | [[countries/美國]] | [[countries/歐洲]]

@@ -1,7 +1,7 @@
 ---
 tags: [concept]
-sources: [china-ev-market-consolidation, chery-qq3-vs-byd-seagull, china-ev-market-q1-2026, mercedes-benz-china-q1-2026, china-nev-april-involution-2026, china-nev-april-2026, xpeng-physical-ai-pivot-2026, ev-news-digest-jun1-10-2026, china-ev-market-slowdown-jun2026, xiaomi-su7-2026-update, byd-great-han-2026, ev-news-2026-09-21-digitimes, ev-news-2026-09-18-digitimes, ev-news-2026-09-20-digest, ev-news-2026-09-22-electrive-en, ev-news-2026-09-22-digitimes, ev-news-2026-09-23-digitimes, ev-news-2026-09-24-digest, ev-news-2026-09-24-digitimes]
-updated: 2026-09-26
+sources: [china-ev-market-consolidation, chery-qq3-vs-byd-seagull, china-ev-market-q1-2026, mercedes-benz-china-q1-2026, china-nev-april-involution-2026, china-nev-april-2026, xpeng-physical-ai-pivot-2026, ev-news-digest-jun1-10-2026, china-ev-market-slowdown-jun2026, xiaomi-su7-2026-update, byd-great-han-2026, ev-news-2026-09-21-digitimes, ev-news-2026-09-18-digitimes, ev-news-2026-09-20-digest, ev-news-2026-09-22-electrive-en, ev-news-2026-09-22-digitimes, ev-news-2026-09-23-digitimes, ev-news-2026-09-24-digest, ev-news-2026-09-24-digitimes, ev-news-2026-10-01-digitimes, ev-news-2026-10-02-digitimes, ev-news-2026-10-01-electrive-en]
+updated: 2026-10-02
 ---
 
 # 中國 EV 市場競爭格局
@@ -236,3 +236,9 @@ BYD 王朝系列旗艦 SUV 正式上市：
 **觀察**：帳期新規對車廠資金周轉的實際衝擊；自製零組件性價比能否比拼寧德時代等專業代工廠。
 
 - 參見：[[sources/ev-news-2026-09-23-digitimes]] | [[sources/ev-news-2026-09-24-digest]] | [[sources/ev-news-2026-09-24-digitimes]] | [[entities/理想汽車]] | [[entities/寧德時代]] | [[entities/比亞迪]] | [[countries/中國]]
+
+## 廣汽收購一汽豐田50%股權、供應鏈「內捲」下新品每天3款（2026-10）
+
+廣汽擬收購一汽豐田50%股權，一汽成為廣汽第二大股東；供應鏈端廣華指出中國車廠新車與改款平均每天3款、預估量準確度由80%以上降至不到30%、新技術量產認證由3~5年縮短至不到1年，賽力斯稱一輛EV價值約50%歸電池廠、40%歸華為、車廠僅剩10%；小米同期推出Sky Nomad增程SUV補足產品線。
+
+- 參見：[[sources/ev-news-2026-10-01-digitimes]] | [[sources/ev-news-2026-10-02-digitimes]] | [[sources/ev-news-2026-10-01-electrive-en]] | [[entities/豐田]] | [[entities/小米汽車]] | [[countries/中國]]

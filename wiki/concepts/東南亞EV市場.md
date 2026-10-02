@@ -1,7 +1,7 @@
 ---
 tags: [concept]
-sources: [thailand-ev-market-2026, china-autonomous-driving-overseas, foxconn-mitsubishi-fuso-electric-bus, byd-malaysia-factory-negotiation, byd-malaysia-factory-update-2026, malaysia-cbv-ev-regulation-2026, gwm-ora5-thailand-2026, geely-thailand-pickup-2026, mitsubishi-motors-middle-east-routes-2026, mitsubishi-hev-japan-2028, lges-honda-vietnam-bss-2026, volvo-ex30-thailand-fire-2026, hanoi-1000-bss-2026, ev-news-digest-jun1-10-2026, ev-news-2026-09-18-digest, ev-news-2026-09-18-digitimes, ev-news-2026-09-19-electrive-en, ev-news-2026-09-22-digest, ev-news-2026-09-22-electrive-en, ev-news-2026-09-28-digest, ev-news-2026-09-29-digitimes]
-updated: 2026-09-30
+sources: [thailand-ev-market-2026, china-autonomous-driving-overseas, foxconn-mitsubishi-fuso-electric-bus, byd-malaysia-factory-negotiation, byd-malaysia-factory-update-2026, malaysia-cbv-ev-regulation-2026, gwm-ora5-thailand-2026, geely-thailand-pickup-2026, mitsubishi-motors-middle-east-routes-2026, mitsubishi-hev-japan-2028, lges-honda-vietnam-bss-2026, volvo-ex30-thailand-fire-2026, hanoi-1000-bss-2026, ev-news-digest-jun1-10-2026, ev-news-2026-09-18-digest, ev-news-2026-09-18-digitimes, ev-news-2026-09-19-electrive-en, ev-news-2026-09-22-digest, ev-news-2026-09-22-electrive-en, ev-news-2026-09-28-digest, ev-news-2026-09-29-digitimes, ev-news-2026-10-01-digitimes]
+updated: 2026-10-02
 ---
 
 # 東南亞 EV 市場
@@ -233,3 +233,9 @@ updated: 2026-09-30
 雅加達省政府目標2030年讓TransJakarta快捷巴士車隊全面電動化（現4,700輛中僅500輛電動、目標擴增至1萬輛），交通運輸占雅加達直接溫室氣體排放約52%；越南新創Dat Bike發表家庭用電動機車ERA（整合式充電器），主張不需複雜換電生態系即可取代燃油車，挑戰VinFast（406,453輛、4,500座換電站）的市場地位；越南機車市場2025年銷量成長14.9%，電動機車2026年Q1年增177%。
 
 - 參見：[[sources/ev-news-2026-09-28-digest]] | [[sources/ev-news-2026-09-29-digitimes]] | [[entities/VinFast]] | [[countries/東南亞]]
+
+## 馬來西亞純電註冊上半年年增85%、寶騰超越比亞迪；泰國洪災（2026-10）
+
+馬來西亞2026上半年純電註冊3.17萬輛、年增85.1%、占整體車市7.8%（2025上半4.3%），寶騰以13,530輛超越比亞迪（5,675輛）居冠，iCAUR、極氪、Tesla緊隨其後；比亞迪撤回丹戎馬林CKD廠，吉利與寶騰對該園區有興趣；泰國洪災致Toyota四廠停工，FTI維持2026年145萬輛目標。
+
+- 參見：[[sources/ev-news-2026-10-01-digitimes]] | [[entities/吉利汽車]] | [[entities/比亞迪]] | [[countries/東南亞]]

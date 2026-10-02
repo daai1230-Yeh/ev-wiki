@@ -1,6 +1,6 @@
 # Wiki Index
 
-Last updated: 2026-09-30 | Pages: 492 | Sources: 532
+Last updated: 2026-10-02 | Pages: 492 | Sources: 536
 
 ---
 
@@ -78,6 +78,10 @@ Last updated: 2026-09-30 | Pages: 492 | Sources: 532
 - [[sources/ev-news-2026-09-29-digitimes]] — Digitimes批次7篇：Tesla Optimus借力中國製造、Aurora自駕卡車、日產Rogue Hybrid、浦項×SK On LFP大單、越南Dat Bike、鴻華先進HHTD。(2026-09-29)
 - [[sources/ev-news-2026-09-30-electrive-en]] — electrive批次2篇：BMW首款純電3系i3續航912公里、Stellantis因電池短缺暫停法國三廠生產。(2026-09-30)
 - [[sources/ev-news-2026-09-30-digitimes]] — Digitimes批次3篇：吉利AI超快充補充、川習會未談成汽車協議、電動車減重導入鎂合金。(2026-09-30)
+- [[sources/ev-news-2026-10-01-electrive-en]] — electrive/InsideEVs批次16篇：Geely 2.25MW站五城落地與抗衰減技術、Ultium LMR與GM縮減Bolt、Xiaomi Sky Nomad、Gotion固態400Wh/kg、歐洲高功率充電、Ford執行長談中國車。(2026-10-01)
+- [[sources/ev-news-2026-10-01-digitimes]] — Digitimes批次5篇：中系車輸歐被低估2倍、廣汽收購一汽豐田50%、比亞迪撤馬來西亞CKD、泰國洪災、GM BCDC南韓設備。(2026-10-01)
+- [[sources/ev-news-2026-10-02-electrive-en]] — electrive批次2篇：BMW資本市場日（入門Neue Klasse 2028）、MG IM6試駕。(2026-10-02)
+- [[sources/ev-news-2026-10-02-digitimes]] — Digitimes批次5篇：一汽×廣汽豐田重整、比亞迪吉利赴美設廠供應鏈、Stellantis停工補充、Ultium LMR補充、LGES為Mercedes打造46100。(2026-10-02)
 
 ### 電動乘用車
 - [[sources/ev-news-2026-08-27-29-electrive-en]] — electrive/InsideEVs批次21篇：BMW突破200萬輛EV銷售、BYD超快充電池耐久測試（9天350次快充僅剩1.3%衰減）、中國門把手召回歐洲KBA/RDW調查、Tesla Cybercab奧斯汀發表活動將至、Rivian財務長離職、Lucid召回2.7萬輛。(2026-08-29)

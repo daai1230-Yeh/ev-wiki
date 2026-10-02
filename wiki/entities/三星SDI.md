@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [samsung-sdi-mercedes-battery-deal, samsung-sdi-mercedes-confirmed-deal, samsung-sdi-solid-state-production-2026, ev-news-2026-07-03-08, ev-news-2026-07-14-16-digitimes, ev-news-2026-09-04-digitimes, ev-news-2026-09-24-digitimes]
-updated: 2026-09-26
+sources: [samsung-sdi-mercedes-battery-deal, samsung-sdi-mercedes-confirmed-deal, samsung-sdi-solid-state-production-2026, ev-news-2026-07-03-08, ev-news-2026-07-14-16-digitimes, ev-news-2026-09-04-digitimes, ev-news-2026-09-24-digitimes, ev-news-2026-10-02-digitimes]
+updated: 2026-10-02
 ---
 
 # 三星 SDI（Samsung SDI）
@@ -91,3 +91,9 @@ updated: 2026-09-26
 結束與GM合資後，將原規劃電動車用NCA電池廠Synergy Cells（印第安納州）轉為獨資，優先建置ESS用LFP電池產線，市場傳最終客戶為Tesla，量產時程可能較原訂2028年底提前約一季；投資規模達數兆韓元，部分資金料來自出售三星顯示器約33%股權（約4.45兆韓元）。
 
 - 參見：[[sources/ev-news-2026-09-24-digitimes]] | [[entities/Tesla]] | [[concepts/儲能市場]] | [[countries/韓國]] | [[countries/美國]]
+
+## Mercedes多元化電池供應：三星SDI高鎳NCM、LGES 46100（2026-10）
+
+三星SDI於2026年4月與Mercedes簽訂多年期高鎳NCM供應合約；同期傳LGES為Mercedes規劃46100圓柱電池，顯示Mercedes多元化電池規格與供應來源。
+
+- 參見：[[sources/ev-news-2026-10-02-digitimes]] | [[entities/LGES]]
