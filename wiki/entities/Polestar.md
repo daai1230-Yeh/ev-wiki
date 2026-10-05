@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [ev-news-2026-06-29, ev-news-2026-09-04-electrive-en, ev-news-2026-09-07-08-electrive-en, ev-news-2026-09-14-digitimes]
-updated: 2026-09-14
+sources: [ev-news-2026-06-29, ev-news-2026-09-04-electrive-en, ev-news-2026-09-07-08-electrive-en, ev-news-2026-09-14-digitimes, ev-news-2026-10-05-electrive-en]
+updated: 2026-10-05
 ---
 
 # Polestar
@@ -92,3 +92,9 @@ Polestar發表Polestar 4 SUV版本，沿用與Coupé相同的400V平台架構（
 極星9月3日向SEC提交2026上半財報，正式證實美國商務部工業與安全局（BIS）拒絕其連網車規則豁免申請，旗下所有使用中國軟硬體的新車型將自2027年起無法在美國銷售，確認09-09已收錄「連網車禁令豁免遭拒、重組成本增2.11億美元」報導的最終結果。
 
 - 參見：[[sources/ev-news-2026-09-14-digitimes]] | [[concepts/北美EV關稅與政策]] | [[countries/美國]]
+
+## 推出Plus／Pro快充訂閱，上半年銷量停滯（2026-10）
+
+Polestar歐洲推出Plus（德國7.99歐元/月、15%折扣）與Pro（14.99歐元/月、30%折扣）快充訂閱，折扣充電點分別逾10.4萬與11.8萬個，Polestar Charge漫遊涵蓋逾125萬個充電點（含Tesla Supercharger）；背景是上半年全球銷量停滯、全年成長預期下修至低至中個位數。
+
+- 參見：[[sources/ev-news-2026-10-05-electrive-en]] | [[concepts/充電基礎建設]] | [[countries/歐洲]]

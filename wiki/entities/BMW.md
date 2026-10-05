@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [lges-bmw-46series-order, ev-news-2026-06-30-07-01, ev-news-2026-07-10-electrive-batch, ev-news-2026-07-12-13-electrive, ev-news-2026-07-24-27-electrive-en, ev-news-2026-07-29-31-digitimes, ev-news-2026-07-28-30-electrive-en, ev-news-2026-08-27-29-electrive-en, ev-news-2026-09-18-electrive-en, ev-news-2026-09-22-electrive-en, ev-news-2026-09-22-digitimes, ev-news-2026-09-24-electrive-en, ev-news-2026-09-30-electrive-en, ev-news-2026-10-01-electrive-en, ev-news-2026-10-02-electrive-en]
-updated: 2026-10-02
+sources: [lges-bmw-46series-order, ev-news-2026-06-30-07-01, ev-news-2026-07-10-electrive-batch, ev-news-2026-07-12-13-electrive, ev-news-2026-07-24-27-electrive-en, ev-news-2026-07-29-31-digitimes, ev-news-2026-07-28-30-electrive-en, ev-news-2026-08-27-29-electrive-en, ev-news-2026-09-18-electrive-en, ev-news-2026-09-22-electrive-en, ev-news-2026-09-22-digitimes, ev-news-2026-09-24-electrive-en, ev-news-2026-09-30-electrive-en, ev-news-2026-10-01-electrive-en, ev-news-2026-10-02-electrive-en, ev-news-2026-10-05-electrive-en, ev-news-2026-10-04-digest]
+updated: 2026-10-05
 ---
 
 # BMW（寶馬）
@@ -176,3 +176,9 @@ BMW發表首款純電3系i3，共用Neue Klasse平台與iX3同技術套件但續
 美規i3 50 xDrive初估EPA續航468英里（Model 3 Long Range AWD 342英里）、NACS、起價61,500美元、2027年Q1交車；BMW資本市場日宣布年內發表純電iX4、2028年再推歐洲為主的入門Neue Klasse（外界推測i1）；iX3訂單逾10萬、交車逾3萬、訂單簿排至2027年Q2、利潤率與燃油車持平。
 
 - 參見：[[sources/ev-news-2026-10-01-electrive-en]] | [[sources/ev-news-2026-10-02-electrive-en]] | [[countries/美國]] | [[countries/歐洲]]
+
+## Irlbach-Straßkirchen電池廠量產Gen6、美規i3提前預購（2026-10）
+
+BMW Irlbach-Straßkirchen電池廠（約10億歐元）量產第六代高壓電池，首供慕尼黑廠新i3、兩班制運轉；Gen6採800V與46mm圓柱電芯（能量密度較前代方形高約20%），i3 50 xDrive使用108.7kWh電池；2027年款i3美國預購9/29提前開放、起價61,500美元、2027年Q1交車；歐系豪華車廠（含BMW）全面將重心轉向美國，但美國參議院擬設車廠中資持股15%上限的法案影響賓士、Volvo。
+
+- 參見：[[sources/ev-news-2026-10-05-electrive-en]] | [[sources/ev-news-2026-10-04-digest]] | [[concepts/電池技術路線]] | [[countries/德國]] | [[countries/美國]]

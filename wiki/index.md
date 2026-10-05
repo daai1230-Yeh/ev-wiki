@@ -1,6 +1,6 @@
 # Wiki Index
 
-Last updated: 2026-10-02 | Pages: 492 | Sources: 536
+Last updated: 2026-10-05 | Pages: 492 | Sources: 538
 
 ---
 
@@ -82,6 +82,8 @@ Last updated: 2026-10-02 | Pages: 492 | Sources: 536
 - [[sources/ev-news-2026-10-01-digitimes]] — Digitimes批次5篇：中系車輸歐被低估2倍、廣汽收購一汽豐田50%、比亞迪撤馬來西亞CKD、泰國洪災、GM BCDC南韓設備。(2026-10-01)
 - [[sources/ev-news-2026-10-02-electrive-en]] — electrive批次2篇：BMW資本市場日（入門Neue Klasse 2028）、MG IM6試駕。(2026-10-02)
 - [[sources/ev-news-2026-10-02-digitimes]] — Digitimes批次5篇：一汽×廣汽豐田重整、比亞迪吉利赴美設廠供應鏈、Stellantis停工補充、Ultium LMR補充、LGES為Mercedes打造46100。(2026-10-02)
+- [[sources/ev-news-2026-10-04-digest]] — 中文財經媒體批次5篇：NDAA禁令衝擊比亞迪商用車、美參院擬設中資持股15%上限、加拿大調降中國電動車關稅、十一長假充電塞車、阿根廷中國車市佔10%。(2026-10-04)
+- [[sources/ev-news-2026-10-05-electrive-en]] — electrive批次15篇：歐盟汽車一攬子表決延後、BMW Gen6電池廠、LGES 46100供Mercedes、Tesla Q3、比亞迪9月創年內新高、英國9月BEV創紀錄、LA Metro 220輛電巴。(2026-10-05)
 
 ### 電動乘用車
 - [[sources/ev-news-2026-08-27-29-electrive-en]] — electrive/InsideEVs批次21篇：BMW突破200萬輛EV銷售、BYD超快充電池耐久測試（9天350次快充僅剩1.3%衰減）、中國門把手召回歐洲KBA/RDW調查、Tesla Cybercab奧斯汀發表活動將至、Rivian財務長離職、Lucid召回2.7萬輛。(2026-08-29)

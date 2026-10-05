@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [renault-flexis-acquisition-2026, ev-news-2026-06-27-29-en, ev-news-2026-07-09, ev-news-2026-09-26-electrive-en, ev-news-2026-09-28-electrive-en, ev-news-2026-09-29-electrive-en]
-updated: 2026-09-30
+sources: [renault-flexis-acquisition-2026, ev-news-2026-06-27-29-en, ev-news-2026-07-09, ev-news-2026-09-26-electrive-en, ev-news-2026-09-28-electrive-en, ev-news-2026-09-29-electrive-en, ev-news-2026-10-05-electrive-en]
+updated: 2026-10-05
 ---
 
 # Renault（雷諾）
@@ -99,3 +99,9 @@ Renault 宣布全資收購 **Flexis** 電動廂型車合資公司：
 雷諾宣布2030年前投資6億歐元升級Valladolid與Palencia兩廠，生產5款新車型（含2款C級距電動車），新增電池組裝線；新車採800V架構「RGEV Medium 2.0」平台，WLTP續航上看750公里（增程版1,400公里）、快充10分鐘可用。Dacia Hipster微型電動車傳2027年沿用中國eGT合資產線量產，L7e級距可能規避歐盟對中國製M1級電動車關稅。
 
 - 參見：[[sources/ev-news-2026-09-28-electrive-en]] | [[sources/ev-news-2026-09-29-electrive-en]] | [[countries/歐洲]] | [[countries/中國]]
+
+## 更新版Scenic／Megane E-Tech英國開賣（2026-10）
+
+Scenic E-Tech 89kWh版WLTP 642公里、15-80%由37分縮至28分鐘（英國33,245英鎊起）；Megane E-Tech改採67kWh LFP電池、WLTP 493公里、DC 165kW（28,245英鎊起）；德國Megane 34,990歐元、Scenic 42,590歐元。
+
+- 參見：[[sources/ev-news-2026-10-05-electrive-en]] | [[countries/英國]]

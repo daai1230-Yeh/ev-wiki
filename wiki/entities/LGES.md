@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [lges-loss-ess-2026, ira-supply-chain-compliance, us-ev-battery-demand-mismatch, lges-tesla-4680-supplier, lges-bmw-46series-order, ev-news-2026-07-03-08, ev-news-2026-07-10-supplement, ev-news-2026-07-12-13-electrive, ev-news-2026-07-14-16-digitimes, ev-news-2026-07-17-20-digitimes, ev-news-2026-07-25-27-digitimes, ev-news-2026-07-29-31-digitimes, ev-news-2026-08-20-digitimes, ev-news-2026-08-19-20-cn-misc, ev-news-2026-08-19-20-electrive-en, ev-news-2026-08-21-digitimes, ev-news-2026-08-21-23-electrive-en, ev-news-2026-08-26-digitimes, ev-news-2026-08-27-digitimes, ev-news-2026-09-01-digitimes, ev-news-2026-10-01-electrive-en, ev-news-2026-10-02-digitimes]
-updated: 2026-10-02
+sources: [lges-loss-ess-2026, ira-supply-chain-compliance, us-ev-battery-demand-mismatch, lges-tesla-4680-supplier, lges-bmw-46series-order, ev-news-2026-07-03-08, ev-news-2026-07-10-supplement, ev-news-2026-07-12-13-electrive, ev-news-2026-07-14-16-digitimes, ev-news-2026-07-17-20-digitimes, ev-news-2026-07-25-27-digitimes, ev-news-2026-07-29-31-digitimes, ev-news-2026-08-20-digitimes, ev-news-2026-08-19-20-cn-misc, ev-news-2026-08-19-20-electrive-en, ev-news-2026-08-21-digitimes, ev-news-2026-08-21-23-electrive-en, ev-news-2026-08-26-digitimes, ev-news-2026-08-27-digitimes, ev-news-2026-09-01-digitimes, ev-news-2026-10-01-electrive-en, ev-news-2026-10-02-digitimes, ev-news-2026-10-05-electrive-en]
+updated: 2026-10-05
 ---
 
 # 樂金能源解決方案（LG Energy Solution，LGES）
@@ -208,3 +208,9 @@ updated: 2026-10-02
 Ultium Cells（LGES×GM）Spring Hill廠將改建為方形LMR量產廠（2028年完成，2030年前投資約10億美元、新增500職位），成為LGES北美由軟包為主轉向多元形狀的關鍵；韓媒另傳LGES為Mercedes規劃46100圓柱電池（波蘭弗羅茨瓦夫廠評估中，2027年動工、2028年供貨，LGES稱尚未定案）；LGES與Mercedes 2025年已簽合約合計逾17兆韓元。
 
 - 參見：[[sources/ev-news-2026-10-01-electrive-en]] | [[sources/ev-news-2026-10-02-digitimes]] | [[entities/通用汽車]] | [[concepts/電池技術路線]] | [[countries/韓國]] | [[countries/歐洲]]
+
+## 確認為Mercedes規劃46100圓柱電芯，波蘭廠評估中（2026-10）
+
+The Elec報導LGES為Mercedes供應46100電芯（尚未公開的46系列新規格），波蘭弗羅茨瓦夫廠建首條產線、明年起建置、2028年供貨，並評估模組組裝投資；Ochang廠已調整設備；兩家自2024年10月已簽四份長約，Mercedes並與三星SDI、CATL同步多元採購。
+
+- 參見：[[sources/ev-news-2026-10-05-electrive-en]] | [[sources/ev-news-2026-10-02-digitimes]] | [[entities/三星SDI]]

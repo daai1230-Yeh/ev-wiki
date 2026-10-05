@@ -1,7 +1,7 @@
 ---
 tags: [concept]
-sources: [tesla-canada-model3-2026, nissan-mississippi-ev-abandonment, china-evs-canada-chery-geely-2026, ford-catl-michigan-factory-2026, china-ev-us-market-2026, nissan-canada-dongfeng-ev-quota-2026, ev-news-2026-09-07-08-electrive-en, ev-news-2026-09-09-electrive-en, ev-news-2026-09-14-digest, ev-news-2026-09-11-digitimes, ev-news-2026-09-14-digitimes, ev-news-2026-09-17-digitimes, ev-news-2026-09-17-digest, ev-news-2026-09-17-electrive-en, ev-news-2026-09-20-digest, ev-news-2026-09-18-digest, ev-news-2026-09-25-digest, ev-news-2026-09-28-digest, ev-news-2026-09-30-digitimes, ev-news-2026-10-01-electrive-en, ev-news-2026-10-02-digitimes]
-updated: 2026-10-02
+sources: [tesla-canada-model3-2026, nissan-mississippi-ev-abandonment, china-evs-canada-chery-geely-2026, ford-catl-michigan-factory-2026, china-ev-us-market-2026, nissan-canada-dongfeng-ev-quota-2026, ev-news-2026-09-07-08-electrive-en, ev-news-2026-09-09-electrive-en, ev-news-2026-09-14-digest, ev-news-2026-09-11-digitimes, ev-news-2026-09-14-digitimes, ev-news-2026-09-17-digitimes, ev-news-2026-09-17-digest, ev-news-2026-09-17-electrive-en, ev-news-2026-09-20-digest, ev-news-2026-09-18-digest, ev-news-2026-09-25-digest, ev-news-2026-09-28-digest, ev-news-2026-09-30-digitimes, ev-news-2026-10-01-electrive-en, ev-news-2026-10-02-digitimes, ev-news-2026-10-04-digest]
+updated: 2026-10-05
 ---
 
 # 北美 EV 關稅與政策
@@ -192,3 +192,12 @@ Polestar H1 2026財報顯示，美國商務部拒絕給予其連網車規則（2
 Farley在Automotive News Congress主張美國謹慎對待中國車廠、暫不開放（歐洲因未控管已「太遲」；中國電動車全球市佔上升70%、歐洲約12%、墨西哥25%），並稱大量中國車湧入有國安疑慮；與川普稱可允許中國車廠在美設廠、國會擬禁止持股15%以上中資車廠的法案並存；台廠消息稱比亞迪與吉利將是首批赴美設廠者。
 
 - 參見：[[sources/ev-news-2026-10-01-electrive-en]] | [[sources/ev-news-2026-10-02-digitimes]] | [[entities/福特]] | [[countries/美國]]
+
+## 美國NDAA清單與聯網車禁令、參院擬設中資持股15%上限；加拿大調降中國電動車關稅（2026-10）
+
+> **結論**：美國以NDAA 1260H清單（比亞迪在列）、聯網車軟體（2027）與硬體（2029）禁令把對中政策從關稅轉向「技術准入」，參議院並擬禁止中資持股逾15%的車廠在美銷售；鄰國加拿大卻反向開放——每年最多4.9萬輛中國製電動車以6.1%關稅進口。
+
+**主因**：商務部重型車（1萬磅以上）暫時豁免使比亞迪加州電巴廠得以續組裝、但專項限制將至；歐系豪華車廠（BMW、奧迪）因中國內捲轉向美國、賓士與Volvo恐須調整中資股權；加拿大自5月已進口近1.6萬輛中國製電動車、約半數低於3.5萬加幣；Ford執行長主張美國謹慎（見10-01）。
+**觀察**：中資持股上限法案是否通過及排除條款；商務部大客車與卡車限制內容。
+
+- 參見：[[sources/ev-news-2026-10-04-digest]] | [[entities/比亞迪]] | [[entities/Tesla]] | [[countries/美國]] | [[countries/加拿大]]

@@ -2286,3 +2286,12 @@ Pages 375 → 406，Sources 315 → 346
 - New pages created: 無
 - Key additions: 瑞銀警示中系車輸歐實際量恐被低估2倍、Tesla FSD歐盟表決延至年底；廣汽擬收購一汽豐田50%股權（豐田中國雙合資重整）；GM新Bolt產量大砍約七成、Ultium Spring Hill改產方形LMR（2028年）；Geely 2.25MW站五城落地與抗衰減技術；小米發布首款EREV Sky Nomad；BMW資本市場日宣布2028年入門Neue Klasse、iX3訂單破10萬；LGES傳為Mercedes打造46100電池；比亞迪撤馬來西亞CKD廠、吉利／寶騰有意接手；Ford執行長稱歐洲對抗中國「已太遲」；Stellantis法國多廠10月停工（補充）
 - 備註: 10-01「Battery shortage Stellantis pauses EV production in France」與09-30已收錄報導內容相同（僅標籤不同）視為重複、不另建檔；Ultium LMR（electrive／Digitimes）、Stellantis停工（Digitimes補充）、廣汽收購一汽豐田（確認09-18~21意向協議標的）以補充段落併入既有章節
+
+## [2026-10-05] ingest | EV News 2026-10-04~05 批次（20篇原文，2個來源摘要頁）
+- Summary pages: [[sources/ev-news-2026-10-04-digest]], [[sources/ev-news-2026-10-05-electrive-en]]
+- Raw asset: raw/assets/2026-10-04-*.md ~ 2026-10-05-*.md（各來源頁frontmatter sources欄位列出檔名，內文逐條附原文網址）
+- Pages updated: [[entities/比亞迪]], [[entities/Tesla]], [[entities/BMW]], [[entities/LGES]], [[entities/三星SDI]], [[entities/Polestar]], [[entities/Renault]], [[entities/豐田]]；concepts：[[concepts/北美EV關稅與政策]], [[concepts/歐洲EV市場]], [[concepts/電池技術路線]], [[concepts/充電基礎建設]], [[concepts/電動巴士市場]], [[concepts/中國EV出海策略]]
+- Countries updated: [[countries/中國]], [[countries/美國]], [[countries/加拿大]], [[countries/歐洲]], [[countries/德國]], [[countries/英國]], [[countries/韓國]], [[countries/印度]], [[countries/巴西]]
+- New pages created: 無
+- Key additions: 比亞迪9月交車463,561輛創年內新高、海外占比39%；美國NDAA 1260H清單與聯網車禁令衝擊比亞迪商用車、參院擬設中資持股15%上限；加拿大每年4.9萬輛中國製電動車6.1%關稅；歐洲議會運輸委員會延後「汽車一攬子」表決（2035年CO2降90%而非零）；BMW Gen6電池廠量產與i3美國預購；LGES確認為Mercedes供應46100電芯；Tesla Q3交付486,532輛；英國9月BEV註冊創單月紀錄；LA Metro 220輛電巴（ENC＝ElDorado National）
+- 備註: LGES 46100（electrive）為10-02 Digitimes報導的確認補充；LA Metro（electrive）補充09-26中文報導並釐清得標者ENC即ElDorado National加州廠；ETAuto電子報本批次無新增

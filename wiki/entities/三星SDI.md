@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [samsung-sdi-mercedes-battery-deal, samsung-sdi-mercedes-confirmed-deal, samsung-sdi-solid-state-production-2026, ev-news-2026-07-03-08, ev-news-2026-07-14-16-digitimes, ev-news-2026-09-04-digitimes, ev-news-2026-09-24-digitimes, ev-news-2026-10-02-digitimes]
-updated: 2026-10-02
+sources: [samsung-sdi-mercedes-battery-deal, samsung-sdi-mercedes-confirmed-deal, samsung-sdi-solid-state-production-2026, ev-news-2026-07-03-08, ev-news-2026-07-14-16-digitimes, ev-news-2026-09-04-digitimes, ev-news-2026-09-24-digitimes, ev-news-2026-10-02-digitimes, ev-news-2026-10-05-electrive-en]
+updated: 2026-10-05
 ---
 
 # 三星 SDI（Samsung SDI）
@@ -97,3 +97,9 @@ updated: 2026-10-02
 三星SDI於2026年4月與Mercedes簽訂多年期高鎳NCM供應合約；同期傳LGES為Mercedes規劃46100圓柱電池，顯示Mercedes多元化電池規格與供應來源。
 
 - 參見：[[sources/ev-news-2026-10-02-digitimes]] | [[entities/LGES]]
+
+## Mercedes多元供應：四月首份長約之後LGES 46100也加入（2026-10）
+
+Mercedes今年4月與三星SDI簽首份長期電池供應合約，並同步引入LGES 46100圓柱電芯（2028年供貨）、CATL，過往也向SK On與Farasis採購。
+
+- 參見：[[sources/ev-news-2026-10-05-electrive-en]] | [[entities/LGES]]
