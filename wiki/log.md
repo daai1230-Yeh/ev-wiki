@@ -2295,3 +2295,12 @@ Pages 375 → 406，Sources 315 → 346
 - New pages created: 無
 - Key additions: 比亞迪9月交車463,561輛創年內新高、海外占比39%；美國NDAA 1260H清單與聯網車禁令衝擊比亞迪商用車、參院擬設中資持股15%上限；加拿大每年4.9萬輛中國製電動車6.1%關稅；歐洲議會運輸委員會延後「汽車一攬子」表決（2035年CO2降90%而非零）；BMW Gen6電池廠量產與i3美國預購；LGES確認為Mercedes供應46100電芯；Tesla Q3交付486,532輛；英國9月BEV註冊創單月紀錄；LA Metro 220輛電巴（ENC＝ElDorado National）
 - 備註: LGES 46100（electrive）為10-02 Digitimes報導的確認補充；LA Metro（electrive）補充09-26中文報導並釐清得標者ENC即ElDorado National加州廠；ETAuto電子報本批次無新增
+
+## [2026-10-06] ingest | EV News 2026-10-05~06 批次（20篇原文，3個來源摘要頁）
+- Summary pages: [[sources/ev-news-2026-10-05-digitimes]], [[sources/ev-news-2026-10-06-electrive-en]], [[sources/ev-news-2026-10-06-digest]]
+- Raw asset: raw/assets/2026-10-05-*.md ~ 2026-10-06-*.md（各來源頁frontmatter sources欄位列出檔名，內文逐條附原文網址）
+- Pages updated: [[entities/比亞迪]], [[entities/Tesla]], [[entities/豐田]], [[entities/Renault]], [[entities/通用汽車]], [[entities/福特]], [[entities/Volkswagen]], [[entities/現代汽車]], [[entities/零跑汽車]], [[entities/吉利汽車]], [[entities/小馬智行]], [[entities/NHTSA]]；concepts：[[concepts/中國EV市場競爭格局]], [[concepts/中國EV出海策略]], [[concepts/歐洲EV市場]], [[concepts/平價電動車市場]], [[concepts/Robotaxi自動計程車]], [[concepts/ADAS智駕系統]], [[concepts/充電基礎建設]], [[concepts/氫燃料電池商用車]], [[concepts/美國EV市場與政策]], [[concepts/東南亞EV市場]]
+- Countries updated: [[countries/中國]], [[countries/歐洲]], [[countries/德國]], [[countries/英國]], [[countries/美國]], [[countries/日本]], [[countries/東南亞]]
+- New pages created: 無
+- Key additions: 全球電動車2026上半年僅年增2%進入高位盤整（中國年減13.4%、美國年減26.6%、歐洲+31.7%）；英國擬對中國電動車課特別關稅以符合歐盟「歐洲製造」規範；德國電動車補貼核准逾9.7萬件（Tesla居冠、Leapmotor與BYD升至第四、五）；歐盟1~8月電動車164萬輛+45%；Renault擬在法國投資逾100億歐元；Tesla Cybercab德州核准車輛增至169輛；Momenta瞄準2027年Robotaxi數千輛；Toyota阿根廷13.4億美元電動車廠；Denza Z9S發表
+- 備註: 10-05 Digitimes「比亞迪海外表現強勢」為10-05 electrive 9月銷量報導的補充；泰國洪災（udn）補充10-01 Digitimes報導；英國關稅兩篇（Digitimes／electrive）互補合併

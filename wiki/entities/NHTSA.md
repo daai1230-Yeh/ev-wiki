@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [tesla-ass-nhtsa-probe-closed]
-updated: 2026-04-08
+sources: [tesla-ass-nhtsa-probe-closed, ev-news-2026-10-06-digest]
+updated: 2026-10-06
 ---
 
 # NHTSA（美國國家公路交通安全管理局）
@@ -28,3 +28,9 @@ NHTSA 是電動車自動駕駛功能在美國市場上市的關鍵監管關卡�
 - [[entities/Tesla]]
 - [[concepts/電池與技術/自動駕駛安全監管]]
 - [[sources/tesla-ass-nhtsa-probe-closed]]
+
+## Cybercab審計調查回覆期限獲展延（2026-10）
+
+NHTSA對Tesla Cybercab啟動審計調查、原要求9月30日前回覆，Tesla已獲准展延。
+
+- 參見：[[sources/ev-news-2026-10-06-digest]] | [[entities/Tesla]]

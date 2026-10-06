@@ -1,7 +1,7 @@
 ---
 tags: [concept]
-sources: [thailand-ev-market-2026, china-autonomous-driving-overseas, foxconn-mitsubishi-fuso-electric-bus, byd-malaysia-factory-negotiation, byd-malaysia-factory-update-2026, malaysia-cbv-ev-regulation-2026, gwm-ora5-thailand-2026, geely-thailand-pickup-2026, mitsubishi-motors-middle-east-routes-2026, mitsubishi-hev-japan-2028, lges-honda-vietnam-bss-2026, volvo-ex30-thailand-fire-2026, hanoi-1000-bss-2026, ev-news-digest-jun1-10-2026, ev-news-2026-09-18-digest, ev-news-2026-09-18-digitimes, ev-news-2026-09-19-electrive-en, ev-news-2026-09-22-digest, ev-news-2026-09-22-electrive-en, ev-news-2026-09-28-digest, ev-news-2026-09-29-digitimes, ev-news-2026-10-01-digitimes]
-updated: 2026-10-02
+sources: [thailand-ev-market-2026, china-autonomous-driving-overseas, foxconn-mitsubishi-fuso-electric-bus, byd-malaysia-factory-negotiation, byd-malaysia-factory-update-2026, malaysia-cbv-ev-regulation-2026, gwm-ora5-thailand-2026, geely-thailand-pickup-2026, mitsubishi-motors-middle-east-routes-2026, mitsubishi-hev-japan-2028, lges-honda-vietnam-bss-2026, volvo-ex30-thailand-fire-2026, hanoi-1000-bss-2026, ev-news-digest-jun1-10-2026, ev-news-2026-09-18-digest, ev-news-2026-09-18-digitimes, ev-news-2026-09-19-electrive-en, ev-news-2026-09-22-digest, ev-news-2026-09-22-electrive-en, ev-news-2026-09-28-digest, ev-news-2026-09-29-digitimes, ev-news-2026-10-01-digitimes, ev-news-2026-10-06-digest]
+updated: 2026-10-06
 ---
 
 # 東南亞 EV 市場
@@ -239,3 +239,9 @@ updated: 2026-10-02
 馬來西亞2026上半年純電註冊3.17萬輛、年增85.1%、占整體車市7.8%（2025上半4.3%），寶騰以13,530輛超越比亞迪（5,675輛）居冠，iCAUR、極氪、Tesla緊隨其後；比亞迪撤回丹戎馬林CKD廠，吉利與寶騰對該園區有興趣；泰國洪災致Toyota四廠停工，FTI維持2026年145萬輛目標。
 
 - 參見：[[sources/ev-news-2026-10-01-digitimes]] | [[entities/吉利汽車]] | [[entities/比亞迪]] | [[countries/東南亞]]
+
+## 泰國洪災：1,315家企業受災，Toyota四廠停產（2026-10）
+
+泰國洪災波及1,315家企業（40府），Toyota四座工廠停產、FTI預估另有5~6家汽車相關工廠可能續停；Kasikorn估經濟損失70億~170億泰銖；2026年生產目標暫未調整。
+
+- 參見：[[sources/ev-news-2026-10-06-digest]] | [[entities/豐田]] | [[countries/東南亞]]

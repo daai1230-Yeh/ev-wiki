@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [renault-flexis-acquisition-2026, ev-news-2026-06-27-29-en, ev-news-2026-07-09, ev-news-2026-09-26-electrive-en, ev-news-2026-09-28-electrive-en, ev-news-2026-09-29-electrive-en, ev-news-2026-10-05-electrive-en]
-updated: 2026-10-05
+sources: [renault-flexis-acquisition-2026, ev-news-2026-06-27-29-en, ev-news-2026-07-09, ev-news-2026-09-26-electrive-en, ev-news-2026-09-28-electrive-en, ev-news-2026-09-29-electrive-en, ev-news-2026-10-05-electrive-en, ev-news-2026-10-06-electrive-en, ev-news-2026-10-05-digitimes]
+updated: 2026-10-06
 ---
 
 # Renault（雷諾）
@@ -105,3 +105,9 @@ Renault 宣布全資收購 **Flexis** 電動廂型車合資公司：
 Scenic E-Tech 89kWh版WLTP 642公里、15-80%由37分縮至28分鐘（英國33,245英鎊起）；Megane E-Tech改採67kWh LFP電池、WLTP 493公里、DC 165kW（28,245英鎊起）；德國Megane 34,990歐元、Scenic 42,590歐元。
 
 - 參見：[[sources/ev-news-2026-10-05-electrive-en]] | [[countries/英國]]
+
+## 法國投資逾100億歐元、阿根廷新皮卡、平價電動車熱銷（2026-10）
+
+Renault執行長Provost表示未來五年擬在法國投資逾100億歐元（以政治社會條件為前提）；futuREady計畫2030年在歐洲推22款新車（16款純電）；Renault上半年電動車銷量+63.2%（5 E-Tech、Twingo熱賣）、德國補貼核准第六；9月宣布在阿根廷哥多華廠生產新皮卡。
+
+- 參見：[[sources/ev-news-2026-10-06-electrive-en]] | [[sources/ev-news-2026-10-05-digitimes]] | [[concepts/平價電動車市場]] | [[countries/歐洲]]
