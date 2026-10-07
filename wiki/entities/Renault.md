@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [renault-flexis-acquisition-2026, ev-news-2026-06-27-29-en, ev-news-2026-07-09, ev-news-2026-09-26-electrive-en, ev-news-2026-09-28-electrive-en, ev-news-2026-09-29-electrive-en, ev-news-2026-10-05-electrive-en, ev-news-2026-10-06-electrive-en, ev-news-2026-10-05-digitimes]
-updated: 2026-10-06
+sources: [renault-flexis-acquisition-2026, ev-news-2026-06-27-29-en, ev-news-2026-07-09, ev-news-2026-09-26-electrive-en, ev-news-2026-09-28-electrive-en, ev-news-2026-09-29-electrive-en, ev-news-2026-10-05-electrive-en, ev-news-2026-10-06-electrive-en, ev-news-2026-10-05-digitimes, ev-news-2026-10-07-electrive-en]
+updated: 2026-10-07
 ---
 
 # Renault（雷諾）
@@ -111,3 +111,9 @@ Scenic E-Tech 89kWh版WLTP 642公里、15-80%由37分縮至28分鐘（英國33,2
 Renault執行長Provost表示未來五年擬在法國投資逾100億歐元（以政治社會條件為前提）；futuREady計畫2030年在歐洲推22款新車（16款純電）；Renault上半年電動車銷量+63.2%（5 E-Tech、Twingo熱賣）、德國補貼核准第六；9月宣布在阿根廷哥多華廠生產新皮卡。
 
 - 參見：[[sources/ev-news-2026-10-06-electrive-en]] | [[sources/ev-news-2026-10-05-digitimes]] | [[concepts/平價電動車市場]] | [[countries/歐洲]]
+
+## Renault Trucks與Volvo獲Geodis 110輛電動重卡訂單（2026-10）
+
+Geodis向Renault Trucks與Volvo Trucks確定訂購110輛44噸純電卡車（2027年5月前交車，主要在法國），電動卡車合計達190輛，並規劃每250~500公里的電動走廊（2030年逾200個充電點）。
+
+- 參見：[[sources/ev-news-2026-10-07-electrive-en]] | [[concepts/電動卡車市場]] | [[countries/歐洲]]

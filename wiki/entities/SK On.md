@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [sk-on-hungary-utilization, sk-on-nissan-battery-doubt-2026, ski-q1-2026-results, sk-on-erev-battery-hyundai-2027, ev-news-2026-09-22-digitimes, ev-news-2026-09-29-digitimes]
-updated: 2026-09-30
+sources: [sk-on-hungary-utilization, sk-on-nissan-battery-doubt-2026, ski-q1-2026-results, sk-on-erev-battery-hyundai-2027, ev-news-2026-09-22-digitimes, ev-news-2026-09-29-digitimes, ev-news-2026-10-07-digitimes]
+updated: 2026-10-07
 ---
 
 # SK On
@@ -82,3 +82,9 @@ SK On 完成對中國**江蘇鹽城**電池廠的完全控股收購：
 浦項未來材料與SK On簽署2027~2029年LFP正極材料供應合約（規模約1.1兆韓元／約8.1億美元），為雙方首度正極材料合約；材料供SK On喬治亞州廠生產的ESS用LFP電芯，助其建立非中國產LFP正極供應鏈。
 
 - 參見：[[sources/ev-news-2026-09-29-digitimes]] | [[concepts/儲能市場]] | [[concepts/電池技術路線]] | [[countries/韓國]] | [[countries/美國]]
+
+## 鈉離子電池目標2027年完成原型（2026-10）
+
+SK On已投入鈉電池研發，目標2027年完成原型，並規劃在ESS產品組合（現有LFP與釩離子電池）中加入鈉電池。
+
+- 參見：[[sources/ev-news-2026-10-07-digitimes]] | [[concepts/鈉離子電池]] | [[concepts/儲能市場]]

@@ -1,7 +1,7 @@
 ---
 tags: [concept]
-sources: [gm-ford-q1-2026-sales, us-ev-battery-demand-mismatch, rivian-r2-range-specs, vw-id4-chattanooga-stop, tesla-25k-ev-us-price-parity, slate-auto-ev-pickup, ford-ev-restructure-doug-field, vw-id4-us-writedown, tesla-q1-2026-earnings, gm-ev-delay-detroit-three, nissan-mississippi-ev-abandonment, honda-canada-ev-freeze-2026, tesla-model-s-final-production, mazda-ev-delay-2029, ford-catl-michigan-factory-2026, honda-9b-loss-hybrid-pivot-2026, tesla-model-y-price-bump-2026, congress-ev-annual-fee-2026, rivian-r2-deliveries-2026, chevy-bolt-2027-review, 駐外新聞-美國-2025, ev-news-2026-09-18-digest, ev-news-2026-09-20-digest, ev-news-2026-09-22-electrive-en, ev-news-2026-09-26-electrive-en, ev-news-2026-09-28-digest, ev-news-2026-10-05-digitimes]
-updated: 2026-10-06
+sources: [gm-ford-q1-2026-sales, us-ev-battery-demand-mismatch, rivian-r2-range-specs, vw-id4-chattanooga-stop, tesla-25k-ev-us-price-parity, slate-auto-ev-pickup, ford-ev-restructure-doug-field, vw-id4-us-writedown, tesla-q1-2026-earnings, gm-ev-delay-detroit-three, nissan-mississippi-ev-abandonment, honda-canada-ev-freeze-2026, tesla-model-s-final-production, mazda-ev-delay-2029, ford-catl-michigan-factory-2026, honda-9b-loss-hybrid-pivot-2026, tesla-model-y-price-bump-2026, congress-ev-annual-fee-2026, rivian-r2-deliveries-2026, chevy-bolt-2027-review, 駐外新聞-美國-2025, ev-news-2026-09-18-digest, ev-news-2026-09-20-digest, ev-news-2026-09-22-electrive-en, ev-news-2026-09-26-electrive-en, ev-news-2026-09-28-digest, ev-news-2026-10-05-digitimes, ev-news-2026-10-07-electrive-en]
+updated: 2026-10-07
 ---
 
 # 美國 EV 市場與政策
@@ -412,3 +412,9 @@ Cox Automotive數據顯示美國油電混合車Q2市占達16.3%創新高，豐�
 DIGITIMES Research：美國電動車上半年57萬輛年減26.6%（占全球約6%），主因7,500美元稅額抵免2025年9月底終止；GM、Ford電動化轉向兼顧成本與獲利。
 
 - 參見：[[sources/ev-news-2026-10-05-digitimes]] | [[countries/美國]]
+
+## 美國電動車占比落後俄羅斯、歐盟、中國（2026-10）
+
+Autostat：俄羅斯電動＋插電占新車11.5%略高於美國；美國8月BEV 78,895輛占5.7%（年減46.9%）、Q2 BEV 6%、PHEV 1.4%、油電混合16%；Lucid Q3產量降38%、Ionna 2027年起訓練經銷商以推動採用。
+
+- 參見：[[sources/ev-news-2026-10-07-electrive-en]] | [[entities/Lucid]] | [[countries/美國]]

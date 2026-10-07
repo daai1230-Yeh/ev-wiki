@@ -2304,3 +2304,12 @@ Pages 375 → 406，Sources 315 → 346
 - New pages created: 無
 - Key additions: 全球電動車2026上半年僅年增2%進入高位盤整（中國年減13.4%、美國年減26.6%、歐洲+31.7%）；英國擬對中國電動車課特別關稅以符合歐盟「歐洲製造」規範；德國電動車補貼核准逾9.7萬件（Tesla居冠、Leapmotor與BYD升至第四、五）；歐盟1~8月電動車164萬輛+45%；Renault擬在法國投資逾100億歐元；Tesla Cybercab德州核准車輛增至169輛；Momenta瞄準2027年Robotaxi數千輛；Toyota阿根廷13.4億美元電動車廠；Denza Z9S發表
 - 備註: 10-05 Digitimes「比亞迪海外表現強勢」為10-05 electrive 9月銷量報導的補充；泰國洪災（udn）補充10-01 Digitimes報導；英國關稅兩篇（Digitimes／electrive）互補合併
+
+## [2026-10-07] ingest | EV News 2026-10-06~07 批次（16篇原文，3個來源摘要頁）
+- Summary pages: [[sources/ev-news-2026-10-07-electrive-en]], [[sources/ev-news-2026-10-07-digitimes]], [[sources/ev-news-2026-10-07-digest]]
+- Raw asset: raw/assets/2026-10-06-*.md ~ 2026-10-07-*.md（各來源頁frontmatter sources欄位列出檔名，內文逐條附原文網址）
+- Pages updated: [[entities/比亞迪]], [[entities/本田]], [[entities/豐田]], [[entities/Renault]], [[entities/Lucid]], [[entities/Waymo]], [[entities/奇瑞]], [[entities/日産]], [[entities/LGES]], [[entities/三星SDI]], [[entities/SK On]]；concepts：[[concepts/鈉離子電池]], [[concepts/充電基礎建設]], [[concepts/Robotaxi自動計程車]], [[concepts/電動卡車市場]], [[concepts/氫燃料電池商用車]], [[concepts/平價電動車市場]], [[concepts/中國EV出海策略]], [[concepts/美國EV市場與政策]], [[concepts/儲能市場]]
+- Countries updated: [[countries/中國]], [[countries/日本]], [[countries/英國]], [[countries/東南亞]], [[countries/台灣]], [[countries/美國]], [[countries/歐洲]], [[countries/韓國]]
+- New pages created: 無
+- Key additions: 鈴木e SKY（212萬日圓起）與BYD Racco的日本Kei EV價格戰；南韓電池三雄（LGES、三星SDI、SK On）搶進鈉離子電池，LGES 2027年向美國ESS客戶送樣；中國十一長假高速公路充電量年增49%、重卡移動儲能充電站；Honda與Toyota 2027年於館山自動車道實證行駛中無線供電；Waymo 2028年進新加坡；俄羅斯油荒推升電動＋插電占比至11.5%；Geodis 110輛電動重卡；英國擬對中系EV課稅的雙重顧慮；台塑汽車電動卡車最快2028年底開賣
+- 備註: 10-06「Tesla Cybercab德州車隊擴編 出奧斯汀迎技術與監管考驗」（空格變體）與前批已收錄報導相同、視為重複不另建檔；Toyota Sora二代（electrive）補充10-06 InsideEVs報導；本田無線供電（electrive／Digitimes）、十一長假充電（Digitimes／udn／新唐人）、英國課稅（Digitimes三篇）互補合併

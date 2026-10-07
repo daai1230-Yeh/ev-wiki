@@ -1,6 +1,6 @@
 # Wiki Index
 
-Last updated: 2026-10-06 | Pages: 492 | Sources: 541
+Last updated: 2026-10-07 | Pages: 492 | Sources: 544
 
 ---
 
@@ -87,6 +87,9 @@ Last updated: 2026-10-06 | Pages: 492 | Sources: 541
 - [[sources/ev-news-2026-10-05-digitimes]] — Digitimes批次6篇：全球電動車高位盤整三分化、比亞迪9月出口支撐、英國擬隨歐盟對中國EV課稅、豐田阿根廷13.4億美元電動車廠、Momenta Robotaxi擴張、GM與Ford AI路徑。(2026-10-05)
 - [[sources/ev-news-2026-10-06-electrive-en]] — electrive/InsideEVs批次12篇：德國電動車補貼首批10萬件、歐盟1~8月電動車+45%、Renault法國100億歐元、Denza Z9S、MOIA奧蘭多載客、Ioniq 3英國開賣、Toyota Sora氫能巴士。(2026-10-06)
 - [[sources/ev-news-2026-10-06-digest]] — Digitimes／中文財經批次2篇：Tesla Cybercab德州169輛、泰國洪災逾1,300家企業受影響。(2026-10-06)
+- [[sources/ev-news-2026-10-07-electrive-en]] — electrive/InsideEVs批次7篇：俄羅斯電動插電車占11.5%、Waymo 2028年進新加坡、Honda無線供電道路、Toyota Sora二代補充、Geodis 110輛電動重卡、Lucid Q3、Ionna經銷商訓練。(2026-10-07)
+- [[sources/ev-news-2026-10-07-digitimes]] — Digitimes批次8篇：中國十一長假充電量年增49%、鈴木e SKY與BYD Racco日本Kei EV價格戰、南韓三雄鈉電池、英國課稅雙重顧慮、Robotaxi用電、台塑電動卡車。(2026-10-07)
+- [[sources/ev-news-2026-10-07-digest]] — 中文財經批次1篇：大陸十一長假行動「充電寶」。(2026-10-07)
 
 ### 電動乘用車
 - [[sources/ev-news-2026-08-27-29-electrive-en]] — electrive/InsideEVs批次21篇：BMW突破200萬輛EV銷售、BYD超快充電池耐久測試（9天350次快充僅剩1.3%衰減）、中國門把手召回歐洲KBA/RDW調查、Tesla Cybercab奧斯汀發表活動將至、Rivian財務長離職、Lucid召回2.7萬輛。(2026-08-29)

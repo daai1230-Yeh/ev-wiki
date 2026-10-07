@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [lges-loss-ess-2026, ira-supply-chain-compliance, us-ev-battery-demand-mismatch, lges-tesla-4680-supplier, lges-bmw-46series-order, ev-news-2026-07-03-08, ev-news-2026-07-10-supplement, ev-news-2026-07-12-13-electrive, ev-news-2026-07-14-16-digitimes, ev-news-2026-07-17-20-digitimes, ev-news-2026-07-25-27-digitimes, ev-news-2026-07-29-31-digitimes, ev-news-2026-08-20-digitimes, ev-news-2026-08-19-20-cn-misc, ev-news-2026-08-19-20-electrive-en, ev-news-2026-08-21-digitimes, ev-news-2026-08-21-23-electrive-en, ev-news-2026-08-26-digitimes, ev-news-2026-08-27-digitimes, ev-news-2026-09-01-digitimes, ev-news-2026-10-01-electrive-en, ev-news-2026-10-02-digitimes, ev-news-2026-10-05-electrive-en]
-updated: 2026-10-05
+sources: [lges-loss-ess-2026, ira-supply-chain-compliance, us-ev-battery-demand-mismatch, lges-tesla-4680-supplier, lges-bmw-46series-order, ev-news-2026-07-03-08, ev-news-2026-07-10-supplement, ev-news-2026-07-12-13-electrive, ev-news-2026-07-14-16-digitimes, ev-news-2026-07-17-20-digitimes, ev-news-2026-07-25-27-digitimes, ev-news-2026-07-29-31-digitimes, ev-news-2026-08-20-digitimes, ev-news-2026-08-19-20-cn-misc, ev-news-2026-08-19-20-electrive-en, ev-news-2026-08-21-digitimes, ev-news-2026-08-21-23-electrive-en, ev-news-2026-08-26-digitimes, ev-news-2026-08-27-digitimes, ev-news-2026-09-01-digitimes, ev-news-2026-10-01-electrive-en, ev-news-2026-10-02-digitimes, ev-news-2026-10-05-electrive-en, ev-news-2026-10-07-digitimes]
+updated: 2026-10-07
 ---
 
 # 樂金能源解決方案（LG Energy Solution，LGES）
@@ -214,3 +214,9 @@ Ultium Cells（LGES×GM）Spring Hill廠將改建為方形LMR量產廠（2028年
 The Elec報導LGES為Mercedes供應46100電芯（尚未公開的46系列新規格），波蘭弗羅茨瓦夫廠建首條產線、明年起建置、2028年供貨，並評估模組組裝投資；Ochang廠已調整設備；兩家自2024年10月已簽四份長約，Mercedes並與三星SDI、CATL同步多元採購。
 
 - 參見：[[sources/ev-news-2026-10-05-electrive-en]] | [[sources/ev-news-2026-10-02-digitimes]] | [[entities/三星SDI]]
+
+## 鈉離子電池PoC完成，2027年向美國ESS客戶送樣（2026-10）
+
+LGES已與客戶完成長時儲能用鈉離子電池PoC，2027年向美國ESS客戶提供樣品並商業化（12V、ESS、平價電動車）；南京既有鋰電池產線改造為鈉電池試產（年約200MWh），梧倉廠建鈉電池母線；2026年8月全球電動車電池用量LGES 8.1%居第三。
+
+- 參見：[[sources/ev-news-2026-10-07-digitimes]] | [[concepts/鈉離子電池]] | [[countries/韓國]]

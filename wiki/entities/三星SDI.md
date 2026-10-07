@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [samsung-sdi-mercedes-battery-deal, samsung-sdi-mercedes-confirmed-deal, samsung-sdi-solid-state-production-2026, ev-news-2026-07-03-08, ev-news-2026-07-14-16-digitimes, ev-news-2026-09-04-digitimes, ev-news-2026-09-24-digitimes, ev-news-2026-10-02-digitimes, ev-news-2026-10-05-electrive-en]
-updated: 2026-10-05
+sources: [samsung-sdi-mercedes-battery-deal, samsung-sdi-mercedes-confirmed-deal, samsung-sdi-solid-state-production-2026, ev-news-2026-07-03-08, ev-news-2026-07-14-16-digitimes, ev-news-2026-09-04-digitimes, ev-news-2026-09-24-digitimes, ev-news-2026-10-02-digitimes, ev-news-2026-10-05-electrive-en, ev-news-2026-10-07-digitimes]
+updated: 2026-10-07
 ---
 
 # 三星 SDI（Samsung SDI）
@@ -103,3 +103,9 @@ updated: 2026-10-05
 Mercedes今年4月與三星SDI簽首份長期電池供應合約，並同步引入LGES 46100圓柱電芯（2028年供貨）、CATL，過往也向SK On與Farasis採購。
 
 - 參見：[[sources/ev-news-2026-10-05-electrive-en]] | [[entities/LGES]]
+
+## 評估鈉離子電池量產，預期2027年公布計畫（2026-10）
+
+三星SDI正評估鈉離子電池量產、預期2027年公布量產計畫；SK On目標2027年完成鈉電池原型；南韓政府2027~2031年投入約4,000億韓元研發。
+
+- 參見：[[sources/ev-news-2026-10-07-digitimes]] | [[entities/LGES]] | [[concepts/鈉離子電池]]
