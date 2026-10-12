@@ -2313,3 +2313,12 @@ Pages 375 → 406，Sources 315 → 346
 - New pages created: 無
 - Key additions: 鈴木e SKY（212萬日圓起）與BYD Racco的日本Kei EV價格戰；南韓電池三雄（LGES、三星SDI、SK On）搶進鈉離子電池，LGES 2027年向美國ESS客戶送樣；中國十一長假高速公路充電量年增49%、重卡移動儲能充電站；Honda與Toyota 2027年於館山自動車道實證行駛中無線供電；Waymo 2028年進新加坡；俄羅斯油荒推升電動＋插電占比至11.5%；Geodis 110輛電動重卡；英國擬對中系EV課稅的雙重顧慮；台塑汽車電動卡車最快2028年底開賣
 - 備註: 10-06「Tesla Cybercab德州車隊擴編 出奧斯汀迎技術與監管考驗」（空格變體）與前批已收錄報導相同、視為重複不另建檔；Toyota Sora二代（electrive）補充10-06 InsideEVs報導；本田無線供電（electrive／Digitimes）、十一長假充電（Digitimes／udn／新唐人）、英國課稅（Digitimes三篇）互補合併
+
+## [2026-10-12] ingest | EV News 2026-10-08~12 批次（27篇原文，5個來源摘要頁）
+- Summary pages: [[sources/ev-news-2026-10-08-digitimes]], [[sources/ev-news-2026-10-09-electrive-en]], [[sources/ev-news-2026-10-10-electrive-en]], [[sources/ev-news-2026-10-12-digitimes]], [[sources/ev-news-2026-10-12-digest]]
+- Raw asset: raw/assets/2026-10-08-*.md ~ 2026-10-12-*.md
+- Pages updated: [[entities/LGES]], [[entities/本田]], [[entities/日産]], [[entities/Polestar]], [[entities/Rivian]], [[entities/Tesla]], [[entities/Volkswagen]], [[entities/吉利汽車]], [[entities/比亞迪]], [[entities/豐田]], [[entities/現代汽車]], [[entities/奇瑞]], [[entities/寧德時代]], [[entities/Stellantis]]；concepts：[[concepts/中國EV出海策略]], [[concepts/歐洲EV市場]], [[concepts/電池技術路線]], [[concepts/儲能市場]], [[concepts/電池回收]], [[concepts/北美EV關稅與政策]], [[concepts/充電基礎建設]], [[concepts/ADAS智駕系統]], [[concepts/電動巴士市場]], [[concepts/印度EV市場]], [[concepts/車用半導體供應鏈]]
+- Countries updated: [[countries/中國]], [[countries/歐洲]], [[countries/德國]], [[countries/加拿大]], [[countries/美國]], [[countries/日本]], [[countries/東南亞]], [[countries/台灣]], [[countries/印度]], [[countries/韓國]]
+- New pages created: 無
+- Key additions: 中歐就混動車達成諒解、歐盟最快12月以關稅配額限制中國混動輸歐（約減半）；彭博建議取消13%出口退稅（BYD上半年退稅價值約168億元人民幣超過淨利）；歐系車廠與ACEA要求延後IAA「歐洲製造」電池在地化規範；德國力挺放行Tesla FSD、歐盟表決延至12月；LGES Q3營收創單季新高；Polestar Q3靠美國清庫存；吉利2027年進加拿大；本田北美HEV量產延後；台灣阿波羅×Tesla 1GWh儲能；VW ID. Tiguan發表
+- 備註: **來源網址限制**：10-08（Digitimes CarTech）與10-12（Digitimes）共12篇剪輯檔frontmatter僅標註來源媒體、未附單篇網址，來源頁已註明並待補；10-07帶全形空格的5篇與10-08「漫圖」重複版視為重複不另建檔

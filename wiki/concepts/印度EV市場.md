@@ -1,7 +1,7 @@
 ---
 tags: [concept]
-sources: [electric-bus-market-2025-global, delhi-ev-policy-2026, vinfast-india-investment, india-ev-commercial-update-2026, india-tata-jsw-battery-rd-2026, mahindra-ev-expansion-2026, ather-energy-el-platform-2026, india-2w-market-fy27-bifurcation-2026, india-1bn-ev-commercial-incentives-2026, china-catl-battery-tech-export-2026, tesla-india-factory-exit-2026, honda-india-ev-hybrid-2026, tata-stellantis-jeep-india-2026, india-electric-bus-market-2025, tata-chery-avinya-platform-2026, delhi-ev-7year-high-2026, toptec-india-battery-equipment-2026, ev-news-2026-09-18-electrive-en, ev-news-2026-09-20-india, ev-news-2026-09-21-india, ev-news-2026-09-24-electrive-en, ev-news-2026-09-24-digest]
-updated: 2026-09-26
+sources: [electric-bus-market-2025-global, delhi-ev-policy-2026, vinfast-india-investment, india-ev-commercial-update-2026, india-tata-jsw-battery-rd-2026, mahindra-ev-expansion-2026, ather-energy-el-platform-2026, india-2w-market-fy27-bifurcation-2026, india-1bn-ev-commercial-incentives-2026, china-catl-battery-tech-export-2026, tesla-india-factory-exit-2026, honda-india-ev-hybrid-2026, tata-stellantis-jeep-india-2026, india-electric-bus-market-2025, tata-chery-avinya-platform-2026, delhi-ev-7year-high-2026, toptec-india-battery-equipment-2026, ev-news-2026-09-18-electrive-en, ev-news-2026-09-20-india, ev-news-2026-09-21-india, ev-news-2026-09-24-electrive-en, ev-news-2026-09-24-digest, ev-news-2026-10-12-digest]
+updated: 2026-10-12
 ---
 
 # 印度 EV 市場
@@ -325,3 +325,9 @@ VinFast暫停VF 6／7／3在地化、改研發低於1.2萬美元的VF X；印度
 JSW集團子公司發表電動商用車新品牌Ampstar，馬哈拉施特拉邦90英畝新廠年產能1.5萬輛（1萬巴士＋5千卡車），總投資約250億盧比，電控核心零件自主開發；目標卡車在地化率6個月內達50%；Ultraviolette另籌資8,500萬美元加速全球電動機車擴張、2027年進軍美國。
 
 - 參見：[[sources/ev-news-2026-09-24-electrive-en]] | [[sources/ev-news-2026-09-24-digest]] | [[concepts/電動商用車]] | [[countries/印度]]
+
+## 現代汽車印度1,000萬輛里程碑（2026-10）
+
+現代汽車印度累計988萬輛、SUV占67%、2030年產能逾110萬輛並以印度為出口樞紐（出口占比最高30%）。
+
+- 參見：[[sources/ev-news-2026-10-12-digest]] | [[entities/現代汽車]]

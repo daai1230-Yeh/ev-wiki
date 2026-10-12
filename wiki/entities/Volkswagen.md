@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [vw-restructure-china-offensive-2026, ev-news-2026-06-27-29-en, ev-news-2026-06-30-07-01, ev-news-2026-07-02, ev-news-2026-07-03-08, ev-news-2026-07-10-supplement, ev-news-2026-07-12-13-electrive, ev-news-2026-07-14-16-electrive, ev-news-2026-07-17-20-digitimes, ev-news-2026-07-20-21-electrive-en, ev-news-2026-07-22-23-electrive-en, ev-news-2026-07-25-27-digitimes, ev-news-2026-07-24-27-electrive-en, ev-news-2026-07-24-28-electrive-en, ev-news-2026-07-29-31-digitimes, ev-news-2026-07-28-30-electrive-en, ev-news-2026-08-04-06-digitimes, ev-news-2026-08-03-06-electrive-en, ev-news-2026-08-07-10-electrive-en, ev-news-2026-08-13-digitimes, ev-news-2026-08-14-17-digitimes, ev-news-2026-08-18-digitimes, ev-news-2026-07-23-08-24-etauto-india, ev-news-2026-09-07-08-electrive-en, ev-news-2026-09-07-08-digest, ev-news-2026-09-08-electrive-en, ev-news-2026-09-09-electrive-en, ev-news-2026-09-09-10-etauto-india, ev-news-2026-09-11-electrive-en, ev-news-2026-09-15-electrive-en, ev-news-2026-09-17-electrive-en, ev-news-2026-09-18-electrive-en, ev-news-2026-09-22-electrive-en, ev-news-2026-09-22-digitimes, ev-news-2026-09-23-electrive-en, ev-news-2026-09-23-digitimes, ev-news-2026-09-24-electrive-en, ev-news-2026-09-26-electrive-en, ev-news-2026-09-28-electrive-en, ev-news-2026-09-29-electrive-en, ev-news-2026-09-30-digitimes, ev-news-2026-10-01-electrive-en, ev-news-2026-10-05-digitimes, ev-news-2026-10-06-electrive-en]
-updated: 2026-10-06
+sources: [vw-restructure-china-offensive-2026, ev-news-2026-06-27-29-en, ev-news-2026-06-30-07-01, ev-news-2026-07-02, ev-news-2026-07-03-08, ev-news-2026-07-10-supplement, ev-news-2026-07-12-13-electrive, ev-news-2026-07-14-16-electrive, ev-news-2026-07-17-20-digitimes, ev-news-2026-07-20-21-electrive-en, ev-news-2026-07-22-23-electrive-en, ev-news-2026-07-25-27-digitimes, ev-news-2026-07-24-27-electrive-en, ev-news-2026-07-24-28-electrive-en, ev-news-2026-07-29-31-digitimes, ev-news-2026-07-28-30-electrive-en, ev-news-2026-08-04-06-digitimes, ev-news-2026-08-03-06-electrive-en, ev-news-2026-08-07-10-electrive-en, ev-news-2026-08-13-digitimes, ev-news-2026-08-14-17-digitimes, ev-news-2026-08-18-digitimes, ev-news-2026-07-23-08-24-etauto-india, ev-news-2026-09-07-08-electrive-en, ev-news-2026-09-07-08-digest, ev-news-2026-09-08-electrive-en, ev-news-2026-09-09-electrive-en, ev-news-2026-09-09-10-etauto-india, ev-news-2026-09-11-electrive-en, ev-news-2026-09-15-electrive-en, ev-news-2026-09-17-electrive-en, ev-news-2026-09-18-electrive-en, ev-news-2026-09-22-electrive-en, ev-news-2026-09-22-digitimes, ev-news-2026-09-23-electrive-en, ev-news-2026-09-23-digitimes, ev-news-2026-09-24-electrive-en, ev-news-2026-09-26-electrive-en, ev-news-2026-09-28-electrive-en, ev-news-2026-09-29-electrive-en, ev-news-2026-09-30-digitimes, ev-news-2026-10-01-electrive-en, ev-news-2026-10-05-digitimes, ev-news-2026-10-06-electrive-en, ev-news-2026-10-10-electrive-en]
+updated: 2026-10-12
 ---
 
 # Volkswagen（福斯集團）
@@ -415,3 +415,9 @@ VW為最大股東的國軒高科將固態電池「金石」目標由350提高至
 DIGITIMES Research：福斯上半年美國與中國BEV銷量分別年減69%與48%，歐洲+8%，PHEV與EREV雙位數成長使整體電動車仍年增4%；MOIA America與Beep在奧蘭多Lake Nona啟動VW ID. Buzz AD首次載客測試（目標供Beep 5,000輛）；德國補貼核准中Skoda、Cupra、VW分居第二、三、七。
 
 - 參見：[[sources/ev-news-2026-10-05-digitimes]] | [[sources/ev-news-2026-10-06-electrive-en]] | [[concepts/Robotaxi自動計程車]] | [[countries/德國]]
+
+## ID. Tiguan正式發表（2026-10）
+
+VW發表ID. Tiguan取代ID.4：三螢幕、實體按鍵與音量旋鈕、單踏板駕駛、前行李廂、V2L；58/77kWh、WLTP最長600公里，歐洲起價約42,695歐元、2027年初交車、美國版稍後公布。
+
+- 參見：[[sources/ev-news-2026-10-10-electrive-en]] | [[countries/歐洲]] | [[countries/美國]]

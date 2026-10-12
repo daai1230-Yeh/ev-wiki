@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [ev-news-2026-06-29, ev-news-2026-09-04-electrive-en, ev-news-2026-09-07-08-electrive-en, ev-news-2026-09-14-digitimes, ev-news-2026-10-05-electrive-en]
-updated: 2026-10-05
+sources: [ev-news-2026-06-29, ev-news-2026-09-04-electrive-en, ev-news-2026-09-07-08-electrive-en, ev-news-2026-09-14-digitimes, ev-news-2026-10-05-electrive-en, ev-news-2026-10-09-electrive-en]
+updated: 2026-10-12
 ---
 
 # Polestar
@@ -98,3 +98,9 @@ Polestar發表Polestar 4 SUV版本，沿用與Coupé相同的400V平台架構（
 Polestar歐洲推出Plus（德國7.99歐元/月、15%折扣）與Pro（14.99歐元/月、30%折扣）快充訂閱，折扣充電點分別逾10.4萬與11.8萬個，Polestar Charge漫遊涵蓋逾125萬個充電點（含Tesla Supercharger）；背景是上半年全球銷量停滯、全年成長預期下修至低至中個位數。
 
 - 參見：[[sources/ev-news-2026-10-05-electrive-en]] | [[concepts/充電基礎建設]] | [[countries/歐洲]]
+
+## Q3全球交付14,371輛，全靠美國清庫存（2026-10）
+
+Q3交付年增1%、扣美國年減8%；美國交付年增124%至2,160輛（遭商務部聯網車規定禁售後大幅折扣），Volvo獲豁免而Polestar遭拒；Polestar 5開始交車、新Polestar 4 SUV Q4出貨。
+
+- 參見：[[sources/ev-news-2026-10-09-electrive-en]] | [[concepts/北美EV關稅與政策]] | [[countries/美國]]

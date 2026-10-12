@@ -1,6 +1,6 @@
 # Wiki Index
 
-Last updated: 2026-10-07 | Pages: 492 | Sources: 544
+Last updated: 2026-10-12 | Pages: 492 | Sources: 549
 
 ---
 
@@ -90,6 +90,11 @@ Last updated: 2026-10-07 | Pages: 492 | Sources: 544
 - [[sources/ev-news-2026-10-07-electrive-en]] — electrive/InsideEVs批次7篇：俄羅斯電動插電車占11.5%、Waymo 2028年進新加坡、Honda無線供電道路、Toyota Sora二代補充、Geodis 110輛電動重卡、Lucid Q3、Ionna經銷商訓練。(2026-10-07)
 - [[sources/ev-news-2026-10-07-digitimes]] — Digitimes批次8篇：中國十一長假充電量年增49%、鈴木e SKY與BYD Racco日本Kei EV價格戰、南韓三雄鈉電池、英國課稅雙重顧慮、Robotaxi用電、台塑電動卡車。(2026-10-07)
 - [[sources/ev-news-2026-10-07-digest]] — 中文財經批次1篇：大陸十一長假行動「充電寶」。(2026-10-07)
+- [[sources/ev-news-2026-10-08-digitimes]] — Digitimes CarTech批次6篇：LGES Q3營收創單季新高、歐系車廠籲延後電池在地化規範、本田北美HEV延後、阿波羅×Tesla 1GWh儲能、三大未來電池回收（註：剪輯檔無單篇網址）。(2026-10-08)
+- [[sources/ev-news-2026-10-09-electrive-en]] — InsideEVs批次4篇：Polestar Q3靠美國清庫存、Nissan中國造PHEV皮卡Navara Pro、Rivian R2座椅降級、LGES創高補充。(2026-10-09)
+- [[sources/ev-news-2026-10-10-electrive-en]] — InsideEVs批次3篇：VW ID. Tiguan發表、吉利2027年進加拿大、紐約路燈桿充電Voltpost Air。(2026-10-10)
+- [[sources/ev-news-2026-10-12-digitimes]] — Digitimes批次6篇：德國力挺FSD、Applied Intuition助日廠SDV、中國取消電動車出口退稅分析、豐田北美電池中心、速霸陸onsemi EPP（註：剪輯檔無單篇網址）。(2026-10-12)
+- [[sources/ev-news-2026-10-12-digest]] — 中文財經批次8篇：陸混動車輸歐恐砍半、豐田泰國殘值貸款、現代印度1,000萬輛、華德電巴、桃園A21、雙層客運補助縮水、Starlink印度。(2026-10-12)
 
 ### 電動乘用車
 - [[sources/ev-news-2026-08-27-29-electrive-en]] — electrive/InsideEVs批次21篇：BMW突破200萬輛EV銷售、BYD超快充電池耐久測試（9天350次快充僅剩1.3%衰減）、中國門把手召回歐洲KBA/RDW調查、Tesla Cybercab奧斯汀發表活動將至、Rivian財務長離職、Lucid召回2.7萬輛。(2026-08-29)

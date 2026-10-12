@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [rivian-r2-range-specs, rivian-service-network-2026, rivian-lidar-china-partner-2026, ev-news-2026-07-03-08, ev-news-2026-07-24-28-electrive-en, ev-news-2026-08-03-06-electrive-en, ev-news-2026-08-07-10-electrive-en, ev-news-2026-08-27-29-electrive-en, ev-news-2026-09-18-electrive-en, ev-news-2026-10-01-electrive-en]
-updated: 2026-10-02
+sources: [rivian-r2-range-specs, rivian-service-network-2026, rivian-lidar-china-partner-2026, ev-news-2026-07-03-08, ev-news-2026-07-24-28-electrive-en, ev-news-2026-08-03-06-electrive-en, ev-news-2026-08-07-10-electrive-en, ev-news-2026-08-27-29-electrive-en, ev-news-2026-09-18-electrive-en, ev-news-2026-10-01-electrive-en, ev-news-2026-10-09-electrive-en]
+updated: 2026-10-12
 ---
 
 # Rivian
@@ -150,3 +150,9 @@ R2（約90kWh、531公里、200kW直流快充、車長4.72m）對標Model Y與BM
 Rivian投資人關係副總裁Newcom表示，R2第三代自駕硬體（自研RAP1晶片＋光達）2026年底僅提供員工、一般客戶要到2027年，與CEO「2026年底起」說法有落差。
 
 - 參見：[[sources/ev-news-2026-10-01-electrive-en]] | [[concepts/ADAS智駕系統]]
+
+## R2座椅椅背通風遭降級引發爭議（2026-10）
+
+Rivian取消R2座椅椅背通風（僅保留座墊），稱因噪音；社群出現取消預訂聲浪，傳聞硬體已移除但未證實。
+
+- 參見：[[sources/ev-news-2026-10-09-electrive-en]]

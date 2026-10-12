@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [stellantis-leapmotor-canada-rejected, us-ev-battery-demand-mismatch, europe-battery-capacity-cuts, stellantis-opel-leapmotor-suv, opel-peugeot-long-range-delay, ev-news-2026-10-02-digitimes]
-updated: 2026-10-02
+sources: [stellantis-leapmotor-canada-rejected, us-ev-battery-demand-mismatch, europe-battery-capacity-cuts, stellantis-opel-leapmotor-suv, opel-peugeot-long-range-delay, ev-news-2026-10-02-digitimes, ev-news-2026-10-08-digitimes]
+updated: 2026-10-12
 ---
 
 # 斯特蘭蒂斯（Stellantis）
@@ -63,3 +63,9 @@ Stellantis 旗下 Formula E 參賽品牌重組：
 Stellantis因ACC長續航電池短缺與控管庫存，Sochaux（10/23~30）、Rennes（10/22~30）停工；Mulhouse（Peugeot 308需求不如預期）、Poissy（10/19~23）另有原因；義大利Mirafiori 10/19~30無薪假、Melfi時開時停；傳正與華為、江淮洽談Maserati長期合作，執行長Filosa稱持續推動製造夥伴關係。
 
 - 參見：[[sources/ev-news-2026-10-02-digitimes]] | [[sources/ev-news-2026-09-30-electrive-en]] | [[countries/歐洲]]
+
+## 與寧德時代共投41億歐元西班牙電池廠（2026-10）
+
+Stellantis與寧德時代共同投資41億歐元在西班牙建電池廠，與ACC（僅法國廠運作）等本土供應鏈在「歐洲製造」規範上形成利益拉鋸。
+
+- 參見：[[sources/ev-news-2026-10-08-digitimes]] | [[entities/寧德時代]]

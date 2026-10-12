@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [lges-loss-ess-2026, ira-supply-chain-compliance, us-ev-battery-demand-mismatch, lges-tesla-4680-supplier, lges-bmw-46series-order, ev-news-2026-07-03-08, ev-news-2026-07-10-supplement, ev-news-2026-07-12-13-electrive, ev-news-2026-07-14-16-digitimes, ev-news-2026-07-17-20-digitimes, ev-news-2026-07-25-27-digitimes, ev-news-2026-07-29-31-digitimes, ev-news-2026-08-20-digitimes, ev-news-2026-08-19-20-cn-misc, ev-news-2026-08-19-20-electrive-en, ev-news-2026-08-21-digitimes, ev-news-2026-08-21-23-electrive-en, ev-news-2026-08-26-digitimes, ev-news-2026-08-27-digitimes, ev-news-2026-09-01-digitimes, ev-news-2026-10-01-electrive-en, ev-news-2026-10-02-digitimes, ev-news-2026-10-05-electrive-en, ev-news-2026-10-07-digitimes]
-updated: 2026-10-07
+sources: [lges-loss-ess-2026, ira-supply-chain-compliance, us-ev-battery-demand-mismatch, lges-tesla-4680-supplier, lges-bmw-46series-order, ev-news-2026-07-03-08, ev-news-2026-07-10-supplement, ev-news-2026-07-12-13-electrive, ev-news-2026-07-14-16-digitimes, ev-news-2026-07-17-20-digitimes, ev-news-2026-07-25-27-digitimes, ev-news-2026-07-29-31-digitimes, ev-news-2026-08-20-digitimes, ev-news-2026-08-19-20-cn-misc, ev-news-2026-08-19-20-electrive-en, ev-news-2026-08-21-digitimes, ev-news-2026-08-21-23-electrive-en, ev-news-2026-08-26-digitimes, ev-news-2026-08-27-digitimes, ev-news-2026-09-01-digitimes, ev-news-2026-10-01-electrive-en, ev-news-2026-10-02-digitimes, ev-news-2026-10-05-electrive-en, ev-news-2026-10-07-digitimes, ev-news-2026-10-08-digitimes, ev-news-2026-10-09-electrive-en, ev-news-2026-10-12-digest]
+updated: 2026-10-12
 ---
 
 # 樂金能源解決方案（LG Energy Solution，LGES）
@@ -220,3 +220,9 @@ The Elec報導LGES為Mercedes供應46100電芯（尚未公開的46系列新規�
 LGES已與客戶完成長時儲能用鈉離子電池PoC，2027年向美國ESS客戶提供樣品並商業化（12V、ESS、平價電動車）；南京既有鋰電池產線改造為鈉電池試產（年約200MWh），梧倉廠建鈉電池母線；2026年8月全球電動車電池用量LGES 8.1%居第三。
 
 - 參見：[[sources/ev-news-2026-10-07-digitimes]] | [[concepts/鈉離子電池]] | [[countries/韓國]]
+
+## Q3營收創單季新高、鋰精礦長約（2026-10）
+
+LGES Q3營收約9.64兆韓元（年增59%）創單季新高，營業利益7,560億韓元（扣AMPC後仍盈利3,391億韓元，Q2虧損1,277億韓元），主因北美ESS擴產、歐洲電動車電池與合資廠復工、客戶補償金；與Elevra Lithium簽約4年取得24萬噸鋰精礦；8月啟用的密西根蘭辛廠生產Tesla用LFP儲能電池與Toyota用NMC電池。
+
+- 參見：[[sources/ev-news-2026-10-08-digitimes]] | [[sources/ev-news-2026-10-09-electrive-en]] | [[sources/ev-news-2026-10-12-digest]] | [[concepts/儲能市場]] | [[countries/韓國]]
