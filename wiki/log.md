@@ -2322,3 +2322,11 @@ Pages 375 → 406，Sources 315 → 346
 - New pages created: 無
 - Key additions: 中歐就混動車達成諒解、歐盟最快12月以關稅配額限制中國混動輸歐（約減半）；彭博建議取消13%出口退稅（BYD上半年退稅價值約168億元人民幣超過淨利）；歐系車廠與ACEA要求延後IAA「歐洲製造」電池在地化規範；德國力挺放行Tesla FSD、歐盟表決延至12月；LGES Q3營收創單季新高；Polestar Q3靠美國清庫存；吉利2027年進加拿大；本田北美HEV量產延後；台灣阿波羅×Tesla 1GWh儲能；VW ID. Tiguan發表
 - 備註: **來源網址限制**：10-08（Digitimes CarTech）與10-12（Digitimes）共12篇剪輯檔frontmatter僅標註來源媒體、未附單篇網址，來源頁已註明並待補；10-07帶全形空格的5篇與10-08「漫圖」重複版視為重複不另建檔
+
+## [2026-10-13] ingest | EV News 2026-10-12 補充批次（2篇原文，1個來源摘要頁）
+- Summary pages: [[sources/ev-news-2026-10-12-digitimes-2]]
+- Raw asset: raw/assets/2026-10-12-延伸綠能交易版圖…麗升….md、2026-10-12-豐田重整中國版圖…廣汽入股一汽豐田…md
+- Pages updated: [[entities/豐田]]；concepts：[[concepts/中國EV市場競爭格局]], [[concepts/充電基礎建設]]；countries：[[countries/中國]], [[countries/日本]], [[countries/台灣]]
+- New pages created: 無
+- Key additions: 豐田10/8正式宣布與廣汽、一汽三方協議（廣汽收購一汽豐田50%）；麗升收購三座超充站
+- 備註: 2篇Digitimes CarTech剪輯檔無單篇網址；同批5篇全形空格檔名（Applied Intuition、德國FSD、出口退稅、漫圖BYD、豐田TBC）為10-12已收錄報導的重複版，不另收錄

@@ -1,6 +1,6 @@
 # Wiki Index
 
-Last updated: 2026-10-12 | Pages: 492 | Sources: 549
+Last updated: 2026-10-13 | Pages: 492 | Sources: 550
 
 ---
 
@@ -95,6 +95,7 @@ Last updated: 2026-10-12 | Pages: 492 | Sources: 549
 - [[sources/ev-news-2026-10-10-electrive-en]] — InsideEVs批次3篇：VW ID. Tiguan發表、吉利2027年進加拿大、紐約路燈桿充電Voltpost Air。(2026-10-10)
 - [[sources/ev-news-2026-10-12-digitimes]] — Digitimes批次6篇：德國力挺FSD、Applied Intuition助日廠SDV、中國取消電動車出口退稅分析、豐田北美電池中心、速霸陸onsemi EPP（註：剪輯檔無單篇網址）。(2026-10-12)
 - [[sources/ev-news-2026-10-12-digest]] — 中文財經批次8篇：陸混動車輸歐恐砍半、豐田泰國殘值貸款、現代印度1,000萬輛、華德電巴、桃園A21、雙層客運補助縮水、Starlink印度。(2026-10-12)
+- [[sources/ev-news-2026-10-12-digitimes-2]] — Digitimes CarTech補充2篇：豐田、廣汽、一汽三方協議正式簽署、麗升跨足充電樁（註：剪輯檔無單篇網址）。(2026-10-12)
 
 ### 電動乘用車
 - [[sources/ev-news-2026-08-27-29-electrive-en]] — electrive/InsideEVs批次21篇：BMW突破200萬輛EV銷售、BYD超快充電池耐久測試（9天350次快充僅剩1.3%衰減）、中國門把手召回歐洲KBA/RDW調查、Tesla Cybercab奧斯汀發表活動將至、Rivian財務長離職、Lucid召回2.7萬輛。(2026-08-29)
