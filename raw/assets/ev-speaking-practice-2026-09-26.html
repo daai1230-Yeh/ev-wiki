@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>EV Speaking Practice — The Megawatt Race (2026-09-26)</title>
+<style>
+  :root {
+    --bg: #0C2A65;
+    --fg: #FFFFFF;
+    --accent: #7FB3FF;
+    --line: rgba(127,179,255,.35);
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    padding: 28px 22px 60px;
+    background: var(--bg);
+    color: var(--fg);
+    font-family: "Helvetica Neue", Helvetica, Arial, "PingFang TC", "Noto Sans TC", sans-serif;
+    font-size: 20pt;
+    line-height: 1.62;
+  }
+  .wrap { max-width: 900px; margin: 0 auto; }
+  h1 {
+    font-size: 28pt;
+    line-height: 1.3;
+    margin: 0 0 6px;
+    font-weight: 700;
+  }
+  .sub { font-size: 15pt; opacity: .7; margin: 0 0 26px; letter-spacing: .03em; }
+  h2 {
+    font-size: 22pt;
+    margin: 0 0 16px;
+    padding-left: 14px;
+    border-left: 6px solid var(--accent);
+    line-height: 1.35;
+  }
+  h2 .min { font-size: 14pt; color: var(--accent); font-weight: 400; margin-left: 10px; letter-spacing: .04em; }
+  .block {
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    padding: 22px 24px;
+    margin: 0 0 26px;
+  }
+  .plan { background: rgba(127,179,255,.09); }
+  .plan ol { margin: 10px 0 0; padding-left: 26px; font-size: 16pt; line-height: 1.75; }
+  .plan li::marker { color: var(--accent); font-weight: 700; }
+  .plan .t { color: var(--accent); font-variant-numeric: tabular-nums; }
+  .en { margin: 18px 0 2px; }
+  .zh { margin: 0 0 14px; font-size: 16pt; opacity: .72; line-height: 1.6; }
+  ol.q { padding-left: 26px; margin: 4px 0 0; }
+  ol.q li { margin-bottom: 14px; }
+  ol.q li::marker { color: var(--accent); font-weight: 700; }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 15pt;
+    margin-top: 8px;
+  }
+  th, td {
+    border: 1px solid var(--line);
+    padding: 10px 12px;
+    text-align: left;
+    vertical-align: top;
+    line-height: 1.5;
+  }
+  th { background: rgba(127,179,255,.18); color: var(--accent); font-weight: 700; white-space: nowrap; }
+  td.ipa { font-family: "Lucida Grande", "Segoe UI", sans-serif; opacity: .8; white-space: nowrap; }
+  code { font-family: "SF Mono", Menlo, Consolas, monospace; font-size: 13.5pt; }
+  a { color: var(--accent); }
+  .pat { margin: 0 0 18px; }
+  .pat .f { font-weight: 700; }
+  footer { font-size: 13pt; opacity: .55; text-align: center; margin-top: 36px; line-height: 1.7; }
+  .note { font-size: 14pt; opacity: .65; margin: 0 0 12px; line-height: 1.6; }
+
+  @media (max-width: 640px) {
+    body { font-size: 17pt; padding: 18px 14px 44px; }
+    h1 { font-size: 22pt; }
+    h2 { font-size: 18pt; }
+    .zh { font-size: 14pt; }
+    table { font-size: 13pt; }
+    th, td { padding: 8px 8px; }
+    .block { padding: 16px 14px; }
+  }
+
+  /* ---- Text-to-speech controls ---- */
+  #ttsbar {
+    position:sticky; top:0; z-index:50;
+    background:rgba(12,42,101,.96); backdrop-filter:blur(6px);
+    border:1px solid var(--line); border-radius:10px;
+    padding:14px 18px; margin:0 0 8px;
+    display:flex; flex-wrap:wrap; gap:10px 14px; align-items:center;
+    font-size:14pt;
+  }
+  #ttsbar label { opacity:.75; letter-spacing:.04em; }
+  #ttsbar button {
+    font:inherit; font-size:14pt; font-weight:700;
+    color:var(--bg); background:var(--accent);
+    border:none; border-radius:6px; padding:8px 16px; cursor:pointer;
+  }
+  #ttsbar button.ghost { background:transparent; color:var(--accent); border:1px solid var(--accent); }
+  #ttsbar button:hover { opacity:.85; }
+  #ttsbar select {
+    font:inherit; font-size:14pt;
+    color:var(--fg); background:#123573;
+    border:1px solid var(--line); border-radius:6px; padding:7px 10px; max-width:260px;
+  }
+  #ttshint { flex-basis:100%; font-size:12.5pt; opacity:.6; line-height:1.5; }
+  .playbtn {
+    font:inherit; font-size:13pt; line-height:1;
+    color:var(--accent); background:transparent;
+    border:1px solid rgba(127,179,255,.5); border-radius:5px;
+    padding:4px 9px; margin-right:10px; cursor:pointer; vertical-align:middle;
+  }
+  .playbtn:hover { background:rgba(127,179,255,.16); }
+  .speaking {
+    background:rgba(127,179,255,.17);
+    box-shadow:0 0 0 8px rgba(127,179,255,.17);
+    border-radius:3px;
+  }
+</style>
+
+</head>
+<body>
+<div class="wrap">
+
+<h1>EV Speaking Practice — The Megawatt Race</h1>
+<p class="sub">2026-09-26　·　25 minutes　·　Topic: Megawatt charging for trucks and cars, and the strain on the grid　卡車與轎車的百萬瓦級充電及電網壓力</p>
+
+<div class="block plan">
+  <h2>Session Plan　課程流程</h2>
+  <ol>
+    <li><span class="t">3 min</span> — Warm-Up 暖身問答</li>
+    <li><span class="t">6 min</span> — Read Aloud 朗讀短文</li>
+    <li><span class="t">4 min</span> — Key Vocabulary 關鍵單字</li>
+    <li><span class="t">2 min</span> — Saying the Numbers 數字唸法</li>
+    <li><span class="t">3 min</span> — Useful Expressions 實用句型</li>
+    <li><span class="t">5 min</span> — Discussion 討論題</li>
+    <li><span class="t">2 min</span> — Wrap-Up 總結</li>
+  </ol>
+</div>
+
+<div id="ttsbar">
+  <button id="tts-play">▶ Read the article 朗讀全文</button>
+  <button id="tts-stop" class="ghost">■ Stop 停止</button>
+  <label for="tts-voice">Voice</label>
+  <select id="tts-voice"></select>
+  <label for="tts-rate">Speed</label>
+  <select id="tts-rate">
+    <option value="0.75">0.75× 慢</option>
+    <option value="0.9" selected>0.9× 稍慢</option>
+    <option value="1">1.0× 正常</option>
+    <option value="1.15">1.15× 快</option>
+  </select>
+  <div id="ttshint">每個英文段落左邊都有 ▶ 可單獨播放；正在唸的句子會反白。想要更自然的聲音：macOS「系統設定 → 輔助使用 → 朗讀內容 → 系統聲音」下載 Enhanced／Premium 或 Siri 語音，再回來從上面的 Voice 選單選取。</div>
+</div>
+
+<h2>1. Warm-Up<span class="min">3 min　暖身</span></h2>
+<div class="block">
+<ol class="q">
+  <li><div class="en">How long are you willing to wait when you refuel or recharge a car? What would you do during that time?</div>
+      <div class="zh">幫車加油或充電時，你願意等多久？那段時間你會做什麼？</div></li>
+  <li><div class="en">When you order something online, do you ever think about the truck that brings it to you?</div>
+      <div class="zh">你在網路上買東西時，會想到把包裹送來的那輛卡車嗎？</div></li>
+  <li><div class="en">Where does the electricity in your home come from, and do you think the grid in your area is reliable?</div>
+      <div class="zh">你家的電從哪裡來？你覺得你所在地區的電網穩定嗎？</div></li>
+</ol>
+</div>
+
+<h2>2. Read Aloud<span class="min">6 min　朗讀短文</span></h2>
+<div class="block" id="article">
+<p class="note">Charging at Megawatt Speed　百萬瓦級的充電速度</p>
+
+<div class="en">A normal home charger delivers about seven kilowatts. The newest fast chargers are now measured in megawatts, and this week two very different stories showed where that race is heading: heavy trucks in Europe and passenger cars in China.</div>
+<div class="zh">一般家用充電器約提供 7 瓩的功率。最新的快充設備已經以「百萬瓦」為單位計算。本週兩則截然不同的新聞顯示了這場競賽的方向：歐洲的重型卡車，以及中國的乘用車。</div>
+
+<div class="en">A new study by Fraunhofer ISI and the ICCT estimates that charging electric trucks in Europe could require around 100 terawatt-hours of electricity a year by 2035, and roughly 200 terawatt-hours by 2045. Germany, France, the UK, Spain and Italy would see the highest demand.</div>
+<div class="zh">Fraunhofer ISI 與 ICCT 的新研究估計，歐洲電動卡車的充電用電量到 2035 年每年可能達約 100 太瓦時，2045 年約 200 太瓦時。德國、法國、英國、西班牙與義大利的需求最高。</div>
+
+<div class="en">Most of that energy will be delivered quietly at company depots, which account for 70 to 80 percent of demand in most countries. But the rest is highly concentrated. In many countries, just one percent of locations handle a quarter to a third of all truck charging, and some hotspots could see peak loads of 20 to 50 megawatts.</div>
+<div class="zh">大部分電力會在企業車庫中默默完成，在多數國家占需求的 70% 到 80%。但其餘部分高度集中：在許多國家，僅 1% 的地點就承擔了四分之一到三分之一的卡車充電量，部分熱點的尖峰負載可能達 20 到 50 百萬瓦。</div>
+
+<div class="en">Germany is already planning for this. Its state-backed motorway network is set to include about 1,800 megawatt charging points and 2,400 standard fast chargers. One service area on the A2, Garbsen Nord, is planned with a grid connection of almost 25 megavolt-amperes, roughly what a small town might use.</div>
+<div class="zh">德國已經在做準備。其國家主導的高速公路充電網預計包含約 1,800 個百萬瓦級充電點與 2,400 個一般快充樁。A2 公路上的 Garbsen Nord 服務區規劃的電網連接容量將近 25 百萬伏安，大約是一座小鎮的用電規模。</div>
+
+<div class="en">Meanwhile in China, Geely has unveiled a charging station with a peak output of 2,250 kilowatts, beating the 1,500 kilowatts of BYD's Flash Charging system. Paired with a battery that accepts a 12C charging rate, test cars went from 10 to 70 percent in four and a half minutes.</div>
+<div class="zh">另一方面在中國，吉利發表了峰值功率 2,250 瓩的充電站，超越比亞迪「閃充」系統的 1,500 瓩。搭配可承受 12C 充電倍率的電池，測試車從 10% 充到 70% 只花了四分半鐘。</div>
+
+<div class="en">Speed creates heat, so Geely uses an AI model to predict battery temperature 30 seconds ahead and aims to keep the average below 55 degrees Celsius. The competition is also about scale: BYD had built 10,000 flash-charging stations by the end of August and wants 20,000 by the end of this year.</div>
+<div class="zh">速度會產生熱，因此吉利用 AI 模型提前 30 秒預測電池溫度，目標是把平均溫度控制在攝氏 55 度以下。競爭也在於規模：比亞迪到 8 月底已建成 1 萬座閃充站，目標年底達到 2 萬座。</div>
+
+<div class="en">Supporters say megawatt charging finally removes the last excuse for not going electric. Critics reply that a few ultra-fast sites can strain local grids, and that most drivers and fleets would be better served by cheaper, slower charging where vehicles already park. The real question may be not how fast we can charge, but where the power will come from.</div>
+<div class="zh">支持者說，百萬瓦級充電終於消除了不改用電動車的最後藉口。批評者則認為，少數超快充站點可能讓地方電網吃緊，而多數駕駛與車隊其實更適合在車輛原本停放的地方使用較便宜、較慢的充電。真正的問題也許不是能充多快，而是電從哪裡來。</div>
+</div>
+
+<h2>3. Key Vocabulary<span class="min">4 min　關鍵單字</span></h2>
+<div class="block">
+<table>
+<tr><th>Word</th><th>IPA</th><th>中文</th><th>Example 例句</th></tr>
+<tr><td>megawatt</td><td class="ipa">/ˈmeɡəwɒt/</td><td>百萬瓦（MW）</td><td>A single truck charger can now draw more than one megawatt.</td></tr>
+<tr><td>terawatt-hour</td><td class="ipa">/ˈterəwɒt ˌaʊə(r)/</td><td>太瓦時（TWh，十億度）</td><td>Truck charging could need 200 terawatt-hours a year by 2045.</td></tr>
+<tr><td>depot charging</td><td class="ipa">/ˈdepəʊ ˈtʃɑːdʒɪŋ/</td><td>車庫（場站）充電</td><td>Depot charging is the backbone of the whole system.</td></tr>
+<tr><td>hotspot</td><td class="ipa">/ˈhɒtspɒt/</td><td>熱點</td><td>Motorway junctions will become charging hotspots.</td></tr>
+<tr><td>peak load</td><td class="ipa">/piːk ləʊd/</td><td>尖峰負載</td><td>Peak loads of 50 megawatts would challenge any local grid.</td></tr>
+<tr><td>grid connection</td><td class="ipa">/ɡrɪd kəˈnekʃən/</td><td>併網、電網連接</td><td>Getting a grid connection can take years in some regions.</td></tr>
+<tr><td>freight corridor</td><td class="ipa">/freɪt ˈkɒrɪdɔː(r)/</td><td>貨運走廊</td><td>Chargers are clustered along the main freight corridors.</td></tr>
+<tr><td>charging rate (C-rate)</td><td class="ipa">/ˈtʃɑːdʒɪŋ reɪt/</td><td>充電倍率</td><td>A 12C charging rate means a very fast refill in theory.</td></tr>
+<tr><td>thermal management</td><td class="ipa">/ˈθɜːməl ˈmænɪdʒmənt/</td><td>熱管理</td><td>Good thermal management protects the battery during fast charging.</td></tr>
+<tr><td>cycle life</td><td class="ipa">/ˈsaɪkəl laɪf/</td><td>循環壽命</td><td>Geely claims its method raises cycle life by up to 20 percent.</td></tr>
+<tr><td>strain</td><td class="ipa">/streɪn/</td><td>使吃緊、造成壓力</td><td>Too many fast chargers in one place could strain the grid.</td></tr>
+<tr><td>backbone</td><td class="ipa">/ˈbækbəʊn/</td><td>骨幹、主力</td><td>Researchers call depot charging the backbone of the network.</td></tr>
+</table>
+</div>
+
+<h2>4. Saying the Numbers<span class="min">2 min　數字唸法</span></h2>
+<div class="block">
+<table>
+<tr><th>Figure 數字</th><th>中文意思</th><th>Say it 英文唸法</th></tr>
+<tr><td>200 TWh</td><td>2045 年卡車充電用電量</td><td>two hundred terawatt-hours</td></tr>
+<tr><td>70–80%</td><td>車庫充電占比</td><td>seventy to eighty percent</td></tr>
+<tr><td>¼ to ⅓</td><td>1% 地點承擔的比例</td><td>a quarter to a third</td></tr>
+<tr><td>20–50 MW</td><td>熱點尖峰負載</td><td>twenty to fifty megawatts</td></tr>
+<tr><td>24.64 MVA</td><td>Garbsen Nord 電網容量</td><td>twenty-four point six four megavolt-amperes</td></tr>
+<tr><td>2,250 kW</td><td>吉利峰值功率</td><td>two thousand, two hundred and fifty kilowatts</td></tr>
+<tr><td>12C</td><td>充電倍率</td><td>twelve C</td></tr>
+<tr><td>4:30</td><td>10%→70% 充電時間</td><td>four minutes thirty seconds / four and a half minutes</td></tr>
+<tr><td>55 °C</td><td>平均溫度上限</td><td>fifty-five degrees Celsius</td></tr>
+<tr><td>2035 / 2045</td><td>預測年份</td><td>twenty thirty-five / twenty forty-five</td></tr>
+</table>
+</div>
+
+<h2>5. Useful Expressions<span class="min">3 min　實用句型</span></h2>
+<div class="block">
+<div class="pat">
+  <div class="en"><span class="f">This week, two very different stories showed …</span> — This week, two very different stories showed how fast charging is evolving.</div>
+  <div class="zh">「本週兩則截然不同的新聞顯示……」——用來開場、串連兩個例子。</div>
+</div>
+<div class="pat">
+  <div class="en"><span class="f">Most of … happens quietly, but the rest is highly concentrated.</span> — Most charging happens quietly at depots, but the rest is highly concentrated.</div>
+  <div class="zh">「大部分……默默發生，但其餘部分高度集中。」——對比「普遍」與「集中」。</div>
+</div>
+<div class="pat">
+  <div class="en"><span class="f">That's roughly what … would use.</span> — Twenty-five megavolt-amperes is roughly what a small town would use.</div>
+  <div class="zh">「那大約相當於……的用量。」——用生活化比喻讓數字更好懂。</div>
+</div>
+<div class="pat">
+  <div class="en"><span class="f">Supporters say …; critics reply that …</span> — Supporters say it removes range anxiety; critics reply that it strains the grid.</div>
+  <div class="zh">「支持者說……；批評者則回應……」——並陳正反兩方意見。</div>
+</div>
+<div class="pat">
+  <div class="en"><span class="f">The real question may be not … but …</span> — The real question may be not how fast we charge, but who pays for the grid.</div>
+  <div class="zh">「真正的問題也許不是……而是……」——把討論帶到更深的層次。</div>
+</div>
+</div>
+
+<h2>6. Discussion<span class="min">5 min　討論題</span></h2>
+<div class="block">
+<ol class="q">
+  <li><div class="en">Geely's cars charge from 10 to 70 percent in four and a half minutes. Is that fast enough to change your mind about EVs, or was charging time never the real issue?</div>
+      <div class="zh">吉利的車 4 分半就能從 10% 充到 70%。這個速度足以改變你對電動車的看法嗎？還是充電時間從來都不是真正的問題？</div></li>
+  <li><div class="en">Some argue the megawatt race is mostly marketing, since few drivers need it. Others say it is essential for people without home charging. Which side do you agree with?</div>
+      <div class="zh">有人認為百萬瓦競賽主要是行銷，因為很少駕駛真的需要；也有人說對家裡無法充電的人來說它不可或缺。你支持哪一方？</div></li>
+  <li><div class="en">One percent of locations could handle a third of all truck charging. Who should pay for the grid upgrades at those hotspots: governments, utilities, or the charging companies?</div>
+      <div class="zh">1% 的地點可能承擔三分之一的卡車充電量。這些熱點的電網升級該由誰付費——政府、電力公司，還是充電業者？</div></li>
+  <li><div class="en">Why do you think depot charging is expected to remain the backbone for trucks, even as public chargers get faster?</div>
+      <div class="zh">即使公共充電越來越快，為什麼車庫充電仍被認為是卡車充電的骨幹？</div></li>
+  <li><div class="en">Charging very fast creates heat and may shorten battery life. Would you pay extra for a battery designed for ultra-fast charging?</div>
+      <div class="zh">超快充會產生熱，也可能縮短電池壽命。你願意多付錢買專為超快充設計的電池嗎？</div></li>
+  <li><div class="en">Could megawatt truck charging work in Taiwan, where distances are short and the grid is already under pressure? What would you do first?</div>
+      <div class="zh">在距離短、電網已承壓的台灣，百萬瓦級卡車充電可行嗎？你會先做什麼？</div></li>
+</ol>
+</div>
+
+<h2>7. Wrap-Up<span class="min">2 min　總結</span></h2>
+<div class="block">
+<p class="note">60-second summary 一分鐘摘要：</p>
+<div class="en">Charging is moving into the megawatt era. In Europe, a new study says electric trucks could need 200 terawatt-hours a year by 2045, mostly at depots, but with intense hotspots along freight corridors that may draw up to 50 megawatts. In China, Geely's 2,250-kilowatt station can add most of a battery's charge in under five minutes, while BYD races to build 20,000 flash chargers. Both stories point to the same challenge: faster charging only works if the grid can keep up.</div>
+<div class="zh">充電正進入百萬瓦時代。在歐洲，新研究指出電動卡車到 2045 年每年可能需要 200 太瓦時，主要在車庫充電，但貨運走廊上會出現最高達 50 百萬瓦的密集熱點。在中國，吉利 2,250 瓩的充電站能在 5 分鐘內補足大部分電量，比亞迪則全力要建成 2 萬座閃充站。兩則新聞指向同一挑戰：電網跟得上，快充才有意義。</div>
+<p class="note" style="margin-top:18px">Your position 表達立場的句型：</p>
+<div class="en">"In my view, the winner of the charging race won't be the fastest plug, but the country that plans its grid early enough to power it."</div>
+<div class="zh">「在我看來，充電競賽的贏家不會是最快的插頭，而是最早規劃好電網、能供得起電的國家。」</div>
+</div>
+
+<div class="block">
+<h2>Source Notes　取材筆記</h2>
+<p class="note">From the Obsidian vault: <code>Claude code AI筆記 / raw / assets</code><br>
+取材自 Obsidian 筆記庫：<code>Claude code AI筆記 / raw / assets</code></p>
+<table>
+<tr><th>Note file 筆記檔名</th><th>Original 原始出處</th><th>Used for 用於</th></tr>
+<tr>
+  <td><code>2026-09-26-Electric truck charging demand could reach 200 TWh by 2045.md</code></td>
+  <td>electrive（Jasmin Apitzsch-Krause）· 2026-09-24 · <a href="https://www.electrive.com/2026/09/24/electric-truck-charging-demand-could-reach-200-twh-by-2045/">原文連結</a></td>
+  <td>Fraunhofer ISI / ICCT study: 100 TWh (2035) and 200 TWh (2045), depot share 70–80%, hotspot concentration, 20–50 MW peaks, Germany's 1,800 MCS / 2,400 CCS plan, Garbsen Nord 24.64 MVA.<br><span style="opacity:.7">Fraunhofer ISI／ICCT 研究：2035 與 2045 年用電量、車庫充電占比、熱點集中度、尖峰負載、德國充電網規劃、Garbsen Nord 電網容量。</span></td>
+</tr>
+<tr>
+  <td><code>2026-09-26-Geely counters BYD with 2.25 MW charging system.md</code></td>
+  <td>electrive（Jasmin Apitzsch-Krause）· 2026-09-24 · <a href="https://www.electrive.com/2026/09/24/geely-counters-byd-with-2-25-mw-charging-system/">原文連結</a></td>
+  <td>Geely 2,250 kW vs BYD 1,500 kW, 12C battery, 10–70% in 4:30, AI temperature prediction and 55 °C target, cycle life claim, BYD's 10,000 → 20,000 stations.<br><span style="opacity:.7">吉利 vs 比亞迪充電功率、12C 電池、4 分半充電測試、AI 溫度預測與 55 °C 目標、循環壽命、比亞迪閃充站數量。</span></td>
+</tr>
+</table>
+</div>
+
+<footer>
+EV Speaking Practice　·　2026-09-26　·　25 minutes<br>
+Prepared for Claude Yeh　為線上英語口說課程準備
+</footer>
+
+</div>
+
+<script>
+(function () {
+  var synth = window.speechSynthesis;
+  var bar = document.getElementById('ttsbar');
+  if (!synth) {
+    bar.innerHTML = '<div id="ttshint">此瀏覽器不支援語音朗讀，請改用 Chrome、Edge 或 Safari 開啟本檔案。</div>';
+    return;
+  }
+
+  var voiceSel = document.getElementById('tts-voice');
+  var rateSel  = document.getElementById('tts-rate');
+  var voices   = [];
+  var queue    = [];
+  var qi       = 0;
+  var playing  = false;
+
+  function score(v) {
+    var n = (v.name + ' ' + (v.voiceURI || '')).toLowerCase();
+    var s = 0;
+    if (/premium|enhanced|neural|natural/.test(n)) s += 40;
+    if (/siri/.test(n)) s += 30;
+    if (/google/.test(n)) s += 25;
+    if (/samantha|ava|allison|serena|daniel|kate|arthur|evan|nathan|zoe/.test(n)) s += 12;
+    if (/compact|novelty|whisper|bells|bubbles|jester|organ|trinoids|zarvox|albert|bad news|good news/.test(n)) s -= 60;
+    if (v.lang === 'en-US') s += 6;
+    if (v.lang === 'en-GB') s += 5;
+    if (v.localService) s += 2;
+    return s;
+  }
+
+  function loadVoices() {
+    var all = synth.getVoices().filter(function (v) { return /^en[-_]/i.test(v.lang); });
+    if (!all.length) return;
+    all.sort(function (a, b) { return score(b) - score(a); });
+    voices = all;
+    voiceSel.innerHTML = '';
+    voices.forEach(function (v, i) {
+      var o = document.createElement('option');
+      o.value = i;
+      o.textContent = v.name + ' (' + v.lang + ')';
+      voiceSel.appendChild(o);
+    });
+    var saved = null;
+    try { saved = localStorage.getItem('evPracticeVoice'); } catch (e) {}
+    if (saved !== null) {
+      var idx = voices.findIndex(function (v) { return v.name === saved; });
+      if (idx > -1) voiceSel.value = idx;
+    }
+  }
+  loadVoices();
+  synth.onvoiceschanged = loadVoices;
+
+  voiceSel.addEventListener('change', function () {
+    var v = voices[voiceSel.value];
+    try { if (v) localStorage.setItem('evPracticeVoice', v.name); } catch (e) {}
+  });
+
+  function clearHighlight() {
+    var h = document.querySelector('.speaking');
+    if (h) h.classList.remove('speaking');
+  }
+
+  function stop() {
+    playing = false;
+    queue = [];
+    qi = 0;
+    synth.cancel();
+    clearHighlight();
+  }
+
+  // Chrome silently truncates any utterance longer than ~15s, so queue
+  // sentence-sized chunks instead of whole paragraphs.
+  function sentences(text) {
+    var SEP = String.fromCharCode(1);
+    var t = text.replace(/\s+/g, ' ').trim();
+    // Shield decimals/abbreviations so "86.5 percent" isn't split in two.
+    t = t.replace(/(\d)\.(\d)/g, '$1' + SEP + '$2')
+         .replace(/\b(Mr|Mrs|Ms|Dr|St|vs|etc|Inc|Ltd|Co|approx)\./gi,
+                  function (m) { return m.slice(0, -1) + SEP; })
+         .replace(/\bU\.S\./g, 'U' + SEP + 'S' + SEP);
+    var parts = t.match(/[^.!?]+[.!?]+["')\]]?|[^.!?]+$/g) || [t];
+    return parts
+      .map(function (s) { return s.split(SEP).join('.').trim(); })
+      .filter(function (s) { return /[a-zA-Z0-9]/.test(s); });
+  }
+
+  function speakNext() {
+    if (!playing || qi >= queue.length) { stop(); return; }
+    var item = queue[qi++];
+    clearHighlight();
+    if (item.el) {
+      item.el.classList.add('speaking');
+      var r = item.el.getBoundingClientRect();
+      if (r.top < 120 || r.bottom > window.innerHeight - 40) {
+        item.el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      }
+    }
+    var u = new SpeechSynthesisUtterance(item.text);
+    var v = voices[voiceSel.value];
+    if (v) { u.voice = v; u.lang = v.lang; } else { u.lang = 'en-US'; }
+    u.rate = parseFloat(rateSel.value);
+    u.pitch = 1;
+    u.onend = speakNext;
+    u.onerror = speakNext;
+    synth.speak(u);
+  }
+
+  function textOf(el) {
+    // Snapshot taken before the play glyph was injected, so it is never spoken.
+    return el.getAttribute('data-tts') || el.textContent;
+  }
+
+  function play(elements) {
+    stop();
+    queue = [];
+    elements.forEach(function (el) {
+      sentences(textOf(el)).forEach(function (s) {
+        if (s.trim()) queue.push({ el: el, text: s });
+      });
+    });
+    if (!queue.length) return;
+    playing = true;
+    qi = 0;
+    speakNext();
+  }
+
+  document.getElementById('tts-stop').addEventListener('click', stop);
+
+  document.getElementById('tts-play').addEventListener('click', function () {
+    var paras = [].slice.call(document.querySelectorAll('#article .en'));
+    play(paras);
+  });
+
+  rateSel.addEventListener('change', function () { if (playing) stop(); });
+
+  var targets = [].slice.call(document.querySelectorAll('.en'));
+  targets.forEach(function (el) {
+    el.setAttribute('data-tts', el.textContent);
+    var b = document.createElement('button');
+    b.className = 'playbtn';
+    b.type = 'button';
+    b.textContent = '▶';
+    b.setAttribute('aria-label', 'Play this sentence');
+    b.addEventListener('click', function (e) {
+      e.stopPropagation();
+      play([el]);
+    });
+    el.insertBefore(b, el.firstChild);
+  });
+
+  [].slice.call(document.querySelectorAll('table tr')).forEach(function (tr) {
+    var cells = tr.querySelectorAll('td');
+    if (cells.length < 2) return;
+    var last = cells[cells.length - 1];
+    if (!/[a-zA-Z]/.test(last.textContent)) return;
+    last.style.cursor = 'pointer';
+    last.title = 'Click to hear it 點一下聽發音';
+    last.addEventListener('click', function () { play([last]); });
+  });
+
+  window.addEventListener('beforeunload', function () { synth.cancel(); });
+})();
+</script>
+</body>
+</html>

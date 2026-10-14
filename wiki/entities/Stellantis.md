@@ -1,7 +1,7 @@
 ---
 tags: [entity]
 sources: [stellantis-leapmotor-canada-rejected, us-ev-battery-demand-mismatch, europe-battery-capacity-cuts, stellantis-opel-leapmotor-suv, opel-peugeot-long-range-delay, ev-news-2026-10-02-digitimes, ev-news-2026-10-08-digitimes]
-updated: 2026-10-12
+updated: 2026-10-14
 ---
 
 # 斯特蘭蒂斯（Stellantis）
@@ -69,3 +69,11 @@ Stellantis因ACC長續航電池短缺與控管庫存，Sochaux（10/23~30）、R
 Stellantis與寧德時代共同投資41億歐元在西班牙建電池廠，與ACC（僅法國廠運作）等本土供應鏈在「歐洲製造」規範上形成利益拉鋸。
 
 - 參見：[[sources/ev-news-2026-10-08-digitimes]] | [[entities/寧德時代]]
+
+## 零跑合作走向共同開發、巴黎復古概念車（2026-10）
+
+> **結論**：零跑B10在Zaragoza投產，Opel與零跑共同開發2028年純電SUV（零跑提供E/E架構、電池、電驅），Stellantis希望藉此填補約60%的歐洲工廠稼動率；Peugeot則明確不與零跑合作。同時Citroën 2CV（目標1.5萬歐元）與Peugeot RCZ（Factorial固態電池）概念車亮相。
+
+**觀察**：零跑B05是否也在歐洲生產。
+
+- 參見：[[sources/ev-news-2026-10-13-14-electrive-en]] | [[sources/ev-news-2026-10-13-14-insideevs]] | [[entities/零跑汽車]]

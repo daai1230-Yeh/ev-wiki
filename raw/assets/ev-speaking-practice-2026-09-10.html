@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EV Speaking Practice — 2026-09-10 · China's Two-Speed Auto Market</title>
+<style>
+  :root {
+    --bg: #0C2A65;
+    --fg: #FFFFFF;
+    --accent: #7FB3FF;
+    --line: rgba(255,255,255,.22);
+  }
+  * { box-sizing: border-box; }
+  body {
+    background: var(--bg);
+    color: var(--fg);
+    font-family: -apple-system, "Segoe UI", "PingFang TC", "Noto Sans TC", Helvetica, Arial, sans-serif;
+    font-size: 20pt;
+    line-height: 1.65;
+    margin: 0;
+    padding: 0 0 60px;
+  }
+  .wrap { max-width: 880px; margin: 0 auto; padding: 28px 24px 10px; }
+  h1 {
+    font-size: 1.5em;
+    margin: 0 0 4px;
+    line-height: 1.3;
+  }
+  .subtitle { color: var(--accent); font-size: 0.55em; letter-spacing: .03em; margin-bottom: 18px; }
+  .plan {
+    border-left: 5px solid var(--accent);
+    background: rgba(127,179,255,.08);
+    border-radius: 0 10px 10px 0;
+    padding: 16px 20px;
+    margin: 18px 0 22px;
+    font-size: 0.6em;
+  }
+  .plan strong { color: var(--accent); }
+  .plan ol { margin: 8px 0 0; padding-left: 1.2em; }
+  .plan li { margin: 4px 0; }
+  h2 {
+    font-size: 1.05em;
+    border-left: 6px solid var(--accent);
+    padding-left: 14px;
+    margin: 42px 0 6px;
+    line-height: 1.4;
+  }
+  .timebadge {
+    display: inline-block;
+    color: var(--accent);
+    font-size: 0.5em;
+    font-weight: 700;
+    letter-spacing: .04em;
+    border: 1px solid var(--accent);
+    border-radius: 20px;
+    padding: 2px 12px;
+    margin-left: 10px;
+    vertical-align: middle;
+  }
+  .block { margin-bottom: 8px; }
+  .en { margin: 18px 0 4px; }
+  .zh { color: rgba(255,255,255,.68); font-size: 0.78em; margin: 0 0 18px; }
+  .qa-item { margin-bottom: 20px; }
+  .qa-item .en { margin-top: 4px; }
+  ol.qlist, ol.dlist { padding-left: 1.3em; margin: 10px 0; }
+  ol.qlist li, ol.dlist li { margin: 0 0 20px; }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 14px 0 24px;
+    font-size: 0.62em;
+  }
+  th, td {
+    border: 1px solid var(--line);
+    padding: 10px 12px;
+    text-align: left;
+    vertical-align: top;
+  }
+  th {
+    background: rgba(127,179,255,.18);
+    color: var(--accent);
+    font-weight: 700;
+  }
+  tr:nth-child(even) td { background: rgba(255,255,255,.03); }
+  .ipa { color: var(--accent); font-style: italic; white-space: nowrap; }
+  .zhcell { color: rgba(255,255,255,.7); font-size: 0.92em; }
+  .expr { margin: 0 0 22px; }
+  .expr .pattern {
+    font-weight: 700;
+    background: rgba(127,179,255,.1);
+    border-left: 4px solid var(--accent);
+    padding: 10px 14px;
+    border-radius: 0 8px 8px 0;
+  }
+  .expr .zh { margin-top: 8px; }
+  .wrapup-box {
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    padding: 16px 20px;
+    margin: 14px 0 24px;
+    background: rgba(255,255,255,.03);
+  }
+  a { color: var(--accent); }
+  .src-path { font-size: 0.55em; color: rgba(255,255,255,.65); margin: 10px 0 14px; }
+  .src-path code { color: var(--accent); }
+  code, .mono { font-family: "SF Mono", Menlo, Consolas, monospace; }
+  footer {
+    max-width: 880px; margin: 40px auto 0; padding: 20px 24px 0;
+    border-top: 1px solid var(--line);
+    color: rgba(255,255,255,.55);
+    font-size: 0.5em;
+  }
+
+  /* ---- Text-to-speech controls ---- */
+  #ttsbar {
+    position:sticky; top:0; z-index:50;
+    background:rgba(12,42,101,.96); backdrop-filter:blur(6px);
+    border:1px solid var(--line); border-radius:10px;
+    padding:14px 18px; margin:0 0 8px;
+    display:flex; flex-wrap:wrap; gap:10px 14px; align-items:center;
+    font-size:14pt;
+  }
+  #ttsbar label { opacity:.75; letter-spacing:.04em; }
+  #ttsbar button {
+    font:inherit; font-size:14pt; font-weight:700;
+    color:var(--bg); background:var(--accent);
+    border:none; border-radius:6px; padding:8px 16px; cursor:pointer;
+  }
+  #ttsbar button.ghost { background:transparent; color:var(--accent); border:1px solid var(--accent); }
+  #ttsbar button:hover { opacity:.85; }
+  #ttsbar select {
+    font:inherit; font-size:14pt;
+    color:var(--fg); background:#123573;
+    border:1px solid var(--line); border-radius:6px; padding:7px 10px; max-width:260px;
+  }
+  #ttshint { flex-basis:100%; font-size:12.5pt; opacity:.6; line-height:1.5; }
+  .playbtn {
+    font:inherit; font-size:13pt; line-height:1;
+    color:var(--accent); background:transparent;
+    border:1px solid rgba(127,179,255,.5); border-radius:5px;
+    padding:4px 9px; margin-right:10px; cursor:pointer; vertical-align:middle;
+  }
+  .playbtn:hover { background:rgba(127,179,255,.16); }
+  .speaking {
+    background:rgba(127,179,255,.17);
+    box-shadow:0 0 0 8px rgba(127,179,255,.17);
+    border-radius:3px;
+  }
+
+  @media (max-width: 600px) {
+    body { font-size: 16pt; }
+    .wrap, footer { padding-left: 16px; padding-right: 16px; }
+    table { font-size: 0.68em; }
+    th, td { padding: 8px 8px; }
+    #ttsbar { font-size: 12pt; padding: 10px 12px; }
+    #ttsbar button, #ttsbar select { font-size: 12pt; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>EV Speaking Practice · 2026-09-10</h1>
+  <div class="subtitle">China's Two-Speed Auto Market：內需急凍、出口狂飆</div>
+
+  <div class="plan">
+    <strong>Session Plan 課程規劃（25 minutes 分鐘）</strong>
+    <ol>
+      <li>Warm-Up 暖身 — 3 min</li>
+      <li>Read Aloud 朗讀短文 — 6 min</li>
+      <li>Key Vocabulary 關鍵單字 — 4 min</li>
+      <li>Saying the Numbers 數字唸法 — 2 min</li>
+      <li>Useful Expressions 實用句型 — 3 min</li>
+      <li>Discussion 討論題 — 5 min</li>
+      <li>Wrap-Up 總結 — 2 min</li>
+    </ol>
+  </div>
+
+  <div id="ttsbar">
+    <button id="tts-play">▶ Read the article 朗讀全文</button>
+    <button id="tts-stop" class="ghost">■ Stop 停止</button>
+    <label for="tts-voice">Voice</label>
+    <select id="tts-voice"></select>
+    <label for="tts-rate">Speed</label>
+    <select id="tts-rate">
+      <option value="0.75">0.75× 慢</option>
+      <option value="0.9" selected>0.9× 稍慢</option>
+      <option value="1">1.0× 正常</option>
+      <option value="1.15">1.15× 快</option>
+    </select>
+    <div id="ttshint">每個英文段落左邊都有 ▶ 可單獨播放；正在唸的句子會反白。想要更自然的聲音：macOS「系統設定 → 輔助使用 → 朗讀內容 → 系統聲音」下載 Enhanced／Premium 或 Siri 語音，再回來從上面的 Voice 選單選取。</div>
+  </div>
+
+  <h2>1. Warm-Up <span class="timebadge">3 min</span></h2>
+  <ol class="qlist">
+    <li class="qa-item">
+      <div class="en">When you think of "Made in China," what's the first product category that comes to mind — and has that changed in the last few years?</div>
+      <div class="zh">當你想到「中國製造」，腦中第一個浮現的產品類別是什麼？這個印象在過去幾年有改變嗎？</div>
+    </li>
+    <li class="qa-item">
+      <div class="en">Have you noticed more Chinese car brands — BYD, Xiaomi, Geely — showing up in your country or region?</div>
+      <div class="zh">你有注意到你的國家或地區出現越來越多中國車廠嗎？例如比亞迪、小米、吉利？</div>
+    </li>
+    <li class="qa-item">
+      <div class="en">What do you think happens to a car market when demand at home slows down but factories keep producing at full speed?</div>
+      <div class="zh">如果一個國家的內需放緩，但工廠仍全力生產，你認為這個汽車市場會發生什麼事？</div>
+    </li>
+  </ol>
+
+  <h2>2. Read Aloud <span class="timebadge">6 min</span></h2>
+  <div class="block" id="article">
+    <div class="en">China's car market is telling two very different stories at once. In August, retail sales of passenger vehicles inside China fell 23.6 percent year-on-year to just 1.541 million units — yet in the same month, passenger vehicle exports surged 77.5 percent to reach 894,000 units, a new record pace. A country whose home market is shrinking is simultaneously breaking its own export records.</div>
+    <div class="zh">中國車市同時上演兩個截然不同的故事。8月，中國境內乘用車零售銷量同比下降23.6%，僅154.1萬輛；然而同一個月，乘用車出口卻激增77.5%，達到89.4萬輛，創下新的出口速度紀錄。一個內需正在萎縮的國家，同時也在刷新自己的出口紀錄。</div>
+
+    <div class="en">The domestic slowdown is not a one-month blip. Cumulative retail sales for the first eight months of 2026 are down 20.8 percent year-on-year, at 11.716 million units. The pain is concentrated in traditional gasoline cars: retail sales of conventional fuel vehicles plunged 40 percent year-on-year in August, to roughly 540,000 units, while wholesale shipments of those cars fell 29 percent, to 840,000 units.</div>
+    <div class="zh">這波內需放緩並非單月的異常波動。2026年前8個月累計零售銷量同比下降20.8%，僅1,171.6萬輛。壓力集中在傳統燃油車上：8月常規燃油車零售銷量同比暴跌40%，約54萬輛；批發出貨量則下降29%，為84萬輛。</div>
+
+    <div class="en">Even electric and plug-in hybrid vehicles, usually the bright spot, felt the chill: new-energy vehicle retail sales dropped 10.1 percent year-on-year in August, to 1.005 million units, though that was up 5.7 percent from July. Still, because gasoline cars fell even faster, new-energy vehicles' share of domestic retail hit a record high of 65.2 percent — nearly two out of every three cars sold in China last month were electrified.</div>
+    <div class="zh">就連通常表現亮眼的電動車與插電式混合動力車也感受到寒意：8月新能源乘用車零售銷量同比下降10.1%，為100.5萬輛，不過較7月成長了5.7%。儘管如此，由於燃油車跌幅更大，新能源車在境內零售中的佔比反而創下65.2%的歷史新高——換句話說，上個月中國賣出的車子，將近三分之二都是電動化車款。</div>
+
+    <div class="en">Dealers are absorbing much of the pressure. China's dealer inventory warning index — where anything above 50 percent signals an unhealthy buildup of unsold stock — climbed to 62.3 percent in August, up 5.3 percentage points year-on-year. That's the third straight month of increases: 57.2 percent in June, 61.1 percent in July, and now 62.3 percent in August.</div>
+    <div class="zh">經銷商正承受大部分的壓力。中國汽車經銷商庫存預警指數——超過50%即代表庫存壓力偏高、不健康——8月攀升至62.3%，同比上升5.3個百分點。這已是連續第三個月上升：6月為57.2%，7月為61.1%，8月來到62.3%。</div>
+
+    <div class="en">Exports have become the release valve. BYD and Geely both set new monthly export records in August, and the secretary-general of China's passenger car association now expects full-year exports to reach 12 million vehicles in 2026, climbing further to somewhere between 18 and 20 million vehicles a year by 2030.</div>
+    <div class="zh">出口正成為紓解壓力的出口閥。比亞迪與吉利雙雙在8月創下單月出口新紀錄，中國乘用車市場信息聯席分會秘書長預估，2026全年出口量將達到1,200萬輛，到2030年更將進一步攀升至每年1,800萬至2,000萬輛之間。</div>
+
+    <div class="en">Not every brand is riding the wave equally. Xiaomi, the newest entrant to China's EV race, has already signed a distribution deal with German dealers ahead of its planned 2027 European launch. But Seres, which builds the Huawei-backed AITO brand, was a late mover overseas — and its total sales plunged 44 percent last month, a reminder that timing matters in global expansion.</div>
+    <div class="zh">不是每個品牌都同步搭上這波浪潮。中國電動車市場的最新進入者小米，已在計畫2027年進軍歐洲前，與德國經銷商簽署配銷協議。但由華為協力打造AITO品牌的賽力斯，在海外布局進場較晚——上個月總銷量暴跌44%，提醒著全球擴張中時機的重要性。</div>
+
+    <div class="en">The export boom has also caught regulators' attention. Last week, Chinese authorities issued new guidance for automakers' overseas operations, warning against frequent or steep price cuts and other practices that could damage consumers or brand reputation abroad. BYD, Chery, and Geely have all pledged to comply — though the guidance does not yet spell out penalties for violations.</div>
+    <div class="zh">這波出口熱潮也引起監管機關的關注。上週，中國監管機構針對車廠的海外業務發布新指引，警告避免頻繁或大幅降價等可能損害消費者權益或品牌聲譽的行為。比亞迪、奇瑞與吉利均已承諾遵守，儘管該指引目前尚未明訂違規處罰方式。</div>
+  </div>
+
+  <h2>3. Key Vocabulary <span class="timebadge">4 min</span></h2>
+  <table>
+    <tr><th>Word 單字</th><th>IPA 音標</th><th>Meaning 中文意思</th><th>Example 例句</th></tr>
+    <tr><td>retail (n./v.)</td><td class="ipa">/ˈriːteɪl/</td><td class="zhcell">零售；零售銷售</td><td>Retail sales fell 23.6 percent year-on-year in August.</td></tr>
+    <tr><td>wholesale (n./v.)</td><td class="ipa">/ˈhoʊlseɪl/</td><td class="zhcell">批發；批發出貨</td><td>Wholesale shipments of gasoline cars dropped 29 percent.</td></tr>
+    <tr><td>year-on-year</td><td class="ipa">/jɪr ɒn ˈjɪr/</td><td class="zhcell">同比（與去年同期相比）</td><td>Exports surged 77.5 percent year-on-year in August.</td></tr>
+    <tr><td>penetration rate</td><td class="ipa">/ˌpɛnəˈtreɪʃən reɪt/</td><td class="zhcell">滲透率</td><td>NEV penetration hit a record 65.2 percent of retail sales.</td></tr>
+    <tr><td>inventory</td><td class="ipa">/ˈɪnvənˌtɔːri/</td><td class="zhcell">庫存</td><td>The dealer inventory warning index rose for a third straight month.</td></tr>
+    <tr><td>overcapacity</td><td class="ipa">/ˌoʊvərkəˈpæsəti/</td><td class="zhcell">產能過剩</td><td>Analysts blame overcapacity for the export boom.</td></tr>
+    <tr><td>price war</td><td class="ipa">/praɪs wɔːr/</td><td class="zhcell">價格戰</td><td>Regulators warned automakers against starting a price war abroad.</td></tr>
+    <tr><td>sluggish</td><td class="ipa">/ˈslʌɡɪʃ/</td><td class="zhcell">(需求)疲軟、遲滯的</td><td>Domestic demand remains sluggish despite the monthly rebound.</td></tr>
+    <tr><td>plunge (v.)</td><td class="ipa">/plʌndʒ/</td><td class="zhcell">暴跌</td><td>Seres' total sales plunged 44 percent last month.</td></tr>
+    <tr><td>record high</td><td class="ipa">/ˈrɛkərd haɪ/</td><td class="zhcell">創新高</td><td>NEV penetration reached a record high of 65.2 percent.</td></tr>
+    <tr><td>compliance</td><td class="ipa">/kəmˈplaɪəns/</td><td class="zhcell">合規；遵循規範</td><td>BYD and Geely pledged compliance with the new export guidance.</td></tr>
+    <tr><td>distribution deal</td><td class="ipa">/ˌdɪstrɪˈbjuːʃən diːl/</td><td class="zhcell">經銷／配銷協議</td><td>Xiaomi signed a distribution deal with German dealers.</td></tr>
+  </table>
+
+  <h2>4. Saying the Numbers <span class="timebadge">2 min</span></h2>
+  <table>
+    <tr><th>In the article 文中數據</th><th>Say it like this 英文唸法</th></tr>
+    <tr><td>23.6%</td><td>twenty-three point six percent</td></tr>
+    <tr><td>1.541 million</td><td>one point five four one million / one million, five hundred forty-one thousand</td></tr>
+    <tr><td>11.716 million</td><td>eleven point seven one six million</td></tr>
+    <tr><td>65.2%</td><td>sixty-five point two percent</td></tr>
+    <tr><td>62.3%</td><td>sixty-two point three percent</td></tr>
+    <tr><td>894,000</td><td>eight hundred ninety-four thousand</td></tr>
+    <tr><td>77.5%</td><td>seventy-seven point five percent</td></tr>
+    <tr><td>12 million / 18–20 million</td><td>twelve million / eighteen to twenty million</td></tr>
+    <tr><td>44%</td><td>forty-four percent</td></tr>
+  </table>
+
+  <h2>5. Useful Expressions <span class="timebadge">3 min</span></h2>
+  <div class="expr">
+    <div class="pattern">"X fell / plunged / dropped by ___ percent year-on-year."</div>
+    <div class="zh">用來描述數據「同比下降」，plunged 語氣比 fell 更強烈，適合形容急遽下滑。</div>
+  </div>
+  <div class="expr">
+    <div class="pattern">"X surged / soared to ___, a new record."</div>
+    <div class="zh">用來描述數據「激增至」某個新高點，surge/soar 都帶有「快速上升」的語感。</div>
+  </div>
+  <div class="expr">
+    <div class="pattern">"While X is happening, Y is happening at the same time." (contrast)</div>
+    <div class="zh">對比句型，用來凸顯兩個同時發生但方向相反的趨勢，例如「內需萎縮」對比「出口暴增」。</div>
+  </div>
+  <div class="expr">
+    <div class="pattern">"Analysts / officials expect X to reach ___ by ___."</div>
+    <div class="zh">用於引述預測或展望，例如「官員預期到2030年出口量將達到1,800萬至2,000萬輛」。</div>
+  </div>
+  <div class="expr">
+    <div class="pattern">"There are growing concerns that ___."</div>
+    <div class="zh">表達「日益增長的憂慮」，適合用來討論政策風險或潛在後果，例如貿易反彈。</div>
+  </div>
+
+  <h2>6. Discussion <span class="timebadge">5 min</span></h2>
+  <ol class="dlist">
+    <li class="qa-item">
+      <div class="en">Why might a country's auto exports surge even as its domestic sales collapse? Do you think this pattern is sustainable in the long run?</div>
+      <div class="zh">為什麼一個國家的汽車出口會在內需崩跌的同時激增？你認為這種模式長期能持續嗎？</div>
+    </li>
+    <li class="qa-item">
+      <div class="en">Do you think Chinese regulators can realistically prevent domestic price wars from spilling over into overseas markets?</div>
+      <div class="zh">你認為中國監管機關真的能有效阻止國內的價格戰蔓延到海外市場嗎？</div>
+    </li>
+    <li class="qa-item">
+      <div class="en">What risks do trading partners face when a country floods global markets with competitively priced, fast-growing EV exports?</div>
+      <div class="zh">當一個國家以極具競爭力的價格大量外銷快速成長的電動車，貿易夥伴國會面臨哪些風險？</div>
+    </li>
+    <li class="qa-item">
+      <div class="en">Seres' overseas sales dropped 44 percent partly because it entered international markets late. How important is timing when a company expands globally?</div>
+      <div class="zh">賽力斯海外銷量暴跌44%，部分原因是進軍國際市場的時機較晚。你認為企業全球擴張時，時機有多重要？</div>
+    </li>
+    <li class="qa-item">
+      <div class="en">Is a 65 percent EV penetration rate, like China's domestic market now has, realistic for other countries to reach? What would need to change?</div>
+      <div class="zh">像中國內需市場目前65%的電動車滲透率，你認為其他國家有可能達到嗎？需要哪些條件改變？</div>
+    </li>
+    <li class="qa-item">
+      <div class="en">If you were a policymaker in Europe or North America, how would you respond to a 77.5 percent surge in Chinese auto exports?</div>
+      <div class="zh">如果你是歐洲或北美的政策制定者，面對中國汽車出口激增77.5%，你會如何回應？</div>
+    </li>
+  </ol>
+
+  <h2>7. Wrap-Up <span class="timebadge">2 min</span></h2>
+  <div class="wrapup-box">
+    <div class="en">In 60 seconds, summarize today's story in your own words: what happened to China's domestic car sales in August, what happened to its exports, and why regulators are now paying closer attention.</div>
+    <div class="zh">請用60秒，用自己的話總結今天的內容：8月中國境內車市發生了什麼事、出口發生了什麼事，以及監管機關為何開始更加關注。</div>
+  </div>
+  <div class="expr">
+    <div class="pattern">"In my opinion, ___ because ___."</div>
+    <div class="zh">用這個句型表達你自己的立場，例如對「出口能否真正解決產能過剩問題」發表個人看法。</div>
+  </div>
+
+  <h2>Source Notes <span class="timebadge">取材筆記</span></h2>
+  <div class="src-path">Notes retrieved from the vault at <code>Claude code AI筆記 / raw / assets</code><br>筆記取自筆記庫路徑 <code>Claude code AI筆記 / raw / assets</code></div>
+  <table>
+    <tr><th>Note file 筆記檔名</th><th>Original 原始出處</th><th>Used for 用於</th></tr>
+    <tr>
+      <td class="mono">2026-09-09-中國8月份乘用車零售銷量同比下降23.6%.md</td>
+      <td>大紀元 (Epoch Times) · 夏松 · 2026-09-08<br><a href="https://www.epochtimes.com/b5/26/9/8/n14845047.htm" target="_blank" rel="noopener">Original link 原文連結</a></td>
+      <td>Domestic retail decline figures (23.6% YoY, 1-8月累計, ICE collapse, NEV penetration record, dealer inventory warning index).<br>提供了境內零售衰退數據（同比23.6%、1-8月累計、燃油車暴跌、新能源車滲透率創新高、經銷商庫存預警指數）。</td>
+    </tr>
+    <tr>
+      <td class="mono">2026-09-09-大陸汽車出口保持強勁 但境內銷售下滑加劇.md</td>
+      <td>經濟日報／聯合新聞網 · 林宸誼 · 2026-09-08<br><a href="https://money.udn.com/money/story/5603/9741944" target="_blank" rel="noopener">Original link 原文連結</a></td>
+      <td>Export surge figures (77.5% YoY, 894,000 units, 2026/2030 forecasts), Xiaomi and Seres details, and the new regulatory guidance on overseas price wars.<br>提供了出口激增數據（同比77.5%、89.4萬輛、2026／2030年展望）、小米與賽力斯的細節，以及針對海外價格戰的新監管指引。</td>
+    </tr>
+  </table>
+
+  <footer>
+    Generated for Claude Yeh's daily EV speaking practice · 2026-09-10 · Text-to-speech powered by your browser's Web Speech API.<br>
+    為 Claude Yeh 每日電動車英文口說練習製作 · 2026-09-10 · 語音朗讀由瀏覽器 Web Speech API 提供。
+  </footer>
+</div>
+
+<script>
+(function () {
+  var synth = window.speechSynthesis;
+  var bar = document.getElementById('ttsbar');
+  if (!synth) {
+    bar.innerHTML = '<div id="ttshint">此瀏覽器不支援語音朗讀，請改用 Chrome、Edge 或 Safari 開啟本檔案。</div>';
+    return;
+  }
+
+  var voiceSel = document.getElementById('tts-voice');
+  var rateSel  = document.getElementById('tts-rate');
+  var voices   = [];
+  var queue    = [];
+  var qi       = 0;
+  var playing  = false;
+
+  function score(v) {
+    var n = (v.name + ' ' + (v.voiceURI || '')).toLowerCase();
+    var s = 0;
+    if (/premium|enhanced|neural|natural/.test(n)) s += 40;
+    if (/siri/.test(n)) s += 30;
+    if (/google/.test(n)) s += 25;
+    if (/samantha|ava|allison|serena|daniel|kate|arthur|evan|nathan|zoe/.test(n)) s += 12;
+    if (/compact|novelty|whisper|bells|bubbles|jester|organ|trinoids|zarvox|albert|bad news|good news/.test(n)) s -= 60;
+    if (v.lang === 'en-US') s += 6;
+    if (v.lang === 'en-GB') s += 5;
+    if (v.localService) s += 2;
+    return s;
+  }
+
+  function loadVoices() {
+    var all = synth.getVoices().filter(function (v) { return /^en[-_]/i.test(v.lang); });
+    if (!all.length) return;
+    all.sort(function (a, b) { return score(b) - score(a); });
+    voices = all;
+    voiceSel.innerHTML = '';
+    voices.forEach(function (v, i) {
+      var o = document.createElement('option');
+      o.value = i;
+      o.textContent = v.name + ' (' + v.lang + ')';
+      voiceSel.appendChild(o);
+    });
+    var saved = null;
+    try { saved = localStorage.getItem('evPracticeVoice'); } catch (e) {}
+    if (saved !== null) {
+      var idx = voices.findIndex(function (v) { return v.name === saved; });
+      if (idx > -1) voiceSel.value = idx;
+    }
+  }
+  loadVoices();
+  synth.onvoiceschanged = loadVoices;
+
+  voiceSel.addEventListener('change', function () {
+    var v = voices[voiceSel.value];
+    try { if (v) localStorage.setItem('evPracticeVoice', v.name); } catch (e) {}
+  });
+
+  function clearHighlight() {
+    var h = document.querySelector('.speaking');
+    if (h) h.classList.remove('speaking');
+  }
+
+  function stop() {
+    playing = false;
+    queue = [];
+    qi = 0;
+    synth.cancel();
+    clearHighlight();
+  }
+
+  // Chrome silently truncates any utterance longer than ~15s, so queue
+  // sentence-sized chunks instead of whole paragraphs.
+  function sentences(text) {
+    var SEP = String.fromCharCode(1);
+    var t = text.replace(/\s+/g, ' ').trim();
+    // Shield decimals/abbreviations so "86.5 percent" isn't split in two.
+    t = t.replace(/(\d)\.(\d)/g, '$1' + SEP + '$2')
+         .replace(/\b(Mr|Mrs|Ms|Dr|St|vs|etc|Inc|Ltd|Co|approx)\./gi,
+                  function (m) { return m.slice(0, -1) + SEP; })
+         .replace(/\bU\.S\./g, 'U' + SEP + 'S' + SEP);
+    var parts = t.match(/[^.!?]+[.!?]+["')\]]?|[^.!?]+$/g) || [t];
+    return parts
+      .map(function (s) { return s.split(SEP).join('.').trim(); })
+      .filter(function (s) { return /[a-zA-Z0-9]/.test(s); });
+  }
+
+  function speakNext() {
+    if (!playing || qi >= queue.length) { stop(); return; }
+    var item = queue[qi++];
+    clearHighlight();
+    if (item.el) {
+      item.el.classList.add('speaking');
+      var r = item.el.getBoundingClientRect();
+      if (r.top < 120 || r.bottom > window.innerHeight - 40) {
+        item.el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      }
+    }
+    var u = new SpeechSynthesisUtterance(item.text);
+    var v = voices[voiceSel.value];
+    if (v) { u.voice = v; u.lang = v.lang; } else { u.lang = 'en-US'; }
+    u.rate = parseFloat(rateSel.value);
+    u.pitch = 1;
+    u.onend = speakNext;
+    u.onerror = speakNext;
+    synth.speak(u);
+  }
+
+  function textOf(el) {
+    // Snapshot taken before the play glyph was injected, so it is never spoken.
+    return el.getAttribute('data-tts') || el.textContent;
+  }
+
+  function play(elements) {
+    stop();
+    queue = [];
+    elements.forEach(function (el) {
+      sentences(textOf(el)).forEach(function (s) {
+        if (s.trim()) queue.push({ el: el, text: s });
+      });
+    });
+    if (!queue.length) return;
+    playing = true;
+    qi = 0;
+    speakNext();
+  }
+
+  document.getElementById('tts-stop').addEventListener('click', stop);
+
+  document.getElementById('tts-play').addEventListener('click', function () {
+    var paras = [].slice.call(document.querySelectorAll('#article .en'));
+    play(paras);
+  });
+
+  rateSel.addEventListener('change', function () { if (playing) stop(); });
+
+  var targets = [].slice.call(document.querySelectorAll('.en'));
+  targets.forEach(function (el) {
+    el.setAttribute('data-tts', el.textContent);
+    var b = document.createElement('button');
+    b.className = 'playbtn';
+    b.type = 'button';
+    b.textContent = '▶';
+    b.setAttribute('aria-label', 'Play this sentence');
+    b.addEventListener('click', function (e) {
+      e.stopPropagation();
+      play([el]);
+    });
+    el.insertBefore(b, el.firstChild);
+  });
+
+  [].slice.call(document.querySelectorAll('table tr')).forEach(function (tr) {
+    var cells = tr.querySelectorAll('td');
+    if (cells.length < 2) return;
+    var last = cells[cells.length - 1];
+    if (!/[a-zA-Z]/.test(last.textContent)) return;
+    last.style.cursor = 'pointer';
+    last.title = 'Click to hear it 點一下聽發音';
+    last.addEventListener('click', function () { play([last]); });
+  });
+
+  window.addEventListener('beforeunload', function () { synth.cancel(); });
+})();
+</script>
+</body>
+</html>

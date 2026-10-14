@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>EV Speaking Practice — The Everyday Electric Bus (2026-09-24)</title>
+<style>
+  :root {
+    --bg: #0C2A65;
+    --fg: #FFFFFF;
+    --accent: #7FB3FF;
+    --line: rgba(127,179,255,.35);
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    padding: 28px 22px 60px;
+    background: var(--bg);
+    color: var(--fg);
+    font-family: "Helvetica Neue", Helvetica, Arial, "PingFang TC", "Noto Sans TC", sans-serif;
+    font-size: 20pt;
+    line-height: 1.62;
+  }
+  .wrap { max-width: 900px; margin: 0 auto; }
+  h1 {
+    font-size: 28pt;
+    line-height: 1.3;
+    margin: 0 0 6px;
+    font-weight: 700;
+  }
+  .sub { font-size: 15pt; opacity: .7; margin: 0 0 26px; letter-spacing: .03em; }
+  h2 {
+    font-size: 22pt;
+    margin: 0 0 16px;
+    padding-left: 14px;
+    border-left: 6px solid var(--accent);
+    line-height: 1.35;
+  }
+  h2 .min { font-size: 14pt; color: var(--accent); font-weight: 400; margin-left: 10px; letter-spacing: .04em; }
+  .block {
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    padding: 22px 24px;
+    margin: 0 0 26px;
+  }
+  .plan { background: rgba(127,179,255,.09); }
+  .plan ol { margin: 10px 0 0; padding-left: 26px; font-size: 16pt; line-height: 1.75; }
+  .plan li::marker { color: var(--accent); font-weight: 700; }
+  .plan .t { color: var(--accent); font-variant-numeric: tabular-nums; }
+  .en { margin: 18px 0 2px; }
+  .zh { margin: 0 0 14px; font-size: 16pt; opacity: .72; line-height: 1.6; }
+  ol.q { padding-left: 26px; margin: 4px 0 0; }
+  ol.q li { margin-bottom: 14px; }
+  ol.q li::marker { color: var(--accent); font-weight: 700; }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 15pt;
+    margin-top: 8px;
+  }
+  th, td {
+    border: 1px solid var(--line);
+    padding: 10px 12px;
+    text-align: left;
+    vertical-align: top;
+    line-height: 1.5;
+  }
+  th { background: rgba(127,179,255,.18); color: var(--accent); font-weight: 700; white-space: nowrap; }
+  td.ipa { font-family: "Lucida Grande", "Segoe UI", sans-serif; opacity: .8; white-space: nowrap; }
+  code { font-family: "SF Mono", Menlo, Consolas, monospace; font-size: 13.5pt; }
+  a { color: var(--accent); }
+  .pat { margin: 0 0 18px; }
+  .pat .f { font-weight: 700; }
+  footer { font-size: 13pt; opacity: .55; text-align: center; margin-top: 36px; line-height: 1.7; }
+  .note { font-size: 14pt; opacity: .65; margin: 0 0 12px; line-height: 1.6; }
+
+  @media (max-width: 640px) {
+    body { font-size: 17pt; padding: 18px 14px 44px; }
+    h1 { font-size: 22pt; }
+    h2 { font-size: 18pt; }
+    .zh { font-size: 14pt; }
+    table { font-size: 13pt; }
+    th, td { padding: 8px 8px; }
+    .block { padding: 16px 14px; }
+  }
+
+  /* ---- Text-to-speech controls ---- */
+  #ttsbar {
+    position:sticky; top:0; z-index:50;
+    background:rgba(12,42,101,.96); backdrop-filter:blur(6px);
+    border:1px solid var(--line); border-radius:10px;
+    padding:14px 18px; margin:0 0 8px;
+    display:flex; flex-wrap:wrap; gap:10px 14px; align-items:center;
+    font-size:14pt;
+  }
+  #ttsbar label { opacity:.75; letter-spacing:.04em; }
+  #ttsbar button {
+    font:inherit; font-size:14pt; font-weight:700;
+    color:var(--bg); background:var(--accent);
+    border:none; border-radius:6px; padding:8px 16px; cursor:pointer;
+  }
+  #ttsbar button.ghost { background:transparent; color:var(--accent); border:1px solid var(--accent); }
+  #ttsbar button:hover { opacity:.85; }
+  #ttsbar select {
+    font:inherit; font-size:14pt;
+    color:var(--fg); background:#123573;
+    border:1px solid var(--line); border-radius:6px; padding:7px 10px; max-width:260px;
+  }
+  #ttshint { flex-basis:100%; font-size:12.5pt; opacity:.6; line-height:1.5; }
+  .playbtn {
+    font:inherit; font-size:13pt; line-height:1;
+    color:var(--accent); background:transparent;
+    border:1px solid rgba(127,179,255,.5); border-radius:5px;
+    padding:4px 9px; margin-right:10px; cursor:pointer; vertical-align:middle;
+  }
+  .playbtn:hover { background:rgba(127,179,255,.16); }
+  .speaking {
+    background:rgba(127,179,255,.17);
+    box-shadow:0 0 0 8px rgba(127,179,255,.17);
+    border-radius:3px;
+  }
+</style>
+
+</head>
+<body>
+<div class="wrap">
+
+<h1>EV Speaking Practice — The Everyday Electric Bus</h1>
+<p class="sub">2026-09-24　·　25 minutes　·　Topic: Electric transit buses, ageing fleets &amp; depot charging　電動公車、老化車隊與車庫充電</p>
+
+<div class="block plan">
+  <h2>Session Plan　課程流程</h2>
+  <ol>
+    <li><span class="t">3 min</span> — Warm-Up 暖身問答</li>
+    <li><span class="t">6 min</span> — Read Aloud 朗讀短文</li>
+    <li><span class="t">4 min</span> — Key Vocabulary 關鍵單字</li>
+    <li><span class="t">2 min</span> — Saying the Numbers 數字唸法</li>
+    <li><span class="t">3 min</span> — Useful Expressions 實用句型</li>
+    <li><span class="t">5 min</span> — Discussion 討論題</li>
+    <li><span class="t">2 min</span> — Wrap-Up 總結</li>
+  </ol>
+</div>
+
+<div id="ttsbar">
+  <button id="tts-play">▶ Read the article 朗讀全文</button>
+  <button id="tts-stop" class="ghost">■ Stop 停止</button>
+  <label for="tts-voice">Voice</label>
+  <select id="tts-voice"></select>
+  <label for="tts-rate">Speed</label>
+  <select id="tts-rate">
+    <option value="0.75">0.75× 慢</option>
+    <option value="0.9" selected>0.9× 稍慢</option>
+    <option value="1">1.0× 正常</option>
+    <option value="1.15">1.15× 快</option>
+  </select>
+  <div id="ttshint">每個英文段落左邊都有 ▶ 可單獨播放；正在唸的句子會反白。想要更自然的聲音：macOS「系統設定 → 輔助使用 → 朗讀內容 → 系統聲音」下載 Enhanced／Premium 或 Siri 語音，再回來從上面的 Voice 選單選取。</div>
+</div>
+
+<h2>1. Warm-Up<span class="min">3 min　暖身</span></h2>
+<div class="block">
+<ol class="q">
+  <li><div class="en">When was the last time you took a city bus, and what was the ride like?</div>
+      <div class="zh">你上一次搭市區公車是什麼時候？搭乘感受如何？</div></li>
+  <li><div class="en">Have you ever noticed an electric bus on the street? Did it feel any different from a diesel one?</div>
+      <div class="zh">你在路上注意過電動公車嗎？跟柴油公車感覺有什麼不同？</div></li>
+  <li><div class="en">If your city had money for only one upgrade, would you choose more buses, cleaner buses, or faster routes?</div>
+      <div class="zh">如果你的城市只有預算做一項改善，你會選更多公車、更乾淨的公車，還是更快的路線？</div></li>
+</ol>
+</div>
+
+<h2>2. Read Aloud<span class="min">6 min　朗讀短文</span></h2>
+<div class="block" id="article">
+<p class="note">The Slow Electrification of the Everyday Bus　日常公車的緩慢電動化</p>
+
+<div class="en">America's transit buses rarely make headlines, yet they carried about 3.8 billion passenger trips in 2025, or more than 10 million trips on an average day. That is 49 percent of all public transit trips in the country.</div>
+<div class="zh">美國的市區公車很少登上頭條，但它們在 2025 年載運了約 38 億人次，平均每天超過 1,000 萬人次，占全美大眾運輸旅次的 49%。</div>
+
+<div class="en">According to a September 2026 report by Oxford Economics, the industry that builds these buses supported around 34,100 jobs and added roughly 5.15 billion dollars to US GDP last year. Every direct job at a bus maker supported another 6.3 jobs elsewhere in the economy.</div>
+<div class="zh">根據牛津經濟研究院 2026 年 9 月的報告，美國公車製造業去年支撐了約 34,100 個工作機會，並為 GDP 貢獻約 51.5 億美元。車廠每一個直接職位，就能在其他產業帶動另外 6.3 個工作。</div>
+
+<div class="en">The electric shift is real, but uneven. Battery-electric buses made up about 20 percent of new deliveries in 2023 and 2024, yet only 4 percent of the buses actually in service. Diesel still accounted for 55 percent of recent deliveries.</div>
+<div class="zh">電動化確實在發生，但速度不均。純電公車在 2023 和 2024 年約占新交車量的 20%，卻只占實際營運車隊的 4%。柴油車仍占近年交車量的 55%。</div>
+
+<div class="en">Age is the bigger story. About 35,200 buses, or 54 percent of a fleet of 65,300, have already passed or will reach their replacement point within five years. That point is 12 years or 500,000 miles. Yet only 4,690 buses were delivered in 2025, well below the 6,320 delivered in 2019.</div>
+<div class="zh">車齡才是更大的問題。在 65,300 輛的車隊中，約 35,200 輛、也就是 54%，已經或將在五年內達到汰換標準——12 年或 50 萬英里。然而 2025 年只交車 4,690 輛，遠低於 2019 年的 6,320 輛。</div>
+
+<div class="en">Supply is also concentrated. Two manufacturers, Gillig and New Flyer, built nearly 70 percent of the buses in service. Chinese maker BYD still builds buses in California, but federal rules introduced in 2019 limit its access to federally funded orders.</div>
+<div class="zh">供給端也相當集中。Gillig 與 New Flyer 兩家車廠製造了營運中近 70% 的公車。中國的比亞迪仍在加州生產公車，但 2019 年起的聯邦規定限制它參與聯邦出資的採購案。</div>
+
+<div class="en">Buying electric buses is only half the job; the depot has to change too. In Melbourne, operator Kinetic has just upgraded its Sunshine West depot, raising charging capacity from 24 to 66 buses with 38 overhead charging points. Software spreads the charging across the night so the site stays within its power limit.</div>
+<div class="zh">買電動公車只完成了一半，車庫也得跟著改。在墨爾本，營運商 Kinetic 剛升級 Sunshine West 車庫，以 38 個頂置式充電點，把可充電的公車數量從 24 輛提高到 66 輛。軟體會把充電需求分散到整晚，讓場站用電不超過上限。</div>
+
+<div class="en">The lesson travels well. Electric buses are proving they can do the job, but the pace of change depends on less glamorous things: how fast old fleets are replaced, who is allowed to build the buses, and whether depots have enough power.</div>
+<div class="zh">這個經驗可以套用到各地。電動公車已證明它們能勝任，但轉型速度取決於一些不起眼的事：舊車隊汰換得多快、誰被允許造車，以及車庫電力夠不夠。</div>
+</div>
+
+<h2>3. Key Vocabulary<span class="min">4 min　關鍵單字</span></h2>
+<div class="block">
+<table>
+<tr><th>Word</th><th>IPA</th><th>中文</th><th>Example 例句</th></tr>
+<tr><td>transit agency</td><td class="ipa">/ˈtrænzɪt ˌeɪdʒənsi/</td><td>大眾運輸機構</td><td>The transit agency plans to replace a third of its fleet by 2030.</td></tr>
+<tr><td>fleet</td><td class="ipa">/fliːt/</td><td>車隊</td><td>Only 4 percent of the fleet is battery-electric today.</td></tr>
+<tr><td>depot</td><td class="ipa">/ˈdepəʊ/ · US /ˈdiːpoʊ/</td><td>車庫、調度場</td><td>Most buses charge overnight at the depot.</td></tr>
+<tr><td>propulsion</td><td class="ipa">/prəˈpʌlʃən/</td><td>動力系統</td><td>Diesel is still the most common propulsion technology.</td></tr>
+<tr><td>useful life</td><td class="ipa">/ˈjuːsfəl laɪf/</td><td>使用年限</td><td>A large bus reaches the end of its useful life after 12 years.</td></tr>
+<tr><td>backlog</td><td class="ipa">/ˈbæklɒɡ/</td><td>積壓、待辦量</td><td>Slow deliveries have created a backlog of ageing buses.</td></tr>
+<tr><td>procurement</td><td class="ipa">/prəˈkjʊəmənt/</td><td>採購</td><td>Federal rules shape who can bid in public procurement.</td></tr>
+<tr><td>concentrated</td><td class="ipa">/ˈkɒnsəntreɪtɪd/</td><td>集中的</td><td>The US bus market is highly concentrated in two companies.</td></tr>
+<tr><td>multiplier</td><td class="ipa">/ˈmʌltɪplaɪə(r)/</td><td>乘數（經濟效應）</td><td>An employment multiplier of 7.3 sounds impressive on paper.</td></tr>
+<tr><td>overhead gantry</td><td class="ipa">/ˌəʊvəˈhed ˈɡæntri/</td><td>頂置式門架</td><td>Chargers hang from an overhead gantry above the parking bays.</td></tr>
+<tr><td>load management</td><td class="ipa">/ləʊd ˈmænɪdʒmənt/</td><td>負載管理</td><td>Load management keeps the depot below its power limit.</td></tr>
+<tr><td>headroom</td><td class="ipa">/ˈhedruːm/</td><td>餘裕、預留空間</td><td>They built in headroom so more buses can be added later.</td></tr>
+</table>
+</div>
+
+<h2>4. Saying the Numbers<span class="min">2 min　數字唸法</span></h2>
+<div class="block">
+<table>
+<tr><th>Figure 數字</th><th>中文意思</th><th>Say it 英文唸法</th></tr>
+<tr><td>3.8 billion</td><td>38 億人次</td><td>three point eight billion</td></tr>
+<tr><td>$5.15 billion</td><td>51.5 億美元</td><td>five point one five billion dollars</td></tr>
+<tr><td>34,100</td><td>34,100 個工作</td><td>thirty-four thousand, one hundred</td></tr>
+<tr><td>65,300</td><td>車隊總數</td><td>sixty-five thousand, three hundred</td></tr>
+<tr><td>4,690 vs 6,320</td><td>2025 vs 2019 交車量</td><td>four thousand, six hundred and ninety versus six thousand, three hundred and twenty</td></tr>
+<tr><td>500,000 miles</td><td>50 萬英里</td><td>five hundred thousand miles</td></tr>
+<tr><td>7.3×</td><td>就業乘數</td><td>a multiplier of seven point three</td></tr>
+<tr><td>24 → 66</td><td>充電容量變化</td><td>from twenty-four to sixty-six</td></tr>
+<tr><td>2023–2024</td><td>年份區間</td><td>twenty twenty-three to twenty twenty-four</td></tr>
+</table>
+</div>
+
+<h2>5. Useful Expressions<span class="min">3 min　實用句型</span></h2>
+<div class="block">
+<div class="pat">
+  <div class="en"><span class="f">X rarely makes headlines, yet …</span> — Buses rarely make headlines, yet they carry half of all transit trips.</div>
+  <div class="zh">「X 很少上新聞，但……」——用來點出被忽略卻重要的事物。</div>
+</div>
+<div class="pat">
+  <div class="en"><span class="f">The shift is real, but uneven.</span> — The shift to electric is real, but uneven across cities.</div>
+  <div class="zh">「轉變是真的，但並不均衡。」——承認趨勢，同時保留批判。</div>
+</div>
+<div class="pat">
+  <div class="en"><span class="f">… is only half the job; … has to change too.</span> — Buying new buses is only half the job; the depot has to change too.</div>
+  <div class="zh">「……只完成了一半，……也得改變。」——提醒配套措施的重要性。</div>
+</div>
+<div class="pat">
+  <div class="en"><span class="f">The pace depends less on … than on …</span> — The pace depends less on technology than on funding.</div>
+  <div class="zh">「速度與其說取決於……，不如說取決於……」——比較兩個因素的影響力。</div>
+</div>
+<div class="pat">
+  <div class="en"><span class="f">We've built in headroom so that …</span> — We've built in headroom so that we can grow without rebuilding.</div>
+  <div class="zh">「我們預留了餘裕，好讓……」——描述前瞻性規劃。</div>
+</div>
+</div>
+
+<h2>6. Discussion<span class="min">5 min　討論題</span></h2>
+<div class="block">
+<ol class="q">
+  <li><div class="en">Electric buses are 20 percent of new deliveries but only 4 percent of the fleet. How long do you think it will take for the fleet to catch up, and what could speed it up?</div>
+      <div class="zh">電動公車占新交車 20%，卻只占車隊 4%。你認為車隊要多久才能追上？什麼能加速這個過程？</div></li>
+  <li><div class="en">Over half the US fleet is near retirement. Is that a crisis or an opportunity to go electric faster?</div>
+      <div class="zh">美國超過一半的公車接近退役。這是危機，還是加速電動化的機會？</div></li>
+  <li><div class="en">Some argue that limiting Chinese makers like BYD protects jobs and security; others say it raises prices and slows the transition. Which side do you find more convincing, and why?</div>
+      <div class="zh">有人認為限制比亞迪等中國車廠能保護就業與國安；也有人說這會推高價格、拖慢轉型。你覺得哪一方比較有說服力？為什麼？</div></li>
+  <li><div class="en">When two companies build 70 percent of the buses, what are the risks for cities that need to buy them?</div>
+      <div class="zh">當兩家公司生產 70% 的公車，對需要採購的城市來說有什麼風險？</div></li>
+  <li><div class="en">Kinetic spreads charging across the night to stay within its power limit. What other problems might a depot face when it goes fully electric?</div>
+      <div class="zh">Kinetic 把充電分散到整晚以免超過電力上限。車庫全面電動化時，還可能遇到哪些問題？</div></li>
+  <li><div class="en">How does the bus system in your city compare with what you read today? Would you like to see more electric buses there?</div>
+      <div class="zh">你所在城市的公車系統跟今天讀到的相比如何？你希望那裡有更多電動公車嗎？</div></li>
+</ol>
+</div>
+
+<h2>7. Wrap-Up<span class="min">2 min　總結</span></h2>
+<div class="block">
+<p class="note">60-second summary 一分鐘摘要：</p>
+<div class="en">Buses carry almost half of America's transit trips, and building them supports about 34,000 jobs. Electric buses now make up a fifth of new deliveries but only 4 percent of the fleet, while more than half of all buses are due for replacement soon. Deliveries are still below pre-pandemic levels, and two makers dominate supply. In Melbourne, Kinetic shows that depots need smart charging and extra power to make the switch work.</div>
+<div class="zh">公車承載美國近一半的大眾運輸旅次，製造業支撐約 3.4 萬個工作。電動公車已占新交車的五分之一，但只占車隊 4%，而超過一半的公車即將需要汰換。交車量仍低於疫情前，供應由兩家車廠主導。墨爾本的 Kinetic 則顯示，車庫需要智慧充電與更多電力，轉型才能成功。</div>
+<p class="note" style="margin-top:18px">Your position 表達立場的句型：</p>
+<div class="en">"For me, the real test isn't whether electric buses work — it's whether cities can replace old fleets fast enough to make them the norm."</div>
+<div class="zh">「對我來說，真正的考驗不是電動公車行不行，而是城市能否夠快汰換舊車，讓電動公車成為常態。」</div>
+</div>
+
+<div class="block">
+<h2>Source Notes　取材筆記</h2>
+<p class="note">From the Obsidian vault: <code>Claude code AI筆記 / raw / assets</code><br>
+取材自 Obsidian 筆記庫：<code>Claude code AI筆記 / raw / assets</code></p>
+<table>
+<tr><th>Note file 筆記檔名</th><th>Original 原始出處</th><th>Used for 用於</th></tr>
+<tr>
+  <td><code>2026-09-23-US transit bus manufacturing contributes $5.1 billion to GDP. BEVs reach 20% of recent deliveries.md</code></td>
+  <td>Sustainable Bus（Editorial Staff）· 2026-09-17 · <a href="https://www.sustainable-bus.com/news/study-buses-mean-business-transit-industry-usa-oxford-economics/">原文連結</a></td>
+  <td>Oxford Economics figures: trips, jobs, GDP, multiplier, propulsion mix, fleet age, deliveries 2019 vs 2025, Gillig / New Flyer share, BYD restrictions.<br><span style="opacity:.7">牛津經濟研究院數據：旅次、就業、GDP、乘數、動力組合、車齡、交車量、兩大車廠占比、比亞迪限制。</span></td>
+</tr>
+<tr>
+  <td><code>2026-09-23-Melbourne, Kinetic upgrades Sunshine West depot with 38 new overhead charging points in order to operate +60 zero-emission buses.md</code></td>
+  <td>Sustainable Bus（Editorial Staff）· 2026-09-18 · <a href="https://www.sustainable-bus.com/infrastructure/kinetic-sunshine-west-depot-new-charging-points-zero-emission-buses/">原文連結</a></td>
+  <td>Depot example: 24 → 66 bus capacity, 38 overhead charging points, overnight load management, "headroom" quote.<br><span style="opacity:.7">車庫案例：容量 24→66 輛、38 個頂置充電點、夜間負載管理、「預留餘裕」談話。</span></td>
+</tr>
+</table>
+</div>
+
+<footer>
+EV Speaking Practice　·　2026-09-24　·　25 minutes<br>
+Prepared for Claude Yeh　為線上英語口說課程準備
+</footer>
+
+</div>
+
+<script>
+(function () {
+  var synth = window.speechSynthesis;
+  var bar = document.getElementById('ttsbar');
+  if (!synth) {
+    bar.innerHTML = '<div id="ttshint">此瀏覽器不支援語音朗讀，請改用 Chrome、Edge 或 Safari 開啟本檔案。</div>';
+    return;
+  }
+
+  var voiceSel = document.getElementById('tts-voice');
+  var rateSel  = document.getElementById('tts-rate');
+  var voices   = [];
+  var queue    = [];
+  var qi       = 0;
+  var playing  = false;
+
+  function score(v) {
+    var n = (v.name + ' ' + (v.voiceURI || '')).toLowerCase();
+    var s = 0;
+    if (/premium|enhanced|neural|natural/.test(n)) s += 40;
+    if (/siri/.test(n)) s += 30;
+    if (/google/.test(n)) s += 25;
+    if (/samantha|ava|allison|serena|daniel|kate|arthur|evan|nathan|zoe/.test(n)) s += 12;
+    if (/compact|novelty|whisper|bells|bubbles|jester|organ|trinoids|zarvox|albert|bad news|good news/.test(n)) s -= 60;
+    if (v.lang === 'en-US') s += 6;
+    if (v.lang === 'en-GB') s += 5;
+    if (v.localService) s += 2;
+    return s;
+  }
+
+  function loadVoices() {
+    var all = synth.getVoices().filter(function (v) { return /^en[-_]/i.test(v.lang); });
+    if (!all.length) return;
+    all.sort(function (a, b) { return score(b) - score(a); });
+    voices = all;
+    voiceSel.innerHTML = '';
+    voices.forEach(function (v, i) {
+      var o = document.createElement('option');
+      o.value = i;
+      o.textContent = v.name + ' (' + v.lang + ')';
+      voiceSel.appendChild(o);
+    });
+    var saved = null;
+    try { saved = localStorage.getItem('evPracticeVoice'); } catch (e) {}
+    if (saved !== null) {
+      var idx = voices.findIndex(function (v) { return v.name === saved; });
+      if (idx > -1) voiceSel.value = idx;
+    }
+  }
+  loadVoices();
+  synth.onvoiceschanged = loadVoices;
+
+  voiceSel.addEventListener('change', function () {
+    var v = voices[voiceSel.value];
+    try { if (v) localStorage.setItem('evPracticeVoice', v.name); } catch (e) {}
+  });
+
+  function clearHighlight() {
+    var h = document.querySelector('.speaking');
+    if (h) h.classList.remove('speaking');
+  }
+
+  function stop() {
+    playing = false;
+    queue = [];
+    qi = 0;
+    synth.cancel();
+    clearHighlight();
+  }
+
+  // Chrome silently truncates any utterance longer than ~15s, so queue
+  // sentence-sized chunks instead of whole paragraphs.
+  function sentences(text) {
+    var SEP = String.fromCharCode(1);
+    var t = text.replace(/\s+/g, ' ').trim();
+    // Shield decimals/abbreviations so "86.5 percent" isn't split in two.
+    t = t.replace(/(\d)\.(\d)/g, '$1' + SEP + '$2')
+         .replace(/\b(Mr|Mrs|Ms|Dr|St|vs|etc|Inc|Ltd|Co|approx)\./gi,
+                  function (m) { return m.slice(0, -1) + SEP; })
+         .replace(/\bU\.S\./g, 'U' + SEP + 'S' + SEP);
+    var parts = t.match(/[^.!?]+[.!?]+["')\]]?|[^.!?]+$/g) || [t];
+    return parts
+      .map(function (s) { return s.split(SEP).join('.').trim(); })
+      .filter(function (s) { return /[a-zA-Z0-9]/.test(s); });
+  }
+
+  function speakNext() {
+    if (!playing || qi >= queue.length) { stop(); return; }
+    var item = queue[qi++];
+    clearHighlight();
+    if (item.el) {
+      item.el.classList.add('speaking');
+      var r = item.el.getBoundingClientRect();
+      if (r.top < 120 || r.bottom > window.innerHeight - 40) {
+        item.el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      }
+    }
+    var u = new SpeechSynthesisUtterance(item.text);
+    var v = voices[voiceSel.value];
+    if (v) { u.voice = v; u.lang = v.lang; } else { u.lang = 'en-US'; }
+    u.rate = parseFloat(rateSel.value);
+    u.pitch = 1;
+    u.onend = speakNext;
+    u.onerror = speakNext;
+    synth.speak(u);
+  }
+
+  function textOf(el) {
+    // Snapshot taken before the play glyph was injected, so it is never spoken.
+    return el.getAttribute('data-tts') || el.textContent;
+  }
+
+  function play(elements) {
+    stop();
+    queue = [];
+    elements.forEach(function (el) {
+      sentences(textOf(el)).forEach(function (s) {
+        if (s.trim()) queue.push({ el: el, text: s });
+      });
+    });
+    if (!queue.length) return;
+    playing = true;
+    qi = 0;
+    speakNext();
+  }
+
+  document.getElementById('tts-stop').addEventListener('click', stop);
+
+  document.getElementById('tts-play').addEventListener('click', function () {
+    var paras = [].slice.call(document.querySelectorAll('#article .en'));
+    play(paras);
+  });
+
+  rateSel.addEventListener('change', function () { if (playing) stop(); });
+
+  var targets = [].slice.call(document.querySelectorAll('.en'));
+  targets.forEach(function (el) {
+    el.setAttribute('data-tts', el.textContent);
+    var b = document.createElement('button');
+    b.className = 'playbtn';
+    b.type = 'button';
+    b.textContent = '▶';
+    b.setAttribute('aria-label', 'Play this sentence');
+    b.addEventListener('click', function (e) {
+      e.stopPropagation();
+      play([el]);
+    });
+    el.insertBefore(b, el.firstChild);
+  });
+
+  [].slice.call(document.querySelectorAll('table tr')).forEach(function (tr) {
+    var cells = tr.querySelectorAll('td');
+    if (cells.length < 2) return;
+    var last = cells[cells.length - 1];
+    if (!/[a-zA-Z]/.test(last.textContent)) return;
+    last.style.cursor = 'pointer';
+    last.title = 'Click to hear it 點一下聽發音';
+    last.addEventListener('click', function () { play([last]); });
+  });
+
+  window.addEventListener('beforeunload', function () { synth.cancel(); });
+})();
+</script>
+</body>
+</html>

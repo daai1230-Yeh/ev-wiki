@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>EV Speaking Practice — The Layers You Never See (2026-09-22)</title>
+<style>
+  :root {
+    --bg: #0C2A65;
+    --fg: #FFFFFF;
+    --accent: #7FB3FF;
+    --line: rgba(127,179,255,.35);
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    padding: 28px 22px 60px;
+    background: var(--bg);
+    color: var(--fg);
+    font-family: "Helvetica Neue", Helvetica, Arial, "PingFang TC", "Noto Sans TC", sans-serif;
+    font-size: 20pt;
+    line-height: 1.62;
+  }
+  .wrap { max-width: 900px; margin: 0 auto; }
+  h1 {
+    font-size: 28pt;
+    line-height: 1.3;
+    margin: 0 0 6px;
+    font-weight: 700;
+  }
+  .sub { font-size: 15pt; opacity: .7; margin: 0 0 26px; letter-spacing: .03em; }
+  h2 {
+    font-size: 22pt;
+    margin: 0 0 16px;
+    padding-left: 14px;
+    border-left: 6px solid var(--accent);
+    line-height: 1.35;
+  }
+  h2 .min { font-size: 14pt; color: var(--accent); font-weight: 400; margin-left: 10px; letter-spacing: .04em; }
+  .block {
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    padding: 22px 24px;
+    margin: 0 0 26px;
+  }
+  .plan { background: rgba(127,179,255,.09); }
+  .plan ol { margin: 10px 0 0; padding-left: 26px; font-size: 16pt; line-height: 1.75; }
+  .plan li::marker { color: var(--accent); font-weight: 700; }
+  .plan .t { color: var(--accent); font-variant-numeric: tabular-nums; }
+  .en { margin: 18px 0 2px; }
+  .zh { margin: 0 0 14px; font-size: 16pt; opacity: .72; line-height: 1.6; }
+  ol.q { padding-left: 26px; margin: 4px 0 0; }
+  ol.q li { margin-bottom: 14px; }
+  ol.q li::marker { color: var(--accent); font-weight: 700; }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 15pt;
+    margin-top: 8px;
+  }
+  th, td {
+    border: 1px solid var(--line);
+    padding: 10px 12px;
+    text-align: left;
+    vertical-align: top;
+    line-height: 1.5;
+  }
+  th { background: rgba(127,179,255,.18); color: var(--accent); font-weight: 700; white-space: nowrap; }
+  td.ipa { font-family: "Lucida Grande", "Segoe UI", sans-serif; opacity: .8; white-space: nowrap; }
+  code { font-family: "SF Mono", Menlo, Consolas, monospace; font-size: 13.5pt; }
+  a { color: var(--accent); }
+  .pat { margin: 0 0 18px; }
+  .pat .f { font-weight: 700; }
+  footer { font-size: 13pt; opacity: .55; text-align: center; margin-top: 36px; line-height: 1.7; }
+  .note { font-size: 14pt; opacity: .65; margin: 0 0 12px; line-height: 1.6; }
+
+  @media (max-width: 640px) {
+    body { font-size: 17pt; padding: 18px 14px 44px; }
+    h1 { font-size: 22pt; }
+    h2 { font-size: 18pt; }
+    .zh { font-size: 14pt; }
+    table { font-size: 13pt; }
+    th, td { padding: 8px 8px; }
+    .block { padding: 16px 14px; }
+  }
+
+  /* ---- Text-to-speech controls ---- */
+  #ttsbar {
+    position:sticky; top:0; z-index:50;
+    background:rgba(12,42,101,.96); backdrop-filter:blur(6px);
+    border:1px solid var(--line); border-radius:10px;
+    padding:14px 18px; margin:0 0 8px;
+    display:flex; flex-wrap:wrap; gap:10px 14px; align-items:center;
+    font-size:14pt;
+  }
+  #ttsbar label { opacity:.75; letter-spacing:.04em; }
+  #ttsbar button {
+    font:inherit; font-size:14pt; font-weight:700;
+    color:var(--bg); background:var(--accent);
+    border:none; border-radius:6px; padding:8px 16px; cursor:pointer;
+  }
+  #ttsbar button.ghost { background:transparent; color:var(--accent); border:1px solid var(--accent); }
+  #ttsbar button:hover { opacity:.85; }
+  #ttsbar select {
+    font:inherit; font-size:14pt;
+    color:var(--fg); background:#123573;
+    border:1px solid var(--line); border-radius:6px; padding:7px 10px; max-width:260px;
+  }
+  #ttshint { flex-basis:100%; font-size:12.5pt; opacity:.6; line-height:1.5; }
+  .playbtn {
+    font:inherit; font-size:13pt; line-height:1;
+    color:var(--accent); background:transparent;
+    border:1px solid rgba(127,179,255,.5); border-radius:5px;
+    padding:4px 9px; margin-right:10px; cursor:pointer; vertical-align:middle;
+  }
+  .playbtn:hover { background:rgba(127,179,255,.16); }
+  .speaking {
+    background:rgba(127,179,255,.17);
+    box-shadow:0 0 0 8px rgba(127,179,255,.17);
+    border-radius:3px;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<h1>EV Speaking Practice — The Layers You Never See</h1>
+<p class="sub">2026-09-22　·　25 minutes　·　Topic: battery materials &amp; the supply chain behind the cell　電池材料與電芯背後的供應鏈</p>
+
+<div class="block plan">
+  <h2>Session Plan　課程流程</h2>
+  <ol>
+    <li><span class="t">3 min</span> — Warm-Up 暖身問答</li>
+    <li><span class="t">6 min</span> — Read Aloud 朗讀短文</li>
+    <li><span class="t">4 min</span> — Key Vocabulary 關鍵單字</li>
+    <li><span class="t">2 min</span> — Saying the Numbers 數字唸法</li>
+    <li><span class="t">3 min</span> — Useful Expressions 實用句型</li>
+    <li><span class="t">5 min</span> — Discussion 討論題</li>
+    <li><span class="t">2 min</span> — Wrap-Up 總結</li>
+  </ol>
+</div>
+
+<div id="ttsbar">
+  <button id="tts-play">▶ Read the article 朗讀全文</button>
+  <button id="tts-stop" class="ghost">■ Stop 停止</button>
+  <label for="tts-voice">Voice</label>
+  <select id="tts-voice"></select>
+  <label for="tts-rate">Speed</label>
+  <select id="tts-rate">
+    <option value="0.75">0.75× 慢</option>
+    <option value="0.9" selected>0.9× 稍慢</option>
+    <option value="1">1.0× 正常</option>
+    <option value="1.15">1.15× 快</option>
+  </select>
+  <div id="ttshint">每個英文段落左邊都有 ▶ 可單獨播放；正在唸的句子會反白。想要更自然的聲音：macOS「系統設定 → 輔助使用 → 朗讀內容 → 系統聲音」下載 Enhanced／Premium 或 Siri 語音，再回來從上面的 Voice 選單選取。</div>
+</div>
+
+<div class="block">
+<h2>1. Warm-Up<span class="min">3 min　暖身</span></h2>
+<div class="en">When you think about what makes an electric car expensive, what parts come to mind first?</div>
+<div class="zh">當你想到電動車為什麼貴，最先想到的是哪些零件？</div>
+<div class="en">Have you ever bought something where the most important component was made by a company you had never heard of?</div>
+<div class="zh">你有沒有買過某樣東西，其中最關鍵的零件是出自一家你從沒聽過的公司？</div>
+<div class="en">If one country supplied almost all of a material your industry depended on, would that worry you, or would you see it as simply efficient?</div>
+<div class="zh">如果某一個國家幾乎供應了你所處產業所依賴的全部某種材料，這會讓你擔心，還是你覺得這只是有效率而已？</div>
+</div>
+
+<div class="block" id="article">
+<h2>2. Read Aloud<span class="min">6 min　朗讀短文</span></h2>
+<div class="en">Inside every lithium battery there is a thin plastic sheet called a separator. It sits between the positive and negative electrodes and stops them from touching. If it fails, the cell short-circuits and can catch fire. Nobody advertises it, and almost no driver has ever heard of it, yet without it there is no electric vehicle.</div>
+<div class="zh">每一顆鋰電池裡面都有一層薄薄的塑膠膜，叫做隔離膜。它夾在正極與負極之間，防止兩者接觸。一旦失效，電芯就會短路，甚至可能起火。沒有人會拿它做廣告，幾乎沒有駕駛人聽過它，但少了它就沒有電動車。</div>
+
+<div class="en">Demand for this invisible layer is growing fast. According to SNE Research, batteries registered worldwide between January and July of 2026 contained roughly 11.7 billion square metres of separator film, an increase of 24.9 percent compared with the same period a year earlier.</div>
+<div class="zh">這層看不見的材料需求正在快速成長。根據市調機構 SNE Research，2026 年 1 月到 7 月間全球登記的電池，共使用了約 117 億平方公尺的隔離膜，比前一年同期成長 24.9%。</div>
+
+<div class="en">What makes the figures interesting is where the growth ended up. Markets outside China grew even faster, by 43.2 percent. But Chinese suppliers captured most of that growth anyway. In the second quarter of 2026 their global market share reached 91.5 percent, while Korean and Japanese producers actually lost ground.</div>
+<div class="zh">這些數字有趣的地方在於：成長最後落到了誰手上。中國以外的市場成長得更快，達 43.2%。但這些成長的果實大多仍被中國供應商拿走。2026 年第二季，中國業者的全球市佔率達到 91.5%，而南韓與日本廠商反而是衰退的。</div>
+
+<div class="en">The squeeze is pushing rivals to reposition rather than compete head-on. South Korea's SK Innovation is absorbing its separator subsidiary and shrinking its Chinese operations. Another Korean firm, WCP, is shifting toward separators for energy storage systems. Japanese materials groups such as Toray and Asahi Kasei are building capacity in North America instead. The logic is the same in each case: stop fighting on price, move to products where margins survive.</div>
+<div class="zh">這股壓力促使競爭對手選擇重新定位，而不是正面對決。南韓 SK Innovation 正在吸收合併旗下的隔離膜子公司，並縮減中國業務。另一家韓廠 WCP 則轉向儲能系統用的隔離膜。東麗、旭化成等日本材料集團則改為在北美擴建產能。背後邏輯都一樣：不要再打價格戰，轉進還能保住利潤的產品。</div>
+
+<div class="en">Not every corner of the market is commoditised, though. Ultra-thin separators of around five micrometres, and films with high heat-resistant coatings, are still in short supply, and buyers cannot always secure the volumes they want. Chinese wet-process prices have already rebounded from their lows, and industry utilisation has climbed back above 80 percent.</div>
+<div class="zh">不過，並不是市場的每個角落都淪為大宗商品。約 5 微米的超薄隔離膜，以及具高耐熱塗層的膜材，供給仍然吃緊，買方不一定能拿到想要的量。中國濕法隔離膜的價格已從低點反彈，產業產能利用率也回升到 80% 以上。</div>
+
+<div class="en">A similar dependence is taking shape one generation ahead, in solid-state batteries. This month the American developer Factorial Energy signed a joint development agreement with Mitsui Kinzoku of Japan, one of the very few firms that has mastered sulphide-based solid electrolytes. Mitsui has been refining that material since 2016 and already supplies an estimated 90 percent of the ultra-thin copper foil used by the semiconductor industry.</div>
+<div class="zh">類似的依賴關係，正在下一個世代的固態電池上成形。本月美國電池開發商 Factorial Energy 與日本三井金屬簽下共同開發協議；三井金屬是全球極少數掌握硫化物固態電解質的公司之一。它自 2016 年起就在打磨這項材料，並且已供應半導體業界約九成的超薄銅箔。</div>
+
+<div class="en">Factorial's chief executive put the point bluntly: battery innovation cannot be done by one single company. Her firm is backed by Mercedes-Benz, Stellantis and Hyundai-Kia, and its Solstice platform promises energy density of up to 450 watt-hours per kilogram. Even so, it still needs a Japanese chemicals company to make the electrolyte work at scale. The cell may carry a carmaker's badge, but the hard part often happens several layers upstream.</div>
+<div class="zh">Factorial 的執行長把話說得很直白：電池創新無法由單一一家公司完成。該公司背後有賓士、Stellantis 與現代起亞的支持，其 Solstice 平台宣稱能量密度上看每公斤 450 瓦時。即便如此，它仍然需要一家日本化學公司才能讓電解質量產可行。電芯上頭印的也許是車廠的標誌，但真正困難的部分，往往發生在供應鏈上游好幾層的地方。</div>
+</div>
+
+<div class="block">
+<h2>3. Key Vocabulary<span class="min">4 min　關鍵單字</span></h2>
+<table>
+<tr><th>Word</th><th>IPA</th><th>中文</th><th>Example sentence 例句</th></tr>
+<tr><td>separator</td><td class="ipa">/ˈsepəreɪtər/</td><td>隔離膜</td><td>The separator keeps the two electrodes apart inside the cell.</td></tr>
+<tr><td>electrolyte</td><td class="ipa">/ɪˈlektrəlaɪt/</td><td>電解質</td><td>Solid-state batteries replace the liquid electrolyte with a solid one.</td></tr>
+<tr><td>market share</td><td class="ipa">/ˈmɑːrkɪt ʃer/</td><td>市佔率</td><td>Their market share climbed above ninety percent in a single quarter.</td></tr>
+<tr><td>supply chain</td><td class="ipa">/səˈplaɪ tʃeɪn/</td><td>供應鏈</td><td>The whole supply chain depends on one small group of material makers.</td></tr>
+<tr><td>upstream</td><td class="ipa">/ˌʌpˈstriːm/</td><td>上游</td><td>The real bottleneck sits upstream, not at the assembly line.</td></tr>
+<tr><td>commoditise</td><td class="ipa">/kəˈmɑːdətaɪz/</td><td>商品化、淪為大宗貨</td><td>Once a product is commoditised, price is all that is left to compete on.</td></tr>
+<tr><td>margin</td><td class="ipa">/ˈmɑːrdʒɪn/</td><td>利潤率</td><td>They moved into coated films because the margins are much better there.</td></tr>
+<tr><td>utilisation rate</td><td class="ipa">/ˌjuːtələˈzeɪʃn reɪt/</td><td>產能利用率</td><td>The utilisation rate has recovered to just over eighty percent.</td></tr>
+<tr><td>capacity</td><td class="ipa">/kəˈpæsəti/</td><td>產能</td><td>Japanese firms are adding capacity in North America rather than in China.</td></tr>
+<tr><td>energy density</td><td class="ipa">/ˈenərdʒi ˈdensəti/</td><td>能量密度</td><td>Higher energy density means more range from the same weight.</td></tr>
+<tr><td>dependence</td><td class="ipa">/dɪˈpendəns/</td><td>依賴</td><td>Nobody planned this dependence; it built up quietly over a decade.</td></tr>
+<tr><td>reposition</td><td class="ipa">/ˌriːpəˈzɪʃn/</td><td>重新定位</td><td>Instead of competing head-on, they repositioned toward storage customers.</td></tr>
+</table>
+</div>
+
+<div class="block">
+<h2>4. Saying the Numbers<span class="min">2 min　數字唸法</span></h2>
+<table>
+<tr><th>Figure</th><th>How to say it 唸法</th></tr>
+<tr><td>11.7 billion m²</td><td>eleven point seven billion square metres</td></tr>
+<tr><td>+24.9%</td><td>up twenty-four point nine percent</td></tr>
+<tr><td>+43.2%</td><td>a forty-three point two percent increase</td></tr>
+<tr><td>91.5%</td><td>ninety-one point five percent</td></tr>
+<tr><td>5 μm</td><td>five micrometres, or five microns</td></tr>
+<tr><td>80%+</td><td>above eighty percent / north of eighty percent</td></tr>
+<tr><td>450 Wh/kg</td><td>four hundred and fifty watt-hours per kilogram</td></tr>
+<tr><td>Q2 2026</td><td>the second quarter of twenty twenty-six</td></tr>
+<tr><td>Jan–Jul 2026</td><td>from January to July twenty twenty-six</td></tr>
+<tr><td>90%</td><td>ninety percent, or roughly nine out of ten</td></tr>
+</table>
+</div>
+
+<div class="block">
+<h2>5. Useful Expressions<span class="min">3 min　實用句型</span></h2>
+<div class="pat">
+  <div class="en"><span class="f">A accounts for X percent of B.</span> — Chinese suppliers account for more than ninety percent of the separator market.</div>
+  <div class="zh">用來表達「佔比」。比 "the share is..." 更自然、更口語，開會報告時很好用。</div>
+</div>
+<div class="pat">
+  <div class="en"><span class="f">The growth did not translate into ...</span> — Faster demand growth outside China did not translate into higher sales for Korean firms.</div>
+  <div class="zh">「成長並沒有轉化成……」。談數據漂亮但結果不如預期時，這個句型非常精準。</div>
+</div>
+<div class="pat">
+  <div class="en"><span class="f">Rather than competing head-on, they ...</span> — Rather than competing head-on, they shifted to energy storage customers.</div>
+  <div class="zh">「與其正面對決，他們選擇……」。描述策略轉向時使用，聽起來成熟老練。</div>
+</div>
+<div class="pat">
+  <div class="en"><span class="f">The bottleneck sits ...</span> — The bottleneck sits upstream, in materials, not in vehicle assembly.</div>
+  <div class="zh">「瓶頸在於……」。指出問題真正所在，討論供應鏈時很常用。</div>
+</div>
+<div class="pat">
+  <div class="en"><span class="f">On paper ..., but in practice ...</span> — On paper anyone can build a battery plant, but in practice the materials come from very few suppliers.</div>
+  <div class="zh">「理論上……，但實際上……」。用來對比理想與現實，是很好的轉折句型。</div>
+</div>
+</div>
+
+<div class="block">
+<h2>6. Discussion<span class="min">5 min　討論題</span></h2>
+<ol class="q">
+  <li><div class="en">Chinese suppliers reached 91.5 percent of the separator market without much public attention. Why do you think dominance in materials attracts less political reaction than dominance in finished cars?</div>
+      <div class="zh">中國業者在隔離膜市場拿下 91.5%，卻沒引起太多關注。你覺得為什麼材料端的壟斷，比整車壟斷引來的政治反應少得多？</div></li>
+  <li><div class="en">Korean and Japanese firms are retreating to energy storage and North America. Is that a smart specialisation, or is it surrendering the main market?</div>
+      <div class="zh">韓、日廠商退守儲能與北美市場。這是聰明的分工專業化，還是等於放棄主戰場？</div></li>
+  <li><div class="en">Some would argue that concentrated supply is simply the market rewarding the most efficient producer. Others call it a strategic risk. Which argument do you find stronger, and why?</div>
+      <div class="zh">有人主張供應集中只是市場在獎勵最有效率的生產者；也有人稱之為戰略風險。你覺得哪個論點比較有說服力？為什麼？</div></li>
+  <li><div class="en">Factorial's CEO said innovation "can't be done by one single company." Do you agree, or do you think that is something companies say when they need partners?</div>
+      <div class="zh">Factorial 執行長說創新「無法由單一公司完成」。你同意嗎？還是覺得這只是需要夥伴時才會說的話？</div></li>
+  <li><div class="en">Taiwan has strong materials and precision manufacturing. Where in this battery supply chain could Taiwanese companies realistically compete?</div>
+      <div class="zh">台灣在材料與精密製造上有實力。在這條電池供應鏈中，台灣廠商實際上可以切進哪些環節？</div></li>
+  <li><div class="en">If you were advising a carmaker, would you pay a premium to keep a second, non-Chinese supplier alive, even if you never needed it?</div>
+      <div class="zh">如果你是車廠顧問，你會願意付出較高成本去維持一家非中國的備用供應商嗎——即使你可能永遠用不到？</div></li>
+</ol>
+</div>
+
+<div class="block">
+<h2>7. Wrap-Up<span class="min">2 min　總結</span></h2>
+<div class="en">In sixty seconds, summarise the article in your own words. Cover three things: what a separator does, how concentrated the market has become, and why solid-state batteries may repeat the same pattern.</div>
+<div class="zh">用 60 秒、以自己的話摘要這篇文章。涵蓋三件事：隔離膜的作用、市場集中到什麼程度，以及固態電池為何可能重演同樣的模式。</div>
+
+<div class="en">Then state your own position using this frame: "What strikes me most about this is ..., because ... . If I had to choose, I would ..."</div>
+<div class="zh">接著用這個句型表達你的立場：「這件事最讓我印象深刻的是……，因為……。如果一定要選，我會……」</div>
+
+<div class="en">For example: What strikes me most about this is how quietly the concentration happened, because nobody was watching a plastic film. If I had to choose, I would accept slightly higher costs in exchange for a second source.</div>
+<div class="zh">例如：這件事最讓我印象深刻的，是這種集中發生得如此悄無聲息，因為沒有人在盯著一層塑膠膜。如果一定要選，我會接受略高的成本，換取第二供應來源。</div>
+</div>
+
+<div class="block">
+<h2>Source Notes　取材筆記</h2>
+<p class="note">From the Obsidian vault: <code>Claude code AI筆記 / raw / assets</code><br>
+取材自 Obsidian 筆記庫：<code>Claude code AI筆記 / raw / assets</code></p>
+<table>
+<tr><th>Note file 筆記檔名</th><th>Original 原始出處</th><th>Used for 用於</th></tr>
+<tr>
+  <td><code>2026-09-21-全球電池隔離膜需求年增24.9%-中國業者市佔率突破9成.md</code></td>
+  <td>DIGITIMES（蔡云瑄）· 2026-09-21 · <a href="https://www.digitimes.com.tw/tech/dt/n/shwnws.asp?CnlID=&amp;id=768939">原文連結</a></td>
+  <td>Separator demand figures, the 91.5% share, Korean and Japanese restructuring, 5 μm and coated films, utilisation rate.<br><span style="opacity:.7">隔離膜需求數據、91.5% 市佔、韓日業者重整、5 微米與塗層產品、產能利用率。</span></td>
+</tr>
+<tr>
+  <td><code>2026-09-21-Solid-state batteries Factorial leverages Japanese electrolyte expertise.md</code></td>
+  <td>electrive.com（Cora Werwitzke）· 2026-09-18 · <a href="https://www.electrive.com/2026/09/18/solid-state-batteries-factorial-leverages-japanese-electrolyte-expertise/">原文連結</a></td>
+  <td>Factorial–Mitsui Kinzoku agreement, sulphide electrolytes, Solstice 450 Wh/kg, the 90% copper foil share, the CEO quote.<br><span style="opacity:.7">Factorial 與三井金屬的合作、硫化物電解質、Solstice 450 Wh/kg、九成銅箔市佔、執行長引言。</span></td>
+</tr>
+</table>
+</div>
+
+<footer>
+EV Speaking Practice　·　2026-09-22　·　25 minutes<br>
+Prepared for Claude Yeh　為線上英語口說課程準備
+</footer>
+
+</div>
+
+<script>
+(function () {
+  var synth = window.speechSynthesis;
+  var bar = document.getElementById('ttsbar');
+  if (!synth) {
+    bar.innerHTML = '<div id="ttshint">此瀏覽器不支援語音朗讀，請改用 Chrome、Edge 或 Safari 開啟本檔案。</div>';
+    return;
+  }
+
+  var voiceSel = document.getElementById('tts-voice');
+  var rateSel  = document.getElementById('tts-rate');
+  var voices   = [];
+  var queue    = [];
+  var qi       = 0;
+  var playing  = false;
+
+  function score(v) {
+    var n = (v.name + ' ' + (v.voiceURI || '')).toLowerCase();
+    var s = 0;
+    if (/premium|enhanced|neural|natural/.test(n)) s += 40;
+    if (/siri/.test(n)) s += 30;
+    if (/google/.test(n)) s += 25;
+    if (/samantha|ava|allison|serena|daniel|kate|arthur|evan|nathan|zoe/.test(n)) s += 12;
+    if (/compact|novelty|whisper|bells|bubbles|jester|organ|trinoids|zarvox|albert|bad news|good news/.test(n)) s -= 60;
+    if (v.lang === 'en-US') s += 6;
+    if (v.lang === 'en-GB') s += 5;
+    if (v.localService) s += 2;
+    return s;
+  }
+
+  function loadVoices() {
+    var all = synth.getVoices().filter(function (v) { return /^en[-_]/i.test(v.lang); });
+    if (!all.length) return;
+    all.sort(function (a, b) { return score(b) - score(a); });
+    voices = all;
+    voiceSel.innerHTML = '';
+    voices.forEach(function (v, i) {
+      var o = document.createElement('option');
+      o.value = i;
+      o.textContent = v.name + ' (' + v.lang + ')';
+      voiceSel.appendChild(o);
+    });
+    var saved = null;
+    try { saved = localStorage.getItem('evPracticeVoice'); } catch (e) {}
+    if (saved !== null) {
+      var idx = voices.findIndex(function (v) { return v.name === saved; });
+      if (idx > -1) voiceSel.value = idx;
+    }
+  }
+  loadVoices();
+  synth.onvoiceschanged = loadVoices;
+
+  voiceSel.addEventListener('change', function () {
+    var v = voices[voiceSel.value];
+    try { if (v) localStorage.setItem('evPracticeVoice', v.name); } catch (e) {}
+  });
+
+  function clearHighlight() {
+    var h = document.querySelector('.speaking');
+    if (h) h.classList.remove('speaking');
+  }
+
+  function stop() {
+    playing = false;
+    queue = [];
+    qi = 0;
+    synth.cancel();
+    clearHighlight();
+  }
+
+  // Chrome silently truncates any utterance longer than ~15s, so queue
+  // sentence-sized chunks instead of whole paragraphs.
+  function sentences(text) {
+    var SEP = String.fromCharCode(1);
+    var t = text.replace(/\s+/g, ' ').trim();
+    // Shield decimals/abbreviations so "86.5 percent" isn't split in two.
+    t = t.replace(/(\d)\.(\d)/g, '$1' + SEP + '$2')
+         .replace(/\b(Mr|Mrs|Ms|Dr|St|vs|etc|Inc|Ltd|Co|approx)\./gi,
+                  function (m) { return m.slice(0, -1) + SEP; })
+         .replace(/\bU\.S\./g, 'U' + SEP + 'S' + SEP);
+    var parts = t.match(/[^.!?]+[.!?]+["')\]]?|[^.!?]+$/g) || [t];
+    return parts
+      .map(function (s) { return s.split(SEP).join('.').trim(); })
+      .filter(function (s) { return /[a-zA-Z0-9]/.test(s); });
+  }
+
+  function speakNext() {
+    if (!playing || qi >= queue.length) { stop(); return; }
+    var item = queue[qi++];
+    clearHighlight();
+    if (item.el) {
+      item.el.classList.add('speaking');
+      var r = item.el.getBoundingClientRect();
+      if (r.top < 120 || r.bottom > window.innerHeight - 40) {
+        item.el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      }
+    }
+    var u = new SpeechSynthesisUtterance(item.text);
+    var v = voices[voiceSel.value];
+    if (v) { u.voice = v; u.lang = v.lang; } else { u.lang = 'en-US'; }
+    u.rate = parseFloat(rateSel.value);
+    u.pitch = 1;
+    u.onend = speakNext;
+    u.onerror = speakNext;
+    synth.speak(u);
+  }
+
+  function textOf(el) {
+    // Snapshot taken before the play glyph was injected, so it is never spoken.
+    return el.getAttribute('data-tts') || el.textContent;
+  }
+
+  function play(elements) {
+    stop();
+    queue = [];
+    elements.forEach(function (el) {
+      sentences(textOf(el)).forEach(function (s) {
+        if (s.trim()) queue.push({ el: el, text: s });
+      });
+    });
+    if (!queue.length) return;
+    playing = true;
+    qi = 0;
+    speakNext();
+  }
+
+  document.getElementById('tts-stop').addEventListener('click', stop);
+
+  document.getElementById('tts-play').addEventListener('click', function () {
+    var paras = [].slice.call(document.querySelectorAll('#article .en'));
+    play(paras);
+  });
+
+  rateSel.addEventListener('change', function () { if (playing) stop(); });
+
+  var targets = [].slice.call(document.querySelectorAll('.en'));
+  targets.forEach(function (el) {
+    el.setAttribute('data-tts', el.textContent);
+    var b = document.createElement('button');
+    b.className = 'playbtn';
+    b.type = 'button';
+    b.textContent = '▶';
+    b.setAttribute('aria-label', 'Play this sentence');
+    b.addEventListener('click', function (e) {
+      e.stopPropagation();
+      play([el]);
+    });
+    el.insertBefore(b, el.firstChild);
+  });
+
+  [].slice.call(document.querySelectorAll('table tr')).forEach(function (tr) {
+    var cells = tr.querySelectorAll('td');
+    if (cells.length < 2) return;
+    var last = cells[cells.length - 1];
+    if (!/[a-zA-Z]/.test(last.textContent)) return;
+    last.style.cursor = 'pointer';
+    last.title = 'Click to hear it 點一下聽發音';
+    last.addEventListener('click', function () { play([last]); });
+  });
+
+  window.addEventListener('beforeunload', function () { synth.cancel(); });
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EV Speaking Practice — 2026-09-02 · Sales Lead vs. Profit Squeeze</title>
+<style>
+  :root {
+    --bg: #0C2A65;
+    --fg: #FFFFFF;
+    --accent: #7FB3FF;
+    --line: rgba(127,179,255,.35);
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--fg);
+    font-family: -apple-system, "Segoe UI", "Helvetica Neue", Arial, "Noto Sans TC", sans-serif;
+    font-size: 20pt;
+    line-height: 1.6;
+  }
+
+  main {
+    max-width: 880px;
+    margin: 0 auto;
+    padding: 28px 22px 60px;
+  }
+
+  header.page-head {
+    margin-bottom: 18px;
+  }
+
+  header.page-head h1 {
+    font-size: 1.55em;
+    line-height: 1.35;
+    margin: 0 0 6px;
+  }
+
+  header.page-head .sub {
+    font-size: 0.55em;
+    opacity: .7;
+    letter-spacing: .03em;
+  }
+
+  .plan {
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    padding: 16px 20px;
+    margin: 18px 0 22px;
+    background: rgba(127,179,255,.06);
+    font-size: 0.62em;
+  }
+
+  .plan h2 {
+    font-size: 1.15em;
+    margin: 0 0 10px;
+    color: var(--accent);
+  }
+
+  .plan ol {
+    margin: 0;
+    padding-left: 1.3em;
+  }
+
+  .plan li {
+    margin: 4px 0;
+  }
+
+  .plan .min {
+    color: var(--accent);
+    font-weight: 700;
+  }
+
+  h2.section {
+    position: relative;
+    font-size: 1.15em;
+    margin: 46px 0 6px;
+    padding-left: 16px;
+    border-left: 5px solid var(--accent);
+  }
+
+  h2.section .time {
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 0.6em;
+    color: var(--accent);
+    font-weight: 700;
+    letter-spacing: .03em;
+    vertical-align: middle;
+  }
+
+  h2.section .zh-title {
+    display: block;
+    font-size: 0.6em;
+    opacity: .75;
+    font-weight: 400;
+    margin-top: 2px;
+  }
+
+  .block {
+    margin-bottom: 10px;
+  }
+
+  h3 {
+    font-size: 1em;
+    color: var(--accent);
+    margin: 18px 0 10px;
+  }
+
+  p.en { margin: 14px 0 2px; }
+  p.zh {
+    margin: 0 0 14px;
+    font-size: 0.72em;
+    opacity: .78;
+  }
+
+  ol.qlist, ol.qlist2 {
+    padding-left: 1.3em;
+  }
+
+  ol.qlist li, ol.qlist2 li {
+    margin: 14px 0;
+  }
+
+  .q-en { display: block; }
+  .q-zh {
+    display: block;
+    font-size: 0.72em;
+    opacity: .78;
+    margin-top: 3px;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 14px 0 24px;
+    font-size: 0.62em;
+  }
+
+  th, td {
+    border: 1px solid var(--line);
+    padding: 10px 12px;
+    text-align: left;
+    vertical-align: top;
+  }
+
+  th {
+    background: rgba(127,179,255,.16);
+    color: var(--accent);
+    font-weight: 700;
+  }
+
+  tr:nth-child(even) td {
+    background: rgba(255,255,255,.03);
+  }
+
+  .expr {
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    padding: 12px 16px;
+    margin: 12px 0;
+  }
+
+  .expr .pattern {
+    font-weight: 700;
+  }
+
+  .expr .note {
+    font-size: 0.72em;
+    opacity: .78;
+    margin-top: 4px;
+  }
+
+  .wrap-box {
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    padding: 16px 20px;
+    margin: 14px 0;
+    background: rgba(127,179,255,.06);
+  }
+
+  .stance {
+    margin-top: 14px;
+    padding-top: 14px;
+    border-top: 1px dashed var(--line);
+  }
+
+  .stance .pattern {
+    font-weight: 700;
+    color: var(--accent);
+  }
+
+  .sourcepath {
+    font-size: 0.6em;
+    opacity: .75;
+    margin: 6px 0 12px;
+  }
+
+  code, .mono {
+    font-family: "SF Mono", Menlo, Consolas, monospace;
+    font-size: 0.85em;
+  }
+
+  footer {
+    margin-top: 50px;
+    padding-top: 18px;
+    border-top: 1px solid var(--line);
+    font-size: 0.55em;
+    opacity: .6;
+    text-align: center;
+  }
+
+  a { color: var(--accent); }
+
+  /* ---- Text-to-speech controls ---- */
+  #ttsbar {
+    position:sticky; top:0; z-index:50;
+    background:rgba(12,42,101,.96); backdrop-filter:blur(6px);
+    border:1px solid var(--line); border-radius:10px;
+    padding:14px 18px; margin:0 0 8px;
+    display:flex; flex-wrap:wrap; gap:10px 14px; align-items:center;
+    font-size:14pt;
+  }
+  #ttsbar label { opacity:.75; letter-spacing:.04em; }
+  #ttsbar button {
+    font:inherit; font-size:14pt; font-weight:700;
+    color:var(--bg); background:var(--accent);
+    border:none; border-radius:6px; padding:8px 16px; cursor:pointer;
+  }
+  #ttsbar button.ghost { background:transparent; color:var(--accent); border:1px solid var(--accent); }
+  #ttsbar button:hover { opacity:.85; }
+  #ttsbar select {
+    font:inherit; font-size:14pt;
+    color:var(--fg); background:#123573;
+    border:1px solid var(--line); border-radius:6px; padding:7px 10px; max-width:260px;
+  }
+  #ttshint { flex-basis:100%; font-size:12.5pt; opacity:.6; line-height:1.5; }
+  .playbtn {
+    font:inherit; font-size:13pt; line-height:1;
+    color:var(--accent); background:transparent;
+    border:1px solid rgba(127,179,255,.5); border-radius:5px;
+    padding:4px 9px; margin-right:10px; cursor:pointer; vertical-align:middle;
+  }
+  .playbtn:hover { background:rgba(127,179,255,.16); }
+  .speaking {
+    background:rgba(127,179,255,.17);
+    box-shadow:0 0 0 8px rgba(127,179,255,.17);
+    border-radius:3px;
+  }
+
+  @media (max-width: 600px) {
+    body { font-size: 16pt; }
+    main { padding: 18px 14px 44px; }
+    table { font-size: 0.68em; }
+    #ttsbar { font-size: 12pt; padding: 10px 12px; }
+    #ttsbar button, #ttsbar select { font-size: 12pt; }
+  }
+</style>
+</head>
+<body>
+<main>
+
+  <header class="page-head">
+    <h1>EV Speaking Practice — 2026-09-02<br>Sales Lead vs. Profit Squeeze</h1>
+    <div class="sub">25-minute session · English ⇄ 中文對照 · for practice with your online teacher</div>
+  </header>
+
+  <div class="plan">
+    <h2>Session Plan 練習流程</h2>
+    <ol>
+      <li><span class="min">3 min</span> — Warm-Up 暖身</li>
+      <li><span class="min">6 min</span> — Read Aloud 朗讀短文</li>
+      <li><span class="min">4 min</span> — Key Vocabulary 關鍵單字</li>
+      <li><span class="min">2 min</span> — Saying the Numbers 數字唸法</li>
+      <li><span class="min">3 min</span> — Useful Expressions 實用句型</li>
+      <li><span class="min">5 min</span> — Discussion 討論題</li>
+      <li><span class="min">2 min</span> — Wrap-Up 總結</li>
+    </ol>
+  </div>
+
+  <div id="ttsbar">
+    <button id="tts-play">▶ Read the article 朗讀全文</button>
+    <button id="tts-stop" class="ghost">■ Stop 停止</button>
+    <label for="tts-voice">Voice</label>
+    <select id="tts-voice"></select>
+    <label for="tts-rate">Speed</label>
+    <select id="tts-rate">
+      <option value="0.75">0.75× 慢</option>
+      <option value="0.9" selected>0.9× 稍慢</option>
+      <option value="1">1.0× 正常</option>
+      <option value="1.15">1.15× 快</option>
+    </select>
+    <div id="ttshint">每個英文段落左邊都有 ▶ 可單獨播放；正在唸的句子會反白。想要更自然的聲音：macOS「系統設定 → 輔助使用 → 朗讀內容 → 系統聲音」下載 Enhanced／Premium 或 Siri 語音，再回來從上面的 Voice 選單選取。</div>
+  </div>
+
+  <h2 class="section">1. Warm-Up<span class="time">3 min</span><span class="zh-title">暖身</span></h2>
+  <div class="block">
+    <ol class="qlist">
+      <li><span class="q-en">When you hear the phrase "electric vehicle brand," which company comes to mind first — and why?</span><span class="q-zh">聽到「電動車品牌」這個詞，你最先想到哪家公司？為什麼？</span></li>
+      <li><span class="q-en">Would you rather invest in a fast-growing company with shrinking profits, or a slower, steadier one with rising profits?</span><span class="q-zh">你會比較想投資一家快速成長但獲利下滑的公司，還是一家成長較慢但獲利穩定上升的公司？</span></li>
+      <li><span class="q-en">Have you noticed more Chinese-made EVs in your country recently? What's your impression of them?</span><span class="q-zh">你最近有注意到你所在的國家出現更多中國製電動車嗎？你對它們的印象如何？</span></li>
+    </ol>
+  </div>
+
+  <h2 class="section">2. Read Aloud<span class="time">6 min</span><span class="zh-title">朗讀短文</span></h2>
+  <div class="block" id="article">
+    <h3>Sales Lead vs. Profit Squeeze</h3>
+
+    <p class="en">For most of early 2026, China's two biggest electric vehicle makers, BYD and Geely, were locked in an unusually even sales race, and analysts expected the rivalry to stay tight all year. Then the second quarter arrived, and the gap suddenly widened — not because Geely stumbled at home, but because BYD pulled further ahead overseas.</p>
+    <p class="zh">2026年上半年，中國兩大電動車龍頭比亞迪與吉利的銷售競爭幾乎不分軒輊，市場原本預期這場纏鬥會持續一整年。但進入第二季後，差距突然拉開——不是因為吉利在中國市場失利，而是因為比亞迪在海外市場進一步拉開領先。</p>
+
+    <p class="en">In the first half of 2026, BYD sold about seven hundred and ninety thousand vehicles outside China, up sixty-eight percent from a year earlier and equal to roughly forty-four percent of its total sales. Geely's new-energy exports reached four hundred and seventy thousand units, an even steeper jump of one hundred and fifty-eight percent — yet still about three hundred and twenty thousand vehicles behind BYD's overseas total.</p>
+    <p class="zh">2026年上半年，比亞迪海外銷量約79萬輛，年增68%，佔總銷量約44%；吉利新能源車出口則達47萬輛，年增幅度更驚人，達158%——但出口絕對量仍比比亞迪少約32萬輛。</p>
+
+    <p class="en">Overseas success, though, hasn't solved BYD's profitability problem. Net profit for the first half fell twenty point five percent year over year, even as combined revenue from its three premium brands — Denza, Fangchengbao, and Yangwang — jumped sixty-one percent. Longer inventory cycles from rapid overseas expansion, plus higher export and currency costs, have been quietly eating into the company's margins.</p>
+    <p class="zh">然而，海外的成功並未解決比亞迪的獲利問題。上半年淨利年減20.5%，儘管騰勢、方程豹及仰望三大高階品牌合計營收成長61%。海外快速擴張導致存貨周轉天數拉長，加上出口成本與匯率影響升高，正悄悄侵蝕公司的毛利。</p>
+
+    <p class="en">The second quarter, however, looked like a genuine turning point. Boosted by high-margin overseas markets, BYD's quarterly net profit reached eight point two four billion yuan, up thirty percent year over year and enough to end four consecutive quarters of decline. Gross margin climbed back to eighteen point nine percent, its highest level in nearly a year.</p>
+    <p class="zh">不過，第二季看起來確實是一個真正的轉捩點。受惠於海外高毛利市場放量，比亞迪單季淨利達人民幣82.4億元，年增30%，終結連續四季的獲利衰退。毛利率也回升至18.9%，創近一年新高。</p>
+
+    <p class="en">Geely, meanwhile, has taken a different path: improve the product mix first, then scale up abroad. Overall sales grew just one percent in the first half, but revenue rose fourteen point six seven percent, as average revenue per vehicle climbed from ninety-seven thousand to one hundred and twelve thousand yuan. Its premium Zeekr brand grew sales ninety-seven percent, with nearly forty percent of its models now priced above three hundred thousand yuan, and Geely has raised its full-year export target from six hundred and forty thousand to nine hundred and twenty thousand vehicles.</p>
+    <p class="zh">吉利則走了一條不同的路：先改善產品結構，再擴大海外規模。上半年整體銷量僅成長1%，但營收年增14.67%，平均單車收入由人民幣9.7萬元提高到11.2萬元。旗下高階品牌極氪銷量成長97%，其車款中近四成售價超過人民幣30萬元；吉利也將全年出口目標由64萬輛上修至92萬輛。</p>
+
+    <p class="en">While Chinese automakers battle over hardware, scale, and price, two Japanese rivals are racing to catch up on software instead. On August thirty-first, Honda and Nissan announced their first major joint project since merger talks between the two companies collapsed in 2025: co-developing a next-generation in-vehicle operating system, along with the electronic control unit that will run it, with a target rollout in fiscal year twenty twenty-nine.</p>
+    <p class="zh">就在中國車廠在硬體、規模與價格上激烈廝殺之際，兩家日本車廠正轉而在軟體領域急起直追。8月31日，本田與日產宣布雙方自2025年合併談判破局以來，首個重大合作項目：共同開發次世代車載作業系統，以及運作該系統的電子控制單元（ECU），目標於2029財年導入。</p>
+
+    <p class="en">Mitsubishi Motors, which is partly owned by Nissan, says it is considering joining the agreement. The shared goal is to catch up with Tesla and China's leading automakers on software-defined vehicles — cars that can gain new driver-assistance features or entertainment options through over-the-air updates long after they leave the factory floor.</p>
+    <p class="zh">部分股權由日產持有的三菱汽車表示，正考慮加入這項合作。雙方共同的目標，是在「軟體定義車輛」（software-defined vehicle）領域追上Tesla與中國主要車廠的腳步——這類車輛即使出廠後，仍可透過空中下載（OTA）更新獲得新的駕駛輔助功能或娛樂選項。</p>
+  </div>
+
+  <h2 class="section">3. Key Vocabulary<span class="time">4 min</span><span class="zh-title">關鍵單字</span></h2>
+  <div class="block">
+    <table>
+      <tr><th>Word</th><th>Phonetic</th><th>中文意思</th><th>Example sentence</th></tr>
+      <tr><td>rivalry</td><td>/ˈraɪ.vəl.ri/</td><td>競爭關係、對抗</td><td>The rivalry between BYD and Geely intensified once both companies expanded overseas.</td></tr>
+      <tr><td>overseas expansion</td><td>/ˌoʊ.vɚˈsiːz ɪkˈspæn.ʃən/</td><td>海外擴張</td><td>BYD's overseas expansion now accounts for nearly half of its total sales.</td></tr>
+      <tr><td>profitability</td><td>/ˌprɑː.fɪ.təˈbɪl.ə.ti/</td><td>獲利能力</td><td>Rapid growth doesn't always translate into better profitability.</td></tr>
+      <tr><td>gross margin</td><td>/ɡroʊs ˈmɑːr.dʒɪn/</td><td>毛利率</td><td>BYD's gross margin climbed back to 18.9 percent in the second quarter.</td></tr>
+      <tr><td>year-over-year</td><td>/ˌjɪr ˌoʊ.vɚˈjɪr/</td><td>較去年同期（年增／年減）</td><td>Net profit fell 20.5 percent year-over-year, despite strong overseas sales.</td></tr>
+      <tr><td>inventory cycle</td><td>/ˈɪn.vən.tɔːr.i ˈsaɪ.kl̩/</td><td>存貨周轉週期</td><td>A longer inventory cycle can tie up cash and squeeze margins.</td></tr>
+      <tr><td>premium brand</td><td>/ˈpriː.mi.əm brænd/</td><td>高階品牌</td><td>Zeekr is Geely's premium brand aimed at buyers above 300,000 yuan.</td></tr>
+      <tr><td>export target</td><td>/ˈek.spɔːrt ˈtɑːr.ɡɪt/</td><td>出口目標</td><td>Geely raised its export target from 640,000 to 920,000 vehicles.</td></tr>
+      <tr><td>turning point</td><td>/ˈtɝː.nɪŋ pɔɪnt/</td><td>轉捩點</td><td>The second quarter marked a turning point after four quarters of falling profit.</td></tr>
+      <tr><td>co-develop</td><td>/ˌkoʊ.dɪˈvel.əp/</td><td>共同開發</td><td>Honda and Nissan agreed to co-develop a next-generation in-vehicle operating system.</td></tr>
+      <tr><td>over-the-air (OTA) update</td><td>/ˌoʊ.vɚ.ðə.ˈer ˈʌp.deɪt/</td><td>空中下載更新</td><td>An over-the-air update can add new driver-assistance features without a dealer visit.</td></tr>
+      <tr><td>software-defined vehicle (SDV)</td><td>/ˈsɔːft.wer dɪˈfaɪnd ˈviː.ə.kl̩/</td><td>軟體定義車輛</td><td>A software-defined vehicle keeps improving even after it leaves the factory.</td></tr>
+    </table>
+  </div>
+
+  <h2 class="section">4. Saying the Numbers<span class="time">2 min</span><span class="zh-title">數字唸法</span></h2>
+  <div class="block">
+    <table>
+      <tr><th>Figure in the article</th><th>How to say it in English</th></tr>
+      <tr><td>790,000 vehicles</td><td>seven hundred and ninety thousand vehicles</td></tr>
+      <tr><td>68%</td><td>sixty-eight percent</td></tr>
+      <tr><td>44%</td><td>forty-four percent</td></tr>
+      <tr><td>470,000 units</td><td>four hundred and seventy thousand units</td></tr>
+      <tr><td>158%</td><td>one hundred and fifty-eight percent</td></tr>
+      <tr><td>−20.5% (net profit)</td><td>down twenty point five percent / negative twenty point five percent</td></tr>
+      <tr><td>8.24 billion yuan</td><td>eight point two four billion yuan</td></tr>
+      <tr><td>18.9%</td><td>eighteen point nine percent</td></tr>
+      <tr><td>97,000 → 112,000 yuan</td><td>ninety-seven thousand to one hundred and twelve thousand yuan</td></tr>
+      <tr><td>640,000 → 920,000 vehicles</td><td>six hundred and forty thousand to nine hundred and twenty thousand vehicles</td></tr>
+      <tr><td>FY2029</td><td>fiscal year twenty twenty-nine</td></tr>
+    </table>
+  </div>
+
+  <h2 class="section">5. Useful Expressions<span class="time">3 min</span><span class="zh-title">實用句型</span></h2>
+  <div class="block">
+    <div class="expr">
+      <div class="pattern">"X pulled ahead of Y, mainly because ___."</div>
+      <div class="note">用來說明「誰領先、原因是什麼」，適合分析銷售或競爭差距時使用。</div>
+    </div>
+    <div class="expr">
+      <div class="pattern">"Even though X grew/rose, it still hasn't solved the problem of ___."</div>
+      <div class="note">表達「即使成長了，問題仍未解決」的讓步語氣。</div>
+    </div>
+    <div class="expr">
+      <div class="pattern">"Analysts expected ___, but instead ___."</div>
+      <div class="note">描述「原本的預期」與「實際發生的結果」之間的落差。</div>
+    </div>
+    <div class="expr">
+      <div class="pattern">"X has taken a different path: [do A] first, then [do B]."</div>
+      <div class="note">描述一家公司或一個人採取的策略先後順序。</div>
+    </div>
+    <div class="expr">
+      <div class="pattern">"The goal is to catch up with ___ on ___."</div>
+      <div class="note">描述某一方希望在特定領域追上競爭對手。</div>
+    </div>
+  </div>
+
+  <h2 class="section">6. Discussion<span class="time">5 min</span><span class="zh-title">討論題</span></h2>
+  <div class="block">
+    <ol class="qlist2">
+      <li><span class="q-en">BYD builds its own factories, ships, and dealerships overseas, while Geely relies more on local partners. Which expansion model do you think is more sustainable, and why?</span><span class="q-zh">比亞迪在海外自建工廠、運輸船與銷售通路，吉利則較依賴當地合作夥伴。你認為哪種海外擴張模式比較永續？為什麼？</span></li>
+      <li><span class="q-en">BYD's sales are far ahead of Geely's, yet its profit fell while Geely's per-vehicle revenue rose faster. If you were an investor, which company would you rather back, and why?</span><span class="q-zh">比亞迪的銷量遙遙領先吉利，但獲利卻下滑，而吉利的單車營收成長更快。如果你是投資人，你會比較想投資哪一家？為什麼？</span></li>
+      <li><span class="q-en">Geely raised its 2026 export target by roughly 44 percent. What risks come with such an aggressive jump in export volume?</span><span class="q-zh">吉利將2026年出口目標上修了約44%。這麼激進的出口成長會帶來哪些風險？</span></li>
+      <li><span class="q-en">Do you think intense price competition among Chinese EV makers will eventually push smaller players out of the market? What might that consolidation look like?</span><span class="q-zh">你認為中國電動車廠之間的激烈價格戰，最終會不會把較小的業者擠出市場？這樣的整併可能會是什麼樣貌？</span></li>
+      <li><span class="q-en">Honda and Nissan couldn't agree to merge in 2025, but they're now co-developing software. Is "cooperation without merging" a smart middle path, or does it just delay a harder decision?</span><span class="q-zh">本田與日產在2025年未能達成合併，如今卻共同開發軟體。「合作但不合併」是聰明的折衷方案，還是只是延後了更困難的決定？</span></li>
+      <li><span class="q-en">Software-defined vehicles let automakers keep earning revenue after the sale, through OTA updates and subscriptions. How do you think this will change what it means to "own" a car?</span><span class="q-zh">軟體定義車輛讓車廠能在售出後，透過OTA更新與訂閱持續獲利。你認為這會如何改變「擁有一台車」的意義？</span></li>
+    </ol>
+  </div>
+
+  <h2 class="section">7. Wrap-Up<span class="time">2 min</span><span class="zh-title">總結</span></h2>
+  <div class="block wrap-box">
+    <p class="en">In sixty seconds, summarize today's story: BYD's overseas sales lead versus its profit struggles, and Geely's steadier, higher-margin growth. Then say which company you think has the stronger long-term strategy.</p>
+    <p class="zh">請用60秒總結今天的內容：比亞迪的海外銷售領先與其獲利困境，以及吉利較穩健、毛利較高的成長模式。接著說出你認為哪家公司的長期策略更強。</p>
+    <div class="stance">
+      <div class="pattern">"In my view, ___ has the stronger long-term strategy, because ___, even though ___."</div>
+      <div class="note" style="font-size:0.72em; opacity:.78; margin-top:4px;">用來表達個人立場，並同時承認對立觀點的合理之處。</div>
+    </div>
+  </div>
+
+  <h2 class="section">Source Notes<span class="zh-title">取材筆記</span></h2>
+  <div class="block">
+    <div class="sourcepath">Notes are stored in the Obsidian vault at <span class="mono">Claude code AI筆記 / raw / assets</span>.<br>筆記存放於 Obsidian 筆記庫路徑 <span class="mono">Claude code AI筆記 / raw / assets</span>。</div>
+    <table>
+      <tr><th>Note file 筆記檔名</th><th>Original 原始出處</th><th>Used for 用於</th></tr>
+      <tr>
+        <td class="mono">2026-09-01-比亞迪海外攻勢奏效-銷量甩開吉利獲利仍陷衰退.md</td>
+        <td>DIGITIMES · 黃女瑛／台北 · 2026-09-01<br><a href="https://www.digitimes.com.tw/tech/dt/n/shwnws.asp?CnlID=&id=766873" target="_blank" rel="noopener">Original article 原文連結</a></td>
+        <td>Paragraphs 1–5: BYD vs. Geely sales, export, profit and margin figures; the vocabulary table, the numbers table, and Discussion Q1–Q4.<br>第 1–5 段：比亞迪與吉利的銷量、出口、獲利與毛利數據；單字表、數字表，以及討論題第 1–4 題。</td>
+      </tr>
+      <tr>
+        <td class="mono">2026-09-01-本田日產聯手搶攻SDV-力拚2029年導入車載OS與ECU.md</td>
+        <td>DIGITIMES · 江仁傑／綜合報導 · 2026-09-01<br><a href="https://www.digitimes.com.tw/tech/dt/n/shwnws.asp?CnlID=&id=766927" target="_blank" rel="noopener">Original article 原文連結</a></td>
+        <td>Paragraphs 6–7: the Honda–Nissan SDV co-development deal, Mitsubishi's possible involvement, and the SDV/OTA vocabulary; Discussion Q5–Q6.<br>第 6–7 段：本田與日產的SDV共同開發協議、三菱可能加入的消息，以及SDV／OTA相關單字；討論題第 5–6 題。</td>
+      </tr>
+    </table>
+  </div>
+
+  <footer>
+    EV Speaking Practice · 2026-09-02 · Generated for Claude Yeh · 25-minute session
+  </footer>
+
+</main>
+
+<script>
+(function () {
+  var synth = window.speechSynthesis;
+  var bar = document.getElementById('ttsbar');
+  if (!synth) {
+    bar.innerHTML = '<div id="ttshint">此瀏覽器不支援語音朗讀，請改用 Chrome、Edge 或 Safari 開啟本檔案。</div>';
+    return;
+  }
+
+  var voiceSel = document.getElementById('tts-voice');
+  var rateSel  = document.getElementById('tts-rate');
+  var voices   = [];
+  var queue    = [];
+  var qi       = 0;
+  var playing  = false;
+
+  function score(v) {
+    var n = (v.name + ' ' + (v.voiceURI || '')).toLowerCase();
+    var s = 0;
+    if (/premium|enhanced|neural|natural/.test(n)) s += 40;
+    if (/siri/.test(n)) s += 30;
+    if (/google/.test(n)) s += 25;
+    if (/samantha|ava|allison|serena|daniel|kate|arthur|evan|nathan|zoe/.test(n)) s += 12;
+    if (/compact|novelty|whisper|bells|bubbles|jester|organ|trinoids|zarvox|albert|bad news|good news/.test(n)) s -= 60;
+    if (v.lang === 'en-US') s += 6;
+    if (v.lang === 'en-GB') s += 5;
+    if (v.localService) s += 2;
+    return s;
+  }
+
+  function loadVoices() {
+    var all = synth.getVoices().filter(function (v) { return /^en[-_]/i.test(v.lang); });
+    if (!all.length) return;
+    all.sort(function (a, b) { return score(b) - score(a); });
+    voices = all;
+    voiceSel.innerHTML = '';
+    voices.forEach(function (v, i) {
+      var o = document.createElement('option');
+      o.value = i;
+      o.textContent = v.name + ' (' + v.lang + ')';
+      voiceSel.appendChild(o);
+    });
+    var saved = null;
+    try { saved = localStorage.getItem('evPracticeVoice'); } catch (e) {}
+    if (saved !== null) {
+      var idx = voices.findIndex(function (v) { return v.name === saved; });
+      if (idx > -1) voiceSel.value = idx;
+    }
+  }
+  loadVoices();
+  synth.onvoiceschanged = loadVoices;
+
+  voiceSel.addEventListener('change', function () {
+    var v = voices[voiceSel.value];
+    try { if (v) localStorage.setItem('evPracticeVoice', v.name); } catch (e) {}
+  });
+
+  function clearHighlight() {
+    var h = document.querySelector('.speaking');
+    if (h) h.classList.remove('speaking');
+  }
+
+  function stop() {
+    playing = false;
+    queue = [];
+    qi = 0;
+    synth.cancel();
+    clearHighlight();
+  }
+
+  // Chrome silently truncates any utterance longer than ~15s, so queue
+  // sentence-sized chunks instead of whole paragraphs.
+  function sentences(text) {
+    var SEP = String.fromCharCode(1);
+    var t = text.replace(/\s+/g, ' ').trim();
+    // Shield decimals/abbreviations so "86.5 percent" isn't split in two.
+    t = t.replace(/(\d)\.(\d)/g, '$1' + SEP + '$2')
+         .replace(/\b(Mr|Mrs|Ms|Dr|St|vs|etc|Inc|Ltd|Co|approx)\./gi,
+                  function (m) { return m.slice(0, -1) + SEP; })
+         .replace(/\bU\.S\./g, 'U' + SEP + 'S' + SEP);
+    var parts = t.match(/[^.!?]+[.!?]+["')\]]?|[^.!?]+$/g) || [t];
+    return parts
+      .map(function (s) { return s.split(SEP).join('.').trim(); })
+      .filter(function (s) { return /[a-zA-Z0-9]/.test(s); });
+  }
+
+  function speakNext() {
+    if (!playing || qi >= queue.length) { stop(); return; }
+    var item = queue[qi++];
+    clearHighlight();
+    if (item.el) {
+      item.el.classList.add('speaking');
+      var r = item.el.getBoundingClientRect();
+      if (r.top < 120 || r.bottom > window.innerHeight - 40) {
+        item.el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      }
+    }
+    var u = new SpeechSynthesisUtterance(item.text);
+    var v = voices[voiceSel.value];
+    if (v) { u.voice = v; u.lang = v.lang; } else { u.lang = 'en-US'; }
+    u.rate = parseFloat(rateSel.value);
+    u.pitch = 1;
+    u.onend = speakNext;
+    u.onerror = speakNext;
+    synth.speak(u);
+  }
+
+  function textOf(el) {
+    // Snapshot taken before the play glyph was injected, so it is never spoken.
+    return el.getAttribute('data-tts') || el.textContent;
+  }
+
+  function play(elements) {
+    stop();
+    queue = [];
+    elements.forEach(function (el) {
+      sentences(textOf(el)).forEach(function (s) {
+        if (s.trim()) queue.push({ el: el, text: s });
+      });
+    });
+    if (!queue.length) return;
+    playing = true;
+    qi = 0;
+    speakNext();
+  }
+
+  document.getElementById('tts-stop').addEventListener('click', stop);
+
+  document.getElementById('tts-play').addEventListener('click', function () {
+    var paras = [].slice.call(document.querySelectorAll('#article .en'));
+    play(paras);
+  });
+
+  rateSel.addEventListener('change', function () { if (playing) stop(); });
+
+  var targets = [].slice.call(document.querySelectorAll('.en'));
+  targets.forEach(function (el) {
+    el.setAttribute('data-tts', el.textContent);
+    var b = document.createElement('button');
+    b.className = 'playbtn';
+    b.type = 'button';
+    b.textContent = '▶';
+    b.setAttribute('aria-label', 'Play this sentence');
+    b.addEventListener('click', function (e) {
+      e.stopPropagation();
+      play([el]);
+    });
+    el.insertBefore(b, el.firstChild);
+  });
+
+  [].slice.call(document.querySelectorAll('table tr')).forEach(function (tr) {
+    var cells = tr.querySelectorAll('td');
+    if (cells.length < 2) return;
+    var last = cells[cells.length - 1];
+    if (!/[a-zA-Z]/.test(last.textContent)) return;
+    last.style.cursor = 'pointer';
+    last.title = 'Click to hear it 點一下聽發音';
+    last.addEventListener('click', function () { play([last]); });
+  });
+
+  window.addEventListener('beforeunload', function () { synth.cancel(); });
+})();
+</script>
+</body>
+</html>

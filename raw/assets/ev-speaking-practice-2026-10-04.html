@@ -1,0 +1,454 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>EV Speaking Practice — Too Few Batteries, Too Many Buyers (2026-10-04)</title>
+<style>
+  :root {
+    --bg: #0C2A65;
+    --fg: #FFFFFF;
+    --accent: #7FB3FF;
+    --line: rgba(255,255,255,.25);
+  }
+  * { box-sizing: border-box; }
+  html, body {
+    margin: 0; padding: 0;
+    background: var(--bg); color: var(--fg);
+    font-family: -apple-system, "Segoe UI", "Helvetica Neue", Arial, "PingFang TC", "Noto Sans TC", sans-serif;
+    font-size: 20pt;
+    line-height: 1.6;
+  }
+  .wrap { max-width: 900px; margin: 0 auto; padding: 24px 18px 60px; }
+  header { margin-bottom: 18px; }
+  header .kicker {
+    color: var(--accent); font-size: 14pt; letter-spacing: .08em;
+    text-transform: uppercase; margin-bottom: 6px;
+  }
+  h1 {
+    font-size: 26pt; line-height: 1.3; margin: 0 0 10px;
+  }
+  header .meta { font-size: 14pt; opacity: .75; }
+  h2 {
+    font-size: 19pt; margin: 34px 0 14px; padding-left: 14px;
+    border-left: 6px solid var(--accent);
+    display: flex; flex-wrap: wrap; gap: 8px 14px; align-items: baseline;
+  }
+  h2 .time {
+    font-size: 12.5pt; color: var(--accent); font-weight: 700;
+    border: 1px solid var(--accent); border-radius: 999px; padding: 2px 12px;
+  }
+  .block {
+    border: 1px solid var(--line); border-radius: 10px;
+    padding: 18px 20px; margin-bottom: 14px;
+  }
+  .plan {
+    border: 1px solid var(--line); border-radius: 10px;
+    padding: 16px 20px; margin: 18px 0 26px;
+    background: rgba(127,179,255,.06);
+  }
+  .plan h3 {
+    margin: 0 0 10px; font-size: 14pt; color: var(--accent);
+    letter-spacing: .04em; text-transform: uppercase;
+  }
+  .plan ol { margin: 0; padding-left: 22px; font-size: 14.5pt; }
+  .plan li { margin: 4px 0; }
+  .plan .m { color: var(--accent); font-weight: 700; }
+  p.en { margin: 0 0 4px; }
+  p.zh { margin: 0 0 20px; font-size: 15.5pt; opacity: .72; }
+  .qa { margin: 0 0 22px; }
+  .qa .num {
+    color: var(--accent); font-weight: 700; margin-right: 8px;
+  }
+  table {
+    width: 100%; border-collapse: collapse; margin: 6px 0 8px;
+    font-size: 15pt;
+  }
+  th, td {
+    border-bottom: 1px solid var(--line);
+    padding: 10px 8px; text-align: left; vertical-align: top;
+  }
+  th {
+    color: var(--bg); background: var(--accent);
+    font-size: 13pt; letter-spacing: .03em;
+  }
+  td.ipa { color: var(--accent); white-space: nowrap; }
+  code {
+    background: rgba(255,255,255,.1); padding: 2px 6px; border-radius: 4px;
+    font-size: .85em;
+  }
+  .expr {
+    border: 1px solid var(--line); border-radius: 8px;
+    padding: 12px 16px; margin: 0 0 14px;
+  }
+  .expr .pat { font-size: 16.5pt; font-weight: 700; }
+  .expr .zh { font-size: 14.5pt; opacity: .75; margin-top: 4px; }
+  .expr .ex { font-size: 14.5pt; margin-top: 8px; opacity: .9; font-style: italic; }
+  a { color: var(--accent); }
+  footer {
+    margin-top: 40px; padding-top: 16px; border-top: 1px solid var(--line);
+    font-size: 12.5pt; opacity: .6;
+  }
+  .sourcepath { font-size: 13.5pt; opacity: .8; margin-bottom: 10px; }
+
+  /* ---- Text-to-speech controls ---- */
+  #ttsbar {
+    position:sticky; top:0; z-index:50;
+    background:rgba(12,42,101,.96); backdrop-filter:blur(6px);
+    border:1px solid var(--line); border-radius:10px;
+    padding:14px 18px; margin:0 0 8px;
+    display:flex; flex-wrap:wrap; gap:10px 14px; align-items:center;
+    font-size:14pt;
+  }
+  #ttsbar label { opacity:.75; letter-spacing:.04em; }
+  #ttsbar button {
+    font:inherit; font-size:14pt; font-weight:700;
+    color:var(--bg); background:var(--accent);
+    border:none; border-radius:6px; padding:8px 16px; cursor:pointer;
+  }
+  #ttsbar button.ghost { background:transparent; color:var(--accent); border:1px solid var(--accent); }
+  #ttsbar button:hover { opacity:.85; }
+  #ttsbar select {
+    font:inherit; font-size:14pt;
+    color:var(--fg); background:#123573;
+    border:1px solid var(--line); border-radius:6px; padding:7px 10px; max-width:260px;
+  }
+  #ttshint { flex-basis:100%; font-size:12.5pt; opacity:.6; line-height:1.5; }
+  .playbtn {
+    font:inherit; font-size:13pt; line-height:1;
+    color:var(--accent); background:transparent;
+    border:1px solid rgba(127,179,255,.5); border-radius:5px;
+    padding:4px 9px; margin-right:10px; cursor:pointer; vertical-align:middle;
+  }
+  .playbtn:hover { background:rgba(127,179,255,.16); }
+  .speaking {
+    background:rgba(127,179,255,.17);
+    box-shadow:0 0 0 8px rgba(127,179,255,.17);
+    border-radius:3px;
+  }
+
+  @media (max-width: 640px) {
+    body { font-size: 16pt; }
+    h1 { font-size: 21pt; }
+    h2 { font-size: 16pt; }
+    table { font-size: 12.5pt; }
+    .plan ol { font-size: 12.5pt; }
+    #ttsbar, #ttsbar button, #ttsbar select { font-size: 12pt; }
+    .wrap { padding: 16px 12px 40px; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <div class="kicker">EV Speaking Practice · 25 min</div>
+  <h1>Too Few Batteries, Too Many Buyers</h1>
+  <div class="meta">電池太少、買家太多：Stellantis法國停產 · 2026-10-04</div>
+</header>
+
+<div class="plan">
+  <h3>Session Plan 課程規劃</h3>
+  <ol>
+    <li><span class="m">3 min</span> — Warm-Up 暖身</li>
+    <li><span class="m">6 min</span> — Read Aloud 朗讀短文</li>
+    <li><span class="m">4 min</span> — Key Vocabulary 關鍵單字</li>
+    <li><span class="m">2 min</span> — Saying the Numbers 數字唸法</li>
+    <li><span class="m">3 min</span> — Useful Expressions 實用句型</li>
+    <li><span class="m">5 min</span> — Discussion 討論題</li>
+    <li><span class="m">2 min</span> — Wrap-Up 總結</li>
+  </ol>
+</div>
+
+<div id="ttsbar">
+  <button id="tts-play">▶ Read the article 朗讀全文</button>
+  <button id="tts-stop" class="ghost">■ Stop 停止</button>
+  <label for="tts-voice">Voice</label>
+  <select id="tts-voice"></select>
+  <label for="tts-rate">Speed</label>
+  <select id="tts-rate">
+    <option value="0.75">0.75× 慢</option>
+    <option value="0.9" selected>0.9× 稍慢</option>
+    <option value="1">1.0× 正常</option>
+    <option value="1.15">1.15× 快</option>
+  </select>
+  <div id="ttshint">每個英文段落左邊都有 ▶ 可單獨播放；正在唸的句子會反白。想要更自然的聲音：macOS「系統設定 → 輔助使用 → 朗讀內容 → 系統聲音」下載 Enhanced／Premium 或 Siri 語音，再回來從上面的 Voice 選單選取。</div>
+</div>
+
+<h2>1. Warm-Up 暖身 <span class="time">3 min</span></h2>
+<div class="block">
+  <div class="qa"><p class="en"><span class="num">1.</span>Have you ever waited a long time for something you ordered, like a car, a phone, or furniture? How did you feel about the wait?</p><p class="zh">你有沒有訂過東西等很久，像是車子、手機或家具？等待的時候心情如何？</p></div>
+  <div class="qa"><p class="en"><span class="num">2.</span>When fuel prices go up, do people around you think more about buying an electric car? Why or why not?</p><p class="zh">油價上漲時，你周圍的人會更認真考慮買電動車嗎？為什麼？</p></div>
+  <div class="qa"><p class="en"><span class="num">3.</span>If you ran a car company, would you rely on one supplier for your most important part? What are the risks?</p><p class="zh">如果你經營一家車廠，會把最重要的零件交給單一供應商嗎？風險在哪裡？</p></div>
+</div>
+
+<h2>2. Read Aloud 朗讀短文 <span class="time">6 min</span></h2>
+<div class="block" id="article">
+  <p class="en">Stellantis is halting production at several of its French plants for at least a week. The Sochaux plant, which builds the Peugeot 3008 and 5008, will pause from the 23rd to the 30th of October, and the Rennes plant, home of the Citroën C5 Aircross, will close from the 22nd to the 30th.</p>
+  <p class="zh">Stellantis將讓旗下數座法國工廠至少停產一週。生產寶獅3008與5008的Sochaux工廠將於10月23日至30日暫停，生產雪鐵龍C5 Aircross的Rennes工廠則於22日至30日關閉。</p>
+  <p class="en">Two of these pauses are linked to a shortage of batteries from ACC, which is struggling to keep up with demand for its nickel-based, long-range packs. Stellantis also says it wants to avoid building up inventory that does not match what customers are actually asking for.</p>
+  <p class="zh">其中兩項停產與電池短缺有關：供應商ACC跟不上鎳系長續航電池的需求。Stellantis也說，不想累積與客戶實際需求不符的庫存。</p>
+  <p class="en">ACC is a joint venture between Stellantis, Mercedes, and TotalEnergies. It once planned three plants, in France, Germany, and Italy, but now it is focused on a single cell factory in Douvrin, France. Early this year, it could equip only about 1,000 cars per month with long-range batteries, so it brought in a team of experts from China to reduce high defect rates.</p>
+  <p class="zh">ACC是Stellantis、賓士與道達爾能源的合資公司。原本規劃在法國、德國與義大利設三座工廠，現在只專注於法國Douvrin這一座電芯廠。今年初，它每月只能為約1,000輛車配備長續航電池，因此引進中國專家團隊來降低偏高的不良率。</p>
+  <p class="en">Customers are feeling the pain. In February, Bloomberg reported delivery delays of up to eight months, and one dealer said deliveries were pushed back to the first or second quarter of 2027. Buyers pay nearly 5,000 euros more for the 97-kilowatt-hour battery instead of the 73-kilowatt-hour one, and then they wait.</p>
+  <p class="zh">客戶正受影響。彭博在2月報導交車延遲最長達八個月，一位經銷商也說交車被推遲到2027年第一或第二季。買家多花近5,000歐元，選97度電池而非73度電池，結果還得等。</p>
+  <p class="en">Demand is strong, especially from fleet customers. Digitimes reports that the war involving Iran, which has disrupted oil tanker traffic through the Strait of Hormuz, has set off a rush to buy electric vehicles.</p>
+  <p class="zh">需求強勁，尤其來自企業車隊客戶。DIGITIMES報導，涉及伊朗的戰事擾亂了荷莫茲海峽的油輪運輸，引發了電動車搶購潮。</p>
+  <p class="en">The trouble is not only about batteries. The Poissy plant near Paris will close from the 19th to the 23rd of October, and Mulhouse will shut for the last two weeks of the month because demand for models like the Peugeot 308 is lower than expected. In Italy, Mirafiori will be on unpaid leave from the 19th to the 30th, citing high energy costs and weak demand for the hybrid Fiat 500.</p>
+  <p class="zh">問題不只在電池。巴黎附近的Poissy工廠將於10月19日至23日關閉，Mulhouse則在月底最後兩週停工，因為寶獅308等車款需求低於預期。在義大利，Mirafiori工廠將於19日至30日放無薪假，理由是能源成本高，以及混合動力飛雅特500需求疲弱。</p>
+  <p class="en">A Stellantis spokesperson admitted, "Unfortunately we are not yet receiving enough of the batteries, despite big progress in ACC's production." Meanwhile, the company is reportedly talking with Huawei and JAC about a long-term partnership, and CEO Antonio Filosa says Stellantis is pushing for more manufacturing partnerships.</p>
+  <p class="zh">Stellantis發言人坦言：「很遺憾，儘管ACC的生產已有大幅進展，我們收到的電池仍然不夠。」同時據傳該公司正與華為及江淮汽車洽談長期合作，執行長Antonio Filosa也表示，Stellantis正推動更多製造合作夥伴關係。</p>
+</div>
+
+<h2>3. Key Vocabulary 關鍵單字 <span class="time">4 min</span></h2>
+<div class="block">
+  <table>
+    <tr><th>Word 單字</th><th>IPA 音標</th><th>中文</th><th>Example 例句</th></tr>
+    <tr><td><strong>shortage</strong></td><td class="ipa">/ˈʃɔːrtɪdʒ/</td><td>短缺</td><td>A battery shortage forced Stellantis to pause two plants.</td></tr>
+    <tr><td><strong>ramp-up</strong></td><td class="ipa">/ˈræmp ʌp/</td><td>(產能)爬坡、量產提升</td><td>The ramp-up at the Douvrin factory has been difficult.</td></tr>
+    <tr><td><strong>inventory</strong></td><td class="ipa">/ˈɪnvəntɔːri/</td><td>庫存</td><td>Stellantis does not want to build up unwanted inventory.</td></tr>
+    <tr><td><strong>joint venture</strong></td><td class="ipa">/ˌdʒɔɪnt ˈventʃər/</td><td>合資公司</td><td>ACC is a joint venture between three big companies.</td></tr>
+    <tr><td><strong>anchor customer</strong></td><td class="ipa">/ˈæŋkər ˈkʌstəmər/</td><td>主要(核心)客戶</td><td>Stellantis is the anchor customer of ACC.</td></tr>
+    <tr><td><strong>defect rate</strong></td><td class="ipa">/ˈdiːfekt reɪt/</td><td>不良率</td><td>Experts were brought in to reduce the high defect rate.</td></tr>
+    <tr><td><strong>long-range</strong></td><td class="ipa">/ˌlɔːŋ ˈreɪndʒ/</td><td>長續航的</td><td>Demand for long-range models is higher than supply.</td></tr>
+    <tr><td><strong>fleet customer</strong></td><td class="ipa">/fliːt ˈkʌstəmər/</td><td>企業車隊客戶</td><td>Fleet customers keep ordering the larger battery versions.</td></tr>
+    <tr><td><strong>delivery delay</strong></td><td class="ipa">/dɪˈlɪvəri dɪˈleɪ/</td><td>交車延遲</td><td>Some buyers face a delivery delay of eight months.</td></tr>
+    <tr><td><strong>bottleneck</strong></td><td class="ipa">/ˈbɑːtlnek/</td><td>瓶頸</td><td>Battery supply is a major bottleneck for production.</td></tr>
+    <tr><td><strong>unpaid leave</strong></td><td class="ipa">/ˌʌnˈpeɪd liːv/</td><td>無薪假</td><td>Workers at Mirafiori will be on unpaid leave.</td></tr>
+    <tr><td><strong>scrap (a plan)</strong></td><td class="ipa">/skræp/</td><td>取消、放棄(計畫)</td><td>The other two battery plants were scrapped.</td></tr>
+  </table>
+</div>
+
+<h2>4. Saying the Numbers 數字唸法 <span class="time">2 min</span></h2>
+<div class="block">
+  <table>
+    <tr><th>Figure 數據</th><th>Meaning 意思</th><th>Say it 唸法</th></tr>
+    <tr><td>1 week</td><td>至少停產一週</td><td>at least one week</td></tr>
+    <tr><td>23–30 Oct</td><td>Sochaux停工期間</td><td>from the twenty-third to the thirtieth of October</td></tr>
+    <tr><td>22–30 Oct</td><td>Rennes停工期間</td><td>from the twenty-second to the thirtieth of October</td></tr>
+    <tr><td>3 → 1</td><td>ACC原訂三座廠，現僅剩一座</td><td>three plants down to one</td></tr>
+    <tr><td>1,000</td><td>今年初ACC每月可供應的車數</td><td>about one thousand cars per month</td></tr>
+    <tr><td>8 months</td><td>交車延遲最長可達</td><td>up to eight months</td></tr>
+    <tr><td>€5,000</td><td>大電池的加價</td><td>nearly five thousand euros</td></tr>
+    <tr><td>97 / 73 kWh</td><td>大、小電池容量</td><td>ninety-seven kilowatt-hours versus seventy-three kilowatt-hours</td></tr>
+    <tr><td>Q1/Q2 2027</td><td>部分車款新的交車時間</td><td>the first or second quarter of twenty twenty-seven</td></tr>
+    <tr><td>19–23 Oct</td><td>Poissy停工期間</td><td>from the nineteenth to the twenty-third of October</td></tr>
+  </table>
+</div>
+
+<h2>5. Useful Expressions 實用句型 <span class="time">3 min</span></h2>
+<div class="block">
+  <div class="expr"><div class="pat">"X is struggling to keep up with demand for Y."</div><div class="zh">描述供給跟不上需求。</div><div class="ex en">The battery maker is struggling to keep up with demand for long-range packs.</div></div>
+  <div class="expr"><div class="pat">"The pause is only indirectly related to X."</div><div class="zh">說明某事與原因只有間接關係。</div><div class="ex en">The pause is only indirectly related to the battery shortage.</div></div>
+  <div class="expr"><div class="pat">"Despite big progress in X, we are still not ___."</div><div class="zh">承認進步，但目標尚未達成。</div><div class="ex en">Despite big progress in production, we are still not getting enough batteries.</div></div>
+  <div class="expr"><div class="pat">"It only affects customers who are willing to ___."</div><div class="zh">說明影響範圍僅限特定人群。</div><div class="ex en">It only affects customers who are willing to pay more for a bigger battery.</div></div>
+  <div class="expr"><div class="pat">"The bigger risk is relying on a single ___."</div><div class="zh">指出依賴單一來源的風險。</div><div class="ex en">The bigger risk is relying on a single supplier for the most important part.</div></div>
+</div>
+
+<h2>6. Discussion 討論題 <span class="time">5 min</span></h2>
+<div class="block">
+  <div class="qa"><p class="en"><span class="num">1.</span>Stellantis depends heavily on one battery supplier, ACC. Was that a smart partnership or a risky bet? What would you have done differently?</p><p class="zh">Stellantis高度依賴單一電池供應商ACC。這是明智的合作，還是高風險的賭注？你會怎麼做不同的決定？</p></div>
+  <div class="qa"><p class="en"><span class="num">2.</span>Argue that carmakers should build their own battery plants. Then argue the opposite: that they should buy from specialists and share the risk.</p><p class="zh">請先主張車廠應該自建電池廠，再主張相反立場：應向專業電池廠採購並分擔風險。</p></div>
+  <div class="qa"><p class="en"><span class="num">3.</span>Some buyers pay nearly 5,000 euros more for a bigger battery and still wait up to eight months. Would you wait? What would make you switch brands?</p><p class="zh">有些買家多付近5,000歐元買大電池，還要等到八個月。你願意等嗎？什麼情況會讓你換品牌？</p></div>
+  <div class="qa"><p class="en"><span class="num">4.</span>Fuel price shocks from conflicts, such as the one near the Strait of Hormuz, can boost EV demand. Is this a lasting shift or a short-term rush?</p><p class="zh">荷莫茲海峽附近的衝突引發的油價衝擊會推升電動車需求。這是長期轉變，還是短期搶購？</p></div>
+  <div class="qa"><p class="en"><span class="num">5.</span>ACC brought in experts from China to fix its defect rate, and Stellantis is reportedly talking to Huawei and JAC. Should European carmakers cooperate more with Chinese partners? Give both sides.</p><p class="zh">ACC引進中國專家來改善不良率，Stellantis據傳也在與華為和江淮洽談。歐洲車廠應該更多與中國夥伴合作嗎？請說明正反兩面。</p></div>
+  <div class="qa"><p class="en"><span class="num">6.</span>Stellantis is also closing plants because of weak demand for hybrids and small cars. What does this tell us about what customers really want right now?</p><p class="zh">Stellantis也因混合動力與小型車需求疲弱而停工。這顯示消費者現在真正想要什麼？</p></div>
+</div>
+
+<h2>7. Wrap-Up 總結 <span class="time">2 min</span></h2>
+<div class="block">
+  <p class="en"><strong>60-second summary:</strong> In short — Stellantis is pausing several French plants in October. Part of the reason is a shortage of long-range batteries from ACC, which has struggled to ramp up its only cell factory. Buyers face delays of up to eight months, even as an oil shock linked to the Iran war pushes more people toward EVs. At the same time, weak demand for hybrids and small cars is closing other lines. The big question is how carmakers can protect themselves from depending on one supplier.</p>
+  <p class="zh">60秒摘要：簡而言之，Stellantis十月將暫停多座法國工廠。部分原因是ACC的長續航電池短缺，而ACC唯一的電芯廠一直難以拉升產能。買家的交車等待最長達八個月，同時與伊朗戰事相關的油價衝擊又讓更多人轉向電動車。另一方面，混合動力與小型車需求疲弱也讓其他產線停工。核心問題是：車廠如何避免依賴單一供應商？</p>
+  <p class="en" style="margin-top:16px;"><strong>Stance sentence pattern:</strong> "If I had to take a side, I'd say ___, because ___."</p>
+  <p class="zh">表達個人立場句型：「如果一定要選邊站，我會說＿＿＿，因為＿＿＿。」</p>
+</div>
+
+<h2>Source Notes 取材筆記</h2>
+<div class="block">
+  <p class="sourcepath">Note vault path: <code>Claude code AI筆記 / raw / assets</code><br>筆記庫路徑：<code>Claude code AI筆記 / raw / assets</code></p>
+  <table>
+    <tr><th>Note file 筆記檔名</th><th>Original 原始出處</th><th>Used for 用於</th></tr>
+    <tr>
+      <td><code>2026-10-01-Battery shortage Stellantis pauses EV production in France.md</code></td>
+      <td>electrive（Cora Werwitzke）· 2026-09-30<br><a href="https://www.electrive.com/2026/09/30/battery-shortage-stellantis-pauses-ev-production-in-france/" target="_blank" rel="noopener">electrive original</a></td>
+      <td>Provided the Sochaux, Rennes and Mulhouse pause dates, the ACC joint venture story (one plant left, about 1,000 cars per month, experts from China), the eight-month delivery delays, and the 97 kWh vs 73 kWh price gap of nearly 5,000 euros.<br>提供Sochaux、Rennes、Mulhouse的停產日期、ACC合資公司的狀況（僅剩一座廠、每月約1,000輛、中國專家團隊）、最長八個月的交車延遲，以及97度與73度電池近5,000歐元的價差。</td>
+    </tr>
+    <tr>
+      <td><code>2026-10-02-伊朗戰事引爆電動車搶購潮 Stellantis鬧電池荒、法國4座組裝廠10月停工.md</code></td>
+      <td>DIGITIMES（楊智家）· 2026-10-02<br><a href="https://www.digitimes.com.tw/tech/dt/n/shwnws.asp?CnlID=&amp;id=770017&amp;grid_seq1=&amp;grid_seq2=" target="_blank" rel="noopener">DIGITIMES 原文</a></td>
+      <td>Provided the Iran war and Strait of Hormuz demand surge, the Poissy, Mulhouse and Mirafiori closures, weak hybrid and Peugeot 308 demand, and the reported talks with Huawei and JAC.<br>提供伊朗戰事與荷莫茲海峽引發的需求暴增、Poissy／Mulhouse／Mirafiori停工、混合動力與寶獅308需求疲弱，以及傳出與華為及江淮洽談合作的內容。</td>
+    </tr>
+  </table>
+</div>
+
+<footer>
+  Generated for Claude Yeh's daily EV speaking practice · Content researched from the user's Obsidian news-clipper vault (or general EV topics when unavailable) · 25-minute session for online speaking lessons.
+</footer>
+
+</div>
+
+<script>
+(function () {
+  var synth = window.speechSynthesis;
+  var bar = document.getElementById('ttsbar');
+  if (!synth) {
+    bar.innerHTML = '<div id="ttshint">此瀏覽器不支援語音朗讀，請改用 Chrome、Edge 或 Safari 開啟本檔案。</div>';
+    return;
+  }
+
+  var voiceSel = document.getElementById('tts-voice');
+  var rateSel  = document.getElementById('tts-rate');
+  var voices   = [];
+  var queue    = [];
+  var qi       = 0;
+  var playing  = false;
+
+  function score(v) {
+    var n = (v.name + ' ' + (v.voiceURI || '')).toLowerCase();
+    var s = 0;
+    if (/premium|enhanced|neural|natural/.test(n)) s += 40;
+    if (/siri/.test(n)) s += 30;
+    if (/google/.test(n)) s += 25;
+    if (/samantha|ava|allison|serena|daniel|kate|arthur|evan|nathan|zoe/.test(n)) s += 12;
+    if (/compact|novelty|whisper|bells|bubbles|jester|organ|trinoids|zarvox|albert|bad news|good news/.test(n)) s -= 60;
+    if (v.lang === 'en-US') s += 6;
+    if (v.lang === 'en-GB') s += 5;
+    if (v.localService) s += 2;
+    return s;
+  }
+
+  function loadVoices() {
+    var all = synth.getVoices().filter(function (v) { return /^en[-_]/i.test(v.lang); });
+    if (!all.length) return;
+    all.sort(function (a, b) { return score(b) - score(a); });
+    voices = all;
+    voiceSel.innerHTML = '';
+    voices.forEach(function (v, i) {
+      var o = document.createElement('option');
+      o.value = i;
+      o.textContent = v.name + ' (' + v.lang + ')';
+      voiceSel.appendChild(o);
+    });
+    var saved = null;
+    try { saved = localStorage.getItem('evPracticeVoice'); } catch (e) {}
+    if (saved !== null) {
+      var idx = voices.findIndex(function (v) { return v.name === saved; });
+      if (idx > -1) voiceSel.value = idx;
+    }
+  }
+  loadVoices();
+  synth.onvoiceschanged = loadVoices;
+
+  voiceSel.addEventListener('change', function () {
+    var v = voices[voiceSel.value];
+    try { if (v) localStorage.setItem('evPracticeVoice', v.name); } catch (e) {}
+  });
+
+  function clearHighlight() {
+    var h = document.querySelector('.speaking');
+    if (h) h.classList.remove('speaking');
+  }
+
+  function stop() {
+    playing = false;
+    queue = [];
+    qi = 0;
+    synth.cancel();
+    clearHighlight();
+  }
+
+  // Chrome silently truncates any utterance longer than ~15s, so queue
+  // sentence-sized chunks instead of whole paragraphs.
+  function sentences(text) {
+    var SEP = String.fromCharCode(1);
+    var t = text.replace(/\s+/g, ' ').trim();
+    // Shield decimals/abbreviations so "86.5 percent" isn't split in two.
+    t = t.replace(/(\d)\.(\d)/g, '$1' + SEP + '$2')
+         .replace(/\b(Mr|Mrs|Ms|Dr|St|vs|etc|Inc|Ltd|Co|approx)\./gi,
+                  function (m) { return m.slice(0, -1) + SEP; })
+         .replace(/\bU\.S\./g, 'U' + SEP + 'S' + SEP);
+    var parts = t.match(/[^.!?]+[.!?]+["')\]]?|[^.!?]+$/g) || [t];
+    return parts
+      .map(function (s) { return s.split(SEP).join('.').trim(); })
+      .filter(function (s) { return /[a-zA-Z0-9]/.test(s); });
+  }
+
+  function speakNext() {
+    if (!playing || qi >= queue.length) { stop(); return; }
+    var item = queue[qi++];
+    clearHighlight();
+    if (item.el) {
+      item.el.classList.add('speaking');
+      var r = item.el.getBoundingClientRect();
+      if (r.top < 120 || r.bottom > window.innerHeight - 40) {
+        item.el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      }
+    }
+    var u = new SpeechSynthesisUtterance(item.text);
+    var v = voices[voiceSel.value];
+    if (v) { u.voice = v; u.lang = v.lang; } else { u.lang = 'en-US'; }
+    u.rate = parseFloat(rateSel.value);
+    u.pitch = 1;
+    u.onend = speakNext;
+    u.onerror = speakNext;
+    synth.speak(u);
+  }
+
+  function textOf(el) {
+    // Snapshot taken before the play glyph was injected, so it is never spoken.
+    return el.getAttribute('data-tts') || el.textContent;
+  }
+
+  function play(elements) {
+    stop();
+    queue = [];
+    elements.forEach(function (el) {
+      sentences(textOf(el)).forEach(function (s) {
+        if (s.trim()) queue.push({ el: el, text: s });
+      });
+    });
+    if (!queue.length) return;
+    playing = true;
+    qi = 0;
+    speakNext();
+  }
+
+  document.getElementById('tts-stop').addEventListener('click', stop);
+
+  document.getElementById('tts-play').addEventListener('click', function () {
+    var paras = [].slice.call(document.querySelectorAll('#article .en'));
+    play(paras);
+  });
+
+  rateSel.addEventListener('change', function () { if (playing) stop(); });
+
+  var targets = [].slice.call(document.querySelectorAll('.en'));
+  targets.forEach(function (el) {
+    el.setAttribute('data-tts', el.textContent);
+    var b = document.createElement('button');
+    b.className = 'playbtn';
+    b.type = 'button';
+    b.textContent = '▶';
+    b.setAttribute('aria-label', 'Play this sentence');
+    b.addEventListener('click', function (e) {
+      e.stopPropagation();
+      play([el]);
+    });
+    el.insertBefore(b, el.firstChild);
+  });
+
+  [].slice.call(document.querySelectorAll('table tr')).forEach(function (tr) {
+    var cells = tr.querySelectorAll('td');
+    if (cells.length < 2) return;
+    var last = cells[cells.length - 1];
+    if (!/[a-zA-Z]/.test(last.textContent)) return;
+    last.style.cursor = 'pointer';
+    last.title = 'Click to hear it 點一下聽發音';
+    last.addEventListener('click', function () { play([last]); });
+  });
+
+  window.addEventListener('beforeunload', function () { synth.cancel(); });
+})();
+</script>
+</body>
+</html>

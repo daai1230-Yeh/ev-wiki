@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>EV Speaking Practice — 2026-09-18 · Two Kinds of Charging</title>
+<style>
+  :root {
+    --bg: #0C2A65;
+    --fg: #FFFFFF;
+    --accent: #7FB3FF;
+    --line: rgba(127,179,255,.35);
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    padding: 28px 22px 60px;
+    background: var(--bg);
+    color: var(--fg);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue",
+                 "PingFang TC", "Noto Sans TC", "Microsoft JhengHei", sans-serif;
+    font-size: 20pt;
+    line-height: 1.6;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  h1 {
+    font-size: 27pt;
+    line-height: 1.3;
+    margin: 0 0 6px;
+  }
+  .sub {
+    font-size: 15pt;
+    opacity: .72;
+    margin: 0 0 22px;
+    line-height: 1.5;
+  }
+  h2 {
+    font-size: 22pt;
+    margin: 34px 0 14px;
+    padding-left: 14px;
+    border-left: 6px solid var(--accent);
+    line-height: 1.35;
+  }
+  h2 .time {
+    font-size: 14pt;
+    color: var(--accent);
+    font-weight: 400;
+    margin-left: 10px;
+    white-space: nowrap;
+  }
+  h3 {
+    font-size: 17pt;
+    color: var(--accent);
+    margin: 26px 0 10px;
+  }
+  .block {
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    padding: 18px 20px;
+    margin: 0 0 10px;
+  }
+  .plan {
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    padding: 16px 20px;
+    margin: 0 0 20px;
+    font-size: 15pt;
+    line-height: 1.75;
+  }
+  .plan b { color: var(--accent); }
+  .plan ol { margin: 8px 0 0; padding-left: 26px; }
+  .en { margin: 18px 0 2px; }
+  .zh {
+    margin: 0 0 6px;
+    font-size: 15.5pt;
+    opacity: .72;
+    line-height: 1.6;
+  }
+  ol.qs { padding-left: 28px; }
+  ol.qs li { margin-bottom: 16px; }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14.5pt;
+    margin-top: 10px;
+  }
+  th {
+    background: var(--accent);
+    color: var(--bg);
+    text-align: left;
+    padding: 9px 11px;
+    font-size: 14pt;
+  }
+  td {
+    border-bottom: 1px solid var(--line);
+    padding: 9px 11px;
+    vertical-align: top;
+    line-height: 1.5;
+  }
+  td.ipa { color: var(--accent); white-space: nowrap; font-size: 13.5pt; }
+  a { color: var(--accent); }
+  code {
+    font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    font-size: 13pt;
+    background: rgba(127,179,255,.12);
+    padding: 2px 6px;
+    border-radius: 4px;
+    word-break: break-all;
+  }
+  footer {
+    margin-top: 40px;
+    padding-top: 16px;
+    border-top: 1px solid var(--line);
+    font-size: 13.5pt;
+    opacity: .6;
+    line-height: 1.6;
+  }
+  @media (max-width: 640px) {
+    body { font-size: 17pt; padding: 18px 14px 46px; }
+    h1 { font-size: 21pt; }
+    h2 { font-size: 18pt; }
+    .zh { font-size: 13.5pt; }
+    table { font-size: 12.5pt; }
+    th, td { padding: 7px 8px; }
+    table, thead, tbody, th, td, tr { display: block; }
+    thead { display: none; }
+    tr { border-bottom: 1px solid var(--line); padding: 6px 0; }
+    td { border: none; }
+  }
+
+  /* ---- Text-to-speech controls ---- */
+  #ttsbar {
+    position:sticky; top:0; z-index:50;
+    background:rgba(12,42,101,.96); backdrop-filter:blur(6px);
+    border:1px solid var(--line); border-radius:10px;
+    padding:14px 18px; margin:0 0 8px;
+    display:flex; flex-wrap:wrap; gap:10px 14px; align-items:center;
+    font-size:14pt;
+  }
+  #ttsbar label { opacity:.75; letter-spacing:.04em; }
+  #ttsbar button {
+    font:inherit; font-size:14pt; font-weight:700;
+    color:var(--bg); background:var(--accent);
+    border:none; border-radius:6px; padding:8px 16px; cursor:pointer;
+  }
+  #ttsbar button.ghost { background:transparent; color:var(--accent); border:1px solid var(--accent); }
+  #ttsbar button:hover { opacity:.85; }
+  #ttsbar select {
+    font:inherit; font-size:14pt;
+    color:var(--fg); background:#123573;
+    border:1px solid var(--line); border-radius:6px; padding:7px 10px; max-width:260px;
+  }
+  #ttshint { flex-basis:100%; font-size:12.5pt; opacity:.6; line-height:1.5; }
+  .playbtn {
+    font:inherit; font-size:13pt; line-height:1;
+    color:var(--accent); background:transparent;
+    border:1px solid rgba(127,179,255,.5); border-radius:5px;
+    padding:4px 9px; margin-right:10px; cursor:pointer; vertical-align:middle;
+  }
+  .playbtn:hover { background:rgba(127,179,255,.16); }
+  .speaking {
+    background:rgba(127,179,255,.17);
+    box-shadow:0 0 0 8px rgba(127,179,255,.17);
+    border-radius:3px;
+  }
+</style>
+</head>
+<body>
+
+<h1>EV Speaking Practice — Two Kinds of Charging</h1>
+<p class="sub">2026-09-18 · 25 minutes · Level B2–C1<br>紐約街邊的 700 個慢速充電樁，對上歐洲貨運幹線的百萬瓦充電站</p>
+
+<div class="plan">
+  <b>Session plan 課程流程（共 25 分鐘）</b>
+  <ol>
+    <li>Warm-Up 暖身 — <b>3 min</b></li>
+    <li>Read Aloud 朗讀短文 — <b>6 min</b></li>
+    <li>Key Vocabulary 關鍵單字 — <b>4 min</b></li>
+    <li>Saying the Numbers 數字唸法 — <b>2 min</b></li>
+    <li>Useful Expressions 實用句型 — <b>3 min</b></li>
+    <li>Discussion 討論題 — <b>5 min</b></li>
+    <li>Wrap-Up 總結 — <b>2 min</b></li>
+  </ol>
+</div>
+<div id="ttsbar">
+  <button id="tts-play">▶ Read the article 朗讀全文</button>
+  <button id="tts-stop" class="ghost">■ Stop 停止</button>
+  <label for="tts-voice">Voice</label>
+  <select id="tts-voice"></select>
+  <label for="tts-rate">Speed</label>
+  <select id="tts-rate">
+    <option value="0.75">0.75× 慢</option>
+    <option value="0.9" selected>0.9× 稍慢</option>
+    <option value="1">1.0× 正常</option>
+    <option value="1.15">1.15× 快</option>
+  </select>
+  <div id="ttshint">每個英文段落左邊都有 ▶ 可單獨播放；正在唸的句子會反白。想要更自然的聲音：macOS「系統設定 → 輔助使用 → 朗讀內容 → 系統聲音」下載 Enhanced／Premium 或 Siri 語音，再回來從上面的 Voice 選單選取。</div>
+</div>
+
+<h2>1. Warm-Up 暖身<span class="time">3 min</span></h2>
+<div class="block">
+  <p class="en">Where do you normally park your car overnight — in a garage, a private space, or on the street? Would that make owning an EV easy or difficult?</p>
+  <p class="zh">你平常晚上把車停在哪裡——車庫、專屬車位，還是路邊？這會讓你養一台電動車變得容易還是困難？</p>
+
+  <p class="en">If your city announced it was installing chargers on your street, would you be pleased, or would you worry about losing parking space?</p>
+  <p class="zh">如果市政府宣布要在你家那條街上裝充電樁，你會高興，還是會擔心停車位變少？</p>
+
+  <p class="en">When you fill up a petrol car, you wait about five minutes. How long is too long to wait for a charge?</p>
+  <p class="zh">加一次油大概要等五分鐘。對你來說，充電等多久就算太久了？</p>
+</div>
+
+<h2>2. Read Aloud 朗讀短文<span class="time">6 min</span></h2>
+<div class="block" id="article">
+  <p class="en">This week New York City confirmed that a Brooklyn company called "it's electric" will build a permanent kerbside charging network across all five boroughs. Over the next three years the number of public Level 2 street chargers is due to climb from eighty-eight to nearly seven hundred.</p>
+  <p class="zh">本週紐約市確認，由布魯克林一家名為「it's electric」的公司，在五個行政區建置永久性的路邊充電網路。未來三年內，公共 Level 2 街邊充電樁將從 88 個增加到將近 700 個。</p>
+
+  <p class="en">The eighty-eight existing points came out of a pilot launched in 2021 and only entered permanent operation last year, often running at utilisation rates above seventy per cent. The new network will replace them. The company says it will concentrate on neighbourhoods full of taxi and rideshare drivers who have no off-street parking, which it calls the single biggest obstacle keeping drivers from going electric.</p>
+  <p class="zh">現有的 88 個充電點源自 2021 年啟動的試辦計畫，去年才正式轉為常態營運，使用率經常超過七成。新網路將取代這批設備。該公司表示會優先布建在計程車與網約車司機密集、又沒有自有停車位的社區——他們稱這是司機不願改開電動車的最大單一障礙。</p>
+
+  <p class="en">There is a deadline behind all of this. A city rule will require every Uber and Lyft trip in New York to be either wheelchair-accessible or electric by 2030. There is also a local-manufacturing angle: the chargers themselves will be built in Queens by Boyce Technologies, with construction handled by Maverick Corporation and the software backend supplied by SWTCH Energy.</p>
+  <p class="zh">這一切背後有個期限。紐約市規定，到 2030 年所有 Uber 與 Lyft 的載客行程都必須是無障礙車輛或電動車。另外還有在地製造的考量：充電樁本身將由 Boyce Technologies 在皇后區生產，工程由 Maverick Corporation 承攬，後台軟體則由 SWTCH Energy 提供。</p>
+
+  <p class="en">Three thousand miles away, at the IAA Transportation show in Hanover, the conversation was about charging on a completely different scale. Tesla said it will open twenty-one public truck-charging sites in Europe next year — in Germany, France, Benelux, the UK and Sweden — with more than a hundred megawatt charging points, or roughly five per location.</p>
+  <p class="zh">三千英里之外，在漢諾威的 IAA Transportation 商用車展上，大家談的卻是完全不同量級的充電。特斯拉表示明年將在歐洲開設 21 個公共卡車充電站，分布於德國、法國、荷比盧、英國與瑞典，總計超過 100 個百萬瓦級充電點，平均每站約五個。</p>
+
+  <p class="en">The numbers are hard to compare with a kerbside post. Tesla's Megacharger delivers up to one point two megawatts at fifteen hundred amps, even though the European Semi can only draw eight hundred kilowatts today. Each battery pack holds two hundred and seventy-four kilowatt-hours, so the standard truck carries five hundred and forty-eight and the long-range version eight hundred and twenty-two. A Megacharger will be listed at one hundred and sixty-three thousand euros; the slower overnight Basecharger costs seventeen thousand.</p>
+  <p class="zh">這些數字很難拿路邊充電柱來比。特斯拉的 Megacharger 最高可輸出 1.2 百萬瓦、電流 1,500 安培，儘管歐規 Semi 目前最多只能吃到 800 瓩。每組電池包的電量是 274 度，所以標準版卡車帶 548 度電，長程版則是 822 度。Megacharger 在配置器上的定價是 16.3 萬歐元；充電較慢、供過夜使用的 Basecharger 則是 1.7 萬歐元。</p>
+
+  <p class="en">Tesla is not alone. Vinci Concessions and two partners are putting nearly ninety million euros into about twenty megawatt-charging sites, starting in France this autumn at Vierzon, a motorway junction in the centre of the country. Their promise is that less than forty-five minutes of charging buys four and a half hours of driving — deliberately timed to the rest breaks that European law already forces drivers to take. Milence, the joint venture owned by Daimler Truck, Traton and Volvo, has just signed an agreement with Alpitronic to roll out the same technology, and wants seventy charging parks open by the end of 2027.</p>
+  <p class="zh">特斯拉並非孤例。Vinci Concessions 與兩家夥伴投入將近 9,000 萬歐元，要蓋約 20 座百萬瓦級充電站，今年秋天先從法國中部的高速公路交會點維爾宗（Vierzon）起步。他們的訴求是：充不到 45 分鐘，就能換來 4.5 小時的行駛——這個時間刻意對齊歐洲法規本來就強制的駕駛休息時段。由 Daimler Truck、Traton 與 Volvo 合資的 Milence，剛與 Alpitronic 簽約推動同一套技術，目標在 2027 年底前開出 70 座充電園區。</p>
+
+  <p class="en">So two things are both called charging infrastructure, and they could hardly be more different. One is a low-power post on a pavement that lets a driver in the Bronx sleep while the car fills up. The other is a cabinet weighing over a tonne that needs a substation behind it and pays for itself only if trucks queue up all day. They solve different problems, but they draw on the same grid and, very often, the same pot of public money.</p>
+  <p class="zh">於是有兩種東西都叫「充電基礎設施」，卻南轅北轍。一種是人行道上的低功率充電柱，讓布朗克斯的司機睡覺時順便把車充滿；另一種是重達一噸以上的機櫃，背後得有一座變電站，而且只有卡車整天排隊才回得了本。它們解決的是不同的問題，卻共用同一張電網，而且往往也在搶同一筆公共預算。</p>
+</div>
+
+<h2>3. Key Vocabulary 關鍵單字<span class="time">4 min</span></h2>
+<table>
+  <thead>
+    <tr><th>Word 單字</th><th>IPA 音標</th><th>中文</th><th>Example sentence 例句（可點擊朗讀）</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>kerbside <span style="opacity:.6">(US: curbside)</span></td><td class="ipa">/ˈkɜːbsaɪd/</td><td>路邊的</td><td>Kerbside chargers are the only realistic option for people who park on the street.</td></tr>
+    <tr><td>borough</td><td class="ipa">/ˈbʌrə/</td><td>行政區</td><td>The project covers all five boroughs, not just Manhattan.</td></tr>
+    <tr><td>utilisation rate</td><td class="ipa">/ˌjuːtəlaɪˈzeɪʃn reɪt/</td><td>使用率</td><td>A utilisation rate above seventy per cent suggests the pilot was genuinely useful.</td></tr>
+    <tr><td>off-street parking</td><td class="ipa">/ˌɒf striːt ˈpɑːkɪŋ/</td><td>路外停車、自有車位</td><td>Without off-street parking, charging at home simply is not possible.</td></tr>
+    <tr><td>roll out</td><td class="ipa">/ˌrəʊl ˈaʊt/</td><td>推出、布建</td><td>They plan to roll out the first twenty sites before the end of next year.</td></tr>
+    <tr><td>freight corridor</td><td class="ipa">/freɪt ˈkɒrɪdɔː/</td><td>貨運幹線</td><td>Chargers are being placed along the busiest freight corridors first.</td></tr>
+    <tr><td>mandatory</td><td class="ipa">/ˈmændətəri/</td><td>強制的、法定的</td><td>Charging is timed to fit the mandatory rest break drivers must take anyway.</td></tr>
+    <tr><td>substation</td><td class="ipa">/ˈsʌbsteɪʃn/</td><td>變電站</td><td>The hard part is not the charger itself but the substation behind it.</td></tr>
+    <tr><td>tender</td><td class="ipa">/ˈtendə/</td><td>招標案</td><td>A small Brooklyn company won the tender ahead of much larger rivals.</td></tr>
+    <tr><td>nascent</td><td class="ipa">/ˈneɪsnt/</td><td>剛起步的</td><td>Megawatt charging is still a nascent sector, but it is moving quickly.</td></tr>
+    <tr><td>throughput</td><td class="ipa">/ˈθruːpʊt/</td><td>處理量、周轉量</td><td>Fast chargers earn money through throughput, so an empty site is a loss.</td></tr>
+    <tr><td>dwell time</td><td class="ipa">/ˈdwel taɪm/</td><td>停留時間</td><td>Overnight charging works because the dwell time is eight hours, not eight minutes.</td></tr>
+  </tbody>
+</table>
+
+<h2>4. Saying the Numbers 數字唸法<span class="time">2 min</span></h2>
+<table>
+  <thead>
+    <tr><th>Figure 數字</th><th>Say it like this 這樣唸（可點擊朗讀）</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>88 → 700</td><td>from eighty-eight to nearly seven hundred</td></tr>
+    <tr><td>70%</td><td>seventy per cent</td></tr>
+    <tr><td>2030</td><td>twenty thirty</td></tr>
+    <tr><td>21 sites</td><td>twenty-one sites</td></tr>
+    <tr><td>1.2 MW</td><td>one point two megawatts</td></tr>
+    <tr><td>800 kW</td><td>eight hundred kilowatts</td></tr>
+    <tr><td>1,500 A</td><td>fifteen hundred amps</td></tr>
+    <tr><td>822 kWh</td><td>eight hundred and twenty-two kilowatt-hours</td></tr>
+    <tr><td>&euro;163,000</td><td>a hundred and sixty-three thousand euros</td></tr>
+    <tr><td>&euro;90 million</td><td>ninety million euros</td></tr>
+    <tr><td>45 min / 4.5 hrs</td><td>forty-five minutes buys four and a half hours</td></tr>
+    <tr><td>2027</td><td>twenty twenty-seven</td></tr>
+  </tbody>
+</table>
+
+<h2>5. Useful Expressions 實用句型<span class="time">3 min</span></h2>
+<div class="block">
+  <p class="en">"The number is going up from eighty-eight to almost seven hundred over the next three years."</p>
+  <p class="zh">用 <b>go up from A to B over the next …</b> 描述數量在一段期間內的成長，比 "increase a lot" 精確得多。</p>
+
+  <p class="en">"What makes this interesting is that both of them are called charging infrastructure."</p>
+  <p class="zh">用 <b>What makes this interesting is that …</b> 把對方的注意力引到你真正想講的那個點上。</p>
+
+  <p class="en">"On paper the economics look fine, but in practice it depends on how many trucks actually show up."</p>
+  <p class="zh">用 <b>On paper …, but in practice …</b> 區分「理論上」與「實際上」，是討論政策和商業模式的好用對比句。</p>
+
+  <p class="en">"It really comes down to whether drivers have somewhere to park overnight."</p>
+  <p class="zh">用 <b>It comes down to whether …</b> 把一個複雜的問題收斂到一個關鍵條件。</p>
+
+  <p class="en">"If I had to choose, I'd rather the money went into slow street chargers than into a handful of megawatt sites."</p>
+  <p class="zh">用 <b>I'd rather A than B</b> 表達取捨與偏好；注意 <b>I'd rather + 過去式子句</b>（went）的用法。</p>
+</div>
+
+<h2>6. Discussion 討論題<span class="time">5 min</span></h2>
+<ol class="qs">
+  <li>
+    <p class="en">New York is spending public money on slow street chargers, while Europe is funding million-watt truck stations. If your city had one budget, which would you fund first, and why?</p>
+    <p class="zh">紐約把公帑花在慢速街邊充電樁，歐洲則補助百萬瓦級的卡車充電站。如果你的城市只有一筆預算，你會先投哪一邊？為什麼？</p>
+  </li>
+  <li>
+    <p class="en">The company says lack of off-street parking is the single biggest obstacle to EV adoption. Is that true in Taiwan as well, or is something else the real bottleneck here?</p>
+    <p class="zh">該公司說「沒有自有停車位」是電動車普及的最大障礙。台灣也是這樣嗎？還是這裡真正的瓶頸另有其他？</p>
+  </li>
+  <li>
+    <p class="en">Supporters say making the chargers in Queens creates local jobs; critics say local-content rules make the same infrastructure more expensive and slower to build. Take each side in turn — which argument holds up better?</p>
+    <p class="zh">支持者說在皇后區製造充電樁能創造在地就業；批評者則說在地化規定會讓同樣的基礎設施更貴、蓋得更慢。請分別替兩方說話——你覺得哪一邊的論點站得住腳？</p>
+  </li>
+  <li>
+    <p class="en">Vinci designed its charging stops around the rest breaks that the law already requires. Is designing technology around existing regulation clever, or is it a sign that the technology is not good enough yet?</p>
+    <p class="zh">Vinci 把充電站的規格設計成剛好配合法定休息時間。把技術設計得去配合現行法規，是聰明，還是代表技術本身還不夠好？</p>
+  </li>
+  <li>
+    <p class="en">Tesla is building chargers that deliver 1.2 megawatts when its own European truck can only take 800 kilowatts. Is that sensible future-proofing, or money spent too early?</p>
+    <p class="zh">特斯拉蓋的充電樁能輸出 1.2 百萬瓦，但它自己的歐規卡車最多只吃得下 800 瓩。這算是明智的預留未來，還是太早把錢花下去？</p>
+  </li>
+  <li>
+    <p class="en">New York will require all Uber and Lyft trips to be accessible or electric by 2030. Should a city be allowed to impose that on drivers who own their own cars? What would you want in return if you were one of those drivers?</p>
+    <p class="zh">紐約規定 2030 年前所有 Uber、Lyft 行程都必須是無障礙車或電動車。城市可以這樣要求自己買車的司機嗎？如果你是其中一位司機，你會希望換到什麼？</p>
+  </li>
+</ol>
+
+<h2>7. Wrap-Up 總結<span class="time">2 min</span></h2>
+<div class="block">
+  <p class="en">In sixty seconds, summarise the article for your teacher without looking at it. Try to include at least three numbers and the phrase "charging infrastructure".</p>
+  <p class="zh">請在 60 秒內，不看稿把這篇文章摘要給老師聽。試著至少講到三個數字，並用上 "charging infrastructure" 這個說法。</p>
+
+  <p class="en">Then finish with your own position: "If I were advising the city, I would put the money into ______, because ______ — although I accept that ______."</p>
+  <p class="zh">最後用這個句型表達你的立場：「如果我是市府顧問，我會把錢投在 ______，因為 ______——不過我也承認 ______。」</p>
+</div>
+
+<h2>Source Notes　取材筆記</h2>
+<div class="block">
+  <p class="en">All English above was written from these notes in the Obsidian vault <code>Claude code AI筆記 / raw / assets</code>.</p>
+  <p class="zh">以上英文內容取材自 Obsidian 筆記庫 <code>Claude code AI筆記 / raw / assets</code> 中的下列筆記。</p>
+  <table>
+    <thead>
+      <tr><th>Note file 筆記檔名</th><th>Original 原始出處</th><th>Used for 用於</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><code>2026-09-17-NYC selects provider for 700-point kerbside charging network.md</code></td>
+        <td>electrive · Ciaran Daly · 2026-09-16<br><a href="https://www.electrive.com/2026/09/16/nyc-selects-provider-for-700-point-kerbside-charging-network/">electrive.com</a></td>
+        <td>Paragraphs 1–3: the 88→700 charger count, the 70% utilisation rate, the 2030 Uber/Lyft rule, and the Queens manufacturing detail.<br>第 1–3 段：88→700 的樁數、七成使用率、2030 年網約車規定、皇后區在地製造。</td>
+      </tr>
+      <tr>
+        <td><code>2026-09-17-Megawatt charging network Tesla to launch in Europe with 21 sites.md</code></td>
+        <td>electrive · Cora Werwitzke · 2026-09-16<br><a href="https://www.electrive.com/2026/09/16/megawatt-charging-network-tesla-to-launch-in-europe-with-21-sites/">electrive.com</a></td>
+        <td>Paragraphs 4–5: the 21 sites, 1.2 MW / 1,500 A specification, 274 kWh packs, and the €163,000 / €17,000 prices.<br>第 4–5 段：21 個站點、1.2 MW／1,500 A 規格、274 度電池包、16.3 萬與 1.7 萬歐元的價格。</td>
+      </tr>
+      <tr>
+        <td><code>2026-09-17-Vinci invests 90 million euro in MCS truck charging network.md</code></td>
+        <td>electrive · Jasmin Apitzsch-Krause · 2026-09-16<br><a href="https://www.electrive.com/2026/09/16/vinci-invests-e90-million-in-mcs-truck-charging-network/">electrive.com</a></td>
+        <td>Paragraph 6: the €90 million investment, the Vierzon site, and the 45-minute / 4.5-hour rest-break figure.<br>第 6 段：9,000 萬歐元投資、維爾宗站點、45 分鐘換 4.5 小時行駛的數據。</td>
+      </tr>
+      <tr>
+        <td><code>2026-09-17-Milence and Alpitronic announce megawatt charging partnership.md</code></td>
+        <td>electrive · Florian Treiss · 2026-09-16<br><a href="https://www.electrive.com/2026/09/16/milence-and-alpitronic-announce-megawatt-charging-partnership/">electrive.com</a></td>
+        <td>Paragraph 6: the Milence–Alpitronic agreement, the ownership by Daimler/Traton/Volvo, and the 70-park 2027 target.<br>第 6 段：Milence 與 Alpitronic 的合作、三大車廠合資背景、2027 年 70 座充電園區目標。</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<footer>
+  EV Speaking Practice · 2026-09-18 · 25-minute session · Level B2–C1<br>
+  為 Claude Yeh 製作的每日電動車英文口說練習．資料來源為個人 Obsidian 筆記庫中的 electrive 新聞剪報。
+</footer>
+
+<script>
+(function () {
+  var synth = window.speechSynthesis;
+  var bar = document.getElementById('ttsbar');
+  if (!synth) {
+    bar.innerHTML = '<div id="ttshint">此瀏覽器不支援語音朗讀，請改用 Chrome、Edge 或 Safari 開啟本檔案。</div>';
+    return;
+  }
+
+  var voiceSel = document.getElementById('tts-voice');
+  var rateSel  = document.getElementById('tts-rate');
+  var voices   = [];
+  var queue    = [];
+  var qi       = 0;
+  var playing  = false;
+
+  function score(v) {
+    var n = (v.name + ' ' + (v.voiceURI || '')).toLowerCase();
+    var s = 0;
+    if (/premium|enhanced|neural|natural/.test(n)) s += 40;
+    if (/siri/.test(n)) s += 30;
+    if (/google/.test(n)) s += 25;
+    if (/samantha|ava|allison|serena|daniel|kate|arthur|evan|nathan|zoe/.test(n)) s += 12;
+    if (/compact|novelty|whisper|bells|bubbles|jester|organ|trinoids|zarvox|albert|bad news|good news/.test(n)) s -= 60;
+    if (v.lang === 'en-US') s += 6;
+    if (v.lang === 'en-GB') s += 5;
+    if (v.localService) s += 2;
+    return s;
+  }
+
+  function loadVoices() {
+    var all = synth.getVoices().filter(function (v) { return /^en[-_]/i.test(v.lang); });
+    if (!all.length) return;
+    all.sort(function (a, b) { return score(b) - score(a); });
+    voices = all;
+    voiceSel.innerHTML = '';
+    voices.forEach(function (v, i) {
+      var o = document.createElement('option');
+      o.value = i;
+      o.textContent = v.name + ' (' + v.lang + ')';
+      voiceSel.appendChild(o);
+    });
+    var saved = null;
+    try { saved = localStorage.getItem('evPracticeVoice'); } catch (e) {}
+    if (saved !== null) {
+      var idx = voices.findIndex(function (v) { return v.name === saved; });
+      if (idx > -1) voiceSel.value = idx;
+    }
+  }
+  loadVoices();
+  synth.onvoiceschanged = loadVoices;
+
+  voiceSel.addEventListener('change', function () {
+    var v = voices[voiceSel.value];
+    try { if (v) localStorage.setItem('evPracticeVoice', v.name); } catch (e) {}
+  });
+
+  function clearHighlight() {
+    var h = document.querySelector('.speaking');
+    if (h) h.classList.remove('speaking');
+  }
+
+  function stop() {
+    playing = false;
+    queue = [];
+    qi = 0;
+    synth.cancel();
+    clearHighlight();
+  }
+
+  // Chrome silently truncates any utterance longer than ~15s, so queue
+  // sentence-sized chunks instead of whole paragraphs.
+  function sentences(text) {
+    var SEP = String.fromCharCode(1);
+    var t = text.replace(/\s+/g, ' ').trim();
+    // Shield decimals/abbreviations so "86.5 percent" isn't split in two.
+    t = t.replace(/(\d)\.(\d)/g, '$1' + SEP + '$2')
+         .replace(/\b(Mr|Mrs|Ms|Dr|St|vs|etc|Inc|Ltd|Co|approx)\./gi,
+                  function (m) { return m.slice(0, -1) + SEP; })
+         .replace(/\bU\.S\./g, 'U' + SEP + 'S' + SEP);
+    var parts = t.match(/[^.!?]+[.!?]+["')\]]?|[^.!?]+$/g) || [t];
+    return parts
+      .map(function (s) { return s.split(SEP).join('.').trim(); })
+      .filter(function (s) { return /[a-zA-Z0-9]/.test(s); });
+  }
+
+  function speakNext() {
+    if (!playing || qi >= queue.length) { stop(); return; }
+    var item = queue[qi++];
+    clearHighlight();
+    if (item.el) {
+      item.el.classList.add('speaking');
+      var r = item.el.getBoundingClientRect();
+      if (r.top < 120 || r.bottom > window.innerHeight - 40) {
+        item.el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      }
+    }
+    var u = new SpeechSynthesisUtterance(item.text);
+    var v = voices[voiceSel.value];
+    if (v) { u.voice = v; u.lang = v.lang; } else { u.lang = 'en-US'; }
+    u.rate = parseFloat(rateSel.value);
+    u.pitch = 1;
+    u.onend = speakNext;
+    u.onerror = speakNext;
+    synth.speak(u);
+  }
+
+  function textOf(el) {
+    // Snapshot taken before the play glyph was injected, so it is never spoken.
+    return el.getAttribute('data-tts') || el.textContent;
+  }
+
+  function play(elements) {
+    stop();
+    queue = [];
+    elements.forEach(function (el) {
+      sentences(textOf(el)).forEach(function (s) {
+        if (s.trim()) queue.push({ el: el, text: s });
+      });
+    });
+    if (!queue.length) return;
+    playing = true;
+    qi = 0;
+    speakNext();
+  }
+
+  document.getElementById('tts-stop').addEventListener('click', stop);
+
+  document.getElementById('tts-play').addEventListener('click', function () {
+    var paras = [].slice.call(document.querySelectorAll('#article .en'));
+    play(paras);
+  });
+
+  rateSel.addEventListener('change', function () { if (playing) stop(); });
+
+  var targets = [].slice.call(document.querySelectorAll('.en'));
+  targets.forEach(function (el) {
+    el.setAttribute('data-tts', el.textContent);
+    var b = document.createElement('button');
+    b.className = 'playbtn';
+    b.type = 'button';
+    b.textContent = '▶';
+    b.setAttribute('aria-label', 'Play this sentence');
+    b.addEventListener('click', function (e) {
+      e.stopPropagation();
+      play([el]);
+    });
+    el.insertBefore(b, el.firstChild);
+  });
+
+  [].slice.call(document.querySelectorAll('table tr')).forEach(function (tr) {
+    var cells = tr.querySelectorAll('td');
+    if (cells.length < 2) return;
+    var last = cells[cells.length - 1];
+    if (!/[a-zA-Z]/.test(last.textContent)) return;
+    last.style.cursor = 'pointer';
+    last.title = 'Click to hear it 點一下聽發音';
+    last.addEventListener('click', function () { play([last]); });
+  });
+
+  window.addEventListener('beforeunload', function () { synth.cancel(); });
+})();
+</script>
+
+</body>
+</html>

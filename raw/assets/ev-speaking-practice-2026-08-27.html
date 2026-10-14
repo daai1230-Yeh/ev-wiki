@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EV Speaking Practice · 2026-08-27</title>
+<style>
+  :root {
+    --bg: #0C2A65;
+    --fg: #FFFFFF;
+    --accent: #7FB3FF;
+    --line: rgba(127,179,255,.35);
+  }
+  * { box-sizing: border-box; }
+  body {
+    background: var(--bg);
+    color: var(--fg);
+    font-family: -apple-system, "Helvetica Neue", "PingFang TC", "Noto Sans TC", Arial, sans-serif;
+    font-size: 20pt;
+    line-height: 1.6;
+    margin: 0;
+    padding: 24px 20px 60px;
+  }
+  .wrap { max-width: 880px; margin: 0 auto; }
+  h1 {
+    font-size: 27pt;
+    margin: 0 0 6px;
+    border-left: 6px solid var(--accent);
+    padding-left: 16px;
+  }
+  .subtitle {
+    font-size: 15pt;
+    opacity: .75;
+    margin: 0 0 20px;
+    padding-left: 22px;
+  }
+  h2.section {
+    font-size: 20pt;
+    margin: 40px 0 14px;
+    border-left: 6px solid var(--accent);
+    padding-left: 16px;
+  }
+  .time-badge {
+    display: inline-block;
+    color: var(--accent);
+    font-size: 13pt;
+    font-weight: 700;
+    border: 1px solid var(--accent);
+    border-radius: 20px;
+    padding: 2px 12px;
+    margin-left: 10px;
+    vertical-align: middle;
+  }
+  .plan {
+    background: rgba(127,179,255,.08);
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    padding: 18px 22px;
+    margin: 18px 0 28px;
+    font-size: 14.5pt;
+  }
+  .plan h3 { margin: 0 0 10px; font-size: 14.5pt; color: var(--accent); letter-spacing: .03em; }
+  .plan ol { margin: 0; padding-left: 22px; }
+  .plan li { margin: 4px 0; }
+  .block {
+    background: rgba(255,255,255,.03);
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    padding: 20px 24px;
+    margin-bottom: 16px;
+  }
+  p.en { margin: 0 0 4px; }
+  p.zh { margin: 0 0 18px; opacity: .68; font-size: 15pt; }
+  .qa { margin-bottom: 20px; }
+  .qa:last-child { margin-bottom: 0; }
+  .qnum { color: var(--accent); font-weight: 700; margin-right: 6px; }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 8px;
+    font-size: 15.5pt;
+  }
+  th {
+    color: var(--bg);
+    background: var(--accent);
+    text-align: left;
+    padding: 10px 12px;
+    font-size: 13.5pt;
+    letter-spacing: .03em;
+  }
+  td {
+    border-bottom: 1px solid var(--line);
+    padding: 10px 12px;
+    vertical-align: top;
+  }
+  tr:last-child td { border-bottom: none; }
+  .ipa { color: var(--accent); font-style: italic; white-space: nowrap; }
+  .mono { font-family: "SF Mono", Menlo, Consolas, monospace; font-size: 13pt; }
+  .expr {
+    margin-bottom: 16px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid var(--line);
+  }
+  .expr:last-child { border: none; margin-bottom: 0; padding-bottom: 0; }
+  .expr .pattern { font-weight: 700; }
+  .expr .note { opacity: .68; font-size: 15pt; margin-top: 4px; }
+  .source-note-p { margin: 0 0 6px; font-size: 15pt; }
+  .source-note-p.zh { opacity: .68; margin-bottom: 16px; }
+  footer {
+    margin-top: 40px;
+    font-size: 13pt;
+    opacity: .55;
+    text-align: center;
+    line-height: 1.6;
+  }
+  a { color: var(--accent); }
+
+  /* ---- Text-to-speech controls ---- */
+  #ttsbar {
+    position:sticky; top:0; z-index:50;
+    background:rgba(12,42,101,.96); backdrop-filter:blur(6px);
+    border:1px solid var(--line); border-radius:10px;
+    padding:14px 18px; margin:0 0 8px;
+    display:flex; flex-wrap:wrap; gap:10px 14px; align-items:center;
+    font-size:14pt;
+  }
+  #ttsbar label { opacity:.75; letter-spacing:.04em; }
+  #ttsbar button {
+    font:inherit; font-size:14pt; font-weight:700;
+    color:var(--bg); background:var(--accent);
+    border:none; border-radius:6px; padding:8px 16px; cursor:pointer;
+  }
+  #ttsbar button.ghost { background:transparent; color:var(--accent); border:1px solid var(--accent); }
+  #ttsbar button:hover { opacity:.85; }
+  #ttsbar select {
+    font:inherit; font-size:14pt;
+    color:var(--fg); background:#123573;
+    border:1px solid var(--line); border-radius:6px; padding:7px 10px; max-width:260px;
+  }
+  #ttshint { flex-basis:100%; font-size:12.5pt; opacity:.6; line-height:1.5; }
+  .playbtn {
+    font:inherit; font-size:13pt; line-height:1;
+    color:var(--accent); background:transparent;
+    border:1px solid rgba(127,179,255,.5); border-radius:5px;
+    padding:4px 9px; margin-right:10px; cursor:pointer; vertical-align:middle;
+  }
+  .playbtn:hover { background:rgba(127,179,255,.16); }
+  .speaking {
+    background:rgba(127,179,255,.17);
+    box-shadow:0 0 0 8px rgba(127,179,255,.17);
+    border-radius:3px;
+  }
+
+  @media (max-width: 640px) {
+    body { font-size: 16pt; padding: 16px 12px 48px; }
+    h1 { font-size: 21pt; }
+    h2.section { font-size: 16.5pt; }
+    .block { padding: 16px; }
+    table, thead, tbody, th, td, tr { display: block; }
+    thead { display: none; }
+    tr { border-bottom: 1px solid var(--line); padding: 10px 0; }
+    tr:last-child { border-bottom: none; }
+    td { border: none; padding: 4px 0; }
+    td::before {
+      content: attr(data-label);
+      display: block;
+      color: var(--accent);
+      font-size: 11.5pt;
+      letter-spacing: .04em;
+      margin-bottom: 2px;
+    }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <h1>EV Battery Makers Pivot to Defense</h1>
+  <p class="subtitle">主題：電池新創轉戰國防產業，商機還是品牌風險？ · 25 minutes 全長 25 分鐘</p>
+
+  <div class="plan">
+    <h3>SESSION PLAN 練習流程</h3>
+    <ol>
+      <li>Warm-Up 暖身 — 3 min</li>
+      <li>Read Aloud 朗讀短文 — 6 min</li>
+      <li>Key Vocabulary 關鍵單字 — 4 min</li>
+      <li>Saying the Numbers 數字唸法 — 2 min</li>
+      <li>Useful Expressions 實用句型 — 3 min</li>
+      <li>Discussion 討論題 — 5 min</li>
+      <li>Wrap-Up 總結 — 2 min</li>
+    </ol>
+  </div>
+
+  <div id="ttsbar">
+    <button id="tts-play">▶ Read the article 朗讀全文</button>
+    <button id="tts-stop" class="ghost">■ Stop 停止</button>
+    <label for="tts-voice">Voice</label>
+    <select id="tts-voice"></select>
+    <label for="tts-rate">Speed</label>
+    <select id="tts-rate">
+      <option value="0.75">0.75× 慢</option>
+      <option value="0.9" selected>0.9× 稍慢</option>
+      <option value="1">1.0× 正常</option>
+      <option value="1.15">1.15× 快</option>
+    </select>
+    <div id="ttshint">每個英文段落左邊都有 ▶ 可單獨播放；正在唸的句子會反白。想要更自然的聲音：macOS「系統設定 → 輔助使用 → 朗讀內容 → 系統聲音」下載 Enhanced／Premium 或 Siri 語音，再回來從上面的 Voice 選單選取。</div>
+  </div>
+
+  <h2 class="section">1. Warm-Up 暖身 <span class="time-badge">3 min</span></h2>
+  <div class="block">
+    <div class="qa"><span class="qnum">1.</span><span class="en">If you were running an electric-vehicle battery startup and demand suddenly dried up, what industries would you look to for new customers?</span></div>
+    <div class="qa"><span class="qnum">2.</span><span class="en">Have you ever seen a company completely change direction — a "pivot" — because its original market slowed down? What happened?</span></div>
+    <div class="qa"><span class="qnum">3.</span><span class="en">Do you think government subsidies should keep supporting EVs, or should the market be left to grow on its own?</span></div>
+  </div>
+
+  <h2 class="section">2. Read Aloud 朗讀短文 <span class="time-badge">6 min</span></h2>
+  <div class="block" id="article">
+    <p class="en">America's electric-vehicle market has hit a rough patch. A new law called the One Big Beautiful Bill Act, or OBBBA, scrapped federal subsidies for EVs and batteries, and demand has shrunk sharply as a result. To survive, a number of U.S. battery startups are now looking for a lifeline in an unexpected place: the defense industry, supplying components for drones, torpedoes, infantry radios, and even fighter jets.</p>
+    <p class="zh">美國電動車市場正陷入低潮。一項名為《大而美法案》（OBBBA）的新法案取消了聯邦政府對電動車與電池的補貼，市場需求因此大幅萎縮。為求生存，不少美國電池新創企業開始把國防產業視為救命稻草，跨足供應無人機、魚雷、步兵無線電，甚至戰鬥機所需的零組件。</p>
+
+    <p class="en">The U.S. Department of Energy recently announced it would release five hundred million dollars in funding, most of which is earmarked for battery startups. The goal is to strengthen America's domestic battery supply chain, reduce reliance on foreign suppliers, and reinforce national security — all while keeping the United States competitive in the global energy race.</p>
+    <p class="zh">美國能源部（DOE）日前宣布，將撥出五億美元資金，其中大部分將流向電池新創企業。目標是強化美國本土的電池供應鏈、降低對外國供應商的依賴、鞏固國家安全，同時讓美國在全球能源競賽中保持競爭力。</p>
+
+    <p class="en">Some of that money is already finding a home. Coreshell, a battery materials startup, received fifty million dollars from the Department of Energy to scale up production of silicon anode material for lithium-ion batteries — technology the defense sector is watching closely for lightweight, high-performance power sources.</p>
+    <p class="zh">部分資金已經找到落腳處。電池材料新創 Coreshell 從能源部獲得五千萬美元，用於擴大鋰離子電池矽負極材料的生產規模——這正是國防產業密切關注、能提供輕量化與高效能電力來源的技術。</p>
+
+    <p class="en">Two other companies received one hundred million dollars each. Lilac Solutions, which extracts lithium from brine, will use its grant to build a processing plant in Utah, aiming to produce five thousand tons of lithium carbonate — a key precursor for battery manufacturing — every year by 2028. Nth Cycle will use its grant to build a facility that recovers "black mass" from recycled lithium-ion batteries, turning it into new lithium and nickel compounds.</p>
+    <p class="zh">另外兩家公司則各獲得一億美元。從鹽水中提煉鋰的 Lilac Solutions，將利用這筆補助在猶他州興建加工廠，目標在 2028 年前，每年生產五千噸電池製造的關鍵前驅物——碳酸鋰。Nth Cycle 則會用這筆資金興建一座設施，從回收的鋰離子電池中提煉「黑粉」，再轉化為新的鋰、鎳化合物。</p>
+
+    <p class="en">Still, the scale of the defense opportunity should be kept in perspective. In 2021, the U.S. Defense Logistics Agency purchased only about two hundred million dollars worth of batteries a year. Compare that to 2025, when the U.S. auto industry alone spent close to eighteen billion dollars on battery manufacturing — a gap that shows defense contracts are a lifeline, but not yet a replacement for the EV market.</p>
+    <p class="zh">不過，國防商機的規模仍需放在正確的脈絡中看待。2021 年，美國國防後勤局（DLA）每年採購的電池金額僅約兩億美元；相較之下，2025 年美國汽車產業光是在電池製造方面就花費近一百八十億美元——這樣的落差顯示，國防合約雖是救命稻草，卻還無法取代電動車市場的規模。</p>
+
+    <p class="en">South Korea's LG Energy Solution, or LGES, is facing a similar question. The company has reportedly received an approach from a major U.S. defense contractor about supplying batteries for drones and other uninhabited weapons systems. LGES already has the technology — it showcased a blood-delivery drone powered by its 2170 cylindrical battery cell at the InterBattery 2026 exhibition. But entering the defense business could hurt its ESG rating and brand image, and LG Group has historically kept its distance from defense work after splitting off from LIG Group years ago.</p>
+    <p class="zh">南韓的樂金能源解決方案（LGES）也面臨類似的抉擇。據報導，該公司已收到美國一家主要國防企業的邀約，希望供應無人機及其他無人武器系統所需的電池。LGES 其實已具備相關技術——曾在 InterBattery 2026 展會上，展示搭載其 2170 圓柱型電池的血液運輸無人機。但跨入國防業務，可能損害其 ESG 評級與品牌形象，而樂金集團自多年前與 LIG 集團分拆後，一直刻意與國防產業保持距離。</p>
+
+    <p class="en">The numbers, though, are hard to ignore. The global military battery market is projected to grow from two point four billion dollars in 2025 to five point two two billion dollars by 2034, with North America alone accounting for thirty-six point two five percent of that market. And starting in October 2027, U.S. law will ban the military from buying batteries made by six Chinese companies, including CATL and BYD — opening the door even wider for South Korean suppliers like LGES.</p>
+    <p class="zh">然而，這些數字確實難以忽視。全球軍用電池市場預計將從 2025 年的 24 億美元，成長到 2034 年的 52.2 億美元，其中北美市場就佔了 36.25%。而從 2027 年 10 月起，美國法律將禁止軍方採購包括寧德時代、比亞迪在內的六家中國企業所製造的電池——這也為 LGES 等南韓供應商，開啟了更大的機會之窗。</p>
+  </div>
+
+  <h2 class="section">3. Key Vocabulary 關鍵單字 <span class="time-badge">4 min</span></h2>
+  <div class="block">
+    <table>
+      <thead><tr><th>Word 單字</th><th>IPA 音標</th><th>Meaning 中文意思</th><th>Example 例句</th></tr></thead>
+      <tbody>
+        <tr><td data-label="Word">subsidy</td><td data-label="IPA" class="ipa">/ˈsʌbsɪdi/</td><td data-label="Meaning">補助金</td><td data-label="Example">The federal subsidy for electric vehicles is being phased out under the new law.</td></tr>
+        <tr><td data-label="Word">pivot</td><td data-label="IPA" class="ipa">/ˈpɪvət/</td><td data-label="Meaning">轉向、轉型</td><td data-label="Example">Facing weak EV demand, several battery startups are pivoting to the defense sector.</td></tr>
+        <tr><td data-label="Word">lifeline</td><td data-label="IPA" class="ipa">/ˈlaɪflaɪn/</td><td data-label="Meaning">救命稻草，關鍵支撐</td><td data-label="Example">Defense contracts have become a lifeline for battery startups hit by shrinking subsidies.</td></tr>
+        <tr><td data-label="Word">grant</td><td data-label="IPA" class="ipa">/ɡrænt/</td><td data-label="Meaning">（政府）補助款</td><td data-label="Example">Coreshell received a fifty-million-dollar grant from the Department of Energy.</td></tr>
+        <tr><td data-label="Word">anode</td><td data-label="IPA" class="ipa">/ˈænoʊd/</td><td data-label="Meaning">（電池）負極</td><td data-label="Example">Coreshell is scaling up production of silicon anode material for lithium-ion batteries.</td></tr>
+        <tr><td data-label="Word">precursor</td><td data-label="IPA" class="ipa">/prɪˈkɜːrsər/</td><td data-label="Meaning">前驅物、前身</td><td data-label="Example">Lithium carbonate is a key precursor in battery manufacturing.</td></tr>
+        <tr><td data-label="Word">procurement</td><td data-label="IPA" class="ipa">/prəˈkjʊrmənt/</td><td data-label="Meaning">採購</td><td data-label="Example">Defense procurement of batteries has historically been far smaller than automotive spending.</td></tr>
+        <tr><td data-label="Word">geopolitical</td><td data-label="IPA" class="ipa">/ˌdʒiːoʊpəˈlɪtɪkəl/</td><td data-label="Meaning">地緣政治的</td><td data-label="Example">Rising geopolitical tension between the U.S. and China is reshaping the battery supply chain.</td></tr>
+        <tr><td data-label="Word">reputational</td><td data-label="IPA" class="ipa">/ˌrɛpjəˈteɪʃənəl/</td><td data-label="Meaning">聲譽相關的</td><td data-label="Example">Entering the defense market could pose a reputational risk for LG Energy Solution.</td></tr>
+        <tr><td data-label="Word">ESG rating</td><td data-label="IPA" class="ipa">/ˌiː ˌɛs ˈdʒiː ˈreɪtɪŋ/</td><td data-label="Meaning">環境、社會與治理評級</td><td data-label="Example">Rating agencies could lower LG Group's ESG score if its battery unit supplies weapons makers.</td></tr>
+        <tr><td data-label="Word">ban</td><td data-label="IPA" class="ipa">/bæn/</td><td data-label="Meaning">禁令、禁止</td><td data-label="Example">Starting in October 2027, the U.S. will ban the military from buying batteries made by six Chinese companies.</td></tr>
+        <tr><td data-label="Word">scale up</td><td data-label="IPA" class="ipa">/skeɪl ʌp/</td><td data-label="Meaning">擴大規模</td><td data-label="Example">Lilac Solutions plans to scale up its Utah facility to produce five thousand tons of lithium carbonate a year.</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2 class="section">4. Saying the Numbers 數字唸法 <span class="time-badge">2 min</span></h2>
+  <div class="block">
+    <table>
+      <thead><tr><th>Figure 數字</th><th>Say it like this 唸法</th><th>What it refers to 代表意義</th></tr></thead>
+      <tbody>
+        <tr><td data-label="Figure">$500 million</td><td data-label="Say it">"five hundred million dollars"</td><td data-label="What">DOE's new battery funding pool</td></tr>
+        <tr><td data-label="Figure">$50 million</td><td data-label="Say it">"fifty million dollars"</td><td data-label="What">Coreshell's DOE grant for silicon anodes</td></tr>
+        <tr><td data-label="Figure">$100 million</td><td data-label="Say it">"one hundred million dollars"</td><td data-label="What">Grants to Lilac Solutions and to Nth Cycle</td></tr>
+        <tr><td data-label="Figure">5,000 tons</td><td data-label="Say it">"five thousand tons"</td><td data-label="What">Lilac Solutions' target annual lithium carbonate output by 2028</td></tr>
+        <tr><td data-label="Figure">$200 million</td><td data-label="Say it">"two hundred million dollars"</td><td data-label="What">U.S. Defense Logistics Agency's annual battery purchases in 2021</td></tr>
+        <tr><td data-label="Figure">$18 billion</td><td data-label="Say it">"eighteen billion dollars"</td><td data-label="What">U.S. auto industry's 2025 spending on battery manufacturing</td></tr>
+        <tr><td data-label="Figure">$2.4B → $5.22B</td><td data-label="Say it">"two point four billion... to five point two two billion dollars"</td><td data-label="What">Global military battery market, 2025 vs. projected 2034</td></tr>
+        <tr><td data-label="Figure">36.25%</td><td data-label="Say it">"thirty-six point two five percent"</td><td data-label="What">North America's share of the global military battery market</td></tr>
+        <tr><td data-label="Figure">2027</td><td data-label="Say it">"twenty twenty-seven"</td><td data-label="What">Year the U.S. ban on Chinese military batteries takes effect</td></tr>
+        <tr><td data-label="Figure">2170</td><td data-label="Say it">"twenty-one seventy"</td><td data-label="What">LGES's cylindrical battery cell format shown at InterBattery 2026</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2 class="section">5. Useful Expressions 實用句型 <span class="time-badge">3 min</span></h2>
+  <div class="block">
+    <div class="expr">
+      <div class="pattern en">"___ has become a lifeline for ___."</div>
+      <div class="note zh">用來描述某個新機會成為某產業／某公司的救命稻草。例：Defense contracts have become a lifeline for struggling battery startups.</div>
+    </div>
+    <div class="expr">
+      <div class="pattern en">"There's a trade-off between ___ and ___."</div>
+      <div class="note zh">用來說明兩件事之間必須權衡取捨。例：There's a trade-off between short-term revenue and long-term brand reputation.</div>
+    </div>
+    <div class="expr">
+      <div class="pattern en">"It remains to be seen whether ___."</div>
+      <div class="note zh">用來表示某件事的結果仍不確定，適合評論未來趨勢。例：It remains to be seen whether LGES will actually accept the defense contract.</div>
+    </div>
+    <div class="expr">
+      <div class="pattern en">"On one hand ___, but on the other hand ___."</div>
+      <div class="note zh">用來呈現一件事的正反兩面，討論爭議話題時非常實用。例：On one hand, defense contracts bring stable revenue, but on the other hand, they risk the company's public image.</div>
+    </div>
+    <div class="expr">
+      <div class="pattern en">"This could set a precedent for ___."</div>
+      <div class="note zh">用來說明某個決定可能為未來立下先例、產生連鎖影響。例：LGES's decision could set a precedent for how other Asian battery makers approach the defense market.</div>
+    </div>
+  </div>
+
+  <h2 class="section">6. Discussion 討論題 <span class="time-badge">5 min</span></h2>
+  <div class="block">
+    <div class="qa"><span class="qnum">1.</span><span class="en">Do you think it makes sense for EV battery startups to pivot toward defense contracts when civilian demand slows down? What are the risks of relying on government and military spending?</span></div>
+    <div class="qa"><span class="qnum">2.</span><span class="en">LG Energy Solution is worried that supplying batteries for weapons could hurt its ESG rating and brand image. Is consumer and investor backlash against "dual-use" technology justified, or is it an outdated concern in today's geopolitical climate?</span></div>
+    <div class="qa"><span class="qnum">3.</span><span class="en">Starting in 2027, the U.S. plans to ban Chinese battery suppliers like CATL and BYD from military applications. Is this necessary for national security, or could it just raise costs and slow down innovation?</span></div>
+    <div class="qa"><span class="qnum">4.</span><span class="en">Compare the numbers: in 2025, the U.S. auto industry spent about eighteen billion dollars on battery manufacturing, while defense-related battery procurement was only around two hundred million dollars a few years earlier. Given this gap, is the "defense pivot" a real solution for battery startups, or just a stopgap?</span></div>
+    <div class="qa"><span class="qnum">5.</span><span class="en">Some critics argue that cutting EV subsidies, like under the OBBBA, forces companies into markets they wouldn't otherwise enter. Should government policy stay neutral toward industries, or is it fine for policy to actively steer companies toward certain outcomes?</span></div>
+    <div class="qa"><span class="qnum">6.</span><span class="en">If you were an executive at a battery company like LGES, would you accept a defense contract? What would weigh most heavily in your decision — profit, ethics, geopolitics, or brand reputation?</span></div>
+  </div>
+
+  <h2 class="section">7. Wrap-Up 總結 <span class="time-badge">2 min</span></h2>
+  <div class="block">
+    <p class="en"><strong>60-second summary:</strong> In one minute, summarize how U.S. policy changes cut EV subsidies and pushed battery startups toward defense contracts, mention at least two dollar figures from today's session, and note the dilemma LGES faces between profit and reputation.</p>
+    <p class="zh"><strong>60秒摘要：</strong>請用一分鐘，摘要說明美國政策變化如何削減電動車補貼、並促使電池新創轉向國防合約，過程中至少引用今天練習中的兩個金額數字，並提到 LGES 在獲利與聲譽之間面臨的兩難。</p>
+    <p class="en" style="margin-top:16px;"><strong>Stance sentence pattern:</strong> "Personally, I believe ___, because ___ — even though I recognize that ___."</p>
+    <p class="zh"><strong>表達立場句型：</strong>「就我個人而言，我認為＿＿＿，因為＿＿＿——儘管我也理解＿＿＿。」用這個句型清楚表達你自己的立場，同時展現你有考量到反方論點。</p>
+  </div>
+
+  <h2 class="section">Source Notes 取材筆記</h2>
+  <div class="block">
+    <p class="source-note-p en">Notes are stored in the user's Obsidian vault at <span class="mono">Claude code AI筆記 / raw / assets</span>.</p>
+    <p class="source-note-p zh">筆記存放於使用者的 Obsidian 筆記庫，路徑為 <span class="mono">Claude code AI筆記 / raw / assets</span>。</p>
+    <table>
+      <thead><tr><th>Note file 筆記檔名</th><th>Original 原始出處</th><th>Used for 用於</th></tr></thead>
+      <tbody>
+        <tr>
+          <td data-label="Note file" class="mono">2026-08-26-電動車市場景氣低迷 美國電池新創轉戰國防軍工領域.md</td>
+          <td data-label="Original">DIGITIMES · 徐畇融／綜合外電 · 2026-08-26<br><a href="https://www.digitimes.com.tw/tech/dt/n/shwnws.asp?CnlID=&id=766114&grid_seq1=&grid_seq2=" target="_blank" rel="noopener">Original article 原文連結</a></td>
+          <td data-label="Used for">OBBBA subsidy cuts, DOE's $500M funding, Coreshell/Lilac Solutions/Nth Cycle grant amounts and figures, and the $200M vs. $18B defense-vs-auto spending comparison — used in Read Aloud, Vocabulary, Numbers, and Discussion.<br>OBBBA 取消補貼、能源部5億美元撥款、Coreshell／Lilac Solutions／Nth Cycle 補助金額，以及國防與汽車產業2億美元對180億美元的支出對比，用於朗讀短文、關鍵單字、數字唸法與討論題段落。</td>
+        </tr>
+        <tr>
+          <td data-label="Note file" class="mono">2026-08-26-國防商機與品牌風險並存 LGES進軍美國無人機供應鏈應如何盤算.md</td>
+          <td data-label="Original">DIGITIMES · 陳玟靜／綜合報導 · 2026-08-26<br><a href="https://www.digitimes.com.tw/tech/dt/n/shwnws.asp?CnlID=&id=766068&grid_seq1=&grid_seq2=" target="_blank" rel="noopener">Original article 原文連結</a></td>
+          <td data-label="Used for">LGES's defense-contract dilemma, its 2170 cylindrical battery drone demo, ESG/brand-risk concerns, global military battery market figures (2025–2034, 36.25% North America share), and the 2027 U.S. ban on Chinese military batteries — used in Read Aloud, Vocabulary, Numbers, and Discussion.<br>LGES的國防合約抉擇、2170圓柱電池無人機展示、ESG與品牌風險考量、全球軍用電池市場數據（2025–2034年，北美佔36.25%）及2027年美國禁用中國軍用電池規定，用於朗讀短文、關鍵單字、數字唸法與討論題段落。</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <footer>
+    Generated for Claude Yeh · 2026-08-27 · EV Speaking Practice (25 min) · Web Speech API text-to-speech built in.<br>
+    為 Claude Yeh 產生 · 2026-08-27 · 電動車英文口說練習（25 分鐘）· 內建 Web Speech API 語音朗讀。
+  </footer>
+
+</div>
+
+<script>
+(function () {
+  var synth = window.speechSynthesis;
+  var bar = document.getElementById('ttsbar');
+  if (!synth) {
+    bar.innerHTML = '<div id="ttshint">此瀏覽器不支援語音朗讀，請改用 Chrome、Edge 或 Safari 開啟本檔案。</div>';
+    return;
+  }
+
+  var voiceSel = document.getElementById('tts-voice');
+  var rateSel  = document.getElementById('tts-rate');
+  var voices   = [];
+  var queue    = [];
+  var qi       = 0;
+  var playing  = false;
+
+  function score(v) {
+    var n = (v.name + ' ' + (v.voiceURI || '')).toLowerCase();
+    var s = 0;
+    if (/premium|enhanced|neural|natural/.test(n)) s += 40;
+    if (/siri/.test(n)) s += 30;
+    if (/google/.test(n)) s += 25;
+    if (/samantha|ava|allison|serena|daniel|kate|arthur|evan|nathan|zoe/.test(n)) s += 12;
+    if (/compact|novelty|whisper|bells|bubbles|jester|organ|trinoids|zarvox|albert|bad news|good news/.test(n)) s -= 60;
+    if (v.lang === 'en-US') s += 6;
+    if (v.lang === 'en-GB') s += 5;
+    if (v.localService) s += 2;
+    return s;
+  }
+
+  function loadVoices() {
+    var all = synth.getVoices().filter(function (v) { return /^en[-_]/i.test(v.lang); });
+    if (!all.length) return;
+    all.sort(function (a, b) { return score(b) - score(a); });
+    voices = all;
+    voiceSel.innerHTML = '';
+    voices.forEach(function (v, i) {
+      var o = document.createElement('option');
+      o.value = i;
+      o.textContent = v.name + ' (' + v.lang + ')';
+      voiceSel.appendChild(o);
+    });
+    var saved = null;
+    try { saved = localStorage.getItem('evPracticeVoice'); } catch (e) {}
+    if (saved !== null) {
+      var idx = voices.findIndex(function (v) { return v.name === saved; });
+      if (idx > -1) voiceSel.value = idx;
+    }
+  }
+  loadVoices();
+  synth.onvoiceschanged = loadVoices;
+
+  voiceSel.addEventListener('change', function () {
+    var v = voices[voiceSel.value];
+    try { if (v) localStorage.setItem('evPracticeVoice', v.name); } catch (e) {}
+  });
+
+  function clearHighlight() {
+    var h = document.querySelector('.speaking');
+    if (h) h.classList.remove('speaking');
+  }
+
+  function stop() {
+    playing = false;
+    queue = [];
+    qi = 0;
+    synth.cancel();
+    clearHighlight();
+  }
+
+  // Chrome silently truncates any utterance longer than ~15s, so queue
+  // sentence-sized chunks instead of whole paragraphs.
+  function sentences(text) {
+    var SEP = String.fromCharCode(1);
+    var t = text.replace(/\s+/g, ' ').trim();
+    // Shield decimals/abbreviations so "86.5 percent" isn't split in two.
+    t = t.replace(/(\d)\.(\d)/g, '$1' + SEP + '$2')
+         .replace(/\b(Mr|Mrs|Ms|Dr|St|vs|etc|Inc|Ltd|Co|approx)\./gi,
+                  function (m) { return m.slice(0, -1) + SEP; })
+         .replace(/\bU\.S\./g, 'U' + SEP + 'S' + SEP);
+    var parts = t.match(/[^.!?]+[.!?]+["')\]]?|[^.!?]+$/g) || [t];
+    return parts
+      .map(function (s) { return s.split(SEP).join('.').trim(); })
+      .filter(function (s) { return /[a-zA-Z0-9]/.test(s); });
+  }
+
+  function speakNext() {
+    if (!playing || qi >= queue.length) { stop(); return; }
+    var item = queue[qi++];
+    clearHighlight();
+    if (item.el) {
+      item.el.classList.add('speaking');
+      var r = item.el.getBoundingClientRect();
+      if (r.top < 120 || r.bottom > window.innerHeight - 40) {
+        item.el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      }
+    }
+    var u = new SpeechSynthesisUtterance(item.text);
+    var v = voices[voiceSel.value];
+    if (v) { u.voice = v; u.lang = v.lang; } else { u.lang = 'en-US'; }
+    u.rate = parseFloat(rateSel.value);
+    u.pitch = 1;
+    u.onend = speakNext;
+    u.onerror = speakNext;
+    synth.speak(u);
+  }
+
+  function textOf(el) {
+    // Snapshot taken before the play glyph was injected, so it is never spoken.
+    return el.getAttribute('data-tts') || el.textContent;
+  }
+
+  function play(elements) {
+    stop();
+    queue = [];
+    elements.forEach(function (el) {
+      sentences(textOf(el)).forEach(function (s) {
+        if (s.trim()) queue.push({ el: el, text: s });
+      });
+    });
+    if (!queue.length) return;
+    playing = true;
+    qi = 0;
+    speakNext();
+  }
+
+  document.getElementById('tts-stop').addEventListener('click', stop);
+
+  document.getElementById('tts-play').addEventListener('click', function () {
+    var paras = [].slice.call(document.querySelectorAll('#article .en'));
+    play(paras);
+  });
+
+  rateSel.addEventListener('change', function () { if (playing) stop(); });
+
+  var targets = [].slice.call(document.querySelectorAll('.en'));
+  targets.forEach(function (el) {
+    el.setAttribute('data-tts', el.textContent);
+    var b = document.createElement('button');
+    b.className = 'playbtn';
+    b.type = 'button';
+    b.textContent = '▶';
+    b.setAttribute('aria-label', 'Play this sentence');
+    b.addEventListener('click', function (e) {
+      e.stopPropagation();
+      play([el]);
+    });
+    el.insertBefore(b, el.firstChild);
+  });
+
+  [].slice.call(document.querySelectorAll('table tr')).forEach(function (tr) {
+    var cells = tr.querySelectorAll('td');
+    if (cells.length < 2) return;
+    var last = cells[cells.length - 1];
+    if (!/[a-zA-Z]/.test(last.textContent)) return;
+    last.style.cursor = 'pointer';
+    last.title = 'Click to hear it 點一下聽發音';
+    last.addEventListener('click', function () { play([last]); });
+  });
+
+  window.addEventListener('beforeunload', function () { synth.cancel(); });
+})();
+</script>
+</body>
+</html>

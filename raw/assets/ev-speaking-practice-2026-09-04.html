@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EV Speaking Practice — 2026-09-04 · Battery Health vs. the Climate Math</title>
+<style>
+  :root {
+    --bg: #0C2A65;
+    --fg: #FFFFFF;
+    --accent: #7FB3FF;
+    --line: rgba(255,255,255,.18);
+  }
+  * { box-sizing: border-box; }
+  body {
+    background: var(--bg);
+    color: var(--fg);
+    font-family: -apple-system, "Helvetica Neue", "PingFang TC", "Noto Sans TC", Arial, sans-serif;
+    font-size: 20pt;
+    line-height: 1.6;
+    margin: 0;
+    padding: 28px 40px 60px;
+  }
+  h1 {
+    font-size: 27pt;
+    margin: 0 0 6px;
+    border-left: 6px solid var(--accent);
+    padding-left: 16px;
+  }
+  .subtitle {
+    font-size: 14pt;
+    opacity: .75;
+    margin: 0 0 24px 22px;
+  }
+  h2 {
+    font-size: 21pt;
+    margin: 44px 0 6px;
+    border-left: 6px solid var(--accent);
+    padding-left: 14px;
+  }
+  h2 .time {
+    color: var(--accent);
+    font-size: 14pt;
+    font-weight: 400;
+    margin-left: 10px;
+  }
+  h3 {
+    font-size: 15pt;
+    color: var(--accent);
+    letter-spacing: .04em;
+    margin: 0 0 12px;
+  }
+  .block {
+    background: rgba(255,255,255,.04);
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    padding: 20px 26px;
+    margin-bottom: 18px;
+  }
+  .plan {
+    background: rgba(127,179,255,.08);
+    border: 1px solid var(--line);
+    border-left: 6px solid var(--accent);
+    border-radius: 10px;
+    padding: 18px 26px;
+    margin: 0 0 20px;
+  }
+  .plan-title { color: var(--accent); font-size: 14pt; letter-spacing: .04em; margin-bottom: 10px; }
+  .plan ol { margin: 0; padding-left: 22px; font-size: 14pt; line-height: 1.9; }
+  .plan li span { color: var(--accent); }
+  p.en { font-size: 20pt; margin: 0 0 4px; }
+  p.zh { font-size: 15pt; opacity: .72; margin: 0 0 18px; }
+  .para { margin-bottom: 6px; }
+  .qlist { padding-left: 24px; margin: 0; }
+  .qlist li { margin-bottom: 16px; }
+  .qlist .en { font-size: 20pt; display: block; }
+  .qlist .zh { font-size: 14.5pt; opacity: .72; display: block; margin-top: 2px; }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14.5pt;
+    margin-top: 8px;
+  }
+  th {
+    color: var(--accent);
+    text-align: left;
+    border-bottom: 2px solid var(--accent);
+    padding: 8px 10px;
+    font-size: 13.5pt;
+    letter-spacing: .03em;
+  }
+  td {
+    border-bottom: 1px solid var(--line);
+    padding: 10px 10px;
+    vertical-align: top;
+  }
+  td.ipa { color: var(--accent); opacity: .9; white-space: nowrap; }
+  .expr { margin-bottom: 16px; }
+  .expr .pat { font-size: 19pt; }
+  .expr .note { font-size: 14pt; opacity: .72; margin-top: 2px; }
+  .sources-wrap { font-size: 13pt; opacity: .8; margin-bottom: 10px; }
+  .sources-wrap .en { display:block; }
+  .sources-wrap .zh { display:block; opacity:.85; }
+  footer {
+    margin-top: 40px;
+    font-size: 12.5pt;
+    opacity: .55;
+    text-align: center;
+  }
+  a { color: var(--accent); }
+  code { font-family: "SF Mono", Menlo, Consolas, monospace; font-size: 13pt; background: rgba(255,255,255,.08); padding: 2px 6px; border-radius: 4px; }
+
+  /* ---- Text-to-speech controls ---- */
+  #ttsbar {
+    position:sticky; top:0; z-index:50;
+    background:rgba(12,42,101,.96); backdrop-filter:blur(6px);
+    border:1px solid var(--line); border-radius:10px;
+    padding:14px 18px; margin:0 0 8px;
+    display:flex; flex-wrap:wrap; gap:10px 14px; align-items:center;
+    font-size:14pt;
+  }
+  #ttsbar label { opacity:.75; letter-spacing:.04em; }
+  #ttsbar button {
+    font:inherit; font-size:14pt; font-weight:700;
+    color:var(--bg); background:var(--accent);
+    border:none; border-radius:6px; padding:8px 16px; cursor:pointer;
+  }
+  #ttsbar button.ghost { background:transparent; color:var(--accent); border:1px solid var(--accent); }
+  #ttsbar button:hover { opacity:.85; }
+  #ttsbar select {
+    font:inherit; font-size:14pt;
+    color:var(--fg); background:#123573;
+    border:1px solid var(--line); border-radius:6px; padding:7px 10px; max-width:260px;
+  }
+  #ttshint { flex-basis:100%; font-size:12.5pt; opacity:.6; line-height:1.5; }
+  .playbtn {
+    font:inherit; font-size:13pt; line-height:1;
+    color:var(--accent); background:transparent;
+    border:1px solid rgba(127,179,255,.5); border-radius:5px;
+    padding:4px 9px; margin-right:10px; cursor:pointer; vertical-align:middle;
+  }
+  .playbtn:hover { background:rgba(127,179,255,.16); }
+  .speaking {
+    background:rgba(127,179,255,.17);
+    box-shadow:0 0 0 8px rgba(127,179,255,.17);
+    border-radius:3px;
+  }
+
+  @media (max-width: 720px) {
+    body { padding: 18px 16px 44px; font-size: 17pt; }
+    h1 { font-size: 21pt; }
+    h2 { font-size: 17pt; }
+    p.en, .qlist .en { font-size: 17pt; }
+    table { font-size: 12.5pt; }
+    .block { padding: 16px 16px; }
+  }
+</style>
+</head>
+<body>
+
+<h1>EV Speaking Practice</h1>
+<p class="subtitle">2026-09-04 · Battery Health vs. the Climate Math ／電池健康度 vs. 氣候計算方式　·　25 min</p>
+
+<div class="plan">
+  <div class="plan-title">SESSION PLAN　練習流程 (25 min)</div>
+  <ol>
+    <li><span>1.</span> Warm-Up 暖身 — 3 min</li>
+    <li><span>2.</span> Read Aloud 朗讀短文 — 6 min</li>
+    <li><span>3.</span> Key Vocabulary 關鍵單字 — 4 min</li>
+    <li><span>4.</span> Saying the Numbers 數字唸法 — 2 min</li>
+    <li><span>5.</span> Useful Expressions 實用句型 — 3 min</li>
+    <li><span>6.</span> Discussion 討論題 — 5 min</li>
+    <li><span>7.</span> Wrap-Up 總結 — 2 min</li>
+  </ol>
+</div>
+
+<div id="ttsbar">
+  <button id="tts-play">▶ Read the article 朗讀全文</button>
+  <button id="tts-stop" class="ghost">■ Stop 停止</button>
+  <label for="tts-voice">Voice</label>
+  <select id="tts-voice"></select>
+  <label for="tts-rate">Speed</label>
+  <select id="tts-rate">
+    <option value="0.75">0.75× 慢</option>
+    <option value="0.9" selected>0.9× 稍慢</option>
+    <option value="1">1.0× 正常</option>
+    <option value="1.15">1.15× 快</option>
+  </select>
+  <div id="ttshint">每個英文段落左邊都有 ▶ 可單獨播放；正在唸的句子會反白。想要更自然的聲音：macOS「系統設定 → 輔助使用 → 朗讀內容 → 系統聲音」下載 Enhanced／Premium 或 Siri 語音，再回來從上面的 Voice 選單選取。</div>
+</div>
+
+<h2>1. Warm-Up 暖身 <span class="time">3 min</span></h2>
+<div class="block">
+  <ol class="qlist">
+    <li><span class="en">Have you ever owned a phone or laptop whose battery got noticeably worse over time? What happened?</span><span class="zh">你有沒有用過電池明顯變差的手機或筆電？當時發生了什麼事？</span></li>
+    <li><span class="en">When you picture an "old" electric car — say, ten years from now — do you imagine it still reliable, or falling apart? Why?</span><span class="zh">當你想像一台「老舊」的電動車——比方說十年後——你會覺得它還算可靠，還是狀況很差？為什麼？</span></li>
+    <li><span class="en">Do you think governments generally measure environmental impact accurately, or do the official numbers usually miss something important?</span><span class="zh">你覺得政府在衡量環境影響時通常算得準確嗎？還是官方數字經常漏掉一些重要的東西？</span></li>
+  </ol>
+</div>
+
+<h2>2. Read Aloud 朗讀短文 <span class="time">6 min</span></h2>
+<div class="block" id="article">
+  <div class="para">
+    <p class="en">One of the biggest worries about buying an electric car is battery degradation — the fear that in a few years, your EV's battery will fade the way an old laptop's does. A massive new dataset suggests that fear is largely overblown, though the details depend heavily on which car you buy and how you treat it.</p>
+    <p class="zh">購買電動車最讓人擔心的問題之一，就是電池衰退——害怕開個幾年後，電動車的電池會像老筆電一樣越來越不耐用。一份龐大的新資料顯示，這種擔憂大多是多慮的，不過細節高度取決於你買的是哪一款車，以及你怎麼使用它。</p>
+  </div>
+  <div class="para">
+    <p class="en">The numbers come from Aviloo, an EV battery diagnostics company that compiled results from 500,000 battery health tests across 20 popular models. The tests were carried out between 2022 and 2026, on used vehicles from North America, South America, Europe, Asia, and Australia. For each model, Aviloo tracked the median "state of health" — the percentage of original battery capacity still available — at three mileage milestones: 50,000 kilometers, 100,000 kilometers, and 150,000 kilometers.</p>
+    <p class="zh">這些數據來自電動車電池診斷公司 Aviloo，彙整了 20 款熱門車型、共 50 萬次的電池健康檢測結果。檢測時間橫跨 2022 年到 2026 年，對象是北美、南美、歐洲、亞洲與澳洲的二手車。針對每一款車型，Aviloo 追蹤了三個里程碑——5 萬公里、10 萬公里、15 萬公里——時的「健康狀態」中位數，也就是電池原始容量還剩下多少百分比。</p>
+  </div>
+  <div class="para">
+    <p class="en">The Hyundai Ioniq 5 came out on top at every stage, holding onto over 97 percent of its capacity at 50,000 kilometers and still at roughly 94 percent after 150,000 kilometers. The Mercedes-Benz EQA followed close behind. Excluding two older, air-cooled outliers — the Renault Zoe and the previous-generation Nissan Leaf — every model in the study kept a median of about 90 percent of its capacity or more, even at the highest mileage.</p>
+    <p class="zh">現代 Ioniq 5 在每個階段都名列前茅，行駛 5 萬公里時仍保有超過 97% 的容量，即使到了 15 萬公里，也還維持在大約 94% 左右。賓士 EQA 緊追在後。若排除兩款採用氣冷電池、表現較差的老車款——雷諾 Zoe 與上一代 Nissan Leaf——研究中的每一款車型，即便里程數最高，健康狀態中位數也都維持在 90% 以上。</p>
+  </div>
+  <div class="para">
+    <p class="en">Tesla's two best-sellers landed somewhere in the middle of the pack. After 150,000 kilometers, the Model Y showed a median health of 90.3 percent, and the Model 3 came in at 88.94 percent — solid numbers, but clearly behind the leaders. Results also varied a lot within the same model: individual Model Y batteries at that mileage ranged anywhere from 82.9 percent to 94.9 percent, depending on climate, charging habits, and how often the battery was left sitting at a full charge.</p>
+    <p class="zh">特斯拉的兩款暢銷車型則落在中段班。行駛 15 萬公里後，Model Y 的健康狀態中位數為 90.3%，Model 3 則是 88.94%——數字還算不錯，但明顯落後於領先車款。同一款車型的表現差異也不小：同樣里程數下，個別 Model Y 的電池健康度落在 82.9% 到 94.9% 之間，差異取決於氣候、充電習慣，以及電池是否經常被長時間停在滿電狀態。</p>
+  </div>
+  <div class="para">
+    <p class="en">The bottom line for shoppers: even the weakest performers in the study still retained around 87 percent of their capacity after roughly 93,000 miles. A rough rule of thumb emerges — expect about a 10 percent drop in range after 100,000 miles of driving, though your own results will depend on how carefully you treat the battery.</p>
+    <p class="zh">對消費者來說，結論是：即便是研究中表現最弱的車款，行駛約 9 萬 3 千英里後，仍保有大約 87% 的電池容量。因此可以歸納出一個粗略的經驗法則——開滿 10 萬英里後，續航力大概會下降 10% 左右，不過實際結果還是取決於你平常如何愛惜電池。</p>
+  </div>
+  <div class="para">
+    <p class="en">But battery health is only part of the climate story. A separate study from the Technical University of Munich argues that the EU's CO2 rules for cars are asking the wrong question entirely. Reviewing 19 published studies covering 47 scenarios, the researchers found that battery-electric vehicles produce 41 percent fewer emissions on average than comparable gasoline cars over their full lifecycle — from production through recycling — and come out ahead in 92 percent of the scenarios examined.</p>
+    <p class="zh">不過，電池健康狀況只是氣候議題的一部分。慕尼黑工業大學的另一份研究則主張，歐盟對汽車的二氧化碳法規，問錯了問題。研究人員回顧了 19 篇已發表研究、共 47 種情境，發現純電動車在整個生命週期——從生產到回收——平均排放量比同級汽油車少 41%，而在 92% 的情境中，電動車的表現都更勝一籌。</p>
+  </div>
+  <div class="para">
+    <p class="en">The researchers' real complaint is about measurement, not performance: current EU fleet rules count only tailpipe emissions, so every electric car is scored at zero grams of CO2 per kilometer, while the emissions from producing its battery and generating its electricity go uncounted. The stakes are high — the EU has proposed easing its 2035 target from a 100 percent to a 90 percent cut, but the study estimates the sector will fall more than 100 million tonnes short of its self-imposed 2030 goal, partly because combustion-engine cars are still expected to make up about 78 percent of Europe's car fleet by 2030.</p>
+    <p class="zh">研究人員真正不滿的其實是「計算方式」，而非電動車的表現本身：目前歐盟的車隊法規只計算排氣管排放量，因此每一輛電動車的分數都是每公里零克二氧化碳，而製造電池與發電所產生的排放，則完全沒有被列入計算。這件事的重要性不小——歐盟已提議將 2035 年的減碳目標，從原本的 100% 放寬到 90%，但這份研究估計，到 2030 年，整個產業距離自訂目標仍將短少超過一億噸，部分原因是到了 2030 年，燃油車預計仍將占歐洲車隊的約 78%。</p>
+  </div>
+</div>
+
+<h2>3. Key Vocabulary 關鍵單字 <span class="time">4 min</span></h2>
+<div class="block">
+  <table>
+    <tr><th>Word</th><th>IPA</th><th>中文意思</th><th>Example</th></tr>
+    <tr><td>degradation</td><td class="ipa">/ˌdɛɡrəˈdeɪʃən/</td><td>衰退、劣化</td><td>Battery degradation is slower than most people expect.</td></tr>
+    <tr><td>diagnostics</td><td class="ipa">/ˌdaɪəɡˈnɒstɪks/</td><td>診斷、檢測</td><td>The diagnostics company ran half a million battery tests.</td></tr>
+    <tr><td>median</td><td class="ipa">/ˈmiːdiən/</td><td>中位數</td><td>The median state of health was above 90 percent.</td></tr>
+    <tr><td>capacity</td><td class="ipa">/kəˈpæsəti/</td><td>（電池）容量</td><td>The Ioniq 5 kept over 97 percent of its capacity.</td></tr>
+    <tr><td>milestone</td><td class="ipa">/ˈmaɪlstoʊn/</td><td>里程碑</td><td>Researchers checked battery health at three mileage milestones.</td></tr>
+    <tr><td>outlier</td><td class="ipa">/ˈaʊtlaɪər/</td><td>離群值、特例</td><td>The Renault Zoe was an outlier because of its air-cooled battery.</td></tr>
+    <tr><td>lifecycle</td><td class="ipa">/ˈlaɪfsaɪkl/</td><td>生命週期</td><td>The study looked at emissions across the car's full lifecycle.</td></tr>
+    <tr><td>tailpipe emissions</td><td class="ipa">/ˈteɪlpaɪp ɪˈmɪʃənz/</td><td>排氣管排放</td><td>EU rules currently only count tailpipe emissions, not production.</td></tr>
+    <tr><td>offset</td><td class="ipa">/ˈɔːfsɛt/</td><td>抵銷</td><td>Automakers could offset remaining emissions with green-steel credits.</td></tr>
+    <tr><td>fleet</td><td class="ipa">/fliːt/</td><td>車隊（泛指整體在用車輛）</td><td>Combustion cars will still dominate Europe's fleet in 2030.</td></tr>
+    <tr><td>ramp-up</td><td class="ipa">/ˈræmp ʌp/</td><td>加速推進、擴大規模</td><td>Even with a fast EV ramp-up, the emissions gap stays large.</td></tr>
+    <tr><td>verifiable</td><td class="ipa">/ˈvɛrɪfaɪəbl/</td><td>可驗證的</td><td>TUM wants a mandatory, verifiable lifecycle assessment.</td></tr>
+  </table>
+</div>
+
+<h2>4. Saying the Numbers 數字唸法 <span class="time">2 min</span></h2>
+<div class="block">
+  <table>
+    <tr><th>Number in text</th><th>How to say it</th></tr>
+    <tr><td>500,000 battery tests</td><td>"five hundred thousand battery tests"</td></tr>
+    <tr><td>20 models</td><td>"twenty models"</td></tr>
+    <tr><td>50,000 km</td><td>"fifty thousand kilometers"</td></tr>
+    <tr><td>97%</td><td>"ninety-seven percent"</td></tr>
+    <tr><td>150,000 km</td><td>"one hundred fifty thousand kilometers"</td></tr>
+    <tr><td>90.3%</td><td>"ninety point three percent"</td></tr>
+    <tr><td>82.9%–94.9%</td><td>"eighty-two point nine to ninety-four point nine percent"</td></tr>
+    <tr><td>41% fewer emissions</td><td>"forty-one percent fewer emissions"</td></tr>
+    <tr><td>92% of scenarios</td><td>"ninety-two percent of scenarios"</td></tr>
+    <tr><td>100 million tonnes</td><td>"one hundred million tonnes"</td></tr>
+    <tr><td>78% of the fleet</td><td>"seventy-eight percent of the fleet"</td></tr>
+    <tr><td>by 2035</td><td>"by twenty thirty-five"</td></tr>
+  </table>
+</div>
+
+<h2>5. Useful Expressions 實用句型 <span class="time">3 min</span></h2>
+<div class="block">
+  <div class="expr">
+    <div class="pat en">"The data suggests that ___, though ___."</div>
+    <div class="note">用來呈現數據的整體結論，同時保留但書或例外情況。</div>
+  </div>
+  <div class="expr">
+    <div class="pat en">"X came out on top, followed closely by Y."</div>
+    <div class="note">描述排名或比較結果，X 領先、Y 緊追在後。</div>
+  </div>
+  <div class="expr">
+    <div class="pat en">"The real question isn't whether ___, but how ___."</div>
+    <div class="note">重新定義爭論焦點，把話題從「是否」轉到「如何」。</div>
+  </div>
+  <div class="expr">
+    <div class="pat en">"Even the weakest performers still ___."</div>
+    <div class="note">強調即使是最差的結果，也還算過得去，用來緩和負面數據。</div>
+  </div>
+  <div class="expr">
+    <div class="pat en">"This raises concerns about ___, particularly when it comes to ___."</div>
+    <div class="note">指出某件事引發疑慮，並specify 在哪個層面特別明顯。</div>
+  </div>
+</div>
+
+<h2>6. Discussion 討論題 <span class="time">5 min</span></h2>
+<div class="block">
+  <ol class="qlist">
+    <li><span class="en">The Model Y's battery health ranged from 82.9% to 94.9% at the same mileage. Does that spread worry you more than the average number itself? Why or why not?</span><span class="zh">Model Y 在同樣里程數下，電池健康度落在 82.9% 到 94.9% 之間。這種落差是否比平均數字本身更讓你擔心？為什麼？</span></li>
+    <li><span class="en">If you were buying a used EV, would battery health data like this change your decision? What would you want to see before buying?</span><span class="zh">如果你要買二手電動車，這類電池健康數據會不會改變你的決定？你希望在購買前看到什麼資訊？</span></li>
+    <li><span class="en">TUM argues the EU's CO2 rules undercount real emissions from EVs' production and electricity. Do you find this argument convincing, or does it feel like a distraction from EVs' climate benefits?</span><span class="zh">慕尼黑工大主張歐盟的二氧化碳法規低估了電動車生產與發電所產生的實際排放。你覺得這個論點有說服力嗎？還是這只是在模糊電動車的氣候效益？</span></li>
+    <li><span class="en">Should governments require "lifecycle" emissions reporting instead of just tailpipe emissions — not just for cars, but for products in general? What would that change in practice?</span><span class="zh">政府是否應該要求企業回報「全生命週期」排放，而不只是排氣管排放——不只是汽車，其他產品也一樣？實際上會帶來什麼改變？</span></li>
+    <li><span class="en">The EU may lower its 2035 target from a 100 percent cut to a 90 percent cut. Is a compromise like this pragmatic, or does it undermine climate goals?</span><span class="zh">歐盟可能將 2035 年的減碳目標從 100% 調降為 90%。這樣的妥協是務實，還是會破壞氣候目標？</span></li>
+    <li><span class="en">Hyundai and Mercedes outperformed Tesla in this battery study. Does brand reputation usually match actual performance data, in your experience — with cars or other products?</span><span class="zh">在這份電池研究中，現代與賓士的表現超越了特斯拉。就你的經驗來說，品牌形象通常和實際數據表現相符嗎？不論是汽車還是其他產品。</span></li>
+  </ol>
+</div>
+
+<h2>7. Wrap-Up 總結 <span class="time">2 min</span></h2>
+<div class="block">
+  <p class="en">In under 60 seconds, summarize what this new battery study found and why the EU's CO2 rules are being questioned. Try to mention at least three numbers from today's session.</p>
+  <p class="zh">請在 60 秒內，總結這份新電池研究的發現，以及歐盟二氧化碳法規為什麼受到質疑。盡量提到今天練習中至少三個數字。</p>
+  <div class="expr" style="margin-top:22px;">
+    <div class="pat en">"If I had to take a side, I'd say ___, because ___."</div>
+    <div class="note">用來明確表達自己的立場，並附上理由——適合在總結時亮出個人觀點。</div>
+  </div>
+</div>
+
+<h2>Source Notes　取材筆記</h2>
+<div class="block">
+  <div class="sources-wrap">
+    <span class="en">Clipped from the Obsidian vault at: Claude code AI筆記 / raw / assets</span>
+    <span class="zh">取材自 Obsidian 筆記庫路徑：Claude code AI筆記 / raw / assets</span>
+  </div>
+  <table>
+    <tr><th>Note file 筆記檔名</th><th>Original 原始出處</th><th>Used for 用於</th></tr>
+    <tr>
+      <td><code>2026-09-04-This Study Covered 500,000 EV Batteries.md</code></td>
+      <td>InsideEVs · Tim Levin · 2026-09-02<br><a href="https://insideevs.com/news/806798/ev-battery-aging-study-2026/" target="_blank" rel="noopener">insideevs.com ↗</a></td>
+      <td>Aviloo's 500,000-test battery study — model rankings, state-of-health percentages at 50k/100k/150k km, Tesla vs. Ioniq 5/EQA comparison, within-model variability.<br><span style="opacity:.75;">Aviloo 的 50 萬筆電池檢測研究——車型排名、5萬/10萬/15萬公里健康狀態百分比、特斯拉與 Ioniq 5／EQA 的比較，以及同車型內的表現差異。</span></td>
+    </tr>
+    <tr>
+      <td><code>2026-09-04-Munich study calls for revisions to EU CO2 regulations for cars.md</code></td>
+      <td>electrive.com · Jasmin Apitzsch-Krause · 2026-09-01<br><a href="https://www.electrive.com/2026/09/01/munich-study-calls-for-revisions-to-eu-co%e2%82%82-regulations-for-cars/" target="_blank" rel="noopener">electrive.com ↗</a></td>
+      <td>TUM/CirculaTUM lifecycle-emissions study — 41% average reduction figure, 92%-of-scenarios finding, EU 2035 target debate, 100-million-tonne gap, 78% fleet-share projection.<br><span style="opacity:.75;">慕尼黑工大 CirculaTUM 全生命週期排放研究——平均減少 41% 的數據、92% 情境優於燃油車的發現、歐盟 2035 目標爭議、一億噸缺口，以及 78% 車隊佔比預測。</span></td>
+    </tr>
+  </table>
+</div>
+
+<footer>
+  EV Speaking Practice · Generated for Claude Yeh · 2026-09-04
+</footer>
+
+<script>
+(function () {
+  var synth = window.speechSynthesis;
+  var bar = document.getElementById('ttsbar');
+  if (!synth) {
+    bar.innerHTML = '<div id="ttshint">此瀏覽器不支援語音朗讀，請改用 Chrome、Edge 或 Safari 開啟本檔案。</div>';
+    return;
+  }
+
+  var voiceSel = document.getElementById('tts-voice');
+  var rateSel  = document.getElementById('tts-rate');
+  var voices   = [];
+  var queue    = [];
+  var qi       = 0;
+  var playing  = false;
+
+  function score(v) {
+    var n = (v.name + ' ' + (v.voiceURI || '')).toLowerCase();
+    var s = 0;
+    if (/premium|enhanced|neural|natural/.test(n)) s += 40;
+    if (/siri/.test(n)) s += 30;
+    if (/google/.test(n)) s += 25;
+    if (/samantha|ava|allison|serena|daniel|kate|arthur|evan|nathan|zoe/.test(n)) s += 12;
+    if (/compact|novelty|whisper|bells|bubbles|jester|organ|trinoids|zarvox|albert|bad news|good news/.test(n)) s -= 60;
+    if (v.lang === 'en-US') s += 6;
+    if (v.lang === 'en-GB') s += 5;
+    if (v.localService) s += 2;
+    return s;
+  }
+
+  function loadVoices() {
+    var all = synth.getVoices().filter(function (v) { return /^en[-_]/i.test(v.lang); });
+    if (!all.length) return;
+    all.sort(function (a, b) { return score(b) - score(a); });
+    voices = all;
+    voiceSel.innerHTML = '';
+    voices.forEach(function (v, i) {
+      var o = document.createElement('option');
+      o.value = i;
+      o.textContent = v.name + ' (' + v.lang + ')';
+      voiceSel.appendChild(o);
+    });
+    var saved = null;
+    try { saved = localStorage.getItem('evPracticeVoice'); } catch (e) {}
+    if (saved !== null) {
+      var idx = voices.findIndex(function (v) { return v.name === saved; });
+      if (idx > -1) voiceSel.value = idx;
+    }
+  }
+  loadVoices();
+  synth.onvoiceschanged = loadVoices;
+
+  voiceSel.addEventListener('change', function () {
+    var v = voices[voiceSel.value];
+    try { if (v) localStorage.setItem('evPracticeVoice', v.name); } catch (e) {}
+  });
+
+  function clearHighlight() {
+    var h = document.querySelector('.speaking');
+    if (h) h.classList.remove('speaking');
+  }
+
+  function stop() {
+    playing = false;
+    queue = [];
+    qi = 0;
+    synth.cancel();
+    clearHighlight();
+  }
+
+  // Chrome silently truncates any utterance longer than ~15s, so queue
+  // sentence-sized chunks instead of whole paragraphs.
+  function sentences(text) {
+    var SEP = String.fromCharCode(1);
+    var t = text.replace(/\s+/g, ' ').trim();
+    // Shield decimals/abbreviations so "86.5 percent" isn't split in two.
+    t = t.replace(/(\d)\.(\d)/g, '$1' + SEP + '$2')
+         .replace(/\b(Mr|Mrs|Ms|Dr|St|vs|etc|Inc|Ltd|Co|approx)\./gi,
+                  function (m) { return m.slice(0, -1) + SEP; })
+         .replace(/\bU\.S\./g, 'U' + SEP + 'S' + SEP);
+    var parts = t.match(/[^.!?]+[.!?]+["')\]]?|[^.!?]+$/g) || [t];
+    return parts
+      .map(function (s) { return s.split(SEP).join('.').trim(); })
+      .filter(function (s) { return /[a-zA-Z0-9]/.test(s); });
+  }
+
+  function speakNext() {
+    if (!playing || qi >= queue.length) { stop(); return; }
+    var item = queue[qi++];
+    clearHighlight();
+    if (item.el) {
+      item.el.classList.add('speaking');
+      var r = item.el.getBoundingClientRect();
+      if (r.top < 120 || r.bottom > window.innerHeight - 40) {
+        item.el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      }
+    }
+    var u = new SpeechSynthesisUtterance(item.text);
+    var v = voices[voiceSel.value];
+    if (v) { u.voice = v; u.lang = v.lang; } else { u.lang = 'en-US'; }
+    u.rate = parseFloat(rateSel.value);
+    u.pitch = 1;
+    u.onend = speakNext;
+    u.onerror = speakNext;
+    synth.speak(u);
+  }
+
+  function textOf(el) {
+    // Snapshot taken before the play glyph was injected, so it is never spoken.
+    return el.getAttribute('data-tts') || el.textContent;
+  }
+
+  function play(elements) {
+    stop();
+    queue = [];
+    elements.forEach(function (el) {
+      sentences(textOf(el)).forEach(function (s) {
+        if (s.trim()) queue.push({ el: el, text: s });
+      });
+    });
+    if (!queue.length) return;
+    playing = true;
+    qi = 0;
+    speakNext();
+  }
+
+  document.getElementById('tts-stop').addEventListener('click', stop);
+
+  document.getElementById('tts-play').addEventListener('click', function () {
+    var paras = [].slice.call(document.querySelectorAll('#article .en'));
+    play(paras);
+  });
+
+  rateSel.addEventListener('change', function () { if (playing) stop(); });
+
+  var targets = [].slice.call(document.querySelectorAll('.en'));
+  targets.forEach(function (el) {
+    el.setAttribute('data-tts', el.textContent);
+    var b = document.createElement('button');
+    b.className = 'playbtn';
+    b.type = 'button';
+    b.textContent = '▶';
+    b.setAttribute('aria-label', 'Play this sentence');
+    b.addEventListener('click', function (e) {
+      e.stopPropagation();
+      play([el]);
+    });
+    el.insertBefore(b, el.firstChild);
+  });
+
+  [].slice.call(document.querySelectorAll('table tr')).forEach(function (tr) {
+    var cells = tr.querySelectorAll('td');
+    if (cells.length < 2) return;
+    var last = cells[cells.length - 1];
+    if (!/[a-zA-Z]/.test(last.textContent)) return;
+    last.style.cursor = 'pointer';
+    last.title = 'Click to hear it 點一下聽發音';
+    last.addEventListener('click', function () { play([last]); });
+  });
+
+  window.addEventListener('beforeunload', function () { synth.cancel(); });
+})();
+</script>
+</body>
+</html>

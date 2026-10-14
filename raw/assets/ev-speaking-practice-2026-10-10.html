@@ -1,0 +1,451 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>EV Speaking Practice — Sugar High, Storage Boom (2026-10-10)</title>
+<style>
+  :root {
+    --bg: #0C2A65;
+    --fg: #FFFFFF;
+    --accent: #7FB3FF;
+    --line: rgba(255,255,255,.25);
+  }
+  * { box-sizing: border-box; }
+  html, body {
+    margin: 0; padding: 0;
+    background: var(--bg); color: var(--fg);
+    font-family: -apple-system, "Segoe UI", "Helvetica Neue", Arial, "PingFang TC", "Noto Sans TC", sans-serif;
+    font-size: 20pt;
+    line-height: 1.6;
+  }
+  .wrap { max-width: 900px; margin: 0 auto; padding: 24px 18px 60px; }
+  header { margin-bottom: 18px; }
+  header .kicker {
+    color: var(--accent); font-size: 14pt; letter-spacing: .08em;
+    text-transform: uppercase; margin-bottom: 6px;
+  }
+  h1 {
+    font-size: 26pt; line-height: 1.3; margin: 0 0 10px;
+  }
+  header .meta { font-size: 14pt; opacity: .75; }
+  h2 {
+    font-size: 19pt; margin: 34px 0 14px; padding-left: 14px;
+    border-left: 6px solid var(--accent);
+    display: flex; flex-wrap: wrap; gap: 8px 14px; align-items: baseline;
+  }
+  h2 .time {
+    font-size: 12.5pt; color: var(--accent); font-weight: 700;
+    border: 1px solid var(--accent); border-radius: 999px; padding: 2px 12px;
+  }
+  .block {
+    border: 1px solid var(--line); border-radius: 10px;
+    padding: 18px 20px; margin-bottom: 14px;
+  }
+  .plan {
+    border: 1px solid var(--line); border-radius: 10px;
+    padding: 16px 20px; margin: 18px 0 26px;
+    background: rgba(127,179,255,.06);
+  }
+  .plan h3 {
+    margin: 0 0 10px; font-size: 14pt; color: var(--accent);
+    letter-spacing: .04em; text-transform: uppercase;
+  }
+  .plan ol { margin: 0; padding-left: 22px; font-size: 14.5pt; }
+  .plan li { margin: 4px 0; }
+  .plan .m { color: var(--accent); font-weight: 700; }
+  p.en { margin: 0 0 4px; }
+  p.zh { margin: 0 0 20px; font-size: 15.5pt; opacity: .72; }
+  .qa { margin: 0 0 22px; }
+  .qa .num {
+    color: var(--accent); font-weight: 700; margin-right: 8px;
+  }
+  table {
+    width: 100%; border-collapse: collapse; margin: 6px 0 8px;
+    font-size: 15pt;
+  }
+  th, td {
+    border-bottom: 1px solid var(--line);
+    padding: 10px 8px; text-align: left; vertical-align: top;
+  }
+  th {
+    color: var(--bg); background: var(--accent);
+    font-size: 13pt; letter-spacing: .03em;
+  }
+  td.ipa { color: var(--accent); white-space: nowrap; }
+  code {
+    background: rgba(255,255,255,.1); padding: 2px 6px; border-radius: 4px;
+    font-size: .85em;
+  }
+  .expr {
+    border: 1px solid var(--line); border-radius: 8px;
+    padding: 12px 16px; margin: 0 0 14px;
+  }
+  .expr .pat { font-size: 16.5pt; font-weight: 700; }
+  .expr .zh { font-size: 14.5pt; opacity: .75; margin-top: 4px; }
+  .expr .ex { font-size: 14.5pt; margin-top: 8px; opacity: .9; font-style: italic; }
+  a { color: var(--accent); }
+  footer {
+    margin-top: 40px; padding-top: 16px; border-top: 1px solid var(--line);
+    font-size: 12.5pt; opacity: .6;
+  }
+  .sourcepath { font-size: 13.5pt; opacity: .8; margin-bottom: 10px; }
+
+  /* ---- Text-to-speech controls ---- */
+  #ttsbar {
+    position:sticky; top:0; z-index:50;
+    background:rgba(12,42,101,.96); backdrop-filter:blur(6px);
+    border:1px solid var(--line); border-radius:10px;
+    padding:14px 18px; margin:0 0 8px;
+    display:flex; flex-wrap:wrap; gap:10px 14px; align-items:center;
+    font-size:14pt;
+  }
+  #ttsbar label { opacity:.75; letter-spacing:.04em; }
+  #ttsbar button {
+    font:inherit; font-size:14pt; font-weight:700;
+    color:var(--bg); background:var(--accent);
+    border:none; border-radius:6px; padding:8px 16px; cursor:pointer;
+  }
+  #ttsbar button.ghost { background:transparent; color:var(--accent); border:1px solid var(--accent); }
+  #ttsbar button:hover { opacity:.85; }
+  #ttsbar select {
+    font:inherit; font-size:14pt;
+    color:var(--fg); background:#123573;
+    border:1px solid var(--line); border-radius:6px; padding:7px 10px; max-width:260px;
+  }
+  #ttshint { flex-basis:100%; font-size:12.5pt; opacity:.6; line-height:1.5; }
+  .playbtn {
+    font:inherit; font-size:13pt; line-height:1;
+    color:var(--accent); background:transparent;
+    border:1px solid rgba(127,179,255,.5); border-radius:5px;
+    padding:4px 9px; margin-right:10px; cursor:pointer; vertical-align:middle;
+  }
+  .playbtn:hover { background:rgba(127,179,255,.16); }
+  .speaking {
+    background:rgba(127,179,255,.17);
+    box-shadow:0 0 0 8px rgba(127,179,255,.17);
+    border-radius:3px;
+  }
+
+  @media (max-width: 640px) {
+    body { font-size: 16pt; }
+    h1 { font-size: 21pt; }
+    h2 { font-size: 16pt; }
+    table { font-size: 12.5pt; }
+    .plan ol { font-size: 12.5pt; }
+    #ttsbar, #ttsbar button, #ttsbar select { font-size: 12pt; }
+    .wrap { padding: 16px 12px 40px; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <div class="kicker">EV Speaking Practice · 25 min</div>
+  <h1>Sugar High, Storage Boom: Who Wins When Markets Close?</h1>
+  <div class="meta">短暫的亢奮與儲能熱潮：Polestar被美國擋下、LG電池靠儲能創高 · 2026-10-10</div>
+</header>
+
+<div class="plan">
+  <h3>Session Plan 課程規劃</h3>
+  <ol>
+    <li><span class="m">3 min</span> — Warm-Up 暖身</li>
+    <li><span class="m">6 min</span> — Read Aloud 朗讀短文</li>
+    <li><span class="m">4 min</span> — Key Vocabulary 關鍵單字</li>
+    <li><span class="m">2 min</span> — Saying the Numbers 數字唸法</li>
+    <li><span class="m">3 min</span> — Useful Expressions 實用句型</li>
+    <li><span class="m">5 min</span> — Discussion 討論題</li>
+    <li><span class="m">2 min</span> — Wrap-Up 總結</li>
+  </ol>
+</div>
+
+<div id="ttsbar">
+  <button id="tts-play">▶ Read the article 朗讀全文</button>
+  <button id="tts-stop" class="ghost">■ Stop 停止</button>
+  <label for="tts-voice">Voice</label>
+  <select id="tts-voice"></select>
+  <label for="tts-rate">Speed</label>
+  <select id="tts-rate">
+    <option value="0.75">0.75× 慢</option>
+    <option value="0.9" selected>0.9× 稍慢</option>
+    <option value="1">1.0× 正常</option>
+    <option value="1.15">1.15× 快</option>
+  </select>
+  <div id="ttshint">每個英文段落左邊都有 ▶ 可單獨播放；正在唸的句子會反白。想要更自然的聲音：macOS「系統設定 → 輔助使用 → 朗讀內容 → 系統聲音」下載 Enhanced／Premium 或 Siri 語音，再回來從上面的 Voice 選單選取。</div>
+</div>
+
+<h2>1. Warm-Up 暖身 <span class="time">3 min</span></h2>
+<div class="block">
+  <div class="qa"><p class="en"><span class="num">1.</span>When a company is forced out of a big market, what do you think it should do first?</p><p class="zh">當一家公司被迫退出一個大市場時，你覺得它第一步該做什麼？</p></div>
+  <div class="qa"><p class="en"><span class="num">2.</span>Have you ever bought something just because it was heavily discounted? Did you regret it?</p><p class="zh">你有沒有只因為大幅折扣就買下某樣東西？事後後悔嗎？</p></div>
+  <div class="qa"><p class="en"><span class="num">3.</span>Batteries are not only for cars anymore. Where else do you see them being used in daily life?</p><p class="zh">電池已經不只用在汽車上。你在日常生活中還看到它們用在哪裡？</p></div>
+</div>
+
+<h2>2. Read Aloud 朗讀短文 <span class="time">6 min</span></h2>
+<div class="block" id="article">
+  <p class="en">Polestar just had its strongest third quarter ever, but the good news comes with an awkward twist. Worldwide sales edged up 1 percent to an estimated 14,371 vehicles, yet without the United States, sales actually fell 8 percent.</p>
+  <p class="zh">Polestar剛創下史上最強的第三季，但好消息帶著尷尬的轉折。全球銷量小幅成長1%、估計達14,371輛，但如果不計美國，銷量其實下滑了8%。</p>
+  <p class="en">In other words, the growth came from a market that has effectively shut the brand out. U.S. deliveries jumped from 966 to 2,160 cars, an increase of about 124 percent, while sales in the rest of the world dropped from 13,256 to 12,211.</p>
+  <p class="zh">換句話說，成長來自一個實際上已把這個品牌拒於門外的市場。美國交車量從966輛躍升至2,160輛，成長約124%，其他地區銷量則從13,256輛降到12,211輛。</p>
+  <p class="en">The reason is a rule from the U.S. Department of Commerce, announced in June, that bans certain Chinese connectivity and driver-assistance technology. Volvo, which belongs to the same Geely group, received an exemption, but Polestar's request was denied, even though the Polestar 3 and the Volvo EX90 share a production line in South Carolina.</p>
+  <p class="zh">原因是美國商務部6月公布的一項規定，禁止某些中國製的車聯網與駕駛輔助技術。同屬吉利集團的Volvo獲得豁免，Polestar的申請卻被駁回，儘管Polestar 3和Volvo EX90在南卡羅來納州共用同一條產線。</p>
+  <p class="en">After the decision, Polestar slashed prices to clear its inventory, with discounts on the Polestar 4 reaching 25,000 dollars. That may explain the surge, but it looks more like a sugar high than sustainable growth, especially since the company lost around one billion dollars in 2025.</p>
+  <p class="zh">裁定公布後，Polestar大幅降價清庫存，Polestar 4的折扣最高達25,000美元。這或許解釋了銷量激增，但那更像是一時的亢奮，而非可持續的成長，尤其這家公司2025年虧損了約十億美元。</p>
+  <p class="en">Meanwhile, battery maker LG Energy Solution is showing a different path. Its preliminary third-quarter revenue grew 59 percent to 7.21 billion dollars, and operating profit rose 25 percent to 565 million dollars.</p>
+  <p class="zh">同時，電池製造商LG新能源展現了另一條路。其第三季初步營收成長59%、達72.1億美元，營業利益成長25%、達5.65億美元。</p>
+  <p class="en">The company has slowed some electric vehicle battery production in North America because of weak demand. But strong orders for energy storage batteries, driven by power-hungry AI data centers and grid upgrades, helped make up the difference, and demand from Volkswagen and Renault in Europe lifted its plant in Poland.</p>
+  <p class="zh">該公司因需求疲弱，放慢了北美部分電動車電池的生產。但AI資料中心與電網升級帶動的儲能電池強勁訂單彌補了差距，而歐洲Volkswagen與Renault的需求則推升了其波蘭廠。</p>
+  <p class="en">Policy is helping too. U.S. manufacturing tax credits, which run through 2032, boosted earnings, and LG is securing supply by signing a deal for 240,000 metric tonnes of lithium concentrate from a mine in Quebec. It also opened a two-billion-dollar plant in Michigan that makes storage batteries for Tesla and EV batteries for Toyota.</p>
+  <p class="zh">政策也有幫助。持續到2032年的美國製造稅額抵減提振了獲利，而LG也簽下協議，從魁北克一座礦場取得24萬公噸鋰精礦以確保供應。它還在密西根州開設了一座20億美元的工廠，為Tesla生產儲能電池、為Toyota生產電動車電池。</p>
+</div>
+
+<h2>3. Key Vocabulary 關鍵單字 <span class="time">4 min</span></h2>
+<div class="block">
+  <table>
+    <tr><th>Word 單字</th><th>IPA 音標</th><th>Meaning 中文意思</th><th>Example 例句</th></tr>
+    <tr><td>inventory</td><td class="ipa">/ˈɪnvəntɔːri/</td><td>庫存</td><td>The dealer cut prices to clear its inventory before the new models arrived.</td></tr>
+    <tr><td>exemption</td><td class="ipa">/ɪɡˈzempʃən/</td><td>豁免；例外</td><td>Volvo got an exemption from the rule, but Polestar did not.</td></tr>
+    <tr><td>blindsided</td><td class="ipa">/ˈblaɪndsaɪdɪd/</td><td>措手不及、被打個正著</td><td>The company said it was blindsided by the decision.</td></tr>
+    <tr><td>discount</td><td class="ipa">/ˈdɪskaʊnt/</td><td>折扣；降價</td><td>Deep discounts pulled in buyers who had not planned to buy an EV.</td></tr>
+    <tr><td>sugar high</td><td class="ipa">/ˈʃʊɡər haɪ/</td><td>短暫的亢奮（比喻短暫的成長）</td><td>Last quarter's sales were more of a sugar high than a trend.</td></tr>
+    <tr><td>sustainable</td><td class="ipa">/səˈsteɪnəbəl/</td><td>可持續的</td><td>Cutting prices is not a sustainable way to grow.</td></tr>
+    <tr><td>lineup</td><td class="ipa">/ˈlaɪnʌp/</td><td>產品陣容</td><td>A bigger lineup could help the brand attract new customers.</td></tr>
+    <tr><td>profitability</td><td class="ipa">/ˌprɒfɪtəˈbɪləti/</td><td>獲利能力</td><td>Record sales do not guarantee profitability.</td></tr>
+    <tr><td>stationary</td><td class="ipa">/ˈsteɪʃəneri/</td><td>固定式的；不移動的</td><td>Stationary storage batteries help utilities balance the grid.</td></tr>
+    <tr><td>offset</td><td class="ipa">/ˈɔːfset/</td><td>抵銷；彌補</td><td>Strong storage sales offset weak EV demand in North America.</td></tr>
+    <tr><td>tax credit</td><td class="ipa">/tæks ˈkredɪt/</td><td>稅額抵減</td><td>The manufacturing tax credit boosted the company's earnings.</td></tr>
+    <tr><td>offtake agreement</td><td class="ipa">/ˈɔːfteɪk əˈɡriːmənt/</td><td>包銷／長期購買協議</td><td>The offtake agreement secures lithium supply for several years.</td></tr>
+  </table>
+</div>
+
+<h2>4. Saying the Numbers 數字唸法 <span class="time">2 min</span></h2>
+<div class="block">
+  <table>
+    <tr><th>Number 數字</th><th>Meaning 意思</th><th>Say it 唸法</th></tr>
+    <tr><td>14,371</td><td>Polestar Q3 global sales 全球季銷量</td><td>fourteen thousand, three hundred and seventy-one</td></tr>
+    <tr><td>+1% / −8%</td><td>Global vs. excluding the U.S. 全球 vs. 不含美國</td><td>up one percent; down eight percent</td></tr>
+    <tr><td>966 → 2,160</td><td>U.S. deliveries, Q3 美國交車量</td><td>nine hundred and sixty-six to two thousand, one hundred and sixty</td></tr>
+    <tr><td>124%</td><td>U.S. growth 美國成長率</td><td>one hundred and twenty-four percent</td></tr>
+    <tr><td>$25,000</td><td>Maximum Polestar 4 discount Polestar 4最高折扣</td><td>twenty-five thousand dollars</td></tr>
+    <tr><td>44,790</td><td>Nine-month global sales 前九個月全球銷量</td><td>forty-four thousand, seven hundred and ninety</td></tr>
+    <tr><td>$7.21 billion</td><td>LGES Q3 revenue LGES第三季營收</td><td>seven point two one billion dollars</td></tr>
+    <tr><td>$565 million</td><td>LGES operating profit LGES營業利益</td><td>five hundred and sixty-five million dollars</td></tr>
+    <tr><td>240,000 tonnes</td><td>Lithium concentrate in the deal 協議鋰精礦量</td><td>two hundred and forty thousand metric tonnes</td></tr>
+    <tr><td>2032</td><td>Tax credit end year 稅額抵減期限</td><td>twenty thirty-two</td></tr>
+  </table>
+</div>
+
+<h2>5. Useful Expressions 實用句型 <span class="time">3 min</span></h2>
+<div class="block">
+  <div class="expr"><div class="pat en">Without X, … actually …</div><div class="zh">如果不算X，……其實……（拆解表面數字）</div><div class="ex en">Without the United States, Polestar's sales actually fell.</div><div class="ex en">Without the subsidy, I think the market would look very different.</div></div>
+  <div class="expr"><div class="pat en">The growth came from …</div><div class="zh">成長來自……</div><div class="ex en">The growth came from discounts, not from real demand.</div><div class="ex en">The growth came from a few big customers.</div></div>
+  <div class="expr"><div class="pat en">That may explain …, but …</div><div class="zh">這也許能解釋……，但……</div><div class="ex en">That may explain the surge, but it is not sustainable.</div><div class="ex en">That may explain the price, but I still think it's too high.</div></div>
+  <div class="expr"><div class="pat en">… helped make up the difference.</div><div class="zh">……彌補了差距</div><div class="ex en">Energy storage orders helped make up the difference.</div><div class="ex en">Higher export sales helped make up the difference.</div></div>
+  <div class="expr"><div class="pat en">It looks more like A than B.</div><div class="zh">它看起來更像A而不是B</div><div class="ex en">It looks more like a sugar high than a trend.</div><div class="ex en">It looks more like a short-term fix than a real strategy.</div></div>
+</div>
+
+<h2>6. Discussion 討論題 <span class="time">5 min</span></h2>
+<div class="block">
+  <div class="qa"><p class="en"><span class="num">1.</span>Should the U.S. be allowed to ban a car brand because of the software and connectivity technology inside it? Argue either side: national security versus fair competition.</p><p class="zh">美國是否可以因為車內的軟體與車聯網技術而禁止某個汽車品牌？請任選立場論述：國家安全 vs. 公平競爭。</p></div>
+  <div class="qa"><p class="en"><span class="num">2.</span>Polestar was denied an exemption while Volvo got one. Is it fair to treat two brands under the same group differently? What might justify it?</p><p class="zh">Polestar的豁免被駁回，Volvo卻獲准。同一集團的兩個品牌受到不同對待，公平嗎？可能有什麼理由？</p></div>
+  <div class="qa"><p class="en"><span class="num">3.</span>Is heavy discounting a smart way to clear inventory, or does it damage a brand in the long run?</p><p class="zh">大幅折扣是清庫存的聰明方法，還是長期會傷害品牌？</p></div>
+  <div class="qa"><p class="en"><span class="num">4.</span>LG is earning more from storage batteries than from EV batteries in North America. Is it wise for a battery maker to shift its focus away from cars?</p><p class="zh">LG在北美靠儲能電池賺的比電動車電池更多。電池製造商把重心從汽車移開明智嗎？</p></div>
+  <div class="qa"><p class="en"><span class="num">5.</span>AI data centers are driving demand for large batteries. Do you think the AI boom and the EV transition help each other or compete for the same resources?</p><p class="zh">AI資料中心正推升大型電池的需求。你認為AI熱潮與電動車轉型是互相幫助，還是在搶同樣的資源？</p></div>
+  <div class="qa"><p class="en"><span class="num">6.</span>U.S. manufacturing tax credits are lifting battery profits while consumer EV credits were cut. Should governments support factories, buyers, or both?</p><p class="zh">美國製造端稅額抵減正在提升電池獲利，消費者購車補助卻被取消。政府該支持工廠、買家，還是兩者都要？</p></div>
+</div>
+
+<h2>7. Wrap-Up 總結 <span class="time">2 min</span></h2>
+<div class="block">
+  <div class="qa"><p class="en"><span class="num">1.</span>Give a 60-second summary: What happened to Polestar in the U.S.? How is LG Energy Solution growing? What connects the two stories?</p><p class="zh">用60秒做摘要：Polestar在美國發生了什麼事？LG新能源如何成長？兩則新聞的共通點是什麼？</p></div>
+  <div class="qa"><p class="en"><span class="num">2.</span>Finish this sentence with your own opinion: "In my view, the safest strategy for a carmaker or battery maker today is to …, because …"</p><p class="zh">用你自己的看法完成這句話：「我認為現今車廠或電池廠最穩健的策略是……，因為……」</p></div>
+</div>
+
+<h2>Source Notes 取材筆記</h2>
+<div class="block">
+  <p class="sourcepath">Note vault path: <code>Claude code AI筆記 / raw / assets</code><br>筆記庫路徑：<code>Claude code AI筆記 / raw / assets</code></p>
+  <table>
+    <tr><th>Note file 筆記檔名</th><th>Original 原始出處</th><th>Used for 用於</th></tr>
+    <tr>
+      <td><code>2026-10-09-Polestar Sales Are Booming. Thank The Country That Just Banned It.md</code></td>
+      <td>InsideEVs（Andrei Nedelea）· 2026-10-08<br><a href="https://insideevs.com/news/811238/polestar-q3-2026-sales-report/" target="_blank" rel="noopener">InsideEVs original</a></td>
+      <td>Provided Polestar's Q3 sales figures (14,371; +1%; −8% excluding the U.S.; U.S. 966 to 2,160), the June Commerce Department rule, the Volvo exemption, the $25,000 discounts and the 2025 loss.<br>提供Polestar第三季銷量數據（14,371輛、+1%、不含美國−8%、美國966至2,160輛）、6月商務部規定、Volvo豁免、25,000美元折扣與2025年虧損。</td>
+    </tr>
+    <tr>
+      <td><code>2026-10-09-Tesla Supplier Reports Record Earnings From EV And Energy Storage Batteries.md</code></td>
+      <td>InsideEVs（Suvrat Kothari）· 2026-10-08<br><a href="https://insideevs.com/news/811218/lges-record-ev-ess-battery-sales/" target="_blank" rel="noopener">InsideEVs original</a></td>
+      <td>Provided LG Energy Solution's Q3 revenue ($7.21 billion, +59%) and operating profit ($565 million, +25%), storage battery demand, the Poland plant, the 2032 tax credit, the Elevra lithium deal and the Michigan plant.<br>提供LG新能源第三季營收（72.1億美元、+59%）與營業利益（5.65億美元、+25%）、儲能電池需求、波蘭廠、2032年稅額抵減、Elevra鋰礦協議與密西根廠。</td>
+    </tr>
+  </table>
+</div>
+
+<footer>
+  Generated for Claude Yeh's daily EV speaking practice · Content researched from the user's Obsidian news-clipper vault (or general EV topics when unavailable) · 25-minute session for online speaking lessons.
+</footer>
+
+</div>
+
+<script>
+(function () {
+  var synth = window.speechSynthesis;
+  var bar = document.getElementById('ttsbar');
+  if (!synth) {
+    bar.innerHTML = '<div id="ttshint">此瀏覽器不支援語音朗讀，請改用 Chrome、Edge 或 Safari 開啟本檔案。</div>';
+    return;
+  }
+
+  var voiceSel = document.getElementById('tts-voice');
+  var rateSel  = document.getElementById('tts-rate');
+  var voices   = [];
+  var queue    = [];
+  var qi       = 0;
+  var playing  = false;
+
+  function score(v) {
+    var n = (v.name + ' ' + (v.voiceURI || '')).toLowerCase();
+    var s = 0;
+    if (/premium|enhanced|neural|natural/.test(n)) s += 40;
+    if (/siri/.test(n)) s += 30;
+    if (/google/.test(n)) s += 25;
+    if (/samantha|ava|allison|serena|daniel|kate|arthur|evan|nathan|zoe/.test(n)) s += 12;
+    if (/compact|novelty|whisper|bells|bubbles|jester|organ|trinoids|zarvox|albert|bad news|good news/.test(n)) s -= 60;
+    if (v.lang === 'en-US') s += 6;
+    if (v.lang === 'en-GB') s += 5;
+    if (v.localService) s += 2;
+    return s;
+  }
+
+  function loadVoices() {
+    var all = synth.getVoices().filter(function (v) { return /^en[-_]/i.test(v.lang); });
+    if (!all.length) return;
+    all.sort(function (a, b) { return score(b) - score(a); });
+    voices = all;
+    voiceSel.innerHTML = '';
+    voices.forEach(function (v, i) {
+      var o = document.createElement('option');
+      o.value = i;
+      o.textContent = v.name + ' (' + v.lang + ')';
+      voiceSel.appendChild(o);
+    });
+    var saved = null;
+    try { saved = localStorage.getItem('evPracticeVoice'); } catch (e) {}
+    if (saved !== null) {
+      var idx = voices.findIndex(function (v) { return v.name === saved; });
+      if (idx > -1) voiceSel.value = idx;
+    }
+  }
+  loadVoices();
+  synth.onvoiceschanged = loadVoices;
+
+  voiceSel.addEventListener('change', function () {
+    var v = voices[voiceSel.value];
+    try { if (v) localStorage.setItem('evPracticeVoice', v.name); } catch (e) {}
+  });
+
+  function clearHighlight() {
+    var h = document.querySelector('.speaking');
+    if (h) h.classList.remove('speaking');
+  }
+
+  function stop() {
+    playing = false;
+    queue = [];
+    qi = 0;
+    synth.cancel();
+    clearHighlight();
+  }
+
+  // Chrome silently truncates any utterance longer than ~15s, so queue
+  // sentence-sized chunks instead of whole paragraphs.
+  function sentences(text) {
+    var SEP = String.fromCharCode(1);
+    var t = text.replace(/\s+/g, ' ').trim();
+    // Shield decimals/abbreviations so "86.5 percent" isn't split in two.
+    t = t.replace(/(\d)\.(\d)/g, '$1' + SEP + '$2')
+         .replace(/\b(Mr|Mrs|Ms|Dr|St|vs|etc|Inc|Ltd|Co|approx)\./gi,
+                  function (m) { return m.slice(0, -1) + SEP; })
+         .replace(/\bU\.S\./g, 'U' + SEP + 'S' + SEP);
+    var parts = t.match(/[^.!?]+[.!?]+["')\]]?|[^.!?]+$/g) || [t];
+    return parts
+      .map(function (s) { return s.split(SEP).join('.').trim(); })
+      .filter(function (s) { return /[a-zA-Z0-9]/.test(s); });
+  }
+
+  function speakNext() {
+    if (!playing || qi >= queue.length) { stop(); return; }
+    var item = queue[qi++];
+    clearHighlight();
+    if (item.el) {
+      item.el.classList.add('speaking');
+      var r = item.el.getBoundingClientRect();
+      if (r.top < 120 || r.bottom > window.innerHeight - 40) {
+        item.el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      }
+    }
+    var u = new SpeechSynthesisUtterance(item.text);
+    var v = voices[voiceSel.value];
+    if (v) { u.voice = v; u.lang = v.lang; } else { u.lang = 'en-US'; }
+    u.rate = parseFloat(rateSel.value);
+    u.pitch = 1;
+    u.onend = speakNext;
+    u.onerror = speakNext;
+    synth.speak(u);
+  }
+
+  function textOf(el) {
+    // Snapshot taken before the play glyph was injected, so it is never spoken.
+    return el.getAttribute('data-tts') || el.textContent;
+  }
+
+  function play(elements) {
+    stop();
+    queue = [];
+    elements.forEach(function (el) {
+      sentences(textOf(el)).forEach(function (s) {
+        if (s.trim()) queue.push({ el: el, text: s });
+      });
+    });
+    if (!queue.length) return;
+    playing = true;
+    qi = 0;
+    speakNext();
+  }
+
+  document.getElementById('tts-stop').addEventListener('click', stop);
+
+  document.getElementById('tts-play').addEventListener('click', function () {
+    var paras = [].slice.call(document.querySelectorAll('#article .en'));
+    play(paras);
+  });
+
+  rateSel.addEventListener('change', function () { if (playing) stop(); });
+
+  var targets = [].slice.call(document.querySelectorAll('.en'));
+  targets.forEach(function (el) {
+    el.setAttribute('data-tts', el.textContent);
+    var b = document.createElement('button');
+    b.className = 'playbtn';
+    b.type = 'button';
+    b.textContent = '▶';
+    b.setAttribute('aria-label', 'Play this sentence');
+    b.addEventListener('click', function (e) {
+      e.stopPropagation();
+      play([el]);
+    });
+    el.insertBefore(b, el.firstChild);
+  });
+
+  [].slice.call(document.querySelectorAll('table tr')).forEach(function (tr) {
+    var cells = tr.querySelectorAll('td');
+    if (cells.length < 2) return;
+    var last = cells[cells.length - 1];
+    if (!/[a-zA-Z]/.test(last.textContent)) return;
+    last.style.cursor = 'pointer';
+    last.title = 'Click to hear it 點一下聽發音';
+    last.addEventListener('click', function () { play([last]); });
+  });
+
+  window.addEventListener('beforeunload', function () { synth.cancel(); });
+})();
+</script>
+</body>
+</html>

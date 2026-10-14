@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>EV Speaking Practice — 2026-09-17 · The 700-Kilometre Electric Truck Race</title>
+<style>
+  :root {
+    --bg: #0C2A65;
+    --fg: #FFFFFF;
+    --accent: #7FB3FF;
+    --line: rgba(127,179,255,.35);
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    padding: 28px 22px 60px;
+    background: var(--bg);
+    color: var(--fg);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue",
+                 "PingFang TC", "Noto Sans TC", "Microsoft JhengHei", sans-serif;
+    font-size: 20pt;
+    line-height: 1.6;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  h1 {
+    font-size: 27pt;
+    line-height: 1.3;
+    margin: 0 0 6px;
+  }
+  .sub {
+    font-size: 15pt;
+    opacity: .72;
+    margin: 0 0 22px;
+    line-height: 1.5;
+  }
+  h2 {
+    font-size: 22pt;
+    margin: 34px 0 14px;
+    padding-left: 14px;
+    border-left: 6px solid var(--accent);
+    line-height: 1.35;
+  }
+  h2 .time {
+    font-size: 14pt;
+    color: var(--accent);
+    font-weight: 400;
+    margin-left: 10px;
+    white-space: nowrap;
+  }
+  h3 {
+    font-size: 17pt;
+    color: var(--accent);
+    margin: 26px 0 10px;
+  }
+  .block {
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    padding: 18px 20px;
+    margin: 0 0 10px;
+  }
+  .plan {
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    padding: 16px 20px;
+    margin: 0 0 20px;
+    font-size: 15pt;
+    line-height: 1.75;
+  }
+  .plan b { color: var(--accent); }
+  .plan ol { margin: 8px 0 0; padding-left: 26px; }
+  .en { margin: 18px 0 2px; }
+  .zh {
+    margin: 0 0 6px;
+    font-size: 15.5pt;
+    opacity: .72;
+    line-height: 1.6;
+  }
+  ol.qs { padding-left: 28px; }
+  ol.qs li { margin-bottom: 16px; }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14.5pt;
+    margin-top: 10px;
+  }
+  th {
+    background: var(--accent);
+    color: var(--bg);
+    text-align: left;
+    padding: 9px 11px;
+    font-size: 14pt;
+  }
+  td {
+    border-bottom: 1px solid var(--line);
+    padding: 9px 11px;
+    vertical-align: top;
+    line-height: 1.5;
+  }
+  td.ipa { color: var(--accent); white-space: nowrap; font-size: 13.5pt; }
+  a { color: var(--accent); }
+  code {
+    font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    font-size: 13pt;
+    background: rgba(127,179,255,.12);
+    padding: 2px 6px;
+    border-radius: 4px;
+    word-break: break-all;
+  }
+  footer {
+    margin-top: 40px;
+    padding-top: 16px;
+    border-top: 1px solid var(--line);
+    font-size: 13.5pt;
+    opacity: .6;
+    line-height: 1.6;
+  }
+  @media (max-width: 640px) {
+    body { font-size: 17pt; padding: 18px 14px 46px; }
+    h1 { font-size: 21pt; }
+    h2 { font-size: 18pt; }
+    .zh { font-size: 13.5pt; }
+    table { font-size: 12.5pt; }
+    th, td { padding: 7px 8px; }
+    table, thead, tbody, th, td, tr { display: block; }
+    thead { display: none; }
+    tr { border-bottom: 1px solid var(--line); padding: 6px 0; }
+    td { border: none; }
+  }
+
+  /* ---- Text-to-speech controls ---- */
+  #ttsbar {
+    position:sticky; top:0; z-index:50;
+    background:rgba(12,42,101,.96); backdrop-filter:blur(6px);
+    border:1px solid var(--line); border-radius:10px;
+    padding:14px 18px; margin:0 0 8px;
+    display:flex; flex-wrap:wrap; gap:10px 14px; align-items:center;
+    font-size:14pt;
+  }
+  #ttsbar label { opacity:.75; letter-spacing:.04em; }
+  #ttsbar button {
+    font:inherit; font-size:14pt; font-weight:700;
+    color:var(--bg); background:var(--accent);
+    border:none; border-radius:6px; padding:8px 16px; cursor:pointer;
+  }
+  #ttsbar button.ghost { background:transparent; color:var(--accent); border:1px solid var(--accent); }
+  #ttsbar button:hover { opacity:.85; }
+  #ttsbar select {
+    font:inherit; font-size:14pt;
+    color:var(--fg); background:#123573;
+    border:1px solid var(--line); border-radius:6px; padding:7px 10px; max-width:260px;
+  }
+  #ttshint { flex-basis:100%; font-size:12.5pt; opacity:.6; line-height:1.5; }
+  .playbtn {
+    font:inherit; font-size:13pt; line-height:1;
+    color:var(--accent); background:transparent;
+    border:1px solid rgba(127,179,255,.5); border-radius:5px;
+    padding:4px 9px; margin-right:10px; cursor:pointer; vertical-align:middle;
+  }
+  .playbtn:hover { background:rgba(127,179,255,.16); }
+  .speaking {
+    background:rgba(127,179,255,.17);
+    box-shadow:0 0 0 8px rgba(127,179,255,.17);
+    border-radius:3px;
+  }
+</style>
+</head>
+<body>
+
+<h1>EV Speaking Practice — The 700-Kilometre Electric Truck Race</h1>
+<p class="sub">2026-09-17 · 25 minutes · Level B2–C1<br>電動卡車的「七百公里之爭」：IAA Transportation 上的 Scania、Volvo 與 MAN</p>
+
+<div class="plan">
+  <b>Session plan 課程流程（共 25 分鐘）</b>
+  <ol>
+    <li>Warm-Up 暖身 — <b>3 min</b></li>
+    <li>Read Aloud 朗讀短文 — <b>6 min</b></li>
+    <li>Key Vocabulary 關鍵單字 — <b>4 min</b></li>
+    <li>Saying the Numbers 數字唸法 — <b>2 min</b></li>
+    <li>Useful Expressions 實用句型 — <b>3 min</b></li>
+    <li>Discussion 討論題 — <b>5 min</b></li>
+    <li>Wrap-Up 總結 — <b>2 min</b></li>
+  </ol>
+</div>
+
+<div id="ttsbar">
+  <button id="tts-play">▶ Read the article 朗讀全文</button>
+  <button id="tts-stop" class="ghost">■ Stop 停止</button>
+  <label for="tts-voice">Voice</label>
+  <select id="tts-voice"></select>
+  <label for="tts-rate">Speed</label>
+  <select id="tts-rate">
+    <option value="0.75">0.75× 慢</option>
+    <option value="0.9" selected>0.9× 稍慢</option>
+    <option value="1">1.0× 正常</option>
+    <option value="1.15">1.15× 快</option>
+  </select>
+  <div id="ttshint">每個英文段落左邊都有 ▶ 可單獨播放；正在唸的句子會反白。想要更自然的聲音：macOS「系統設定 → 輔助使用 → 朗讀內容 → 系統聲音」下載 Enhanced／Premium 或 Siri 語音，再回來從上面的 Voice 選單選取。</div>
+</div>
+
+<h2>1. Warm-Up 暖身<span class="time">3 min</span></h2>
+<div class="block">
+  <ol class="qs">
+    <li>
+      <p class="en">When you see a big truck on the highway, do you ever think about how much fuel it burns in a single day? What would change if that truck were electric?</p>
+      <p class="zh">當你在高速公路上看到大卡車時，會想過它一天燒掉多少油嗎？如果那輛卡車是電動的，什麼會改變？</p>
+    </li>
+    <li>
+      <p class="en">Passenger cars went electric first, and trucks are only catching up now. Why do you think heavy vehicles are so much harder to electrify?</p>
+      <p class="zh">乘用車先電動化，卡車現在才追上來。你覺得重型車輛為什麼難電動化得多？</p>
+    </li>
+    <li>
+      <p class="en">If you owned a logistics company in Taiwan, what single number would you look at before buying your first electric truck — price, range, or charging time?</p>
+      <p class="zh">如果你在台灣經營物流公司，買第一輛電動卡車前你最在意哪一個數字：價格、續航，還是充電時間？</p>
+    </li>
+  </ol>
+</div>
+
+<h2>2. Read Aloud 朗讀短文<span class="time">6 min</span></h2>
+<div class="block" id="article">
+  <h3>Europe's Truck Makers Chase the 700-Kilometre Mark</h3>
+
+  <p class="en">At this year's IAA Transportation show, Europe's biggest truck makers are all pushing toward the same figure: roughly seven hundred kilometres on a single charge. That number matters because it is close to what a driver can legally cover in one working day, which means an electric truck no longer has to stop for reasons the diesel version would ignore.</p>
+  <p class="zh">在今年的 IAA Transportation 商用車展上，歐洲各大卡車廠都在衝同一個數字：單次充電約七百公里。這個數字之所以重要，是因為它接近駕駛在一個工作日內合法能跑的距離，也就是說電動卡車不再需要為了柴油車不必停的理由而停下來。</p>
+
+  <p class="en">Scania has just announced a solution it calls "Battery Behind Cab." In a typical set-up, two MP20 battery packs are mounted in the space directly behind the driver's cab, on top of the packs already fitted to the chassis. With a maximum configuration of seven packs, Scania says the truck can reach up to seven hundred and twenty kilometres.</p>
+  <p class="zh">Scania 剛發表了一套稱為「Battery Behind Cab（駕駛室後置電池）」的方案。典型配置是把兩組 MP20 電池模組裝在駕駛室正後方的空間，疊加在原本已裝於底盤上的電池之外。以最多七組模組的配置計算，Scania 表示卡車續航可達七百二十公里。</p>
+
+  <p class="en">There is a catch, and it is a regulatory one. Putting batteries behind the cab makes the vehicle longer, so the combination only works together with what Scania calls an IVD front — a slightly extended, aerodynamically optimised nose that allows the total length to exceed sixteen point five metres. The company claims the new front also cuts energy consumption by up to three per cent, since air resistance accounts for a larger share of the energy budget in an electric truck than in a diesel one.</p>
+  <p class="zh">但有個前提，而且是法規面的。把電池放到駕駛室後方會讓車身變長，所以這套方案必須搭配 Scania 所稱的 IVD 前端——一個稍微前伸、經過空氣力學優化的車頭，讓車輛總長度得以超過十六點五公尺。該公司宣稱新車頭還能讓能耗最多降低三個百分點，因為在電動卡車上，風阻占總能耗的比重比柴油車更高。</p>
+
+  <p class="en">Volvo Trucks is approaching the same target from a different angle: sheer battery size. Series production of the new FH Aero Electric has now started at the Tuve plant near Gothenburg, in Sweden. The truck carries eight battery packs of ninety-seven point five kilowatt-hours each — seven hundred and eighty kilowatt-hours installed, of which seven hundred and twenty-five are actually usable. That is what delivers the advertised seven hundred kilometres.</p>
+  <p class="zh">Volvo Trucks 則是從另一個角度逼近同一個目標：純粹把電池做大。新款 FH Aero Electric 已在瑞典哥特堡附近的 Tuve 工廠開始量產。這款卡車搭載八組各九十七點五度的電池模組——裝機容量七百八十度，其中七百二十五度可實際使用，這才撐得起官方宣稱的七百公里。</p>
+
+  <p class="en">The comparison with MAN is where it gets interesting. MAN's new eTGX also claims up to seven hundred and twenty kilometres, but only under ideal conditions; the figure the company quotes for a typical working day is a little over six hundred. MAN offers six hundred and forty-four kilowatt-hours gross and six hundred and sixteen net — noticeably less than Volvo. In other words, two headline numbers that look almost identical rest on very different amounts of battery.</p>
+  <p class="zh">和 MAN 的比較才是有意思的地方。MAN 新款 eTGX 同樣宣稱最高七百二十公里，但那是在理想條件下；該公司給出的「典型工作日」數字是六百公里出頭。MAN 提供六百四十四度毛容量、六百一十六度淨容量——明顯少於 Volvo。換句話說，兩個看起來幾乎相同的宣傳數字，背後靠的是差距不小的電池量。</p>
+
+  <p class="en">Volvo is also using the show to unveil something heavier. Its new electric heavy-haul truck is designed for gross combination weights of up to eighty tonnes, almost double the usual forty-two. At sixty-four tonnes it still manages four hundred and fifty kilometres; at seventy-four or seventy-six tonnes, the weights permitted in Sweden and Finland, the range drops to around four hundred and twenty.</p>
+  <p class="zh">Volvo 也藉車展發表了更重量級的東西。這款新的電動重載卡車設計可承受最高八十噸的總聯結重量，幾乎是一般四十二噸的兩倍。在六十四噸下仍能跑四百五十公里；在瑞典與芬蘭允許的七十四或七十六噸下，續航則降到約四百二十公里。</p>
+
+  <p class="en">Tellingly, Volvo does not see Germany as a target market for the eighty-tonne model, because such loads require special permits there. It will launch instead in Sweden, Norway, Finland, Denmark, the Netherlands and Switzerland, with the fixed-body version rolling out gradually from early two thousand twenty-seven. The technology, it turns out, is ready before the rulebook is.</p>
+  <p class="zh">值得玩味的是，Volvo 並不把德國視為八十噸車型的目標市場，因為在當地這種載重需要特殊許可。它將改在瑞典、挪威、芬蘭、丹麥、荷蘭與瑞士推出，固定車體版本自二〇二七年初起逐步上市。結果是：技術準備好的時間，比法規更早。</p>
+</div>
+
+<h2>3. Key Vocabulary 關鍵單字<span class="time">4 min</span></h2>
+<div class="block">
+  <table>
+    <thead>
+      <tr><th>Word 單字</th><th>IPA 音標</th><th>Meaning 中文</th><th>Example sentence 例句（點一下可聽發音）</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>long-haul</td><td class="ipa">/ˌlɔːŋ ˈhɔːl/</td><td>長途（運輸）的</td><td>Long-haul routes are the last part of trucking to go electric.</td></tr>
+      <tr><td>payload</td><td class="ipa">/ˈpeɪloʊd/</td><td>載重量、酬載</td><td>Every extra battery pack eats into the payload the truck can carry.</td></tr>
+      <tr><td>chassis</td><td class="ipa">/ˈʃæsi/</td><td>底盤</td><td>Most of the packs are still bolted to the chassis under the frame.</td></tr>
+      <tr><td>cab</td><td class="ipa">/kæb/</td><td>駕駛室</td><td>Scania found empty space directly behind the cab and filled it with batteries.</td></tr>
+      <tr><td>configuration</td><td class="ipa">/kənˌfɪɡjəˈreɪʃn/</td><td>配置、組態</td><td>The maximum configuration uses seven packs instead of six.</td></tr>
+      <tr><td>aerodynamic</td><td class="ipa">/ˌeroʊdaɪˈnæmɪk/</td><td>空氣力學的</td><td>An aerodynamic front saves roughly three per cent of the energy.</td></tr>
+      <tr><td>air resistance</td><td class="ipa">/ˈer rɪˌzɪstəns/</td><td>風阻</td><td>Air resistance matters more when the powertrain itself is efficient.</td></tr>
+      <tr><td>usable capacity</td><td class="ipa">/ˈjuːzəbl kəˈpæsəti/</td><td>可用電量</td><td>Installed capacity sounds impressive, but usable capacity is what you drive on.</td></tr>
+      <tr><td>gross / net</td><td class="ipa">/ɡroʊs/ /net/</td><td>毛（總）／淨</td><td>The gross figure is always higher than the net figure.</td></tr>
+      <tr><td>series production</td><td class="ipa">/ˈsɪriːz prəˈdʌkʃn/</td><td>量產</td><td>Series production means the truck has left the prototype stage.</td></tr>
+      <tr><td>heavy-haul</td><td class="ipa">/ˈhevi hɔːl/</td><td>重載運輸的</td><td>Heavy-haul transport usually requires a special permit.</td></tr>
+      <tr><td>permit</td><td class="ipa">/ˈpɜːrmɪt/</td><td>許可、許可證</td><td>German regulators require a permit for anything close to eighty tonnes.</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<h2>4. Saying the Numbers 數字唸法<span class="time">2 min</span></h2>
+<div class="block">
+  <table>
+    <thead>
+      <tr><th>Figure 數字</th><th>What it refers to 代表什麼</th><th>Say it like this 這樣唸（點一下可聽）</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>720 km</td><td>Scania / MAN 最高續航</td><td>seven hundred and twenty kilometres</td></tr>
+      <tr><td>700 km</td><td>Volvo FH Aero Electric 續航</td><td>seven hundred kilometres</td></tr>
+      <tr><td>780 kWh</td><td>Volvo 裝機電量</td><td>seven hundred and eighty kilowatt-hours</td></tr>
+      <tr><td>725 kWh</td><td>Volvo 可用電量</td><td>seven hundred and twenty-five kilowatt-hours</td></tr>
+      <tr><td>97.5 kWh</td><td>單一電池模組</td><td>ninety-seven point five kilowatt-hours</td></tr>
+      <tr><td>644 / 616 kWh</td><td>MAN 毛／淨電量</td><td>six hundred and forty-four gross, six hundred and sixteen net</td></tr>
+      <tr><td>16.5 m</td><td>車輛長度上限</td><td>sixteen point five metres</td></tr>
+      <tr><td>3%</td><td>能耗降低幅度</td><td>three per cent</td></tr>
+      <tr><td>80 tonnes</td><td>重載卡車總聯結重量</td><td>eighty tonnes</td></tr>
+      <tr><td>42 tonnes</td><td>一般總聯結重量</td><td>forty-two tonnes</td></tr>
+      <tr><td>74–76 tonnes</td><td>瑞典、芬蘭允許重量</td><td>seventy-four to seventy-six tonnes</td></tr>
+      <tr><td>6×2*4</td><td>卡車驅動配置</td><td>six by two star four</td></tr>
+      <tr><td>early 2027</td><td>固定車體版上市</td><td>early twenty twenty-seven</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<h2>5. Useful Expressions 實用句型<span class="time">3 min</span></h2>
+<div class="block">
+  <p class="en">1. "On paper, X and Y look identical — but the difference is in ___."</p>
+  <p class="zh">帳面上 X 跟 Y 看起來一樣，但差別在於 ___。用來拆穿兩個看似相同的宣傳數字。</p>
+
+  <p class="en">2. "That figure only holds under ideal conditions; in daily operation it's closer to ___."</p>
+  <p class="zh">那個數字只在理想條件下成立，日常使用比較接近 ___。談規格與實際落差時很好用。</p>
+
+  <p class="en">3. "There's a catch, and it's a regulatory one."</p>
+  <p class="zh">「有個前提，而且是法規面的。」指出問題不在技術而在制度。</p>
+
+  <p class="en">4. "The technology is ready before the rules are."</p>
+  <p class="zh">「技術比法規先準備好。」很適合評論產業與政策脫節的現象。</p>
+
+  <p class="en">5. "If I had to choose between ___ and ___, I'd go with ___, mainly because ___."</p>
+  <p class="zh">如果要在 ___ 和 ___ 之間選，我會選 ___，主要是因為 ___。表達取捨與理由。</p>
+</div>
+
+<h2>6. Discussion 討論題<span class="time">5 min</span></h2>
+<div class="block">
+  <ol class="qs">
+    <li>
+      <p class="en">Scania gets to seven hundred and twenty kilometres by adding packs behind the cab; Volvo gets to seven hundred with one very large battery. Which approach do you think fleet operators will trust more, and why?</p>
+      <p class="zh">Scania 靠在駕駛室後加裝電池達到七百二十公里，Volvo 則靠一顆超大電池達到七百公里。你覺得車隊業者會比較信任哪一種做法？為什麼？</p>
+    </li>
+    <li>
+      <p class="en">MAN quotes seven hundred and twenty kilometres under ideal conditions but just over six hundred in daily use. Should regulators force manufacturers to advertise only the realistic figure?</p>
+      <p class="zh">MAN 在理想條件下宣稱七百二十公里，日常使用只有六百出頭。監管機關該不該強制車廠只能宣傳實際數字？</p>
+    </li>
+    <li>
+      <p class="en">Every kilowatt-hour of battery is weight that cannot be cargo. At what point does a longer-range electric truck stop making business sense?</p>
+      <p class="zh">每一度電池都是不能拿來載貨的重量。續航拉長到什麼程度，電動卡車在商業上就不划算了？</p>
+    </li>
+    <li>
+      <p class="en">Volvo is skipping Germany for its eighty-tonne truck because of permit rules. Is it fair for a country's regulations to effectively lock out cleaner technology?</p>
+      <p class="zh">Volvo 因為許可規定而跳過德國推出八十噸卡車。一國的法規實際上把較乾淨的技術擋在門外，這樣公平嗎？</p>
+    </li>
+    <li>
+      <p class="en">Taiwan's freight routes are short compared with Europe's. Does that make electric trucks an easier sell here, or does it remove the urgency to switch?</p>
+      <p class="zh">台灣的貨運路線比歐洲短得多。這讓電動卡車在台灣更好賣，還是反而讓轉換的迫切性消失了？</p>
+    </li>
+    <li>
+      <p class="en">Some argue that for long-haul freight, hydrogen or cleaner diesel would be a smarter interim solution than seven-hundred-kilowatt-hour batteries. How would you argue each side of that?</p>
+      <p class="zh">有人主張長途貨運用氫能或更乾淨的柴油，會比七百度的大電池更聰明的過渡方案。這兩邊你各會怎麼論證？</p>
+    </li>
+  </ol>
+</div>
+
+<h2>7. Wrap-Up 總結<span class="time">2 min</span></h2>
+<div class="block">
+  <p class="en">Give your teacher a sixty-second summary of the article without looking at the text. Try to include at least three of the numbers from section four, and use the word "usable capacity" at least once.</p>
+  <p class="zh">不看文本，用六十秒向老師摘要這篇文章。試著至少用到第四節的三個數字，並且至少講一次 "usable capacity"。</p>
+
+  <p class="en">Then finish with your own position, using this frame: "Overall, I think the seven-hundred-kilometre race is ___, because ___. What I'd watch next is ___."</p>
+  <p class="zh">最後用這個句型表達你的立場：「整體來說，我認為這場七百公里之爭是 ___，因為 ___。我接下來會關注的是 ___。」</p>
+</div>
+
+<h2>Source Notes　取材筆記</h2>
+<div class="block">
+  <p class="en">Today's material comes from the Obsidian vault at <code>Claude code AI筆記 / raw / assets</code>.</p>
+  <p class="zh">今日題材取自 Obsidian 筆記庫 <code>Claude code AI筆記 / raw / assets</code>。</p>
+  <table>
+    <thead>
+      <tr><th>Note file 筆記檔名</th><th>Original 原始出處</th><th>Used for 用於</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><code>2026-09-17-Scania-Battery-Behind-Cab-720km-Range.md</code></td>
+        <td>electrive · Florian Treiss · 2026-09-15<br><a href="https://www.electrive.com/2026/09/15/scanias-new-battery-solution-enables-720-km-range/">electrive.com</a></td>
+        <td>Paragraphs 2–3: the Battery Behind Cab layout, MP20 packs, the IVD front, the 16.5-metre length limit, the 3% energy saving and the 720 km figure.<br><span class="zh">第 2–3 段：駕駛室後置電池配置、MP20 模組、IVD 車頭、十六點五公尺長度限制、省電三趴與七百二十公里續航。</span></td>
+      </tr>
+      <tr>
+        <td><code>2026-09-15-Volvo Trucks starts production of the FH Aero Electric and unveils 80-Tonne Truck.md</code></td>
+        <td>electrive · Florian Treiss · 2026-09-14<br><a href="https://www.electrive.com/2026/09/14/volvo-trucks-starts-production-of-the-fh-aero-electric-and-unveils-80-tonne-truck/">electrive.com</a></td>
+        <td>Paragraphs 4–7: start of series production at Tuve, the 780/725 kWh battery, the MAN eTGX comparison, and the 80-tonne heavy-haul truck with its market and permit limits.<br><span class="zh">第 4–7 段：Tuve 廠量產、七百八十／七百二十五度電池、MAN eTGX 比較，以及八十噸重載卡車的市場與許可限制。</span></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<footer>
+  EV Speaking Practice · 2026-09-17 · 25-minute lesson plan for one-on-one online practice.<br>
+  數據皆引自上方取材筆記；本頁為口說練習教材，非新聞報導。
+</footer>
+
+<script>
+(function () {
+  var synth = window.speechSynthesis;
+  var bar = document.getElementById('ttsbar');
+  if (!synth) {
+    bar.innerHTML = '<div id="ttshint">此瀏覽器不支援語音朗讀，請改用 Chrome、Edge 或 Safari 開啟本檔案。</div>';
+    return;
+  }
+
+  var voiceSel = document.getElementById('tts-voice');
+  var rateSel  = document.getElementById('tts-rate');
+  var voices   = [];
+  var queue    = [];
+  var qi       = 0;
+  var playing  = false;
+
+  function score(v) {
+    var n = (v.name + ' ' + (v.voiceURI || '')).toLowerCase();
+    var s = 0;
+    if (/premium|enhanced|neural|natural/.test(n)) s += 40;
+    if (/siri/.test(n)) s += 30;
+    if (/google/.test(n)) s += 25;
+    if (/samantha|ava|allison|serena|daniel|kate|arthur|evan|nathan|zoe/.test(n)) s += 12;
+    if (/compact|novelty|whisper|bells|bubbles|jester|organ|trinoids|zarvox|albert|bad news|good news/.test(n)) s -= 60;
+    if (v.lang === 'en-US') s += 6;
+    if (v.lang === 'en-GB') s += 5;
+    if (v.localService) s += 2;
+    return s;
+  }
+
+  function loadVoices() {
+    var all = synth.getVoices().filter(function (v) { return /^en[-_]/i.test(v.lang); });
+    if (!all.length) return;
+    all.sort(function (a, b) { return score(b) - score(a); });
+    voices = all;
+    voiceSel.innerHTML = '';
+    voices.forEach(function (v, i) {
+      var o = document.createElement('option');
+      o.value = i;
+      o.textContent = v.name + ' (' + v.lang + ')';
+      voiceSel.appendChild(o);
+    });
+    var saved = null;
+    try { saved = localStorage.getItem('evPracticeVoice'); } catch (e) {}
+    if (saved !== null) {
+      var idx = voices.findIndex(function (v) { return v.name === saved; });
+      if (idx > -1) voiceSel.value = idx;
+    }
+  }
+  loadVoices();
+  synth.onvoiceschanged = loadVoices;
+
+  voiceSel.addEventListener('change', function () {
+    var v = voices[voiceSel.value];
+    try { if (v) localStorage.setItem('evPracticeVoice', v.name); } catch (e) {}
+  });
+
+  function clearHighlight() {
+    var h = document.querySelector('.speaking');
+    if (h) h.classList.remove('speaking');
+  }
+
+  function stop() {
+    playing = false;
+    queue = [];
+    qi = 0;
+    synth.cancel();
+    clearHighlight();
+  }
+
+  // Chrome silently truncates any utterance longer than ~15s, so queue
+  // sentence-sized chunks instead of whole paragraphs.
+  function sentences(text) {
+    var SEP = String.fromCharCode(1);
+    var t = text.replace(/\s+/g, ' ').trim();
+    // Shield decimals/abbreviations so "86.5 percent" isn't split in two.
+    t = t.replace(/(\d)\.(\d)/g, '$1' + SEP + '$2')
+         .replace(/\b(Mr|Mrs|Ms|Dr|St|vs|etc|Inc|Ltd|Co|approx)\./gi,
+                  function (m) { return m.slice(0, -1) + SEP; })
+         .replace(/\bU\.S\./g, 'U' + SEP + 'S' + SEP);
+    var parts = t.match(/[^.!?]+[.!?]+["')\]]?|[^.!?]+$/g) || [t];
+    return parts
+      .map(function (s) { return s.split(SEP).join('.').trim(); })
+      .filter(function (s) { return /[a-zA-Z0-9]/.test(s); });
+  }
+
+  function speakNext() {
+    if (!playing || qi >= queue.length) { stop(); return; }
+    var item = queue[qi++];
+    clearHighlight();
+    if (item.el) {
+      item.el.classList.add('speaking');
+      var r = item.el.getBoundingClientRect();
+      if (r.top < 120 || r.bottom > window.innerHeight - 40) {
+        item.el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      }
+    }
+    var u = new SpeechSynthesisUtterance(item.text);
+    var v = voices[voiceSel.value];
+    if (v) { u.voice = v; u.lang = v.lang; } else { u.lang = 'en-US'; }
+    u.rate = parseFloat(rateSel.value);
+    u.pitch = 1;
+    u.onend = speakNext;
+    u.onerror = speakNext;
+    synth.speak(u);
+  }
+
+  function textOf(el) {
+    // Snapshot taken before the play glyph was injected, so it is never spoken.
+    return el.getAttribute('data-tts') || el.textContent;
+  }
+
+  function play(elements) {
+    stop();
+    queue = [];
+    elements.forEach(function (el) {
+      sentences(textOf(el)).forEach(function (s) {
+        if (s.trim()) queue.push({ el: el, text: s });
+      });
+    });
+    if (!queue.length) return;
+    playing = true;
+    qi = 0;
+    speakNext();
+  }
+
+  document.getElementById('tts-stop').addEventListener('click', stop);
+
+  document.getElementById('tts-play').addEventListener('click', function () {
+    var paras = [].slice.call(document.querySelectorAll('#article .en'));
+    play(paras);
+  });
+
+  rateSel.addEventListener('change', function () { if (playing) stop(); });
+
+  var targets = [].slice.call(document.querySelectorAll('.en'));
+  targets.forEach(function (el) {
+    el.setAttribute('data-tts', el.textContent);
+    var b = document.createElement('button');
+    b.className = 'playbtn';
+    b.type = 'button';
+    b.textContent = '▶';
+    b.setAttribute('aria-label', 'Play this sentence');
+    b.addEventListener('click', function (e) {
+      e.stopPropagation();
+      play([el]);
+    });
+    el.insertBefore(b, el.firstChild);
+  });
+
+  [].slice.call(document.querySelectorAll('table tr')).forEach(function (tr) {
+    var cells = tr.querySelectorAll('td');
+    if (cells.length < 2) return;
+    var last = cells[cells.length - 1];
+    if (!/[a-zA-Z]/.test(last.textContent)) return;
+    last.style.cursor = 'pointer';
+    last.title = 'Click to hear it 點一下聽發音';
+    last.addEventListener('click', function () { play([last]); });
+  });
+
+  window.addEventListener('beforeunload', function () { synth.cancel(); });
+})();
+</script>
+</body>
+</html>

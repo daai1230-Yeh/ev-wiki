@@ -1,6 +1,6 @@
 # Wiki Index
 
-Last updated: 2026-10-13 | Pages: 492 | Sources: 550
+Last updated: 2026-10-14 | Pages: 497 | Sources: 554
 
 ---
 
@@ -96,6 +96,10 @@ Last updated: 2026-10-13 | Pages: 492 | Sources: 550
 - [[sources/ev-news-2026-10-12-digitimes]] — Digitimes批次6篇：德國力挺FSD、Applied Intuition助日廠SDV、中國取消電動車出口退稅分析、豐田北美電池中心、速霸陸onsemi EPP（註：剪輯檔無單篇網址）。(2026-10-12)
 - [[sources/ev-news-2026-10-12-digest]] — 中文財經批次8篇：陸混動車輸歐恐砍半、豐田泰國殘值貸款、現代印度1,000萬輛、華德電巴、桃園A21、雙層客運補助縮水、Starlink印度。(2026-10-12)
 - [[sources/ev-news-2026-10-12-digitimes-2]] — Digitimes CarTech補充2篇：豐田、廣汽、一汽三方協議正式簽署、麗升跨足充電樁（註：剪輯檔無單篇網址）。(2026-10-12)
+- [[sources/ev-news-2026-10-12-14-digitimes]] — Digitimes CarTech 9篇：中國新能源車出口退稅2027-04起由13%降至9%（含評析）、歐盟HEV／PHEV年35萬輛配額、LGES大進機械轉單與L&F LFP長約、台灣能管法帶動儲能、寰聖／桓鼎、裕日車估車市42萬輛（全數附原文網址）。(2026-10-14)
+- [[sources/ev-news-2026-10-13-14-electrive-en]] — electrive 10篇＋InsideEVs 1篇：巴黎車展BYD Atto 8閃充、小鵬G9L、Forthing、Smart #2 19,999歐元；Stellantis×零跑共同開發；BMW Q3純電+7.2%；Renault×EDF V2G；OTTO'S eActros 600車隊；INIT自駕車隊管理。(2026-10-14)
+- [[sources/ev-news-2026-10-13-14-insideevs]] — InsideEVs 5篇：Citroën 2CV（1.5萬歐元目標）、Peugeot RCZ固態概念車、Fiat Multiplay；美國快充埠破8萬；福斯美國EV年減90%。(2026-10-14)
+- [[sources/ev-news-2026-10-14-bus-digest]] — 電巴綜合5篇：Ebusco獲國軒586萬歐元但急需資金、義大利201輛電巴標案、豐田二代Sora規格、連江縣買不到合適電巴、鴻海×三地集團（論壇觀點）。(2026-10-14)
 
 ### 電動乘用車
 - [[sources/ev-news-2026-08-27-29-electrive-en]] — electrive/InsideEVs批次21篇：BMW突破200萬輛EV銷售、BYD超快充電池耐久測試（9天350次快充僅剩1.3%衰減）、中國門把手召回歐洲KBA/RDW調查、Tesla Cybercab奧斯汀發表活動將至、Rivian財務長離職、Lucid召回2.7萬輛。(2026-08-29)
@@ -621,6 +625,7 @@ Last updated: 2026-10-13 | Pages: 492 | Sources: 550
 - [[entities/Stellantis]] — 歐美跨國車廠，持股零跑 20%，EV 策略面臨多重壓力。
 - [[entities/Volkswagen]] — 德國最大車廠，計劃關閉 4 座德國工廠裁員 10 萬人，VW-Bosch L3 聯盟傳分裂。
 - [[entities/BMW]] — 德國豪華車廠，iX5（141 kWh/460 kW DC）世界首映，Spartanburg 廠 2026-08 量產。
+- [[entities/Ebusco]] — 荷蘭電動巴士製造商，OED轉型、國軒為策略股東；2026年交車量崩跌、持續經營危機。
 - [[entities/Renault]] — 法國最大車廠，RNM Alliance，R4/R5 Gen2 2026 年底，LFP 路線圖已列入。
 - [[entities/日産]] — 日本第三大車廠，固態電池 23 層驗證 FY2028 量產，Honda/Nissan SDV ECU 合作 2029。
 

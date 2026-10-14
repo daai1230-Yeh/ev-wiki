@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>EV Speaking Practice — 2026-09-13 · Thailand's Tariff Gambit and Mitsubishi's Hybrid Bet</title>
+<style>
+  :root {
+    --bg: #0C2A65;
+    --fg: #FFFFFF;
+    --accent: #7FB3FF;
+    --line: rgba(255,255,255,.18);
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--fg);
+    font-family: -apple-system, "Helvetica Neue", "PingFang TC", "Noto Sans TC", Arial, sans-serif;
+    font-size: 20pt;
+    line-height: 1.55;
+  }
+  .wrap { max-width: 900px; margin: 0 auto; padding: 28px 24px 60px; }
+  header.top { margin-bottom: 18px; }
+  header.top h1 {
+    font-size: 1.5em;
+    margin: 0 0 6px;
+    border-left: 6px solid var(--accent);
+    padding-left: 14px;
+  }
+  header.top .sub {
+    font-size: .62em;
+    opacity: .75;
+    padding-left: 20px;
+  }
+  .plan {
+    border: 1px solid var(--line);
+    border-left: 6px solid var(--accent);
+    border-radius: 10px;
+    padding: 16px 20px;
+    margin: 18px 0 22px;
+    background: rgba(127,179,255,.06);
+    font-size: .62em;
+  }
+  .plan h2 {
+    margin: 0 0 10px;
+    font-size: 1.15em;
+    color: var(--accent);
+    letter-spacing: .03em;
+  }
+  .plan ol { margin: 0; padding-left: 22px; }
+  .plan li { margin: 4px 0; }
+  .plan .min { color: var(--accent); font-weight: 700; }
+  h2 {
+    font-size: 1.05em;
+    border-left: 6px solid var(--accent);
+    padding-left: 14px;
+    margin: 40px 0 16px;
+  }
+  h2 .time { color: var(--accent); font-weight: 400; font-size: .7em; opacity: .85; }
+  .block { margin-bottom: 10px; }
+  .en { margin: 0 0 4px; }
+  .zh { margin: 0 0 18px; font-size: .82em; opacity: .72; }
+  .qlist { list-style: none; margin: 0; padding: 0; }
+  .qlist li { margin: 0 0 18px; padding-left: 4px; }
+  .qlist .en::before { content: none; }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 10px 0 20px;
+    font-size: .62em;
+  }
+  th, td {
+    border: 1px solid var(--line);
+    padding: 10px 12px;
+    text-align: left;
+    vertical-align: top;
+  }
+  th {
+    background: rgba(127,179,255,.15);
+    color: var(--accent);
+    font-weight: 700;
+    letter-spacing: .02em;
+  }
+  td .zh { margin: 2px 0 0; font-size: .95em; }
+  .expr-item {
+    border-left: 3px solid var(--accent);
+    padding-left: 14px;
+    margin: 0 0 20px;
+  }
+  .expr-item .pattern { font-weight: 700; }
+  .expr-item .note { font-size: .75em; opacity: .75; margin-top: 4px; }
+  .sourcenotes { font-size: .55em; }
+  .sourcenotes h2 { font-size: 1.05em; }
+  .sourcenotes .path { margin: 0 0 14px; opacity: .8; }
+  .sourcenotes table { font-size: 1em; }
+  .sourcenotes code { background: rgba(255,255,255,.08); padding: 2px 6px; border-radius: 4px; }
+  .sourcenotes a { color: var(--accent); }
+  footer {
+    margin-top: 50px;
+    padding-top: 18px;
+    border-top: 1px solid var(--line);
+    font-size: .5em;
+    opacity: .6;
+    text-align: center;
+  }
+  @media (max-width: 640px) {
+    body { font-size: 16pt; }
+    .wrap { padding: 18px 14px 50px; }
+    table, th, td { font-size: .8em; }
+  }
+
+  /* ---- Text-to-speech controls ---- */
+  #ttsbar {
+    position:sticky; top:0; z-index:50;
+    background:rgba(12,42,101,.96); backdrop-filter:blur(6px);
+    border:1px solid var(--line); border-radius:10px;
+    padding:14px 18px; margin:0 0 8px;
+    display:flex; flex-wrap:wrap; gap:10px 14px; align-items:center;
+    font-size:14pt;
+  }
+  #ttsbar label { opacity:.75; letter-spacing:.04em; }
+  #ttsbar button {
+    font:inherit; font-size:14pt; font-weight:700;
+    color:var(--bg); background:var(--accent);
+    border:none; border-radius:6px; padding:8px 16px; cursor:pointer;
+  }
+  #ttsbar button.ghost { background:transparent; color:var(--accent); border:1px solid var(--accent); }
+  #ttsbar button:hover { opacity:.85; }
+  #ttsbar select {
+    font:inherit; font-size:14pt;
+    color:var(--fg); background:#123573;
+    border:1px solid var(--line); border-radius:6px; padding:7px 10px; max-width:260px;
+  }
+  #ttshint { flex-basis:100%; font-size:12.5pt; opacity:.6; line-height:1.5; }
+  .playbtn {
+    font:inherit; font-size:13pt; line-height:1;
+    color:var(--accent); background:transparent;
+    border:1px solid rgba(127,179,255,.5); border-radius:5px;
+    padding:4px 9px; margin-right:10px; cursor:pointer; vertical-align:middle;
+  }
+  .playbtn:hover { background:rgba(127,179,255,.16); }
+  .speaking {
+    background:rgba(127,179,255,.17);
+    box-shadow:0 0 0 8px rgba(127,179,255,.17);
+    border-radius:3px;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header class="top">
+  <h1>EV Speaking Practice — 2026-09-13<br>Thailand's Tariff Gambit and Mitsubishi's Hybrid Bet</h1>
+  <div class="sub">25-minute session · B2–C1 · Electric Vehicles &amp; Industrial Policy</div>
+</header>
+
+<div class="plan">
+  <h2>Session Plan 練習規劃</h2>
+  <ol>
+    <li><span class="min">3 min</span> — Warm-Up 暖身</li>
+    <li><span class="min">6 min</span> — Read Aloud 朗讀短文</li>
+    <li><span class="min">4 min</span> — Key Vocabulary 關鍵單字</li>
+    <li><span class="min">2 min</span> — Saying the Numbers 數字唸法</li>
+    <li><span class="min">3 min</span> — Useful Expressions 實用句型</li>
+    <li><span class="min">5 min</span> — Discussion 討論題</li>
+    <li><span class="min">2 min</span> — Wrap-Up 總結</li>
+  </ol>
+</div>
+
+<div id="ttsbar">
+  <button id="tts-play">▶ Read the article 朗讀全文</button>
+  <button id="tts-stop" class="ghost">■ Stop 停止</button>
+  <label for="tts-voice">Voice</label>
+  <select id="tts-voice"></select>
+  <label for="tts-rate">Speed</label>
+  <select id="tts-rate">
+    <option value="0.75">0.75× 慢</option>
+    <option value="0.9" selected>0.9× 稍慢</option>
+    <option value="1">1.0× 正常</option>
+    <option value="1.15">1.15× 快</option>
+  </select>
+  <div id="ttshint">每個英文段落左邊都有 ▶ 可單獨播放；正在唸的句子會反白。想要更自然的聲音：macOS「系統設定 → 輔助使用 → 朗讀內容 → 系統聲音」下載 Enhanced／Premium 或 Siri 語音，再回來從上面的 Voice 選單選取。</div>
+</div>
+
+<h2>1. Warm-Up <span class="time">暖身 · 3 min</span></h2>
+<ul class="qlist">
+  <li class="block">
+    <p class="en">Have you ever bought, or thought about buying, an electric or hybrid vehicle? What mattered most to you — price, driving range, or brand?</p>
+    <p class="zh">你有沒有買過、或考慮過買電動車或油電混合車？對你來說最重要的是什麼——價格、續航里程，還是品牌？</p>
+  </li>
+  <li class="block">
+    <p class="en">What do you know about how governments use tariffs or taxes to support local industries?</p>
+    <p class="zh">你對政府如何運用關稅或稅制來扶植本地產業了解多少？</p>
+  </li>
+  <li class="block">
+    <p class="en">Do you think Southeast Asian countries like Thailand, Vietnam, and Indonesia will become major car-manufacturing hubs in the future?</p>
+    <p class="zh">你認為泰國、越南、印尼這些東南亞國家未來會成為重要的汽車製造中心嗎？</p>
+  </li>
+</ul>
+
+<h2>2. Read Aloud <span class="time">朗讀短文 · 6 min</span></h2>
+<div class="block" id="article">
+  <p class="en">Thailand's auto industry is standing at a crossroads. After years of welcoming a flood of imported electric vehicles, mostly from China, the government is now moving to protect the manufacturers who actually build cars on Thai soil.</p>
+  <p class="zh">泰國的汽車產業正站在十字路口。多年來政府敞開大門，歡迎大量進口電動車（多數來自中國）湧入市場，如今卻轉向保護真正在泰國本土設廠生產的車廠。</p>
+
+  <p class="en">On Thursday, Thailand's EV Policy Committee approved, in principle, a three-tier excise tax structure for electric vehicles. Cars manufactured locally will face the lowest tax rate, vehicles with some imported parts will sit in a middle tier, and fully imported EVs will be hit with the highest rate.</p>
+  <p class="zh">泰國電動車政策委員會於週四原則性通過一項三級制電動車貨物稅方案：本地製造的車輛適用最低稅率，部分零組件仰賴進口的車輛適用中間稅率，完全進口的電動車則面臨最高稅率。</p>
+
+  <p class="en">The stakes are high. The auto sector accounts for roughly three percent of Thailand's GDP and supports more than five hundred thousand jobs. With Indonesia and Vietnam also racing to attract foreign automakers, Bangkok wants to reward companies that build factories at home rather than simply ship finished cars across the border.</p>
+  <p class="zh">這攸關重大利益。汽車產業約占泰國GDP的3%，並支撐超過50萬個就業機會。隨著印尼和越南也加入搶奪外國車廠投資的競賽，泰國政府希望獎勵在當地設廠生產的企業，而不是只把成車運進國門。</p>
+
+  <p class="en">Japanese carmaker Mitsubishi seems to be reading the signals early. The company plans to invest 16 billion baht, roughly NT$15.4 billion, by 2030 to turn its Thai plant into an electrification production and export hub.</p>
+  <p class="zh">日本車廠三菱似乎提早看懂了這個風向。該公司計畫在2030年前投入160億泰銖（約新台幣154億元），將泰國工廠升級為電氣化生產與出口樞紐。</p>
+
+  <p class="en">Mitsubishi's chairman and CEO, Takao Kato, has already met with Thai Prime Minister Anutin to lay out the plan. Thailand is Mitsubishi's second-largest production base after Japan itself: the company has invested over 500 billion yen there cumulatively and has exported more than five million vehicles from its Thai factories.</p>
+  <p class="zh">三菱董事長兼執行長加藤隆雄已與泰國總理阿努廷會面，說明這項計畫。泰國是三菱僅次於日本本土的第二大生產基地：該公司在當地累積投資超過5,000億日圓，並從泰國工廠出口超過500萬輛汽車。</p>
+
+  <p class="en">Rather than jumping straight to full electric models, Mitsubishi appears to be betting on hybrids first. Its next-generation Pajero and the Triton pickup are both expected to gain hybrid powertrains, building on existing hybrid models like the XForce and XPander that already run without a plug-in cable.</p>
+  <p class="zh">三菱似乎並非直接跳向純電車型，而是優先押注油電混合動力。新一代Pajero與Triton皮卡都可望導入油電系統，延續XForce與XPander等不需外接充電的現有油電車型路線。</p>
+
+  <p class="en">This fits a broader pattern. According to Thailand's Board of Investment, Japanese companies filed 302 investment applications in 2025 worth more than 113.7 billion baht, more than double the previous year. Within that total, applications for automobiles and parts reached 28.31 billion baht, up 57 percent year-on-year, while electronics applications rose 76 percent to 19.378 billion baht — evidence that Japanese investment in Thailand is shifting toward higher-value electrified components, not just assembly lines.</p>
+  <p class="zh">這符合一個更大的趨勢。根據泰國投資局（BOI）數據，2025年日資申請案達302件，總額超過1,137億泰銖，較前一年增加逾一倍。其中汽車及零組件申請金額達283.1億泰銖，年增57%；電子電器申請則成長76%，達193.78億泰銖——顯示日資在泰國的布局正從組裝產線轉向附加價值更高的電氣化零組件。</p>
+</div>
+
+<h2>3. Key Vocabulary <span class="time">關鍵單字 · 4 min</span></h2>
+<table>
+  <tr><th>Word</th><th>IPA</th><th>中文意思</th><th>Example</th></tr>
+  <tr>
+    <td class="en">tariff</td>
+    <td>/ˈtær.ɪf/</td>
+    <td>關稅</td>
+    <td class="en">The new tariff makes fully imported EVs much more expensive to sell in Thailand.</td>
+  </tr>
+  <tr>
+    <td class="en">excise tax</td>
+    <td>/ˈek.saɪz tæks/</td>
+    <td>貨物稅</td>
+    <td class="en">Thailand's excise tax on vehicles is now organized into three tiers.</td>
+  </tr>
+  <tr>
+    <td class="en">tiered</td>
+    <td>/tɪrd/</td>
+    <td>分級制的</td>
+    <td class="en">Under the tiered system, locally made cars pay the lowest rate.</td>
+  </tr>
+  <tr>
+    <td class="en">localization</td>
+    <td>/ˌloʊ.kəl.ɪˈzeɪ.ʃən/</td>
+    <td>在地化、本地生產</td>
+    <td class="en">The policy is really about pushing localization of EV manufacturing.</td>
+  </tr>
+  <tr>
+    <td class="en">electrification</td>
+    <td>/ɪˌlek.trɪ.fɪˈkeɪ.ʃən/</td>
+    <td>電氣化</td>
+    <td class="en">Mitsubishi wants its Thai plant to lead the region's electrification push.</td>
+  </tr>
+  <tr>
+    <td class="en">hybrid powertrain</td>
+    <td>/ˈhaɪ.brɪd ˈpaʊ.ɚ.treɪn/</td>
+    <td>油電混合動力系統</td>
+    <td class="en">The next Pajero may come with a hybrid powertrain instead of a fully electric one.</td>
+  </tr>
+  <tr>
+    <td class="en">incentive</td>
+    <td>/ɪnˈsen.tɪv/</td>
+    <td>獎勵措施</td>
+    <td class="en">Thailand is offering stronger incentives to automakers that build factories locally.</td>
+  </tr>
+  <tr>
+    <td class="en">cornerstone industry</td>
+    <td>/ˈkɔːr.nɚ.stoʊn ˈɪn.də.stri/</td>
+    <td>支柱產業</td>
+    <td class="en">Cars are a cornerstone industry for Thailand, supporting half a million jobs.</td>
+  </tr>
+  <tr>
+    <td class="en">export hub</td>
+    <td>/ˈek.spɔːrt hʌb/</td>
+    <td>出口樞紐</td>
+    <td class="en">Mitsubishi is turning its plant into a regional export hub for electrified vehicles.</td>
+  </tr>
+  <tr>
+    <td class="en">cumulative</td>
+    <td>/ˈkjuː.mjə.lə.tɪv/</td>
+    <td>累積的</td>
+    <td class="en">Mitsubishi's cumulative investment in Thailand now exceeds 500 billion yen.</td>
+  </tr>
+  <tr>
+    <td class="en">year-on-year (YoY)</td>
+    <td>/ˌjɪr ɑːn ˈjɪr/</td>
+    <td>年增率、同比</td>
+    <td class="en">Auto and parts applications rose 57 percent year-on-year.</td>
+  </tr>
+  <tr>
+    <td class="en">chassis</td>
+    <td>/ˈʃæs.i/</td>
+    <td>車架、底盤</td>
+    <td class="en">The new Pajero is expected to share a chassis with the Triton pickup.</td>
+  </tr>
+</table>
+
+<h2>4. Saying the Numbers <span class="time">數字唸法 · 2 min</span></h2>
+<table>
+  <tr><th>From the article</th><th>How to say it</th></tr>
+  <tr><td>3-tier tax system</td><td class="en">a three-tier tax system</td></tr>
+  <tr><td>3% of GDP</td><td class="en">three percent of G-D-P</td></tr>
+  <tr><td>500,000+ jobs</td><td class="en">over half a million jobs</td></tr>
+  <tr><td>16 billion baht</td><td class="en">sixteen billion baht</td></tr>
+  <tr><td>NT$15.4 billion</td><td class="en">fifteen point four billion N-T dollars</td></tr>
+  <tr><td>by 2030</td><td class="en">by twenty thirty</td></tr>
+  <tr><td>500 billion yen</td><td class="en">five hundred billion yen</td></tr>
+  <tr><td>5 million vehicles</td><td class="en">more than five million vehicles</td></tr>
+  <tr><td>302 applications</td><td class="en">three hundred and two applications</td></tr>
+  <tr><td>113.7 billion baht</td><td class="en">one hundred thirteen point seven billion baht</td></tr>
+  <tr><td>+57% YoY (auto &amp; parts)</td><td class="en">up fifty-seven percent year-on-year</td></tr>
+  <tr><td>+76% YoY (electronics)</td><td class="en">up seventy-six percent year-on-year</td></tr>
+</table>
+
+<h2>5. Useful Expressions <span class="time">實用句型 · 3 min</span></h2>
+<div class="expr-item">
+  <p class="pattern en">"The policy is designed to encourage X rather than Y."</p>
+  <p class="note zh">用來說明一項政策的意圖或目的，強調它鼓勵某種行為而非另一種。例：The policy is designed to encourage local production rather than imports.</p>
+</div>
+<div class="expr-item">
+  <p class="pattern en">"This marks a shift from A to B."</p>
+  <p class="note zh">描述一個明顯的政策或趨勢轉變。例：This marks a shift from import-friendly rules to protectionism.</p>
+</div>
+<div class="expr-item">
+  <p class="pattern en">"X is expected to benefit from Y."</p>
+  <p class="note zh">表達某事物可望因某個變化而受益。例：The Triton pickup is expected to benefit from the plant's hybrid upgrade.</p>
+</div>
+<div class="expr-item">
+  <p class="pattern en">"According to data released by Z, ... rose/fell by N percent year-on-year."</p>
+  <p class="note zh">引用官方或機構數據時的標準句型。例：According to data released by Thailand's BOI, auto-related applications rose by 57 percent year-on-year.</p>
+</div>
+<div class="expr-item">
+  <p class="pattern en">"On one hand... on the other hand..."</p>
+  <p class="note zh">呈現一件事的兩面，適合討論政策利弊時使用。例：On one hand, tariffs protect local jobs; on the other hand, they can raise prices for consumers.</p>
+</div>
+
+<h2>6. Discussion <span class="time">討論題 · 5 min</span></h2>
+<ul class="qlist">
+  <li class="block">
+    <p class="en">Do you think tariffs are an effective way for a country to protect its domestic auto industry? Why or why not?</p>
+    <p class="zh">你認為關稅是保護國內汽車產業的有效方法嗎？為什麼？</p>
+  </li>
+  <li class="block">
+    <p class="en">Thailand previously lowered import barriers to attract Chinese EV makers, and now it's reversing course. What are the risks of changing trade policy so quickly?</p>
+    <p class="zh">泰國過去曾降低進口門檻以吸引中國電動車廠，現在卻反向操作。這種快速轉變貿易政策有什麼風險？</p>
+  </li>
+  <li class="block">
+    <p class="en">Mitsubishi is betting on hybrids rather than full EVs in Thailand. Is this a smart strategy given local infrastructure and consumer demand?</p>
+    <p class="zh">三菱選擇在泰國押注油電混合車而非純電動車。考量當地基礎設施與消費需求，這是聰明的策略嗎？</p>
+  </li>
+  <li class="block">
+    <p class="en">How might this tariff policy affect the competition between Chinese, Japanese, and Western automakers in Southeast Asia?</p>
+    <p class="zh">這項關稅政策可能如何影響中國、日本與西方車廠在東南亞的競爭？</p>
+  </li>
+  <li class="block">
+    <p class="en">Thailand, Indonesia, and Vietnam are all competing for the same foreign investment. What should a country offer to win that competition?</p>
+    <p class="zh">泰國、印尼和越南都在爭奪同一批外國投資。一個國家該提供什麼條件才能贏得這場競爭？</p>
+  </li>
+  <li class="block">
+    <p class="en">Taiwan's own auto and EV supply chain is part of this same regional competition. What lessons, if any, can Taiwan draw from Thailand's approach?</p>
+    <p class="zh">台灣的汽車與電動車供應鏈也身處這場區域競爭之中。台灣可以從泰國的做法中學到什麼教訓嗎？</p>
+  </li>
+</ul>
+
+<h2>7. Wrap-Up <span class="time">總結 · 2 min</span></h2>
+<div class="block">
+  <p class="en">In 60 seconds, summarize the article: what is Thailand's new tariff policy, why is the government introducing it now, and how is a company like Mitsubishi responding?</p>
+  <p class="zh">用60秒總結這篇文章：泰國的新關稅政策是什麼？政府為什麼現在推出它？像三菱這樣的公司又是如何回應的？</p>
+</div>
+<div class="expr-item">
+  <p class="pattern en">"If I had to take a side, I'd say [policy/company] is the right move, because..."</p>
+  <p class="note zh">用來在總結時明確表達個人立場。例：If I had to take a side, I'd say Thailand's tariff policy is the right move, because protecting half a million jobs matters more than keeping prices low in the short term.</p>
+</div>
+
+<div class="sourcenotes">
+  <h2>Source Notes <span class="time">取材筆記</span></h2>
+  <p class="path"><span class="en">Vault path: Claude code AI筆記 / raw / assets</span><br><span class="zh">筆記庫路徑：Claude code AI筆記 / raw / assets</span></p>
+  <table>
+    <tr><th>Note file 筆記檔名</th><th>Original 原始出處</th><th>Used for 用於</th></tr>
+    <tr>
+      <td><code>2026-09-12-泰國推三級制電動車關稅 鼓勵在地製造鞏固汽車產業.md</code></td>
+      <td>商傳媒 (Sunmedia) · 2026-09-11<br><a href="https://sunmedia.tw/news/Industry-information/1789085005-泰國推三級制電動車關稅-鼓勵在地製造鞏固汽車產業" target="_blank" rel="noopener">原始連結 Original link</a></td>
+      <td>Three-tier excise tax policy, GDP share, job numbers, regional competition context.<br>三級制貨物稅政策、GDP佔比、就業人數、區域競爭背景。</td>
+    </tr>
+    <tr>
+      <td><code>2026-09-12-Mitsubishi砸160億泰銖升級泰國產線 Triton、Pajero有望受惠油電化.md</code></td>
+      <td>地球黃金線 TVBS · 2026-08-03<br><a href="https://cars.tvbs.com.tw/car-news/335451" target="_blank" rel="noopener">原始連結 Original link</a></td>
+      <td>Mitsubishi's 16-billion-baht investment plan, hybrid strategy for Pajero/Triton, Japan BOI 2025 investment data.<br>三菱160億泰銖投資計畫、Pajero與Triton油電化策略、日資BOI 2025投資數據。</td>
+    </tr>
+  </table>
+</div>
+
+<footer>
+  EV Speaking Practice · Generated for Claude Yeh · 2026-09-13 · Web Speech API read-aloud enabled
+</footer>
+
+</div>
+
+<script>
+(function () {
+  var synth = window.speechSynthesis;
+  var bar = document.getElementById('ttsbar');
+  if (!synth) {
+    bar.innerHTML = '<div id="ttshint">此瀏覽器不支援語音朗讀，請改用 Chrome、Edge 或 Safari 開啟本檔案。</div>';
+    return;
+  }
+
+  var voiceSel = document.getElementById('tts-voice');
+  var rateSel  = document.getElementById('tts-rate');
+  var voices   = [];
+  var queue    = [];
+  var qi       = 0;
+  var playing  = false;
+
+  function score(v) {
+    var n = (v.name + ' ' + (v.voiceURI || '')).toLowerCase();
+    var s = 0;
+    if (/premium|enhanced|neural|natural/.test(n)) s += 40;
+    if (/siri/.test(n)) s += 30;
+    if (/google/.test(n)) s += 25;
+    if (/samantha|ava|allison|serena|daniel|kate|arthur|evan|nathan|zoe/.test(n)) s += 12;
+    if (/compact|novelty|whisper|bells|bubbles|jester|organ|trinoids|zarvox|albert|bad news|good news/.test(n)) s -= 60;
+    if (v.lang === 'en-US') s += 6;
+    if (v.lang === 'en-GB') s += 5;
+    if (v.localService) s += 2;
+    return s;
+  }
+
+  function loadVoices() {
+    var all = synth.getVoices().filter(function (v) { return /^en[-_]/i.test(v.lang); });
+    if (!all.length) return;
+    all.sort(function (a, b) { return score(b) - score(a); });
+    voices = all;
+    voiceSel.innerHTML = '';
+    voices.forEach(function (v, i) {
+      var o = document.createElement('option');
+      o.value = i;
+      o.textContent = v.name + ' (' + v.lang + ')';
+      voiceSel.appendChild(o);
+    });
+    var saved = null;
+    try { saved = localStorage.getItem('evPracticeVoice'); } catch (e) {}
+    if (saved !== null) {
+      var idx = voices.findIndex(function (v) { return v.name === saved; });
+      if (idx > -1) voiceSel.value = idx;
+    }
+  }
+  loadVoices();
+  synth.onvoiceschanged = loadVoices;
+
+  voiceSel.addEventListener('change', function () {
+    var v = voices[voiceSel.value];
+    try { if (v) localStorage.setItem('evPracticeVoice', v.name); } catch (e) {}
+  });
+
+  function clearHighlight() {
+    var h = document.querySelector('.speaking');
+    if (h) h.classList.remove('speaking');
+  }
+
+  function stop() {
+    playing = false;
+    queue = [];
+    qi = 0;
+    synth.cancel();
+    clearHighlight();
+  }
+
+  // Chrome silently truncates any utterance longer than ~15s, so queue
+  // sentence-sized chunks instead of whole paragraphs.
+  function sentences(text) {
+    var SEP = String.fromCharCode(1);
+    var t = text.replace(/\s+/g, ' ').trim();
+    // Shield decimals/abbreviations so "86.5 percent" isn't split in two.
+    t = t.replace(/(\d)\.(\d)/g, '$1' + SEP + '$2')
+         .replace(/\b(Mr|Mrs|Ms|Dr|St|vs|etc|Inc|Ltd|Co|approx)\./gi,
+                  function (m) { return m.slice(0, -1) + SEP; })
+         .replace(/\bU\.S\./g, 'U' + SEP + 'S' + SEP);
+    var parts = t.match(/[^.!?]+[.!?]+["')\]]?|[^.!?]+$/g) || [t];
+    return parts
+      .map(function (s) { return s.split(SEP).join('.').trim(); })
+      .filter(function (s) { return /[a-zA-Z0-9]/.test(s); });
+  }
+
+  function speakNext() {
+    if (!playing || qi >= queue.length) { stop(); return; }
+    var item = queue[qi++];
+    clearHighlight();
+    if (item.el) {
+      item.el.classList.add('speaking');
+      var r = item.el.getBoundingClientRect();
+      if (r.top < 120 || r.bottom > window.innerHeight - 40) {
+        item.el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      }
+    }
+    var u = new SpeechSynthesisUtterance(item.text);
+    var v = voices[voiceSel.value];
+    if (v) { u.voice = v; u.lang = v.lang; } else { u.lang = 'en-US'; }
+    u.rate = parseFloat(rateSel.value);
+    u.pitch = 1;
+    u.onend = speakNext;
+    u.onerror = speakNext;
+    synth.speak(u);
+  }
+
+  function textOf(el) {
+    // Snapshot taken before the play glyph was injected, so it is never spoken.
+    return el.getAttribute('data-tts') || el.textContent;
+  }
+
+  function play(elements) {
+    stop();
+    queue = [];
+    elements.forEach(function (el) {
+      sentences(textOf(el)).forEach(function (s) {
+        if (s.trim()) queue.push({ el: el, text: s });
+      });
+    });
+    if (!queue.length) return;
+    playing = true;
+    qi = 0;
+    speakNext();
+  }
+
+  document.getElementById('tts-stop').addEventListener('click', stop);
+
+  document.getElementById('tts-play').addEventListener('click', function () {
+    var paras = [].slice.call(document.querySelectorAll('#article .en'));
+    play(paras);
+  });
+
+  rateSel.addEventListener('change', function () { if (playing) stop(); });
+
+  var targets = [].slice.call(document.querySelectorAll('.en'));
+  targets.forEach(function (el) {
+    el.setAttribute('data-tts', el.textContent);
+    var b = document.createElement('button');
+    b.className = 'playbtn';
+    b.type = 'button';
+    b.textContent = '▶';
+    b.setAttribute('aria-label', 'Play this sentence');
+    b.addEventListener('click', function (e) {
+      e.stopPropagation();
+      play([el]);
+    });
+    el.insertBefore(b, el.firstChild);
+  });
+
+  [].slice.call(document.querySelectorAll('table tr')).forEach(function (tr) {
+    var cells = tr.querySelectorAll('td');
+    if (cells.length < 2) return;
+    var last = cells[cells.length - 1];
+    if (!/[a-zA-Z]/.test(last.textContent)) return;
+    last.style.cursor = 'pointer';
+    last.title = 'Click to hear it 點一下聽發音';
+    last.addEventListener('click', function () { play([last]); });
+  });
+
+  window.addEventListener('beforeunload', function () { synth.cancel(); });
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,510 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>EV Speaking Practice — Who Controls the Battery? (2026-09-29)</title>
+<style>
+  :root {
+    --bg: #0C2A65;
+    --fg: #FFFFFF;
+    --accent: #7FB3FF;
+    --line: rgba(255,255,255,.25);
+  }
+  * { box-sizing: border-box; }
+  html, body {
+    margin: 0; padding: 0;
+    background: var(--bg); color: var(--fg);
+    font-family: -apple-system, "Segoe UI", "Helvetica Neue", Arial, "PingFang TC", "Noto Sans TC", sans-serif;
+    font-size: 20pt;
+    line-height: 1.6;
+  }
+  .wrap { max-width: 900px; margin: 0 auto; padding: 24px 18px 60px; }
+  header { margin-bottom: 18px; }
+  header .kicker {
+    color: var(--accent); font-size: 14pt; letter-spacing: .08em;
+    text-transform: uppercase; margin-bottom: 6px;
+  }
+  h1 {
+    font-size: 26pt; line-height: 1.3; margin: 0 0 10px;
+  }
+  header .meta { font-size: 14pt; opacity: .75; }
+  h2 {
+    font-size: 19pt; margin: 34px 0 14px; padding-left: 14px;
+    border-left: 6px solid var(--accent);
+    display: flex; flex-wrap: wrap; gap: 8px 14px; align-items: baseline;
+  }
+  h2 .time {
+    font-size: 12.5pt; color: var(--accent); font-weight: 700;
+    border: 1px solid var(--accent); border-radius: 999px; padding: 2px 12px;
+  }
+  .block {
+    border: 1px solid var(--line); border-radius: 10px;
+    padding: 18px 20px; margin-bottom: 14px;
+  }
+  .plan {
+    border: 1px solid var(--line); border-radius: 10px;
+    padding: 16px 20px; margin: 18px 0 26px;
+    background: rgba(127,179,255,.06);
+  }
+  .plan h3 {
+    margin: 0 0 10px; font-size: 14pt; color: var(--accent);
+    letter-spacing: .04em; text-transform: uppercase;
+  }
+  .plan ol { margin: 0; padding-left: 22px; font-size: 14.5pt; }
+  .plan li { margin: 4px 0; }
+  .plan .m { color: var(--accent); font-weight: 700; }
+  p.en { margin: 0 0 4px; }
+  p.zh { margin: 0 0 20px; font-size: 15.5pt; opacity: .72; }
+  .qa { margin: 0 0 22px; }
+  .qa .num {
+    color: var(--accent); font-weight: 700; margin-right: 8px;
+  }
+  table {
+    width: 100%; border-collapse: collapse; margin: 6px 0 8px;
+    font-size: 15pt;
+  }
+  th, td {
+    border-bottom: 1px solid var(--line);
+    padding: 10px 8px; text-align: left; vertical-align: top;
+  }
+  th {
+    color: var(--bg); background: var(--accent);
+    font-size: 13pt; letter-spacing: .03em;
+  }
+  td.ipa { color: var(--accent); white-space: nowrap; }
+  code {
+    background: rgba(255,255,255,.1); padding: 2px 6px; border-radius: 4px;
+    font-size: .85em;
+  }
+  .expr {
+    border: 1px solid var(--line); border-radius: 8px;
+    padding: 12px 16px; margin: 0 0 14px;
+  }
+  .expr .pat { font-size: 16.5pt; font-weight: 700; }
+  .expr .zh { font-size: 14.5pt; opacity: .75; margin-top: 4px; }
+  .expr .ex { font-size: 14.5pt; margin-top: 8px; opacity: .9; font-style: italic; }
+  a { color: var(--accent); }
+  footer {
+    margin-top: 40px; padding-top: 16px; border-top: 1px solid var(--line);
+    font-size: 12.5pt; opacity: .6;
+  }
+  .sourcepath { font-size: 13.5pt; opacity: .8; margin-bottom: 10px; }
+
+  /* ---- Text-to-speech controls ---- */
+  #ttsbar {
+    position:sticky; top:0; z-index:50;
+    background:rgba(12,42,101,.96); backdrop-filter:blur(6px);
+    border:1px solid var(--line); border-radius:10px;
+    padding:14px 18px; margin:0 0 8px;
+    display:flex; flex-wrap:wrap; gap:10px 14px; align-items:center;
+    font-size:14pt;
+  }
+  #ttsbar label { opacity:.75; letter-spacing:.04em; }
+  #ttsbar button {
+    font:inherit; font-size:14pt; font-weight:700;
+    color:var(--bg); background:var(--accent);
+    border:none; border-radius:6px; padding:8px 16px; cursor:pointer;
+  }
+  #ttsbar button.ghost { background:transparent; color:var(--accent); border:1px solid var(--accent); }
+  #ttsbar button:hover { opacity:.85; }
+  #ttsbar select {
+    font:inherit; font-size:14pt;
+    color:var(--fg); background:#123573;
+    border:1px solid var(--line); border-radius:6px; padding:7px 10px; max-width:260px;
+  }
+  #ttshint { flex-basis:100%; font-size:12.5pt; opacity:.6; line-height:1.5; }
+  .playbtn {
+    font:inherit; font-size:13pt; line-height:1;
+    color:var(--accent); background:transparent;
+    border:1px solid rgba(127,179,255,.5); border-radius:5px;
+    padding:4px 9px; margin-right:10px; cursor:pointer; vertical-align:middle;
+  }
+  .playbtn:hover { background:rgba(127,179,255,.16); }
+  .speaking {
+    background:rgba(127,179,255,.17);
+    box-shadow:0 0 0 8px rgba(127,179,255,.17);
+    border-radius:3px;
+  }
+
+  @media (max-width: 640px) {
+    body { font-size: 16pt; }
+    h1 { font-size: 21pt; }
+    h2 { font-size: 16pt; }
+    table { font-size: 12.5pt; }
+    .plan ol { font-size: 12.5pt; }
+    #ttsbar, #ttsbar button, #ttsbar select { font-size: 12pt; }
+    .wrap { padding: 16px 12px 40px; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <div class="kicker">EV Speaking Practice · 25 min</div>
+  <h1>Who Controls the Battery?</h1>
+  <div class="meta">誰掌握了電池？ · 2026-09-29</div>
+</header>
+
+<div class="plan">
+  <h3>Session Plan 課程規劃</h3>
+  <ol>
+    <li><span class="m">3 min</span> — Warm-Up 暖身</li>
+    <li><span class="m">6 min</span> — Read Aloud 朗讀短文</li>
+    <li><span class="m">4 min</span> — Key Vocabulary 關鍵單字</li>
+    <li><span class="m">2 min</span> — Saying the Numbers 數字唸法</li>
+    <li><span class="m">3 min</span> — Useful Expressions 實用句型</li>
+    <li><span class="m">5 min</span> — Discussion 討論題</li>
+    <li><span class="m">2 min</span> — Wrap-Up 總結</li>
+  </ol>
+</div>
+
+<div id="ttsbar">
+  <button id="tts-play">▶ Read the article 朗讀全文</button>
+  <button id="tts-stop" class="ghost">■ Stop 停止</button>
+  <label for="tts-voice">Voice</label>
+  <select id="tts-voice"></select>
+  <label for="tts-rate">Speed</label>
+  <select id="tts-rate">
+    <option value="0.75">0.75× 慢</option>
+    <option value="0.9" selected>0.9× 稍慢</option>
+    <option value="1">1.0× 正常</option>
+    <option value="1.15">1.15× 快</option>
+  </select>
+  <div id="ttshint">每個英文段落左邊都有 ▶ 可單獨播放；正在唸的句子會反白。想要更自然的聲音：macOS「系統設定 → 輔助使用 → 朗讀內容 → 系統聲音」下載 Enhanced／Premium 或 Siri 語音，再回來從上面的 Voice 選單選取。</div>
+</div>
+
+<h2>1. Warm-Up 暖身 <span class="time">3 min</span></h2>
+<div class="block">
+  <div class="qa">
+    <p class="en"><span class="num">1.</span>If you could choose, would you rather own a car with a battery from a famous, proven supplier, or one made by the carmaker itself? Why?</p>
+    <p class="zh">如果可以選，你會想要用知名、久經考驗的電池供應商，還是車廠自家做的電池？為什麼？</p>
+  </div>
+  <div class="qa">
+    <p class="en"><span class="num">2.</span>Think about a product you use every day. What would happen to you if the one company that makes its key part suddenly raised prices?</p>
+    <p class="zh">想想你每天使用的某樣產品。如果唯一生產關鍵零件的公司突然漲價，你會受到什麼影響？</p>
+  </div>
+  <div class="qa">
+    <p class="en"><span class="num">3.</span>When a big factory project gets delayed by two years, is that usually bad news, or can it be a smart decision? Why?</p>
+    <p class="zh">當大型工廠計畫延後兩年，通常是壞消息，還是有可能是聰明的決定？為什麼？</p>
+  </div>
+</div>
+
+<h2>2. Read Aloud 朗讀短文 <span class="time">6 min</span></h2>
+<div class="block" id="article">
+  <p class="en">Something unusual is happening in the world's biggest battery market. Over the past four months, shares of CATL, China's battery giant, have fallen about 38 percent, wiping more than 1.4 trillion off its market value, according to a Hong Kong report. The trigger was a wave of carmakers changing their battery suppliers, which the media quickly labeled the "de-CATL" storm.</p>
+  <p class="zh">全球最大的電池市場出現不尋常的變化。根據一則香港媒體報導，過去四個月中國電池龍頭寧德時代的股價下跌約38%，市值蒸發超過1.4萬億。導火線是多家車廠密集調整電池供應商，被媒體冠上「去寧德化」風暴的稱號。</p>
+
+  <p class="en">Li Auto is a good example. In 2023 it added second suppliers, but only for its cheaper models. This September, it announced that its whole lineup will use in-house batteries, including 5C fast-charging cells. It also invested 2.65 billion yuan in Sunwoda, one of its new suppliers, while Xiaomi brought in two more suppliers for its own battery design.</p>
+  <p class="zh">理想汽車就是個好例子。2023年它只在較便宜的車款引進第二供應商；今年9月則宣布全系列改用自研電池，包括5C超充電池。它還斥資26.5億元入股新供應商欣旺達動力，而小米也為自己定義的電池設計引進另外兩家供應商。</p>
+
+  <p class="en">Analysts point to three reasons. First, cost: the battery makes up 30 to 40 percent of an electric car's price. In the first half of this year, CATL earned a net profit of 43.3 billion yuan, more than the combined profit of over a dozen major listed carmakers. Second, control over how the car is designed. Third, supply security, so no single supplier can lock a carmaker into one technology.</p>
+  <p class="zh">分析師指出三個原因。第一是成本：電池佔電動車成本的30%到40%。今年上半年，寧德時代淨利達433億元，比十多家主流上市車廠的獲利總和還高。第二是對整車設計的自主權。第三是供應鏈安全，避免單一供應商把車廠綁死在同一種技術路線上。</p>
+
+  <p class="en">Beijing did not like the story. A media outlet run by the Ministry of Industry and Information Technology published a commentary arguing that the "de-CATL" label was a media invention. Adding suppliers, it said, is normal business, and turning it into a fight between carmakers and battery makers helps no one. One professor added that rivals have simply narrowed the technology gap.</p>
+  <p class="zh">北京並不喜歡這種說法。工信部旗下媒體刊出評論，認為「去寧德化」是輿論炒作出來的標籤；增加供應商是正常的商業行為，把它變成車廠與電池廠的對立對誰都沒有好處。一位教授則補充，其他供應商只是縮小了與寧德時代的技術差距。</p>
+
+  <p class="en">The same pressure is visible in the West. Volkswagen's battery unit, PowerCo, has pushed back its plant in St. Thomas, Ontario, from 2027 to 2029. The factory was planned to produce up to 90 gigawatt-hours of cells a year, and construction began in 2025. The company blames shifting demand, new technology, and long-term strategy.</p>
+  <p class="zh">西方也感受到同樣的壓力。福斯旗下的電池公司PowerCo，把安大略省聖托馬斯工廠的投產時間從2027年延到2029年。這座工廠原規劃年產最高90吉瓦時電芯，2025年已動工。公司將原因歸咎於需求變化、新技術與長期策略。</p>
+
+  <p class="en">PowerCo insists it is not stepping back. Its procurement chief says the project is about getting the pacing right, and a new general contractor will grow the site from about 60 workers to roughly 1,300 at peak. Still, Volkswagen is reportedly looking for an investor, and there are rumors that the Chinese cell maker Gotion could join its factory in Spain.</p>
+  <p class="zh">PowerCo堅稱並未退縮。採購長表示，重點是把步調拿捏好；新的總承包商將讓工地人數從約60人增加到高峰期約1,300人。不過據報導福斯正在尋找投資人，也有傳聞中國電池廠國軒高科可能加入其西班牙工廠。</p>
+
+  <p class="en">So who really controls the battery? For carmakers, it is a balancing act between cost, control, and risk. For suppliers, it is a reminder that even a market leader can be replaced. And for governments, it raises a bigger question: whether a secure supply chain means building at home or simply buying from more places.</p>
+  <p class="zh">那麼，到底是誰掌握了電池？對車廠而言，這是成本、掌控權與風險之間的平衡；對供應商而言，這提醒了即使是市場龍頭也可能被取代；對政府而言，則帶出更大的問題：供應鏈安全究竟是要在本地生產，還是向更多地方採購。</p>
+
+</div>
+
+<h2>3. Key Vocabulary 關鍵單字 <span class="time">4 min</span></h2>
+<div class="block">
+  <table>
+    <tr><th>Word 單字</th><th>Phonetic 音標</th><th>中文意思</th><th>Example sentence 例句</th></tr>
+    <tr><td>diversify</td><td class="ipa">/daɪˈvɜːr.sɪ.faɪ/</td><td>使多元化；分散</td><td>Carmakers want to diversify their battery suppliers.</td></tr>
+    <tr><td>in-house</td><td class="ipa">/ˌɪnˈhaʊs/</td><td>自家的；內部自行研發的</td><td>Li Auto is moving to in-house battery cells.</td></tr>
+    <tr><td>supplier</td><td class="ipa">/səˈplaɪ.ɚ/</td><td>供應商</td><td>A second supplier gives the carmaker a backup option.</td></tr>
+    <tr><td>market capitalization</td><td class="ipa">/ˈmɑːr.kɪt ˌkæp.ɪ.tl.aɪˈzeɪ.ʃən/</td><td>市值</td><td>CATL lost a huge part of its market capitalization in four months.</td></tr>
+    <tr><td>profit margin</td><td class="ipa">/ˈprɑː.fɪt ˈmɑːr.dʒɪn/</td><td>利潤率</td><td>Price wars are squeezing the profit margin on every car.</td></tr>
+    <tr><td>leverage</td><td class="ipa">/ˈlev.ɚ.ɪdʒ/</td><td>談判籌碼；影響力</td><td>Having two suppliers gives you more leverage on price.</td></tr>
+    <tr><td>lock-in</td><td class="ipa">/ˈlɑːk.ɪn/</td><td>被綁定；難以更換</td><td>Single-supplier lock-in limits a carmaker's technology choices.</td></tr>
+    <tr><td>gigafactory</td><td class="ipa">/ˈdʒɪɡ.ə.fæk.tər.i/</td><td>超級工廠</td><td>The gigafactory in Ontario was meant to start in 2027.</td></tr>
+    <tr><td>postpone</td><td class="ipa">/poʊstˈpoʊn/</td><td>延後</td><td>PowerCo postponed production until 2029.</td></tr>
+    <tr><td>scale up</td><td class="ipa">/skeɪl ʌp/</td><td>擴大規模</td><td>The plant can scale up as market demand grows.</td></tr>
+    <tr><td>general contractor</td><td class="ipa">/ˈdʒen.ɚ.əl ˈkɑːn.træk.tɚ/</td><td>總承包商</td><td>A new general contractor will manage the construction.</td></tr>
+    <tr><td>pacing</td><td class="ipa">/ˈpeɪ.sɪŋ/</td><td>步調；節奏拿捏</td><td>This is about getting the pacing right, not stepping back.</td></tr>
+  </table>
+</div>
+
+<h2>4. Saying the Numbers 數字唸法 <span class="time">2 min</span></h2>
+<div class="block">
+  <table>
+    <tr><th>Context 情境</th><th>Number 數字</th><th>Say it like this 這樣唸</th></tr>
+    <tr><td>CATL share price drop in four months</td><td>38%</td><td>thirty-eight percent</td></tr>
+    <tr><td>Market value lost (per the report)</td><td>1.4 trillion</td><td>one point four trillion</td></tr>
+    <tr><td>Battery share of an EV's cost</td><td>30–40%</td><td>thirty to forty percent</td></tr>
+    <tr><td>Li Auto's investment in Sunwoda</td><td>2.65 billion yuan</td><td>two point six five billion yuan</td></tr>
+    <tr><td>CATL net profit, first half of 2026</td><td>43.3 billion yuan</td><td>forty-three point three billion yuan</td></tr>
+    <tr><td>PowerCo plant capacity (Ontario)</td><td>90 GWh</td><td>ninety gigawatt-hours</td></tr>
+    <tr><td>Original start of production</td><td>2027</td><td>twenty twenty-seven</td></tr>
+    <tr><td>New start of production</td><td>2029</td><td>twenty twenty-nine</td></tr>
+    <tr><td>Construction began</td><td>2025</td><td>twenty twenty-five</td></tr>
+    <tr><td>Workers on site now</td><td>60</td><td>sixty</td></tr>
+    <tr><td>Workers at peak</td><td>1,300</td><td>one thousand three hundred / thirteen hundred</td></tr>
+    <tr><td>Li Auto's announcement date</td><td>September 7th</td><td>September the seventh</td></tr>
+  </table>
+</div>
+
+<h2>5. Useful Expressions 實用句型 <span class="time">3 min</span></h2>
+<div class="block">
+  <div class="expr">
+    <div class="pat">"X has lost N percent of its value in just N months."</div>
+    <div class="zh">描述股價或數據在短時間內大幅下跌。</div>
+    <div class="ex">CATL has lost about 38 percent of its value in just four months.</div>
+  </div>
+  <div class="expr">
+    <div class="pat">"The main reasons are, first ___, second ___, and third ___."</div>
+    <div class="zh">條理分明地列出多個原因，適合說明成因。</div>
+    <div class="ex">The main reasons are, first, cost, second, control, and third, supply security.</div>
+  </div>
+  <div class="expr">
+    <div class="pat">"It's less about ___ and more about ___."</div>
+    <div class="zh">強調事情的本質，糾正常見的說法。</div>
+    <div class="ex">It's less about abandoning CATL and more about not depending on one supplier.</div>
+  </div>
+  <div class="expr">
+    <div class="pat">"On the one hand ___, but on the other hand ___."</div>
+    <div class="zh">呈現兩面看法，適合討論有爭議的議題。</div>
+    <div class="ex">On the one hand, in-house batteries give control, but on the other hand, they are expensive to develop.</div>
+  </div>
+  <div class="expr">
+    <div class="pat">"That depends on whether ___."</div>
+    <div class="zh">表達有條件的看法，讓回答更有彈性。</div>
+    <div class="ex">Whether it's a smart delay depends on whether demand really is shifting.</div>
+  </div>
+</div>
+
+<h2>6. Discussion 討論題 <span class="time">5 min</span></h2>
+<div class="block">
+  <div class="qa">
+    <p class="en"><span class="num">1.</span>Do you think carmakers are right to reduce their dependence on one battery supplier, or is it better to build a deep partnership with one? Choose a side and defend it.</p>
+    <p class="zh">你認為車廠減少對單一電池供應商的依賴是正確的，還是與單一供應商建立深度合作比較好？請選邊並說明理由。</p>
+  </div>
+  <div class="qa">
+    <p class="en"><span class="num">2.</span>The Chinese ministry-backed media said the "de-CATL" story was exaggerated. How much do you trust official comments like that? Why?</p>
+    <p class="zh">官方媒體說「去寧德化」被誇大了。你對這類官方評論有多信任？為什麼？</p>
+  </div>
+  <div class="qa">
+    <p class="en"><span class="num">3.</span>Should a company that earns far more profit than its customers be worried, or is that a sign of a healthy business?</p>
+    <p class="zh">如果一家公司的獲利遠高於它的客戶，這值得擔心，還是代表它經營得很健康？</p>
+  </div>
+  <div class="qa">
+    <p class="en"><span class="num">4.</span>PowerCo delayed its Canadian plant by two years. Is this a sensible response to shifting demand, or a sign that the EV transition is slowing? Give both views.</p>
+    <p class="zh">PowerCo把加拿大工廠延後兩年。這是對需求變化的合理因應，還是電動車轉型放緩的訊號？請說明兩種觀點。</p>
+  </div>
+  <div class="qa">
+    <p class="en"><span class="num">5.</span>If your country wanted a secure battery supply chain, would you build factories at home or buy from many different countries? What are the risks of each?</p>
+    <p class="zh">如果你的國家想建立安全的電池供應鏈，你會在國內設廠，還是向許多不同國家採購？各有什麼風險？</p>
+  </div>
+  <div class="qa">
+    <p class="en"><span class="num">6.</span>Would the brand of the battery influence your decision when buying an EV? Which would matter more to you: the battery brand or the price of the car?</p>
+    <p class="zh">電池的品牌會影響你購買電動車的決定嗎？電池品牌與車價，哪一個對你更重要？</p>
+  </div>
+</div>
+
+<h2>7. Wrap-Up 總結 <span class="time">2 min</span></h2>
+<div class="block">
+  <p class="en"><strong>60-second summary:</strong> In short — CATL's share price has dropped about 38 percent in four months as carmakers like Li Auto and Xiaomi diversify suppliers and build in-house batteries, driven by cost, control, and supply security. Beijing calls the "de-CATL" idea an exaggeration. Meanwhile, Volkswagen's PowerCo pushed its Canadian gigafactory from 2027 to 2029, showing that even the battery build-out is being paced more carefully.</p>
+  <p class="zh">60秒摘要：簡而言之，隨著理想、小米等車廠分散供應商並自研電池（出於成本、自主權與供應鏈安全考量），寧德時代股價四個月下跌約38%；北京則認為「去寧德化」是誇大之詞。同時，福斯旗下PowerCo把加拿大超級工廠從2027年延到2029年，顯示電池產能的擴張步調也變得更為謹慎。</p>
+  <p class="en" style="margin-top:16px;"><strong>Stance sentence pattern:</strong> "If I had to take a side, I'd say ___, because ___."</p>
+  <p class="zh">表達個人立場句型：「如果一定要選邊站，我會說＿＿＿，因為＿＿＿。」</p>
+</div>
+
+<h2>Source Notes 取材筆記</h2>
+<div class="block">
+  <p class="sourcepath">Note vault path: <code>Claude code AI筆記 / raw / assets</code><br>筆記庫路徑：<code>Claude code AI筆記 / raw / assets</code></p>
+  <table>
+    <tr><th>Note file 筆記檔名</th><th>Original 原始出處</th><th>Used for 用於</th></tr>
+    <tr>
+      <td><code>2026-09-28-車企齊換電池供應鏈 掀去寧德化風暴.md</code></td>
+      <td>星島頭條 · 2026-09-26<br><a href="https://www.stheadline.com/realtime-finance/3619621/" target="_blank" rel="noopener">星島頭條原文</a></td>
+      <td>Provided the CATL share-price drop, Li Auto and Xiaomi supplier changes, cost and profit figures, and the ministry-backed media commentary.<br>提供寧德時代股價下跌、理想與小米的供應商調整、成本與獲利數據，以及工信部旗下媒體的評論內容。</td>
+    </tr>
+    <tr>
+      <td><code>2026-09-28-PowerCo postpones battery cell production in Canada.md</code></td>
+      <td>electrive（Florian Treiss）· 2026-09-25<br><a href="https://www.electrive.com/2026/09/25/powerco-postpones-battery-cell-production-in-canada/" target="_blank" rel="noopener">electrive original</a></td>
+      <td>Provided PowerCo's St. Thomas plant delay, its capacity, construction workforce numbers, and the investor and Gotion rumors.<br>提供PowerCo聖托馬斯工廠延期、產能、施工人數，以及尋找投資人與國軒高科的傳聞。</td>
+    </tr>
+  </table>
+</div>
+
+<footer>
+  Generated for Claude Yeh's daily EV speaking practice · Content researched from the user's Obsidian news-clipper vault (or general EV topics when unavailable) · 25-minute session for online speaking lessons.
+</footer>
+
+</div>
+
+<script>
+(function () {
+  var synth = window.speechSynthesis;
+  var bar = document.getElementById('ttsbar');
+  if (!synth) {
+    bar.innerHTML = '<div id="ttshint">此瀏覽器不支援語音朗讀，請改用 Chrome、Edge 或 Safari 開啟本檔案。</div>';
+    return;
+  }
+
+  var voiceSel = document.getElementById('tts-voice');
+  var rateSel  = document.getElementById('tts-rate');
+  var voices   = [];
+  var queue    = [];
+  var qi       = 0;
+  var playing  = false;
+
+  function score(v) {
+    var n = (v.name + ' ' + (v.voiceURI || '')).toLowerCase();
+    var s = 0;
+    if (/premium|enhanced|neural|natural/.test(n)) s += 40;
+    if (/siri/.test(n)) s += 30;
+    if (/google/.test(n)) s += 25;
+    if (/samantha|ava|allison|serena|daniel|kate|arthur|evan|nathan|zoe/.test(n)) s += 12;
+    if (/compact|novelty|whisper|bells|bubbles|jester|organ|trinoids|zarvox|albert|bad news|good news/.test(n)) s -= 60;
+    if (v.lang === 'en-US') s += 6;
+    if (v.lang === 'en-GB') s += 5;
+    if (v.localService) s += 2;
+    return s;
+  }
+
+  function loadVoices() {
+    var all = synth.getVoices().filter(function (v) { return /^en[-_]/i.test(v.lang); });
+    if (!all.length) return;
+    all.sort(function (a, b) { return score(b) - score(a); });
+    voices = all;
+    voiceSel.innerHTML = '';
+    voices.forEach(function (v, i) {
+      var o = document.createElement('option');
+      o.value = i;
+      o.textContent = v.name + ' (' + v.lang + ')';
+      voiceSel.appendChild(o);
+    });
+    var saved = null;
+    try { saved = localStorage.getItem('evPracticeVoice'); } catch (e) {}
+    if (saved !== null) {
+      var idx = voices.findIndex(function (v) { return v.name === saved; });
+      if (idx > -1) voiceSel.value = idx;
+    }
+  }
+  loadVoices();
+  synth.onvoiceschanged = loadVoices;
+
+  voiceSel.addEventListener('change', function () {
+    var v = voices[voiceSel.value];
+    try { if (v) localStorage.setItem('evPracticeVoice', v.name); } catch (e) {}
+  });
+
+  function clearHighlight() {
+    var h = document.querySelector('.speaking');
+    if (h) h.classList.remove('speaking');
+  }
+
+  function stop() {
+    playing = false;
+    queue = [];
+    qi = 0;
+    synth.cancel();
+    clearHighlight();
+  }
+
+  // Chrome silently truncates any utterance longer than ~15s, so queue
+  // sentence-sized chunks instead of whole paragraphs.
+  function sentences(text) {
+    var SEP = String.fromCharCode(1);
+    var t = text.replace(/\s+/g, ' ').trim();
+    // Shield decimals/abbreviations so "86.5 percent" isn't split in two.
+    t = t.replace(/(\d)\.(\d)/g, '$1' + SEP + '$2')
+         .replace(/\b(Mr|Mrs|Ms|Dr|St|vs|etc|Inc|Ltd|Co|approx)\./gi,
+                  function (m) { return m.slice(0, -1) + SEP; })
+         .replace(/\bU\.S\./g, 'U' + SEP + 'S' + SEP);
+    var parts = t.match(/[^.!?]+[.!?]+["')\]]?|[^.!?]+$/g) || [t];
+    return parts
+      .map(function (s) { return s.split(SEP).join('.').trim(); })
+      .filter(function (s) { return /[a-zA-Z0-9]/.test(s); });
+  }
+
+  function speakNext() {
+    if (!playing || qi >= queue.length) { stop(); return; }
+    var item = queue[qi++];
+    clearHighlight();
+    if (item.el) {
+      item.el.classList.add('speaking');
+      var r = item.el.getBoundingClientRect();
+      if (r.top < 120 || r.bottom > window.innerHeight - 40) {
+        item.el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      }
+    }
+    var u = new SpeechSynthesisUtterance(item.text);
+    var v = voices[voiceSel.value];
+    if (v) { u.voice = v; u.lang = v.lang; } else { u.lang = 'en-US'; }
+    u.rate = parseFloat(rateSel.value);
+    u.pitch = 1;
+    u.onend = speakNext;
+    u.onerror = speakNext;
+    synth.speak(u);
+  }
+
+  function textOf(el) {
+    // Snapshot taken before the play glyph was injected, so it is never spoken.
+    return el.getAttribute('data-tts') || el.textContent;
+  }
+
+  function play(elements) {
+    stop();
+    queue = [];
+    elements.forEach(function (el) {
+      sentences(textOf(el)).forEach(function (s) {
+        if (s.trim()) queue.push({ el: el, text: s });
+      });
+    });
+    if (!queue.length) return;
+    playing = true;
+    qi = 0;
+    speakNext();
+  }
+
+  document.getElementById('tts-stop').addEventListener('click', stop);
+
+  document.getElementById('tts-play').addEventListener('click', function () {
+    var paras = [].slice.call(document.querySelectorAll('#article .en'));
+    play(paras);
+  });
+
+  rateSel.addEventListener('change', function () { if (playing) stop(); });
+
+  var targets = [].slice.call(document.querySelectorAll('.en'));
+  targets.forEach(function (el) {
+    el.setAttribute('data-tts', el.textContent);
+    var b = document.createElement('button');
+    b.className = 'playbtn';
+    b.type = 'button';
+    b.textContent = '▶';
+    b.setAttribute('aria-label', 'Play this sentence');
+    b.addEventListener('click', function (e) {
+      e.stopPropagation();
+      play([el]);
+    });
+    el.insertBefore(b, el.firstChild);
+  });
+
+  [].slice.call(document.querySelectorAll('table tr')).forEach(function (tr) {
+    var cells = tr.querySelectorAll('td');
+    if (cells.length < 2) return;
+    var last = cells[cells.length - 1];
+    if (!/[a-zA-Z]/.test(last.textContent)) return;
+    last.style.cursor = 'pointer';
+    last.title = 'Click to hear it 點一下聽發音';
+    last.addEventListener('click', function () { play([last]); });
+  });
+
+  window.addEventListener('beforeunload', function () { synth.cancel(); });
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EV Speaking Practice — 2026-09-07 · Volkswagen's Reckoning, the Hybrid Comeback</title>
+<style>
+  :root {
+    --bg: #0C2A65;
+    --fg: #FFFFFF;
+    --accent: #7FB3FF;
+    --line: rgba(127,179,255,.35);
+  }
+  * { box-sizing: border-box; }
+  body {
+    background: var(--bg);
+    color: var(--fg);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang TC", "Noto Sans TC", Helvetica, Arial, sans-serif;
+    font-size: 20pt;
+    line-height: 1.6;
+    margin: 0;
+    padding: 24px 40px 60px;
+  }
+  h1 {
+    font-size: 1.6em;
+    line-height: 1.35;
+    margin: 0 0 6px;
+  }
+  .subtitle {
+    color: var(--accent);
+    font-size: 0.55em;
+    margin: 0 0 20px;
+    letter-spacing: .02em;
+  }
+  h2 {
+    font-size: 1.1em;
+    margin: 40px 0 14px;
+    padding-left: 14px;
+    border-left: 6px solid var(--accent);
+    color: var(--fg);
+  }
+  h2 .time {
+    color: var(--accent);
+    font-size: 0.7em;
+    font-weight: 400;
+    margin-left: 8px;
+  }
+  .plan {
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    padding: 16px 20px;
+    margin: 0 0 20px;
+    font-size: 0.55em;
+  }
+  .plan-title {
+    color: var(--accent);
+    font-weight: 700;
+    margin-bottom: 8px;
+    font-size: 1.05em;
+  }
+  .plan ol {
+    margin: 0;
+    padding-left: 1.3em;
+  }
+  .plan li { margin: 3px 0; }
+  .plan .min { color: var(--accent); }
+
+  .block {
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    padding: 18px 22px;
+    margin-bottom: 16px;
+  }
+  .para { margin-bottom: 22px; }
+  .para:last-child { margin-bottom: 0; }
+  .en { margin: 0 0 6px; }
+  .zh { margin: 0; opacity: .7; font-size: 0.82em; }
+
+  ol.qlist, ul.elist {
+    padding-left: 1.2em;
+    margin: 0;
+  }
+  ol.qlist li, ul.elist li { margin-bottom: 16px; }
+  ol.qlist li:last-child, ul.elist li:last-child { margin-bottom: 0; }
+  .q-zh { opacity: .7; font-size: .8em; display: block; margin-top: 3px; }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.62em;
+  }
+  th, td {
+    text-align: left;
+    padding: 10px 12px;
+    border-bottom: 1px solid var(--line);
+    vertical-align: top;
+  }
+  th {
+    color: var(--accent);
+    font-weight: 700;
+    border-bottom: 2px solid var(--accent);
+  }
+  td.zh-cell { opacity: .75; }
+  .ipa { color: var(--accent); white-space: nowrap; }
+
+  .expr-en { font-weight: 600; }
+  .expr-zh { opacity: .75; font-size: .82em; display: block; margin-top: 4px; }
+
+  .wrap-box {
+    border: 1px dashed var(--line);
+    border-radius: 8px;
+    padding: 14px 18px;
+    margin-top: 14px;
+  }
+  .wrap-box .label { color: var(--accent); font-weight: 700; font-size: .6em; letter-spacing: .05em; }
+
+  footer {
+    margin-top: 50px;
+    padding-top: 18px;
+    border-top: 1px solid var(--line);
+    font-size: 0.5em;
+    opacity: .6;
+    text-align: center;
+  }
+
+  a { color: var(--accent); }
+
+  .source-note { font-size: 0.55em; margin-bottom: 10px; }
+  .source-note .zh { opacity: .65; }
+
+  /* ---- Text-to-speech controls ---- */
+  #ttsbar {
+    position:sticky; top:0; z-index:50;
+    background:rgba(12,42,101,.96); backdrop-filter:blur(6px);
+    border:1px solid var(--line); border-radius:10px;
+    padding:14px 18px; margin:0 0 8px;
+    display:flex; flex-wrap:wrap; gap:10px 14px; align-items:center;
+    font-size:14pt;
+  }
+  #ttsbar label { opacity:.75; letter-spacing:.04em; }
+  #ttsbar button {
+    font:inherit; font-size:14pt; font-weight:700;
+    color:var(--bg); background:var(--accent);
+    border:none; border-radius:6px; padding:8px 16px; cursor:pointer;
+  }
+  #ttsbar button.ghost { background:transparent; color:var(--accent); border:1px solid var(--accent); }
+  #ttsbar button:hover { opacity:.85; }
+  #ttsbar select {
+    font:inherit; font-size:14pt;
+    color:var(--fg); background:#123573;
+    border:1px solid var(--line); border-radius:6px; padding:7px 10px; max-width:260px;
+  }
+  #ttshint { flex-basis:100%; font-size:12.5pt; opacity:.6; line-height:1.5; }
+  .playbtn {
+    font:inherit; font-size:13pt; line-height:1;
+    color:var(--accent); background:transparent;
+    border:1px solid rgba(127,179,255,.5); border-radius:5px;
+    padding:4px 9px; margin-right:10px; cursor:pointer; vertical-align:middle;
+  }
+  .playbtn:hover { background:rgba(127,179,255,.16); }
+  .speaking {
+    background:rgba(127,179,255,.17);
+    box-shadow:0 0 0 8px rgba(127,179,255,.17);
+    border-radius:3px;
+  }
+
+  @media (max-width: 720px) {
+    body { padding: 16px 16px 50px; font-size: 16pt; }
+    h1 { font-size: 1.4em; }
+    table, thead, tbody, th, td, tr { display: block; }
+    th { border-bottom: none; padding-bottom: 2px; }
+    td { border-bottom: none; padding: 4px 0; }
+    tr { padding-bottom: 14px; margin-bottom: 14px; border-bottom: 1px solid var(--line); }
+    tr:last-child { border-bottom: none; }
+    td:before {
+      content: attr(data-label);
+      display: block;
+      color: var(--accent);
+      font-size: .85em;
+      margin-bottom: 2px;
+    }
+  }
+</style>
+</head>
+<body>
+
+<h1>EV Speaking Practice — 2026-09-07<br>Volkswagen's Reckoning, the Hybrid Comeback</h1>
+<p class="subtitle">福斯的清算時刻，混合動力的反攻</p>
+
+<div class="plan">
+  <div class="plan-title">Session Plan 練習流程（25 min）</div>
+  <ol>
+    <li><span class="min">3 min</span> — Warm-Up 暖身</li>
+    <li><span class="min">6 min</span> — Read Aloud 朗讀短文</li>
+    <li><span class="min">4 min</span> — Key Vocabulary 關鍵單字</li>
+    <li><span class="min">2 min</span> — Saying the Numbers 數字唸法</li>
+    <li><span class="min">3 min</span> — Useful Expressions 實用句型</li>
+    <li><span class="min">5 min</span> — Discussion 討論題</li>
+    <li><span class="min">2 min</span> — Wrap-Up 總結</li>
+  </ol>
+</div>
+
+<div id="ttsbar">
+  <button id="tts-play">▶ Read the article 朗讀全文</button>
+  <button id="tts-stop" class="ghost">■ Stop 停止</button>
+  <label for="tts-voice">Voice</label>
+  <select id="tts-voice"></select>
+  <label for="tts-rate">Speed</label>
+  <select id="tts-rate">
+    <option value="0.75">0.75× 慢</option>
+    <option value="0.9" selected>0.9× 稍慢</option>
+    <option value="1">1.0× 正常</option>
+    <option value="1.15">1.15× 快</option>
+  </select>
+  <div id="ttshint">每個英文段落左邊都有 ▶ 可單獨播放；正在唸的句子會反白。想要更自然的聲音：macOS「系統設定 → 輔助使用 → 朗讀內容 → 系統聲音」下載 Enhanced／Premium 或 Siri 語音，再回來從上面的 Voice 選單選取。</div>
+</div>
+
+<h2>1. Warm-Up 暖身 <span class="time">3 min</span></h2>
+<div class="block">
+  <ol class="qlist">
+    <li>Have you ever driven or ridden in an electric or hybrid car? What was it like?
+      <span class="q-zh">你搭過或開過電動車或油電混合車嗎？感覺如何？</span></li>
+    <li>What comes to mind when you hear that a major company is cutting 100,000 jobs?
+      <span class="q-zh">聽到一家大公司要裁員十萬人，你腦中會浮現什麼畫面？</span></li>
+    <li>Do you think Chinese car brands will become more common where you live in the next five years?
+      <span class="q-zh">你認為未來五年，中國車廠品牌會在你居住的地方變得更普遍嗎？</span></li>
+  </ol>
+</div>
+
+<h2>2. Read Aloud 朗讀短文 <span class="time">6 min</span></h2>
+<div class="block" id="article">
+
+  <div class="para">
+    <p class="en">Volkswagen has just launched the biggest restructuring in its 89-year history. Squeezed by fast-rising Chinese EV makers, new U.S. tariffs, and a global shift in demand, the German giant's supervisory board has approved a plan called "Future Pact 2030."</p>
+    <p class="zh">福斯汽車剛啟動了公司89年歷史上規模最大的重組計畫。在中國電動車崛起、美國新關稅與全球需求轉變的多重擠壓下，這家德國汽車巨頭的監事會通過了一項名為「未來計畫2030」的方案。</p>
+  </div>
+
+  <div class="para">
+    <p class="en">The plan is drastic. Volkswagen will cut another 50,000 jobs by 2030, on top of cuts already announced, bringing total layoffs to 100,000 people — about 15 percent of its global workforce. The company will also shrink its entire model lineup by 50 percent by 2035, and stop building complete vehicles at four factories in Germany.</p>
+    <p class="zh">這項計畫相當激進。福斯將在既有裁員基礎上，於2030年前再裁減5萬個職位，使累計裁員人數達到10萬人——約占全球員工總數的15%。公司同時將在2035年前把全品牌車型陣容縮減50%，並全面停止在德國四座工廠生產整車。</p>
+  </div>
+
+  <div class="para">
+    <p class="en">The plan didn't come easy. The supervisory board and a powerful union with 650,000 members needed months of negotiation before both sides finally agreed. Volkswagen's German workforce has already shrunk from 275,000 in 2023 to 254,000 this June, and more than half of the newest 50,000 cuts will fall on jobs inside Germany.</p>
+    <p class="zh">這項計畫得來不易。監事會與擁有65萬名會員的強大工會歷經數月協商才終於達成共識。福斯在德國的員工人數已從2023年的27.5萬人降至今年6月的25.4萬人，而最新一波5萬個裁減職缺中，超過一半將落在德國本土。</p>
+  </div>
+
+  <div class="para">
+    <p class="en">Internal figures reveal why. At Volkswagen's plant in Emden, Germany, labor costs run 74 euros an hour, each car costs 4,850 euros to build, and one worker produces just 29 vehicles a year. At the Tianjin plant in China, labor costs only 12 euros an hour, each car costs 1,078 euros, and one worker turns out 51.3 vehicles a year. Closing the German lines could add up to a net benefit of 2.9 billion euros by 2038.</p>
+    <p class="zh">內部數據揭露了原因。在福斯位於德國埃姆登的工廠，時薪高達74歐元，單車出廠成本4,850歐元，一名員工一年僅生產29輛車；相較之下，中國天津工廠時薪僅12歐元，單車成本1,078歐元，一名員工一年可生產51.3輛車。若關閉德國產線，到2038年可望創造29億歐元的淨效益。</p>
+  </div>
+
+  <div class="para">
+    <p class="en">Volkswagen's troubles run deeper than labor costs. Chinese rivals have caught up fast on both price and technology, and the company's pre-tax profit fell 30 percent in the first half of last year. Because Volkswagen still lacks large-scale local production in the United States, new American tariffs are cutting even further into its North American margins.</p>
+    <p class="zh">福斯的困境不只在於人力成本。中國對手在價格與技術上迅速追上，公司去年上半年稅前利潤大跌30%。由於福斯在美國仍缺乏大規模在地產能，美方新關稅政策更進一步侵蝕其北美市場的獲利空間。</p>
+  </div>
+
+  <div class="para">
+    <p class="en">Meanwhile, in Turin, Italy, rival automaker Stellantis was forced to halt its Mirafiori factory for three days — but for the opposite reason. Demand for the Fiat 500 Hybrid outran what its own supply chain could deliver, catching a company that had bet heavily on pure electric vehicles completely off guard.</p>
+    <p class="zh">與此同時，在義大利都靈，對手車廠Stellantis的Mirafiori工廠被迫停線三天——但原因恰恰相反。Fiat 500 Hybrid的需求遠超供應鏈所能負荷，讓這家過去重金押注純電動車的公司措手不及。</p>
+  </div>
+
+  <div class="para">
+    <p class="en">Together, these two stories point to the same shift. Automakers that bet everything on a fast, all-electric future are now rethinking the pace, as low-cost hybrids and Chinese competition reshape what customers actually want to buy — and what carmakers can afford to build.</p>
+    <p class="zh">這兩則故事共同指向同一個轉變。曾全力押注快速全面電動化的車廠，如今正重新評估轉型步調，因為低成本混合動力車與中國競爭正在重塑消費者真正想買的產品，也重塑車廠負擔得起的生產方式。</p>
+  </div>
+
+</div>
+
+<h2>3. Key Vocabulary 關鍵單字 <span class="time">4 min</span></h2>
+<div class="block">
+  <table>
+    <thead>
+      <tr><th>Word</th><th>IPA</th><th>中文意思</th><th>Example</th></tr>
+    </thead>
+    <tbody>
+      <tr><td data-label="Word">restructuring</td><td data-label="IPA" class="ipa">/riːˈstrʌktʃərɪŋ/</td><td data-label="中文意思" class="zh-cell">(企業)重組</td><td data-label="Example">The restructuring plan will cut 100,000 jobs by 2030.</td></tr>
+      <tr><td data-label="Word">layoff</td><td data-label="IPA" class="ipa">/ˈleɪɔːf/</td><td data-label="中文意思" class="zh-cell">裁員</td><td data-label="Example">Volkswagen announced its largest layoff in company history.</td></tr>
+      <tr><td data-label="Word">workforce</td><td data-label="IPA" class="ipa">/ˈwɜːrkfɔːrs/</td><td data-label="中文意思" class="zh-cell">勞動力、員工總數</td><td data-label="Example">The German workforce shrank by more than 20,000 in two years.</td></tr>
+      <tr><td data-label="Word">lineup</td><td data-label="IPA" class="ipa">/ˈlaɪnʌp/</td><td data-label="中文意思" class="zh-cell">(產品)陣容</td><td data-label="Example">The model lineup will shrink by half by 2035.</td></tr>
+      <tr><td data-label="Word">tariff</td><td data-label="IPA" class="ipa">/ˈtærɪf/</td><td data-label="中文意思" class="zh-cell">關稅</td><td data-label="Example">New U.S. tariffs are squeezing Volkswagen's profit margins.</td></tr>
+      <tr><td data-label="Word">productivity</td><td data-label="IPA" class="ipa">/ˌprɒdʌkˈtɪvɪti/</td><td data-label="中文意思" class="zh-cell">生產力</td><td data-label="Example">Productivity in Tianjin is nearly double that of the Emden plant.</td></tr>
+      <tr><td data-label="Word">mild hybrid</td><td data-label="IPA" class="ipa">/maɪld ˈhaɪbrɪd/</td><td data-label="中文意思" class="zh-cell">輕度混合動力</td><td data-label="Example">The Fiat 500 uses a simple 12-volt mild hybrid system.</td></tr>
+      <tr><td data-label="Word">supply chain</td><td data-label="IPA" class="ipa">/səˈplaɪ tʃeɪn/</td><td data-label="中文意思" class="zh-cell">供應鏈</td><td data-label="Example">The supply chain couldn't keep up with sudden demand.</td></tr>
+      <tr><td data-label="Word">castings</td><td data-label="IPA" class="ipa">/ˈkæstɪŋz/</td><td data-label="中文意思" class="zh-cell">鑄件</td><td data-label="Example">Teksid makes the engine castings that Stellantis needs.</td></tr>
+      <tr><td data-label="Word">misjudge</td><td data-label="IPA" class="ipa">/mɪsˈdʒʌdʒ/</td><td data-label="中文意思" class="zh-cell">誤判</td><td data-label="Example">Stellantis misjudged how many buyers would want a hybrid.</td></tr>
+      <tr><td data-label="Word">margin</td><td data-label="IPA" class="ipa">/ˈmɑːrdʒɪn/</td><td data-label="中文意思" class="zh-cell">利潤率</td><td data-label="Example">Tariffs are cutting into Volkswagen's North American margins.</td></tr>
+      <tr><td data-label="Word">capital expenditure</td><td data-label="IPA" class="ipa">/ˈkæpɪtl ɪksˈpendɪtʃər/</td><td data-label="中文意思" class="zh-cell">資本支出</td><td data-label="Example">Investors are questioning years of EV-focused capital expenditure.</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<h2>4. Saying the Numbers 數字唸法 <span class="time">2 min</span></h2>
+<div class="block">
+  <table>
+    <thead>
+      <tr><th>In the article</th><th>How to say it</th></tr>
+    </thead>
+    <tbody>
+      <tr><td data-label="In the article">100,000 jobs</td><td data-label="How to say it">one hundred thousand jobs</td></tr>
+      <tr><td data-label="In the article">15%</td><td data-label="How to say it">fifteen percent</td></tr>
+      <tr><td data-label="In the article">50,000 more jobs</td><td data-label="How to say it">fifty thousand more jobs</td></tr>
+      <tr><td data-label="In the article">50% by 2035</td><td data-label="How to say it">fifty percent by twenty thirty-five</td></tr>
+      <tr><td data-label="In the article">4 factories</td><td data-label="How to say it">four factories</td></tr>
+      <tr><td data-label="In the article">650,000 members</td><td data-label="How to say it">six hundred fifty thousand members</td></tr>
+      <tr><td data-label="In the article">275,000 → 254,000</td><td data-label="How to say it">two hundred seventy-five thousand, down to two hundred fifty-four thousand</td></tr>
+      <tr><td data-label="In the article">€74/hour vs €12/hour</td><td data-label="How to say it">seventy-four euros an hour, versus twelve euros an hour</td></tr>
+      <tr><td data-label="In the article">€4,850 vs €1,078</td><td data-label="How to say it">four thousand, eight hundred fifty euros, versus one thousand, seventy-eight euros</td></tr>
+      <tr><td data-label="In the article">29 vs 51.3 vehicles/year</td><td data-label="How to say it">twenty-nine, versus fifty-one point three vehicles a year</td></tr>
+      <tr><td data-label="In the article">€2.9 billion</td><td data-label="How to say it">two point nine billion euros</td></tr>
+      <tr><td data-label="In the article">30%</td><td data-label="How to say it">thirty percent</td></tr>
+      <tr><td data-label="In the article">3 days</td><td data-label="How to say it">three days</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<h2>5. Useful Expressions 實用句型 <span class="time">3 min</span></h2>
+<div class="block">
+  <ul class="elist">
+    <li><span class="expr-en">"X is grappling with ___."</span>
+      <span class="expr-zh">表示某公司或組織正努力應付一個困難的問題。例：Volkswagen is grappling with slowing sales in China.</span></li>
+    <li><span class="expr-en">"Against a backdrop of ___, ..."</span>
+      <span class="expr-zh">在...的大環境／背景之下。例：Against a backdrop of rising tariffs, automakers are rethinking their strategy.</span></li>
+    <li><span class="expr-en">"X caught Y off guard."</span>
+      <span class="expr-zh">X讓Y措手不及、始料未及。例：The surge in hybrid demand caught Stellantis off guard.</span></li>
+    <li><span class="expr-en">"Demand far outpaced ___."</span>
+      <span class="expr-zh">需求遠遠超過...的供給能力。例：Demand far outpaced what the supply chain could deliver.</span></li>
+    <li><span class="expr-en">"This is a wake-up call for ___."</span>
+      <span class="expr-zh">這是給...的一記警鐘。例：This is a wake-up call for automakers betting everything on EVs.</span></li>
+  </ul>
+</div>
+
+<h2>6. Discussion 討論題 <span class="time">5 min</span></h2>
+<div class="block">
+  <ol class="qlist">
+    <li>Do you think Volkswagen's decision to cut 100,000 jobs was the right call, or could it have managed this transition differently?
+      <span class="q-zh">你認為福斯裁員十萬人的決定是對的嗎？還是這場轉型本可以用別的方式處理？</span></li>
+    <li>Why do you think a plant in China can build a car for a fraction of the cost of a plant in Germany?
+      <span class="q-zh">你認為為什麼中國工廠的造車成本能遠低於德國工廠？</span></li>
+    <li>Stellantis was caught off guard by hybrid demand it hadn't planned for. What does that tell you about how carmakers forecast the future?
+      <span class="q-zh">Stellantis 被自己未曾預料的混動需求打了個措手不及，這說明了車廠在預測未來時有什麼問題？</span></li>
+    <li>Should governments use tariffs to protect domestic auto jobs, even if it slows the shift to EVs? Why or why not?
+      <span class="q-zh">政府是否應該用關稅保護國內汽車業工作機會，即使這會拖慢電動化的腳步？為什麼？</span></li>
+    <li>Do you think the "all-in on EVs" strategy that many automakers took was too aggressive, or was it still the right long-term bet?
+      <span class="q-zh">你認為許多車廠當初「全力押注電動車」的策略是太過躁進，還是長期來看仍是正確的賭注？</span></li>
+    <li>If you were buying a car today, would you choose a full EV, a hybrid, or a gasoline car? What would change your mind?
+      <span class="q-zh">如果你現在要買車，你會選純電動車、油電混合車，還是燃油車？什麼因素會改變你的想法？</span></li>
+  </ol>
+</div>
+
+<h2>7. Wrap-Up 總結 <span class="time">2 min</span></h2>
+<div class="block">
+  <div class="wrap-box">
+    <span class="label">60-SECOND SUMMARY 一分鐘摘要</span>
+    <p style="margin:10px 0 0;">In 60 seconds, summarize Volkswagen's restructuring and what it signals about the auto industry's shift away from a pure-EV strategy.</p>
+    <p class="zh" style="margin-top:6px;">用一分鐘摘要福斯的重組計畫，以及這對汽車產業「放緩純電動化」這件事透露了什麼訊號。</p>
+  </div>
+  <div class="wrap-box" style="margin-top:14px;">
+    <span class="label">STANCE SENTENCE 表態句型</span>
+    <p style="margin:10px 0 0;">"In my view, ___ is the more realistic path for the auto industry right now, because ___."</p>
+    <p class="zh" style="margin-top:6px;">「依我看，___才是目前汽車產業更務實的路，因為___。」</p>
+  </div>
+</div>
+
+<div class="block" style="margin-top:16px;">
+  <h2 style="margin-top:0;">Source Notes　取材筆記</h2>
+  <p class="source-note">Clipped from the Obsidian vault at: <strong>Claude code AI筆記 / raw / assets</strong><br>
+  <span class="zh">取材自 Obsidian 筆記庫路徑：<strong>Claude code AI筆記 / raw / assets</strong></span></p>
+  <table>
+    <thead>
+      <tr><th>Note file 筆記檔名</th><th>Original 原始出處</th><th>Used for 用於</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td data-label="Note file 筆記檔名" style="font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size:0.9em;">2026-09-07-中國電動車殺進來了！福斯裁員10萬人　4座工廠停產、車型陣容大砍50%.md</td>
+        <td data-label="Original 原始出處">盛琳（FTNN新聞網）via Yahoo股市 · 2026-09-06<br><a href="https://tw.stock.yahoo.com/news/%E4%B8%AD%E5%9C%8B%E9%9B%BB%E5%8B%95%E8%BB%8A%E6%AE%BA%E9%80%B2%E4%BE%86%E4%BA%86-%E7%A6%8F%E6%96%AF%E8%A3%81%E5%93%A110%E8%90%AC%E4%BA%BA-4%E5%BA%A7%E5%B7%A5%E5%BB%A0%E5%81%9C%E7%94%A2-%E8%BB%8A%E5%9E%8B%E9%99%A3%E5%AE%B9%E5%A4%A7%E7%A0%8D50-100500557.html" target="_blank" rel="noopener">原文連結 ↗</a></td>
+        <td data-label="Used for 用於">Paragraphs 1–5; the layoff, union, cost-gap and tariff figures; vocabulary items 1–7, 11–12; numbers rows 1–12; Discussion Q1, Q2, Q4, Q5.<br><span class="zh">第1–5段；裁員、工會、成本差距與關稅相關數據；單字表第1–7、11–12項；數字表第1–12列；討論題第1、2、4、5題。</span></td>
+      </tr>
+      <tr>
+        <td data-label="Note file 筆記檔名" style="font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size:0.9em;">2026-09-07-從華爾街到都靈：電動車夢醒了？混動車反攻、資本市場和監管三重壓力正改寫汽車產業賭局.md</td>
+        <td data-label="Original 原始出處">CMoney 研究員 · 2026-09-07<br><a href="https://cmnews.com.tw/article/cmoneyairesearcher-78c43a88-aa14-11f1-b950-9d32af544023" target="_blank" rel="noopener">原文連結 ↗</a></td>
+        <td data-label="Used for 用於">Paragraphs 6–7; the Mirafiori/Fiat 500 Hybrid production halt; vocabulary items 8–10; numbers row 13; Discussion Q3, Q6; Wrap-Up.<br><span class="zh">第6–7段；Mirafiori 廠與 Fiat 500 Hybrid 停產事件；單字表第8–10項；數字表第13列；討論題第3、6題；總結段落。</span></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<footer>
+  EV Speaking Practice · 2026-09-07 · Generated for Claude Yeh · 25-minute session
+</footer>
+
+<script>
+(function () {
+  var synth = window.speechSynthesis;
+  var bar = document.getElementById('ttsbar');
+  if (!synth) {
+    bar.innerHTML = '<div id="ttshint">此瀏覽器不支援語音朗讀，請改用 Chrome、Edge 或 Safari 開啟本檔案。</div>';
+    return;
+  }
+
+  var voiceSel = document.getElementById('tts-voice');
+  var rateSel  = document.getElementById('tts-rate');
+  var voices   = [];
+  var queue    = [];
+  var qi       = 0;
+  var playing  = false;
+
+  function score(v) {
+    var n = (v.name + ' ' + (v.voiceURI || '')).toLowerCase();
+    var s = 0;
+    if (/premium|enhanced|neural|natural/.test(n)) s += 40;
+    if (/siri/.test(n)) s += 30;
+    if (/google/.test(n)) s += 25;
+    if (/samantha|ava|allison|serena|daniel|kate|arthur|evan|nathan|zoe/.test(n)) s += 12;
+    if (/compact|novelty|whisper|bells|bubbles|jester|organ|trinoids|zarvox|albert|bad news|good news/.test(n)) s -= 60;
+    if (v.lang === 'en-US') s += 6;
+    if (v.lang === 'en-GB') s += 5;
+    if (v.localService) s += 2;
+    return s;
+  }
+
+  function loadVoices() {
+    var all = synth.getVoices().filter(function (v) { return /^en[-_]/i.test(v.lang); });
+    if (!all.length) return;
+    all.sort(function (a, b) { return score(b) - score(a); });
+    voices = all;
+    voiceSel.innerHTML = '';
+    voices.forEach(function (v, i) {
+      var o = document.createElement('option');
+      o.value = i;
+      o.textContent = v.name + ' (' + v.lang + ')';
+      voiceSel.appendChild(o);
+    });
+    var saved = null;
+    try { saved = localStorage.getItem('evPracticeVoice'); } catch (e) {}
+    if (saved !== null) {
+      var idx = voices.findIndex(function (v) { return v.name === saved; });
+      if (idx > -1) voiceSel.value = idx;
+    }
+  }
+  loadVoices();
+  synth.onvoiceschanged = loadVoices;
+
+  voiceSel.addEventListener('change', function () {
+    var v = voices[voiceSel.value];
+    try { if (v) localStorage.setItem('evPracticeVoice', v.name); } catch (e) {}
+  });
+
+  function clearHighlight() {
+    var h = document.querySelector('.speaking');
+    if (h) h.classList.remove('speaking');
+  }
+
+  function stop() {
+    playing = false;
+    queue = [];
+    qi = 0;
+    synth.cancel();
+    clearHighlight();
+  }
+
+  // Chrome silently truncates any utterance longer than ~15s, so queue
+  // sentence-sized chunks instead of whole paragraphs.
+  function sentences(text) {
+    var SEP = String.fromCharCode(1);
+    var t = text.replace(/\s+/g, ' ').trim();
+    // Shield decimals/abbreviations so "86.5 percent" isn't split in two.
+    t = t.replace(/(\d)\.(\d)/g, '$1' + SEP + '$2')
+         .replace(/\b(Mr|Mrs|Ms|Dr|St|vs|etc|Inc|Ltd|Co|approx)\./gi,
+                  function (m) { return m.slice(0, -1) + SEP; })
+         .replace(/\bU\.S\./g, 'U' + SEP + 'S' + SEP);
+    var parts = t.match(/[^.!?]+[.!?]+["')\]]?|[^.!?]+$/g) || [t];
+    return parts
+      .map(function (s) { return s.split(SEP).join('.').trim(); })
+      .filter(function (s) { return /[a-zA-Z0-9]/.test(s); });
+  }
+
+  function speakNext() {
+    if (!playing || qi >= queue.length) { stop(); return; }
+    var item = queue[qi++];
+    clearHighlight();
+    if (item.el) {
+      item.el.classList.add('speaking');
+      var r = item.el.getBoundingClientRect();
+      if (r.top < 120 || r.bottom > window.innerHeight - 40) {
+        item.el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      }
+    }
+    var u = new SpeechSynthesisUtterance(item.text);
+    var v = voices[voiceSel.value];
+    if (v) { u.voice = v; u.lang = v.lang; } else { u.lang = 'en-US'; }
+    u.rate = parseFloat(rateSel.value);
+    u.pitch = 1;
+    u.onend = speakNext;
+    u.onerror = speakNext;
+    synth.speak(u);
+  }
+
+  function textOf(el) {
+    // Snapshot taken before the play glyph was injected, so it is never spoken.
+    return el.getAttribute('data-tts') || el.textContent;
+  }
+
+  function play(elements) {
+    stop();
+    queue = [];
+    elements.forEach(function (el) {
+      sentences(textOf(el)).forEach(function (s) {
+        if (s.trim()) queue.push({ el: el, text: s });
+      });
+    });
+    if (!queue.length) return;
+    playing = true;
+    qi = 0;
+    speakNext();
+  }
+
+  document.getElementById('tts-stop').addEventListener('click', stop);
+
+  document.getElementById('tts-play').addEventListener('click', function () {
+    var paras = [].slice.call(document.querySelectorAll('#article .en'));
+    play(paras);
+  });
+
+  rateSel.addEventListener('change', function () { if (playing) stop(); });
+
+  var targets = [].slice.call(document.querySelectorAll('.en'));
+  targets.forEach(function (el) {
+    el.setAttribute('data-tts', el.textContent);
+    var b = document.createElement('button');
+    b.className = 'playbtn';
+    b.type = 'button';
+    b.textContent = '▶';
+    b.setAttribute('aria-label', 'Play this sentence');
+    b.addEventListener('click', function (e) {
+      e.stopPropagation();
+      play([el]);
+    });
+    el.insertBefore(b, el.firstChild);
+  });
+
+  [].slice.call(document.querySelectorAll('table tr')).forEach(function (tr) {
+    var cells = tr.querySelectorAll('td');
+    if (cells.length < 2) return;
+    var last = cells[cells.length - 1];
+    if (!/[a-zA-Z]/.test(last.textContent)) return;
+    last.style.cursor = 'pointer';
+    last.title = 'Click to hear it 點一下聽發音';
+    last.addEventListener('click', function () { play([last]); });
+  });
+
+  window.addEventListener('beforeunload', function () { synth.cancel(); });
+})();
+</script>
+
+</body>
+</html>

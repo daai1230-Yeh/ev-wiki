@@ -1,7 +1,7 @@
 ---
 tags: [concept]
 sources: [tesla-taiwan-march-2026, taiwan-ev-charging-strategy, taiwan-ev-charging-upower, taiwan-evalue-640kw-charger, taiwan-ev-electrification-progress-2026]
-updated: 2026-05-11
+updated: 2026-10-14
 ---
 
 # 台灣 EV 市場
@@ -58,3 +58,16 @@ updated: 2026-05-11
 - [[sources/taiwan-ev-charging-strategy]]
 - [[sources/taiwan-ev-charging-upower]]
 - [[sources/taiwan-evalue-640kw-charger]]
+
+## Tesla 9月交車5,554輛、進口車佔比過半，離島電巴車型缺口（2026-10）
+
+> **結論**：Tesla 9月在台交車5,554輛、前9月18,632輛，僅次於Toyota與Lexus，帶動9月進口車市佔達55.5%；裕日車預估2026、2027年車市都約42萬輛，成長集中在豪華車與新能源車。
+
+**主因**：
+- 前3季進口車153,735輛、佔50%，國產車若第4季無法追上恐走弱；Toyota Vios年底停產。
+- 能管法修法帶動儲能，寰聖低速電動載具電池訂單看到1H27。
+- 連江縣因無通過審驗的電動乙類大客車，無法申請電巴補助。
+
+**觀察**：Tesla全年在台銷量是否創新高；美國關稅2027年初定案後的進口車型變化。
+
+- 參見：[[sources/ev-news-2026-10-12-14-digitimes]] | [[sources/ev-news-2026-10-14-bus-digest]] | [[entities/Tesla]]

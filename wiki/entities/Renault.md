@@ -1,7 +1,7 @@
 ---
 tags: [entity]
 sources: [renault-flexis-acquisition-2026, ev-news-2026-06-27-29-en, ev-news-2026-07-09, ev-news-2026-09-26-electrive-en, ev-news-2026-09-28-electrive-en, ev-news-2026-09-29-electrive-en, ev-news-2026-10-05-electrive-en, ev-news-2026-10-06-electrive-en, ev-news-2026-10-05-digitimes, ev-news-2026-10-07-electrive-en]
-updated: 2026-10-07
+updated: 2026-10-14
 ---
 
 # Renault（雷諾）
@@ -117,3 +117,9 @@ Renault執行長Provost表示未來五年擬在法國投資逾100億歐元（以
 Geodis向Renault Trucks與Volvo Trucks確定訂購110輛44噸純電卡車（2027年5月前交車，主要在法國），電動卡車合計達190輛，並規劃每250~500公里的電動走廊（2030年逾200個充電點）。
 
 - 參見：[[sources/ev-news-2026-10-07-electrive-en]] | [[concepts/電動卡車市場]] | [[countries/歐洲]]
+
+## 與EDF推V2G方案、E-Space概念車（2026-10）
+
+Renault集團與EDF明年夏季在法國推出雙向充電套裝（車＋壁掛充電樁＋智慧管理），Renault、Alpine、Dacia車主可回送電網；巴黎車展發表致敬Espace的E-Space純電MPV概念車。
+
+- 參見：[[sources/ev-news-2026-10-13-14-electrive-en]] | [[concepts/充電基礎建設]]

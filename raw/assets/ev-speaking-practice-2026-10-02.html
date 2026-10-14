@@ -1,0 +1,449 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>EV Speaking Practice — Is It Too Late for Europe? (2026-10-02)</title>
+<style>
+  :root {
+    --bg: #0C2A65;
+    --fg: #FFFFFF;
+    --accent: #7FB3FF;
+    --line: rgba(255,255,255,.25);
+  }
+  * { box-sizing: border-box; }
+  html, body {
+    margin: 0; padding: 0;
+    background: var(--bg); color: var(--fg);
+    font-family: -apple-system, "Segoe UI", "Helvetica Neue", Arial, "PingFang TC", "Noto Sans TC", sans-serif;
+    font-size: 20pt;
+    line-height: 1.6;
+  }
+  .wrap { max-width: 900px; margin: 0 auto; padding: 24px 18px 60px; }
+  header { margin-bottom: 18px; }
+  header .kicker {
+    color: var(--accent); font-size: 14pt; letter-spacing: .08em;
+    text-transform: uppercase; margin-bottom: 6px;
+  }
+  h1 {
+    font-size: 26pt; line-height: 1.3; margin: 0 0 10px;
+  }
+  header .meta { font-size: 14pt; opacity: .75; }
+  h2 {
+    font-size: 19pt; margin: 34px 0 14px; padding-left: 14px;
+    border-left: 6px solid var(--accent);
+    display: flex; flex-wrap: wrap; gap: 8px 14px; align-items: baseline;
+  }
+  h2 .time {
+    font-size: 12.5pt; color: var(--accent); font-weight: 700;
+    border: 1px solid var(--accent); border-radius: 999px; padding: 2px 12px;
+  }
+  .block {
+    border: 1px solid var(--line); border-radius: 10px;
+    padding: 18px 20px; margin-bottom: 14px;
+  }
+  .plan {
+    border: 1px solid var(--line); border-radius: 10px;
+    padding: 16px 20px; margin: 18px 0 26px;
+    background: rgba(127,179,255,.06);
+  }
+  .plan h3 {
+    margin: 0 0 10px; font-size: 14pt; color: var(--accent);
+    letter-spacing: .04em; text-transform: uppercase;
+  }
+  .plan ol { margin: 0; padding-left: 22px; font-size: 14.5pt; }
+  .plan li { margin: 4px 0; }
+  .plan .m { color: var(--accent); font-weight: 700; }
+  p.en { margin: 0 0 4px; }
+  p.zh { margin: 0 0 20px; font-size: 15.5pt; opacity: .72; }
+  .qa { margin: 0 0 22px; }
+  .qa .num {
+    color: var(--accent); font-weight: 700; margin-right: 8px;
+  }
+  table {
+    width: 100%; border-collapse: collapse; margin: 6px 0 8px;
+    font-size: 15pt;
+  }
+  th, td {
+    border-bottom: 1px solid var(--line);
+    padding: 10px 8px; text-align: left; vertical-align: top;
+  }
+  th {
+    color: var(--bg); background: var(--accent);
+    font-size: 13pt; letter-spacing: .03em;
+  }
+  td.ipa { color: var(--accent); white-space: nowrap; }
+  code {
+    background: rgba(255,255,255,.1); padding: 2px 6px; border-radius: 4px;
+    font-size: .85em;
+  }
+  .expr {
+    border: 1px solid var(--line); border-radius: 8px;
+    padding: 12px 16px; margin: 0 0 14px;
+  }
+  .expr .pat { font-size: 16.5pt; font-weight: 700; }
+  .expr .zh { font-size: 14.5pt; opacity: .75; margin-top: 4px; }
+  .expr .ex { font-size: 14.5pt; margin-top: 8px; opacity: .9; font-style: italic; }
+  a { color: var(--accent); }
+  footer {
+    margin-top: 40px; padding-top: 16px; border-top: 1px solid var(--line);
+    font-size: 12.5pt; opacity: .6;
+  }
+  .sourcepath { font-size: 13.5pt; opacity: .8; margin-bottom: 10px; }
+
+  /* ---- Text-to-speech controls ---- */
+  #ttsbar {
+    position:sticky; top:0; z-index:50;
+    background:rgba(12,42,101,.96); backdrop-filter:blur(6px);
+    border:1px solid var(--line); border-radius:10px;
+    padding:14px 18px; margin:0 0 8px;
+    display:flex; flex-wrap:wrap; gap:10px 14px; align-items:center;
+    font-size:14pt;
+  }
+  #ttsbar label { opacity:.75; letter-spacing:.04em; }
+  #ttsbar button {
+    font:inherit; font-size:14pt; font-weight:700;
+    color:var(--bg); background:var(--accent);
+    border:none; border-radius:6px; padding:8px 16px; cursor:pointer;
+  }
+  #ttsbar button.ghost { background:transparent; color:var(--accent); border:1px solid var(--accent); }
+  #ttsbar button:hover { opacity:.85; }
+  #ttsbar select {
+    font:inherit; font-size:14pt;
+    color:var(--fg); background:#123573;
+    border:1px solid var(--line); border-radius:6px; padding:7px 10px; max-width:260px;
+  }
+  #ttshint { flex-basis:100%; font-size:12.5pt; opacity:.6; line-height:1.5; }
+  .playbtn {
+    font:inherit; font-size:13pt; line-height:1;
+    color:var(--accent); background:transparent;
+    border:1px solid rgba(127,179,255,.5); border-radius:5px;
+    padding:4px 9px; margin-right:10px; cursor:pointer; vertical-align:middle;
+  }
+  .playbtn:hover { background:rgba(127,179,255,.16); }
+  .speaking {
+    background:rgba(127,179,255,.17);
+    box-shadow:0 0 0 8px rgba(127,179,255,.17);
+    border-radius:3px;
+  }
+
+  @media (max-width: 640px) {
+    body { font-size: 16pt; }
+    h1 { font-size: 21pt; }
+    h2 { font-size: 16pt; }
+    table { font-size: 12.5pt; }
+    .plan ol { font-size: 12.5pt; }
+    #ttsbar, #ttsbar button, #ttsbar select { font-size: 12pt; }
+    .wrap { padding: 16px 12px 40px; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <div class="kicker">EV Speaking Practice · 25 min</div>
+  <h1>Is It Too Late for Europe?</h1>
+  <div class="meta">歐洲是不是已經太遲了？ · 2026-10-02</div>
+</header>
+
+<div class="plan">
+  <h3>Session Plan 課程規劃</h3>
+  <ol>
+    <li><span class="m">3 min</span> — Warm-Up 暖身</li>
+    <li><span class="m">6 min</span> — Read Aloud 朗讀短文</li>
+    <li><span class="m">4 min</span> — Key Vocabulary 關鍵單字</li>
+    <li><span class="m">2 min</span> — Saying the Numbers 數字唸法</li>
+    <li><span class="m">3 min</span> — Useful Expressions 實用句型</li>
+    <li><span class="m">5 min</span> — Discussion 討論題</li>
+    <li><span class="m">2 min</span> — Wrap-Up 總結</li>
+  </ol>
+</div>
+
+<div id="ttsbar">
+  <button id="tts-play">▶ Read the article 朗讀全文</button>
+  <button id="tts-stop" class="ghost">■ Stop 停止</button>
+  <label for="tts-voice">Voice</label>
+  <select id="tts-voice"></select>
+  <label for="tts-rate">Speed</label>
+  <select id="tts-rate">
+    <option value="0.75">0.75× 慢</option>
+    <option value="0.9" selected>0.9× 稍慢</option>
+    <option value="1">1.0× 正常</option>
+    <option value="1.15">1.15× 快</option>
+  </select>
+  <div id="ttshint">每個英文段落左邊都有 ▶ 可單獨播放；正在唸的句子會反白。想要更自然的聲音：macOS「系統設定 → 輔助使用 → 朗讀內容 → 系統聲音」下載 Enhanced／Premium 或 Siri 語音，再回來從上面的 Voice 選單選取。</div>
+
+<h2>1. Warm-Up 暖身 <span class="time">3 min</span></h2>
+<div class="block">
+  <div class="qa"><p class="en"><span class="num">1.</span>Have you seen many Chinese-brand electric cars on the road where you live? What do people think of them?</p><p class="zh">你住的地方常看到中國品牌的電動車嗎？大家對它們的看法如何？</p></div>
+  <div class="qa"><p class="en"><span class="num">2.</span>When you shop for a car, what matters most to you: price, range, brand, or technology? Why?</p><p class="zh">買車時你最在意什麼：價格、續航、品牌還是科技？為什麼？</p></div>
+  <div class="qa"><p class="en"><span class="num">3.</span>Should a country protect its own car industry, or let foreign competitors in? What are the trade-offs?</p><p class="zh">一個國家應該保護本國車業，還是開放外國對手進入？利弊各是什麼？</p></div>
+</div>
+
+<h2>2. Read Aloud 朗讀短文 <span class="time">6 min</span></h2>
+<div class="block" id="article">
+  <p class="en">Europe has become the new battleground for Chinese and American carmakers. According to UBS, Chinese vehicles are being shipped to Europe at nearly twice the pace of local new-car registrations.</p>
+  <p class="zh">歐洲已成為中美車廠較量的新戰場。瑞銀指出，中國汽車輸往歐洲的速度，接近當地新車註冊量的兩倍。</p>
+  <p class="en">UBS also warns that the real export numbers may be underestimated by a factor of two, because trucking capacity inside Europe is stretched and cars are stuck in logistics bottlenecks.</p>
+  <p class="zh">瑞銀也警告，由於歐洲境內卡車運能吃緊、物流出現瓶頸，中系車的實際出口量可能被低估了兩倍。</p>
+  <p class="en">The European Union already imposes extra tariffs on Chinese battery-electric vehicles, and it is now studying new duties on plug-in hybrids. Even so, Chinese makers can still turn a profit, thanks to cheaper lithium batteries and lower vehicle costs.</p>
+  <p class="zh">歐盟已對中國純電動車加徵關稅，目前也正研擬對插電式混合動力車課徵新關稅。即便如此，憑藉較低的鋰電池與整車成本，中國車廠依然有利可圖。</p>
+  <p class="en">Ford CEO Jim Farley says it is "too late" for Europe. Speaking at the Automotive News Congress in Detroit, he said Chinese EVs already make up about 12 percent of the European market, and as much as 25 percent in Mexico.</p>
+  <p class="zh">福特執行長法利表示，對歐洲來說「已經太遲了」。他在底特律的《Automotive News》大會上說，中國電動車已占歐洲市場約12%，在墨西哥更高達25%。</p>
+  <p class="en">Farley urges the United States to take its time and be considerate. He also raises national security concerns, saying Chinese cars can "take videos of everything."</p>
+  <p class="zh">法利呼籲美國放慢腳步、審慎行事。他也提出國安疑慮，指中國車輛「可以把一切拍下來」。</p>
+  <p class="en">Yet Ford is not avoiding China altogether. It is partnering with Geely to build vehicles in Spain, and it has worked with CATL on a battery project. Farley says Ford will partner where it lacks intellectual property, and compete everywhere else.</p>
+  <p class="zh">不過福特並未完全迴避中國。它與吉利合作在西班牙造車，也與寧德時代合作電池專案。法利說，福特會在自己缺乏智慧財產權的領域合作，其他領域則正面競爭。</p>
+  <p class="en">Policy in Washington is unclear. A bill from Congress would ban any manufacturer with 15 percent or more Chinese ownership, but the administration has hinted it might allow Chinese EVs that are built in the U.S. Meanwhile, the EU's vote on Tesla's Full Self-Driving system has slipped from October to around the end of 2026.</p>
+  <p class="zh">華府的政策仍不明朗。國會的法案將禁止任何中國持股15%以上的車廠，但政府暗示可能允許在美國本土生產的中國電動車。同時，歐盟對特斯拉FSD的表決已從10月延到2026年底前後。</p>
+</div>
+
+<h2>3. Key Vocabulary 關鍵單字 <span class="time">4 min</span></h2>
+<div class="block">
+  <table>
+    <tr><th>Word 單字</th><th>IPA 音標</th><th>中文</th><th>Example 例句</th></tr>
+    <tr><td><strong>beachhead</strong></td><td class="ipa">/ˈbiːtʃhed/</td><td>灘頭堡、據點</td><td >Europe is the beachhead for both Tesla and Chinese brands.</td></tr>
+    <tr><td><strong>bottleneck</strong></td><td class="ipa">/ˈbɑːtlnek/</td><td>瓶頸</td><td >A trucking bottleneck is hiding the true number of imports.</td></tr>
+    <tr><td><strong>underestimate</strong></td><td class="ipa">/ˌʌndərˈestɪmeɪt/</td><td>低估</td><td >Analysts may underestimate how fast Chinese cars are arriving.</td></tr>
+    <tr><td><strong>tariff</strong></td><td class="ipa">/ˈtærɪf/</td><td>關稅</td><td >The EU placed a tariff on Chinese electric cars.</td></tr>
+    <tr><td><strong>plug-in hybrid</strong></td><td class="ipa">/ˌplʌɡ ɪn ˈhaɪbrɪd/</td><td>插電式混合動力車</td><td >Plug-in hybrids may be the next target for new duties.</td></tr>
+    <tr><td><strong>market share</strong></td><td class="ipa">/ˈmɑːrkɪt ʃer/</td><td>市占率</td><td >Chinese brands now hold about 12 percent market share in Europe.</td></tr>
+    <tr><td><strong>national security</strong></td><td class="ipa">/ˌnæʃnəl sɪˈkjʊrəti/</td><td>國家安全</td><td >Some leaders see connected cars as a national security risk.</td></tr>
+    <tr><td><strong>intellectual property</strong></td><td class="ipa">/ˌɪntəˈlektʃuəl ˈprɑːpərti/</td><td>智慧財產權</td><td >Ford will partner where it lacks intellectual property.</td></tr>
+    <tr><td><strong>turn a profit</strong></td><td class="ipa">/tɜːrn ə ˈprɑːfɪt/</td><td>獲利</td><td >Even with tariffs, Chinese exporters can still turn a profit.</td></tr>
+    <tr><td><strong>cost advantage</strong></td><td class="ipa">/kɔːst ədˈvæntɪdʒ/</td><td>成本優勢</td><td >Cheap batteries give Chinese makers a clear cost advantage.</td></tr>
+    <tr><td><strong>influx</strong></td><td class="ipa">/ˈɪnflʌks/</td><td>大量湧入</td><td >The influx of Chinese EVs has squeezed European brands.</td></tr>
+    <tr><td><strong>ownership</strong></td><td class="ipa">/ˈoʊnərʃɪp/</td><td>持股、所有權</td><td >The bill targets companies with 15 percent Chinese ownership.</td></tr>
+  </table>
+</div>
+
+<h2>4. Saying the Numbers 數字唸法 <span class="time">2 min</span></h2>
+<div class="block">
+  <table>
+    <tr><th>Figure 數據</th><th>Say it 唸法</th><th>Meaning 意思</th></tr>
+    <tr><td>2×</td><td >twice / two times</td><td>出口速度約為當地註冊量的兩倍；實際量可能被低估兩倍</td></tr>
+    <tr><td>12%</td><td >twelve percent</td><td>中國電動車占歐洲市場比例（法利所述）</td></tr>
+    <tr><td>25%</td><td >twenty-five percent</td><td>中國電動車在墨西哥的最高占比</td></tr>
+    <tr><td>70%</td><td >seventy percent</td><td>全球中國電動車市占率成長幅度（據CNBC）</td></tr>
+    <tr><td>15%</td><td >fifteen percent</td><td>法案禁止的中國持股門檻</td></tr>
+    <tr><td>2026</td><td >twenty twenty-six</td><td>歐盟FSD表決延後至年底前後</td></tr>
+  </table>
+</div>
+
+<h2>5. Useful Expressions 實用句型 <span class="time">3 min</span></h2>
+<div class="block">
+  <div class="expr"><div class="pat">"X is shipping Y at nearly twice the pace of Z."</div><div class="zh">比較兩個速度或數量，表示接近兩倍。</div><div class="ex en">Chinese makers are shipping cars to Europe at nearly twice the pace of local registrations.</div></div>
+  <div class="expr"><div class="pat">"Even so, X can still ___, thanks to Y."</div><div class="zh">承認不利條件，但指出仍成立的原因。</div><div class="ex en">Even so, Chinese makers can still turn a profit, thanks to cheaper batteries.</div></div>
+  <div class="expr"><div class="pat">"It's too late for X to ___."</div><div class="zh">表達某事已經來不及。</div><div class="ex en">Some people say it's too late for Europe to catch up.</div></div>
+  <div class="expr"><div class="pat">"We should take our time and ___ before ___."</div><div class="zh">主張審慎、不要急著行動。</div><div class="ex en">We should take our time and study the risks before opening the market.</div></div>
+  <div class="expr"><div class="pat">"We'll partner where ___, and compete where ___."</div><div class="zh">說明合作與競爭並行的策略。</div><div class="ex en">We'll partner where we lack technology, and compete where we are strong.</div></div>
+</div>
+
+<h2>6. Discussion 討論題 <span class="time">5 min</span></h2>
+<div class="block">
+  <div class="qa"><p class="en"><span class="num">1.</span>Farley says it is "too late" for Europe. Do you agree, or can European brands still fight back? How?</p><p class="zh">法利說歐洲「已經太遲」。你同意嗎？歐洲品牌還能怎麼反擊？</p></div>
+  <div class="qa"><p class="en"><span class="num">2.</span>Argue for keeping Chinese EVs out of the U.S. for now. Then argue the opposite: that open competition helps drivers.</p><p class="zh">請先主張暫時不讓中國電動車進入美國，再主張相反立場：開放競爭對駕駛人有利。</p></div>
+  <div class="qa"><p class="en"><span class="num">3.</span>Is the national security concern about connected cars realistic, or is it partly a way to protect local jobs?</p><p class="zh">聯網車的國安疑慮是否合理？還是部分只是為了保護本地工作機會？</p></div>
+  <div class="qa"><p class="en"><span class="num">4.</span>Is it hypocritical for Ford to partner with Geely and CATL while asking for caution toward Chinese carmakers? Why or why not?</p><p class="zh">福特一邊與吉利、寧德時代合作，一邊呼籲對中國車廠謹慎，是否矛盾？為什麼？</p></div>
+  <div class="qa"><p class="en"><span class="num">5.</span>Tariffs raise prices for consumers. Who benefits and who loses when a government taxes imported EVs?</p><p class="zh">關稅會推高消費者價格。政府對進口電動車課稅時，誰受益、誰受損？</p></div>
+  <div class="qa"><p class="en"><span class="num">6.</span>If you could choose, would you buy a Chinese-brand EV? What would change your mind?</p><p class="zh">如果可以選擇，你會買中國品牌的電動車嗎？什麼會改變你的想法？</p></div>
+</div>
+
+<h2>7. Wrap-Up 總結 <span class="time">2 min</span></h2>
+<div class="block">
+  <p class="en"><strong>60-second summary:</strong> In short — Europe has become the main battleground for Chinese and American carmakers. Chinese exports may be underestimated by as much as two times, and even with EU tariffs, cheaper batteries keep them profitable. Ford's CEO says it is too late for Europe, and he wants the U.S. to move slowly, yet Ford still partners with Geely and CATL. The big question is whether protection or competition serves drivers better.</p>
+  <p class="zh">60秒摘要：簡而言之，歐洲已成為中美車廠的主戰場。中國車的出口量可能被低估多達兩倍，即使有歐盟關稅，較便宜的電池仍讓他們有利可圖。福特執行長認為歐洲已太遲，並希望美國放慢腳步，但福特自己仍與吉利、寧德時代合作。核心問題是：保護與競爭，哪一個對駕駛人更有利？</p>
+  <p class="en" style="margin-top:16px;"><strong>Stance sentence pattern:</strong> "If I had to take a side, I'd say ___, because ___."</p>
+  <p class="zh">表達個人立場句型：「如果一定要選邊站，我會說＿＿＿，因為＿＿＿。」</p>
+</div>
+
+<h2>Source Notes 取材筆記</h2>
+<div class="block">
+  <p class="sourcepath">Note vault path: <code>Claude code AI筆記 / raw / assets</code><br>筆記庫路徑：<code>Claude code AI筆記 / raw / assets</code></p>
+  <table>
+    <tr><th>Note file 筆記檔名</th><th>Original 原始出處</th><th>Used for 用於</th></tr>
+    <tr>
+      <td><code>2026-10-01-Ford CEO Thinks Its Too Late For Europe To Take On Chinese Automakers.md</code></td>
+      <td>InsideEVs（Nico DeMattia）· 2026-09-30<br><a href="https://insideevs.com/news/810341/ford-ceo-europe-china-caution/" target="_blank" rel="noopener">InsideEVs original</a></td>
+      <td>Provided Farley's "too late" remarks, the 12% and 25% market-share figures, the national security point, Ford's partnerships with Geely and CATL, and the U.S. 15% ownership bill.<br>提供法利「已經太遲」的談話、12%與25%市占數據、國安論點、福特與吉利和寧德時代的合作，以及美國15%持股法案。</td>
+    </tr>
+    <tr>
+      <td><code>2026-10-01-中系車出口量恐被低估2倍 美中車廠決戰歐洲灘頭堡.md</code></td>
+      <td>DIGITIMES（黃女瑛）· 2026-10-01<br><a href="https://www.digitimes.com.tw/tech/dt/n/shwnws.asp?CnlID=&amp;id=769981&amp;grid_seq1=&amp;grid_seq2=" target="_blank" rel="noopener">DIGITIMES 原文</a></td>
+      <td>Provided the UBS estimate on underestimated exports, trucking bottlenecks, EU tariffs on BEVs and planned PHEV duties, and the delayed Tesla FSD vote.<br>提供瑞銀對出口被低估的估計、卡車運能瓶頸、歐盟對純電動車關稅與擬議的PHEV關稅，以及特斯拉FSD表決延期。</td>
+    </tr>
+  </table>
+</div>
+
+<footer>
+  Generated for Claude Yeh's daily EV speaking practice · Content researched from the user's Obsidian news-clipper vault (or general EV topics when unavailable) · 25-minute session for online speaking lessons.
+</footer>
+
+</div>
+
+<script>
+(function () {
+  var synth = window.speechSynthesis;
+  var bar = document.getElementById('ttsbar');
+  if (!synth) {
+    bar.innerHTML = '<div id="ttshint">此瀏覽器不支援語音朗讀，請改用 Chrome、Edge 或 Safari 開啟本檔案。</div>';
+    return;
+  }
+
+  var voiceSel = document.getElementById('tts-voice');
+  var rateSel  = document.getElementById('tts-rate');
+  var voices   = [];
+  var queue    = [];
+  var qi       = 0;
+  var playing  = false;
+
+  function score(v) {
+    var n = (v.name + ' ' + (v.voiceURI || '')).toLowerCase();
+    var s = 0;
+    if (/premium|enhanced|neural|natural/.test(n)) s += 40;
+    if (/siri/.test(n)) s += 30;
+    if (/google/.test(n)) s += 25;
+    if (/samantha|ava|allison|serena|daniel|kate|arthur|evan|nathan|zoe/.test(n)) s += 12;
+    if (/compact|novelty|whisper|bells|bubbles|jester|organ|trinoids|zarvox|albert|bad news|good news/.test(n)) s -= 60;
+    if (v.lang === 'en-US') s += 6;
+    if (v.lang === 'en-GB') s += 5;
+    if (v.localService) s += 2;
+    return s;
+  }
+
+  function loadVoices() {
+    var all = synth.getVoices().filter(function (v) { return /^en[-_]/i.test(v.lang); });
+    if (!all.length) return;
+    all.sort(function (a, b) { return score(b) - score(a); });
+    voices = all;
+    voiceSel.innerHTML = '';
+    voices.forEach(function (v, i) {
+      var o = document.createElement('option');
+      o.value = i;
+      o.textContent = v.name + ' (' + v.lang + ')';
+      voiceSel.appendChild(o);
+    });
+    var saved = null;
+    try { saved = localStorage.getItem('evPracticeVoice'); } catch (e) {}
+    if (saved !== null) {
+      var idx = voices.findIndex(function (v) { return v.name === saved; });
+      if (idx > -1) voiceSel.value = idx;
+    }
+  }
+  loadVoices();
+  synth.onvoiceschanged = loadVoices;
+
+  voiceSel.addEventListener('change', function () {
+    var v = voices[voiceSel.value];
+    try { if (v) localStorage.setItem('evPracticeVoice', v.name); } catch (e) {}
+  });
+
+  function clearHighlight() {
+    var h = document.querySelector('.speaking');
+    if (h) h.classList.remove('speaking');
+  }
+
+  function stop() {
+    playing = false;
+    queue = [];
+    qi = 0;
+    synth.cancel();
+    clearHighlight();
+  }
+
+  // Chrome silently truncates any utterance longer than ~15s, so queue
+  // sentence-sized chunks instead of whole paragraphs.
+  function sentences(text) {
+    var SEP = String.fromCharCode(1);
+    var t = text.replace(/\s+/g, ' ').trim();
+    // Shield decimals/abbreviations so "86.5 percent" isn't split in two.
+    t = t.replace(/(\d)\.(\d)/g, '$1' + SEP + '$2')
+         .replace(/\b(Mr|Mrs|Ms|Dr|St|vs|etc|Inc|Ltd|Co|approx)\./gi,
+                  function (m) { return m.slice(0, -1) + SEP; })
+         .replace(/\bU\.S\./g, 'U' + SEP + 'S' + SEP);
+    var parts = t.match(/[^.!?]+[.!?]+["')\]]?|[^.!?]+$/g) || [t];
+    return parts
+      .map(function (s) { return s.split(SEP).join('.').trim(); })
+      .filter(function (s) { return /[a-zA-Z0-9]/.test(s); });
+  }
+
+  function speakNext() {
+    if (!playing || qi >= queue.length) { stop(); return; }
+    var item = queue[qi++];
+    clearHighlight();
+    if (item.el) {
+      item.el.classList.add('speaking');
+      var r = item.el.getBoundingClientRect();
+      if (r.top < 120 || r.bottom > window.innerHeight - 40) {
+        item.el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      }
+    }
+    var u = new SpeechSynthesisUtterance(item.text);
+    var v = voices[voiceSel.value];
+    if (v) { u.voice = v; u.lang = v.lang; } else { u.lang = 'en-US'; }
+    u.rate = parseFloat(rateSel.value);
+    u.pitch = 1;
+    u.onend = speakNext;
+    u.onerror = speakNext;
+    synth.speak(u);
+  }
+
+  function textOf(el) {
+    // Snapshot taken before the play glyph was injected, so it is never spoken.
+    return el.getAttribute('data-tts') || el.textContent;
+  }
+
+  function play(elements) {
+    stop();
+    queue = [];
+    elements.forEach(function (el) {
+      sentences(textOf(el)).forEach(function (s) {
+        if (s.trim()) queue.push({ el: el, text: s });
+      });
+    });
+    if (!queue.length) return;
+    playing = true;
+    qi = 0;
+    speakNext();
+  }
+
+  document.getElementById('tts-stop').addEventListener('click', stop);
+
+  document.getElementById('tts-play').addEventListener('click', function () {
+    var paras = [].slice.call(document.querySelectorAll('#article .en'));
+    play(paras);
+  });
+
+  rateSel.addEventListener('change', function () { if (playing) stop(); });
+
+  var targets = [].slice.call(document.querySelectorAll('.en'));
+  targets.forEach(function (el) {
+    el.setAttribute('data-tts', el.textContent);
+    var b = document.createElement('button');
+    b.className = 'playbtn';
+    b.type = 'button';
+    b.textContent = '▶';
+    b.setAttribute('aria-label', 'Play this sentence');
+    b.addEventListener('click', function (e) {
+      e.stopPropagation();
+      play([el]);
+    });
+    el.insertBefore(b, el.firstChild);
+  });
+
+  [].slice.call(document.querySelectorAll('table tr')).forEach(function (tr) {
+    var cells = tr.querySelectorAll('td');
+    if (cells.length < 2) return;
+    var last = cells[cells.length - 1];
+    if (!/[a-zA-Z]/.test(last.textContent)) return;
+    last.style.cursor = 'pointer';
+    last.title = 'Click to hear it 點一下聽發音';
+    last.addEventListener('click', function () { play([last]); });
+  });
+
+  window.addEventListener('beforeunload', function () { synth.cancel(); });
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>EV Speaking Practice — Nine Minutes vs. Sixty-Five Dollars (2026-09-01)</title>
+<style>
+  :root {
+    --bg: #0C2A65;
+    --fg: #FFFFFF;
+    --accent: #7FB3FF;
+    --line: rgba(127,179,255,.35);
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    padding: 28px 22px 60px;
+    background: var(--bg);
+    color: var(--fg);
+    font-family: "Helvetica Neue", "PingFang TC", "Noto Sans TC", Arial, sans-serif;
+    font-size: 20pt;
+    line-height: 1.62;
+    -webkit-text-size-adjust: 100%;
+  }
+  .wrap { max-width: 900px; margin: 0 auto; }
+  h1 {
+    font-size: 27pt;
+    line-height: 1.25;
+    margin: 0 0 6px;
+  }
+  h1 .sub {
+    display: block;
+    font-size: 17pt;
+    font-weight: 400;
+    opacity: .8;
+    margin-top: 6px;
+  }
+  .meta { font-size: 14pt; opacity: .65; margin: 0 0 26px; letter-spacing: .03em; }
+  h2 {
+    font-size: 21pt;
+    margin: 40px 0 14px;
+    padding-left: 14px;
+    border-left: 6px solid var(--accent);
+    line-height: 1.35;
+  }
+  h2 .cn { font-size: 16pt; font-weight: 400; opacity: .8; margin-left: 8px; }
+  h2 .time { font-size: 14pt; color: var(--accent); font-weight: 400; margin-left: 8px; }
+  h3 { font-size: 17pt; margin: 26px 0 8px; color: var(--accent); }
+  .block {
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    padding: 18px 20px 22px;
+    margin: 0 0 8px;
+  }
+  .plan { padding: 16px 20px; margin-bottom: 18px; }
+  .plan h2 { margin-top: 0; }
+  .plan ol { margin: 6px 0 0; padding-left: 26px; font-size: 15.5pt; line-height: 1.75; }
+  .plan li span { color: var(--accent); }
+  p { margin: 0 0 4px; }
+  .en { margin: 18px 0 2px; }
+  .zh { margin: 0 0 6px; font-size: 16pt; opacity: .72; line-height: 1.55; }
+  ol.q { padding-left: 26px; margin: 10px 0 0; }
+  ol.q li { margin-bottom: 16px; }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 14px 0 4px;
+    font-size: 15pt;
+  }
+  th, td {
+    border: 1px solid var(--line);
+    padding: 9px 11px;
+    text-align: left;
+    vertical-align: top;
+  }
+  th { background: rgba(127,179,255,.18); color: var(--accent); font-size: 14.5pt; letter-spacing: .03em; }
+  td.ipa { white-space: nowrap; opacity: .85; font-size: 14pt; }
+  code { font-family: "SF Mono", Menlo, Consolas, monospace; font-size: 14pt; }
+  a { color: var(--accent); }
+  .tip {
+    background: rgba(127,179,255,.12);
+    border-left: 4px solid var(--accent);
+    padding: 12px 16px;
+    border-radius: 0 8px 8px 0;
+    margin: 16px 0 0;
+    font-size: 16pt;
+  }
+  footer {
+    margin-top: 46px;
+    padding-top: 16px;
+    border-top: 1px solid var(--line);
+    font-size: 13.5pt;
+    opacity: .6;
+    line-height: 1.6;
+  }
+  @media (max-width: 640px) {
+    body { font-size: 17pt; padding: 18px 14px 44px; }
+    h1 { font-size: 22pt; }
+    h2 { font-size: 18pt; }
+    .zh { font-size: 14pt; }
+    table, th, td { font-size: 13pt; }
+    .block { padding: 14px 14px 18px; }
+  }
+
+  /* ---- Text-to-speech controls ---- */
+  #ttsbar {
+    position:sticky; top:0; z-index:50;
+    background:rgba(12,42,101,.96); backdrop-filter:blur(6px);
+    border:1px solid var(--line); border-radius:10px;
+    padding:14px 18px; margin:0 0 8px;
+    display:flex; flex-wrap:wrap; gap:10px 14px; align-items:center;
+    font-size:14pt;
+  }
+  #ttsbar label { opacity:.75; letter-spacing:.04em; }
+  #ttsbar button {
+    font:inherit; font-size:14pt; font-weight:700;
+    color:var(--bg); background:var(--accent);
+    border:none; border-radius:6px; padding:8px 16px; cursor:pointer;
+  }
+  #ttsbar button.ghost { background:transparent; color:var(--accent); border:1px solid var(--accent); }
+  #ttsbar button:hover { opacity:.85; }
+  #ttsbar select {
+    font:inherit; font-size:14pt;
+    color:var(--fg); background:#123573;
+    border:1px solid var(--line); border-radius:6px; padding:7px 10px; max-width:260px;
+  }
+  #ttshint { flex-basis:100%; font-size:12.5pt; opacity:.6; line-height:1.5; }
+  .playbtn {
+    font:inherit; font-size:13pt; line-height:1;
+    color:var(--accent); background:transparent;
+    border:1px solid rgba(127,179,255,.5); border-radius:5px;
+    padding:4px 9px; margin-right:10px; cursor:pointer; vertical-align:middle;
+  }
+  .playbtn:hover { background:rgba(127,179,255,.16); }
+  .speaking {
+    background:rgba(127,179,255,.17);
+    box-shadow:0 0 0 8px rgba(127,179,255,.17);
+    border-radius:3px;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<h1>Nine Minutes vs. Sixty-Five Dollars
+  <span class="sub">九分鐘與六十五美元：充電基礎建設的兩個世界</span>
+</h1>
+<p class="meta">EV English Speaking Practice · 25 minutes · Tuesday, 1 September 2026</p>
+
+<div class="block plan">
+  <h2>Session Plan <span class="cn">課程流程</span></h2>
+  <ol>
+    <li>Warm-Up 暖身 — <span>3 min</span></li>
+    <li>Read Aloud 朗讀短文 — <span>6 min</span></li>
+    <li>Key Vocabulary 關鍵單字 — <span>4 min</span></li>
+    <li>Saying the Numbers 數字唸法 — <span>2 min</span></li>
+    <li>Useful Expressions 實用句型 — <span>3 min</span></li>
+    <li>Discussion 討論題 — <span>5 min</span></li>
+    <li>Wrap-Up 總結 — <span>2 min</span></li>
+  </ol>
+</div>
+
+<div id="ttsbar">
+  <button id="tts-play">▶ Read the article 朗讀全文</button>
+  <button id="tts-stop" class="ghost">■ Stop 停止</button>
+  <label for="tts-voice">Voice</label>
+  <select id="tts-voice"></select>
+  <label for="tts-rate">Speed</label>
+  <select id="tts-rate">
+    <option value="0.75">0.75× 慢</option>
+    <option value="0.9" selected>0.9× 稍慢</option>
+    <option value="1">1.0× 正常</option>
+    <option value="1.15">1.15× 快</option>
+  </select>
+  <div id="ttshint">每個英文段落左邊都有 ▶ 可單獨播放；正在唸的句子會反白。想要更自然的聲音：macOS「系統設定 → 輔助使用 → 朗讀內容 → 系統聲音」下載 Enhanced／Premium 或 Siri 語音，再回來從上面的 Voice 選單選取。</div>
+</div>
+
+<h2>1. Warm-Up <span class="cn">暖身</span><span class="time">3 min</span></h2>
+<div class="block">
+  <ol class="q">
+    <li>
+      <p class="en">When you think about owning an electric car, what worries you more — how long the charging takes, or how much the electricity costs?</p>
+      <p class="zh">想到擁有一台電動車，你比較擔心的是充電要花多久時間，還是電費多少錢？</p>
+    </li>
+    <li>
+      <p class="en">Have you ever seen a public fast-charging station in your neighbourhood? Describe where it was and whether anyone was actually using it.</p>
+      <p class="zh">你在住家附近看過公共快充站嗎？描述一下它在哪裡，以及當時是否真的有人在用。</p>
+    </li>
+    <li>
+      <p class="en">Some people say a car should be refuelled in five minutes or it is not practical. Is that a fair standard, or just a habit we inherited from petrol cars?</p>
+      <p class="zh">有些人說一台車如果不能在五分鐘內補充能源就不實用。這是合理的標準，還是我們從燃油車繼承下來的習慣？</p>
+    </li>
+  </ol>
+</div>
+
+<h2>2. Read Aloud <span class="cn">朗讀短文</span><span class="time">6 min</span></h2>
+<div class="block" id="article">
+  <h3>Two Charging Stories, Two Continents</h3>
+
+  <p class="en">Last week produced two very different headlines about charging an electric car, and reading them side by side tells you almost everything about where the industry stands today.</p>
+  <p class="zh">上週出現了兩則關於電動車充電、調性截然不同的新聞。把它們並排來讀，幾乎就能看清這個產業目前的處境。</p>
+
+  <p class="en">In Shenzhen, BYD switched on its ten-thousandth second-generation Flash Charger. Each of these T-shaped stations delivers up to fifteen hundred kilowatts through two cables that can be plugged into the same car at once, and the company claims a compatible Blade Battery can go from ten to ninety-seven per cent in just nine minutes.</p>
+  <p class="zh">在深圳，比亞迪啟用了第一萬座第二代「閃充樁」。這些 T 字形充電站每座最高可透過兩條充電槍輸出 1,500 瓩，兩條槍可同時插在同一台車上；該公司宣稱搭配的刀片電池能在短短九分鐘內從 10% 充到 97%。</p>
+
+  <p class="en">The engineering trick is not the plug but the buffer. Each Flash Charger carries its own on-site battery storage, which quietly draws power from the ordinary grid while nobody is charging and then releases it in a short, violent burst when a car arrives. Without that buffer, a station of this size would simply overwhelm the local network.</p>
+  <p class="zh">真正的工程巧思不在插頭，而在緩衝。每座閃充樁都自帶儲能電池：沒有車在充電時，它靜靜地從一般電網取電，等車一到再以極短、極猛的方式把電放出來。少了這個緩衝，這種規模的充電站會直接把當地電網壓垮。</p>
+
+  <p class="en">BYD's chief executive has compared installing one of these units to installing an air conditioner. That may be an exaggeration, but the rollout numbers are not: four thousand two hundred and thirty-nine stations were completed in the first two months of this year, and the company still intends to reach twenty thousand by December — which works out at roughly eighty new stations every single day.</p>
+  <p class="zh">比亞迪執行長曾把安裝這種充電樁比喻成裝一台冷氣。這說法或許誇張，但佈建數字並不誇張：今年前兩個月就完成了 4,239 座，公司仍打算在十二月前達到兩萬座——換算下來平均每天要新增約八十座。</p>
+
+  <p class="en">Now move to a Costco car park in California. A food blogger plugged in her Rivian R1S, went shopping, and came back an hour later to a screen showing sixty-four dollars and fifty-nine cents. The battery had climbed from twenty-seven to ninety-four per cent, giving her three hundred and thirty-two miles of range — and she went online to say that everyone driving an electric car had been lying to her.</p>
+  <p class="zh">現在把場景移到加州的一座 Costco 停車場。一位美食部落客把她的 Rivian R1S 插上充電後去購物，一小時後回來，看到螢幕上顯示 64.59 美元。電量從 27% 升到 94%，換得 332 英里的續航——而她跑到網路上說，所有開電動車的人都在騙她。</p>
+
+  <p class="en">The comment section was merciless. One driver pointed out that fifty dollars of petrol took him five hundred and twelve miles and under five minutes. Another countered that he charges at home between eleven at night and three in the morning, pays fourteen dollars for three hundred and thirty miles, and is asleep the entire time.</p>
+  <p class="zh">留言區毫不留情。一位駕駛指出，他花五十美元加油可以跑 512 英里，而且不到五分鐘就加完。另一位則反駁說，他都在晚上十一點到凌晨三點在家充電，跑 330 英里只要十四美元，而且全程都在睡覺。</p>
+
+  <p class="en">Both stories are true at the same time, and that is the uncomfortable point. The technology is advancing faster than almost anyone predicted, while the everyday economics still depend on something far less glamorous — whether you happen to have a plug where you park at night.</p>
+  <p class="zh">這兩個故事同時都是真的，而這正是讓人不太舒服的地方。技術進步的速度快得幾乎超乎所有人預期，但日常的經濟帳仍然取決於一件遠不那麼光鮮的事——你晚上停車的地方，剛好有沒有一個插座。</p>
+</div>
+
+<h2>3. Key Vocabulary <span class="cn">關鍵單字</span><span class="time">4 min</span></h2>
+<div class="block">
+  <table>
+    <tr>
+      <th>Word 單字</th><th>IPA 音標</th><th>Meaning 中文</th><th>Example sentence 例句（點一下可聽）</th>
+    </tr>
+    <tr><td>rollout</td><td class="ipa">/ˈroʊl.aʊt/</td><td>（大規模）佈建、推出</td><td>The rollout has slowed down because permits take months.</td></tr>
+    <tr><td>buffer</td><td class="ipa">/ˈbʌf.ɚ/</td><td>緩衝（此指儲能）</td><td>The buffer storage protects the grid from sudden demand.</td></tr>
+    <tr><td>grid</td><td class="ipa">/ɡrɪd/</td><td>電網</td><td>Ten cars charging at once would strain the local grid.</td></tr>
+    <tr><td>to overwhelm</td><td class="ipa">/ˌoʊ.vɚˈwelm/</td><td>使不堪負荷</td><td>A fifteen hundred kilowatt station could overwhelm an old substation.</td></tr>
+    <tr><td>exaggeration</td><td class="ipa">/ɪɡˌzædʒ.əˈreɪ.ʃən/</td><td>誇大之詞</td><td>Calling it as easy as an air conditioner is an exaggeration.</td></tr>
+    <tr><td>compatible</td><td class="ipa">/kəmˈpæt̬.ə.bəl/</td><td>相容的</td><td>Nine minutes only works with a compatible battery.</td></tr>
+    <tr><td>range anxiety</td><td class="ipa">/reɪndʒ æŋˈzaɪ.ə.t̬i/</td><td>里程焦慮</td><td>Range anxiety fades once you install a home charger.</td></tr>
+    <tr><td>merciless</td><td class="ipa">/ˈmɝː.sɪ.ləs/</td><td>毫不留情的</td><td>The comment section was merciless towards her video.</td></tr>
+    <tr><td>to counter</td><td class="ipa">/ˈkaʊn.t̬ɚ/</td><td>反駁</td><td>Another owner countered that home charging changes everything.</td></tr>
+    <tr><td>economics</td><td class="ipa">/ˌek.əˈnɑː.mɪks/</td><td>經濟效益、成本結構</td><td>The economics look very different in a flat without parking.</td></tr>
+    <tr><td>glamorous</td><td class="ipa">/ˈɡlæm.ɚ.əs/</td><td>光鮮亮麗的</td><td>Permits and wiring are less glamorous than battery chemistry.</td></tr>
+    <tr><td>to plug in</td><td class="ipa">/plʌɡ ɪn/</td><td>插上（充電）</td><td>She plugged in the car and walked into the store.</td></tr>
+  </table>
+</div>
+
+<h2>4. Saying the Numbers <span class="cn">數字唸法</span><span class="time">2 min</span></h2>
+<div class="block">
+  <table>
+    <tr><th>Figure 數字</th><th>Say it like this 這樣唸（點一下可聽）</th></tr>
+    <tr><td>10,000 chargers</td><td>ten thousand chargers</td></tr>
+    <tr><td>1,500 kW</td><td>fifteen hundred kilowatts</td></tr>
+    <tr><td>10% to 97%</td><td>from ten per cent to ninety-seven per cent</td></tr>
+    <tr><td>4,239 stations</td><td>four thousand two hundred and thirty-nine stations</td></tr>
+    <tr><td>20,000 by December</td><td>twenty thousand by December</td></tr>
+    <tr><td>~80 per day</td><td>around eighty a day</td></tr>
+    <tr><td>$64.59</td><td>sixty-four dollars and fifty-nine cents</td></tr>
+    <tr><td>27% → 94%</td><td>from twenty-seven per cent up to ninety-four per cent</td></tr>
+    <tr><td>332 miles</td><td>three hundred and thirty-two miles</td></tr>
+    <tr><td>$14 for 330 miles</td><td>fourteen dollars for three hundred and thirty miles</td></tr>
+    <tr><td>11 p.m. to 3 a.m.</td><td>eleven at night to three in the morning</td></tr>
+    <tr><td>$5 billion partnership</td><td>a five billion dollar partnership</td></tr>
+  </table>
+</div>
+
+<h2>5. Useful Expressions <span class="cn">實用句型</span><span class="time">3 min</span></h2>
+<div class="block">
+  <p class="en">"On paper it looks like ___, but in practice ___."</p>
+  <p class="zh">帳面上看起來像是⋯⋯，但實際上⋯⋯。用來拆開理想與現實的落差。</p>
+
+  <p class="en">"It comes down to whether ___."</p>
+  <p class="zh">關鍵就在於是否⋯⋯。把一個複雜問題收斂到單一決定因素。</p>
+
+  <p class="en">"That may be true, but it misses the point that ___."</p>
+  <p class="zh">那或許沒錯，但它沒抓到重點，也就是⋯⋯。禮貌但有力地反駁對方。</p>
+
+  <p class="en">"To be fair to ___, ___."</p>
+  <p class="zh">平心而論，對⋯⋯來說⋯⋯。替被批評的一方說句公道話，顯得客觀成熟。</p>
+
+  <p class="en">"I'd rather ___ than ___, even if it means ___."</p>
+  <p class="zh">我寧願⋯⋯也不要⋯⋯，即使這意味著⋯⋯。表達有代價的偏好選擇。</p>
+
+  <div class="tip">
+    <p class="en">Try to use at least three of these expressions during the discussion section.</p>
+    <p class="zh">試著在討論段落中至少用上其中三個句型。</p>
+  </div>
+</div>
+
+<h2>6. Discussion <span class="cn">討論題</span><span class="time">5 min</span></h2>
+<div class="block">
+  <ol class="q">
+    <li>
+      <p class="en">The blogger paid sixty-four dollars for one hour of charging. Was she wrong to be angry, or was she simply discovering a real cost that carmakers rarely advertise?</p>
+      <p class="zh">那位部落客為一小時充電付了六十四美元。她生氣是不合理，還是她只是發現了一個車廠很少宣傳的真實成本？</p>
+    </li>
+    <li>
+      <p class="en">If home charging is the only way the numbers work, is the electric car quietly becoming a product for people who own a house with a driveway?</p>
+      <p class="zh">如果只有在家充電才划算，電動車是不是悄悄變成一種「有房有車位的人」才適合的產品？</p>
+    </li>
+    <li>
+      <p class="en">BYD needs eighty new stations a day to hit its target. Would you take that promise seriously, or treat it as marketing until the year is over?</p>
+      <p class="zh">比亞迪要達標，平均每天得新增八十座充電站。你會認真看待這個承諾，還是等年底結果出來之前都當作行銷話術？</p>
+    </li>
+    <li>
+      <p class="en">Some argue that governments should cap public charging prices the way they regulate electricity. Others say that would kill investment in new stations. Which case is stronger?</p>
+      <p class="zh">有人主張政府應像管制電價一樣為公共充電設定價格上限；也有人說這會扼殺新充電站的投資。哪一方的論點比較站得住腳？</p>
+    </li>
+    <li>
+      <p class="en">Nine-minute charging removes the waiting, but it also removes the reason to build charging into car parks, cafés and supermarkets. Would faster charging make our cities better or worse?</p>
+      <p class="zh">九分鐘快充消除了等待，但也消除了把充電設施蓋進停車場、咖啡廳與超市的理由。更快的充電會讓城市變得更好還是更糟？</p>
+    </li>
+    <li>
+      <p class="en">If a friend in Taipei living in an apartment asked you today whether to buy an electric car, what would you honestly tell them?</p>
+      <p class="zh">如果今天有位住在台北公寓的朋友問你該不該買電動車，你會誠實地怎麼回答他？</p>
+    </li>
+  </ol>
+</div>
+
+<h2>7. Wrap-Up <span class="cn">總結</span><span class="time">2 min</span></h2>
+<div class="block">
+  <p class="en">Give your teacher a sixty-second summary of the article, covering three things: what BYD achieved, what happened in the Costco car park, and why the two stories contradict each other.</p>
+  <p class="zh">用六十秒向老師摘要這篇文章，涵蓋三件事：比亞迪達成了什麼、Costco 停車場發生了什麼，以及這兩個故事為何互相矛盾。</p>
+
+  <p class="en">Then finish with one sentence of your own position, using this frame: "For me, the real bottleneck in electric mobility is not ___, it's ___, and until that changes ___."</p>
+  <p class="zh">接著用一句話表達你自己的立場，套用這個句型：「對我來說，電動車真正的瓶頸不是⋯⋯，而是⋯⋯，而在那件事改變之前⋯⋯。」</p>
+</div>
+
+<h2>Source Notes　取材筆記</h2>
+<div class="block">
+  <p class="en">Taken from your Obsidian vault: <code>Claude code AI筆記 / raw / assets</code></p>
+  <p class="zh">取材自你的 Obsidian 筆記庫：<code>Claude code AI筆記 / raw / assets</code></p>
+  <table>
+    <tr><th>Note file 筆記檔名</th><th>Original 原始出處</th><th>Used for 用於</th></tr>
+    <tr>
+      <td><code>2026-08-31-BYD reports 10000 Flash Chargers installed in China.md</code></td>
+      <td>electrive · Cora Werwitzke · 2026-08-28<br><a href="https://www.electrive.com/2026/08/28/byd-reports-10000-flash-chargers-installed-in-china/">electrive.com</a></td>
+      <td>Paragraphs 2–4: charger count, 1,500 kW, nine-minute charge, buffer storage, 4,239 units, 20,000 target.<br><span class="zh">第 2–4 段：充電樁數量、1,500 瓩、九分鐘快充、緩衝儲能、4,239 座、兩萬座目標。</span></td>
+    </tr>
+    <tr>
+      <td><code>2026-08-31-電動車真省錢？加州女網紅Costco充電後怒斥電動車都在騙人.md</code></td>
+      <td>星島日報（來源：紐約郵報）· 2026-08-30<br><a href="https://www.singtaousa.com/2026/08/30/news/usa/california-ev-driver-rages-after-1-hour-of-charging-cost-more-than-filling-up-gas-tank/">singtaousa.com</a></td>
+      <td>Paragraphs 5–6: the $64.59 session, 27%→94%, 332 miles, the $50 / 512-mile and $14 / 330-mile comments.<br><span class="zh">第 5–6 段：64.59 美元充電、27%→94%、332 英里，以及 50 美元跑 512 英里與 14 美元跑 330 英里的留言。</span></td>
+    </tr>
+  </table>
+</div>
+
+<footer>
+  <p>Generated 1 September 2026 · 25-minute EV English speaking practice · Level B2–C1</p>
+  <p>本頁為口說練習用，數據引自上方筆記來源；請以原始報導為準。</p>
+</footer>
+
+</div>
+
+<script>
+(function () {
+  var synth = window.speechSynthesis;
+  var bar = document.getElementById('ttsbar');
+  if (!synth) {
+    bar.innerHTML = '<div id="ttshint">此瀏覽器不支援語音朗讀，請改用 Chrome、Edge 或 Safari 開啟本檔案。</div>';
+    return;
+  }
+
+  var voiceSel = document.getElementById('tts-voice');
+  var rateSel  = document.getElementById('tts-rate');
+  var voices   = [];
+  var queue    = [];
+  var qi       = 0;
+  var playing  = false;
+
+  function score(v) {
+    var n = (v.name + ' ' + (v.voiceURI || '')).toLowerCase();
+    var s = 0;
+    if (/premium|enhanced|neural|natural/.test(n)) s += 40;
+    if (/siri/.test(n)) s += 30;
+    if (/google/.test(n)) s += 25;
+    if (/samantha|ava|allison|serena|daniel|kate|arthur|evan|nathan|zoe/.test(n)) s += 12;
+    if (/compact|novelty|whisper|bells|bubbles|jester|organ|trinoids|zarvox|albert|bad news|good news/.test(n)) s -= 60;
+    if (v.lang === 'en-US') s += 6;
+    if (v.lang === 'en-GB') s += 5;
+    if (v.localService) s += 2;
+    return s;
+  }
+
+  function loadVoices() {
+    var all = synth.getVoices().filter(function (v) { return /^en[-_]/i.test(v.lang); });
+    if (!all.length) return;
+    all.sort(function (a, b) { return score(b) - score(a); });
+    voices = all;
+    voiceSel.innerHTML = '';
+    voices.forEach(function (v, i) {
+      var o = document.createElement('option');
+      o.value = i;
+      o.textContent = v.name + ' (' + v.lang + ')';
+      voiceSel.appendChild(o);
+    });
+    var saved = null;
+    try { saved = localStorage.getItem('evPracticeVoice'); } catch (e) {}
+    if (saved !== null) {
+      var idx = voices.findIndex(function (v) { return v.name === saved; });
+      if (idx > -1) voiceSel.value = idx;
+    }
+  }
+  loadVoices();
+  synth.onvoiceschanged = loadVoices;
+
+  voiceSel.addEventListener('change', function () {
+    var v = voices[voiceSel.value];
+    try { if (v) localStorage.setItem('evPracticeVoice', v.name); } catch (e) {}
+  });
+
+  function clearHighlight() {
+    var h = document.querySelector('.speaking');
+    if (h) h.classList.remove('speaking');
+  }
+
+  function stop() {
+    playing = false;
+    queue = [];
+    qi = 0;
+    synth.cancel();
+    clearHighlight();
+  }
+
+  // Chrome silently truncates any utterance longer than ~15s, so queue
+  // sentence-sized chunks instead of whole paragraphs.
+  function sentences(text) {
+    var SEP = String.fromCharCode(1);
+    var t = text.replace(/\s+/g, ' ').trim();
+    // Shield decimals/abbreviations so "86.5 percent" isn't split in two.
+    t = t.replace(/(\d)\.(\d)/g, '$1' + SEP + '$2')
+         .replace(/\b(Mr|Mrs|Ms|Dr|St|vs|etc|Inc|Ltd|Co|approx)\./gi,
+                  function (m) { return m.slice(0, -1) + SEP; })
+         .replace(/\bU\.S\./g, 'U' + SEP + 'S' + SEP);
+    var parts = t.match(/[^.!?]+[.!?]+["')\]]?|[^.!?]+$/g) || [t];
+    return parts
+      .map(function (s) { return s.split(SEP).join('.').trim(); })
+      .filter(function (s) { return /[a-zA-Z0-9]/.test(s); });
+  }
+
+  function speakNext() {
+    if (!playing || qi >= queue.length) { stop(); return; }
+    var item = queue[qi++];
+    clearHighlight();
+    if (item.el) {
+      item.el.classList.add('speaking');
+      var r = item.el.getBoundingClientRect();
+      if (r.top < 120 || r.bottom > window.innerHeight - 40) {
+        item.el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      }
+    }
+    var u = new SpeechSynthesisUtterance(item.text);
+    var v = voices[voiceSel.value];
+    if (v) { u.voice = v; u.lang = v.lang; } else { u.lang = 'en-US'; }
+    u.rate = parseFloat(rateSel.value);
+    u.pitch = 1;
+    u.onend = speakNext;
+    u.onerror = speakNext;
+    synth.speak(u);
+  }
+
+  function textOf(el) {
+    // Snapshot taken before the play glyph was injected, so it is never spoken.
+    return el.getAttribute('data-tts') || el.textContent;
+  }
+
+  function play(elements) {
+    stop();
+    queue = [];
+    elements.forEach(function (el) {
+      sentences(textOf(el)).forEach(function (s) {
+        if (s.trim()) queue.push({ el: el, text: s });
+      });
+    });
+    if (!queue.length) return;
+    playing = true;
+    qi = 0;
+    speakNext();
+  }
+
+  document.getElementById('tts-stop').addEventListener('click', stop);
+
+  document.getElementById('tts-play').addEventListener('click', function () {
+    var paras = [].slice.call(document.querySelectorAll('#article .en'));
+    play(paras);
+  });
+
+  rateSel.addEventListener('change', function () { if (playing) stop(); });
+
+  var targets = [].slice.call(document.querySelectorAll('.en'));
+  targets.forEach(function (el) {
+    el.setAttribute('data-tts', el.textContent);
+    var b = document.createElement('button');
+    b.className = 'playbtn';
+    b.type = 'button';
+    b.textContent = '▶';
+    b.setAttribute('aria-label', 'Play this sentence');
+    b.addEventListener('click', function (e) {
+      e.stopPropagation();
+      play([el]);
+    });
+    el.insertBefore(b, el.firstChild);
+  });
+
+  [].slice.call(document.querySelectorAll('table tr')).forEach(function (tr) {
+    var cells = tr.querySelectorAll('td');
+    if (cells.length < 2) return;
+    var last = cells[cells.length - 1];
+    if (!/[a-zA-Z]/.test(last.textContent)) return;
+    last.style.cursor = 'pointer';
+    last.title = 'Click to hear it 點一下聽發音';
+    last.addEventListener('click', function () { play([last]); });
+  });
+
+  window.addEventListener('beforeunload', function () { synth.cancel(); });
+})();
+</script>
+</body>
+</html>

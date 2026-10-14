@@ -1,7 +1,7 @@
 ---
 tags: [concept]
 sources: [cupra-raval-launch, vw-id4-id5-battery-update, mgs6-ev-first-drive, opel-peugeot-long-range-delay, europe-battery-capacity-cuts, byd-denza-europe-debut, germany-ev-incentive-2026, vw-id3-neo-premiere, honda-eny1-withdrawal-europe, nissan-chery-sunderland-plant, acea-eu-ev-q1-2026, vw-id-polo-launch, polestar-3-800v-upgrade, audi-q4-etron-facelift-2026, gwm-ora03-uk-exit, netherlands-ev-scrappage-2026, porsche-cayenne-coupe-electric, uk-ev-2million-2026, vw-gamechanger-production, zeekr-x-2026-europe, morrow-batteries-insolvency, citroen-china-ev-strategy-2026, jpmorgan-china-ev-europe-2028, eu-iaa-japan-auto-protest-2026, bmw-ix3-neue-klasse-2026, volvo-ex60-production-2026, audi-a2-etron-testing-2026, kia-ev2-first-drive-2026, stellantis-fastlane-2030, nordic-ev-april-2026, europe-v2g-bidirectional-2026, tesla-fsd-eu-expansion-2026, china-ev-europe-factory-takeover-2026, europe-ev-market-may2026, eu-battery-tariff-2027-delay-2026, citroen-15k-electric-2cv-2026, uk-zev-mandate-relaxation-2026, eu-automotive-package-2035-2026, vwcv-id-buzz-2026-update, opel-formula-e-gse27fe-2026, ev-news-2026-09-20-digest, ev-news-2026-09-18-electrive-en, ev-news-2026-09-22-digitimes, ev-news-2026-09-26-electrive-en, ev-news-2026-09-23-electrive-en, ev-news-2026-09-26-digest, ev-news-2026-10-05-electrive-en, ev-news-2026-10-06-electrive-en, ev-news-2026-10-05-digitimes, ev-news-2026-10-08-digitimes, ev-news-2026-10-10-electrive-en, ev-news-2026-10-12-digest]
-updated: 2026-10-12
+updated: 2026-10-14
 ---
 
 # 歐洲 EV 市場
@@ -685,3 +685,16 @@ Dataforce數據顯示德國8月車隊BEV掛牌約2萬輛（年增41%、占比31.
 IAA草案要求電動車70%歐洲在地動力系統零組件才享補助、電池部分6個月內3項、3年後5項；ACEA要求延長至3年與5年；歐洲電池供應鏈四大瓶頸（LFP技術錯位、正負極材料依賴進口至2038年、環評與成本、成本競爭力不足）。VW ID. Tiguan發表、歐洲PHEV前三名皆為中國車款。
 
 - 參見：[[sources/ev-news-2026-10-08-digitimes]] | [[sources/ev-news-2026-10-10-electrive-en]] | [[sources/ev-news-2026-10-12-digest]] | [[countries/歐洲]]
+
+## 巴黎車展與Q3交車：歐洲純電動能回溫、HEV配額上路（2026-10）
+
+> **結論**：BMW Q3歐洲純電交車年增37.5%、佔比34.7%，賓士Q3純電年增61%，歐洲德系純電動能明顯回溫；同時歐盟對HEV／PHEV設年35萬輛進口配額，巴黎車展則出現平價（Smart #2 19,999歐元、Citroën 2CV目標1.5萬歐元）與中國高階車並進的格局。
+
+**主因**：
+- **德系回溫**：BMW Q3純電110,257輛（+7.2%），iX3一年歐洲訂單逾10萬輛；福斯集團Q3歐洲純電+19.6%。
+- **貿易防線**：HEV配額首年35萬輛、每年+6%、4年期，最快12月1日生效，適用所有來源國。
+- **平價車型＋法規**：歐盟提議M1E小型電動車類別（≤4.2 m、法規凍結10年），Citroën 2CV、Smart #2、Renault Twingo爭奪2萬歐元以下市場。
+
+**觀察**：HEV配額生效後中國PHEV品牌（BYD、Forthing、奇瑞）的定價；M1E類別立法時程。
+
+- 參見：[[sources/ev-news-2026-10-13-14-electrive-en]] | [[sources/ev-news-2026-10-13-14-insideevs]] | [[sources/ev-news-2026-10-12-14-digitimes]] | [[entities/BMW]] | [[entities/Stellantis]]

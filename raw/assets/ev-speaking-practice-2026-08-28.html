@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>EV Speaking Practice — 2026-08-28 · Who Is Liable When the Car Drives Itself?</title>
+<style>
+  :root {
+    --bg: #0C2A65;
+    --fg: #FFFFFF;
+    --accent: #7FB3FF;
+    --line: rgba(127,179,255,.32);
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    padding: 28px 20px 60px;
+    background: var(--bg);
+    color: var(--fg);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue",
+                 "PingFang TC", "Noto Sans TC", "Microsoft JhengHei", sans-serif;
+    font-size: 20pt;
+    line-height: 1.62;
+  }
+  .wrap { max-width: 980px; margin: 0 auto; }
+  header { margin-bottom: 22px; }
+  .kicker { font-size: 13pt; letter-spacing: .16em; text-transform: uppercase; color: var(--accent); opacity: .9; }
+  h1 { font-size: 30pt; line-height: 1.25; margin: 10px 0 4px; }
+  h1 .zhtitle { display: block; font-size: 19pt; opacity: .78; font-weight: 600; margin-top: 6px; }
+  .meta { font-size: 13.5pt; opacity: .68; }
+  h2 {
+    font-size: 22pt; margin: 0 0 14px;
+    padding-left: 14px; border-left: 6px solid var(--accent);
+  }
+  h2 .min { font-size: 13pt; color: var(--accent); font-weight: 600; margin-left: 10px; letter-spacing: .04em; }
+  h3 { font-size: 17pt; color: var(--accent); margin: 22px 0 8px; }
+  .block {
+    border: 1px solid var(--line); border-radius: 12px;
+    padding: 22px 24px; margin: 0 0 22px;
+    background: rgba(255,255,255,.035);
+  }
+  .plan { padding: 18px 24px; }
+  .plan h2 { font-size: 18pt; }
+  .plan ol { margin: 0; padding-left: 1.4em; font-size: 15pt; }
+  .plan li { margin: 4px 0; }
+  .plan .m { color: var(--accent); font-weight: 700; }
+  p.en { margin: 16px 0 2px; }
+  p.zh { margin: 0 0 14px; font-size: 16pt; opacity: .74; line-height: 1.55; }
+  ol.qs { padding-left: 1.3em; margin: 0; }
+  ol.qs li { margin-bottom: 16px; }
+  ol.qs .en { margin: 0 0 2px; }
+  ol.qs .zh { margin: 0; }
+  table { width: 100%; border-collapse: collapse; font-size: 14.5pt; margin-top: 6px; }
+  th, td { border: 1px solid var(--line); padding: 9px 11px; text-align: left; vertical-align: top; }
+  th { background: var(--accent); color: var(--bg); font-weight: 700; font-size: 14pt; }
+  td.ipa { font-family: "SF Mono", Menlo, Consolas, monospace; opacity: .85; white-space: nowrap; }
+  td.zhcell { opacity: .78; }
+  a { color: var(--accent); }
+  code { font-family: "SF Mono", Menlo, Consolas, monospace; font-size: 12.5pt; word-break: break-all; }
+  footer { font-size: 13pt; opacity: .6; text-align: center; margin-top: 30px; line-height: 1.7; }
+  .note { font-size: 13.5pt; opacity: .7; margin: 0 0 12px; line-height: 1.5; }
+  .note .z { display: block; opacity: .82; }
+  @media (max-width: 640px) {
+    body { padding: 18px 13px 46px; font-size: 17pt; }
+    h1 { font-size: 23pt; }
+    h1 .zhtitle { font-size: 15pt; }
+    h2 { font-size: 18pt; }
+    p.zh { font-size: 14pt; }
+    .block { padding: 16px 15px; }
+    table, thead, tbody, th, td, tr { display: block; }
+    thead { display: none; }
+    tr { border: 1px solid var(--line); border-radius: 8px; margin-bottom: 12px; padding: 4px 0; }
+    td { border: none; border-bottom: 1px dashed var(--line); font-size: 14pt; }
+    td:last-child { border-bottom: none; }
+  }
+
+  /* ---- Text-to-speech controls ---- */
+  #ttsbar {
+    position:sticky; top:0; z-index:50;
+    background:rgba(12,42,101,.96); backdrop-filter:blur(6px);
+    border:1px solid var(--line); border-radius:10px;
+    padding:14px 18px; margin:0 0 8px;
+    display:flex; flex-wrap:wrap; gap:10px 14px; align-items:center;
+    font-size:14pt;
+  }
+  #ttsbar label { opacity:.75; letter-spacing:.04em; }
+  #ttsbar button {
+    font:inherit; font-size:14pt; font-weight:700;
+    color:var(--bg); background:var(--accent);
+    border:none; border-radius:6px; padding:8px 16px; cursor:pointer;
+  }
+  #ttsbar button.ghost { background:transparent; color:var(--accent); border:1px solid var(--accent); }
+  #ttsbar button:hover { opacity:.85; }
+  #ttsbar select {
+    font:inherit; font-size:14pt;
+    color:var(--fg); background:#123573;
+    border:1px solid var(--line); border-radius:6px; padding:7px 10px; max-width:260px;
+  }
+  #ttshint { flex-basis:100%; font-size:12.5pt; opacity:.6; line-height:1.5; }
+  .playbtn {
+    font:inherit; font-size:13pt; line-height:1;
+    color:var(--accent); background:transparent;
+    border:1px solid rgba(127,179,255,.5); border-radius:5px;
+    padding:4px 9px; margin-right:10px; cursor:pointer; vertical-align:middle;
+  }
+  .playbtn:hover { background:rgba(127,179,255,.16); }
+  .speaking {
+    background:rgba(127,179,255,.17);
+    box-shadow:0 0 0 8px rgba(127,179,255,.17);
+    border-radius:3px;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <div class="kicker">EV Speaking Practice · 25 min · Friday, 28 August 2026</div>
+  <h1>Who Is Liable When the Car Drives Itself?
+    <span class="zhtitle">當車子自己在開，責任算誰的？</span>
+  </h1>
+  <div class="meta">Level B2–C1 · China's draft L3 liability rules &amp; Waymo's Munich robotaxi plan　程度 B2–C1・中國 L3 責任修法與 Waymo 慕尼黑機器人計程車</div>
+</header>
+
+<div class="block plan">
+  <h2>Session Plan　課程規劃</h2>
+  <ol>
+    <li><span class="m">3 min</span> — Warm-Up 暖身</li>
+    <li><span class="m">6 min</span> — Read Aloud 朗讀短文</li>
+    <li><span class="m">4 min</span> — Key Vocabulary 關鍵單字</li>
+    <li><span class="m">2 min</span> — Saying the Numbers 數字唸法</li>
+    <li><span class="m">3 min</span> — Useful Expressions 實用句型</li>
+    <li><span class="m">5 min</span> — Discussion 討論題</li>
+    <li><span class="m">2 min</span> — Wrap-Up 總結</li>
+  </ol>
+</div>
+
+<div id="ttsbar">
+  <button id="tts-play">▶ Read the article 朗讀全文</button>
+  <button id="tts-stop" class="ghost">■ Stop 停止</button>
+  <label for="tts-voice">Voice</label>
+  <select id="tts-voice"></select>
+  <label for="tts-rate">Speed</label>
+  <select id="tts-rate">
+    <option value="0.75">0.75× 慢</option>
+    <option value="0.9" selected>0.9× 稍慢</option>
+    <option value="1">1.0× 正常</option>
+    <option value="1.15">1.15× 快</option>
+  </select>
+  <div id="ttshint">每個英文段落左邊都有 ▶ 可單獨播放；正在唸的句子會反白。想要更自然的聲音：macOS「系統設定 → 輔助使用 → 朗讀內容 → 系統聲音」下載 Enhanced／Premium 或 Siri 語音，再回來從上面的 Voice 選單選取。</div>
+</div>
+
+<div class="block">
+  <h2>1. Warm-Up　暖身<span class="min">3 min</span></h2>
+  <ol class="qs">
+    <li>
+      <p class="en">Would you sit in the back seat of a car with nobody in the driver's seat? What would it take to make you comfortable?</p>
+      <p class="zh">你敢坐進一台駕駛座上沒有人的車嗎？要什麼條件你才會放心？</p>
+    </li>
+    <li>
+      <p class="en">Right now, if a car with driver-assistance features runs a red light, who do you think should pay the fine — the driver or the carmaker?</p>
+      <p class="zh">現在如果一台有駕駛輔助功能的車闖了紅燈，你覺得罰單該由誰付——駕駛還是車廠？</p>
+    </li>
+    <li>
+      <p class="en">How much do you trust the safety claims that car companies make about their self-driving systems? Do you read the fine print?</p>
+      <p class="zh">你有多相信車廠對自家自駕系統所宣稱的安全數據？你會去看那些小字說明嗎？</p>
+    </li>
+  </ol>
+</div>
+
+<div class="block" id="article">
+  <h2>2. Read Aloud　朗讀短文<span class="min">6 min</span></h2>
+  <p class="note">Read one paragraph at a time. Pause at every comma. Your teacher will correct rhythm and word stress.
+    <span class="z">一次唸一段，遇到逗號就停一下。請老師糾正節奏與重音。</span></p>
+
+  <p class="en">On 25 August 2026, the Standing Committee of China's 14th National People's Congress gave a first reading to a draft amendment of the Road Traffic Safety Law. For the first time, the law would contain a chapter written specifically for autonomous vehicles. This matters more than it sounds: the law has been in force since 2004 and has never had a full overhaul until now.</p>
+  <p class="zh">2026 年 8 月 25 日，中國第十四屆全國人大常委會首次審議《道路交通安全法》修訂草案。法律將首度出現專為自動駕駛汽車而寫的專章。這件事比聽起來更重要：這部法律自 2004 年施行以來，至今從未全面修訂過。</p>
+
+  <p class="en">The central rule is a shift in who carries the blame. If a Level 3 or Level 4 system is legally engaged and the vehicle is operating inside the range the system was designed for, then a traffic violation becomes the manufacturer's problem, or the importer's. If the system is switched off, or if the car only offers Level 2 driver assistance, nothing changes and the human behind the wheel remains the first responsible party.</p>
+  <p class="zh">核心條文在於責任歸屬的轉移。若 L3 或 L4 系統依法啟用，且車輛在系統設計的運行範圍內行駛，發生交通違法時，責任就落到製造商或進口商身上。若系統未啟用，或該車僅具備 L2 駕駛輔助，則一切照舊，方向盤後的人仍是第一責任人。</p>
+
+  <p class="en">The draft also pulls carmakers into the responsibility chain in ways they cannot quietly opt out of. Autonomous vehicles would need mandatory insurance. Manufacturers would be answerable for driving safety, cybersecurity and data security. And, notably, they would be barred from overstating what their systems can actually do — a direct response to years of aggressive marketing.</p>
+  <p class="zh">草案也把車廠拉進責任鏈，而且是無法悄悄迴避的那種。自動駕駛車輛必須投保強制險，車廠須為行車安全、網路安全與資料安全負責。特別值得注意的是，車廠不得誇大系統的實際能力——這正是對多年來激進行銷的直接回應。</p>
+
+  <p class="en">Technical standards are being lined up alongside the law. A national standard, GB 44721—2026, covering safety requirements for intelligent connected vehicles, takes effect on 1 July 2027. In other words, the engineering rules arrive first, and the traffic-liability rules are being built on top of them rather than the other way round.</p>
+  <p class="zh">技術標準也正與法律同步推進。國家標準 GB 44721—2026 規範智慧網聯汽車的安全要求，將於 2027 年 7 月 1 日實施。換句話說，工程規範先落地，交通責任規則再建構其上，而非反過來。</p>
+
+  <p class="en">For global carmakers, this is a quiet disappointment. Many had hoped China would be the market where liability rules stayed loose enough to make Level 3 commercially viable, and that a Chinese precedent could then be exported elsewhere. Instead, Beijing appears to be following the same logic as the American engineering body SAE International. Elsewhere, several manufacturers have already shelved Level 3 programmes and jumped straight to Levels 4 and 5, betting on a different business model entirely.</p>
+  <p class="zh">對全球車廠而言，這是一記無聲的失望。許多車廠曾期待中國是責任規範相對寬鬆、足以讓 L3 具商業可行性的市場，並希望以中國先例向外推廣。結果北京看來採取了與美國工程學會 SAE International 相同的邏輯。在其他市場，已有數家車廠擱置 L3 計畫，直接跳到 L4、L5，押注在完全不同的商業模式上。</p>
+
+  <p class="en">Meanwhile, Europe is about to get its first real test case. Waymo will put vehicles on the streets of Munich within weeks, though trained safety drivers will sit behind the wheel at first while the company builds high-resolution maps of the city. Commercial, fully driverless rides are planned for the end of 2027, which would make Munich the first city in the European Union with a regular robotaxi service. The fleet will be battery-electric only.</p>
+  <p class="zh">同時，歐洲即將迎來第一個真正的試驗場。Waymo 將在數週內讓車輛上路慕尼黑，不過初期仍由受過訓練的安全駕駛坐在方向盤後，讓公司建立城市的高精度地圖。商業化的全無人載客預計於 2027 年底啟動，屆時慕尼黑將成為歐盟第一個擁有常態機器人計程車服務的城市。車隊將全數為純電動車。</p>
+
+  <p class="en">Waymo arrives with an impressive record: more than twenty million autonomous rides and over three hundred and fifty million kilometres driven fully autonomously, plus a crash rate the company says is lower than that of human drivers. Those figures, however, come from cities it already knows well, and Munich's traffic is not San Francisco's. Approvals are still pending, Uber and Autobrains have announced competing programmes, and the hardest question in the Chinese draft remains open everywhere: exactly when, and how, must a driver take back control?</p>
+  <p class="zh">Waymo 帶著亮眼紀錄而來：超過兩千萬趟自動駕駛載客、逾三億五千萬公里的全自動行駛里程，加上公司宣稱低於人類駕駛的事故率。然而這些數字來自它早已熟悉的城市，而慕尼黑的交通不是舊金山。許可尚未核發，Uber 與 Autobrains 也宣布了競爭方案，而中國草案裡最難的那個問題，在世界各地依然懸而未決：駕駛究竟該在什麼時候、以什麼方式重新接管車輛？</p>
+</div>
+
+<div class="block">
+  <h2>3. Key Vocabulary　關鍵單字<span class="min">4 min</span></h2>
+  <p class="note">Say each word, then read the example sentence aloud. Tap the last column to hear it.
+    <span class="z">先唸單字，再朗讀例句。點最後一欄可以聽發音。</span></p>
+  <table>
+    <thead>
+      <tr><th>Word 單字</th><th>IPA 音標</th><th>Meaning 中文</th><th>Example sentence 例句</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>liability</td><td class="ipa">/ˌlaɪəˈbɪləti/</td><td class="zhcell">法律責任、賠償責任</td><td>The draft shifts liability from the driver to the manufacturer.</td></tr>
+      <tr><td>draft amendment</td><td class="ipa">/drɑːft əˈmendmənt/</td><td class="zhcell">修訂草案</td><td>The draft amendment has passed only its first reading so far.</td></tr>
+      <tr><td>engaged</td><td class="ipa">/ɪnˈɡeɪdʒd/</td><td class="zhcell">（系統）啟用中</td><td>The rule applies only while the system is legally engaged.</td></tr>
+      <tr><td>mandatory</td><td class="ipa">/ˈmændətɔːri/</td><td class="zhcell">強制的</td><td>Mandatory insurance would become a condition of sale.</td></tr>
+      <tr><td>overstate</td><td class="ipa">/ˌəʊvəˈsteɪt/</td><td class="zhcell">誇大</td><td>Carmakers would be barred from overstating what the system can do.</td></tr>
+      <tr><td>precedent</td><td class="ipa">/ˈpresɪdənt/</td><td class="zhcell">先例</td><td>A Chinese precedent could have influenced rules in other markets.</td></tr>
+      <tr><td>shelve</td><td class="ipa">/ʃelv/</td><td class="zhcell">擱置、束之高閣</td><td>Several manufacturers have shelved their Level 3 programmes.</td></tr>
+      <tr><td>commercially viable</td><td class="ipa">/kəˈmɜːʃəli ˈvaɪəbl/</td><td class="zhcell">具商業可行性的</td><td>Loose liability rules would have made Level 3 commercially viable.</td></tr>
+      <tr><td>take back control</td><td class="ipa">/teɪk bæk kənˈtrəʊl/</td><td class="zhcell">重新接管（車輛）</td><td>Nobody has defined how quickly a driver must take back control.</td></tr>
+      <tr><td>pending</td><td class="ipa">/ˈpendɪŋ/</td><td class="zhcell">待核准、懸而未決的</td><td>The necessary approvals in Germany are still pending.</td></tr>
+      <tr><td>fleet</td><td class="ipa">/fliːt/</td><td class="zhcell">車隊</td><td>Waymo's Munich fleet will be battery-electric only.</td></tr>
+      <tr><td>crash rate</td><td class="ipa">/kræʃ reɪt/</td><td class="zhcell">事故率</td><td>The company claims a crash rate lower than that of human drivers.</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="block">
+  <h2>4. Saying the Numbers　數字唸法<span class="min">2 min</span></h2>
+  <p class="note">Read the right-hand column out loud until it feels automatic.
+    <span class="z">把右欄唸到順口為止。</span></p>
+  <table>
+    <thead>
+      <tr><th>Written 書寫</th><th>Meaning 中文</th><th>Say it like this 這樣唸</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>25 August 2026</td><td class="zhcell">審議日期</td><td>the twenty-fifth of August, twenty twenty-six</td></tr>
+      <tr><td>14th NPC</td><td class="zhcell">第十四屆全國人大</td><td>the fourteenth National People's Congress</td></tr>
+      <tr><td>2004</td><td class="zhcell">現行法施行年</td><td>two thousand and four</td></tr>
+      <tr><td>Level 3 / L3</td><td class="zhcell">第三級自動駕駛</td><td>level three</td></tr>
+      <tr><td>GB 44721—2026</td><td class="zhcell">國家標準編號</td><td>G B four four seven two one, twenty twenty-six</td></tr>
+      <tr><td>1 July 2027</td><td class="zhcell">標準實施日</td><td>the first of July, twenty twenty-seven</td></tr>
+      <tr><td>20 million rides</td><td class="zhcell">兩千萬趟載客</td><td>twenty million rides</td></tr>
+      <tr><td>350 million km</td><td class="zhcell">三億五千萬公里</td><td>three hundred and fifty million kilometres</td></tr>
+      <tr><td>6th-generation</td><td class="zhcell">第六代系統</td><td>sixth-generation</td></tr>
+      <tr><td>end of 2027</td><td class="zhcell">2027 年底</td><td>the end of twenty twenty-seven</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="block">
+  <h2>5. Useful Expressions　實用句型<span class="min">3 min</span></h2>
+
+  <h3>① The rule only applies when / while …</h3>
+  <p class="en">The rule only applies while the automated system is actually driving the car.</p>
+  <p class="zh">用來限定條件的範圍。「這條規定只在……的時候才適用。」</p>
+
+  <h3>② X shifts the burden from A to B.</h3>
+  <p class="en">The amendment shifts the burden from the individual driver to the manufacturer.</p>
+  <p class="zh">描述責任、成本或壓力的轉移。比 "change" 精準得多。</p>
+
+  <h3>③ In theory …, but in practice …</h3>
+  <p class="en">In theory the carmaker is liable, but in practice proving the system was engaged may be difficult.</p>
+  <p class="zh">先承認原則，再指出現實落差——討論政策時非常好用。</p>
+
+  <h3>④ That figure comes with a caveat.</h3>
+  <p class="en">A crash rate below the human average sounds convincing, but that figure comes with a caveat.</p>
+  <p class="zh">「這個數字有但書／有前提」。用來質疑數據而不顯得無禮。</p>
+
+  <h3>⑤ I'd rather see … before …</h3>
+  <p class="en">I'd rather see clear handover rules before driverless taxis are allowed to scale up.</p>
+  <p class="zh">表達順序上的偏好，語氣溫和但立場清楚。</p>
+</div>
+
+<div class="block">
+  <h2>6. Discussion　討論題<span class="min">5 min</span></h2>
+  <p class="note">Pick three or four. Give a reason and one example every time.
+    <span class="z">挑三到四題，每次都要給理由加一個例子。</span></p>
+  <ol class="qs">
+    <li>
+      <p class="en">The draft says the carmaker pays when Level 3 is engaged. Is that fair to manufacturers, or is it simply the price of selling a system that drives?</p>
+      <p class="zh">草案規定 L3 啟用時由車廠承擔責任。這對車廠公平嗎？還是說，賣一套會自己開的系統本來就該付這個代價？</p>
+    </li>
+    <li>
+      <p class="en">Some argue strict liability will slow innovation and push development to looser markets. Others argue it forces companies to build safer systems. Which argument do you find stronger, and why?</p>
+      <p class="zh">有人認為嚴格責任會拖慢創新、把研發推向規範寬鬆的市場；也有人認為這反而逼車廠做出更安全的系統。你覺得哪個論點比較有力？為什麼？</p>
+    </li>
+    <li>
+      <p class="en">Several carmakers have skipped Level 3 entirely and gone straight to Level 4. Is skipping a step smart engineering or an admission that Level 3 was never a good idea?</p>
+      <p class="zh">數家車廠直接跳過 L3、衝向 L4。跳過一級是聰明的工程判斷，還是等於承認 L3 從一開始就不是個好主意？</p>
+    </li>
+    <li>
+      <p class="en">Waymo will start in Munich with human safety drivers on board. Does that reassure you, or does it show the technology is not ready for European streets?</p>
+      <p class="zh">Waymo 在慕尼黑初期會配置安全駕駛。這讓你安心，還是反而顯示技術還沒準備好上歐洲的街道？</p>
+    </li>
+    <li>
+      <p class="en">The draft would ban carmakers from overstating what their systems can do. How would you write that rule so it is actually enforceable?</p>
+      <p class="zh">草案禁止車廠誇大系統能力。如果由你來寫這條規定，要怎麼寫才真的執行得下去？</p>
+    </li>
+    <li>
+      <p class="en">Imagine a robotaxi service launches in Taipei in 2028. What would need to be true — legally and technically — before you would let a family member use it alone at night?</p>
+      <p class="zh">假設 2028 年台北開通機器人計程車。在法律與技術上要滿足什麼條件，你才願意讓家人在深夜獨自搭乘？</p>
+    </li>
+  </ol>
+</div>
+
+<div class="block">
+  <h2>7. Wrap-Up　總結<span class="min">2 min</span></h2>
+  <p class="en">Give your teacher a sixty-second summary. Cover three things: what China's draft amendment actually changes, why global carmakers are disappointed by it, and what Waymo's Munich timeline tells us about where the technology stands today.</p>
+  <p class="zh">用 60 秒向老師摘要。涵蓋三點：中國修訂草案實際改變了什麼、全球車廠為何失望、以及 Waymo 的慕尼黑時程透露出這項技術目前的處境。</p>
+
+  <p class="en">Then finish with one sentence of your own opinion, using this frame: "On balance, I think liability should sit with ______, because ______ — although I can see why others would argue the opposite."</p>
+  <p class="zh">最後用這個句型講一句自己的立場：「整體來說，我認為責任應該落在 ______，因為 ______——不過我也理解為什麼有人會持相反意見。」</p>
+</div>
+
+<div class="block">
+  <h2>Source Notes　取材筆記</h2>
+  <p class="note">All English above is written from these notes in the vault <code>Claude code AI筆記 / raw / assets</code>.
+    <span class="z">以上英文內容皆取材自筆記庫 <code>Claude code AI筆記 / raw / assets</code> 中的下列筆記。</span></p>
+  <table>
+    <thead>
+      <tr><th>Note file 筆記檔名</th><th>Original 原始出處</th><th>Used for 用於</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><code>2026-08-27-全球自駕法規鬆綁夢破滅-中國擬修法L3規範逼車廠扛責任.md</code></td>
+        <td>DIGITIMES · 黃女瑛 · 2026-08-27 · <a href="https://www.digitimes.com.tw/tech/dt/n/shwnws.asp?CnlID=&amp;id=766322">原文連結</a></td>
+        <td class="zhcell">Paragraphs 2–5: L2/L3 liability split, mandatory insurance and cybersecurity duties, GB 44721—2026, carmakers shelving Level 3.<br>第 2–5 段：L2／L3 責任分流、強制保險與資安義務、GB 44721—2026、車廠擱置 L3。</td>
+      </tr>
+      <tr>
+        <td><code>2026-08-27-中國擬修道交法-自動駕駛若啟用違法由車企承擔.md</code></td>
+        <td>鉅亨網 cnyes · 2026-08-25 · <a href="https://news.cnyes.com/news/id/6587796">原文連結</a></td>
+        <td class="zhcell">Paragraph 1: the 25 August first reading, the new autonomous-vehicle chapter, and the 2004 baseline.<br>第 1 段：8 月 25 日一審、新增自動駕駛專章、2004 年施行的背景。</td>
+      </tr>
+      <tr>
+        <td><code>2026-08-27-Waymo plans robotaxi launch in Munich for 2027.md</code></td>
+        <td>electrive.com · Jasmin Apitzsch-Krause · 2026-08-26 · <a href="https://www.electrive.com/2026/08/26/waymo-plans-robotaxi-launch-in-munich-for-2027/">原文連結</a></td>
+        <td class="zhcell">Paragraphs 6–7: Munich timeline, safety drivers and mapping, EV-only fleet, 20 million rides / 350 million km, pending approvals, Uber and Autobrains.<br>第 6–7 段：慕尼黑時程、安全駕駛與建圖、純電車隊、2,000 萬趟／3.5 億公里、待核許可、Uber 與 Autobrains。</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<footer>
+  EV Speaking Practice · 2026-08-28 · 25 minutes<br>
+  Built from the Obsidian vault <code>Claude code AI筆記 / raw / assets</code>　由筆記庫自動彙整
+</footer>
+
+</div>
+
+<script>
+(function () {
+  var synth = window.speechSynthesis;
+  var bar = document.getElementById('ttsbar');
+  if (!synth) {
+    bar.innerHTML = '<div id="ttshint">此瀏覽器不支援語音朗讀，請改用 Chrome、Edge 或 Safari 開啟本檔案。</div>';
+    return;
+  }
+
+  var voiceSel = document.getElementById('tts-voice');
+  var rateSel  = document.getElementById('tts-rate');
+  var voices   = [];
+  var queue    = [];
+  var qi       = 0;
+  var playing  = false;
+
+  function score(v) {
+    var n = (v.name + ' ' + (v.voiceURI || '')).toLowerCase();
+    var s = 0;
+    if (/premium|enhanced|neural|natural/.test(n)) s += 40;
+    if (/siri/.test(n)) s += 30;
+    if (/google/.test(n)) s += 25;
+    if (/samantha|ava|allison|serena|daniel|kate|arthur|evan|nathan|zoe/.test(n)) s += 12;
+    if (/compact|novelty|whisper|bells|bubbles|jester|organ|trinoids|zarvox|albert|bad news|good news/.test(n)) s -= 60;
+    if (v.lang === 'en-US') s += 6;
+    if (v.lang === 'en-GB') s += 5;
+    if (v.localService) s += 2;
+    return s;
+  }
+
+  function loadVoices() {
+    var all = synth.getVoices().filter(function (v) { return /^en[-_]/i.test(v.lang); });
+    if (!all.length) return;
+    all.sort(function (a, b) { return score(b) - score(a); });
+    voices = all;
+    voiceSel.innerHTML = '';
+    voices.forEach(function (v, i) {
+      var o = document.createElement('option');
+      o.value = i;
+      o.textContent = v.name + ' (' + v.lang + ')';
+      voiceSel.appendChild(o);
+    });
+    var saved = null;
+    try { saved = localStorage.getItem('evPracticeVoice'); } catch (e) {}
+    if (saved !== null) {
+      var idx = voices.findIndex(function (v) { return v.name === saved; });
+      if (idx > -1) voiceSel.value = idx;
+    }
+  }
+  loadVoices();
+  synth.onvoiceschanged = loadVoices;
+
+  voiceSel.addEventListener('change', function () {
+    var v = voices[voiceSel.value];
+    try { if (v) localStorage.setItem('evPracticeVoice', v.name); } catch (e) {}
+  });
+
+  function clearHighlight() {
+    var h = document.querySelector('.speaking');
+    if (h) h.classList.remove('speaking');
+  }
+
+  function stop() {
+    playing = false;
+    queue = [];
+    qi = 0;
+    synth.cancel();
+    clearHighlight();
+  }
+
+  // Chrome silently truncates any utterance longer than ~15s, so queue
+  // sentence-sized chunks instead of whole paragraphs.
+  function sentences(text) {
+    var SEP = String.fromCharCode(1);
+    var t = text.replace(/\s+/g, ' ').trim();
+    // Shield decimals/abbreviations so "86.5 percent" isn't split in two.
+    t = t.replace(/(\d)\.(\d)/g, '$1' + SEP + '$2')
+         .replace(/\b(Mr|Mrs|Ms|Dr|St|vs|etc|Inc|Ltd|Co|approx)\./gi,
+                  function (m) { return m.slice(0, -1) + SEP; })
+         .replace(/\bU\.S\./g, 'U' + SEP + 'S' + SEP);
+    var parts = t.match(/[^.!?]+[.!?]+["')\]]?|[^.!?]+$/g) || [t];
+    return parts
+      .map(function (s) { return s.split(SEP).join('.').trim(); })
+      .filter(function (s) { return /[a-zA-Z0-9]/.test(s); });
+  }
+
+  function speakNext() {
+    if (!playing || qi >= queue.length) { stop(); return; }
+    var item = queue[qi++];
+    clearHighlight();
+    if (item.el) {
+      item.el.classList.add('speaking');
+      var r = item.el.getBoundingClientRect();
+      if (r.top < 120 || r.bottom > window.innerHeight - 40) {
+        item.el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      }
+    }
+    var u = new SpeechSynthesisUtterance(item.text);
+    var v = voices[voiceSel.value];
+    if (v) { u.voice = v; u.lang = v.lang; } else { u.lang = 'en-US'; }
+    u.rate = parseFloat(rateSel.value);
+    u.pitch = 1;
+    u.onend = speakNext;
+    u.onerror = speakNext;
+    synth.speak(u);
+  }
+
+  function textOf(el) {
+    // Snapshot taken before the play glyph was injected, so it is never spoken.
+    return el.getAttribute('data-tts') || el.textContent;
+  }
+
+  function play(elements) {
+    stop();
+    queue = [];
+    elements.forEach(function (el) {
+      sentences(textOf(el)).forEach(function (s) {
+        if (s.trim()) queue.push({ el: el, text: s });
+      });
+    });
+    if (!queue.length) return;
+    playing = true;
+    qi = 0;
+    speakNext();
+  }
+
+  document.getElementById('tts-stop').addEventListener('click', stop);
+
+  document.getElementById('tts-play').addEventListener('click', function () {
+    var paras = [].slice.call(document.querySelectorAll('#article .en'));
+    play(paras);
+  });
+
+  rateSel.addEventListener('change', function () { if (playing) stop(); });
+
+  var targets = [].slice.call(document.querySelectorAll('.en'));
+  targets.forEach(function (el) {
+    el.setAttribute('data-tts', el.textContent);
+    var b = document.createElement('button');
+    b.className = 'playbtn';
+    b.type = 'button';
+    b.textContent = '▶';
+    b.setAttribute('aria-label', 'Play this sentence');
+    b.addEventListener('click', function (e) {
+      e.stopPropagation();
+      play([el]);
+    });
+    el.insertBefore(b, el.firstChild);
+  });
+
+  [].slice.call(document.querySelectorAll('table tr')).forEach(function (tr) {
+    var cells = tr.querySelectorAll('td');
+    if (cells.length < 2) return;
+    var last = cells[cells.length - 1];
+    if (!/[a-zA-Z]/.test(last.textContent)) return;
+    last.style.cursor = 'pointer';
+    last.title = 'Click to hear it 點一下聽發音';
+    last.addEventListener('click', function () { play([last]); });
+  });
+
+  window.addEventListener('beforeunload', function () { synth.cancel(); });
+})();
+</script>
+</body>
+</html>

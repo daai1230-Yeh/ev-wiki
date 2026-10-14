@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>EV Speaking Practice 2026-08-31 — The End of Diesel, The Delay of Electric</title>
+<style>
+  :root {
+    --bg: #0C2A65;
+    --fg: #FFFFFF;
+    --accent: #7FB3FF;
+    --line: rgba(127,179,255,.35);
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    padding: 28px 22px 60px;
+    background: var(--bg);
+    color: var(--fg);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang TC", "Noto Sans TC", "Microsoft JhengHei", sans-serif;
+    font-size: 20pt;
+    line-height: 1.65;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  h1 { font-size: 27pt; line-height: 1.3; margin: 0 0 6px; }
+  .sub { font-size: 15pt; opacity: .7; margin: 0 0 22px; }
+  h2 {
+    font-size: 21pt;
+    margin: 40px 0 14px;
+    padding-left: 14px;
+    border-left: 6px solid var(--accent);
+    line-height: 1.35;
+  }
+  h3 { font-size: 18pt; margin: 26px 0 8px; color: var(--accent); }
+  .block {
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    padding: 18px 20px;
+    margin: 0 0 10px;
+  }
+  .en { margin: 16px 0 2px; }
+  .zh { margin: 0 0 16px; font-size: 16.5pt; opacity: .78; }
+  .plan { border: 1px solid var(--line); border-radius: 10px; padding: 16px 20px; margin: 0 0 18px; font-size: 15.5pt; }
+  .plan ol { margin: 8px 0 0; padding-left: 24px; }
+  .plan li { margin: 4px 0; }
+  .time { color: var(--accent); font-weight: 700; }
+  ol.qs { padding-left: 26px; }
+  ol.qs > li { margin: 0 0 6px; }
+  table { width: 100%; border-collapse: collapse; margin: 12px 0 4px; font-size: 15.5pt; }
+  th {
+    background: rgba(127,179,255,.18);
+    color: var(--accent);
+    text-align: left;
+    padding: 10px 12px;
+    border: 1px solid var(--line);
+    font-size: 15pt;
+  }
+  td { padding: 10px 12px; border: 1px solid var(--line); vertical-align: top; }
+  code { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 13.5pt; }
+  a { color: var(--accent); }
+  footer { margin-top: 44px; font-size: 13.5pt; opacity: .55; line-height: 1.6; }
+  .tablewrap { overflow-x: auto; }
+  @media (max-width: 700px) {
+    body { font-size: 17pt; padding: 18px 14px 48px; }
+    h1 { font-size: 21pt; }
+    h2 { font-size: 18pt; }
+    .zh { font-size: 14.5pt; }
+    table { font-size: 13.5pt; }
+    th, td { padding: 8px 8px; }
+  }
+
+  /* ---- Text-to-speech controls ---- */
+  #ttsbar {
+    position:sticky; top:0; z-index:50;
+    background:rgba(12,42,101,.96); backdrop-filter:blur(6px);
+    border:1px solid var(--line); border-radius:10px;
+    padding:14px 18px; margin:0 0 8px;
+    display:flex; flex-wrap:wrap; gap:10px 14px; align-items:center;
+    font-size:14pt;
+  }
+  #ttsbar label { opacity:.75; letter-spacing:.04em; }
+  #ttsbar button {
+    font:inherit; font-size:14pt; font-weight:700;
+    color:var(--bg); background:var(--accent);
+    border:none; border-radius:6px; padding:8px 16px; cursor:pointer;
+  }
+  #ttsbar button.ghost { background:transparent; color:var(--accent); border:1px solid var(--accent); }
+  #ttsbar button:hover { opacity:.85; }
+  #ttsbar select {
+    font:inherit; font-size:14pt;
+    color:var(--fg); background:#123573;
+    border:1px solid var(--line); border-radius:6px; padding:7px 10px; max-width:260px;
+  }
+  #ttshint { flex-basis:100%; font-size:12.5pt; opacity:.6; line-height:1.5; }
+  .playbtn {
+    font:inherit; font-size:13pt; line-height:1;
+    color:var(--accent); background:transparent;
+    border:1px solid rgba(127,179,255,.5); border-radius:5px;
+    padding:4px 9px; margin-right:10px; cursor:pointer; vertical-align:middle;
+  }
+  .playbtn:hover { background:rgba(127,179,255,.16); }
+  .speaking {
+    background:rgba(127,179,255,.17);
+    box-shadow:0 0 0 8px rgba(127,179,255,.17);
+    border-radius:3px;
+  }
+</style>
+</head>
+<body>
+
+<h1>The End of Diesel, The Delay of Electric</h1>
+<p class="sub">EV Speaking Practice · Monday, 31 August 2026 · 25 minutes<br>電動車英文口說練習 · 2026 年 8 月 31 日 · 25 分鐘</p>
+
+<div class="plan">
+  <strong>Session plan　課程規劃</strong>
+  <ol>
+    <li><span class="time">3 min</span> — Warm-Up 暖身</li>
+    <li><span class="time">6 min</span> — Read Aloud 朗讀短文</li>
+    <li><span class="time">4 min</span> — Key Vocabulary 關鍵單字</li>
+    <li><span class="time">2 min</span> — Saying the Numbers 數字唸法</li>
+    <li><span class="time">3 min</span> — Useful Expressions 實用句型</li>
+    <li><span class="time">5 min</span> — Discussion 討論題</li>
+    <li><span class="time">2 min</span> — Wrap-Up 總結</li>
+  </ol>
+</div>
+
+<div id="ttsbar">
+  <button id="tts-play">▶ Read the article 朗讀全文</button>
+  <button id="tts-stop" class="ghost">■ Stop 停止</button>
+  <label for="tts-voice">Voice</label>
+  <select id="tts-voice"></select>
+  <label for="tts-rate">Speed</label>
+  <select id="tts-rate">
+    <option value="0.75">0.75× 慢</option>
+    <option value="0.9" selected>0.9× 稍慢</option>
+    <option value="1">1.0× 正常</option>
+    <option value="1.15">1.15× 快</option>
+  </select>
+  <div id="ttshint">每個英文段落左邊都有 ▶ 可單獨播放；正在唸的句子會反白。想要更自然的聲音：macOS「系統設定 → 輔助使用 → 朗讀內容 → 系統聲音」下載 Enhanced／Premium 或 Siri 語音，再回來從上面的 Voice 選單選取。</div>
+</div>
+
+<h2>1. Warm-Up 暖身 <span class="time">（3 分鐘）</span></h2>
+<div class="block">
+  <p class="en">When you last shopped for a car, did diesel even cross your mind? Why or why not?</p>
+  <p class="zh">你上次買車時，柴油車有出現在你的選項裡嗎？為什麼有、或為什麼沒有？</p>
+  <p class="en">Some carmakers are dropping diesel faster than they can launch electric models. Does that gap worry you as a buyer?</p>
+  <p class="zh">有些車廠淘汰柴油的速度，比推出電動車的速度還快。身為消費者，這個空窗期會讓你擔心嗎？</p>
+  <p class="en">If a brand kept postponing a model you wanted, at what point would you give up and buy something else?</p>
+  <p class="zh">如果一個品牌不斷延後你想要的車款，到什麼程度你會放棄、改買別家的車？</p>
+</div>
+
+<h2>2. Read Aloud 朗讀短文 <span class="time">（6 分鐘）</span></h2>
+<div class="block" id="article">
+  <p class="en">This month, Hyundai and Kia will build their final diesel passenger car. Production of the diesel Sorento ends in mid-September, and once the remaining stock is sold, neither company will offer a single diesel car or SUV in Korea. From the 2027 model year onward, the Sorento comes only as a petrol or a hybrid.</p>
+  <p class="zh">本月，現代汽車與 Kia 將生產最後一輛柴油乘用車。柴油版 Sorento 將於九月中旬停產，庫存售罄後，兩家公司在韓國的乘用車與休旅車產品線中，將不再有任何一款柴油車。自 2027 年式起，Sorento 僅提供汽油與油電混合動力。</p>
+
+  <p class="en">The retreat has been steady rather than sudden. In 2022 the two brands still sold fifteen diesel models, including the Tucson, the Santa Fe and the Genesis G80. That number fell to eleven in 2023, then nine, then five last year, and this year the Sorento was carrying the segment on its own.</p>
+  <p class="zh">這場撤退是穩定的、而不是突然的。2022 年這兩個品牌還有十五款柴油車在售，包括 Tucson、Santa Fe 與 Genesis G80。這個數字在 2023 年減到十一款，接著是九款，去年剩五款，而今年只剩 Sorento 獨自撐著這個級距。</p>
+
+  <p class="en">The market did most of the work. Diesel accounted for 30.8 percent of new car registrations in Korea in 2020, dropped to 5.0 percent last year, and has fallen to just 2.4 percent through July of this year. Over the same period, eco-friendly vehicles — hybrids and battery-electrics — climbed from 11.8 percent to 48.4 percent.</p>
+  <p class="zh">市場本身完成了大部分的工作。柴油車在 2020 年占韓國新車登記的 30.8%，去年降至 5.0%，今年截至七月更跌到僅 2.4%。同一期間，環保車——油電混合與純電動車——則從 11.8% 攀升到 48.4%。</p>
+
+  <p class="en">Regulation pushed in the same direction. Tightening standards such as Euro 7, a ban on registering new one-tonne diesel trucks, and restrictions on older diesel vehicles entering city centres all made the technology harder to justify. Meanwhile the price gap between diesel and petrol narrowed, quietly erasing diesel's old advantage at the pump.</p>
+  <p class="zh">法規也朝同一個方向推進。Euro 7 等日益嚴格的標準、一噸柴油貨卡禁止新車登記，以及老舊柴油車進入市區的限制，都讓這項技術愈來愈難以自圓其說。同時柴油與汽油的價差縮小，悄悄抹去了柴油過去在加油站的優勢。</p>
+
+  <p class="en">What replaced it is telling. Of the 61,579 Sorentos sold in Korea this year, 82.5 percent were hybrids and only 5.0 percent were diesel. Hyundai now aims for eco-friendly models to make up 60 percent of a 5.55 million-unit global sales target by 2030, while Kia is targeting 52 percent of 4.13 million — split roughly into 1.15 million hybrids and one million battery-electric vehicles.</p>
+  <p class="zh">取而代之的東西很能說明問題。今年在韓國售出的 61,579 輛 Sorento 當中，82.5% 是油電混合，柴油僅占 5.0%。現代汽車的目標是在 2030 年 555 萬輛的全球銷量中，讓環保車占 60%；Kia 則設定在 413 萬輛中占 52%——大致拆為 115 萬輛油電混合與 100 萬輛純電動車。</p>
+
+  <p class="en">Not everyone is moving at that pace. JLR has reportedly pushed the next-generation Defender from 2028 or 2029 into the early 2030s, which means the electric version slips with it. The company insists this is a platform problem, not a loss of faith: the current D7x architecture was built for combustion and hybrid drivetrains, and the underbody simply has no room for a battery big enough to deliver decent range.</p>
+  <p class="zh">並非每一家都以這樣的步調前進。據報導，JLR 已將下一代 Defender 從 2028 或 2029 年推遲到 2030 年代初期，這代表純電版本也跟著往後延。該公司堅稱這是平台問題，而不是信心動搖：現行的 D7x 架構是為燃油與油電動力而生，車底根本沒有空間容納足以提供合理續航的電池。</p>
+
+  <p class="en">Cost pressure is the other half of the story. JLR's new CEO, appointed in November 2025, is cutting spending after eighteen turbulent months that included US tariffs the company chose not to pass on to customers in full. The delay now puts at risk JLR's promise of a fully electric model in every one of its four brands by 2030 — a reminder that in this industry, a schedule is only ever a forecast.</p>
+  <p class="zh">成本壓力則是故事的另一半。JLR 於 2025 年 11 月上任的新執行長正在削減開支，此前公司經歷了十八個月的動盪，包括美國關稅——而公司選擇不把成本全數轉嫁給消費者。這次延期，如今讓 JLR「2030 年前四個品牌各有一款純電車型」的承諾岌岌可危——這提醒我們，在這個產業裡，時程表永遠只是一種預測。</p>
+</div>
+
+<h2>3. Key Vocabulary 關鍵單字 <span class="time">（4 分鐘）</span></h2>
+<div class="tablewrap">
+<table>
+  <tr><th>Word 單字</th><th>IPA 音標</th><th>Meaning 中文</th><th>Example sentence 例句（點一下聽發音）</th></tr>
+  <tr><td>phase out</td><td>/feɪz aʊt/</td><td>逐步淘汰</td><td>Korea did not ban diesel overnight; the market phased it out over six years.</td></tr>
+  <tr><td>drivetrain</td><td>/ˈdraɪvtreɪn/</td><td>動力傳動系統</td><td>The platform was designed for a combustion drivetrain, not a battery pack.</td></tr>
+  <tr><td>architecture</td><td>/ˈɑːrkɪtektʃər/</td><td>（車輛）架構、平台</td><td>A new architecture takes years and billions to develop.</td></tr>
+  <tr><td>underbody</td><td>/ˈʌndərbɑːdi/</td><td>車底</td><td>There is no room in the underbody for a larger battery.</td></tr>
+  <tr><td>registration</td><td>/redʒɪˈstreɪʃn/</td><td>（新車）登記</td><td>Diesel fell to 2.4 percent of new car registrations this year.</td></tr>
+  <tr><td>retreat</td><td>/rɪˈtriːt/</td><td>撤退、退場</td><td>The retreat from diesel was gradual but unmistakable.</td></tr>
+  <tr><td>lineup</td><td>/ˈlaɪnʌp/</td><td>產品陣容</td><td>Kia plans to expand its electric lineup to fourteen models.</td></tr>
+  <tr><td>tariff</td><td>/ˈtærɪf/</td><td>關稅</td><td>The carmaker absorbed part of the tariff instead of raising prices.</td></tr>
+  <tr><td>postpone</td><td>/poʊˈspoʊn/</td><td>延期</td><td>They postponed the launch by roughly three years.</td></tr>
+  <tr><td>jeopardise</td><td>/ˈdʒepərdaɪz/</td><td>危及</td><td>The delay jeopardises the company's 2030 target.</td></tr>
+  <tr><td>justify</td><td>/ˈdʒʌstɪfaɪ/</td><td>證明其合理性</td><td>Falling fuel savings made diesel harder to justify.</td></tr>
+  <tr><td>incremental</td><td>/ˌɪnkrəˈmentl/</td><td>漸進的</td><td>Hybrids offer incremental progress rather than a clean break.</td></tr>
+</table>
+</div>
+
+<h2>4. Saying the Numbers 數字唸法 <span class="time">（2 分鐘）</span></h2>
+<div class="tablewrap">
+<table>
+  <tr><th>Figure 數字</th><th>Meaning 意義</th><th>Say it like this 這樣唸</th></tr>
+  <tr><td>30.8% → 2.4%</td><td>柴油占新車登記比例（2020 → 今年）</td><td>from thirty point eight percent down to two point four percent</td></tr>
+  <tr><td>48.4%</td><td>環保車占比（去年）</td><td>forty-eight point four percent</td></tr>
+  <tr><td>61,579</td><td>今年 Sorento 銷量</td><td>sixty-one thousand, five hundred and seventy-nine</td></tr>
+  <tr><td>82.5%</td><td>Sorento 中油電混合占比</td><td>eighty-two and a half percent</td></tr>
+  <tr><td>5.55 million</td><td>現代 2030 年全球銷售目標</td><td>five point five five million units</td></tr>
+  <tr><td>4.13 million</td><td>Kia 2030 年銷售目標</td><td>four point one three million units</td></tr>
+  <tr><td>2028/29 → early 2030s</td><td>Defender 世代改款延期</td><td>from twenty twenty-eight or twenty-nine to the early twenty-thirties</td></tr>
+  <tr><td>15 → 5 models</td><td>柴油車款數量（2022 → 去年）</td><td>from fifteen models down to five</td></tr>
+</table>
+</div>
+
+<h2>5. Useful Expressions 實用句型 <span class="time">（3 分鐘）</span></h2>
+<div class="block">
+  <p class="en">The market did the work here — regulation only accelerated what buyers had already decided.</p>
+  <p class="zh">「是市場自己完成的——法規只是加速了消費者早已做出的決定。」用來說明「真正的推力來自哪一邊」。</p>
+
+  <p class="en">On paper it looks like a retreat, but in practice it is a reallocation of capital.</p>
+  <p class="zh">「表面上看起來像撤退，實際上是資金的重新配置。」用來重新詮釋一個看似負面的決定。</p>
+
+  <p class="en">I'd take that target with a pinch of salt, given how often these timelines slip.</p>
+  <p class="zh">「考慮到這些時程有多常延後，我對這個目標保留態度。」禮貌地表達懷疑。</p>
+
+  <p class="en">If I had to choose between hybrids now and electric later, I'd lean towards…</p>
+  <p class="zh">「如果我必須在『現在的油電』和『以後的純電』之間選，我會傾向……」用來表達有條件的立場。</p>
+
+  <p class="en">That's a fair point, though I'd add that the constraint is engineering, not ambition.</p>
+  <p class="zh">「這點說得有道理，不過我要補充：限制在於工程，而不是企圖心。」先認同、再補充不同角度。</p>
+</div>
+
+<h2>6. Discussion 討論題 <span class="time">（5 分鐘）</span></h2>
+<div class="block">
+  <ol class="qs">
+    <li><p class="en">Korean buyers moved from diesel to hybrids far faster than to pure EVs. Is the hybrid a sensible bridge, or a comfortable excuse to delay?</p>
+    <p class="zh">韓國消費者從柴油轉向油電混合的速度，遠快於轉向純電。油電到底是合理的過渡橋樑，還是拖延的舒適藉口？</p></li>
+
+    <li><p class="en">JLR says the Defender delay is a platform limitation, not a change of heart. Do you find that explanation convincing?</p>
+    <p class="zh">JLR 說 Defender 延期是平台的限制，不是策略轉向。你覺得這個說法有說服力嗎？</p></li>
+
+    <li><p class="en">Should governments push diesel out through bans and city restrictions, or simply let fuel prices and emissions rules do it slowly?</p>
+    <p class="zh">政府該用禁令和市區管制把柴油趕出去，還是讓油價與排放法規慢慢完成這件事？</p></li>
+
+    <li><p class="en">Cadillac is reviving combustion models in the US while Korean brands abandon diesel. Are these two companies reading the same market differently, or reading two different markets?</p>
+    <p class="zh">Cadillac 在美國重新推出燃油車，韓系品牌卻放棄柴油。這兩家是對同一個市場有不同解讀，還是本來就在讀兩個不同的市場？</p></li>
+
+    <li><p class="en">Kia wants 14 electric models by 2030, including purpose-built vehicles. Is a broad lineup a strength, or does it spread engineering too thin?</p>
+    <p class="zh">Kia 想在 2030 年前推出 14 款電動車，包含目的型車輛。產品線廣是優勢，還是把研發資源攤得太薄？</p></li>
+
+    <li><p class="en">In Taiwan, diesel passenger cars were never popular in the first place. Does that make our transition to EVs easier, or does it just mean we skipped a step everyone else had to take?</p>
+    <p class="zh">在台灣，柴油乘用車本來就不流行。這讓我們轉向電動車更容易，還是只代表我們跳過了別人必須走的一步？</p></li>
+  </ol>
+</div>
+
+<h2>7. Wrap-Up 總結 <span class="time">（2 分鐘）</span></h2>
+<div class="block">
+  <p class="en">Give your teacher a 60-second summary: what ended in Korea this month, how fast it happened, and why one British carmaker is moving in the opposite direction.</p>
+  <p class="zh">向老師做 60 秒摘要：本月在韓國結束的是什麼、它發生得多快，以及為什麼一家英國車廠正朝相反方向走。</p>
+
+  <p class="en">Then take a position in one sentence: "If I were running a legacy carmaker in 2026, I would… because…"</p>
+  <p class="zh">接著用一句話表達立場：「如果我在 2026 年經營一家傳統車廠，我會……因為……」</p>
+</div>
+
+<h2>Source Notes　取材筆記</h2>
+<div class="block">
+  <p class="en">Vault path: Claude code AI筆記 / raw / assets</p>
+  <p class="zh">筆記庫路徑：Claude code AI筆記 / raw / assets</p>
+  <div class="tablewrap">
+  <table>
+    <tr><th>Note file 筆記檔名</th><th>Original 原始出處</th><th>Used for 用於</th></tr>
+    <tr>
+      <td><code>2026-08-30-現代汽車、Kia全面退出乘用柴油車，Sorento柴油版本月停產.md</code></td>
+      <td>BigGo 財經 · 2026-08-29<br><a href="https://finance.biggo.com.tw/news/5d3875af-332c-42c8-862f-8b8fefd54e32">finance.biggo.com.tw</a></td>
+      <td>Paragraphs 1–5: the end of Sorento diesel, the 15→5 model count, registration share figures, and the Hyundai/Kia 2030 targets.<br><span style="opacity:.78">第 1–5 段：Sorento 柴油停產、車款數 15→5、新車登記占比數據，以及現代／Kia 的 2030 年目標。</span></td>
+    </tr>
+    <tr>
+      <td><code>2026-08-29-JLR delays electric Defender launch to the early 2030s.md</code></td>
+      <td>electrive · 2026-08-27<br><a href="https://www.electrive.com/2026/08/27/jlr-likely-to-launch-electric-defender-only-in-the-early-2030s/">electrive.com</a></td>
+      <td>Paragraphs 6–7: the Defender postponement, the D7x platform explanation, the new CEO's cost cuts and the 2030 four-brand pledge.<br><span style="opacity:.78">第 6–7 段：Defender 延期、D7x 平台說明、新執行長的成本削減，以及 2030 年四品牌純電承諾。</span></td>
+    </tr>
+    <tr>
+      <td><code>2026-08-29-Cadillac hesitates with electric cars in the UK.md</code></td>
+      <td>electrive · 2026-08-27<br><a href="https://www.electrive.com/2026/08/27/cadillac-hesitates-with-electric-cars-in-the-uk/">electrive.com</a></td>
+      <td>Discussion question 4 only (GM reviving Cadillac ICE models from next spring).<br><span style="opacity:.78">僅用於討論題第 4 題（GM 自明年春季起重啟 Cadillac 燃油車型）。</span></td>
+    </tr>
+  </table>
+  </div>
+</div>
+
+<footer>
+  Generated 2026-08-31 for Claude Yeh · 25-minute EV speaking practice · B2–C1<br>
+  Figures are quoted as reported in the source notes above; verify before citing them as fact in other contexts.<br>
+  數據引自上方取材筆記所載內容；若要在其他場合引用，請先自行查證。
+</footer>
+
+<script>
+(function () {
+  var synth = window.speechSynthesis;
+  var bar = document.getElementById('ttsbar');
+  if (!synth) {
+    bar.innerHTML = '<div id="ttshint">此瀏覽器不支援語音朗讀，請改用 Chrome、Edge 或 Safari 開啟本檔案。</div>';
+    return;
+  }
+
+  var voiceSel = document.getElementById('tts-voice');
+  var rateSel  = document.getElementById('tts-rate');
+  var voices   = [];
+  var queue    = [];
+  var qi       = 0;
+  var playing  = false;
+
+  function score(v) {
+    var n = (v.name + ' ' + (v.voiceURI || '')).toLowerCase();
+    var s = 0;
+    if (/premium|enhanced|neural|natural/.test(n)) s += 40;
+    if (/siri/.test(n)) s += 30;
+    if (/google/.test(n)) s += 25;
+    if (/samantha|ava|allison|serena|daniel|kate|arthur|evan|nathan|zoe/.test(n)) s += 12;
+    if (/compact|novelty|whisper|bells|bubbles|jester|organ|trinoids|zarvox|albert|bad news|good news/.test(n)) s -= 60;
+    if (v.lang === 'en-US') s += 6;
+    if (v.lang === 'en-GB') s += 5;
+    if (v.localService) s += 2;
+    return s;
+  }
+
+  function loadVoices() {
+    var all = synth.getVoices().filter(function (v) { return /^en[-_]/i.test(v.lang); });
+    if (!all.length) return;
+    all.sort(function (a, b) { return score(b) - score(a); });
+    voices = all;
+    voiceSel.innerHTML = '';
+    voices.forEach(function (v, i) {
+      var o = document.createElement('option');
+      o.value = i;
+      o.textContent = v.name + ' (' + v.lang + ')';
+      voiceSel.appendChild(o);
+    });
+    var saved = null;
+    try { saved = localStorage.getItem('evPracticeVoice'); } catch (e) {}
+    if (saved !== null) {
+      var idx = voices.findIndex(function (v) { return v.name === saved; });
+      if (idx > -1) voiceSel.value = idx;
+    }
+  }
+  loadVoices();
+  synth.onvoiceschanged = loadVoices;
+
+  voiceSel.addEventListener('change', function () {
+    var v = voices[voiceSel.value];
+    try { if (v) localStorage.setItem('evPracticeVoice', v.name); } catch (e) {}
+  });
+
+  function clearHighlight() {
+    var h = document.querySelector('.speaking');
+    if (h) h.classList.remove('speaking');
+  }
+
+  function stop() {
+    playing = false;
+    queue = [];
+    qi = 0;
+    synth.cancel();
+    clearHighlight();
+  }
+
+  // Chrome silently truncates any utterance longer than ~15s, so queue
+  // sentence-sized chunks instead of whole paragraphs.
+  function sentences(text) {
+    var SEP = String.fromCharCode(1);
+    var t = text.replace(/\s+/g, ' ').trim();
+    // Shield decimals/abbreviations so "86.5 percent" isn't split in two.
+    t = t.replace(/(\d)\.(\d)/g, '$1' + SEP + '$2')
+         .replace(/\b(Mr|Mrs|Ms|Dr|St|vs|etc|Inc|Ltd|Co|approx)\./gi,
+                  function (m) { return m.slice(0, -1) + SEP; })
+         .replace(/\bU\.S\./g, 'U' + SEP + 'S' + SEP);
+    var parts = t.match(/[^.!?]+[.!?]+["')\]]?|[^.!?]+$/g) || [t];
+    return parts
+      .map(function (s) { return s.split(SEP).join('.').trim(); })
+      .filter(function (s) { return /[a-zA-Z0-9]/.test(s); });
+  }
+
+  function speakNext() {
+    if (!playing || qi >= queue.length) { stop(); return; }
+    var item = queue[qi++];
+    clearHighlight();
+    if (item.el) {
+      item.el.classList.add('speaking');
+      var r = item.el.getBoundingClientRect();
+      if (r.top < 120 || r.bottom > window.innerHeight - 40) {
+        item.el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      }
+    }
+    var u = new SpeechSynthesisUtterance(item.text);
+    var v = voices[voiceSel.value];
+    if (v) { u.voice = v; u.lang = v.lang; } else { u.lang = 'en-US'; }
+    u.rate = parseFloat(rateSel.value);
+    u.pitch = 1;
+    u.onend = speakNext;
+    u.onerror = speakNext;
+    synth.speak(u);
+  }
+
+  function textOf(el) {
+    // Snapshot taken before the play glyph was injected, so it is never spoken.
+    return el.getAttribute('data-tts') || el.textContent;
+  }
+
+  function play(elements) {
+    stop();
+    queue = [];
+    elements.forEach(function (el) {
+      sentences(textOf(el)).forEach(function (s) {
+        if (s.trim()) queue.push({ el: el, text: s });
+      });
+    });
+    if (!queue.length) return;
+    playing = true;
+    qi = 0;
+    speakNext();
+  }
+
+  document.getElementById('tts-stop').addEventListener('click', stop);
+
+  document.getElementById('tts-play').addEventListener('click', function () {
+    var paras = [].slice.call(document.querySelectorAll('#article .en'));
+    play(paras);
+  });
+
+  rateSel.addEventListener('change', function () { if (playing) stop(); });
+
+  var targets = [].slice.call(document.querySelectorAll('.en'));
+  targets.forEach(function (el) {
+    el.setAttribute('data-tts', el.textContent);
+    var b = document.createElement('button');
+    b.className = 'playbtn';
+    b.type = 'button';
+    b.textContent = '▶';
+    b.setAttribute('aria-label', 'Play this sentence');
+    b.addEventListener('click', function (e) {
+      e.stopPropagation();
+      play([el]);
+    });
+    el.insertBefore(b, el.firstChild);
+  });
+
+  [].slice.call(document.querySelectorAll('table tr')).forEach(function (tr) {
+    var cells = tr.querySelectorAll('td');
+    if (cells.length < 2) return;
+    var last = cells[cells.length - 1];
+    if (!/[a-zA-Z]/.test(last.textContent)) return;
+    last.style.cursor = 'pointer';
+    last.title = 'Click to hear it 點一下聽發音';
+    last.addEventListener('click', function () { play([last]); });
+  });
+
+  window.addEventListener('beforeunload', function () { synth.cancel(); });
+})();
+</script>
+</body>
+</html>

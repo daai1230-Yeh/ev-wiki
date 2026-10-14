@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>EV Speaking Practice — 2026-09-19 · Building Inside the Tariff Wall</title>
+<style>
+  :root {
+    --bg: #0C2A65;
+    --fg: #FFFFFF;
+    --accent: #7FB3FF;
+    --line: rgba(127,179,255,.35);
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    padding: 28px 22px 60px;
+    background: var(--bg);
+    color: var(--fg);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue",
+                 "PingFang TC", "Noto Sans TC", "Microsoft JhengHei", sans-serif;
+    font-size: 20pt;
+    line-height: 1.6;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  h1 {
+    font-size: 27pt;
+    line-height: 1.3;
+    margin: 0 0 6px;
+  }
+  .sub {
+    font-size: 15pt;
+    opacity: .72;
+    margin: 0 0 22px;
+    line-height: 1.5;
+  }
+  h2 {
+    font-size: 22pt;
+    margin: 34px 0 14px;
+    padding-left: 14px;
+    border-left: 6px solid var(--accent);
+    line-height: 1.35;
+  }
+  h2 .time {
+    font-size: 14pt;
+    color: var(--accent);
+    font-weight: 400;
+    margin-left: 10px;
+    white-space: nowrap;
+  }
+  h3 {
+    font-size: 17pt;
+    color: var(--accent);
+    margin: 26px 0 10px;
+  }
+  .block {
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    padding: 18px 20px;
+    margin: 0 0 10px;
+  }
+  .plan {
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    padding: 16px 20px;
+    margin: 0 0 20px;
+    font-size: 15pt;
+    line-height: 1.75;
+  }
+  .plan b { color: var(--accent); }
+  .plan ol { margin: 8px 0 0; padding-left: 26px; }
+  .en { margin: 18px 0 2px; }
+  .zh {
+    margin: 0 0 6px;
+    font-size: 15.5pt;
+    opacity: .72;
+    line-height: 1.6;
+  }
+  ol.qs { padding-left: 28px; }
+  ol.qs li { margin-bottom: 16px; }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14.5pt;
+    margin-top: 10px;
+  }
+  th {
+    background: var(--accent);
+    color: var(--bg);
+    text-align: left;
+    padding: 9px 11px;
+    font-size: 14pt;
+  }
+  td {
+    border-bottom: 1px solid var(--line);
+    padding: 9px 11px;
+    vertical-align: top;
+    line-height: 1.5;
+  }
+  td.ipa { color: var(--accent); white-space: nowrap; font-size: 13.5pt; }
+  a { color: var(--accent); }
+  code {
+    font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    font-size: 13pt;
+    background: rgba(127,179,255,.12);
+    padding: 2px 6px;
+    border-radius: 4px;
+    word-break: break-all;
+  }
+  footer {
+    margin-top: 40px;
+    padding-top: 16px;
+    border-top: 1px solid var(--line);
+    font-size: 13.5pt;
+    opacity: .6;
+    line-height: 1.6;
+  }
+  @media (max-width: 640px) {
+    body { font-size: 17pt; padding: 18px 14px 46px; }
+    h1 { font-size: 21pt; }
+    h2 { font-size: 18pt; }
+    .zh { font-size: 13.5pt; }
+    table { font-size: 12.5pt; }
+    th, td { padding: 7px 8px; }
+    table, thead, tbody, th, td, tr { display: block; }
+    thead { display: none; }
+    tr { border-bottom: 1px solid var(--line); padding: 6px 0; }
+    td { border: none; }
+  }
+
+  /* ---- Text-to-speech controls ---- */
+  #ttsbar {
+    position:sticky; top:0; z-index:50;
+    background:rgba(12,42,101,.96); backdrop-filter:blur(6px);
+    border:1px solid var(--line); border-radius:10px;
+    padding:14px 18px; margin:0 0 8px;
+    display:flex; flex-wrap:wrap; gap:10px 14px; align-items:center;
+    font-size:14pt;
+  }
+  #ttsbar label { opacity:.75; letter-spacing:.04em; }
+  #ttsbar button {
+    font:inherit; font-size:14pt; font-weight:700;
+    color:var(--bg); background:var(--accent);
+    border:none; border-radius:6px; padding:8px 16px; cursor:pointer;
+  }
+  #ttsbar button.ghost { background:transparent; color:var(--accent); border:1px solid var(--accent); }
+  #ttsbar button:hover { opacity:.85; }
+  #ttsbar select {
+    font:inherit; font-size:14pt;
+    color:var(--fg); background:#123573;
+    border:1px solid var(--line); border-radius:6px; padding:7px 10px; max-width:260px;
+  }
+  #ttshint { flex-basis:100%; font-size:12.5pt; opacity:.6; line-height:1.5; }
+  .playbtn {
+    font:inherit; font-size:13pt; line-height:1;
+    color:var(--accent); background:transparent;
+    border:1px solid rgba(127,179,255,.5); border-radius:5px;
+    padding:4px 9px; margin-right:10px; cursor:pointer; vertical-align:middle;
+  }
+  .playbtn:hover { background:rgba(127,179,255,.16); }
+  .speaking {
+    background:rgba(127,179,255,.17);
+    box-shadow:0 0 0 8px rgba(127,179,255,.17);
+    border-radius:3px;
+  }
+</style>
+</head>
+<body>
+
+<h1>EV Speaking Practice — Building Inside the Tariff Wall</h1>
+<p class="sub">2026-09-19 · 25 minutes · Level B2–C1<br>歐盟對中國電動車築起關稅高牆，比亞迪的回應是直接到牆內蓋四座廠；而中國油電車正從 10% 關稅的縫隙湧入</p>
+
+<div class="plan">
+  <b>Session plan 課程流程（共 25 分鐘）</b>
+  <ol>
+    <li>Warm-Up 暖身 — <b>3 min</b></li>
+    <li>Read Aloud 朗讀短文 — <b>6 min</b></li>
+    <li>Key Vocabulary 關鍵單字 — <b>4 min</b></li>
+    <li>Saying the Numbers 數字唸法 — <b>2 min</b></li>
+    <li>Useful Expressions 實用句型 — <b>3 min</b></li>
+    <li>Discussion 討論題 — <b>5 min</b></li>
+    <li>Wrap-Up 總結 — <b>2 min</b></li>
+  </ol>
+</div>
+
+<div id="ttsbar">
+  <button id="tts-play">▶ Read the article 朗讀全文</button>
+  <button id="tts-stop" class="ghost">■ Stop 停止</button>
+  <label for="tts-voice">Voice</label>
+  <select id="tts-voice"></select>
+  <label for="tts-rate">Speed</label>
+  <select id="tts-rate">
+    <option value="0.75">0.75× 慢</option>
+    <option value="0.9" selected>0.9× 稍慢</option>
+    <option value="1">1.0× 正常</option>
+    <option value="1.15">1.15× 快</option>
+  </select>
+  <div id="ttshint">每個英文段落左邊都有 ▶ 可單獨播放；正在唸的句子會反白。想要更自然的聲音：macOS「系統設定 → 輔助使用 → 朗讀內容 → 系統聲音」下載 Enhanced／Premium 或 Siri 語音，再回來從上面的 Voice 選單選取。</div>
+</div>
+
+<h2>1. Warm-Up 暖身<span class="time">3 min</span></h2>
+<div class="block">
+  <p class="en">If a foreign carmaker builds a factory in your country, hires local workers, and pays local taxes, should its cars still count as "imports"? Where would you draw the line?</p>
+  <p class="zh">如果一家外國車廠在你的國家蓋廠、雇用本地員工、繳本地稅，它的車還算「進口車」嗎？你會把界線畫在哪裡？</p>
+  <p class="en">Have you ever bought something specifically because a cheaper version of it had suddenly become expensive? What did that switch feel like?</p>
+  <p class="zh">你有沒有因為原本想買的東西突然變貴，而改買另一種替代品？那種被迫轉換的感覺如何？</p>
+  <p class="en">When a government protects a struggling industry, who ends up paying for that protection — and do they usually notice?</p>
+  <p class="zh">當政府保護一個陷入困境的產業時，最後是誰在買單？那些人通常會察覺嗎？</p>
+</div>
+
+<h2>2. Read Aloud 朗讀短文<span class="time">6 min</span></h2>
+<div class="block" id="article">
+  <p class="en">Two years ago the European Union built a wall. Since October 2024, electric cars shipped from China have faced special anti-subsidy tariffs on top of the standard ten per cent import duty. BYD pays an extra seventeen per cent, bringing its total to twenty-seven. Geely pays eighteen point eight, for a total of twenty-eight point eight. SAIC, which owns MG, was hit hardest at thirty-five point three per cent, or forty-five point three in total.</p>
+  <p class="zh">兩年前，歐盟築起了一道牆。自 2024 年 10 月起，從中國出口的電動車在原本 10% 的進口關稅之外，還要面對反補貼特別關稅。比亞迪被加徵 17%，合計 27%；吉利被加徵 18.8%，合計 28.8%；擁有 MG 的上汽被課得最重，特別關稅 35.3%，合計 45.3%。</p>
+
+  <p class="en">Walls, however, have doors. Hybrids were never covered by those tariffs, so they still enter Europe at the flat ten per cent rate — and Chinese brands noticed almost immediately. Shipments of Chinese hybrids to the EU have risen more than tenfold, from about three thousand eight hundred cars in October 2024 to roughly fifty thousand in July of this year. They now account for more than a third of the European hybrid market.</p>
+  <p class="zh">但是有牆就有門。油電車從來不在那些關稅的適用範圍內，因此仍以 10% 的統一稅率進入歐洲——中國品牌幾乎立刻就發現了這一點。中國油電車輸往歐盟的數量已成長超過十倍，從 2024 年 10 月約 3,800 輛，增加到今年 7 月的約 5 萬輛，目前占歐洲油電車市場三分之一以上。</p>
+
+  <p class="en">Brussels wants that door narrowed. According to the Financial Times, the EU has asked Beijing to limit Chinese-built hybrid sales to around fifteen per cent of the European market — voluntarily, for now. One EU official put it bluntly: if China will not limit its exports, the bloc will do it instead. "This is about stopping deindustrialisation," the official said. "It's about managed trade."</p>
+  <p class="zh">布魯塞爾想把這道門縮小。根據《金融時報》報導，歐盟已要求北京把中國製油電車的銷量限制在歐洲市場約 15%——目前是希望對方自願配合。一位歐盟官員說得很直接：如果中國不自我設限，歐盟就會替它設限。他說：「這是為了阻止去工業化，這是管理式貿易。」</p>
+
+  <p class="en">The timing is not accidental. In June the EU gave itself a deadline of October for "concrete results" in shrinking its trade deficit with China, and crunch meetings are scheduled in Beijing next month. Behind the scenes, an anti-subsidy investigation into hybrids is reportedly already being prepared, even though the Commission publicly denied any such plan as recently as January.</p>
+  <p class="zh">時間點並非偶然。歐盟在 6 月自訂了期限，要在 10 月前對縮減對中貿易逆差拿出「具體成果」，而關鍵會談就排在下個月的北京。據報導，針對油電車的反補貼調查其實已在檯面下準備中，儘管歐盟執委會直到今年 1 月都還公開否認有這樣的計畫。</p>
+
+  <p class="en">Meanwhile, BYD has chosen a different answer to the same problem: if the tariff applies at the border, build on the other side of it. The company plans four production sites in Europe — three vehicle assembly plants and one battery factory — according to Alfredo Altavilla, its European adviser and a former Fiat Chrysler executive.</p>
+  <p class="zh">與此同時，比亞迪對同一個問題選擇了不同的答案：既然關稅課在邊境，那就到邊境的另一側去生產。根據比亞迪歐洲顧問、前飛雅特克萊斯勒高層 Alfredo Altavilla 表示，該公司計畫在歐洲設立四座生產基地——三座整車組裝廠和一座電池廠。</p>
+
+  <p class="en">Rather than building from scratch, BYD is negotiating with European rivals and local governments over idle plants in France, Spain and Italy. Buying an existing factory could bring production forward by years; the decisive question, Altavilla says, is the cost of refurbishing whichever site they choose. Spain and France look most workable, largely because the politics there are simpler.</p>
+  <p class="zh">比亞迪並不打算從零開始自建，而是正在與歐洲同業及地方政府洽談，評估收購法國、西班牙和義大利的閒置工廠。買下現成廠房可能讓量產時程提早數年；Altavilla 說，關鍵問題在於選定廠址的整新成本。西班牙和法國看起來最可行，主要是因為當地的政治局勢相對單純。</p>
+
+  <p class="en">He also points out that BYD is not alone in this hunt — he travels constantly to inspect European plants, and a large team is running feasibility studies on every site under consideration, while competitors do exactly the same. So Europe now faces an awkward question of its own. If tariffs succeed in pulling Chinese factories, jobs and battery lines onto European soil, has the policy worked brilliantly, or has it simply changed the address of the competition?</p>
+  <p class="zh">他也指出，比亞迪並不是唯一在尋找廠房的買家——他經常四處走訪歐洲工廠，一支龐大團隊正對每一個候選廠址進行可行性評估，而競爭對手也在做完全一樣的事。於是歐洲面臨一個尷尬的問題：如果關稅成功地把中國的工廠、就業機會和電池產線拉到歐洲土地上，這究竟是政策大獲成功，還是只是換了競爭的地址而已？</p>
+</div>
+
+<h2>3. Key Vocabulary 關鍵單字<span class="time">4 min</span></h2>
+<table>
+  <thead>
+    <tr><th>Word 單字</th><th>IPA 音標</th><th>Meaning 中文</th><th>Example sentence 例句（點一下可聽）</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>tariff</td><td class="ipa">/ˈtærɪf/</td><td>關稅</td><td>A tariff raises the price of an imported car before it even reaches the showroom.</td></tr>
+    <tr><td>subsidy</td><td class="ipa">/ˈsʌbsɪdi/</td><td>補貼</td><td>Europe argues that Chinese EVs are cheap because of state subsidies, not just efficiency.</td></tr>
+    <tr><td>loophole</td><td class="ipa">/ˈluːphoʊl/</td><td>漏洞、法規空隙</td><td>Hybrids became the obvious loophole the moment the EV tariffs took effect.</td></tr>
+    <tr><td>deindustrialisation</td><td class="ipa">/ˌdiːɪnˌdʌstriəlaɪˈzeɪʃn/</td><td>去工業化</td><td>Officials say the goal is stopping deindustrialisation, not punishing one country.</td></tr>
+    <tr><td>trade deficit</td><td class="ipa">/treɪd ˈdefɪsɪt/</td><td>貿易逆差</td><td>The bloc wants concrete results in shrinking its trade deficit by October.</td></tr>
+    <tr><td>idle (plant)</td><td class="ipa">/ˈaɪdl/</td><td>閒置的（工廠）</td><td>An idle plant with trained workers nearby is worth far more than an empty field.</td></tr>
+    <tr><td>refurbish</td><td class="ipa">/ˌriːˈfɜːrbɪʃ/</td><td>整修、翻新</td><td>The decisive cost is not the purchase price but refurbishing the old production line.</td></tr>
+    <tr><td>feasibility study</td><td class="ipa">/ˌfiːzəˈbɪləti ˈstʌdi/</td><td>可行性評估</td><td>They are running a feasibility study on every site still under consideration.</td></tr>
+    <tr><td>from scratch</td><td class="ipa">/frəm skrætʃ/</td><td>從零開始</td><td>Building from scratch would delay production by several years.</td></tr>
+    <tr><td>voluntary restraint</td><td class="ipa">/ˈvɑːlənteri rɪˈstreɪnt/</td><td>自願設限</td><td>Voluntary restraint sounds polite, but everyone knows what follows if it fails.</td></tr>
+    <tr><td>bloc</td><td class="ipa">/blɑːk/</td><td>（國家）集團、聯盟</td><td>The bloc negotiates as one, which gives it far more leverage than any single member.</td></tr>
+    <tr><td>localisation</td><td class="ipa">/ˌloʊkəlaɪˈzeɪʃn/</td><td>在地化（生產）</td><td>Localisation turns a trade dispute into an investment story almost overnight.</td></tr>
+  </tbody>
+</table>
+
+<h2>4. Saying the Numbers 數字唸法<span class="time">2 min</span></h2>
+<table>
+  <thead>
+    <tr><th>Figure 數據</th><th>Say it like this 這樣唸（點一下可聽）</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>10%</td><td>ten per cent — the flat rate every imported car pays</td></tr>
+    <tr><td>27%</td><td>twenty-seven per cent — BYD's total tariff on electric cars</td></tr>
+    <tr><td>28.8%</td><td>twenty-eight point eight per cent — Geely's total</td></tr>
+    <tr><td>45.3%</td><td>forty-five point three per cent — SAIC's total, the highest of all</td></tr>
+    <tr><td>15%</td><td>fifteen per cent — the market share cap Brussels is asking for</td></tr>
+    <tr><td>3,800 → 50,000</td><td>from three thousand eight hundred cars to fifty thousand cars</td></tr>
+    <tr><td>tenfold</td><td>a more than tenfold increase in under two years</td></tr>
+    <tr><td>1/3</td><td>more than a third of the European hybrid market</td></tr>
+    <tr><td>4 sites</td><td>four production sites: three assembly plants and one battery factory</td></tr>
+    <tr><td>Oct 2024</td><td>October twenty twenty-four, when the tariffs took effect</td></tr>
+  </tbody>
+</table>
+
+<h2>5. Useful Expressions 實用句型<span class="time">3 min</span></h2>
+<div class="block">
+  <p class="en">The rule was designed to do X, but in practice it mainly did Y.</p>
+  <p class="zh">用來指出政策的實際效果和原意不同。例：The rule was designed to slow Chinese imports, but in practice it mainly pushed them into hybrids.</p>
+
+  <p class="en">If A won't do it, B will do it for them.</p>
+  <p class="zh">簡潔有力的威脅或最後通牒句型，很適合轉述談判立場。例：If Beijing won't limit exports, Brussels says it will do it for them.</p>
+
+  <p class="en">Rather than building from scratch, they're looking at buying something that already exists.</p>
+  <p class="zh">比較兩種做法時很好用。可替換：Rather than waiting for the rules to change, they're...</p>
+
+  <p class="en">The real question isn't whether it works — it's who ends up paying for it.</p>
+  <p class="zh">把討論從「有沒有效」拉到「代價由誰承擔」，是很有力的轉折句。</p>
+
+  <p class="en">On paper it's a win; on the ground it's more complicated.</p>
+  <p class="zh">區分「帳面上／實際上」的對比句型，適合用來表達保留態度。</p>
+</div>
+
+<h2>6. Discussion 討論題<span class="time">5 min</span></h2>
+<div class="block">
+  <ol class="qs">
+    <li><p class="en">The EU says tariffs are about stopping deindustrialisation. Critics say they are about protecting carmakers who moved too slowly. Which reading do you find more convincing, and why?</p>
+    <p class="zh">歐盟說關稅是為了阻止去工業化，批評者說是為了保護反應太慢的車廠。你覺得哪種說法比較有說服力？為什麼？</p></li>
+
+    <li><p class="en">Chinese brands shifted to hybrids within months of the EV tariffs. Does that speed tell us something about how well trade rules can ever keep up with industry?</p>
+    <p class="zh">中國品牌在電動車關稅上路後幾個月內就轉向油電車。這種速度是否說明了貿易規則永遠追不上產業？</p></li>
+
+    <li><p class="en">If BYD buys an idle plant in Spain and employs thousands of Spanish workers, should Spain welcome it or resist it? Would your answer change if you lived in that town?</p>
+    <p class="zh">如果比亞迪買下西班牙的閒置工廠、雇用數千名西班牙員工，西班牙應該歡迎還是抵制？如果你就住在那個小鎮，答案會不一樣嗎？</p></li>
+
+    <li><p class="en">Asking a country to "voluntarily" cap its exports at fifteen per cent is an unusual kind of request. Is that diplomacy, or pressure with better manners?</p>
+    <p class="zh">要求一個國家「自願」把出口限制在 15%，是一種很特別的要求。這算外交，還是包裝得比較禮貌的施壓？</p></li>
+
+    <li><p class="en">Taiwan's supply chain sells parts into both Chinese and European carmakers. When two of your customers start a trade fight, what is the smartest position to take?</p>
+    <p class="zh">台灣的供應鏈同時賣零件給中國和歐洲車廠。當你的兩個客戶打起貿易戰，最聰明的立場是什麼？</p></li>
+
+    <li><p class="en">Suppose the tariffs work exactly as intended and Chinese factories relocate to Europe. Ten years from now, who will look like the winner of this policy?</p>
+    <p class="zh">假設關稅完全按照預期發揮作用，中國工廠因此遷往歐洲。十年後，誰會看起來像是這項政策的贏家？</p></li>
+  </ol>
+</div>
+
+<h2>7. Wrap-Up 總結<span class="time">2 min</span></h2>
+<div class="block">
+  <h3>60-second summary 六十秒摘要</h3>
+  <p class="en">Summarise the story in about sixty seconds. Try to include three numbers, one company name, and one phrase from the Useful Expressions section.</p>
+  <p class="zh">用大約六十秒摘要這則新聞，盡量包含三個數字、一家公司名稱，以及一個「實用句型」中的句子。</p>
+
+  <h3>Take a position 表達立場</h3>
+  <p class="en">If I had to choose a side, I'd say the tariffs are working — just not in the way Brussels expected, because the factories are moving instead of the cars.</p>
+  <p class="zh">如果一定要選邊站，我會說關稅確實有效——只是效果和布魯塞爾預期的不同，因為移動的是工廠，不是車子。</p>
+  <p class="en">The opposite view is equally defensible: managed trade buys time for European carmakers, and time is exactly what they need right now.</p>
+  <p class="zh">相反的立場同樣站得住腳：管理式貿易替歐洲車廠爭取了時間，而時間正是他們現在最需要的東西。</p>
+</div>
+
+<h2>Source Notes　取材筆記</h2>
+<p class="en" style="font-size:15pt;opacity:.75;">Today's material comes from the Obsidian vault at <code>Claude code AI筆記 / raw / assets</code>.</p>
+<p class="zh">今日題材取自 Obsidian 筆記庫路徑 <code>Claude code AI筆記 / raw / assets</code>。</p>
+<table>
+  <thead>
+    <tr><th>Note file 筆記檔名</th><th>Original 原始出處</th><th>Used for 用於</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code>2026-09-18-Hybrid vehicles EU urges China to self-limit imports.md</code></td>
+      <td>electrive · Cora Werwitzke · 2026-09-17<br><a href="https://www.electrive.com/2026/09/17/hybrid-vehicles-eu-urges-china-to-self-limit-imports/">electrive.com 原文</a>（引用來源：FT）</td>
+      <td>Tariff rates (27% / 28.8% / 45.3%), the 15% cap request, hybrid import growth from 3,800 to 50,000, the "managed trade" quote, October deadline.<br><span style="opacity:.7;font-size:13pt;">提供關稅稅率、15% 市占上限、油電車進口量成長、官員談話與 10 月期限。</span></td>
+    </tr>
+    <tr>
+      <td><code>2026-09-18-比亞迪突破歐盟關稅高牆 直搗歐洲腹地布局4座生產基地.md</code></td>
+      <td>DIGITIMES · 楊智家／綜合報導 · 2026-09-18<br><a href="https://www.digitimes.com.tw/tech/dt/n/shwnws.asp?CnlID=&amp;id=768996&amp;grid_seq1=&amp;grid_seq2=">DIGITIMES 原文</a></td>
+      <td>BYD's four European sites, the idle-plant strategy in France/Spain/Italy, Altavilla's comments on refurbishment cost and feasibility studies.<br><span style="opacity:.7;font-size:13pt;">提供比亞迪四座歐洲廠計畫、收購閒置廠房策略，以及 Altavilla 對整新成本與可行性評估的說法。</span></td>
+    </tr>
+  </tbody>
+</table>
+
+<footer>
+  EV Speaking Practice · 2026-09-19 · Generated for Claude Yeh · 25-minute lesson plan, B2–C1<br>
+  Figures are quoted as reported in the source notes above; percentages refer to EU import tariffs in effect since October 2024.
+</footer>
+
+<script>
+(function () {
+  var synth = window.speechSynthesis;
+  var bar = document.getElementById('ttsbar');
+  if (!synth) {
+    bar.innerHTML = '<div id="ttshint">此瀏覽器不支援語音朗讀，請改用 Chrome、Edge 或 Safari 開啟本檔案。</div>';
+    return;
+  }
+
+  var voiceSel = document.getElementById('tts-voice');
+  var rateSel  = document.getElementById('tts-rate');
+  var voices   = [];
+  var queue    = [];
+  var qi       = 0;
+  var playing  = false;
+
+  function score(v) {
+    var n = (v.name + ' ' + (v.voiceURI || '')).toLowerCase();
+    var s = 0;
+    if (/premium|enhanced|neural|natural/.test(n)) s += 40;
+    if (/siri/.test(n)) s += 30;
+    if (/google/.test(n)) s += 25;
+    if (/samantha|ava|allison|serena|daniel|kate|arthur|evan|nathan|zoe/.test(n)) s += 12;
+    if (/compact|novelty|whisper|bells|bubbles|jester|organ|trinoids|zarvox|albert|bad news|good news/.test(n)) s -= 60;
+    if (v.lang === 'en-US') s += 6;
+    if (v.lang === 'en-GB') s += 5;
+    if (v.localService) s += 2;
+    return s;
+  }
+
+  function loadVoices() {
+    var all = synth.getVoices().filter(function (v) { return /^en[-_]/i.test(v.lang); });
+    if (!all.length) return;
+    all.sort(function (a, b) { return score(b) - score(a); });
+    voices = all;
+    voiceSel.innerHTML = '';
+    voices.forEach(function (v, i) {
+      var o = document.createElement('option');
+      o.value = i;
+      o.textContent = v.name + ' (' + v.lang + ')';
+      voiceSel.appendChild(o);
+    });
+    var saved = null;
+    try { saved = localStorage.getItem('evPracticeVoice'); } catch (e) {}
+    if (saved !== null) {
+      var idx = voices.findIndex(function (v) { return v.name === saved; });
+      if (idx > -1) voiceSel.value = idx;
+    }
+  }
+  loadVoices();
+  synth.onvoiceschanged = loadVoices;
+
+  voiceSel.addEventListener('change', function () {
+    var v = voices[voiceSel.value];
+    try { if (v) localStorage.setItem('evPracticeVoice', v.name); } catch (e) {}
+  });
+
+  function clearHighlight() {
+    var h = document.querySelector('.speaking');
+    if (h) h.classList.remove('speaking');
+  }
+
+  function stop() {
+    playing = false;
+    queue = [];
+    qi = 0;
+    synth.cancel();
+    clearHighlight();
+  }
+
+  // Chrome silently truncates any utterance longer than ~15s, so queue
+  // sentence-sized chunks instead of whole paragraphs.
+  function sentences(text) {
+    var SEP = String.fromCharCode(1);
+    var t = text.replace(/\s+/g, ' ').trim();
+    // Shield decimals/abbreviations so "86.5 percent" isn't split in two.
+    t = t.replace(/(\d)\.(\d)/g, '$1' + SEP + '$2')
+         .replace(/\b(Mr|Mrs|Ms|Dr|St|vs|etc|Inc|Ltd|Co|approx)\./gi,
+                  function (m) { return m.slice(0, -1) + SEP; })
+         .replace(/\bU\.S\./g, 'U' + SEP + 'S' + SEP);
+    var parts = t.match(/[^.!?]+[.!?]+["')\]]?|[^.!?]+$/g) || [t];
+    return parts
+      .map(function (s) { return s.split(SEP).join('.').trim(); })
+      .filter(function (s) { return /[a-zA-Z0-9]/.test(s); });
+  }
+
+  function speakNext() {
+    if (!playing || qi >= queue.length) { stop(); return; }
+    var item = queue[qi++];
+    clearHighlight();
+    if (item.el) {
+      item.el.classList.add('speaking');
+      var r = item.el.getBoundingClientRect();
+      if (r.top < 120 || r.bottom > window.innerHeight - 40) {
+        item.el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      }
+    }
+    var u = new SpeechSynthesisUtterance(item.text);
+    var v = voices[voiceSel.value];
+    if (v) { u.voice = v; u.lang = v.lang; } else { u.lang = 'en-US'; }
+    u.rate = parseFloat(rateSel.value);
+    u.pitch = 1;
+    u.onend = speakNext;
+    u.onerror = speakNext;
+    synth.speak(u);
+  }
+
+  function textOf(el) {
+    // Snapshot taken before the play glyph was injected, so it is never spoken.
+    return el.getAttribute('data-tts') || el.textContent;
+  }
+
+  function play(elements) {
+    stop();
+    queue = [];
+    elements.forEach(function (el) {
+      sentences(textOf(el)).forEach(function (s) {
+        if (s.trim()) queue.push({ el: el, text: s });
+      });
+    });
+    if (!queue.length) return;
+    playing = true;
+    qi = 0;
+    speakNext();
+  }
+
+  document.getElementById('tts-stop').addEventListener('click', stop);
+
+  document.getElementById('tts-play').addEventListener('click', function () {
+    var paras = [].slice.call(document.querySelectorAll('#article .en'));
+    play(paras);
+  });
+
+  rateSel.addEventListener('change', function () { if (playing) stop(); });
+
+  var targets = [].slice.call(document.querySelectorAll('.en'));
+  targets.forEach(function (el) {
+    el.setAttribute('data-tts', el.textContent);
+    var b = document.createElement('button');
+    b.className = 'playbtn';
+    b.type = 'button';
+    b.textContent = '▶';
+    b.setAttribute('aria-label', 'Play this sentence');
+    b.addEventListener('click', function (e) {
+      e.stopPropagation();
+      play([el]);
+    });
+    el.insertBefore(b, el.firstChild);
+  });
+
+  [].slice.call(document.querySelectorAll('table tr')).forEach(function (tr) {
+    var cells = tr.querySelectorAll('td');
+    if (cells.length < 2) return;
+    var last = cells[cells.length - 1];
+    if (!/[a-zA-Z]/.test(last.textContent)) return;
+    last.style.cursor = 'pointer';
+    last.title = 'Click to hear it 點一下聽發音';
+    last.addEventListener('click', function () { play([last]); });
+  });
+
+  window.addEventListener('beforeunload', function () { synth.cancel(); });
+})();
+</script>
+</body>
+</html>

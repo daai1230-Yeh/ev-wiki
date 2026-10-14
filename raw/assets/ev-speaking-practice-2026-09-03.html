@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EV Speaking Practice — 2026-09-03 | Battery Recycling's Profit Gap</title>
+<style>
+  :root {
+    --bg: #0C2A65;
+    --fg: #FFFFFF;
+    --accent: #7FB3FF;
+    --line: rgba(127,179,255,.35);
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; padding: 0;
+    background: var(--bg); color: var(--fg);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans TC", "PingFang TC", Helvetica, Arial, sans-serif;
+    font-size: 20pt;
+    line-height: 1.65;
+  }
+  .wrap { max-width: 880px; margin: 0 auto; padding: 28px 24px 80px; }
+  h1 {
+    font-size: 1.6em;
+    margin: 0 0 6px;
+    line-height: 1.3;
+  }
+  .subtitle { color: var(--accent); font-size: .55em; letter-spacing: .04em; margin-bottom: 22px; }
+  h2.section {
+    font-size: 1.1em;
+    margin: 40px 0 14px;
+    padding-left: 14px;
+    border-left: 6px solid var(--accent);
+    display: flex; flex-wrap: wrap; align-items: baseline; gap: 8px 14px;
+  }
+  h2.section .zh-title { font-size: .8em; opacity: .8; font-weight: 400; }
+  h2.section .mins { margin-left: auto; font-size: .55em; color: var(--accent); border: 1px solid var(--line); border-radius: 20px; padding: 3px 12px; white-space: nowrap; }
+  .block {
+    background: rgba(255,255,255,.04);
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    padding: 20px 22px;
+    margin-bottom: 18px;
+  }
+  .en { font-size: 1em; margin: 0 0 6px; }
+  .zh { font-size: .72em; opacity: .72; margin: 0 0 18px; }
+  .zh:last-child { margin-bottom: 0; }
+  p.en + p.zh { margin-bottom: 18px; }
+  .qlist { list-style: none; margin: 0; padding: 0; counter-reset: q; }
+  .qlist > li { counter-increment: q; margin-bottom: 20px; padding-left: 2.2em; position: relative; }
+  .qlist > li:last-child { margin-bottom: 0; }
+  .qlist > li::before {
+    content: counter(q); position: absolute; left: 0; top: 0;
+    color: var(--bg); background: var(--accent);
+    width: 1.5em; height: 1.5em; border-radius: 50%;
+    font-size: .7em; font-weight: 700;
+    display: flex; align-items: center; justify-content: center;
+  }
+  .plan {
+    background: rgba(127,179,255,.1);
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    padding: 18px 22px;
+    margin-bottom: 26px;
+    font-size: .62em;
+  }
+  .plan-title { color: var(--accent); font-weight: 700; margin-bottom: 10px; font-size: 1.05em; }
+  .plan ol { margin: 0; padding-left: 1.3em; }
+  .plan li { margin-bottom: 6px; }
+  .plan li b { color: var(--accent); }
+  table { width: 100%; border-collapse: collapse; font-size: .6em; }
+  th, td { text-align: left; padding: 10px 12px; border-bottom: 1px solid var(--line); vertical-align: top; }
+  th { color: var(--bg); background: var(--accent); font-size: .95em; }
+  td.ipa { color: var(--accent); white-space: nowrap; }
+  td.zh-cell { opacity: .8; }
+  .mono { font-family: "SFMono-Regular", Menlo, Consolas, monospace; font-size: .85em; }
+  .expr-block { margin-bottom: 20px; }
+  .expr-block:last-child { margin-bottom: 0; }
+  .expr-en { font-size: 1.05em; color: var(--accent); font-weight: 700; margin-bottom: 4px; }
+  .expr-zh { font-size: .68em; opacity: .78; }
+  .wrap-box { display: flex; flex-direction: column; gap: 16px; }
+  footer { margin-top: 50px; padding-top: 20px; border-top: 1px solid var(--line); font-size: .5em; opacity: .55; text-align: center; }
+  a { color: var(--accent); }
+  @media (max-width: 640px) {
+    body { font-size: 16pt; }
+    .wrap { padding: 18px 14px 60px; }
+    h2.section .mins { margin-left: 0; }
+    table, thead, tbody, tr { display: block; }
+    th { display: none; }
+    td { display: block; border-bottom: none; padding: 4px 0; }
+    tr { border-bottom: 1px solid var(--line); padding: 10px 0; }
+    td:first-child { color: var(--accent); font-weight: 700; }
+  }
+
+  /* ---- Text-to-speech controls ---- */
+  #ttsbar {
+    position:sticky; top:0; z-index:50;
+    background:rgba(12,42,101,.96); backdrop-filter:blur(6px);
+    border:1px solid var(--line); border-radius:10px;
+    padding:14px 18px; margin:0 0 8px;
+    display:flex; flex-wrap:wrap; gap:10px 14px; align-items:center;
+    font-size:14pt;
+  }
+  #ttsbar label { opacity:.75; letter-spacing:.04em; }
+  #ttsbar button {
+    font:inherit; font-size:14pt; font-weight:700;
+    color:var(--bg); background:var(--accent);
+    border:none; border-radius:6px; padding:8px 16px; cursor:pointer;
+  }
+  #ttsbar button.ghost { background:transparent; color:var(--accent); border:1px solid var(--accent); }
+  #ttsbar button:hover { opacity:.85; }
+  #ttsbar select {
+    font:inherit; font-size:14pt;
+    color:var(--fg); background:#123573;
+    border:1px solid var(--line); border-radius:6px; padding:7px 10px; max-width:260px;
+  }
+  #ttshint { flex-basis:100%; font-size:12.5pt; opacity:.6; line-height:1.5; }
+  .playbtn {
+    font:inherit; font-size:13pt; line-height:1;
+    color:var(--accent); background:transparent;
+    border:1px solid rgba(127,179,255,.5); border-radius:5px;
+    padding:4px 9px; margin-right:10px; cursor:pointer; vertical-align:middle;
+  }
+  .playbtn:hover { background:rgba(127,179,255,.16); }
+  .speaking {
+    background:rgba(127,179,255,.17);
+    box-shadow:0 0 0 8px rgba(127,179,255,.17);
+    border-radius:3px;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <h1>Battery Recycling's Profit Gap<br>電池回收的獲利黑洞</h1>
+  <div class="subtitle">EV SPEAKING PRACTICE · 2026-09-03 · 25 MINUTES</div>
+
+  <div class="plan">
+    <div class="plan-title">Session Plan 課程規劃 (25 min)</div>
+    <ol>
+      <li><b>1. Warm-Up 暖身</b> — 3 min</li>
+      <li><b>2. Read Aloud 朗讀短文</b> — 6 min</li>
+      <li><b>3. Key Vocabulary 關鍵單字</b> — 4 min</li>
+      <li><b>4. Saying the Numbers 數字唸法</b> — 2 min</li>
+      <li><b>5. Useful Expressions 實用句型</b> — 3 min</li>
+      <li><b>6. Discussion 討論題</b> — 5 min</li>
+      <li><b>7. Wrap-Up 總結</b> — 2 min</li>
+    </ol>
+  </div>
+
+  <div id="ttsbar">
+    <button id="tts-play">▶ Read the article 朗讀全文</button>
+    <button id="tts-stop" class="ghost">■ Stop 停止</button>
+    <label for="tts-voice">Voice</label>
+    <select id="tts-voice"></select>
+    <label for="tts-rate">Speed</label>
+    <select id="tts-rate">
+      <option value="0.75">0.75× 慢</option>
+      <option value="0.9" selected>0.9× 稍慢</option>
+      <option value="1">1.0× 正常</option>
+      <option value="1.15">1.15× 快</option>
+    </select>
+    <div id="ttshint">每個英文段落左邊都有 ▶ 可單獨播放；正在唸的句子會反白。想要更自然的聲音：macOS「系統設定 → 輔助使用 → 朗讀內容 → 系統聲音」下載 Enhanced／Premium 或 Siri 語音，再回來從上面的 Voice 選單選取。</div>
+  </div>
+
+  <h2 class="section">1. Warm-Up <span class="zh-title">暖身</span><span class="mins">3 min</span></h2>
+  <div class="block">
+    <ul class="qlist">
+      <li>
+        <p class="en">Have you ever thought about what actually happens to an EV battery once the car it powers is retired?</p>
+        <p class="zh">你有想過電動車報廢後，車上的電池最後會怎麼處理嗎？</p>
+      </li>
+      <li>
+        <p class="en">When you hear the phrase "circular economy," what image comes to mind first?</p>
+        <p class="zh">聽到「循環經濟」這個詞，你腦中第一個浮現的畫面是什麼？</p>
+      </li>
+      <li>
+        <p class="en">Should governments force companies to use recycled materials even if it makes products more expensive?</p>
+        <p class="zh">就算會讓產品變貴，政府是否應該強制企業使用回收原料？</p>
+      </li>
+    </ul>
+  </div>
+
+  <h2 class="section">2. Read Aloud <span class="zh-title">朗讀短文</span><span class="mins">6 min</span></h2>
+  <div class="block" id="article">
+    <p class="en">The European Union wants to build a self-sufficient loop for EV batteries — making them, using them, and recycling them, all inside Europe. But right now, that loop has a hole in it: the recycling technology basically works, yet nobody has found a business model that turns a steady profit.</p>
+    <p class="zh">歐盟希望在境內打造電動車電池「自製—使用—回收」的完整內循環。但這個循環目前有個破洞：回收技術大致成熟了，卻還沒有人找到能穩定獲利的商業模式。</p>
+
+    <p class="en">A mid-term report from Germany's HHL Leipzig Graduate School of Management, part of the EU-funded "Safeloop" research project, found that after recyclers strip down a used battery pack, sell the recovered raw materials, and subtract transport, disassembly, and other costs, they still lose about 1.9 euros for every kilogram they process. For a typical 500-kilogram EV battery pack, that works out to a loss of roughly 950 euros per pack.</p>
+    <p class="zh">德國萊比錫商學院（HHL）在歐盟「安全循環」（Safeloop）研究計畫下發表的中期報告指出，回收商拆解廢電池包、賣出回收原料，扣掉運輸、拆解等成本後，平均每處理一公斤電池，仍虧損約1.9歐元。以一個典型500公斤的車用電池包計算，等於每個電池包虧損約950歐元。</p>
+
+    <p class="en">Part of the problem is transport. Because used lithium-ion batteries are classified as hazardous goods, shipping them comes with extra paperwork and safety requirements — and on average, moving them the same distance costs 16 times more than shipping ordinary freight.</p>
+    <p class="zh">問題之一出在運輸。由於廢鋰電池被歸類為危險品，運送時需要額外的文件與安全規範，同樣距離的運輸成本，平均是一般貨物的16倍。</p>
+
+    <p class="en">Disassembly is another obstacle, because it is hard to standardize. Battery pack designs differ from one carmaker to the next, and sometimes even within the same brand. That forces recycling plants to juggle multiple disassembly processes at once, which makes full automation difficult and keeps the work heavily dependent on manual labor.</p>
+    <p class="zh">拆解則是另一個障礙，因為很難標準化。不同車廠、甚至同一品牌不同型號的電池包設計都不一樣，回收廠必須同時應付多套拆解流程，難以全面自動化，只能大量仰賴人力。</p>
+
+    <p class="en">New regulation will raise the stakes further. Under the EU Batteries Regulation, starting in August 2031, new EV, industrial, and starter batteries must contain a minimum share of recycled material. Modeling a 20 percent recycled-content requirement, the HHL team estimated that if recyclers simply pass their losses straight through, battery pack costs for automakers could rise by about 6 percent.</p>
+    <p class="zh">新法規則會讓成本壓力更大。根據歐盟《新電池法》，自2031年8月起，新的車用、工業用及啟動電池都必須含有一定比例的回收原料。HHL團隊以20%回收比例建模估算，若回收商的虧損直接轉嫁出去，車廠的電池包成本恐上升約6%。</p>
+
+    <p class="en">Recycling, though, isn't the only path for a retired battery. Giving it a "second life" in stationary energy storage — instead of shredding it right away — can lift the total value created across its lifecycle by as much as 64 percent. The catch is that most of this extra value flows to vehicle owners and storage-system operators, while automakers, who shoulder the higher recycling costs, capture almost none of it — leaving the value chain badly out of balance.</p>
+    <p class="zh">不過，退役電池並非只有回收一條路。讓電池轉作定置型儲能、延長使用壽命，整個生命週期創造的總價值最高可提升64%。問題是，這部分額外價值主要落入車主與儲能系統營運商手中，真正承擔較高回收成本的車廠卻幾乎分不到，造成價值鏈嚴重失衡。</p>
+
+    <p class="en">HHL's researchers propose five fixes: design batteries that are safer and easier to take apart, shorten transport distances, push disassembly automation further, encourage more specialized recycling firms, and set stricter binding transport standards. If all five land, they estimate recycling costs could fall by about 34 percent — enough to flip that 1.9-euro-per-kilogram loss into a 0.13-euro-per-kilogram profit. On top of that, HHL suggests creating a "coordinator" role to manage a battery's entire life — from first use, to second-life storage, to final recycling — so costs and revenues can finally be shared more fairly.</p>
+    <p class="zh">HHL提出五項改善方向：設計更安全、更容易拆解的電池、縮短運輸距離、提升拆解自動化程度、扶植更專業的回收企業，以及制定更具約束力的運輸標準。若五項都能落實，估計回收成本可降低約34%，足以讓現在每公斤虧損1.9歐元，翻轉為每公斤獲利0.13歐元。此外，HHL建議設立「協調者」角色，統籌電池從首次使用、二次儲能利用到最終回收的整個生命週期，讓成本與收益能被更公平地分配。</p>
+  </div>
+
+  <h2 class="section">3. Key Vocabulary <span class="zh-title">關鍵單字</span><span class="mins">4 min</span></h2>
+  <div class="block">
+    <table>
+      <thead><tr><th>Word 單字</th><th>IPA</th><th>中文意思</th><th>Example 例句</th></tr></thead>
+      <tbody>
+        <tr><td>recycle (v.)</td><td class="ipa">/ˌriːˈsaɪ.kəl/</td><td class="zh-cell">回收再利用</td><td>Only about a fifth of the pack's material actually gets <em>recycled</em> back into new batteries.</td></tr>
+        <tr><td>disassemble (v.)</td><td class="ipa">/ˌdɪs.əˈsem.bəl/</td><td class="zh-cell">拆解</td><td>Technicians have to <em>disassemble</em> each pack by hand because the designs aren't standardized.</td></tr>
+        <tr><td>hazardous (adj.)</td><td class="ipa">/ˈhæz.ər.dəs/</td><td class="zh-cell">危險的</td><td>Used lithium-ion cells are classified as <em>hazardous</em> goods during transport.</td></tr>
+        <tr><td>standardize (v.)</td><td class="ipa">/ˈstæn.dər.daɪz/</td><td class="zh-cell">標準化</td><td>Regulators want automakers to <em>standardize</em> pack designs to make recycling easier.</td></tr>
+        <tr><td>automation (n.)</td><td class="ipa">/ˌɔː.təˈmeɪ.ʃən/</td><td class="zh-cell">自動化</td><td>Without more <em>automation</em>, disassembly will keep relying on expensive manual labor.</td></tr>
+        <tr><td>mandate (n.)</td><td class="ipa">/ˈmæn.deɪt/</td><td class="zh-cell">強制規定；授權</td><td>The new EU <em>mandate</em> requires a minimum share of recycled content by 2031.</td></tr>
+        <tr><td>stationary storage (n. phr.)</td><td class="ipa">/ˈsteɪ.ʃən.ər.i ˈstɔːr.ɪdʒ/</td><td class="zh-cell">定置型儲能</td><td>Retired EV batteries are increasingly repurposed for <em>stationary storage</em> at solar farms.</td></tr>
+        <tr><td>lifecycle (n.)</td><td class="ipa">/ˈlaɪf.saɪ.kəl/</td><td class="zh-cell">生命週期</td><td>A coordinator would oversee the battery's full <em>lifecycle</em>, from first use to final recycling.</td></tr>
+        <tr><td>circular economy (n. phr.)</td><td class="ipa">/ˈsɜːr.kjə.lər ɪˈkɒn.ə.mi/</td><td class="zh-cell">循環經濟</td><td>The EU's push for a <em>circular economy</em> depends on recycling actually being profitable.</td></tr>
+        <tr><td>profitability (n.)</td><td class="ipa">/ˌprɒf.ɪ.təˈbɪl.ə.ti/</td><td class="zh-cell">獲利能力</td><td>The technology works, but <em>profitability</em> is still out of reach for most recyclers.</td></tr>
+        <tr><td>coordinator (n.)</td><td class="ipa">/koʊˈɔːr.dɪ.neɪ.tər/</td><td class="zh-cell">協調者</td><td>HHL proposes a <em>coordinator</em> to redistribute costs and revenue fairly across the value chain.</td></tr>
+        <tr><td>break even (v. phr.)</td><td class="ipa">/breɪk ˈiː.vən/</td><td class="zh-cell">損益兩平</td><td>Cutting costs by 34% could help the industry finally <em>break even</em> — and then turn a small profit.</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2 class="section">4. Saying the Numbers <span class="zh-title">數字唸法</span><span class="mins">2 min</span></h2>
+  <div class="block">
+    <table>
+      <thead><tr><th>In the article 文中數據</th><th>How to say it 英文唸法</th></tr></thead>
+      <tbody>
+        <tr><td>−1.9 €/kg</td><td>a loss of one point nine euros per kilogram</td></tr>
+        <tr><td>500 kg pack → ~€950 loss</td><td>a five-hundred-kilogram pack, roughly a nine-hundred-and-fifty-euro loss</td></tr>
+        <tr><td>16×</td><td>sixteen times the cost of ordinary freight</td></tr>
+        <tr><td>20%</td><td>a twenty percent recycled-content requirement</td></tr>
+        <tr><td>6%</td><td>costs could rise by about six percent</td></tr>
+        <tr><td>64%</td><td>lifecycle value up by as much as sixty-four percent</td></tr>
+        <tr><td>34%</td><td>recycling costs down by roughly thirty-four percent</td></tr>
+        <tr><td>€0.13/kg</td><td>a profit of thirteen euro cents per kilogram</td></tr>
+        <tr><td>August 2031</td><td>starting in August, twenty thirty-one</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2 class="section">5. Useful Expressions <span class="zh-title">實用句型</span><span class="mins">3 min</span></h2>
+  <div class="block">
+    <div class="expr-block">
+      <div class="expr-en">"The economics of ___ just don't add up yet."</div>
+      <div class="expr-zh">用來說某件事在商業上還算不出獲利，例："The economics of battery recycling just don't add up yet."</div>
+    </div>
+    <div class="expr-block">
+      <div class="expr-en">"There's a real disconnect between who pays and who benefits."</div>
+      <div class="expr-zh">描述「付出成本的人」和「獲得好處的人」不是同一群人，凸顯制度失衡。</div>
+    </div>
+    <div class="expr-block">
+      <div class="expr-en">"If X were to happen, it could flip the numbers from a loss to a profit."</div>
+      <div class="expr-zh">假設語氣，描述某個條件成立後可能翻轉整個財務結果。</div>
+    </div>
+    <div class="expr-block">
+      <div class="expr-en">"This raises the question of who should foot the bill."</div>
+      <div class="expr-zh">用來引出「這筆錢究竟該由誰買單」的討論。</div>
+    </div>
+    <div class="expr-block">
+      <div class="expr-en">"On paper it works — but in practice, the business case just isn't there."</div>
+      <div class="expr-zh">對比「理論上可行」與「實務上還缺乏商業誘因」，很適合用在政策辯論。</div>
+    </div>
+  </div>
+
+  <h2 class="section">6. Discussion <span class="zh-title">討論題</span><span class="mins">5 min</span></h2>
+  <div class="block">
+    <ul class="qlist">
+      <li>
+        <p class="en">Should the EU go ahead with its 2031 recycled-content mandate even though recyclers are currently losing money, or is that premature?</p>
+        <p class="zh">既然回收商目前仍在虧損，歐盟是否該照原計畫在2031年推行回收原料強制比例？還是為時過早？</p>
+      </li>
+      <li>
+        <p class="en">Who do you think should ultimately bear the cost of battery recycling — automakers, battery makers, consumers, or taxpayers through government subsidies?</p>
+        <p class="zh">你認為電池回收的成本最終該由誰負擔——車廠、電池廠、消費者，還是透過政府補貼讓納稅人分攤？</p>
+      </li>
+      <li>
+        <p class="en">Is it fair that storage operators capture most of the value from second-life batteries while automakers absorb the recycling costs? How would you redesign the incentives?</p>
+        <p class="zh">儲能營運商拿走大部分電池「第二人生」的價值，車廠卻承擔回收成本，你覺得公平嗎？若換你設計誘因機制，你會怎麼改？</p>
+      </li>
+      <li>
+        <p class="en">HHL suggests putting one "coordinator" in charge of a battery's entire lifecycle. Do you think a single coordinating body is realistic, or would open market competition work better?</p>
+        <p class="zh">HHL建議設立單一「協調者」統籌電池整個生命週期。你認為單一協調機構可行嗎？還是開放市場競爭效果更好？</p>
+      </li>
+      <li>
+        <p class="en">Compare this to other circular-economy challenges you know of — plastics, electronics, textiles. What makes EV batteries especially hard to recycle profitably?</p>
+        <p class="zh">拿這個案例跟你知道的其他循環經濟難題比較——例如塑膠、電子產品、紡織品。電動車電池為什麼特別難做到有獲利的回收？</p>
+      </li>
+      <li>
+        <p class="en">If recycling costs stay high, could that slow down Europe's overall EV transition? Or is this a separate problem from EV adoption itself?</p>
+        <p class="zh">如果回收成本持續居高不下，會不會拖慢歐洲整體的電動車轉型？還是這其實跟電動車普及是兩件不同的事？</p>
+      </li>
+    </ul>
+  </div>
+
+  <h2 class="section">7. Wrap-Up <span class="zh-title">總結</span><span class="mins">2 min</span></h2>
+  <div class="block wrap-box">
+    <div>
+      <p class="en">Give a 60-second summary: mention the €1.9/kg loss, the 16× transport cost, the 2031 EU mandate, the 64% second-life value gain, and HHL's coordinator proposal.</p>
+      <p class="zh">請用60秒摘要今天內容，記得提到：每公斤虧損1.9歐元、運輸成本16倍、2031年歐盟強制規定、第二人生儲能價值提升64%，以及HHL的協調者提案。</p>
+    </div>
+    <div class="expr-block">
+      <div class="expr-en">"If I had to take a side, I'd say ___, mainly because ___."</div>
+      <div class="expr-zh">用來清楚表達自己的立場並給出主要理由，適合收尾時亮明態度。</div>
+    </div>
+  </div>
+
+  <h2 class="section">Source Notes <span class="zh-title">取材筆記</span></h2>
+  <div class="block">
+    <p class="en">Notes are stored in the user's Obsidian vault at <span class="mono">Claude code AI筆記 / raw / assets</span>.</p>
+    <p class="zh">筆記存放於 Obsidian 筆記庫路徑 <span class="mono">Claude code AI筆記 / raw / assets</span>。</p>
+    <table>
+      <thead><tr><th>Note file 筆記檔名</th><th>Original 原始出處</th><th>Used for 用於</th></tr></thead>
+      <tbody>
+        <tr>
+          <td class="mono">2026-09-02-技術到位卻沒人賺錢歐盟EV電池回收仍存黑洞.md</td>
+          <td>DIGITIMES · 2026-09-02 · 黃女瑛／整理<br><a href="https://www.digitimes.com.tw/tech/dt/n/shwnws.asp?CnlID=&id=767055&grid_seq1=&grid_seq2=" target="_blank" rel="noopener">原文連結 Original link</a></td>
+          <td>All data and content in Sections 2–4 and the Discussion questions — the €1.9/kg loss, 16× transport cost, 2031 EU mandate, 64% second-life value gain, 34% cost-reduction path, and the coordinator proposal.<br>第2至4節及討論題的全部內容與數據，包括每公斤虧損1.9歐元、運輸成本16倍、2031年歐盟強制規定、第二人生儲能價值提升64%、成本可降34%的路徑，以及協調者提案。</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <footer>
+    Generated for Claude Yeh · daai1230@gmail.com · 2026-09-03 · EV Speaking Practice (25 min)
+  </footer>
+
+</div>
+
+<script>
+(function () {
+  var synth = window.speechSynthesis;
+  var bar = document.getElementById('ttsbar');
+  if (!synth) {
+    bar.innerHTML = '<div id="ttshint">此瀏覽器不支援語音朗讀，請改用 Chrome、Edge 或 Safari 開啟本檔案。</div>';
+    return;
+  }
+
+  var voiceSel = document.getElementById('tts-voice');
+  var rateSel  = document.getElementById('tts-rate');
+  var voices   = [];
+  var queue    = [];
+  var qi       = 0;
+  var playing  = false;
+
+  function score(v) {
+    var n = (v.name + ' ' + (v.voiceURI || '')).toLowerCase();
+    var s = 0;
+    if (/premium|enhanced|neural|natural/.test(n)) s += 40;
+    if (/siri/.test(n)) s += 30;
+    if (/google/.test(n)) s += 25;
+    if (/samantha|ava|allison|serena|daniel|kate|arthur|evan|nathan|zoe/.test(n)) s += 12;
+    if (/compact|novelty|whisper|bells|bubbles|jester|organ|trinoids|zarvox|albert|bad news|good news/.test(n)) s -= 60;
+    if (v.lang === 'en-US') s += 6;
+    if (v.lang === 'en-GB') s += 5;
+    if (v.localService) s += 2;
+    return s;
+  }
+
+  function loadVoices() {
+    var all = synth.getVoices().filter(function (v) { return /^en[-_]/i.test(v.lang); });
+    if (!all.length) return;
+    all.sort(function (a, b) { return score(b) - score(a); });
+    voices = all;
+    voiceSel.innerHTML = '';
+    voices.forEach(function (v, i) {
+      var o = document.createElement('option');
+      o.value = i;
+      o.textContent = v.name + ' (' + v.lang + ')';
+      voiceSel.appendChild(o);
+    });
+    var saved = null;
+    try { saved = localStorage.getItem('evPracticeVoice'); } catch (e) {}
+    if (saved !== null) {
+      var idx = voices.findIndex(function (v) { return v.name === saved; });
+      if (idx > -1) voiceSel.value = idx;
+    }
+  }
+  loadVoices();
+  synth.onvoiceschanged = loadVoices;
+
+  voiceSel.addEventListener('change', function () {
+    var v = voices[voiceSel.value];
+    try { if (v) localStorage.setItem('evPracticeVoice', v.name); } catch (e) {}
+  });
+
+  function clearHighlight() {
+    var h = document.querySelector('.speaking');
+    if (h) h.classList.remove('speaking');
+  }
+
+  function stop() {
+    playing = false;
+    queue = [];
+    qi = 0;
+    synth.cancel();
+    clearHighlight();
+  }
+
+  // Chrome silently truncates any utterance longer than ~15s, so queue
+  // sentence-sized chunks instead of whole paragraphs.
+  function sentences(text) {
+    var SEP = String.fromCharCode(1);
+    var t = text.replace(/\s+/g, ' ').trim();
+    // Shield decimals/abbreviations so "86.5 percent" isn't split in two.
+    t = t.replace(/(\d)\.(\d)/g, '$1' + SEP + '$2')
+         .replace(/\b(Mr|Mrs|Ms|Dr|St|vs|etc|Inc|Ltd|Co|approx)\./gi,
+                  function (m) { return m.slice(0, -1) + SEP; })
+         .replace(/\bU\.S\./g, 'U' + SEP + 'S' + SEP);
+    var parts = t.match(/[^.!?]+[.!?]+["')\]]?|[^.!?]+$/g) || [t];
+    return parts
+      .map(function (s) { return s.split(SEP).join('.').trim(); })
+      .filter(function (s) { return /[a-zA-Z0-9]/.test(s); });
+  }
+
+  function speakNext() {
+    if (!playing || qi >= queue.length) { stop(); return; }
+    var item = queue[qi++];
+    clearHighlight();
+    if (item.el) {
+      item.el.classList.add('speaking');
+      var r = item.el.getBoundingClientRect();
+      if (r.top < 120 || r.bottom > window.innerHeight - 40) {
+        item.el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      }
+    }
+    var u = new SpeechSynthesisUtterance(item.text);
+    var v = voices[voiceSel.value];
+    if (v) { u.voice = v; u.lang = v.lang; } else { u.lang = 'en-US'; }
+    u.rate = parseFloat(rateSel.value);
+    u.pitch = 1;
+    u.onend = speakNext;
+    u.onerror = speakNext;
+    synth.speak(u);
+  }
+
+  function textOf(el) {
+    // Snapshot taken before the play glyph was injected, so it is never spoken.
+    return el.getAttribute('data-tts') || el.textContent;
+  }
+
+  function play(elements) {
+    stop();
+    queue = [];
+    elements.forEach(function (el) {
+      sentences(textOf(el)).forEach(function (s) {
+        if (s.trim()) queue.push({ el: el, text: s });
+      });
+    });
+    if (!queue.length) return;
+    playing = true;
+    qi = 0;
+    speakNext();
+  }
+
+  document.getElementById('tts-stop').addEventListener('click', stop);
+
+  document.getElementById('tts-play').addEventListener('click', function () {
+    var paras = [].slice.call(document.querySelectorAll('#article .en'));
+    play(paras);
+  });
+
+  rateSel.addEventListener('change', function () { if (playing) stop(); });
+
+  var targets = [].slice.call(document.querySelectorAll('.en'));
+  targets.forEach(function (el) {
+    el.setAttribute('data-tts', el.textContent);
+    var b = document.createElement('button');
+    b.className = 'playbtn';
+    b.type = 'button';
+    b.textContent = '▶';
+    b.setAttribute('aria-label', 'Play this sentence');
+    b.addEventListener('click', function (e) {
+      e.stopPropagation();
+      play([el]);
+    });
+    el.insertBefore(b, el.firstChild);
+  });
+
+  [].slice.call(document.querySelectorAll('table tr')).forEach(function (tr) {
+    var cells = tr.querySelectorAll('td');
+    if (cells.length < 2) return;
+    var last = cells[cells.length - 1];
+    if (!/[a-zA-Z]/.test(last.textContent)) return;
+    last.style.cursor = 'pointer';
+    last.title = 'Click to hear it 點一下聽發音';
+    last.addEventListener('click', function () { play([last]); });
+  });
+
+  window.addEventListener('beforeunload', function () { synth.cancel(); });
+})();
+</script>
+</body>
+</html>

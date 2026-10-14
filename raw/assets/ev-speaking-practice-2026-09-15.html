@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EV Speaking Practice — 2026-09-15 · Tesla's Rebound vs. China's Aging EV Fleet</title>
+<style>
+  :root {
+    --bg: #0C2A65;
+    --fg: #FFFFFF;
+    --accent: #7FB3FF;
+    --line: rgba(127,179,255,.35);
+  }
+  * { box-sizing: border-box; }
+  html, body {
+    margin: 0; padding: 0;
+    background: var(--bg); color: var(--fg);
+    font-family: -apple-system, "Segoe UI", "Noto Sans TC", "PingFang TC", Arial, sans-serif;
+    font-size: 20pt;
+    line-height: 1.6;
+  }
+  .wrap { max-width: 900px; margin: 0 auto; padding: 28px 24px 60px; }
+  h1 {
+    font-size: 1.5em;
+    margin: 0 0 6px;
+    line-height: 1.35;
+  }
+  .subtitle {
+    font-size: 0.5em;
+    opacity: .75;
+    margin: 0 0 24px;
+  }
+  .plan {
+    border: 1px solid var(--line);
+    border-left: 6px solid var(--accent);
+    border-radius: 10px;
+    padding: 16px 20px;
+    margin: 0 0 24px;
+    font-size: 0.55em;
+  }
+  .plan h2 {
+    font-size: 1.2em;
+    margin: 0 0 10px;
+    color: var(--accent);
+  }
+  .plan ol { margin: 0; padding-left: 1.3em; }
+  .plan li { margin: 4px 0; }
+  .plan .min { color: var(--accent); font-weight: 700; }
+
+  h2.sectitle {
+    font-size: 1.05em;
+    border-left: 6px solid var(--accent);
+    padding: 4px 14px;
+    margin: 40px 0 6px;
+  }
+  .timebadge {
+    color: var(--accent);
+    font-size: 0.7em;
+    font-weight: 700;
+    margin-left: 6px;
+  }
+  .block {
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    padding: 18px 22px;
+    margin: 0 0 10px;
+  }
+  .en { font-size: 1em; margin: 0 0 4px; }
+  .zh { font-size: 0.78em; opacity: .68; margin: 0 0 18px; }
+  .para:last-child .zh { margin-bottom: 0; }
+
+  ol.qlist, ul.qlist {
+    margin: 0; padding-left: 1.2em;
+  }
+  ol.qlist li, ul.qlist li { margin: 0 0 16px; }
+  ol.qlist li:last-child, ul.qlist li:last-child { margin-bottom: 0; }
+  .qlist .en { margin-bottom: 2px; }
+  .qlist .zh { margin-bottom: 0; }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.62em;
+    margin: 6px 0;
+  }
+  th, td {
+    border: 1px solid var(--line);
+    padding: 10px 12px;
+    text-align: left;
+    vertical-align: top;
+  }
+  th {
+    background: rgba(127,179,255,.14);
+    color: var(--accent);
+    font-weight: 700;
+  }
+  td .zh-cell { display: block; opacity: .68; font-size: .92em; margin-top: 3px; }
+  .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 0.95em; }
+  a { color: var(--accent); }
+
+  .expr {
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    padding: 14px 18px;
+    margin: 0 0 14px;
+  }
+  .expr:last-child { margin-bottom: 0; }
+  .expr .pattern { font-weight: 700; }
+  .expr .zh { margin-top: 6px; }
+
+  .wrapup-box {
+    border: 1px solid var(--line);
+    border-left: 6px solid var(--accent);
+    border-radius: 10px;
+    padding: 18px 22px;
+  }
+
+  footer {
+    margin-top: 40px;
+    font-size: 0.5em;
+    opacity: .6;
+    text-align: center;
+    line-height: 1.8;
+  }
+
+  .sourcepath { font-size: 0.6em; opacity: .8; margin: 0 0 12px; }
+
+  @media (max-width: 640px) {
+    html, body { font-size: 16pt; }
+    .wrap { padding: 18px 14px 50px; }
+    table, thead, tbody, tr { display: block; }
+    thead { display: none; }
+    tr { border: 1px solid var(--line); border-radius: 8px; margin-bottom: 12px; padding: 8px 10px; }
+    td { border: none; padding: 6px 2px; display: block; }
+    td::before {
+      content: attr(data-label);
+      display: block;
+      color: var(--accent);
+      font-size: 0.85em;
+      font-weight: 700;
+      margin-bottom: 2px;
+    }
+  }
+
+  /* ---- Text-to-speech controls ---- */
+  #ttsbar {
+    position:sticky; top:0; z-index:50;
+    background:rgba(12,42,101,.96); backdrop-filter:blur(6px);
+    border:1px solid var(--line); border-radius:10px;
+    padding:14px 18px; margin:0 0 8px;
+    display:flex; flex-wrap:wrap; gap:10px 14px; align-items:center;
+    font-size:14pt;
+  }
+  #ttsbar label { opacity:.75; letter-spacing:.04em; }
+  #ttsbar button {
+    font:inherit; font-size:14pt; font-weight:700;
+    color:var(--bg); background:var(--accent);
+    border:none; border-radius:6px; padding:8px 16px; cursor:pointer;
+  }
+  #ttsbar button.ghost { background:transparent; color:var(--accent); border:1px solid var(--accent); }
+  #ttsbar button:hover { opacity:.85; }
+  #ttsbar select {
+    font:inherit; font-size:14pt;
+    color:var(--fg); background:#123573;
+    border:1px solid var(--line); border-radius:6px; padding:7px 10px; max-width:260px;
+  }
+  #ttshint { flex-basis:100%; font-size:12.5pt; opacity:.6; line-height:1.5; }
+  .playbtn {
+    font:inherit; font-size:13pt; line-height:1;
+    color:var(--accent); background:transparent;
+    border:1px solid rgba(127,179,255,.5); border-radius:5px;
+    padding:4px 9px; margin-right:10px; cursor:pointer; vertical-align:middle;
+  }
+  .playbtn:hover { background:rgba(127,179,255,.16); }
+  .speaking {
+    background:rgba(127,179,255,.17);
+    box-shadow:0 0 0 8px rgba(127,179,255,.17);
+    border-radius:3px;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <h1>EV Speaking Practice · 2026-09-15<br>Tesla's Rebound vs. China's Aging EV Fleet</h1>
+  <p class="subtitle">特斯拉的逆勢回升，對上中國電動車「老化」的殘值危機 · 25-minute session with an online tutor · Level B2–C1</p>
+
+  <div class="plan">
+    <h2>Session Plan 課程規劃</h2>
+    <ol>
+      <li><span class="min">3 min</span> — Warm-Up 暖身</li>
+      <li><span class="min">6 min</span> — Read Aloud 朗讀短文</li>
+      <li><span class="min">4 min</span> — Key Vocabulary 關鍵單字</li>
+      <li><span class="min">2 min</span> — Saying the Numbers 數字唸法</li>
+      <li><span class="min">3 min</span> — Useful Expressions 實用句型</li>
+      <li><span class="min">5 min</span> — Discussion 討論題</li>
+      <li><span class="min">2 min</span> — Wrap-Up 總結</li>
+    </ol>
+  </div>
+
+  <div id="ttsbar">
+    <button id="tts-play">▶ Read the article 朗讀全文</button>
+    <button id="tts-stop" class="ghost">■ Stop 停止</button>
+    <label for="tts-voice">Voice</label>
+    <select id="tts-voice"></select>
+    <label for="tts-rate">Speed</label>
+    <select id="tts-rate">
+      <option value="0.75">0.75× 慢</option>
+      <option value="0.9" selected>0.9× 稍慢</option>
+      <option value="1">1.0× 正常</option>
+      <option value="1.15">1.15× 快</option>
+    </select>
+    <div id="ttshint">每個英文段落左邊都有 ▶ 可單獨播放；正在唸的句子會反白。想要更自然的聲音：macOS「系統設定 → 輔助使用 → 朗讀內容 → 系統聲音」下載 Enhanced／Premium 或 Siri 語音，再回來從上面的 Voice 選單選取。</div>
+  </div>
+
+  <h2 class="sectitle">1. Warm-Up <span class="timebadge">暖身 · 3 min</span></h2>
+  <div class="block">
+    <ol class="qlist">
+      <li>
+        <p class="en">Have you ever bought — or thought about buying — a used car? What worried you most about it?</p>
+        <p class="zh">你曾經買過、或考慮過買二手車嗎？當時你最擔心什麼？</p>
+      </li>
+      <li>
+        <p class="en">Do you think governments should keep subsidizing EV buyers, or is it time for electric cars to compete on their own?</p>
+        <p class="zh">你認為政府應該持續補貼電動車買家，還是電動車該靠自己的實力競爭了？</p>
+      </li>
+      <li>
+        <p class="en">If you pictured an EV five years from now, would you expect it to work almost like new, or noticeably worse?</p>
+        <p class="zh">如果想像一輛電動車開五年後的樣子，你會預期它幾乎跟新車一樣，還是明顯變差？</p>
+      </li>
+    </ol>
+  </div>
+
+  <h2 class="sectitle">2. Read Aloud <span class="timebadge">朗讀短文 · 6 min</span></h2>
+  <div class="block" id="article">
+    <div class="para">
+      <p class="en">The global EV market is moving at two very different speeds right now. In the United States, Tesla is tightening its grip even as the overall market shrinks. In China, millions of early electric cars are aging out of their warranties, and the used-car market doesn't quite know what to do with them.</p>
+      <p class="zh">目前全球電動車市場正以兩種截然不同的速度前進。在美國，特斯拉即使在整體市場萎縮之際，仍持續鞏固自己的優勢；在中國，數以百萬計的早期電動車正逐漸過了保固期，而二手車市場還不太知道該如何處理這些車。</p>
+    </div>
+    <div class="para">
+      <p class="en">According to the Wall Street Journal, Tesla's share of the U.S. EV market climbed to fifty-two percent by August, up from forty-three percent a year earlier. But that rise reflects resilience, not recovery: Tesla's own sales actually fell sixteen percent, to three hundred twenty-five thousand, three hundred fifty-one vehicles, while the entire U.S. EV market contracted by thirty percent.</p>
+      <p class="zh">根據《華爾街日報》報導，特斯拉在美國電動車市場的佔有率到八月已攀升至52%，高於去年同期的43%。但這樣的成長反映的是韌性，而非復甦：特斯拉自身的銷量其實下滑了16%，來到325,351輛，而整個美國電動車市場則萎縮了30%。</p>
+    </div>
+    <div class="para">
+      <p class="en">Tesla's position still rests heavily on a single model. The Model Y alone accounts for roughly a third of all EV purchases in the U.S. and slipped just two percent this year. Meanwhile, as federal subsidies expired, traditional automakers pulled back hard — Honda discontinued the Prologue, and Ford ended the F-150 Lightning.</p>
+      <p class="zh">特斯拉的地位其實高度依賴單一車款：光是Model Y就佔美國電動車購買量的約三分之一，且今年僅下滑2%。與此同時，隨著聯邦補貼到期，傳統車廠大舉收手——本田停產了Prologue，福特也終止了F-150 Lightning。</p>
+    </div>
+    <div class="para">
+      <p class="en">Halfway around the world, China is facing a very different kind of reckoning. With forty-four million electric vehicles already on its roads, China has become the first country in the world with a large, aging EV fleet — and the battery, its most expensive component, still has no standard way to measure its health.</p>
+      <p class="zh">在地球的另一端，中國正面臨另一種截然不同的考驗。中國道路上已有4,400萬輛電動車在行駛，使其成為全球第一個擁有大量「老化」電動車的國家——而電池作為電動車最昂貴的零件，卻仍然缺乏一套標準化的健康檢測方式。</p>
+    </div>
+    <div class="para">
+      <p class="en">A report cited by the International Energy Agency found that about eighty percent of used-car dealers in China now refuse to take in EVs older than five years, mainly over fears about battery life and replacement costs. A three-year-old EV now resells for around forty-five percent of its original price, down from nearly fifty-five percent back in 2023.</p>
+      <p class="zh">國際能源署（IEA）引述的一份報告發現，中國目前約有80%的二手車商拒絕收購車齡超過五年的電動車，主要原因是擔心電池壽命與更換成本。一輛三年車齡的電動車，現在轉售價約為原價的45%，低於2023年將近55%的水準。</p>
+    </div>
+    <div class="para">
+      <p class="en">Part of the problem is access to information. EVs can technically report battery health through a diagnostic port, but in China, many battery management systems are tightly encrypted, so ordinary used-car dealers can't get a reliable, legally valid report on how much a battery has degraded. Manufacturers typically offer an eight-year or one-hundred-sixty-thousand-kilometer warranty — and once that runs out, any battery failure becomes the owner's expense.</p>
+      <p class="zh">問題的一部分在於資訊取得困難。電動車理論上可以透過診斷端口回報電池健康狀況，但在中國，許多電池管理系統（BMS）都採高度加密，一般二手車商很難取得可靠、具法律效力的電池衰退報告。車廠通常提供八年或十六萬公里的保固——一旦保固期滿，電池若出現故障，費用就得由車主自行承擔。</p>
+    </div>
+    <div class="para">
+      <p class="en">Even with this domestic headache, China's EV exports keep surging — more than two point five million vehicles went abroad last year, double the year before, giving China fifty-five percent of all EV sales outside Europe and the U.S. Officials expect over one million tonnes of battery scrap by 2030, with some industry estimates running as high as three point five million tonnes — and no fully safe recycling system yet in place to handle it.</p>
+      <p class="zh">儘管國內面臨這樣的難題，中國的電動車出口仍持續激增——去年出口超過250萬輛，是前一年的兩倍，讓中國在歐美以外市場的電動車銷售中佔比達到55%。官方預估到2030年，電池報廢量將超過100萬噸，部分業界估計甚至可能高達350萬噸——而目前尚未建立完全安全的回收體系來處理這些廢棄電池。</p>
+    </div>
+  </div>
+
+  <h2 class="sectitle">3. Key Vocabulary <span class="timebadge">關鍵單字 · 4 min</span></h2>
+  <div class="block">
+    <table>
+      <thead><tr><th>Word 單字</th><th>IPA 音標</th><th>Meaning 中文意思</th><th>Example 例句</th></tr></thead>
+      <tbody>
+        <tr>
+          <td data-label="Word">resilience <span class="zh-cell">n.</span></td>
+          <td data-label="IPA" class="mono">/rɪˈzɪliəns/</td>
+          <td data-label="Meaning">韌性、抗跌能力</td>
+          <td data-label="Example">Tesla's rising share reflects resilience, not a market recovery.</td>
+        </tr>
+        <tr>
+          <td data-label="Word">residual value <span class="zh-cell">n. phrase</span></td>
+          <td data-label="IPA" class="mono">/rɪˈzɪdʒuəl ˈvæljuː/</td>
+          <td data-label="Meaning">殘值、轉售價值</td>
+          <td data-label="Example">A three-year-old EV's residual value has dropped to about 45 percent.</td>
+        </tr>
+        <tr>
+          <td data-label="Word">depreciate <span class="zh-cell">v.</span></td>
+          <td data-label="IPA" class="mono">/dɪˈpriːʃieɪt/</td>
+          <td data-label="Meaning">貶值</td>
+          <td data-label="Example">EVs tend to depreciate faster than comparable gas cars.</td>
+        </tr>
+        <tr>
+          <td data-label="Word">degrade <span class="zh-cell">v.</span></td>
+          <td data-label="IPA" class="mono">/dɪˈɡreɪd/</td>
+          <td data-label="Meaning">（性能）衰退、劣化</td>
+          <td data-label="Example">Without a health report, buyers can't tell how much a battery has degraded.</td>
+        </tr>
+        <tr>
+          <td data-label="Word">warranty <span class="zh-cell">n.</span></td>
+          <td data-label="IPA" class="mono">/ˈwɒrənti/</td>
+          <td data-label="Meaning">保固</td>
+          <td data-label="Example">Most EV batteries carry an eight-year warranty.</td>
+        </tr>
+        <tr>
+          <td data-label="Word">phase out <span class="zh-cell">phr. v.</span></td>
+          <td data-label="IPA" class="mono">/feɪz aʊt/</td>
+          <td data-label="Meaning">逐步淘汰</td>
+          <td data-label="Example">Ford phased out the F-150 Lightning after subsidies expired.</td>
+        </tr>
+        <tr>
+          <td data-label="Word">subsidy <span class="zh-cell">n.</span></td>
+          <td data-label="IPA" class="mono">/ˈsʌbsɪdi/</td>
+          <td data-label="Meaning">補貼</td>
+          <td data-label="Example">The U.S. EV market slowed sharply once the federal subsidy ran out.</td>
+        </tr>
+        <tr>
+          <td data-label="Word">diagnostic <span class="zh-cell">adj.</span></td>
+          <td data-label="IPA" class="mono">/ˌdaɪəɡˈnɒstɪk/</td>
+          <td data-label="Meaning">診斷用的</td>
+          <td data-label="Example">The car reports battery data through a diagnostic port.</td>
+        </tr>
+        <tr>
+          <td data-label="Word">encrypted <span class="zh-cell">adj.</span></td>
+          <td data-label="IPA" class="mono">/ɪnˈkrɪptɪd/</td>
+          <td data-label="Meaning">加密的</td>
+          <td data-label="Example">Many battery management systems are tightly encrypted.</td>
+        </tr>
+        <tr>
+          <td data-label="Word">scrap <span class="zh-cell">v. / n.</span></td>
+          <td data-label="IPA" class="mono">/skræp/</td>
+          <td data-label="Meaning">報廢（動詞／名詞）</td>
+          <td data-label="Example">China could scrap over a million tonnes of batteries a year by 2030.</td>
+        </tr>
+        <tr>
+          <td data-label="Word">dominance <span class="zh-cell">n.</span></td>
+          <td data-label="IPA" class="mono">/ˈdɒmɪnəns/</td>
+          <td data-label="Meaning">主導地位</td>
+          <td data-label="Example">Tesla reclaimed its dominance of the U.S. EV market this year.</td>
+        </tr>
+        <tr>
+          <td data-label="Word">contract <span class="zh-cell">v.</span></td>
+          <td data-label="IPA" class="mono">/kənˈtrækt/</td>
+          <td data-label="Meaning">（市場）萎縮</td>
+          <td data-label="Example">The overall EV market contracted by thirty percent.</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2 class="sectitle">4. Saying the Numbers <span class="timebadge">數字唸法 · 2 min</span></h2>
+  <div class="block">
+    <table>
+      <thead><tr><th>Figure 數據</th><th>Say it like this 唸法</th><th>Context 情境</th></tr></thead>
+      <tbody>
+        <tr><td data-label="Figure">52%</td><td data-label="Say it" class="mono">fifty-two percent</td><td data-label="Context">Tesla's U.S. EV market share, Aug 2026</td></tr>
+        <tr><td data-label="Figure">43%</td><td data-label="Say it" class="mono">forty-three percent</td><td data-label="Context">Tesla's share a year earlier</td></tr>
+        <tr><td data-label="Figure">325,351</td><td data-label="Say it" class="mono">three hundred twenty-five thousand, three hundred fifty-one</td><td data-label="Context">Tesla's U.S. sales through August</td></tr>
+        <tr><td data-label="Figure">−16%</td><td data-label="Say it" class="mono">down sixteen percent / a sixteen-percent drop</td><td data-label="Context">Tesla's year-over-year sales decline</td></tr>
+        <tr><td data-label="Figure">30%</td><td data-label="Say it" class="mono">thirty percent</td><td data-label="Context">Overall U.S. EV market contraction</td></tr>
+        <tr><td data-label="Figure">44 million</td><td data-label="Say it" class="mono">forty-four million</td><td data-label="Context">EVs on China's roads today</td></tr>
+        <tr><td data-label="Figure">80%</td><td data-label="Say it" class="mono">eighty percent</td><td data-label="Context">Chinese dealers refusing EVs over 5 years old</td></tr>
+        <tr><td data-label="Figure">45% / 55%</td><td data-label="Say it" class="mono">forty-five percent, down from fifty-five percent</td><td data-label="Context">3-year-old EV resale value, now vs. 2023</td></tr>
+        <tr><td data-label="Figure">2.5 million</td><td data-label="Say it" class="mono">two point five million / two and a half million</td><td data-label="Context">China's EV exports last year</td></tr>
+        <tr><td data-label="Figure">8 yrs / 160,000 km</td><td data-label="Say it" class="mono">eight years, or one hundred sixty thousand kilometers</td><td data-label="Context">Typical battery warranty length</td></tr>
+        <tr><td data-label="Figure">1–3.5 million tonnes</td><td data-label="Say it" class="mono">one to three point five million tonnes</td><td data-label="Context">Projected battery scrap by 2030</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2 class="sectitle">5. Useful Expressions <span class="timebadge">實用句型 · 3 min</span></h2>
+  <div class="block">
+    <div class="expr">
+      <p class="pattern en">"X reflects Y rather than Z."</p>
+      <p class="zh">用來釐清一個現象背後真正的原因，而非表面看起來的原因。例："This reflects resilience rather than a full recovery."</p>
+    </div>
+    <div class="expr">
+      <p class="pattern en">"Even though X, Y."</p>
+      <p class="zh">讓步句型，先承認一個事實，再說出相對的結果。例："Even though exports are surging, the domestic resale market is struggling."</p>
+    </div>
+    <div class="expr">
+      <p class="pattern en">"It remains to be seen whether..."</p>
+      <p class="zh">表示事情尚無定論、有待觀察。例："It remains to be seen whether battery health reports will ever become standardized."</p>
+    </div>
+    <div class="expr">
+      <p class="pattern en">"There's a growing concern that..."</p>
+      <p class="zh">用來描述一個逐漸擴大的疑慮或擔憂。例："There's a growing concern that early EV adopters will be left holding depreciating assets."</p>
+    </div>
+    <div class="expr">
+      <p class="pattern en">"On one hand..., but on the other hand..."</p>
+      <p class="zh">呈現一件事的兩面，方便討論利弊。例："On one hand, cheap EVs help consumers; on the other hand, they raise safety and security questions."</p>
+    </div>
+  </div>
+
+  <h2 class="sectitle">6. Discussion <span class="timebadge">討論題 · 5 min</span></h2>
+  <div class="block">
+    <ol class="qlist">
+      <li>
+        <p class="en">Tesla's U.S. market share is rising even as the overall EV market shrinks. Is that a healthy sign for the EV industry, or a warning sign?</p>
+        <p class="zh">特斯拉在美國的市佔率上升，但整體電動車市場卻在萎縮。你認為這對電動車產業來說是健康的訊號，還是警訊？</p>
+      </li>
+      <li>
+        <p class="en">Now that federal subsidies have expired and some automakers are discontinuing EV models, should governments step back in, or should EVs compete on their own?</p>
+        <p class="zh">既然聯邦補貼已經到期、部分車廠也停產了電動車款，你認為政府該重新介入補貼，還是該讓電動車靠自己競爭？</p>
+      </li>
+      <li>
+        <p class="en">If you were buying a five-year-old EV, what would you want to know about the battery before paying for it?</p>
+        <p class="zh">如果你要買一輛車齡五年的電動車，你會想在付款前了解電池的哪些資訊？</p>
+      </li>
+      <li>
+        <p class="en">Is China's used-EV problem a preview of what other countries will eventually face, or is it specific to China's market conditions?</p>
+        <p class="zh">你認為中國目前的二手電動車困境，會是其他國家未來也會遇到的情況，還是屬於中國市場獨有的問題？</p>
+      </li>
+      <li>
+        <p class="en">Battery health data is often locked inside encrypted, proprietary systems. Should regulators require carmakers to provide standardized, accessible battery health reports?</p>
+        <p class="zh">電池健康數據常被鎖在加密且專屬的系統裡。你認為主管機關應該要求車廠提供標準化、可公開取得的電池健康報告嗎？</p>
+      </li>
+      <li>
+        <p class="en">Some people say cheap Chinese EVs flooding global markets is simply good for consumers; others call it a national security and economic risk. Which concern do you think should weigh more heavily?</p>
+        <p class="zh">有人認為廉價的中國電動車大量進入全球市場，對消費者來說是好事；也有人認為這是國家安全與經濟上的風險。你認為哪一種考量應該更被重視？</p>
+      </li>
+    </ol>
+  </div>
+
+  <h2 class="sectitle">7. Wrap-Up <span class="timebadge">總結 · 2 min</span></h2>
+  <div class="wrapup-box">
+    <p class="en"><strong>60-second summary:</strong> In your own words, summarize both stories in under a minute — Tesla's rebound inside a shrinking U.S. market, and China's battery-aging, residual-value problem in its used-EV market. Which of the two trends concerns you more, and why?</p>
+    <p class="zh">請用一分鐘以內，以自己的話總結這兩則故事——特斯拉在萎縮的美國市場中逆勢回升，以及中國電動車市場面臨的電池老化與殘值下滑問題。這兩個趨勢中，哪一個更讓你擔心？為什麼？</p>
+    <p class="en" style="margin-top:14px;"><strong>Stance sentence:</strong> "If I had to take a side, I'd say ___, because ___."</p>
+    <p class="zh">表達個人立場的句型：「如果一定要選邊站，我會說＿＿＿，因為＿＿＿。」練習用這句話，對今天討論過的任一題目表明自己的立場。</p>
+  </div>
+
+  <h2 class="sectitle">Source Notes <span class="timebadge">取材筆記</span></h2>
+  <div class="block">
+    <p class="sourcepath en">Notes are stored in the user's Obsidian vault at <span class="mono">Claude code AI筆記 / raw / assets</span>.</p>
+    <p class="sourcepath zh">筆記存放於使用者的 Obsidian 筆記庫，路徑為 <span class="mono">Claude code AI筆記 / raw / assets</span>。</p>
+    <table>
+      <thead><tr><th>Note file 筆記檔名</th><th>Original 原始出處</th><th>Used for 用於</th></tr></thead>
+      <tbody>
+        <tr>
+          <td data-label="Note file" class="mono">2026-09-14-震撼特斯拉重奪美國電動車市場主導地位.md</td>
+          <td data-label="Original">美股放大鏡 (CMoney 研究員, citing Wall Street Journal) · 2026-09-14<br><a href="https://www.forecastock.tw/article/cmoneyairesearcher-38361835-afb2-11f1-936c-6bd0c76a5be7" target="_blank" rel="noopener">Original article 原文連結</a></td>
+          <td data-label="Used for">Tesla's 52%/43% U.S. market-share figures, the 325,351-unit sales total and 16% decline, the 30% overall market contraction, the Model Y's ~1/3 share, and the Honda Prologue / Ford F-150 Lightning discontinuations — used in Read Aloud paragraphs 2–3, Vocabulary, Numbers, and Discussion Q1–Q2.<br>特斯拉的52%／43%市佔率數據、325,351輛銷量與16%衰退、市場整體萎縮30%、Model Y約三分之一佔比，以及本田Prologue／福特F-150 Lightning停產消息，用於朗讀短文第2–3段、單字表、數字表與討論題第1、2題。</td>
+        </tr>
+        <tr>
+          <td data-label="Note file" class="mono">2026-09-14-報告中國八成二手車商拒購車齡5年的電動車.md</td>
+          <td data-label="Original">大紀元 Epoch Times · 任義 · 2026-09-13（citing IEA Global EV Outlook &amp; Rest of World）<br><a href="https://www.epochtimes.com/b5/26/9/13/n14848853.htm" target="_blank" rel="noopener">Original article 原文連結</a></td>
+          <td data-label="Used for">The 44-million-vehicle fleet figure, the 80% dealer-refusal statistic, the 45%/55% resale-value drop, the encrypted BMS / warranty details, the 2.5-million-unit export figure and 55% export share, and the 1–3.5 million tonne battery-scrap projection — used in Read Aloud paragraphs 4–7, Vocabulary, Numbers, and Discussion Q3–Q6.<br>4,400萬輛車隊規模、80%二手車商拒收比例、45%／55%殘值下滑、電池管理系統加密與保固細節、250萬輛出口數據與55%出口佔比，以及100萬至350萬噸電池報廢預估，用於朗讀短文第4–7段、單字表、數字表與討論題第3–6題。</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <footer>
+    Generated for Claude Yeh · 2026-09-15 · EV Speaking Practice (25 min) · Web Speech API text-to-speech built in.<br>
+    為 Claude Yeh 產生 · 2026-09-15 · 電動車英文口說練習（25 分鐘）· 內建 Web Speech API 語音朗讀。
+  </footer>
+
+</div>
+
+<script>
+(function () {
+  var synth = window.speechSynthesis;
+  var bar = document.getElementById('ttsbar');
+  if (!synth) {
+    bar.innerHTML = '<div id="ttshint">此瀏覽器不支援語音朗讀，請改用 Chrome、Edge 或 Safari 開啟本檔案。</div>';
+    return;
+  }
+
+  var voiceSel = document.getElementById('tts-voice');
+  var rateSel  = document.getElementById('tts-rate');
+  var voices   = [];
+  var queue    = [];
+  var qi       = 0;
+  var playing  = false;
+
+  function score(v) {
+    var n = (v.name + ' ' + (v.voiceURI || '')).toLowerCase();
+    var s = 0;
+    if (/premium|enhanced|neural|natural/.test(n)) s += 40;
+    if (/siri/.test(n)) s += 30;
+    if (/google/.test(n)) s += 25;
+    if (/samantha|ava|allison|serena|daniel|kate|arthur|evan|nathan|zoe/.test(n)) s += 12;
+    if (/compact|novelty|whisper|bells|bubbles|jester|organ|trinoids|zarvox|albert|bad news|good news/.test(n)) s -= 60;
+    if (v.lang === 'en-US') s += 6;
+    if (v.lang === 'en-GB') s += 5;
+    if (v.localService) s += 2;
+    return s;
+  }
+
+  function loadVoices() {
+    var all = synth.getVoices().filter(function (v) { return /^en[-_]/i.test(v.lang); });
+    if (!all.length) return;
+    all.sort(function (a, b) { return score(b) - score(a); });
+    voices = all;
+    voiceSel.innerHTML = '';
+    voices.forEach(function (v, i) {
+      var o = document.createElement('option');
+      o.value = i;
+      o.textContent = v.name + ' (' + v.lang + ')';
+      voiceSel.appendChild(o);
+    });
+    var saved = null;
+    try { saved = localStorage.getItem('evPracticeVoice'); } catch (e) {}
+    if (saved !== null) {
+      var idx = voices.findIndex(function (v) { return v.name === saved; });
+      if (idx > -1) voiceSel.value = idx;
+    }
+  }
+  loadVoices();
+  synth.onvoiceschanged = loadVoices;
+
+  voiceSel.addEventListener('change', function () {
+    var v = voices[voiceSel.value];
+    try { if (v) localStorage.setItem('evPracticeVoice', v.name); } catch (e) {}
+  });
+
+  function clearHighlight() {
+    var h = document.querySelector('.speaking');
+    if (h) h.classList.remove('speaking');
+  }
+
+  function stop() {
+    playing = false;
+    queue = [];
+    qi = 0;
+    synth.cancel();
+    clearHighlight();
+  }
+
+  // Chrome silently truncates any utterance longer than ~15s, so queue
+  // sentence-sized chunks instead of whole paragraphs.
+  function sentences(text) {
+    var SEP = String.fromCharCode(1);
+    var t = text.replace(/\s+/g, ' ').trim();
+    // Shield decimals/abbreviations so "86.5 percent" isn't split in two.
+    t = t.replace(/(\d)\.(\d)/g, '$1' + SEP + '$2')
+         .replace(/\b(Mr|Mrs|Ms|Dr|St|vs|etc|Inc|Ltd|Co|approx)\./gi,
+                  function (m) { return m.slice(0, -1) + SEP; })
+         .replace(/\bU\.S\./g, 'U' + SEP + 'S' + SEP);
+    var parts = t.match(/[^.!?]+[.!?]+["')\]]?|[^.!?]+$/g) || [t];
+    return parts
+      .map(function (s) { return s.split(SEP).join('.').trim(); })
+      .filter(function (s) { return /[a-zA-Z0-9]/.test(s); });
+  }
+
+  function speakNext() {
+    if (!playing || qi >= queue.length) { stop(); return; }
+    var item = queue[qi++];
+    clearHighlight();
+    if (item.el) {
+      item.el.classList.add('speaking');
+      var r = item.el.getBoundingClientRect();
+      if (r.top < 120 || r.bottom > window.innerHeight - 40) {
+        item.el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      }
+    }
+    var u = new SpeechSynthesisUtterance(item.text);
+    var v = voices[voiceSel.value];
+    if (v) { u.voice = v; u.lang = v.lang; } else { u.lang = 'en-US'; }
+    u.rate = parseFloat(rateSel.value);
+    u.pitch = 1;
+    u.onend = speakNext;
+    u.onerror = speakNext;
+    synth.speak(u);
+  }
+
+  function textOf(el) {
+    // Snapshot taken before the play glyph was injected, so it is never spoken.
+    return el.getAttribute('data-tts') || el.textContent;
+  }
+
+  function play(elements) {
+    stop();
+    queue = [];
+    elements.forEach(function (el) {
+      sentences(textOf(el)).forEach(function (s) {
+        if (s.trim()) queue.push({ el: el, text: s });
+      });
+    });
+    if (!queue.length) return;
+    playing = true;
+    qi = 0;
+    speakNext();
+  }
+
+  document.getElementById('tts-stop').addEventListener('click', stop);
+
+  document.getElementById('tts-play').addEventListener('click', function () {
+    var paras = [].slice.call(document.querySelectorAll('#article .en'));
+    play(paras);
+  });
+
+  rateSel.addEventListener('change', function () { if (playing) stop(); });
+
+  var targets = [].slice.call(document.querySelectorAll('.en'));
+  targets.forEach(function (el) {
+    el.setAttribute('data-tts', el.textContent);
+    var b = document.createElement('button');
+    b.className = 'playbtn';
+    b.type = 'button';
+    b.textContent = '▶';
+    b.setAttribute('aria-label', 'Play this sentence');
+    b.addEventListener('click', function (e) {
+      e.stopPropagation();
+      play([el]);
+    });
+    el.insertBefore(b, el.firstChild);
+  });
+
+  [].slice.call(document.querySelectorAll('table tr')).forEach(function (tr) {
+    var cells = tr.querySelectorAll('td');
+    if (cells.length < 2) return;
+    var last = cells[cells.length - 1];
+    if (!/[a-zA-Z]/.test(last.textContent)) return;
+    last.style.cursor = 'pointer';
+    last.title = 'Click to hear it 點一下聽發音';
+    last.addEventListener('click', function () { play([last]); });
+  });
+
+  window.addEventListener('beforeunload', function () { synth.cancel(); });
+})();
+</script>
+</body>
+</html>

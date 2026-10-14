@@ -1,0 +1,456 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>EV Speaking Practice — Cheap Cars, Tough Targets (2026-10-07)</title>
+<style>
+  :root {
+    --bg: #0C2A65;
+    --fg: #FFFFFF;
+    --accent: #7FB3FF;
+    --line: rgba(255,255,255,.25);
+  }
+  * { box-sizing: border-box; }
+  html, body {
+    margin: 0; padding: 0;
+    background: var(--bg); color: var(--fg);
+    font-family: -apple-system, "Segoe UI", "Helvetica Neue", Arial, "PingFang TC", "Noto Sans TC", sans-serif;
+    font-size: 20pt;
+    line-height: 1.6;
+  }
+  .wrap { max-width: 900px; margin: 0 auto; padding: 24px 18px 60px; }
+  header { margin-bottom: 18px; }
+  header .kicker {
+    color: var(--accent); font-size: 14pt; letter-spacing: .08em;
+    text-transform: uppercase; margin-bottom: 6px;
+  }
+  h1 {
+    font-size: 26pt; line-height: 1.3; margin: 0 0 10px;
+  }
+  header .meta { font-size: 14pt; opacity: .75; }
+  h2 {
+    font-size: 19pt; margin: 34px 0 14px; padding-left: 14px;
+    border-left: 6px solid var(--accent);
+    display: flex; flex-wrap: wrap; gap: 8px 14px; align-items: baseline;
+  }
+  h2 .time {
+    font-size: 12.5pt; color: var(--accent); font-weight: 700;
+    border: 1px solid var(--accent); border-radius: 999px; padding: 2px 12px;
+  }
+  .block {
+    border: 1px solid var(--line); border-radius: 10px;
+    padding: 18px 20px; margin-bottom: 14px;
+  }
+  .plan {
+    border: 1px solid var(--line); border-radius: 10px;
+    padding: 16px 20px; margin: 18px 0 26px;
+    background: rgba(127,179,255,.06);
+  }
+  .plan h3 {
+    margin: 0 0 10px; font-size: 14pt; color: var(--accent);
+    letter-spacing: .04em; text-transform: uppercase;
+  }
+  .plan ol { margin: 0; padding-left: 22px; font-size: 14.5pt; }
+  .plan li { margin: 4px 0; }
+  .plan .m { color: var(--accent); font-weight: 700; }
+  p.en { margin: 0 0 4px; }
+  p.zh { margin: 0 0 20px; font-size: 15.5pt; opacity: .72; }
+  .qa { margin: 0 0 22px; }
+  .qa .num {
+    color: var(--accent); font-weight: 700; margin-right: 8px;
+  }
+  table {
+    width: 100%; border-collapse: collapse; margin: 6px 0 8px;
+    font-size: 15pt;
+  }
+  th, td {
+    border-bottom: 1px solid var(--line);
+    padding: 10px 8px; text-align: left; vertical-align: top;
+  }
+  th {
+    color: var(--bg); background: var(--accent);
+    font-size: 13pt; letter-spacing: .03em;
+  }
+  td.ipa { color: var(--accent); white-space: nowrap; }
+  code {
+    background: rgba(255,255,255,.1); padding: 2px 6px; border-radius: 4px;
+    font-size: .85em;
+  }
+  .expr {
+    border: 1px solid var(--line); border-radius: 8px;
+    padding: 12px 16px; margin: 0 0 14px;
+  }
+  .expr .pat { font-size: 16.5pt; font-weight: 700; }
+  .expr .zh { font-size: 14.5pt; opacity: .75; margin-top: 4px; }
+  .expr .ex { font-size: 14.5pt; margin-top: 8px; opacity: .9; font-style: italic; }
+  a { color: var(--accent); }
+  footer {
+    margin-top: 40px; padding-top: 16px; border-top: 1px solid var(--line);
+    font-size: 12.5pt; opacity: .6;
+  }
+  .sourcepath { font-size: 13.5pt; opacity: .8; margin-bottom: 10px; }
+
+  /* ---- Text-to-speech controls ---- */
+  #ttsbar {
+    position:sticky; top:0; z-index:50;
+    background:rgba(12,42,101,.96); backdrop-filter:blur(6px);
+    border:1px solid var(--line); border-radius:10px;
+    padding:14px 18px; margin:0 0 8px;
+    display:flex; flex-wrap:wrap; gap:10px 14px; align-items:center;
+    font-size:14pt;
+  }
+  #ttsbar label { opacity:.75; letter-spacing:.04em; }
+  #ttsbar button {
+    font:inherit; font-size:14pt; font-weight:700;
+    color:var(--bg); background:var(--accent);
+    border:none; border-radius:6px; padding:8px 16px; cursor:pointer;
+  }
+  #ttsbar button.ghost { background:transparent; color:var(--accent); border:1px solid var(--accent); }
+  #ttsbar button:hover { opacity:.85; }
+  #ttsbar select {
+    font:inherit; font-size:14pt;
+    color:var(--fg); background:#123573;
+    border:1px solid var(--line); border-radius:6px; padding:7px 10px; max-width:260px;
+  }
+  #ttshint { flex-basis:100%; font-size:12.5pt; opacity:.6; line-height:1.5; }
+  .playbtn {
+    font:inherit; font-size:13pt; line-height:1;
+    color:var(--accent); background:transparent;
+    border:1px solid rgba(127,179,255,.5); border-radius:5px;
+    padding:4px 9px; margin-right:10px; cursor:pointer; vertical-align:middle;
+  }
+  .playbtn:hover { background:rgba(127,179,255,.16); }
+  .speaking {
+    background:rgba(127,179,255,.17);
+    box-shadow:0 0 0 8px rgba(127,179,255,.17);
+    border-radius:3px;
+  }
+
+  @media (max-width: 640px) {
+    body { font-size: 16pt; }
+    h1 { font-size: 21pt; }
+    h2 { font-size: 16pt; }
+    table { font-size: 12.5pt; }
+    .plan ol { font-size: 12.5pt; }
+    #ttsbar, #ttsbar button, #ttsbar select { font-size: 12pt; }
+    .wrap { padding: 16px 12px 40px; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <div class="kicker">EV Speaking Practice · 25 min</div>
+  <h1>Cheap Cars, Tough Targets: Is Price Enough?</h1>
+  <div class="meta">平價電動車與嚴格目標：歐洲買氣大增，英國仍追不上法規 · 2026-10-07</div>
+</header>
+
+<div class="plan">
+  <h3>Session Plan 課程規劃</h3>
+  <ol>
+    <li><span class="m">3 min</span> — Warm-Up 暖身</li>
+    <li><span class="m">6 min</span> — Read Aloud 朗讀短文</li>
+    <li><span class="m">4 min</span> — Key Vocabulary 關鍵單字</li>
+    <li><span class="m">2 min</span> — Saying the Numbers 數字唸法</li>
+    <li><span class="m">3 min</span> — Useful Expressions 實用句型</li>
+    <li><span class="m">5 min</span> — Discussion 討論題</li>
+    <li><span class="m">2 min</span> — Wrap-Up 總結</li>
+  </ol>
+</div>
+
+<div id="ttsbar">
+  <button id="tts-play">▶ Read the article 朗讀全文</button>
+  <button id="tts-stop" class="ghost">■ Stop 停止</button>
+  <label for="tts-voice">Voice</label>
+  <select id="tts-voice"></select>
+  <label for="tts-rate">Speed</label>
+  <select id="tts-rate">
+    <option value="0.75">0.75× 慢</option>
+    <option value="0.9" selected>0.9× 稍慢</option>
+    <option value="1">1.0× 正常</option>
+    <option value="1.15">1.15× 快</option>
+  </select>
+  <div id="ttshint">每個英文段落左邊都有 ▶ 可單獨播放；正在唸的句子會反白。想要更自然的聲音：macOS「系統設定 → 輔助使用 → 朗讀內容 → 系統聲音」下載 Enhanced／Premium 或 Siri 語音，再回來從上面的 Voice 選單選取。</div>
+</div>
+
+<h2>1. Warm-Up 暖身 <span class="time">3 min</span></h2>
+<div class="block">
+  <div class="qa"><p class="en"><span class="num">1.</span>What is the most you would pay for a small electric car? What features would you refuse to give up?</p><p class="zh">你願意為一輛小型電動車付多少錢？有哪些配備你不願放棄？</p></div>
+  <div class="qa"><p class="en"><span class="num">2.</span>Do you think price or fuel costs matter more when people decide to go electric?</p><p class="zh">你覺得人們決定改開電動車時，車價還是油價更重要？</p></div>
+  <div class="qa"><p class="en"><span class="num">3.</span>Should governments set sales targets for electric cars, or should the market decide the pace?</p><p class="zh">政府應該為電動車設定銷售目標，還是讓市場決定速度？</p></div>
+</div>
+
+<h2>2. Read Aloud 朗讀短文 <span class="time">6 min</span></h2>
+<div class="block" id="article">
+  <p class="en">Europe's electric car market is booming, and cheaper models are a big reason why. According to a new report from the advocacy group Transport & Environment, electric car sales in the European Union reached 1.64 million units between January and August, up 45 percent from a year earlier.</p>
+  <p class="zh">歐洲電動車市場正在暴衝，而平價車款是一大原因。倡議組織運輸與環境（T&E）的新報告指出，歐盟1月到8月的電動車銷量達164萬輛，比去年同期成長45%。</p>
+  <p class="en">Electric cars now make up roughly 22 percent of new car sales, and the number of models on offer has grown by 50 percent. Five of the top twenty best-selling electric models start below 30,000 euros, based on German prices before incentives. The group expects sales of cars priced under 25,000 euros to be seven times higher than in 2024.</p>
+  <p class="zh">電動車目前約占新車銷量的22%，可選車款數量增加了50%。銷量前二十名的電動車中，有五款以德國未計補助的價格計算，起價低於30,000歐元。該組織預期，售價低於25,000歐元的車款今年銷量將是2024年的七倍。</p>
+  <p class="en">Renault is a good example. After the success of the 5 E-Tech, it launched the even cheaper Twingo, and its electric sales rose 63.2 percent in the first half of 2026. In August alone, the Kia EV2 recorded 4,429 registrations, the Cupra Raval 3,608, and the new Volkswagen ID. Polo 1,876 in its first month.</p>
+  <p class="zh">雷諾就是好例子。5 E-Tech成功之後，雷諾又推出更便宜的Twingo，2026年上半年電動車銷量成長63.2%。光是8月，Kia EV2就登記了4,429輛，Cupra Raval為3,608輛，全新的Volkswagen ID. Polo在上市首月也有1,876輛。</p>
+  <p class="en">But price is not the whole story. Higher fuel prices are giving drivers an economic reason to switch, and expensive models still sell well. The Tesla Model Y, Skoda Elroq, BMW iX1, BMW iX3 and Volkswagen ID.4 each passed 6,000 registrations in August. European brands supply nearly 60 percent of the electric models on sale, while Chinese automakers hold 21 percent.</p>
+  <p class="zh">但價格並不是全部。油價上漲讓駕駛人有了轉換的經濟理由，而高價車款依然賣得很好。8月，Tesla Model Y、Skoda Elroq、BMW iX1、BMW iX3和Volkswagen ID.4的登記量都超過6,000輛。歐洲品牌提供了近60%的在售電動車款，中國車廠則占21%。</p>
+  <p class="en">Across the Channel, the UK just had its strongest month ever for battery-electric cars. In September, registrations rose 36.3 percent to 99,199, and the market share reached 28.3 percent. Over the first nine months, registrations hit 454,945, with a year-to-date share of 26.2 percent, compared with 20.2 percent a year ago.</p>
+  <p class="zh">在英吉利海峽另一邊，英國剛創下純電車史上最強的單月成績。9月登記量成長36.3%、達99,199輛，市占率達28.3%。前九個月累計登記454,945輛，年度累計市占率為26.2%，去年同期為20.2%。</p>
+  <p class="en">Yet the industry says it is still not enough. The UK's zero-emission vehicle mandate requires a 33 percent electric share of new car sales in 2026. With the market expected to reach 2.183 million units, that would need another 265,000 electric registrations in the final quarter alone. The industry body SMMT warns that targets continue to outpace demand.</p>
+  <p class="zh">然而業界認為仍然不夠。英國的零排放車輛法規要求2026年純電車占新車銷量33%。以預期2,183,000輛的市場規模計算，光是第四季就還需要再增加265,000輛純電車登記。業界組織SMMT警告，目標持續跑在需求前面。</p>
+  <p class="en">Supporters of the mandate say it pushes carmakers to launch affordable models, which is exactly what is happening in Europe. Critics say the UK has the toughest targets and the highest energy costs in the world, and that forcing the pace risks heavy discounting. Both sides agree on one thing: more choice at lower prices is bringing buyers in.</p>
+  <p class="zh">支持法規的人認為，它促使車廠推出平價車款，這正是歐洲正在發生的事。批評者則說，英國擁有全球最嚴格的目標與最高的能源成本，強推速度恐導致大幅折價促銷。雙方都同意一件事：更多選擇與更低價格，正在把買家吸引進來。</p>
+</div>
+
+<h2>3. Key Vocabulary 關鍵單字 <span class="time">4 min</span></h2>
+<div class="block">
+  <table>
+    <tr><th>Word 單字</th><th>IPA 音標</th><th>中文</th><th>Example 例句</th></tr>
+    <tr><td><strong>affordable</strong></td><td class="ipa">/əˈfɔːrdəbl/</td><td>負擔得起的</td><td>More affordable models are bringing new buyers into the market.</td></tr>
+    <tr><td><strong>registration</strong></td><td class="ipa">/ˌredʒɪˈstreɪʃn/</td><td>(車輛)登記、掛牌</td><td>The Kia EV2 recorded 4,429 registrations in August.</td></tr>
+    <tr><td><strong>mandate</strong></td><td class="ipa">/ˈmændeɪt/</td><td>(強制性)法規、授權</td><td>The UK mandate requires a 33 percent electric share this year.</td></tr>
+    <tr><td><strong>incentive</strong></td><td class="ipa">/ɪnˈsentɪv/</td><td>誘因、補助</td><td>Prices are shown before incentives, so the real cost may be lower.</td></tr>
+    <tr><td><strong>subcompact</strong></td><td class="ipa">/ˌsʌbˈkɑːmpækt/</td><td>小型車</td><td>The 5 E-Tech is the best-selling electric subcompact in the EU.</td></tr>
+    <tr><td><strong>year-on-year</strong></td><td class="ipa">/ˌjɪr ɑːn ˈjɪr/</td><td>與去年同期相比</td><td>Registrations rose 36.3 percent year-on-year in September.</td></tr>
+    <tr><td><strong>outpace</strong></td><td class="ipa">/ˌaʊtˈpeɪs/</td><td>跑得比…快、超前</td><td>The industry says targets continue to outpace demand.</td></tr>
+    <tr><td><strong>flexibility</strong></td><td class="ipa">/ˌfleksəˈbɪləti/</td><td>彈性(法規上的寬限)</td><td>Regulatory flexibilities help, but they do not close the gap.</td></tr>
+    <tr><td><strong>advocacy group</strong></td><td class="ipa">/ˈædvəkəsi ɡruːp/</td><td>倡議團體</td><td>The report comes from an advocacy group, so consider its viewpoint.</td></tr>
+    <tr><td><strong>plug-in hybrid</strong></td><td class="ipa">/ˌplʌɡ ɪn ˈhaɪbrɪd/</td><td>插電式油電混合車</td><td>Plug-in hybrids also had their best month ever in the UK.</td></tr>
+    <tr><td><strong>incentivize</strong></td><td class="ipa">/ɪnˈsentɪvaɪz/</td><td>以誘因鼓勵</td><td>Rules like this incentivize carmakers to launch cheaper models.</td></tr>
+    <tr><td><strong>discounting</strong></td><td class="ipa">/ˈdɪskaʊntɪŋ/</td><td>折價促銷</td><td>Critics warn that forcing the pace could lead to heavy discounting.</td></tr>
+  </table>
+</div>
+
+<h2>4. Saying the Numbers 數字唸法 <span class="time">2 min</span></h2>
+<div class="block">
+  <table>
+    <tr><th>Number 數字</th><th>Meaning 意義</th><th>Say it 唸法</th></tr>
+    <tr><td>1.64 million</td><td>歐盟1–8月電動車銷量</td><td>one point six four million units</td></tr>
+    <tr><td>+45%</td><td>銷量年增率</td><td>up forty-five percent year-on-year</td></tr>
+    <tr><td>22%</td><td>占歐盟新車銷量比例</td><td>roughly twenty-two percent of new cars</td></tr>
+    <tr><td>€30,000</td><td>五款熱銷車的起價門檻</td><td>thirty thousand euros</td></tr>
+    <tr><td>€25,000</td><td>T&E預期銷量成長七倍的價格帶</td><td>twenty-five thousand euros</td></tr>
+    <tr><td>+63.2%</td><td>雷諾2026上半年電動車銷量成長</td><td>up sixty-three point two percent</td></tr>
+    <tr><td>4,429</td><td>Kia EV2 8月登記量</td><td>four thousand, four hundred twenty-nine</td></tr>
+    <tr><td>21%</td><td>中國車廠占歐洲在售電動車款比例</td><td>twenty-one percent</td></tr>
+    <tr><td>99,199</td><td>英國9月純電車登記量</td><td>ninety-nine thousand, one hundred ninety-nine</td></tr>
+    <tr><td>28.3%</td><td>英國9月純電車市占率</td><td>twenty-eight point three percent</td></tr>
+    <tr><td>26.2% vs 20.2%</td><td>英國今年累計市占率與去年同期</td><td>twenty-six point two percent versus twenty point two percent</td></tr>
+    <tr><td>2.183 million</td><td>英國預期全年新車市場規模</td><td>two point one eight three million units</td></tr>
+    <tr><td>265,000</td><td>第四季還需增加的純電車登記量</td><td>two hundred sixty-five thousand additional registrations</td></tr>
+  </table>
+</div>
+
+<h2>5. Useful Expressions 實用句型 <span class="time">3 min</span></h2>
+<div class="block">
+  <div class="expr"><div class="pat">"___ is up ___ percent compared with the same period last year."</div><div class="zh">描述與去年同期相比的成長。</div><div class="ex en">Electric car sales are up forty-five percent compared with the same period last year.</div></div>
+  <div class="expr"><div class="pat">"Price isn't the only factor; ___ also plays a role."</div><div class="zh">指出除了價格之外還有其他原因。</div><div class="ex en">Price isn't the only factor; high fuel prices also play a role.</div></div>
+  <div class="expr"><div class="pat">"The target is ___, but the market is only at ___."</div><div class="zh">比較目標與現況的落差。</div><div class="ex en">The target is thirty-three percent, but the market is only at twenty-six percent.</div></div>
+  <div class="expr"><div class="pat">"Supporters argue that ___, whereas critics say ___."</div><div class="zh">並陳支持與反對的論點。</div><div class="ex en">Supporters argue that mandates drive innovation, whereas critics say they distort the market.</div></div>
+  <div class="expr"><div class="pat">"That would require an additional ___ just to ___."</div><div class="zh">說明要達成目標所需的額外努力。</div><div class="ex en">That would require an additional 265,000 registrations just to hit the target.</div></div>
+</div>
+
+<h2>6. Discussion 討論題 <span class="time">5 min</span></h2>
+<div class="block">
+  <div class="qa"><p class="en"><span class="num">1.</span>Five of Europe's top twenty electric cars start below 30,000 euros. Is affordability the main reason EV sales are growing, or are fuel prices just as important?</p><p class="zh">歐洲前二十名電動車中，有五款起價低於30,000歐元。平價是電動車銷量成長的主因，還是油價同樣重要？</p></div>
+  <div class="qa"><p class="en"><span class="num">2.</span>The UK mandate requires a 33 percent electric share, but the market is at about 26 percent. Should the government keep the target, relax it, or add more subsidies? Defend one option.</p><p class="zh">英國法規要求33%的純電占比，市場卻只有約26%。政府應該維持目標、放寬，還是增加補助？請為其中一個選項辯護。</p></div>
+  <div class="qa"><p class="en"><span class="num">3.</span>Argue that strict targets force carmakers to build cheaper EVs. Then argue that they simply lead to heavy discounting and hurt profits.</p><p class="zh">請先主張嚴格目標迫使車廠生產更便宜的電動車，再主張它們只會導致大幅折扣、傷害獲利。</p></div>
+  <div class="qa"><p class="en"><span class="num">4.</span>The report comes from an advocacy group, while the UK warning comes from the industry body. How should we read statistics from groups that have their own interests?</p><p class="zh">這份報告來自倡議團體，而英國的警告來自業界組織。面對各有立場的團體所發布的數據，我們該如何解讀？</p></div>
+  <div class="qa"><p class="en"><span class="num">5.</span>European brands supply nearly 60 percent of the electric models on sale, and Chinese brands 21 percent. What does that tell us about competition in the affordable segment?</p><p class="zh">歐洲品牌提供近60%的在售電動車款，中國品牌占21%。這對平價車市場的競爭說明了什麼？</p></div>
+  <div class="qa"><p class="en"><span class="num">6.</span>Would a cheap, small electric car be enough for you, or would you still want a bigger, more expensive one? Explain your reasoning.</p><p class="zh">一輛便宜的小型電動車對你來說夠用嗎，還是你仍想要更大、更貴的車？請說明理由。</p></div>
+</div>
+
+<h2>7. Wrap-Up 總結 <span class="time">2 min</span></h2>
+<div class="block">
+  <p class="en"><strong>60-second summary:</strong> In short, cheaper models are fueling Europe's electric boom. EU sales reached 1.64 million through August, up 45 percent, and the number of cars below 25,000 euros is rising fast. The UK set a monthly record in September with 99,199 registrations, yet its share of 26.2 percent is still below the 33 percent mandate. Supporters say the rules drive affordable choices, while critics say targets are running ahead of demand.</p>
+  <p class="zh">60秒摘要：簡而言之，平價車款正在推動歐洲的電動車熱潮。歐盟到8月銷量達164萬輛、成長45%，25,000歐元以下的車款數量快速增加。英國9月以99,199輛創下單月紀錄，但累計市占率26.2%仍低於33%的法規要求。支持者認為規定促成平價選擇，批評者則認為目標跑得比需求還快。</p>
+  <p class="en" style="margin-top:16px;"><strong>Stance sentence pattern:</strong> "If I had to take a side, I'd say ___, because ___."</p>
+  <p class="zh">表達個人立場句型：「如果一定要選邊站，我會說＿＿＿，因為＿＿＿。」</p>
+</div>
+
+<h2>Source Notes 取材筆記</h2>
+<div class="block">
+  <p class="sourcepath">Note vault path: <code>Claude code AI筆記 / raw / assets</code><br>筆記庫路徑：<code>Claude code AI筆記 / raw / assets</code></p>
+  <table>
+    <tr><th>Note file 筆記檔名</th><th>Original 原始出處</th><th>Used for 用於</th></tr>
+    <tr>
+      <td><code>2026-10-06-Cheaper EVs Are Helping Fuel Europe's Electric Car Boom.md</code></td>
+      <td>InsideEVs（Andrei Nedelea）· 2026-10-05<br><a href="https://insideevs.com/news/810822/europe-ev-sales-january-august/" target="_blank" rel="noopener">InsideEVs original</a></td>
+      <td>Provided the EU sales figures (1.64 million, up 45 percent, 22 percent share), the sub-30,000 and sub-25,000 euro models, Renault's growth, August registrations, fuel prices, and the European and Chinese model shares.<br>提供歐盟銷量數據（164萬輛、成長45%、占比22%）、30,000與25,000歐元以下車款、雷諾成長、8月登記量、油價因素，以及歐洲與中國品牌的車款占比。</td>
+    </tr>
+    <tr>
+      <td><code>2026-10-05-UK posts strongest-ever month for BEV registrations in September.md</code></td>
+      <td>electrive（Ciaran Daly）· 2026-10-02<br><a href="https://www.electrive.com/2026/10/02/uk-posts-strongest-ever-month-for-bev-registrations-in-september/" target="_blank" rel="noopener">electrive original</a></td>
+      <td>Provided the UK September record (99,199 units, 28.3 percent share), year-to-date figures, the 33 percent ZEV mandate gap of 265,000 vehicles, and the SMMT's comments.<br>提供英國9月紀錄（99,199輛、市占率28.3%）、年度累計數據、33%零排放法規的265,000輛缺口，以及SMMT的評論。</td>
+    </tr>
+  </table>
+</div>
+
+<footer>
+  Generated for Claude Yeh's daily EV speaking practice · Content researched from the user's Obsidian news-clipper vault (or general EV topics when unavailable) · 25-minute session for online speaking lessons.
+</footer>
+
+</div>
+
+<script>
+(function () {
+  var synth = window.speechSynthesis;
+  var bar = document.getElementById('ttsbar');
+  if (!synth) {
+    bar.innerHTML = '<div id="ttshint">此瀏覽器不支援語音朗讀，請改用 Chrome、Edge 或 Safari 開啟本檔案。</div>';
+    return;
+  }
+
+  var voiceSel = document.getElementById('tts-voice');
+  var rateSel  = document.getElementById('tts-rate');
+  var voices   = [];
+  var queue    = [];
+  var qi       = 0;
+  var playing  = false;
+
+  function score(v) {
+    var n = (v.name + ' ' + (v.voiceURI || '')).toLowerCase();
+    var s = 0;
+    if (/premium|enhanced|neural|natural/.test(n)) s += 40;
+    if (/siri/.test(n)) s += 30;
+    if (/google/.test(n)) s += 25;
+    if (/samantha|ava|allison|serena|daniel|kate|arthur|evan|nathan|zoe/.test(n)) s += 12;
+    if (/compact|novelty|whisper|bells|bubbles|jester|organ|trinoids|zarvox|albert|bad news|good news/.test(n)) s -= 60;
+    if (v.lang === 'en-US') s += 6;
+    if (v.lang === 'en-GB') s += 5;
+    if (v.localService) s += 2;
+    return s;
+  }
+
+  function loadVoices() {
+    var all = synth.getVoices().filter(function (v) { return /^en[-_]/i.test(v.lang); });
+    if (!all.length) return;
+    all.sort(function (a, b) { return score(b) - score(a); });
+    voices = all;
+    voiceSel.innerHTML = '';
+    voices.forEach(function (v, i) {
+      var o = document.createElement('option');
+      o.value = i;
+      o.textContent = v.name + ' (' + v.lang + ')';
+      voiceSel.appendChild(o);
+    });
+    var saved = null;
+    try { saved = localStorage.getItem('evPracticeVoice'); } catch (e) {}
+    if (saved !== null) {
+      var idx = voices.findIndex(function (v) { return v.name === saved; });
+      if (idx > -1) voiceSel.value = idx;
+    }
+  }
+  loadVoices();
+  synth.onvoiceschanged = loadVoices;
+
+  voiceSel.addEventListener('change', function () {
+    var v = voices[voiceSel.value];
+    try { if (v) localStorage.setItem('evPracticeVoice', v.name); } catch (e) {}
+  });
+
+  function clearHighlight() {
+    var h = document.querySelector('.speaking');
+    if (h) h.classList.remove('speaking');
+  }
+
+  function stop() {
+    playing = false;
+    queue = [];
+    qi = 0;
+    synth.cancel();
+    clearHighlight();
+  }
+
+  // Chrome silently truncates any utterance longer than ~15s, so queue
+  // sentence-sized chunks instead of whole paragraphs.
+  function sentences(text) {
+    var SEP = String.fromCharCode(1);
+    var t = text.replace(/\s+/g, ' ').trim();
+    // Shield decimals/abbreviations so "86.5 percent" isn't split in two.
+    t = t.replace(/(\d)\.(\d)/g, '$1' + SEP + '$2')
+         .replace(/\b(Mr|Mrs|Ms|Dr|St|vs|etc|Inc|Ltd|Co|approx)\./gi,
+                  function (m) { return m.slice(0, -1) + SEP; })
+         .replace(/\bU\.S\./g, 'U' + SEP + 'S' + SEP);
+    var parts = t.match(/[^.!?]+[.!?]+["')\]]?|[^.!?]+$/g) || [t];
+    return parts
+      .map(function (s) { return s.split(SEP).join('.').trim(); })
+      .filter(function (s) { return /[a-zA-Z0-9]/.test(s); });
+  }
+
+  function speakNext() {
+    if (!playing || qi >= queue.length) { stop(); return; }
+    var item = queue[qi++];
+    clearHighlight();
+    if (item.el) {
+      item.el.classList.add('speaking');
+      var r = item.el.getBoundingClientRect();
+      if (r.top < 120 || r.bottom > window.innerHeight - 40) {
+        item.el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      }
+    }
+    var u = new SpeechSynthesisUtterance(item.text);
+    var v = voices[voiceSel.value];
+    if (v) { u.voice = v; u.lang = v.lang; } else { u.lang = 'en-US'; }
+    u.rate = parseFloat(rateSel.value);
+    u.pitch = 1;
+    u.onend = speakNext;
+    u.onerror = speakNext;
+    synth.speak(u);
+  }
+
+  function textOf(el) {
+    // Snapshot taken before the play glyph was injected, so it is never spoken.
+    return el.getAttribute('data-tts') || el.textContent;
+  }
+
+  function play(elements) {
+    stop();
+    queue = [];
+    elements.forEach(function (el) {
+      sentences(textOf(el)).forEach(function (s) {
+        if (s.trim()) queue.push({ el: el, text: s });
+      });
+    });
+    if (!queue.length) return;
+    playing = true;
+    qi = 0;
+    speakNext();
+  }
+
+  document.getElementById('tts-stop').addEventListener('click', stop);
+
+  document.getElementById('tts-play').addEventListener('click', function () {
+    var paras = [].slice.call(document.querySelectorAll('#article .en'));
+    play(paras);
+  });
+
+  rateSel.addEventListener('change', function () { if (playing) stop(); });
+
+  var targets = [].slice.call(document.querySelectorAll('.en'));
+  targets.forEach(function (el) {
+    el.setAttribute('data-tts', el.textContent);
+    var b = document.createElement('button');
+    b.className = 'playbtn';
+    b.type = 'button';
+    b.textContent = '▶';
+    b.setAttribute('aria-label', 'Play this sentence');
+    b.addEventListener('click', function (e) {
+      e.stopPropagation();
+      play([el]);
+    });
+    el.insertBefore(b, el.firstChild);
+  });
+
+  [].slice.call(document.querySelectorAll('table tr')).forEach(function (tr) {
+    var cells = tr.querySelectorAll('td');
+    if (cells.length < 2) return;
+    var last = cells[cells.length - 1];
+    if (!/[a-zA-Z]/.test(last.textContent)) return;
+    last.style.cursor = 'pointer';
+    last.title = 'Click to hear it 點一下聽發音';
+    last.addEventListener('click', function () { play([last]); });
+  });
+
+  window.addEventListener('beforeunload', function () { synth.cancel(); });
+})();
+</script>
+</body>
+</html>

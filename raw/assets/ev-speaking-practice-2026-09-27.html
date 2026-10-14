@@ -1,0 +1,509 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>EV Speaking Practice — Tariffs, Trucks, and a Tipping Point (2026-09-27)</title>
+<style>
+  :root {
+    --bg: #0C2A65;
+    --fg: #FFFFFF;
+    --accent: #7FB3FF;
+    --line: rgba(255,255,255,.25);
+  }
+  * { box-sizing: border-box; }
+  html, body {
+    margin: 0; padding: 0;
+    background: var(--bg); color: var(--fg);
+    font-family: -apple-system, "Segoe UI", "Helvetica Neue", Arial, "PingFang TC", "Noto Sans TC", sans-serif;
+    font-size: 20pt;
+    line-height: 1.6;
+  }
+  .wrap { max-width: 900px; margin: 0 auto; padding: 24px 18px 60px; }
+  header { margin-bottom: 18px; }
+  header .kicker {
+    color: var(--accent); font-size: 14pt; letter-spacing: .08em;
+    text-transform: uppercase; margin-bottom: 6px;
+  }
+  h1 {
+    font-size: 26pt; line-height: 1.3; margin: 0 0 10px;
+  }
+  header .meta { font-size: 14pt; opacity: .75; }
+  h2 {
+    font-size: 19pt; margin: 34px 0 14px; padding-left: 14px;
+    border-left: 6px solid var(--accent);
+    display: flex; flex-wrap: wrap; gap: 8px 14px; align-items: baseline;
+  }
+  h2 .time {
+    font-size: 12.5pt; color: var(--accent); font-weight: 700;
+    border: 1px solid var(--accent); border-radius: 999px; padding: 2px 12px;
+  }
+  .block {
+    border: 1px solid var(--line); border-radius: 10px;
+    padding: 18px 20px; margin-bottom: 14px;
+  }
+  .plan {
+    border: 1px solid var(--line); border-radius: 10px;
+    padding: 16px 20px; margin: 18px 0 26px;
+    background: rgba(127,179,255,.06);
+  }
+  .plan h3 {
+    margin: 0 0 10px; font-size: 14pt; color: var(--accent);
+    letter-spacing: .04em; text-transform: uppercase;
+  }
+  .plan ol { margin: 0; padding-left: 22px; font-size: 14.5pt; }
+  .plan li { margin: 4px 0; }
+  .plan .m { color: var(--accent); font-weight: 700; }
+  p.en { margin: 0 0 4px; }
+  p.zh { margin: 0 0 20px; font-size: 15.5pt; opacity: .72; }
+  .qa { margin: 0 0 22px; }
+  .qa .num {
+    color: var(--accent); font-weight: 700; margin-right: 8px;
+  }
+  table {
+    width: 100%; border-collapse: collapse; margin: 6px 0 8px;
+    font-size: 15pt;
+  }
+  th, td {
+    border-bottom: 1px solid var(--line);
+    padding: 10px 8px; text-align: left; vertical-align: top;
+  }
+  th {
+    color: var(--bg); background: var(--accent);
+    font-size: 13pt; letter-spacing: .03em;
+  }
+  td.ipa { color: var(--accent); white-space: nowrap; }
+  code {
+    background: rgba(255,255,255,.1); padding: 2px 6px; border-radius: 4px;
+    font-size: .85em;
+  }
+  .expr {
+    border: 1px solid var(--line); border-radius: 8px;
+    padding: 12px 16px; margin: 0 0 14px;
+  }
+  .expr .pat { font-size: 16.5pt; font-weight: 700; }
+  .expr .zh { font-size: 14.5pt; opacity: .75; margin-top: 4px; }
+  .expr .ex { font-size: 14.5pt; margin-top: 8px; opacity: .9; font-style: italic; }
+  a { color: var(--accent); }
+  footer {
+    margin-top: 40px; padding-top: 16px; border-top: 1px solid var(--line);
+    font-size: 12.5pt; opacity: .6;
+  }
+  .sourcepath { font-size: 13.5pt; opacity: .8; margin-bottom: 10px; }
+
+  /* ---- Text-to-speech controls ---- */
+  #ttsbar {
+    position:sticky; top:0; z-index:50;
+    background:rgba(12,42,101,.96); backdrop-filter:blur(6px);
+    border:1px solid var(--line); border-radius:10px;
+    padding:14px 18px; margin:0 0 8px;
+    display:flex; flex-wrap:wrap; gap:10px 14px; align-items:center;
+    font-size:14pt;
+  }
+  #ttsbar label { opacity:.75; letter-spacing:.04em; }
+  #ttsbar button {
+    font:inherit; font-size:14pt; font-weight:700;
+    color:var(--bg); background:var(--accent);
+    border:none; border-radius:6px; padding:8px 16px; cursor:pointer;
+  }
+  #ttsbar button.ghost { background:transparent; color:var(--accent); border:1px solid var(--accent); }
+  #ttsbar button:hover { opacity:.85; }
+  #ttsbar select {
+    font:inherit; font-size:14pt;
+    color:var(--fg); background:#123573;
+    border:1px solid var(--line); border-radius:6px; padding:7px 10px; max-width:260px;
+  }
+  #ttshint { flex-basis:100%; font-size:12.5pt; opacity:.6; line-height:1.5; }
+  .playbtn {
+    font:inherit; font-size:13pt; line-height:1;
+    color:var(--accent); background:transparent;
+    border:1px solid rgba(127,179,255,.5); border-radius:5px;
+    padding:4px 9px; margin-right:10px; cursor:pointer; vertical-align:middle;
+  }
+  .playbtn:hover { background:rgba(127,179,255,.16); }
+  .speaking {
+    background:rgba(127,179,255,.17);
+    box-shadow:0 0 0 8px rgba(127,179,255,.17);
+    border-radius:3px;
+  }
+
+  @media (max-width: 640px) {
+    body { font-size: 16pt; }
+    h1 { font-size: 21pt; }
+    h2 { font-size: 16pt; }
+    table { font-size: 12.5pt; }
+    .plan ol { font-size: 12.5pt; }
+    #ttsbar, #ttsbar button, #ttsbar select { font-size: 12pt; }
+    .wrap { padding: 16px 12px 40px; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <div class="kicker">EV Speaking Practice · 25 min</div>
+  <h1>Tariffs, Trucks, and a Tipping Point</h1>
+  <div class="meta">關稅、卡車與轉捩點 · 2026-09-27</div>
+</header>
+
+<div class="plan">
+  <h3>Session Plan 課程規劃</h3>
+  <ol>
+    <li><span class="m">3 min</span> — Warm-Up 暖身</li>
+    <li><span class="m">6 min</span> — Read Aloud 朗讀短文</li>
+    <li><span class="m">4 min</span> — Key Vocabulary 關鍵單字</li>
+    <li><span class="m">2 min</span> — Saying the Numbers 數字唸法</li>
+    <li><span class="m">3 min</span> — Useful Expressions 實用句型</li>
+    <li><span class="m">5 min</span> — Discussion 討論題</li>
+    <li><span class="m">2 min</span> — Wrap-Up 總結</li>
+  </ol>
+</div>
+
+<div id="ttsbar">
+  <button id="tts-play">▶ Read the article 朗讀全文</button>
+  <button id="tts-stop" class="ghost">■ Stop 停止</button>
+  <label for="tts-voice">Voice</label>
+  <select id="tts-voice"></select>
+  <label for="tts-rate">Speed</label>
+  <select id="tts-rate">
+    <option value="0.75">0.75× 慢</option>
+    <option value="0.9" selected>0.9× 稍慢</option>
+    <option value="1">1.0× 正常</option>
+    <option value="1.15">1.15× 快</option>
+  </select>
+  <div id="ttshint">每個英文段落左邊都有 ▶ 可單獨播放；正在唸的句子會反白。想要更自然的聲音：macOS「系統設定 → 輔助使用 → 朗讀內容 → 系統聲音」下載 Enhanced／Premium 或 Siri 語音，再回來從上面的 Voice 選單選取。</div>
+</div>
+
+<h2>1. Warm-Up 暖身 <span class="time">3 min</span></h2>
+<div class="block">
+  <div class="qa">
+    <p class="en"><span class="num">1.</span>When you think of "Made in China," does an electric or hybrid car come to mind? Why or why not?</p>
+    <p class="zh">當你想到「中國製造」時，腦中會浮現電動車或油電車嗎？為什麼？</p>
+  </div>
+  <div class="qa">
+    <p class="en"><span class="num">2.</span>Does your own country's car market feel more "European" — protected by tariffs — or more "American," where competition is wide open?</p>
+    <p class="zh">你覺得自己國家的汽車市場，比較像「歐洲模式」（關稅保護）還是「美國模式」（開放競爭）？</p>
+  </div>
+  <div class="qa">
+    <p class="en"><span class="num">3.</span>If you were buying a truck for your own business today, would you seriously consider an all-electric option like the Tesla Semi? Why or why not?</p>
+    <p class="zh">如果你今天要為公司採購貨車，你會認真考慮像特斯拉Semi這樣的純電動車款嗎？為什麼？</p>
+  </div>
+</div>
+
+<h2>2. Read Aloud 朗讀短文 <span class="time">6 min</span></h2>
+<div class="block" id="article">
+  <p class="en">Across Europe, Chinese automakers are expanding at a pace that's rattling Brussels — and it's happening in a way regulators didn't fully expect. When the European Union slapped anti-subsidy tariffs on Chinese-made battery electric vehicles back in 2024, Chinese manufacturers didn't retreat. They pivoted to hybrids instead, and hybrid sales have exploded ever since.</p>
+  <p class="zh">中國車廠正以驚人速度擴張歐洲版圖，讓布魯塞爾備感不安——而且事態發展並非監管機構原先預期的方向。2024年，歐盟對中國製純電動車加徵反補貼關稅，中國車廠並未因此退縮，反而轉攻油電混合車，混合動力車銷量自此一路飆升。</p>
+
+  <p class="en">The numbers tell the story. Back in 2022, the EU imported just 659 Chinese-made hybrid vehicles. In the first seven months of this year alone, that figure jumped to 160,662. Plug-in hybrids followed the same curve, climbing from 56,706 units in 2022 to 217,764 in the January-to-July period this year. Hybrids now make up nearly 37 percent of Europe's entire car market — more than the roughly 21 percent held by fully electric vehicles.</p>
+  <p class="zh">數字說明了一切。2022年，歐盟僅進口659輛中國製混合動力車；光是今年前七個月，這個數字就暴增到160,662輛。插電式混合動力車也呈現相同走勢，從2022年的56,706輛，成長到今年1到7月的217,764輛。混合動力車目前已佔歐洲整體汽車市場近37%，超過純電動車約21%的市佔率。</p>
+
+  <p class="en">Leading the charge are brands like BYD, Chery, and Leapmotor, all posting triple-digit sales growth. Geely — the group behind Volvo and Polestar — sold 205,000 vehicles in the EU over the first eight months of the year, making it the most popular Chinese brand outright. BYD's annual sales grew 163 percent to 177,000 units, and combined, Chinese brands have now outsold Tesla, which moved 142,000 vehicles over the same period.</p>
+  <p class="zh">領軍的是比亞迪、奇瑞、零跑等品牌，銷量都出現三位數的成長。吉利——旗下擁有富豪(Volvo)與極星(Polestar)——今年前八個月在歐盟賣出205,000輛，穩坐最受歡迎中國品牌的寶座。比亞迪年銷量成長163%，達到177,000輛；加總起來，中國品牌的銷量已經超過同期特斯拉的142,000輛。</p>
+
+  <p class="en">European Commission President Ursula von der Leyen says the EU's trade deficit with China — running at 1.18 billion euros a day — has reached what she calls an unsustainable tipping point. Brussels is now asking China to voluntarily cut its hybrid exports, with the threat of import quotas hanging over the negotiation. Germany's own auto industry association, long opposed to tariff walls, says it would now consider supporting tariffs on Chinese hybrids under the right conditions. Trade officials from both sides are set to meet on October 8th and 9th.</p>
+  <p class="zh">歐盟執委會主席馮德萊恩表示，歐盟對中國每天11.8億歐元的貿易逆差，已經到達她所謂「無法持續的轉捩點」。布魯塞爾現在要求中國「自願」減少混合動力車出口，並以配額限制作為談判籌碼。長期反對關稅壁壘的德國汽車工業協會，也表示在特定條件下會考慮支持對中國混合動力車課徵關稅。雙方貿易官員將於10月8日至9日會面。</p>
+
+  <p class="en">Across the Atlantic, the response is even blunter. GM, Ford, Tesla, and other major automakers have jointly written to the Trump administration, urging it to block Chinese carmakers from selling, importing, or manufacturing vehicles in the US altogether. A bipartisan Senate bill — backed by lawmakers from Michigan and Ohio — would ban Chinese vehicles, software, and connected-car technology outright. One of its sponsors described subsidized Chinese EVs as an existential threat to the American auto industry, though President Trump himself has sounded more open to letting Chinese automakers build factories on US soil.</p>
+  <p class="zh">大西洋對岸的反應更加直接。通用、福特、特斯拉等主要車廠已聯名致信川普政府，要求全面阻止中國車廠在美國銷售、進口或製造車輛。一項由密西根州與俄亥俄州議員共同提出的兩黨法案，將全面禁止中國車輛、軟體與連網技術進入美國。其中一位提案者形容受補貼的中國電動車，是美國汽車業的「生存威脅」；不過川普總統本人的立場反而較為開放，甚至歡迎中國車廠在美國設廠。</p>
+
+  <p class="en">While that political fight over passenger cars drags on, a very different kind of EV milestone quietly landed this week — in electric trucking. Tesla began its first customer deliveries of the Semi, the heavy-duty electric truck it first showed off as a concept back in 2017. Nearly a decade, and several delays, later, mass production only started this past April.</p>
+  <p class="zh">就在乘用車的政治角力持續延燒之際，一個截然不同的電動車里程碑，本週悄悄在電動卡車領域出現。特斯拉本週啟動了重型電動卡車Semi的首批客戶交付——這款車最早在2017年以概念車形式亮相，歷經近十年、多次延期後，才在今年4月正式進入量產。</p>
+
+  <p class="en">The specs Tesla revealed beat its own original targets. The dedicated factory in Nevada can build 50,000 trucks a year — that's about 1,000 a week — with a fully loaded range of 500 miles, stretching to 600 miles when lightly loaded, and energy use around 1,700 watt-hours per mile, roughly 15 percent better than planned. Early customers include PepsiCo, DHL, and US Foods, while autonomous-trucking startup Einride has 500 units on order, and logistics firm IMC just placed an order for 50 to handle short-haul drayage at California ports.</p>
+  <p class="zh">特斯拉公布的規格數據超越了原先的目標。內華達州的專屬工廠年產能達5萬輛，等於每週生產約1,000輛；滿載續航里程為500英里，輕載時可達600英里，能耗約每英里1,700瓦時，較原訂目標省電約15%。早期客戶包括百事公司(PepsiCo)、DHL、US Foods，自駕卡車新創Einride已訂購500輛，物流商IMC也剛下單50輛，用於加州港口的短駁接駁運輸。</p>
+</div>
+
+<h2>3. Key Vocabulary 關鍵單字 <span class="time">4 min</span></h2>
+<div class="block">
+  <table>
+    <tr><th>Word 單字</th><th>Phonetic 音標</th><th>中文意思</th><th>Example sentence 例句</th></tr>
+    <tr><td>tariff</td><td class="ipa">/ˈtær.ɪf/</td><td>關稅</td><td>The EU imposed a tariff on Chinese electric vehicles in 2024.</td></tr>
+    <tr><td>subsidy / subsidize</td><td class="ipa">/ˈsʌb.sɪ.di/</td><td>補貼；補助</td><td>Lawmakers say subsidized Chinese EVs threaten local manufacturers.</td></tr>
+    <tr><td>quota</td><td class="ipa">/ˈkwoʊ.tə/</td><td>配額</td><td>Brussels may impose a quota if voluntary cuts don't happen.</td></tr>
+    <tr><td>lobby (v.)</td><td class="ipa">/ˈlɒb.i/</td><td>遊說</td><td>Automakers are lobbying the Trump administration to block Chinese brands.</td></tr>
+    <tr><td>protectionism</td><td class="ipa">/prəˈtek.ʃən.ɪ.zəm/</td><td>保護主義</td><td>Some economists warn that protectionism just delays the inevitable.</td></tr>
+    <tr><td>tipping point</td><td class="ipa">/ˈtɪp.ɪŋ pɔɪnt/</td><td>轉捩點；臨界點</td><td>Von der Leyen called the trade deficit an unsustainable tipping point.</td></tr>
+    <tr><td>triple-digit</td><td class="ipa">/ˈtrɪp.əl ˈdɪdʒ.ɪt/</td><td>三位數的</td><td>BYD and Chery are both posting triple-digit sales growth.</td></tr>
+    <tr><td>payload</td><td class="ipa">/ˈpeɪ.loʊd/</td><td>載重量；有效載荷</td><td>A lighter payload lets the Semi reach 600 miles of range.</td></tr>
+    <tr><td>drayage</td><td class="ipa">/ˈdreɪ.ɪdʒ/</td><td>港口短駁運輸</td><td>IMC ordered 50 trucks for port drayage in California.</td></tr>
+    <tr><td>backlog</td><td class="ipa">/ˈbæk.lɒg/</td><td>積壓訂單；候補清單</td><td>Musk said the Semi's order backlog is substantial.</td></tr>
+    <tr><td>existential threat</td><td class="ipa">/ˌeɡ.zɪˈsten.ʃəl θret/</td><td>生存威脅</td><td>One senator called subsidized Chinese EVs an existential threat.</td></tr>
+    <tr><td>phase out</td><td class="ipa">/feɪz aʊt/</td><td>逐步淘汰</td><td>Ford is phasing out its US-built vehicles for the Chinese market.</td></tr>
+  </table>
+</div>
+
+<h2>4. Saying the Numbers 數字唸法 <span class="time">2 min</span></h2>
+<div class="block">
+  <table>
+    <tr><th>Context 情境</th><th>Number 數字</th><th>Say it like this 這樣唸</th></tr>
+    <tr><td>Chinese hybrid imports, 2022</td><td>659</td><td>six hundred (and) fifty-nine</td></tr>
+    <tr><td>Chinese hybrid imports, first 7 months this year</td><td>160,662</td><td>one hundred sixty thousand, six hundred sixty-two</td></tr>
+    <tr><td>Chinese plug-in hybrid sales, 2022</td><td>56,706</td><td>fifty-six thousand, seven hundred (and) six</td></tr>
+    <tr><td>Chinese plug-in hybrid sales, Jan–Jul this year</td><td>217,764</td><td>two hundred seventeen thousand, seven hundred sixty-four</td></tr>
+    <tr><td>Hybrids' share of EU market</td><td>37%</td><td>thirty-seven percent</td></tr>
+    <tr><td>BEVs' share of EU market</td><td>21%</td><td>twenty-one percent</td></tr>
+    <tr><td>Geely's EU sales, first 8 months</td><td>205,000</td><td>two hundred (and) five thousand</td></tr>
+    <tr><td>BYD's annual sales growth</td><td>163%</td><td>up one hundred sixty-three percent</td></tr>
+    <tr><td>EU–China trade deficit</td><td>€1.18bn / day</td><td>one point one eight billion euros a day</td></tr>
+    <tr><td>EU–China trade talks</td><td>Oct 8–9</td><td>October eighth to ninth</td></tr>
+    <tr><td>Tesla Semi factory capacity</td><td>50,000 / yr</td><td>fifty thousand a year</td></tr>
+    <tr><td>Tesla Semi fully-loaded range</td><td>500 mi</td><td>five hundred miles</td></tr>
+  </table>
+</div>
+
+<h2>5. Useful Expressions 實用句型 <span class="time">3 min</span></h2>
+<div class="block">
+  <div class="expr">
+    <div class="pat">"X surged from A to B in just N months."</div>
+    <div class="zh">用來描述數據在短時間內暴增，強調變化的速度與幅度。</div>
+    <div class="ex">Hybrid imports surged from 659 to over 160,000 in just seven months.</div>
+  </div>
+  <div class="expr">
+    <div class="pat">"Some worry that ___, while others say ___."</div>
+    <div class="zh">用來同時呈現正反兩方意見，適合帶入政策辯論。</div>
+    <div class="ex">Some worry that tariffs invite retaliation, while others say they protect local jobs.</div>
+  </div>
+  <div class="expr">
+    <div class="pat">"Unless X happens, Y might follow."</div>
+    <div class="zh">條件句，用來表達某種後果的警告或威脅。</div>
+    <div class="ex">Unless China voluntarily cuts its exports, the EU might impose formal quotas.</div>
+  </div>
+  <div class="expr">
+    <div class="pat">"It's been almost a decade since ___, and only now has ___."</div>
+    <div class="zh">用來描述延宕已久、終於實現的事件，帶出時間跨度的張力。</div>
+    <div class="ex">It's been almost a decade since the Semi was first unveiled, and only now has mass production begun.</div>
+  </div>
+  <div class="expr">
+    <div class="pat">"While A is making headlines, B is quietly happening elsewhere."</div>
+    <div class="zh">用來連接兩則看似無關的新聞，做出對比或話題轉場。</div>
+    <div class="ex">While the tariff fight is making headlines, electric trucking is quietly hitting real milestones.</div>
+  </div>
+</div>
+
+<h2>6. Discussion 討論題 <span class="time">5 min</span></h2>
+<div class="block">
+  <div class="qa">
+    <p class="en"><span class="num">1.</span>Do you think tariffs are an effective way to protect a domestic auto industry, or do they just delay an inevitable shift?</p>
+    <p class="zh">你認為關稅是保護本國汽車產業的有效手段，還是只是在拖延必然的產業轉變？</p>
+  </div>
+  <div class="qa">
+    <p class="en"><span class="num">2.</span>The EU is asking China to "voluntarily" limit hybrid exports — how realistic do you think a voluntary quota really is?</p>
+    <p class="zh">歐盟要求中國「自願」限制混合動力車出口——你覺得「自願配額」這種做法實際上有多少可行性？</p>
+  </div>
+  <div class="qa">
+    <p class="en"><span class="num">3.</span>American automakers and Chinese automakers are, in a strange way, on the same side here — U.S. brands want China locked out, and Chinese brands want the door open. What does that tell you about how "free market" competition really works?</p>
+    <p class="zh">美國車廠和中國車廠在這件事上其實立場很微妙——美國品牌希望把中國擋在門外，中國品牌則希望大門敞開。這讓你對「自由市場」競爭的實際運作方式有什麼看法？</p>
+  </div>
+  <div class="qa">
+    <p class="en"><span class="num">4.</span>One senator compared subsidized Chinese EVs to "automotive fentanyl." Do you think that kind of language helps or hurts a serious policy debate?</p>
+    <p class="zh">一位參議員把受補貼的中國電動車比喻成「汽車界的芬太尼」。你覺得這種措辭對嚴肅的政策辯論有幫助，還是反而有害？</p>
+  </div>
+  <div class="qa">
+    <p class="en"><span class="num">5.</span>Tesla took almost ten years to actually deliver the Semi. What does that gap between the 2017 concept and the 2026 delivery tell you about the difference between announcing new hardware and actually shipping it?</p>
+    <p class="zh">特斯拉花了將近十年才真正交付Semi。從2017年概念亮相到2026年正式交車，這中間的落差，讓你對「發表新硬體」和「真正量產交付」之間的差異有什麼想法？</p>
+  </div>
+  <div class="qa">
+    <p class="en"><span class="num">6.</span>If you ran a logistics company, what would you weigh more heavily when choosing an electric truck — loaded range, charging infrastructure, or the sticker price? Why?</p>
+    <p class="zh">如果你經營一家物流公司，選擇電動卡車時，你會更看重滿載續航里程、充電基礎設施，還是車輛價格？為什麼？</p>
+  </div>
+</div>
+
+<h2>7. Wrap-Up 總結 <span class="time">2 min</span></h2>
+<div class="block">
+  <p class="en"><strong>60-second summary:</strong> In short — EU tariffs on Chinese EVs backfired into a hybrid import boom, pushing Brussels and Washington toward tougher trade measures, while Chinese brands like Geely and BYD now outsell Tesla in Europe. Meanwhile, in a very different corner of the EV world, Tesla finally started delivering its long-delayed Semi truck, hitting real production numbers nearly a decade after it was first announced.</p>
+  <p class="zh">60秒摘要：簡而言之，歐盟對中國電動車課徵的關稅，意外催生了混合動力車進口熱潮，促使布魯塞爾與華府採取更強硬的貿易措施；同時，吉利、比亞迪等中國品牌在歐洲的銷量已經超越特斯拉。另一方面，在電動車世界截然不同的角落，特斯拉終於開始交付延宕多年的Semi電動卡車，在概念亮相近十年後，交出了實際的量產數字。</p>
+  <p class="en" style="margin-top:16px;"><strong>Stance sentence pattern:</strong> "If I had to take a side, I'd say ___, because ___."</p>
+  <p class="zh">表達個人立場句型：「如果一定要選邊站，我會說＿＿＿，因為＿＿＿。」</p>
+</div>
+
+<h2>Source Notes 取材筆記</h2>
+<div class="block">
+  <p class="sourcepath">Note vault path: <code>Claude code AI筆記 / raw / assets</code><br>筆記庫路徑：<code>Claude code AI筆記 / raw / assets</code></p>
+  <table>
+    <tr><th>Note file 筆記檔名</th><th>Original 原始出處</th><th>Used for 用於</th></tr>
+    <tr>
+      <td><code>2026-09-25-中國電動車席捲歐洲銷量飆升 歐盟與美國雙雙警示產業衝擊.md</code></td>
+      <td>商傳媒（葉安庭／綜合外電）· 2026-09-25<br><a href="https://tw.stock.yahoo.com/news/%E4%B8%AD%E5%9C%8B%E9%9B%BB%E5%8B%95%E8%BB%8A%E5%B8%AD%E6%8D%B2%E6%AD%90%E6%B4%B2%E9%8A%B7%E9%87%8F%E9%A3%86%E5%8D%87-%E6%AD%90%E7%9B%9F%E8%88%87%E7%BE%8E%E5%9C%8B%E9%9B%99%E9%9B%99%E8%AD%A6%E7%A4%BA%E7%94%A2%E6%A5%AD%E8%A1%9D%E6%93%8A-234440093.html" target="_blank" rel="noopener">Yahoo股市原文</a></td>
+      <td>Provided the EU tariff background, hybrid/PHEV import figures, brand-level sales data, and the EU and US policy responses.<br>提供歐盟關稅背景、混合動力車與插電式混合車進口數據、各品牌銷量，以及歐盟與美國的政策回應內容。</td>
+    </tr>
+    <tr>
+      <td><code>2026-09-26-拖了近10年特斯拉Semi首批客戶交車.md</code></td>
+      <td>鉅亨網（鍾詠翔／綜合外電）· 2026-09-26<br><a href="https://news.cnyes.com/news/id/6616266" target="_blank" rel="noopener">鉅亨網原文</a></td>
+      <td>Provided the Tesla Semi production, range, and energy-use figures, plus the customer and order-backlog details.<br>提供特斯拉Semi的量產、續航與能耗數據，以及客戶與訂單資訊。</td>
+    </tr>
+  </table>
+</div>
+
+<footer>
+  Generated for Claude Yeh's daily EV speaking practice · Content researched from the user's Obsidian news-clipper vault (or general EV topics when unavailable) · 25-minute session for online speaking lessons.
+</footer>
+
+</div>
+
+<script>
+(function () {
+  var synth = window.speechSynthesis;
+  var bar = document.getElementById('ttsbar');
+  if (!synth) {
+    bar.innerHTML = '<div id="ttshint">此瀏覽器不支援語音朗讀，請改用 Chrome、Edge 或 Safari 開啟本檔案。</div>';
+    return;
+  }
+
+  var voiceSel = document.getElementById('tts-voice');
+  var rateSel  = document.getElementById('tts-rate');
+  var voices   = [];
+  var queue    = [];
+  var qi       = 0;
+  var playing  = false;
+
+  function score(v) {
+    var n = (v.name + ' ' + (v.voiceURI || '')).toLowerCase();
+    var s = 0;
+    if (/premium|enhanced|neural|natural/.test(n)) s += 40;
+    if (/siri/.test(n)) s += 30;
+    if (/google/.test(n)) s += 25;
+    if (/samantha|ava|allison|serena|daniel|kate|arthur|evan|nathan|zoe/.test(n)) s += 12;
+    if (/compact|novelty|whisper|bells|bubbles|jester|organ|trinoids|zarvox|albert|bad news|good news/.test(n)) s -= 60;
+    if (v.lang === 'en-US') s += 6;
+    if (v.lang === 'en-GB') s += 5;
+    if (v.localService) s += 2;
+    return s;
+  }
+
+  function loadVoices() {
+    var all = synth.getVoices().filter(function (v) { return /^en[-_]/i.test(v.lang); });
+    if (!all.length) return;
+    all.sort(function (a, b) { return score(b) - score(a); });
+    voices = all;
+    voiceSel.innerHTML = '';
+    voices.forEach(function (v, i) {
+      var o = document.createElement('option');
+      o.value = i;
+      o.textContent = v.name + ' (' + v.lang + ')';
+      voiceSel.appendChild(o);
+    });
+    var saved = null;
+    try { saved = localStorage.getItem('evPracticeVoice'); } catch (e) {}
+    if (saved !== null) {
+      var idx = voices.findIndex(function (v) { return v.name === saved; });
+      if (idx > -1) voiceSel.value = idx;
+    }
+  }
+  loadVoices();
+  synth.onvoiceschanged = loadVoices;
+
+  voiceSel.addEventListener('change', function () {
+    var v = voices[voiceSel.value];
+    try { if (v) localStorage.setItem('evPracticeVoice', v.name); } catch (e) {}
+  });
+
+  function clearHighlight() {
+    var h = document.querySelector('.speaking');
+    if (h) h.classList.remove('speaking');
+  }
+
+  function stop() {
+    playing = false;
+    queue = [];
+    qi = 0;
+    synth.cancel();
+    clearHighlight();
+  }
+
+  // Chrome silently truncates any utterance longer than ~15s, so queue
+  // sentence-sized chunks instead of whole paragraphs.
+  function sentences(text) {
+    var SEP = String.fromCharCode(1);
+    var t = text.replace(/\s+/g, ' ').trim();
+    // Shield decimals/abbreviations so "86.5 percent" isn't split in two.
+    t = t.replace(/(\d)\.(\d)/g, '$1' + SEP + '$2')
+         .replace(/\b(Mr|Mrs|Ms|Dr|St|vs|etc|Inc|Ltd|Co|approx)\./gi,
+                  function (m) { return m.slice(0, -1) + SEP; })
+         .replace(/\bU\.S\./g, 'U' + SEP + 'S' + SEP);
+    var parts = t.match(/[^.!?]+[.!?]+["')\]]?|[^.!?]+$/g) || [t];
+    return parts
+      .map(function (s) { return s.split(SEP).join('.').trim(); })
+      .filter(function (s) { return /[a-zA-Z0-9]/.test(s); });
+  }
+
+  function speakNext() {
+    if (!playing || qi >= queue.length) { stop(); return; }
+    var item = queue[qi++];
+    clearHighlight();
+    if (item.el) {
+      item.el.classList.add('speaking');
+      var r = item.el.getBoundingClientRect();
+      if (r.top < 120 || r.bottom > window.innerHeight - 40) {
+        item.el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      }
+    }
+    var u = new SpeechSynthesisUtterance(item.text);
+    var v = voices[voiceSel.value];
+    if (v) { u.voice = v; u.lang = v.lang; } else { u.lang = 'en-US'; }
+    u.rate = parseFloat(rateSel.value);
+    u.pitch = 1;
+    u.onend = speakNext;
+    u.onerror = speakNext;
+    synth.speak(u);
+  }
+
+  function textOf(el) {
+    // Snapshot taken before the play glyph was injected, so it is never spoken.
+    return el.getAttribute('data-tts') || el.textContent;
+  }
+
+  function play(elements) {
+    stop();
+    queue = [];
+    elements.forEach(function (el) {
+      sentences(textOf(el)).forEach(function (s) {
+        if (s.trim()) queue.push({ el: el, text: s });
+      });
+    });
+    if (!queue.length) return;
+    playing = true;
+    qi = 0;
+    speakNext();
+  }
+
+  document.getElementById('tts-stop').addEventListener('click', stop);
+
+  document.getElementById('tts-play').addEventListener('click', function () {
+    var paras = [].slice.call(document.querySelectorAll('#article .en'));
+    play(paras);
+  });
+
+  rateSel.addEventListener('change', function () { if (playing) stop(); });
+
+  var targets = [].slice.call(document.querySelectorAll('.en'));
+  targets.forEach(function (el) {
+    el.setAttribute('data-tts', el.textContent);
+    var b = document.createElement('button');
+    b.className = 'playbtn';
+    b.type = 'button';
+    b.textContent = '▶';
+    b.setAttribute('aria-label', 'Play this sentence');
+    b.addEventListener('click', function (e) {
+      e.stopPropagation();
+      play([el]);
+    });
+    el.insertBefore(b, el.firstChild);
+  });
+
+  [].slice.call(document.querySelectorAll('table tr')).forEach(function (tr) {
+    var cells = tr.querySelectorAll('td');
+    if (cells.length < 2) return;
+    var last = cells[cells.length - 1];
+    if (!/[a-zA-Z]/.test(last.textContent)) return;
+    last.style.cursor = 'pointer';
+    last.title = 'Click to hear it 點一下聽發音';
+    last.addEventListener('click', function () { play([last]); });
+  });
+
+  window.addEventListener('beforeunload', function () { synth.cancel(); });
+})();
+</script>
+</body>
+</html>

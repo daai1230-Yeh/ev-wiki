@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>EV Speaking Practice 2026-10-12</title>
+<style>
+:root{--bg:#0C2A65;--fg:#FFFFFF;--accent:#7FB3FF;--line:rgba(127,179,255,.35);}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font-family:-apple-system,"Helvetica Neue",Arial,"PingFang TC","Noto Sans TC",sans-serif;font-size:20pt;line-height:1.55;}
+.wrap{max-width:980px;margin:0 auto;padding:28px 22px 60px}
+h1{font-size:30pt;margin:.2em 0 .1em;line-height:1.2}
+h2{font-size:23pt;margin:1.6em 0 .4em;padding-left:14px;border-left:8px solid var(--accent);line-height:1.25}
+h2 .t{color:var(--accent);font-size:15pt;font-weight:600;margin-left:10px;white-space:nowrap}
+.sub{color:var(--accent);font-size:15pt}
+.zh{font-size:16.5pt;opacity:.78;margin:.1em 0 .9em}
+.en{margin:.5em 0 .1em}
+p.en{margin-top:.8em}
+.plan{border:1px solid var(--line);border-radius:10px;padding:14px 20px;margin:18px 0;background:rgba(255,255,255,.04);font-size:16pt}
+.plan ol{margin:6px 0;padding-left:1.4em}.plan li{margin:3px 0}
+.plan b{color:var(--accent)}
+.block{margin:0 0 10px}
+table{width:100%;border-collapse:collapse;margin:12px 0;font-size:17pt}
+th{background:var(--accent);color:var(--bg);text-align:left;padding:8px 10px;font-size:15pt}
+td{border-bottom:1px solid var(--line);padding:9px 10px;vertical-align:top}
+td .en{margin:0}td .zh{font-size:14pt;margin:.1em 0 0}
+.ipa{color:var(--accent);font-size:15pt}
+code,.mono{font-family:Menlo,Consolas,monospace;font-size:13pt;word-break:break-all}
+a{color:var(--accent)}
+.tblwrap{overflow-x:auto}
+ul.q{padding-left:1.2em}
+footer{margin-top:50px;border-top:1px solid var(--line);padding-top:14px;font-size:13pt;opacity:.7}
+@media (max-width:640px){body{font-size:17pt}h1{font-size:24pt}h2{font-size:19pt}.zh{font-size:14.5pt}table{font-size:14pt}th{font-size:12pt}}
+  /* ---- Text-to-speech controls ---- */
+  #ttsbar {
+    position:sticky; top:0; z-index:50;
+    background:rgba(12,42,101,.96); backdrop-filter:blur(6px);
+    border:1px solid var(--line); border-radius:10px;
+    padding:14px 18px; margin:0 0 8px;
+    display:flex; flex-wrap:wrap; gap:10px 14px; align-items:center;
+    font-size:14pt;
+  }
+  #ttsbar label { opacity:.75; letter-spacing:.04em; }
+  #ttsbar button {
+    font:inherit; font-size:14pt; font-weight:700;
+    color:var(--bg); background:var(--accent);
+    border:none; border-radius:6px; padding:8px 16px; cursor:pointer;
+  }
+  #ttsbar button.ghost { background:transparent; color:var(--accent); border:1px solid var(--accent); }
+  #ttsbar button:hover { opacity:.85; }
+  #ttsbar select {
+    font:inherit; font-size:14pt;
+    color:var(--fg); background:#123573;
+    border:1px solid var(--line); border-radius:6px; padding:7px 10px; max-width:260px;
+  }
+  #ttshint { flex-basis:100%; font-size:12.5pt; opacity:.6; line-height:1.5; }
+  .playbtn {
+    font:inherit; font-size:13pt; line-height:1;
+    color:var(--accent); background:transparent;
+    border:1px solid rgba(127,179,255,.5); border-radius:5px;
+    padding:4px 9px; margin-right:10px; cursor:pointer; vertical-align:middle;
+  }
+  .playbtn:hover { background:rgba(127,179,255,.16); }
+  .speaking {
+    background:rgba(127,179,255,.17);
+    box-shadow:0 0 0 8px rgba(127,179,255,.17);
+    border-radius:3px;
+  }
+</style></head><body><div class="wrap">
+<div class="sub">Daily EV Speaking Practice · 2026-10-12 · 25 min</div>
+<h1>Europe, China and the Hybrid Loophole</h1>
+<div class="zh">歐洲、中國與混動車的關稅縫隙——電動車英文口說練習</div>
+<div class="plan"><b>Session Plan 練習流程（25 min）</b>
+<ol>
+<li>Warm-Up 暖身 — <b>3 min</b></li>
+<li>Read Aloud 朗讀短文 — <b>6 min</b></li>
+<li>Key Vocabulary 關鍵單字 — <b>4 min</b></li>
+<li>Saying the Numbers 數字唸法 — <b>2 min</b></li>
+<li>Useful Expressions 實用句型 — <b>3 min</b></li>
+<li>Discussion 討論題 — <b>5 min</b></li>
+<li>Wrap-Up 總結 — <b>2 min</b></li>
+</ol></div>
+<div id="ttsbar">
+  <button id="tts-play">▶ Read the article 朗讀全文</button>
+  <button id="tts-stop" class="ghost">■ Stop 停止</button>
+  <label for="tts-voice">Voice</label>
+  <select id="tts-voice"></select>
+  <label for="tts-rate">Speed</label>
+  <select id="tts-rate">
+    <option value="0.75">0.75× 慢</option>
+    <option value="0.9" selected>0.9× 稍慢</option>
+    <option value="1">1.0× 正常</option>
+    <option value="1.15">1.15× 快</option>
+  </select>
+  <div id="ttshint">每個英文段落左邊都有 ▶ 可單獨播放；正在唸的句子會反白。想要更自然的聲音：macOS「系統設定 → 輔助使用 → 朗讀內容 → 系統聲音」下載 Enhanced／Premium 或 Siri 語音，再回來從上面的 Voice 選單選取。</div>
+</div>
+<h2>1. Warm-Up 暖身<span class="t">3 min</span></h2>
+<div class="block">
+<p class="en ">Do you think electric cars, or hybrids, make more sense for most families right now? Why?</p>
+<p class="zh">你覺得現在對大多數家庭來說，電動車還是油電混合車比較合理？為什麼？</p>
+<p class="en ">When a government puts a tax on imported cars, who really pays for it in the end?</p>
+<p class="zh">當政府對進口車課稅時，最後真正買單的是誰？</p>
+<p class="en ">Have you ever seen a Chinese car brand on the road, in Taiwan or abroad? What was your impression?</p>
+<p class="zh">你在台灣或國外的路上看過中國品牌的汽車嗎？你的印象如何？</p>
+</div>
+<h2>2. Read Aloud 朗讀短文<span class="t">6 min</span></h2>
+<div class="block" id="article">
+<p class="en ">Chinese carmakers have found a new way into Europe, and it is not fully electric. It is hybrids.</p>
+<p class="zh">中國車廠找到了打進歐洲的新路，而且不是純電動車，而是混合動力車。</p>
+<p class="en ">In October 2024, the European Union added duties of 7.8 to 35.3 percent on Chinese-made electric cars, on top of a 10 percent base tariff. Plug-in hybrids were not part of that investigation, so they only faced the regular 10 percent.</p>
+<p class="zh">2024 年 10 月，歐盟對中國製純電動車加徵 7.8% 至 35.3% 的反補貼稅，另加 10% 基礎關稅。插電式混合車不在調查範圍內，因此只適用一般的 10% 關稅。</p>
+<p class="en ">Carmakers followed the gap. Hybrid imports from China rose from about 3,800 vehicles in October 2024 to roughly 50,400 in July 2026.</p>
+<p class="zh">車廠順著這個縫隙調整策略。中國混動車進口量從 2024 年 10 月約 3,800 輛，增加到 2026 年 7 月約 5 萬 400 輛。</p>
+<p class="en ">In the first four months of this year, the value of hybrid imports reached 3.18 billion euros. That is the first time it has beaten pure electric cars, at 2.81 billion euros.</p>
+<p class="zh">今年前四個月，混動車進口金額達 31.8 億歐元，首度超過純電車的 28.1 億歐元。</p>
+<p class="en ">Now Brussels may respond. According to Bloomberg, Europe&#x27;s trade chief has told officials that Chinese hybrid exports could fall by millions of vehicles over four years, about half of what was expected. A safeguard with a tariff quota could start as early as December.</p>
+<p class="zh">現在布魯塞爾可能出手。根據彭博報導，歐盟貿易執委已告知官員，未來四年中國混動車出口可能減少數百萬輛，約為原先預期的一半。附有關稅配額的保障措施最快 12 月實施。</p>
+<p class="en ">Chinese plug-in hybrids hold about 29 percent of the Western European plug-in market today. If the EU pushes that down to around 15 percent, the volume is almost cut in half.</p>
+<p class="zh">目前中國插混車在西歐插混市場約占 29%。若歐盟將其壓低到 15% 左右，銷量幾乎會減半。</p>
+<p class="en ">Another debate is about Beijing&#x27;s own policy. China gives exporters a 13 percent VAT rebate, worth about 16.8 billion yuan to BYD in the first half of 2026. That is more than BYD&#x27;s net profit of 12.3 billion yuan. Some analysts say that ending the rebate would calm the trade tension and also cool the price war at home.</p>
+<p class="zh">另一個爭論是北京自身的政策。中國給予出口商 13% 的增值稅退稅，2026 上半年對比亞迪價值約 168 億人民幣，超過其 123 億人民幣的淨利。部分分析師認為，取消退稅既能緩和貿易緊張，也能為國內價格戰降溫。</p>
+</div>
+<h2>3. Key Vocabulary 關鍵單字<span class="t">4 min</span></h2>
+<div class="tblwrap"><table><tr><th>#</th><th>Word 單字</th><th>IPA 音標</th><th>Meaning 中文</th><th>Example 例句</th></tr>
+<tr><td>1</td><td><b>countervailing duty</b></td><td class="ipa">/ˌkaʊntərˈveɪlɪŋ ˈduːti/</td><td>反補貼稅</td><td data-tts="The EU imposed a countervailing duty on Chinese electric cars."><div class="en">The EU imposed a countervailing duty on Chinese electric cars.</div><div class="zh">歐盟對中國電動車課徵反補貼稅。</div></td></tr>
+<tr><td>2</td><td><b>safeguard</b></td><td class="ipa">/ˈseɪfɡɑːrd/</td><td>保障措施</td><td data-tts="A safeguard could start as early as December."><div class="en">A safeguard could start as early as December.</div><div class="zh">保障措施最快 12 月就會啟動。</div></td></tr>
+<tr><td>3</td><td><b>quota</b></td><td class="ipa">/ˈkwoʊtə/</td><td>配額</td><td data-tts="Imports above the quota would face higher tariffs."><div class="en">Imports above the quota would face higher tariffs.</div><div class="zh">超過配額的進口量會被課更高的關稅。</div></td></tr>
+<tr><td>4</td><td><b>rebate</b></td><td class="ipa">/ˈriːbeɪt/</td><td>退稅；回饋金</td><td data-tts="Ending the export rebate would raise the cost of Chinese cars."><div class="en">Ending the export rebate would raise the cost of Chinese cars.</div><div class="zh">取消出口退稅會拉高中國車的成本。</div></td></tr>
+<tr><td>5</td><td><b>plug-in hybrid</b></td><td class="ipa">/ˌplʌɡ ɪn ˈhaɪbrɪd/</td><td>插電式混合動力車</td><td data-tts="A plug-in hybrid gives you electric driving for short trips and petrol for long ones."><div class="en">A plug-in hybrid gives you electric driving for short trips and petrol for long ones.</div><div class="zh">插電混動車短程可用電、長程可用汽油。</div></td></tr>
+<tr><td>6</td><td><b>overcapacity</b></td><td class="ipa">/ˌoʊvərkəˈpæsəti/</td><td>產能過剩</td><td data-tts="Overcapacity at home pushes carmakers to export more."><div class="en">Overcapacity at home pushes carmakers to export more.</div><div class="zh">國內產能過剩迫使車廠擴大出口。</div></td></tr>
+<tr><td>7</td><td><b>localize</b></td><td class="ipa">/ˈloʊkəlaɪz/</td><td>在地化</td><td data-tts="Assembling imported parts is not enough to localize production."><div class="en">Assembling imported parts is not enough to localize production.</div><div class="zh">光靠組裝進口零件不足以達成在地生產。</div></td></tr>
+<tr><td>8</td><td><b>retaliation</b></td><td class="ipa">/rɪˌtæliˈeɪʃn/</td><td>報復（措施）</td><td data-tts="Beijing has warned of retaliation if Europe raises tariffs."><div class="en">Beijing has warned of retaliation if Europe raises tariffs.</div><div class="zh">北京警告，若歐洲提高關稅將採取報復。</div></td></tr>
+<tr><td>9</td><td><b>price war</b></td><td class="ipa">/ˈpraɪs wɔːr/</td><td>價格戰</td><td data-tts="The price war has squeezed profit margins across the industry."><div class="en">The price war has squeezed profit margins across the industry.</div><div class="zh">價格戰壓縮了整個產業的利潤。</div></td></tr>
+<tr><td>10</td><td><b>subsidy</b></td><td class="ipa">/ˈsʌbsədi/</td><td>補貼</td><td data-tts="Critics say the cars are cheap because of government subsidies."><div class="en">Critics say the cars are cheap because of government subsidies.</div><div class="zh">批評者說這些車便宜是因為政府補貼。</div></td></tr>
+<tr><td>11</td><td><b>market share</b></td><td class="ipa">/ˈmɑːrkɪt ʃer/</td><td>市占率</td><td data-tts="Chinese brands now hold a growing market share in Europe."><div class="en">Chinese brands now hold a growing market share in Europe.</div><div class="zh">中國品牌在歐洲的市占率正逐漸提高。</div></td></tr>
+<tr><td>12</td><td><b>leverage</b></td><td class="ipa">/ˈlevərɪdʒ/</td><td>籌碼；影響力</td><td data-tts="Dealers use the rebate as leverage in price negotiations."><div class="en">Dealers use the rebate as leverage in price negotiations.</div><div class="zh">經銷商把退稅當成議價的籌碼。</div></td></tr>
+</table></div>
+<h2>4. Saying the Numbers 數字唸法<span class="t">2 min</span></h2>
+<div class="tblwrap"><table><tr><th>Figure 數據</th><th>Say it 唸法</th><th>Context 說明</th></tr>
+<tr><td><b>3,800 → 50,400</b></td><td class="ipa" style="color:#fff">three thousand eight hundred → fifty thousand four hundred</td><td data-tts="Hybrid imports, Oct 2024 → Jul 2026."><div class="en">Hybrid imports, Oct 2024 → Jul 2026.</div><div class="zh">混動車進口量，2024 年 10 月 → 2026 年 7 月。</div></td></tr>
+<tr><td><b>7.8% – 35.3%</b></td><td class="ipa" style="color:#fff">seven point eight to thirty-five point three percent</td><td data-tts="EU duties on Chinese electric cars."><div class="en">EU duties on Chinese electric cars.</div><div class="zh">歐盟對中國電動車的反補貼稅率。</div></td></tr>
+<tr><td><b>29% → 15%</b></td><td class="ipa" style="color:#fff">twenty-nine percent to fifteen percent</td><td data-tts="Chinese share of plug-in sales in Western Europe, now versus a possible cap."><div class="en">Chinese share of plug-in sales in Western Europe, now versus a possible cap.</div><div class="zh">中國品牌在西歐插混市場的占比，現況 vs. 可能的上限。</div></td></tr>
+<tr><td><b>€3.18 bn vs €2.81 bn</b></td><td class="ipa" style="color:#fff">three point one eight billion euros versus two point eight one billion euros</td><td data-tts="Hybrid imports versus electric imports, January to April 2026."><div class="en">Hybrid imports versus electric imports, January to April 2026.</div><div class="zh">2026 年 1–4 月混動車進口額 vs. 純電車進口額。</div></td></tr>
+<tr><td><b>44,700</b></td><td class="ipa" style="color:#fff">forty-four thousand seven hundred</td><td data-tts="BYD Song PLUS DM-i sales in Europe, first half of 2026."><div class="en">BYD Song PLUS DM-i sales in Europe, first half of 2026.</div><div class="zh">比亞迪宋 PLUS DM-i 在歐洲 2026 上半年銷量。</div></td></tr>
+<tr><td><b>13%</b></td><td class="ipa" style="color:#fff">thirteen percent</td><td data-tts="China&#x27;s VAT export rebate on electric vehicles."><div class="en">China&#x27;s VAT export rebate on electric vehicles.</div><div class="zh">中國電動車的增值稅出口退稅率。</div></td></tr>
+<tr><td><b>RMB 16.8 bn vs RMB 12.3 bn</b></td><td class="ipa" style="color:#fff">sixteen point eight billion yuan versus twelve point three billion yuan</td><td data-tts="Value of the rebate to BYD versus BYD&#x27;s net profit, first half of 2026."><div class="en">Value of the rebate to BYD versus BYD&#x27;s net profit, first half of 2026.</div><div class="zh">退稅對比亞迪的價值 vs. 比亞迪淨利，2026 上半年。</div></td></tr>
+<tr><td><b>8.3 m → 12 m (+44%)</b></td><td class="ipa" style="color:#fff">eight point three million to twelve million, up forty-four percent</td><td data-tts="China&#x27;s overseas vehicle sales, 2025 versus 2026 forecast."><div class="en">China&#x27;s overseas vehicle sales, 2025 versus 2026 forecast.</div><div class="zh">中國車廠海外銷量，2025 年 vs. 2026 年預估。</div></td></tr>
+</table></div>
+<h2>5. Useful Expressions 實用句型<span class="t">3 min</span></h2>
+<div class="tblwrap"><table><tr><th>Pattern 句型</th><th>Use 用法</th></tr>
+<tr><td data-tts="The main concern is that…, but on the other hand…"><div class="en">The main concern is that…, but on the other hand…</div><div class="zh">我認為主要的疑慮是……，但另一方面……。</div></td><td>用來並陳兩方論點。</td></tr>
+<tr><td data-tts="It comes down to whether…"><div class="en">It comes down to whether…</div><div class="zh">問題的關鍵在於是否……。</div></td><td>點出辯論的核心。</td></tr>
+<tr><td data-tts="If that happens, the knock-on effect would be…"><div class="en">If that happens, the knock-on effect would be…</div><div class="zh">如果真的發生，連鎖效應會是……。</div></td><td>推論後果。</td></tr>
+<tr><td data-tts="I&#x27;d argue that… because the numbers show…"><div class="en">I&#x27;d argue that… because the numbers show…</div><div class="zh">我認為……，因為數據顯示……。</div></td><td>用數據支持立場。</td></tr>
+<tr><td data-tts="To be fair, one could also say that…"><div class="en">To be fair, one could also say that…</div><div class="zh">公平地說，也可以說……。</div></td><td>承認對方有道理。</td></tr>
+</table></div>
+<h2>6. Discussion 討論題<span class="t">5 min</span></h2>
+<div class="block">
+<p class="en ">1. Hybrids slipped through a gap in the EU&#x27;s tariffs. Is it fair for Europe to close that gap now, or should the rules have been clearer from the start?</p>
+<p class="zh">1. 混動車鑽過了歐盟關稅的縫隙。現在歐洲把縫隙補上公平嗎？還是規則一開始就該更清楚？</p>
+<p class="en ">2. Supporters of the quota say it protects European jobs. Critics say it makes cars more expensive for consumers. Which argument is stronger to you?</p>
+<p class="zh">2. 支持配額的人說這能保護歐洲就業；批評者說這會讓消費者買車更貴。你覺得哪個論點比較有力？</p>
+<p class="en ">3. Chinese brands went from almost unknown to outselling Japanese and Korean brands in Europe in five years. What do you think explains that speed?</p>
+<p class="zh">3. 中國品牌五年內從幾乎無名，到在歐洲銷量超越日韓品牌。你覺得這速度怎麼來的？</p>
+<p class="en ">4. Would ending China&#x27;s export rebate be a fair compromise, or would it just hurt Chinese workers and carmakers? Argue one side, then the other.</p>
+<p class="zh">4. 取消中國出口退稅是公平的妥協，還是只會傷害中國的工人與車廠？先替一方辯護，再換另一方。</p>
+<p class="en ">5. If you were a Chinese carmaker, would you build factories in Europe or look for other markets, such as Southeast Asia? What are the trade-offs?</p>
+<p class="zh">5. 如果你是中國車廠，你會在歐洲設廠，還是轉向東南亞等其他市場？取捨是什麼？</p>
+<p class="en ">6. Does trade protection like this slow down the global shift to electric vehicles, or does it help local industries catch up? Explain your view.</p>
+<p class="zh">6. 這類貿易保護會拖慢全球電動化，還是幫助本地產業追上？說明你的看法。</p>
+</div>
+<h2>7. Wrap-Up 總結<span class="t">2 min</span></h2>
+<div class="block">
+<p class="en ">Give a 60-second summary: what Europe is considering, why Chinese hybrids grew so fast, and what the two sides are arguing about.</p>
+<p class="zh">請用 60 秒摘要：歐洲正在考慮什麼、中國混動車為何成長這麼快，以及雙方在爭論什麼。</p>
+<p class="en ">Finish with one sentence of your own: &quot;Personally, I think… because…, although I understand why others see it differently.&quot;</p>
+<p class="zh">最後用一句話表達你的立場：「我個人認為……因為……，不過我理解為什麼別人看法不同。」</p>
+</div>
+<h2>Source Notes　取材筆記</h2>
+<p class="en" style="font-size:15pt">Notes folder: <span class="mono">Claude code AI筆記 / raw / assets</span></p>
+<p class="zh">筆記庫路徑：Claude code AI筆記 / raw / assets</p>
+<div class="tblwrap"><table><tr><th>Note file 筆記檔名</th><th>Original 原始出處</th><th>Used for 用於</th></tr>
+<tr><td><code>2026-10-12-陸混動車銷歐數量恐砍半 四年內將少賣數百萬輛-聯合新聞網.md</code></td>
+<td>聯合新聞網 (UDN) · 2026-10-12<br><a href="https://udn.com/news/story/7333/9808323" target="_blank" rel="noopener">https://udn.com/news/story/7333/9808323</a><br><span class="zh">（內文引述彭博、界面新聞、Dataforce、惠譽）</span></td>
+<td><div>Paragraphs 2–6, hybrid import figures, plug-in share (29% / 15%), EU safeguard and quota timeline, Dataforce sales figures.</div><div class="zh">朗讀第 2–6 段、混動車進口數據、插混市占（29%／15%）、歐盟保障措施與配額時程、Dataforce 銷量。</div></td></tr>
+<tr><td><code>2026-10-12-拆解中歐貿易戰引信 中國電動車取消退稅成關鍵.md</code></td>
+<td>Digitimes CarTech（楊智家／綜合報導，責編：鄭淳予）· 2026-10-12<br><span class="zh">（內文綜合彭博、路透、中國乘聯會；筆記未附原文連結）</span></td>
+<td><div>Paragraph 7, the 13% VAT export rebate, BYD rebate-versus-profit comparison, overseas sales forecast (12 million, +44%), discussion questions on the rebate.</div><div class="zh">朗讀第 7 段、13% 出口退稅、比亞迪退稅與淨利比較、海外銷量預估（1,200 萬輛，+44%）、退稅相關討論題。</div></td></tr>
+</table></div>
+<footer>Generated 2026-10-12 · Content adapted from the notes above and rewritten at B2–C1 level; figures as reported by the original media.<br>內容改寫自上述筆記，難度 B2–C1；數據以原始媒體報導為準。</footer>
+</div>
+<script>
+(function () {
+  var synth = window.speechSynthesis;
+  var bar = document.getElementById('ttsbar');
+  if (!synth) {
+    bar.innerHTML = '<div id="ttshint">此瀏覽器不支援語音朗讀，請改用 Chrome、Edge 或 Safari 開啟本檔案。</div>';
+    return;
+  }
+
+  var voiceSel = document.getElementById('tts-voice');
+  var rateSel  = document.getElementById('tts-rate');
+  var voices   = [];
+  var queue    = [];
+  var qi       = 0;
+  var playing  = false;
+
+  function score(v) {
+    var n = (v.name + ' ' + (v.voiceURI || '')).toLowerCase();
+    var s = 0;
+    if (/premium|enhanced|neural|natural/.test(n)) s += 40;
+    if (/siri/.test(n)) s += 30;
+    if (/google/.test(n)) s += 25;
+    if (/samantha|ava|allison|serena|daniel|kate|arthur|evan|nathan|zoe/.test(n)) s += 12;
+    if (/compact|novelty|whisper|bells|bubbles|jester|organ|trinoids|zarvox|albert|bad news|good news/.test(n)) s -= 60;
+    if (v.lang === 'en-US') s += 6;
+    if (v.lang === 'en-GB') s += 5;
+    if (v.localService) s += 2;
+    return s;
+  }
+
+  function loadVoices() {
+    var all = synth.getVoices().filter(function (v) { return /^en[-_]/i.test(v.lang); });
+    if (!all.length) return;
+    all.sort(function (a, b) { return score(b) - score(a); });
+    voices = all;
+    voiceSel.innerHTML = '';
+    voices.forEach(function (v, i) {
+      var o = document.createElement('option');
+      o.value = i;
+      o.textContent = v.name + ' (' + v.lang + ')';
+      voiceSel.appendChild(o);
+    });
+    var saved = null;
+    try { saved = localStorage.getItem('evPracticeVoice'); } catch (e) {}
+    if (saved !== null) {
+      var idx = voices.findIndex(function (v) { return v.name === saved; });
+      if (idx > -1) voiceSel.value = idx;
+    }
+  }
+  loadVoices();
+  synth.onvoiceschanged = loadVoices;
+
+  voiceSel.addEventListener('change', function () {
+    var v = voices[voiceSel.value];
+    try { if (v) localStorage.setItem('evPracticeVoice', v.name); } catch (e) {}
+  });
+
+  function clearHighlight() {
+    var h = document.querySelector('.speaking');
+    if (h) h.classList.remove('speaking');
+  }
+
+  function stop() {
+    playing = false;
+    queue = [];
+    qi = 0;
+    synth.cancel();
+    clearHighlight();
+  }
+
+  // Chrome silently truncates any utterance longer than ~15s, so queue
+  // sentence-sized chunks instead of whole paragraphs.
+  function sentences(text) {
+    var SEP = String.fromCharCode(1);
+    var t = text.replace(/\s+/g, ' ').trim();
+    // Shield decimals/abbreviations so "86.5 percent" isn't split in two.
+    t = t.replace(/(\d)\.(\d)/g, '$1' + SEP + '$2')
+         .replace(/\b(Mr|Mrs|Ms|Dr|St|vs|etc|Inc|Ltd|Co|approx)\./gi,
+                  function (m) { return m.slice(0, -1) + SEP; })
+         .replace(/\bU\.S\./g, 'U' + SEP + 'S' + SEP);
+    var parts = t.match(/[^.!?]+[.!?]+["')\]]?|[^.!?]+$/g) || [t];
+    return parts
+      .map(function (s) { return s.split(SEP).join('.').trim(); })
+      .filter(function (s) { return /[a-zA-Z0-9]/.test(s); });
+  }
+
+  function speakNext() {
+    if (!playing || qi >= queue.length) { stop(); return; }
+    var item = queue[qi++];
+    clearHighlight();
+    if (item.el) {
+      item.el.classList.add('speaking');
+      var r = item.el.getBoundingClientRect();
+      if (r.top < 120 || r.bottom > window.innerHeight - 40) {
+        item.el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      }
+    }
+    var u = new SpeechSynthesisUtterance(item.text);
+    var v = voices[voiceSel.value];
+    if (v) { u.voice = v; u.lang = v.lang; } else { u.lang = 'en-US'; }
+    u.rate = parseFloat(rateSel.value);
+    u.pitch = 1;
+    u.onend = speakNext;
+    u.onerror = speakNext;
+    synth.speak(u);
+  }
+
+  function textOf(el) {
+    // Snapshot taken before the play glyph was injected, so it is never spoken.
+    return el.getAttribute('data-tts') || el.textContent;
+  }
+
+  function play(elements) {
+    stop();
+    queue = [];
+    elements.forEach(function (el) {
+      sentences(textOf(el)).forEach(function (s) {
+        if (s.trim()) queue.push({ el: el, text: s });
+      });
+    });
+    if (!queue.length) return;
+    playing = true;
+    qi = 0;
+    speakNext();
+  }
+
+  document.getElementById('tts-stop').addEventListener('click', stop);
+
+  document.getElementById('tts-play').addEventListener('click', function () {
+    var paras = [].slice.call(document.querySelectorAll('#article .en'));
+    play(paras);
+  });
+
+  rateSel.addEventListener('change', function () { if (playing) stop(); });
+
+  var targets = [].slice.call(document.querySelectorAll('.en'));
+  targets.forEach(function (el) {
+    el.setAttribute('data-tts', el.textContent);
+    var b = document.createElement('button');
+    b.className = 'playbtn';
+    b.type = 'button';
+    b.textContent = '▶';
+    b.setAttribute('aria-label', 'Play this sentence');
+    b.addEventListener('click', function (e) {
+      e.stopPropagation();
+      play([el]);
+    });
+    el.insertBefore(b, el.firstChild);
+  });
+
+  [].slice.call(document.querySelectorAll('table tr')).forEach(function (tr) {
+    var cells = tr.querySelectorAll('td');
+    if (cells.length < 2) return;
+    var last = cells[cells.length - 1];
+    if (!/[a-zA-Z]/.test(last.textContent)) return;
+    last.style.cursor = 'pointer';
+    last.title = 'Click to hear it 點一下聽發音';
+    last.addEventListener('click', function () { play([last]); });
+  });
+
+  window.addEventListener('beforeunload', function () { synth.cancel(); });
+})();
+</script>
+</body></html>

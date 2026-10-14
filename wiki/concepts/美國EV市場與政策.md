@@ -1,7 +1,7 @@
 ---
 tags: [concept]
 sources: [gm-ford-q1-2026-sales, us-ev-battery-demand-mismatch, rivian-r2-range-specs, vw-id4-chattanooga-stop, tesla-25k-ev-us-price-parity, slate-auto-ev-pickup, ford-ev-restructure-doug-field, vw-id4-us-writedown, tesla-q1-2026-earnings, gm-ev-delay-detroit-three, nissan-mississippi-ev-abandonment, honda-canada-ev-freeze-2026, tesla-model-s-final-production, mazda-ev-delay-2029, ford-catl-michigan-factory-2026, honda-9b-loss-hybrid-pivot-2026, tesla-model-y-price-bump-2026, congress-ev-annual-fee-2026, rivian-r2-deliveries-2026, chevy-bolt-2027-review, 駐外新聞-美國-2025, ev-news-2026-09-18-digest, ev-news-2026-09-20-digest, ev-news-2026-09-22-electrive-en, ev-news-2026-09-26-electrive-en, ev-news-2026-09-28-digest, ev-news-2026-10-05-digitimes, ev-news-2026-10-07-electrive-en]
-updated: 2026-10-07
+updated: 2026-10-14
 ---
 
 # 美國 EV 市場與政策
@@ -418,3 +418,13 @@ DIGITIMES Research：美國電動車上半年57萬輛年減26.6%（占全球約6
 Autostat：俄羅斯電動＋插電占新車11.5%略高於美國；美國8月BEV 78,895輛占5.7%（年減46.9%）、Q2 BEV 6%、PHEV 1.4%、油電混合16%；Lucid Q3產量降38%、Ionna 2027年起訓練經銷商以推動採用。
 
 - 參見：[[sources/ev-news-2026-10-07-electrive-en]] | [[entities/Lucid]] | [[countries/美國]]
+
+## 福斯美國純電年減90%、快充新增放緩（2026-10）
+
+> **結論**：聯邦EV政策退場後，美國市場出現車廠主動「斷供」：福斯Q3只賣1,421輛EV（-90%），因美規ID.4停產、ID. Buzz停止進口；快充新增埠數年減12%，但總數仍破8萬。
+
+**主因**：福斯前9月EV 6,107輛（-77%），Chattanooga廠改產燃油SUV；ID. Tiguan明年接棒，ID. Buzz 2028年式以NACS回歸。快充新增以高功率為主（73%≥250 kW）。
+
+**觀察**：Q4各車廠EV銷量是否續探底。
+
+- 參見：[[sources/ev-news-2026-10-13-14-insideevs]] | [[entities/Volkswagen]] | [[concepts/充電基礎建設]]

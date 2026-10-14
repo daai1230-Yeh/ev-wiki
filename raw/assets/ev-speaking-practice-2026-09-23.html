@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>EV Speaking Practice — Closing the Price Gap (2026-09-23)</title>
+<style>
+  :root {
+    --bg: #0C2A65;
+    --fg: #FFFFFF;
+    --accent: #7FB3FF;
+    --line: rgba(127,179,255,.35);
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    padding: 28px 22px 60px;
+    background: var(--bg);
+    color: var(--fg);
+    font-family: "Helvetica Neue", Helvetica, Arial, "PingFang TC", "Noto Sans TC", sans-serif;
+    font-size: 20pt;
+    line-height: 1.62;
+  }
+  .wrap { max-width: 900px; margin: 0 auto; }
+  h1 {
+    font-size: 28pt;
+    line-height: 1.3;
+    margin: 0 0 6px;
+    font-weight: 700;
+  }
+  .sub { font-size: 15pt; opacity: .7; margin: 0 0 26px; letter-spacing: .03em; }
+  h2 {
+    font-size: 22pt;
+    margin: 0 0 16px;
+    padding-left: 14px;
+    border-left: 6px solid var(--accent);
+    line-height: 1.35;
+  }
+  h2 .min { font-size: 14pt; color: var(--accent); font-weight: 400; margin-left: 10px; letter-spacing: .04em; }
+  .block {
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    padding: 22px 24px;
+    margin: 0 0 26px;
+  }
+  .plan { background: rgba(127,179,255,.09); }
+  .plan ol { margin: 10px 0 0; padding-left: 26px; font-size: 16pt; line-height: 1.75; }
+  .plan li::marker { color: var(--accent); font-weight: 700; }
+  .plan .t { color: var(--accent); font-variant-numeric: tabular-nums; }
+  .en { margin: 18px 0 2px; }
+  .zh { margin: 0 0 14px; font-size: 16pt; opacity: .72; line-height: 1.6; }
+  ol.q { padding-left: 26px; margin: 4px 0 0; }
+  ol.q li { margin-bottom: 14px; }
+  ol.q li::marker { color: var(--accent); font-weight: 700; }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 15pt;
+    margin-top: 8px;
+  }
+  th, td {
+    border: 1px solid var(--line);
+    padding: 10px 12px;
+    text-align: left;
+    vertical-align: top;
+    line-height: 1.5;
+  }
+  th { background: rgba(127,179,255,.18); color: var(--accent); font-weight: 700; white-space: nowrap; }
+  td.ipa { font-family: "Lucida Grande", "Segoe UI", sans-serif; opacity: .8; white-space: nowrap; }
+  code { font-family: "SF Mono", Menlo, Consolas, monospace; font-size: 13.5pt; }
+  a { color: var(--accent); }
+  .pat { margin: 0 0 18px; }
+  .pat .f { font-weight: 700; }
+  footer { font-size: 13pt; opacity: .55; text-align: center; margin-top: 36px; line-height: 1.7; }
+  .note { font-size: 14pt; opacity: .65; margin: 0 0 12px; line-height: 1.6; }
+
+  @media (max-width: 640px) {
+    body { font-size: 17pt; padding: 18px 14px 44px; }
+    h1 { font-size: 22pt; }
+    h2 { font-size: 18pt; }
+    .zh { font-size: 14pt; }
+    table { font-size: 13pt; }
+    th, td { padding: 8px 8px; }
+    .block { padding: 16px 14px; }
+  }
+
+  /* ---- Text-to-speech controls ---- */
+  #ttsbar {
+    position:sticky; top:0; z-index:50;
+    background:rgba(12,42,101,.96); backdrop-filter:blur(6px);
+    border:1px solid var(--line); border-radius:10px;
+    padding:14px 18px; margin:0 0 8px;
+    display:flex; flex-wrap:wrap; gap:10px 14px; align-items:center;
+    font-size:14pt;
+  }
+  #ttsbar label { opacity:.75; letter-spacing:.04em; }
+  #ttsbar button {
+    font:inherit; font-size:14pt; font-weight:700;
+    color:var(--bg); background:var(--accent);
+    border:none; border-radius:6px; padding:8px 16px; cursor:pointer;
+  }
+  #ttsbar button.ghost { background:transparent; color:var(--accent); border:1px solid var(--accent); }
+  #ttsbar button:hover { opacity:.85; }
+  #ttsbar select {
+    font:inherit; font-size:14pt;
+    color:var(--fg); background:#123573;
+    border:1px solid var(--line); border-radius:6px; padding:7px 10px; max-width:260px;
+  }
+  #ttshint { flex-basis:100%; font-size:12.5pt; opacity:.6; line-height:1.5; }
+  .playbtn {
+    font:inherit; font-size:13pt; line-height:1;
+    color:var(--accent); background:transparent;
+    border:1px solid rgba(127,179,255,.5); border-radius:5px;
+    padding:4px 9px; margin-right:10px; cursor:pointer; vertical-align:middle;
+  }
+  .playbtn:hover { background:rgba(127,179,255,.16); }
+  .speaking {
+    background:rgba(127,179,255,.17);
+    box-shadow:0 0 0 8px rgba(127,179,255,.17);
+    border-radius:3px;
+  }
+</style>
+
+</head>
+<body>
+<div class="wrap">
+
+<h1>EV Speaking Practice — Closing the Price Gap</h1>
+<p class="sub">2026-09-23　·　25 minutes　·　Topic: EV prices, incentives &amp; the race to affordability　電動車價格、補貼與平價化競賽</p>
+
+<div class="block plan">
+  <h2>Session Plan　課程流程</h2>
+  <ol>
+    <li><span class="t">3 min</span> — Warm-Up 暖身問答</li>
+    <li><span class="t">6 min</span> — Read Aloud 朗讀短文</li>
+    <li><span class="t">4 min</span> — Key Vocabulary 關鍵單字</li>
+    <li><span class="t">2 min</span> — Saying the Numbers 數字唸法</li>
+    <li><span class="t">3 min</span> — Useful Expressions 實用句型</li>
+    <li><span class="t">5 min</span> — Discussion 討論題</li>
+    <li><span class="t">2 min</span> — Wrap-Up 總結</li>
+  </ol>
+</div>
+
+<div id="ttsbar">
+  <button id="tts-play">▶ Read the article 朗讀全文</button>
+  <button id="tts-stop" class="ghost">■ Stop 停止</button>
+  <label for="tts-voice">Voice</label>
+  <select id="tts-voice"></select>
+  <label for="tts-rate">Speed</label>
+  <select id="tts-rate">
+    <option value="0.75">0.75× 慢</option>
+    <option value="0.9" selected>0.9× 稍慢</option>
+    <option value="1">1.0× 正常</option>
+    <option value="1.15">1.15× 快</option>
+  </select>
+  <div id="ttshint">每個英文段落左邊都有 ▶ 可單獨播放；正在唸的句子會反白。想要更自然的聲音：macOS「系統設定 → 輔助使用 → 朗讀內容 → 系統聲音」下載 Enhanced／Premium 或 Siri 語音，再回來從上面的 Voice 選單選取。</div>
+</div>
+
+<div class="block">
+<h2>1. Warm-Up<span class="min">3 min　暖身</span></h2>
+<div class="en">If an electric car cost exactly the same as a petrol car, would you buy one tomorrow? Why or why not?</div>
+<div class="zh">如果一台電動車的價格跟汽油車完全一樣，你明天就會買嗎？為什麼？</div>
+<div class="en">When you make a big purchase, do you look at the sticker price, the monthly payment, or the total cost over several years?</div>
+<div class="zh">你在做大筆消費時，看的是標價、每月付款金額，還是好幾年下來的總成本？</div>
+<div class="en">Have you ever rushed to buy something because a discount or subsidy was about to end?</div>
+<div class="zh">你有沒有因為某個折扣或補助即將結束，而急著買下某樣東西？</div>
+</div>
+
+<div class="block" id="article">
+<h2>2. Read Aloud<span class="min">6 min　朗讀短文</span></h2>
+<div class="en">For years, the first question people asked about electric cars was not about range or charging. It was about price. That gap is now shrinking. According to Kelley Blue Book, the average new electric car in the United States cost only 9.4 percent more than the average new car in August, down from a gap of 16 percent a year earlier.</div>
+<div class="zh">多年來，大家問電動車的第一個問題不是續航也不是充電，而是價格。這個差距如今正在縮小。根據 Kelley Blue Book 的資料，8 月美國新電動車的平均售價只比新車整體平均高出 9.4%，一年前這個差距還有 16%。</div>
+
+<div class="en">The two sides of the market are moving in opposite directions. The average transaction price of a new vehicle rose nearly 2 percent to 50,089 dollars. Electric cars, meanwhile, fell 2.7 percent year over year to an average of 54,813 dollars.</div>
+<div class="zh">市場的兩端正朝相反方向移動。新車的平均成交價上漲近 2%，來到 50,089 美元；電動車則較去年同期下跌 2.7%，平均為 54,813 美元。</div>
+
+<div class="en">Interestingly, the best-known models barely moved. The Tesla Model Y was down just 0.2 percent, and the Hyundai Ioniq 5 fell 0.4 percent. What pulled the average down was the arrival of cheaper newcomers. The refreshed Chevy Bolt starts at 28,995 dollars, and the Toyota bZ at 36,575. As these models win market share, the whole average shifts lower.</div>
+<div class="zh">有趣的是，最知名的車款價格幾乎沒動。Tesla Model Y 只降了 0.2%，Hyundai Ioniq 5 降了 0.4%。真正把平均拉低的，是較便宜的新車款。改款後的雪佛蘭 Bolt 起價 28,995 美元，Toyota bZ 起價 36,575 美元。隨著這些車款搶下市佔，整體平均也跟著往下移。</div>
+
+<div class="en">There is a catch, though. These figures do not include incentives. In August, discounts made up 12 percent of an electric car's average price, almost double the industry-wide figure of 6.5 percent. Yet that share is falling. The average incentive dropped by about 20 percent, from 8,200 dollars a year ago to 6,600 dollars today.</div>
+<div class="zh">不過，這裡有個但書：這些數字並未計入優惠。8 月時，折扣佔電動車平均售價的 12%，幾乎是全產業 6.5% 的兩倍。但這個比例正在下降。平均優惠金額減少約 20%，從一年前的 8,200 美元降到現在的 6,600 美元。</div>
+
+<div class="en">In the words of Cox Automotive's Stephanie Valdez-Streaty, the trend is clear. Parity is not only about lower prices, but also about electric cars depending less on incentives. This autumn will be the first major sales season in years without a federal tax credit, and she expects the story to be one of normalization, where buyers decide on choice, price and inventory rather than a deadline.</div>
+<div class="zh">用 Cox Automotive 的 Stephanie Valdez-Streaty 的話來說，趨勢很明確。價格平價不只是價格下降，也代表電動車越來越不依賴補貼。今年秋天將是多年來第一個沒有聯邦租稅抵免的銷售旺季，她預期主軸會是「常態化」：消費者依據車款選擇、價格與庫存來決定，而不是趕在期限前購買。</div>
+
+<div class="en">Carmakers have noticed. Rivian's chief executive, RJ Scaringe, recently said its next model, the R3 hatchback, will be priced materially lower than the R2. The R2 currently starts at close to 60,000 dollars for its launch edition, with a 45,000-dollar version promised by late 2027. That suggests the R3 could land below 40,000 dollars when production begins in Georgia in 2028.</div>
+<div class="zh">車廠也注意到了。Rivian 執行長 RJ Scaringe 最近表示，下一款車型 R3 掀背車的定價將「明顯低於」R2。R2 首發版目前起價接近 6 萬美元，並承諾在 2027 年底前推出 4.5 萬美元的版本。這意味著 R3 在 2028 年於喬治亞州投產時，售價可能低於 4 萬美元。</div>
+
+<div class="en">He even hinted at an R4 that would be cheaper still. But none of this is guaranteed. Rivian first has to deliver the R2 smoothly, and it hopes to sell up to 70,000 vehicles this year. Affordable electric cars are clearly coming. The real question is whether they will arrive fast enough to replace the subsidies that are disappearing.</div>
+<div class="zh">他甚至暗示還會有更便宜的 R4。但這一切都還不是定局。Rivian 得先讓 R2 順利交車，公司希望今年能賣出最多 7 萬輛。平價電動車顯然正在到來，真正的問題是：它們能否來得夠快，填補正在消失的補貼。</div>
+</div>
+
+<div class="block">
+<h2>3. Key Vocabulary<span class="min">4 min　關鍵單字</span></h2>
+<table>
+<tr><th>Word</th><th>IPA</th><th>中文</th><th>Example sentence 例句</th></tr>
+<tr><td>price parity</td><td class="ipa">/praɪs ˈpærəti/</td><td>價格平價</td><td>Analysts expect electric cars to reach price parity within a few years.</td></tr>
+<tr><td>transaction price</td><td class="ipa">/trænˈzækʃən praɪs/</td><td>成交價</td><td>The transaction price is what buyers actually pay, not the list price.</td></tr>
+<tr><td>incentive</td><td class="ipa">/ɪnˈsentɪv/</td><td>優惠；誘因</td><td>Dealers offered a large incentive to clear old stock.</td></tr>
+<tr><td>tax credit</td><td class="ipa">/tæks ˈkredɪt/</td><td>租稅抵免</td><td>Many buyers rushed to claim the tax credit before it expired.</td></tr>
+<tr><td>year over year</td><td class="ipa">/jɪr ˈoʊvər jɪr/</td><td>與去年同期相比</td><td>Sales were down three percent year over year.</td></tr>
+<tr><td>entry price</td><td class="ipa">/ˈentri praɪs/</td><td>入門價</td><td>The entry price gets you the smaller battery and less range.</td></tr>
+<tr><td>trim</td><td class="ipa">/trɪm/</td><td>車型等級、配備版本</td><td>The base trim is fine for city driving.</td></tr>
+<tr><td>outsize influence</td><td class="ipa">/ˈaʊtsaɪz ˈɪnfluəns/</td><td>超乎比例的影響力</td><td>One brand still has an outsize influence on the average price.</td></tr>
+<tr><td>normalization</td><td class="ipa">/ˌnɔːrmələˈzeɪʃən/</td><td>常態化</td><td>After the subsidy ends, we should see a period of normalization.</td></tr>
+<tr><td>materially</td><td class="ipa">/məˈtɪriəli/</td><td>明顯地、實質地</td><td>The new model will be materially cheaper than the old one.</td></tr>
+<tr><td>inventory</td><td class="ipa">/ˈɪnvəntɔːri/</td><td>庫存</td><td>High inventory usually means bigger discounts for buyers.</td></tr>
+<tr><td>go off without a hitch</td><td class="ipa">/ɡoʊ ɔːf wɪˈðaʊt ə hɪtʃ/</td><td>順利進行、毫無差錯</td><td>The launch has to go off without a hitch for the plan to work.</td></tr>
+</table>
+</div>
+
+<div class="block">
+<h2>4. Saying the Numbers<span class="min">2 min　數字唸法</span></h2>
+<table>
+<tr><th>Figure</th><th>How to say it 唸法</th></tr>
+<tr><td>9.4%</td><td>nine point four percent</td></tr>
+<tr><td>$50,089</td><td>fifty thousand and eighty-nine dollars</td></tr>
+<tr><td>$54,813</td><td>fifty-four thousand, eight hundred and thirteen dollars</td></tr>
+<tr><td>−2.7% YoY</td><td>down two point seven percent year over year</td></tr>
+<tr><td>$28,995</td><td>twenty-eight thousand, nine hundred and ninety-five dollars, or just under twenty-nine grand</td></tr>
+<tr><td>6.5%</td><td>six and a half percent</td></tr>
+<tr><td>$8,200 → $6,600</td><td>from eight thousand two hundred to six thousand six hundred dollars</td></tr>
+<tr><td>$45K</td><td>forty-five thousand dollars, or forty-five K</td></tr>
+<tr><td>70,000 units</td><td>seventy thousand vehicles</td></tr>
+<tr><td>late 2027</td><td>late twenty twenty-seven</td></tr>
+</table>
+</div>
+
+<div class="block">
+<h2>5. Useful Expressions<span class="min">3 min　實用句型</span></h2>
+<div class="pat">
+  <div class="en"><span class="f">The gap has narrowed from X to Y.</span> — The price gap has narrowed from sixteen percent to just over nine percent.</div>
+  <div class="zh">描述差距縮小的標準說法，比 "became smaller" 更精準專業。</div>
+</div>
+<div class="pat">
+  <div class="en"><span class="f">A and B are moving in opposite directions.</span> — Petrol car prices and EV prices are moving in opposite directions.</div>
+  <div class="zh">「A 和 B 走勢相反」。比較兩組數據時非常好用。</div>
+</div>
+<div class="pat">
+  <div class="en"><span class="f">There's a catch, though: ...</span> — There's a catch, though: these prices don't include incentives.</div>
+  <div class="zh">「不過有個但書／陷阱」。口語中用來引出反面資訊，讓論點更平衡。</div>
+</div>
+<div class="pat">
+  <div class="en"><span class="f">It's not just about X; it's also about Y.</span> — It's not just about cheaper cars; it's also about less reliance on subsidies.</div>
+  <div class="zh">「不只是 X，也關乎 Y」。拓展論點層次，讓表達更有深度。</div>
+</div>
+<div class="pat">
+  <div class="en"><span class="f">The real question is whether ...</span> — The real question is whether cheaper models will arrive in time.</div>
+  <div class="zh">「真正的問題在於是否……」。把討論引導到核心，適合當結論句。</div>
+</div>
+</div>
+
+<div class="block">
+<h2>6. Discussion<span class="min">5 min　討論題</span></h2>
+<ol class="q">
+<li><div class="en">Is a 9.4 percent price gap small enough for most families to ignore, or is it still a deal-breaker?</div><div class="zh">9.4% 的價差小到大多數家庭可以忽略嗎？還是仍然是決定性的阻礙？</div></li>
+<li><div class="en">Some argue that subsidies were necessary to get the market started. Others say they distorted prices and mainly helped wealthier buyers. Which side do you find more convincing?</div><div class="zh">有人認為補貼是啟動市場的必要手段；也有人說補貼扭曲了價格，主要幫到的是較富裕的買家。你覺得哪一方比較有說服力？</div></li>
+<li><div class="en">The average EV price fell mainly because cheaper models sold more, not because existing models got cheaper. Does that difference matter?</div><div class="zh">電動車平均售價下降，主要是因為便宜車款賣得多，而不是既有車款降價。這個差別重要嗎？</div></li>
+<li><div class="en">Rivian is moving from premium vehicles toward cheaper ones. Is it smarter for a young carmaker to start expensive and move down, or to start cheap?</div><div class="zh">Rivian 正從高價車走向平價車。對新創車廠來說，先做高價再往下走比較聰明，還是一開始就做平價車？</div></li>
+<li><div class="en">In Taiwan, what matters more to EV buyers: purchase price, charging access, or resale value?</div><div class="zh">在台灣，對電動車買家來說，哪個最重要：購車價格、充電便利性，還是二手價值？</div></li>
+<li><div class="en">If you were a government, would you keep EV subsidies, cut them, or redirect the money to charging infrastructure? Defend your choice.</div><div class="zh">如果你是政府，你會保留電動車補貼、取消它，還是把錢轉投入充電基礎建設？請為你的選擇辯護。</div></li>
+</ol>
+</div>
+
+<div class="block">
+<h2>7. Wrap-Up<span class="min">2 min　總結</span></h2>
+<p class="note">60-second summary — try saying this in your own words. 60 秒摘要，試著用自己的話說一遍。</p>
+<div class="en">In the US, the price gap between electric and petrol cars has narrowed from sixteen to about nine percent in a year. That is mainly because cheaper models like the Chevy Bolt and Toyota bZ are selling well, while incentives are shrinking. Carmakers such as Rivian are planning even cheaper models, but the question is whether they can arrive before the loss of subsidies slows the market down.</div>
+<div class="zh">在美國，電動車與汽油車的價差在一年內從 16% 縮小到約 9%。主因是雪佛蘭 Bolt、Toyota bZ 等較便宜的車款賣得好，同時優惠正在減少。Rivian 等車廠計畫推出更便宜的車款，但問題在於，它們能否在補貼消失拖慢市場之前及時到位。</div>
+<p class="note" style="margin-top:18px">Your position 表達立場的句型：</p>
+<div class="en">"To me, the real turning point won't be when EVs match petrol cars on price, but when people stop needing a subsidy to say yes."</div>
+<div class="zh">「對我來說，真正的轉捩點不是電動車和油車價格打平的那一刻，而是人們不再需要補貼也願意買單的時候。」</div>
+</div>
+
+<div class="block">
+<h2>Source Notes　取材筆記</h2>
+<p class="note">From the Obsidian vault: <code>Claude code AI筆記 / raw / assets</code><br>
+取材自 Obsidian 筆記庫：<code>Claude code AI筆記 / raw / assets</code></p>
+<table>
+<tr><th>Note file 筆記檔名</th><th>Original 原始出處</th><th>Used for 用於</th></tr>
+<tr>
+  <td><code>2026-09-22-The Trend Is Clear - How EVs Are Closing In On Gas Car Prices.md</code></td>
+  <td>InsideEVs（Suvrat Kothari）· 2026-09-19 · <a href="https://insideevs.com/news/808818/ev-gas-car-price-parity/">原文連結</a></td>
+  <td>KBB price-gap data (9.4% vs 16%), ATP figures, Model Y / Ioniq 5 / Bolt / bZ prices, incentive shares and amounts, Valdez-Streaty quotes on parity and normalization.<br><span style="opacity:.7">KBB 價差數據、平均成交價、各車款價格、優惠比例與金額、Valdez-Streaty 關於平價與常態化的談話。</span></td>
+</tr>
+<tr>
+  <td><code>2026-09-22-Rivian R3 Will Be Priced Materially Lower Than R2, CEO Says.md</code></td>
+  <td>InsideEVs（Tim Levin）· 2026-09-21 · <a href="https://insideevs.com/news/809000/rivian-r3-price-materially-lower-than-r2-rj-scaringe/">原文連結</a></td>
+  <td>Scaringe's comments on R3 and R4 pricing, R2 prices ($60K / $45K), Georgia production in 2028, the 70,000-vehicle target.<br><span style="opacity:.7">Scaringe 對 R3、R4 定價的說法、R2 價格、2028 年喬治亞州投產、年銷 7 萬輛目標。</span></td>
+</tr>
+</table>
+</div>
+
+<footer>
+EV Speaking Practice　·　2026-09-23　·　25 minutes<br>
+Prepared for Claude Yeh　為線上英語口說課程準備
+</footer>
+
+</div>
+
+<script>
+(function () {
+  var synth = window.speechSynthesis;
+  var bar = document.getElementById('ttsbar');
+  if (!synth) {
+    bar.innerHTML = '<div id="ttshint">此瀏覽器不支援語音朗讀，請改用 Chrome、Edge 或 Safari 開啟本檔案。</div>';
+    return;
+  }
+
+  var voiceSel = document.getElementById('tts-voice');
+  var rateSel  = document.getElementById('tts-rate');
+  var voices   = [];
+  var queue    = [];
+  var qi       = 0;
+  var playing  = false;
+
+  function score(v) {
+    var n = (v.name + ' ' + (v.voiceURI || '')).toLowerCase();
+    var s = 0;
+    if (/premium|enhanced|neural|natural/.test(n)) s += 40;
+    if (/siri/.test(n)) s += 30;
+    if (/google/.test(n)) s += 25;
+    if (/samantha|ava|allison|serena|daniel|kate|arthur|evan|nathan|zoe/.test(n)) s += 12;
+    if (/compact|novelty|whisper|bells|bubbles|jester|organ|trinoids|zarvox|albert|bad news|good news/.test(n)) s -= 60;
+    if (v.lang === 'en-US') s += 6;
+    if (v.lang === 'en-GB') s += 5;
+    if (v.localService) s += 2;
+    return s;
+  }
+
+  function loadVoices() {
+    var all = synth.getVoices().filter(function (v) { return /^en[-_]/i.test(v.lang); });
+    if (!all.length) return;
+    all.sort(function (a, b) { return score(b) - score(a); });
+    voices = all;
+    voiceSel.innerHTML = '';
+    voices.forEach(function (v, i) {
+      var o = document.createElement('option');
+      o.value = i;
+      o.textContent = v.name + ' (' + v.lang + ')';
+      voiceSel.appendChild(o);
+    });
+    var saved = null;
+    try { saved = localStorage.getItem('evPracticeVoice'); } catch (e) {}
+    if (saved !== null) {
+      var idx = voices.findIndex(function (v) { return v.name === saved; });
+      if (idx > -1) voiceSel.value = idx;
+    }
+  }
+  loadVoices();
+  synth.onvoiceschanged = loadVoices;
+
+  voiceSel.addEventListener('change', function () {
+    var v = voices[voiceSel.value];
+    try { if (v) localStorage.setItem('evPracticeVoice', v.name); } catch (e) {}
+  });
+
+  function clearHighlight() {
+    var h = document.querySelector('.speaking');
+    if (h) h.classList.remove('speaking');
+  }
+
+  function stop() {
+    playing = false;
+    queue = [];
+    qi = 0;
+    synth.cancel();
+    clearHighlight();
+  }
+
+  // Chrome silently truncates any utterance longer than ~15s, so queue
+  // sentence-sized chunks instead of whole paragraphs.
+  function sentences(text) {
+    var SEP = String.fromCharCode(1);
+    var t = text.replace(/\s+/g, ' ').trim();
+    // Shield decimals/abbreviations so "86.5 percent" isn't split in two.
+    t = t.replace(/(\d)\.(\d)/g, '$1' + SEP + '$2')
+         .replace(/\b(Mr|Mrs|Ms|Dr|St|vs|etc|Inc|Ltd|Co|approx)\./gi,
+                  function (m) { return m.slice(0, -1) + SEP; })
+         .replace(/\bU\.S\./g, 'U' + SEP + 'S' + SEP);
+    var parts = t.match(/[^.!?]+[.!?]+["')\]]?|[^.!?]+$/g) || [t];
+    return parts
+      .map(function (s) { return s.split(SEP).join('.').trim(); })
+      .filter(function (s) { return /[a-zA-Z0-9]/.test(s); });
+  }
+
+  function speakNext() {
+    if (!playing || qi >= queue.length) { stop(); return; }
+    var item = queue[qi++];
+    clearHighlight();
+    if (item.el) {
+      item.el.classList.add('speaking');
+      var r = item.el.getBoundingClientRect();
+      if (r.top < 120 || r.bottom > window.innerHeight - 40) {
+        item.el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      }
+    }
+    var u = new SpeechSynthesisUtterance(item.text);
+    var v = voices[voiceSel.value];
+    if (v) { u.voice = v; u.lang = v.lang; } else { u.lang = 'en-US'; }
+    u.rate = parseFloat(rateSel.value);
+    u.pitch = 1;
+    u.onend = speakNext;
+    u.onerror = speakNext;
+    synth.speak(u);
+  }
+
+  function textOf(el) {
+    // Snapshot taken before the play glyph was injected, so it is never spoken.
+    return el.getAttribute('data-tts') || el.textContent;
+  }
+
+  function play(elements) {
+    stop();
+    queue = [];
+    elements.forEach(function (el) {
+      sentences(textOf(el)).forEach(function (s) {
+        if (s.trim()) queue.push({ el: el, text: s });
+      });
+    });
+    if (!queue.length) return;
+    playing = true;
+    qi = 0;
+    speakNext();
+  }
+
+  document.getElementById('tts-stop').addEventListener('click', stop);
+
+  document.getElementById('tts-play').addEventListener('click', function () {
+    var paras = [].slice.call(document.querySelectorAll('#article .en'));
+    play(paras);
+  });
+
+  rateSel.addEventListener('change', function () { if (playing) stop(); });
+
+  var targets = [].slice.call(document.querySelectorAll('.en'));
+  targets.forEach(function (el) {
+    el.setAttribute('data-tts', el.textContent);
+    var b = document.createElement('button');
+    b.className = 'playbtn';
+    b.type = 'button';
+    b.textContent = '▶';
+    b.setAttribute('aria-label', 'Play this sentence');
+    b.addEventListener('click', function (e) {
+      e.stopPropagation();
+      play([el]);
+    });
+    el.insertBefore(b, el.firstChild);
+  });
+
+  [].slice.call(document.querySelectorAll('table tr')).forEach(function (tr) {
+    var cells = tr.querySelectorAll('td');
+    if (cells.length < 2) return;
+    var last = cells[cells.length - 1];
+    if (!/[a-zA-Z]/.test(last.textContent)) return;
+    last.style.cursor = 'pointer';
+    last.title = 'Click to hear it 點一下聽發音';
+    last.addEventListener('click', function () { play([last]); });
+  });
+
+  window.addEventListener('beforeunload', function () { synth.cancel(); });
+})();
+</script>
+</body>
+</html>

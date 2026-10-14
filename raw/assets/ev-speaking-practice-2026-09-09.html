@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>EV Speaking Practice — 2026-09-09 · Solid-State Goes Live, and the Tax Code Notices</title>
+<style>
+  :root {
+    --bg: #0C2A65;
+    --fg: #FFFFFF;
+    --accent: #7FB3FF;
+    --line: rgba(127,179,255,.32);
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    padding: 30px 20px 60px;
+    background: var(--bg);
+    color: var(--fg);
+    font-family: "Helvetica Neue", Helvetica, Arial, "PingFang TC", "Noto Sans TC", "Microsoft JhengHei", sans-serif;
+    font-size: 20pt;
+    line-height: 1.65;
+  }
+  .wrap { max-width: 900px; margin: 0 auto; }
+
+  header h1 {
+    font-size: 27pt;
+    line-height: 1.3;
+    margin: 0 0 6px;
+    letter-spacing: .01em;
+  }
+  header .sub { font-size: 15pt; opacity: .72; margin: 0 0 4px; }
+  header .date { font-size: 14pt; color: var(--accent); letter-spacing: .06em; margin: 0 0 24px; }
+
+  h2 {
+    font-size: 21pt;
+    margin: 0 0 16px;
+    padding-left: 14px;
+    border-left: 6px solid var(--accent);
+    line-height: 1.35;
+  }
+  h2 .mins {
+    display: inline-block;
+    font-size: 13pt;
+    color: var(--accent);
+    letter-spacing: .05em;
+    margin-left: 10px;
+    vertical-align: middle;
+    white-space: nowrap;
+  }
+  h3 { font-size: 16pt; margin: 26px 0 10px; color: var(--accent); }
+
+  .block {
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    padding: 22px 24px 26px;
+    margin: 0 0 28px;
+  }
+
+  .en { margin: 0 0 4px; }
+  .zh {
+    margin: 0 0 20px;
+    font-size: 15.5pt;
+    opacity: .74;
+    line-height: 1.6;
+  }
+  p:last-child, .zh:last-child { margin-bottom: 0; }
+
+  ol, ul { padding-left: 1.3em; margin: 0; }
+  li { margin-bottom: 16px; }
+  li:last-child { margin-bottom: 0; }
+  li .zh { margin-bottom: 0; }
+
+  .plan {
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    padding: 18px 22px 20px;
+    margin: 0 0 22px;
+    background: rgba(127,179,255,.07);
+  }
+  .plan h2 { font-size: 17pt; margin-bottom: 12px; }
+  .plan ol { font-size: 15pt; line-height: 1.55; }
+  .plan li { margin-bottom: 7px; }
+  .plan .t { color: var(--accent); font-variant-numeric: tabular-nums; }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14.5pt;
+    line-height: 1.5;
+  }
+  th, td {
+    border: 1px solid var(--line);
+    padding: 10px 12px;
+    text-align: left;
+    vertical-align: top;
+  }
+  th {
+    background: rgba(127,179,255,.18);
+    color: var(--accent);
+    font-size: 13.5pt;
+    letter-spacing: .03em;
+  }
+  td .zh { font-size: 13pt; margin: 2px 0 0; }
+  .ipa { color: var(--accent); font-size: 13pt; white-space: nowrap; }
+
+  a { color: var(--accent); }
+
+  code, .mono {
+    font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    font-size: .88em;
+  }
+
+  footer {
+    font-size: 13pt;
+    opacity: .6;
+    text-align: center;
+    margin-top: 34px;
+    line-height: 1.6;
+  }
+
+  @media (max-width: 640px) {
+    body { padding: 20px 14px 48px; font-size: 17pt; }
+    header h1 { font-size: 21pt; }
+    h2 { font-size: 18pt; }
+    .zh { font-size: 14pt; }
+    .block { padding: 16px 15px 20px; }
+    table, thead, tbody, tr, td { display: block; width: 100%; }
+    thead { display: none; }
+    tr { border: 1px solid var(--line); border-radius: 8px; margin-bottom: 14px; padding: 4px 2px; }
+    td { border: none; border-bottom: 1px dashed var(--line); padding: 8px 12px; }
+    tr td:last-child { border-bottom: none; }
+    td::before {
+      content: attr(data-label);
+      display: block;
+      color: var(--accent);
+      font-size: 11.5pt;
+      letter-spacing: .04em;
+      margin-bottom: 3px;
+    }
+  }
+
+  /* ---- Text-to-speech controls ---- */
+  #ttsbar {
+    position:sticky; top:0; z-index:50;
+    background:rgba(12,42,101,.96); backdrop-filter:blur(6px);
+    border:1px solid var(--line); border-radius:10px;
+    padding:14px 18px; margin:0 0 8px;
+    display:flex; flex-wrap:wrap; gap:10px 14px; align-items:center;
+    font-size:14pt;
+  }
+  #ttsbar label { opacity:.75; letter-spacing:.04em; }
+  #ttsbar button {
+    font:inherit; font-size:14pt; font-weight:700;
+    color:var(--bg); background:var(--accent);
+    border:none; border-radius:6px; padding:8px 16px; cursor:pointer;
+  }
+  #ttsbar button.ghost { background:transparent; color:var(--accent); border:1px solid var(--accent); }
+  #ttsbar button:hover { opacity:.85; }
+  #ttsbar select {
+    font:inherit; font-size:14pt;
+    color:var(--fg); background:#123573;
+    border:1px solid var(--line); border-radius:6px; padding:7px 10px; max-width:260px;
+  }
+  #ttshint { flex-basis:100%; font-size:12.5pt; opacity:.6; line-height:1.5; }
+  .playbtn {
+    font:inherit; font-size:13pt; line-height:1;
+    color:var(--accent); background:transparent;
+    border:1px solid rgba(127,179,255,.5); border-radius:5px;
+    padding:4px 9px; margin-right:10px; cursor:pointer; vertical-align:middle;
+  }
+  .playbtn:hover { background:rgba(127,179,255,.16); }
+  .speaking {
+    background:rgba(127,179,255,.17);
+    box-shadow:0 0 0 8px rgba(127,179,255,.17);
+    border-radius:3px;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <h1>Solid-State Goes Live, and the Tax Code Notices</h1>
+  <p class="sub">固態電池正式量產，稅制隨之轉向 — 25-minute EV speaking practice</p>
+  <p class="date">2026-09-09 · Level B2–C1</p>
+</header>
+
+<div class="plan">
+  <h2>Session Plan　課程流程</h2>
+  <ol>
+    <li><span class="t">3 min</span> — Warm-Up 暖身問答</li>
+    <li><span class="t">6 min</span> — Read Aloud 朗讀短文</li>
+    <li><span class="t">4 min</span> — Key Vocabulary 關鍵單字</li>
+    <li><span class="t">2 min</span> — Saying the Numbers 數字唸法</li>
+    <li><span class="t">3 min</span> — Useful Expressions 實用句型</li>
+    <li><span class="t">5 min</span> — Discussion 討論</li>
+    <li><span class="t">2 min</span> — Wrap-Up 總結</li>
+  </ol>
+</div>
+
+<div id="ttsbar">
+  <button id="tts-play">▶ Read the article 朗讀全文</button>
+  <button id="tts-stop" class="ghost">■ Stop 停止</button>
+  <label for="tts-voice">Voice</label>
+  <select id="tts-voice"></select>
+  <label for="tts-rate">Speed</label>
+  <select id="tts-rate">
+    <option value="0.75">0.75× 慢</option>
+    <option value="0.9" selected>0.9× 稍慢</option>
+    <option value="1">1.0× 正常</option>
+    <option value="1.15">1.15× 快</option>
+  </select>
+  <div id="ttshint">每個英文段落左邊都有 ▶ 可單獨播放；正在唸的句子會反白。想要更自然的聲音：macOS「系統設定 → 輔助使用 → 朗讀內容 → 系統聲音」下載 Enhanced／Premium 或 Siri 語音，再回來從上面的 Voice 選單選取。</div>
+</div>
+
+<h2>1. Warm-Up 暖身<span class="mins">3 min</span></h2>
+<div class="block">
+  <ol>
+    <li>
+      <p class="en">People have been promising solid-state batteries for at least a decade. Why do you think they have taken so long to reach the production line?</p>
+      <p class="zh">固態電池的承諾至少喊了十年。你覺得為什麼它花了這麼久才真正走上量產線？</p>
+    </li>
+    <li>
+      <p class="en">Taiwan is famous for semiconductors, not for batteries. Do you think that reputation could change in the next ten years?</p>
+      <p class="zh">台灣以半導體聞名，而不是電池。你認為這個印象在未來十年可能改變嗎？</p>
+    </li>
+    <li>
+      <p class="en">When a government taxes one technology and exempts another, is it picking winners or simply nudging the market? Where do you draw the line?</p>
+      <p class="zh">當政府對某項技術課稅、卻讓另一項免稅，這算是「欽點贏家」還是單純推一把市場？你的界線畫在哪裡？</p>
+    </li>
+  </ol>
+</div>
+
+<h2>2. Read Aloud 朗讀短文<span class="mins">6 min</span></h2>
+<div class="block" id="article">
+  <p class="en">On September 7, a Taiwanese company called ProLogium announced something the battery industry has been waiting on for years: solid-state cells rolling off a real production line, not a laboratory bench. The company has started series production of its Generation 3.5 lithium-ceramic battery at its plant in Taoyuan, which currently has a capacity of three gigawatt-hours a year.</p>
+  <p class="zh">9 月 7 日，一家名為輝能科技的台灣公司宣布了電池業等待多年的消息：固態電芯正從真正的量產線上下線，而不是實驗室工作台。該公司已在桃園廠開始量產第 3.5 代鋰陶瓷電池，該廠目前年產能為 3 GWh。</p>
+
+  <p class="en">The numbers are the part that made engineers look twice. TÜV Rheinland, the German certification body, confirmed a gravimetric energy density of 381 watt-hours per kilogram and a volumetric density of 903 watt-hours per litre, measured at cell level on a large-format 185.4 amp-hour cell. For comparison, most of the lithium-iron-phosphate cells in today's mass-market EVs sit well below 200 watt-hours per kilogram.</p>
+  <p class="zh">真正讓工程師多看一眼的是數據。德國驗證機構萊茵 TÜV 確認，以 185.4 Ah 的大型電芯量測，電芯層級的重量能量密度達每公斤 381 瓦時、體積能量密度達每公升 903 瓦時。相較之下，今日主流電動車使用的磷酸鋰鐵電芯，大多遠低於每公斤 200 瓦時。</p>
+
+  <p class="en">There is also the question of whether a cell is genuinely solid-state or merely marketed that way, and the industry has quietly been arguing about this for years. UL Solutions tested the cell against the Chinese standard GB/T 43568-2026, and the cell lost less than 0.05 percent of its weight after six hours in a vacuum at 120 degrees Celsius. In plain terms, there was almost no liquid left inside to evaporate.</p>
+  <p class="zh">另一個問題是：某顆電芯究竟是真固態，還是只是行銷話術？業界私下為此爭論多年。UL Solutions 依中國標準 GB/T 43568-2026 測試，該電芯在攝氏 120 度真空環境下放置六小時後，重量損失低於 0.05%。白話說，裡面幾乎沒有液體可以蒸發。</p>
+
+  <p class="en">What is striking is how incremental the path actually was. ProLogium was founded in 2006, holds more than 1,200 patents, and has used the same underlying cell architecture since 2012. Four battery generations later, the fundamental design has not changed — only the manufacturing processes and the material chemistry. The company estimates that just ten percent of its existing gigascale production line will need adjusting to build the fourth generation.</p>
+  <p class="zh">值得注意的是，這條路其實是一步一步走出來的。輝能成立於 2006 年，握有超過 1,200 項專利，自 2012 年起就沿用同一套電芯架構。四代電池之後，基本設計並未改變，變的只有製程與材料化學。公司估計，現有的 GWh 級產線只需調整約一成，就能生產第四代產品。</p>
+
+  <p class="en">The expansion plan stretches well into the next decade. In February this year, ProLogium broke ground on a plant in Dunkirk, in northern France. Phase one, aimed at fourth-generation cells with an initial annual capacity of 0.8 gigawatt-hours, is due for completion in 2028. Capacity ramps up from 2029, reaches four gigawatt-hours a year by 2030, and the site is expected to hit its full twelve gigawatt-hours by 2032.</p>
+  <p class="zh">擴產計畫一路延伸到下一個十年。今年 2 月，輝能在法國北部敦克爾克動工。第一期針對第四代電芯，初期年產能 0.8 GWh，預計 2028 年完工；2029 年起擴產，2030 年達到年產 4 GWh，該廠區預計於 2032 年達到 12 GWh 的滿載產能。</p>
+
+  <p class="en">Meanwhile, on the other side of the strait, Beijing has been rewriting the tax code in a way that reads almost like a companion piece. Since September 1, China has applied a two percent consumption tax on lithium-ion batteries, ending an exemption that had stood since 2015. That rate doubles to four percent in September 2027. Sodium-ion cells, solid-state cells and fuel cells remain exempt through 2028.</p>
+  <p class="zh">與此同時，海峽的另一邊，北京正在改寫稅制，讀起來幾乎像是這則新聞的姊妹作。自 9 月 1 日起，中國對鋰離子電池課徵 2% 消費稅，終結自 2015 年以來的免稅待遇；該稅率將在 2027 年 9 月倍增至 4%。鈉離子電芯、固態電芯與燃料電池則維持免稅至 2028 年。</p>
+
+  <p class="en">In cash terms the tax is modest — CarNewsChina estimates it adds roughly sixty-two US dollars to a sixty-kilowatt-hour battery pack today, rising to about a hundred and twenty-five dollars at the higher rate. But it arrives alongside a broader wind-down: the purchase-tax break for EVs and plug-in hybrids fell from a full exemption to a fifty percent reduction, capped at fifteen thousand yuan per vehicle. The signal matters more than the sum. The era of subsidising electrification simply because it is electric appears to be closing.</p>
+  <p class="zh">就金額而言，這筆稅並不重——CarNewsChina 估計，目前為 60 kWh 電池組增加約 62 美元，稅率調高後約 125 美元。但它伴隨著更大範圍的退場：電動車與插電式混合動力車的購置稅優惠，已從全額免徵降為減半，且每車上限人民幣 1.5 萬元。訊號比金額更重要。「只因為是電動就給補貼」的時代，看來正在結束。</p>
+</div>
+
+<h2>3. Key Vocabulary 關鍵單字<span class="mins">4 min</span></h2>
+<div class="block">
+  <table>
+    <thead>
+      <tr><th>Word 單字</th><th>IPA 音標</th><th>Meaning 中文</th><th>Example sentence 例句（點一下聽發音）</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td data-label="Word 單字">series production</td>
+        <td data-label="IPA 音標" class="ipa">/ˈsɪriːz prəˈdʌkʃn/</td>
+        <td data-label="Meaning 中文">量產、批量生產</td>
+        <td data-label="Example 例句">Reaching series production is a much harder milestone than building a prototype.</td>
+      </tr>
+      <tr>
+        <td data-label="Word 單字">energy density</td>
+        <td data-label="IPA 音標" class="ipa">/ˈenədʒi ˈdensəti/</td>
+        <td data-label="Meaning 中文">能量密度</td>
+        <td data-label="Example 例句">Higher energy density means you can store more power in the same amount of space.</td>
+      </tr>
+      <tr>
+        <td data-label="Word 單字">gravimetric</td>
+        <td data-label="IPA 音標" class="ipa">/ˌɡrævɪˈmetrɪk/</td>
+        <td data-label="Meaning 中文">重量的、以重量計的</td>
+        <td data-label="Example 例句">Gravimetric density is measured per kilogram, while volumetric density is measured per litre.</td>
+      </tr>
+      <tr>
+        <td data-label="Word 單字">certification body</td>
+        <td data-label="IPA 音標" class="ipa">/ˌsɜːtɪfɪˈkeɪʃn ˈbɒdi/</td>
+        <td data-label="Meaning 中文">驗證機構</td>
+        <td data-label="Example 例句">An independent certification body verified the results, which makes the claim far more credible.</td>
+      </tr>
+      <tr>
+        <td data-label="Word 單字">incremental</td>
+        <td data-label="IPA 音標" class="ipa">/ˌɪŋkrəˈmentl/</td>
+        <td data-label="Meaning 中文">漸進的、逐步累積的</td>
+        <td data-label="Example 例句">Their progress was incremental rather than a sudden breakthrough.</td>
+      </tr>
+      <tr>
+        <td data-label="Word 單字">architecture</td>
+        <td data-label="IPA 音標" class="ipa">/ˈɑːkɪtektʃə/</td>
+        <td data-label="Meaning 中文">架構、基本結構</td>
+        <td data-label="Example 例句">Because the architecture stayed the same, upgrading the factory was relatively cheap.</td>
+      </tr>
+      <tr>
+        <td data-label="Word 單字">break ground</td>
+        <td data-label="IPA 音標" class="ipa">/breɪk ɡraʊnd/</td>
+        <td data-label="Meaning 中文">動工、破土</td>
+        <td data-label="Example 例句">They broke ground on the French plant in February and expect to finish phase one in 2028.</td>
+      </tr>
+      <tr>
+        <td data-label="Word 單字">ramp up</td>
+        <td data-label="IPA 音標" class="ipa">/ræmp ʌp/</td>
+        <td data-label="Meaning 中文">擴產、逐步提升產能</td>
+        <td data-label="Example 例句">It usually takes two or three years to ramp up a new battery plant to full capacity.</td>
+      </tr>
+      <tr>
+        <td data-label="Word 單字">exemption</td>
+        <td data-label="IPA 音標" class="ipa">/ɪɡˈzempʃn/</td>
+        <td data-label="Meaning 中文">豁免、免稅</td>
+        <td data-label="Example 例句">The exemption had been in place since 2015, so its removal came as a surprise.</td>
+      </tr>
+      <tr>
+        <td data-label="Word 單字">wind-down</td>
+        <td data-label="IPA 音標" class="ipa">/ˈwaɪnd daʊn/</td>
+        <td data-label="Meaning 中文">逐步收尾、退場</td>
+        <td data-label="Example 例句">This tax change is one step in a much broader wind-down of subsidies.</td>
+      </tr>
+      <tr>
+        <td data-label="Word 單字">capped at</td>
+        <td data-label="IPA 音標" class="ipa">/kæpt æt/</td>
+        <td data-label="Meaning 中文">上限為</td>
+        <td data-label="Example 例句">The benefit is capped at fifteen thousand yuan, so expensive cars gain proportionally less.</td>
+      </tr>
+      <tr>
+        <td data-label="Word 單字">signal (n./v.)</td>
+        <td data-label="IPA 音標" class="ipa">/ˈsɪɡnəl/</td>
+        <td data-label="Meaning 中文">訊號；釋出訊號</td>
+        <td data-label="Example 例句">The amount is small, but the signal it sends to investors is very large.</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<h2>4. Saying the Numbers 數字唸法<span class="mins">2 min</span></h2>
+<div class="block">
+  <table>
+    <thead>
+      <tr><th>Written 書寫</th><th>Say it like this 這樣唸</th></tr>
+    </thead>
+    <tbody>
+      <tr><td data-label="Written 書寫">381 Wh/kg</td><td data-label="Say it 這樣唸">three hundred eighty-one watt-hours per kilogram</td></tr>
+      <tr><td data-label="Written 書寫">903 Wh/L</td><td data-label="Say it 這樣唸">nine hundred three watt-hours per litre</td></tr>
+      <tr><td data-label="Written 書寫">185.4 Ah</td><td data-label="Say it 這樣唸">one hundred eighty-five point four amp-hours</td></tr>
+      <tr><td data-label="Written 書寫">0.05%</td><td data-label="Say it 這樣唸">zero point zero five percent</td></tr>
+      <tr><td data-label="Written 書寫">120°C</td><td data-label="Say it 這樣唸">one hundred twenty degrees Celsius</td></tr>
+      <tr><td data-label="Written 書寫">3 GWh</td><td data-label="Say it 這樣唸">three gigawatt-hours</td></tr>
+      <tr><td data-label="Written 書寫">0.8 GWh</td><td data-label="Say it 這樣唸">zero point eight gigawatt-hours / point eight gigawatt-hours</td></tr>
+      <tr><td data-label="Written 書寫">1,200 patents</td><td data-label="Say it 這樣唸">twelve hundred patents / one thousand two hundred patents</td></tr>
+      <tr><td data-label="Written 書寫">GB/T 43568-2026</td><td data-label="Say it 這樣唸">G B slash T four three five six eight, dash twenty twenty-six</td></tr>
+      <tr><td data-label="Written 書寫">2%  →  4%</td><td data-label="Say it 這樣唸">two percent rising to four percent</td></tr>
+      <tr><td data-label="Written 書寫">$62 / $125</td><td data-label="Say it 這樣唸">sixty-two US dollars; a hundred and twenty-five dollars</td></tr>
+      <tr><td data-label="Written 書寫">¥15,000</td><td data-label="Say it 這樣唸">fifteen thousand yuan</td></tr>
+      <tr><td data-label="Written 書寫">60 kWh</td><td data-label="Say it 這樣唸">sixty kilowatt-hours</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<h2>5. Useful Expressions 實用句型<span class="mins">3 min</span></h2>
+<div class="block">
+  <ol>
+    <li>
+      <p class="en">What strikes me most is not the number itself, but what it implies about ___.</p>
+      <p class="zh">最讓我印象深刻的不是數字本身，而是它暗示了關於 ___ 的什麼。用來把數據帶向詮釋，而不是停在念數字。</p>
+    </li>
+    <li>
+      <p class="en">On paper it looks like ___, but in practice the constraint is usually ___.</p>
+      <p class="zh">紙上看起來像 ___，但實務上真正的限制通常是 ___。適合談技術與量產之間的落差。</p>
+    </li>
+    <li>
+      <p class="en">The amount may be small, but the signal it sends is significant.</p>
+      <p class="zh">金額也許不大，但它釋出的訊號很重要。談政策、稅制、補貼時非常好用。</p>
+    </li>
+    <li>
+      <p class="en">I'd distinguish between ___ and ___ here — they're often lumped together, but they're not the same thing.</p>
+      <p class="zh">我想在這裡區分 ___ 和 ___，兩者常被混為一談，但其實不同。用來讓論點更精確，老師會覺得你的表達很成熟。</p>
+    </li>
+    <li>
+      <p class="en">If that timeline holds, we're looking at ___ by around ___.</p>
+      <p class="zh">如果這個時程成立，大約到 ___ 的時候我們會看到 ___。用來談產能規劃、預測。</p>
+    </li>
+  </ol>
+</div>
+
+<h2>6. Discussion 討論<span class="mins">5 min</span></h2>
+<div class="block">
+  <ol>
+    <li>
+      <p class="en">ProLogium kept the same cell architecture for fourteen years and only changed the chemistry around it. Is that conservatism a weakness, or is it exactly why they reached production first?</p>
+      <p class="zh">輝能十四年來沿用同一套電芯架構，只更動周邊的化學材料。這種保守是弱點，還是正好是他們率先量產的原因？</p>
+    </li>
+    <li>
+      <p class="en">The Taoyuan plant makes three gigawatt-hours a year. A single large Chinese battery factory can make ten times that. Does energy density matter more than scale, or is scale ultimately decisive?</p>
+      <p class="zh">桃園廠年產 3 GWh，中國一座大型電池廠的產能可能是它的十倍。能量密度比規模更重要，還是規模終究才是決勝點？</p>
+    </li>
+    <li>
+      <p class="en">China is taxing lithium-ion while exempting solid-state and sodium-ion until 2028. Some would call that smart industrial policy; others would call it the state gambling with other people's money. Which argument do you find more convincing, and why?</p>
+      <p class="zh">中國對鋰離子課稅，卻讓固態與鈉離子免稅到 2028 年。有人說這是聰明的產業政策，也有人說這是政府拿別人的錢在賭。你覺得哪個論點更有說服力？為什麼？</p>
+    </li>
+    <li>
+      <p class="en">Sixty-two dollars on a battery pack is roughly the price of a tank of fuel. Do you think consumers will notice a tax like this at all, or is it really aimed at manufacturers?</p>
+      <p class="zh">電池組多 62 美元，大約等於一箱油的價格。你覺得消費者會察覺到這種稅嗎？還是它其實是衝著製造商去的？</p>
+    </li>
+    <li>
+      <p class="en">Building a battery plant in Dunkirk means European labour costs and European energy prices. What would have to be true for that to beat simply shipping cells from Asia?</p>
+      <p class="zh">在敦克爾克蓋電池廠，意味著歐洲的人力成本與能源價格。要在什麼條件下，這才會勝過單純從亞洲運電芯過去？</p>
+    </li>
+    <li>
+      <p class="en">Taiwan already dominates advanced chips. If it also became a serious player in solid-state batteries, would that make the island more secure — or more of a target?</p>
+      <p class="zh">台灣已在先進晶片領域佔據主導地位。如果它在固態電池上也成為要角，這會讓台灣更安全，還是更成為目標？</p>
+    </li>
+  </ol>
+</div>
+
+<h2>7. Wrap-Up 總結<span class="mins">2 min</span></h2>
+<div class="block">
+  <h3>60-second summary　60 秒摘要</h3>
+  <p class="en">Try to summarise the whole story in about sixty seconds. Cover four things: what ProLogium actually started doing this week, one number that proves it is real, what China changed in its tax code, and why those two pieces of news belong in the same conversation.</p>
+  <p class="zh">試著用約六十秒總結整篇報導。涵蓋四件事：輝能這週實際開始做了什麼、哪一個數字證明這是真的、中國的稅制改了什麼，以及為什麼這兩則新聞應該放在同一個討論裡。</p>
+
+  <h3>State your own position　表達個人立場</h3>
+  <p class="en">If I had to bet on one of them, I'd bet on ___, because the constraint that really decides this is ___ — and that's the one they've already solved.</p>
+  <p class="zh">如果一定要押注其中一方，我會押 ___，因為真正決定勝負的限制是 ___，而那正是他們已經解決的部分。</p>
+</div>
+
+<h2>Source Notes　取材筆記</h2>
+<div class="block">
+  <p class="en" style="font-size:14.5pt; opacity:.8;">Notes vault path: <span class="mono">Claude code AI筆記 / raw / assets</span></p>
+  <p class="zh" style="font-size:13.5pt;">筆記庫路徑：<span class="mono">Claude code AI筆記 / raw / assets</span></p>
+  <table>
+    <thead>
+      <tr><th>Note file 筆記檔名</th><th>Original 原始出處</th><th>Used for 用於</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td data-label="Note file 筆記檔名" class="mono">2026-09-08-ProLogium-begins-series-production-of-next-generation-solid-state-batteries.md</td>
+        <td data-label="Original 原始出處">electrive · Cora Werwitzke · 2026-09-07<br><a href="https://www.electrive.com/2026/09/07/prologium-begins-series-production-of-next-generation-solid-state-batteries-in-taiwan/" target="_blank" rel="noopener">原文連結 ↗</a></td>
+        <td data-label="Used for 用於">Paragraphs 1–5: the start of Generation 3.5 series production, the TÜV Rheinland density figures, the UL Solutions vacuum test, the 2006 founding and 1,200 patents, the unchanged cell architecture, and the Taoyuan and Dunkirk capacity roadmap. Vocabulary items 1–8; numbers rows 1–9; Discussion Q1, Q2, Q5, Q6.<br><span class="zh">第 1–5 段：第 3.5 代量產、萊茵 TÜV 能量密度數據、UL Solutions 真空測試、2006 年創立與 1,200 項專利、未更動的電芯架構，以及桃園與敦克爾克產能規劃。單字第 1–8 項；數字表第 1–9 列；討論題第 1、2、5、6 題。</span></td>
+      </tr>
+      <tr>
+        <td data-label="Note file 筆記檔名" class="mono">2026-09-07-China-further-reduces-tax-incentives-for-EVs.md</td>
+        <td data-label="Original 原始出處">electrive · Jasmin Apitzsch-Krause · 2026-09-04<br><a href="https://www.electrive.com/2026/09/04/china-further-reduces-tax-incentives-for-evs/" target="_blank" rel="noopener">原文連結 ↗</a></td>
+        <td data-label="Used for 用於">Paragraphs 6–7: the 2% lithium-ion consumption tax from September 1 and its rise to 4% in 2027, the exemptions for sodium-ion, solid-state and fuel cells through 2028, the CarNewsChina cost estimate, and the halved purchase-tax break capped at ¥15,000. Vocabulary items 9–12; numbers rows 10–13; Discussion Q3, Q4.<br><span class="zh">第 6–7 段：9 月 1 日起的 2% 鋰電池消費稅及 2027 年調升至 4%、鈉離子／固態／燃料電池免稅至 2028 年、CarNewsChina 成本估算，以及減半並以人民幣 1.5 萬元為上限的購置稅優惠。單字第 9–12 項；數字表第 10–13 列；討論題第 3、4 題。</span></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<footer>
+  EV Speaking Practice · 2026-09-09 · 25 minutes<br>
+  Generated from the Obsidian notes vault　由 Obsidian 筆記庫產出
+</footer>
+
+</div>
+
+<script>
+(function () {
+  var synth = window.speechSynthesis;
+  var bar = document.getElementById('ttsbar');
+  if (!synth) {
+    bar.innerHTML = '<div id="ttshint">此瀏覽器不支援語音朗讀，請改用 Chrome、Edge 或 Safari 開啟本檔案。</div>';
+    return;
+  }
+
+  var voiceSel = document.getElementById('tts-voice');
+  var rateSel  = document.getElementById('tts-rate');
+  var voices   = [];
+  var queue    = [];
+  var qi       = 0;
+  var playing  = false;
+
+  function score(v) {
+    var n = (v.name + ' ' + (v.voiceURI || '')).toLowerCase();
+    var s = 0;
+    if (/premium|enhanced|neural|natural/.test(n)) s += 40;
+    if (/siri/.test(n)) s += 30;
+    if (/google/.test(n)) s += 25;
+    if (/samantha|ava|allison|serena|daniel|kate|arthur|evan|nathan|zoe/.test(n)) s += 12;
+    if (/compact|novelty|whisper|bells|bubbles|jester|organ|trinoids|zarvox|albert|bad news|good news/.test(n)) s -= 60;
+    if (v.lang === 'en-US') s += 6;
+    if (v.lang === 'en-GB') s += 5;
+    if (v.localService) s += 2;
+    return s;
+  }
+
+  function loadVoices() {
+    var all = synth.getVoices().filter(function (v) { return /^en[-_]/i.test(v.lang); });
+    if (!all.length) return;
+    all.sort(function (a, b) { return score(b) - score(a); });
+    voices = all;
+    voiceSel.innerHTML = '';
+    voices.forEach(function (v, i) {
+      var o = document.createElement('option');
+      o.value = i;
+      o.textContent = v.name + ' (' + v.lang + ')';
+      voiceSel.appendChild(o);
+    });
+    var saved = null;
+    try { saved = localStorage.getItem('evPracticeVoice'); } catch (e) {}
+    if (saved !== null) {
+      var idx = voices.findIndex(function (v) { return v.name === saved; });
+      if (idx > -1) voiceSel.value = idx;
+    }
+  }
+  loadVoices();
+  synth.onvoiceschanged = loadVoices;
+
+  voiceSel.addEventListener('change', function () {
+    var v = voices[voiceSel.value];
+    try { if (v) localStorage.setItem('evPracticeVoice', v.name); } catch (e) {}
+  });
+
+  function clearHighlight() {
+    var h = document.querySelector('.speaking');
+    if (h) h.classList.remove('speaking');
+  }
+
+  function stop() {
+    playing = false;
+    queue = [];
+    qi = 0;
+    synth.cancel();
+    clearHighlight();
+  }
+
+  // Chrome silently truncates any utterance longer than ~15s, so queue
+  // sentence-sized chunks instead of whole paragraphs.
+  function sentences(text) {
+    var SEP = String.fromCharCode(1);
+    var t = text.replace(/\s+/g, ' ').trim();
+    // Shield decimals/abbreviations so "86.5 percent" isn't split in two.
+    t = t.replace(/(\d)\.(\d)/g, '$1' + SEP + '$2')
+         .replace(/\b(Mr|Mrs|Ms|Dr|St|vs|etc|Inc|Ltd|Co|approx)\./gi,
+                  function (m) { return m.slice(0, -1) + SEP; })
+         .replace(/\bU\.S\./g, 'U' + SEP + 'S' + SEP);
+    var parts = t.match(/[^.!?]+[.!?]+["')\]]?|[^.!?]+$/g) || [t];
+    return parts
+      .map(function (s) { return s.split(SEP).join('.').trim(); })
+      .filter(function (s) { return /[a-zA-Z0-9]/.test(s); });
+  }
+
+  function speakNext() {
+    if (!playing || qi >= queue.length) { stop(); return; }
+    var item = queue[qi++];
+    clearHighlight();
+    if (item.el) {
+      item.el.classList.add('speaking');
+      var r = item.el.getBoundingClientRect();
+      if (r.top < 120 || r.bottom > window.innerHeight - 40) {
+        item.el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      }
+    }
+    var u = new SpeechSynthesisUtterance(item.text);
+    var v = voices[voiceSel.value];
+    if (v) { u.voice = v; u.lang = v.lang; } else { u.lang = 'en-US'; }
+    u.rate = parseFloat(rateSel.value);
+    u.pitch = 1;
+    u.onend = speakNext;
+    u.onerror = speakNext;
+    synth.speak(u);
+  }
+
+  function textOf(el) {
+    // Snapshot taken before the play glyph was injected, so it is never spoken.
+    return el.getAttribute('data-tts') || el.textContent;
+  }
+
+  function play(elements) {
+    stop();
+    queue = [];
+    elements.forEach(function (el) {
+      sentences(textOf(el)).forEach(function (s) {
+        if (s.trim()) queue.push({ el: el, text: s });
+      });
+    });
+    if (!queue.length) return;
+    playing = true;
+    qi = 0;
+    speakNext();
+  }
+
+  document.getElementById('tts-stop').addEventListener('click', stop);
+
+  document.getElementById('tts-play').addEventListener('click', function () {
+    var paras = [].slice.call(document.querySelectorAll('#article .en'));
+    play(paras);
+  });
+
+  rateSel.addEventListener('change', function () { if (playing) stop(); });
+
+  var targets = [].slice.call(document.querySelectorAll('.en'));
+  targets.forEach(function (el) {
+    el.setAttribute('data-tts', el.textContent);
+    var b = document.createElement('button');
+    b.className = 'playbtn';
+    b.type = 'button';
+    b.textContent = '▶';
+    b.setAttribute('aria-label', 'Play this sentence');
+    b.addEventListener('click', function (e) {
+      e.stopPropagation();
+      play([el]);
+    });
+    el.insertBefore(b, el.firstChild);
+  });
+
+  [].slice.call(document.querySelectorAll('table tr')).forEach(function (tr) {
+    var cells = tr.querySelectorAll('td');
+    if (cells.length < 2) return;
+    var last = cells[cells.length - 1];
+    if (!/[a-zA-Z]/.test(last.textContent)) return;
+    last.style.cursor = 'pointer';
+    last.title = 'Click to hear it 點一下聽發音';
+    last.addEventListener('click', function () { play([last]); });
+  });
+
+  window.addEventListener('beforeunload', function () { synth.cancel(); });
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>EV Speaking Practice 2026-10-13 · Japan's Kei EV Battle</title>
+<style>
+  :root { --bg:#0C2A65; --fg:#FFFFFF; --accent:#7FB3FF; --line:rgba(127,179,255,.35); }
+  * { box-sizing:border-box; }
+  html { -webkit-text-size-adjust:100%; }
+  body { margin:0; background:var(--bg); color:var(--fg); font-size:20pt; line-height:1.55;
+         font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Helvetica Neue","PingFang TC","Noto Sans TC","Microsoft JhengHei",Arial,sans-serif; }
+  .wrap { max-width:980px; margin:0 auto; padding:28px 22px 60px; }
+  h1 { font-size:1.55em; line-height:1.25; margin:0 0 6px; }
+  h1 small { display:block; font-size:.62em; font-weight:400; opacity:.8; margin-top:6px; }
+  h2 { font-size:1.2em; margin:44px 0 14px; padding-left:14px; border-left:8px solid var(--accent); line-height:1.3; }
+  h2 .t { color:var(--accent); font-size:.7em; font-weight:700; margin-left:10px; white-space:nowrap; }
+  h2 small { display:block; font-size:.65em; font-weight:400; opacity:.78; }
+  p { margin:0; }
+  .en { margin:14px 0 2px; }
+  .zh { font-size:.82em; opacity:.8; margin:0 0 16px; }
+  .meta { color:var(--accent); font-size:.7em; }
+  .plan { border:1px solid var(--line); border-radius:10px; padding:16px 20px; margin:20px 0; background:rgba(255,255,255,.04); }
+  .plan h3 { margin:0 0 8px; font-size:.9em; color:var(--accent); }
+  .plan ol { margin:0; padding-left:1.4em; font-size:.8em; }
+  .plan li { margin:3px 0; }
+  .plan .t { color:var(--accent); font-weight:700; }
+  .block { margin:0 0 10px; }
+  .q { padding:6px 0; border-bottom:1px dashed var(--line); }
+  table { width:100%; border-collapse:collapse; margin:12px 0 8px; font-size:.78em; }
+  th { text-align:left; color:var(--accent); border-bottom:2px solid var(--accent); padding:8px 10px; font-weight:700; }
+  td { vertical-align:top; padding:10px; border-bottom:1px solid var(--line); }
+  td .zh { font-size:.85em; margin:2px 0 0; }
+  td .en { margin:0; }
+  .tablewrap { overflow-x:auto; -webkit-overflow-scrolling:touch; }
+  .ipa { color:var(--accent); font-size:.9em; }
+  code, .mono { font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace; font-size:.8em; word-break:break-all; }
+  a { color:var(--accent); }
+  .note { font-size:.78em; margin-bottom:6px; }
+  footer { margin-top:50px; padding-top:16px; border-top:1px solid var(--line); font-size:.62em; opacity:.7; }
+  @media (max-width:640px) {
+    body { font-size:16pt; }
+    .wrap { padding:18px 14px 50px; }
+    table { font-size:.82em; }
+    th, td { padding:7px 6px; }
+  }
+
+  /* ---- Text-to-speech controls ---- */
+  #ttsbar {
+    position:sticky; top:0; z-index:50;
+    background:rgba(12,42,101,.96); backdrop-filter:blur(6px);
+    border:1px solid var(--line); border-radius:10px;
+    padding:14px 18px; margin:0 0 8px;
+    display:flex; flex-wrap:wrap; gap:10px 14px; align-items:center;
+    font-size:14pt;
+  }
+  #ttsbar label { opacity:.75; letter-spacing:.04em; }
+  #ttsbar button {
+    font:inherit; font-size:14pt; font-weight:700;
+    color:var(--bg); background:var(--accent);
+    border:none; border-radius:6px; padding:8px 16px; cursor:pointer;
+  }
+  #ttsbar button.ghost { background:transparent; color:var(--accent); border:1px solid var(--accent); }
+  #ttsbar button:hover { opacity:.85; }
+  #ttsbar select {
+    font:inherit; font-size:14pt;
+    color:var(--fg); background:#123573;
+    border:1px solid var(--line); border-radius:6px; padding:7px 10px; max-width:260px;
+  }
+  #ttshint { flex-basis:100%; font-size:12.5pt; opacity:.6; line-height:1.5; }
+  .playbtn {
+    font:inherit; font-size:13pt; line-height:1;
+    color:var(--accent); background:transparent;
+    border:1px solid rgba(127,179,255,.5); border-radius:5px;
+    padding:4px 9px; margin-right:10px; cursor:pointer; vertical-align:middle;
+  }
+  .playbtn:hover { background:rgba(127,179,255,.16); }
+  .speaking {
+    background:rgba(127,179,255,.17);
+    box-shadow:0 0 0 8px rgba(127,179,255,.17);
+    border-radius:3px;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<h1>EV Speaking Practice 電動車英文口說練習
+  <small>Today's topic: Can BYD Crack Japan's Kei-Car Market? 今日主題：比亞迪能攻下日本輕型車市場嗎？</small>
+  <small class="meta">2026-10-13 · 25 minutes 25 分鐘</small></h1>
+
+<div class="plan">
+  <h3>Session Plan 本次練習計畫（25 min）</h3>
+  <ol>
+    <li>Warm-Up 暖身 <span class="t">3 min</span></li>
+    <li>Read Aloud 朗讀短文 <span class="t">6 min</span></li>
+    <li>Key Vocabulary 關鍵單字 <span class="t">4 min</span></li>
+    <li>Saying the Numbers 數字唸法 <span class="t">2 min</span></li>
+    <li>Useful Expressions 實用句型 <span class="t">3 min</span></li>
+    <li>Discussion 討論題 <span class="t">5 min</span></li>
+    <li>Wrap-Up 總結 <span class="t">2 min</span></li>
+  </ol>
+</div>
+
+<div id="ttsbar">
+  <button id="tts-play">▶ Read the article 朗讀全文</button>
+  <button id="tts-stop" class="ghost">■ Stop 停止</button>
+  <label for="tts-voice">Voice</label>
+  <select id="tts-voice"></select>
+  <label for="tts-rate">Speed</label>
+  <select id="tts-rate">
+    <option value="0.75">0.75× 慢</option>
+    <option value="0.9" selected>0.9× 稍慢</option>
+    <option value="1">1.0× 正常</option>
+    <option value="1.15">1.15× 快</option>
+  </select>
+  <div id="ttshint">每個英文段落左邊都有 ▶ 可單獨播放；正在唸的句子會反白。想要更自然的聲音：macOS「系統設定 → 輔助使用 → 朗讀內容 → 系統聲音」下載 Enhanced／Premium 或 Siri 語音，再回來從上面的 Voice 選單選取。</div>
+</div>
+
+<h2>1. Warm-Up 暖身 <span class="t">3 min</span></h2>
+<div class="block">
+  <div class="q"><p class="en">Would you buy a very small, cheap electric car for city driving? Why or why not?</p><p class="zh">你會買一輛很小、很便宜的電動車來在城市裡開嗎？為什麼？</p></div>
+  <div class="q"><p class="en">In your country, do people prefer local car brands, or are they open to foreign ones?</p><p class="zh">在你的國家，大家偏好本土品牌，還是願意接受外國品牌？</p></div>
+  <div class="q"><p class="en">What matters most to you when you choose a car: price, range, brand, or reliability?</p><p class="zh">挑選汽車時，你最在意什麼：價格、續航力、品牌，還是可靠度？</p></div>
+</div>
+
+<h2>2. Read Aloud 朗讀短文 <span class="t">6 min</span></h2>
+<div class="block" id="article">
+  <p class="en">Japan has long been a graveyard for foreign carmakers. General Motors, Ford and Hyundai all gave up on the market after failing to win over loyal local buyers.</p>
+  <p class="zh">日本長期以來是外國車廠的墳場。通用、福特和現代汽車都因為無法打動忠誠的本地消費者而退出市場。</p>
+  <p class="en">Now BYD wants to break that curse. This summer it unveiled the Racco, a small electric kei car designed for Japan's narrow streets, and it collected more than a thousand orders within weeks.</p>
+  <p class="zh">現在比亞迪想打破這個魔咒。今年夏天它發表了專為日本窄路設計的小型電動輕型車 Racco，短短幾週就收到超過一千張訂單。</p>
+  <p class="en">The target is smart. In 2025, Japan sold more than 1.6 million kei cars and trucks, over a third of all new vehicles, and Honda, Suzuki and Daihatsu together hold about 80 percent of that segment.</p>
+  <p class="zh">這個目標很聰明。2025 年日本賣出超過 160 萬輛輕型轎車與卡車，占新車總銷量三分之一以上，而本田、鈴木和大發合計掌握該級距約八成市占。</p>
+  <p class="en">But the road is rough. After a ¥150,000 subsidy, the Racco costs about two million yen, or roughly 12,600 dollars, and Tokyo has reportedly raised subsidies for Japanese, European and American models while cutting them for BYD.</p>
+  <p class="zh">但前路崎嶇。扣除 15 萬日圓補助後，Racco 約 200 萬日圓，也就是大約 12,600 美元；據報日本政府提高了日、歐、美系車款的補助，卻砍了比亞迪的補助。</p>
+  <p class="en">Then Suzuki struck back. Its e SKY goes on sale on November 16 at 2.12 million yen, even cheaper than the Racco, with a range of 310 kilometers, and it uses an LFP battery supplied by BYD itself.</p>
+  <p class="zh">接著鈴木反擊。e SKY 將於 11 月 16 日開賣，定價 212 萬日圓，比 Racco 還便宜，續航 310 公里，而且使用的是比亞迪自己供應的磷酸鐵鋰電池。</p>
+  <p class="en">The stakes are high because only 3.9 percent of new cars in Japan were electric in August, compared with 29 percent in Europe and 43 percent in China. If a car can finally match the price of a gasoline model, that could change the market.</p>
+  <p class="zh">賭注很大，因為 8 月日本新車只有 3.9% 是純電車，歐洲是 29%，中國則高達 43%。如果有一款車終於能和燃油車價格相當，市場可能就此改變。</p>
+</div>
+
+<h2>3. Key Vocabulary 關鍵單字 <span class="t">4 min</span></h2>
+<div class="tablewrap">
+<table>
+  <thead><tr><th>Word 單字</th><th>IPA 音標</th><th>Meaning 中文意思</th><th>Example 例句</th></tr></thead>
+  <tbody>
+    <tr><td>kei car</td><td class="ipa">/keɪ kɑːr/</td><td>輕型車（日本最小的法規級距）<div class="zh">例句：日本人在狹窄巷弄裡特別愛開輕型車。</div></td><td class="en">Kei cars are popular in Japan because they fit narrow streets and cost less to own.</td></tr>
+    <tr><td>subsidy</td><td class="ipa">/ˈsʌbsɪdi/</td><td>補助金<div class="zh">例句：這筆補助讓價格降到一般人買得起的程度。</div></td><td class="en">The subsidy brought the price down to a level many families could afford.</td></tr>
+    <tr><td>loyalty</td><td class="ipa">/ˈlɔɪəlti/</td><td>忠誠度<div class="zh">例句：品牌忠誠度是外國車廠最大的障礙。</div></td><td class="en">Brand loyalty is the biggest obstacle for foreign carmakers in Japan.</td></tr>
+    <tr><td>protectionism</td><td class="ipa">/prəˈtekʃənɪzəm/</td><td>保護主義<div class="zh">例句：保護主義政策可能讓外國對手處於劣勢。</div></td><td class="en">Critics say protectionism puts foreign competitors at a clear disadvantage.</td></tr>
+    <tr><td>threshold</td><td class="ipa">/ˈθreʃhoʊld/</td><td>門檻、臨界點<div class="zh">例句：一萬美元是許多日本買家的心理價格門檻。</div></td><td class="en">Ten thousand dollars is the psychological threshold for many Japanese buyers.</td></tr>
+    <tr><td>range</td><td class="ipa">/reɪndʒ/</td><td>續航里程<div class="zh">例句：這款車的續航力足以應付一週的通勤。</div></td><td class="en">With a range of 310 kilometers, it easily covers a week of commuting.</td></tr>
+    <tr><td>LFP battery</td><td class="ipa">/el ef piː ˈbætəri/</td><td>磷酸鐵鋰電池<div class="zh">例句：LFP 電池比較便宜，而且更耐用。</div></td><td class="en">LFP batteries are cheaper and last longer than many other chemistries.</td></tr>
+    <tr><td>penetration</td><td class="ipa">/ˌpenəˈtreɪʃən/</td><td>（市場）普及率<div class="zh">例句：日本的電動車普及率仍遠低於歐洲。</div></td><td class="en">EV penetration in Japan is still far lower than in Europe.</td></tr>
+    <tr><td>hybrid</td><td class="ipa">/ˈhaɪbrɪd/</td><td>油電混合車<div class="zh">例句：許多日本駕駛認為油電車更務實。</div></td><td class="en">Many Japanese drivers see hybrids as the more practical choice.</td></tr>
+    <tr><td>dealership</td><td class="ipa">/ˈdiːlərʃɪp/</td><td>經銷商、銷售據點<div class="zh">例句：比亞迪正在日本各地快速增設銷售據點。</div></td><td class="en">BYD is opening dealerships across Japan to be closer to customers.</td></tr>
+    <tr><td>profit margin</td><td class="ipa">/ˈprɑːfɪt ˈmɑːrdʒɪn/</td><td>利潤率<div class="zh">例句：削價競爭會壓縮廠商的利潤。</div></td><td class="en">A price war can squeeze the profit margin of even the biggest companies.</td></tr>
+    <tr><td>undercut</td><td class="ipa">/ˌʌndərˈkʌt/</td><td>以更低價格擊敗（對手）<div class="zh">例句：鈴木用比亞迪自己的電池，價格還比它更低。</div></td><td class="en">Suzuki managed to undercut BYD while using BYD's own battery cells.</td></tr>
+  </tbody>
+</table>
+</div>
+
+<h2>4. Saying the Numbers 數字唸法 <span class="t">2 min</span></h2>
+<div class="tablewrap">
+<table>
+  <thead><tr><th>Number 數字</th><th>Context 情境</th><th>How to say it 英文唸法</th></tr></thead>
+  <tbody>
+    <tr><td>1.6 million</td><td>Kei vehicles sold in Japan, 2025<div class="zh">2025 年日本輕型車銷量</div></td><td class="en">One point six million</td></tr>
+    <tr><td>80%</td><td>Share held by Honda, Suzuki and Daihatsu<div class="zh">本田、鈴木、大發合計市占</div></td><td class="en">Eighty percent</td></tr>
+    <tr><td>¥2,000,000 (about $12,600)</td><td>Racco price after subsidy<div class="zh">Racco 補助後價格</div></td><td class="en">Two million yen, or about twelve thousand six hundred dollars</td></tr>
+    <tr><td>¥150,000</td><td>Subsidy deducted from the Racco<div class="zh">Racco 的補助金額</div></td><td class="en">One hundred fifty thousand yen</td></tr>
+    <tr><td>¥2.12 million</td><td>Suzuki e SKY starting price<div class="zh">鈴木 e SKY 起價</div></td><td class="en">Two point one two million yen</td></tr>
+    <tr><td>310 km</td><td>e SKY driving range<div class="zh">e SKY 續航里程</div></td><td class="en">Three hundred ten kilometers</td></tr>
+    <tr><td>¥568,000</td><td>Maximum possible e SKY subsidy<div class="zh">e SKY 可能的最高補助</div></td><td class="en">Five hundred sixty-eight thousand yen</td></tr>
+    <tr><td>3.9% / 29% / 43%</td><td>EV share of new cars: Japan, Europe, China (Aug 2026)<div class="zh">2026 年 8 月純電車占新車比例：日本、歐洲、中國</div></td><td class="en">Three point nine percent, twenty-nine percent, and forty-three percent</td></tr>
+    <tr><td>about 7,400</td><td>BYD cars sold in Japan since 2023<div class="zh">比亞迪 2023 年以來在日累計銷量</div></td><td class="en">About seven thousand four hundred</td></tr>
+    <tr><td>77 / 56</td><td>BYD sales outlets / authorized dealers in Japan<div class="zh">比亞迪在日銷售據點／官方授權經銷商</div></td><td class="en">Seventy-seven outlets, fifty-six of them authorized dealers</td></tr>
+  </tbody>
+</table>
+</div>
+
+<h2>5. Useful Expressions 實用句型 <span class="t">3 min</span></h2>
+<div class="block">
+  <p class="en">The main obstacle is ______, not ______.</p>
+  <p class="zh">主要的障礙是＿＿＿，而不是＿＿＿。（例：The main obstacle is brand loyalty, not technology.）</p>
+  <p class="en">It all comes down to whether ______.</p>
+  <p class="zh">說到底，關鍵在於是否＿＿＿。（例：It all comes down to whether buyers trust the brand.）</p>
+  <p class="en">On the one hand, ______. On the other hand, ______.</p>
+  <p class="zh">一方面＿＿＿，另一方面＿＿＿。（用於陳述雙方論點）</p>
+  <p class="en">That might change the game if ______.</p>
+  <p class="zh">如果＿＿＿，這可能會改變遊戲規則。（例：That might change the game if prices match gasoline cars.）</p>
+  <p class="en">I'd argue that ______, mainly because ______.</p>
+  <p class="zh">我認為＿＿＿，主要是因為＿＿＿。（表達立場並說明理由）</p>
+</div>
+
+<h2>6. Discussion 討論題 <span class="t">5 min</span></h2>
+<div class="block">
+  <div class="q"><p class="en">Why do you think foreign carmakers have struggled in Japan for so long? Is it culture, taste, or policy?</p><p class="zh">你覺得外國車廠為什麼長期在日本吃力？是文化、品味，還是政策？</p></div>
+  <div class="q"><p class="en">Some say Japan's subsidy changes protect local industry; others say they are unfair trade barriers. Which side do you find more convincing?</p><p class="zh">有人說日本調整補助是在保護本土產業；也有人說這是不公平的貿易障礙。你覺得哪一方更有說服力？</p></div>
+  <div class="q"><p class="en">Suzuki beat BYD on price using BYD's own LFP battery. What does that tell us about the global EV supply chain?</p><p class="zh">鈴木用比亞迪自己的 LFP 電池，在價格上擊敗了比亞迪。這告訴我們全球電動車供應鏈什麼事？</p></div>
+  <div class="q"><p class="en">Is 1.6 million yen, roughly ten thousand dollars, a realistic psychological price barrier? What would make you switch to an EV?</p><p class="zh">大約一萬美元的價格，真的是消費者心理門檻嗎？什麼條件會讓你改買電動車？</p></div>
+  <div class="q"><p class="en">Japan's EV share is only 3.9 percent. Would hybrids be a better path for Japan than going fully electric?</p><p class="zh">日本純電車占比只有 3.9%。對日本來說，走油電混合會不會比全面電動化更好？</p></div>
+  <div class="q"><p class="en">Do you think a small kei-style EV could work in your own country's cities? What would need to change?</p><p class="zh">你覺得輕型電動小車在你自己國家的城市行得通嗎？需要改變什麼？</p></div>
+</div>
+
+<h2>7. Wrap-Up 總結 <span class="t">2 min</span></h2>
+<div class="block">
+  <p class="en">Give a sixty-second summary: What is BYD trying to do in Japan, what stands in its way, and what did Suzuki's e SKY change?</p>
+  <p class="zh">用 60 秒做摘要：比亞迪在日本想做什麼？有哪些阻礙？鈴木 e SKY 又改變了什麼？</p>
+  <p class="en">Finish with one sentence of your own opinion: "Personally, I think ______, because ______."</p>
+  <p class="zh">最後用一句話說出你的立場：「就我個人而言，我認為＿＿＿，因為＿＿＿。」</p>
+</div>
+
+<h2>Source Notes　取材筆記</h2>
+<p class="en note">Notes folder: <span class="mono">Claude code AI筆記 / raw / assets</span></p>
+<p class="zh">筆記庫路徑：<span class="mono">Claude code AI筆記 / raw / assets</span></p>
+<div class="tablewrap">
+<table>
+  <thead><tr><th>Note file 筆記檔名</th><th>Original 原始出處</th><th>Used for 用於</th></tr></thead>
+  <tbody>
+    <tr>
+      <td><code>2026-10-07-比亞迪首款純電K-Car強攻豐田主場　能攻破日本鐵板.md</code></td>
+      <td>Digitimes CarTech · 2026-10-07<br><a href="https://www.digitimes.com.tw/" target="_blank" rel="noopener">digitimes.com.tw</a><div class="zh">（筆記未附單篇網址，連結為媒體首頁；標題：比亞迪首款純電K-Car強攻豐田主場　能攻破日本鐵板？）</div></td>
+      <td><div>Racco launch, 1,000+ orders, kei market of 1.6M units (80% share), subsidy cuts, ¥2.0M price, 7,400 cars sold since 2023, 77 outlets / 56 dealers.</div><div class="zh">Racco 發表與千張訂單、160 萬輛輕型車市場與八成集中度、補助差異、200 萬日圓定價、累計銷量 7,400 輛、77 據點／56 經銷商。</div></td>
+    </tr>
+    <tr>
+      <td><code>2026-10-07-拚日本車市最低價BEV　鈴木e SKY含補助有望低於1萬美元.md</code></td>
+      <td>Digitimes CarTech · 2026-10-07 (citing Nikkei)<br><a href="https://www.digitimes.com.tw/" target="_blank" rel="noopener">digitimes.com.tw</a><div class="zh">（筆記未附單篇網址，連結為媒體首頁；標題：拚日本車市最低價BEV　鈴木e SKY含補助有望低於1萬美元）</div></td>
+      <td><div>e SKY price ¥2.12M, 310 km range, BYD LFP cells, Nov 16 launch, competitor prices, ¥568,000 maximum subsidy, BEV share 3.9% vs 29% vs 43%.</div><div class="zh">e SKY 212 萬日圓定價、310 公里續航、比亞迪 LFP 電池、11 月 16 日上市、競品價格、最高 56.8 萬日圓補助、純電車占比 3.9%／29%／43%。</div></td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+<footer>
+  Generated 2026-10-13 for Claude Yeh · EV speaking practice, 25 minutes · 英文口說練習 25 分鐘
+</footer>
+</div>
+
+<script>
+(function () {
+  var synth = window.speechSynthesis;
+  var bar = document.getElementById('ttsbar');
+  if (!synth) {
+    bar.innerHTML = '<div id="ttshint">此瀏覽器不支援語音朗讀，請改用 Chrome、Edge 或 Safari 開啟本檔案。</div>';
+    return;
+  }
+
+  var voiceSel = document.getElementById('tts-voice');
+  var rateSel  = document.getElementById('tts-rate');
+  var voices   = [];
+  var queue    = [];
+  var qi       = 0;
+  var playing  = false;
+
+  function score(v) {
+    var n = (v.name + ' ' + (v.voiceURI || '')).toLowerCase();
+    var s = 0;
+    if (/premium|enhanced|neural|natural/.test(n)) s += 40;
+    if (/siri/.test(n)) s += 30;
+    if (/google/.test(n)) s += 25;
+    if (/samantha|ava|allison|serena|daniel|kate|arthur|evan|nathan|zoe/.test(n)) s += 12;
+    if (/compact|novelty|whisper|bells|bubbles|jester|organ|trinoids|zarvox|albert|bad news|good news/.test(n)) s -= 60;
+    if (v.lang === 'en-US') s += 6;
+    if (v.lang === 'en-GB') s += 5;
+    if (v.localService) s += 2;
+    return s;
+  }
+
+  function loadVoices() {
+    var all = synth.getVoices().filter(function (v) { return /^en[-_]/i.test(v.lang); });
+    if (!all.length) return;
+    all.sort(function (a, b) { return score(b) - score(a); });
+    voices = all;
+    voiceSel.innerHTML = '';
+    voices.forEach(function (v, i) {
+      var o = document.createElement('option');
+      o.value = i;
+      o.textContent = v.name + ' (' + v.lang + ')';
+      voiceSel.appendChild(o);
+    });
+    var saved = null;
+    try { saved = localStorage.getItem('evPracticeVoice'); } catch (e) {}
+    if (saved !== null) {
+      var idx = voices.findIndex(function (v) { return v.name === saved; });
+      if (idx > -1) voiceSel.value = idx;
+    }
+  }
+  loadVoices();
+  synth.onvoiceschanged = loadVoices;
+
+  voiceSel.addEventListener('change', function () {
+    var v = voices[voiceSel.value];
+    try { if (v) localStorage.setItem('evPracticeVoice', v.name); } catch (e) {}
+  });
+
+  function clearHighlight() {
+    var h = document.querySelector('.speaking');
+    if (h) h.classList.remove('speaking');
+  }
+
+  function stop() {
+    playing = false;
+    queue = [];
+    qi = 0;
+    synth.cancel();
+    clearHighlight();
+  }
+
+  // Chrome silently truncates any utterance longer than ~15s, so queue
+  // sentence-sized chunks instead of whole paragraphs.
+  function sentences(text) {
+    var SEP = String.fromCharCode(1);
+    var t = text.replace(/\s+/g, ' ').trim();
+    // Shield decimals/abbreviations so "86.5 percent" isn't split in two.
+    t = t.replace(/(\d)\.(\d)/g, '$1' + SEP + '$2')
+         .replace(/\b(Mr|Mrs|Ms|Dr|St|vs|etc|Inc|Ltd|Co|approx)\./gi,
+                  function (m) { return m.slice(0, -1) + SEP; })
+         .replace(/\bU\.S\./g, 'U' + SEP + 'S' + SEP);
+    var parts = t.match(/[^.!?]+[.!?]+["')\]]?|[^.!?]+$/g) || [t];
+    return parts
+      .map(function (s) { return s.split(SEP).join('.').trim(); })
+      .filter(function (s) { return /[a-zA-Z0-9]/.test(s); });
+  }
+
+  function speakNext() {
+    if (!playing || qi >= queue.length) { stop(); return; }
+    var item = queue[qi++];
+    clearHighlight();
+    if (item.el) {
+      item.el.classList.add('speaking');
+      var r = item.el.getBoundingClientRect();
+      if (r.top < 120 || r.bottom > window.innerHeight - 40) {
+        item.el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      }
+    }
+    var u = new SpeechSynthesisUtterance(item.text);
+    var v = voices[voiceSel.value];
+    if (v) { u.voice = v; u.lang = v.lang; } else { u.lang = 'en-US'; }
+    u.rate = parseFloat(rateSel.value);
+    u.pitch = 1;
+    u.onend = speakNext;
+    u.onerror = speakNext;
+    synth.speak(u);
+  }
+
+  function textOf(el) {
+    // Snapshot taken before the play glyph was injected, so it is never spoken.
+    return el.getAttribute('data-tts') || el.textContent;
+  }
+
+  function play(elements) {
+    stop();
+    queue = [];
+    elements.forEach(function (el) {
+      sentences(textOf(el)).forEach(function (s) {
+        if (s.trim()) queue.push({ el: el, text: s });
+      });
+    });
+    if (!queue.length) return;
+    playing = true;
+    qi = 0;
+    speakNext();
+  }
+
+  document.getElementById('tts-stop').addEventListener('click', stop);
+
+  document.getElementById('tts-play').addEventListener('click', function () {
+    var paras = [].slice.call(document.querySelectorAll('#article .en'));
+    play(paras);
+  });
+
+  rateSel.addEventListener('change', function () { if (playing) stop(); });
+
+  var targets = [].slice.call(document.querySelectorAll('.en'));
+  targets.forEach(function (el) {
+    el.setAttribute('data-tts', el.textContent);
+    var b = document.createElement('button');
+    b.className = 'playbtn';
+    b.type = 'button';
+    b.textContent = '▶';
+    b.setAttribute('aria-label', 'Play this sentence');
+    b.addEventListener('click', function (e) {
+      e.stopPropagation();
+      play([el]);
+    });
+    el.insertBefore(b, el.firstChild);
+  });
+
+  [].slice.call(document.querySelectorAll('table tr')).forEach(function (tr) {
+    var cells = tr.querySelectorAll('td');
+    if (cells.length < 2) return;
+    var last = cells[cells.length - 1];
+    if (!/[a-zA-Z]/.test(last.textContent)) return;
+    last.style.cursor = 'pointer';
+    last.title = 'Click to hear it 點一下聽發音';
+    last.addEventListener('click', function () { play([last]); });
+  });
+
+  window.addEventListener('beforeunload', function () { synth.cancel(); });
+})();
+</script>
+</body>
+</html>

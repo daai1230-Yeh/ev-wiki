@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EV Speaking Practice — 2026-09-16 · China's 70% Target vs. Toyota's Self-Driving Catch-Up</title>
+<style>
+  :root {
+    --bg: #0C2A65;
+    --fg: #FFFFFF;
+    --accent: #7FB3FF;
+    --line: rgba(127,179,255,.35);
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--fg);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, "PingFang TC", "Microsoft JhengHei", sans-serif;
+    font-size: 20pt;
+    line-height: 1.6;
+  }
+  .wrap {
+    max-width: 860px;
+    margin: 0 auto;
+    padding: 28px 22px 60px;
+  }
+  header.title-block {
+    margin-bottom: 18px;
+  }
+  h1 {
+    font-size: 1.5em;
+    margin: 0 0 6px;
+    padding-left: 16px;
+    border-left: 6px solid var(--accent);
+  }
+  .subtitle {
+    padding-left: 16px;
+    font-size: .55em;
+    opacity: .8;
+  }
+  h2 {
+    font-size: 1.1em;
+    margin: 34px 0 14px;
+    padding-left: 14px;
+    border-left: 6px solid var(--accent);
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  .timebadge {
+    font-size: .55em;
+    color: var(--accent);
+    font-weight: 700;
+    letter-spacing: .03em;
+  }
+  .plan {
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    padding: 16px 20px;
+    margin: 0 0 20px;
+    font-size: .62em;
+  }
+  .plan table { width: 100%; border-collapse: collapse; }
+  .plan td { padding: 4px 6px; }
+  .plan td.min { color: var(--accent); font-weight: 700; white-space: nowrap; width: 90px; }
+  .block {
+    margin-bottom: 16px;
+  }
+  p.en { margin: 0 0 4px; }
+  p.zh { margin: 0 0 16px; font-size: .78em; opacity: .72; }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 10px 0 20px;
+    font-size: .7em;
+  }
+  th, td {
+    border: 1px solid var(--line);
+    padding: 10px 12px;
+    text-align: left;
+    vertical-align: top;
+  }
+  th {
+    background: rgba(127,179,255,.16);
+    color: var(--accent);
+  }
+  .mono { font-family: "SF Mono", Consolas, Menlo, monospace; font-size: .95em; }
+  ol, ul { padding-left: 1.3em; }
+  ol li, ul li { margin-bottom: 14px; }
+  a { color: var(--accent); }
+  footer {
+    margin-top: 40px;
+    padding-top: 16px;
+    border-top: 1px solid var(--line);
+    font-size: .55em;
+    opacity: .6;
+  }
+  .sourcepath { font-size: .68em; margin-bottom: 10px; }
+
+  /* ---- Text-to-speech controls ---- */
+  #ttsbar {
+    position:sticky; top:0; z-index:50;
+    background:rgba(12,42,101,.96); backdrop-filter:blur(6px);
+    border:1px solid var(--line); border-radius:10px;
+    padding:14px 18px; margin:0 0 8px;
+    display:flex; flex-wrap:wrap; gap:10px 14px; align-items:center;
+    font-size:14pt;
+  }
+  #ttsbar label { opacity:.75; letter-spacing:.04em; }
+  #ttsbar button {
+    font:inherit; font-size:14pt; font-weight:700;
+    color:var(--bg); background:var(--accent);
+    border:none; border-radius:6px; padding:8px 16px; cursor:pointer;
+  }
+  #ttsbar button.ghost { background:transparent; color:var(--accent); border:1px solid var(--accent); }
+  #ttsbar button:hover { opacity:.85; }
+  #ttsbar select {
+    font:inherit; font-size:14pt;
+    color:var(--fg); background:#123573;
+    border:1px solid var(--line); border-radius:6px; padding:7px 10px; max-width:260px;
+  }
+  #ttshint { flex-basis:100%; font-size:12.5pt; opacity:.6; line-height:1.5; }
+  .playbtn {
+    font:inherit; font-size:13pt; line-height:1;
+    color:var(--accent); background:transparent;
+    border:1px solid rgba(127,179,255,.5); border-radius:5px;
+    padding:4px 9px; margin-right:10px; cursor:pointer; vertical-align:middle;
+  }
+  .playbtn:hover { background:rgba(127,179,255,.16); }
+  .speaking {
+    background:rgba(127,179,255,.17);
+    box-shadow:0 0 0 8px rgba(127,179,255,.17);
+    border-radius:3px;
+  }
+
+  @media (max-width: 600px) {
+    body { font-size: 16pt; }
+    .wrap { padding: 18px 14px 40px; }
+    table { font-size: .68em; }
+    th, td { padding: 8px 8px; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header class="title-block">
+    <h1>EV Speaking Practice — 2026-09-16</h1>
+    <div class="subtitle">China's 70% NEV Target vs. Toyota's Self-Driving Catch-Up　中國新能源車70%目標 對比 豐田自駕追趕戰</div>
+  </header>
+
+  <div class="plan">
+    <table>
+      <tr><td class="min">3 min</td><td>1. Warm-Up 暖身</td></tr>
+      <tr><td class="min">6 min</td><td>2. Read Aloud 朗讀短文</td></tr>
+      <tr><td class="min">4 min</td><td>3. Key Vocabulary 關鍵單字</td></tr>
+      <tr><td class="min">2 min</td><td>4. Saying the Numbers 數字唸法</td></tr>
+      <tr><td class="min">3 min</td><td>5. Useful Expressions 實用句型</td></tr>
+      <tr><td class="min">5 min</td><td>6. Discussion 討論題</td></tr>
+      <tr><td class="min">2 min</td><td>7. Wrap-Up 總結</td></tr>
+    </table>
+  </div>
+
+  <div id="ttsbar">
+    <button id="tts-play">▶ Read the article 朗讀全文</button>
+    <button id="tts-stop" class="ghost">■ Stop 停止</button>
+    <label for="tts-voice">Voice</label>
+    <select id="tts-voice"></select>
+    <label for="tts-rate">Speed</label>
+    <select id="tts-rate">
+      <option value="0.75">0.75× 慢</option>
+      <option value="0.9" selected>0.9× 稍慢</option>
+      <option value="1">1.0× 正常</option>
+      <option value="1.15">1.15× 快</option>
+    </select>
+    <div id="ttshint">每個英文段落左邊都有 ▶ 可單獨播放；正在唸的句子會反白。想要更自然的聲音：macOS「系統設定 → 輔助使用 → 朗讀內容 → 系統聲音」下載 Enhanced／Premium 或 Siri 語音，再回來從上面的 Voice 選單選取。</div>
+  </div>
+
+  <h2>1. Warm-Up 暖身</h2>
+  <ol>
+    <li>
+      <p class="en">What's the last piece of car or EV news that caught your attention, and what stuck with you about it?</p>
+      <p class="zh">你最近注意到的一則汽車或電動車新聞是什麼？哪個部分讓你印象深刻？</p>
+    </li>
+    <li>
+      <p class="en">If your government announced a ten-year plan to make one industry the best in the world, which industry would you want them to pick?</p>
+      <p class="zh">如果你的政府宣布一項十年計畫，要讓某個產業成為世界第一，你希望他們選擇哪個產業？</p>
+    </li>
+    <li>
+      <p class="en">Do you feel like fully self-driving cars are getting closer to everyday reality, or do they still feel far away to you?</p>
+      <p class="zh">你覺得完全自動駕駛的汽車離日常生活越來越近了嗎，還是感覺依然很遙遠？</p>
+    </li>
+  </ol>
+
+  <h2>2. Read Aloud 朗讀短文</h2>
+  <div class="block" id="article">
+    <p class="en">China's central government has just laid out its clearest roadmap yet for the auto industry: under the newly announced fifteenth five-year plan, the country wants new energy vehicles, meaning battery-electric and hybrid models, to make up seventy percent of all new passenger car sales by 2030.</p>
+    <p class="zh">中國政府最近公布了汽車產業目前最明確的路線圖：在新發布的「十五五」規劃下，官方希望到2030年，新能源車（也就是電動車與混合動力車）能佔新車乘用車銷量的70%。</p>
+
+    <p class="en">The plan was drafted jointly by nine separate government departments, and it doesn't stop at passenger cars. Commercial vehicles, trucks and buses, for instance, are expected to reach a forty percent electrification rate over the same period, alongside a broader push to roll out highly autonomous vehicles on highways, city expressways, and even certain downtown streets.</p>
+    <p class="zh">這項規劃由九個政府部門共同擬定，範圍不只限於乘用車。以商用車（例如卡車與巴士）為例，同一時期的電動化比例目標訂在40%，同時也將推動高度自駕能力的車輛上路，範圍涵蓋高速公路、城市快速道路，甚至部分市區道路。</p>
+
+    <p class="en">On paper, China already dominates the numbers: BYD, SAIC, and Geely all ranked among the world's top ten automakers by sales volume in 2025. But officials openly admit that scale hasn't yet translated into the kind of global brand power held by Toyota, Volkswagen, or Hyundai, which is part of why this new plan pushes so hard for a handful of Chinese carmakers to become true global leaders.</p>
+    <p class="zh">單看數字，中國車廠早已名列前茅：比亞迪、上汽集團與吉利汽車在2025年的銷量都擠進全球前十大。但官方也坦言，銷量規模尚未轉化為豐田、福斯或現代那樣的全球品牌影響力，這也是為什麼新規劃如此強調要培養出幾家真正的全球領導車廠。</p>
+
+    <p class="en">The urgency makes more sense once you look at the domestic market: sales in China fell more than twenty-one percent in the first eight months of 2026, and years of aggressive price wars have squeezed profit margins across the industry. That's pushing regulators toward consolidation, encouraging mergers while pressuring less efficient manufacturers to exit the market entirely.</p>
+    <p class="zh">如果看看國內市場，就能理解這股急迫感從何而來：中國車市2026年前8個月的銷量下滑超過21%，多年的激烈價格戰更嚴重侵蝕了整個產業的獲利空間。這促使主管機關朝向企業整併的方向推進，一方面鼓勵合併，一方面淘汰效率較低的製造商。</p>
+
+    <p class="en">Meanwhile, on the other side of the East China Sea, Toyota is racing to catch up in a very different part of the same story: self-driving technology. The Japanese automaker has just outlined plans to use one shared, end-to-end AI system for two very different products — Level two-plus-plus driver assistance in private cars, and Level four autonomous driving in commercial vehicles.</p>
+    <p class="zh">與此同時，在東海的另一邊，豐田汽車正在這個故事的另一個章節裡急起直追：自動駕駛技術。這家日本車廠剛剛公布計畫，將用同一套端到端AI系統，支援兩種截然不同的產品——私家車的Level 2++駕駛輔助，以及商用車的Level 4自動駕駛。</p>
+
+    <p class="en">Technically, the two systems are nearly identical; a driver in a Level two-plus-plus car still must keep their hands ready on the wheel, while a Level four vehicle in a defined area needs no human intervention at all, so the real difference comes down to legal liability, not hardware. Toyota is targeting mass production of the private-car system by 2028, with commercial rollout following by 2030, and it's even reportedly considering joining Waymo's robotaxi business.</p>
+    <p class="zh">從技術層面來看，這兩套系統幾乎相同；Level 2++車輛的駕駛人仍須隨時把手放在方向盤上，而Level 4車輛在特定區域內則完全不需要人類介入，所以真正的差異在於法律責任，而非硬體本身。豐田的目標是在2028年前將私家車系統量產，商用車則預計在2030年前跟進，甚至傳出有意加入Waymo的無人計程車事業。</p>
+
+    <p class="en">Put side by side, the two stories make an interesting contrast: one is a government setting a top-down numerical target and reshaping an entire market to hit it, and the other is a private company scrambling to catch up with rivals in the United States and China, using shared technology to stretch a limited budget as far as possible.</p>
+    <p class="zh">把這兩則新聞放在一起看，形成了有趣的對比：一邊是政府由上而下訂出具體數字目標，並重塑整個市場來達成它；另一邊則是一家民間企業，為了追趕美國與中國的競爭對手，透過共用技術把有限的預算發揮到最大效益。</p>
+  </div>
+
+  <h2>3. Key Vocabulary 關鍵單字</h2>
+  <table>
+    <tr><th>Word 單字</th><th>IPA 音標</th><th>Meaning 意思</th><th>Example 例句</th></tr>
+    <tr><td>penetration rate</td><td>/ˌpɛn.ɪˈtreɪ.ʃən reɪt/</td><td>滲透率</td><td>The government wants the EV penetration rate to hit seventy percent by 2030.</td></tr>
+    <tr><td>overcapacity</td><td>/ˌoʊ.vɚ.kəˈpæs.ɪ.ti/</td><td>產能過剩</td><td>Years of price wars have left the auto industry struggling with overcapacity.</td></tr>
+    <tr><td>consolidation</td><td>/kənˌsɒl.ɪˈdeɪ.ʃən/</td><td>（企業）整併</td><td>Regulators are pushing for consolidation among smaller, less efficient carmakers.</td></tr>
+    <tr><td>antitrust</td><td>/ˌæn.taɪˈtrʌst/</td><td>反壟斷</td><td>New antitrust enforcement aims to stop unfair local subsidies.</td></tr>
+    <tr><td>solid-state battery</td><td>/ˌsɒl.ɪd steɪt ˈbæt.ə.ri/</td><td>固態電池</td><td>Solid-state batteries are still years away from full mass production.</td></tr>
+    <tr><td>critical minerals</td><td>/ˈkrɪt.ɪ.kəl ˈmɪn.ər.əlz/</td><td>關鍵金屬</td><td>Lithium, cobalt, and nickel are considered critical minerals for battery production.</td></tr>
+    <tr><td>end-to-end AI</td><td>/ɛnd tuː ɛnd eɪ.aɪ/</td><td>端到端人工智慧</td><td>Toyota's end-to-end AI handles both perception and driving decisions in one system.</td></tr>
+    <tr><td>autonomous driving</td><td>/ɔːˈtɒn.ə.məs ˈdraɪ.vɪŋ/</td><td>自動駕駛</td><td>Autonomous driving levels range from simple driver assistance to full self-driving.</td></tr>
+    <tr><td>robotaxi</td><td>/ˈroʊ.boʊˌtæk.si/</td><td>無人計程車</td><td>Waymo already operates a robotaxi fleet in several U.S. cities.</td></tr>
+    <tr><td>mass production</td><td>/mæs prəˈdʌk.ʃən/</td><td>量產</td><td>Toyota plans to move its Level two-plus-plus system into mass production by 2028.</td></tr>
+    <tr><td>shared architecture</td><td>/ʃɛrd ˈɑːr.kɪˌtek.tʃɚ/</td><td>共用架構</td><td>Using a shared architecture lets automakers cut both development time and cost.</td></tr>
+    <tr><td>legal liability</td><td>/ˈliː.ɡəl ˌlaɪ.əˈbɪl.ɪ.ti/</td><td>法律責任</td><td>The main difference between Level two-plus-plus and Level four comes down to legal liability.</td></tr>
+  </table>
+
+  <h2>4. Saying the Numbers 數字唸法</h2>
+  <table>
+    <tr><th>In the article 文中數據</th><th>Say it like this 唸法</th></tr>
+    <tr><td>70%</td><td>"seventy percent"</td></tr>
+    <tr><td>40%</td><td>"forty percent"</td></tr>
+    <tr><td>2030</td><td>"twenty thirty"</td></tr>
+    <tr><td>9 government departments</td><td>"nine government departments"</td></tr>
+    <tr><td>21%</td><td>"twenty-one percent"</td></tr>
+    <tr><td>2028</td><td>"twenty twenty-eight"</td></tr>
+    <tr><td>Level 2++ / Level 4</td><td>"Level two-plus-plus" / "Level four"</td></tr>
+  </table>
+
+  <h2>5. Useful Expressions 實用句型</h2>
+  <ol>
+    <li>
+      <p class="en">"X is projected to reach ___ percent by [year]." — e.g. "NEV sales are projected to reach seventy percent by 2030."</p>
+      <p class="zh">用來預測某個比例或數字在未來會達到多少。</p>
+    </li>
+    <li>
+      <p class="en">"Unlike A, B tends to ___." — e.g. "Unlike a top-down government target, a corporate strategy tends to shift with the market."</p>
+      <p class="zh">用來對比兩件事物的不同之處。</p>
+    </li>
+    <li>
+      <p class="en">"One risk here is that ___." — e.g. "One risk here is that aggressive targets could worsen overcapacity."</p>
+      <p class="zh">用來提出你對某件事的疑慮或潛在風險。</p>
+    </li>
+    <li>
+      <p class="en">"From a policy perspective, ___, but from a business perspective, ___." — e.g. "From a policy perspective, quotas drive investment, but from a business perspective, they can distort competition."</p>
+      <p class="zh">用來同時從政策與商業兩個角度切入分析同一件事。</p>
+    </li>
+    <li>
+      <p class="en">"It remains to be seen whether ___." — e.g. "It remains to be seen whether Toyota can really catch up by 2028."</p>
+      <p class="zh">用來表示某件事情的結果還不確定，需要時間才能驗證。</p>
+    </li>
+  </ol>
+
+  <h2>6. Discussion 討論題</h2>
+  <ol>
+    <li>
+      <p class="en">Do you think top-down government targets, like China's seventy percent NEV goal, are an effective way to grow an industry, or do they risk creating even more overcapacity?</p>
+      <p class="zh">你認為像中國70%新能源車目標這樣由上而下訂定的政府目標，是推動產業成長的有效方式，還是可能造成更嚴重的產能過剩？</p>
+    </li>
+    <li>
+      <p class="en">China's overall car market shrank by more than twenty-one percent in the first eight months of 2026, even as EV sales held roughly steady. What do you think that gap tells us about the broader economy?</p>
+      <p class="zh">中國整體車市在2026年前8個月萎縮超過21%，但電動車銷量卻大致持平，你覺得這樣的落差反映出整體經濟的什麼狀況？</p>
+    </li>
+    <li>
+      <p class="en">Toyota wants to merge its Level two-plus-plus driver-assist system and its Level four robotaxi system into one shared AI. What are the benefits and the risks of using the same core technology for two products with very different levels of driver responsibility?</p>
+      <p class="zh">豐田想把Level 2++駕駛輔助系統和Level 4無人計程車系統整合成同一套AI。用同一套核心技術支援兩種駕駛責任截然不同的產品，有哪些好處與風險？</p>
+    </li>
+    <li>
+      <p class="en">Japanese automakers are often described as being "behind" the US and China in self-driving technology. Why do you think that happened, and do you believe they can catch up in time?</p>
+      <p class="zh">日本車廠常被形容在自動駕駛技術上「落後」美國和中國。你認為原因是什麼？你相信他們能及時追上嗎？</p>
+    </li>
+    <li>
+      <p class="en">Would you personally trust a Level four vehicle, with no driver responsible at all, on a fixed bus route or delivery route in your city? Why or why not?</p>
+      <p class="zh">如果是在你居住的城市，行駛固定路線的巴士或送貨車採用完全無需駕駛負責的Level 4自動駕駛，你會信任嗎？為什麼？</p>
+    </li>
+    <li>
+      <p class="en">Should regulators require self-driving systems to be clearly safer than the average human driver before allowing them on public roads, or is being "about as safe as" a human good enough?</p>
+      <p class="zh">主管機關是否應該要求自動駕駛系統的安全性明顯優於人類駕駛平均水準，才能允許上路，還是只要跟人類「差不多安全」就足夠？</p>
+    </li>
+  </ol>
+
+  <h2>7. Wrap-Up 總結</h2>
+  <div class="block">
+    <p class="en">Try summarizing the whole story in about 60 seconds: China's new five-year plan sets a seventy percent NEV sales target for 2030, backed by nine government departments, even as the domestic market shrinks and regulators push consolidation. At the same time, Toyota is racing to catch up in self-driving technology, merging its Level two-plus-plus and Level four systems into one shared AI to save time and money, with mass production targeted for 2028.</p>
+    <p class="zh">試著用大約60秒總結整個故事：中國新的「十五五」規劃訂出2030年新能源車銷量佔比70%的目標，由九個政府部門共同支持，即使國內市場正在萎縮、主管機關也在推動企業整併。與此同時，豐田正急起直追自動駕駛技術，把Level 2++與Level 4系統整合成同一套共用AI以節省時間與成本，目標在2028年前量產。</p>
+    <p class="en">Now finish with one sentence that states your own position — for example: "Personally, I think government-set targets like this one make sense in a strategic industry, because the private sector alone may not move fast enough."</p>
+    <p class="zh">最後用一句話表達你自己的立場——例如：「就我個人而言，我認為在具有戰略意義的產業裡，像這樣由政府訂定目標是合理的，因為單靠民間企業的力量可能不夠快。」</p>
+  </div>
+
+  <h2 class="sectitle">Source Notes <span class="timebadge">取材筆記</span></h2>
+  <div class="block">
+    <p class="sourcepath en">Notes are stored in the user's Obsidian vault at <span class="mono">Claude code AI筆記 / raw / assets</span>.</p>
+    <p class="sourcepath zh">筆記存放於使用者的 Obsidian 筆記庫，路徑為 <span class="mono">Claude code AI筆記 / raw / assets</span>。</p>
+    <table>
+      <tr><th>Note file 筆記檔名</th><th>Original 原始出處</th><th>Used for 用於</th></tr>
+      <tr>
+        <td class="mono">2026-09-16-中國十五五規劃定調 力拚2030年新能源車銷量佔比達70%.md</td>
+        <td>DIGITIMES · 2026-09-16<br><a href="https://www.digitimes.com.tw/tech/dt/n/shwnws.asp?CnlID=&id=768392&grid_seq1=&grid_seq2=" target="_blank" rel="noopener">原文連結 Original link</a></td>
+        <td>
+          <p class="en" style="margin-bottom:6px;">Provided the 70%/40% 2030 targets, the nine-department plan, the 21% sales decline, and the quality/mineral-recycling regulations.</p>
+          <p class="zh" style="margin-bottom:0; opacity:.8;">提供了70%／40%的2030年目標、九部會聯合規劃、21%銷量下滑數據，以及品質與關鍵金屬回收相關規範。</p>
+        </td>
+      </tr>
+      <tr>
+        <td class="mono">2026-09-16-豐田自駕E2E AI追趕戰開打 Level 2++ Level 4共用架構.md</td>
+        <td>DIGITIMES（引用日經新聞）· 2026-09-16<br><a href="https://www.digitimes.com.tw/tech/dt/n/shwnws.asp?CnlID=&id=768360&grid_seq1=&grid_seq2=" target="_blank" rel="noopener">原文連結 Original link</a></td>
+        <td>
+          <p class="en" style="margin-bottom:6px;">Provided Toyota's shared Level two-plus-plus / Level four E2E AI plan, the 2028 mass-production timeline, and the Waymo robotaxi angle.</p>
+          <p class="zh" style="margin-bottom:0; opacity:.8;">提供了豐田Level 2++／Level 4共用端到端AI規劃、2028年量產時程，以及加入Waymo無人計程車事業的角度。</p>
+        </td>
+      </tr>
+    </table>
+  </div>
+
+  <footer>
+    <p class="en">Generated for Claude Yeh's daily EV speaking practice. Source articles clipped via the news-clipper skill.</p>
+    <p class="zh">為 Claude Yeh 每日電動車口說練習製作。原始文章透過 news-clipper 技能截取。</p>
+  </footer>
+
+</div>
+
+<script>
+(function () {
+  var synth = window.speechSynthesis;
+  var bar = document.getElementById('ttsbar');
+  if (!synth) {
+    bar.innerHTML = '<div id="ttshint">此瀏覽器不支援語音朗讀，請改用 Chrome、Edge 或 Safari 開啟本檔案。</div>';
+    return;
+  }
+
+  var voiceSel = document.getElementById('tts-voice');
+  var rateSel  = document.getElementById('tts-rate');
+  var voices   = [];
+  var queue    = [];
+  var qi       = 0;
+  var playing  = false;
+
+  function score(v) {
+    var n = (v.name + ' ' + (v.voiceURI || '')).toLowerCase();
+    var s = 0;
+    if (/premium|enhanced|neural|natural/.test(n)) s += 40;
+    if (/siri/.test(n)) s += 30;
+    if (/google/.test(n)) s += 25;
+    if (/samantha|ava|allison|serena|daniel|kate|arthur|evan|nathan|zoe/.test(n)) s += 12;
+    if (/compact|novelty|whisper|bells|bubbles|jester|organ|trinoids|zarvox|albert|bad news|good news/.test(n)) s -= 60;
+    if (v.lang === 'en-US') s += 6;
+    if (v.lang === 'en-GB') s += 5;
+    if (v.localService) s += 2;
+    return s;
+  }
+
+  function loadVoices() {
+    var all = synth.getVoices().filter(function (v) { return /^en[-_]/i.test(v.lang); });
+    if (!all.length) return;
+    all.sort(function (a, b) { return score(b) - score(a); });
+    voices = all;
+    voiceSel.innerHTML = '';
+    voices.forEach(function (v, i) {
+      var o = document.createElement('option');
+      o.value = i;
+      o.textContent = v.name + ' (' + v.lang + ')';
+      voiceSel.appendChild(o);
+    });
+    var saved = null;
+    try { saved = localStorage.getItem('evPracticeVoice'); } catch (e) {}
+    if (saved !== null) {
+      var idx = voices.findIndex(function (v) { return v.name === saved; });
+      if (idx > -1) voiceSel.value = idx;
+    }
+  }
+  loadVoices();
+  synth.onvoiceschanged = loadVoices;
+
+  voiceSel.addEventListener('change', function () {
+    var v = voices[voiceSel.value];
+    try { if (v) localStorage.setItem('evPracticeVoice', v.name); } catch (e) {}
+  });
+
+  function clearHighlight() {
+    var h = document.querySelector('.speaking');
+    if (h) h.classList.remove('speaking');
+  }
+
+  function stop() {
+    playing = false;
+    queue = [];
+    qi = 0;
+    synth.cancel();
+    clearHighlight();
+  }
+
+  // Chrome silently truncates any utterance longer than ~15s, so queue
+  // sentence-sized chunks instead of whole paragraphs.
+  function sentences(text) {
+    var SEP = String.fromCharCode(1);
+    var t = text.replace(/\s+/g, ' ').trim();
+    // Shield decimals/abbreviations so "86.5 percent" isn't split in two.
+    t = t.replace(/(\d)\.(\d)/g, '$1' + SEP + '$2')
+         .replace(/\b(Mr|Mrs|Ms|Dr|St|vs|etc|Inc|Ltd|Co|approx)\./gi,
+                  function (m) { return m.slice(0, -1) + SEP; })
+         .replace(/\bU\.S\./g, 'U' + SEP + 'S' + SEP);
+    var parts = t.match(/[^.!?]+[.!?]+["')\]]?|[^.!?]+$/g) || [t];
+    return parts
+      .map(function (s) { return s.split(SEP).join('.').trim(); })
+      .filter(function (s) { return /[a-zA-Z0-9]/.test(s); });
+  }
+
+  function speakNext() {
+    if (!playing || qi >= queue.length) { stop(); return; }
+    var item = queue[qi++];
+    clearHighlight();
+    if (item.el) {
+      item.el.classList.add('speaking');
+      var r = item.el.getBoundingClientRect();
+      if (r.top < 120 || r.bottom > window.innerHeight - 40) {
+        item.el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      }
+    }
+    var u = new SpeechSynthesisUtterance(item.text);
+    var v = voices[voiceSel.value];
+    if (v) { u.voice = v; u.lang = v.lang; } else { u.lang = 'en-US'; }
+    u.rate = parseFloat(rateSel.value);
+    u.pitch = 1;
+    u.onend = speakNext;
+    u.onerror = speakNext;
+    synth.speak(u);
+  }
+
+  function textOf(el) {
+    // Snapshot taken before the play glyph was injected, so it is never spoken.
+    return el.getAttribute('data-tts') || el.textContent;
+  }
+
+  function play(elements) {
+    stop();
+    queue = [];
+    elements.forEach(function (el) {
+      sentences(textOf(el)).forEach(function (s) {
+        if (s.trim()) queue.push({ el: el, text: s });
+      });
+    });
+    if (!queue.length) return;
+    playing = true;
+    qi = 0;
+    speakNext();
+  }
+
+  document.getElementById('tts-stop').addEventListener('click', stop);
+
+  document.getElementById('tts-play').addEventListener('click', function () {
+    var paras = [].slice.call(document.querySelectorAll('#article .en'));
+    play(paras);
+  });
+
+  rateSel.addEventListener('change', function () { if (playing) stop(); });
+
+  var targets = [].slice.call(document.querySelectorAll('.en'));
+  targets.forEach(function (el) {
+    el.setAttribute('data-tts', el.textContent);
+    var b = document.createElement('button');
+    b.className = 'playbtn';
+    b.type = 'button';
+    b.textContent = '▶';
+    b.setAttribute('aria-label', 'Play this sentence');
+    b.addEventListener('click', function (e) {
+      e.stopPropagation();
+      play([el]);
+    });
+    el.insertBefore(b, el.firstChild);
+  });
+
+  [].slice.call(document.querySelectorAll('table tr')).forEach(function (tr) {
+    var cells = tr.querySelectorAll('td');
+    if (cells.length < 2) return;
+    var last = cells[cells.length - 1];
+    if (!/[a-zA-Z]/.test(last.textContent)) return;
+    last.style.cursor = 'pointer';
+    last.title = 'Click to hear it 點一下聽發音';
+    last.addEventListener('click', function () { play([last]); });
+  });
+
+  window.addEventListener('beforeunload', function () { synth.cancel(); });
+})();
+</script>
+
+</body>
+</html>

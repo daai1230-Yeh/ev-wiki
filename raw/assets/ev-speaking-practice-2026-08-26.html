@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EV Speaking Practice — 2026-08-26 · Walmart's EV Charging Milestone</title>
+<style>
+  :root{
+    --bg:#0C2A65;
+    --fg:#FFFFFF;
+    --accent:#7FB3FF;
+    --line:rgba(127,179,255,.35);
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0; padding:0;
+    background:var(--bg); color:var(--fg);
+    font-family:-apple-system,"Segoe UI","Helvetica Neue",Arial,"PingFang TC","Microsoft JhengHei",sans-serif;
+    font-size:20pt;
+    line-height:1.62;
+  }
+  .wrap{max-width:900px; margin:0 auto; padding:28px 24px 60px;}
+  h1{font-size:1.45em; margin:0 0 6px;}
+  .subtitle{opacity:.78; font-size:.55em; margin:0 0 22px; line-height:1.6;}
+  .section{
+    border-left:6px solid var(--accent);
+    padding-left:16px; margin:42px 0 18px;
+    font-size:1.15em;
+  }
+  .time{color:var(--accent); font-weight:700; font-size:.65em; letter-spacing:.03em;}
+  .plan{
+    border:1px solid var(--line); border-radius:10px;
+    padding:18px 22px; margin:22px 0 30px;
+    background:rgba(127,179,255,.07);
+  }
+  .plan h2{margin:0 0 10px; font-size:1.05em; color:var(--accent); border:none; padding:0;}
+  .plan ol{margin:0; padding-left:1.3em;}
+  .plan li{margin:6px 0; font-size:.85em;}
+  .block{margin-bottom:22px;}
+  .en{margin:0 0 4px; font-size:1em;}
+  .zh{margin:0 0 14px; font-size:.8em; opacity:.7;}
+  ol.qlist, ul.qlist{padding-left:1.2em; margin:0;}
+  ol.qlist li, ul.qlist li{margin:0 0 18px;}
+  ol.qlist li .en, ul.qlist li .en{margin-bottom:4px;}
+  table{width:100%; border-collapse:collapse; margin:14px 0 22px; font-size:.72em;}
+  th, td{border:1px solid var(--line); padding:10px 12px; text-align:left; vertical-align:top;}
+  th{background:rgba(127,179,255,.2); color:var(--accent);}
+  .mono{font-family:"SFMono-Regular",Consolas,Menlo,monospace; font-size:.92em;}
+  a{color:var(--accent);}
+  .source-note-p{font-size:.8em; opacity:.85; margin:0 0 4px;}
+  footer{margin-top:52px; opacity:.6; font-size:.55em; border-top:1px solid var(--line); padding-top:16px; line-height:1.6;}
+
+  /* ---- Text-to-speech controls ---- */
+  #ttsbar {
+    position:sticky; top:0; z-index:50;
+    background:rgba(12,42,101,.96); backdrop-filter:blur(6px);
+    border:1px solid var(--line); border-radius:10px;
+    padding:14px 18px; margin:0 0 8px;
+    display:flex; flex-wrap:wrap; gap:10px 14px; align-items:center;
+    font-size:14pt;
+  }
+  #ttsbar label { opacity:.75; letter-spacing:.04em; }
+  #ttsbar button {
+    font:inherit; font-size:14pt; font-weight:700;
+    color:var(--bg); background:var(--accent);
+    border:none; border-radius:6px; padding:8px 16px; cursor:pointer;
+  }
+  #ttsbar button.ghost { background:transparent; color:var(--accent); border:1px solid var(--accent); }
+  #ttsbar button:hover { opacity:.85; }
+  #ttsbar select {
+    font:inherit; font-size:14pt;
+    color:var(--fg); background:#123573;
+    border:1px solid var(--line); border-radius:6px; padding:7px 10px; max-width:260px;
+  }
+  #ttshint { flex-basis:100%; font-size:12.5pt; opacity:.6; line-height:1.5; }
+  .playbtn {
+    font:inherit; font-size:13pt; line-height:1;
+    color:var(--accent); background:transparent;
+    border:1px solid rgba(127,179,255,.5); border-radius:5px;
+    padding:4px 9px; margin-right:10px; cursor:pointer; vertical-align:middle;
+  }
+  .playbtn:hover { background:rgba(127,179,255,.16); }
+  .speaking {
+    background:rgba(127,179,255,.17);
+    box-shadow:0 0 0 8px rgba(127,179,255,.17);
+    border-radius:3px;
+  }
+
+  @media (max-width:640px){
+    body{font-size:16pt;}
+    .wrap{padding:18px 14px 40px;}
+    table, thead, tbody, tr{display:block;}
+    th{display:none;}
+    td{display:block; border:none; border-bottom:1px solid var(--line); padding:6px 4px;}
+    td::before{content: attr(data-label); display:block; color:var(--accent); font-weight:700; font-size:.85em; margin-bottom:2px;}
+    tr{margin-bottom:14px; border:1px solid var(--line); border-radius:8px; padding:8px;}
+    #ttsbar{font-size:12pt;}
+    #ttsbar button, #ttsbar select{font-size:12pt;}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<h1>EV Speaking Practice 電動車英文口說練習</h1>
+<p class="subtitle">2026-08-26 · Topic: Walmart's EV Charging Network Milestone 主題：沃爾瑪電動車充電網路里程碑 · 25 minutes 全長 25 分鐘</p>
+
+<div class="plan">
+  <h2>Session Plan 練習流程</h2>
+  <ol>
+    <li>Warm-Up 暖身 — 3 min</li>
+    <li>Read Aloud 朗讀短文 — 6 min</li>
+    <li>Key Vocabulary 關鍵單字 — 4 min</li>
+    <li>Saying the Numbers 數字唸法 — 2 min</li>
+    <li>Useful Expressions 實用句型 — 3 min</li>
+    <li>Discussion 討論題 — 5 min</li>
+    <li>Wrap-Up 總結 — 2 min</li>
+  </ol>
+</div>
+
+<div id="ttsbar">
+  <button id="tts-play">▶ Read the article 朗讀全文</button>
+  <button id="tts-stop" class="ghost">■ Stop 停止</button>
+  <label for="tts-voice">Voice</label>
+  <select id="tts-voice"></select>
+  <label for="tts-rate">Speed</label>
+  <select id="tts-rate">
+    <option value="0.75">0.75× 慢</option>
+    <option value="0.9" selected>0.9× 稍慢</option>
+    <option value="1">1.0× 正常</option>
+    <option value="1.15">1.15× 快</option>
+  </select>
+  <div id="ttshint">每個英文段落左邊都有 ▶ 可單獨播放；正在唸的句子會反白。想要更自然的聲音：macOS「系統設定 → 輔助使用 → 朗讀內容 → 系統聲音」下載 Enhanced／Premium 或 Siri 語音，再回來從上面的 Voice 選單選取。</div>
+</div>
+
+<h2 class="section">1. Warm-Up 暖身 <span class="time">3 min</span></h2>
+<div class="block">
+  <ol class="qlist">
+    <li>
+      <p class="en">Where do you usually charge your EV — or, if you don't own one yet, where would you imagine charging it most often?</p>
+      <p class="zh">你平常都在哪裡幫電動車充電？如果你還沒有電動車，你會想像自己最常在哪裡充電？</p>
+    </li>
+    <li>
+      <p class="en">Have you ever charged a car, or seen someone charging one, at a supermarket or retail store while shopping? What was that like?</p>
+      <p class="zh">你曾經在超市或賣場購物時幫車子充電，或看過別人這麼做嗎？那是什麼樣的體驗？</p>
+    </li>
+    <li>
+      <p class="en">What comes to mind when you hear that a retail giant like Walmart is becoming a major player in EV charging, rather than a specialized energy company?</p>
+      <p class="zh">當你聽到像沃爾瑪這樣的零售巨頭（而非專門的能源公司）正成為電動車充電領域的要角時，你的第一反應是什麼？</p>
+    </li>
+  </ol>
+</div>
+
+<h2 class="section">2. Read Aloud 朗讀短文 <span class="time">6 min</span></h2>
+<div class="block" id="article">
+  <p class="en">Walmart's EV charging network is now live in twenty states, with the retail giant installing new chargers at a rapid pace across the country. The latest station just opened in Colorado, and hundreds more are already in the pipeline.</p>
+  <p class="zh">沃爾瑪的電動車充電網路目前已在美國二十個州上線，這家零售巨頭正在全國各地快速布建新充電站。最新一座充電站甫於科羅拉多州啟用，未來還有數百座正在興建中。</p>
+
+  <p class="en">Walmart has just opened its hundredth EV fast-charging station, marking a major milestone for the company. It celebrated the occasion with a ribbon-cutting ceremony at its Supercenter in Monument, Colorado, last week.</p>
+  <p class="zh">沃爾瑪剛啟用了第一百座電動車快充站，對這家公司來說是個重要里程碑。上週，公司在科羅拉多州蒙紐門特（Monument）的一間大型超市舉行剪綵儀式，慶祝這個時刻。</p>
+
+  <p class="en">This is a remarkable turnaround: less than two years ago, Walmart had zero branded chargers at any of its locations. With this latest addition, the company now operates EV chargers in twenty states, up from just seventeen a month earlier.</p>
+  <p class="zh">這是相當驚人的轉變：不到兩年前，沃爾瑪旗下門市根本沒有任何自有品牌的充電站。隨著這座新站啟用，公司如今已在二十個州營運電動車充電站，較一個月前的十七州又增加了三州。</p>
+
+  <p class="en">The Monument location has four stalls capable of delivering up to four hundred kilowatts of power, enough to charge eight EVs at the same time. The all-in-one dispensers, made by ABB Mobility, support both NACS and CCS1 connectors, so drivers don't need a separate adapter.</p>
+  <p class="zh">蒙紐門特這座充電站設有四個充電樁，最大功率可達四百千瓦，足以同時為八輛電動車充電。這款一體式充電設備由ABB Mobility製造，同時支援NACS與CCS1兩種接頭規格，車主不需額外購買轉接器。</p>
+
+  <p class="en">Walmart Energy's Senior Vice President, Shayne Wahlmeier, said reaching one hundred sites is an important milestone, and that the company's broad footprint positions it to make EV charging more accessible for communities nationwide.</p>
+  <p class="zh">沃爾瑪能源部門資深副總裁Shayne Wahlmeier表示，達成一百座充電站是重要的里程碑，公司廣布的據點也讓電動車充電對全美各地社區來說更加便利。</p>
+
+  <p class="en">Pricing is competitive too, averaging forty-three cents per kilowatt-hour, according to the EV charging data firm Paren. Walmart+ members receive an additional ten percent discount, making the cost even lower.</p>
+  <p class="zh">收費方面也相當有競爭力，根據電動車充電數據公司Paren的統計，平均每度電（千瓦時）約零點四三美元。Walmart+會員還可再享九折優惠，讓費用更加划算。</p>
+
+  <p class="en">Walmart isn't slowing down. In the second quarter of 2026, it energized more new charging ports than any company except Tesla, and in the first half of the year alone it deployed six hundred and twelve new charging stalls.</p>
+  <p class="zh">沃爾瑪的擴張腳步並未放緩。在二零二六年第二季，除了Tesla之外，沃爾瑪是新增充電樁數量最多的公司；光是今年上半年，就部署了六百一十二座新充電樁。</p>
+</div>
+
+<h2 class="section">3. Key Vocabulary 關鍵單字 <span class="time">4 min</span></h2>
+<div class="block">
+  <table>
+    <thead>
+      <tr><th>Word 單字</th><th>IPA 音標</th><th>Chinese 中文意思</th><th>Example sentence 例句</th></tr>
+    </thead>
+    <tbody>
+      <tr><td data-label="Word">milestone</td><td data-label="IPA">/ˈmaɪlˌstoʊn/</td><td data-label="Chinese">里程碑</td><td data-label="Example">Reaching 100 charging stations was a major milestone for Walmart.</td></tr>
+      <tr><td data-label="Word">ribbon-cutting ceremony</td><td data-label="IPA">/ˈrɪbən ˈkʌtɪŋ ˈsɛrəˌmoʊni/</td><td data-label="Chinese">剪綵儀式</td><td data-label="Example">The company held a ribbon-cutting ceremony to celebrate the new station.</td></tr>
+      <tr><td data-label="Word">turnaround</td><td data-label="IPA">/ˈtɜːrnəˌraʊnd/</td><td data-label="Chinese">（情勢的）大逆轉、翻轉</td><td data-label="Example">Going from zero chargers to 100 in under two years is a big turnaround.</td></tr>
+      <tr><td data-label="Word">stall</td><td data-label="IPA">/stɔːl/</td><td data-label="Chinese">充電樁、格位</td><td data-label="Example">Most Walmart locations have eight to sixteen charging stalls.</td></tr>
+      <tr><td data-label="Word">dispenser</td><td data-label="IPA">/dɪˈspɛnsər/</td><td data-label="Chinese">（充電）機台</td><td data-label="Example">The new dispenser can charge two cars at the same time.</td></tr>
+      <tr><td data-label="Word">connector</td><td data-label="IPA">/kəˈnɛktər/</td><td data-label="Chinese">接頭、連接器</td><td data-label="Example">The charger offers both NACS and CCS1 connectors.</td></tr>
+      <tr><td data-label="Word">adapter</td><td data-label="IPA">/əˈdæptər/</td><td data-label="Chinese">轉接器</td><td data-label="Example">Drivers no longer need a separate adapter to charge their cars.</td></tr>
+      <tr><td data-label="Word">footprint</td><td data-label="IPA">/ˈfʊtˌprɪnt/</td><td data-label="Chinese">（企業的）據點分布、版圖</td><td data-label="Example">Walmart's broad footprint makes charging more accessible nationwide.</td></tr>
+      <tr><td data-label="Word">accessible</td><td data-label="IPA">/əkˈsɛsəbəl/</td><td data-label="Chinese">便於使用的、易取得的</td><td data-label="Example">The company wants to make EV charging more accessible for everyday drivers.</td></tr>
+      <tr><td data-label="Word">deploy</td><td data-label="IPA">/dɪˈplɔɪ/</td><td data-label="Chinese">部署、投入使用</td><td data-label="Example">Walmart deployed 612 new charging stalls in the first half of the year.</td></tr>
+      <tr><td data-label="Word">competitive</td><td data-label="IPA">/kəmˈpɛtətɪv/</td><td data-label="Chinese">具競爭力的</td><td data-label="Example">Walmart's charging prices are competitive compared with other networks.</td></tr>
+      <tr><td data-label="Word">energize</td><td data-label="IPA">/ˈɛnərˌdʒaɪz/</td><td data-label="Chinese">（為新設備）通電啟用</td><td data-label="Example">Walmart energized more new charging ports than any company except Tesla.</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<h2 class="section">4. Saying the Numbers 數字唸法 <span class="time">2 min</span></h2>
+<div class="block">
+  <table>
+    <thead>
+      <tr><th>Data in the article 文中數據</th><th>How to say it 英文唸法</th></tr>
+    </thead>
+    <tbody>
+      <tr><td data-label="Data">20 states</td><td data-label="Reading">twenty states</td></tr>
+      <tr><td data-label="Data">100th station</td><td data-label="Reading">the hundredth station</td></tr>
+      <tr><td data-label="Data">17 states (a month earlier)</td><td data-label="Reading">seventeen states</td></tr>
+      <tr><td data-label="Data">4 stalls</td><td data-label="Reading">four stalls</td></tr>
+      <tr><td data-label="Data">400 kW</td><td data-label="Reading">four hundred kilowatts</td></tr>
+      <tr><td data-label="Data">8 EVs at once</td><td data-label="Reading">eight EVs at once / eight electric vehicles at the same time</td></tr>
+      <tr><td data-label="Data">$0.43/kWh</td><td data-label="Reading">forty-three cents per kilowatt-hour</td></tr>
+      <tr><td data-label="Data">10% discount</td><td data-label="Reading">a ten percent discount</td></tr>
+      <tr><td data-label="Data">612 stalls (H1 2026)</td><td data-label="Reading">six hundred and twelve stalls</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<h2 class="section">5. Useful Expressions 實用句型 <span class="time">3 min</span></h2>
+<div class="block">
+  <p class="en"><strong>1. "___ marks a major milestone for ___."</strong></p>
+  <p class="zh">用來強調某件事對主體具有重要的里程碑意義。例："Reaching 100 stations marks a major milestone for Walmart's charging business."</p>
+
+  <p class="en"><strong>2. "Less than [time period] ago, ___ had zero/none of ___."</strong></p>
+  <p class="zh">用來對比今昔差異，凸顯進展有多快。例："Less than two years ago, Walmart had zero branded chargers."</p>
+
+  <p class="en"><strong>3. "According to [source], ___."</strong></p>
+  <p class="zh">用於引用數據或消息來源，增加論述的可信度。例："According to Paren, average pricing is $0.43 per kilowatt-hour."</p>
+
+  <p class="en"><strong>4. "___ isn't slowing down."</strong></p>
+  <p class="zh">用來形容某個趨勢仍在加速、持續發展中。例："Walmart isn't slowing down — it deployed 612 new stalls in just six months."</p>
+
+  <p class="en"><strong>5. "This positions [company/person] to ___."</strong></p>
+  <p class="zh">用來說明某項優勢如何幫助對象達成未來的目標。例："Walmart's broad footprint positions it to make charging more accessible nationwide."</p>
+</div>
+
+<h2 class="section">6. Discussion 討論題 <span class="time">5 min</span></h2>
+<div class="block">
+  <ol class="qlist">
+    <li>
+      <p class="en">Walmart went from zero branded chargers to 100 stations in under two years. What do you think is driving big retailers to invest so heavily in EV charging infrastructure?</p>
+      <p class="zh">沃爾瑪在不到兩年內從零充電站發展到一百座，你認為是什麼原因驅使大型零售商如此大手筆投資電動車充電基礎設施？</p>
+    </li>
+    <li>
+      <p class="en">Walmart places chargers at its own Supercenters rather than building stand-alone stations. What are the advantages and disadvantages of this model compared with dedicated networks like Tesla's Supercharger network?</p>
+      <p class="zh">沃爾瑪選擇把充電站設在自家大型超市裡，而非另建獨立充電站。相較於像Tesla超充網路這樣的專門系統，這種模式各有什麼優缺點？</p>
+    </li>
+    <li>
+      <p class="en">The article says Walmart is now "second only to Tesla" in new charging ports energized. Do you think traditional retailers can become serious competitors to specialized EV charging companies? Why or why not?</p>
+      <p class="zh">文章提到沃爾瑪在新增充電樁數量上「僅次於Tesla」。你認為傳統零售商有可能成為專門電動車充電公司的強勁對手嗎？為什麼？</p>
+    </li>
+    <li>
+      <p class="en">Pricing is around $0.43 per kilowatt-hour, with a 10% discount for Walmart+ members. How might loyalty programs like this influence where drivers choose to charge, and could it give big retailers an unfair advantage over independent charging companies?</p>
+      <p class="zh">收費約為每度電0.43美元，Walmart+會員還能再享九折優惠。這類會員忠誠方案可能如何影響車主選擇充電地點？是否會讓大型零售商相對獨立充電公司取得不公平的優勢？</p>
+    </li>
+    <li>
+      <p class="en">Non-energy companies — retailers, restaurants, even hotels — are rapidly building charging infrastructure across the US. What risks, such as reliability, maintenance, or lack of standardization, come with having so many different companies run charging networks?</p>
+      <p class="zh">零售商、餐廳甚至飯店等非能源業者，正在美國快速興建充電基礎設施。當這麼多不同公司各自經營充電網路時，可能會帶來哪些風險，例如可靠度、維護，或規格不統一的問題？</p>
+    </li>
+    <li>
+      <p class="en">If you were advising a government on EV charging policy, would you rely more on private companies like Walmart to build out infrastructure, or push for greater public investment? What are the trade-offs of each approach?</p>
+      <p class="zh">如果你要為政府提供電動車充電政策建議，你會傾向仰賴像沃爾瑪這樣的民間企業來建設基礎設施，還是主張加大公共投資？這兩種做法各自有什麼取捨？</p>
+    </li>
+  </ol>
+</div>
+
+<h2 class="section">7. Wrap-Up 總結 <span class="time">2 min</span></h2>
+<div class="block">
+  <p class="en"><strong>60-second summary prompt:</strong> In your own words, summarize what milestone Walmart just reached, how quickly its charging network has grown, and what makes its stations distinctive — think about power output, connector types, and pricing.</p>
+  <p class="zh"><strong>60秒摘要練習：</strong>請用自己的話總結沃爾瑪剛達成的里程碑、其充電網路成長的速度，以及這些充電站有哪些特別之處——可以從功率、接頭規格與收費三個角度切入。</p>
+
+  <p class="en"><strong>Stance sentence pattern:</strong> "In my view, retailers like Walmart entering the EV charging business is [mostly positive / a mixed blessing / mostly concerning] because ___."</p>
+  <p class="zh"><strong>表達個人立場的句型：</strong>「在我看來，像沃爾瑪這樣的零售商跨足電動車充電產業，是〔大致正面／利弊參半／令人擔憂〕的，因為 ___。」</p>
+</div>
+
+<h2 class="section">Source Notes 取材筆記</h2>
+<div class="block">
+  <p class="source-note-p en">All English content above is adapted from a note stored in the user's Obsidian vault at <span class="mono">Claude code AI筆記 / raw / assets</span>.</p>
+  <p class="source-note-p zh">以上英文內容改寫自使用者 Obsidian 筆記庫中的筆記，路徑為 <span class="mono">Claude code AI筆記 / raw / assets</span>。</p>
+  <table>
+    <thead><tr><th>Note file 筆記檔名</th><th>Original 原始出處</th><th>Used for 用於</th></tr></thead>
+    <tbody>
+      <tr>
+        <td data-label="Note file" class="mono">2026-08-26-Walmarts-EV-Charging-Network-Just-Hit-A-Big-Milestone.md</td>
+        <td data-label="Original">InsideEVs · 2026-08-24 · Iulian Dnistran<br><a href="https://insideevs.com/news/805862/walmart-ev-charging-milestone/" target="_blank" rel="noopener">Original article 原文連結</a></td>
+        <td data-label="Used for">All milestone figures (100 stations, 20 states), technical specs (400 kW, ABB Mobility, NACS/CCS1), pricing data ($0.43/kWh, 10% discount), and deployment numbers (612 stalls) used in the Read Aloud, Vocabulary, Numbers, and Discussion sections.<br>朗讀短文、關鍵單字、數字唸法與討論題段落中的所有里程碑數據（100座充電站、20個州）、技術規格（400千瓦、ABB Mobility、NACS/CCS1）、收費資訊（每度電0.43美元、九折優惠）與部署數量（612座）均取自此篇筆記。</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<footer>
+  Generated for Claude Yeh · 2026-08-26 · EV Speaking Practice (25 min) · Web Speech API text-to-speech built in.<br>
+  為 Claude Yeh 產生 · 2026-08-26 · 電動車英文口說練習（25 分鐘）· 內建 Web Speech API 語音朗讀。
+</footer>
+
+</div>
+
+<script>
+(function () {
+  var synth = window.speechSynthesis;
+  var bar = document.getElementById('ttsbar');
+  if (!synth) {
+    bar.innerHTML = '<div id="ttshint">此瀏覽器不支援語音朗讀，請改用 Chrome、Edge 或 Safari 開啟本檔案。</div>';
+    return;
+  }
+
+  var voiceSel = document.getElementById('tts-voice');
+  var rateSel  = document.getElementById('tts-rate');
+  var voices   = [];
+  var queue    = [];
+  var qi       = 0;
+  var playing  = false;
+
+  function score(v) {
+    var n = (v.name + ' ' + (v.voiceURI || '')).toLowerCase();
+    var s = 0;
+    if (/premium|enhanced|neural|natural/.test(n)) s += 40;
+    if (/siri/.test(n)) s += 30;
+    if (/google/.test(n)) s += 25;
+    if (/samantha|ava|allison|serena|daniel|kate|arthur|evan|nathan|zoe/.test(n)) s += 12;
+    if (/compact|novelty|whisper|bells|bubbles|jester|organ|trinoids|zarvox|albert|bad news|good news/.test(n)) s -= 60;
+    if (v.lang === 'en-US') s += 6;
+    if (v.lang === 'en-GB') s += 5;
+    if (v.localService) s += 2;
+    return s;
+  }
+
+  function loadVoices() {
+    var all = synth.getVoices().filter(function (v) { return /^en[-_]/i.test(v.lang); });
+    if (!all.length) return;
+    all.sort(function (a, b) { return score(b) - score(a); });
+    voices = all;
+    voiceSel.innerHTML = '';
+    voices.forEach(function (v, i) {
+      var o = document.createElement('option');
+      o.value = i;
+      o.textContent = v.name + ' (' + v.lang + ')';
+      voiceSel.appendChild(o);
+    });
+    var saved = null;
+    try { saved = localStorage.getItem('evPracticeVoice'); } catch (e) {}
+    if (saved !== null) {
+      var idx = voices.findIndex(function (v) { return v.name === saved; });
+      if (idx > -1) voiceSel.value = idx;
+    }
+  }
+  loadVoices();
+  synth.onvoiceschanged = loadVoices;
+
+  voiceSel.addEventListener('change', function () {
+    var v = voices[voiceSel.value];
+    try { if (v) localStorage.setItem('evPracticeVoice', v.name); } catch (e) {}
+  });
+
+  function clearHighlight() {
+    var h = document.querySelector('.speaking');
+    if (h) h.classList.remove('speaking');
+  }
+
+  function stop() {
+    playing = false;
+    queue = [];
+    qi = 0;
+    synth.cancel();
+    clearHighlight();
+  }
+
+  // Chrome silently truncates any utterance longer than ~15s, so queue
+  // sentence-sized chunks instead of whole paragraphs.
+  function sentences(text) {
+    var SEP = String.fromCharCode(1);
+    var t = text.replace(/\s+/g, ' ').trim();
+    // Shield decimals/abbreviations so "86.5 percent" isn't split in two.
+    t = t.replace(/(\d)\.(\d)/g, '$1' + SEP + '$2')
+         .replace(/\b(Mr|Mrs|Ms|Dr|St|vs|etc|Inc|Ltd|Co|approx)\./gi,
+                  function (m) { return m.slice(0, -1) + SEP; })
+         .replace(/\bU\.S\./g, 'U' + SEP + 'S' + SEP);
+    var parts = t.match(/[^.!?]+[.!?]+["')\]]?|[^.!?]+$/g) || [t];
+    return parts
+      .map(function (s) { return s.split(SEP).join('.').trim(); })
+      .filter(function (s) { return /[a-zA-Z0-9]/.test(s); });
+  }
+
+  function speakNext() {
+    if (!playing || qi >= queue.length) { stop(); return; }
+    var item = queue[qi++];
+    clearHighlight();
+    if (item.el) {
+      item.el.classList.add('speaking');
+      var r = item.el.getBoundingClientRect();
+      if (r.top < 120 || r.bottom > window.innerHeight - 40) {
+        item.el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      }
+    }
+    var u = new SpeechSynthesisUtterance(item.text);
+    var v = voices[voiceSel.value];
+    if (v) { u.voice = v; u.lang = v.lang; } else { u.lang = 'en-US'; }
+    u.rate = parseFloat(rateSel.value);
+    u.pitch = 1;
+    u.onend = speakNext;
+    u.onerror = speakNext;
+    synth.speak(u);
+  }
+
+  function textOf(el) {
+    // Snapshot taken before the play glyph was injected, so it is never spoken.
+    return el.getAttribute('data-tts') || el.textContent;
+  }
+
+  function play(elements) {
+    stop();
+    queue = [];
+    elements.forEach(function (el) {
+      sentences(textOf(el)).forEach(function (s) {
+        if (s.trim()) queue.push({ el: el, text: s });
+      });
+    });
+    if (!queue.length) return;
+    playing = true;
+    qi = 0;
+    speakNext();
+  }
+
+  document.getElementById('tts-stop').addEventListener('click', stop);
+
+  document.getElementById('tts-play').addEventListener('click', function () {
+    var paras = [].slice.call(document.querySelectorAll('#article .en'));
+    play(paras);
+  });
+
+  rateSel.addEventListener('change', function () { if (playing) stop(); });
+
+  var targets = [].slice.call(document.querySelectorAll('.en'));
+  targets.forEach(function (el) {
+    el.setAttribute('data-tts', el.textContent);
+    var b = document.createElement('button');
+    b.className = 'playbtn';
+    b.type = 'button';
+    b.textContent = '▶';
+    b.setAttribute('aria-label', 'Play this sentence');
+    b.addEventListener('click', function (e) {
+      e.stopPropagation();
+      play([el]);
+    });
+    el.insertBefore(b, el.firstChild);
+  });
+
+  [].slice.call(document.querySelectorAll('table tr')).forEach(function (tr) {
+    var cells = tr.querySelectorAll('td');
+    if (cells.length < 2) return;
+    var last = cells[cells.length - 1];
+    if (!/[a-zA-Z]/.test(last.textContent)) return;
+    last.style.cursor = 'pointer';
+    last.title = 'Click to hear it 點一下聽發音';
+    last.addEventListener('click', function () { play([last]); });
+  });
+
+  window.addEventListener('beforeunload', function () { synth.cancel(); });
+})();
+</script>
+</body>
+</html>

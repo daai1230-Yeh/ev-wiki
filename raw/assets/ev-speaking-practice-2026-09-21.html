@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>EV Speaking Practice — Two Markets, Two Speeds (2026-09-21)</title>
+<style>
+  :root{
+    --bg:#0C2A65;
+    --fg:#FFFFFF;
+    --accent:#7FB3FF;
+    --line:rgba(127,179,255,.35);
+  }
+  *{ box-sizing:border-box; }
+  body{
+    margin:0; padding:28px 20px 60px;
+    background:var(--bg); color:var(--fg);
+    font-family:"Helvetica Neue",Helvetica,Arial,"PingFang TC","Noto Sans TC",sans-serif;
+    font-size:20pt; line-height:1.65;
+  }
+  .wrap{ max-width:980px; margin:0 auto; }
+  h1{ font-size:27pt; line-height:1.3; margin:0 0 6px; }
+  .sub{ font-size:15pt; opacity:.72; margin:0 0 26px; letter-spacing:.02em; }
+  h2{
+    font-size:22pt; margin:38px 0 14px; padding-left:14px;
+    border-left:6px solid var(--accent);
+  }
+  h2 .min{ font-size:14pt; color:var(--accent); opacity:.9; margin-left:10px; letter-spacing:.04em; }
+  .block{ margin-bottom:10px; }
+  p{ margin:0 0 4px; }
+  .en{ margin:16px 0 2px; }
+  .zh{ font-size:16pt; opacity:.78; margin:0 0 14px; }
+  ol,ul{ margin:8px 0 0; padding-left:1.3em; }
+  li{ margin-bottom:14px; }
+  li .en{ margin:0 0 2px; }
+  li .zh{ margin:0; }
+  .plan{
+    border:1px solid var(--line); border-radius:10px;
+    padding:16px 20px; margin:0 0 18px; font-size:15pt; line-height:1.7;
+    background:rgba(127,179,255,.07);
+  }
+  .plan b{ color:var(--accent); letter-spacing:.04em; }
+  .plan ol{ margin:8px 0 0; padding-left:1.4em; }
+  .plan li{ margin-bottom:4px; }
+  .plan .t{ color:var(--accent); }
+  table{ border-collapse:collapse; width:100%; margin:14px 0 6px; font-size:15pt; }
+  th,td{ border:1px solid var(--line); padding:9px 12px; text-align:left; vertical-align:top; }
+  th{ background:rgba(127,179,255,.18); color:var(--accent); font-size:14pt; letter-spacing:.03em; }
+  code{ font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace; font-size:13pt; }
+  a{ color:var(--accent); }
+  .note{ font-size:14pt; opacity:.7; line-height:1.6; }
+  footer{ margin-top:46px; padding-top:16px; border-top:1px solid var(--line); font-size:13.5pt; opacity:.6; }
+  @media (max-width:640px){
+    body{ font-size:17pt; padding:18px 14px 44px; }
+    h1{ font-size:21pt; } h2{ font-size:18pt; }
+    .zh{ font-size:14pt; }
+    table{ font-size:12.5pt; } th,td{ padding:7px 8px; }
+    .plan{ font-size:13pt; }
+  }
+
+  /* ---- Text-to-speech controls ---- */
+  #ttsbar {
+    position:sticky; top:0; z-index:50;
+    background:rgba(12,42,101,.96); backdrop-filter:blur(6px);
+    border:1px solid var(--line); border-radius:10px;
+    padding:14px 18px; margin:0 0 8px;
+    display:flex; flex-wrap:wrap; gap:10px 14px; align-items:center;
+    font-size:14pt;
+  }
+  #ttsbar label { opacity:.75; letter-spacing:.04em; }
+  #ttsbar button {
+    font:inherit; font-size:14pt; font-weight:700;
+    color:var(--bg); background:var(--accent);
+    border:none; border-radius:6px; padding:8px 16px; cursor:pointer;
+  }
+  #ttsbar button.ghost { background:transparent; color:var(--accent); border:1px solid var(--accent); }
+  #ttsbar button:hover { opacity:.85; }
+  #ttsbar select {
+    font:inherit; font-size:14pt;
+    color:var(--fg); background:#123573;
+    border:1px solid var(--line); border-radius:6px; padding:7px 10px; max-width:260px;
+  }
+  #ttshint { flex-basis:100%; font-size:12.5pt; opacity:.6; line-height:1.5; }
+  .playbtn {
+    font:inherit; font-size:13pt; line-height:1;
+    color:var(--accent); background:transparent;
+    border:1px solid rgba(127,179,255,.5); border-radius:5px;
+    padding:4px 9px; margin-right:10px; cursor:pointer; vertical-align:middle;
+  }
+  .playbtn:hover { background:rgba(127,179,255,.16); }
+  .speaking {
+    background:rgba(127,179,255,.17);
+    box-shadow:0 0 0 8px rgba(127,179,255,.17);
+    border-radius:3px;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<h1>EV Speaking Practice — Two Markets, Two Speeds</h1>
+<p class="sub">2026-09-21 · 25 minutes · Europe's record BEV share vs. America's flat summer　歐洲創紀錄的純電占比，對比美國持平的夏天</p>
+
+<div class="plan">
+  <b>SESSION PLAN　課程流程（25 分鐘）</b>
+  <ol>
+    <li><span class="t">3 min</span> — Warm-Up 暖身</li>
+    <li><span class="t">6 min</span> — Read Aloud 朗讀短文</li>
+    <li><span class="t">4 min</span> — Key Vocabulary 關鍵單字</li>
+    <li><span class="t">2 min</span> — Saying the Numbers 數字唸法</li>
+    <li><span class="t">3 min</span> — Useful Expressions 實用句型</li>
+    <li><span class="t">5 min</span> — Discussion 討論題</li>
+    <li><span class="t">2 min</span> — Wrap-Up 總結</li>
+  </ol>
+</div>
+
+<div id="ttsbar">
+  <button id="tts-play">▶ Read the article 朗讀全文</button>
+  <button id="tts-stop" class="ghost">■ Stop 停止</button>
+  <label for="tts-voice">Voice</label>
+  <select id="tts-voice"></select>
+  <label for="tts-rate">Speed</label>
+  <select id="tts-rate">
+    <option value="0.75">0.75× 慢</option>
+    <option value="0.9" selected>0.9× 稍慢</option>
+    <option value="1">1.0× 正常</option>
+    <option value="1.15">1.15× 快</option>
+  </select>
+  <div id="ttshint">每個英文段落左邊都有 ▶ 可單獨播放；正在唸的句子會反白。想要更自然的聲音：macOS「系統設定 → 輔助使用 → 朗讀內容 → 系統聲音」下載 Enhanced／Premium 或 Siri 語音，再回來從上面的 Voice 選單選取。</div>
+</div>
+
+<h2>1. Warm-Up<span class="min">3 min　暖身</span></h2>
+<div class="block">
+  <ol>
+    <li>
+      <p class="en">When you picture a country where most new cars are electric, which country comes to mind, and why?</p>
+      <p class="zh">當你想像一個「新車大多是電動車」的國家時，你最先想到哪一國？為什麼？</p>
+    </li>
+    <li>
+      <p class="en">If a government suddenly cancelled its EV tax credit tomorrow, what do you think would happen to sales in the following year?</p>
+      <p class="zh">如果政府明天突然取消電動車稅務優惠，你覺得接下來一年的銷量會發生什麼事？</p>
+    </li>
+    <li>
+      <p class="en">Would you consider buying a second-hand electric car? What would worry you most about it?</p>
+      <p class="zh">你會考慮買二手電動車嗎？你最擔心的是什麼？</p>
+    </li>
+  </ol>
+</div>
+
+<h2>2. Read Aloud<span class="min">6 min　朗讀短文</span></h2>
+<div class="block" id="article">
+  <p class="en">In August, Europe and the United States told almost opposite stories about electric cars. Across sixteen major European markets, battery-electric registrations climbed to two hundred and two thousand, eight hundred and thirty-three units, a jump of fifty-four point two percent from a year earlier. That pushed the battery-electric share of new sales to thirty point five percent, or roughly one car in three.</p>
+  <p class="zh">八月，歐洲和美國在電動車上說的幾乎是兩個相反的故事。在歐洲十六個主要市場，純電動車掛牌數攀升到 202,833 輛，比去年同期大增 54.2%。這讓純電動車在新車銷售中的占比來到 30.5%，大約每三輛新車就有一輛。</p>
+
+  <p class="en">The number embarrassed the forecasters. Transport and Environment had expected Europe to finish the year at about twenty-three percent, and Rho Motion had penciled in something closer to twenty-one. Instead, those sixteen markets have registered more than one point six seven million battery-electric cars so far this year, up thirty-three point one percent on the same period in 2025.</p>
+  <p class="zh">這個數字讓預測機構相當尷尬。T&amp;E 原本預期歐洲今年收在 23% 左右，Rho Motion 抓的更低，大約 21%。結果這十六個市場今年到目前為止已掛牌超過 167 萬輛純電動車，比 2025 年同期成長 33.1%。</p>
+
+  <p class="en">The big markets are finally pulling their weight. France reached a battery-electric share of thirty-eight point three percent in August, with thirty-six thousand, one hundred and fifty-nine registrations, while Germany rose to thirty-two point five percent on sixty-eight thousand, nine hundred and eighty units. The smaller countries remain in a league of their own: Norway at ninety-eight point seven percent, Denmark at eighty-five point nine, Finland at fifty-two point three, and the Netherlands just under half.</p>
+  <p class="zh">大型市場終於開始拉車。法國八月純電占比達 38.3%，掛牌 36,159 輛；德國升到 32.5%，共 68,980 輛。小國則仍是另一個等級：挪威 98.7%、丹麥 85.9%、芬蘭 52.3%，荷蘭則差一點就到一半。</p>
+
+  <p class="en">Chris Heron, secretary general of E-Mobility Europe, argued that the priority now is policy stability, so that officials and the industry can keep the momentum going and keep Europe in the lead. It is a revealing thing to ask for. It suggests the industry believes the demand is real, and that the main risk is a government changing its mind.</p>
+  <p class="zh">E-Mobility Europe 秘書長 Chris Heron 認為，現在的首要之務是政策穩定，讓官方和業界一起維持這股動能、確保歐洲保持領先。這個訴求很能說明問題：它暗示業界相信需求是真的，最大的風險反而是政府改變心意。</p>
+
+  <p class="en">The American picture is flatter and more complicated. Roughly seventy-eight thousand, eight hundred and ninety-five new electric vehicles were sold in August, up two point five percent from July but down forty-six point nine percent from a year earlier, when buyers rushed to beat the expiring federal tax credit. Electric vehicles held five point seven percent of new-car sales, unchanged month on month.</p>
+  <p class="zh">美國的畫面則平坦得多，也複雜得多。八月估計售出約 78,895 輛新電動車，比七月成長 2.5%，但比去年同期大減 46.9%——去年此時買家趕在聯邦稅務優惠到期前搶購。電動車占新車銷售的 5.7%，和七月持平。</p>
+
+  <p class="en">Underneath that flat headline, though, the market looks healthier than it did. Tesla's share slipped to fifty-one point seven percent as Toyota, Chevrolet, Cadillac and Kia all gained ground. Average transaction prices fell to fifty-four thousand, seven hundred and fifty-four dollars, narrowing the gap with petrol cars to four thousand, eight hundred and forty-seven dollars, or about nine point seven percent.</p>
+  <p class="zh">不過在持平的表象底下，市場看起來比以前健康。特斯拉的市占滑落到 51.7%，豐田、雪佛蘭、凱迪拉克和起亞則同步進補。新電動車平均成交價降到 54,754 美元，與燃油車的價差縮小到 4,847 美元，約 9.7%。</p>
+
+  <p class="en">The used market is where the real story sits. About forty-four thousand, three hundred and fifty used electric vehicles changed hands in August, up twenty-five point nine percent in a month, as cars coming off lease flooded in. Days of supply fell to forty-two, level with petrol cars for the first time, and the average listing price of thirty-seven thousand, four hundred and forty-one dollars was still eight point two percent higher than a year ago. Demand, in other words, is absorbing everything the leasing companies can throw at it.</p>
+  <p class="zh">真正的故事在二手市場。八月約有 44,350 輛二手電動車成交，單月成長 25.9%，因為租約到期的車大量湧入。庫存天數降到 42 天，首次與燃油車持平，而 37,441 美元的平均掛牌價仍比一年前高 8.2%。換句話說，租賃公司丟出多少車，需求就吸收多少。</p>
+</div>
+
+<h2>3. Key Vocabulary<span class="min">4 min　關鍵單字</span></h2>
+<div class="block">
+  <p class="note">Tip 提示：表格最後一欄的例句可以點一下，聽發音。</p>
+  <table>
+    <thead>
+      <tr><th>Word 單字</th><th>IPA 音標</th><th>Meaning 中文</th><th>Example sentence 例句</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>registration</td><td>/ˌredʒɪˈstreɪʃn/</td><td>（車輛）掛牌、領牌數</td><td>Registrations are a better measure of demand than shipments.</td></tr>
+      <tr><td>forecaster</td><td>/ˈfɔːrkæstər/</td><td>預測機構、預測者</td><td>The forecasters were too cautious about Europe this year.</td></tr>
+      <tr><td>momentum</td><td>/moʊˈmentəm/</td><td>動能、氣勢</td><td>Losing momentum now would be expensive for the industry.</td></tr>
+      <tr><td>incentive</td><td>/ɪnˈsentɪv/</td><td>優惠、獎勵措施</td><td>Dealers are offering smaller incentives than last year.</td></tr>
+      <tr><td>expire</td><td>/ɪkˈspaɪər/</td><td>到期、失效</td><td>Sales collapsed once the tax credit expired.</td></tr>
+      <tr><td>pull forward</td><td>/pʊl ˈfɔːrwərd/</td><td>需求提前、提前消費</td><td>The deadline pulled forward a year of demand into two months.</td></tr>
+      <tr><td>plateau (v.)</td><td>/plæˈtoʊ/</td><td>持平、進入高原期</td><td>The American market seems to have plateaued at under six percent.</td></tr>
+      <tr><td>days of supply</td><td>/deɪz əv səˈplaɪ/</td><td>庫存天數</td><td>Days of supply tell you how quickly a car leaves the lot.</td></tr>
+      <tr><td>off-lease</td><td>/ˌɔːf ˈliːs/</td><td>租約到期（回流的車）</td><td>Off-lease vehicles are feeding the used electric market.</td></tr>
+      <tr><td>absorb</td><td>/əbˈzɔːrb/</td><td>吸收、消化（供給）</td><td>Buyers absorbed the extra supply without a price crash.</td></tr>
+      <tr><td>narrow the gap</td><td>/ˈnæroʊ ðə ɡæp/</td><td>縮小差距</td><td>Cheaper models are narrowing the gap with petrol cars.</td></tr>
+      <tr><td>uptake</td><td>/ˈʌpteɪk/</td><td>採用率、普及程度</td><td>Norway still has the highest uptake in the world.</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<h2>4. Saying the Numbers<span class="min">2 min　數字唸法</span></h2>
+<div class="block">
+  <table>
+    <thead>
+      <tr><th>Figure 數字</th><th>What it refers to 指的是</th><th>How to say it 英文唸法</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>30.5%</td><td>Europe's BEV share in August</td><td>thirty point five percent</td></tr>
+      <tr><td>202,833</td><td>European BEV registrations</td><td>two hundred and two thousand, eight hundred and thirty-three</td></tr>
+      <tr><td>+54.2%</td><td>Year-on-year growth</td><td>up fifty-four point two percent year on year</td></tr>
+      <tr><td>1.67 million</td><td>Year-to-date registrations</td><td>one point six seven million</td></tr>
+      <tr><td>98.7%</td><td>Norway's BEV share</td><td>ninety-eight point seven percent</td></tr>
+      <tr><td>78,895</td><td>US new EV sales in August</td><td>seventy-eight thousand, eight hundred and ninety-five</td></tr>
+      <tr><td>−46.9%</td><td>US year-on-year change</td><td>down forty-six point nine percent from a year earlier</td></tr>
+      <tr><td>$54,754</td><td>Average new EV price</td><td>fifty-four thousand, seven hundred and fifty-four US dollars</td></tr>
+      <tr><td>$4,847</td><td>Price gap with petrol cars</td><td>four thousand, eight hundred and forty-seven dollars</td></tr>
+      <tr><td>$37,441</td><td>Average used EV listing price</td><td>thirty-seven thousand, four hundred and forty-one dollars</td></tr>
+      <tr><td>42 days</td><td>Used EV days of supply</td><td>forty-two days of supply</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<h2>5. Useful Expressions<span class="min">3 min　實用句型</span></h2>
+<div class="block">
+  <ol>
+    <li>
+      <p class="en">The headline number hides something more interesting: ___.</p>
+      <p class="zh">「表面的數字藏著更有意思的東西：___。」用來把話題從單一數據帶到背後的結構。</p>
+    </li>
+    <li>
+      <p class="en">On paper it looks like a decline, but once you adjust for ___, the picture changes.</p>
+      <p class="zh">「帳面上看起來是衰退，但只要把 ___ 考慮進去，畫面就不一樣了。」適合解釋美國 −46.9% 的基期問題。</p>
+    </li>
+    <li>
+      <p class="en">What strikes me is not the growth itself, but how fast ___.</p>
+      <p class="zh">「讓我印象深刻的不是成長本身，而是 ___ 有多快。」把觀察講得有層次。</p>
+    </li>
+    <li>
+      <p class="en">I'd say the risk here is less about technology and more about ___.</p>
+      <p class="zh">「我會說這裡的風險比較不是技術問題，而是 ___。」表達判斷、帶出政策或價格因素。</p>
+    </li>
+    <li>
+      <p class="en">If that trend holds, we should expect ___ within the next couple of years.</p>
+      <p class="zh">「如果這個趨勢持續，我們應該會在未來幾年看到 ___。」做預測的安全句型。</p>
+    </li>
+  </ol>
+</div>
+
+<h2>6. Discussion<span class="min">5 min　討論題</span></h2>
+<div class="block">
+  <ol>
+    <li>
+      <p class="en">Europe hit thirty point five percent while the United States sat at five point seven. How much of that gap do you think comes from policy, and how much from geography and driving habits?</p>
+      <p class="zh">歐洲達到 30.5%，美國只有 5.7%。你覺得這個差距有多少來自政策，多少來自地理條件與用車習慣？</p>
+    </li>
+    <li>
+      <p class="en">Chris Heron asked for "policy stability." Some economists argue that permanent subsidies simply inflate prices and should be phased out. Which side would you defend, and how?</p>
+      <p class="zh">Chris Heron 要求「政策穩定」。有些經濟學家主張長期補貼只會墊高價格、應該退場。你會替哪一邊辯護？怎麼辯？</p>
+    </li>
+    <li>
+      <p class="en">American EV sales fell almost forty-seven percent year on year, yet prices barely moved and used cars sold faster. Does that look like a market in trouble, or a market growing up?</p>
+      <p class="zh">美國電動車銷量年減近 47%，但價格幾乎沒動、二手車還賣得更快。這看起來像是市場出問題，還是市場正在成熟？</p>
+    </li>
+    <li>
+      <p class="en">Tesla's share dropped to just above half. Is a market with one dominant brand better or worse for ordinary buyers?</p>
+      <p class="zh">特斯拉市占掉到剛過一半。對一般消費者來說，「一家獨大」的市場是好事還是壞事？</p>
+    </li>
+    <li>
+      <p class="en">Used electric cars are now selling as fast as used petrol cars, but their average price is still over thirty-seven thousand dollars. Who is actually being priced out of this market?</p>
+      <p class="zh">二手電動車現在賣得跟二手燃油車一樣快，但均價仍超過 37,000 美元。實際上是誰被擋在這個市場之外？</p>
+    </li>
+    <li>
+      <p class="en">If Taiwan wanted to reach thirty percent battery-electric sales, what would have to change first — the price, the chargers, or the apartment parking?</p>
+      <p class="zh">如果台灣想讓純電車銷售占比達到 30%，最先需要改變的是什麼——價格、充電樁，還是大樓停車位？</p>
+    </li>
+  </ol>
+</div>
+
+<h2>7. Wrap-Up<span class="min">2 min　總結</span></h2>
+<div class="block">
+  <p class="en">In sixty seconds, summarise the two markets for your teacher: what Europe achieved in August, what the American numbers really mean once you account for last year's tax credit, and which of the two you find more convincing as a sign of where the industry is heading.</p>
+  <p class="zh">用 60 秒向老師摘要這兩個市場：歐洲八月達成了什麼、把去年稅務優惠的因素拿掉之後美國的數字究竟代表什麼，以及你認為哪一個更能說明產業的走向。</p>
+
+  <p class="en">Then finish with one sentence of your own position: "Personally, I think the more important number here is ___, because ___."</p>
+  <p class="zh">最後用一句話表達你的立場：「就我個人而言，我認為這裡比較重要的數字是 ___，因為 ___。」</p>
+</div>
+
+<h2>Source Notes　取材筆記</h2>
+<div class="block">
+  <p class="en">Vault path: <code>Claude code AI筆記 / raw / assets</code></p>
+  <p class="zh">筆記庫路徑：<code>Claude code AI筆記 / raw / assets</code></p>
+  <table>
+    <thead>
+      <tr><th>Note file 筆記檔名</th><th>Original 原始出處</th><th>Used for 用於</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><code>2026-09-20-國際產業 歐洲8月純電車銷售超預期 占比達30.5%.md</code></td>
+        <td>中時新聞網／時報資訊 · 時報編譯張朝欽 · 2026-09-17<br><a href="https://www.chinatimes.com/realtimenews/20260917003026-260410">chinatimes.com</a></td>
+        <td>Paragraphs 1–4: European registrations, share, forecasts, country breakdown, Chris Heron quote.<br><span class="zh">第 1–4 段：歐洲掛牌數、占比、預測落差、各國數據與 Chris Heron 談話。</span></td>
+      </tr>
+      <tr>
+        <td><code>2026-09-20-美國電動車市場趨穩 8月新舊車銷售雙雙回升.md</code></td>
+        <td>商傳媒／民生電子報 · 方承業 · 2026-09-19<br><a href="https://lifenews.com.tw/583078">lifenews.com.tw</a></td>
+        <td>Paragraphs 5–7: US new and used EV volumes, Tesla share, prices, incentives, days of supply.<br><span class="zh">第 5–7 段：美國新車與中古電動車銷量、特斯拉市占、價格、促銷與庫存天數。</span></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<footer>
+  EV Speaking Practice · 2026-09-21 · 25 minutes · B2–C1 · built from the Obsidian vault (news-clipper daily clippings)
+</footer>
+
+</div>
+
+<script>
+(function () {
+  var synth = window.speechSynthesis;
+  var bar = document.getElementById('ttsbar');
+  if (!synth) {
+    bar.innerHTML = '<div id="ttshint">此瀏覽器不支援語音朗讀，請改用 Chrome、Edge 或 Safari 開啟本檔案。</div>';
+    return;
+  }
+
+  var voiceSel = document.getElementById('tts-voice');
+  var rateSel  = document.getElementById('tts-rate');
+  var voices   = [];
+  var queue    = [];
+  var qi       = 0;
+  var playing  = false;
+
+  function score(v) {
+    var n = (v.name + ' ' + (v.voiceURI || '')).toLowerCase();
+    var s = 0;
+    if (/premium|enhanced|neural|natural/.test(n)) s += 40;
+    if (/siri/.test(n)) s += 30;
+    if (/google/.test(n)) s += 25;
+    if (/samantha|ava|allison|serena|daniel|kate|arthur|evan|nathan|zoe/.test(n)) s += 12;
+    if (/compact|novelty|whisper|bells|bubbles|jester|organ|trinoids|zarvox|albert|bad news|good news/.test(n)) s -= 60;
+    if (v.lang === 'en-US') s += 6;
+    if (v.lang === 'en-GB') s += 5;
+    if (v.localService) s += 2;
+    return s;
+  }
+
+  function loadVoices() {
+    var all = synth.getVoices().filter(function (v) { return /^en[-_]/i.test(v.lang); });
+    if (!all.length) return;
+    all.sort(function (a, b) { return score(b) - score(a); });
+    voices = all;
+    voiceSel.innerHTML = '';
+    voices.forEach(function (v, i) {
+      var o = document.createElement('option');
+      o.value = i;
+      o.textContent = v.name + ' (' + v.lang + ')';
+      voiceSel.appendChild(o);
+    });
+    var saved = null;
+    try { saved = localStorage.getItem('evPracticeVoice'); } catch (e) {}
+    if (saved !== null) {
+      var idx = voices.findIndex(function (v) { return v.name === saved; });
+      if (idx > -1) voiceSel.value = idx;
+    }
+  }
+  loadVoices();
+  synth.onvoiceschanged = loadVoices;
+
+  voiceSel.addEventListener('change', function () {
+    var v = voices[voiceSel.value];
+    try { if (v) localStorage.setItem('evPracticeVoice', v.name); } catch (e) {}
+  });
+
+  function clearHighlight() {
+    var h = document.querySelector('.speaking');
+    if (h) h.classList.remove('speaking');
+  }
+
+  function stop() {
+    playing = false;
+    queue = [];
+    qi = 0;
+    synth.cancel();
+    clearHighlight();
+  }
+
+  // Chrome silently truncates any utterance longer than ~15s, so queue
+  // sentence-sized chunks instead of whole paragraphs.
+  function sentences(text) {
+    var SEP = String.fromCharCode(1);
+    var t = text.replace(/\s+/g, ' ').trim();
+    // Shield decimals/abbreviations so "86.5 percent" isn't split in two.
+    t = t.replace(/(\d)\.(\d)/g, '$1' + SEP + '$2')
+         .replace(/\b(Mr|Mrs|Ms|Dr|St|vs|etc|Inc|Ltd|Co|approx)\./gi,
+                  function (m) { return m.slice(0, -1) + SEP; })
+         .replace(/\bU\.S\./g, 'U' + SEP + 'S' + SEP);
+    var parts = t.match(/[^.!?]+[.!?]+["')\]]?|[^.!?]+$/g) || [t];
+    return parts
+      .map(function (s) { return s.split(SEP).join('.').trim(); })
+      .filter(function (s) { return /[a-zA-Z0-9]/.test(s); });
+  }
+
+  function speakNext() {
+    if (!playing || qi >= queue.length) { stop(); return; }
+    var item = queue[qi++];
+    clearHighlight();
+    if (item.el) {
+      item.el.classList.add('speaking');
+      var r = item.el.getBoundingClientRect();
+      if (r.top < 120 || r.bottom > window.innerHeight - 40) {
+        item.el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      }
+    }
+    var u = new SpeechSynthesisUtterance(item.text);
+    var v = voices[voiceSel.value];
+    if (v) { u.voice = v; u.lang = v.lang; } else { u.lang = 'en-US'; }
+    u.rate = parseFloat(rateSel.value);
+    u.pitch = 1;
+    u.onend = speakNext;
+    u.onerror = speakNext;
+    synth.speak(u);
+  }
+
+  function textOf(el) {
+    // Snapshot taken before the play glyph was injected, so it is never spoken.
+    return el.getAttribute('data-tts') || el.textContent;
+  }
+
+  function play(elements) {
+    stop();
+    queue = [];
+    elements.forEach(function (el) {
+      sentences(textOf(el)).forEach(function (s) {
+        if (s.trim()) queue.push({ el: el, text: s });
+      });
+    });
+    if (!queue.length) return;
+    playing = true;
+    qi = 0;
+    speakNext();
+  }
+
+  document.getElementById('tts-stop').addEventListener('click', stop);
+
+  document.getElementById('tts-play').addEventListener('click', function () {
+    var paras = [].slice.call(document.querySelectorAll('#article .en'));
+    play(paras);
+  });
+
+  rateSel.addEventListener('change', function () { if (playing) stop(); });
+
+  var targets = [].slice.call(document.querySelectorAll('.en'));
+  targets.forEach(function (el) {
+    el.setAttribute('data-tts', el.textContent);
+    var b = document.createElement('button');
+    b.className = 'playbtn';
+    b.type = 'button';
+    b.textContent = '▶';
+    b.setAttribute('aria-label', 'Play this sentence');
+    b.addEventListener('click', function (e) {
+      e.stopPropagation();
+      play([el]);
+    });
+    el.insertBefore(b, el.firstChild);
+  });
+
+  [].slice.call(document.querySelectorAll('table tr')).forEach(function (tr) {
+    var cells = tr.querySelectorAll('td');
+    if (cells.length < 2) return;
+    var last = cells[cells.length - 1];
+    if (!/[a-zA-Z]/.test(last.textContent)) return;
+    last.style.cursor = 'pointer';
+    last.title = 'Click to hear it 點一下聽發音';
+    last.addEventListener('click', function () { play([last]); });
+  });
+
+  window.addEventListener('beforeunload', function () { synth.cancel(); });
+})();
+</script>
+</body>
+</html>

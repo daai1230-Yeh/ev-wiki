@@ -1,7 +1,7 @@
 ---
 tags: [entity]
 sources: [lges-bmw-46series-order, ev-news-2026-06-30-07-01, ev-news-2026-07-10-electrive-batch, ev-news-2026-07-12-13-electrive, ev-news-2026-07-24-27-electrive-en, ev-news-2026-07-29-31-digitimes, ev-news-2026-07-28-30-electrive-en, ev-news-2026-08-27-29-electrive-en, ev-news-2026-09-18-electrive-en, ev-news-2026-09-22-electrive-en, ev-news-2026-09-22-digitimes, ev-news-2026-09-24-electrive-en, ev-news-2026-09-30-electrive-en, ev-news-2026-10-01-electrive-en, ev-news-2026-10-02-electrive-en, ev-news-2026-10-05-electrive-en, ev-news-2026-10-04-digest]
-updated: 2026-10-05
+updated: 2026-10-14
 ---
 
 # BMW（寶馬）
@@ -182,3 +182,11 @@ BMW發表首款純電3系i3，共用Neue Klasse平台與iX3同技術套件但續
 BMW Irlbach-Straßkirchen電池廠（約10億歐元）量產第六代高壓電池，首供慕尼黑廠新i3、兩班制運轉；Gen6採800V與46mm圓柱電芯（能量密度較前代方形高約20%），i3 50 xDrive使用108.7kWh電池；2027年款i3美國預購9/29提前開放、起價61,500美元、2027年Q1交車；歐系豪華車廠（含BMW）全面將重心轉向美國，但美國參議院擬設車廠中資持股15%上限的法案影響賓士、Volvo。
 
 - 參見：[[sources/ev-news-2026-10-05-electrive-en]] | [[sources/ev-news-2026-10-04-digest]] | [[concepts/電池技術路線]] | [[countries/德國]] | [[countries/美國]]
+
+## Q3純電交車年增7.2%，歐洲+37.5%（2026-10）
+
+> **結論**：BMW Q3純電110,257輛，扭轉上半年年減7.4%；歐洲純電佔比34.7%，iX3一年歐洲訂單逾10萬輛；但集團Q3總量-6.3%，中國-24.8%。
+
+**觀察**：中國版iX3 11月上市後的中國銷量。
+
+- 參見：[[sources/ev-news-2026-10-13-14-electrive-en]] | [[concepts/歐洲EV市場]]

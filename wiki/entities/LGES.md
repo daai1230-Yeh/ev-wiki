@@ -1,7 +1,7 @@
 ---
 tags: [entity]
 sources: [lges-loss-ess-2026, ira-supply-chain-compliance, us-ev-battery-demand-mismatch, lges-tesla-4680-supplier, lges-bmw-46series-order, ev-news-2026-07-03-08, ev-news-2026-07-10-supplement, ev-news-2026-07-12-13-electrive, ev-news-2026-07-14-16-digitimes, ev-news-2026-07-17-20-digitimes, ev-news-2026-07-25-27-digitimes, ev-news-2026-07-29-31-digitimes, ev-news-2026-08-20-digitimes, ev-news-2026-08-19-20-cn-misc, ev-news-2026-08-19-20-electrive-en, ev-news-2026-08-21-digitimes, ev-news-2026-08-21-23-electrive-en, ev-news-2026-08-26-digitimes, ev-news-2026-08-27-digitimes, ev-news-2026-09-01-digitimes, ev-news-2026-10-01-electrive-en, ev-news-2026-10-02-digitimes, ev-news-2026-10-05-electrive-en, ev-news-2026-10-07-digitimes, ev-news-2026-10-08-digitimes, ev-news-2026-10-09-electrive-en, ev-news-2026-10-12-digest]
-updated: 2026-10-12
+updated: 2026-10-14
 ---
 
 # 樂金能源解決方案（LG Energy Solution，LGES）
@@ -226,3 +226,13 @@ LGES已與客戶完成長時儲能用鈉離子電池PoC，2027年向美國ESS客
 LGES Q3營收約9.64兆韓元（年增59%）創單季新高，營業利益7,560億韓元（扣AMPC後仍盈利3,391億韓元，Q2虧損1,277億韓元），主因北美ESS擴產、歐洲電動車電池與合資廠復工、客戶補償金；與Elevra Lithium簽約4年取得24萬噸鋰精礦；8月啟用的密西根蘭辛廠生產Tesla用LFP儲能電池與Toyota用NMC電池。
 
 - 參見：[[sources/ev-news-2026-10-08-digitimes]] | [[sources/ev-news-2026-10-09-electrive-en]] | [[sources/ev-news-2026-10-12-digest]] | [[concepts/儲能市場]] | [[countries/韓國]]
+
+## 大進機械重整轉單、傳與L&F簽LFP長約（2026-10）
+
+> **結論**：LGES同時處理設備與材料兩端的供應鏈風險：ESS設備夥伴大進機械重整後轉單給System R&D等廠商，並傳將與L&F簽兆韓元級LFP正極長約，以南韓本土材料符合美國PFE規範並爭取AMPC。
+
+**主因**：本田美國合資廠承包商追討約2,243萬美元工程款；LGES導入技術資料寄存制度；LFP長約將補足先前與中國龍蟠科技（約35.7億美元）長約的去中化缺口，另與Posco Future M洽談。
+
+**觀察**：10月內是否正式公告L&F合約。
+
+- 參見：[[sources/ev-news-2026-10-12-14-digitimes]] | [[concepts/儲能市場]]

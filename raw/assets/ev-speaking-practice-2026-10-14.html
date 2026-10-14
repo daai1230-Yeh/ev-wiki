@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>EV Speaking Practice 2026-10-14 · Fast Charging &amp; the Grid</title>
+<style>
+  :root { --bg:#0C2A65; --fg:#FFFFFF; --accent:#7FB3FF; --line:rgba(127,179,255,.35); }
+  * { box-sizing:border-box; }
+  html { -webkit-text-size-adjust:100%; }
+  body { margin:0; background:var(--bg); color:var(--fg); font-size:20pt; line-height:1.55;
+         font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Helvetica Neue","PingFang TC","Noto Sans TC","Microsoft JhengHei",Arial,sans-serif; }
+  .wrap { max-width:980px; margin:0 auto; padding:28px 22px 60px; }
+  h1 { font-size:1.55em; line-height:1.25; margin:0 0 6px; }
+  h1 small { display:block; font-size:.62em; font-weight:400; opacity:.8; margin-top:6px; }
+  h2 { font-size:1.2em; margin:44px 0 14px; padding-left:14px; border-left:8px solid var(--accent); line-height:1.3; }
+  h2 .t { color:var(--accent); font-size:.7em; font-weight:700; margin-left:10px; white-space:nowrap; }
+  h2 small { display:block; font-size:.65em; font-weight:400; opacity:.78; }
+  p { margin:0; }
+  .en { margin:14px 0 2px; }
+  .zh { font-size:.82em; opacity:.8; margin:0 0 16px; }
+  .meta { color:var(--accent); font-size:.7em; }
+  .plan { border:1px solid var(--line); border-radius:10px; padding:16px 20px; margin:20px 0; background:rgba(255,255,255,.04); }
+  .plan h3 { margin:0 0 8px; font-size:.9em; color:var(--accent); }
+  .plan ol { margin:0; padding-left:1.4em; font-size:.8em; }
+  .plan li { margin:3px 0; }
+  .plan .t { color:var(--accent); font-weight:700; }
+  .block { margin:0 0 10px; }
+  .q { padding:6px 0; border-bottom:1px dashed var(--line); }
+  table { width:100%; border-collapse:collapse; margin:12px 0 8px; font-size:.78em; }
+  th { text-align:left; color:var(--accent); border-bottom:2px solid var(--accent); padding:8px 10px; font-weight:700; }
+  td { vertical-align:top; padding:10px; border-bottom:1px solid var(--line); }
+  td .zh { font-size:.85em; margin:2px 0 0; }
+  td .en { margin:0; }
+  .tablewrap { overflow-x:auto; -webkit-overflow-scrolling:touch; }
+  .ipa { color:var(--accent); font-size:.9em; }
+  code, .mono { font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace; font-size:.8em; word-break:break-all; }
+  a { color:var(--accent); }
+  .note { font-size:.78em; margin-bottom:6px; }
+  footer { margin-top:50px; padding-top:16px; border-top:1px solid var(--line); font-size:.62em; opacity:.7; }
+  @media (max-width:640px) {
+    body { font-size:16pt; }
+    .wrap { padding:18px 14px 50px; }
+    table { font-size:.82em; }
+    th, td { padding:7px 6px; }
+  }
+
+  /* ---- Text-to-speech controls ---- */
+  #ttsbar {
+    position:sticky; top:0; z-index:50;
+    background:rgba(12,42,101,.96); backdrop-filter:blur(6px);
+    border:1px solid var(--line); border-radius:10px;
+    padding:14px 18px; margin:0 0 8px;
+    display:flex; flex-wrap:wrap; gap:10px 14px; align-items:center;
+    font-size:14pt;
+  }
+  #ttsbar label { opacity:.75; letter-spacing:.04em; }
+  #ttsbar button {
+    font:inherit; font-size:14pt; font-weight:700;
+    color:var(--bg); background:var(--accent);
+    border:none; border-radius:6px; padding:8px 16px; cursor:pointer;
+  }
+  #ttsbar button.ghost { background:transparent; color:var(--accent); border:1px solid var(--accent); }
+  #ttsbar button:hover { opacity:.85; }
+  #ttsbar select {
+    font:inherit; font-size:14pt;
+    color:var(--fg); background:#123573;
+    border:1px solid var(--line); border-radius:6px; padding:7px 10px; max-width:260px;
+  }
+  #ttshint { flex-basis:100%; font-size:12.5pt; opacity:.6; line-height:1.5; }
+  .playbtn {
+    font:inherit; font-size:13pt; line-height:1;
+    color:var(--accent); background:transparent;
+    border:1px solid rgba(127,179,255,.5); border-radius:5px;
+    padding:4px 9px; margin-right:10px; cursor:pointer; vertical-align:middle;
+  }
+  .playbtn:hover { background:rgba(127,179,255,.16); }
+  .speaking {
+    background:rgba(127,179,255,.17);
+    box-shadow:0 0 0 8px rgba(127,179,255,.17);
+    border-radius:3px;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<h1>EV Speaking Practice 電動車英文口說練習
+  <small>Today's topic: Fast Charging Meets the Grid 今日主題：超快充遇上電網</small>
+  <small class="meta">2026-10-14 · 25 minutes 25 分鐘</small></h1>
+
+<div class="plan">
+  <h3>Session Plan 本次練習計畫（25 min）</h3>
+  <ol>
+    <li>Warm-Up 暖身 <span class="t">3 min</span></li>
+    <li>Read Aloud 朗讀短文 <span class="t">6 min</span></li>
+    <li>Key Vocabulary 關鍵單字 <span class="t">4 min</span></li>
+    <li>Saying the Numbers 數字唸法 <span class="t">2 min</span></li>
+    <li>Useful Expressions 實用句型 <span class="t">3 min</span></li>
+    <li>Discussion 討論題 <span class="t">5 min</span></li>
+    <li>Wrap-Up 總結 <span class="t">2 min</span></li>
+  </ol>
+</div>
+
+<div id="ttsbar">
+  <button id="tts-play">▶ Read the article 朗讀全文</button>
+  <button id="tts-stop" class="ghost">■ Stop 停止</button>
+  <label for="tts-voice">Voice</label>
+  <select id="tts-voice"></select>
+  <label for="tts-rate">Speed</label>
+  <select id="tts-rate">
+    <option value="0.75">0.75× 慢</option>
+    <option value="0.9" selected>0.9× 稍慢</option>
+    <option value="1">1.0× 正常</option>
+    <option value="1.15">1.15× 快</option>
+  </select>
+  <div id="ttshint">每個英文段落左邊都有 ▶ 可單獨播放；正在唸的句子會反白。想要更自然的聲音：macOS「系統設定 → 輔助使用 → 朗讀內容 → 系統聲音」下載 Enhanced／Premium 或 Siri 語音，再回來從上面的 Voice 選單選取。</div>
+</div>
+
+<h2>1. Warm-Up 暖身 <span class="t">3 min</span></h2>
+<div class="block">
+  <div class="q"><p class="en">How long are you willing to wait while your car charges on a road trip? Five minutes, twenty, or an hour?</p><p class="zh">公路旅行時，你願意等車子充電多久？五分鐘、二十分鐘，還是一個小時？</p></div>
+  <div class="q"><p class="en">Do you charge at home, at work, or at public stations? What is the most annoying part of it?</p><p class="zh">你都在家裡、公司，還是公共充電站充電？最讓你煩的是哪一點？</p></div>
+  <div class="q"><p class="en">Would you let your car sell electricity back to the grid if it saved you money?</p><p class="zh">如果能省錢，你願意讓你的車把電賣回電網嗎？</p></div>
+</div>
+
+<h2>2. Read Aloud 朗讀短文 <span class="t">6 min</span></h2>
+<div class="block" id="article">
+  <p class="en">Charging speed is becoming the new battleground in the electric car market. At the Paris Motor Show this week, BYD unveiled the Atto 8, a seven-seat SUV with a 115 kilowatt-hour battery and about 405 miles of range on the European test cycle.</p>
+  <p class="zh">充電速度正成為電動車市場的新戰場。本週在巴黎車展上，比亞迪發表了七人座 SUV Atto 8，搭載 115 度電的電池，依歐洲測試標準續航約 405 英里。</p>
+  <p class="en">The headline number is the charging time. In reasonable weather, the car can go from 10 to 70 percent in just five minutes, and four more minutes brings it to 97 percent. Even in extreme cold, as low as minus 22 degrees Fahrenheit, it takes about 12 minutes.</p>
+  <p class="zh">最吸睛的是充電時間。天氣正常時，從 10% 充到 70% 只要五分鐘，再四分鐘就到 97%。即使在零下 22 華氏度的極寒中，也只要大約 12 分鐘。</p>
+  <p class="en">InsideEVs says that beats any non-Chinese electric car on the European market. BYD also plans to install 3,000 of its T-shaped Flash chargers across Europe by the end of 2027, because a fast car is useless without a fast station.</p>
+  <p class="zh">InsideEVs 指出，這超越了歐洲市場上所有非中國品牌的電動車。比亞迪也計畫在 2027 年底前於歐洲安裝 3,000 座 T 型閃充樁，因為車再快，沒有快充站也沒用。</p>
+  <p class="en">Meanwhile, the demand side is already straining the grid. During China's National Day holiday, from October 1 to 3, the monitored highway charging stations completed about 2.97 million charging sessions, up 48 percent from last year.</p>
+  <p class="zh">同時，需求端已經讓電網吃緊。中國十一長假 10 月 1 日到 3 日，受監測的高速公路充電設施完成約 297 萬次充電，比去年同期成長 48%。</p>
+  <p class="en">The electricity delivered reached 71.6 million kilowatt-hours, up about 49 percent. To cope, State Grid placed 599 emergency chargers and 32 mobile charging vehicles at highway service areas, and some sites used real-time monitoring to steer drivers away from peak hours.</p>
+  <p class="zh">供電量達 7,160 萬度，年增約 49%。為了因應，國家電網在高速公路服務區配置 599 支緊急充電設備與 32 輛行動充電車，部分站點還用即時監控引導車主避開尖峰。</p>
+  <p class="en">There is another way to ease the pressure: make the car part of the grid. Renault and EDF will launch a bidirectional charging package in France next summer, so owners can feed battery power back into the grid or run their homes from it.</p>
+  <p class="zh">還有另一種減壓方式：讓車子成為電網的一部分。雷諾與法國電力公司 EDF 將於明年夏天在法國推出雙向充電方案，車主可以把電池的電送回電網，或用來供應家中用電。</p>
+  <p class="en">So the future of charging has two sides: faster for drivers, and smarter for the grid. The question is which one will matter more.</p>
+  <p class="zh">所以充電的未來有兩面：對駕駛更快，對電網更聰明。問題是哪一面會更重要。</p>
+</div>
+
+<h2>3. Key Vocabulary 關鍵單字 <span class="t">4 min</span></h2>
+<div class="tablewrap">
+<table>
+  <tr><th>Word 單字</th><th>IPA 音標</th><th>Meaning 中文意思</th><th>Example 例句</th></tr>
+  <tr><td>unveil</td><td class="ipa">/ʌnˈveɪl/</td><td>發表、揭幕</td><td data-tts="BYD unveiled its new SUV at the Paris Motor Show."><p class="en">BYD unveiled its new SUV at the Paris Motor Show.</p><p class="zh">比亞迪在巴黎車展發表了新款 SUV。</p></td></tr>
+  <tr><td>battleground</td><td class="ipa">/ˈbætlɡraʊnd/</td><td>戰場、兵家必爭之地</td><td data-tts="Software has become the new battleground for carmakers."><p class="en">Software has become the new battleground for carmakers.</p><p class="zh">軟體已成為車廠的新戰場。</p></td></tr>
+  <tr><td>range</td><td class="ipa">/reɪndʒ/</td><td>續航里程</td><td data-tts="Range anxiety is fading as batteries get bigger."><p class="en">Range anxiety is fading as batteries get bigger.</p><p class="zh">隨著電池變大，續航焦慮正在消退。</p></td></tr>
+  <tr><td>strain</td><td class="ipa">/streɪn/</td><td>使吃緊、造成壓力</td><td data-tts="Holiday traffic put a strain on the charging network."><p class="en">Holiday traffic put a strain on the charging network.</p><p class="zh">假期車潮讓充電網路吃緊。</p></td></tr>
+  <tr><td>peak hours</td><td class="ipa">/piːk aʊərz/</td><td>尖峰時段</td><td data-tts="Charging is cheaper if you avoid peak hours."><p class="en">Charging is cheaper if you avoid peak hours.</p><p class="zh">避開尖峰時段充電比較便宜。</p></td></tr>
+  <tr><td>grid</td><td class="ipa">/ɡrɪd/</td><td>電網</td><td data-tts="A single fast charger can draw as much power as a small neighborhood."><p class="en">A single fast charger can draw as much power as a small neighborhood.</p><p class="zh">一座快充樁用的電可能相當於一個小社區。</p></td></tr>
+  <tr><td>bidirectional</td><td class="ipa">/ˌbaɪdəˈrekʃənəl/</td><td>雙向的</td><td data-tts="Bidirectional charging turns a parked car into a home battery."><p class="en">Bidirectional charging turns a parked car into a home battery.</p><p class="zh">雙向充電讓停著的車變成家用電池。</p></td></tr>
+  <tr><td>feed back</td><td class="ipa">/fiːd bæk/</td><td>回饋、送回</td><td data-tts="You can feed unused power back into the grid at night."><p class="en">You can feed unused power back into the grid at night.</p><p class="zh">你可以在夜間把用不完的電送回電網。</p></td></tr>
+  <tr><td>cope with</td><td class="ipa">/koʊp wɪð/</td><td>應付、處理</td><td data-tts="Utilities are struggling to cope with sudden spikes in demand."><p class="en">Utilities are struggling to cope with sudden spikes in demand.</p><p class="zh">電力公司難以應付需求的突然飆升。</p></td></tr>
+  <tr><td>roll out</td><td class="ipa">/roʊl aʊt/</td><td>推出、逐步部署</td><td data-tts="The company plans to roll out 3,000 chargers by 2027."><p class="en">The company plans to roll out 3,000 chargers by 2027.</p><p class="zh">該公司計畫在 2027 年前部署 3,000 座充電樁。</p></td></tr>
+  <tr><td>steer</td><td class="ipa">/stɪr/</td><td>引導、導向</td><td data-tts="Apps can steer drivers toward stations with shorter queues."><p class="en">Apps can steer drivers toward stations with shorter queues.</p><p class="zh">App 可以把駕駛引導到排隊較短的充電站。</p></td></tr>
+  <tr><td>infrastructure</td><td class="ipa">/ˈɪnfrəstrʌktʃər/</td><td>基礎設施</td><td data-tts="Without enough infrastructure, even the best car will struggle to sell."><p class="en">Without enough infrastructure, even the best car will struggle to sell.</p><p class="zh">沒有足夠的基礎設施，再好的車也難賣。</p></td></tr>
+</table>
+</div>
+
+<h2>4. Saying the Numbers 數字唸法 <span class="t">2 min</span></h2>
+<div class="tablewrap">
+<table>
+  <tr><th>In the article 文中數據</th><th>Meaning 意思</th><th>How to say it 英文唸法</th></tr>
+  <tr><td>115 kWh</td><td>電池容量</td><td data-tts="a hundred and fifteen kilowatt-hours"><p class="en">a hundred and fifteen kilowatt-hours</p></td></tr>
+  <tr><td>405 miles</td><td>歐洲測試標準續航</td><td data-tts="about four hundred and five miles"><p class="en">about four hundred and five miles</p></td></tr>
+  <tr><td>10–70% in 5 min</td><td>五分鐘充電區間</td><td data-tts="ten to seventy percent in five minutes"><p class="en">ten to seventy percent in five minutes</p></td></tr>
+  <tr><td>−22°F</td><td>極寒溫度</td><td data-tts="minus twenty-two degrees Fahrenheit"><p class="en">minus twenty-two degrees Fahrenheit</p></td></tr>
+  <tr><td>3,000 chargers</td><td>歐洲閃充樁目標</td><td data-tts="three thousand chargers by the end of twenty twenty-seven"><p class="en">three thousand chargers by the end of twenty twenty-seven</p></td></tr>
+  <tr><td>2.97 million</td><td>長假充電次數（296.86 萬）</td><td data-tts="two point nine seven million charging sessions"><p class="en">two point nine seven million charging sessions</p></td></tr>
+  <tr><td>+48.41%</td><td>充電次數年增</td><td data-tts="up forty-eight point four one percent"><p class="en">up forty-eight point four one percent</p></td></tr>
+  <tr><td>71.6 million kWh</td><td>供電量（7,161.93 萬度）</td><td data-tts="seventy-one point six million kilowatt-hours"><p class="en">seventy-one point six million kilowatt-hours</p></td></tr>
+  <tr><td>62,700</td><td>受監測充電設施數量</td><td data-tts="sixty-two thousand, seven hundred charging points"><p class="en">sixty-two thousand, seven hundred charging points</p></td></tr>
+  <tr><td>599 / 32</td><td>緊急充電設備／行動充電車</td><td data-tts="five hundred ninety-nine emergency chargers and thirty-two mobile charging vehicles"><p class="en">five hundred ninety-nine emergency chargers and thirty-two mobile charging vehicles</p></td></tr>
+  <tr><td>100,000</td><td>Dreev 既有客戶數</td><td data-tts="more than a hundred thousand customers"><p class="en">more than a hundred thousand customers</p></td></tr>
+</table>
+</div>
+
+<h2>5. Useful Expressions 實用句型 <span class="t">3 min</span></h2>
+<div class="block">
+  <div class="q"><p class="en">The headline number is ___, but what really matters is ___.</p><p class="zh">最吸睛的數字是___，但真正重要的是___。（例：The headline number is five minutes, but what really matters is the station network.）</p></div>
+  <div class="q"><p class="en">___ is putting a real strain on ___.</p><p class="zh">___ 正對 ___ 造成很大壓力。（例：Holiday travel is putting a real strain on the grid.）</p></div>
+  <div class="q"><p class="en">That beats anything else on the market when it comes to ___.</p><p class="zh">就___而言，這勝過市面上其他產品。</p></div>
+  <div class="q"><p class="en">A fast car is useless without ___.</p><p class="zh">沒有___，快車也沒用。（例：A fast car is useless without a fast station.）</p></div>
+  <div class="q"><p class="en">One way to ease the pressure is to ___.</p><p class="zh">減輕壓力的一個方式是___。（例：One way to ease the pressure is to shift charging to off-peak hours.）</p></div>
+</div>
+
+<h2>6. Discussion 討論題 <span class="t">5 min</span></h2>
+<div class="block">
+  <div class="q"><p class="en">If charging takes only five minutes, does battery size still matter? Why would a driver still want a bigger battery?</p><p class="zh">如果充電只要五分鐘，電池大小還重要嗎？駕駛為什麼仍會想要更大的電池？</p></div>
+  <div class="q"><p class="en">BYD is building its own chargers. Should carmakers own the charging network, or should it be open to every brand?</p><p class="zh">比亞迪自建充電樁。車廠該擁有自己的充電網路，還是應開放給所有品牌？</p></div>
+  <div class="q"><p class="en">Ultra-fast charging puts heavy stress on local grids. Who should pay for the upgrades: drivers, carmakers, or governments?</p><p class="zh">超快充對在地電網壓力很大。升級費用該由駕駛、車廠還是政府負擔？</p></div>
+  <div class="q"><p class="en">Some people worry that frequent fast charging shortens battery life, and others say it is fine. Which side do you find more convincing?</p><p class="zh">有人擔心頻繁快充會縮短電池壽命，也有人說沒問題。你覺得哪一方比較有說服力？</p></div>
+  <div class="q"><p class="en">Would you trust a utility to control when your car charges and discharges, in exchange for a lower bill? What are the pros and cons?</p><p class="zh">如果能換到較低的電費，你會信任電力公司控制你的車何時充放電嗎？優缺點是什麼？</p></div>
+  <div class="q"><p class="en">In your country, is the biggest obstacle to EVs the price, the charging network, or the power grid? What would you fix first?</p><p class="zh">在你的國家，電動車最大的障礙是價格、充電網路還是電網？你會先解決哪一個？</p></div>
+</div>
+
+<h2>7. Wrap-Up 總結 <span class="t">2 min</span></h2>
+<div class="block">
+  <div class="q"><p class="en">Give a 60-second summary: what is new in fast charging, what problem it creates for the grid, and how bidirectional charging could help.</p><p class="zh">用 60 秒做摘要：快充有什麼新進展、對電網造成什麼問題，以及雙向充電如何幫上忙。</p></div>
+  <div class="q"><p class="en">Finish with your own view: "In my opinion, the bigger challenge is ___, because ___."</p><p class="zh">最後說出你的立場：「我認為更大的挑戰是___，因為___。」</p></div>
+</div>
+
+<h2>Source Notes　取材筆記</h2>
+<p class="en note">Vault path: <span class="mono">Claude code AI筆記 / raw / assets</span>. Use this table to trace each English sentence back to its source.</p>
+<p class="zh note">筆記庫路徑：<span class="mono">Claude code AI筆記 / raw / assets</span>。可用下表回溯每一句英文的資料出處。</p>
+<div class="tablewrap">
+<table>
+  <tr><th>Note file 筆記檔名</th><th>Original 原始出處</th><th>Used for 用於</th></tr>
+  <tr>
+    <td><span class="mono">2026-10-13-BYD's New 3-Row SUV Brings 5-Minute Flash Charging To European Families.md</span></td>
+    <td>InsideEVs (Nico DeMattia) · 2026-10-12<br><a href="https://insideevs.com/news/811664/byd-flash-charging-five-minutes/">insideevs.com/news/811664</a></td>
+    <td data-tts="Atto 8 battery, range, 5-minute charging, cold-weather time, 3,000 Flash chargers."><p class="en">Atto 8 battery, range, 5-minute charging, cold-weather time, 3,000 Flash chargers.</p><p class="zh">Atto 8 電池、續航、五分鐘充電、低溫充電時間、3,000 座閃充樁。</p></td>
+  </tr>
+  <tr>
+    <td><span class="mono">2026-10-06-中國十一假EV充電暴衝增49%　高速公路電網迎大考.md</span></td>
+    <td>Digitimes CarTech · 2026-10-06<br><a href="https://www.digitimes.com.tw/tech/dt/n/shwnws.asp?id=0000770498_8MO3AUWWLVJQXE7F3Y391&amp;packageid=80060&amp;CnlID=1&amp;cat=90&amp;wpidx=6">digitimes.com.tw</a></td>
+    <td data-tts="National Day holiday charging sessions, energy delivered, emergency chargers and mobile charging vehicles."><p class="en">National Day holiday charging sessions, energy delivered, emergency chargers and mobile charging vehicles.</p><p class="zh">十一長假充電次數、供電量、緊急充電設備與行動充電車。</p></td>
+  </tr>
+  <tr>
+    <td><span class="mono">2026-10-13-Renault and EDF unveil bidirectional charging offering.md</span></td>
+    <td>electrive (Cora Werwitzke) · 2026-10-12<br><a href="https://www.electrive.com/2026/10/12/renault-and-edf-unveil-bidirectional-charging-offering/">electrive.com</a></td>
+    <td data-tts="Renault–EDF bidirectional charging package for France next summer; Dreev's 100,000 customers."><p class="en">Renault–EDF bidirectional charging package for France next summer; Dreev's 100,000 customers.</p><p class="zh">雷諾與 EDF 明年夏天在法國推出的雙向充電方案；Dreev 逾 10 萬客戶。</p></td>
+  </tr>
+</table>
+</div>
+
+<footer>Generated 2026-10-14 for Claude Yeh · EV speaking practice 電動車英文口說練習</footer>
+</div>
+
+<script>
+(function () {
+  var synth = window.speechSynthesis;
+  var bar = document.getElementById('ttsbar');
+  if (!synth) {
+    bar.innerHTML = '<div id="ttshint">此瀏覽器不支援語音朗讀，請改用 Chrome、Edge 或 Safari 開啟本檔案。</div>';
+    return;
+  }
+
+  var voiceSel = document.getElementById('tts-voice');
+  var rateSel  = document.getElementById('tts-rate');
+  var voices   = [];
+  var queue    = [];
+  var qi       = 0;
+  var playing  = false;
+
+  function score(v) {
+    var n = (v.name + ' ' + (v.voiceURI || '')).toLowerCase();
+    var s = 0;
+    if (/premium|enhanced|neural|natural/.test(n)) s += 40;
+    if (/siri/.test(n)) s += 30;
+    if (/google/.test(n)) s += 25;
+    if (/samantha|ava|allison|serena|daniel|kate|arthur|evan|nathan|zoe/.test(n)) s += 12;
+    if (/compact|novelty|whisper|bells|bubbles|jester|organ|trinoids|zarvox|albert|bad news|good news/.test(n)) s -= 60;
+    if (v.lang === 'en-US') s += 6;
+    if (v.lang === 'en-GB') s += 5;
+    if (v.localService) s += 2;
+    return s;
+  }
+
+  function loadVoices() {
+    var all = synth.getVoices().filter(function (v) { return /^en[-_]/i.test(v.lang); });
+    if (!all.length) return;
+    all.sort(function (a, b) { return score(b) - score(a); });
+    voices = all;
+    voiceSel.innerHTML = '';
+    voices.forEach(function (v, i) {
+      var o = document.createElement('option');
+      o.value = i;
+      o.textContent = v.name + ' (' + v.lang + ')';
+      voiceSel.appendChild(o);
+    });
+    var saved = null;
+    try { saved = localStorage.getItem('evPracticeVoice'); } catch (e) {}
+    if (saved !== null) {
+      var idx = voices.findIndex(function (v) { return v.name === saved; });
+      if (idx > -1) voiceSel.value = idx;
+    }
+  }
+  loadVoices();
+  synth.onvoiceschanged = loadVoices;
+
+  voiceSel.addEventListener('change', function () {
+    var v = voices[voiceSel.value];
+    try { if (v) localStorage.setItem('evPracticeVoice', v.name); } catch (e) {}
+  });
+
+  function clearHighlight() {
+    var h = document.querySelector('.speaking');
+    if (h) h.classList.remove('speaking');
+  }
+
+  function stop() {
+    playing = false;
+    queue = [];
+    qi = 0;
+    synth.cancel();
+    clearHighlight();
+  }
+
+  // Chrome silently truncates any utterance longer than ~15s, so queue
+  // sentence-sized chunks instead of whole paragraphs.
+  function sentences(text) {
+    var SEP = String.fromCharCode(1);
+    var t = text.replace(/\s+/g, ' ').trim();
+    // Shield decimals/abbreviations so "86.5 percent" isn't split in two.
+    t = t.replace(/(\d)\.(\d)/g, '$1' + SEP + '$2')
+         .replace(/\b(Mr|Mrs|Ms|Dr|St|vs|etc|Inc|Ltd|Co|approx)\./gi,
+                  function (m) { return m.slice(0, -1) + SEP; })
+         .replace(/\bU\.S\./g, 'U' + SEP + 'S' + SEP);
+    var parts = t.match(/[^.!?]+[.!?]+["')\]]?|[^.!?]+$/g) || [t];
+    return parts
+      .map(function (s) { return s.split(SEP).join('.').trim(); })
+      .filter(function (s) { return /[a-zA-Z0-9]/.test(s); });
+  }
+
+  function speakNext() {
+    if (!playing || qi >= queue.length) { stop(); return; }
+    var item = queue[qi++];
+    clearHighlight();
+    if (item.el) {
+      item.el.classList.add('speaking');
+      var r = item.el.getBoundingClientRect();
+      if (r.top < 120 || r.bottom > window.innerHeight - 40) {
+        item.el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      }
+    }
+    var u = new SpeechSynthesisUtterance(item.text);
+    var v = voices[voiceSel.value];
+    if (v) { u.voice = v; u.lang = v.lang; } else { u.lang = 'en-US'; }
+    u.rate = parseFloat(rateSel.value);
+    u.pitch = 1;
+    u.onend = speakNext;
+    u.onerror = speakNext;
+    synth.speak(u);
+  }
+
+  function textOf(el) {
+    // Snapshot taken before the play glyph was injected, so it is never spoken.
+    return el.getAttribute('data-tts') || el.textContent;
+  }
+
+  function play(elements) {
+    stop();
+    queue = [];
+    elements.forEach(function (el) {
+      sentences(textOf(el)).forEach(function (s) {
+        if (s.trim()) queue.push({ el: el, text: s });
+      });
+    });
+    if (!queue.length) return;
+    playing = true;
+    qi = 0;
+    speakNext();
+  }
+
+  document.getElementById('tts-stop').addEventListener('click', stop);
+
+  document.getElementById('tts-play').addEventListener('click', function () {
+    var paras = [].slice.call(document.querySelectorAll('#article .en'));
+    play(paras);
+  });
+
+  rateSel.addEventListener('change', function () { if (playing) stop(); });
+
+  var targets = [].slice.call(document.querySelectorAll('.en'));
+  targets.forEach(function (el) {
+    el.setAttribute('data-tts', el.textContent);
+    var b = document.createElement('button');
+    b.className = 'playbtn';
+    b.type = 'button';
+    b.textContent = '▶';
+    b.setAttribute('aria-label', 'Play this sentence');
+    b.addEventListener('click', function (e) {
+      e.stopPropagation();
+      play([el]);
+    });
+    el.insertBefore(b, el.firstChild);
+  });
+
+  [].slice.call(document.querySelectorAll('table tr')).forEach(function (tr) {
+    var cells = tr.querySelectorAll('td');
+    if (cells.length < 2) return;
+    var last = cells[cells.length - 1];
+    if (!/[a-zA-Z]/.test(last.textContent)) return;
+    last.style.cursor = 'pointer';
+    last.title = 'Click to hear it 點一下聽發音';
+    last.addEventListener('click', function () { play([last]); });
+  });
+
+  window.addEventListener('beforeunload', function () { synth.cancel(); });
+})();
+</script>
+</body>
+</html>

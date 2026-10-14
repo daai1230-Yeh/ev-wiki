@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EV Speaking Practice — 2026-09-08 · Uber's Layoffs, Tesla's Quiet Robotaxi Debut</title>
+<style>
+  :root {
+    --bg: #0C2A65;
+    --fg: #FFFFFF;
+    --accent: #7FB3FF;
+    --line: rgba(127,179,255,.35);
+  }
+  * { box-sizing: border-box; }
+  body {
+    background: var(--bg);
+    color: var(--fg);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang TC", "Noto Sans TC", Helvetica, Arial, sans-serif;
+    font-size: 20pt;
+    line-height: 1.6;
+    margin: 0;
+    padding: 24px 40px 60px;
+  }
+  h1 {
+    font-size: 1.6em;
+    line-height: 1.35;
+    margin: 0 0 6px;
+  }
+  .subtitle {
+    color: var(--accent);
+    font-size: 0.55em;
+    margin: 0 0 20px;
+    letter-spacing: .02em;
+  }
+  h2 {
+    font-size: 1.1em;
+    margin: 40px 0 14px;
+    padding-left: 14px;
+    border-left: 6px solid var(--accent);
+    color: var(--fg);
+  }
+  h2 .time {
+    color: var(--accent);
+    font-size: 0.7em;
+    font-weight: 400;
+    margin-left: 8px;
+  }
+  .plan {
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    padding: 16px 20px;
+    margin: 0 0 20px;
+    font-size: 0.55em;
+  }
+  .plan-title {
+    color: var(--accent);
+    font-weight: 700;
+    margin-bottom: 8px;
+    font-size: 1.05em;
+  }
+  .plan ol {
+    margin: 0;
+    padding-left: 1.3em;
+  }
+  .plan li { margin: 3px 0; }
+  .plan .min { color: var(--accent); }
+
+  .block {
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    padding: 18px 22px;
+    margin-bottom: 16px;
+  }
+  .para { margin-bottom: 22px; }
+  .para:last-child { margin-bottom: 0; }
+  .en { margin: 0 0 6px; }
+  .zh { margin: 0; opacity: .7; font-size: 0.82em; }
+
+  ol.qlist, ul.elist {
+    padding-left: 1.2em;
+    margin: 0;
+  }
+  ol.qlist li, ul.elist li { margin-bottom: 16px; }
+  ol.qlist li:last-child, ul.elist li:last-child { margin-bottom: 0; }
+  .q-zh { opacity: .7; font-size: .8em; display: block; margin-top: 3px; }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.62em;
+  }
+  th, td {
+    text-align: left;
+    padding: 10px 12px;
+    border-bottom: 1px solid var(--line);
+    vertical-align: top;
+  }
+  th {
+    color: var(--accent);
+    font-weight: 700;
+    border-bottom: 2px solid var(--accent);
+  }
+  td.zh-cell { opacity: .75; }
+  .ipa { color: var(--accent); white-space: nowrap; }
+
+  .expr-en { font-weight: 600; }
+  .expr-zh { opacity: .75; font-size: .82em; display: block; margin-top: 4px; }
+
+  .wrap-box {
+    border: 1px dashed var(--line);
+    border-radius: 8px;
+    padding: 14px 18px;
+    margin-top: 14px;
+  }
+  .wrap-box .label { color: var(--accent); font-weight: 700; font-size: .6em; letter-spacing: .05em; }
+
+  footer {
+    margin-top: 50px;
+    padding-top: 18px;
+    border-top: 1px solid var(--line);
+    font-size: 0.5em;
+    opacity: .6;
+    text-align: center;
+  }
+
+  a { color: var(--accent); }
+
+  .source-note { font-size: 0.55em; margin-bottom: 10px; }
+  .source-note .zh { opacity: .65; }
+
+  /* ---- Text-to-speech controls ---- */
+  #ttsbar {
+    position:sticky; top:0; z-index:50;
+    background:rgba(12,42,101,.96); backdrop-filter:blur(6px);
+    border:1px solid var(--line); border-radius:10px;
+    padding:14px 18px; margin:0 0 8px;
+    display:flex; flex-wrap:wrap; gap:10px 14px; align-items:center;
+    font-size:14pt;
+  }
+  #ttsbar label { opacity:.75; letter-spacing:.04em; }
+  #ttsbar button {
+    font:inherit; font-size:14pt; font-weight:700;
+    color:var(--bg); background:var(--accent);
+    border:none; border-radius:6px; padding:8px 16px; cursor:pointer;
+  }
+  #ttsbar button.ghost { background:transparent; color:var(--accent); border:1px solid var(--accent); }
+  #ttsbar button:hover { opacity:.85; }
+  #ttsbar select {
+    font:inherit; font-size:14pt;
+    color:var(--fg); background:#123573;
+    border:1px solid var(--line); border-radius:6px; padding:7px 10px; max-width:260px;
+  }
+  #ttshint { flex-basis:100%; font-size:12.5pt; opacity:.6; line-height:1.5; }
+  .playbtn {
+    font:inherit; font-size:13pt; line-height:1;
+    color:var(--accent); background:transparent;
+    border:1px solid rgba(127,179,255,.5); border-radius:5px;
+    padding:4px 9px; margin-right:10px; cursor:pointer; vertical-align:middle;
+  }
+  .playbtn:hover { background:rgba(127,179,255,.16); }
+  .speaking {
+    background:rgba(127,179,255,.17);
+    box-shadow:0 0 0 8px rgba(127,179,255,.17);
+    border-radius:3px;
+  }
+
+  @media (max-width: 720px) {
+    body { padding: 16px 16px 50px; font-size: 16pt; }
+    h1 { font-size: 1.4em; }
+    table, thead, tbody, th, td, tr { display: block; }
+    th { border-bottom: none; padding-bottom: 2px; }
+    td { border-bottom: none; padding: 4px 0; }
+    tr { padding-bottom: 14px; margin-bottom: 14px; border-bottom: 1px solid var(--line); }
+    tr:last-child { border-bottom: none; }
+    td:before {
+      content: attr(data-label);
+      display: block;
+      color: var(--accent);
+      font-size: .85em;
+      margin-bottom: 2px;
+    }
+  }
+</style>
+</head>
+<body>
+
+<h1>EV Speaking Practice — 2026-09-08<br>Uber's Layoffs, Tesla's Quiet Robotaxi Debut</h1>
+<p class="subtitle">Uber裁員備戰無人車，Tesla Cybercab悄悄上路</p>
+
+<div class="plan">
+  <div class="plan-title">Session Plan 練習流程（25 min）</div>
+  <ol>
+    <li><span class="min">3 min</span> — Warm-Up 暖身</li>
+    <li><span class="min">6 min</span> — Read Aloud 朗讀短文</li>
+    <li><span class="min">4 min</span> — Key Vocabulary 關鍵單字</li>
+    <li><span class="min">2 min</span> — Saying the Numbers 數字唸法</li>
+    <li><span class="min">3 min</span> — Useful Expressions 實用句型</li>
+    <li><span class="min">5 min</span> — Discussion 討論題</li>
+    <li><span class="min">2 min</span> — Wrap-Up 總結</li>
+  </ol>
+</div>
+
+<div id="ttsbar">
+  <button id="tts-play">▶ Read the article 朗讀全文</button>
+  <button id="tts-stop" class="ghost">■ Stop 停止</button>
+  <label for="tts-voice">Voice</label>
+  <select id="tts-voice"></select>
+  <label for="tts-rate">Speed</label>
+  <select id="tts-rate">
+    <option value="0.75">0.75× 慢</option>
+    <option value="0.9" selected>0.9× 稍慢</option>
+    <option value="1">1.0× 正常</option>
+    <option value="1.15">1.15× 快</option>
+  </select>
+  <div id="ttshint">每個英文段落左邊都有 ▶ 可單獨播放；正在唸的句子會反白。想要更自然的聲音：macOS「系統設定 → 輔助使用 → 朗讀內容 → 系統聲音」下載 Enhanced／Premium 或 Siri 語音，再回來從上面的 Voice 選單選取。</div>
+</div>
+
+<h2>1. Warm-Up 暖身 <span class="time">3 min</span></h2>
+<div class="block">
+  <ol class="qlist">
+    <li>Have you ever used a ride-hailing app like Uber? What was the experience like?
+      <span class="q-zh">你用過像 Uber 這樣的叫車 App 嗎？搭乘經驗如何？</span></li>
+    <li>What's the first thing you think of when you hear the word "robotaxi"?
+      <span class="q-zh">聽到「無人計程車」這個詞，你腦中第一個浮現的畫面是什麼？</span></li>
+    <li>Would you trust a car with no driver and no steering wheel more or less than a car with a human driver?
+      <span class="q-zh">一台沒有駕駛、沒有方向盤的車，你會比有人駕駛的車更信任它，還是更不信任？</span></li>
+  </ol>
+</div>
+
+<h2>2. Read Aloud 朗讀短文 <span class="time">6 min</span></h2>
+<div class="block" id="article">
+
+  <div class="para">
+    <p class="en">Uber just announced its biggest layoff since May 2020, cutting about 3,300 jobs — roughly 10 percent of its workforce. The company says the move is meant to help it respond more effectively to the rise of robotaxis, the very technology that could one day replace the human drivers Uber's business depends on.</p>
+    <p class="zh">Uber 剛宣布自2020年5月以來規模最大的一次裁員，將裁減約3,300個職位，約占全公司員工總數的10%。公司表示，此舉是為了更有效因應無人計程車（Robotaxi）崛起帶來的衝擊——而這項技術，未來有可能取代Uber賴以維生的人類駕駛。</p>
+  </div>
+
+  <div class="para">
+    <p class="en">As of the end of 2025, Uber employed about 34,000 people worldwide. The cuts will remove 20 percent of employees who sit more than seven layers below the CEO, and nearly cut in half the number of teams where a manager oversees just one or two direct reports. Some teams will be merged, and most remaining staff will be concentrated in hub cities like New York and San Francisco.</p>
+    <p class="zh">截至2025年底，Uber全球員工總數約為34,000人。此次裁員將削減自執行長以下超過七個層級的20%員工，並將僅有一到兩名直屬下屬的團隊數量削減近一半。部分團隊將被合併，多數留任員工將集中部署於紐約、舊金山等關鍵樞紐城市。</p>
+  </div>
+
+  <div class="para">
+    <p class="en">Fully remote employees will now be capped at about 1 percent of staff, and the company will keep its policy requiring people to be in the office three days a week. CEO Dara Khosrowshahi did not blame artificial intelligence for the cuts. Instead, he said the goal was to flatten management layers and reduce the organizational complexity that had been slowing down decisions.</p>
+    <p class="zh">完全遠距工作的員工比例將被限制在約1%，公司也將維持員工每週需進辦公室三天的政策。執行長Dara Khosrowshahi並未將裁員歸咎於人工智慧，而是表示此舉是為了簡化管理層級，降低過去拖慢決策速度的組織複雜性。</p>
+  </div>
+
+  <div class="para">
+    <p class="en">The pressure is real. As robotaxi fleets grow, they could squeeze the profit Uber earns simply by matching riders with drivers. Analysts note that a business built around autonomous vehicles needs a very different kind of workforce than one built around human drivers and all the costs that come with them.</p>
+    <p class="zh">這股壓力確實存在。隨著無人計程車車隊規模擴大，它們可能擠壓Uber作為乘客與司機媒合平台所能賺取的利潤。分析師指出，一個建立在自動駕駛技術之上的商業模式，所需的員工類型與規模，將與圍繞人類駕駛及其相關成本打造的模式截然不同。</p>
+  </div>
+
+  <div class="para">
+    <p class="en">Waymo, currently the largest robotaxi operator in the U.S., already runs some of its vehicles through the Uber app in Austin and Atlanta — but it's also expanding into new markets on its own, without Uber. Meanwhile, Tesla is accelerating its own robotaxi push. To defend its position, Uber plans to invest more than $10 billion over the next several years in robotaxi technology and partnerships, positioning itself as the go-to platform for autonomous rides.</p>
+    <p class="zh">目前美國最大的無人計程車營運商Waymo，已在奧斯汀與亞特蘭大透過Uber App提供部分車輛服務——但它也正獨立於Uber之外，拓展新市場。與此同時，Tesla也正加速推展自家的無人計程車業務。為捍衛市場地位，Uber計劃在未來數年投入超過100億美元發展無人計程車技術與合作關係，將自己定位為無人駕駛乘車服務的首選平台。</p>
+  </div>
+
+  <div class="para">
+    <p class="en">Tesla, for its part, quietly opened its purpose-built Cybercab to the public in Austin — no livestream, no press event, Elon Musk reportedly not even present. The two-seat vehicle has no steering wheel and began series production back in April at Giga Texas, but Tesla currently has approval for only 45 Cybercab units in the state. Like Waymo, Tesla still runs a remote command center to step in when needed.</p>
+    <p class="zh">Tesla方面則悄悄在奧斯汀對外開放其專為載客打造的Cybercab——沒有直播、沒有記者會，據報導連馬斯克本人都不在場。這款兩人座車輛沒有方向盤，早在今年4月就已在德州超級工廠展開量產，但目前Tesla在德州僅獲准部署45輛Cybercab。與Waymo一樣，Tesla仍設有遠端指揮中心，在必要時介入接管。</p>
+  </div>
+
+  <div class="para">
+    <p class="en">Just days after the launch, regulators stepped in. The U.S. National Highway Traffic Safety Administration confirmed that Tesla had self-certified the Cybercab as meeting federal vehicle safety standards — and the agency has now opened an audit into that process, including how Tesla decided that certain standard requirements simply didn't apply to this vehicle.</p>
+    <p class="zh">上路才短短數天，監管機關便介入了。美國國家公路交通安全管理局（NHTSA）證實，Tesla是「自我認證」Cybercab符合聯邦車輛安全標準——該機構如今已對此認證流程展開稽核，包括調查Tesla是如何判定某些標準規範根本不適用於這款車輛。</p>
+  </div>
+
+</div>
+
+<h2>3. Key Vocabulary 關鍵單字 <span class="time">4 min</span></h2>
+<div class="block">
+  <table>
+    <thead>
+      <tr><th>Word</th><th>IPA</th><th>中文意思</th><th>Example</th></tr>
+    </thead>
+    <tbody>
+      <tr><td data-label="Word">layoff</td><td data-label="IPA" class="ipa">/ˈleɪɔːf/</td><td data-label="中文意思" class="zh-cell">裁員</td><td data-label="Example">This is Uber's biggest layoff since 2020.</td></tr>
+      <tr><td data-label="Word">workforce</td><td data-label="IPA" class="ipa">/ˈwɜːrkfɔːrs/</td><td data-label="中文意思" class="zh-cell">勞動力、員工總數</td><td data-label="Example">The cuts remove about 10 percent of Uber's workforce.</td></tr>
+      <tr><td data-label="Word">management layer</td><td data-label="IPA" class="ipa">/ˈmænɪdʒmənt ˈleɪər/</td><td data-label="中文意思" class="zh-cell">管理層級</td><td data-label="Example">The plan flattens management layers below the CEO.</td></tr>
+      <tr><td data-label="Word">headcount</td><td data-label="IPA" class="ipa">/ˈhedkaʊnt/</td><td data-label="中文意思" class="zh-cell">員工人數</td><td data-label="Example">Total headcount will fall to roughly 30,700 people.</td></tr>
+      <tr><td data-label="Word">remote work</td><td data-label="IPA" class="ipa">/rɪˈmoʊt wɜːrk/</td><td data-label="中文意思" class="zh-cell">遠距工作</td><td data-label="Example">Fully remote work will now be capped at about 1 percent of staff.</td></tr>
+      <tr><td data-label="Word">robotaxi</td><td data-label="IPA" class="ipa">/ˈroʊboʊˌtæksi/</td><td data-label="中文意思" class="zh-cell">無人計程車</td><td data-label="Example">Robotaxis could squeeze Uber's ride-matching profits.</td></tr>
+      <tr><td data-label="Word">ride-hailing</td><td data-label="IPA" class="ipa">/raɪd ˈheɪlɪŋ/</td><td data-label="中文意思" class="zh-cell">叫車服務(平台)</td><td data-label="Example">Uber built its business as a ride-hailing platform.</td></tr>
+      <tr><td data-label="Word">squeeze</td><td data-label="IPA" class="ipa">/skwiːz/</td><td data-label="中文意思" class="zh-cell">擠壓(利潤等)</td><td data-label="Example">Growing robotaxi fleets could squeeze Uber's margins.</td></tr>
+      <tr><td data-label="Word">purpose-built</td><td data-label="IPA" class="ipa">/ˈpɜːrpəs bɪlt/</td><td data-label="中文意思" class="zh-cell">專為特定用途打造的</td><td data-label="Example">The Cybercab is a purpose-built robotaxi, not a converted car.</td></tr>
+      <tr><td data-label="Word">self-certify</td><td data-label="IPA" class="ipa">/self ˈsɜːrtɪfaɪ/</td><td data-label="中文意思" class="zh-cell">自我認證(符合標準)</td><td data-label="Example">Tesla self-certified the Cybercab as meeting safety standards.</td></tr>
+      <tr><td data-label="Word">audit</td><td data-label="IPA" class="ipa">/ˈɔːdɪt/</td><td data-label="中文意思" class="zh-cell">稽核、審查</td><td data-label="Example">NHTSA opened an audit into Tesla's certification process.</td></tr>
+      <tr><td data-label="Word">command center</td><td data-label="IPA" class="ipa">/kəˈmænd ˈsentər/</td><td data-label="中文意思" class="zh-cell">(遠端)指揮中心</td><td data-label="Example">Tesla runs a remote command center to intervene when needed.</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<h2>4. Saying the Numbers 數字唸法 <span class="time">2 min</span></h2>
+<div class="block">
+  <table>
+    <thead>
+      <tr><th>In the article</th><th>How to say it</th></tr>
+    </thead>
+    <tbody>
+      <tr><td data-label="In the article">3,300 jobs</td><td data-label="How to say it">three thousand, three hundred jobs</td></tr>
+      <tr><td data-label="In the article">10%</td><td data-label="How to say it">ten percent</td></tr>
+      <tr><td data-label="In the article">34,000 people</td><td data-label="How to say it">thirty-four thousand people</td></tr>
+      <tr><td data-label="In the article">20% of employees</td><td data-label="How to say it">twenty percent of employees</td></tr>
+      <tr><td data-label="In the article">7 layers</td><td data-label="How to say it">seven layers</td></tr>
+      <tr><td data-label="In the article">~1% remote</td><td data-label="How to say it">about one percent</td></tr>
+      <tr><td data-label="In the article">3 days a week</td><td data-label="How to say it">three days a week</td></tr>
+      <tr><td data-label="In the article">$10 billion+</td><td data-label="How to say it">over ten billion dollars</td></tr>
+      <tr><td data-label="In the article">45 units</td><td data-label="How to say it">forty-five units</td></tr>
+      <tr><td data-label="In the article">2-seat vehicle</td><td data-label="How to say it">a two-seat vehicle</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<h2>5. Useful Expressions 實用句型 <span class="time">3 min</span></h2>
+<div class="block">
+  <ul class="elist">
+    <li><span class="expr-en">"X is betting big on ___."</span>
+      <span class="expr-zh">表示某公司大舉押注在...上。例：Uber is betting big on robotaxi technology.</span></li>
+    <li><span class="expr-en">"X is bracing for ___."</span>
+      <span class="expr-zh">為即將到來的衝擊或變化做準備。例：Uber is bracing for the rise of driverless competitors.</span></li>
+    <li><span class="expr-en">"This puts pressure on X to ___."</span>
+      <span class="expr-zh">這使X面臨壓力，必須...。例：This puts pressure on Uber to prove it still has a role in a driverless future.</span></li>
+    <li><span class="expr-en">"Regulators are looking into whether ___."</span>
+      <span class="expr-zh">主管機關正在調查是否...。例：Regulators are looking into whether Tesla's self-certification was valid.</span></li>
+    <li><span class="expr-en">"X positions itself as the go-to platform for ___."</span>
+      <span class="expr-zh">將自己定位為...的首選平台。例：Uber positions itself as the go-to platform for autonomous rides.</span></li>
+  </ul>
+</div>
+
+<h2>6. Discussion 討論題 <span class="time">5 min</span></h2>
+<div class="block">
+  <ol class="qlist">
+    <li>Do you think Uber's layoffs are really about preparing for robotaxis, or could there be other reasons the CEO isn't mentioning?
+      <span class="q-zh">你認為Uber裁員真的是為了因應無人計程車，還是執行長沒說出口的其他原因？</span></li>
+    <li>If robotaxis eventually replace most human rideshare drivers, what do you think should happen to the people who lose that work?
+      <span class="q-zh">如果無人計程車最終取代了大多數人類共乘司機，你認為那些失業的人應該獲得什麼協助？</span></li>
+    <li>Instead of building its own self-driving cars, Uber is investing billions in partnerships with companies like Waymo and Tesla. Is that a smarter strategy than competing head-on?
+      <span class="q-zh">Uber沒有自己造自駕車，而是投入數十億美元與Waymo、Tesla等公司合作，這比正面競爭更聰明嗎？</span></li>
+    <li>Tesla self-certified that the Cybercab meets safety standards, and regulators are now auditing that process. Should companies be allowed to self-certify safety, or should an independent body always review a vehicle before it's allowed on public roads?
+      <span class="q-zh">Tesla自我認證Cybercab符合安全標準，如今監管機關正在稽核這個流程。你認為安全認證應該允許企業自我認證，還是應該一律由獨立機構審核後才能上路？</span></li>
+    <li>Tesla launched the Cybercab quietly, with no livestream or press event. Why might a company choose to launch a major new product this way?
+      <span class="q-zh">Tesla悄悄推出Cybercab，沒有直播也沒有記者會。你認為一家公司為什麼會選擇用這種方式發表重大新產品？</span></li>
+    <li>Would you get into a robotaxi with no steering wheel and no driver? What would it take to earn your trust?
+      <span class="q-zh">你會搭乘一台沒有方向盤、沒有駕駛的無人計程車嗎？要讓你信任它，需要具備什麼條件？</span></li>
+  </ol>
+</div>
+
+<h2>7. Wrap-Up 總結 <span class="time">2 min</span></h2>
+<div class="block">
+  <div class="wrap-box">
+    <span class="label">60-SECOND SUMMARY 一分鐘摘要</span>
+    <p style="margin:10px 0 0;">In 60 seconds, summarize Uber's layoffs and its $10 billion robotaxi bet, plus Tesla's quiet Cybercab launch and the regulatory audit that followed.</p>
+    <p class="zh" style="margin-top:6px;">用一分鐘摘要Uber的裁員與百億美元無人計程車投資計畫，以及Tesla悄悄推出Cybercab後隨之而來的監管稽核。</p>
+  </div>
+  <div class="wrap-box" style="margin-top:14px;">
+    <span class="label">STANCE SENTENCE 表態句型</span>
+    <p style="margin:10px 0 0;">"In my view, robotaxis will / won't be ready for mass adoption within the next five years, because ___."</p>
+    <p class="zh" style="margin-top:6px;">「依我看，無人計程車在未來五年內會／不會準備好大規模普及，因為___。」</p>
+  </div>
+</div>
+
+<div class="block" style="margin-top:16px;">
+  <h2 style="margin-top:0;">Source Notes　取材筆記</h2>
+  <p class="source-note">Clipped from the Obsidian vault at: <strong>Claude code AI筆記 / raw / assets</strong><br>
+  <span class="zh">取材自 Obsidian 筆記庫路徑：<strong>Claude code AI筆記 / raw / assets</strong></span></p>
+  <table>
+    <thead>
+      <tr><th>Note file 筆記檔名</th><th>Original 原始出處</th><th>Used for 用於</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td data-label="Note file 筆記檔名" style="font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size:0.9em;">2026-09-08-Uber迎戰Robotaxi浪潮-裁員10-瘦身砸百億美元押注無人車.md</td>
+        <td data-label="Original 原始出處">徐畇融（DIGITIMES）· 2026-09-08<br><a href="https://www.digitimes.com.tw/tech/dt/n/shwnws.asp?id=767388" target="_blank" rel="noopener">原文連結 ↗</a></td>
+        <td data-label="Used for 用於">Paragraphs 1–5; the layoff figures, org restructuring, remote-work policy, CEO comments, and the $10 billion robotaxi investment; vocabulary items 1–7; numbers rows 1–8; Discussion Q1, Q2, Q3.<br><span class="zh">第1–5段；裁員數據、組織重組、遠距工作政策、執行長談話與百億美元無人車投資；單字表第1–7項；數字表第1–8列；討論題第1、2、3題。</span></td>
+      </tr>
+      <tr>
+        <td data-label="Note file 筆記檔名" style="font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size:0.9em;">2026-09-07-Tesla-debuts-Cybercab-autonomous-rides.md</td>
+        <td data-label="Original 原始出處">Florian Treiss（electrive.com）· 2026-09-04（updated 2026-09-07）<br><a href="https://www.electrive.com/2026/09/04/tesla-debuts-cybercab-autonomous-rides/" target="_blank" rel="noopener">原文連結 ↗</a></td>
+        <td data-label="Used for 用於">Paragraphs 6–7; the Cybercab launch details and the NHTSA self-certification audit; vocabulary items 8–12; numbers rows 9–10; Discussion Q4, Q5, Q6; Wrap-Up.<br><span class="zh">第6–7段；Cybercab發表細節與NHTSA自我認證稽核事件；單字表第8–12項；數字表第9–10列；討論題第4、5、6題；總結段落。</span></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<footer>
+  EV Speaking Practice · 2026-09-08 · Generated for Claude Yeh · 25-minute session
+</footer>
+
+<script>
+(function () {
+  var synth = window.speechSynthesis;
+  var bar = document.getElementById('ttsbar');
+  if (!synth) {
+    bar.innerHTML = '<div id="ttshint">此瀏覽器不支援語音朗讀，請改用 Chrome、Edge 或 Safari 開啟本檔案。</div>';
+    return;
+  }
+
+  var voiceSel = document.getElementById('tts-voice');
+  var rateSel  = document.getElementById('tts-rate');
+  var voices   = [];
+  var queue    = [];
+  var qi       = 0;
+  var playing  = false;
+
+  function score(v) {
+    var n = (v.name + ' ' + (v.voiceURI || '')).toLowerCase();
+    var s = 0;
+    if (/premium|enhanced|neural|natural/.test(n)) s += 40;
+    if (/siri/.test(n)) s += 30;
+    if (/google/.test(n)) s += 25;
+    if (/samantha|ava|allison|serena|daniel|kate|arthur|evan|nathan|zoe/.test(n)) s += 12;
+    if (/compact|novelty|whisper|bells|bubbles|jester|organ|trinoids|zarvox|albert|bad news|good news/.test(n)) s -= 60;
+    if (v.lang === 'en-US') s += 6;
+    if (v.lang === 'en-GB') s += 5;
+    if (v.localService) s += 2;
+    return s;
+  }
+
+  function loadVoices() {
+    var all = synth.getVoices().filter(function (v) { return /^en[-_]/i.test(v.lang); });
+    if (!all.length) return;
+    all.sort(function (a, b) { return score(b) - score(a); });
+    voices = all;
+    voiceSel.innerHTML = '';
+    voices.forEach(function (v, i) {
+      var o = document.createElement('option');
+      o.value = i;
+      o.textContent = v.name + ' (' + v.lang + ')';
+      voiceSel.appendChild(o);
+    });
+    var saved = null;
+    try { saved = localStorage.getItem('evPracticeVoice'); } catch (e) {}
+    if (saved !== null) {
+      var idx = voices.findIndex(function (v) { return v.name === saved; });
+      if (idx > -1) voiceSel.value = idx;
+    }
+  }
+  loadVoices();
+  synth.onvoiceschanged = loadVoices;
+
+  voiceSel.addEventListener('change', function () {
+    var v = voices[voiceSel.value];
+    try { if (v) localStorage.setItem('evPracticeVoice', v.name); } catch (e) {}
+  });
+
+  function clearHighlight() {
+    var h = document.querySelector('.speaking');
+    if (h) h.classList.remove('speaking');
+  }
+
+  function stop() {
+    playing = false;
+    queue = [];
+    qi = 0;
+    synth.cancel();
+    clearHighlight();
+  }
+
+  // Chrome silently truncates any utterance longer than ~15s, so queue
+  // sentence-sized chunks instead of whole paragraphs.
+  function sentences(text) {
+    var SEP = String.fromCharCode(1);
+    var t = text.replace(/\s+/g, ' ').trim();
+    // Shield decimals/abbreviations so "86.5 percent" isn't split in two.
+    t = t.replace(/(\d)\.(\d)/g, '$1' + SEP + '$2')
+         .replace(/\b(Mr|Mrs|Ms|Dr|St|vs|etc|Inc|Ltd|Co|approx)\./gi,
+                  function (m) { return m.slice(0, -1) + SEP; })
+         .replace(/\bU\.S\./g, 'U' + SEP + 'S' + SEP);
+    var parts = t.match(/[^.!?]+[.!?]+["')\]]?|[^.!?]+$/g) || [t];
+    return parts
+      .map(function (s) { return s.split(SEP).join('.').trim(); })
+      .filter(function (s) { return /[a-zA-Z0-9]/.test(s); });
+  }
+
+  function speakNext() {
+    if (!playing || qi >= queue.length) { stop(); return; }
+    var item = queue[qi++];
+    clearHighlight();
+    if (item.el) {
+      item.el.classList.add('speaking');
+      var r = item.el.getBoundingClientRect();
+      if (r.top < 120 || r.bottom > window.innerHeight - 40) {
+        item.el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      }
+    }
+    var u = new SpeechSynthesisUtterance(item.text);
+    var v = voices[voiceSel.value];
+    if (v) { u.voice = v; u.lang = v.lang; } else { u.lang = 'en-US'; }
+    u.rate = parseFloat(rateSel.value);
+    u.pitch = 1;
+    u.onend = speakNext;
+    u.onerror = speakNext;
+    synth.speak(u);
+  }
+
+  function textOf(el) {
+    // Snapshot taken before the play glyph was injected, so it is never spoken.
+    return el.getAttribute('data-tts') || el.textContent;
+  }
+
+  function play(elements) {
+    stop();
+    queue = [];
+    elements.forEach(function (el) {
+      sentences(textOf(el)).forEach(function (s) {
+        if (s.trim()) queue.push({ el: el, text: s });
+      });
+    });
+    if (!queue.length) return;
+    playing = true;
+    qi = 0;
+    speakNext();
+  }
+
+  document.getElementById('tts-stop').addEventListener('click', stop);
+
+  document.getElementById('tts-play').addEventListener('click', function () {
+    var paras = [].slice.call(document.querySelectorAll('#article .en'));
+    play(paras);
+  });
+
+  rateSel.addEventListener('change', function () { if (playing) stop(); });
+
+  var targets = [].slice.call(document.querySelectorAll('.en'));
+  targets.forEach(function (el) {
+    el.setAttribute('data-tts', el.textContent);
+    var b = document.createElement('button');
+    b.className = 'playbtn';
+    b.type = 'button';
+    b.textContent = '▶';
+    b.setAttribute('aria-label', 'Play this sentence');
+    b.addEventListener('click', function (e) {
+      e.stopPropagation();
+      play([el]);
+    });
+    el.insertBefore(b, el.firstChild);
+  });
+
+  [].slice.call(document.querySelectorAll('table tr')).forEach(function (tr) {
+    var cells = tr.querySelectorAll('td');
+    if (cells.length < 2) return;
+    var last = cells[cells.length - 1];
+    if (!/[a-zA-Z]/.test(last.textContent)) return;
+    last.style.cursor = 'pointer';
+    last.title = 'Click to hear it 點一下聽發音';
+    last.addEventListener('click', function () { play([last]); });
+  });
+
+  window.addEventListener('beforeunload', function () { synth.cancel(); });
+})();
+</script>
+
+</body>
+</html>

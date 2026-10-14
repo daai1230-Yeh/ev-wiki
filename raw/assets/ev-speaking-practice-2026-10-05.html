@@ -1,0 +1,459 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>EV Speaking Practice — Open Doors, Closed Doors (2026-10-05)</title>
+<style>
+  :root {
+    --bg: #0C2A65;
+    --fg: #FFFFFF;
+    --accent: #7FB3FF;
+    --line: rgba(255,255,255,.25);
+  }
+  * { box-sizing: border-box; }
+  html, body {
+    margin: 0; padding: 0;
+    background: var(--bg); color: var(--fg);
+    font-family: -apple-system, "Segoe UI", "Helvetica Neue", Arial, "PingFang TC", "Noto Sans TC", sans-serif;
+    font-size: 20pt;
+    line-height: 1.6;
+  }
+  .wrap { max-width: 900px; margin: 0 auto; padding: 24px 18px 60px; }
+  header { margin-bottom: 18px; }
+  header .kicker {
+    color: var(--accent); font-size: 14pt; letter-spacing: .08em;
+    text-transform: uppercase; margin-bottom: 6px;
+  }
+  h1 {
+    font-size: 26pt; line-height: 1.3; margin: 0 0 10px;
+  }
+  header .meta { font-size: 14pt; opacity: .75; }
+  h2 {
+    font-size: 19pt; margin: 34px 0 14px; padding-left: 14px;
+    border-left: 6px solid var(--accent);
+    display: flex; flex-wrap: wrap; gap: 8px 14px; align-items: baseline;
+  }
+  h2 .time {
+    font-size: 12.5pt; color: var(--accent); font-weight: 700;
+    border: 1px solid var(--accent); border-radius: 999px; padding: 2px 12px;
+  }
+  .block {
+    border: 1px solid var(--line); border-radius: 10px;
+    padding: 18px 20px; margin-bottom: 14px;
+  }
+  .plan {
+    border: 1px solid var(--line); border-radius: 10px;
+    padding: 16px 20px; margin: 18px 0 26px;
+    background: rgba(127,179,255,.06);
+  }
+  .plan h3 {
+    margin: 0 0 10px; font-size: 14pt; color: var(--accent);
+    letter-spacing: .04em; text-transform: uppercase;
+  }
+  .plan ol { margin: 0; padding-left: 22px; font-size: 14.5pt; }
+  .plan li { margin: 4px 0; }
+  .plan .m { color: var(--accent); font-weight: 700; }
+  p.en { margin: 0 0 4px; }
+  p.zh { margin: 0 0 20px; font-size: 15.5pt; opacity: .72; }
+  .qa { margin: 0 0 22px; }
+  .qa .num {
+    color: var(--accent); font-weight: 700; margin-right: 8px;
+  }
+  table {
+    width: 100%; border-collapse: collapse; margin: 6px 0 8px;
+    font-size: 15pt;
+  }
+  th, td {
+    border-bottom: 1px solid var(--line);
+    padding: 10px 8px; text-align: left; vertical-align: top;
+  }
+  th {
+    color: var(--bg); background: var(--accent);
+    font-size: 13pt; letter-spacing: .03em;
+  }
+  td.ipa { color: var(--accent); white-space: nowrap; }
+  code {
+    background: rgba(255,255,255,.1); padding: 2px 6px; border-radius: 4px;
+    font-size: .85em;
+  }
+  .expr {
+    border: 1px solid var(--line); border-radius: 8px;
+    padding: 12px 16px; margin: 0 0 14px;
+  }
+  .expr .pat { font-size: 16.5pt; font-weight: 700; }
+  .expr .zh { font-size: 14.5pt; opacity: .75; margin-top: 4px; }
+  .expr .ex { font-size: 14.5pt; margin-top: 8px; opacity: .9; font-style: italic; }
+  a { color: var(--accent); }
+  footer {
+    margin-top: 40px; padding-top: 16px; border-top: 1px solid var(--line);
+    font-size: 12.5pt; opacity: .6;
+  }
+  .sourcepath { font-size: 13.5pt; opacity: .8; margin-bottom: 10px; }
+
+  /* ---- Text-to-speech controls ---- */
+  #ttsbar {
+    position:sticky; top:0; z-index:50;
+    background:rgba(12,42,101,.96); backdrop-filter:blur(6px);
+    border:1px solid var(--line); border-radius:10px;
+    padding:14px 18px; margin:0 0 8px;
+    display:flex; flex-wrap:wrap; gap:10px 14px; align-items:center;
+    font-size:14pt;
+  }
+  #ttsbar label { opacity:.75; letter-spacing:.04em; }
+  #ttsbar button {
+    font:inherit; font-size:14pt; font-weight:700;
+    color:var(--bg); background:var(--accent);
+    border:none; border-radius:6px; padding:8px 16px; cursor:pointer;
+  }
+  #ttsbar button.ghost { background:transparent; color:var(--accent); border:1px solid var(--accent); }
+  #ttsbar button:hover { opacity:.85; }
+  #ttsbar select {
+    font:inherit; font-size:14pt;
+    color:var(--fg); background:#123573;
+    border:1px solid var(--line); border-radius:6px; padding:7px 10px; max-width:260px;
+  }
+  #ttshint { flex-basis:100%; font-size:12.5pt; opacity:.6; line-height:1.5; }
+  .playbtn {
+    font:inherit; font-size:13pt; line-height:1;
+    color:var(--accent); background:transparent;
+    border:1px solid rgba(127,179,255,.5); border-radius:5px;
+    padding:4px 9px; margin-right:10px; cursor:pointer; vertical-align:middle;
+  }
+  .playbtn:hover { background:rgba(127,179,255,.16); }
+  .speaking {
+    background:rgba(127,179,255,.17);
+    box-shadow:0 0 0 8px rgba(127,179,255,.17);
+    border-radius:3px;
+  }
+
+  @media (max-width: 640px) {
+    body { font-size: 16pt; }
+    h1 { font-size: 21pt; }
+    h2 { font-size: 16pt; }
+    table { font-size: 12.5pt; }
+    .plan ol { font-size: 12.5pt; }
+    #ttsbar, #ttsbar button, #ttsbar select { font-size: 12pt; }
+    .wrap { padding: 16px 12px 40px; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <div class="kicker">EV Speaking Practice · 25 min</div>
+  <h1>Open Doors, Closed Doors: Who Lets Chinese EVs In?</h1>
+  <div class="meta">誰開門、誰設限：加拿大、阿根廷與美國參院對中國電動車的態度 · 2026-10-05</div>
+</header>
+
+<div class="plan">
+  <h3>Session Plan 課程規劃</h3>
+  <ol>
+    <li><span class="m">3 min</span> — Warm-Up 暖身</li>
+    <li><span class="m">6 min</span> — Read Aloud 朗讀短文</li>
+    <li><span class="m">4 min</span> — Key Vocabulary 關鍵單字</li>
+    <li><span class="m">2 min</span> — Saying the Numbers 數字唸法</li>
+    <li><span class="m">3 min</span> — Useful Expressions 實用句型</li>
+    <li><span class="m">5 min</span> — Discussion 討論題</li>
+    <li><span class="m">2 min</span> — Wrap-Up 總結</li>
+  </ol>
+</div>
+
+<div id="ttsbar">
+  <button id="tts-play">▶ Read the article 朗讀全文</button>
+  <button id="tts-stop" class="ghost">■ Stop 停止</button>
+  <label for="tts-voice">Voice</label>
+  <select id="tts-voice"></select>
+  <label for="tts-rate">Speed</label>
+  <select id="tts-rate">
+    <option value="0.75">0.75× 慢</option>
+    <option value="0.9" selected>0.9× 稍慢</option>
+    <option value="1">1.0× 正常</option>
+    <option value="1.15">1.15× 快</option>
+  </select>
+  <div id="ttshint">每個英文段落左邊都有 ▶ 可單獨播放；正在唸的句子會反白。想要更自然的聲音：macOS「系統設定 → 輔助使用 → 朗讀內容 → 系統聲音」下載 Enhanced／Premium 或 Siri 語音，再回來從上面的 Voice 選單選取。</div>
+</div>
+
+<h2>1. Warm-Up 暖身 <span class="time">3 min</span></h2>
+<div class="block">
+  <div class="qa"><p class="en"><span class="num">1.</span>If a foreign-made car were much cheaper than the local brands, would you buy it? What would make you hesitate?</p><p class="zh">如果一輛外國製的車比本地品牌便宜很多，你會買嗎？什麼會讓你猶豫？</p></div>
+  <div class="qa"><p class="en"><span class="num">2.</span>Should a government protect its local car industry, or let customers choose freely? Where do you stand?</p><p class="zh">政府應該保護本國汽車產業，還是讓消費者自由選擇？你的立場是什麼？</p></div>
+  <div class="qa"><p class="en"><span class="num">3.</span>Which car brands are most common on the roads in your city? Has that changed in the last few years?</p><p class="zh">你所在的城市，路上最常見的是哪些車牌？過去幾年有變化嗎？</p></div>
+</div>
+
+<h2>2. Read Aloud 朗讀短文 <span class="time">6 min</span></h2>
+<div class="block" id="article">
+  <p class="en">Around the world, governments are making very different choices about Chinese electric vehicles. Some are opening the door, and some are building a wall. This week's news shows three different answers.</p>
+  <p class="zh">全世界的政府，對中國電動車做出了截然不同的選擇：有些開門歡迎，有些築起高牆。本週的新聞呈現了三種不同的答案。</p>
+  <p class="en">Canada is opening the door, at least partly. After Prime Minister Mark Carney visited China in January, the two countries agreed on a new trade arrangement. Canada now allows up to 49,000 Chinese-made electric vehicles per year to enter at a tariff of 6.1 percent, instead of the previous 100 percent.</p>
+  <p class="zh">加拿大至少是半開了門。總理卡尼1月訪問中國後，兩國達成新的貿易安排。加拿大現在每年允許最多49,000輛中國製電動車以6.1%的關稅進口，先前則是100%。</p>
+  <p class="en">The policy is already changing the market. According to Canadian government data, nearly 16,000 electric vehicles have been shipped from China to Canada since May, and about half of them cost less than 35,000 Canadian dollars. Interestingly, Tesla is an early winner. Sales of its China-built Model 3 rose in the third quarter, and some Tesla models are priced about 25 percent lower in Canada than in the United States.</p>
+  <p class="zh">這項政策已在改變市場。依加拿大政府資料，自5月以來已有近16,000輛電動車從中國運往加拿大，其中約一半售價低於35,000加幣。有趣的是，特斯拉是早期贏家：中國製Model 3第三季銷量增加，部分特斯拉車款在加拿大的售價比美國低約25%。</p>
+  <p class="en">Argentina has gone even further. Under President Javier Milei, the car market has moved from heavy protectionism to open competition. The country just held its first Chinese car show in Buenos Aires, and Chinese brands now hold about 10 percent of passenger and light commercial vehicle sales, up from roughly 2 percent at the end of last year.</p>
+  <p class="zh">阿根廷走得更遠。在總統米雷伊領導下，汽車市場已從高度保護主義轉向開放競爭。該國剛在布宜諾斯艾利斯舉辦首屆中國車展，中國品牌目前約占乘用車與輕型商用車銷量的10%，去年底只有約2%。</p>
+  <p class="en">A policy that allows up to 50,000 electric and hybrid vehicles to be imported duty-free helped drive this surge. Brazil and Mexico have introduced tariffs to slow down BYD, but Milei says he is not worried: what Argentines buy, he argues, is their own business. At the same time, Toyota plans to invest 1.34 billion dollars in an electric vehicle plant there.</p>
+  <p class="zh">一項允許至多50,000輛電動與油電混合車免稅進口的政策，推動了這波成長。巴西和墨西哥已祭出關稅來減緩比亞迪的湧入，但米雷伊表示並不擔心：他認為，阿根廷人買什麼是他們自己的事。同時，豐田計畫在當地投資13.4億美元興建電動車工廠。</p>
+  <p class="en">In the United States, the mood is the opposite. A bill in the Senate would ban automakers with more than 15 percent Chinese ownership from selling cars in the country. Senator Bernie Moreno says the goal is national security, not a ban on Mercedes. He says negotiations are under way to block hostile control without harming legitimate international business.</p>
+  <p class="zh">在美國，氣氛則完全相反。參議院一項法案將禁止中資持股超過15%的車廠在美國銷售汽車。參議員莫雷諾表示，目標是國家安全，而不是禁售賓士；目前正在協商，希望在防範敵對勢力控制的同時，不傷及正當的國際商業。</p>
+  <p class="en">European brands like Mercedes and Volvo might have to change their ownership structure to keep selling there. Meanwhile, BMW and Audi are shifting their focus to the American market, because the price war in China has hurt foreign profits. So the same Chinese cars are welcomed in Buenos Aires, tolerated in Toronto, and possibly shut out of Washington.</p>
+  <p class="zh">賓士與Volvo等歐洲品牌，可能必須調整股權結構才能繼續在美國銷售。同時，BMW與奧迪正把重心轉向美國市場，因為中國的價格戰重創了外資的獲利。於是，同樣的中國車，在布宜諾斯艾利斯受歡迎、在多倫多被容忍、在華盛頓卻可能被拒之門外。</p>
+</div>
+
+<h2>3. Key Vocabulary 關鍵單字 <span class="time">4 min</span></h2>
+<div class="block">
+  <table>
+    <tr><th>Word 單字</th><th>IPA 音標</th><th>中文</th><th>Example 例句</th></tr>
+    <tr><td><strong>tariff</strong></td><td class="ipa">/ˈtærɪf/</td><td>關稅</td><td>Canada cut its tariff on Chinese electric vehicles from 100 percent to 6.1 percent.</td></tr>
+    <tr><td><strong>quota</strong></td><td class="ipa">/ˈkwoʊtə/</td><td>配額</td><td>The low tariff only applies to a quota of 49,000 cars a year.</td></tr>
+    <tr><td><strong>beneficiary</strong></td><td class="ipa">/ˌbenɪˈfɪʃieri/</td><td>受益者</td><td>Tesla looks like the first big beneficiary of the new arrangement.</td></tr>
+    <tr><td><strong>protectionism</strong></td><td class="ipa">/prəˈtekʃənɪzəm/</td><td>保護主義</td><td>Argentina moved away from protectionism toward open competition.</td></tr>
+    <tr><td><strong>duty-free</strong></td><td class="ipa">/ˌduːti ˈfriː/</td><td>免關稅的</td><td>Up to 50,000 hybrids and electric cars can come in duty-free.</td></tr>
+    <tr><td><strong>market share</strong></td><td class="ipa">/ˈmɑːrkɪt ʃer/</td><td>市占率</td><td>Chinese brands grew their market share from 2 to 10 percent in under a year.</td></tr>
+    <tr><td><strong>stake</strong></td><td class="ipa">/steɪk/</td><td>持股、股份</td><td>The bill would limit Chinese stakes in carmakers to 15 percent.</td></tr>
+    <tr><td><strong>national security</strong></td><td class="ipa">/ˌnæʃnəl sɪˈkjʊrəti/</td><td>國家安全</td><td>Supporters say the bill is about national security, not trade.</td></tr>
+    <tr><td><strong>supply chain</strong></td><td class="ipa">/səˈplaɪ tʃeɪn/</td><td>供應鏈</td><td>Many carmakers need a more local supply chain to reduce risk.</td></tr>
+    <tr><td><strong>anti-dumping duty</strong></td><td class="ipa">/ˌænti ˈdʌmpɪŋ ˈduːti/</td><td>反傾銷稅</td><td>The EU began imposing anti-dumping duties on Chinese electric cars in 2025.</td></tr>
+    <tr><td><strong>restructure</strong></td><td class="ipa">/ˌriːˈstrʌktʃər/</td><td>重組、調整結構</td><td>Some European brands may have to restructure their ownership.</td></tr>
+    <tr><td><strong>price war</strong></td><td class="ipa">/ˈpraɪs wɔːr/</td><td>價格戰</td><td>The price war in China has badly hurt foreign carmakers' profits.</td></tr>
+  </table>
+</div>
+
+<h2>4. Saying the Numbers 數字唸法 <span class="time">2 min</span></h2>
+<div class="block">
+  <table>
+    <tr><th>Number 數字</th><th>Meaning 意義</th><th>Say it 唸法</th></tr>
+    <tr><td>100% → 6.1%</td><td>加拿大對中國電動車關稅，由100%降至6.1%</td><td>from one hundred percent down to six point one percent</td></tr>
+    <tr><td>49,000</td><td>加拿大每年低關稅配額</td><td>forty-nine thousand vehicles per year</td></tr>
+    <tr><td>~16,000</td><td>5月以來自中國運往加拿大的電動車</td><td>nearly sixteen thousand electric vehicles</td></tr>
+    <tr><td>C$35,000</td><td>約半數車輛的售價低於此</td><td>thirty-five thousand Canadian dollars</td></tr>
+    <tr><td>25%</td><td>特斯拉部分車款在加拿大比美國便宜</td><td>about twenty-five percent lower</td></tr>
+    <tr><td>486,532</td><td>特斯拉第三季全球交付量</td><td>four hundred eighty-six thousand, five hundred thirty-two</td></tr>
+    <tr><td>2% → 10%</td><td>中國品牌在阿根廷市占率</td><td>from roughly two percent up to ten percent</td></tr>
+    <tr><td>50,000</td><td>阿根廷免稅進口電動與混合車上限</td><td>up to fifty thousand vehicles duty-free</td></tr>
+    <tr><td>US$1.34 billion</td><td>豐田在阿根廷的電動車廠投資</td><td>one point three four billion dollars</td></tr>
+    <tr><td>−13%</td><td>阿根廷今年迄今汽車銷量變化</td><td>down thirteen percent compared with the same period last year</td></tr>
+    <tr><td>15%</td><td>美國參院法案的中資持股上限</td><td>a fifteen percent ownership cap</td></tr>
+  </table>
+</div>
+
+<h2>5. Useful Expressions 實用句型 <span class="time">3 min</span></h2>
+<div class="block">
+  <div class="expr"><div class="pat">"X has gone from ___ to ___ in just ___."</div><div class="zh">描述快速的變化或成長。</div><div class="ex en">Chinese brands have gone from two percent to ten percent of the market in just a few months.</div></div>
+  <div class="expr"><div class="pat">"The real goal of this policy is ___, not ___."</div><div class="zh">說明政策真正的目的。</div><div class="ex en">The real goal of this bill is national security, not blocking trade.</div></div>
+  <div class="expr"><div class="pat">"On the one hand, ___. On the other hand, ___."</div><div class="zh">並陳兩種對立的觀點。</div><div class="ex en">On the one hand, cheaper cars help consumers. On the other hand, local factories may lose jobs.</div></div>
+  <div class="expr"><div class="pat">"It remains to be seen whether ___."</div><div class="zh">表示結果還不確定、有待觀察。</div><div class="ex en">It remains to be seen whether the new quota will really lower car prices in Canada.</div></div>
+  <div class="expr"><div class="pat">"What ___ buy is their own business."</div><div class="zh">表達尊重個人選擇的立場。</div><div class="ex en">What drivers buy is their own business, not the government's.</div></div>
+</div>
+
+<h2>6. Discussion 討論題 <span class="time">5 min</span></h2>
+<div class="block">
+  <div class="qa"><p class="en"><span class="num">1.</span>Canada cut its tariff from 100 percent to 6.1 percent but kept a quota of 49,000 cars. Is a limited opening a smart compromise, or the worst of both worlds?</p><p class="zh">加拿大把關稅從100%降到6.1%，但保留49,000輛的配額。有限度的開放是聰明的折衷，還是兩頭落空？</p></div>
+  <div class="qa"><p class="en"><span class="num">2.</span>Argue that Argentina's open-door policy is good for its consumers. Then argue the opposite: that it puts local jobs and industry at risk.</p><p class="zh">請先主張阿根廷的開放政策對消費者有利，再主張相反的立場：它讓本地就業與產業處於風險之中。</p></div>
+  <div class="qa"><p class="en"><span class="num">3.</span>Milei says what Argentines buy is their own business. Do you agree? Should governments ever limit what cars people can buy?</p><p class="zh">米雷伊說阿根廷人買什麼是他們自己的事。你同意嗎？政府是否該限制人們能買哪些車？</p></div>
+  <div class="qa"><p class="en"><span class="num">4.</span>The Senate bill would cap Chinese ownership of carmakers at 15 percent. Is that a fair national security measure, or a disguised form of protectionism? Give both sides.</p><p class="zh">參院法案要把車廠的中資持股上限設在15%。這是合理的國安措施，還是變相的保護主義？請說明兩邊的論點。</p></div>
+  <div class="qa"><p class="en"><span class="num">5.</span>Tesla is benefiting from Canada's new rules even though it is an American company. What does this tell us about how global the car industry really is?</p><p class="zh">特斯拉雖是美國公司，卻從加拿大的新規定中受益。這說明汽車產業有多麼全球化？</p></div>
+  <div class="qa"><p class="en"><span class="num">6.</span>If your own country had to choose between the Canadian, Argentine, and American approaches, which would you pick, and why?</p><p class="zh">如果你的國家必須在加拿大、阿根廷、美國三種做法中選一個，你會選哪一個？為什麼？</p></div>
+</div>
+
+<h2>7. Wrap-Up 總結 <span class="time">2 min</span></h2>
+<div class="block">
+  <p class="en"><strong>60-second summary:</strong> In short, governments are split on Chinese electric vehicles. Canada now lets in 49,000 Chinese-made cars a year at a 6.1 percent tariff, and Tesla is an early winner. Argentina has opened its market even wider, and Chinese brands have jumped to about 10 percent share. The United States Senate, however, is considering a 15 percent cap on Chinese ownership of carmakers, for national security reasons.</p>
+  <p class="zh">60秒摘要：簡而言之，各國政府對中國電動車的態度分歧。加拿大現在每年以6.1%關稅放行49,000輛中國製汽車，特斯拉是早期贏家。阿根廷開放得更徹底，中國品牌市占率已跳升至約10%。然而美國參議院正考慮以國家安全為由，把車廠的中資持股上限設在15%。</p>
+  <p class="en" style="margin-top:16px;"><strong>Stance sentence pattern:</strong> "If I had to take a side, I'd say ___, because ___."</p>
+  <p class="zh">表達個人立場句型：「如果一定要選邊站，我會說＿＿＿，因為＿＿＿。」</p>
+</div>
+
+<h2>Source Notes 取材筆記</h2>
+<div class="block">
+  <p class="sourcepath">Note vault path: <code>Claude code AI筆記 / raw / assets</code><br>筆記庫路徑：<code>Claude code AI筆記 / raw / assets</code></p>
+  <table>
+    <tr><th>Note file 筆記檔名</th><th>Original 原始出處</th><th>Used for 用於</th></tr>
+    <tr>
+      <td><code>2026-10-04-加拿大調降中國電動車關稅 中國製Model 3銷量增加 工商時報.md</code></td>
+      <td>工商時報 · 2026-10-03<br><a href="https://www.ctee.com.tw/news/20261003700588-430804" target="_blank" rel="noopener">工商時報原文</a></td>
+      <td>Provided the Canada–China arrangement (49,000 vehicles at 6.1 percent instead of 100 percent), the nearly 16,000 vehicles shipped since May, the 35,000 Canadian dollar price point, Tesla's 486,532 Q3 deliveries and its 25 percent lower Canadian pricing.<br>提供加拿大與中國的貿易安排（49,000輛、6.1%取代100%）、5月以來近16,000輛出口、35,000加幣價位，以及特斯拉第三季486,532輛交付與加拿大低約25%的定價。</td>
+    </tr>
+    <tr>
+      <td><code>2026-10-04-阿根廷舉行首屆中國車展 中國品牌在阿市占率已從去年2%升到今年的10% 經濟日報.md</code></td>
+      <td>聯合報／經濟日報（記者黃國樑）· 2026-10-03<br><a href="https://money.udn.com/money/story/5603/9791947" target="_blank" rel="noopener">經濟日報原文</a></td>
+      <td>Provided Argentina's first Chinese car show, the rise from about 2 to 10 percent market share, the 50,000-vehicle duty-free policy, Milei's comment, Brazil and Mexico's tariffs, Toyota's 1.34 billion dollar plant and the 13 percent sales drop.<br>提供阿根廷首屆中國車展、市占率由約2%升至10%、50,000輛免稅政策、米雷伊的談話、巴西與墨西哥的關稅、豐田13.4億美元工廠，以及銷量下滑13%。</td>
+    </tr>
+    <tr>
+      <td><code>2026-10-04-歐洲車廠轉向美國市場 美參院擬設車廠中資持股上限 新唐人電視台.md</code></td>
+      <td>新唐人亞太電視（林嘉韋、沈唯同）· 2026-10-03<br><a href="https://www.ntdtv.com/b5/2026/10/03/a104138574.html" target="_blank" rel="noopener">新唐人原文</a></td>
+      <td>Provided the Senate bill with a 15 percent Chinese ownership cap, Senator Moreno's national security comments, the possible impact on Mercedes and Volvo, European brands shifting to the US, and the EU's anti-dumping duties from 2025.<br>提供參院15%中資持股上限法案、莫雷諾的國安說法、對賓士與Volvo的可能影響、歐系車廠轉向美國市場，以及歐盟自2025年起的反傾銷稅。</td>
+    </tr>
+  </table>
+</div>
+
+<footer>
+  Generated for Claude Yeh's daily EV speaking practice · Content researched from the user's Obsidian news-clipper vault (or general EV topics when unavailable) · 25-minute session for online speaking lessons.
+</footer>
+
+</div>
+
+<script>
+(function () {
+  var synth = window.speechSynthesis;
+  var bar = document.getElementById('ttsbar');
+  if (!synth) {
+    bar.innerHTML = '<div id="ttshint">此瀏覽器不支援語音朗讀，請改用 Chrome、Edge 或 Safari 開啟本檔案。</div>';
+    return;
+  }
+
+  var voiceSel = document.getElementById('tts-voice');
+  var rateSel  = document.getElementById('tts-rate');
+  var voices   = [];
+  var queue    = [];
+  var qi       = 0;
+  var playing  = false;
+
+  function score(v) {
+    var n = (v.name + ' ' + (v.voiceURI || '')).toLowerCase();
+    var s = 0;
+    if (/premium|enhanced|neural|natural/.test(n)) s += 40;
+    if (/siri/.test(n)) s += 30;
+    if (/google/.test(n)) s += 25;
+    if (/samantha|ava|allison|serena|daniel|kate|arthur|evan|nathan|zoe/.test(n)) s += 12;
+    if (/compact|novelty|whisper|bells|bubbles|jester|organ|trinoids|zarvox|albert|bad news|good news/.test(n)) s -= 60;
+    if (v.lang === 'en-US') s += 6;
+    if (v.lang === 'en-GB') s += 5;
+    if (v.localService) s += 2;
+    return s;
+  }
+
+  function loadVoices() {
+    var all = synth.getVoices().filter(function (v) { return /^en[-_]/i.test(v.lang); });
+    if (!all.length) return;
+    all.sort(function (a, b) { return score(b) - score(a); });
+    voices = all;
+    voiceSel.innerHTML = '';
+    voices.forEach(function (v, i) {
+      var o = document.createElement('option');
+      o.value = i;
+      o.textContent = v.name + ' (' + v.lang + ')';
+      voiceSel.appendChild(o);
+    });
+    var saved = null;
+    try { saved = localStorage.getItem('evPracticeVoice'); } catch (e) {}
+    if (saved !== null) {
+      var idx = voices.findIndex(function (v) { return v.name === saved; });
+      if (idx > -1) voiceSel.value = idx;
+    }
+  }
+  loadVoices();
+  synth.onvoiceschanged = loadVoices;
+
+  voiceSel.addEventListener('change', function () {
+    var v = voices[voiceSel.value];
+    try { if (v) localStorage.setItem('evPracticeVoice', v.name); } catch (e) {}
+  });
+
+  function clearHighlight() {
+    var h = document.querySelector('.speaking');
+    if (h) h.classList.remove('speaking');
+  }
+
+  function stop() {
+    playing = false;
+    queue = [];
+    qi = 0;
+    synth.cancel();
+    clearHighlight();
+  }
+
+  // Chrome silently truncates any utterance longer than ~15s, so queue
+  // sentence-sized chunks instead of whole paragraphs.
+  function sentences(text) {
+    var SEP = String.fromCharCode(1);
+    var t = text.replace(/\s+/g, ' ').trim();
+    // Shield decimals/abbreviations so "86.5 percent" isn't split in two.
+    t = t.replace(/(\d)\.(\d)/g, '$1' + SEP + '$2')
+         .replace(/\b(Mr|Mrs|Ms|Dr|St|vs|etc|Inc|Ltd|Co|approx)\./gi,
+                  function (m) { return m.slice(0, -1) + SEP; })
+         .replace(/\bU\.S\./g, 'U' + SEP + 'S' + SEP);
+    var parts = t.match(/[^.!?]+[.!?]+["')\]]?|[^.!?]+$/g) || [t];
+    return parts
+      .map(function (s) { return s.split(SEP).join('.').trim(); })
+      .filter(function (s) { return /[a-zA-Z0-9]/.test(s); });
+  }
+
+  function speakNext() {
+    if (!playing || qi >= queue.length) { stop(); return; }
+    var item = queue[qi++];
+    clearHighlight();
+    if (item.el) {
+      item.el.classList.add('speaking');
+      var r = item.el.getBoundingClientRect();
+      if (r.top < 120 || r.bottom > window.innerHeight - 40) {
+        item.el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      }
+    }
+    var u = new SpeechSynthesisUtterance(item.text);
+    var v = voices[voiceSel.value];
+    if (v) { u.voice = v; u.lang = v.lang; } else { u.lang = 'en-US'; }
+    u.rate = parseFloat(rateSel.value);
+    u.pitch = 1;
+    u.onend = speakNext;
+    u.onerror = speakNext;
+    synth.speak(u);
+  }
+
+  function textOf(el) {
+    // Snapshot taken before the play glyph was injected, so it is never spoken.
+    return el.getAttribute('data-tts') || el.textContent;
+  }
+
+  function play(elements) {
+    stop();
+    queue = [];
+    elements.forEach(function (el) {
+      sentences(textOf(el)).forEach(function (s) {
+        if (s.trim()) queue.push({ el: el, text: s });
+      });
+    });
+    if (!queue.length) return;
+    playing = true;
+    qi = 0;
+    speakNext();
+  }
+
+  document.getElementById('tts-stop').addEventListener('click', stop);
+
+  document.getElementById('tts-play').addEventListener('click', function () {
+    var paras = [].slice.call(document.querySelectorAll('#article .en'));
+    play(paras);
+  });
+
+  rateSel.addEventListener('change', function () { if (playing) stop(); });
+
+  var targets = [].slice.call(document.querySelectorAll('.en'));
+  targets.forEach(function (el) {
+    el.setAttribute('data-tts', el.textContent);
+    var b = document.createElement('button');
+    b.className = 'playbtn';
+    b.type = 'button';
+    b.textContent = '▶';
+    b.setAttribute('aria-label', 'Play this sentence');
+    b.addEventListener('click', function (e) {
+      e.stopPropagation();
+      play([el]);
+    });
+    el.insertBefore(b, el.firstChild);
+  });
+
+  [].slice.call(document.querySelectorAll('table tr')).forEach(function (tr) {
+    var cells = tr.querySelectorAll('td');
+    if (cells.length < 2) return;
+    var last = cells[cells.length - 1];
+    if (!/[a-zA-Z]/.test(last.textContent)) return;
+    last.style.cursor = 'pointer';
+    last.title = 'Click to hear it 點一下聽發音';
+    last.addEventListener('click', function () { play([last]); });
+  });
+
+  window.addEventListener('beforeunload', function () { synth.cancel(); });
+})();
+</script>
+</body>
+</html>
