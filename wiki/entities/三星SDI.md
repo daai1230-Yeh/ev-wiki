@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [samsung-sdi-mercedes-battery-deal, samsung-sdi-mercedes-confirmed-deal, samsung-sdi-solid-state-production-2026, ev-news-2026-07-03-08, ev-news-2026-07-14-16-digitimes, ev-news-2026-09-04-digitimes, ev-news-2026-09-24-digitimes, ev-news-2026-10-02-digitimes, ev-news-2026-10-05-electrive-en, ev-news-2026-10-07-digitimes]
-updated: 2026-10-07
+sources: [samsung-sdi-mercedes-battery-deal, samsung-sdi-mercedes-confirmed-deal, samsung-sdi-solid-state-production-2026, ev-news-2026-07-03-08, ev-news-2026-07-14-16-digitimes, ev-news-2026-09-04-digitimes, ev-news-2026-09-24-digitimes, ev-news-2026-10-02-digitimes, ev-news-2026-10-05-electrive-en, ev-news-2026-10-07-digitimes, ev-news-2026-10-15-digitimes]
+updated: 2026-10-16
 ---
 
 # 三星 SDI（Samsung SDI）
@@ -109,3 +109,12 @@ Mercedes今年4月與三星SDI簽首份長期電池供應合約，並同步引�
 三星SDI正評估鈉離子電池量產、預期2027年公布量產計畫；SK On目標2027年完成鈉電池原型；南韓政府2027~2031年投入約4,000億韓元研發。
 
 - 參見：[[sources/ev-news-2026-10-07-digitimes]] | [[entities/LGES]] | [[concepts/鈉離子電池]]
+
+## BBU用圓柱型LFP電池（2026-10）
+
+> **結論**：最快2027年6月於馬來西亞芙蓉第二廠量產，為南韓電池業首例將LFP導入圓柱型備援電池。
+
+**主因**：美國對非中國製電池需求強勁；既有三元「40V3」已供應BBU → 擴及LFP降成本；小型電池營收Q3預估1.31兆韓元（年增34%）。
+**觀察**：2027年量產爬坡與客戶認證。
+
+- 參見：[[sources/ev-news-2026-10-15-digitimes]] | [[concepts/儲能市場]] | [[concepts/電池技術路線]] | [[countries/東南亞]]

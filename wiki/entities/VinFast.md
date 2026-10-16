@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [vinfast-india-investment, ev-news-2026-07-20-21-electrive-en, ev-news-2026-09-18-electrive-en, ev-news-2026-09-22-electrive-en, ev-news-2026-09-22-digest, ev-news-2026-09-23-electrive-en, ev-news-2026-09-29-digitimes]
-updated: 2026-09-30
+sources: [vinfast-india-investment, ev-news-2026-07-20-21-electrive-en, ev-news-2026-09-18-electrive-en, ev-news-2026-09-22-electrive-en, ev-news-2026-09-22-digest, ev-news-2026-09-23-electrive-en, ev-news-2026-09-29-digitimes, ev-news-2026-10-16-electrive-en]
+updated: 2026-10-16
 ---
 
 # VinFast
@@ -77,3 +77,9 @@ VinFast叫車子公司Green SM在印尼推出500輛Limo Green電動計程車（N
 越南新創Dat Bike發表家庭用電動機車ERA（整合式充電器直接嵌入動力系統），創辦人主張電動機車不需仰賴龐大換電網路即可取代燃油車；相對VinFast以406,453輛（近2024年5倍）穩居越南龍頭，已鋪設4,500座換電站並計劃2026年Q1前建成4.5萬座電池櫃。
 
 - 參見：[[sources/ev-news-2026-09-29-digitimes]] | [[countries/東南亞]]
+
+## Green SM洛杉磯電動計程車（2026-10）
+
+Green SM進歐約一個月後於10月13日在洛杉磯部署首批電動計程車（VF 8，起價39,900美元）。
+
+- 參見：[[sources/ev-news-2026-10-16-electrive-en]] | [[countries/美國]]

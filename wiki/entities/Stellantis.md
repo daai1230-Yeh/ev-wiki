@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [stellantis-leapmotor-canada-rejected, us-ev-battery-demand-mismatch, europe-battery-capacity-cuts, stellantis-opel-leapmotor-suv, opel-peugeot-long-range-delay, ev-news-2026-10-02-digitimes, ev-news-2026-10-08-digitimes]
-updated: 2026-10-14
+sources: [stellantis-leapmotor-canada-rejected, us-ev-battery-demand-mismatch, europe-battery-capacity-cuts, stellantis-opel-leapmotor-suv, opel-peugeot-long-range-delay, ev-news-2026-10-02-digitimes, ev-news-2026-10-08-digitimes, ev-news-2026-10-15-electrive-en, ev-news-2026-10-16-electrive-en]
+updated: 2026-10-16
 ---
 
 # 斯特蘭蒂斯（Stellantis）
@@ -77,3 +77,9 @@ Stellantis與寧德時代共同投資41億歐元在西班牙建電池廠，與AC
 **觀察**：零跑B05是否也在歐洲生產。
 
 - 參見：[[sources/ev-news-2026-10-13-14-electrive-en]] | [[sources/ev-news-2026-10-13-14-insideevs]] | [[entities/零跑汽車]]
+
+## Citroën 2CV概念與Fourgonnette（2026-10）
+
+2CV概念約1.5萬歐元、2028量產；Fourgonnette未公布細節。
+
+- 參見：[[sources/ev-news-2026-10-15-electrive-en]] | [[sources/ev-news-2026-10-16-electrive-en]]

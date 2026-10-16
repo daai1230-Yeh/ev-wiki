@@ -1,6 +1,6 @@
 # Wiki Index
 
-Last updated: 2026-10-14 | Pages: 497 | Sources: 554
+Last updated: 2026-10-16 | Pages: 497 | Sources: 559
 
 ---
 
@@ -97,6 +97,11 @@ Last updated: 2026-10-14 | Pages: 497 | Sources: 554
 - [[sources/ev-news-2026-10-12-digest]] — 中文財經批次8篇：陸混動車輸歐恐砍半、豐田泰國殘值貸款、現代印度1,000萬輛、華德電巴、桃園A21、雙層客運補助縮水、Starlink印度。(2026-10-12)
 - [[sources/ev-news-2026-10-12-digitimes-2]] — Digitimes CarTech補充2篇：豐田、廣汽、一汽三方協議正式簽署、麗升跨足充電樁（註：剪輯檔無單篇網址）。(2026-10-12)
 - [[sources/ev-news-2026-10-12-14-digitimes]] — Digitimes CarTech 9篇：中國新能源車出口退稅2027-04起由13%降至9%（含評析）、歐盟HEV／PHEV年35萬輛配額、LGES大進機械轉單與L&F LFP長約、台灣能管法帶動儲能、寰聖／桓鼎、裕日車估車市42萬輛（全數附原文網址）。(2026-10-14)
+- [[sources/ev-news-2026-10-16-digitimes]] — Digitimes 4篇：Tesla Roadster、寧德鈉電ESS 70GWh、MIP分析、日本車路協同。(2026-10-16)
+- [[sources/ev-news-2026-10-16-electrive-en]] — electrive 2篇：Citroën 2CV Fourgonnette、Green SM洛杉磯電動計程車。(2026-10-16)
+- [[sources/ev-news-2026-10-15-digitimes]] — Digitimes 5篇：三星SDI BBU LFP、比亞迪歐洲4萬人、豐田e-Palette、輝能非車用、工研院單晶三元。(2026-10-15)
+- [[sources/ev-news-2026-10-15-digest]] — 聯合新聞網2篇：英國拒跟進課稅、現代汽車印度155億。(2026-10-15)
+- [[sources/ev-news-2026-10-15-electrive-en]] — electrive 4篇：Aito進歐、巴黎車展、Škoda Epiq、Zero電動機車紀錄。(2026-10-15)
 - [[sources/ev-news-2026-10-13-14-electrive-en]] — electrive 10篇＋InsideEVs 1篇：巴黎車展BYD Atto 8閃充、小鵬G9L、Forthing、Smart #2 19,999歐元；Stellantis×零跑共同開發；BMW Q3純電+7.2%；Renault×EDF V2G；OTTO'S eActros 600車隊；INIT自駕車隊管理。(2026-10-14)
 - [[sources/ev-news-2026-10-13-14-insideevs]] — InsideEVs 5篇：Citroën 2CV（1.5萬歐元目標）、Peugeot RCZ固態概念車、Fiat Multiplay；美國快充埠破8萬；福斯美國EV年減90%。(2026-10-14)
 - [[sources/ev-news-2026-10-14-bus-digest]] — 電巴綜合5篇：Ebusco獲國軒586萬歐元但急需資金、義大利201輛電巴標案、豐田二代Sora規格、連江縣買不到合適電巴、鴻海×三地集團（論壇觀點）。(2026-10-14)

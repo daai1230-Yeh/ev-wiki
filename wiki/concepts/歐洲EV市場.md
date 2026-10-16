@@ -1,7 +1,7 @@
 ---
 tags: [concept]
-sources: [cupra-raval-launch, vw-id4-id5-battery-update, mgs6-ev-first-drive, opel-peugeot-long-range-delay, europe-battery-capacity-cuts, byd-denza-europe-debut, germany-ev-incentive-2026, vw-id3-neo-premiere, honda-eny1-withdrawal-europe, nissan-chery-sunderland-plant, acea-eu-ev-q1-2026, vw-id-polo-launch, polestar-3-800v-upgrade, audi-q4-etron-facelift-2026, gwm-ora03-uk-exit, netherlands-ev-scrappage-2026, porsche-cayenne-coupe-electric, uk-ev-2million-2026, vw-gamechanger-production, zeekr-x-2026-europe, morrow-batteries-insolvency, citroen-china-ev-strategy-2026, jpmorgan-china-ev-europe-2028, eu-iaa-japan-auto-protest-2026, bmw-ix3-neue-klasse-2026, volvo-ex60-production-2026, audi-a2-etron-testing-2026, kia-ev2-first-drive-2026, stellantis-fastlane-2030, nordic-ev-april-2026, europe-v2g-bidirectional-2026, tesla-fsd-eu-expansion-2026, china-ev-europe-factory-takeover-2026, europe-ev-market-may2026, eu-battery-tariff-2027-delay-2026, citroen-15k-electric-2cv-2026, uk-zev-mandate-relaxation-2026, eu-automotive-package-2035-2026, vwcv-id-buzz-2026-update, opel-formula-e-gse27fe-2026, ev-news-2026-09-20-digest, ev-news-2026-09-18-electrive-en, ev-news-2026-09-22-digitimes, ev-news-2026-09-26-electrive-en, ev-news-2026-09-23-electrive-en, ev-news-2026-09-26-digest, ev-news-2026-10-05-electrive-en, ev-news-2026-10-06-electrive-en, ev-news-2026-10-05-digitimes, ev-news-2026-10-08-digitimes, ev-news-2026-10-10-electrive-en, ev-news-2026-10-12-digest]
-updated: 2026-10-14
+sources: [cupra-raval-launch, vw-id4-id5-battery-update, mgs6-ev-first-drive, opel-peugeot-long-range-delay, europe-battery-capacity-cuts, byd-denza-europe-debut, germany-ev-incentive-2026, vw-id3-neo-premiere, honda-eny1-withdrawal-europe, nissan-chery-sunderland-plant, acea-eu-ev-q1-2026, vw-id-polo-launch, polestar-3-800v-upgrade, audi-q4-etron-facelift-2026, gwm-ora03-uk-exit, netherlands-ev-scrappage-2026, porsche-cayenne-coupe-electric, uk-ev-2million-2026, vw-gamechanger-production, zeekr-x-2026-europe, morrow-batteries-insolvency, citroen-china-ev-strategy-2026, jpmorgan-china-ev-europe-2028, eu-iaa-japan-auto-protest-2026, bmw-ix3-neue-klasse-2026, volvo-ex60-production-2026, audi-a2-etron-testing-2026, kia-ev2-first-drive-2026, stellantis-fastlane-2030, nordic-ev-april-2026, europe-v2g-bidirectional-2026, tesla-fsd-eu-expansion-2026, china-ev-europe-factory-takeover-2026, europe-ev-market-may2026, eu-battery-tariff-2027-delay-2026, citroen-15k-electric-2cv-2026, uk-zev-mandate-relaxation-2026, eu-automotive-package-2035-2026, vwcv-id-buzz-2026-update, opel-formula-e-gse27fe-2026, ev-news-2026-09-20-digest, ev-news-2026-09-18-electrive-en, ev-news-2026-09-22-digitimes, ev-news-2026-09-26-electrive-en, ev-news-2026-09-23-electrive-en, ev-news-2026-09-26-digest, ev-news-2026-10-05-electrive-en, ev-news-2026-10-06-electrive-en, ev-news-2026-10-05-digitimes, ev-news-2026-10-08-digitimes, ev-news-2026-10-10-electrive-en, ev-news-2026-10-12-digest, ev-news-2026-10-15-electrive-en, ev-news-2026-10-16-electrive-en]
+updated: 2026-10-16
 ---
 
 # 歐洲 EV 市場
@@ -698,3 +698,12 @@ IAA草案要求電動車70%歐洲在地動力系統零組件才享補助、電�
 **觀察**：HEV配額生效後中國PHEV品牌（BYD、Forthing、奇瑞）的定價；M1E類別立法時程。
 
 - 參見：[[sources/ev-news-2026-10-13-14-electrive-en]] | [[sources/ev-news-2026-10-13-14-insideevs]] | [[sources/ev-news-2026-10-12-14-digitimes]] | [[entities/BMW]] | [[entities/Stellantis]]
+
+## 巴黎車展：歐洲陣營反攻（2026-10）
+
+> **結論**：相較2024年中國品牌搶鏡，2026巴黎車展由歐洲車廠主導，聚焦平價小車與在地電池。
+
+**主因**：Citroën 2CV概念（不到1噸、約1.5萬歐元、2028量產）與Fourgonnette、Renault電動Espace／R4，及VW集團Škoda Epiq（Epiq 35起價25,900歐元、Epiq 55最長440公里）等，皆瞄準2.5萬歐元以下市場；缺席者含Porsche、BMW與多數日系，Aito仍宣布2027年秋進歐 → 歐洲平價化競爭與中國供應商卡位同時升溫。
+**觀察**：Epiq 35 10月開訂後的訂單；2CV量產定價是否守住1.5萬歐元。
+
+- 參見：[[sources/ev-news-2026-10-15-electrive-en]] | [[sources/ev-news-2026-10-16-electrive-en]] | [[concepts/平價電動車市場]]

@@ -2339,3 +2339,11 @@ Pages 375 → 406，Sources 315 → 346
 - New pages created: [[entities/Ebusco]]
 - Key additions: 中國新能源車出口退稅2027-04起13%→9%（出海從拚量轉拚值）；歐盟HEV／PHEV年35萬輛配額（每年+6%、4年、最快12-01生效）；LGES大進機械重整轉單、傳與L&F簽兆韓元LFP長約；巴黎車展BYD Atto 8閃充、小鵬G9L、Smart #2、Citroën 2CV；Stellantis×零跑共同開發Opel SUV；BMW Q3純電+7.2%；美國快充埠破8萬；福斯美國EV-90%；Ebusco急需資金；連江縣電巴車型缺口
 - 備註: **原文網址**：5篇Digitimes剪輯檔（出口退稅、評析、L&F、裕日車、能管法）未附網址，已以標題檢索digitimes.com.tw補齊，本批全數附網址。raw/assets另有96篇為已收錄文章的檔名變體（全形空格、連字號、日期差1天），不另收錄；34個ev-speaking-practice HTML非新聞，略過。git顯示2篇既有raw檔（10-06十一長假充電、10-12速霸陸）被重新剪輯覆寫，10-06版頁尾原文網址遺失（原網址仍保存於git歷史與既有來源頁）
+
+## [2026-10-16] ingest | EV News 2026-10-15~16 批次（17篇原文，5個來源摘要頁）
+- Summary pages: [[sources/ev-news-2026-10-15-electrive-en]], [[sources/ev-news-2026-10-15-digest]], [[sources/ev-news-2026-10-15-digitimes]], [[sources/ev-news-2026-10-16-electrive-en]], [[sources/ev-news-2026-10-16-digitimes]]
+- Raw assets: raw/assets/2026-10-15-*.md、2026-10-16-*.md（17篇；10-13出口退稅文已於10-14批次ingest，不重複）
+- Pages updated: [[concepts/中國EV出海策略]], [[concepts/歐洲EV市場]], [[concepts/平價電動車市場]], [[concepts/印度EV市場]], [[concepts/儲能市場]], [[concepts/電池技術路線]], [[concepts/鈉離子電池]], [[concepts/ADAS智駕系統]], [[concepts/Robotaxi自動計程車]], [[concepts/電動巴士市場]], [[concepts/北美EV關稅與政策]], [[entities/比亞迪]], [[entities/寧德時代]], [[entities/三星SDI]], [[entities/輝能科技]], [[entities/現代汽車]], [[entities/豐田]], [[entities/日産]], [[entities/奇瑞]], [[entities/Tesla]], [[entities/VinFast]], [[entities/Volkswagen]], [[entities/Stellantis]], [[entities/Renault]]
+- Countries updated: [[countries/中國]], [[countries/歐洲]], [[countries/英國]], [[countries/印度]], [[countries/韓國]], [[countries/日本]], [[countries/台灣]], [[countries/美國]], [[countries/德國]], [[countries/東南亞]]
+- Key additions: 英國拒跟進中國EV課稅（與先前研議課稅報導相反）；歐盟HEV年35萬輛配額與MIP風險；Tesla Roadster發表（2028量產）；寧德鈉電ESS訂單目標70GWh；三星SDI BBU圓柱LFP；現代汽車印度155億美元。
+- 備註: Digitimes CarTech剪輯檔無單篇網址，來源頁已註明；electrive、udn附原文網址。

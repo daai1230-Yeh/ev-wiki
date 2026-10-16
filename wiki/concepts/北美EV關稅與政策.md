@@ -1,7 +1,7 @@
 ---
 tags: [concept]
-sources: [tesla-canada-model3-2026, nissan-mississippi-ev-abandonment, china-evs-canada-chery-geely-2026, ford-catl-michigan-factory-2026, china-ev-us-market-2026, nissan-canada-dongfeng-ev-quota-2026, ev-news-2026-09-07-08-electrive-en, ev-news-2026-09-09-electrive-en, ev-news-2026-09-14-digest, ev-news-2026-09-11-digitimes, ev-news-2026-09-14-digitimes, ev-news-2026-09-17-digitimes, ev-news-2026-09-17-digest, ev-news-2026-09-17-electrive-en, ev-news-2026-09-20-digest, ev-news-2026-09-18-digest, ev-news-2026-09-25-digest, ev-news-2026-09-28-digest, ev-news-2026-09-30-digitimes, ev-news-2026-10-01-electrive-en, ev-news-2026-10-02-digitimes, ev-news-2026-10-04-digest, ev-news-2026-10-09-electrive-en]
-updated: 2026-10-12
+sources: [tesla-canada-model3-2026, nissan-mississippi-ev-abandonment, china-evs-canada-chery-geely-2026, ford-catl-michigan-factory-2026, china-ev-us-market-2026, nissan-canada-dongfeng-ev-quota-2026, ev-news-2026-09-07-08-electrive-en, ev-news-2026-09-09-electrive-en, ev-news-2026-09-14-digest, ev-news-2026-09-11-digitimes, ev-news-2026-09-14-digitimes, ev-news-2026-09-17-digitimes, ev-news-2026-09-17-digest, ev-news-2026-09-17-electrive-en, ev-news-2026-09-20-digest, ev-news-2026-09-18-digest, ev-news-2026-09-25-digest, ev-news-2026-09-28-digest, ev-news-2026-09-30-digitimes, ev-news-2026-10-01-electrive-en, ev-news-2026-10-02-digitimes, ev-news-2026-10-04-digest, ev-news-2026-10-09-electrive-en, ev-news-2026-10-16-digitimes]
+updated: 2026-10-16
 ---
 
 # 北美 EV 關稅與政策
@@ -207,3 +207,9 @@ Farley在Automotive News Congress主張美國謹慎對待中國車廠、暫不�
 Polestar自6月遭商務部聯網車規定禁售（申請豁免遭拒，Volvo獲豁免），Q3在美折扣清庫存使美國交付年增124%；Nissan中國研發Navara Pro因高關稅與聯網車禁令不會進美國。
 
 - 參見：[[sources/ev-news-2026-10-09-electrive-en]] | [[entities/Polestar]] | [[countries/美國]]
+
+## FEOC 25%持股門檻的規避（2026-10）
+
+美國FEOC規範出現調整股權結構規避；全球約80%正極與精煉產能在歐洲以外。
+
+- 參見：[[sources/ev-news-2026-10-16-digitimes]]
