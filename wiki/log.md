@@ -2355,3 +2355,11 @@ Pages 375 → 406，Sources 315 → 346
 - Countries updated: [[countries/韓國]], [[countries/印度]], [[countries/加拿大]], [[countries/美國]], [[countries/台灣]], [[countries/中國]]
 - Key additions: Tesla Roadster三版本與飛行僅限Rocket版；Tesla越級向南韓三、四級供應商壓價；FSD集體訴訟認證遭撤銷；南韓軍營近200輛中國聯網車；現代集團營收破300兆；豐田加碼加拿大。
 - 備註: Digitimes CarTech剪輯檔無單篇網址，來源頁已註明；其餘附原文網址。
+
+## [2026-10-19] ingest | EV News 2026-10-19 補充批次（6篇原文，2個來源摘要頁）
+- Summary pages: [[sources/ev-news-2026-10-19-electrive-en]], [[sources/ev-news-2026-10-19-digitimes-2]]
+- Raw assets: raw/assets/2026-10-19-*.md（electrive 4篇、Digitimes 2篇）
+- Pages updated: [[concepts/中國EV市場競爭格局]], [[concepts/電池技術路線]], [[concepts/平價電動車市場]], [[concepts/歐洲EV市場]], [[entities/豐田]], [[entities/比亞迪]], [[entities/Stellantis]], [[entities/Volkswagen]]
+- Countries updated: [[countries/中國]], [[countries/德國]], [[countries/歐洲]], [[countries/日本]]
+- Key additions: 廣汽收購一汽豐田50%；豐田上海Lexus廠首用自主一體化壓鑄；豐田2030年全面SDV（Arene）；比亞迪大漢EV；T&E PHEV實際CO2約6倍。
+- 備註: Digitimes剪輯檔無單篇網址；electrive附原文網址。

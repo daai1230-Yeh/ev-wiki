@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [stellantis-leapmotor-canada-rejected, us-ev-battery-demand-mismatch, europe-battery-capacity-cuts, stellantis-opel-leapmotor-suv, opel-peugeot-long-range-delay, ev-news-2026-10-02-digitimes, ev-news-2026-10-08-digitimes, ev-news-2026-10-15-electrive-en, ev-news-2026-10-16-electrive-en]
-updated: 2026-10-16
+sources: [stellantis-leapmotor-canada-rejected, us-ev-battery-demand-mismatch, europe-battery-capacity-cuts, stellantis-opel-leapmotor-suv, opel-peugeot-long-range-delay, ev-news-2026-10-02-digitimes, ev-news-2026-10-08-digitimes, ev-news-2026-10-15-electrive-en, ev-news-2026-10-16-electrive-en, ev-news-2026-10-19-electrive-en]
+updated: 2026-10-19
 ---
 
 # 斯特蘭蒂斯（Stellantis）
@@ -83,3 +83,9 @@ Stellantis與寧德時代共同投資41億歐元在西班牙建電池廠，與AC
 2CV概念約1.5萬歐元、2028量產；Fourgonnette未公布細節。
 
 - 參見：[[sources/ev-news-2026-10-15-electrive-en]] | [[sources/ev-news-2026-10-16-electrive-en]]
+
+## Opel Astra Electric降至36,490歐元（2026-10）
+
+Astra Start配備等級降價1,900歐元，取消熱泵；Start配備擴及Frontera與Combo。
+
+- 參見：[[sources/ev-news-2026-10-19-electrive-en]] | [[concepts/平價電動車市場]]
