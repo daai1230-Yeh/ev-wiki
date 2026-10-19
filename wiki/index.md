@@ -1,6 +1,6 @@
 # Wiki Index
 
-Last updated: 2026-10-16 | Pages: 497 | Sources: 559
+Last updated: 2026-10-19 | Pages: 497 | Sources: 561
 
 ---
 
@@ -97,6 +97,8 @@ Last updated: 2026-10-16 | Pages: 497 | Sources: 559
 - [[sources/ev-news-2026-10-12-digest]] — 中文財經批次8篇：陸混動車輸歐恐砍半、豐田泰國殘值貸款、現代印度1,000萬輛、華德電巴、桃園A21、雙層客運補助縮水、Starlink印度。(2026-10-12)
 - [[sources/ev-news-2026-10-12-digitimes-2]] — Digitimes CarTech補充2篇：豐田、廣汽、一汽三方協議正式簽署、麗升跨足充電樁（註：剪輯檔無單篇網址）。(2026-10-12)
 - [[sources/ev-news-2026-10-12-14-digitimes]] — Digitimes CarTech 9篇：中國新能源車出口退稅2027-04起由13%降至9%（含評析）、歐盟HEV／PHEV年35萬輛配額、LGES大進機械轉單與L&F LFP長約、台灣能管法帶動儲能、寰聖／桓鼎、裕日車估車市42萬輛（全數附原文網址）。(2026-10-14)
+- [[sources/ev-news-2026-10-19-digitimes]] — Digitimes 5篇：Roadster細節、Tesla韓國供應鏈議價、豐田加拿大、綠岩×Powerwall。(2026-10-19)
+- [[sources/ev-news-2026-10-19-digest]] — Google Alerts 5篇：南韓軍營中國聯網車、Tesla FSD訴訟、現代營收破300兆、台中自駕巴士、BBC Roadster。(2026-10-19)
 - [[sources/ev-news-2026-10-16-digitimes]] — Digitimes 4篇：Tesla Roadster、寧德鈉電ESS 70GWh、MIP分析、日本車路協同。(2026-10-16)
 - [[sources/ev-news-2026-10-16-electrive-en]] — electrive 2篇：Citroën 2CV Fourgonnette、Green SM洛杉磯電動計程車。(2026-10-16)
 - [[sources/ev-news-2026-10-15-digitimes]] — Digitimes 5篇：三星SDI BBU LFP、比亞迪歐洲4萬人、豐田e-Palette、輝能非車用、工研院單晶三元。(2026-10-15)

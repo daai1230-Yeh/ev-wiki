@@ -2347,3 +2347,11 @@ Pages 375 → 406，Sources 315 → 346
 - Countries updated: [[countries/中國]], [[countries/歐洲]], [[countries/英國]], [[countries/印度]], [[countries/韓國]], [[countries/日本]], [[countries/台灣]], [[countries/美國]], [[countries/德國]], [[countries/東南亞]]
 - Key additions: 英國拒跟進中國EV課稅（與先前研議課稅報導相反）；歐盟HEV年35萬輛配額與MIP風險；Tesla Roadster發表（2028量產）；寧德鈉電ESS訂單目標70GWh；三星SDI BBU圓柱LFP；現代汽車印度155億美元。
 - 備註: Digitimes CarTech剪輯檔無單篇網址，來源頁已註明；electrive、udn附原文網址。
+
+## [2026-10-19] ingest | EV News 2026-10-16~19 批次（10篇原文，2個來源摘要頁）
+- Summary pages: [[sources/ev-news-2026-10-19-digitimes]], [[sources/ev-news-2026-10-19-digest]]
+- Raw assets: raw/assets/2026-10-16-綠岩…、2026-10-19-*.md（10篇；另3個標點變體重複檔不重複 ingest）
+- Pages updated: [[concepts/自動駕駛安全監管]], [[concepts/印度EV市場]], [[concepts/北美EV關稅與政策]], [[concepts/ADAS智駕系統]], [[concepts/電動巴士市場]], [[concepts/Robotaxi自動計程車]], [[concepts/儲能市場]], [[entities/Tesla]], [[entities/比亞迪]], [[entities/現代汽車]], [[entities/起亞]], [[entities/豐田]], [[entities/本田]], [[entities/吉利汽車]]
+- Countries updated: [[countries/韓國]], [[countries/印度]], [[countries/加拿大]], [[countries/美國]], [[countries/台灣]], [[countries/中國]]
+- Key additions: Tesla Roadster三版本與飛行僅限Rocket版；Tesla越級向南韓三、四級供應商壓價；FSD集體訴訟認證遭撤銷；南韓軍營近200輛中國聯網車；現代集團營收破300兆；豐田加碼加拿大。
+- 備註: Digitimes CarTech剪輯檔無單篇網址，來源頁已註明；其餘附原文網址。
