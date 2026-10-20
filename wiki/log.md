@@ -2363,3 +2363,11 @@ Pages 375 → 406，Sources 315 → 346
 - Countries updated: [[countries/中國]], [[countries/德國]], [[countries/歐洲]], [[countries/日本]]
 - Key additions: 廣汽收購一汽豐田50%；豐田上海Lexus廠首用自主一體化壓鑄；豐田2030年全面SDV（Arene）；比亞迪大漢EV；T&E PHEV實際CO2約6倍。
 - 備註: Digitimes剪輯檔無單篇網址；electrive附原文網址。
+
+## [2026-10-20] ingest | EV News 2026-10-20 批次（30篇原文，5個來源摘要頁）
+- Summary pages: [[sources/ev-news-2026-10-20-bus-digest]], [[sources/ev-news-2026-10-20-digitimes]], [[sources/ev-news-2026-10-20-electrive-en]], [[sources/ev-news-2026-10-20-insideevs]], [[sources/ev-news-2026-10-20-digest]]
+- Raw assets: raw/assets/2026-10-20-*.md（30篇；4個標點變體重複檔不重複 ingest）
+- Pages updated: [[concepts/電動巴士市場]], [[concepts/Robotaxi自動計程車]], [[concepts/ADAS智駕系統]], [[concepts/充電基礎建設]], [[concepts/中國EV出海策略]], [[concepts/中國EV市場競爭格局]], [[concepts/電池技術路線]], [[concepts/電池回收]], [[concepts/歐洲EV市場]], [[entities/寧德時代]], [[entities/比亞迪]], [[entities/Volkswagen]], [[entities/LGES]], [[entities/吉利汽車]], [[entities/豐田]], [[entities/VinFast]], [[entities/通用汽車]], [[entities/億緯鋰能]], [[entities/Renault]], [[entities/Tesla]], [[entities/鴻海]]
+- Countries updated: [[countries/德國]], [[countries/歐洲]], [[countries/中國]], [[countries/韓國]], [[countries/英國]], [[countries/日本]], [[countries/東南亞]], [[countries/澳洲]], [[countries/美國]], [[countries/台灣]]
+- Key additions: 德國2027預算草案電動巴士補助-68%（PwC：2030年少約1,500輛）；歐洲電動巴士中國占比31%；比亞迪電池海外裝車+66.5%；福斯ID. Unyx 07破10萬人民幣；LGES獨供賓利Torcal；Volvo×NVIDIA；寧德×華為99秒全自動換電。
+- 備註: Digitimes剪輯檔無單篇網址；Google快訊為摘錄，無單篇網址、未查證全文，已於來源頁註明。

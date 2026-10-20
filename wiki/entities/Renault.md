@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [renault-flexis-acquisition-2026, ev-news-2026-06-27-29-en, ev-news-2026-07-09, ev-news-2026-09-26-electrive-en, ev-news-2026-09-28-electrive-en, ev-news-2026-09-29-electrive-en, ev-news-2026-10-05-electrive-en, ev-news-2026-10-06-electrive-en, ev-news-2026-10-05-digitimes, ev-news-2026-10-07-electrive-en, ev-news-2026-10-15-electrive-en]
-updated: 2026-10-16
+sources: [renault-flexis-acquisition-2026, ev-news-2026-06-27-29-en, ev-news-2026-07-09, ev-news-2026-09-26-electrive-en, ev-news-2026-09-28-electrive-en, ev-news-2026-09-29-electrive-en, ev-news-2026-10-05-electrive-en, ev-news-2026-10-06-electrive-en, ev-news-2026-10-05-digitimes, ev-news-2026-10-07-electrive-en, ev-news-2026-10-15-electrive-en, ev-news-2026-10-20-digest]
+updated: 2026-10-20
 ---
 
 # Renault（雷諾）
@@ -127,3 +127,9 @@ Renault集團與EDF明年夏季在法國推出雙向充電套裝（車＋壁掛�
 ## 巴黎車展電動Espace／R4（2026-10）
 
 - 參見：[[sources/ev-news-2026-10-15-electrive-en]]
+
+## 傳考慮5年投資100億歐元擴小型純電車（2026-10）
+
+日經中文網稱歐洲EV有300萬輛電池缺口；雷諾考慮5年內投資100億歐元（Google快訊摘錄，未查證全文）。
+
+- 參見：[[sources/ev-news-2026-10-20-digest]]

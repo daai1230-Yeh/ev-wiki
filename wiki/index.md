@@ -1,6 +1,6 @@
 # Wiki Index
 
-Last updated: 2026-10-19 | Pages: 497 | Sources: 563
+Last updated: 2026-10-20 | Pages: 497 | Sources: 568
 
 ---
 
@@ -97,6 +97,11 @@ Last updated: 2026-10-19 | Pages: 497 | Sources: 563
 - [[sources/ev-news-2026-10-12-digest]] — 中文財經批次8篇：陸混動車輸歐恐砍半、豐田泰國殘值貸款、現代印度1,000萬輛、華德電巴、桃園A21、雙層客運補助縮水、Starlink印度。(2026-10-12)
 - [[sources/ev-news-2026-10-12-digitimes-2]] — Digitimes CarTech補充2篇：豐田、廣汽、一汽三方協議正式簽署、麗升跨足充電樁（註：剪輯檔無單篇網址）。(2026-10-12)
 - [[sources/ev-news-2026-10-12-14-digitimes]] — Digitimes CarTech 9篇：中國新能源車出口退稅2027-04起由13%降至9%（含評析）、歐盟HEV／PHEV年35萬輛配額、LGES大進機械轉單與L&F LFP長約、台灣能管法帶動儲能、寰聖／桓鼎、裕日車估車市42萬輛（全數附原文網址）。(2026-10-14)
+- [[sources/ev-news-2026-10-20-bus-digest]] — Sustainable Bus 18篇：德國電動巴士補助砍68%、智慧巴士評論、INIT收購、河內VinFast、Scania新Touring、展會簡訊。(2026-10-20)
+- [[sources/ev-news-2026-10-20-digitimes]] — Digitimes 5篇：比亞迪電池海外+66.5%、華為×寧德換電、Volvo×NVIDIA、LGES獨供賓利、東芝集電弓公車。(2026-10-20)
+- [[sources/ev-news-2026-10-20-electrive-en]] — electrive 3篇：福斯ID. Unyx破10萬人民幣、Mazda CX-6e泰國、墨爾本Zenobē場站。(2026-10-20)
+- [[sources/ev-news-2026-10-20-insideevs]] — InsideEVs 3篇：AMG GT SUV、Subaru自研平台、Bolt換電池。(2026-10-20)
+- [[sources/ev-news-2026-10-20-digest]] — Google快訊摘要：泰國中國車占85%、雷諾100億歐元、鴻海Model T高雄。(2026-10-20)
 - [[sources/ev-news-2026-10-19-electrive-en]] — electrive 4篇：廣汽收購一汽豐田50%、比亞迪大漢EV、Opel Astra降價、T&E PHEV排放。(2026-10-19)
 - [[sources/ev-news-2026-10-19-digitimes-2]] — Digitimes 2篇：豐田上海Lexus壓鑄廠、2030年SDV／Arene。(2026-10-19)
 - [[sources/ev-news-2026-10-19-digitimes]] — Digitimes 5篇：Roadster細節、Tesla韓國供應鏈議價、豐田加拿大、綠岩×Powerwall。(2026-10-19)

@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [vinfast-india-investment, ev-news-2026-07-20-21-electrive-en, ev-news-2026-09-18-electrive-en, ev-news-2026-09-22-electrive-en, ev-news-2026-09-22-digest, ev-news-2026-09-23-electrive-en, ev-news-2026-09-29-digitimes, ev-news-2026-10-16-electrive-en]
-updated: 2026-10-16
+sources: [vinfast-india-investment, ev-news-2026-07-20-21-electrive-en, ev-news-2026-09-18-electrive-en, ev-news-2026-09-22-electrive-en, ev-news-2026-09-22-digest, ev-news-2026-09-23-electrive-en, ev-news-2026-09-29-digitimes, ev-news-2026-10-16-electrive-en, ev-news-2026-10-20-bus-digest]
+updated: 2026-10-20
 ---
 
 # VinFast
@@ -83,3 +83,9 @@ VinFast叫車子公司Green SM在印尼推出500輛Limo Green電動計程車（N
 Green SM進歐約一個月後於10月13日在洛杉磯部署首批電動計程車（VF 8，起價39,900美元）。
 
 - 參見：[[sources/ev-news-2026-10-16-electrive-en]] | [[countries/美國]]
+
+## 河內53輛電動巴士；進軍美國巴士市場（2026-10）
+
+Transerco導入28輛Green Bus與25輛EB8；VinFast巴士年產能3,000輛，APTA期間宣布經NexMove進入美國電動巴士市場。
+
+- 參見：[[sources/ev-news-2026-10-20-bus-digest]] | [[concepts/電動巴士市場]]
