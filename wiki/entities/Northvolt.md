@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [ev-news-2026-06-30-07-01, ev-news-2026-07-02]
-updated: 2026-07-02
+sources: [ev-news-2026-06-30-07-01, ev-news-2026-07-02, ev-news-2026-10-22-electrive-en]
+updated: 2026-10-22
 ---
 
 # Northvolt
@@ -101,3 +101,9 @@ Northvolt 的失敗暴露出歐洲「電池主權」策略的根本困難：
 - [[countries/德國]]
 - [[countries/歐洲]]
 - [[sources/ev-news-2026-06-30-07-01]]
+
+## Hydrovolt近況（2026-10）
+
+Northvolt於2024年11月退出Hydrovolt融資，Hydro 2025年1月以7,800萬挪威克朗取得全部股權；Northvolt於2025年3月在瑞典聲請破產。
+
+- 參見：[[sources/ev-news-2026-10-22-electrive-en]] | [[concepts/電池回收]]

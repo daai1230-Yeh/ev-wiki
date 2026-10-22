@@ -1,6 +1,6 @@
 # Wiki Index
 
-Last updated: 2026-10-20 | Pages: 497 | Sources: 568
+Last updated: 2026-10-22 | Pages: 497 | Sources: 572
 
 ---
 
@@ -97,6 +97,10 @@ Last updated: 2026-10-20 | Pages: 497 | Sources: 568
 - [[sources/ev-news-2026-10-12-digest]] — 中文財經批次8篇：陸混動車輸歐恐砍半、豐田泰國殘值貸款、現代印度1,000萬輛、華德電巴、桃園A21、雙層客運補助縮水、Starlink印度。(2026-10-12)
 - [[sources/ev-news-2026-10-12-digitimes-2]] — Digitimes CarTech補充2篇：豐田、廣汽、一汽三方協議正式簽署、麗升跨足充電樁（註：剪輯檔無單篇網址）。(2026-10-12)
 - [[sources/ev-news-2026-10-12-14-digitimes]] — Digitimes CarTech 9篇：中國新能源車出口退稅2027-04起由13%降至9%（含評析）、歐盟HEV／PHEV年35萬輛配額、LGES大進機械轉單與L&F LFP長約、台灣能管法帶動儲能、寰聖／桓鼎、裕日車估車市42萬輛（全數附原文網址）。(2026-10-14)
+- [[sources/ev-news-2026-10-22-digest]] — 大紀元／自由財經2篇：泰國開放中國電動車的代價、Tesla–SpaceX特別委員會。(2026-10-22)
+- [[sources/ev-news-2026-10-22-digitimes]] — Digitimes 3篇：Tesla–SpaceX合併評估、寧德Q3獲利放緩、鴻海入股三菱電機車用部門。(2026-10-22)
+- [[sources/ev-news-2026-10-22-insideevs]] — InsideEVs 2篇：Waymo 2027年20,000輛、Kia EV3美國租賃。(2026-10-22)
+- [[sources/ev-news-2026-10-22-electrive-en]] — electrive 4篇：比亞迪Danza印尼閃充、Bee Network 500輛、Kia PV5英國補助、Hydrovolt冰島。(2026-10-22)
 - [[sources/ev-news-2026-10-20-bus-digest]] — Sustainable Bus 18篇：德國電動巴士補助砍68%、智慧巴士評論、INIT收購、河內VinFast、Scania新Touring、展會簡訊。(2026-10-20)
 - [[sources/ev-news-2026-10-20-digitimes]] — Digitimes 5篇：比亞迪電池海外+66.5%、華為×寧德換電、Volvo×NVIDIA、LGES獨供賓利、東芝集電弓公車。(2026-10-20)
 - [[sources/ev-news-2026-10-20-electrive-en]] — electrive 3篇：福斯ID. Unyx破10萬人民幣、Mazda CX-6e泰國、墨爾本Zenobē場站。(2026-10-20)

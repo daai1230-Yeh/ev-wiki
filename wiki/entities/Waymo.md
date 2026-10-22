@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [waymo-arizona-expansion-2026, ev-news-2026-06-25, ev-news-2026-08-30-31-cn-misc, ev-news-2026-08-31-digitimes, ev-news-2026-09-01-digitimes, ev-news-2026-09-02-electrive-en, ev-news-2026-10-07-electrive-en]
-updated: 2026-10-07
+sources: [waymo-arizona-expansion-2026, ev-news-2026-06-25, ev-news-2026-08-30-31-cn-misc, ev-news-2026-08-31-digitimes, ev-news-2026-09-01-digitimes, ev-news-2026-09-02-electrive-en, ev-news-2026-10-07-electrive-en, ev-news-2026-10-22-insideevs]
+updated: 2026-10-22
 ---
 
 # Waymo
@@ -86,3 +86,12 @@ Waymo新開放丹佛、聖地牙哥、坦帕三城市無安全員自駕載客服
 Waymo與新加坡MOT與LTA合作，2027年起測試、2028年向公眾提供全自動駕駛服務，為東南亞首站；新加坡現有16輛自駕乘用車，預期Waymo加入後增至數百輛，與ComfortDelGro、Grab同場競爭。
 
 - 參見：[[sources/ev-news-2026-10-07-electrive-en]] | [[concepts/Robotaxi自動計程車]] | [[countries/東南亞]]
+
+## 2027年底車隊20,000輛計畫（2026-10）
+
+> **結論**：Semafor報導，2026年底8,000輛、2027年底20,000輛；已取得50億美元債務融資，15城、每週逾50萬次付費行程；倫敦、東京測試，加拿大、新加坡、西班牙已宣布。
+
+**主因**：Hyundai Ioniq 5與Zeekr Ojai供車。
+**觀察**：遠端操作員與場站營運能否跟上。
+
+- 參見：[[sources/ev-news-2026-10-22-insideevs]] | [[concepts/Robotaxi自動計程車]]

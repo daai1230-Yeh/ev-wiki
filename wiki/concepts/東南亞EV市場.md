@@ -1,7 +1,7 @@
 ---
 tags: [concept]
-sources: [thailand-ev-market-2026, china-autonomous-driving-overseas, foxconn-mitsubishi-fuso-electric-bus, byd-malaysia-factory-negotiation, byd-malaysia-factory-update-2026, malaysia-cbv-ev-regulation-2026, gwm-ora5-thailand-2026, geely-thailand-pickup-2026, mitsubishi-motors-middle-east-routes-2026, mitsubishi-hev-japan-2028, lges-honda-vietnam-bss-2026, volvo-ex30-thailand-fire-2026, hanoi-1000-bss-2026, ev-news-digest-jun1-10-2026, ev-news-2026-09-18-digest, ev-news-2026-09-18-digitimes, ev-news-2026-09-19-electrive-en, ev-news-2026-09-22-digest, ev-news-2026-09-22-electrive-en, ev-news-2026-09-28-digest, ev-news-2026-09-29-digitimes, ev-news-2026-10-01-digitimes, ev-news-2026-10-06-digest]
-updated: 2026-10-06
+sources: [thailand-ev-market-2026, china-autonomous-driving-overseas, foxconn-mitsubishi-fuso-electric-bus, byd-malaysia-factory-negotiation, byd-malaysia-factory-update-2026, malaysia-cbv-ev-regulation-2026, gwm-ora5-thailand-2026, geely-thailand-pickup-2026, mitsubishi-motors-middle-east-routes-2026, mitsubishi-hev-japan-2028, lges-honda-vietnam-bss-2026, volvo-ex30-thailand-fire-2026, hanoi-1000-bss-2026, ev-news-digest-jun1-10-2026, ev-news-2026-09-18-digest, ev-news-2026-09-18-digitimes, ev-news-2026-09-19-electrive-en, ev-news-2026-09-22-digest, ev-news-2026-09-22-electrive-en, ev-news-2026-09-28-digest, ev-news-2026-09-29-digitimes, ev-news-2026-10-01-digitimes, ev-news-2026-10-06-digest, ev-news-2026-10-22-digest, ev-news-2026-10-22-electrive-en]
+updated: 2026-10-22
 ---
 
 # 東南亞 EV 市場
@@ -245,3 +245,9 @@ updated: 2026-10-06
 泰國洪災波及1,315家企業（40府），Toyota四座工廠停產、FTI預估另有5~6家汽車相關工廠可能續停；Kasikorn估經濟損失70億~170億泰銖；2026年生產目標暫未調整。
 
 - 參見：[[sources/ev-news-2026-10-06-digest]] | [[entities/豐田]] | [[countries/東南亞]]
+
+## 泰國分級稅制與印尼閃充（2026-10）
+
+泰國9月公布依本土生產／零組件比率分級稅制（純進口最高）；比亞迪印尼Danza D9／Z9 GT上市。
+
+- 參見：[[sources/ev-news-2026-10-22-digest]] | [[sources/ev-news-2026-10-22-electrive-en]]

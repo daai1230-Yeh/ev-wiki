@@ -1,7 +1,7 @@
 ---
 tags: [concept]
-sources: [gm-ford-q1-2026-sales, us-ev-battery-demand-mismatch, rivian-r2-range-specs, vw-id4-chattanooga-stop, tesla-25k-ev-us-price-parity, slate-auto-ev-pickup, ford-ev-restructure-doug-field, vw-id4-us-writedown, tesla-q1-2026-earnings, gm-ev-delay-detroit-three, nissan-mississippi-ev-abandonment, honda-canada-ev-freeze-2026, tesla-model-s-final-production, mazda-ev-delay-2029, ford-catl-michigan-factory-2026, honda-9b-loss-hybrid-pivot-2026, tesla-model-y-price-bump-2026, congress-ev-annual-fee-2026, rivian-r2-deliveries-2026, chevy-bolt-2027-review, 駐外新聞-美國-2025, ev-news-2026-09-18-digest, ev-news-2026-09-20-digest, ev-news-2026-09-22-electrive-en, ev-news-2026-09-26-electrive-en, ev-news-2026-09-28-digest, ev-news-2026-10-05-digitimes, ev-news-2026-10-07-electrive-en]
-updated: 2026-10-14
+sources: [gm-ford-q1-2026-sales, us-ev-battery-demand-mismatch, rivian-r2-range-specs, vw-id4-chattanooga-stop, tesla-25k-ev-us-price-parity, slate-auto-ev-pickup, ford-ev-restructure-doug-field, vw-id4-us-writedown, tesla-q1-2026-earnings, gm-ev-delay-detroit-three, nissan-mississippi-ev-abandonment, honda-canada-ev-freeze-2026, tesla-model-s-final-production, mazda-ev-delay-2029, ford-catl-michigan-factory-2026, honda-9b-loss-hybrid-pivot-2026, tesla-model-y-price-bump-2026, congress-ev-annual-fee-2026, rivian-r2-deliveries-2026, chevy-bolt-2027-review, 駐外新聞-美國-2025, ev-news-2026-09-18-digest, ev-news-2026-09-20-digest, ev-news-2026-09-22-electrive-en, ev-news-2026-09-26-electrive-en, ev-news-2026-09-28-digest, ev-news-2026-10-05-digitimes, ev-news-2026-10-07-electrive-en, ev-news-2026-10-22-insideevs]
+updated: 2026-10-22
 ---
 
 # 美國 EV 市場與政策
@@ -428,3 +428,9 @@ Autostat：俄羅斯電動＋插電占新車11.5%略高於美國；美國8月BEV
 **觀察**：Q4各車廠EV銷量是否續探底。
 
 - 參見：[[sources/ev-news-2026-10-13-14-insideevs]] | [[entities/Volkswagen]] | [[concepts/充電基礎建設]]
+
+## EV3租賃價格壓低Bolt與Leaf（2026-10）
+
+Bolt現金價28,995美元仍最低，但EV3扣1,500美元優惠後29,885美元，租賃更便宜。
+
+- 參見：[[sources/ev-news-2026-10-22-insideevs]]

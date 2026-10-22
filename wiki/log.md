@@ -2371,3 +2371,11 @@ Pages 375 → 406，Sources 315 → 346
 - Countries updated: [[countries/德國]], [[countries/歐洲]], [[countries/中國]], [[countries/韓國]], [[countries/英國]], [[countries/日本]], [[countries/東南亞]], [[countries/澳洲]], [[countries/美國]], [[countries/台灣]]
 - Key additions: 德國2027預算草案電動巴士補助-68%（PwC：2030年少約1,500輛）；歐洲電動巴士中國占比31%；比亞迪電池海外裝車+66.5%；福斯ID. Unyx 07破10萬人民幣；LGES獨供賓利Torcal；Volvo×NVIDIA；寧德×華為99秒全自動換電。
 - 備註: Digitimes剪輯檔無單篇網址；Google快訊為摘錄，無單篇網址、未查證全文，已於來源頁註明。
+
+## [2026-10-22] ingest | EV News 2026-10-21 批次（11篇原文，4個來源摘要頁）
+- Summary pages: [[sources/ev-news-2026-10-22-electrive-en]], [[sources/ev-news-2026-10-22-insideevs]], [[sources/ev-news-2026-10-22-digitimes]], [[sources/ev-news-2026-10-22-digest]]
+- Raw assets: raw/assets/2026-10-21-*.md（11篇；4個標點變體重複檔不重複 ingest）
+- Pages updated: [[concepts/Robotaxi自動計程車]], [[concepts/平價電動車市場]], [[concepts/美國EV市場與政策]], [[concepts/電動巴士市場]], [[concepts/充電基礎建設]], [[concepts/東南亞EV市場]], [[concepts/中國EV出海策略]], [[concepts/ADAS智駕系統]], [[concepts/儲能市場]], [[concepts/中國EV市場競爭格局]], [[concepts/電池回收]], [[entities/Tesla]], [[entities/Waymo]], [[entities/現代汽車]], [[entities/吉利汽車]], [[entities/起亞]], [[entities/通用汽車]], [[entities/日産]], [[entities/比亞迪]], [[entities/鴻海]], [[entities/寧德時代]], [[entities/Northvolt]]
+- Countries updated: [[countries/美國]], [[countries/英國]], [[countries/東南亞]], [[countries/日本]], [[countries/台灣]], [[countries/中國]], [[countries/挪威]]
+- Key additions: Tesla–SpaceX成立特別委員會正式評估合併；Waymo 2027年底20,000輛；寧德Q3淨利年增14.54%、增速放緩；鴻海1,150億日圓入股三菱電機車用部門；泰國中國車占逾八成與分級稅制；比亞迪印尼Danza與100座閃充。
+- 備註: Digitimes剪輯檔無單篇網址，已於來源頁註明；其餘附原文網址。
