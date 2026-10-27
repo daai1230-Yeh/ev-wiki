@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [stellantis-leapmotor-canada-rejected, us-ev-battery-demand-mismatch, europe-battery-capacity-cuts, stellantis-opel-leapmotor-suv, opel-peugeot-long-range-delay, ev-news-2026-10-02-digitimes, ev-news-2026-10-08-digitimes, ev-news-2026-10-15-electrive-en, ev-news-2026-10-16-electrive-en, ev-news-2026-10-19-electrive-en]
-updated: 2026-10-19
+sources: [stellantis-leapmotor-canada-rejected, us-ev-battery-demand-mismatch, europe-battery-capacity-cuts, stellantis-opel-leapmotor-suv, opel-peugeot-long-range-delay, ev-news-2026-10-02-digitimes, ev-news-2026-10-08-digitimes, ev-news-2026-10-15-electrive-en, ev-news-2026-10-16-electrive-en, ev-news-2026-10-19-electrive-en, ev-news-2026-10-27-digitimes, ev-news-2026-10-27-electrive-en]
+updated: 2026-10-27
 ---
 
 # 斯特蘭蒂斯（Stellantis）
@@ -89,3 +89,9 @@ Stellantis與寧德時代共同投資41億歐元在西班牙建電池廠，與AC
 Astra Start配備等級降價1,900歐元，取消熱泵；Start配備擴及Frontera與Combo。
 
 - 參見：[[sources/ev-news-2026-10-19-electrive-en]] | [[concepts/平價電動車市場]]
+
+## Bolt自駕合作；CAM排名第10（2026-10）
+
+Bolt與Pony.ai及Stellantis合作；CAM創新排名第10。
+
+- 參見：[[sources/ev-news-2026-10-27-digitimes]] | [[sources/ev-news-2026-10-27-electrive-en]]

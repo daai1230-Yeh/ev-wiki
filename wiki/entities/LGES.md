@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [lges-loss-ess-2026, ira-supply-chain-compliance, us-ev-battery-demand-mismatch, lges-tesla-4680-supplier, lges-bmw-46series-order, ev-news-2026-07-03-08, ev-news-2026-07-10-supplement, ev-news-2026-07-12-13-electrive, ev-news-2026-07-14-16-digitimes, ev-news-2026-07-17-20-digitimes, ev-news-2026-07-25-27-digitimes, ev-news-2026-07-29-31-digitimes, ev-news-2026-08-20-digitimes, ev-news-2026-08-19-20-cn-misc, ev-news-2026-08-19-20-electrive-en, ev-news-2026-08-21-digitimes, ev-news-2026-08-21-23-electrive-en, ev-news-2026-08-26-digitimes, ev-news-2026-08-27-digitimes, ev-news-2026-09-01-digitimes, ev-news-2026-10-01-electrive-en, ev-news-2026-10-02-digitimes, ev-news-2026-10-05-electrive-en, ev-news-2026-10-07-digitimes, ev-news-2026-10-08-digitimes, ev-news-2026-10-09-electrive-en, ev-news-2026-10-12-digest, ev-news-2026-10-20-digitimes]
-updated: 2026-10-20
+sources: [lges-loss-ess-2026, ira-supply-chain-compliance, us-ev-battery-demand-mismatch, lges-tesla-4680-supplier, lges-bmw-46series-order, ev-news-2026-07-03-08, ev-news-2026-07-10-supplement, ev-news-2026-07-12-13-electrive, ev-news-2026-07-14-16-digitimes, ev-news-2026-07-17-20-digitimes, ev-news-2026-07-25-27-digitimes, ev-news-2026-07-29-31-digitimes, ev-news-2026-08-20-digitimes, ev-news-2026-08-19-20-cn-misc, ev-news-2026-08-19-20-electrive-en, ev-news-2026-08-21-digitimes, ev-news-2026-08-21-23-electrive-en, ev-news-2026-08-26-digitimes, ev-news-2026-08-27-digitimes, ev-news-2026-09-01-digitimes, ev-news-2026-10-01-electrive-en, ev-news-2026-10-02-digitimes, ev-news-2026-10-05-electrive-en, ev-news-2026-10-07-digitimes, ev-news-2026-10-08-digitimes, ev-news-2026-10-09-electrive-en, ev-news-2026-10-12-digest, ev-news-2026-10-20-digitimes, ev-news-2026-10-27-digitimes, ev-news-2026-10-27-electrive-en]
+updated: 2026-10-27
 ---
 
 # 樂金能源解決方案（LG Energy Solution，LGES）
@@ -242,3 +242,12 @@ LGES Q3營收約9.64兆韓元（年增59%）創單季新高，營業利益7,560�
 賓利首款純電SUV採LGES NCM電池（113kWh、400kW快充10-80%約16分鐘）；Bentley CEO維持燃油／PHEV／純電並行。
 
 - 參見：[[sources/ev-news-2026-10-20-digitimes]] | [[countries/韓國]]
+
+## 波蘭廠稼動率60~65%、南京9廠啟動、GM LMR（2026-10）
+
+> **結論**：弗羅茨瓦夫廠Q3稼動率60~65%，Q4有望轉虧為盈（2025年虧5,878億韓元）；南京9廠因2170需求（Tesla Model Y）啟動；GM LMR電芯2028年起在Spring Hill由Ultium Cells／LGES量產。
+
+**主因**：歐洲電動車需求（1~8月交車331萬輛、年增29%）、閒置產線轉ESS並拿下PGE專案。
+**觀察**：Q4營業利益預估6,087億韓元。
+
+- 參見：[[sources/ev-news-2026-10-27-digitimes]] | [[sources/ev-news-2026-10-27-electrive-en]]

@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [lucid-cosmos-2026, ev-news-2026-06-27-29-en, ev-news-2026-06-30-07-01, ev-news-2026-07-14-16-electrive, ev-news-2026-07-17-20-digitimes, ev-news-2026-08-03-06-electrive-en, ev-news-2026-08-04-06-cn-misc, ev-news-2026-08-06-07-electrive-en, ev-news-2026-08-07-digitimes, ev-news-2026-08-07-10-electrive-en, ev-news-2026-08-27-29-electrive-en, ev-news-2026-09-19-electrive-en, ev-news-2026-10-07-electrive-en]
-updated: 2026-10-07
+sources: [lucid-cosmos-2026, ev-news-2026-06-27-29-en, ev-news-2026-06-30-07-01, ev-news-2026-07-14-16-electrive, ev-news-2026-07-17-20-digitimes, ev-news-2026-08-03-06-electrive-en, ev-news-2026-08-04-06-cn-misc, ev-news-2026-08-06-07-electrive-en, ev-news-2026-08-07-digitimes, ev-news-2026-08-07-10-electrive-en, ev-news-2026-08-27-29-electrive-en, ev-news-2026-09-19-electrive-en, ev-news-2026-10-07-electrive-en, ev-news-2026-10-27-digitimes]
+updated: 2026-10-27
 ---
 
 # Lucid Motors
@@ -141,3 +141,9 @@ Lucid與Bolt成立策略夥伴，以Lucid下一代中型平台開發L4車輛，B
 Lucid Q3交付3,806輛（年減6.7%）、生產2,954輛（季減38%），6月砍掉AMP-1廠一班後清庫存；前9月生產13,228輛、交付10,852輛；Gravity需求回升，中型Cosmos（約5萬美元）延後至2027年；4月新任CEO Silvio Napoli，今年稍早裁員18%。
 
 - 參見：[[sources/ev-news-2026-10-07-electrive-en]] | [[countries/美國]]
+
+## Bolt規劃歐洲25,000輛L4 Lucid車款（2026-10）
+
+搭載NVIDIA Hyperion，2027年馬德里起步。
+
+- 參見：[[sources/ev-news-2026-10-27-digitimes]]

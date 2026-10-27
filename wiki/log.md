@@ -2379,3 +2379,12 @@ Pages 375 → 406，Sources 315 → 346
 - Countries updated: [[countries/美國]], [[countries/英國]], [[countries/東南亞]], [[countries/日本]], [[countries/台灣]], [[countries/中國]], [[countries/挪威]]
 - Key additions: Tesla–SpaceX成立特別委員會正式評估合併；Waymo 2027年底20,000輛；寧德Q3淨利年增14.54%、增速放緩；鴻海1,150億日圓入股三菱電機車用部門；泰國中國車占逾八成與分級稅制；比亞迪印尼Danza與100座閃充。
 - 備註: Digitimes剪輯檔無單篇網址，已於來源頁註明；其餘附原文網址。
+
+## [2026-10-27] ingest | EV News 2026-10-21~27 批次（52篇原文，5個來源摘要頁）
+- Summary pages: [[sources/ev-news-2026-10-27-digitimes-tesla]], [[sources/ev-news-2026-10-27-digitimes]], [[sources/ev-news-2026-10-27-electrive-en]], [[sources/ev-news-2026-10-27-insideevs]], [[sources/ev-news-2026-10-27-digest]]
+- Raw assets: raw/assets/2026-10-21~27-*.md（52篇；標點／全形變體重複檔不重複 ingest）
+- Pages updated (concepts): Robotaxi自動計程車、人形機器人、ADAS智駕系統、充電基礎建設、台灣EV市場、電池技術路線、儲能市場、電池回收、歐洲EV市場、中國EV出海策略、中國EV市場競爭格局、電動卡車市場、美國EV市場與政策、北美EV關稅與政策、平價電動車市場、東南亞EV市場、電動巴士市場、電動商用車
+- Pages updated (entities): Tesla、Waymo、文遠知行、LGES、三星SDI、Rivian、Volkswagen、小鵬汽車、比亞迪、奇瑞、零跑汽車、寧德時代、通用汽車、福特、起亞、Slate Auto、豐田、日産、本田、三菱汽車、現代汽車、Stellantis、Lucid、吉利汽車、BMW
+- Countries updated: [[countries/美國]], [[countries/台灣]], [[countries/德國]], [[countries/歐洲]], [[countries/中國]], [[countries/加拿大]], [[countries/日本]], [[countries/東南亞]], [[countries/韓國]], [[countries/澳洲]]
+- Key additions: Tesla Q3（車業-3%、資本支出下修至200億美元、2030年目標500萬輛）；SpaceX×Tesla合併評估（3.5兆美元）；ACEA 9月歐盟BEV+72.9%；福斯召回72,700輛與中國ID. UNYX 08僅達目標7.4%；GM第四代平台與LMR電池；日本2027年EV補助打6折；南韓進口電動車市占首度過半；乘聯分會預估2026年零售1,850萬輛。
+- 備註: Digitimes剪輯檔無單篇網址，已於來源頁註明；Tesla Q3淨利兩來源口徑不一（electrive 7.87億美元年減43%、Digitimes 17億美元年減4%），已並列待核對。

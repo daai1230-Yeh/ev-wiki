@@ -1,6 +1,6 @@
 # Wiki Index
 
-Last updated: 2026-10-22 | Pages: 497 | Sources: 572
+Last updated: 2026-10-27 | Pages: 497 | Sources: 578
 
 ---
 
@@ -97,6 +97,11 @@ Last updated: 2026-10-22 | Pages: 497 | Sources: 572
 - [[sources/ev-news-2026-10-12-digest]] — 中文財經批次8篇：陸混動車輸歐恐砍半、豐田泰國殘值貸款、現代印度1,000萬輛、華德電巴、桃園A21、雙層客運補助縮水、Starlink印度。(2026-10-12)
 - [[sources/ev-news-2026-10-12-digitimes-2]] — Digitimes CarTech補充2篇：豐田、廣汽、一汽三方協議正式簽署、麗升跨足充電樁（註：剪輯檔無單篇網址）。(2026-10-12)
 - [[sources/ev-news-2026-10-12-14-digitimes]] — Digitimes CarTech 9篇：中國新能源車出口退稅2027-04起由13%降至9%（含評析）、歐盟HEV／PHEV年35萬輛配額、LGES大進機械轉單與L&F LFP長約、台灣能管法帶動儲能、寰聖／桓鼎、裕日車估車市42萬輛（全數附原文網址）。(2026-10-14)
+- [[sources/ev-news-2026-10-27-digitimes-tesla]] — Digitimes 10篇：Tesla Q3、Cybercab、自研地圖、SpaceX合併評估、Roadster評析。(2026-10-27)
+- [[sources/ev-news-2026-10-27-digitimes]] — Digitimes 12篇：NVIDIA GTC Berlin、Waymo、LGES波蘭廠、日本補助打折、南韓國產電動車跌破5成。(2026-10-27)
+- [[sources/ev-news-2026-10-27-electrive-en]] — electrive 16篇：ACEA 9月BEV+72.9%、福斯召回、GM第四代平台、Volvo平價車、CAM排名。(2026-10-27)
+- [[sources/ev-news-2026-10-27-insideevs]] — InsideEVs 11篇：GM平台、Kia加拿大、Chery探美、Cybertruck取消澳紐、Slate試駕。(2026-10-27)
+- [[sources/ev-news-2026-10-27-digest]] — 經濟日報／聯合新聞網3篇：乘聯分會、福斯CEA導入歐洲、現代縮減赴美。(2026-10-27)
 - [[sources/ev-news-2026-10-22-digest]] — 大紀元／自由財經2篇：泰國開放中國電動車的代價、Tesla–SpaceX特別委員會。(2026-10-22)
 - [[sources/ev-news-2026-10-22-digitimes]] — Digitimes 3篇：Tesla–SpaceX合併評估、寧德Q3獲利放緩、鴻海入股三菱電機車用部門。(2026-10-22)
 - [[sources/ev-news-2026-10-22-insideevs]] — InsideEVs 2篇：Waymo 2027年20,000輛、Kia EV3美國租賃。(2026-10-22)

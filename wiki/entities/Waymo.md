@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [waymo-arizona-expansion-2026, ev-news-2026-06-25, ev-news-2026-08-30-31-cn-misc, ev-news-2026-08-31-digitimes, ev-news-2026-09-01-digitimes, ev-news-2026-09-02-electrive-en, ev-news-2026-10-07-electrive-en, ev-news-2026-10-22-insideevs]
-updated: 2026-10-22
+sources: [waymo-arizona-expansion-2026, ev-news-2026-06-25, ev-news-2026-08-30-31-cn-misc, ev-news-2026-08-31-digitimes, ev-news-2026-09-01-digitimes, ev-news-2026-09-02-electrive-en, ev-news-2026-10-07-electrive-en, ev-news-2026-10-22-insideevs, ev-news-2026-10-27-digitimes]
+updated: 2026-10-27
 ---
 
 # Waymo
@@ -95,3 +95,9 @@ Waymo與新加坡MOT與LTA合作，2027年起測試、2028年向公眾提供全�
 **觀察**：遠端操作員與場站營運能否跟上。
 
 - 參見：[[sources/ev-news-2026-10-22-insideevs]] | [[concepts/Robotaxi自動計程車]]
+
+## 首次發行債券、擴張海外（2026-10）
+
+50億美元債務可證券化租賃合約；累計逾2,000萬趟付費行程；馬德里、東京、倫敦、多倫多時程；文遠知行×Uber已取得西班牙全國測試許可。
+
+- 參見：[[sources/ev-news-2026-10-27-digitimes]]

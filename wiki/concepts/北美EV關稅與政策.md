@@ -1,7 +1,7 @@
 ---
 tags: [concept]
-sources: [tesla-canada-model3-2026, nissan-mississippi-ev-abandonment, china-evs-canada-chery-geely-2026, ford-catl-michigan-factory-2026, china-ev-us-market-2026, nissan-canada-dongfeng-ev-quota-2026, ev-news-2026-09-07-08-electrive-en, ev-news-2026-09-09-electrive-en, ev-news-2026-09-14-digest, ev-news-2026-09-11-digitimes, ev-news-2026-09-14-digitimes, ev-news-2026-09-17-digitimes, ev-news-2026-09-17-digest, ev-news-2026-09-17-electrive-en, ev-news-2026-09-20-digest, ev-news-2026-09-18-digest, ev-news-2026-09-25-digest, ev-news-2026-09-28-digest, ev-news-2026-09-30-digitimes, ev-news-2026-10-01-electrive-en, ev-news-2026-10-02-digitimes, ev-news-2026-10-04-digest, ev-news-2026-10-09-electrive-en, ev-news-2026-10-16-digitimes, ev-news-2026-10-19-digitimes]
-updated: 2026-10-19
+sources: [tesla-canada-model3-2026, nissan-mississippi-ev-abandonment, china-evs-canada-chery-geely-2026, ford-catl-michigan-factory-2026, china-ev-us-market-2026, nissan-canada-dongfeng-ev-quota-2026, ev-news-2026-09-07-08-electrive-en, ev-news-2026-09-09-electrive-en, ev-news-2026-09-14-digest, ev-news-2026-09-11-digitimes, ev-news-2026-09-14-digitimes, ev-news-2026-09-17-digitimes, ev-news-2026-09-17-digest, ev-news-2026-09-17-electrive-en, ev-news-2026-09-20-digest, ev-news-2026-09-18-digest, ev-news-2026-09-25-digest, ev-news-2026-09-28-digest, ev-news-2026-09-30-digitimes, ev-news-2026-10-01-electrive-en, ev-news-2026-10-02-digitimes, ev-news-2026-10-04-digest, ev-news-2026-10-09-electrive-en, ev-news-2026-10-16-digitimes, ev-news-2026-10-19-digitimes, ev-news-2026-10-27-insideevs, ev-news-2026-10-27-digest]
+updated: 2026-10-27
 ---
 
 # 北美 EV 關稅與政策
@@ -219,3 +219,9 @@ Polestar自6月遭商務部聯網車規定禁售（申請豁免遭拒，Volvo獲
 白宮威脅若1月1日前無更廣貿易協議，汽車關稅提高至50%；加拿大對中國車准許每年約5萬輛並逐步增加。
 
 - 參見：[[sources/ev-news-2026-10-19-digitimes]] | [[countries/加拿大]]
+
+## 加拿大配額、美國聯網車禁令、現代赴美縮減（2026-10）
+
+加拿大49,000輛/年低稅額度；美國聯網車禁令使Chery尋求夥伴；現代Palisade Hybrid赴美產量降63%。
+
+- 參見：[[sources/ev-news-2026-10-27-insideevs]] | [[sources/ev-news-2026-10-27-digest]]

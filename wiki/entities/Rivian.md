@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [rivian-r2-range-specs, rivian-service-network-2026, rivian-lidar-china-partner-2026, ev-news-2026-07-03-08, ev-news-2026-07-24-28-electrive-en, ev-news-2026-08-03-06-electrive-en, ev-news-2026-08-07-10-electrive-en, ev-news-2026-08-27-29-electrive-en, ev-news-2026-09-18-electrive-en, ev-news-2026-10-01-electrive-en, ev-news-2026-10-09-electrive-en]
-updated: 2026-10-12
+sources: [rivian-r2-range-specs, rivian-service-network-2026, rivian-lidar-china-partner-2026, ev-news-2026-07-03-08, ev-news-2026-07-24-28-electrive-en, ev-news-2026-08-03-06-electrive-en, ev-news-2026-08-07-10-electrive-en, ev-news-2026-08-27-29-electrive-en, ev-news-2026-09-18-electrive-en, ev-news-2026-10-01-electrive-en, ev-news-2026-10-09-electrive-en, ev-news-2026-10-27-digitimes, ev-news-2026-10-27-digest]
+updated: 2026-10-27
 ---
 
 # Rivian
@@ -156,3 +156,9 @@ Rivian投資人關係副總裁Newcom表示，R2第三代自駕硬體（自研RAP
 Rivian取消R2座椅椅背通風（僅保留座墊），稱因噪音；社群出現取消預訂聲浪，傳聞硬體已移除但未證實。
 
 - 參見：[[sources/ev-news-2026-10-09-electrive-en]]
+
+## 福斯58億美元合作、Redwood退役電池（2026-10）
+
+> **結論**：Scaringe稱自主電子架構僅需少量電腦，中國以外只有Rivian與Tesla掌握，故獲福斯58億美元合作；但福斯傳考慮把與小鵬的CEA導入歐洲，可能影響合作；8月美國BEV榜Rivian第二（R2上市年增33%）。
+
+- 參見：[[sources/ev-news-2026-10-27-digitimes]] | [[sources/ev-news-2026-10-27-digest]]

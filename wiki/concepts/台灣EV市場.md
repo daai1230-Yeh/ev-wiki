@@ -1,7 +1,7 @@
 ---
 tags: [concept]
-sources: [tesla-taiwan-march-2026, taiwan-ev-charging-strategy, taiwan-ev-charging-upower, taiwan-evalue-640kw-charger, taiwan-ev-electrification-progress-2026]
-updated: 2026-10-14
+sources: [tesla-taiwan-march-2026, taiwan-ev-charging-strategy, taiwan-ev-charging-upower, taiwan-evalue-640kw-charger, taiwan-ev-electrification-progress-2026, ev-news-2026-10-27-digitimes]
+updated: 2026-10-27
 ---
 
 # 台灣 EV 市場
@@ -71,3 +71,9 @@ updated: 2026-10-14
 **觀察**：Tesla全年在台銷量是否創新高；美國關稅2027年初定案後的進口車型變化。
 
 - 參見：[[sources/ev-news-2026-10-12-14-digitimes]] | [[sources/ev-news-2026-10-14-bus-digest]] | [[entities/Tesla]]
+
+## 2026年1~9月電動車31,923輛、占10.4%（2026-10）
+
+保有量約13萬輛（2025年底）→預估17.5萬輛（2026年底）；豪華車級距電動車滲透率約三分之一。
+
+- 參見：[[sources/ev-news-2026-10-27-digitimes]]

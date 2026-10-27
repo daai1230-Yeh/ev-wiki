@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [lges-bmw-46series-order, ev-news-2026-06-30-07-01, ev-news-2026-07-10-electrive-batch, ev-news-2026-07-12-13-electrive, ev-news-2026-07-24-27-electrive-en, ev-news-2026-07-29-31-digitimes, ev-news-2026-07-28-30-electrive-en, ev-news-2026-08-27-29-electrive-en, ev-news-2026-09-18-electrive-en, ev-news-2026-09-22-electrive-en, ev-news-2026-09-22-digitimes, ev-news-2026-09-24-electrive-en, ev-news-2026-09-30-electrive-en, ev-news-2026-10-01-electrive-en, ev-news-2026-10-02-electrive-en, ev-news-2026-10-05-electrive-en, ev-news-2026-10-04-digest]
-updated: 2026-10-14
+sources: [lges-bmw-46series-order, ev-news-2026-06-30-07-01, ev-news-2026-07-10-electrive-batch, ev-news-2026-07-12-13-electrive, ev-news-2026-07-24-27-electrive-en, ev-news-2026-07-29-31-digitimes, ev-news-2026-07-28-30-electrive-en, ev-news-2026-08-27-29-electrive-en, ev-news-2026-09-18-electrive-en, ev-news-2026-09-22-electrive-en, ev-news-2026-09-22-digitimes, ev-news-2026-09-24-electrive-en, ev-news-2026-09-30-electrive-en, ev-news-2026-10-01-electrive-en, ev-news-2026-10-02-electrive-en, ev-news-2026-10-05-electrive-en, ev-news-2026-10-04-digest, ev-news-2026-10-27-digitimes]
+updated: 2026-10-27
 ---
 
 # BMW（寶馬）
@@ -190,3 +190,9 @@ BMW Irlbach-Straßkirchen電池廠（約10億歐元）量產第六代高壓電�
 **觀察**：中國版iX3 11月上市後的中國銷量。
 
 - 參見：[[sources/ev-news-2026-10-13-14-electrive-en]] | [[concepts/歐洲EV市場]]
+
+## 美國BEV榜第11（2026-10）
+
+BMW美國製造以燃油／混動為主，本土化BEV安排年底或2027年；為U-POWER獨家充電夥伴。
+
+- 參見：[[sources/ev-news-2026-10-27-digitimes]]

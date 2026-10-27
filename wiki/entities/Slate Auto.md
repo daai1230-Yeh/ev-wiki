@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [ev-news-2026-06-25, ev-news-2026-07-02, ev-news-2026-07-14-16-insideevs]
-updated: 2026-07-16
+sources: [ev-news-2026-06-25, ev-news-2026-07-02, ev-news-2026-07-14-16-insideevs, ev-news-2026-10-27-insideevs]
+updated: 2026-10-27
 ---
 
 # Slate Auto
@@ -61,3 +61,9 @@ Slate Auto 確認**無計劃將皮卡在加拿大銷售**，主因加拿大 25% 
 - [[countries/美國]]
 - [[sources/ev-news-2026-06-25]]
 - [[sources/ev-news-2026-07-02]]
+
+## 早期試駕：舒適、動力足、仍有粗糙處（2026-10）
+
+單馬達181匹、65kWh LFP、宣稱205英里、20-80%約30分鐘，起價24,950美元。
+
+- 參見：[[sources/ev-news-2026-10-27-insideevs]]
