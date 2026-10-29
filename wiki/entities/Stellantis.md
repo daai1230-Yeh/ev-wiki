@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [stellantis-leapmotor-canada-rejected, us-ev-battery-demand-mismatch, europe-battery-capacity-cuts, stellantis-opel-leapmotor-suv, opel-peugeot-long-range-delay, ev-news-2026-10-02-digitimes, ev-news-2026-10-08-digitimes, ev-news-2026-10-15-electrive-en, ev-news-2026-10-16-electrive-en, ev-news-2026-10-19-electrive-en, ev-news-2026-10-27-digitimes, ev-news-2026-10-27-electrive-en]
-updated: 2026-10-27
+sources: [stellantis-leapmotor-canada-rejected, us-ev-battery-demand-mismatch, europe-battery-capacity-cuts, stellantis-opel-leapmotor-suv, opel-peugeot-long-range-delay, ev-news-2026-10-02-digitimes, ev-news-2026-10-08-digitimes, ev-news-2026-10-15-electrive-en, ev-news-2026-10-16-electrive-en, ev-news-2026-10-19-electrive-en, ev-news-2026-10-27-digitimes, ev-news-2026-10-27-electrive-en, ev-news-2026-10-29-electrive-en]
+updated: 2026-10-29
 ---
 
 # 斯特蘭蒂斯（Stellantis）
@@ -95,3 +95,9 @@ Astra Start配備等級降價1,900歐元，取消熱泵；Start配備擴及Front
 Bolt與Pony.ai及Stellantis合作；CAM創新排名第10。
 
 - 參見：[[sources/ev-news-2026-10-27-digitimes]] | [[sources/ev-news-2026-10-27-electrive-en]]
+
+## E-Cars家族與Opel Agila傳聞（2026-10）
+
+> **結論**：Stellantis E-Cars（Citroën Duck、Fiat Koala，2028年、約1.5萬歐元）之後，Opel可能推出Agila，未獲證實。
+
+- 參見：[[sources/ev-news-2026-10-29-electrive-en]] | [[concepts/歐洲EV市場]]

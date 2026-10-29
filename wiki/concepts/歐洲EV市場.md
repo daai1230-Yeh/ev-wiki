@@ -1,7 +1,7 @@
 ---
 tags: [concept]
-sources: [cupra-raval-launch, vw-id4-id5-battery-update, mgs6-ev-first-drive, opel-peugeot-long-range-delay, europe-battery-capacity-cuts, byd-denza-europe-debut, germany-ev-incentive-2026, vw-id3-neo-premiere, honda-eny1-withdrawal-europe, nissan-chery-sunderland-plant, acea-eu-ev-q1-2026, vw-id-polo-launch, polestar-3-800v-upgrade, audi-q4-etron-facelift-2026, gwm-ora03-uk-exit, netherlands-ev-scrappage-2026, porsche-cayenne-coupe-electric, uk-ev-2million-2026, vw-gamechanger-production, zeekr-x-2026-europe, morrow-batteries-insolvency, citroen-china-ev-strategy-2026, jpmorgan-china-ev-europe-2028, eu-iaa-japan-auto-protest-2026, bmw-ix3-neue-klasse-2026, volvo-ex60-production-2026, audi-a2-etron-testing-2026, kia-ev2-first-drive-2026, stellantis-fastlane-2030, nordic-ev-april-2026, europe-v2g-bidirectional-2026, tesla-fsd-eu-expansion-2026, china-ev-europe-factory-takeover-2026, europe-ev-market-may2026, eu-battery-tariff-2027-delay-2026, citroen-15k-electric-2cv-2026, uk-zev-mandate-relaxation-2026, eu-automotive-package-2035-2026, vwcv-id-buzz-2026-update, opel-formula-e-gse27fe-2026, ev-news-2026-09-20-digest, ev-news-2026-09-18-electrive-en, ev-news-2026-09-22-digitimes, ev-news-2026-09-26-electrive-en, ev-news-2026-09-23-electrive-en, ev-news-2026-09-26-digest, ev-news-2026-10-05-electrive-en, ev-news-2026-10-06-electrive-en, ev-news-2026-10-05-digitimes, ev-news-2026-10-08-digitimes, ev-news-2026-10-10-electrive-en, ev-news-2026-10-12-digest, ev-news-2026-10-15-electrive-en, ev-news-2026-10-16-electrive-en, ev-news-2026-10-19-electrive-en, ev-news-2026-10-20-digest, ev-news-2026-10-20-bus-digest, ev-news-2026-10-27-electrive-en, ev-news-2026-10-27-digitimes]
-updated: 2026-10-27
+sources: [cupra-raval-launch, vw-id4-id5-battery-update, mgs6-ev-first-drive, opel-peugeot-long-range-delay, europe-battery-capacity-cuts, byd-denza-europe-debut, germany-ev-incentive-2026, vw-id3-neo-premiere, honda-eny1-withdrawal-europe, nissan-chery-sunderland-plant, acea-eu-ev-q1-2026, vw-id-polo-launch, polestar-3-800v-upgrade, audi-q4-etron-facelift-2026, gwm-ora03-uk-exit, netherlands-ev-scrappage-2026, porsche-cayenne-coupe-electric, uk-ev-2million-2026, vw-gamechanger-production, zeekr-x-2026-europe, morrow-batteries-insolvency, citroen-china-ev-strategy-2026, jpmorgan-china-ev-europe-2028, eu-iaa-japan-auto-protest-2026, bmw-ix3-neue-klasse-2026, volvo-ex60-production-2026, audi-a2-etron-testing-2026, kia-ev2-first-drive-2026, stellantis-fastlane-2030, nordic-ev-april-2026, europe-v2g-bidirectional-2026, tesla-fsd-eu-expansion-2026, china-ev-europe-factory-takeover-2026, europe-ev-market-may2026, eu-battery-tariff-2027-delay-2026, citroen-15k-electric-2cv-2026, uk-zev-mandate-relaxation-2026, eu-automotive-package-2035-2026, vwcv-id-buzz-2026-update, opel-formula-e-gse27fe-2026, ev-news-2026-09-20-digest, ev-news-2026-09-18-electrive-en, ev-news-2026-09-22-digitimes, ev-news-2026-09-26-electrive-en, ev-news-2026-09-23-electrive-en, ev-news-2026-09-26-digest, ev-news-2026-10-05-electrive-en, ev-news-2026-10-06-electrive-en, ev-news-2026-10-05-digitimes, ev-news-2026-10-08-digitimes, ev-news-2026-10-10-electrive-en, ev-news-2026-10-12-digest, ev-news-2026-10-15-electrive-en, ev-news-2026-10-16-electrive-en, ev-news-2026-10-19-electrive-en, ev-news-2026-10-20-digest, ev-news-2026-10-20-bus-digest, ev-news-2026-10-27-electrive-en, ev-news-2026-10-27-digitimes, ev-news-2026-10-29-electrive-en, ev-news-2026-10-29-insideevs]
+updated: 2026-10-29
 ---
 
 # 歐洲 EV 市場
@@ -729,3 +729,17 @@ IAA草案要求電動車70%歐洲在地動力系統零組件才享補助、電�
 **觀察**：Volvo 2027年大型平價純電車、Bolt×Lucid 2027年馬德里自駕資料蒐集。
 
 - 參見：[[sources/ev-news-2026-10-27-electrive-en]] | [[sources/ev-news-2026-10-27-digitimes]]
+
+## 歐洲政策拉鋸：企業車隊配額降為願景、2035年放寬至95%；Euro 7與Polestar 2、福斯／奧迪召回（2026-10）
+
+> **結論**：歐洲議會中間派傾向把企業車隊電動化2030年配額降為無罰則的「願景目標」，並將2035年CO₂減排由100%放寬至95%（最低87.5%），ICCT警告恐流失最多18.5萬個工作；政策不確定性與電池品質事件同步升高。
+
+**主因**：
+- 政策：EVP、S&D、Renew同意企業車隊配額非約束；環境委員會11月初表決、全會預計12月 → 若通過，2035年後仍留有燃油與混動空間；ICCT三情境（現行標準／政策措施／延後五年）顯示放寬將壓抑電動車製造、電池、回收與充電的就業成長。
+- 產品：Polestar 2（路橋停產，累計逾20萬輛；挪威逾16,000輛）進入新舊交替，2026上半年銷量僅+0.4%至30,423輛、營收-約4%，全年成長預測下修至低至中個位數，約80%銷量來自歐洲；Stellantis E-Cars（2028年、約1.5萬歐元）可能延伸出Opel Agila，未證實。
+- 品質：奧迪於美國召回9,048輛Q4 e-tron（匈牙利電芯批次），KBA列全球12,734輛，與福斯集團72,700輛召回同源，需持續追蹤永久修復方案。
+- 中國二手車避關稅：對歐二手車出口年增逾280%、前9月7,900輛，歐盟新設35萬輛中國PHEV進口上限使二手車成為規避路徑。
+
+**觀察**：歐洲議會11月環境委員會與12月全會表決結果；Polestar新一代2027年初車型公布；KBA與NHTSA召回修復方案。
+
+- 參見：[[sources/ev-news-2026-10-29-electrive-en]] | [[sources/ev-news-2026-10-29-insideevs]] | [[concepts/中國EV出海策略]] | [[entities/Polestar]] | [[entities/Stellantis]] | [[countries/歐洲]] | [[countries/英國]]

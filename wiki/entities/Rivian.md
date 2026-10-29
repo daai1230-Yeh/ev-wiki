@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [rivian-r2-range-specs, rivian-service-network-2026, rivian-lidar-china-partner-2026, ev-news-2026-07-03-08, ev-news-2026-07-24-28-electrive-en, ev-news-2026-08-03-06-electrive-en, ev-news-2026-08-07-10-electrive-en, ev-news-2026-08-27-29-electrive-en, ev-news-2026-09-18-electrive-en, ev-news-2026-10-01-electrive-en, ev-news-2026-10-09-electrive-en, ev-news-2026-10-27-digitimes, ev-news-2026-10-27-digest]
-updated: 2026-10-27
+sources: [rivian-r2-range-specs, rivian-service-network-2026, rivian-lidar-china-partner-2026, ev-news-2026-07-03-08, ev-news-2026-07-24-28-electrive-en, ev-news-2026-08-03-06-electrive-en, ev-news-2026-08-07-10-electrive-en, ev-news-2026-08-27-29-electrive-en, ev-news-2026-09-18-electrive-en, ev-news-2026-10-01-electrive-en, ev-news-2026-10-09-electrive-en, ev-news-2026-10-27-digitimes, ev-news-2026-10-27-digest, ev-news-2026-10-29-insideevs]
+updated: 2026-10-29
 ---
 
 # Rivian
@@ -162,3 +162,13 @@ Rivian取消R2座椅椅背通風（僅保留座墊），稱因噪音；社群出
 > **結論**：Scaringe稱自主電子架構僅需少量電腦，中國以外只有Rivian與Tesla掌握，故獲福斯58億美元合作；但福斯傳考慮把與小鵬的CEA導入歐洲，可能影響合作；8月美國BEV榜Rivian第二（R2上市年增33%）。
 
 - 參見：[[sources/ev-news-2026-10-27-digitimes]] | [[sources/ev-news-2026-10-27-digest]]
+
+## RCV Q3售8,469輛（2026-10）
+
+> **結論**：Rivian商用廂型車RCV Q3售8,469輛（年增220.9%），為公司最暢銷車款，超過R1S＋R1T合計7,314輛，居美國Q3電動車第4。
+
+**主因**：Amazon 10萬輛訂單已交約5萬輛，R2上市致R1S／R1T下滑約30%、R2售3,456輛；RCV起價79,900美元。
+
+**觀察**：RCV雙馬達AWD與長續航版本；福斯軟體合作是否被削弱。
+
+- 參見：[[sources/ev-news-2026-10-29-insideevs]] | [[concepts/電動商用車]] | [[entities/Volkswagen]]

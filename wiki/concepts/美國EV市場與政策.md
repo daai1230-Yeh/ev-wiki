@@ -1,7 +1,7 @@
 ---
 tags: [concept]
-sources: [gm-ford-q1-2026-sales, us-ev-battery-demand-mismatch, rivian-r2-range-specs, vw-id4-chattanooga-stop, tesla-25k-ev-us-price-parity, slate-auto-ev-pickup, ford-ev-restructure-doug-field, vw-id4-us-writedown, tesla-q1-2026-earnings, gm-ev-delay-detroit-three, nissan-mississippi-ev-abandonment, honda-canada-ev-freeze-2026, tesla-model-s-final-production, mazda-ev-delay-2029, ford-catl-michigan-factory-2026, honda-9b-loss-hybrid-pivot-2026, tesla-model-y-price-bump-2026, congress-ev-annual-fee-2026, rivian-r2-deliveries-2026, chevy-bolt-2027-review, 駐外新聞-美國-2025, ev-news-2026-09-18-digest, ev-news-2026-09-20-digest, ev-news-2026-09-22-electrive-en, ev-news-2026-09-26-electrive-en, ev-news-2026-09-28-digest, ev-news-2026-10-05-digitimes, ev-news-2026-10-07-electrive-en, ev-news-2026-10-22-insideevs, ev-news-2026-10-27-digitimes, ev-news-2026-10-27-electrive-en, ev-news-2026-10-27-insideevs]
-updated: 2026-10-27
+sources: [gm-ford-q1-2026-sales, us-ev-battery-demand-mismatch, rivian-r2-range-specs, vw-id4-chattanooga-stop, tesla-25k-ev-us-price-parity, slate-auto-ev-pickup, ford-ev-restructure-doug-field, vw-id4-us-writedown, tesla-q1-2026-earnings, gm-ev-delay-detroit-three, nissan-mississippi-ev-abandonment, honda-canada-ev-freeze-2026, tesla-model-s-final-production, mazda-ev-delay-2029, ford-catl-michigan-factory-2026, honda-9b-loss-hybrid-pivot-2026, tesla-model-y-price-bump-2026, congress-ev-annual-fee-2026, rivian-r2-deliveries-2026, chevy-bolt-2027-review, 駐外新聞-美國-2025, ev-news-2026-09-18-digest, ev-news-2026-09-20-digest, ev-news-2026-09-22-electrive-en, ev-news-2026-09-26-electrive-en, ev-news-2026-09-28-digest, ev-news-2026-10-05-digitimes, ev-news-2026-10-07-electrive-en, ev-news-2026-10-22-insideevs, ev-news-2026-10-27-digitimes, ev-news-2026-10-27-electrive-en, ev-news-2026-10-27-insideevs, ev-news-2026-10-29-insideevs]
+updated: 2026-10-29
 ---
 
 # 美國 EV 市場與政策
@@ -440,3 +440,16 @@ Bolt現金價28,995美元仍最低，但EV3扣1,500美元優惠後29,885美元�
 Q3美國BEV銷量年減39.5%（Cox／KBB）；德系車8月BEV榜名次落後；GM第四代平台押注「市場準備好時」。
 
 - 參見：[[sources/ev-news-2026-10-27-digitimes]] | [[sources/ev-news-2026-10-27-electrive-en]] | [[sources/ev-news-2026-10-27-insideevs]]
+
+## 混動回潮：GM Lansing混動SUV；Ford Fathom V2H；Rivian（2026-10）
+
+> **結論**：美國Q3混合動力占新車16%、純電約6%，GM承認路線調整，計畫在Lansing廠生產Traverse／Enclave／Acadia混動版，本土車廠從「直接跳純電」轉為多動力並行。
+
+**主因**：
+- GM：目前僅Corvette E-Ray一款混動，落後Ford與日韓；混動在EV失速下由約2%大幅攀升。
+- Ford Fathom（約3萬美元，2027年）內建逆變器，家用備援硬體約2,000美元，僅F-150 Lightning（5,205美元）的約40%；但可能需額外導管與配電盤升級，實際成本待核對。
+- Rivian：商用廂型車與R2支撐成長（見Rivian頁）。
+
+**觀察**：GM混動命名與上市時程；Fathom V2H上市後實際安裝費。
+
+- 參見：[[sources/ev-news-2026-10-29-insideevs]] | [[entities/通用汽車]] | [[entities/福特]] | [[entities/Rivian]] | [[countries/美國]]

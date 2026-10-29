@@ -1,7 +1,7 @@
 ---
 tags: [concept]
-sources: [electric-bus-market-2025-global, delhi-ev-policy-2026, vinfast-india-investment, india-ev-commercial-update-2026, india-tata-jsw-battery-rd-2026, mahindra-ev-expansion-2026, ather-energy-el-platform-2026, india-2w-market-fy27-bifurcation-2026, india-1bn-ev-commercial-incentives-2026, china-catl-battery-tech-export-2026, tesla-india-factory-exit-2026, honda-india-ev-hybrid-2026, tata-stellantis-jeep-india-2026, india-electric-bus-market-2025, tata-chery-avinya-platform-2026, delhi-ev-7year-high-2026, toptec-india-battery-equipment-2026, ev-news-2026-09-18-electrive-en, ev-news-2026-09-20-india, ev-news-2026-09-21-india, ev-news-2026-09-24-electrive-en, ev-news-2026-09-24-digest, ev-news-2026-10-12-digest, ev-news-2026-10-15-digest, ev-news-2026-10-19-digest]
-updated: 2026-10-19
+sources: [electric-bus-market-2025-global, delhi-ev-policy-2026, vinfast-india-investment, india-ev-commercial-update-2026, india-tata-jsw-battery-rd-2026, mahindra-ev-expansion-2026, ather-energy-el-platform-2026, india-2w-market-fy27-bifurcation-2026, india-1bn-ev-commercial-incentives-2026, china-catl-battery-tech-export-2026, tesla-india-factory-exit-2026, honda-india-ev-hybrid-2026, tata-stellantis-jeep-india-2026, india-electric-bus-market-2025, tata-chery-avinya-platform-2026, delhi-ev-7year-high-2026, toptec-india-battery-equipment-2026, ev-news-2026-09-18-electrive-en, ev-news-2026-09-20-india, ev-news-2026-09-21-india, ev-news-2026-09-24-electrive-en, ev-news-2026-09-24-digest, ev-news-2026-10-12-digest, ev-news-2026-10-15-digest, ev-news-2026-10-19-digest, ev-news-2026-10-29-electrive-en]
+updated: 2026-10-29
 ---
 
 # 印度 EV 市場
@@ -343,3 +343,13 @@ JSW集團子公司發表電動商用車新品牌Ampstar，馬哈拉施特拉邦9
 2025年現代與起亞在印度銷量852,164輛、市占18.7%；浦納廠投產後年產能140萬輛，將印度定位為新興市場生產與出口樞紐。
 
 - 參見：[[sources/ev-news-2026-10-19-digest]] | [[entities/現代汽車]]
+
+## Ultraviolette 100V架構與Amazon電動卡車（2026-10）
+
+> **結論**：印度電動兩輪由低價通勤走向高性能與出口——Ultraviolette推VX-100架構與X-47 Venom（起價30萬盧比，約2,800歐元），Hosur新廠規劃25萬輛。
+
+**主因**：11 kWh電池為印度二輪最大、碳化矽控制器小型化；歐洲F77累計僅約500–700輛，規模仍小；商用端Amazon導入Tata 3,000輛電動卡車 → 印度電動化由兩輪與商用雙線推進。
+
+**觀察**：X-47歐洲2027年初交車；Hosur廠進度。
+
+- 參見：[[sources/ev-news-2026-10-29-electrive-en]] | [[concepts/電動卡車市場]] | [[countries/印度]]

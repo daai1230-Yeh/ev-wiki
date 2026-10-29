@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [ev-news-2026-06-29, ev-news-2026-09-04-electrive-en, ev-news-2026-09-07-08-electrive-en, ev-news-2026-09-14-digitimes, ev-news-2026-10-05-electrive-en, ev-news-2026-10-09-electrive-en]
-updated: 2026-10-12
+sources: [ev-news-2026-06-29, ev-news-2026-09-04-electrive-en, ev-news-2026-09-07-08-electrive-en, ev-news-2026-09-14-digitimes, ev-news-2026-10-05-electrive-en, ev-news-2026-10-09-electrive-en, ev-news-2026-10-29-electrive-en]
+updated: 2026-10-29
 ---
 
 # Polestar
@@ -104,3 +104,13 @@ Polestar歐洲推出Plus（德國7.99歐元/月、15%折扣）與Pro（14.99歐�
 Q3交付年增1%、扣美國年減8%；美國交付年增124%至2,160輛（遭商務部聯網車規定禁售後大幅折扣），Volvo獲豁免而Polestar遭拒；Polestar 5開始交車、新Polestar 4 SUV Q4出貨。
 
 - 參見：[[sources/ev-news-2026-10-09-electrive-en]] | [[concepts/北美EV關稅與政策]] | [[countries/美國]]
+
+## Polestar 2停產與下修預測（2026-10）
+
+> **結論**：Polestar 2在路橋停產（累計逾20萬輛），新一代預計2027年初；2026年全年成長預測下修為低至中個位數。
+
+**主因**：上半年銷量+0.4%至30,423輛、營收約-4%至13.6億美元；MY2027起因美國Connected Vehicle Rule無法在美銷售新車，約80%銷量在歐洲。
+
+**觀察**：新一代車型與產地公布；美國業務調整。
+
+- 參見：[[sources/ev-news-2026-10-29-electrive-en]] | [[concepts/歐洲EV市場]]

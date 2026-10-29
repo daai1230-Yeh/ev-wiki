@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [foxconn-mitsubishi-fuso-electric-bus]
-updated: 2026-04-08
+sources: [foxconn-mitsubishi-fuso-electric-bus, ev-news-2026-10-29-digest]
+updated: 2026-10-29
 ---
 
 # 三菱 FUSO 卡客車
@@ -23,3 +23,13 @@ updated: 2026-04-08
 - [[entities/比亞迪]]
 - [[concepts/車輛類型/電動巴士市場]]
 - [[sources/foxconn-mitsubishi-fuso-electric-bus]]
+
+## FUSO BUS 11月成立（2026-10）
+
+> **結論**：三菱Fuso與鴻海各50%的FUSO BUS 2026-11-01成立，富山廠生產電動與柴油巴士，2027年起接受電動巴士訂單。
+
+**主因**：Fuso已與日野整合為ARCHION（2026-04），巴士事業移交新公司；參考Foxtron Model T／U。
+
+**觀察**：2027年訂單與價格。
+
+- 參見：[[sources/ev-news-2026-10-29-digest]] | [[concepts/電動巴士市場]] | [[entities/鴻海]]

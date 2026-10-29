@@ -1,7 +1,7 @@
 ---
 tags: [concept]
-sources: [china-ev-market-consolidation, chery-qq3-vs-byd-seagull, china-ev-market-q1-2026, mercedes-benz-china-q1-2026, china-nev-april-involution-2026, china-nev-april-2026, xpeng-physical-ai-pivot-2026, ev-news-digest-jun1-10-2026, china-ev-market-slowdown-jun2026, xiaomi-su7-2026-update, byd-great-han-2026, ev-news-2026-09-21-digitimes, ev-news-2026-09-18-digitimes, ev-news-2026-09-20-digest, ev-news-2026-09-22-electrive-en, ev-news-2026-09-22-digitimes, ev-news-2026-09-23-digitimes, ev-news-2026-09-24-digest, ev-news-2026-09-24-digitimes, ev-news-2026-10-01-digitimes, ev-news-2026-10-02-digitimes, ev-news-2026-10-01-electrive-en, ev-news-2026-10-05-digitimes, ev-news-2026-10-12-digitimes-2, ev-news-2026-10-19-electrive-en, ev-news-2026-10-20-electrive-en, ev-news-2026-10-22-digitimes, ev-news-2026-10-27-digest, ev-news-2026-10-27-electrive-en]
-updated: 2026-10-27
+sources: [china-ev-market-consolidation, chery-qq3-vs-byd-seagull, china-ev-market-q1-2026, mercedes-benz-china-q1-2026, china-nev-april-involution-2026, china-nev-april-2026, xpeng-physical-ai-pivot-2026, ev-news-digest-jun1-10-2026, china-ev-market-slowdown-jun2026, xiaomi-su7-2026-update, byd-great-han-2026, ev-news-2026-09-21-digitimes, ev-news-2026-09-18-digitimes, ev-news-2026-09-20-digest, ev-news-2026-09-22-electrive-en, ev-news-2026-09-22-digitimes, ev-news-2026-09-23-digitimes, ev-news-2026-09-24-digest, ev-news-2026-09-24-digitimes, ev-news-2026-10-01-digitimes, ev-news-2026-10-02-digitimes, ev-news-2026-10-01-electrive-en, ev-news-2026-10-05-digitimes, ev-news-2026-10-12-digitimes-2, ev-news-2026-10-19-electrive-en, ev-news-2026-10-20-electrive-en, ev-news-2026-10-22-digitimes, ev-news-2026-10-27-digest, ev-news-2026-10-27-electrive-en, ev-news-2026-10-29-electrive-en, ev-news-2026-10-29-digitimes]
+updated: 2026-10-29
 ---
 
 # 中國 EV 市場競爭格局
@@ -278,3 +278,16 @@ DIGITIMES Research：2026上半全球電動車約980萬輛（年增2%），前15
 福斯ID. UNYX 08僅達目標7.4%；CAM創新排名前三為吉利、福斯、比亞迪。
 
 - 參見：[[sources/ev-news-2026-10-27-digest]] | [[sources/ev-news-2026-10-27-electrive-en]]
+
+## 比亞迪仰望「鼎曜」衝擊超豪華；奧迪中國雙品牌（2026-10）
+
+> **結論**：比亞迪仰望預告超豪華轎車「鼎曜」（預估售價逾人民幣200萬元），但仰望1–9月僅售3,288輛，品牌力是否能撐起200萬元價位仍待驗證。
+
+**主因**：
+- 規模落差：仰望9月389輛（U8系列252輛、U7 136輛、U9超跑1輛），對比比亞迪主力品牌規模差距極大 → 鼎曜屬品牌形象工程而非銷量來源。
+- 技術賣點：璇璣A3晶片（4奈米、3顆協同2,100+ TOPS）、易四方四馬達、雲輦底盤與閃充；固態電池為市場推測、比亞迪未證實。
+- 奧迪中國：上汽奧迪專注AUDI（無環）電動品牌，一汽奧迪承接四環車款，新總裁Jeff Zhang（前奇瑞）11月接任 → 外資高端品牌在中國面對本土高階電動車壓力。
+
+**觀察**：鼎曜阿聯亮相後的規格與定價；仰望10–12月月銷量；AUDI E5／E7X銷量表現。
+
+- 參見：[[sources/ev-news-2026-10-29-electrive-en]] | [[sources/ev-news-2026-10-29-digitimes]] | [[entities/比亞迪]] | [[entities/Audi]] | [[countries/中國]]

@@ -1,7 +1,7 @@
 ---
 tags: [concept]
-sources: [thailand-ev-market-2026, china-autonomous-driving-overseas, foxconn-mitsubishi-fuso-electric-bus, byd-malaysia-factory-negotiation, byd-malaysia-factory-update-2026, malaysia-cbv-ev-regulation-2026, gwm-ora5-thailand-2026, geely-thailand-pickup-2026, mitsubishi-motors-middle-east-routes-2026, mitsubishi-hev-japan-2028, lges-honda-vietnam-bss-2026, volvo-ex30-thailand-fire-2026, hanoi-1000-bss-2026, ev-news-digest-jun1-10-2026, ev-news-2026-09-18-digest, ev-news-2026-09-18-digitimes, ev-news-2026-09-19-electrive-en, ev-news-2026-09-22-digest, ev-news-2026-09-22-electrive-en, ev-news-2026-09-28-digest, ev-news-2026-09-29-digitimes, ev-news-2026-10-01-digitimes, ev-news-2026-10-06-digest, ev-news-2026-10-22-digest, ev-news-2026-10-22-electrive-en, ev-news-2026-10-27-electrive-en]
-updated: 2026-10-27
+sources: [thailand-ev-market-2026, china-autonomous-driving-overseas, foxconn-mitsubishi-fuso-electric-bus, byd-malaysia-factory-negotiation, byd-malaysia-factory-update-2026, malaysia-cbv-ev-regulation-2026, gwm-ora5-thailand-2026, geely-thailand-pickup-2026, mitsubishi-motors-middle-east-routes-2026, mitsubishi-hev-japan-2028, lges-honda-vietnam-bss-2026, volvo-ex30-thailand-fire-2026, hanoi-1000-bss-2026, ev-news-digest-jun1-10-2026, ev-news-2026-09-18-digest, ev-news-2026-09-18-digitimes, ev-news-2026-09-19-electrive-en, ev-news-2026-09-22-digest, ev-news-2026-09-22-electrive-en, ev-news-2026-09-28-digest, ev-news-2026-09-29-digitimes, ev-news-2026-10-01-digitimes, ev-news-2026-10-06-digest, ev-news-2026-10-22-digest, ev-news-2026-10-22-electrive-en, ev-news-2026-10-27-electrive-en, ev-news-2026-10-29-electrive-en]
+updated: 2026-10-29
 ---
 
 # 東南亞 EV 市場
@@ -255,3 +255,13 @@ updated: 2026-10-27
 ## 馬來西亞CKD門檻（2026-10）
 
 - 參見：[[sources/ev-news-2026-10-27-electrive-en]]
+
+## 峇里電巴與泰國氫能皮卡（2026-10）
+
+> **結論**：東南亞電動化呈現兩種模式：印尼以ODA導入公共電巴、泰國以出口導向吸引豐田氫能產線。
+
+**主因**：現代汽車County EV 11輛峇里交付，另規劃泗水、雅加達；泰國BoI核准豐田Hilux FCEV（年產3,000輛、2027年12月投產）。
+
+**觀察**：印尼電巴標案；泰國加氫站布局。
+
+- 參見：[[sources/ev-news-2026-10-29-electrive-en]] | [[concepts/電動巴士市場]] | [[concepts/氫燃料電池商用車]] | [[countries/東南亞]]

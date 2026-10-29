@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [samsung-sdi-mercedes-battery-deal, samsung-sdi-mercedes-confirmed-deal, samsung-sdi-solid-state-production-2026, ev-news-2026-07-03-08, ev-news-2026-07-14-16-digitimes, ev-news-2026-09-04-digitimes, ev-news-2026-09-24-digitimes, ev-news-2026-10-02-digitimes, ev-news-2026-10-05-electrive-en, ev-news-2026-10-07-digitimes, ev-news-2026-10-15-digitimes, ev-news-2026-10-27-digitimes]
-updated: 2026-10-27
+sources: [samsung-sdi-mercedes-battery-deal, samsung-sdi-mercedes-confirmed-deal, samsung-sdi-solid-state-production-2026, ev-news-2026-07-03-08, ev-news-2026-07-14-16-digitimes, ev-news-2026-09-04-digitimes, ev-news-2026-09-24-digitimes, ev-news-2026-10-02-digitimes, ev-news-2026-10-05-electrive-en, ev-news-2026-10-07-digitimes, ev-news-2026-10-15-digitimes, ev-news-2026-10-27-digitimes, ev-news-2026-10-29-digitimes]
+updated: 2026-10-29
 ---
 
 # 三星 SDI（Samsung SDI）
@@ -122,3 +122,9 @@ Mercedes今年4月與三星SDI簽首份長期電池供應合約，並同步引�
 ## 馬來西亞2170 LFP（BBU）目標2027Q2量產（2026-10）
 
 - 參見：[[sources/ev-news-2026-10-27-digitimes]]
+
+## 美國ESS追加1GWh（2026-10）
+
+> **結論**：三星SDI與AOP簽1GWh追加合約（累計1.5GWh），NCA方形SBB 1.7由印第安納州StarPlus廠生產。
+
+- 參見：[[sources/ev-news-2026-10-29-digitimes]] | [[concepts/儲能市場]]

@@ -1,6 +1,6 @@
 # Wiki Index
 
-Last updated: 2026-10-27 | Pages: 497 | Sources: 578
+Last updated: 2026-10-29 | Pages: 499 | Sources: 582
 
 ---
 
@@ -97,6 +97,10 @@ Last updated: 2026-10-27 | Pages: 497 | Sources: 578
 - [[sources/ev-news-2026-10-12-digest]] — 中文財經批次8篇：陸混動車輸歐恐砍半、豐田泰國殘值貸款、現代印度1,000萬輛、華德電巴、桃園A21、雙層客運補助縮水、Starlink印度。(2026-10-12)
 - [[sources/ev-news-2026-10-12-digitimes-2]] — Digitimes CarTech補充2篇：豐田、廣汽、一汽三方協議正式簽署、麗升跨足充電樁（註：剪輯檔無單篇網址）。(2026-10-12)
 - [[sources/ev-news-2026-10-12-14-digitimes]] — Digitimes CarTech 9篇：中國新能源車出口退稅2027-04起由13%降至9%（含評析）、歐盟HEV／PHEV年35萬輛配額、LGES大進機械轉單與L&F LFP長約、台灣能管法帶動儲能、寰聖／桓鼎、裕日車估車市42萬輛（全數附原文網址）。(2026-10-14)
+- [[sources/ev-news-2026-10-29-electrive-en]] — electrive 24篇：奧迪中國雙品牌、EVP車隊配額降級與2035年95%、ICCT就業研究、SVOLT半固態量產、GWM保加利亞建廠、英國採Euro 7（含電池耐久）、VW L3／小鵬L4、奧迪召回9,048輛、Polestar 2停產。(2026-10-29)
+- [[sources/ev-news-2026-10-29-insideevs]] — InsideEVs 8篇：ChargePoint 750kW Express Solo、GM混動SUV、Ford Fathom V2H、GM談雷達、中國二手車繞歐盟關稅、Rivian RCV Q3售8,469輛、Allye二手電池快充。(2026-10-29)
+- [[sources/ev-news-2026-10-29-digitimes]] — Digitimes CarTech 7篇：三星SDI／LGES美歐ESS、哈曼蘇州ADAS、SpaceX×Tesla合併董事獨立性、比亞迪仰望鼎曜、福斯導入中國自駕、鴻海科技日（註：剪輯檔無單篇網址）。(2026-10-29)
+- [[sources/ev-news-2026-10-29-digest]] — BigGo財經1篇：三菱Fuso×鴻海FUSO BUS 11/1成立。(2026-10-29)
 - [[sources/ev-news-2026-10-27-digitimes-tesla]] — Digitimes 10篇：Tesla Q3、Cybercab、自研地圖、SpaceX合併評估、Roadster評析。(2026-10-27)
 - [[sources/ev-news-2026-10-27-digitimes]] — Digitimes 12篇：NVIDIA GTC Berlin、Waymo、LGES波蘭廠、日本補助打折、南韓國產電動車跌破5成。(2026-10-27)
 - [[sources/ev-news-2026-10-27-electrive-en]] — electrive 16篇：ACEA 9月BEV+72.9%、福斯召回、GM第四代平台、Volvo平價車、CAM排名。(2026-10-27)
@@ -609,6 +613,8 @@ Last updated: 2026-10-27 | Pages: 497 | Sources: 578
 ## Entities（實體）
 
 ### 電動乘用車廠
+- [[entities/Audi]] — 奧迪中國「兩品牌、兩夥伴」重組（上汽專攻AUDI、一汽承接四環）與美國Q4 e-tron召回9,048輛。
+- [[entities/長城汽車]] — 長城（GWM）首座歐洲廠落腳保加利亞Bahovitsa，年產5萬輛，目標2029年歐洲30萬輛。
 - [[entities/三菱汽車]] — 日本車廠，東南亞市場遭中國BEV品牌搶市（銷量年減8%），加碼投資泰國160億泰銖鎖定電動化SUV/皮卡出口基地。
 - [[entities/台灣智駕]] — 台灣自動駕駛新創，特殊封閉場景策略，日本鋼鐵廠 + 沖繩港口落地實績。
 - [[entities/蔚來]] — 中國高端 EV 品牌，自研晶片 55 萬顆出貨，推動去 NVIDIA 化垂直整合。

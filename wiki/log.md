@@ -2388,3 +2388,28 @@ Pages 375 → 406，Sources 315 → 346
 - Countries updated: [[countries/美國]], [[countries/台灣]], [[countries/德國]], [[countries/歐洲]], [[countries/中國]], [[countries/加拿大]], [[countries/日本]], [[countries/東南亞]], [[countries/韓國]], [[countries/澳洲]]
 - Key additions: Tesla Q3（車業-3%、資本支出下修至200億美元、2030年目標500萬輛）；SpaceX×Tesla合併評估（3.5兆美元）；ACEA 9月歐盟BEV+72.9%；福斯召回72,700輛與中國ID. UNYX 08僅達目標7.4%；GM第四代平台與LMR電池；日本2027年EV補助打6折；南韓進口電動車市占首度過半；乘聯分會預估2026年零售1,850萬輛。
 - 備註: Digitimes剪輯檔無單篇網址，已於來源頁註明；Tesla Q3淨利兩來源口徑不一（electrive 7.87億美元年減43%、Digitimes 17億美元年減4%），已並列待核對。
+
+## [2026-10-28] deliverable | 自駕公車_無安全員階段
+- 產出路徑：Claude ARTC/02-產業調研/02-Claude EV產業簡報/自駕公車_無安全員階段/（簡報 .pptx 14 頁＋逐字稿 .docx）
+- 範圍：全球 L4 自駕公車商轉（歐洲、日、韓、中、新）對照台灣定位；體裁：單題快報；配色：預設四色
+- 資料通道：知識庫 wiki＋WebSearch／WebFetch（electrive、Sustainable Bus、Korea Times、MM總研、國土交通白書、聯合報、中央社、自由時報、Yahoo汽車機車）
+- 核心發現：斯塔萬格 2026/5 歐洲首條無安全員公車（選定路段、40km/h）；日本 L4 11 台（2025）→1 萬台（2030 年度）；北市 4 輛（2027）→12 輛（2028 初），預算 11.01 億元
+- QA：版面渲染檢查完成；未使用 EV Volumes（無銷量數據）；待核：北市時程兩版本（6/22 vs 8/29）、中國 2025/7 辦法日期（虎嗅轉述）、桃機案為投訴指稱、ARTC L3 電巴自由時報連結未能抓取全文
+
+## [2026-10-28] deliverable | 國際電動巴士產業全集
+- 產出路徑：Claude code AI筆記/輸出/國際電動巴士產業全集/（簡報 .pptx 62 頁＋逐字稿 .docx；因 Claude ARTC 資料夾未連結而存於此）
+- 範圍：全球電動巴士一國一頁（中國、歐洲、北美、印度與亞太、新興市場、車廠與綜合判斷；不含台灣專章）；體裁：一國一頁快照；配色：預設四色
+- 資料通道：知識庫 wiki＋WebSearch／WebFetch；匯率 open.er-api.com（2026/10/27）
+- 核心發現：中國以外銷量由 1.55 萬增至 3.06 萬輛；印度 GCC 標案制放量（2025 年 4,441 輛）；韓國補助差異化使國產占比回升至 66%；美國聯邦轉向、州與城市接手
+- QA：版面渲染檢查完成、validate 通過；待核：拉美 7,706 vs 10,628 口徑、歐洲 2025 修正值、拉美／非洲「其他國合計」為差額推算、加拿大數據僅至 2023/9、網址僅保留已查證者
+
+## [2026-10-29] ingest | EV News 2026-10-28~29 批次（40篇原文，4個來源摘要頁）
+- Summary pages: [[sources/ev-news-2026-10-29-electrive-en]], [[sources/ev-news-2026-10-29-insideevs]], [[sources/ev-news-2026-10-29-digitimes]], [[sources/ev-news-2026-10-29-digest]]
+- Raw assets: raw/assets/2026-10-28-*.md、2026-10-29-*.md（40篇；10-13~10-27共10個標點／全形變體檔不重複 ingest，4個ev-speaking-practice .html非來源）
+- Pages updated (concepts): 充電基礎建設、儲能市場、電池技術路線、歐洲EV市場、中國EV出海策略、中國EV市場競爭格局、ADAS智駕系統、Robotaxi自動計程車、電動巴士市場、電動商用車、電動卡車市場、氫燃料電池商用車、美國EV市場與政策、印度EV市場、車用半導體供應鏈、東南亞EV市場
+- Pages updated (entities): Volkswagen、比亞迪、通用汽車、福特、Rivian、Polestar、Tesla、小鵬汽車、鴻海、三菱FUSO、現代汽車、豐田、LGES、三星SDI、Stellantis
+- Countries updated: [[countries/中國]], [[countries/歐洲]], [[countries/德國]], [[countries/英國]], [[countries/美國]], [[countries/印度]], [[countries/東南亞]], [[countries/日本]], [[countries/韓國]], [[countries/台灣]]
+- New pages created: [[entities/Audi]], [[entities/長城汽車]]
+- Key additions: 歐洲議會中間派將企業車隊2030配額降為願景目標、2035年CO₂減排95%（最低87.5%），ICCT警告最多流失18.5萬工作；SVOLT半固態提前量產；英國2027-11採Euro 7（電池5年／10萬km保有80%）；GWM保加利亞廠；奧迪美國召回9,048輛；Rivian RCV Q3 8,469輛超越R1S+R1T；三星SDI／LGES美歐ESS。
+- 備註: Digitimes剪輯檔無單篇網址，已於來源頁註明；Google Alerts／BigGo來源有URL；SVOLT客戶（Mini）、GM混動命名、Ford Fathom V2H實際安裝費、Polestar 2官方停產公告皆未證實，已標示待核對。
+
