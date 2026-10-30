@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [rivian-r2-range-specs, rivian-service-network-2026, rivian-lidar-china-partner-2026, ev-news-2026-07-03-08, ev-news-2026-07-24-28-electrive-en, ev-news-2026-08-03-06-electrive-en, ev-news-2026-08-07-10-electrive-en, ev-news-2026-08-27-29-electrive-en, ev-news-2026-09-18-electrive-en, ev-news-2026-10-01-electrive-en, ev-news-2026-10-09-electrive-en, ev-news-2026-10-27-digitimes, ev-news-2026-10-27-digest, ev-news-2026-10-29-insideevs]
-updated: 2026-10-29
+sources: [rivian-r2-range-specs, rivian-service-network-2026, rivian-lidar-china-partner-2026, ev-news-2026-07-03-08, ev-news-2026-07-24-28-electrive-en, ev-news-2026-08-03-06-electrive-en, ev-news-2026-08-07-10-electrive-en, ev-news-2026-08-27-29-electrive-en, ev-news-2026-09-18-electrive-en, ev-news-2026-10-01-electrive-en, ev-news-2026-10-09-electrive-en, ev-news-2026-10-27-digitimes, ev-news-2026-10-27-digest, ev-news-2026-10-29-insideevs, ev-news-2026-10-30-insideevs]
+updated: 2026-10-30
 ---
 
 # Rivian
@@ -172,3 +172,13 @@ Rivian取消R2座椅椅背通風（僅保留座墊），稱因噪音；社群出
 **觀察**：RCV雙馬達AWD與長續航版本；福斯軟體合作是否被削弱。
 
 - 參見：[[sources/ev-news-2026-10-29-insideevs]] | [[concepts/電動商用車]] | [[entities/Volkswagen]]
+
+## Q3：R2成最暢銷車款、上修交車預測（2026-10）
+
+> **結論**：R2上市數月即成最暢銷車款，Rivian把全年交車預測下限上調為67,000–70,000輛，Q3營收21億美元（+38%）、淨虧9.13億美元。
+
+**主因**：二班制擴產；軟體與服務6.05億美元（+45%，福斯合作）；2028年起供Uber最多50,000輛Robotaxi；Autonomy+預計年底前小範圍推出。
+
+**觀察**：Q4至少25,193輛交車；年底正毛利目標。
+
+- 參見：[[sources/ev-news-2026-10-30-insideevs]] | [[concepts/美國EV市場與政策]]

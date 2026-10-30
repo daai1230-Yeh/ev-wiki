@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [samsung-sdi-mercedes-battery-deal, samsung-sdi-mercedes-confirmed-deal, samsung-sdi-solid-state-production-2026, ev-news-2026-07-03-08, ev-news-2026-07-14-16-digitimes, ev-news-2026-09-04-digitimes, ev-news-2026-09-24-digitimes, ev-news-2026-10-02-digitimes, ev-news-2026-10-05-electrive-en, ev-news-2026-10-07-digitimes, ev-news-2026-10-15-digitimes, ev-news-2026-10-27-digitimes, ev-news-2026-10-29-digitimes]
-updated: 2026-10-29
+sources: [samsung-sdi-mercedes-battery-deal, samsung-sdi-mercedes-confirmed-deal, samsung-sdi-solid-state-production-2026, ev-news-2026-07-03-08, ev-news-2026-07-14-16-digitimes, ev-news-2026-09-04-digitimes, ev-news-2026-09-24-digitimes, ev-news-2026-10-02-digitimes, ev-news-2026-10-05-electrive-en, ev-news-2026-10-07-digitimes, ev-news-2026-10-15-digitimes, ev-news-2026-10-27-digitimes, ev-news-2026-10-29-digitimes, ev-news-2026-10-30-digitimes]
+updated: 2026-10-30
 ---
 
 # 三星 SDI（Samsung SDI）
@@ -128,3 +128,11 @@ Mercedes今年4月與三星SDI簽首份長期電池供應合約，並同步引�
 > **結論**：三星SDI與AOP簽1GWh追加合約（累計1.5GWh），NCA方形SBB 1.7由印第安納州StarPlus廠生產。
 
 - 參見：[[sources/ev-news-2026-10-29-digitimes]] | [[concepts/儲能市場]]
+
+## 3Q26營益創12季新高（2026-10）
+
+> **結論**：三星SDI 3Q26營業利益4,078億韓元，轉虧為盈並創12季新高，ESS與LFP、全固態樣品為重點。
+
+**主因**：營收約4.7兆韓元（年增52.6%）；美國ESS訂單2026年逾60GWh；人形機器人全固態樣品。
+
+- 參見：[[sources/ev-news-2026-10-30-digitimes]] | [[concepts/儲能市場]] | [[concepts/電池技術路線]]

@@ -1,7 +1,7 @@
 ---
 tags: [concept]
-sources: [tesla-taiwan-march-2026, taiwan-ev-charging-strategy, taiwan-ev-charging-upower, taiwan-evalue-640kw-charger, taiwan-ev-electrification-progress-2026, ev-news-2026-10-27-digitimes]
-updated: 2026-10-27
+sources: [tesla-taiwan-march-2026, taiwan-ev-charging-strategy, taiwan-ev-charging-upower, taiwan-evalue-640kw-charger, taiwan-ev-electrification-progress-2026, ev-news-2026-10-27-digitimes, ev-news-2026-10-30-digitimes]
+updated: 2026-10-30
 ---
 
 # 台灣 EV 市場
@@ -77,3 +77,13 @@ updated: 2026-10-27
 保有量約13萬輛（2025年底）→預估17.5萬輛（2026年底）；豪華車級距電動車滲透率約三分之一。
 
 - 參見：[[sources/ev-news-2026-10-27-digitimes]]
+
+## 鴻海科技日與創奕能源（2026-10）
+
+> **結論**：台灣電動車供應鏈訊號——鴻海發表Model A+／K／K+並強調兩大平台與垂直整合；創奕能源台灣電巴累計逾900輛，海外占比盼2年內升至50%。
+
+**主因**：台灣電巴2026-08營運3,595輛、目標2030年1.17萬輛；鴻海K平台馬達2.4萬轉符合日本規範，未來進歐洲不需換馬達。
+
+**觀察**：鴻海客戶與量產時程；創奕2027年海外出貨。
+
+- 參見：[[sources/ev-news-2026-10-30-digitimes]] | [[entities/鴻海]] | [[concepts/電動巴士市場]] | [[countries/台灣]]

@@ -1,6 +1,6 @@
 # Wiki Index
 
-Last updated: 2026-10-29 | Pages: 499 | Sources: 582
+Last updated: 2026-10-30 | Pages: 499 | Sources: 585
 
 ---
 
@@ -97,6 +97,9 @@ Last updated: 2026-10-29 | Pages: 499 | Sources: 582
 - [[sources/ev-news-2026-10-12-digest]] — 中文財經批次8篇：陸混動車輸歐恐砍半、豐田泰國殘值貸款、現代印度1,000萬輛、華德電巴、桃園A21、雙層客運補助縮水、Starlink印度。(2026-10-12)
 - [[sources/ev-news-2026-10-12-digitimes-2]] — Digitimes CarTech補充2篇：豐田、廣汽、一汽三方協議正式簽署、麗升跨足充電樁（註：剪輯檔無單篇網址）。(2026-10-12)
 - [[sources/ev-news-2026-10-12-14-digitimes]] — Digitimes CarTech 9篇：中國新能源車出口退稅2027-04起由13%降至9%（含評析）、歐盟HEV／PHEV年35萬輛配額、LGES大進機械轉單與L&F LFP長約、台灣能管法帶動儲能、寰聖／桓鼎、裕日車估車市42萬輛（全數附原文網址）。(2026-10-14)
+- [[sources/ev-news-2026-10-30-electrive-en]] — electrive 8篇：ACEA電動卡車+50%／電巴+38%、米蘭ATM向Karsan訂110輛電巴、寧德固態20Ah樣品、Ford Model e Q3虧11億美元、葡萄牙80%補助、英國£1億慢充補貼、福斯VEGA。(2026-10-30)
+- [[sources/ev-news-2026-10-30-insideevs]] — InsideEVs 4篇：Slate皮卡James May試駕、Ford Fathom高規到high $30,000、Rivian R2成最暢銷並上修交車預測、福斯EV獲利壓力。(2026-10-30)
+- [[sources/ev-news-2026-10-30-digitimes]] — Digitimes CarTech 6篇：三星SDI 3Q26創12季新高、本田L4、比亞迪3Q26存貨隱憂、豪車電動化、鴻海科技日、創奕能源（註：剪輯檔無單篇網址）。(2026-10-30)
 - [[sources/ev-news-2026-10-29-electrive-en]] — electrive 24篇：奧迪中國雙品牌、EVP車隊配額降級與2035年95%、ICCT就業研究、SVOLT半固態量產、GWM保加利亞建廠、英國採Euro 7（含電池耐久）、VW L3／小鵬L4、奧迪召回9,048輛、Polestar 2停產。(2026-10-29)
 - [[sources/ev-news-2026-10-29-insideevs]] — InsideEVs 8篇：ChargePoint 750kW Express Solo、GM混動SUV、Ford Fathom V2H、GM談雷達、中國二手車繞歐盟關稅、Rivian RCV Q3售8,469輛、Allye二手電池快充。(2026-10-29)
 - [[sources/ev-news-2026-10-29-digitimes]] — Digitimes CarTech 7篇：三星SDI／LGES美歐ESS、哈曼蘇州ADAS、SpaceX×Tesla合併董事獨立性、比亞迪仰望鼎曜、福斯導入中國自駕、鴻海科技日（註：剪輯檔無單篇網址）。(2026-10-29)

@@ -1,7 +1,7 @@
 ---
 tags: [concept]
-sources: [china-ev-market-consolidation, chery-qq3-vs-byd-seagull, china-ev-market-q1-2026, mercedes-benz-china-q1-2026, china-nev-april-involution-2026, china-nev-april-2026, xpeng-physical-ai-pivot-2026, ev-news-digest-jun1-10-2026, china-ev-market-slowdown-jun2026, xiaomi-su7-2026-update, byd-great-han-2026, ev-news-2026-09-21-digitimes, ev-news-2026-09-18-digitimes, ev-news-2026-09-20-digest, ev-news-2026-09-22-electrive-en, ev-news-2026-09-22-digitimes, ev-news-2026-09-23-digitimes, ev-news-2026-09-24-digest, ev-news-2026-09-24-digitimes, ev-news-2026-10-01-digitimes, ev-news-2026-10-02-digitimes, ev-news-2026-10-01-electrive-en, ev-news-2026-10-05-digitimes, ev-news-2026-10-12-digitimes-2, ev-news-2026-10-19-electrive-en, ev-news-2026-10-20-electrive-en, ev-news-2026-10-22-digitimes, ev-news-2026-10-27-digest, ev-news-2026-10-27-electrive-en, ev-news-2026-10-29-electrive-en, ev-news-2026-10-29-digitimes]
-updated: 2026-10-29
+sources: [china-ev-market-consolidation, chery-qq3-vs-byd-seagull, china-ev-market-q1-2026, mercedes-benz-china-q1-2026, china-nev-april-involution-2026, china-nev-april-2026, xpeng-physical-ai-pivot-2026, ev-news-digest-jun1-10-2026, china-ev-market-slowdown-jun2026, xiaomi-su7-2026-update, byd-great-han-2026, ev-news-2026-09-21-digitimes, ev-news-2026-09-18-digitimes, ev-news-2026-09-20-digest, ev-news-2026-09-22-electrive-en, ev-news-2026-09-22-digitimes, ev-news-2026-09-23-digitimes, ev-news-2026-09-24-digest, ev-news-2026-09-24-digitimes, ev-news-2026-10-01-digitimes, ev-news-2026-10-02-digitimes, ev-news-2026-10-01-electrive-en, ev-news-2026-10-05-digitimes, ev-news-2026-10-12-digitimes-2, ev-news-2026-10-19-electrive-en, ev-news-2026-10-20-electrive-en, ev-news-2026-10-22-digitimes, ev-news-2026-10-27-digest, ev-news-2026-10-27-electrive-en, ev-news-2026-10-29-electrive-en, ev-news-2026-10-29-digitimes, ev-news-2026-10-30-digitimes]
+updated: 2026-10-30
 ---
 
 # 中國 EV 市場競爭格局
@@ -291,3 +291,13 @@ DIGITIMES Research：2026上半全球電動車約980萬輛（年增2%），前15
 **觀察**：鼎曜阿聯亮相後的規格與定價；仰望10–12月月銷量；AUDI E5／E7X銷量表現。
 
 - 參見：[[sources/ev-news-2026-10-29-electrive-en]] | [[sources/ev-news-2026-10-29-digitimes]] | [[entities/比亞迪]] | [[entities/Audi]] | [[countries/中國]]
+
+## 比亞迪3Q26：海外出口撐獲利，存貨與現金週轉承壓（2026-10）
+
+> **結論**：比亞迪3Q26淨利100.2億元人民幣（年增28.1%）創近2年最佳單季，由海外55萬輛（占42%）推動，但中國本土-12%至77.2萬輛，存貨大增60%至2,215.8億元、現金近腰斬。
+
+**主因**：前9個月淨利-4.2%；外銷在途車輛拉高存貨與跌價減損風險；歐盟關稅與HEV進口限制下，加速匈牙利建廠 → 出海成長動能與資產負債表壓力並存。
+
+**觀察**：存貨去化（Q4交車認列）；匈牙利廠投產時程。
+
+- 參見：[[sources/ev-news-2026-10-30-digitimes]] | [[entities/比亞迪]] | [[concepts/中國EV出海策略]] | [[countries/中國]]

@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [ev-news-2026-06-25, ev-news-2026-07-02, ev-news-2026-07-14-16-insideevs, ev-news-2026-10-27-insideevs]
-updated: 2026-10-27
+sources: [ev-news-2026-06-25, ev-news-2026-07-02, ev-news-2026-07-14-16-insideevs, ev-news-2026-10-27-insideevs, ev-news-2026-10-30-insideevs]
+updated: 2026-10-30
 ---
 
 # Slate Auto
@@ -67,3 +67,11 @@ Slate Auto 確認**無計劃將皮卡在加拿大銷售**，主因加拿大 25% 
 單馬達181匹、65kWh LFP、宣稱205英里、20-80%約30分鐘，起價24,950美元。
 
 - 參見：[[sources/ev-news-2026-10-27-insideevs]]
+
+## James May試駕與12月交車（2026-10）
+
+> **結論**：Slate皮卡預計12月開始交車，起價24,950美元，James May稱其「比Tesla更好相處」。
+
+**主因**：單馬達LFP、預估續航205英里、酬載1,550磅；高度客製化。
+
+- 參見：[[sources/ev-news-2026-10-30-insideevs]] | [[concepts/平價電動車市場]]

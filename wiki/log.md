@@ -2413,3 +2413,13 @@ Pages 375 → 406，Sources 315 → 346
 - Key additions: 歐洲議會中間派將企業車隊2030配額降為願景目標、2035年CO₂減排95%（最低87.5%），ICCT警告最多流失18.5萬工作；SVOLT半固態提前量產；英國2027-11採Euro 7（電池5年／10萬km保有80%）；GWM保加利亞廠；奧迪美國召回9,048輛；Rivian RCV Q3 8,469輛超越R1S+R1T；三星SDI／LGES美歐ESS。
 - 備註: Digitimes剪輯檔無單篇網址，已於來源頁註明；Google Alerts／BigGo來源有URL；SVOLT客戶（Mini）、GM混動命名、Ford Fathom V2H實際安裝費、Polestar 2官方停產公告皆未證實，已標示待核對。
 
+## [2026-10-30] ingest | EV News 2026-10-28~30 批次（18篇原文，3個來源摘要頁）
+- Summary pages: [[sources/ev-news-2026-10-30-electrive-en]], [[sources/ev-news-2026-10-30-insideevs]], [[sources/ev-news-2026-10-30-digitimes]]
+- Raw assets: raw/assets/2026-10-28-創奕能源*.md、2026-10-30-*.md（18篇；其餘標點／空白變體重複檔不重複 ingest，7個ev-speaking-practice .html非來源）
+- Pages updated (concepts): 電動巴士市場、電動卡車市場、電池技術路線、儲能市場、人形機器人、充電基礎建設、歐洲EV市場、平價電動車市場、ADAS智駕系統、美國EV市場與政策、中國EV市場競爭格局、中國EV出海策略、電動商用車、台灣EV市場
+- Pages updated (entities): Volkswagen、Rivian、福特、Slate Auto、比亞迪、三星SDI、寧德時代、鴻海、本田、現代汽車
+- Countries updated: [[countries/歐洲]], [[countries/德國]], [[countries/英國]], [[countries/美國]], [[countries/中國]], [[countries/台灣]], [[countries/日本]], [[countries/韓國]]
+- New pages created: 無
+- Key additions: ACEA前9月歐盟電動卡車+50%（占5.3%）、電巴+38%（占26.4%）；比亞迪3Q26淨利100.2億元但存貨+60%；Ford Model e Q3虧11億美元；Rivian R2成最暢銷、交車預測67,000–70,000輛；福斯Q3營運虧66億美元；三星SDI營益創12季新高；寧德固態20Ah；鴻海Model A+／K／K+。
+- 備註: Digitimes剪輯檔無單篇網址，已於來源頁註明；福斯Q3虧損口徑（InsideEVs）待與福斯財報核對；寧德500 Wh/kg未確認為量產規格。
+
