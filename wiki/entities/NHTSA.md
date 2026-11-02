@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [tesla-ass-nhtsa-probe-closed, ev-news-2026-10-06-digest]
-updated: 2026-10-06
+sources: [tesla-ass-nhtsa-probe-closed, ev-news-2026-10-06-digest, ev-news-2026-11-02-cn-misc]
+updated: 2026-11-02
 ---
 
 # NHTSA（美國國家公路交通安全管理局）
@@ -34,3 +34,13 @@ NHTSA 是電動車自動駕駛功能在美國市場上市的關鍵監管關卡�
 NHTSA對Tesla Cybercab啟動審計調查、原要求9月30日前回覆，Tesla已獲准展延。
 
 - 參見：[[sources/ev-news-2026-10-06-digest]] | [[entities/Tesla]]
+
+## FMVSS 108草案：自駕青色識別燈（2026-11）
+
+> **結論**：NHTSA擬修FMVSS 108新增ADS識別燈（青色、選配）並放寬無方向盤車輛的燈光手動控制要求，目前仍在提案階段。
+
+**主因**：青色符合SAE J578並參考SAE J3134；自駕完整控制時可亮、需人類監督時須熄滅，安裝高度至少15英寸，同時徵求是否允許閃爍。
+
+**觀察**：意見徵詢與最終規則。
+
+- 參見：[[sources/ev-news-2026-11-02-cn-misc]] | [[concepts/自動駕駛安全監管]] | [[concepts/Robotaxi自動計程車]] | [[countries/美國]]

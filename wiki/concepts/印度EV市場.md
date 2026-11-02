@@ -1,7 +1,7 @@
 ---
 tags: [concept]
-sources: [electric-bus-market-2025-global, delhi-ev-policy-2026, vinfast-india-investment, india-ev-commercial-update-2026, india-tata-jsw-battery-rd-2026, mahindra-ev-expansion-2026, ather-energy-el-platform-2026, india-2w-market-fy27-bifurcation-2026, india-1bn-ev-commercial-incentives-2026, china-catl-battery-tech-export-2026, tesla-india-factory-exit-2026, honda-india-ev-hybrid-2026, tata-stellantis-jeep-india-2026, india-electric-bus-market-2025, tata-chery-avinya-platform-2026, delhi-ev-7year-high-2026, toptec-india-battery-equipment-2026, ev-news-2026-09-18-electrive-en, ev-news-2026-09-20-india, ev-news-2026-09-21-india, ev-news-2026-09-24-electrive-en, ev-news-2026-09-24-digest, ev-news-2026-10-12-digest, ev-news-2026-10-15-digest, ev-news-2026-10-19-digest, ev-news-2026-10-29-electrive-en]
-updated: 2026-10-29
+sources: [electric-bus-market-2025-global, delhi-ev-policy-2026, vinfast-india-investment, india-ev-commercial-update-2026, india-tata-jsw-battery-rd-2026, mahindra-ev-expansion-2026, ather-energy-el-platform-2026, india-2w-market-fy27-bifurcation-2026, india-1bn-ev-commercial-incentives-2026, china-catl-battery-tech-export-2026, tesla-india-factory-exit-2026, honda-india-ev-hybrid-2026, tata-stellantis-jeep-india-2026, india-electric-bus-market-2025, tata-chery-avinya-platform-2026, delhi-ev-7year-high-2026, toptec-india-battery-equipment-2026, ev-news-2026-09-18-electrive-en, ev-news-2026-09-20-india, ev-news-2026-09-21-india, ev-news-2026-09-24-electrive-en, ev-news-2026-09-24-digest, ev-news-2026-10-12-digest, ev-news-2026-10-15-digest, ev-news-2026-10-19-digest, ev-news-2026-10-29-electrive-en, ev-news-2026-11-02-sustainablebus]
+updated: 2026-11-02
 ---
 
 # 印度 EV 市場
@@ -353,3 +353,13 @@ JSW集團子公司發表電動商用車新品牌Ampstar，馬哈拉施特拉邦9
 **觀察**：X-47歐洲2027年初交車；Hosur廠進度。
 
 - 參見：[[sources/ev-news-2026-10-29-electrive-en]] | [[concepts/電動卡車市場]] | [[countries/印度]]
+
+## 古吉拉特220輛電巴GCC標案與塔塔收購Iveco（2026-11）
+
+> **結論**：印度電巴由「政府採購車輛」轉向「營運商12年總成本契約（GCC）」，Jakson Green拿下古吉拉特220輛；塔塔同時入主Iveco，擴大商用車全球版圖。
+
+**主因**：CESL框架累計招標2022年5,450輛、2025-06年10,900輛、2026-01年6,230輛，Switch Mobility供德里840輛、Mumbai/Pune 650輛；印度2026上半年電巴登記2,944輛（+40%），塔塔僅71輛、2.4%市占 → 本土整車廠在標案中市占不高，營運商與車廠分工使競爭轉向融資與營運能力。
+
+**觀察**：Jakson 220輛車廠與交付時程；塔塔取得Iveco後的電動巴士整合。
+
+- 參見：[[sources/ev-news-2026-11-02-sustainablebus]] | [[concepts/電動巴士市場]] | [[concepts/電動商用車]] | [[countries/印度]]

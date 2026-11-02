@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [waymo-arizona-expansion-2026, ev-news-2026-06-25, ev-news-2026-08-30-31-cn-misc, ev-news-2026-08-31-digitimes, ev-news-2026-09-01-digitimes, ev-news-2026-09-02-electrive-en, ev-news-2026-10-07-electrive-en, ev-news-2026-10-22-insideevs, ev-news-2026-10-27-digitimes]
-updated: 2026-10-27
+sources: [waymo-arizona-expansion-2026, ev-news-2026-06-25, ev-news-2026-08-30-31-cn-misc, ev-news-2026-08-31-digitimes, ev-news-2026-09-01-digitimes, ev-news-2026-09-02-electrive-en, ev-news-2026-10-07-electrive-en, ev-news-2026-10-22-insideevs, ev-news-2026-10-27-digitimes, ev-news-2026-11-02-digitimes, ev-news-2026-11-02-cn-misc]
+updated: 2026-11-02
 ---
 
 # Waymo
@@ -101,3 +101,13 @@ Waymo與新加坡MOT與LTA合作，2027年起測試、2028年向公眾提供全�
 50億美元債務可證券化租賃合約；累計逾2,000萬趟付費行程；馬德里、東京、倫敦、多倫多時程；文遠知行×Uber已取得西班牙全國測試許可。
 
 - 參見：[[sources/ev-news-2026-10-27-digitimes]]
+
+## 與豐田合作日英Robotaxi、NHTSA識別燈（2026-11）
+
+> **結論**：Waymo與豐田2027年在日本測試bZ4X Robotaxi，先從靠左行駛的日本、英國起步；NHTSA提案的青色自駕識別燈讓Waymo車隊可依規格選配。
+
+**主因**：東京原規劃約100輛（與日本交通、GO合作），倫敦以Jaguar I-PACE測試數月；雙方亦研究把Waymo技術導入豐田乘用車。
+
+**觀察**：測試地點與車數；NHTSA草案定案。
+
+- 參見：[[sources/ev-news-2026-11-02-digitimes]] | [[sources/ev-news-2026-11-02-cn-misc]] | [[concepts/Robotaxi自動計程車]] | [[entities/豐田]] | [[entities/NHTSA]] | [[countries/日本]] | [[countries/英國]]

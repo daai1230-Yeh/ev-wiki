@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [rivian-r2-range-specs, rivian-service-network-2026, rivian-lidar-china-partner-2026, ev-news-2026-07-03-08, ev-news-2026-07-24-28-electrive-en, ev-news-2026-08-03-06-electrive-en, ev-news-2026-08-07-10-electrive-en, ev-news-2026-08-27-29-electrive-en, ev-news-2026-09-18-electrive-en, ev-news-2026-10-01-electrive-en, ev-news-2026-10-09-electrive-en, ev-news-2026-10-27-digitimes, ev-news-2026-10-27-digest, ev-news-2026-10-29-insideevs, ev-news-2026-10-30-insideevs]
-updated: 2026-10-30
+sources: [rivian-r2-range-specs, rivian-service-network-2026, rivian-lidar-china-partner-2026, ev-news-2026-07-03-08, ev-news-2026-07-24-28-electrive-en, ev-news-2026-08-03-06-electrive-en, ev-news-2026-08-07-10-electrive-en, ev-news-2026-08-27-29-electrive-en, ev-news-2026-09-18-electrive-en, ev-news-2026-10-01-electrive-en, ev-news-2026-10-09-electrive-en, ev-news-2026-10-27-digitimes, ev-news-2026-10-27-digest, ev-news-2026-10-29-insideevs, ev-news-2026-10-30-insideevs, ev-news-2026-11-02-electrive-en, ev-news-2026-11-02-digitimes]
+updated: 2026-11-02
 ---
 
 # Rivian
@@ -182,3 +182,16 @@ Rivian取消R2座椅椅背通風（僅保留座墊），稱因噪音；社群出
 **觀察**：Q4至少25,193輛交車；年底正毛利目標。
 
 - 參見：[[sources/ev-news-2026-10-30-insideevs]] | [[concepts/美國EV市場與政策]]
+
+## 3Q26：交車、營收雙創高，軟體與服務毛利超過整體（2026-11）
+
+> **結論**：Rivian 3Q26營收21.55億美元（年增38%）、交車19,248輛（年增46%、季增58%）、產量19,751輛均創高；R2成最暢銷車型，軟體與服務毛利2.56億美元（毛利率42%）高於集團總毛利1.76億美元，其中59%來自福斯合資。
+
+**主因**：
+- 成本：R2占比提高加固定成本槓桿，每輛銷貨成本較2Q降逾12,000美元；汽車毛損由1.3億縮至8,000萬美元（電子報口徑），Digitimes引述口徑為不計補貼約虧1.61億美元、每輛約8,400美元（兩者口徑差異待核對）。
+- 福斯支援：10年期10億美元信貸10月7日全額動用，另4.6億美元股權投資最晚2028-01或首款採用其軟硬體的福斯車（規劃2萬歐元ID. EVERY1）上路時；合資收入3.54億美元（2Q為3.08億），並授權AI語音助理元件，預期收入持續至2028年中。
+- 虧損與指引：淨損由11.73億縮至9.13億美元、調整後EBITDA由-6.02億改善至-4.35億美元；全年交車67,000–70,000輛（原65,000–70,000）、EBITDA指引改善1億美元至-18.5億至-17.5億美元、資本支出下修3億美元至14–15億美元。
+
+**觀察**：4Q交車是否落在預測區間；R2第二班產能；福斯股權款項條件（2028-01前）。
+
+- 參見：[[sources/ev-news-2026-11-02-electrive-en]] | [[sources/ev-news-2026-11-02-digitimes]] | [[entities/Volkswagen]] | [[concepts/美國EV市場與政策]] | [[concepts/平價電動車市場]] | [[countries/美國]]

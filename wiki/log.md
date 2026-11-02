@@ -2423,3 +2423,13 @@ Pages 375 → 406，Sources 315 → 346
 - Key additions: ACEA前9月歐盟電動卡車+50%（占5.3%）、電巴+38%（占26.4%）；比亞迪3Q26淨利100.2億元但存貨+60%；Ford Model e Q3虧11億美元；Rivian R2成最暢銷、交車預測67,000–70,000輛；福斯Q3營運虧66億美元；三星SDI營益創12季新高；寧德固態20Ah；鴻海Model A+／K／K+。
 - 備註: Digitimes剪輯檔無單篇網址，已於來源頁註明；福斯Q3虧損口徑（InsideEVs）待與福斯財報核對；寧德500 Wh/kg未確認為量產規格。
 
+## [2026-11-02] ingest | EV News 2026-10-30~11-02 批次（22篇原文，4個來源摘要頁）
+- Summary pages: [[sources/ev-news-2026-11-02-electrive-en]], [[sources/ev-news-2026-11-02-sustainablebus]], [[sources/ev-news-2026-11-02-digitimes]], [[sources/ev-news-2026-11-02-cn-misc]]
+- Raw assets: raw/assets/2026-10-30-*.md（豐田供應鏈、三菱扶桑）、2026-11-02-*.md、Sustainable Bus 6篇無日期前綴檔（22篇；10-13~10-30共19個標點／全形變體與「HHTD 26」前綴重複檔不重複 ingest，9個ev-speaking-practice .html非來源）
+- Pages updated (concepts): 電動巴士市場、充電基礎建設、電池技術路線、歐洲EV市場、平價電動車市場、中國EV出海策略、中國EV市場競爭格局、Robotaxi自動計程車、自動駕駛安全監管、美國EV市場與政策、印度EV市場、電動商用車、台灣EV市場、電池回收
+- Pages updated (entities): Rivian、Volkswagen、比亞迪、福特、鴻海、豐田、Waymo、三菱FUSO、長城汽車、現代汽車、Tesla、NHTSA
+- Countries updated: [[countries/歐洲]], [[countries/德國]], [[countries/英國]], [[countries/美國]], [[countries/中國]], [[countries/台灣]], [[countries/日本]], [[countries/韓國]], [[countries/印度]]
+- New pages created: 無
+- Key additions: ACEA前9月歐盟電巴8,633輛（+37.6%，占26.4%）、義大利+116%、波蘭+557%、德國-30%；塔塔取得Iveco 89.42%（約34.3億歐元）；比亞迪歐盟登記206,002輛（市占2.4%）超過Tesla；福斯暫停ID.Golf；Rivian 3Q26營收21.55億美元、交車19,248輛；Waymo×豐田2027日本Robotaxi；NHTSA自駕青色識別燈草案；長城2027攻韓；2027歐洲年度風雲車決選全電；鴻海×波蘭EMP三方合資待定案。
+- 備註: Digitimes剪輯檔無單篇網址，已於來源頁註明；Rivian汽車毛損口徑（電子報$80M vs Digitimes不計補貼$161M）待核對；福斯Q3虧損（InsideEVs）與Brand Group Core 9M數字範疇不同，未對財報；長城Ora 5為業界傳聞、「登台」疑為「登韓」；Allye減碳數字為廠商自估。
+

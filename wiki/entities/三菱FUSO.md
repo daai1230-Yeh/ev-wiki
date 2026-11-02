@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [foxconn-mitsubishi-fuso-electric-bus, ev-news-2026-10-29-digest]
-updated: 2026-10-29
+sources: [foxconn-mitsubishi-fuso-electric-bus, ev-news-2026-10-29-digest, ev-news-2026-11-02-digitimes]
+updated: 2026-11-02
 ---
 
 # 三菱 FUSO 卡客車
@@ -33,3 +33,13 @@ updated: 2026-10-29
 **觀察**：2027年訂單與價格。
 
 - 參見：[[sources/ev-news-2026-10-29-digest]] | [[concepts/電動巴士市場]] | [[entities/鴻海]]
+
+## 巴士合資11/2成立（2026-11）
+
+> **結論**：鴻海與三菱扶桑的巴士合資11/2成立，現階段仍以柴油大小巴為主，未來以電動化為主軸、時程待公布。
+
+**主因**：三菱扶桑約9成股權由戴姆勒卡車持有，營收卡車對巴士約10比1；關潤稱此模式與波蘭案的CDMS「非常類似」。
+
+**觀察**：首款電動巴士發表時程與價格。
+
+- 參見：[[sources/ev-news-2026-11-02-digitimes]] | [[entities/鴻海]] | [[concepts/電動巴士市場]] | [[countries/日本]]

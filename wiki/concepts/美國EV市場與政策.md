@@ -1,7 +1,7 @@
 ---
 tags: [concept]
-sources: [gm-ford-q1-2026-sales, us-ev-battery-demand-mismatch, rivian-r2-range-specs, vw-id4-chattanooga-stop, tesla-25k-ev-us-price-parity, slate-auto-ev-pickup, ford-ev-restructure-doug-field, vw-id4-us-writedown, tesla-q1-2026-earnings, gm-ev-delay-detroit-three, nissan-mississippi-ev-abandonment, honda-canada-ev-freeze-2026, tesla-model-s-final-production, mazda-ev-delay-2029, ford-catl-michigan-factory-2026, honda-9b-loss-hybrid-pivot-2026, tesla-model-y-price-bump-2026, congress-ev-annual-fee-2026, rivian-r2-deliveries-2026, chevy-bolt-2027-review, 駐外新聞-美國-2025, ev-news-2026-09-18-digest, ev-news-2026-09-20-digest, ev-news-2026-09-22-electrive-en, ev-news-2026-09-26-electrive-en, ev-news-2026-09-28-digest, ev-news-2026-10-05-digitimes, ev-news-2026-10-07-electrive-en, ev-news-2026-10-22-insideevs, ev-news-2026-10-27-digitimes, ev-news-2026-10-27-electrive-en, ev-news-2026-10-27-insideevs, ev-news-2026-10-29-insideevs, ev-news-2026-10-30-electrive-en, ev-news-2026-10-30-insideevs]
-updated: 2026-10-30
+sources: [gm-ford-q1-2026-sales, us-ev-battery-demand-mismatch, rivian-r2-range-specs, vw-id4-chattanooga-stop, tesla-25k-ev-us-price-parity, slate-auto-ev-pickup, ford-ev-restructure-doug-field, vw-id4-us-writedown, tesla-q1-2026-earnings, gm-ev-delay-detroit-three, nissan-mississippi-ev-abandonment, honda-canada-ev-freeze-2026, tesla-model-s-final-production, mazda-ev-delay-2029, ford-catl-michigan-factory-2026, honda-9b-loss-hybrid-pivot-2026, tesla-model-y-price-bump-2026, congress-ev-annual-fee-2026, rivian-r2-deliveries-2026, chevy-bolt-2027-review, 駐外新聞-美國-2025, ev-news-2026-09-18-digest, ev-news-2026-09-20-digest, ev-news-2026-09-22-electrive-en, ev-news-2026-09-26-electrive-en, ev-news-2026-09-28-digest, ev-news-2026-10-05-digitimes, ev-news-2026-10-07-electrive-en, ev-news-2026-10-22-insideevs, ev-news-2026-10-27-digitimes, ev-news-2026-10-27-electrive-en, ev-news-2026-10-27-insideevs, ev-news-2026-10-29-insideevs, ev-news-2026-10-30-electrive-en, ev-news-2026-10-30-insideevs, ev-news-2026-11-02-electrive-en, ev-news-2026-11-02-digitimes]
+updated: 2026-11-02
 ---
 
 # 美國 EV 市場與政策
@@ -466,3 +466,13 @@ Q3美國BEV銷量年減39.5%（Cox／KBB）；德系車8月BEV榜名次落後；
 **觀察**：Rivian Q4是否達25,193輛；Ford 2027年Fathom預購。
 
 - 參見：[[sources/ev-news-2026-10-30-electrive-en]] | [[sources/ev-news-2026-10-30-insideevs]] | [[entities/福特]] | [[entities/Rivian]] | [[entities/Volkswagen]] | [[countries/美國]]
+
+## Rivian 3Q26創高、Ford Mach-E警用版（2026-11）
+
+> **結論**：聯邦補助取消後，美國EV需求靠新車型與軟體收入撐住：Rivian 3Q26營收21.55億美元（+38%）、交車19,248輛（+46%），Ford則把Mustang Mach-E推向公務車隊。
+
+**主因**：Rivian R2成最暢銷車型，汽車毛損縮至8,000萬美元（上年1.3億），軟體與服務毛利率42%，其中59%來自福斯合資；全年交車預測67,000–70,000輛（2025年約42,000輛）。Ford 2027年式Mach-E SSV以Select＋91 kWh長續航＋雙馬達＋Brembo為基礎，但未取得高速追緝認證，定位非追逐勤務。
+
+**觀察**：Rivian 4Q交車是否落在預測區間；Ford SSV性能與價格公布。
+
+- 參見：[[sources/ev-news-2026-11-02-electrive-en]] | [[sources/ev-news-2026-11-02-digitimes]] | [[entities/Rivian]] | [[entities/福特]] | [[countries/美國]]

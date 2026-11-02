@@ -1,7 +1,7 @@
 ---
 tags: [concept]
-sources: [tesla-taiwan-march-2026, taiwan-ev-charging-strategy, taiwan-ev-charging-upower, taiwan-evalue-640kw-charger, taiwan-ev-electrification-progress-2026, ev-news-2026-10-27-digitimes, ev-news-2026-10-30-digitimes]
-updated: 2026-10-30
+sources: [tesla-taiwan-march-2026, taiwan-ev-charging-strategy, taiwan-ev-charging-upower, taiwan-evalue-640kw-charger, taiwan-ev-electrification-progress-2026, ev-news-2026-10-27-digitimes, ev-news-2026-10-30-digitimes, ev-news-2026-11-02-cn-misc, ev-news-2026-11-02-digitimes]
+updated: 2026-11-02
 ---
 
 # 台灣 EV 市場
@@ -87,3 +87,13 @@ updated: 2026-10-30
 **觀察**：鴻海客戶與量產時程；創奕2027年海外出貨。
 
 - 參見：[[sources/ev-news-2026-10-30-digitimes]] | [[entities/鴻海]] | [[concepts/電動巴士市場]] | [[countries/台灣]]
+
+## 創奕能源上半年營收16.64億元、鴻海三菱扶桑巴士合資成立（2026-11）
+
+> **結論**：台灣電動大客車普及率截至2026-08達41.6%（年底目標50%），創奕能源2026上半年營收16.64億元新台幣、約去年全年八成，並規劃2027年登錄興櫃；鴻海同時把電動巴士合資、三菱電機車用與波蘭EMP三條海外線並行。
+
+**主因**：創奕累計銷售逾900輛、車隊累計5,500萬公里、妥善率逾99%，ESS延伸至5 MWh／6.25 MWh貨櫃與台灣高鐵站UPS；鴻海與三菱扶桑巴士合資11/2成立，與三菱電機汽車事業合資需9~10個月反壟斷審查，波蘭EMP三方合資（EMP、波蘭政府、鴻華先進）「很快達成協議」但尚未定案。
+
+**觀察**：創奕2027興櫃時程；鴻海波蘭協議簽署；FUSO BUS首款電巴時程。
+
+- 參見：[[sources/ev-news-2026-11-02-cn-misc]] | [[sources/ev-news-2026-11-02-digitimes]] | [[concepts/電動巴士市場]] | [[concepts/儲能市場]] | [[entities/鴻海]] | [[entities/三菱FUSO]] | [[countries/台灣]] | [[countries/日本]]

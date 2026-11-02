@@ -1,6 +1,6 @@
 # Wiki Index
 
-Last updated: 2026-10-30 | Pages: 499 | Sources: 585
+Last updated: 2026-11-02 | Pages: 499 | Sources: 589
 
 ---
 
@@ -97,6 +97,10 @@ Last updated: 2026-10-30 | Pages: 499 | Sources: 585
 - [[sources/ev-news-2026-10-12-digest]] — 中文財經批次8篇：陸混動車輸歐恐砍半、豐田泰國殘值貸款、現代印度1,000萬輛、華德電巴、桃園A21、雙層客運補助縮水、Starlink印度。(2026-10-12)
 - [[sources/ev-news-2026-10-12-digitimes-2]] — Digitimes CarTech補充2篇：豐田、廣汽、一汽三方協議正式簽署、麗升跨足充電樁（註：剪輯檔無單篇網址）。(2026-10-12)
 - [[sources/ev-news-2026-10-12-14-digitimes]] — Digitimes CarTech 9篇：中國新能源車出口退稅2027-04起由13%降至9%（含評析）、歐盟HEV／PHEV年35萬輛配額、LGES大進機械轉單與L&F LFP長約、台灣能管法帶動儲能、寰聖／桓鼎、裕日車估車市42萬輛（全數附原文網址）。(2026-10-14)
+- [[sources/ev-news-2026-11-02-electrive-en]] — electrive 5篇：Allye二手電池400kW快充、BYD英國長途客車、Group14西班牙薩貢托矽碳負極廠、Rivian 3Q26營收+38%、福斯暫停ID.Golf。(2026-11-02)
+- [[sources/ev-news-2026-11-02-sustainablebus]] — Sustainable Bus 6篇：ACEA歐盟電巴26.4%分國明細、塔塔取得Iveco 89.42%、Alexander Dennis×Volvo 18m BRT、Irizar×Tuvisa、Jakson古吉拉特220輛、川崎集電弓電巴。(2026-11-02)
+- [[sources/ev-news-2026-11-02-digitimes]] — Digitimes CarTech 5篇：豐田供應鏈七大廠4家獲利衰退、關潤談三菱扶桑巴士合資、Rivian 3Q26、Waymo×豐田Robotaxi、鴻海×波蘭EMP（註：剪輯檔無單篇網址）。(2026-11-02)
+- [[sources/ev-news-2026-11-02-cn-misc]] — 中文媒體Google Alerts 6篇：Ford Mach-E警用版、長城攻韓、2027歐洲年度風雲車全電、比亞迪歐洲在地化、創奕能源、NHTSA自駕青色識別燈。(2026-11-02)
 - [[sources/ev-news-2026-10-30-electrive-en]] — electrive 8篇：ACEA電動卡車+50%／電巴+38%、米蘭ATM向Karsan訂110輛電巴、寧德固態20Ah樣品、Ford Model e Q3虧11億美元、葡萄牙80%補助、英國£1億慢充補貼、福斯VEGA。(2026-10-30)
 - [[sources/ev-news-2026-10-30-insideevs]] — InsideEVs 4篇：Slate皮卡James May試駕、Ford Fathom高規到high $30,000、Rivian R2成最暢銷並上修交車預測、福斯EV獲利壓力。(2026-10-30)
 - [[sources/ev-news-2026-10-30-digitimes]] — Digitimes CarTech 6篇：三星SDI 3Q26創12季新高、本田L4、比亞迪3Q26存貨隱憂、豪車電動化、鴻海科技日、創奕能源（註：剪輯檔無單篇網址）。(2026-10-30)

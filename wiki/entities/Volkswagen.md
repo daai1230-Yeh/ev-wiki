@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [vw-restructure-china-offensive-2026, ev-news-2026-06-27-29-en, ev-news-2026-06-30-07-01, ev-news-2026-07-02, ev-news-2026-07-03-08, ev-news-2026-07-10-supplement, ev-news-2026-07-12-13-electrive, ev-news-2026-07-14-16-electrive, ev-news-2026-07-17-20-digitimes, ev-news-2026-07-20-21-electrive-en, ev-news-2026-07-22-23-electrive-en, ev-news-2026-07-25-27-digitimes, ev-news-2026-07-24-27-electrive-en, ev-news-2026-07-24-28-electrive-en, ev-news-2026-07-29-31-digitimes, ev-news-2026-07-28-30-electrive-en, ev-news-2026-08-04-06-digitimes, ev-news-2026-08-03-06-electrive-en, ev-news-2026-08-07-10-electrive-en, ev-news-2026-08-13-digitimes, ev-news-2026-08-14-17-digitimes, ev-news-2026-08-18-digitimes, ev-news-2026-07-23-08-24-etauto-india, ev-news-2026-09-07-08-electrive-en, ev-news-2026-09-07-08-digest, ev-news-2026-09-08-electrive-en, ev-news-2026-09-09-electrive-en, ev-news-2026-09-09-10-etauto-india, ev-news-2026-09-11-electrive-en, ev-news-2026-09-15-electrive-en, ev-news-2026-09-17-electrive-en, ev-news-2026-09-18-electrive-en, ev-news-2026-09-22-electrive-en, ev-news-2026-09-22-digitimes, ev-news-2026-09-23-electrive-en, ev-news-2026-09-23-digitimes, ev-news-2026-09-24-electrive-en, ev-news-2026-09-26-electrive-en, ev-news-2026-09-28-electrive-en, ev-news-2026-09-29-electrive-en, ev-news-2026-09-30-digitimes, ev-news-2026-10-01-electrive-en, ev-news-2026-10-05-digitimes, ev-news-2026-10-06-electrive-en, ev-news-2026-10-10-electrive-en, ev-news-2026-10-15-electrive-en, ev-news-2026-10-19-electrive-en, ev-news-2026-10-20-electrive-en, ev-news-2026-10-20-digitimes, ev-news-2026-10-27-electrive-en, ev-news-2026-10-27-digest, ev-news-2026-10-27-digitimes, ev-news-2026-10-29-electrive-en, ev-news-2026-10-29-digitimes, ev-news-2026-10-30-electrive-en, ev-news-2026-10-30-insideevs]
-updated: 2026-10-30
+sources: [vw-restructure-china-offensive-2026, ev-news-2026-06-27-29-en, ev-news-2026-06-30-07-01, ev-news-2026-07-02, ev-news-2026-07-03-08, ev-news-2026-07-10-supplement, ev-news-2026-07-12-13-electrive, ev-news-2026-07-14-16-electrive, ev-news-2026-07-17-20-digitimes, ev-news-2026-07-20-21-electrive-en, ev-news-2026-07-22-23-electrive-en, ev-news-2026-07-25-27-digitimes, ev-news-2026-07-24-27-electrive-en, ev-news-2026-07-24-28-electrive-en, ev-news-2026-07-29-31-digitimes, ev-news-2026-07-28-30-electrive-en, ev-news-2026-08-04-06-digitimes, ev-news-2026-08-03-06-electrive-en, ev-news-2026-08-07-10-electrive-en, ev-news-2026-08-13-digitimes, ev-news-2026-08-14-17-digitimes, ev-news-2026-08-18-digitimes, ev-news-2026-07-23-08-24-etauto-india, ev-news-2026-09-07-08-electrive-en, ev-news-2026-09-07-08-digest, ev-news-2026-09-08-electrive-en, ev-news-2026-09-09-electrive-en, ev-news-2026-09-09-10-etauto-india, ev-news-2026-09-11-electrive-en, ev-news-2026-09-15-electrive-en, ev-news-2026-09-17-electrive-en, ev-news-2026-09-18-electrive-en, ev-news-2026-09-22-electrive-en, ev-news-2026-09-22-digitimes, ev-news-2026-09-23-electrive-en, ev-news-2026-09-23-digitimes, ev-news-2026-09-24-electrive-en, ev-news-2026-09-26-electrive-en, ev-news-2026-09-28-electrive-en, ev-news-2026-09-29-electrive-en, ev-news-2026-09-30-digitimes, ev-news-2026-10-01-electrive-en, ev-news-2026-10-05-digitimes, ev-news-2026-10-06-electrive-en, ev-news-2026-10-10-electrive-en, ev-news-2026-10-15-electrive-en, ev-news-2026-10-19-electrive-en, ev-news-2026-10-20-electrive-en, ev-news-2026-10-20-digitimes, ev-news-2026-10-27-electrive-en, ev-news-2026-10-27-digest, ev-news-2026-10-27-digitimes, ev-news-2026-10-29-electrive-en, ev-news-2026-10-29-digitimes, ev-news-2026-10-30-electrive-en, ev-news-2026-10-30-insideevs, ev-news-2026-11-02-electrive-en, ev-news-2026-11-02-cn-misc]
+updated: 2026-11-02
 ---
 
 # Volkswagen（福斯集團）
@@ -475,3 +475,13 @@ VW集團5款PHEV約90%的利用係數修正增量被加大電池抵銷，官方�
 **觀察**：中國技術導入歐洲決議；Q4成本措施。
 
 - 參見：[[sources/ev-news-2026-10-30-electrive-en]] | [[sources/ev-news-2026-10-30-insideevs]] | [[concepts/ADAS智駕系統]] | [[entities/Rivian]] | [[countries/中國]]
+
+## 暫停ID.Golf、押注Rivian軟硬體（2026-11）
+
+> **結論**：福斯以「負擔不起」為由暫停ID.Golf（SSP平台、2030年代初），Brand Group Core前9月營業利益43.3億歐元（上年47.2億），乘用車品牌利潤率僅1.3%；同時把平價電動車的軟硬體押給Rivian合資。
+
+**主因**：BEV毛利仍低於同級燃油車；沃爾夫斯堡廠落後成本目標約3億歐元（埃姆登、茨維考達標）；淨現金流由43.4億降至14.3億歐元。對Rivian的10億美元信貸已全額動用、4.6億美元股權待條件，ID. EVERY1（2萬歐元）將是首款採用其架構的福斯車。ID.Polo入圍2027歐洲年度風雲車。待核對：先前InsideEVs所稱Q3營運虧66億美元口徑，與本次Brand Group Core數字不同範疇，未與福斯財報對照。
+
+**觀察**：ID.Golf是否延後；勞資會對支出凍結的態度；ID. EVERY1上路時程。
+
+- 參見：[[sources/ev-news-2026-11-02-electrive-en]] | [[sources/ev-news-2026-11-02-cn-misc]] | [[entities/Rivian]] | [[concepts/歐洲EV市場]] | [[concepts/平價電動車市場]] | [[countries/德國]]

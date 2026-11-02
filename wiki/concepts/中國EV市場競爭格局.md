@@ -1,7 +1,7 @@
 ---
 tags: [concept]
-sources: [china-ev-market-consolidation, chery-qq3-vs-byd-seagull, china-ev-market-q1-2026, mercedes-benz-china-q1-2026, china-nev-april-involution-2026, china-nev-april-2026, xpeng-physical-ai-pivot-2026, ev-news-digest-jun1-10-2026, china-ev-market-slowdown-jun2026, xiaomi-su7-2026-update, byd-great-han-2026, ev-news-2026-09-21-digitimes, ev-news-2026-09-18-digitimes, ev-news-2026-09-20-digest, ev-news-2026-09-22-electrive-en, ev-news-2026-09-22-digitimes, ev-news-2026-09-23-digitimes, ev-news-2026-09-24-digest, ev-news-2026-09-24-digitimes, ev-news-2026-10-01-digitimes, ev-news-2026-10-02-digitimes, ev-news-2026-10-01-electrive-en, ev-news-2026-10-05-digitimes, ev-news-2026-10-12-digitimes-2, ev-news-2026-10-19-electrive-en, ev-news-2026-10-20-electrive-en, ev-news-2026-10-22-digitimes, ev-news-2026-10-27-digest, ev-news-2026-10-27-electrive-en, ev-news-2026-10-29-electrive-en, ev-news-2026-10-29-digitimes, ev-news-2026-10-30-digitimes]
-updated: 2026-10-30
+sources: [china-ev-market-consolidation, chery-qq3-vs-byd-seagull, china-ev-market-q1-2026, mercedes-benz-china-q1-2026, china-nev-april-involution-2026, china-nev-april-2026, xpeng-physical-ai-pivot-2026, ev-news-digest-jun1-10-2026, china-ev-market-slowdown-jun2026, xiaomi-su7-2026-update, byd-great-han-2026, ev-news-2026-09-21-digitimes, ev-news-2026-09-18-digitimes, ev-news-2026-09-20-digest, ev-news-2026-09-22-electrive-en, ev-news-2026-09-22-digitimes, ev-news-2026-09-23-digitimes, ev-news-2026-09-24-digest, ev-news-2026-09-24-digitimes, ev-news-2026-10-01-digitimes, ev-news-2026-10-02-digitimes, ev-news-2026-10-01-electrive-en, ev-news-2026-10-05-digitimes, ev-news-2026-10-12-digitimes-2, ev-news-2026-10-19-electrive-en, ev-news-2026-10-20-electrive-en, ev-news-2026-10-22-digitimes, ev-news-2026-10-27-digest, ev-news-2026-10-27-electrive-en, ev-news-2026-10-29-electrive-en, ev-news-2026-10-29-digitimes, ev-news-2026-10-30-digitimes, ev-news-2026-11-02-cn-misc]
+updated: 2026-11-02
 ---
 
 # 中國 EV 市場競爭格局
@@ -301,3 +301,13 @@ DIGITIMES Research：2026上半全球電動車約980萬輛（年增2%），前15
 **觀察**：存貨去化（Q4交車認列）；匈牙利廠投產時程。
 
 - 參見：[[sources/ev-news-2026-10-30-digitimes]] | [[entities/比亞迪]] | [[concepts/中國EV出海策略]] | [[countries/中國]]
+
+## 內需-28%與海外放量：中國品牌的雙軌格局（2026-11）
+
+> **結論**：中國乘用車2026-09零售161.8萬輛、年減28%，海外是主要增量來源；現代、起亞在中國合計市占降至0.6%，顯示外資品牌被擠出而中國品牌向外擴張。
+
+**主因**：內需降溫與外資退場使中國品牌「出海補量」——比亞迪歐盟+154.4%、長城攻韓；但2027歐洲年度風雲車決選無中國車，品牌與認證面仍有落差。
+
+**觀察**：10月CPCA零售是否止跌；比亞迪海外占比持續高於40%。
+
+- 參見：[[sources/ev-news-2026-11-02-cn-misc]] | [[concepts/中國EV出海策略]] | [[entities/比亞迪]] | [[entities/長城汽車]] | [[countries/中國]]
