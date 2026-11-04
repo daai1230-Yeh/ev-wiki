@@ -1,6 +1,6 @@
 # Wiki Index
 
-Last updated: 2026-11-02 | Pages: 499 | Sources: 589
+Last updated: 2026-11-04 | Pages: 499 | Sources: 593
 
 ---
 
@@ -97,6 +97,10 @@ Last updated: 2026-11-02 | Pages: 499 | Sources: 589
 - [[sources/ev-news-2026-10-12-digest]] — 中文財經批次8篇：陸混動車輸歐恐砍半、豐田泰國殘值貸款、現代印度1,000萬輛、華德電巴、桃園A21、雙層客運補助縮水、Starlink印度。(2026-10-12)
 - [[sources/ev-news-2026-10-12-digitimes-2]] — Digitimes CarTech補充2篇：豐田、廣汽、一汽三方協議正式簽署、麗升跨足充電樁（註：剪輯檔無單篇網址）。(2026-10-12)
 - [[sources/ev-news-2026-10-12-14-digitimes]] — Digitimes CarTech 9篇：中國新能源車出口退稅2027-04起由13%降至9%（含評析）、歐盟HEV／PHEV年35萬輛配額、LGES大進機械轉單與L&F LFP長約、台灣能管法帶動儲能、寰聖／桓鼎、裕日車估車市42萬輛（全數附原文網址）。(2026-10-14)
+- [[sources/ev-news-2026-11-04-electrive-en]] — electrive 2篇：塔塔取得Iveco 89.42%（接受率87.8%、要約價14.40歐元）、福斯Elli退出硬體聚焦數位充電與V2G。(2026-11-04)
+- [[sources/ev-news-2026-11-04-insideevs]] — InsideEVs 4篇：BP Pulse併入ChargeHub漫遊、賓士歐洲充電網賣Electra、Hyundai 10月混動29%與Kia EV3、Volvo美國承壓。(2026-11-04)
+- [[sources/ev-news-2026-11-04-digitimes]] — Digitimes CarTech 5篇：台灣10月機車掛牌、鴻海台灣汽車出口三條路、LGES 3Q26營收創高、Waymo佔用聖地牙哥快充、Foxtron首奪台灣品牌冠軍（註：剪輯檔無單篇網址）。(2026-11-04)
+- [[sources/ev-news-2026-11-04-cn-misc]] — 中文媒體Google Alerts 4篇：比亞迪10月純電破30萬輛、泰國進口EV消費稅35%、Tesla上海廠10月、舍弗勒裁員3,460人。(2026-11-04)
 - [[sources/ev-news-2026-11-02-electrive-en]] — electrive 5篇：Allye二手電池400kW快充、BYD英國長途客車、Group14西班牙薩貢托矽碳負極廠、Rivian 3Q26營收+38%、福斯暫停ID.Golf。(2026-11-02)
 - [[sources/ev-news-2026-11-02-sustainablebus]] — Sustainable Bus 6篇：ACEA歐盟電巴26.4%分國明細、塔塔取得Iveco 89.42%、Alexander Dennis×Volvo 18m BRT、Irizar×Tuvisa、Jakson古吉拉特220輛、川崎集電弓電巴。(2026-11-02)
 - [[sources/ev-news-2026-11-02-digitimes]] — Digitimes CarTech 5篇：豐田供應鏈七大廠4家獲利衰退、關潤談三菱扶桑巴士合資、Rivian 3Q26、Waymo×豐田Robotaxi、鴻海×波蘭EMP（註：剪輯檔無單篇網址）。(2026-11-02)

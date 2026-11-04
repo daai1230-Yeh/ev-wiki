@@ -2433,3 +2433,13 @@ Pages 375 → 406，Sources 315 → 346
 - Key additions: ACEA前9月歐盟電巴8,633輛（+37.6%，占26.4%）、義大利+116%、波蘭+557%、德國-30%；塔塔取得Iveco 89.42%（約34.3億歐元）；比亞迪歐盟登記206,002輛（市占2.4%）超過Tesla；福斯暫停ID.Golf；Rivian 3Q26營收21.55億美元、交車19,248輛；Waymo×豐田2027日本Robotaxi；NHTSA自駕青色識別燈草案；長城2027攻韓；2027歐洲年度風雲車決選全電；鴻海×波蘭EMP三方合資待定案。
 - 備註: Digitimes剪輯檔無單篇網址，已於來源頁註明；Rivian汽車毛損口徑（電子報$80M vs Digitimes不計補貼$161M）待核對；福斯Q3虧損（InsideEVs）與Brand Group Core 9M數字範疇不同，未對財報；長城Ora 5為業界傳聞、「登台」疑為「登韓」；Allye減碳數字為廠商自估。
 
+## [2026-11-04] ingest | EV News 2026-11-02~04 批次（15篇原文，4個來源摘要頁）
+- Summary pages: [[sources/ev-news-2026-11-04-electrive-en]], [[sources/ev-news-2026-11-04-insideevs]], [[sources/ev-news-2026-11-04-digitimes]], [[sources/ev-news-2026-11-04-cn-misc]]
+- Raw assets: raw/assets/2026-11-03-*.md、2026-11-04-*.md（15篇；10-13~11-01共19個標點／全形變體與「HHTD 26」前綴重複檔不重複 ingest）
+- Pages updated (concepts): 充電基礎建設、儲能市場、美國EV市場與政策、平價電動車市場、歐洲EV市場、東南亞EV市場、中國EV出海策略、中國EV市場競爭格局、Robotaxi自動計程車、電動商用車、台灣EV市場
+- Pages updated (entities): LGES、比亞迪、Tesla、鴻海、Waymo、現代汽車、起亞、Volkswagen、三菱汽車、豐田
+- Countries updated: [[countries/台灣]], [[countries/美國]], [[countries/歐洲]], [[countries/德國]], [[countries/中國]], [[countries/韓國]], [[countries/日本]], [[countries/印度]], [[countries/東南亞]]
+- New pages created: 無
+- Key additions: 賓士歐洲自營充電網（47站374口）賣Electra、福斯Elli退出硬體；LGES 3Q26營收9.64兆韓元（+59%）、全年目標上修至+35~40%；比亞迪10月純電305,743輛首破30萬、出口170,194輛；泰國2027-01起全進口EV消費稅10%→35%；舍弗勒裁員3,460人；Tesla上海廠10月+10.3%；台灣10月電動車掛牌2,598輛、Foxtron首奪品牌冠軍；Waymo佔用聖地牙哥公共快充；塔塔取得Iveco 89.42%；Hyundai 10月混動29%、Kia EV3首月976輛。
+- 備註: Digitimes剪輯檔無單篇網址，已於來源頁註明；比亞迪10月純電＋插混與總計差7,043輛、累計插混數字疑誤植（待核對）；Iveco合併後營收／銷量口徑（本批210億歐元／59萬輛 vs 前批220億歐元／54萬輛）待核對；LGES補貼占營業利益過半。
+

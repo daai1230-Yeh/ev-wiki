@@ -1,7 +1,7 @@
 ---
 tags: [concept]
-sources: [gm-ford-q1-2026-sales, us-ev-battery-demand-mismatch, rivian-r2-range-specs, vw-id4-chattanooga-stop, tesla-25k-ev-us-price-parity, slate-auto-ev-pickup, ford-ev-restructure-doug-field, vw-id4-us-writedown, tesla-q1-2026-earnings, gm-ev-delay-detroit-three, nissan-mississippi-ev-abandonment, honda-canada-ev-freeze-2026, tesla-model-s-final-production, mazda-ev-delay-2029, ford-catl-michigan-factory-2026, honda-9b-loss-hybrid-pivot-2026, tesla-model-y-price-bump-2026, congress-ev-annual-fee-2026, rivian-r2-deliveries-2026, chevy-bolt-2027-review, 駐外新聞-美國-2025, ev-news-2026-09-18-digest, ev-news-2026-09-20-digest, ev-news-2026-09-22-electrive-en, ev-news-2026-09-26-electrive-en, ev-news-2026-09-28-digest, ev-news-2026-10-05-digitimes, ev-news-2026-10-07-electrive-en, ev-news-2026-10-22-insideevs, ev-news-2026-10-27-digitimes, ev-news-2026-10-27-electrive-en, ev-news-2026-10-27-insideevs, ev-news-2026-10-29-insideevs, ev-news-2026-10-30-electrive-en, ev-news-2026-10-30-insideevs, ev-news-2026-11-02-electrive-en, ev-news-2026-11-02-digitimes]
-updated: 2026-11-02
+sources: [gm-ford-q1-2026-sales, us-ev-battery-demand-mismatch, rivian-r2-range-specs, vw-id4-chattanooga-stop, tesla-25k-ev-us-price-parity, slate-auto-ev-pickup, ford-ev-restructure-doug-field, vw-id4-us-writedown, tesla-q1-2026-earnings, gm-ev-delay-detroit-three, nissan-mississippi-ev-abandonment, honda-canada-ev-freeze-2026, tesla-model-s-final-production, mazda-ev-delay-2029, ford-catl-michigan-factory-2026, honda-9b-loss-hybrid-pivot-2026, tesla-model-y-price-bump-2026, congress-ev-annual-fee-2026, rivian-r2-deliveries-2026, chevy-bolt-2027-review, 駐外新聞-美國-2025, ev-news-2026-09-18-digest, ev-news-2026-09-20-digest, ev-news-2026-09-22-electrive-en, ev-news-2026-09-26-electrive-en, ev-news-2026-09-28-digest, ev-news-2026-10-05-digitimes, ev-news-2026-10-07-electrive-en, ev-news-2026-10-22-insideevs, ev-news-2026-10-27-digitimes, ev-news-2026-10-27-electrive-en, ev-news-2026-10-27-insideevs, ev-news-2026-10-29-insideevs, ev-news-2026-10-30-electrive-en, ev-news-2026-10-30-insideevs, ev-news-2026-11-02-electrive-en, ev-news-2026-11-02-digitimes, ev-news-2026-11-04-insideevs, ev-news-2026-11-04-digitimes]
+updated: 2026-11-04
 ---
 
 # 美國 EV 市場與政策
@@ -476,3 +476,16 @@ Q3美國BEV銷量年減39.5%（Cox／KBB）；德系車8月BEV榜名次落後；
 **觀察**：Rivian 4Q交車是否落在預測區間；Ford SSV性能與價格公布。
 
 - 參見：[[sources/ev-news-2026-11-02-electrive-en]] | [[sources/ev-news-2026-11-02-digitimes]] | [[entities/Rivian]] | [[entities/福特]] | [[countries/美國]]
+
+## 現代起亞EV回升、Volvo美國承壓、油價推升混動（2026-11）
+
+> **結論**：美國EV需求在低基期上回升，但混動受益更大——Hyundai 10月混動占比創高達29%，Kia混動年增114%；Volvo則稱美國「難以獲利」，南卡廠僅20%稼動率。
+
+**主因**：
+- 基期：2025年10月是聯邦抵免9月到期後的低點，故Ioniq 5 +21%（1,981輛）、EV9 +111%（1,406輛）、EV6 +58%（803輛）屬反彈，非結構性成長；伊朗戰爭後油價居高推升混動。
+- 價格帶：Kia EV3起價31,385美元（含運費）已售976輛，與Nissan Leaf、Chevrolet Bolt同為最便宜EV之列。
+- 關稅與在地化：Volvo CEO承認「早該意識到」關稅風險，EX60優先供歐洲，規劃2030年前在南卡羅來納再推多動力車款，因「美國電動化比世界其他地方慢」。
+
+**觀察**：11月Kia EV3爬坡；Hyundai供應Waymo Ioniq 5 Robotaxi的規模；Volvo美國在地化進度。
+
+- 參見：[[sources/ev-news-2026-11-04-insideevs]] | [[sources/ev-news-2026-11-04-digitimes]] | [[concepts/平價電動車市場]] | [[entities/現代汽車]] | [[entities/起亞]] | [[countries/美國]]

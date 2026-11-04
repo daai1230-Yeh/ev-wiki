@@ -1,7 +1,7 @@
 ---
 tags: [concept]
-sources: [thailand-ev-market-2026, china-autonomous-driving-overseas, foxconn-mitsubishi-fuso-electric-bus, byd-malaysia-factory-negotiation, byd-malaysia-factory-update-2026, malaysia-cbv-ev-regulation-2026, gwm-ora5-thailand-2026, geely-thailand-pickup-2026, mitsubishi-motors-middle-east-routes-2026, mitsubishi-hev-japan-2028, lges-honda-vietnam-bss-2026, volvo-ex30-thailand-fire-2026, hanoi-1000-bss-2026, ev-news-digest-jun1-10-2026, ev-news-2026-09-18-digest, ev-news-2026-09-18-digitimes, ev-news-2026-09-19-electrive-en, ev-news-2026-09-22-digest, ev-news-2026-09-22-electrive-en, ev-news-2026-09-28-digest, ev-news-2026-09-29-digitimes, ev-news-2026-10-01-digitimes, ev-news-2026-10-06-digest, ev-news-2026-10-22-digest, ev-news-2026-10-22-electrive-en, ev-news-2026-10-27-electrive-en, ev-news-2026-10-29-electrive-en]
-updated: 2026-10-29
+sources: [thailand-ev-market-2026, china-autonomous-driving-overseas, foxconn-mitsubishi-fuso-electric-bus, byd-malaysia-factory-negotiation, byd-malaysia-factory-update-2026, malaysia-cbv-ev-regulation-2026, gwm-ora5-thailand-2026, geely-thailand-pickup-2026, mitsubishi-motors-middle-east-routes-2026, mitsubishi-hev-japan-2028, lges-honda-vietnam-bss-2026, volvo-ex30-thailand-fire-2026, hanoi-1000-bss-2026, ev-news-digest-jun1-10-2026, ev-news-2026-09-18-digest, ev-news-2026-09-18-digitimes, ev-news-2026-09-19-electrive-en, ev-news-2026-09-22-digest, ev-news-2026-09-22-electrive-en, ev-news-2026-09-28-digest, ev-news-2026-09-29-digitimes, ev-news-2026-10-01-digitimes, ev-news-2026-10-06-digest, ev-news-2026-10-22-digest, ev-news-2026-10-22-electrive-en, ev-news-2026-10-27-electrive-en, ev-news-2026-10-29-electrive-en, ev-news-2026-11-04-cn-misc]
+updated: 2026-11-04
 ---
 
 # 東南亞 EV 市場
@@ -265,3 +265,13 @@ updated: 2026-10-29
 **觀察**：印尼電巴標案；泰國加氫站布局。
 
 - 參見：[[sources/ev-news-2026-10-29-electrive-en]] | [[concepts/電動巴士市場]] | [[concepts/氫燃料電池商用車]] | [[countries/東南亞]]
+
+## 泰國全進口EV消費稅10%→35%（2026-11）
+
+> **結論**：泰國2027-01-01起將全進口電動車消費稅由10%調至35%（+25個百分點），以消費稅（非關稅）繞過自由貿易協定限制，逼進口品牌在當地設廠。
+
+**主因**：稅率依在泰經濟價值（投資、組裝、零組件、技術就業）差別適用，已有生產基地者可進口部分車款測試市場；業界預期年底可能出現提前購車潮；已有泰國生產基地的車商相對有利，純進口品牌承壓（個別品牌受影響程度未見報導，待核對）。價格影響取決於課稅基礎與車商吸收程度，不等於25個百分點。
+
+**觀察**：2026-12提前購車與2027-Q1銷量落差；未設廠進口品牌是否宣布在地組裝。
+
+- 參見：[[sources/ev-news-2026-11-04-cn-misc]] | [[concepts/中國EV出海策略]] | [[entities/比亞迪]] | [[countries/東南亞]]

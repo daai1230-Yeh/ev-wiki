@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [waymo-arizona-expansion-2026, ev-news-2026-06-25, ev-news-2026-08-30-31-cn-misc, ev-news-2026-08-31-digitimes, ev-news-2026-09-01-digitimes, ev-news-2026-09-02-electrive-en, ev-news-2026-10-07-electrive-en, ev-news-2026-10-22-insideevs, ev-news-2026-10-27-digitimes, ev-news-2026-11-02-digitimes, ev-news-2026-11-02-cn-misc]
-updated: 2026-11-02
+sources: [waymo-arizona-expansion-2026, ev-news-2026-06-25, ev-news-2026-08-30-31-cn-misc, ev-news-2026-08-31-digitimes, ev-news-2026-09-01-digitimes, ev-news-2026-09-02-electrive-en, ev-news-2026-10-07-electrive-en, ev-news-2026-10-22-insideevs, ev-news-2026-10-27-digitimes, ev-news-2026-11-02-digitimes, ev-news-2026-11-02-cn-misc, ev-news-2026-11-04-digitimes, ev-news-2026-11-04-insideevs]
+updated: 2026-11-04
 ---
 
 # Waymo
@@ -111,3 +111,13 @@ Waymo與新加坡MOT與LTA合作，2027年起測試、2028年向公眾提供全�
 **觀察**：測試地點與車數；NHTSA草案定案。
 
 - 參見：[[sources/ev-news-2026-11-02-digitimes]] | [[sources/ev-news-2026-11-02-cn-misc]] | [[concepts/Robotaxi自動計程車]] | [[entities/豐田]] | [[entities/NHTSA]] | [[countries/日本]] | [[countries/英國]]
+
+## 聖地牙哥佔用公共快充；Hyundai供應Ioniq 5 Robotaxi（2026-11）
+
+> **結論**：Waymo在聖地牙哥的車隊使公共快充排隊30–60分鐘，地方要求更多管理權；Waymo稱營運成熟後自建專用站；Hyundai預告供應數以萬計Ioniq 5 Robotaxi。
+
+**主因**：Waymo已在美國15座城市服務；市府稱18個月內增設逾50處場地，Waymo須付一般費用；EVgo已有120個專用車位。
+
+**觀察**：Waymo專用充電站；Hyundai供貨時程。
+
+- 參見：[[sources/ev-news-2026-11-04-digitimes]] | [[sources/ev-news-2026-11-04-insideevs]] | [[concepts/Robotaxi自動計程車]] | [[concepts/充電基礎建設]] | [[entities/現代汽車]] | [[countries/美國]]

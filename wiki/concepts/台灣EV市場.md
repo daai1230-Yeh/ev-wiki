@@ -1,7 +1,7 @@
 ---
 tags: [concept]
-sources: [tesla-taiwan-march-2026, taiwan-ev-charging-strategy, taiwan-ev-charging-upower, taiwan-evalue-640kw-charger, taiwan-ev-electrification-progress-2026, ev-news-2026-10-27-digitimes, ev-news-2026-10-30-digitimes, ev-news-2026-11-02-cn-misc, ev-news-2026-11-02-digitimes]
-updated: 2026-11-02
+sources: [tesla-taiwan-march-2026, taiwan-ev-charging-strategy, taiwan-ev-charging-upower, taiwan-evalue-640kw-charger, taiwan-ev-electrification-progress-2026, ev-news-2026-10-27-digitimes, ev-news-2026-10-30-digitimes, ev-news-2026-11-02-cn-misc, ev-news-2026-11-02-digitimes, ev-news-2026-11-04-digitimes]
+updated: 2026-11-04
 ---
 
 # 台灣 EV 市場
@@ -97,3 +97,16 @@ updated: 2026-11-02
 **觀察**：創奕2027興櫃時程；鴻海波蘭協議簽署；FUSO BUS首款電巴時程。
 
 - 參見：[[sources/ev-news-2026-11-02-cn-misc]] | [[sources/ev-news-2026-11-02-digitimes]] | [[concepts/電動巴士市場]] | [[concepts/儲能市場]] | [[entities/鴻海]] | [[entities/三菱FUSO]] | [[countries/台灣]] | [[countries/日本]]
+
+## 10月電動車掛牌-63%、Foxtron首奪品牌冠軍、台灣整車出口三條路（2026-11）
+
+> **結論**：台灣10月電動車總掛牌2,598輛，較9月7,026輛跌逾5成（Tesla全月僅Model Y 16輛），Foxtron以848輛（Cavira 612＋Bria 236）首度奪品牌冠軍、累計市占11.5%；機車市場同期6.01萬輛（月減14.33%），電動機車3,365輛僅月減3.36%。
+
+**主因**：
+- Tesla船期：Tesla大量交車月可達5,000輛以上（9月Model Y單車5,154輛），累計18,648輛、市占54%；空窗月榜首今年三度易主（bZ4X、BMW、Foxtron）→ 台灣榜單由Tesla供貨節奏決定，Foxtron的領先需待Tesla到貨月份驗證。
+- 出口：和泰國瑞Noah／Voxy 10月回銷日本（暌違約15年再有整車輸日）、鴻華先進三菱ASX VR-e第4季銷往紐澳，加上波蘭EMP與三菱扶桑的平台輸出，台灣車輛出口擴為三條路。
+- 機車：Gogoro 10月2,917輛、市占4.85%（上年4.34%），三陽43.8%；1~10月總掛牌624,743輛。
+
+**觀察**：Tesla 11月到貨後Foxtron是否守住前二；裕隆三義廠產能分配；鴻海波蘭協議。
+
+- 參見：[[sources/ev-news-2026-11-04-digitimes]] | [[entities/鴻海]] | [[entities/Tesla]] | [[entities/豐田]] | [[entities/三菱汽車]] | [[countries/台灣]] | [[countries/日本]]
