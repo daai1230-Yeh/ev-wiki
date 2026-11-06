@@ -2443,3 +2443,13 @@ Pages 375 → 406，Sources 315 → 346
 - Key additions: 賓士歐洲自營充電網（47站374口）賣Electra、福斯Elli退出硬體；LGES 3Q26營收9.64兆韓元（+59%）、全年目標上修至+35~40%；比亞迪10月純電305,743輛首破30萬、出口170,194輛；泰國2027-01起全進口EV消費稅10%→35%；舍弗勒裁員3,460人；Tesla上海廠10月+10.3%；台灣10月電動車掛牌2,598輛、Foxtron首奪品牌冠軍；Waymo佔用聖地牙哥公共快充；塔塔取得Iveco 89.42%；Hyundai 10月混動29%、Kia EV3首月976輛。
 - 備註: Digitimes剪輯檔無單篇網址，已於來源頁註明；比亞迪10月純電＋插混與總計差7,043輛、累計插混數字疑誤植（待核對）；Iveco合併後營收／銷量口徑（本批210億歐元／59萬輛 vs 前批220億歐元／54萬輛）待核對；LGES補貼占營業利益過半。
 
+## [2026-11-06] ingest | EV News 2026-11-04~06 批次（22篇原文，4個來源摘要頁）
+- Summary pages: [[sources/ev-news-2026-11-06-electrive-en]], [[sources/ev-news-2026-11-06-insideevs]], [[sources/ev-news-2026-11-06-digitimes]], [[sources/ev-news-2026-11-06-cn-misc]]
+- Raw assets: raw/assets/2026-11-05-*.md、2026-11-06-*.md（22篇；10-13~11-01共21個標點／全形變體與「HHTD 26」前綴重複檔不重複 ingest）
+- Pages updated (concepts): 電動巴士市場、電池技術路線、儲能市場、充電基礎建設、歐洲EV市場、美國EV市場與政策、中國EV出海策略、東南亞EV市場、印度EV市場、Robotaxi自動計程車、台灣EV市場
+- Pages updated (entities): Tesla、比亞迪、Waymo、豐田、本田、Ebusco、鴻海
+- Countries updated: [[countries/英國]], [[countries/歐洲]], [[countries/德國]], [[countries/美國]], [[countries/巴西]], [[countries/東南亞]], [[countries/印度]], [[countries/日本]], [[countries/台灣]], [[countries/中國]]
+- New pages created: 無
+- Key additions: 歐洲議會環境委員會擬將2035減排降至87.5%；英國10月純電32%（48,858輛）；比亞迪C12英國長途客車、巴西市占9.7%；美國期中選舉民主黨重掌國會、DOE電池在地化計畫；Waymo 2028-01退出Uber、豐田高岡廠同線整合Gen 6；EVgo開出首座Tesla Supercharger站；豐田上修營益至3.9兆日圓；Ebusco增資1,200萬歐元；本田評估歐洲設廠；賓士電動GLC印度組裝；泰國貨物稅35%補充數據。
+- 備註: Digitimes剪輯檔無單篇網址，已於來源頁註明；歐洲議會87.5%與10-29批次「95%（最低87.5%）」口徑待核對；英國BYD巴士累計訂單（逾3,000輛 vs 11-02批次逾1,000輛）待核對；豐田4~9月淨利高於營益原文未說明；積水化學PSC為太陽能電池非車用；鴻華減碳數字為廠商自估；福斯XL1為收藏品趣聞。
+

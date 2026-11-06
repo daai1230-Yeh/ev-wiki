@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [waymo-arizona-expansion-2026, ev-news-2026-06-25, ev-news-2026-08-30-31-cn-misc, ev-news-2026-08-31-digitimes, ev-news-2026-09-01-digitimes, ev-news-2026-09-02-electrive-en, ev-news-2026-10-07-electrive-en, ev-news-2026-10-22-insideevs, ev-news-2026-10-27-digitimes, ev-news-2026-11-02-digitimes, ev-news-2026-11-02-cn-misc, ev-news-2026-11-04-digitimes, ev-news-2026-11-04-insideevs]
-updated: 2026-11-04
+sources: [waymo-arizona-expansion-2026, ev-news-2026-06-25, ev-news-2026-08-30-31-cn-misc, ev-news-2026-08-31-digitimes, ev-news-2026-09-01-digitimes, ev-news-2026-09-02-electrive-en, ev-news-2026-10-07-electrive-en, ev-news-2026-10-22-insideevs, ev-news-2026-10-27-digitimes, ev-news-2026-11-02-digitimes, ev-news-2026-11-02-cn-misc, ev-news-2026-11-04-digitimes, ev-news-2026-11-04-insideevs, ev-news-2026-11-06-electrive-en, ev-news-2026-11-06-insideevs, ev-news-2026-11-06-digitimes]
+updated: 2026-11-06
 ---
 
 # Waymo
@@ -121,3 +121,13 @@ Waymo與新加坡MOT與LTA合作，2027年起測試、2028年向公眾提供全�
 **觀察**：Waymo專用充電站；Hyundai供貨時程。
 
 - 參見：[[sources/ev-news-2026-11-04-digitimes]] | [[sources/ev-news-2026-11-04-insideevs]] | [[concepts/Robotaxi自動計程車]] | [[concepts/充電基礎建設]] | [[entities/現代汽車]] | [[countries/美國]]
+
+## 退出Uber（2028-01）、豐田產線整合、佔用公共快充（2026-11）
+
+> **結論**：Waymo將於2028-01在奧斯汀與亞特蘭大退出Uber、改走自家App；與豐田合作改在高岡工廠產線整合Gen 6；公共快充占用爭議持續。
+
+**主因**：每週逾50萬趟付費載客、15城營運，稱合作「有點像賭博」；豐田規劃2028年前後透過外部夥伴部署L4；車主排隊最長1小時，Waymo稱派員協助並自建站。
+
+**觀察**：2028-01自家App體驗；新增12城名單。
+
+- 參見：[[sources/ev-news-2026-11-06-electrive-en]] | [[sources/ev-news-2026-11-06-insideevs]] | [[sources/ev-news-2026-11-06-digitimes]] | [[concepts/Robotaxi自動計程車]] | [[concepts/充電基礎建設]] | [[entities/豐田]] | [[countries/美國]]

@@ -1,7 +1,7 @@
 ---
 tags: [concept]
-sources: [electric-bus-market-2025-global, delhi-ev-policy-2026, vinfast-india-investment, india-ev-commercial-update-2026, india-tata-jsw-battery-rd-2026, mahindra-ev-expansion-2026, ather-energy-el-platform-2026, india-2w-market-fy27-bifurcation-2026, india-1bn-ev-commercial-incentives-2026, china-catl-battery-tech-export-2026, tesla-india-factory-exit-2026, honda-india-ev-hybrid-2026, tata-stellantis-jeep-india-2026, india-electric-bus-market-2025, tata-chery-avinya-platform-2026, delhi-ev-7year-high-2026, toptec-india-battery-equipment-2026, ev-news-2026-09-18-electrive-en, ev-news-2026-09-20-india, ev-news-2026-09-21-india, ev-news-2026-09-24-electrive-en, ev-news-2026-09-24-digest, ev-news-2026-10-12-digest, ev-news-2026-10-15-digest, ev-news-2026-10-19-digest, ev-news-2026-10-29-electrive-en, ev-news-2026-11-02-sustainablebus]
-updated: 2026-11-02
+sources: [electric-bus-market-2025-global, delhi-ev-policy-2026, vinfast-india-investment, india-ev-commercial-update-2026, india-tata-jsw-battery-rd-2026, mahindra-ev-expansion-2026, ather-energy-el-platform-2026, india-2w-market-fy27-bifurcation-2026, india-1bn-ev-commercial-incentives-2026, china-catl-battery-tech-export-2026, tesla-india-factory-exit-2026, honda-india-ev-hybrid-2026, tata-stellantis-jeep-india-2026, india-electric-bus-market-2025, tata-chery-avinya-platform-2026, delhi-ev-7year-high-2026, toptec-india-battery-equipment-2026, ev-news-2026-09-18-electrive-en, ev-news-2026-09-20-india, ev-news-2026-09-21-india, ev-news-2026-09-24-electrive-en, ev-news-2026-09-24-digest, ev-news-2026-10-12-digest, ev-news-2026-10-15-digest, ev-news-2026-10-19-digest, ev-news-2026-10-29-electrive-en, ev-news-2026-11-02-sustainablebus, ev-news-2026-11-06-electrive-en]
+updated: 2026-11-06
 ---
 
 # 印度 EV 市場
@@ -363,3 +363,13 @@ JSW集團子公司發表電動商用車新品牌Ampstar，馬哈拉施特拉邦9
 **觀察**：Jakson 220輛車廠與交付時程；塔塔取得Iveco後的電動巴士整合。
 
 - 參見：[[sources/ev-news-2026-11-02-sustainablebus]] | [[concepts/電動巴士市場]] | [[concepts/電動商用車]] | [[countries/印度]]
+
+## 賓士電動GLC在浦那組裝：EV GST 5% vs 燃油40%（2026-11）
+
+> **結論**：賓士在Chakan廠以CKD套件組裝電動GLC 400，售價785萬盧比僅比入門燃油GLC貴約2%，主因EV GST僅5%、燃油車40%，首36小時逾550筆預訂、總預訂逾1,000筆。
+
+**主因**：稅率差使豪華EV價差縮小到接近燃油車；賓士CEO稱已售罄至2027年3月、要求增配套件；印度成為繼泰國後第二個電動GLC組裝點、全球第4個。
+
+**觀察**：排灣節（11/8）後交車量；套件配額與在地化比例。
+
+- 參見：[[sources/ev-news-2026-11-06-electrive-en]] | [[countries/印度]]

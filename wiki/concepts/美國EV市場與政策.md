@@ -1,7 +1,7 @@
 ---
 tags: [concept]
-sources: [gm-ford-q1-2026-sales, us-ev-battery-demand-mismatch, rivian-r2-range-specs, vw-id4-chattanooga-stop, tesla-25k-ev-us-price-parity, slate-auto-ev-pickup, ford-ev-restructure-doug-field, vw-id4-us-writedown, tesla-q1-2026-earnings, gm-ev-delay-detroit-three, nissan-mississippi-ev-abandonment, honda-canada-ev-freeze-2026, tesla-model-s-final-production, mazda-ev-delay-2029, ford-catl-michigan-factory-2026, honda-9b-loss-hybrid-pivot-2026, tesla-model-y-price-bump-2026, congress-ev-annual-fee-2026, rivian-r2-deliveries-2026, chevy-bolt-2027-review, 駐外新聞-美國-2025, ev-news-2026-09-18-digest, ev-news-2026-09-20-digest, ev-news-2026-09-22-electrive-en, ev-news-2026-09-26-electrive-en, ev-news-2026-09-28-digest, ev-news-2026-10-05-digitimes, ev-news-2026-10-07-electrive-en, ev-news-2026-10-22-insideevs, ev-news-2026-10-27-digitimes, ev-news-2026-10-27-electrive-en, ev-news-2026-10-27-insideevs, ev-news-2026-10-29-insideevs, ev-news-2026-10-30-electrive-en, ev-news-2026-10-30-insideevs, ev-news-2026-11-02-electrive-en, ev-news-2026-11-02-digitimes, ev-news-2026-11-04-insideevs, ev-news-2026-11-04-digitimes]
-updated: 2026-11-04
+sources: [gm-ford-q1-2026-sales, us-ev-battery-demand-mismatch, rivian-r2-range-specs, vw-id4-chattanooga-stop, tesla-25k-ev-us-price-parity, slate-auto-ev-pickup, ford-ev-restructure-doug-field, vw-id4-us-writedown, tesla-q1-2026-earnings, gm-ev-delay-detroit-three, nissan-mississippi-ev-abandonment, honda-canada-ev-freeze-2026, tesla-model-s-final-production, mazda-ev-delay-2029, ford-catl-michigan-factory-2026, honda-9b-loss-hybrid-pivot-2026, tesla-model-y-price-bump-2026, congress-ev-annual-fee-2026, rivian-r2-deliveries-2026, chevy-bolt-2027-review, 駐外新聞-美國-2025, ev-news-2026-09-18-digest, ev-news-2026-09-20-digest, ev-news-2026-09-22-electrive-en, ev-news-2026-09-26-electrive-en, ev-news-2026-09-28-digest, ev-news-2026-10-05-digitimes, ev-news-2026-10-07-electrive-en, ev-news-2026-10-22-insideevs, ev-news-2026-10-27-digitimes, ev-news-2026-10-27-electrive-en, ev-news-2026-10-27-insideevs, ev-news-2026-10-29-insideevs, ev-news-2026-10-30-electrive-en, ev-news-2026-10-30-insideevs, ev-news-2026-11-02-electrive-en, ev-news-2026-11-02-digitimes, ev-news-2026-11-04-insideevs, ev-news-2026-11-04-digitimes, ev-news-2026-11-06-insideevs, ev-news-2026-11-06-digitimes]
+updated: 2026-11-06
 ---
 
 # 美國 EV 市場與政策
@@ -489,3 +489,16 @@ Q3美國BEV銷量年減39.5%（Cox／KBB）；德系車8月BEV榜名次落後；
 **觀察**：11月Kia EV3爬坡；Hyundai供應Waymo Ioniq 5 Robotaxi的規模；Volvo美國在地化進度。
 
 - 參見：[[sources/ev-news-2026-11-04-insideevs]] | [[sources/ev-news-2026-11-04-digitimes]] | [[concepts/平價電動車市場]] | [[entities/現代汽車]] | [[entities/起亞]] | [[countries/美國]]
+
+## 期中選舉民主黨重掌國會、DOE電池在地化計畫、二手EV去化加速（2026-11）
+
+> **結論**：美國EV政策進入「白宮與國會拉鋸」——民主黨取得參眾兩院多數，可能尋求恢復7,500美元稅額抵免與CAFE罰款，但須面對川普否決權；DOE同時推出2030年電池在地化三步驟計畫，二手EV則因油價與供給少而去化加快。
+
+**主因**：
+- 政策：補助、關稅與北美供應鏈是三大爭點，真正改變路線的關鍵在2028年大選；Tesla與SpaceX的德州大本營可能面臨更嚴格監管 → 車廠需保留燃油、混合與純電的產品彈性。
+- 供應鏈：DOE引BNEF電池需求2025–2035年由179 GWh增至707 GWh；子組件（陽極、陰極、電解液、隔離膜）仍多在中國；E2稱2022–2026年美國取消或縮減電池專案420億美元、逾8.5萬個工作。
+- 二手市場：二手EV均價年增9.8%、在庫41.9天（快於燃油車54.8天），但供給僅44,434輛 vs 燃油1,384,383輛；最暢銷為Audi Q4 E-Tron Sportback、Toyota bZ4X、Lexus RZ 300e，Tesla、Lucid、Rivian均不在前十 → 平價小型EV是二手需求主力。
+
+**觀察**：新國會對EV稅額抵免的首批法案；DOE計畫的實際撥款；二手EV價格是否持續高於混動。
+
+- 參見：[[sources/ev-news-2026-11-06-insideevs]] | [[sources/ev-news-2026-11-06-digitimes]] | [[concepts/北美EV關稅與政策]] | [[concepts/電池回收]] | [[entities/Tesla]] | [[countries/美國]]

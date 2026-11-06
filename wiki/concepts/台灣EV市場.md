@@ -1,7 +1,7 @@
 ---
 tags: [concept]
-sources: [tesla-taiwan-march-2026, taiwan-ev-charging-strategy, taiwan-ev-charging-upower, taiwan-evalue-640kw-charger, taiwan-ev-electrification-progress-2026, ev-news-2026-10-27-digitimes, ev-news-2026-10-30-digitimes, ev-news-2026-11-02-cn-misc, ev-news-2026-11-02-digitimes, ev-news-2026-11-04-digitimes]
-updated: 2026-11-04
+sources: [tesla-taiwan-march-2026, taiwan-ev-charging-strategy, taiwan-ev-charging-upower, taiwan-evalue-640kw-charger, taiwan-ev-electrification-progress-2026, ev-news-2026-10-27-digitimes, ev-news-2026-10-30-digitimes, ev-news-2026-11-02-cn-misc, ev-news-2026-11-02-digitimes, ev-news-2026-11-04-digitimes, ev-news-2026-11-06-digitimes]
+updated: 2026-11-06
 ---
 
 # 台灣 EV 市場
@@ -110,3 +110,13 @@ updated: 2026-11-04
 **觀察**：Tesla 11月到貨後Foxtron是否守住前二；裕隆三義廠產能分配；鴻海波蘭協議。
 
 - 參見：[[sources/ev-news-2026-11-04-digitimes]] | [[entities/鴻海]] | [[entities/Tesla]] | [[entities/豐田]] | [[entities/三菱汽車]] | [[countries/台灣]] | [[countries/日本]]
+
+## 鴻華範疇三占77%、帶動400家供應商減碳（2026-11）
+
+> **結論**：鴻華先進總經理陳清亞指出電動車整體能源效率可達89%（約汽油車4倍），但鴻華盤查發現範疇三占77%，下一步關鍵在帶動400多家供應商低碳化。
+
+**主因**：高雄橋頭廠要求LEED黃金級並導入太陽能，廠內儲能櫃採自家退役電池包；估算累積10萬輛每年減碳17.6萬噸、100萬輛減176.3萬噸（鴻華自估）。
+
+**觀察**：供應商減碳進度與採購標準；橋頭廠投產時程。
+
+- 參見：[[sources/ev-news-2026-11-06-digitimes]] | [[entities/鴻海]] | [[concepts/電池回收]] | [[countries/台灣]]

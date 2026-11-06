@@ -1,6 +1,6 @@
 # Wiki Index
 
-Last updated: 2026-11-04 | Pages: 499 | Sources: 593
+Last updated: 2026-11-06 | Pages: 499 | Sources: 597
 
 ---
 
@@ -97,6 +97,10 @@ Last updated: 2026-11-04 | Pages: 499 | Sources: 593
 - [[sources/ev-news-2026-10-12-digest]] — 中文財經批次8篇：陸混動車輸歐恐砍半、豐田泰國殘值貸款、現代印度1,000萬輛、華德電巴、桃園A21、雙層客運補助縮水、Starlink印度。(2026-10-12)
 - [[sources/ev-news-2026-10-12-digitimes-2]] — Digitimes CarTech補充2篇：豐田、廣汽、一汽三方協議正式簽署、麗升跨足充電樁（註：剪輯檔無單篇網址）。(2026-10-12)
 - [[sources/ev-news-2026-10-12-14-digitimes]] — Digitimes CarTech 9篇：中國新能源車出口退稅2027-04起由13%降至9%（含評析）、歐盟HEV／PHEV年35萬輛配額、LGES大進機械轉單與L&F LFP長約、台灣能管法帶動儲能、寰聖／桓鼎、裕日車估車市42萬輛（全數附原文網址）。(2026-10-14)
+- [[sources/ev-news-2026-11-06-electrive-en]] — electrive 8篇：BYD C12英國長途客車、慕尼黑自駕電巴、賓士微轉換器恆定800V、Ebusco 1,200萬歐元增資、Waymo佔用公共快充、賓士電動GLC印度組裝、Tesla柏林工程中心、英國10月純電32%。(2026-11-06)
+- [[sources/ev-news-2026-11-06-insideevs]] — InsideEVs 5篇：美國DOE電池在地化計畫、二手EV去化加速、Waymo退出Uber（2028-01）、EVgo採Tesla Supercharger硬體、福斯XL1拍賣。(2026-11-06)
+- [[sources/ev-news-2026-11-06-digitimes]] — Digitimes CarTech 7篇：鴻華淨零、比亞迪巴西市占9.7%、積水化學PSC、豐田×Waymo同廠整合、本田評估歐洲生產、美國期中選舉、豐田上修財測（註：剪輯檔無單篇網址）。(2026-11-06)
+- [[sources/ev-news-2026-11-06-cn-misc]] — 中文媒體Google Alerts 2篇：歐洲議會擬將2035減排降至87.5%、泰國進口純電貨物稅35%。(2026-11-06)
 - [[sources/ev-news-2026-11-04-electrive-en]] — electrive 2篇：塔塔取得Iveco 89.42%（接受率87.8%、要約價14.40歐元）、福斯Elli退出硬體聚焦數位充電與V2G。(2026-11-04)
 - [[sources/ev-news-2026-11-04-insideevs]] — InsideEVs 4篇：BP Pulse併入ChargeHub漫遊、賓士歐洲充電網賣Electra、Hyundai 10月混動29%與Kia EV3、Volvo美國承壓。(2026-11-04)
 - [[sources/ev-news-2026-11-04-digitimes]] — Digitimes CarTech 5篇：台灣10月機車掛牌、鴻海台灣汽車出口三條路、LGES 3Q26營收創高、Waymo佔用聖地牙哥快充、Foxtron首奪台灣品牌冠軍（註：剪輯檔無單篇網址）。(2026-11-04)

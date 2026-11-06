@@ -1,7 +1,7 @@
 ---
 tags: [concept]
-sources: [thailand-ev-market-2026, china-autonomous-driving-overseas, foxconn-mitsubishi-fuso-electric-bus, byd-malaysia-factory-negotiation, byd-malaysia-factory-update-2026, malaysia-cbv-ev-regulation-2026, gwm-ora5-thailand-2026, geely-thailand-pickup-2026, mitsubishi-motors-middle-east-routes-2026, mitsubishi-hev-japan-2028, lges-honda-vietnam-bss-2026, volvo-ex30-thailand-fire-2026, hanoi-1000-bss-2026, ev-news-digest-jun1-10-2026, ev-news-2026-09-18-digest, ev-news-2026-09-18-digitimes, ev-news-2026-09-19-electrive-en, ev-news-2026-09-22-digest, ev-news-2026-09-22-electrive-en, ev-news-2026-09-28-digest, ev-news-2026-09-29-digitimes, ev-news-2026-10-01-digitimes, ev-news-2026-10-06-digest, ev-news-2026-10-22-digest, ev-news-2026-10-22-electrive-en, ev-news-2026-10-27-electrive-en, ev-news-2026-10-29-electrive-en, ev-news-2026-11-04-cn-misc]
-updated: 2026-11-04
+sources: [thailand-ev-market-2026, china-autonomous-driving-overseas, foxconn-mitsubishi-fuso-electric-bus, byd-malaysia-factory-negotiation, byd-malaysia-factory-update-2026, malaysia-cbv-ev-regulation-2026, gwm-ora5-thailand-2026, geely-thailand-pickup-2026, mitsubishi-motors-middle-east-routes-2026, mitsubishi-hev-japan-2028, lges-honda-vietnam-bss-2026, volvo-ex30-thailand-fire-2026, hanoi-1000-bss-2026, ev-news-digest-jun1-10-2026, ev-news-2026-09-18-digest, ev-news-2026-09-18-digitimes, ev-news-2026-09-19-electrive-en, ev-news-2026-09-22-digest, ev-news-2026-09-22-electrive-en, ev-news-2026-09-28-digest, ev-news-2026-09-29-digitimes, ev-news-2026-10-01-digitimes, ev-news-2026-10-06-digest, ev-news-2026-10-22-digest, ev-news-2026-10-22-electrive-en, ev-news-2026-10-27-electrive-en, ev-news-2026-10-29-electrive-en, ev-news-2026-11-04-cn-misc, ev-news-2026-11-06-cn-misc]
+updated: 2026-11-06
 ---
 
 # 東南亞 EV 市場
@@ -275,3 +275,13 @@ updated: 2026-11-04
 **觀察**：2026-12提前購車與2027-Q1銷量落差；未設廠進口品牌是否宣布在地組裝。
 
 - 參見：[[sources/ev-news-2026-11-04-cn-misc]] | [[concepts/中國EV出海策略]] | [[entities/比亞迪]] | [[countries/東南亞]]
+
+## 泰國貨物稅35%：進口96%來自中國、日系政策取向（2026-11）
+
+> **結論**：泰國進口純電貨物稅10%→35%（2027-01-01）不只是產業政策，也是在中日車廠之間的取向——工業部長稱優先重視長年投資的供應鏈，尤其是日系。
+
+**主因**：泰國為東南亞第三大車市（次於馬來西亞與印尼），1~9月電動車占31%，但本地產量僅進口＋銷量的一部分；進口純電23.6億美元中96%來自中國；比亞迪、長城雖在泰設廠仍有車款整車進口。Kasikorn提醒：需求疲弱下，貨物稅只改變成本結構，不保證車廠擴大投資。
+
+**觀察**：未設廠品牌是否宣布在地組裝；日系是否擴大泰國HEV與EV投資。
+
+- 參見：[[sources/ev-news-2026-11-06-cn-misc]] | [[concepts/中國EV出海策略]] | [[countries/東南亞]]

@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: ["ebusco-sale-2026", "2026-08-20-Ebusco secures six million euros from shareholder.md", "2026-10-14-Ebusco receives further €5.86 million support from Gotion (but needs additional short-term funding).md"]
-updated: 2026-10-14
+sources: ["ebusco-sale-2026", "2026-08-20-Ebusco secures six million euros from shareholder.md", "2026-10-14-Ebusco receives further €5.86 million support from Gotion (but needs additional short-term funding).md", "ev-news-2026-11-06-electrive-en"]
+updated: 2026-11-06
 ---
 
 # Ebusco
@@ -35,3 +35,13 @@ updated: 2026-10-14
 - [[concepts/電動巴士市場]]
 - [[syntheses/電動巴士產業全景]]
 - [[countries/歐洲]]
+
+## 1,200萬歐元增資只撐到2027年Q2（2026-11）
+
+> **結論**：Ebusco獲5位現有投資人共1,200萬歐元增資（每股0.05歐元），僅撐到2027年Q2；3Q26僅交3輛，9/30訂單積壓195輛中僅77輛確定。
+
+**主因**：生產大多外包中國、交付極慢，一部分資金償還710萬歐元過橋貸款（12/1到期），仍缺約3,000萬歐元營運資金融資；盧昂68輛Ebusco 3.0待交，國軒高科子公司提供586萬歐元生產支援。
+
+**觀察**：12/1過橋貸款與股東會批准；盧昂訂單交付。
+
+- 參見：[[sources/ev-news-2026-11-06-electrive-en]] | [[concepts/電動巴士市場]] | [[countries/歐洲]]
