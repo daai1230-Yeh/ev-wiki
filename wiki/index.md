@@ -1,6 +1,6 @@
 # Wiki Index
 
-Last updated: 2026-11-06 | Pages: 499 | Sources: 597
+Last updated: 2026-11-09 | Pages: 499 | Sources: 599
 
 ---
 
@@ -97,6 +97,8 @@ Last updated: 2026-11-06 | Pages: 499 | Sources: 597
 - [[sources/ev-news-2026-10-12-digest]] — 中文財經批次8篇：陸混動車輸歐恐砍半、豐田泰國殘值貸款、現代印度1,000萬輛、華德電巴、桃園A21、雙層客運補助縮水、Starlink印度。(2026-10-12)
 - [[sources/ev-news-2026-10-12-digitimes-2]] — Digitimes CarTech補充2篇：豐田、廣汽、一汽三方協議正式簽署、麗升跨足充電樁（註：剪輯檔無單篇網址）。(2026-10-12)
 - [[sources/ev-news-2026-10-12-14-digitimes]] — Digitimes CarTech 9篇：中國新能源車出口退稅2027-04起由13%降至9%（含評析）、歐盟HEV／PHEV年35萬輛配額、LGES大進機械轉單與L&F LFP長約、台灣能管法帶動儲能、寰聖／桓鼎、裕日車估車市42萬輛（全數附原文網址）。(2026-10-14)
+- [[sources/ev-news-2026-11-09-digitimes]] — Digitimes CarTech 2篇：豐田成立Toyota Robotics（2027-01）、南韓電動車RCA由2.92降至1.48中國升至1.49（註：剪輯檔無單篇網址）。(2026-11-09)
+- [[sources/ev-news-2026-11-09-cn-misc]] — 中文媒體Google Alerts 3篇：工研院預估2026全球電動車+11.9%、比亞迪可望首進前五、印度電動三輪車逾50%、馬斯克稱愛中國。(2026-11-09)
 - [[sources/ev-news-2026-11-06-electrive-en]] — electrive 8篇：BYD C12英國長途客車、慕尼黑自駕電巴、賓士微轉換器恆定800V、Ebusco 1,200萬歐元增資、Waymo佔用公共快充、賓士電動GLC印度組裝、Tesla柏林工程中心、英國10月純電32%。(2026-11-06)
 - [[sources/ev-news-2026-11-06-insideevs]] — InsideEVs 5篇：美國DOE電池在地化計畫、二手EV去化加速、Waymo退出Uber（2028-01）、EVgo採Tesla Supercharger硬體、福斯XL1拍賣。(2026-11-06)
 - [[sources/ev-news-2026-11-06-digitimes]] — Digitimes CarTech 7篇：鴻華淨零、比亞迪巴西市占9.7%、積水化學PSC、豐田×Waymo同廠整合、本田評估歐洲生產、美國期中選舉、豐田上修財測（註：剪輯檔無單篇網址）。(2026-11-06)

@@ -2453,3 +2453,13 @@ Pages 375 → 406，Sources 315 → 346
 - Key additions: 歐洲議會環境委員會擬將2035減排降至87.5%；英國10月純電32%（48,858輛）；比亞迪C12英國長途客車、巴西市占9.7%；美國期中選舉民主黨重掌國會、DOE電池在地化計畫；Waymo 2028-01退出Uber、豐田高岡廠同線整合Gen 6；EVgo開出首座Tesla Supercharger站；豐田上修營益至3.9兆日圓；Ebusco增資1,200萬歐元；本田評估歐洲設廠；賓士電動GLC印度組裝；泰國貨物稅35%補充數據。
 - 備註: Digitimes剪輯檔無單篇網址，已於來源頁註明；歐洲議會87.5%與10-29批次「95%（最低87.5%）」口徑待核對；英國BYD巴士累計訂單（逾3,000輛 vs 11-02批次逾1,000輛）待核對；豐田4~9月淨利高於營益原文未說明；積水化學PSC為太陽能電池非車用；鴻華減碳數字為廠商自估；福斯XL1為收藏品趣聞。
 
+## [2026-11-09] ingest | EV News 2026-11-06~09 批次（5篇原文，2個來源摘要頁）
+- Summary pages: [[sources/ev-news-2026-11-09-digitimes]], [[sources/ev-news-2026-11-09-cn-misc]]
+- Raw assets: raw/assets/2026-11-06-Toyota成立機器人部門*.md、2026-11-09-*.md（5篇；其餘23個標點／全形變體與「HHTD 26」前綴重複檔不重複 ingest）
+- Pages updated (concepts): 人形機器人、中國EV出海策略、中國EV市場競爭格局、印度EV市場、東南亞EV市場、台灣EV市場、美國EV市場與政策、歐洲EV市場
+- Pages updated (entities): 豐田、現代汽車、比亞迪、Tesla
+- Countries updated: [[countries/韓國]], [[countries/日本]], [[countries/印度]], [[countries/中國]], [[countries/台灣]], [[countries/東南亞]]
+- New pages created: 無
+- Key additions: Toyota Robotics 2027-01成立；南韓電動車RCA 2.92→1.48、中國1.49、對美出口2025年-86.8%；工研院預估2026全球電動車+11.9%（逾3,600萬輛、占比逾35%）、比亞迪可望首進全球前五；印度9月電動三輪車占比逾50%；泰國EV3.0／3.5在地生產比例升至1:2、1:3；Tesla中國前7月-12.4%。
+- 備註: Digitimes CarTech剪輯檔無單篇網址，已註明（DIGITIMES全球EV預測一篇有網址）；FKI 2030年風險額原文兩種美元換算（16.1億 vs 14.6億）待核對；Tesla中國高管動向含傳聞未證實。
+

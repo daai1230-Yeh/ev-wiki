@@ -1,7 +1,7 @@
 ---
 tags: [concept]
-sources: [thailand-ev-market-2026, china-autonomous-driving-overseas, foxconn-mitsubishi-fuso-electric-bus, byd-malaysia-factory-negotiation, byd-malaysia-factory-update-2026, malaysia-cbv-ev-regulation-2026, gwm-ora5-thailand-2026, geely-thailand-pickup-2026, mitsubishi-motors-middle-east-routes-2026, mitsubishi-hev-japan-2028, lges-honda-vietnam-bss-2026, volvo-ex30-thailand-fire-2026, hanoi-1000-bss-2026, ev-news-digest-jun1-10-2026, ev-news-2026-09-18-digest, ev-news-2026-09-18-digitimes, ev-news-2026-09-19-electrive-en, ev-news-2026-09-22-digest, ev-news-2026-09-22-electrive-en, ev-news-2026-09-28-digest, ev-news-2026-09-29-digitimes, ev-news-2026-10-01-digitimes, ev-news-2026-10-06-digest, ev-news-2026-10-22-digest, ev-news-2026-10-22-electrive-en, ev-news-2026-10-27-electrive-en, ev-news-2026-10-29-electrive-en, ev-news-2026-11-04-cn-misc, ev-news-2026-11-06-cn-misc]
-updated: 2026-11-06
+sources: [thailand-ev-market-2026, china-autonomous-driving-overseas, foxconn-mitsubishi-fuso-electric-bus, byd-malaysia-factory-negotiation, byd-malaysia-factory-update-2026, malaysia-cbv-ev-regulation-2026, gwm-ora5-thailand-2026, geely-thailand-pickup-2026, mitsubishi-motors-middle-east-routes-2026, mitsubishi-hev-japan-2028, lges-honda-vietnam-bss-2026, volvo-ex30-thailand-fire-2026, hanoi-1000-bss-2026, ev-news-digest-jun1-10-2026, ev-news-2026-09-18-digest, ev-news-2026-09-18-digitimes, ev-news-2026-09-19-electrive-en, ev-news-2026-09-22-digest, ev-news-2026-09-22-electrive-en, ev-news-2026-09-28-digest, ev-news-2026-09-29-digitimes, ev-news-2026-10-01-digitimes, ev-news-2026-10-06-digest, ev-news-2026-10-22-digest, ev-news-2026-10-22-electrive-en, ev-news-2026-10-27-electrive-en, ev-news-2026-10-29-electrive-en, ev-news-2026-11-04-cn-misc, ev-news-2026-11-06-cn-misc, ev-news-2026-11-09-cn-misc]
+updated: 2026-11-09
 ---
 
 # 東南亞 EV 市場
@@ -285,3 +285,13 @@ updated: 2026-11-06
 **觀察**：未設廠品牌是否宣布在地組裝；日系是否擴大泰國HEV與EV投資。
 
 - 參見：[[sources/ev-news-2026-11-06-cn-misc]] | [[concepts/中國EV出海策略]] | [[countries/東南亞]]
+
+## 泰國EV3.0／3.5在地生產比例升至1:2、1:3（2026-11）
+
+> **結論**：泰國EV3.0／3.5要求享進口關稅優惠者須依比例在地生產，比例由進口1輛生產1.5輛提高到2026年2輛、2027年3輛，車廠為趕舊制額度，使2026年1月電動車銷量衝出相當4個月的量。
+
+**主因**：與貨物稅35%（2027-01-01）形成雙重在地化壓力；電動化從「加分題」變成車廠的「一把刀」。
+
+**觀察**：2027年1:3比例的達成與車廠調整。
+
+- 參見：[[sources/ev-news-2026-11-09-cn-misc]] | [[concepts/中國EV出海策略]] | [[countries/東南亞]]

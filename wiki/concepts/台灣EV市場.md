@@ -1,7 +1,7 @@
 ---
 tags: [concept]
-sources: [tesla-taiwan-march-2026, taiwan-ev-charging-strategy, taiwan-ev-charging-upower, taiwan-evalue-640kw-charger, taiwan-ev-electrification-progress-2026, ev-news-2026-10-27-digitimes, ev-news-2026-10-30-digitimes, ev-news-2026-11-02-cn-misc, ev-news-2026-11-02-digitimes, ev-news-2026-11-04-digitimes, ev-news-2026-11-06-digitimes]
-updated: 2026-11-06
+sources: [tesla-taiwan-march-2026, taiwan-ev-charging-strategy, taiwan-ev-charging-upower, taiwan-evalue-640kw-charger, taiwan-ev-electrification-progress-2026, ev-news-2026-10-27-digitimes, ev-news-2026-10-30-digitimes, ev-news-2026-11-02-cn-misc, ev-news-2026-11-02-digitimes, ev-news-2026-11-04-digitimes, ev-news-2026-11-06-digitimes, ev-news-2026-11-09-cn-misc]
+updated: 2026-11-09
 ---
 
 # 台灣 EV 市場
@@ -120,3 +120,13 @@ updated: 2026-11-06
 **觀察**：供應商減碳進度與採購標準；橋頭廠投產時程。
 
 - 參見：[[sources/ev-news-2026-11-06-digitimes]] | [[entities/鴻海]] | [[concepts/電池回收]] | [[countries/台灣]]
+
+## 2026台灣新車42萬輛、Model Y單車第3名（2026-11）
+
+> **結論**：工研院預估台灣2026年新車銷量+3.1%至42萬輛，國產車市占微降至50.2%；Tesla Model Y 1~9月為單一車型第3名（純電首見）；中東航運受阻衝擊整車出口（2025年沙烏地、阿聯、科威特占81.1%）。
+
+**主因**：國瑞10月回銷日本、鴻華與三菱合作純電車出口紐澳，可望挹注明年；台灣2029年主辦ITS世界大會，建議結合驗證過的自駕技術與智慧座艙。
+
+**觀察**：中東出口恢復；紐澳出貨。
+
+- 參見：[[sources/ev-news-2026-11-09-cn-misc]] | [[entities/Tesla]] | [[entities/鴻海]] | [[countries/台灣]]

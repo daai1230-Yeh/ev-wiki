@@ -1,7 +1,7 @@
 ---
 tags: [concept]
-sources: [electric-bus-market-2025-global, delhi-ev-policy-2026, vinfast-india-investment, india-ev-commercial-update-2026, india-tata-jsw-battery-rd-2026, mahindra-ev-expansion-2026, ather-energy-el-platform-2026, india-2w-market-fy27-bifurcation-2026, india-1bn-ev-commercial-incentives-2026, china-catl-battery-tech-export-2026, tesla-india-factory-exit-2026, honda-india-ev-hybrid-2026, tata-stellantis-jeep-india-2026, india-electric-bus-market-2025, tata-chery-avinya-platform-2026, delhi-ev-7year-high-2026, toptec-india-battery-equipment-2026, ev-news-2026-09-18-electrive-en, ev-news-2026-09-20-india, ev-news-2026-09-21-india, ev-news-2026-09-24-electrive-en, ev-news-2026-09-24-digest, ev-news-2026-10-12-digest, ev-news-2026-10-15-digest, ev-news-2026-10-19-digest, ev-news-2026-10-29-electrive-en, ev-news-2026-11-02-sustainablebus, ev-news-2026-11-06-electrive-en]
-updated: 2026-11-06
+sources: [electric-bus-market-2025-global, delhi-ev-policy-2026, vinfast-india-investment, india-ev-commercial-update-2026, india-tata-jsw-battery-rd-2026, mahindra-ev-expansion-2026, ather-energy-el-platform-2026, india-2w-market-fy27-bifurcation-2026, india-1bn-ev-commercial-incentives-2026, china-catl-battery-tech-export-2026, tesla-india-factory-exit-2026, honda-india-ev-hybrid-2026, tata-stellantis-jeep-india-2026, india-electric-bus-market-2025, tata-chery-avinya-platform-2026, delhi-ev-7year-high-2026, toptec-india-battery-equipment-2026, ev-news-2026-09-18-electrive-en, ev-news-2026-09-20-india, ev-news-2026-09-21-india, ev-news-2026-09-24-electrive-en, ev-news-2026-09-24-digest, ev-news-2026-10-12-digest, ev-news-2026-10-15-digest, ev-news-2026-10-19-digest, ev-news-2026-10-29-electrive-en, ev-news-2026-11-02-sustainablebus, ev-news-2026-11-06-electrive-en, ev-news-2026-11-09-cn-misc]
+updated: 2026-11-09
 ---
 
 # 印度 EV 市場
@@ -373,3 +373,13 @@ JSW集團子公司發表電動商用車新品牌Ampstar，馬哈拉施特拉邦9
 **觀察**：排灣節（11/8）後交車量；套件配額與在地化比例。
 
 - 參見：[[sources/ev-news-2026-11-06-electrive-en]] | [[countries/印度]]
+
+## 電動三輪車9月滲透率逾50%（2026-11）
+
+> **結論**：印度9月新三輪車中電動占比突破50%（私家車8.5%、二輪11.6%），成為全球最大電動三輪車市場；GST調降讓購車成本約減一成。
+
+**主因**：政府補助與營運成本（燃油三輪每公里為電動的2倍以上）；Mahindra Last Mile Mobility 5年滲透率成長6倍。限制：大都市停車與充電不足、電池芯與稀土磁鐵仰賴進口。印度油耗標準趨嚴，部分品牌累積罰款達數億美元，加速推電動車。
+
+**觀察**：本土電池芯產業進展；充電基礎設施。
+
+- 參見：[[sources/ev-news-2026-11-09-cn-misc]] | [[concepts/電動商用車]] | [[countries/印度]]
