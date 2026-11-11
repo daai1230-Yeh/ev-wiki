@@ -1,6 +1,6 @@
 ---
 tags: [entity]
-sources: [lges-bmw-46series-order, ev-news-2026-06-30-07-01, ev-news-2026-07-10-electrive-batch, ev-news-2026-07-12-13-electrive, ev-news-2026-07-24-27-electrive-en, ev-news-2026-07-29-31-digitimes, ev-news-2026-07-28-30-electrive-en, ev-news-2026-08-27-29-electrive-en, ev-news-2026-09-18-electrive-en, ev-news-2026-09-22-electrive-en, ev-news-2026-09-22-digitimes, ev-news-2026-09-24-electrive-en, ev-news-2026-09-30-electrive-en, ev-news-2026-10-01-electrive-en, ev-news-2026-10-02-electrive-en, ev-news-2026-10-05-electrive-en, ev-news-2026-10-04-digest, ev-news-2026-10-27-digitimes, ev-news-2026-11-11-electrive-en]
+sources: [lges-bmw-46series-order, ev-news-2026-06-30-07-01, ev-news-2026-07-10-electrive-batch, ev-news-2026-07-12-13-electrive, ev-news-2026-07-24-27-electrive-en, ev-news-2026-07-29-31-digitimes, ev-news-2026-07-28-30-electrive-en, ev-news-2026-08-27-29-electrive-en, ev-news-2026-09-18-electrive-en, ev-news-2026-09-22-electrive-en, ev-news-2026-09-22-digitimes, ev-news-2026-09-24-electrive-en, ev-news-2026-09-30-electrive-en, ev-news-2026-10-01-electrive-en, ev-news-2026-10-02-electrive-en, ev-news-2026-10-05-electrive-en, ev-news-2026-10-04-digest, ev-news-2026-10-27-digitimes, ev-news-2026-11-11-electrive-en, ev-news-2026-11-11b-digitimes]
 updated: 2026-11-11
 ---
 
@@ -206,3 +206,13 @@ BMW美國製造以燃油／混動為主，本土化BEV安排年底或2027年；�
 **觀察**：LFP車型與用途範圍。
 
 - 參見：[[sources/ev-news-2026-11-11-electrive-en]] | [[concepts/電池技術路線]] | [[countries/德國]]
+
+## Neue Klasse新增LGES、三星SDI（2026-11）
+
+> **結論**：BMW將LGES、三星SDI納入Neue Klasse 46系列供應鏈，以多軌並進建立美洲與歐洲雙區域防線。
+
+**主因**：就近設廠供貨（LGES美國亞利桑那、三星SDI匈牙利Göd，2028~2029年交貨）→ 補歐美在地建廠落差 → 既有寧德時代、億緯鋰能維持；AESC未列入北美名單，iX5初期電芯仍須自中國供應。
+
+**觀察**：供貨量與合約金額尚未公布。
+
+- 參見：[[sources/ev-news-2026-11-11b-digitimes]] | [[LGES]] | [[三星SDI]] | [[寧德時代]]

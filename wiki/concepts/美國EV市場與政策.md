@@ -1,6 +1,6 @@
 ---
 tags: [concept]
-sources: [gm-ford-q1-2026-sales, us-ev-battery-demand-mismatch, rivian-r2-range-specs, vw-id4-chattanooga-stop, tesla-25k-ev-us-price-parity, slate-auto-ev-pickup, ford-ev-restructure-doug-field, vw-id4-us-writedown, tesla-q1-2026-earnings, gm-ev-delay-detroit-three, nissan-mississippi-ev-abandonment, honda-canada-ev-freeze-2026, tesla-model-s-final-production, mazda-ev-delay-2029, ford-catl-michigan-factory-2026, honda-9b-loss-hybrid-pivot-2026, tesla-model-y-price-bump-2026, congress-ev-annual-fee-2026, rivian-r2-deliveries-2026, chevy-bolt-2027-review, 駐外新聞-美國-2025, ev-news-2026-09-18-digest, ev-news-2026-09-20-digest, ev-news-2026-09-22-electrive-en, ev-news-2026-09-26-electrive-en, ev-news-2026-09-28-digest, ev-news-2026-10-05-digitimes, ev-news-2026-10-07-electrive-en, ev-news-2026-10-22-insideevs, ev-news-2026-10-27-digitimes, ev-news-2026-10-27-electrive-en, ev-news-2026-10-27-insideevs, ev-news-2026-10-29-insideevs, ev-news-2026-10-30-electrive-en, ev-news-2026-10-30-insideevs, ev-news-2026-11-02-electrive-en, ev-news-2026-11-02-digitimes, ev-news-2026-11-04-insideevs, ev-news-2026-11-04-digitimes, ev-news-2026-11-06-insideevs, ev-news-2026-11-06-digitimes, ev-news-2026-11-09-cn-misc, ev-news-2026-11-11-electrive-en, ev-news-2026-11-11-digitimes, ev-news-2026-11-11-insideevs]
+sources: [gm-ford-q1-2026-sales, us-ev-battery-demand-mismatch, rivian-r2-range-specs, vw-id4-chattanooga-stop, tesla-25k-ev-us-price-parity, slate-auto-ev-pickup, ford-ev-restructure-doug-field, vw-id4-us-writedown, tesla-q1-2026-earnings, gm-ev-delay-detroit-three, nissan-mississippi-ev-abandonment, honda-canada-ev-freeze-2026, tesla-model-s-final-production, mazda-ev-delay-2029, ford-catl-michigan-factory-2026, honda-9b-loss-hybrid-pivot-2026, tesla-model-y-price-bump-2026, congress-ev-annual-fee-2026, rivian-r2-deliveries-2026, chevy-bolt-2027-review, 駐外新聞-美國-2025, ev-news-2026-09-18-digest, ev-news-2026-09-20-digest, ev-news-2026-09-22-electrive-en, ev-news-2026-09-26-electrive-en, ev-news-2026-09-28-digest, ev-news-2026-10-05-digitimes, ev-news-2026-10-07-electrive-en, ev-news-2026-10-22-insideevs, ev-news-2026-10-27-digitimes, ev-news-2026-10-27-electrive-en, ev-news-2026-10-27-insideevs, ev-news-2026-10-29-insideevs, ev-news-2026-10-30-electrive-en, ev-news-2026-10-30-insideevs, ev-news-2026-11-02-electrive-en, ev-news-2026-11-02-digitimes, ev-news-2026-11-04-insideevs, ev-news-2026-11-04-digitimes, ev-news-2026-11-06-insideevs, ev-news-2026-11-06-digitimes, ev-news-2026-11-09-cn-misc, ev-news-2026-11-11-electrive-en, ev-news-2026-11-11-digitimes, ev-news-2026-11-11-insideevs, ev-news-2026-11-11b-insideevs, ev-news-2026-11-11b-digitimes]
 updated: 2026-11-11
 ---
 
@@ -525,3 +525,16 @@ Q3美國BEV銷量年減39.5%（Cox／KBB）；德系車8月BEV榜名次落後；
 **觀察**：本田新廠實際車款；Fathom量產爬坡；Cybertruck 2027年6–7月拆線與訂金退還規模。
 
 - 參見：[[sources/ev-news-2026-11-11-electrive-en]] | [[sources/ev-news-2026-11-11-digitimes]] | [[sources/ev-news-2026-11-11-insideevs]] | [[concepts/平價電動車市場]] | [[concepts/Robotaxi自動計程車]] | [[entities/本田]] | [[entities/福特]] | [[entities/Tesla]] | [[countries/美國]] | [[countries/日本]]
+
+## Lucid Cosmos延後至2027、EQS實測續航（2026-11）
+
+> **結論**：Lucid將5萬美元級Cosmos延至2027下半年量產並獲PIF追加17.5億美元貸款；同時Edmunds實測顯示EV續航焦慮已非主要障礙，價格與充電網路仍是。
+
+**主因**：
+- Lucid 3Q交車僅3,806輛，但1–9月年增33%（Gravity）；Cosmos原訂2026年底，延後以避免品質問題，AMP-2（沙烏地）沖壓線完成、車身線加速。
+- 賓士EQS 450+實測539英里（EPA 467），Edmunds已測6款逾500英里、逾90款逾300英里，但該車約12.2萬美元。
+- 本田在俄亥俄投資30億美元建HEV廠，反映美國車廠以HEV避險。
+
+**觀察**：Lucid 2027年1Q公布Cosmos發表與量產時程；灣區Gravity Robotaxi是否如期2027年1Q。
+
+- 參見：[[sources/ev-news-2026-11-11b-insideevs]] | [[sources/ev-news-2026-11-11b-digitimes]] | [[Lucid]] | [[本田]] | [[countries/美國]]

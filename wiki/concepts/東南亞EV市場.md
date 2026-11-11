@@ -1,7 +1,7 @@
 ---
 tags: [concept]
-sources: [thailand-ev-market-2026, china-autonomous-driving-overseas, foxconn-mitsubishi-fuso-electric-bus, byd-malaysia-factory-negotiation, byd-malaysia-factory-update-2026, malaysia-cbv-ev-regulation-2026, gwm-ora5-thailand-2026, geely-thailand-pickup-2026, mitsubishi-motors-middle-east-routes-2026, mitsubishi-hev-japan-2028, lges-honda-vietnam-bss-2026, volvo-ex30-thailand-fire-2026, hanoi-1000-bss-2026, ev-news-digest-jun1-10-2026, ev-news-2026-09-18-digest, ev-news-2026-09-18-digitimes, ev-news-2026-09-19-electrive-en, ev-news-2026-09-22-digest, ev-news-2026-09-22-electrive-en, ev-news-2026-09-28-digest, ev-news-2026-09-29-digitimes, ev-news-2026-10-01-digitimes, ev-news-2026-10-06-digest, ev-news-2026-10-22-digest, ev-news-2026-10-22-electrive-en, ev-news-2026-10-27-electrive-en, ev-news-2026-10-29-electrive-en, ev-news-2026-11-04-cn-misc, ev-news-2026-11-06-cn-misc, ev-news-2026-11-09-cn-misc]
-updated: 2026-11-09
+sources: [thailand-ev-market-2026, china-autonomous-driving-overseas, foxconn-mitsubishi-fuso-electric-bus, byd-malaysia-factory-negotiation, byd-malaysia-factory-update-2026, malaysia-cbv-ev-regulation-2026, gwm-ora5-thailand-2026, geely-thailand-pickup-2026, mitsubishi-motors-middle-east-routes-2026, mitsubishi-hev-japan-2028, lges-honda-vietnam-bss-2026, volvo-ex30-thailand-fire-2026, hanoi-1000-bss-2026, ev-news-digest-jun1-10-2026, ev-news-2026-09-18-digest, ev-news-2026-09-18-digitimes, ev-news-2026-09-19-electrive-en, ev-news-2026-09-22-digest, ev-news-2026-09-22-electrive-en, ev-news-2026-09-28-digest, ev-news-2026-09-29-digitimes, ev-news-2026-10-01-digitimes, ev-news-2026-10-06-digest, ev-news-2026-10-22-digest, ev-news-2026-10-22-electrive-en, ev-news-2026-10-27-electrive-en, ev-news-2026-10-29-electrive-en, ev-news-2026-11-04-cn-misc, ev-news-2026-11-06-cn-misc, ev-news-2026-11-09-cn-misc, ev-news-2026-11-11b-cn-misc, ev-news-2026-11-11b-digitimes]
+updated: 2026-11-11
 ---
 
 # 東南亞 EV 市場
@@ -295,3 +295,16 @@ updated: 2026-11-09
 **觀察**：2027年1:3比例的達成與車廠調整。
 
 - 參見：[[sources/ev-news-2026-11-09-cn-misc]] | [[concepts/中國EV出海策略]] | [[countries/東南亞]]
+
+## 理想汽車五市場右駕布局、三菱汽車與Mazda泰國投產（2026-11）
+
+> **結論**：中國EV業者以右駕車型與本地經銷商加速切入東協，日系車廠（三菱汽車）在泰澳紐的銷量因此承壓，Mazda則以泰國生產小型MHEV SUV回應。
+
+**主因**：
+- 理想汽車簽署泰國、香港、新加坡、菲律賓、越南夥伴協議，今年亞太布局達9個市場；右駕Li MEGA 12月泰國車展首發，後續香港上市，售價與交車日未公布。
+- 三菱汽車上半年在東南亞與澳紐銷量年減11~31%，全年預估減12~27%，歸因中國車廠EV擴張 → 全年銷量目標由85.7萬降至76.4萬輛 → 日系在區域市佔承壓。
+- Mazda新一代CX-3（2027年、MHEV）由泰國AAT廠生產（約50億泰銖），Mazda2傳無後繼。
+
+**觀察**：理想MEGA泰國售價與首批交車；三菱汽車以Pajero與鴻海EV合作能否止跌。
+
+- 參見：[[sources/ev-news-2026-11-11b-cn-misc]] | [[sources/ev-news-2026-11-11b-digitimes]] | [[理想汽車]] | [[三菱汽車]] | [[countries/東南亞]]

@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [lucid-cosmos-2026, ev-news-2026-06-27-29-en, ev-news-2026-06-30-07-01, ev-news-2026-07-14-16-electrive, ev-news-2026-07-17-20-digitimes, ev-news-2026-08-03-06-electrive-en, ev-news-2026-08-04-06-cn-misc, ev-news-2026-08-06-07-electrive-en, ev-news-2026-08-07-digitimes, ev-news-2026-08-07-10-electrive-en, ev-news-2026-08-27-29-electrive-en, ev-news-2026-09-19-electrive-en, ev-news-2026-10-07-electrive-en, ev-news-2026-10-27-digitimes]
-updated: 2026-10-27
+sources: [lucid-cosmos-2026, ev-news-2026-06-27-29-en, ev-news-2026-06-30-07-01, ev-news-2026-07-14-16-electrive, ev-news-2026-07-17-20-digitimes, ev-news-2026-08-03-06-electrive-en, ev-news-2026-08-04-06-cn-misc, ev-news-2026-08-06-07-electrive-en, ev-news-2026-08-07-digitimes, ev-news-2026-08-07-10-electrive-en, ev-news-2026-08-27-29-electrive-en, ev-news-2026-09-19-electrive-en, ev-news-2026-10-07-electrive-en, ev-news-2026-10-27-digitimes, ev-news-2026-11-11b-insideevs]
+updated: 2026-11-11
 ---
 
 # Lucid Motors
@@ -147,3 +147,13 @@ Lucid Q3交付3,806輛（年減6.7%）、生產2,954輛（季減38%），6月砍
 搭載NVIDIA Hyperion，2027年馬德里起步。
 
 - 參見：[[sources/ev-news-2026-10-27-digitimes]]
+
+## Cosmos延至2027下半年、PIF追加貸款（2026-11）
+
+> **結論**：Lucid維持Cosmos 2027下半年於沙烏地量產，CEO稱為必贏專案，並獲PIF追加17.5億美元貸款。
+
+**主因**：3Q交車3,806輛但1–9月年增33%；Cosmos起價約5萬美元、續航逾400英里；原訂2026年底延後避免品質問題。
+
+**觀察**：2027年1Q公布時程。
+
+- 參見：[[sources/ev-news-2026-11-11b-insideevs]] | [[concepts/美國EV市場與政策]]

@@ -1,6 +1,6 @@
 ---
 tags: [concept]
-sources: [tesla-taiwan-march-2026, taiwan-ev-charging-strategy, taiwan-ev-charging-upower, taiwan-evalue-640kw-charger, taiwan-ev-electrification-progress-2026, ev-news-2026-10-27-digitimes, ev-news-2026-10-30-digitimes, ev-news-2026-11-02-cn-misc, ev-news-2026-11-02-digitimes, ev-news-2026-11-04-digitimes, ev-news-2026-11-06-digitimes, ev-news-2026-11-09-cn-misc, ev-news-2026-11-11-digitimes]
+sources: [tesla-taiwan-march-2026, taiwan-ev-charging-strategy, taiwan-ev-charging-upower, taiwan-evalue-640kw-charger, taiwan-ev-electrification-progress-2026, ev-news-2026-10-27-digitimes, ev-news-2026-10-30-digitimes, ev-news-2026-11-02-cn-misc, ev-news-2026-11-02-digitimes, ev-news-2026-11-04-digitimes, ev-news-2026-11-06-digitimes, ev-news-2026-11-09-cn-misc, ev-news-2026-11-11-digitimes, ev-news-2026-11-11b-digitimes]
 updated: 2026-11-11
 ---
 
@@ -140,3 +140,13 @@ updated: 2026-11-11
 **觀察**：客戶驗證；VPP商業模式。
 
 - 參見：[[sources/ev-news-2026-11-11-digitimes]] | [[entities/鴻海]] | [[concepts/電池技術路線]] | [[concepts/充電基礎建設]] | [[countries/台灣]]
+
+## 鴻海快樂夥伴與台廠電池／電源業績（2026-11）
+
+> **結論**：鴻海以CDMS模式連結三菱扶桑與波蘭，電動車仍待市場驗收；台廠電池與電源業者業績多受資料中心與儲能而非車用帶動。
+
+**主因**：《不具名消息》SEP93點出「伺服器撐營收，機器人電動車待驗收」；康舒、長園科、桓鼎皆以AI資料中心、UPS與衛星為成長動能。
+
+**觀察**：鴻海波蘭案與三菱合作進度；Digitimes節目僅為議題列表，無具體數字。
+
+- 參見：[[sources/ev-news-2026-11-11b-digitimes]] | [[鴻海]] | [[countries/台灣]]

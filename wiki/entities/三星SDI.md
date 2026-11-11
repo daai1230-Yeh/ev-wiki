@@ -1,6 +1,6 @@
 ---
 tags: [entity]
-sources: [samsung-sdi-mercedes-battery-deal, samsung-sdi-mercedes-confirmed-deal, samsung-sdi-solid-state-production-2026, ev-news-2026-07-03-08, ev-news-2026-07-14-16-digitimes, ev-news-2026-09-04-digitimes, ev-news-2026-09-24-digitimes, ev-news-2026-10-02-digitimes, ev-news-2026-10-05-electrive-en, ev-news-2026-10-07-digitimes, ev-news-2026-10-15-digitimes, ev-news-2026-10-27-digitimes, ev-news-2026-10-29-digitimes, ev-news-2026-10-30-digitimes, ev-news-2026-11-11-digitimes]
+sources: [samsung-sdi-mercedes-battery-deal, samsung-sdi-mercedes-confirmed-deal, samsung-sdi-solid-state-production-2026, ev-news-2026-07-03-08, ev-news-2026-07-14-16-digitimes, ev-news-2026-09-04-digitimes, ev-news-2026-09-24-digitimes, ev-news-2026-10-02-digitimes, ev-news-2026-10-05-electrive-en, ev-news-2026-10-07-digitimes, ev-news-2026-10-15-digitimes, ev-news-2026-10-27-digitimes, ev-news-2026-10-29-digitimes, ev-news-2026-10-30-digitimes, ev-news-2026-11-11-digitimes, ev-news-2026-11-11b-digitimes]
 updated: 2026-11-11
 ---
 
@@ -144,3 +144,13 @@ Mercedes今年4月與三星SDI簽首份長期電池供應合約，並同步引�
 **觀察**：正式供貨公告。
 
 - 參見：[[sources/ev-news-2026-11-11-digitimes]] | [[concepts/人形機器人]] | [[entities/現代汽車]]
+
+## 卡位BMW Neue Klasse（2026-11）
+
+> **結論**：三星SDI以匈牙利Göd廠（目標2028年量產）供應BMW 46系列，降低歐洲供應對中國的依賴。
+
+**主因**：46系列產線建置中 → 2028~2029年交貨 → 與LGES形成對寧德時代、億緯鋰能的歐美分流。
+
+**觀察**：Göd廠量產時程。
+
+- 參見：[[sources/ev-news-2026-11-11b-digitimes]] | [[BMW]] | [[LGES]]

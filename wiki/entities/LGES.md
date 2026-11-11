@@ -1,6 +1,6 @@
 ---
 tags: [entity]
-sources: [lges-loss-ess-2026, ira-supply-chain-compliance, us-ev-battery-demand-mismatch, lges-tesla-4680-supplier, lges-bmw-46series-order, ev-news-2026-07-03-08, ev-news-2026-07-10-supplement, ev-news-2026-07-12-13-electrive, ev-news-2026-07-14-16-digitimes, ev-news-2026-07-17-20-digitimes, ev-news-2026-07-25-27-digitimes, ev-news-2026-07-29-31-digitimes, ev-news-2026-08-20-digitimes, ev-news-2026-08-19-20-cn-misc, ev-news-2026-08-19-20-electrive-en, ev-news-2026-08-21-digitimes, ev-news-2026-08-21-23-electrive-en, ev-news-2026-08-26-digitimes, ev-news-2026-08-27-digitimes, ev-news-2026-09-01-digitimes, ev-news-2026-10-01-electrive-en, ev-news-2026-10-02-digitimes, ev-news-2026-10-05-electrive-en, ev-news-2026-10-07-digitimes, ev-news-2026-10-08-digitimes, ev-news-2026-10-09-electrive-en, ev-news-2026-10-12-digest, ev-news-2026-10-20-digitimes, ev-news-2026-10-27-digitimes, ev-news-2026-10-27-electrive-en, ev-news-2026-10-29-digitimes, ev-news-2026-11-04-digitimes, ev-news-2026-11-11-digitimes]
+sources: [lges-loss-ess-2026, ira-supply-chain-compliance, us-ev-battery-demand-mismatch, lges-tesla-4680-supplier, lges-bmw-46series-order, ev-news-2026-07-03-08, ev-news-2026-07-10-supplement, ev-news-2026-07-12-13-electrive, ev-news-2026-07-14-16-digitimes, ev-news-2026-07-17-20-digitimes, ev-news-2026-07-25-27-digitimes, ev-news-2026-07-29-31-digitimes, ev-news-2026-08-20-digitimes, ev-news-2026-08-19-20-cn-misc, ev-news-2026-08-19-20-electrive-en, ev-news-2026-08-21-digitimes, ev-news-2026-08-21-23-electrive-en, ev-news-2026-08-26-digitimes, ev-news-2026-08-27-digitimes, ev-news-2026-09-01-digitimes, ev-news-2026-10-01-electrive-en, ev-news-2026-10-02-digitimes, ev-news-2026-10-05-electrive-en, ev-news-2026-10-07-digitimes, ev-news-2026-10-08-digitimes, ev-news-2026-10-09-electrive-en, ev-news-2026-10-12-digest, ev-news-2026-10-20-digitimes, ev-news-2026-10-27-digitimes, ev-news-2026-10-27-electrive-en, ev-news-2026-10-29-digitimes, ev-news-2026-11-04-digitimes, ev-news-2026-11-11-digitimes, ev-news-2026-11-11b-digitimes]
 updated: 2026-11-11
 ---
 
@@ -277,3 +277,13 @@ LGES Q3營收約9.64兆韓元（年增59%）創單季新高，營業利益7,560�
 **觀察**：後續分配。
 
 - 參見：[[sources/ev-news-2026-11-11-digitimes]] | [[concepts/人形機器人]] | [[entities/三星SDI]]
+
+## 首度打入BMW純電供應鏈（2026-11）
+
+> **結論**：LGES成為BMW Neue Klasse 46系列供應商，由美國亞利桑那廠供貨（2026年內啟動量產、2028~2029年交貨）。
+
+**主因**：先前僅供BMW輕混電池 → 美國在地化優勢 → 近期並簽北美鋰精礦與碳酸鋰採購合約，降低上游依賴。
+
+**觀察**：亞利桑那46系列量產爬坡與供貨量。
+
+- 參見：[[sources/ev-news-2026-11-11b-digitimes]] | [[BMW]] | [[concepts/電池技術路線]]

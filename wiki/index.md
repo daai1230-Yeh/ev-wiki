@@ -1,6 +1,6 @@
 # Wiki Index
 
-Last updated: 2026-11-11 | Pages: 499 | Sources: 603
+Last updated: 2026-11-11 | Pages: 499 | Sources: 608
 
 ---
 
@@ -97,6 +97,11 @@ Last updated: 2026-11-11 | Pages: 499 | Sources: 603
 - [[sources/ev-news-2026-10-12-digest]] — 中文財經批次8篇：陸混動車輸歐恐砍半、豐田泰國殘值貸款、現代印度1,000萬輛、華德電巴、桃園A21、雙層客運補助縮水、Starlink印度。(2026-10-12)
 - [[sources/ev-news-2026-10-12-digitimes-2]] — Digitimes CarTech補充2篇：豐田、廣汽、一汽三方協議正式簽署、麗升跨足充電樁（註：剪輯檔無單篇網址）。(2026-10-12)
 - [[sources/ev-news-2026-10-12-14-digitimes]] — Digitimes CarTech 9篇：中國新能源車出口退稅2027-04起由13%降至9%（含評析）、歐盟HEV／PHEV年35萬輛配額、LGES大進機械轉單與L&F LFP長約、台灣能管法帶動儲能、寰聖／桓鼎、裕日車估車市42萬輛（全數附原文網址）。(2026-10-14)
+- [[sources/ev-news-2026-11-11b-electrive-en]] — electrive批次4篇：比亞迪傳考慮葡萄牙Matosinhos電池廠、寧德時代鋰空氣長期研究、賓士第二代eCitaro 2028年改LFP專用平台、Zenobē為Transport UK融資169輛倫敦電巴。(2026-11-11)
+- [[sources/ev-news-2026-11-11b-sustainablebus]] — Sustainable Bus批次2篇：Euro Bus Expo 2026（英國零排放巴士市佔31.1%、比亞迪C12 DUO）、印度Blackbuck ELON 3X電動臥鋪客車。(2026-11-11)
+- [[sources/ev-news-2026-11-11b-insideevs]] — InsideEVs批次2篇：Lucid Cosmos延至2027下半年量產、EQS 450+ Edmunds實測539英里。(2026-11-11)
+- [[sources/ev-news-2026-11-11b-digitimes]] — Digitimes批次9篇：BMW新增LGES／三星SDI供應Neue Klasse、本田上修財測仍維持EV損失、三菱汽車下修、英歐2027原產地規則與歐製LFP缺口、台廠電池電源業績。(2026-11-11)
+- [[sources/ev-news-2026-11-11b-cn-misc]] — 中文媒體批次4篇：Honda Alpha以印度為全球唯一產地、理想汽車亞太9市場、Genesis GV90預售、Mazda2傳無後繼。(2026-11-11)
 - [[sources/ev-news-2026-11-11-electrive-en]] — electrive 8篇：仰望U9 Xtreme 503.17 km/h、EVgo首座Tesla Supercharger站、Smart #2中國上市、Cybertruck 2027年中停產、ZF 30,000 rpm電驅、BMW Neue Klasse選擇性用LFP、Dacia評估Bridger入歐、Wien Energie併購Ella。(2026-11-11)
 - [[sources/ev-news-2026-11-11-insideevs]] — InsideEVs 2篇：Ford 36,000輛Mach-E五年保有92%容量、Fathom首批生產線車驗證約90%。(2026-11-11)
 - [[sources/ev-news-2026-11-11-digitimes]] — Digitimes CarTech 6篇：豐田安川AI機器人、Tesla停產Cybertruck並退訂金、本田30億美元美國新廠、現代Atlas電池傳三星SDI、工研院電巴雙向供電、鴻海電池五層整合（註：剪輯檔無單篇網址）。(2026-11-11)

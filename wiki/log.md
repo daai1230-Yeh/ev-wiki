@@ -2473,3 +2473,13 @@ Pages 375 → 406，Sources 315 → 346
 - Key additions: Tesla 2027年中結束德州Cybertruck（6–7月拆線、讓位Cybercab、退部分訂金）；Ford 2021年式Mach-E 36,000輛五年92%容量、Fathom驗證約90%；本田30億美元俄亥俄新廠（年產24萬輛、2029）；BMW Neue Klasse選擇性用LFP；鴻海電池五層整合；現代Atlas電池傳三星SDI初期獨家；仰望U9 Xtreme 503.17 km/h；Dacia評估Bridger入歐；Smart #2中國上市；EVgo首座Tesla Supercharger站；工研院電巴雙向供電示範。
 - 備註: Digitimes剪輯檔無單篇網址，已於來源頁註明；Cybertruck「訂單遠超產能」與「需求遠低於預期」說法並存、德州廠12.5萬輛產能口徑（各 vs 整體）待核對；Atlas供應鏈屬傳聞；EVgo×Tesla與11-06 InsideEVs重疊。
 
+
+## [2026-11-11] ingest | EV News 2026-11-09~11 批次（21篇原文，5個來源摘要頁）
+- Summary pages: [[sources/ev-news-2026-11-11b-electrive-en]], [[sources/ev-news-2026-11-11b-sustainablebus]], [[sources/ev-news-2026-11-11b-insideevs]], [[sources/ev-news-2026-11-11b-digitimes]], [[sources/ev-news-2026-11-11b-cn-misc]]
+- Raw assets: raw/assets/2026-11-10-*.md、2026-11-11-*.md（21篇；其餘23個標點／全形變體與「HHTD 26」前綴重複檔不重複 ingest）
+- Pages updated (concepts): 電池技術路線、歐洲EV市場、電動巴士市場、儲能市場、印度EV市場、東南亞EV市場、美國EV市場與政策、Robotaxi自動計程車、中國EV出海策略、台灣EV市場
+- Pages updated (entities): BMW、LGES、三星SDI、寧德時代、比亞迪、本田、三菱汽車、鴻海、Lucid、理想汽車、現代汽車
+- Countries updated: [[countries/歐洲]], [[countries/英國]], [[countries/印度]], [[countries/日本]], [[countries/台灣]], [[countries/韓國]], [[countries/東南亞]], [[countries/美國]]
+- New pages created: 無
+- Key additions: BMW新增LGES、三星SDI供應Neue Klasse 46系列（2028~2029年交貨）；英歐TCA 2027-01原產地門檻（82%歐盟出口EV不達標、額外14.7億歐元）；本田上修營益至7,800億日圓、EV損失維持5,200億；三菱汽車淨利預估降至100億日圓；Honda Alpha印度全球唯一產地（12/2首演）；Lucid Cosmos 2027下半年量產；寧德時代鋰空氣長期研究；英國前9月零排放巴士市佔31.1%
+- 備註: Digitimes剪輯檔無單篇網址，已於來源頁註明；康舒標題「占比59%」與內文10月73%口徑待核對；比亞迪葡萄牙電池廠尚無官方確認；Digitimes鴻海SEP93僅為節目議題列表；Wrightbus氫燃料客車延至2027或2028年
