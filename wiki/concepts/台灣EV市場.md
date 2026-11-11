@@ -1,7 +1,7 @@
 ---
 tags: [concept]
-sources: [tesla-taiwan-march-2026, taiwan-ev-charging-strategy, taiwan-ev-charging-upower, taiwan-evalue-640kw-charger, taiwan-ev-electrification-progress-2026, ev-news-2026-10-27-digitimes, ev-news-2026-10-30-digitimes, ev-news-2026-11-02-cn-misc, ev-news-2026-11-02-digitimes, ev-news-2026-11-04-digitimes, ev-news-2026-11-06-digitimes, ev-news-2026-11-09-cn-misc]
-updated: 2026-11-09
+sources: [tesla-taiwan-march-2026, taiwan-ev-charging-strategy, taiwan-ev-charging-upower, taiwan-evalue-640kw-charger, taiwan-ev-electrification-progress-2026, ev-news-2026-10-27-digitimes, ev-news-2026-10-30-digitimes, ev-news-2026-11-02-cn-misc, ev-news-2026-11-02-digitimes, ev-news-2026-11-04-digitimes, ev-news-2026-11-06-digitimes, ev-news-2026-11-09-cn-misc, ev-news-2026-11-11-digitimes]
+updated: 2026-11-11
 ---
 
 # 台灣 EV 市場
@@ -130,3 +130,13 @@ updated: 2026-11-09
 **觀察**：中東出口恢復；紐澳出貨。
 
 - 參見：[[sources/ev-news-2026-11-09-cn-misc]] | [[entities/Tesla]] | [[entities/鴻海]] | [[countries/台灣]]
+
+## 鴻海電池五層整合與雙向充放電示範（2026-11）
+
+> **結論**：台灣業者在電池與能源整合兩端同步推進——鴻海展示材料到電池包的垂直整合，工研院與車王電子、充壩技術完成電動巴士雙向供電示範。
+
+**主因**：鴻海未公布客戶與時程；示範規格未公布。
+
+**觀察**：客戶驗證；VPP商業模式。
+
+- 參見：[[sources/ev-news-2026-11-11-digitimes]] | [[entities/鴻海]] | [[concepts/電池技術路線]] | [[concepts/充電基礎建設]] | [[countries/台灣]]

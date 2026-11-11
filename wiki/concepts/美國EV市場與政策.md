@@ -1,7 +1,7 @@
 ---
 tags: [concept]
-sources: [gm-ford-q1-2026-sales, us-ev-battery-demand-mismatch, rivian-r2-range-specs, vw-id4-chattanooga-stop, tesla-25k-ev-us-price-parity, slate-auto-ev-pickup, ford-ev-restructure-doug-field, vw-id4-us-writedown, tesla-q1-2026-earnings, gm-ev-delay-detroit-three, nissan-mississippi-ev-abandonment, honda-canada-ev-freeze-2026, tesla-model-s-final-production, mazda-ev-delay-2029, ford-catl-michigan-factory-2026, honda-9b-loss-hybrid-pivot-2026, tesla-model-y-price-bump-2026, congress-ev-annual-fee-2026, rivian-r2-deliveries-2026, chevy-bolt-2027-review, 駐外新聞-美國-2025, ev-news-2026-09-18-digest, ev-news-2026-09-20-digest, ev-news-2026-09-22-electrive-en, ev-news-2026-09-26-electrive-en, ev-news-2026-09-28-digest, ev-news-2026-10-05-digitimes, ev-news-2026-10-07-electrive-en, ev-news-2026-10-22-insideevs, ev-news-2026-10-27-digitimes, ev-news-2026-10-27-electrive-en, ev-news-2026-10-27-insideevs, ev-news-2026-10-29-insideevs, ev-news-2026-10-30-electrive-en, ev-news-2026-10-30-insideevs, ev-news-2026-11-02-electrive-en, ev-news-2026-11-02-digitimes, ev-news-2026-11-04-insideevs, ev-news-2026-11-04-digitimes, ev-news-2026-11-06-insideevs, ev-news-2026-11-06-digitimes, ev-news-2026-11-09-cn-misc]
-updated: 2026-11-09
+sources: [gm-ford-q1-2026-sales, us-ev-battery-demand-mismatch, rivian-r2-range-specs, vw-id4-chattanooga-stop, tesla-25k-ev-us-price-parity, slate-auto-ev-pickup, ford-ev-restructure-doug-field, vw-id4-us-writedown, tesla-q1-2026-earnings, gm-ev-delay-detroit-three, nissan-mississippi-ev-abandonment, honda-canada-ev-freeze-2026, tesla-model-s-final-production, mazda-ev-delay-2029, ford-catl-michigan-factory-2026, honda-9b-loss-hybrid-pivot-2026, tesla-model-y-price-bump-2026, congress-ev-annual-fee-2026, rivian-r2-deliveries-2026, chevy-bolt-2027-review, 駐外新聞-美國-2025, ev-news-2026-09-18-digest, ev-news-2026-09-20-digest, ev-news-2026-09-22-electrive-en, ev-news-2026-09-26-electrive-en, ev-news-2026-09-28-digest, ev-news-2026-10-05-digitimes, ev-news-2026-10-07-electrive-en, ev-news-2026-10-22-insideevs, ev-news-2026-10-27-digitimes, ev-news-2026-10-27-electrive-en, ev-news-2026-10-27-insideevs, ev-news-2026-10-29-insideevs, ev-news-2026-10-30-electrive-en, ev-news-2026-10-30-insideevs, ev-news-2026-11-02-electrive-en, ev-news-2026-11-02-digitimes, ev-news-2026-11-04-insideevs, ev-news-2026-11-04-digitimes, ev-news-2026-11-06-insideevs, ev-news-2026-11-06-digitimes, ev-news-2026-11-09-cn-misc, ev-news-2026-11-11-electrive-en, ev-news-2026-11-11-digitimes, ev-news-2026-11-11-insideevs]
+updated: 2026-11-11
 ---
 
 # 美國 EV 市場與政策
@@ -512,3 +512,16 @@ Q3美國BEV銷量年減39.5%（Cox／KBB）；德系車8月BEV榜名次落後；
 **觀察**：期中選舉後的稅額抵免討論；二手車價格。
 
 - 參見：[[sources/ev-news-2026-11-09-cn-misc]] | [[concepts/歐洲EV市場]] | [[countries/美國]]
+
+## 本田30億美元押注HEV、Ford Fathom驗證90%、Cybertruck停產（2026-11）
+
+> **結論**：美國電動化的重心由純電轉向混動與新製程——本田投資約30億美元在俄亥俄州建年產24萬輛的第8座北美廠（2029年），Ford Fathom已在Louisville建出首批生產線車並完成約90%驗證，Tesla則宣布2027年中結束德州Cybertruck。
+
+**主因**：
+- 混動：HEV約占本田美國銷量3成，川普政府取消電動車租稅優惠使本田中止3款北美新電動車並認列鉅額損失，5月起以HEV為成長主軸；新廠可彈性生產HEV、ICE、EV，北美總產能由167萬增至191萬輛。
+- Ford：Fathom採「組裝樹」、投資逾20億美元、首年目標10萬輛、2027年底前交車；挑戰為供應鏈達產。
+- Tesla：Cybertruck 2025年美國銷量2.02萬輛（-48%），遠低於25萬輛預測，產線改產Cybercab；馬斯克稱訂單超過產能並將退還部分訂金，與需求疲弱的市場看法並存（待核對）。
+
+**觀察**：本田新廠實際車款；Fathom量產爬坡；Cybertruck 2027年6–7月拆線與訂金退還規模。
+
+- 參見：[[sources/ev-news-2026-11-11-electrive-en]] | [[sources/ev-news-2026-11-11-digitimes]] | [[sources/ev-news-2026-11-11-insideevs]] | [[concepts/平價電動車市場]] | [[concepts/Robotaxi自動計程車]] | [[entities/本田]] | [[entities/福特]] | [[entities/Tesla]] | [[countries/美國]] | [[countries/日本]]

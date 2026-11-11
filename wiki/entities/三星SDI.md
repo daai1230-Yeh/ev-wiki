@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [samsung-sdi-mercedes-battery-deal, samsung-sdi-mercedes-confirmed-deal, samsung-sdi-solid-state-production-2026, ev-news-2026-07-03-08, ev-news-2026-07-14-16-digitimes, ev-news-2026-09-04-digitimes, ev-news-2026-09-24-digitimes, ev-news-2026-10-02-digitimes, ev-news-2026-10-05-electrive-en, ev-news-2026-10-07-digitimes, ev-news-2026-10-15-digitimes, ev-news-2026-10-27-digitimes, ev-news-2026-10-29-digitimes, ev-news-2026-10-30-digitimes]
-updated: 2026-10-30
+sources: [samsung-sdi-mercedes-battery-deal, samsung-sdi-mercedes-confirmed-deal, samsung-sdi-solid-state-production-2026, ev-news-2026-07-03-08, ev-news-2026-07-14-16-digitimes, ev-news-2026-09-04-digitimes, ev-news-2026-09-24-digitimes, ev-news-2026-10-02-digitimes, ev-news-2026-10-05-electrive-en, ev-news-2026-10-07-digitimes, ev-news-2026-10-15-digitimes, ev-news-2026-10-27-digitimes, ev-news-2026-10-29-digitimes, ev-news-2026-10-30-digitimes, ev-news-2026-11-11-digitimes]
+updated: 2026-11-11
 ---
 
 # 三星 SDI（Samsung SDI）
@@ -136,3 +136,11 @@ Mercedes今年4月與三星SDI簽首份長期電池供應合約，並同步引�
 **主因**：營收約4.7兆韓元（年增52.6%）；美國ESS訂單2026年逾60GWh；人形機器人全固態樣品。
 
 - 參見：[[sources/ev-news-2026-10-30-digitimes]] | [[concepts/儲能市場]] | [[concepts/電池技術路線]]
+
+## 傳取得Atlas初期電池供貨（2026-11）
+
+> **結論**：韓媒稱三星SDI將承接現代Atlas初期多數電池、短期可能獨家；並擴大無極耳設計，但Atlas電芯是否採用未證實。
+
+**觀察**：正式供貨公告。
+
+- 參見：[[sources/ev-news-2026-11-11-digitimes]] | [[concepts/人形機器人]] | [[entities/現代汽車]]

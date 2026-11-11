@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [lges-loss-ess-2026, ira-supply-chain-compliance, us-ev-battery-demand-mismatch, lges-tesla-4680-supplier, lges-bmw-46series-order, ev-news-2026-07-03-08, ev-news-2026-07-10-supplement, ev-news-2026-07-12-13-electrive, ev-news-2026-07-14-16-digitimes, ev-news-2026-07-17-20-digitimes, ev-news-2026-07-25-27-digitimes, ev-news-2026-07-29-31-digitimes, ev-news-2026-08-20-digitimes, ev-news-2026-08-19-20-cn-misc, ev-news-2026-08-19-20-electrive-en, ev-news-2026-08-21-digitimes, ev-news-2026-08-21-23-electrive-en, ev-news-2026-08-26-digitimes, ev-news-2026-08-27-digitimes, ev-news-2026-09-01-digitimes, ev-news-2026-10-01-electrive-en, ev-news-2026-10-02-digitimes, ev-news-2026-10-05-electrive-en, ev-news-2026-10-07-digitimes, ev-news-2026-10-08-digitimes, ev-news-2026-10-09-electrive-en, ev-news-2026-10-12-digest, ev-news-2026-10-20-digitimes, ev-news-2026-10-27-digitimes, ev-news-2026-10-27-electrive-en, ev-news-2026-10-29-digitimes, ev-news-2026-11-04-digitimes]
-updated: 2026-11-04
+sources: [lges-loss-ess-2026, ira-supply-chain-compliance, us-ev-battery-demand-mismatch, lges-tesla-4680-supplier, lges-bmw-46series-order, ev-news-2026-07-03-08, ev-news-2026-07-10-supplement, ev-news-2026-07-12-13-electrive, ev-news-2026-07-14-16-digitimes, ev-news-2026-07-17-20-digitimes, ev-news-2026-07-25-27-digitimes, ev-news-2026-07-29-31-digitimes, ev-news-2026-08-20-digitimes, ev-news-2026-08-19-20-cn-misc, ev-news-2026-08-19-20-electrive-en, ev-news-2026-08-21-digitimes, ev-news-2026-08-21-23-electrive-en, ev-news-2026-08-26-digitimes, ev-news-2026-08-27-digitimes, ev-news-2026-09-01-digitimes, ev-news-2026-10-01-electrive-en, ev-news-2026-10-02-digitimes, ev-news-2026-10-05-electrive-en, ev-news-2026-10-07-digitimes, ev-news-2026-10-08-digitimes, ev-news-2026-10-09-electrive-en, ev-news-2026-10-12-digest, ev-news-2026-10-20-digitimes, ev-news-2026-10-27-digitimes, ev-news-2026-10-27-electrive-en, ev-news-2026-10-29-digitimes, ev-news-2026-11-04-digitimes, ev-news-2026-11-11-digitimes]
+updated: 2026-11-11
 ---
 
 # 樂金能源解決方案（LG Energy Solution，LGES）
@@ -269,3 +269,11 @@ LGES Q3營收約9.64兆韓元（年增59%）創單季新高，營業利益7,560�
 **觀察**：4Q ESS新增訂單；歐盟IAA定案對在地生產認定的影響。
 
 - 參見：[[sources/ev-news-2026-11-04-digitimes]] | [[concepts/儲能市場]] | [[entities/三星SDI]] | [[countries/韓國]] | [[countries/美國]]
+
+## 列入Atlas與Spot2電池合作名單（2026-11）
+
+> **結論**：LGES被列入Atlas電池合作夥伴，新款Spot2亦規劃與Powerlogics採用2170電芯，但初期供貨以三星SDI為主。
+
+**觀察**：後續分配。
+
+- 參見：[[sources/ev-news-2026-11-11-digitimes]] | [[concepts/人形機器人]] | [[entities/三星SDI]]

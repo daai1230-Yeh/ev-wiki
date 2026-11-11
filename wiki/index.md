@@ -1,6 +1,6 @@
 # Wiki Index
 
-Last updated: 2026-11-09 | Pages: 499 | Sources: 599
+Last updated: 2026-11-11 | Pages: 499 | Sources: 603
 
 ---
 
@@ -97,6 +97,10 @@ Last updated: 2026-11-09 | Pages: 499 | Sources: 599
 - [[sources/ev-news-2026-10-12-digest]] — 中文財經批次8篇：陸混動車輸歐恐砍半、豐田泰國殘值貸款、現代印度1,000萬輛、華德電巴、桃園A21、雙層客運補助縮水、Starlink印度。(2026-10-12)
 - [[sources/ev-news-2026-10-12-digitimes-2]] — Digitimes CarTech補充2篇：豐田、廣汽、一汽三方協議正式簽署、麗升跨足充電樁（註：剪輯檔無單篇網址）。(2026-10-12)
 - [[sources/ev-news-2026-10-12-14-digitimes]] — Digitimes CarTech 9篇：中國新能源車出口退稅2027-04起由13%降至9%（含評析）、歐盟HEV／PHEV年35萬輛配額、LGES大進機械轉單與L&F LFP長約、台灣能管法帶動儲能、寰聖／桓鼎、裕日車估車市42萬輛（全數附原文網址）。(2026-10-14)
+- [[sources/ev-news-2026-11-11-electrive-en]] — electrive 8篇：仰望U9 Xtreme 503.17 km/h、EVgo首座Tesla Supercharger站、Smart #2中國上市、Cybertruck 2027年中停產、ZF 30,000 rpm電驅、BMW Neue Klasse選擇性用LFP、Dacia評估Bridger入歐、Wien Energie併購Ella。(2026-11-11)
+- [[sources/ev-news-2026-11-11-insideevs]] — InsideEVs 2篇：Ford 36,000輛Mach-E五年保有92%容量、Fathom首批生產線車驗證約90%。(2026-11-11)
+- [[sources/ev-news-2026-11-11-digitimes]] — Digitimes CarTech 6篇：豐田安川AI機器人、Tesla停產Cybertruck並退訂金、本田30億美元美國新廠、現代Atlas電池傳三星SDI、工研院電巴雙向供電、鴻海電池五層整合（註：剪輯檔無單篇網址）。(2026-11-11)
+- [[sources/ev-news-2026-11-11-cn-misc]] — 中文媒體Google Alerts 2篇：Cybertruck加班趕交車、2027年6–7月拆線讓位Cybercab。(2026-11-11)
 - [[sources/ev-news-2026-11-09-digitimes]] — Digitimes CarTech 2篇：豐田成立Toyota Robotics（2027-01）、南韓電動車RCA由2.92降至1.48中國升至1.49（註：剪輯檔無單篇網址）。(2026-11-09)
 - [[sources/ev-news-2026-11-09-cn-misc]] — 中文媒體Google Alerts 3篇：工研院預估2026全球電動車+11.9%、比亞迪可望首進前五、印度電動三輪車逾50%、馬斯克稱愛中國。(2026-11-09)
 - [[sources/ev-news-2026-11-06-electrive-en]] — electrive 8篇：BYD C12英國長途客車、慕尼黑自駕電巴、賓士微轉換器恆定800V、Ebusco 1,200萬歐元增資、Waymo佔用公共快充、賓士電動GLC印度組裝、Tesla柏林工程中心、英國10月純電32%。(2026-11-06)

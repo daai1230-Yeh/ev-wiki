@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [renault-flexis-acquisition-2026, ev-news-2026-06-27-29-en, ev-news-2026-07-09, ev-news-2026-09-26-electrive-en, ev-news-2026-09-28-electrive-en, ev-news-2026-09-29-electrive-en, ev-news-2026-10-05-electrive-en, ev-news-2026-10-06-electrive-en, ev-news-2026-10-05-digitimes, ev-news-2026-10-07-electrive-en, ev-news-2026-10-15-electrive-en, ev-news-2026-10-20-digest]
-updated: 2026-10-20
+sources: [renault-flexis-acquisition-2026, ev-news-2026-06-27-29-en, ev-news-2026-07-09, ev-news-2026-09-26-electrive-en, ev-news-2026-09-28-electrive-en, ev-news-2026-09-29-electrive-en, ev-news-2026-10-05-electrive-en, ev-news-2026-10-06-electrive-en, ev-news-2026-10-05-digitimes, ev-news-2026-10-07-electrive-en, ev-news-2026-10-15-electrive-en, ev-news-2026-10-20-digest, ev-news-2026-11-11-electrive-en]
+updated: 2026-11-11
 ---
 
 # Renault（雷諾）
@@ -133,3 +133,13 @@ Renault集團與EDF明年夏季在法國推出雙向充電套裝（車＋壁掛�
 日經中文網稱歐洲EV有300萬輛電池缺口；雷諾考慮5年內投資100億歐元（Google快訊摘錄，未查證全文）。
 
 - 參見：[[sources/ev-news-2026-10-20-digest]]
+
+## Bridger可能經Dacia入歐（2026-11）
+
+> **結論**：Renault為印度開發的Bridger（印度2027年底前上市）可能以Dacia電動版導入歐洲，補Dacia 2030年4款電動車缺口；尚無正式決定。
+
+**主因**：IAA對歐洲製M1E車級超級抵免；Striker電動版已放棄。
+
+**觀察**：Dacia正式宣布與歐洲生產地。
+
+- 參見：[[sources/ev-news-2026-11-11-electrive-en]] | [[concepts/歐洲EV市場]] | [[countries/印度]] | [[countries/歐洲]]

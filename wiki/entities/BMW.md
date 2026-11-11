@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [lges-bmw-46series-order, ev-news-2026-06-30-07-01, ev-news-2026-07-10-electrive-batch, ev-news-2026-07-12-13-electrive, ev-news-2026-07-24-27-electrive-en, ev-news-2026-07-29-31-digitimes, ev-news-2026-07-28-30-electrive-en, ev-news-2026-08-27-29-electrive-en, ev-news-2026-09-18-electrive-en, ev-news-2026-09-22-electrive-en, ev-news-2026-09-22-digitimes, ev-news-2026-09-24-electrive-en, ev-news-2026-09-30-electrive-en, ev-news-2026-10-01-electrive-en, ev-news-2026-10-02-electrive-en, ev-news-2026-10-05-electrive-en, ev-news-2026-10-04-digest, ev-news-2026-10-27-digitimes]
-updated: 2026-10-27
+sources: [lges-bmw-46series-order, ev-news-2026-06-30-07-01, ev-news-2026-07-10-electrive-batch, ev-news-2026-07-12-13-electrive, ev-news-2026-07-24-27-electrive-en, ev-news-2026-07-29-31-digitimes, ev-news-2026-07-28-30-electrive-en, ev-news-2026-08-27-29-electrive-en, ev-news-2026-09-18-electrive-en, ev-news-2026-09-22-electrive-en, ev-news-2026-09-22-digitimes, ev-news-2026-09-24-electrive-en, ev-news-2026-09-30-electrive-en, ev-news-2026-10-01-electrive-en, ev-news-2026-10-02-electrive-en, ev-news-2026-10-05-electrive-en, ev-news-2026-10-04-digest, ev-news-2026-10-27-digitimes, ev-news-2026-11-11-electrive-en]
+updated: 2026-11-11
 ---
 
 # BMW（寶馬）
@@ -196,3 +196,13 @@ BMW Irlbach-Straßkirchen電池廠（約10億歐元）量產第六代高壓電�
 BMW美國製造以燃油／混動為主，本土化BEV安排年底或2027年；為U-POWER獨家充電夥伴。
 
 - 參見：[[sources/ev-news-2026-10-27-digitimes]]
+
+## Neue Klasse選擇性導入LFP（2026-11）
+
+> **結論**：BMW CEO確認Neue Klasse以NMC圓柱為主、LFP僅用於特定入門車型，中國iX3 30L已用LFP，歐洲首款LFP車型時間未說明。
+
+**主因**：NMC「目前市場最優」；46 mm圓柱能量密度較方形高約20%，i3續航最高912公里。
+
+**觀察**：LFP車型與用途範圍。
+
+- 參見：[[sources/ev-news-2026-11-11-electrive-en]] | [[concepts/電池技術路線]] | [[countries/德國]]

@@ -2463,3 +2463,13 @@ Pages 375 → 406，Sources 315 → 346
 - Key additions: Toyota Robotics 2027-01成立；南韓電動車RCA 2.92→1.48、中國1.49、對美出口2025年-86.8%；工研院預估2026全球電動車+11.9%（逾3,600萬輛、占比逾35%）、比亞迪可望首進全球前五；印度9月電動三輪車占比逾50%；泰國EV3.0／3.5在地生產比例升至1:2、1:3；Tesla中國前7月-12.4%。
 - 備註: Digitimes CarTech剪輯檔無單篇網址，已註明（DIGITIMES全球EV預測一篇有網址）；FKI 2030年風險額原文兩種美元換算（16.1億 vs 14.6億）待核對；Tesla中國高管動向含傳聞未證實。
 
+## [2026-11-11] ingest | EV News 2026-11-06~10 批次（18篇原文，4個來源摘要頁）
+- Summary pages: [[sources/ev-news-2026-11-11-electrive-en]], [[sources/ev-news-2026-11-11-insideevs]], [[sources/ev-news-2026-11-11-digitimes]], [[sources/ev-news-2026-11-11-cn-misc]]
+- Raw assets: raw/assets/2026-11-09-*.md、2026-11-10-*.md（18篇；其餘23個標點／全形變體與「HHTD 26」前綴重複檔不重複 ingest）
+- Pages updated (concepts): 電池技術路線、鈉離子電池、儲能市場、充電基礎建設、電動巴士市場、美國EV市場與政策、人形機器人、Robotaxi自動計程車、歐洲EV市場、平價電動車市場、中國EV市場競爭格局、台灣EV市場
+- Pages updated (entities): Tesla、福特、本田、現代汽車、三星SDI、LGES、豐田、鴻海、比亞迪、BMW、Renault、吉利汽車
+- Countries updated: [[countries/美國]], [[countries/日本]], [[countries/台灣]], [[countries/中國]], [[countries/歐洲]], [[countries/韓國]], [[countries/德國]], [[countries/印度]]
+- New pages created: 無
+- Key additions: Tesla 2027年中結束德州Cybertruck（6–7月拆線、讓位Cybercab、退部分訂金）；Ford 2021年式Mach-E 36,000輛五年92%容量、Fathom驗證約90%；本田30億美元俄亥俄新廠（年產24萬輛、2029）；BMW Neue Klasse選擇性用LFP；鴻海電池五層整合；現代Atlas電池傳三星SDI初期獨家；仰望U9 Xtreme 503.17 km/h；Dacia評估Bridger入歐；Smart #2中國上市；EVgo首座Tesla Supercharger站；工研院電巴雙向供電示範。
+- 備註: Digitimes剪輯檔無單篇網址，已於來源頁註明；Cybertruck「訂單遠超產能」與「需求遠低於預期」說法並存、德州廠12.5萬輛產能口徑（各 vs 整體）待核對；Atlas供應鏈屬傳聞；EVgo×Tesla與11-06 InsideEVs重疊。
+
