@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [lges-bmw-46series-order, ev-news-2026-06-30-07-01, ev-news-2026-07-10-electrive-batch, ev-news-2026-07-12-13-electrive, ev-news-2026-07-24-27-electrive-en, ev-news-2026-07-29-31-digitimes, ev-news-2026-07-28-30-electrive-en, ev-news-2026-08-27-29-electrive-en, ev-news-2026-09-18-electrive-en, ev-news-2026-09-22-electrive-en, ev-news-2026-09-22-digitimes, ev-news-2026-09-24-electrive-en, ev-news-2026-09-30-electrive-en, ev-news-2026-10-01-electrive-en, ev-news-2026-10-02-electrive-en, ev-news-2026-10-05-electrive-en, ev-news-2026-10-04-digest, ev-news-2026-10-27-digitimes, ev-news-2026-11-11-electrive-en, ev-news-2026-11-11b-digitimes]
-updated: 2026-11-11
+sources: [lges-bmw-46series-order, ev-news-2026-06-30-07-01, ev-news-2026-07-10-electrive-batch, ev-news-2026-07-12-13-electrive, ev-news-2026-07-24-27-electrive-en, ev-news-2026-07-29-31-digitimes, ev-news-2026-07-28-30-electrive-en, ev-news-2026-08-27-29-electrive-en, ev-news-2026-09-18-electrive-en, ev-news-2026-09-22-electrive-en, ev-news-2026-09-22-digitimes, ev-news-2026-09-24-electrive-en, ev-news-2026-09-30-electrive-en, ev-news-2026-10-01-electrive-en, ev-news-2026-10-02-electrive-en, ev-news-2026-10-05-electrive-en, ev-news-2026-10-04-digest, ev-news-2026-10-27-digitimes, ev-news-2026-11-11-electrive-en, ev-news-2026-11-11b-digitimes, ev-news-2026-11-12-electrive-en, ev-news-2026-11-12-digitimes]
+updated: 2026-11-12
 ---
 
 # BMW（寶馬）
@@ -216,3 +216,13 @@ BMW美國製造以燃油／混動為主，本土化BEV安排年底或2027年；�
 **觀察**：供貨量與合約金額尚未公布。
 
 - 參見：[[sources/ev-news-2026-11-11b-digitimes]] | [[LGES]] | [[三星SDI]] | [[寧德時代]]
+
+## i3充電實測與台灣iX3訂單（2026-11）
+
+> **結論**：新i3以平均275 kW充電、總充電2小時46分跑完近5,900公里；台灣iX3累計訂單逾3,000張。
+
+**主因**：第六代eDrive、800V、圓柱電芯、400 kW；為車廠自測。
+
+**觀察**：2027年1Q i5、iX5。
+
+- 參見：[[sources/ev-news-2026-11-12-electrive-en]] | [[sources/ev-news-2026-11-12-digitimes]] | [[concepts/充電基礎建設]]

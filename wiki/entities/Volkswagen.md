@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [vw-restructure-china-offensive-2026, ev-news-2026-06-27-29-en, ev-news-2026-06-30-07-01, ev-news-2026-07-02, ev-news-2026-07-03-08, ev-news-2026-07-10-supplement, ev-news-2026-07-12-13-electrive, ev-news-2026-07-14-16-electrive, ev-news-2026-07-17-20-digitimes, ev-news-2026-07-20-21-electrive-en, ev-news-2026-07-22-23-electrive-en, ev-news-2026-07-25-27-digitimes, ev-news-2026-07-24-27-electrive-en, ev-news-2026-07-24-28-electrive-en, ev-news-2026-07-29-31-digitimes, ev-news-2026-07-28-30-electrive-en, ev-news-2026-08-04-06-digitimes, ev-news-2026-08-03-06-electrive-en, ev-news-2026-08-07-10-electrive-en, ev-news-2026-08-13-digitimes, ev-news-2026-08-14-17-digitimes, ev-news-2026-08-18-digitimes, ev-news-2026-07-23-08-24-etauto-india, ev-news-2026-09-07-08-electrive-en, ev-news-2026-09-07-08-digest, ev-news-2026-09-08-electrive-en, ev-news-2026-09-09-electrive-en, ev-news-2026-09-09-10-etauto-india, ev-news-2026-09-11-electrive-en, ev-news-2026-09-15-electrive-en, ev-news-2026-09-17-electrive-en, ev-news-2026-09-18-electrive-en, ev-news-2026-09-22-electrive-en, ev-news-2026-09-22-digitimes, ev-news-2026-09-23-electrive-en, ev-news-2026-09-23-digitimes, ev-news-2026-09-24-electrive-en, ev-news-2026-09-26-electrive-en, ev-news-2026-09-28-electrive-en, ev-news-2026-09-29-electrive-en, ev-news-2026-09-30-digitimes, ev-news-2026-10-01-electrive-en, ev-news-2026-10-05-digitimes, ev-news-2026-10-06-electrive-en, ev-news-2026-10-10-electrive-en, ev-news-2026-10-15-electrive-en, ev-news-2026-10-19-electrive-en, ev-news-2026-10-20-electrive-en, ev-news-2026-10-20-digitimes, ev-news-2026-10-27-electrive-en, ev-news-2026-10-27-digest, ev-news-2026-10-27-digitimes, ev-news-2026-10-29-electrive-en, ev-news-2026-10-29-digitimes, ev-news-2026-10-30-electrive-en, ev-news-2026-10-30-insideevs, ev-news-2026-11-02-electrive-en, ev-news-2026-11-02-cn-misc, ev-news-2026-11-04-electrive-en]
-updated: 2026-11-04
+sources: [vw-restructure-china-offensive-2026, ev-news-2026-06-27-29-en, ev-news-2026-06-30-07-01, ev-news-2026-07-02, ev-news-2026-07-03-08, ev-news-2026-07-10-supplement, ev-news-2026-07-12-13-electrive, ev-news-2026-07-14-16-electrive, ev-news-2026-07-17-20-digitimes, ev-news-2026-07-20-21-electrive-en, ev-news-2026-07-22-23-electrive-en, ev-news-2026-07-25-27-digitimes, ev-news-2026-07-24-27-electrive-en, ev-news-2026-07-24-28-electrive-en, ev-news-2026-07-29-31-digitimes, ev-news-2026-07-28-30-electrive-en, ev-news-2026-08-04-06-digitimes, ev-news-2026-08-03-06-electrive-en, ev-news-2026-08-07-10-electrive-en, ev-news-2026-08-13-digitimes, ev-news-2026-08-14-17-digitimes, ev-news-2026-08-18-digitimes, ev-news-2026-07-23-08-24-etauto-india, ev-news-2026-09-07-08-electrive-en, ev-news-2026-09-07-08-digest, ev-news-2026-09-08-electrive-en, ev-news-2026-09-09-electrive-en, ev-news-2026-09-09-10-etauto-india, ev-news-2026-09-11-electrive-en, ev-news-2026-09-15-electrive-en, ev-news-2026-09-17-electrive-en, ev-news-2026-09-18-electrive-en, ev-news-2026-09-22-electrive-en, ev-news-2026-09-22-digitimes, ev-news-2026-09-23-electrive-en, ev-news-2026-09-23-digitimes, ev-news-2026-09-24-electrive-en, ev-news-2026-09-26-electrive-en, ev-news-2026-09-28-electrive-en, ev-news-2026-09-29-electrive-en, ev-news-2026-09-30-digitimes, ev-news-2026-10-01-electrive-en, ev-news-2026-10-05-digitimes, ev-news-2026-10-06-electrive-en, ev-news-2026-10-10-electrive-en, ev-news-2026-10-15-electrive-en, ev-news-2026-10-19-electrive-en, ev-news-2026-10-20-electrive-en, ev-news-2026-10-20-digitimes, ev-news-2026-10-27-electrive-en, ev-news-2026-10-27-digest, ev-news-2026-10-27-digitimes, ev-news-2026-10-29-electrive-en, ev-news-2026-10-29-digitimes, ev-news-2026-10-30-electrive-en, ev-news-2026-10-30-insideevs, ev-news-2026-11-02-electrive-en, ev-news-2026-11-02-cn-misc, ev-news-2026-11-04-electrive-en, ev-news-2026-11-12-electrive-en, ev-news-2026-11-12-cn-misc]
+updated: 2026-11-12
 ---
 
 # Volkswagen（福斯集團）
@@ -495,3 +495,13 @@ VW集團5款PHEV約90%的利用係數修正增量被加大電池抵銷，官方�
 **觀察**：投資人定案；與勞資會協商結果。
 
 - 參見：[[sources/ev-news-2026-11-04-electrive-en]] | [[concepts/充電基礎建設]] | [[countries/德國]]
+
+## 茨維考ID.3排產爭議與中國交付創高（2026-11）
+
+> **結論**：福斯茨維考ID.3去留說法相左，中國端10月EV交付逾2.8萬輛創高。
+
+**主因**：工會稱留產、公司稱移沃夫斯堡；中國ID. Aura T6、ID. Era 5S帶動，合資仍虧損。
+
+**觀察**：茨維考正式排產；中國目標明年進前十。
+
+- 參見：[[sources/ev-news-2026-11-12-electrive-en]] | [[sources/ev-news-2026-11-12-cn-misc]] | [[countries/德國]] | [[concepts/中國EV市場競爭格局]]

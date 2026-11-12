@@ -1,7 +1,7 @@
 ---
 tags: [concept]
-sources: [gm-ford-q1-2026-sales, us-ev-battery-demand-mismatch, rivian-r2-range-specs, vw-id4-chattanooga-stop, tesla-25k-ev-us-price-parity, slate-auto-ev-pickup, ford-ev-restructure-doug-field, vw-id4-us-writedown, tesla-q1-2026-earnings, gm-ev-delay-detroit-three, nissan-mississippi-ev-abandonment, honda-canada-ev-freeze-2026, tesla-model-s-final-production, mazda-ev-delay-2029, ford-catl-michigan-factory-2026, honda-9b-loss-hybrid-pivot-2026, tesla-model-y-price-bump-2026, congress-ev-annual-fee-2026, rivian-r2-deliveries-2026, chevy-bolt-2027-review, 駐外新聞-美國-2025, ev-news-2026-09-18-digest, ev-news-2026-09-20-digest, ev-news-2026-09-22-electrive-en, ev-news-2026-09-26-electrive-en, ev-news-2026-09-28-digest, ev-news-2026-10-05-digitimes, ev-news-2026-10-07-electrive-en, ev-news-2026-10-22-insideevs, ev-news-2026-10-27-digitimes, ev-news-2026-10-27-electrive-en, ev-news-2026-10-27-insideevs, ev-news-2026-10-29-insideevs, ev-news-2026-10-30-electrive-en, ev-news-2026-10-30-insideevs, ev-news-2026-11-02-electrive-en, ev-news-2026-11-02-digitimes, ev-news-2026-11-04-insideevs, ev-news-2026-11-04-digitimes, ev-news-2026-11-06-insideevs, ev-news-2026-11-06-digitimes, ev-news-2026-11-09-cn-misc, ev-news-2026-11-11-electrive-en, ev-news-2026-11-11-digitimes, ev-news-2026-11-11-insideevs, ev-news-2026-11-11b-insideevs, ev-news-2026-11-11b-digitimes]
-updated: 2026-11-11
+sources: [gm-ford-q1-2026-sales, us-ev-battery-demand-mismatch, rivian-r2-range-specs, vw-id4-chattanooga-stop, tesla-25k-ev-us-price-parity, slate-auto-ev-pickup, ford-ev-restructure-doug-field, vw-id4-us-writedown, tesla-q1-2026-earnings, gm-ev-delay-detroit-three, nissan-mississippi-ev-abandonment, honda-canada-ev-freeze-2026, tesla-model-s-final-production, mazda-ev-delay-2029, ford-catl-michigan-factory-2026, honda-9b-loss-hybrid-pivot-2026, tesla-model-y-price-bump-2026, congress-ev-annual-fee-2026, rivian-r2-deliveries-2026, chevy-bolt-2027-review, 駐外新聞-美國-2025, ev-news-2026-09-18-digest, ev-news-2026-09-20-digest, ev-news-2026-09-22-electrive-en, ev-news-2026-09-26-electrive-en, ev-news-2026-09-28-digest, ev-news-2026-10-05-digitimes, ev-news-2026-10-07-electrive-en, ev-news-2026-10-22-insideevs, ev-news-2026-10-27-digitimes, ev-news-2026-10-27-electrive-en, ev-news-2026-10-27-insideevs, ev-news-2026-10-29-insideevs, ev-news-2026-10-30-electrive-en, ev-news-2026-10-30-insideevs, ev-news-2026-11-02-electrive-en, ev-news-2026-11-02-digitimes, ev-news-2026-11-04-insideevs, ev-news-2026-11-04-digitimes, ev-news-2026-11-06-insideevs, ev-news-2026-11-06-digitimes, ev-news-2026-11-09-cn-misc, ev-news-2026-11-11-electrive-en, ev-news-2026-11-11-digitimes, ev-news-2026-11-11-insideevs, ev-news-2026-11-11b-insideevs, ev-news-2026-11-11b-digitimes, ev-news-2026-11-12-digitimes]
+updated: 2026-11-12
 ---
 
 # 美國 EV 市場與政策
@@ -538,3 +538,13 @@ Q3美國BEV銷量年減39.5%（Cox／KBB）；德系車8月BEV榜名次落後；
 **觀察**：Lucid 2027年1Q公布Cosmos發表與量產時程；灣區Gravity Robotaxi是否如期2027年1Q。
 
 - 參見：[[sources/ev-news-2026-11-11b-insideevs]] | [[sources/ev-news-2026-11-11b-digitimes]] | [[Lucid]] | [[本田]] | [[countries/美國]]
+
+## 豐田Scion KEI-01在美組裝（2026-11）
+
+> **結論**：豐田2027年下半年在印第安納半散裝組裝低速輕卡KEI-01（時速25英里），為豐田首款在美生產輕型卡車，呼應川普2025年呼籲，電動並非本案重點。
+
+**主因**：投資3,400萬美元、新增約50職缺；初期僅商用通路、一次購10輛以上；豐田承諾5年投資100億美元。
+
+**觀察**：售價與產能；是否擴及零售。
+
+- 參見：[[sources/ev-news-2026-11-12-digitimes]] | [[豐田]] | [[countries/日本]]

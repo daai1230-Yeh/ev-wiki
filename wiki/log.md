@@ -2483,3 +2483,13 @@ Pages 375 → 406，Sources 315 → 346
 - New pages created: 無
 - Key additions: BMW新增LGES、三星SDI供應Neue Klasse 46系列（2028~2029年交貨）；英歐TCA 2027-01原產地門檻（82%歐盟出口EV不達標、額外14.7億歐元）；本田上修營益至7,800億日圓、EV損失維持5,200億；三菱汽車淨利預估降至100億日圓；Honda Alpha印度全球唯一產地（12/2首演）；Lucid Cosmos 2027下半年量產；寧德時代鋰空氣長期研究；英國前9月零排放巴士市佔31.1%
 - 備註: Digitimes剪輯檔無單篇網址，已於來源頁註明；康舒標題「占比59%」與內文10月73%口徑待核對；比亞迪葡萄牙電池廠尚無官方確認；Digitimes鴻海SEP93僅為節目議題列表；Wrightbus氫燃料客車延至2027或2028年
+
+## [2026-11-12] ingest | EV News 2026-11-10~12 批次（28篇原文，3個來源摘要頁）
+- Summary pages: [[sources/ev-news-2026-11-12-electrive-en]], [[sources/ev-news-2026-11-12-digitimes]], [[sources/ev-news-2026-11-12-cn-misc]]
+- Raw assets: raw/assets/2026-11-11-立凱電*.md、2026-11-11-豪華車市*.md、2026-11-12-*.md（28篇；其餘23個標點／全形變體與「HHTD 26」前綴重複檔不重複 ingest）
+- Pages updated (concepts): 中國EV出海策略、中國EV市場競爭格局、歐洲EV市場、電動商用車、電動巴士市場、充電基礎建設、電池回收、電池技術路線、Robotaxi自動計程車、台灣EV市場、美國EV市場與政策、人形機器人、車用半導體供應鏈
+- Pages updated (entities): Tesla、福特、Volkswagen、BMW、三星SDI、現代汽車、起亞、豐田、本田
+- Countries updated: [[countries/中國]], [[countries/歐洲]], [[countries/德國]], [[countries/英國]], [[countries/韓國]], [[countries/美國]], [[countries/日本]], [[countries/台灣]], [[countries/東南亞]], [[countries/挪威]]
+- New pages created: 無
+- Key additions: 中國10月新能源車出口60.6萬輛（年增140%、占31.2%）；Tesla中國10月內銷8,817輛（年減66.1%、2022年7月後首度<1萬）；歐盟前9月外接充電式廂型車151,691輛（年增38.2%、市佔14.1%）；福斯中國10月EV交付逾2.8萬輛；Genesis韓國1–10月年減29.4%；三星SDI與現代集團9項固態專利；豐田2027下半年美國組裝Scion KEI-01；賓士北美HPC 100站934口
+- 備註: Digitimes剪輯檔無單篇網址，已於來源頁註明；Genesis GV90價格（electrive 1.4379億 vs BigGo 1.395億韓元）、賓士HPC口徑（本篇934口 vs 11-04 InsideEVs 748口）、福斯茨維考ID.3去留（工會 vs 公司）、Cybertruck需求說法並存、ACEA外接充電式含PHEV與Dataforce純電不可直接比較均待核對；Terafab屬傳聞轉述

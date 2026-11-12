@@ -1,7 +1,7 @@
 ---
 tags: [concept]
-sources: [tesla-taiwan-march-2026, taiwan-ev-charging-strategy, taiwan-ev-charging-upower, taiwan-evalue-640kw-charger, taiwan-ev-electrification-progress-2026, ev-news-2026-10-27-digitimes, ev-news-2026-10-30-digitimes, ev-news-2026-11-02-cn-misc, ev-news-2026-11-02-digitimes, ev-news-2026-11-04-digitimes, ev-news-2026-11-06-digitimes, ev-news-2026-11-09-cn-misc, ev-news-2026-11-11-digitimes, ev-news-2026-11-11b-digitimes]
-updated: 2026-11-11
+sources: [tesla-taiwan-march-2026, taiwan-ev-charging-strategy, taiwan-ev-charging-upower, taiwan-evalue-640kw-charger, taiwan-ev-electrification-progress-2026, ev-news-2026-10-27-digitimes, ev-news-2026-10-30-digitimes, ev-news-2026-11-02-cn-misc, ev-news-2026-11-02-digitimes, ev-news-2026-11-04-digitimes, ev-news-2026-11-06-digitimes, ev-news-2026-11-09-cn-misc, ev-news-2026-11-11-digitimes, ev-news-2026-11-11b-digitimes, ev-news-2026-11-12-digitimes, ev-news-2026-11-12-cn-misc]
+updated: 2026-11-12
 ---
 
 # 台灣 EV 市場
@@ -150,3 +150,13 @@ updated: 2026-11-11
 **觀察**：鴻海波蘭案與三菱合作進度；Digitimes節目僅為議題列表，無具體數字。
 
 - 參見：[[sources/ev-news-2026-11-11b-digitimes]] | [[鴻海]] | [[countries/台灣]]
+
+## 豪華車PHEV化、汎德永業獲利與電動公車（2026-11）
+
+> **結論**：台灣豪華車市電氣化以PHEV與BMW新世代純電為主；汎德永業3Q單季獲利轉增，但前3季營業利益仍年減29.4%。
+
+**主因**：2025年油電車逆勢增至13.2萬輛（占比32.6%）、2026年可望逾15萬輛；BMW iX3累計訂單逾3,000張；Tesla年度累計14,485輛。
+
+**觀察**：iX3、Cayenne Electric交車量；台灣11月掛牌。
+
+- 參見：[[sources/ev-news-2026-11-12-digitimes]] | [[sources/ev-news-2026-11-12-cn-misc]] | [[BMW]] | [[countries/台灣]]

@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [samsung-sdi-mercedes-battery-deal, samsung-sdi-mercedes-confirmed-deal, samsung-sdi-solid-state-production-2026, ev-news-2026-07-03-08, ev-news-2026-07-14-16-digitimes, ev-news-2026-09-04-digitimes, ev-news-2026-09-24-digitimes, ev-news-2026-10-02-digitimes, ev-news-2026-10-05-electrive-en, ev-news-2026-10-07-digitimes, ev-news-2026-10-15-digitimes, ev-news-2026-10-27-digitimes, ev-news-2026-10-29-digitimes, ev-news-2026-10-30-digitimes, ev-news-2026-11-11-digitimes, ev-news-2026-11-11b-digitimes]
-updated: 2026-11-11
+sources: [samsung-sdi-mercedes-battery-deal, samsung-sdi-mercedes-confirmed-deal, samsung-sdi-solid-state-production-2026, ev-news-2026-07-03-08, ev-news-2026-07-14-16-digitimes, ev-news-2026-09-04-digitimes, ev-news-2026-09-24-digitimes, ev-news-2026-10-02-digitimes, ev-news-2026-10-05-electrive-en, ev-news-2026-10-07-digitimes, ev-news-2026-10-15-digitimes, ev-news-2026-10-27-digitimes, ev-news-2026-10-29-digitimes, ev-news-2026-10-30-digitimes, ev-news-2026-11-11-digitimes, ev-news-2026-11-11b-digitimes, ev-news-2026-11-12-cn-misc]
+updated: 2026-11-12
 ---
 
 # 三星 SDI（Samsung SDI）
@@ -154,3 +154,13 @@ Mercedes今年4月與三星SDI簽首份長期電池供應合約，並同步引�
 **觀察**：Göd廠量產時程。
 
 - 參見：[[sources/ev-news-2026-11-11b-digitimes]] | [[BMW]] | [[LGES]]
+
+## 與現代集團固態專利、機器人電池（2026-11）
+
+> **結論**：三星SDI與現代／起亞合作由供貨延伸至電池組共同設計與固態量產製程，3Q營業利益4,078億韓元（去年同期虧5,913億）。
+
+**主因**：9項固態專利、方形電池搭載3款車；機器人電池MOU；4Q汽車電池據預測再轉虧（待核對）。
+
+**觀察**：電動車電池比重與固態量產。
+
+- 參見：[[sources/ev-news-2026-11-12-cn-misc]] | [[現代汽車]] | [[concepts/電池技術路線]]
