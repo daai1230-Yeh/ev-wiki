@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [lucid-cosmos-2026, ev-news-2026-06-27-29-en, ev-news-2026-06-30-07-01, ev-news-2026-07-14-16-electrive, ev-news-2026-07-17-20-digitimes, ev-news-2026-08-03-06-electrive-en, ev-news-2026-08-04-06-cn-misc, ev-news-2026-08-06-07-electrive-en, ev-news-2026-08-07-digitimes, ev-news-2026-08-07-10-electrive-en, ev-news-2026-08-27-29-electrive-en, ev-news-2026-09-19-electrive-en, ev-news-2026-10-07-electrive-en, ev-news-2026-10-27-digitimes, ev-news-2026-11-11b-insideevs]
-updated: 2026-11-11
+sources: [lucid-cosmos-2026, ev-news-2026-06-27-29-en, ev-news-2026-06-30-07-01, ev-news-2026-07-14-16-electrive, ev-news-2026-07-17-20-digitimes, ev-news-2026-08-03-06-electrive-en, ev-news-2026-08-04-06-cn-misc, ev-news-2026-08-06-07-electrive-en, ev-news-2026-08-07-digitimes, ev-news-2026-08-07-10-electrive-en, ev-news-2026-08-27-29-electrive-en, ev-news-2026-09-19-electrive-en, ev-news-2026-10-07-electrive-en, ev-news-2026-10-27-digitimes, ev-news-2026-11-11b-insideevs, ev-news-2026-11-16-electrive-en]
+updated: 2026-11-16
 ---
 
 # Lucid Motors
@@ -157,3 +157,13 @@ Lucid Q3交付3,806輛（年減6.7%）、生產2,954輛（季減38%），6月砍
 **觀察**：2027年1Q公布時程。
 
 - 參見：[[sources/ev-news-2026-11-11b-insideevs]] | [[concepts/美國EV市場與政策]]
+
+## 重整與Air試駕（2026-11）
+
+> **結論**：Lucid重整（今年省14億美元、裁員約18%）下，Air Grand Touring以WLTP最高960 km續航為賣點，中型平台延至2027下半年。
+
+**主因**：3Q交車3,806輛；Bolt歐洲Robotaxi基於中型平台。
+
+**觀察**：Cosmos 2027下半年量產。
+
+- 參見：[[sources/ev-news-2026-11-16-electrive-en]] | [[concepts/美國EV市場與政策]]

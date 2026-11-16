@@ -1,7 +1,7 @@
 ---
 tags: [concept]
-sources: [china-ev-market-consolidation, chery-qq3-vs-byd-seagull, china-ev-market-q1-2026, mercedes-benz-china-q1-2026, china-nev-april-involution-2026, china-nev-april-2026, xpeng-physical-ai-pivot-2026, ev-news-digest-jun1-10-2026, china-ev-market-slowdown-jun2026, xiaomi-su7-2026-update, byd-great-han-2026, ev-news-2026-09-21-digitimes, ev-news-2026-09-18-digitimes, ev-news-2026-09-20-digest, ev-news-2026-09-22-electrive-en, ev-news-2026-09-22-digitimes, ev-news-2026-09-23-digitimes, ev-news-2026-09-24-digest, ev-news-2026-09-24-digitimes, ev-news-2026-10-01-digitimes, ev-news-2026-10-02-digitimes, ev-news-2026-10-01-electrive-en, ev-news-2026-10-05-digitimes, ev-news-2026-10-12-digitimes-2, ev-news-2026-10-19-electrive-en, ev-news-2026-10-20-electrive-en, ev-news-2026-10-22-digitimes, ev-news-2026-10-27-digest, ev-news-2026-10-27-electrive-en, ev-news-2026-10-29-electrive-en, ev-news-2026-10-29-digitimes, ev-news-2026-10-30-digitimes, ev-news-2026-11-02-cn-misc, ev-news-2026-11-04-cn-misc, ev-news-2026-11-09-cn-misc, ev-news-2026-11-11-electrive-en, ev-news-2026-11-12-digitimes, ev-news-2026-11-12-cn-misc]
-updated: 2026-11-12
+sources: [china-ev-market-consolidation, chery-qq3-vs-byd-seagull, china-ev-market-q1-2026, mercedes-benz-china-q1-2026, china-nev-april-involution-2026, china-nev-april-2026, xpeng-physical-ai-pivot-2026, ev-news-digest-jun1-10-2026, china-ev-market-slowdown-jun2026, xiaomi-su7-2026-update, byd-great-han-2026, ev-news-2026-09-21-digitimes, ev-news-2026-09-18-digitimes, ev-news-2026-09-20-digest, ev-news-2026-09-22-electrive-en, ev-news-2026-09-22-digitimes, ev-news-2026-09-23-digitimes, ev-news-2026-09-24-digest, ev-news-2026-09-24-digitimes, ev-news-2026-10-01-digitimes, ev-news-2026-10-02-digitimes, ev-news-2026-10-01-electrive-en, ev-news-2026-10-05-digitimes, ev-news-2026-10-12-digitimes-2, ev-news-2026-10-19-electrive-en, ev-news-2026-10-20-electrive-en, ev-news-2026-10-22-digitimes, ev-news-2026-10-27-digest, ev-news-2026-10-27-electrive-en, ev-news-2026-10-29-electrive-en, ev-news-2026-10-29-digitimes, ev-news-2026-10-30-digitimes, ev-news-2026-11-02-cn-misc, ev-news-2026-11-04-cn-misc, ev-news-2026-11-09-cn-misc, ev-news-2026-11-11-electrive-en, ev-news-2026-11-12-digitimes, ev-news-2026-11-12-cn-misc, ev-news-2026-11-16-cn-misc]
+updated: 2026-11-16
 ---
 
 # 中國 EV 市場競爭格局
@@ -353,3 +353,13 @@ DIGITIMES Research：2026上半全球電動車約980萬輛（年增2%），前15
 **觀察**：11–12月Tesla內銷是否如2025年反彈（11月約7.3萬、12月約9.4萬為全球基準）；福斯續航能否轉盈。
 
 - 參見：[[sources/ev-news-2026-11-12-digitimes]] | [[sources/ev-news-2026-11-12-cn-misc]] | [[Tesla]] | [[Volkswagen]] | [[countries/中國]]
+
+## 小鵬3Q財報前瞻與價格戰（2026-11）
+
+> **結論**：小鵬10月交付50,237輛創高（海外13,326輛、年增166%），但3Q共識仍預期虧損（EPS -0.45元人民幣），價格戰下毛利率成為關鍵。
+
+**主因**：2Q EPS -1.29元、營收197.4億元 → 3Q預期營收232.2億元（年增13.94%）、虧損收斂 → 摩根大通下調至持有、高盛維持買入。
+
+**觀察**：小鵬3Q毛利率與韓國、Robotaxi進度；「11月新能源占新車59.4%」數字待核對。
+
+- 參見：[[sources/ev-news-2026-11-16-cn-misc]] | [[小鵬汽車]] | [[countries/中國]]

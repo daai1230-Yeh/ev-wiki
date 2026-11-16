@@ -1,7 +1,7 @@
 ---
 tags: [concept]
-sources: [gm-ford-q1-2026-sales, us-ev-battery-demand-mismatch, rivian-r2-range-specs, vw-id4-chattanooga-stop, tesla-25k-ev-us-price-parity, slate-auto-ev-pickup, ford-ev-restructure-doug-field, vw-id4-us-writedown, tesla-q1-2026-earnings, gm-ev-delay-detroit-three, nissan-mississippi-ev-abandonment, honda-canada-ev-freeze-2026, tesla-model-s-final-production, mazda-ev-delay-2029, ford-catl-michigan-factory-2026, honda-9b-loss-hybrid-pivot-2026, tesla-model-y-price-bump-2026, congress-ev-annual-fee-2026, rivian-r2-deliveries-2026, chevy-bolt-2027-review, 駐外新聞-美國-2025, ev-news-2026-09-18-digest, ev-news-2026-09-20-digest, ev-news-2026-09-22-electrive-en, ev-news-2026-09-26-electrive-en, ev-news-2026-09-28-digest, ev-news-2026-10-05-digitimes, ev-news-2026-10-07-electrive-en, ev-news-2026-10-22-insideevs, ev-news-2026-10-27-digitimes, ev-news-2026-10-27-electrive-en, ev-news-2026-10-27-insideevs, ev-news-2026-10-29-insideevs, ev-news-2026-10-30-electrive-en, ev-news-2026-10-30-insideevs, ev-news-2026-11-02-electrive-en, ev-news-2026-11-02-digitimes, ev-news-2026-11-04-insideevs, ev-news-2026-11-04-digitimes, ev-news-2026-11-06-insideevs, ev-news-2026-11-06-digitimes, ev-news-2026-11-09-cn-misc, ev-news-2026-11-11-electrive-en, ev-news-2026-11-11-digitimes, ev-news-2026-11-11-insideevs, ev-news-2026-11-11b-insideevs, ev-news-2026-11-11b-digitimes, ev-news-2026-11-12-digitimes]
-updated: 2026-11-12
+sources: [gm-ford-q1-2026-sales, us-ev-battery-demand-mismatch, rivian-r2-range-specs, vw-id4-chattanooga-stop, tesla-25k-ev-us-price-parity, slate-auto-ev-pickup, ford-ev-restructure-doug-field, vw-id4-us-writedown, tesla-q1-2026-earnings, gm-ev-delay-detroit-three, nissan-mississippi-ev-abandonment, honda-canada-ev-freeze-2026, tesla-model-s-final-production, mazda-ev-delay-2029, ford-catl-michigan-factory-2026, honda-9b-loss-hybrid-pivot-2026, tesla-model-y-price-bump-2026, congress-ev-annual-fee-2026, rivian-r2-deliveries-2026, chevy-bolt-2027-review, 駐外新聞-美國-2025, ev-news-2026-09-18-digest, ev-news-2026-09-20-digest, ev-news-2026-09-22-electrive-en, ev-news-2026-09-26-electrive-en, ev-news-2026-09-28-digest, ev-news-2026-10-05-digitimes, ev-news-2026-10-07-electrive-en, ev-news-2026-10-22-insideevs, ev-news-2026-10-27-digitimes, ev-news-2026-10-27-electrive-en, ev-news-2026-10-27-insideevs, ev-news-2026-10-29-insideevs, ev-news-2026-10-30-electrive-en, ev-news-2026-10-30-insideevs, ev-news-2026-11-02-electrive-en, ev-news-2026-11-02-digitimes, ev-news-2026-11-04-insideevs, ev-news-2026-11-04-digitimes, ev-news-2026-11-06-insideevs, ev-news-2026-11-06-digitimes, ev-news-2026-11-09-cn-misc, ev-news-2026-11-11-electrive-en, ev-news-2026-11-11-digitimes, ev-news-2026-11-11-insideevs, ev-news-2026-11-11b-insideevs, ev-news-2026-11-11b-digitimes, ev-news-2026-11-12-digitimes, ev-news-2026-11-16-digitimes, ev-news-2026-11-16-cn-misc]
+updated: 2026-11-16
 ---
 
 # 美國 EV 市場與政策
@@ -548,3 +548,17 @@ Q3美國BEV銷量年減39.5%（Cox／KBB）；德系車8月BEV榜名次落後；
 **觀察**：售價與產能；是否擴及零售。
 
 - 參見：[[sources/ev-news-2026-11-12-digitimes]] | [[豐田]] | [[countries/日本]]
+
+## 油電車市佔16.3%、本田CR-V全面HEV、Tesla精簡產品線（2026-11）
+
+> **結論**：油價居高（多數時間逾4美元／加侖）使油電車市佔2026年2Q末升至16.3%（前一年13%），純電受取消稅額抵免與高油價雙重夾擊；日韓車廠以完整HEV陣容擴大美國份額。
+
+**主因**：
+- 基準：Cox Automotive顯示油電車自2025年中銷量增逾兩成 → 本田宣布下一代CR-V（2027年）停售純汽油版、10月HEV占CR-V美國銷量53%；豐田主力車款亦轉向僅HEV。
+- 現代／起亞：1–10月美國中大型SUV 547,363輛（年增7.8%）、市佔10.6%（2019年5.9%），油電零售411,992輛（年增60.1%）→ 與GM僅差0.1個百分點。
+- Tesla：入門Model Y AWD下架（AWD門檻+8,000美元至49,990美元），RWD續航由321升至348英里、39,990美元不變 → 產品線再精簡。
+- 補助：加州ZESBI重啟5,500萬美元校車補助，每輛加碼最高4萬美元，以補聯邦45W取消與關稅成本。
+
+**觀察**：2027年CR-V HEV價格與銷量；現代起亞年底是否超車GM。
+
+- 參見：[[sources/ev-news-2026-11-16-digitimes]] | [[sources/ev-news-2026-11-16-cn-misc]] | [[sources/ev-news-2026-11-16-sustainablebus]] | [[本田]] | [[現代汽車]] | [[Tesla]] | [[countries/美國]]

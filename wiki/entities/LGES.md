@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [lges-loss-ess-2026, ira-supply-chain-compliance, us-ev-battery-demand-mismatch, lges-tesla-4680-supplier, lges-bmw-46series-order, ev-news-2026-07-03-08, ev-news-2026-07-10-supplement, ev-news-2026-07-12-13-electrive, ev-news-2026-07-14-16-digitimes, ev-news-2026-07-17-20-digitimes, ev-news-2026-07-25-27-digitimes, ev-news-2026-07-29-31-digitimes, ev-news-2026-08-20-digitimes, ev-news-2026-08-19-20-cn-misc, ev-news-2026-08-19-20-electrive-en, ev-news-2026-08-21-digitimes, ev-news-2026-08-21-23-electrive-en, ev-news-2026-08-26-digitimes, ev-news-2026-08-27-digitimes, ev-news-2026-09-01-digitimes, ev-news-2026-10-01-electrive-en, ev-news-2026-10-02-digitimes, ev-news-2026-10-05-electrive-en, ev-news-2026-10-07-digitimes, ev-news-2026-10-08-digitimes, ev-news-2026-10-09-electrive-en, ev-news-2026-10-12-digest, ev-news-2026-10-20-digitimes, ev-news-2026-10-27-digitimes, ev-news-2026-10-27-electrive-en, ev-news-2026-10-29-digitimes, ev-news-2026-11-04-digitimes, ev-news-2026-11-11-digitimes, ev-news-2026-11-11b-digitimes]
-updated: 2026-11-11
+sources: [lges-loss-ess-2026, ira-supply-chain-compliance, us-ev-battery-demand-mismatch, lges-tesla-4680-supplier, lges-bmw-46series-order, ev-news-2026-07-03-08, ev-news-2026-07-10-supplement, ev-news-2026-07-12-13-electrive, ev-news-2026-07-14-16-digitimes, ev-news-2026-07-17-20-digitimes, ev-news-2026-07-25-27-digitimes, ev-news-2026-07-29-31-digitimes, ev-news-2026-08-20-digitimes, ev-news-2026-08-19-20-cn-misc, ev-news-2026-08-19-20-electrive-en, ev-news-2026-08-21-digitimes, ev-news-2026-08-21-23-electrive-en, ev-news-2026-08-26-digitimes, ev-news-2026-08-27-digitimes, ev-news-2026-09-01-digitimes, ev-news-2026-10-01-electrive-en, ev-news-2026-10-02-digitimes, ev-news-2026-10-05-electrive-en, ev-news-2026-10-07-digitimes, ev-news-2026-10-08-digitimes, ev-news-2026-10-09-electrive-en, ev-news-2026-10-12-digest, ev-news-2026-10-20-digitimes, ev-news-2026-10-27-digitimes, ev-news-2026-10-27-electrive-en, ev-news-2026-10-29-digitimes, ev-news-2026-11-04-digitimes, ev-news-2026-11-11-digitimes, ev-news-2026-11-11b-digitimes, ev-news-2026-11-16-digitimes]
+updated: 2026-11-16
 ---
 
 # 樂金能源解決方案（LG Energy Solution，LGES）
@@ -287,3 +287,13 @@ LGES Q3營收約9.64兆韓元（年增59%）創單季新高，營業利益7,560�
 **觀察**：亞利桑那46系列量產爬坡與供貨量。
 
 - 參見：[[sources/ev-news-2026-11-11b-digitimes]] | [[BMW]] | [[concepts/電池技術路線]]
+
+## LFP 2170切入AI伺服器BBU（2026-11）
+
+> **結論**：LGES在清州梧倉廠備產無極耳2170 LFP，目標2027年2Q量產AI伺服器BBU用電池。
+
+**主因**：熱安全優於NCM、客戶回饋正面。
+
+**觀察**：量產與客戶。
+
+- 參見：[[sources/ev-news-2026-11-16-digitimes]] | [[concepts/儲能市場]]

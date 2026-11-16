@@ -2493,3 +2493,13 @@ Pages 375 → 406，Sources 315 → 346
 - New pages created: 無
 - Key additions: 中國10月新能源車出口60.6萬輛（年增140%、占31.2%）；Tesla中國10月內銷8,817輛（年減66.1%、2022年7月後首度<1萬）；歐盟前9月外接充電式廂型車151,691輛（年增38.2%、市佔14.1%）；福斯中國10月EV交付逾2.8萬輛；Genesis韓國1–10月年減29.4%；三星SDI與現代集團9項固態專利；豐田2027下半年美國組裝Scion KEI-01；賓士北美HPC 100站934口
 - 備註: Digitimes剪輯檔無單篇網址，已於來源頁註明；Genesis GV90價格（electrive 1.4379億 vs BigGo 1.395億韓元）、賓士HPC口徑（本篇934口 vs 11-04 InsideEVs 748口）、福斯茨維考ID.3去留（工會 vs 公司）、Cybertruck需求說法並存、ACEA外接充電式含PHEV與Dataforce純電不可直接比較均待核對；Terafab屬傳聞轉述
+
+## [2026-11-16] ingest | EV News 2026-11-12~16 批次（31篇原文，4個來源摘要頁）
+- Summary pages: [[sources/ev-news-2026-11-16-electrive-en]], [[sources/ev-news-2026-11-16-sustainablebus]], [[sources/ev-news-2026-11-16-digitimes]], [[sources/ev-news-2026-11-16-cn-misc]]
+- Raw assets: raw/assets/2026-11-13-*.md、2026-11-16-*.md及2則無日期前綴之Sustainable Bus稿（31篇；其餘27個標點／全形變體與「HHTD 26」前綴重複檔不重複 ingest）
+- Pages updated (concepts): 歐洲EV市場、中國EV出海策略、中國EV市場競爭格局、美國EV市場與政策、Robotaxi自動計程車、自動駕駛安全監管、電動巴士市場、儲能市場、電池技術路線、氫燃料電池商用車、台灣EV市場
+- Pages updated (entities): Tesla、Volkswagen、Lucid、LGES、三星SDI、本田、現代汽車、起亞、比亞迪、吉利汽車、小鵬汽車
+- Countries updated: [[countries/英國]], [[countries/歐洲]], [[countries/德國]], [[countries/美國]], [[countries/中國]], [[countries/韓國]], [[countries/日本]], [[countries/台灣]]
+- New pages created: 無
+- Key additions: 10月中國品牌BEV＋PHEV海外銷量58.2萬輛（年增144.7%）但人民幣升值4.6%造成匯損（比亞迪11.4億元）；英歐EV原產地關稅可能再延；美國油電車市佔16.3%創高、本田CR-V 2027全面HEV；Cybercab個人訂購約3萬美元；芬蘭臨時批准Tesla TAD；LGES／三星SDI 2Q27量產AI伺服器LFP；Kia韓國電動化30萬輛；現代起亞美國中大型SUV市佔10.6%
+- 備註: Digitimes剪輯檔無單篇網址，已於來源頁註明；SpaceX併Tesla屬消息人士轉述未證實；科技新報出口500萬輛為AI生成稿、鄭宗宜為個人觀點稿；乘聯會58.2萬輛與CAAM 60.6萬輛口徑不同；歐盟對英國加稅「最高45%」說法、eCitaro電量口徑、小鵬「59.4%」均待核對；Transport UK／Zenobē與eCitaro為前批同一事件之另一來源

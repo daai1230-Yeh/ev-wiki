@@ -1,7 +1,7 @@
 ---
 tags: [concept]
-sources: [tesla-taiwan-march-2026, taiwan-ev-charging-strategy, taiwan-ev-charging-upower, taiwan-evalue-640kw-charger, taiwan-ev-electrification-progress-2026, ev-news-2026-10-27-digitimes, ev-news-2026-10-30-digitimes, ev-news-2026-11-02-cn-misc, ev-news-2026-11-02-digitimes, ev-news-2026-11-04-digitimes, ev-news-2026-11-06-digitimes, ev-news-2026-11-09-cn-misc, ev-news-2026-11-11-digitimes, ev-news-2026-11-11b-digitimes, ev-news-2026-11-12-digitimes, ev-news-2026-11-12-cn-misc]
-updated: 2026-11-12
+sources: [tesla-taiwan-march-2026, taiwan-ev-charging-strategy, taiwan-ev-charging-upower, taiwan-evalue-640kw-charger, taiwan-ev-electrification-progress-2026, ev-news-2026-10-27-digitimes, ev-news-2026-10-30-digitimes, ev-news-2026-11-02-cn-misc, ev-news-2026-11-02-digitimes, ev-news-2026-11-04-digitimes, ev-news-2026-11-06-digitimes, ev-news-2026-11-09-cn-misc, ev-news-2026-11-11-digitimes, ev-news-2026-11-11b-digitimes, ev-news-2026-11-12-digitimes, ev-news-2026-11-12-cn-misc, ev-news-2026-11-16-digitimes]
+updated: 2026-11-16
 ---
 
 # 台灣 EV 市場
@@ -160,3 +160,13 @@ updated: 2026-11-12
 **觀察**：iX3、Cayenne Electric交車量；台灣11月掛牌。
 
 - 參見：[[sources/ev-news-2026-11-12-digitimes]] | [[sources/ev-news-2026-11-12-cn-misc]] | [[BMW]] | [[countries/台灣]]
+
+## Toyota Premium與Crown Sport配額（2026-11）
+
+> **結論**：和泰車推出Toyota Premium，Crown Sport台灣首批配額2,000輛已累計逾1,000張訂單，交車需3~6個月。
+
+**主因**：電視新聞導言，數字有限。
+
+**觀察**：配額與交車節奏。
+
+- 參見：[[sources/ev-news-2026-11-16-digitimes]] | [[countries/台灣]]

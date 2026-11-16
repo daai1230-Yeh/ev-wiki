@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [samsung-sdi-mercedes-battery-deal, samsung-sdi-mercedes-confirmed-deal, samsung-sdi-solid-state-production-2026, ev-news-2026-07-03-08, ev-news-2026-07-14-16-digitimes, ev-news-2026-09-04-digitimes, ev-news-2026-09-24-digitimes, ev-news-2026-10-02-digitimes, ev-news-2026-10-05-electrive-en, ev-news-2026-10-07-digitimes, ev-news-2026-10-15-digitimes, ev-news-2026-10-27-digitimes, ev-news-2026-10-29-digitimes, ev-news-2026-10-30-digitimes, ev-news-2026-11-11-digitimes, ev-news-2026-11-11b-digitimes, ev-news-2026-11-12-cn-misc]
-updated: 2026-11-12
+sources: [samsung-sdi-mercedes-battery-deal, samsung-sdi-mercedes-confirmed-deal, samsung-sdi-solid-state-production-2026, ev-news-2026-07-03-08, ev-news-2026-07-14-16-digitimes, ev-news-2026-09-04-digitimes, ev-news-2026-09-24-digitimes, ev-news-2026-10-02-digitimes, ev-news-2026-10-05-electrive-en, ev-news-2026-10-07-digitimes, ev-news-2026-10-15-digitimes, ev-news-2026-10-27-digitimes, ev-news-2026-10-29-digitimes, ev-news-2026-10-30-digitimes, ev-news-2026-11-11-digitimes, ev-news-2026-11-11b-digitimes, ev-news-2026-11-12-cn-misc, ev-news-2026-11-16-digitimes]
+updated: 2026-11-16
 ---
 
 # 三星 SDI（Samsung SDI）
@@ -164,3 +164,13 @@ Mercedes今年4月與三星SDI簽首份長期電池供應合約，並同步引�
 **觀察**：電動車電池比重與固態量產。
 
 - 參見：[[sources/ev-news-2026-11-12-cn-misc]] | [[現代汽車]] | [[concepts/電池技術路線]]
+
+## 21700 LFP圓柱（2026-11）
+
+> **結論**：三星SDI同期推21700 LFP圓柱電池，自高鎳三元擴至LFP。
+
+**主因**：9月新加坡資料中心展同時展出三元與LFP。
+
+**觀察**：客戶多元化。
+
+- 參見：[[sources/ev-news-2026-11-16-digitimes]] | [[LGES]] | [[concepts/儲能市場]]

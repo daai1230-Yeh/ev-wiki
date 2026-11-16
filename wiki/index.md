@@ -1,6 +1,6 @@
 # Wiki Index
 
-Last updated: 2026-11-12 | Pages: 499 | Sources: 611
+Last updated: 2026-11-16 | Pages: 499 | Sources: 615
 
 ---
 
@@ -97,6 +97,10 @@ Last updated: 2026-11-12 | Pages: 499 | Sources: 611
 - [[sources/ev-news-2026-10-12-digest]] — 中文財經批次8篇：陸混動車輸歐恐砍半、豐田泰國殘值貸款、現代印度1,000萬輛、華德電巴、桃園A21、雙層客運補助縮水、Starlink印度。(2026-10-12)
 - [[sources/ev-news-2026-10-12-digitimes-2]] — Digitimes CarTech補充2篇：豐田、廣汽、一汽三方協議正式簽署、麗升跨足充電樁（註：剪輯檔無單篇網址）。(2026-10-12)
 - [[sources/ev-news-2026-10-12-14-digitimes]] — Digitimes CarTech 9篇：中國新能源車出口退稅2027-04起由13%降至9%（含評析）、歐盟HEV／PHEV年35萬輛配額、LGES大進機械轉單與L&F LFP長約、台灣能管法帶動儲能、寰聖／桓鼎、裕日車估車市42萬輛（全數附原文網址）。(2026-10-14)
+- [[sources/ev-news-2026-11-16-electrive-en]] — electrive批次3篇：英歐2027年EV原產地關稅可能再延（ACEA估82%不達標、14.7億歐元）、福斯ID. Tiguan在Emden量產、Lucid Air Grand Touring試駕與重整。(2026-11-16)
+- [[sources/ev-news-2026-11-16-sustainablebus]] — Sustainable Bus批次2篇：加州重啟5,500萬美元零排放校車補助、Zenobē為Transport UK融資169輛倫敦電巴。(2026-11-16)
+- [[sources/ev-news-2026-11-16-digitimes]] — Digitimes批次6篇：SpaceX併Tesla傳最快12月宣布、中國10月海外銷量58.2萬輛但人民幣升值帶來匯損、芬蘭臨時批准Tesla輔助駕駛、LGES／三星SDI 2Q27量產AI伺服器LFP電池、本田CR-V 2027全面HEV。(2026-11-16)
+- [[sources/ev-news-2026-11-16-cn-misc]] — 中文媒體批次20篇：美國油電車市佔16.3%創高、Cybercab開放個人訂購（約3萬美元）、Kia韓國電動化破30萬輛、現代起亞美國中大型SUV市佔10.6%、小鵬3Q財報前瞻、英國業界要求關稅緩徵兩年。(2026-11-16)
 - [[sources/ev-news-2026-11-12-electrive-en]] — electrive批次15篇：中國10月新能源車出口60.6萬輛年增140%、歐盟電動廂型車前9月年增38.2%、福斯茨維考ID.3去留爭議、賓士北美HPC三週年、Genesis GV90韓國開放訂購、BMW i3充電實測。(2026-11-12)
 - [[sources/ev-news-2026-11-12-digitimes]] — Digitimes批次5篇：Tesla中國10月內銷8,817輛跌破1萬、豐田Scion KEI-01在美組裝、立凱電LFP前驅體20年協議、汎德永業與台灣豪華PHEV。(2026-11-12)
 - [[sources/ev-news-2026-11-12-cn-misc]] — 中文媒體批次8篇：福斯中國10月EV交付創高、Genesis韓國銷量年減29.4%、三星SDI與現代固態專利、台南電巴與台中自駕巴士、Tesla Terafab DRAM傳聞。(2026-11-12)
