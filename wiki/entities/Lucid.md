@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [lucid-cosmos-2026, ev-news-2026-06-27-29-en, ev-news-2026-06-30-07-01, ev-news-2026-07-14-16-electrive, ev-news-2026-07-17-20-digitimes, ev-news-2026-08-03-06-electrive-en, ev-news-2026-08-04-06-cn-misc, ev-news-2026-08-06-07-electrive-en, ev-news-2026-08-07-digitimes, ev-news-2026-08-07-10-electrive-en, ev-news-2026-08-27-29-electrive-en, ev-news-2026-09-19-electrive-en, ev-news-2026-10-07-electrive-en, ev-news-2026-10-27-digitimes, ev-news-2026-11-11b-insideevs, ev-news-2026-11-16-electrive-en]
-updated: 2026-11-16
+sources: [lucid-cosmos-2026, ev-news-2026-06-27-29-en, ev-news-2026-06-30-07-01, ev-news-2026-07-14-16-electrive, ev-news-2026-07-17-20-digitimes, ev-news-2026-08-03-06-electrive-en, ev-news-2026-08-04-06-cn-misc, ev-news-2026-08-06-07-electrive-en, ev-news-2026-08-07-digitimes, ev-news-2026-08-07-10-electrive-en, ev-news-2026-08-27-29-electrive-en, ev-news-2026-09-19-electrive-en, ev-news-2026-10-07-electrive-en, ev-news-2026-10-27-digitimes, ev-news-2026-11-11b-insideevs, ev-news-2026-11-16-electrive-en, ev-news-2026-11-17-electrive-en]
+updated: 2026-11-17
 ---
 
 # Lucid Motors
@@ -167,3 +167,13 @@ Lucid Q3交付3,806輛（年減6.7%）、生產2,954輛（季減38%），6月砍
 **觀察**：Cosmos 2027下半年量產。
 
 - 參見：[[sources/ev-news-2026-11-16-electrive-en]] | [[concepts/美國EV市場與政策]]
+
+## 3Q現金流改善與PIF追加（2026-11）
+
+> **結論**：Lucid 3Q自由現金流流出較2Q減30%至10.4億美元，加計PIF追加17.5億美元後流動性37.5億美元，稱足以撐至2027年4Q。
+
+**主因**：營收3.5億美元（年增4%）、今年已省8億美元。
+
+**觀察**：中型車量產前現金消耗。
+
+- 參見：[[sources/ev-news-2026-11-17-electrive-en]] | [[concepts/美國EV市場與政策]]

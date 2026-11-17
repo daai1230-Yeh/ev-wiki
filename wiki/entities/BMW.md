@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [lges-bmw-46series-order, ev-news-2026-06-30-07-01, ev-news-2026-07-10-electrive-batch, ev-news-2026-07-12-13-electrive, ev-news-2026-07-24-27-electrive-en, ev-news-2026-07-29-31-digitimes, ev-news-2026-07-28-30-electrive-en, ev-news-2026-08-27-29-electrive-en, ev-news-2026-09-18-electrive-en, ev-news-2026-09-22-electrive-en, ev-news-2026-09-22-digitimes, ev-news-2026-09-24-electrive-en, ev-news-2026-09-30-electrive-en, ev-news-2026-10-01-electrive-en, ev-news-2026-10-02-electrive-en, ev-news-2026-10-05-electrive-en, ev-news-2026-10-04-digest, ev-news-2026-10-27-digitimes, ev-news-2026-11-11-electrive-en, ev-news-2026-11-11b-digitimes, ev-news-2026-11-12-electrive-en, ev-news-2026-11-12-digitimes]
-updated: 2026-11-12
+sources: [lges-bmw-46series-order, ev-news-2026-06-30-07-01, ev-news-2026-07-10-electrive-batch, ev-news-2026-07-12-13-electrive, ev-news-2026-07-24-27-electrive-en, ev-news-2026-07-29-31-digitimes, ev-news-2026-07-28-30-electrive-en, ev-news-2026-08-27-29-electrive-en, ev-news-2026-09-18-electrive-en, ev-news-2026-09-22-electrive-en, ev-news-2026-09-22-digitimes, ev-news-2026-09-24-electrive-en, ev-news-2026-09-30-electrive-en, ev-news-2026-10-01-electrive-en, ev-news-2026-10-02-electrive-en, ev-news-2026-10-05-electrive-en, ev-news-2026-10-04-digest, ev-news-2026-10-27-digitimes, ev-news-2026-11-11-electrive-en, ev-news-2026-11-11b-digitimes, ev-news-2026-11-12-electrive-en, ev-news-2026-11-12-digitimes, ev-news-2026-11-17-electrive-en, ev-news-2026-11-17-insideevs, ev-news-2026-11-17-cn-misc]
+updated: 2026-11-17
 ---
 
 # BMW（寶馬）
@@ -226,3 +226,13 @@ BMW美國製造以燃油／混動為主，本土化BEV安排年底或2027年；�
 **觀察**：2027年1Q i5、iX5。
 
 - 參見：[[sources/ev-news-2026-11-12-electrive-en]] | [[sources/ev-news-2026-11-12-digitimes]] | [[concepts/充電基礎建設]]
+
+## Woodruff電池廠投產（2026-11）
+
+> **結論**：BMW南卡Woodruff Gen6電池組裝廠量產，首供iX5（141 kWh），2030年前Spartanburg至少6款純電車。
+
+**主因**：「本地對本地」五座電池組裝廠（含墨西哥San Luis Potosí）；電芯供應口徑分歧（LGES vs AESC），待核對。
+
+**觀察**：iX5量產爬坡與電芯來源確認。
+
+- 參見：[[sources/ev-news-2026-11-17-electrive-en]] | [[sources/ev-news-2026-11-17-insideevs]] | [[sources/ev-news-2026-11-17-cn-misc]] | [[concepts/電池技術路線]] | [[LGES]]

@@ -2503,3 +2503,13 @@ Pages 375 → 406，Sources 315 → 346
 - New pages created: 無
 - Key additions: 10月中國品牌BEV＋PHEV海外銷量58.2萬輛（年增144.7%）但人民幣升值4.6%造成匯損（比亞迪11.4億元）；英歐EV原產地關稅可能再延；美國油電車市佔16.3%創高、本田CR-V 2027全面HEV；Cybercab個人訂購約3萬美元；芬蘭臨時批准Tesla TAD；LGES／三星SDI 2Q27量產AI伺服器LFP；Kia韓國電動化30萬輛；現代起亞美國中大型SUV市佔10.6%
 - 備註: Digitimes剪輯檔無單篇網址，已於來源頁註明；SpaceX併Tesla屬消息人士轉述未證實；科技新報出口500萬輛為AI生成稿、鄭宗宜為個人觀點稿；乘聯會58.2萬輛與CAAM 60.6萬輛口徑不同；歐盟對英國加稅「最高45%」說法、eCitaro電量口徑、小鵬「59.4%」均待核對；Transport UK／Zenobē與eCitaro為前批同一事件之另一來源
+
+## [2026-11-17] ingest | EV News 2026-11-13~17 批次（47篇原文，4個來源摘要頁）
+- Summary pages: [[sources/ev-news-2026-11-17-electrive-en]], [[sources/ev-news-2026-11-17-insideevs]], [[sources/ev-news-2026-11-17-digitimes]], [[sources/ev-news-2026-11-17-cn-misc]]
+- Raw assets: raw/assets/2026-11-17-*.md（47篇；其餘27個標點／全形變體與「HHTD 26」前綴重複檔不重複 ingest）
+- Pages updated (concepts): 充電基礎建設、電池技術路線、儲能市場、電池回收、Robotaxi自動計程車、自動駕駛安全監管、ADAS智駕系統、歐洲EV市場、中國EV市場競爭格局、電動巴士市場、電動卡車市場、台灣EV市場、印度EV市場、美國EV市場與政策、車用半導體供應鏈
+- Pages updated (entities): Tesla、BMW、三星SDI、寧德時代、Volkswagen、鴻海、三菱汽車、起亞、比亞迪、Lucid、日産
+- Countries updated: [[countries/德國]], [[countries/美國]], [[countries/韓國]], [[countries/中國]], [[countries/台灣]], [[countries/印度]], [[countries/歐洲]], [[countries/加拿大]]
+- New pages created: 無
+- Key additions: Tesla格林海德30億歐元擴建（2029年Cybercab）；賓士暫停德國新投資；Cybercab 29,990美元＋299美元／月個人購買；TAD歐盟十國批准、12月TCMV需15國＋65%人口；鴻華ASX VR-e首批出海澳紐；三星SDI Jupiter Power 16 GWh LFP；韓國10月汽車出口65.5億美元；全球EV 10月年增約8%；寧德時代換電2027年6,000座；加拿大ZEVIP續編5.87億加元
+- 備註: Digitimes剪輯檔無單篇網址，已於來源頁註明；BMW iX5電芯來源（LGES vs AESC vs 中國供應）、Cybercab服務區（德州5城 vs 德州與佛州）、TAD批准國數（十國 vs 近12國）待核對；InsideEVs Model 3保養指南為贊助內容；Dacia電動Sandero屬傳聞；多篇為前批事件之補充來源（Cybercab、Model Y、理想、BMW電池供應）

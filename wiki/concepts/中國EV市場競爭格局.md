@@ -1,7 +1,7 @@
 ---
 tags: [concept]
-sources: [china-ev-market-consolidation, chery-qq3-vs-byd-seagull, china-ev-market-q1-2026, mercedes-benz-china-q1-2026, china-nev-april-involution-2026, china-nev-april-2026, xpeng-physical-ai-pivot-2026, ev-news-digest-jun1-10-2026, china-ev-market-slowdown-jun2026, xiaomi-su7-2026-update, byd-great-han-2026, ev-news-2026-09-21-digitimes, ev-news-2026-09-18-digitimes, ev-news-2026-09-20-digest, ev-news-2026-09-22-electrive-en, ev-news-2026-09-22-digitimes, ev-news-2026-09-23-digitimes, ev-news-2026-09-24-digest, ev-news-2026-09-24-digitimes, ev-news-2026-10-01-digitimes, ev-news-2026-10-02-digitimes, ev-news-2026-10-01-electrive-en, ev-news-2026-10-05-digitimes, ev-news-2026-10-12-digitimes-2, ev-news-2026-10-19-electrive-en, ev-news-2026-10-20-electrive-en, ev-news-2026-10-22-digitimes, ev-news-2026-10-27-digest, ev-news-2026-10-27-electrive-en, ev-news-2026-10-29-electrive-en, ev-news-2026-10-29-digitimes, ev-news-2026-10-30-digitimes, ev-news-2026-11-02-cn-misc, ev-news-2026-11-04-cn-misc, ev-news-2026-11-09-cn-misc, ev-news-2026-11-11-electrive-en, ev-news-2026-11-12-digitimes, ev-news-2026-11-12-cn-misc, ev-news-2026-11-16-cn-misc]
-updated: 2026-11-16
+sources: [china-ev-market-consolidation, chery-qq3-vs-byd-seagull, china-ev-market-q1-2026, mercedes-benz-china-q1-2026, china-nev-april-involution-2026, china-nev-april-2026, xpeng-physical-ai-pivot-2026, ev-news-digest-jun1-10-2026, china-ev-market-slowdown-jun2026, xiaomi-su7-2026-update, byd-great-han-2026, ev-news-2026-09-21-digitimes, ev-news-2026-09-18-digitimes, ev-news-2026-09-20-digest, ev-news-2026-09-22-electrive-en, ev-news-2026-09-22-digitimes, ev-news-2026-09-23-digitimes, ev-news-2026-09-24-digest, ev-news-2026-09-24-digitimes, ev-news-2026-10-01-digitimes, ev-news-2026-10-02-digitimes, ev-news-2026-10-01-electrive-en, ev-news-2026-10-05-digitimes, ev-news-2026-10-12-digitimes-2, ev-news-2026-10-19-electrive-en, ev-news-2026-10-20-electrive-en, ev-news-2026-10-22-digitimes, ev-news-2026-10-27-digest, ev-news-2026-10-27-electrive-en, ev-news-2026-10-29-electrive-en, ev-news-2026-10-29-digitimes, ev-news-2026-10-30-digitimes, ev-news-2026-11-02-cn-misc, ev-news-2026-11-04-cn-misc, ev-news-2026-11-09-cn-misc, ev-news-2026-11-11-electrive-en, ev-news-2026-11-12-digitimes, ev-news-2026-11-12-cn-misc, ev-news-2026-11-16-cn-misc, ev-news-2026-11-17-digitimes, ev-news-2026-11-17-electrive-en, ev-news-2026-11-17-cn-misc]
+updated: 2026-11-17
 ---
 
 # 中國 EV 市場競爭格局
@@ -363,3 +363,16 @@ DIGITIMES Research：2026上半全球電動車約980萬輛（年增2%），前15
 **觀察**：小鵬3Q毛利率與韓國、Robotaxi進度；「11月新能源占新車59.4%」數字待核對。
 
 - 參見：[[sources/ev-news-2026-11-16-cn-misc]] | [[小鵬汽車]] | [[countries/中國]]
+
+## 福斯安徽停新車、ID. ERA 5X 9.99萬元起、日產中國新能源（2026-11）
+
+> **結論**：外資在中國分化加劇：福斯安徽1~9月ID. UNYX僅1.13萬輛、2027–28年暫停新車；但福斯以與小鵬合作的CMP平台ID. ERA 5X（限時9.99萬元人民幣起）搶攻主流價格帶，日產則以NX7插混與出口補強。
+
+**主因**：
+- 福斯安徽：ID. UNYX 08月均267輛，僅原估3,622輛的7% → 合肥35萬輛產能閒置 → 2030年才損益兩平。
+- 本土化平台：ID. ERA 5X採中國開發400V CMP與CEA軟體，高階配光達與地平線J6H → 以「中國速度」對標本土品牌。
+- 日產：東風日產新能源累計10萬輛，中國產車今年出口逾30國、2027年倍增。
+
+**觀察**：ID. ERA 5X 12月起月銷；福斯中國30款新能源車節奏。
+
+- 參見：[[sources/ev-news-2026-11-17-digitimes]] | [[sources/ev-news-2026-11-17-electrive-en]] | [[sources/ev-news-2026-11-17-cn-misc]] | [[Volkswagen]] | [[日産]] | [[countries/中國]]

@@ -1,7 +1,7 @@
 ---
 tags: [concept]
-sources: [tesla-taiwan-march-2026, taiwan-ev-charging-strategy, taiwan-ev-charging-upower, taiwan-evalue-640kw-charger, taiwan-ev-electrification-progress-2026, ev-news-2026-10-27-digitimes, ev-news-2026-10-30-digitimes, ev-news-2026-11-02-cn-misc, ev-news-2026-11-02-digitimes, ev-news-2026-11-04-digitimes, ev-news-2026-11-06-digitimes, ev-news-2026-11-09-cn-misc, ev-news-2026-11-11-digitimes, ev-news-2026-11-11b-digitimes, ev-news-2026-11-12-digitimes, ev-news-2026-11-12-cn-misc, ev-news-2026-11-16-digitimes]
-updated: 2026-11-16
+sources: [tesla-taiwan-march-2026, taiwan-ev-charging-strategy, taiwan-ev-charging-upower, taiwan-evalue-640kw-charger, taiwan-ev-electrification-progress-2026, ev-news-2026-10-27-digitimes, ev-news-2026-10-30-digitimes, ev-news-2026-11-02-cn-misc, ev-news-2026-11-02-digitimes, ev-news-2026-11-04-digitimes, ev-news-2026-11-06-digitimes, ev-news-2026-11-09-cn-misc, ev-news-2026-11-11-digitimes, ev-news-2026-11-11b-digitimes, ev-news-2026-11-12-digitimes, ev-news-2026-11-12-cn-misc, ev-news-2026-11-16-digitimes, ev-news-2026-11-17-digitimes]
+updated: 2026-11-17
 ---
 
 # 台灣 EV 市場
@@ -170,3 +170,15 @@ updated: 2026-11-16
 **觀察**：配額與交車節奏。
 
 - 參見：[[sources/ev-news-2026-11-16-digitimes]] | [[countries/台灣]]
+
+## 鴻華ASX VR-e首批出海、台廠「量增利縮」（2026-11）
+
+> **結論**：鴻華先進以CDMS模式為三菱開發製造的ASX VR-e首批9月底自台北港出貨澳紐，為台灣研發製造純電車首度整車外銷；但Digitimes指出全球EV銷量增速降至個位數，台廠零組件面臨量增利縮。
+
+**主因**：
+- 出海：Model B平台、右駕與在地調校，紐西蘭售價57,990–72,990紐幣（約105萬–132萬新台幣）→ 驗證CDMS可複製性。
+- 供應鏈：10月全球BEV＋PHEV年增約8%、前10月年增5% → 齒輪、扣件等難差異化零件承受議價壓力；打入歐美高階EV（一體化壓鑄、高壓電池密封）者較樂觀。
+
+**觀察**：ASX VR-e 4Q抵達後紐澳銷量；鴻華其他CDMS客戶簽約。
+
+- 參見：[[sources/ev-news-2026-11-17-digitimes]] | [[鴻海]] | [[三菱汽車]] | [[countries/台灣]]

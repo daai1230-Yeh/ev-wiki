@@ -1,7 +1,7 @@
 ---
 tags: [concept]
-sources: [gm-ford-q1-2026-sales, us-ev-battery-demand-mismatch, rivian-r2-range-specs, vw-id4-chattanooga-stop, tesla-25k-ev-us-price-parity, slate-auto-ev-pickup, ford-ev-restructure-doug-field, vw-id4-us-writedown, tesla-q1-2026-earnings, gm-ev-delay-detroit-three, nissan-mississippi-ev-abandonment, honda-canada-ev-freeze-2026, tesla-model-s-final-production, mazda-ev-delay-2029, ford-catl-michigan-factory-2026, honda-9b-loss-hybrid-pivot-2026, tesla-model-y-price-bump-2026, congress-ev-annual-fee-2026, rivian-r2-deliveries-2026, chevy-bolt-2027-review, 駐外新聞-美國-2025, ev-news-2026-09-18-digest, ev-news-2026-09-20-digest, ev-news-2026-09-22-electrive-en, ev-news-2026-09-26-electrive-en, ev-news-2026-09-28-digest, ev-news-2026-10-05-digitimes, ev-news-2026-10-07-electrive-en, ev-news-2026-10-22-insideevs, ev-news-2026-10-27-digitimes, ev-news-2026-10-27-electrive-en, ev-news-2026-10-27-insideevs, ev-news-2026-10-29-insideevs, ev-news-2026-10-30-electrive-en, ev-news-2026-10-30-insideevs, ev-news-2026-11-02-electrive-en, ev-news-2026-11-02-digitimes, ev-news-2026-11-04-insideevs, ev-news-2026-11-04-digitimes, ev-news-2026-11-06-insideevs, ev-news-2026-11-06-digitimes, ev-news-2026-11-09-cn-misc, ev-news-2026-11-11-electrive-en, ev-news-2026-11-11-digitimes, ev-news-2026-11-11-insideevs, ev-news-2026-11-11b-insideevs, ev-news-2026-11-11b-digitimes, ev-news-2026-11-12-digitimes, ev-news-2026-11-16-digitimes, ev-news-2026-11-16-cn-misc]
-updated: 2026-11-16
+sources: [gm-ford-q1-2026-sales, us-ev-battery-demand-mismatch, rivian-r2-range-specs, vw-id4-chattanooga-stop, tesla-25k-ev-us-price-parity, slate-auto-ev-pickup, ford-ev-restructure-doug-field, vw-id4-us-writedown, tesla-q1-2026-earnings, gm-ev-delay-detroit-three, nissan-mississippi-ev-abandonment, honda-canada-ev-freeze-2026, tesla-model-s-final-production, mazda-ev-delay-2029, ford-catl-michigan-factory-2026, honda-9b-loss-hybrid-pivot-2026, tesla-model-y-price-bump-2026, congress-ev-annual-fee-2026, rivian-r2-deliveries-2026, chevy-bolt-2027-review, 駐外新聞-美國-2025, ev-news-2026-09-18-digest, ev-news-2026-09-20-digest, ev-news-2026-09-22-electrive-en, ev-news-2026-09-26-electrive-en, ev-news-2026-09-28-digest, ev-news-2026-10-05-digitimes, ev-news-2026-10-07-electrive-en, ev-news-2026-10-22-insideevs, ev-news-2026-10-27-digitimes, ev-news-2026-10-27-electrive-en, ev-news-2026-10-27-insideevs, ev-news-2026-10-29-insideevs, ev-news-2026-10-30-electrive-en, ev-news-2026-10-30-insideevs, ev-news-2026-11-02-electrive-en, ev-news-2026-11-02-digitimes, ev-news-2026-11-04-insideevs, ev-news-2026-11-04-digitimes, ev-news-2026-11-06-insideevs, ev-news-2026-11-06-digitimes, ev-news-2026-11-09-cn-misc, ev-news-2026-11-11-electrive-en, ev-news-2026-11-11-digitimes, ev-news-2026-11-11-insideevs, ev-news-2026-11-11b-insideevs, ev-news-2026-11-11b-digitimes, ev-news-2026-11-12-digitimes, ev-news-2026-11-16-digitimes, ev-news-2026-11-16-cn-misc, ev-news-2026-11-17-electrive-en, ev-news-2026-11-17-digitimes]
+updated: 2026-11-17
 ---
 
 # 美國 EV 市場與政策
@@ -562,3 +562,13 @@ Q3美國BEV銷量年減39.5%（Cox／KBB）；德系車8月BEV榜名次落後；
 **觀察**：2027年CR-V HEV價格與銷量；現代起亞年底是否超車GM。
 
 - 參見：[[sources/ev-news-2026-11-16-digitimes]] | [[sources/ev-news-2026-11-16-cn-misc]] | [[sources/ev-news-2026-11-16-sustainablebus]] | [[本田]] | [[現代汽車]] | [[Tesla]] | [[countries/美國]]
+
+## Scout驗證車、BMW Woodruff、Lucid現金流（2026-11）
+
+> **結論**：美國電動車在地製造持續落地（Scout Blythewood試產、BMW Woodruff電池投產），但新創仍靠資金續命：Lucid 3Q自由現金流流出降30%至10.4億美元，加計PIF追加後流動性37.5億美元、稱可撐至2027年4Q。
+
+**主因**：福斯Scout投資逾20億美元、量產尚需數月；Lucid今年已省8億美元；三星SDI StarPlus LFP切入美國ESS。
+
+**觀察**：Scout量產時程；Lucid Cosmos 2027下半年。
+
+- 參見：[[sources/ev-news-2026-11-17-electrive-en]] | [[sources/ev-news-2026-11-17-digitimes]] | [[Lucid]] | [[BMW]] | [[countries/美國]]

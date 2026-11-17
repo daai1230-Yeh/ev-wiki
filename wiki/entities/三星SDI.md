@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [samsung-sdi-mercedes-battery-deal, samsung-sdi-mercedes-confirmed-deal, samsung-sdi-solid-state-production-2026, ev-news-2026-07-03-08, ev-news-2026-07-14-16-digitimes, ev-news-2026-09-04-digitimes, ev-news-2026-09-24-digitimes, ev-news-2026-10-02-digitimes, ev-news-2026-10-05-electrive-en, ev-news-2026-10-07-digitimes, ev-news-2026-10-15-digitimes, ev-news-2026-10-27-digitimes, ev-news-2026-10-29-digitimes, ev-news-2026-10-30-digitimes, ev-news-2026-11-11-digitimes, ev-news-2026-11-11b-digitimes, ev-news-2026-11-12-cn-misc, ev-news-2026-11-16-digitimes]
-updated: 2026-11-16
+sources: [samsung-sdi-mercedes-battery-deal, samsung-sdi-mercedes-confirmed-deal, samsung-sdi-solid-state-production-2026, ev-news-2026-07-03-08, ev-news-2026-07-14-16-digitimes, ev-news-2026-09-04-digitimes, ev-news-2026-09-24-digitimes, ev-news-2026-10-02-digitimes, ev-news-2026-10-05-electrive-en, ev-news-2026-10-07-digitimes, ev-news-2026-10-15-digitimes, ev-news-2026-10-27-digitimes, ev-news-2026-10-29-digitimes, ev-news-2026-10-30-digitimes, ev-news-2026-11-11-digitimes, ev-news-2026-11-11b-digitimes, ev-news-2026-11-12-cn-misc, ev-news-2026-11-16-digitimes, ev-news-2026-11-17-digitimes]
+updated: 2026-11-17
 ---
 
 # 三星 SDI（Samsung SDI）
@@ -174,3 +174,13 @@ Mercedes今年4月與三星SDI簽首份長期電池供應合約，並同步引�
 **觀察**：客戶多元化。
 
 - 參見：[[sources/ev-news-2026-11-16-digitimes]] | [[LGES]] | [[concepts/儲能市場]]
+
+## Jupiter Power 16 GWh LFP（2026-11）
+
+> **結論**：三星SDI自2029年起3年供Jupiter Power 16 GWh LFP（約3兆~4兆韓元），累計約27 GWh。
+
+**主因**：印第安納StarPlus Energy剛啟動LFP量產；非中國方形ESS電池稀缺。
+
+**觀察**：StarPlus產能。
+
+- 參見：[[sources/ev-news-2026-11-17-digitimes]] | [[concepts/儲能市場]]

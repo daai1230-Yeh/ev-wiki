@@ -1,7 +1,7 @@
 ---
 tags: [concept]
-sources: [electric-bus-market-2025-global, delhi-ev-policy-2026, vinfast-india-investment, india-ev-commercial-update-2026, india-tata-jsw-battery-rd-2026, mahindra-ev-expansion-2026, ather-energy-el-platform-2026, india-2w-market-fy27-bifurcation-2026, india-1bn-ev-commercial-incentives-2026, china-catl-battery-tech-export-2026, tesla-india-factory-exit-2026, honda-india-ev-hybrid-2026, tata-stellantis-jeep-india-2026, india-electric-bus-market-2025, tata-chery-avinya-platform-2026, delhi-ev-7year-high-2026, toptec-india-battery-equipment-2026, ev-news-2026-09-18-electrive-en, ev-news-2026-09-20-india, ev-news-2026-09-21-india, ev-news-2026-09-24-electrive-en, ev-news-2026-09-24-digest, ev-news-2026-10-12-digest, ev-news-2026-10-15-digest, ev-news-2026-10-19-digest, ev-news-2026-10-29-electrive-en, ev-news-2026-11-02-sustainablebus, ev-news-2026-11-06-electrive-en, ev-news-2026-11-09-cn-misc, ev-news-2026-11-11b-cn-misc, ev-news-2026-11-11b-sustainablebus]
-updated: 2026-11-11
+sources: [electric-bus-market-2025-global, delhi-ev-policy-2026, vinfast-india-investment, india-ev-commercial-update-2026, india-tata-jsw-battery-rd-2026, mahindra-ev-expansion-2026, ather-energy-el-platform-2026, india-2w-market-fy27-bifurcation-2026, india-1bn-ev-commercial-incentives-2026, china-catl-battery-tech-export-2026, tesla-india-factory-exit-2026, honda-india-ev-hybrid-2026, tata-stellantis-jeep-india-2026, india-electric-bus-market-2025, tata-chery-avinya-platform-2026, delhi-ev-7year-high-2026, toptec-india-battery-equipment-2026, ev-news-2026-09-18-electrive-en, ev-news-2026-09-20-india, ev-news-2026-09-21-india, ev-news-2026-09-24-electrive-en, ev-news-2026-09-24-digest, ev-news-2026-10-12-digest, ev-news-2026-10-15-digest, ev-news-2026-10-19-digest, ev-news-2026-10-29-electrive-en, ev-news-2026-11-02-sustainablebus, ev-news-2026-11-06-electrive-en, ev-news-2026-11-09-cn-misc, ev-news-2026-11-11b-cn-misc, ev-news-2026-11-11b-sustainablebus, ev-news-2026-11-17-electrive-en, ev-news-2026-11-17-cn-misc]
+updated: 2026-11-17
 ---
 
 # 印度 EV 市場
@@ -396,3 +396,13 @@ JSW集團子公司發表電動商用車新品牌Ampstar，馬哈拉施特拉邦9
 **觀察**：12/2 Alpha規格、售價與出口市場；Blackbuck ELON 3X訂單。
 
 - 參見：[[sources/ev-news-2026-11-11b-cn-misc]] | [[sources/ev-news-2026-11-11b-sustainablebus]] | [[本田]] | [[countries/印度]] | [[countries/日本]]
+
+## Kia第二座印度廠、AI排擠車用晶片（2026-11）
+
+> **結論**：Kia投資約18億歐元在Anantapur建第二座廠（2030年、年產20萬輛ICE＋EV），印度產能升至60萬輛；但AI資料中心排擠晶片，印度車廠被迫加價搶貨。
+
+**主因**：繼Honda Alpha後印度再獲出口型產能 → EV動力系統與資訊娛樂晶片成本上升（塔塔、馬恆達、Ather）。
+
+**觀察**：印度EV晶片成本是否反映於售價。
+
+- 參見：[[sources/ev-news-2026-11-17-electrive-en]] | [[sources/ev-news-2026-11-17-cn-misc]] | [[起亞]] | [[countries/印度]]

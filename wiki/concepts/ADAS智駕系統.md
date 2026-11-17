@@ -1,7 +1,7 @@
 ---
 tags: [concept]
-sources: [byd-dipilot-adas-2026, robotaxi-market-2026, toyota-adas-vs-fsd-subscription, hyundai-pleos-sdv-os, in-cabin-ai-sensing-2026, l2plus-adas-adoption-2026, rivian-lidar-china-partner-2026, hyundai-kia-atria-ai-gwangju-2026, hesai-color-lidar-2026, ev-news-digest-jun1-10-2026, ev-news-2026-06-27-29-en, ev-news-2026-06-30-07-01, ev-news-2026-06-29-zh, ev-news-2026-07-02, ev-news-2026-07-03-08, ev-news-2026-07-09, ev-news-2026-07-21-22-digitimes, ev-news-2026-07-22-23-electrive-en, ev-news-2026-08-24-digitimes, ev-news-2026-08-27-digitimes, ev-news-2026-08-28-digitimes, ev-news-2026-08-30-31-cn-misc, ev-news-2026-09-07-08-digitimes, ev-news-2026-09-08-electrive-en, ev-news-2026-09-09-digitimes, ev-news-2026-09-11-digitimes, ev-news-2026-09-15-digitimes, ev-news-2026-09-16-digitimes, ev-news-2026-09-18-digest, ev-news-2026-09-19-digest, ev-news-2026-09-18-electrive-en, ev-news-2026-09-22-digest, ev-news-2026-09-23-electrive-en, ev-news-2026-10-01-digitimes, ev-news-2026-10-01-electrive-en, ev-news-2026-10-05-digitimes, ev-news-2026-10-12-digitimes, ev-news-2026-10-16-digitimes, ev-news-2026-10-19-digest, ev-news-2026-10-20-digitimes, ev-news-2026-10-20-insideevs, ev-news-2026-10-22-digitimes, ev-news-2026-10-27-digitimes-tesla, ev-news-2026-10-27-digitimes, ev-news-2026-10-27-insideevs, ev-news-2026-10-29-electrive-en, ev-news-2026-10-29-insideevs, ev-news-2026-10-29-digitimes, ev-news-2026-10-30-electrive-en, ev-news-2026-10-30-digitimes]
-updated: 2026-10-30
+sources: [byd-dipilot-adas-2026, robotaxi-market-2026, toyota-adas-vs-fsd-subscription, hyundai-pleos-sdv-os, in-cabin-ai-sensing-2026, l2plus-adas-adoption-2026, rivian-lidar-china-partner-2026, hyundai-kia-atria-ai-gwangju-2026, hesai-color-lidar-2026, ev-news-digest-jun1-10-2026, ev-news-2026-06-27-29-en, ev-news-2026-06-30-07-01, ev-news-2026-06-29-zh, ev-news-2026-07-02, ev-news-2026-07-03-08, ev-news-2026-07-09, ev-news-2026-07-21-22-digitimes, ev-news-2026-07-22-23-electrive-en, ev-news-2026-08-24-digitimes, ev-news-2026-08-27-digitimes, ev-news-2026-08-28-digitimes, ev-news-2026-08-30-31-cn-misc, ev-news-2026-09-07-08-digitimes, ev-news-2026-09-08-electrive-en, ev-news-2026-09-09-digitimes, ev-news-2026-09-11-digitimes, ev-news-2026-09-15-digitimes, ev-news-2026-09-16-digitimes, ev-news-2026-09-18-digest, ev-news-2026-09-19-digest, ev-news-2026-09-18-electrive-en, ev-news-2026-09-22-digest, ev-news-2026-09-23-electrive-en, ev-news-2026-10-01-digitimes, ev-news-2026-10-01-electrive-en, ev-news-2026-10-05-digitimes, ev-news-2026-10-12-digitimes, ev-news-2026-10-16-digitimes, ev-news-2026-10-19-digest, ev-news-2026-10-20-digitimes, ev-news-2026-10-20-insideevs, ev-news-2026-10-22-digitimes, ev-news-2026-10-27-digitimes-tesla, ev-news-2026-10-27-digitimes, ev-news-2026-10-27-insideevs, ev-news-2026-10-29-electrive-en, ev-news-2026-10-29-insideevs, ev-news-2026-10-29-digitimes, ev-news-2026-10-30-electrive-en, ev-news-2026-10-30-digitimes, ev-news-2026-11-17-insideevs, ev-news-2026-11-17-digitimes, ev-news-2026-11-17-electrive-en]
+updated: 2026-11-17
 ---
 
 # ADAS 智駕系統（Advanced Driver Assistance System）
@@ -511,3 +511,13 @@ Tesla計畫與FSD v15同步上線自研AI地圖；NVIDIA Hyperion／Alpamayo夥�
 **觀察**：福斯是否正式把中國架構導入歐洲；本田2027年L4車型與ODD。
 
 - 參見：[[sources/ev-news-2026-10-30-electrive-en]] | [[sources/ev-news-2026-10-30-digitimes]] | [[entities/Volkswagen]] | [[entities/本田]] | [[entities/鴻海]] | [[countries/中國]] | [[countries/日本]]
+
+## 賓士MB.Drive Assist Pro、福斯中國L2++與商用車ADAS（2026-11）
+
+> **結論**：點對點城市輔助駕駛進入多家車廠競爭：賓士Drive Assist Pro明年春季在MB.OS車款開賣，福斯ID. ERA 5X以光達＋地平線J6H提供L2++；台灣奇美車電則把AI影像辨識帶進商用車與電動巴士。
+
+**主因**：賓士市區仍須手放方向盤（與FSD主要差異）、價格未公布；福斯中國車款電子架構與小鵬合作；奇美車電將AI運算內建於攝影機以降低商用車導入成本。
+
+**觀察**：賓士加州Beta測試；Drive Assist Pro定價。
+
+- 參見：[[sources/ev-news-2026-11-17-insideevs]] | [[sources/ev-news-2026-11-17-digitimes]] | [[sources/ev-news-2026-11-17-electrive-en]] | [[concepts/自動駕駛安全監管]] | [[Volkswagen]]

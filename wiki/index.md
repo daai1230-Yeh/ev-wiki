@@ -1,6 +1,6 @@
 # Wiki Index
 
-Last updated: 2026-11-16 | Pages: 499 | Sources: 615
+Last updated: 2026-11-17 | Pages: 499 | Sources: 619
 
 ---
 
@@ -97,6 +97,10 @@ Last updated: 2026-11-16 | Pages: 499 | Sources: 615
 - [[sources/ev-news-2026-10-12-digest]] — 中文財經批次8篇：陸混動車輸歐恐砍半、豐田泰國殘值貸款、現代印度1,000萬輛、華德電巴、桃園A21、雙層客運補助縮水、Starlink印度。(2026-10-12)
 - [[sources/ev-news-2026-10-12-digitimes-2]] — Digitimes CarTech補充2篇：豐田、廣汽、一汽三方協議正式簽署、麗升跨足充電樁（註：剪輯檔無單篇網址）。(2026-10-12)
 - [[sources/ev-news-2026-10-12-14-digitimes]] — Digitimes CarTech 9篇：中國新能源車出口退稅2027-04起由13%降至9%（含評析）、歐盟HEV／PHEV年35萬輛配額、LGES大進機械轉單與L&F LFP長約、台灣能管法帶動儲能、寰聖／桓鼎、裕日車估車市42萬輛（全數附原文網址）。(2026-10-14)
+- [[sources/ev-news-2026-11-17-electrive-en]] — electrive批次27篇：Tesla格林海德30億歐元擴建（2029年起年產最多100萬輛Cybercab）、賓士暫停德國投資、Kia印度第二廠18億歐元、寧德時代2027年換電站6,000座、加拿大ZEVIP續編、Lucid現金流改善、May Mobility 1萬輛自駕ID. Buzz。(2026-11-17)
+- [[sources/ev-news-2026-11-17-insideevs]] — InsideEVs批次4篇：BMW Woodruff電池廠投產、賓士MB.Drive Assist Pro試乘、Cybercab 29,990美元開放受邀訂購（含1篇贊助內容）。(2026-11-17)
+- [[sources/ev-news-2026-11-17-digitimes]] — Digitimes批次7篇：鴻華先進ASX VR-e首批出海紐澳、全球EV 10月年增約8%供應鏈量增利縮、三星SDI獲Jupiter Power 16 GWh LFP大單、福斯安徽2027–28年無新車。(2026-11-17)
+- [[sources/ev-news-2026-11-17-cn-misc]] — 中文媒體批次9篇：韓國10月汽車出口65.5億美元創同月新高、Tesla TAD獲歐盟十國批准、仰望ALTIOR首發、Volvo ES90韓國接單3,500輛、Chaevi營收創高。(2026-11-17)
 - [[sources/ev-news-2026-11-16-electrive-en]] — electrive批次3篇：英歐2027年EV原產地關稅可能再延（ACEA估82%不達標、14.7億歐元）、福斯ID. Tiguan在Emden量產、Lucid Air Grand Touring試駕與重整。(2026-11-16)
 - [[sources/ev-news-2026-11-16-sustainablebus]] — Sustainable Bus批次2篇：加州重啟5,500萬美元零排放校車補助、Zenobē為Transport UK融資169輛倫敦電巴。(2026-11-16)
 - [[sources/ev-news-2026-11-16-digitimes]] — Digitimes批次6篇：SpaceX併Tesla傳最快12月宣布、中國10月海外銷量58.2萬輛但人民幣升值帶來匯損、芬蘭臨時批准Tesla輔助駕駛、LGES／三星SDI 2Q27量產AI伺服器LFP電池、本田CR-V 2027全面HEV。(2026-11-16)
