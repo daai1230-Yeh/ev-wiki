@@ -2533,3 +2533,7 @@ Pages 375 → 406，Sources 315 → 346
 - 待核對清單新增：英國前 9 月巴士登記（Sustainable Bus 與 SMMT 口徑差異）
 - 修正：巴西與中國EV出海策略卡片的比亞迪巴西數據來源改為 [[sources/ev-news-2026-11-06-digitimes]]
 - 規則：Daily news clipper 自 2026-11-18 下午起於 Digitimes 剪輯檔寫入單篇網址，ingest 一律照抄
+
+## [2026-11-18] maintenance | 簡報三段式聽眾改為業界人士與新人
+- Pages updated: 24 個 concept 頁與 14 個國家頁的「坡道」段落改寫為對「想了解市場的業界人士」與「剛入行的新人」說話；每張卡片末尾新增「名詞速懂（給新人）」3–4 則白話名詞解釋
+- 模板：[[templates/簡報三段式模板]] 加入預設聽眾規則與名詞速懂格式；tools/ingest/briefing.py 新增 set_ramp()、set_glossary()

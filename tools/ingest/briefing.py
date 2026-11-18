@@ -22,3 +22,24 @@ def put(stem, date, card, folder='concepts'):
         t = t[:m.start()] + block + t[m.start():]
     t = re.sub(r'^updated:.*$', f'updated: {date}', t, count=1, flags=re.M)
     p.write_text(t, encoding='utf-8')
+
+def _card_span(t):
+    m = re.search(r'(?ms)^## 簡報三段式（更新：[^）]*）\n.*?(?=^## (?!簡報))', t)
+    if not m: raise ValueError('no card')
+    return m
+
+def set_ramp(stem, ramp, folder='concepts'):
+    """只替換「### 坡道」到「**一句話主題**」之間的開場段落。"""
+    p = WIKI / folder / f'{stem}.md'; t = p.read_text(encoding='utf-8')
+    m = _card_span(t); card = m.group(0)
+    new = re.sub(r'(?s)(### 坡道[^\n]*\n\n).*?(\n\n\*\*一句話主題\*\*)', lambda x: x.group(1) + ramp.strip() + x.group(2), card, count=1)
+    if new == card: raise ValueError(f'ramp not replaced: {stem}')
+    p.write_text(t[:m.start()] + new + t[m.end():], encoding='utf-8')
+
+def set_glossary(stem, items, folder='concepts'):
+    """在卡片末尾放「**名詞速懂（給新人）**」；items 為 [(名詞, 解釋), ...]，已存在則取代。"""
+    p = WIKI / folder / f'{stem}.md'; t = p.read_text(encoding='utf-8')
+    m = _card_span(t); card = m.group(0).rstrip('\n')
+    card = re.sub(r'(?s)\n\n\*\*名詞速懂（給新人）\*\*\n.*$', '', card)
+    block = '\n\n**名詞速懂（給新人）**\n' + '\n'.join(f'- **{k}**：{v}' for k, v in items)
+    p.write_text(t[:m.start()] + card + block + '\n\n' + t[m.end():], encoding='utf-8')
