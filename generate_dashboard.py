@@ -75,25 +75,121 @@ def parse_index():
                 })
     return stats, {k: v for k, v in sections.items() if v}
 
+def _split_findings(text):
+    """Split a prose blob (e.g. Key additions) into discrete findings."""
+    parts = re.split(r'[；;]\s*|。\s*(?=\S)', text)
+    out = []
+    for p in parts:
+        p = p.strip(' 　。;；,，')
+        if len(p) >= 4:
+            out.append(p)
+    return out
+
 def parse_log():
+    """Parse log.md into structured 坡道 / 發現 / 甜點 narrative entries.
+
+    Supports an optional explicit narrative written at ingest time:
+        - 坡道: one-line relevance hook
+        - 發現: a key finding
+        - 甜點: closing takeaway / what to watch
+    If those markers are absent, the narrative is derived from the standard
+    ingest fields (Key additions → 發現, 備註 → 甜點, scope counts → 坡道).
+    """
     content = (WIKI_DIR / "log.md").read_text(encoding='utf-8')
-    entries, current = [], None
-    for line in content.split('\n'):
-        m = re.match(r'^## \[(\d{4}-\d{2}-\d{2})\] (\w+) \| (.+)$', line)
-        if m:
-            if current: entries.append(current)
-            current = {'date': m.group(1), 'type': m.group(2),
-                       'title': m.group(3), 'details': [], 'details_raw': []}
-        elif line.startswith('- ') and current:
-            raw = line[2:].strip()
-            clean = re.sub(r'\[\[([^\]|]+)(?:\|[^\]]+)?\]\]', r'\1', raw).strip()
-            clean = re.sub(r'\*\*([^*]+)\*\*', r'\1', clean)
-            if clean and len(clean) > 3:
-                current['details'].append(clean[:180])
-                current['details_raw'].append(raw)
-    if current: entries.append(current)
+    blocks = re.split(r'(?m)^## \[', content)
+    entries = []
+    for blk in blocks:
+        m = re.match(r'(\d{4}-\d{2}-\d{2})\] (\w+) \| (.+)', blk)
+        if not m:
+            continue
+        date, typ, title = m.group(1), m.group(2), m.group(3).strip()
+        body = blk[m.end():]
+
+        ramp = None
+        discoveries, dessert, generic = [], [], []
+        concepts, entities, countries, new_pages, sources = [], [], [], [], []
+        key_text, note_text = '', ''
+
+        for line in body.split('\n'):
+            s = line.strip()
+            if not s.startswith('- '):
+                continue
+            item = s[2:].strip()
+
+            # explicit narrative markers (future ingest style)
+            mm = re.match(r'(坡道|發現|甜點)\s*[:：]\s*(.*)', item)
+            if mm:
+                tag, val = mm.group(1), mm.group(2).strip()
+                if   tag == '坡道': ramp = val
+                elif tag == '發現': discoveries.append(val)
+                else:               dessert.append(val)
+                continue
+
+            fm = re.match(r'([^:：]+)[:：]\s*(.*)', item)
+            if not fm:
+                if len(item) > 6:
+                    generic.append(item)
+                continue
+            label, val = fm.group(1).strip(), fm.group(2).strip()
+            low = label.lower()
+
+            if low.startswith('summary page'):
+                sources += re.findall(r'\[\[sources/([^\]]+)\]\]', val)
+            elif low.startswith('raw asset'):
+                pass
+            elif label.startswith('Pages updated') and 'concept' in low:
+                concepts += [x.strip() for x in re.split(r'[、,，]', val)
+                             if x.strip() and x.strip() != '無']
+            elif label.startswith('Pages updated') and 'entit' in low:
+                entities += [x.strip() for x in re.split(r'[、,，]', val)
+                             if x.strip() and x.strip() != '無']
+            elif label.startswith('Countries'):
+                countries += re.findall(r'\[\[countries/([^\]]+)\]\]', val)
+            elif label.startswith('New pages'):
+                if val and val != '無':
+                    found = re.findall(r'\[\[([^\]]+)\]\]', val)
+                    new_pages += found if found else [val]
+            elif low.startswith('key addition') or low.startswith('key change'):
+                key_text = val
+            elif label.startswith('備註') or low.startswith('note'):
+                note_text = val
+            else:
+                if len(val) > 6:
+                    generic.append(item)
+
+        # fallbacks
+        if not discoveries and key_text:
+            discoveries = _split_findings(key_text)
+        if not discoveries and generic:
+            discoveries = [re.sub(r'\*\*([^*]+)\*\*', r'\1', g)[:180] for g in generic][:12]
+        if not dessert and note_text:
+            dessert = _split_findings(note_text)
+
+        if not ramp:
+            pieces = []
+            if sources:   pieces.append(f"{len(sources)} 個來源")
+            if concepts:  pieces.append(f"{len(concepts)} 概念")
+            if countries: pieces.append(f"{len(countries)} 國家")
+            if entities:  pieces.append(f"{len(entities)} 車廠")
+            np = re.search(r'（\s*(\d+)\s*篇', title)
+            if pieces or np:
+                lead = f"本批匯入 {np.group(1)} 篇新聞" if np else "本批更新"
+                ramp = lead + ("，更新 " + "、".join(pieces) if pieces else "") + "。"
+            else:
+                ramp = title
+
+        entries.append({
+            'date': date, 'type': typ, 'title': title,
+            'ramp': ramp,
+            'discoveries': discoveries[:12],
+            'dessert': dessert[:8],
+            'concepts': concepts, 'entities': entities,
+            'countries': countries, 'new_pages': new_pages,
+            'sources': sources,
+        })
+
     entries.sort(key=lambda x: x['date'], reverse=True)
-    return entries[:18]
+    return entries[:20]
 
 def parse_concepts():
     out = []
@@ -182,13 +278,14 @@ def parse_sources_full():
     return out
 
 def build_charts(sections):
+    # dataviz validated dark categorical palette (fixed order, never cycled)
     cat_labels, cat_data, cat_colors_map = [], [], {
-        '電動乘用車': '#10b981', '電動商用車與電動巴士': '#3b82f6',
-        '市場與政策': '#f59e0b', '電池技術': '#a855f7',
-        '充電基礎建設': '#06b6d4', '半導體供應鏈': '#f97316',
+        '電動乘用車': '#3987e5', '電動商用車與電動巴士': '#d95926',
+        '市場與政策': '#199e70', '電池技術': '#c98500',
+        '充電基礎建設': '#d55181', '半導體供應鏈': '#0ca30c',
     }
     cat_colors = []
-    fallback = ['#6366f1','#ec4899','#14b8a6','#84cc16']
+    fallback = ['#9085e9','#e66767']
     fi = 0
     for sec, srcs in sections.items():
         if srcs:
@@ -285,6 +382,39 @@ HTML_TEMPLATE = r'''<!DOCTYPE html>
   .md-body tr:nth-child(even){background:rgba(30,41,59,.4)}
   .md-body blockquote{border-left:3px solid #475569;padding-left:1em;color:#94a3b8;margin:.8em 0}
   .md-body hr{border:0;border-top:1px solid #1e293b;margin:1.4em 0}
+
+  /* ── compact chart strip ── */
+  .chart-wrap-mini{position:relative;width:100%;height:170px}
+
+  /* ── 坡道 / 發現 / 甜點 narrative ── */
+  .narr-zone{border-radius:14px;padding:16px 18px;margin-bottom:14px;border:1px solid}
+  .narr-ramp{background:rgba(57,135,229,.08);border-color:rgba(57,135,229,.35)}
+  .narr-disc{background:rgba(25,158,112,.07);border-color:rgba(25,158,112,.30)}
+  .narr-upd {background:rgba(144,133,233,.07);border-color:rgba(144,133,233,.30)}
+  .narr-dess{background:rgba(201,133,0,.08);border-color:rgba(201,133,0,.35)}
+  .narr-label{font-size:.72rem;font-weight:700;letter-spacing:.04em;margin-bottom:8px;display:flex;align-items:center;gap:6px}
+  .narr-ramp .narr-label{color:#7fb3f2}
+  .narr-disc .narr-label{color:#4fcfa0}
+  .narr-upd  .narr-label{color:#b4a9f0}
+  .narr-dess .narr-label{color:#e0b24d}
+  .narr-ramp-text{color:#dbeafe;font-size:.98rem;line-height:1.7;font-weight:500}
+  .narr-list{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:9px}
+  .narr-list li{color:#cbd5e1;font-size:.88rem;line-height:1.65;padding-left:20px;position:relative}
+  .narr-disc .narr-list li::before{content:"▸";position:absolute;left:2px;color:#4fcfa0}
+  .narr-dess .narr-list li::before{content:"◆";position:absolute;left:2px;color:#e0b24d;font-size:.7rem;top:3px}
+  .narr-list li strong{color:#f1f5f9}
+  .nav-chip{display:inline-flex;align-items:center;font-size:.76rem;border-radius:999px;
+    padding:3px 11px;margin:0 6px 6px 0;border:1px solid;cursor:pointer;transition:all .12s}
+  .chip-concept{background:rgba(57,135,229,.12);border-color:rgba(57,135,229,.4);color:#8fc0f5}
+  .chip-concept:hover{background:rgba(57,135,229,.25)}
+  .chip-country{background:rgba(25,158,112,.12);border-color:rgba(25,158,112,.4);color:#5fd3a8}
+  .chip-country:hover{background:rgba(25,158,112,.25)}
+  .chip-entity{background:rgba(201,133,0,.14);border-color:rgba(201,133,0,.4);color:#e7bf63}
+  .chip-entity:hover{background:rgba(201,133,0,.26)}
+  .chip-source{background:rgba(144,133,233,.12);border-color:rgba(144,133,233,.4);color:#b4a9f0}
+  .chip-source:hover{background:rgba(144,133,233,.25)}
+  .nav-chip-static{display:inline-flex;align-items:center;font-size:.76rem;border-radius:999px;
+    padding:3px 11px;margin:0 6px 6px 0;border:1px solid #334155;color:#94a3b8}
 </style>
 </head>
 <body class="bg-slate-900 text-slate-100 min-h-screen font-sans">
@@ -300,7 +430,6 @@ HTML_TEMPLATE = r'''<!DOCTYPE html>
       <div class="text-slate-400 text-xs mt-0.5">產業動態 Dashboard</div>
     </div>
     <nav class="flex-1 p-2 space-y-0.5" id="sidenav">
-      <a href="#overview"  class="nav-link block px-3 py-2 rounded-lg text-sm text-slate-300 hover:bg-slate-700 cursor-pointer">📊 總覽</a>
       <a href="#activity"  class="nav-link block px-3 py-2 rounded-lg text-sm text-slate-300 hover:bg-slate-700 cursor-pointer">📰 最新動態</a>
       <a href="#concepts"  class="nav-link block px-3 py-2 rounded-lg text-sm text-slate-300 hover:bg-slate-700 cursor-pointer">🗺️ 概念地圖</a>
       <a href="#countries" class="nav-link block px-3 py-2 rounded-lg text-sm text-slate-300 hover:bg-slate-700 cursor-pointer">🌍 國家動態</a>
@@ -332,31 +461,21 @@ HTML_TEMPLATE = r'''<!DOCTYPE html>
 
     <div class="px-6 py-6 space-y-14 max-w-screen-xl">
 
-      <!-- ── Overview ── -->
-      <section id="overview">
-        <h2 class="section-title text-lg font-semibold text-slate-200 mb-5 flex items-center gap-2">
-          <span class="text-emerald-400">◈</span> 總覽
-        </h2>
-
-        <!-- Stat Cards -->
-        <div class="grid grid-cols-2 sm:grid-cols-4 gap-4 mb-6" id="stat-cards"></div>
-
-        <!-- Charts Row -->
-        <div class="grid grid-cols-5 gap-4">
-          <div class="col-span-3 bg-slate-800 rounded-2xl border border-slate-700 p-5">
-            <div class="text-sm text-slate-400 mb-3 font-medium">📅 月度新增來源數</div>
-            <div class="chart-wrap"><canvas id="chart-monthly"></canvas></div>
+      <!-- ── Insights strip (compact charts) ── -->
+      <section id="insights">
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-4">
+          <div class="bg-slate-800 rounded-2xl border border-slate-700 p-4">
+            <div class="text-xs text-slate-400 mb-2 font-medium">📅 月度新增來源數</div>
+            <div class="chart-wrap-mini"><canvas id="chart-monthly"></canvas></div>
           </div>
-          <div class="col-span-2 bg-slate-800 rounded-2xl border border-slate-700 p-5">
-            <div class="text-sm text-slate-400 mb-3 font-medium">🗂️ 來源分類分布</div>
-            <div class="chart-wrap-donut"><canvas id="chart-donut"></canvas></div>
+          <div class="bg-slate-800 rounded-2xl border border-slate-700 p-4">
+            <div class="text-xs text-slate-400 mb-2 font-medium">🗂️ 來源分類分布</div>
+            <div class="chart-wrap-mini"><canvas id="chart-donut"></canvas></div>
           </div>
-        </div>
-
-        <!-- Top Concepts Bar -->
-        <div class="mt-4 bg-slate-800 rounded-2xl border border-slate-700 p-5">
-          <div class="text-sm text-slate-400 mb-4 font-medium">📖 概念頁引用來源數 Top 10</div>
-          <div class="chart-wrap-tall"><canvas id="chart-concepts"></canvas></div>
+          <div class="bg-slate-800 rounded-2xl border border-slate-700 p-4">
+            <div class="text-xs text-slate-400 mb-2 font-medium">📖 概念引用來源數 Top 8</div>
+            <div class="chart-wrap-mini"><canvas id="chart-concepts"></canvas></div>
+          </div>
         </div>
       </section>
 
@@ -364,7 +483,7 @@ HTML_TEMPLATE = r'''<!DOCTYPE html>
       <section id="activity">
         <h2 class="section-title text-lg font-semibold text-slate-200 mb-5 flex items-center gap-2">
           <span class="text-emerald-400">◈</span> 最新動態
-          <span class="ml-2 text-xs text-slate-500 font-normal">（點擊每則看詳情與原文連結）</span>
+          <span class="ml-2 text-xs text-slate-500 font-normal">（坡道 → 發現 → 甜點；點擊每則看完整敘事與原文）</span>
         </h2>
         <div id="activity-list" class="relative border-l-2 border-slate-700 ml-3 pl-6 space-y-5"></div>
       </section>
@@ -433,13 +552,13 @@ HTML_TEMPLATE = r'''<!DOCTYPE html>
 <script>
 (function(){
 // ── Config ──────────────────────────────────────────────────────────────────
-const SECTION_COLORS = {
-  '電動乘用車':       '#10b981',
-  '電動商用車與電動巴士': '#3b82f6',
-  '市場與政策':       '#f59e0b',
-  '電池技術':         '#a855f7',
-  '充電基礎建設':     '#06b6d4',
-  '半導體供應鏈':     '#f97316',
+const SECTION_COLORS = {          // dataviz validated dark categorical palette
+  '電動乘用車':       '#3987e5',
+  '電動商用車與電動巴士': '#d95926',
+  '市場與政策':       '#199e70',
+  '電池技術':         '#c98500',
+  '充電基礎建設':     '#d55181',
+  '半導體供應鏈':     '#0ca30c',
 };
 const CONCEPT_CATEGORIES = [
   {label:'全部', key:'all'},
@@ -532,17 +651,59 @@ function openDetail(type, key, push=true){
   document.body.style.overflow = 'hidden';
 }
 
+// chip that opens a detail subpage when the target page exists
+function navChip(label, type, key, map, cls){
+  if (map && map[key])
+    return `<button class="nav-chip ${cls}" data-t="${type}" data-k="${esc(key)}">${esc(label)}</button>`;
+  return `<span class="nav-chip-static">${esc(label)}</span>`;
+}
 function openActivity(i, push=true){
   const e = D.log[i]; if (!e) return;
   const TYPE_LABELS = {ingest:'Ingest', query:'Query', maintenance:'維護', synthesis:'綜合分析', init:'初始化'};
   if (push){ detailHist.length = 0; detailHist.push({type:'activity', key:i}); }
   $('detail-kicker').className = 'text-xs font-medium mb-0.5 type-' + e.type;
-  $('detail-kicker').textContent = '📰 ' + (TYPE_LABELS[e.type] || e.type);
+  $('detail-kicker').textContent = '📰 ' + (TYPE_LABELS[e.type] || e.type) + ' · 最新動態';
   $('detail-title').textContent = e.title;
   $('detail-meta').innerHTML = `<span class="text-xs font-mono text-slate-500">${esc(e.date)}</span>`;
-  const lines = (e.details_raw && e.details_raw.length ? e.details_raw : e.details) || [];
-  const md = lines.map(l => '- ' + l).join('\n');
-  $('detail-body').innerHTML = `<div class="md-body">${renderMarkdown(md)}</div>`;
+
+  let html = '';
+  // 🛝 坡道
+  html += `<div class="narr-zone narr-ramp">
+      <div class="narr-label">🛝 坡道 · 為何值得看</div>
+      <div class="narr-ramp-text">${inlineMd(e.ramp || e.title)}</div>
+    </div>`;
+  // 🔍 發現
+  if ((e.discoveries||[]).length){
+    html += `<div class="narr-zone narr-disc">
+        <div class="narr-label">🔍 發現 · 核心重點</div>
+        <ul class="narr-list">${e.discoveries.map(d => `<li>${inlineMd(d)}</li>`).join('')}</ul>
+      </div>`;
+  }
+  // 📄 本批更新（可點 chips）
+  const chips = []
+    .concat((e.concepts ||[]).map(n => navChip(n, 'concept', n, CMAP,
+              CMAP[n] ? 'chip-concept' : '')))
+    .concat((e.countries||[]).map(n => navChip(n, 'country', n, NMAP, 'chip-country')))
+    .concat((e.entities ||[]).map(n => {
+       const k = EMAP[n] ? n : (TITLE_TO_ENTITY[n] || '');
+       return navChip(n, 'entity', k, EMAP, 'chip-entity');
+     }))
+    .concat((e.sources ||[]).map(n => navChip(n, 'source', n, SMAP, 'chip-source')));
+  if (chips.length){
+    html += `<div class="narr-zone narr-upd">
+        <div class="narr-label">📄 本批更新 · 點擊跳頁</div>
+        <div>${chips.join('')}</div>
+      </div>`;
+  }
+  // 🍰 甜點
+  if ((e.dessert||[]).length){
+    html += `<div class="narr-zone narr-dess">
+        <div class="narr-label">🍰 甜點 · 下一步追蹤 / 待核對</div>
+        <ul class="narr-list">${e.dessert.map(d => `<li>${inlineMd(d)}</li>`).join('')}</ul>
+      </div>`;
+  }
+
+  $('detail-body').innerHTML = html;
   $('detail-back').classList.toggle('hidden', detailHist.length < 2);
   const ov = $('detail-overlay');
   ov.classList.add('open'); ov.setAttribute('aria-hidden','false');
@@ -567,9 +728,9 @@ function setupDetail(){
     if (prev.type === 'activity') openActivity(prev.key, false);
     else openDetail(prev.type, prev.key, false);
   });
-  // wikilink navigation inside the detail body
+  // wikilink + chip navigation inside the detail body
   $('detail-body').addEventListener('click', ev => {
-    const a = ev.target.closest('a.wl');
+    const a = ev.target.closest('[data-t][data-k]');
     if (!a) return;
     ev.preventDefault();
     openDetail(a.dataset.t, a.dataset.k);
@@ -590,123 +751,118 @@ function renderStats(){
      <span class="text-teal-400 font-semibold">${s.countries||0}</span> 國家 ·
      <span class="text-amber-400 font-semibold">${s.entities}</span> 車廠 ·
      最後更新 <span class="text-slate-300">${s.last_updated}</span>`;
-
-  const cards = [
-    {icon:'📚', label:'來源總數',   val: s.sources,   color:'text-emerald-400', bg:'bg-emerald-500/10 border-emerald-500/30'},
-    {icon:'🗺️', label:'概念頁數',   val: s.concepts,  color:'text-blue-400',    bg:'bg-blue-500/10 border-blue-500/30'},
-    {icon:'🏭', label:'車廠資料庫', val: s.entities,  color:'text-amber-400',   bg:'bg-amber-500/10 border-amber-500/30'},
-    {icon:'📄', label:'Wiki 總頁數',val: s.pages,     color:'text-purple-400',  bg:'bg-purple-500/10 border-purple-500/30'},
-  ];
-  $('stat-cards').innerHTML = cards.map(c => `
-    <div class="card rounded-2xl border ${c.bg} p-5 flex items-center gap-4">
-      <div class="text-3xl">${c.icon}</div>
-      <div>
-        <div class="text-2xl font-bold ${c.color}">${c.val.toLocaleString()}</div>
-        <div class="text-xs text-slate-400 mt-0.5">${c.label}</div>
-      </div>
-    </div>`).join('');
 }
 
-// ── Render: Charts ───────────────────────────────────────────────────────────
+// ── Render: Charts (dataviz validated dark palette) ───────────────────────────
+const VIZ = {
+  blue:'#3987e5', orange:'#d95926', aqua:'#199e70', yellow:'#c98500',
+  magenta:'#d55181', green:'#0ca30c', violet:'#9085e9', red:'#e66767',
+  ink:'#f0efec', muted:'#898781', grid:'rgba(137,135,129,.18)', surface:'#1e293b',
+};
 function renderCharts(){
   const ch = D.charts;
-  const gridColor = 'rgba(148,163,184,.12)';
-  const tickColor = '#64748b';
+  const gridColor = VIZ.grid, tickColor = VIZ.muted;
+  const tip = {backgroundColor:'#0f172a', borderColor:'#334155', borderWidth:1,
+               titleColor:VIZ.ink, bodyColor:'#cbd5e1', padding:10, cornerRadius:8};
 
-  // Monthly bar
+  // Monthly bar — single series, single hue (blue), magnitude over time
   new Chart($('chart-monthly').getContext('2d'), {
     type: 'bar',
     data: {
       labels: ch.monthly.labels.map(l => l.replace(/^20\d\d-/,'')), // show MM only
       datasets: [{
         data: ch.monthly.data,
-        backgroundColor: 'rgba(16,185,129,.7)',
-        borderColor: '#10b981',
-        borderWidth: 1,
-        borderRadius: 4,
+        backgroundColor: VIZ.blue, hoverBackgroundColor:'#5598e7',
+        borderWidth: 0, borderRadius: 4, maxBarThickness: 26,
       }]
     },
     options: {
       responsive: true, maintainAspectRatio: false,
-      plugins: {legend:{display:false}, tooltip:{
-        backgroundColor:'#1e293b', borderColor:'#334155', borderWidth:1,
+      plugins: {legend:{display:false}, tooltip:{...tip,
         callbacks:{ title: items => ch.monthly.labels[items[0].dataIndex], label: i => ` 新增 ${i.raw} 筆` }
       }},
       scales: {
-        x: {grid:{color:gridColor}, ticks:{color:tickColor, maxRotation:45}},
-        y: {grid:{color:gridColor}, ticks:{color:tickColor}, beginAtZero:true}
+        x: {grid:{display:false}, ticks:{color:tickColor, maxRotation:0, font:{size:10}}},
+        y: {grid:{color:gridColor}, ticks:{color:tickColor, font:{size:10}}, beginAtZero:true}
       }
     }
   });
 
-  // Donut
+  // Donut — categorical identity, fixed-order validated palette, legend present
   new Chart($('chart-donut').getContext('2d'), {
     type: 'doughnut',
     data: {
       labels: ch.categories.labels,
       datasets: [{data: ch.categories.data, backgroundColor: ch.categories.colors,
-                  borderColor:'#0f172a', borderWidth:2, hoverOffset:6}]
+                  borderColor:VIZ.surface, borderWidth:2, hoverOffset:6}]
     },
     options: {
-      responsive: true, maintainAspectRatio: false, cutout: '62%',
+      responsive: true, maintainAspectRatio: false, cutout: '60%',
       plugins: {
-        legend:{position:'bottom', labels:{color:'#94a3b8', boxWidth:10, padding:10, font:{size:11}}},
-        tooltip:{backgroundColor:'#1e293b', borderColor:'#334155', borderWidth:1,
-                 callbacks:{label: i => ` ${i.label}：${i.raw} 筆`}}
+        legend:{position:'bottom', labels:{color:'#cbd5e1', boxWidth:9, padding:7, font:{size:9}}},
+        tooltip:{...tip, callbacks:{label: i => ` ${i.label}：${i.raw} 筆`}}
       }
     }
   });
 
-  // Top concepts horizontal bar
-  const top = [...D.concepts].slice(0, 10);
+  // Top concepts — magnitude ranking, single series → single hue (blue)
+  const top = [...D.concepts].slice(0, 8);
   new Chart($('chart-concepts').getContext('2d'), {
     type: 'bar',
     data: {
       labels: top.map(c => c.title),
       datasets: [{
         data: top.map(c => c.source_count),
-        backgroundColor: top.map((_,i) => `hsl(${160 + i*18},70%,${50 - i*2}%)`),
-        borderRadius: 4,
+        backgroundColor: VIZ.blue, hoverBackgroundColor:'#5598e7',
+        borderRadius: 4, maxBarThickness: 16,
       }]
     },
     options: {
       indexAxis: 'y', responsive: true, maintainAspectRatio: false,
-      plugins:{legend:{display:false}, tooltip:{
-        backgroundColor:'#1e293b', borderColor:'#334155', borderWidth:1,
+      plugins:{legend:{display:false}, tooltip:{...tip,
         callbacks:{label: i => ` 引用 ${i.raw} 個來源`}
       }},
       scales:{
-        x:{grid:{color:gridColor}, ticks:{color:tickColor}},
-        y:{grid:{color:'transparent'}, ticks:{color:'#e2e8f0', font:{size:12}}}
+        x:{grid:{color:gridColor}, ticks:{color:tickColor, font:{size:10}}},
+        y:{grid:{display:false}, ticks:{color:'#cbd5e1', font:{size:10}}}
       }
     }
   });
 }
 
-// ── Render: Activity Timeline ────────────────────────────────────────────────
+// ── Render: Activity Timeline (坡道 / 發現 / 甜點) ─────────────────────────────
+// inline markdown: **bold** only, escaped
+function inlineMd(s){
+  return esc(s).replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>');
+}
 function renderActivity(){
   const el = $('activity-list');
   el.innerHTML = D.log.map((e, i) => {
     const icon  = TYPE_ICONS[e.type] || '📌';
     const cls   = `type-${e.type}`;
     const label = TYPE_LABELS[e.type] || e.type;
-    const details = e.details.slice(0,4).map(d =>
-      `<li class="text-slate-400 text-xs leading-relaxed">${esc(d)}</li>`).join('');
-    const more = e.details.length > 4 ? `<div class="text-[11px] text-slate-500 mt-1">…還有 ${e.details.length - 4} 項</div>` : '';
+    const disc = (e.discoveries || []).slice(0,3).map(d =>
+      `<li>${inlineMd(d.length > 110 ? d.slice(0,110)+'…' : d)}</li>`).join('');
+    const nMore = (e.discoveries||[]).length - 3;
+    const counts = [];
+    if ((e.concepts||[]).length)  counts.push(`${e.concepts.length} 概念`);
+    if ((e.countries||[]).length) counts.push(`${e.countries.length} 國家`);
+    if ((e.entities||[]).length)  counts.push(`${e.entities.length} 車廠`);
     return `
       <div class="relative fade-in">
         <div class="absolute -left-9 top-1 w-4 h-4 rounded-full bg-slate-700 border-2 border-slate-600 flex items-center justify-center text-xs">
           <span class="${cls}">${icon}</span>
         </div>
         <div class="bg-slate-800/60 rounded-xl border border-slate-700/60 p-4 clickable hover:border-emerald-500/50 transition" data-log="${i}">
-          <div class="flex items-center gap-2 mb-1">
+          <div class="flex items-center gap-2 mb-2">
             <span class="text-xs font-mono text-slate-500">${e.date}</span>
             <span class="tag ${cls} border-current opacity-70">${label}</span>
-            <span class="ml-auto text-[11px] text-emerald-400/70">詳情 →</span>
+            <span class="ml-auto text-[11px] text-emerald-400/70">看完整敘事 →</span>
           </div>
-          <div class="text-sm font-medium text-slate-200">${esc(e.title)}</div>
-          ${details ? `<ul class="mt-2 space-y-1 list-disc list-inside">${details}</ul>` : ''}
-          ${more}
+          <div class="narr-ramp-text text-slate-200 mb-2" style="font-size:.9rem">🛝 ${inlineMd(e.ramp || e.title)}</div>
+          ${disc ? `<ul class="narr-list" style="gap:6px">${disc}</ul>` : ''}
+          ${nMore > 0 ? `<div class="text-[11px] text-slate-500 mt-2">…還有 ${nMore} 項發現</div>` : ''}
+          ${counts.length ? `<div class="text-[11px] text-slate-500 mt-2">本批更新 ${counts.join('、')}</div>` : ''}
         </div>
       </div>`;
   }).join('');
@@ -820,13 +976,15 @@ function renderEntities(){
 // ── Render: Sources (Tabbed) ─────────────────────────────────────────────────
 let activeSourceTab = null;
 
+// label colour on a filled categorical chip: white, except dark on yellow
+const fillInk = hex => (hex.toLowerCase() === '#c98500' ? '#0b0b0b' : '#ffffff');
 function renderSourceTabs(){
   const sections = Object.keys(D.sections);
   activeSourceTab = sections[0] || null;
   $('source-tabs').innerHTML = sections.map((sec, i) => {
-    const color = SECTION_COLORS[sec] || '#6366f1';
+    const color = SECTION_COLORS[sec] || '#9085e9';
     return `<button class="tab-btn ${i===0?'active':''} px-4 py-1.5 rounded-full text-xs border border-slate-600 text-slate-300 hover:border-emerald-500 transition cursor-pointer"
-               data-sec="${esc(sec)}" style="${i===0?`background:${color};color:#0f172a;border-color:${color}`:''}">
+               data-sec="${esc(sec)}" style="${i===0?`background:${color};color:${fillInk(color)};border-color:${color}`:''}">
                ${esc(sec)} <span class="opacity-70">(${D.sections[sec].length})</span>
              </button>`;
   }).join('');
@@ -836,9 +994,9 @@ function renderSourceTabs(){
     activeSourceTab = btn.dataset.sec;
     document.querySelectorAll('.tab-btn').forEach((b, i) => {
       const sec = b.dataset.sec;
-      const c = SECTION_COLORS[sec] || '#6366f1';
+      const c = SECTION_COLORS[sec] || '#9085e9';
       if (sec === activeSourceTab) {
-        b.classList.add('active'); b.style.background = c; b.style.color = '#0f172a'; b.style.borderColor = c;
+        b.classList.add('active'); b.style.background = c; b.style.color = fillInk(c); b.style.borderColor = c;
       } else {
         b.classList.remove('active'); b.style.background = ''; b.style.color = ''; b.style.borderColor = '';
       }
@@ -944,7 +1102,7 @@ function setupSearch(){
 
 // ── Scrollspy ────────────────────────────────────────────────────────────────
 function setupScrollspy(){
-  const sections = ['overview','activity','concepts','countries','entities','sources'];
+  const sections = ['activity','concepts','countries','entities','sources'];
   const links = document.querySelectorAll('.nav-link');
   const scroll = $('main-scroll');
   scroll.addEventListener('scroll', () => {
