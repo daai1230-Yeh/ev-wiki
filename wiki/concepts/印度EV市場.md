@@ -1,12 +1,50 @@
 ---
 tags: [concept]
 sources: [electric-bus-market-2025-global, delhi-ev-policy-2026, vinfast-india-investment, india-ev-commercial-update-2026, india-tata-jsw-battery-rd-2026, mahindra-ev-expansion-2026, ather-energy-el-platform-2026, india-2w-market-fy27-bifurcation-2026, india-1bn-ev-commercial-incentives-2026, china-catl-battery-tech-export-2026, tesla-india-factory-exit-2026, honda-india-ev-hybrid-2026, tata-stellantis-jeep-india-2026, india-electric-bus-market-2025, tata-chery-avinya-platform-2026, delhi-ev-7year-high-2026, toptec-india-battery-equipment-2026, ev-news-2026-09-18-electrive-en, ev-news-2026-09-20-india, ev-news-2026-09-21-india, ev-news-2026-09-24-electrive-en, ev-news-2026-09-24-digest, ev-news-2026-10-12-digest, ev-news-2026-10-15-digest, ev-news-2026-10-19-digest, ev-news-2026-10-29-electrive-en, ev-news-2026-11-02-sustainablebus, ev-news-2026-11-06-electrive-en, ev-news-2026-11-09-cn-misc, ev-news-2026-11-11b-cn-misc, ev-news-2026-11-11b-sustainablebus, ev-news-2026-11-17-electrive-en, ev-news-2026-11-17-cn-misc]
-updated: 2026-11-17
+updated: 2026-11-18
 ---
 
 # 印度 EV 市場
 
 印度是全球最大潛力 EV 市場之一，電動巴士市場以政府採購為主要驅動力，乘用 EV 仍處發展早期；德里 EV 政策爭議凸顯強制配額的雙刃劍效應。
+
+## 簡報三段式（更新：2026-11-18）
+
+> 演講或簡報前的備課卡。依《高效演講》的「坡道—發現—甜點」結構整理本頁最新內容；講稿口吻依 [[templates/逐字稿專家口吻指南]]。數字引用前請查 [[待核對清單]]。
+
+### 坡道（開場：為什麼聽眾要在乎）
+- **開場鉤子（反常識）**：「在印度，9 月賣出的新三輪車有一半以上是電動的；但私家車只有 8.5%。印度最先電動化的不是汽車，是嘟嘟車。」
+- **與聽眾的關係**：
+  - 零組件業者：Honda、Kia 把印度當出口製造基地，印度供應鏈在地化需求快速上升。
+  - 政策單位：印度用稅制（EV GST 5% vs 燃油 40%）與營運商總成本契約推動電動化，可作為政策工具的參考。
+- **一句話主題**：印度正從「潛力市場」轉成「全球出口製造基地」。
+
+### 發現（主體：三個核心觀點）
+1. **稅制讓電動車價格貼近燃油車**
+   - 數字：EV GST 5%、燃油車 40%；賓士電動 GLC 400 在浦那組裝，售價 785 萬盧比，只比入門燃油 GLC 貴約 2%，總預訂逾 1,000 筆。
+   - 故事：同一款豪華 SUV，電動版和燃油版幾乎同價，消費者自然會選電動。
+   - So what：稅差是印度電動化最有效的工具。
+   - 建議圖表：EV 與燃油車稅負對照。
+   - 來源：[[sources/ev-news-2026-11-06-cn-misc]]
+2. **商用與小型車先跑**
+   - 數字：9 月新三輪車電動占比逾 50%（二輪 11.6%、私家車 8.5%）；古吉拉特 220 輛電巴以營運商 12 年總成本契約（GCC）發包。
+   - 故事：政府不再直接買巴士，而是買「12 年的營運服務」。
+   - So what：GCC 模式讓營運商承擔車輛與電池風險，供應商要能提供長期維運。
+   - 建議圖表：各車種電動化滲透率。
+   - 來源：本頁 2026-11 動態彙整
+3. **出口製造基地成形**
+   - 數字：Honda 全球戰略純電休旅 Alpha 以印度為全球唯一生產基地（12/2 首演）；Kia 投資約 18 億歐元建 Anantapur 第二廠（2030 年、年產 20 萬輛）；現代汽車加碼 155 億美元。
+   - 故事：過去日系全球車款多在日本或北美生產，這次 Honda 把唯一產地放在印度。
+   - So what：印度供應鏈將吸納更多出口型訂單；但 AI 資料中心排擠車用晶片，印度車廠已被迫加價搶貨。
+   - 建議圖表：日韓車廠印度投資一覽。
+   - 來源：[[sources/ev-news-2026-11-11b-cn-misc]]、[[sources/ev-news-2026-11-17-electrive-en]]
+
+### 甜點（結尾：留下什麼）
+- **金句**：「印度的電動化從嘟嘟車開始，但下一步是把車賣到全世界。」
+- **追蹤指標**：Honda Alpha 12/2 規格與出口市場；Kia 第二廠 2030 年投產；車用晶片成本是否反映在售價。
+- **Q&A 預備**：
+  - 「印度乘用車電動化為什麼慢？」→ 價格敏感與充電不足，私家車滲透率仍僅 8.5%，主要動能在三輪與商用車。
+  - 「台廠怎麼切入？」→ 跟著日韓車廠的印度出口產線做在地供應，比直接進印度內需市場容易。
 
 ## 電動巴士市場（2025 全年）
 

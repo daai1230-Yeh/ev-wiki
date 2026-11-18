@@ -1,12 +1,50 @@
 ---
 tags: [concept]
 sources: [robotaxi-market-2026, china-autonomous-driving-overseas, europe-robotaxi-verne-ponyai, waymo-miami-orlando-expansion, taiwan-av-special-scenes, japan-2030-autonomous-ai-strategy, ratp-karsan-autonomous-bus-paris, av-physical-ai-trends-2026, tesla-fsd-eu-expansion-2026, tesla-robotaxi-texas-reality-2026, uber-robotaxi-europe-expansion-2026, waymo-battery-secondlife-colorado-recycling-2026, toyota-tier-iv-l4-investment-2026, waymo-arizona-expansion-2026, tesla-cybercab-specs-2026, mobileye-robotaxi-2026, tesla-fsd-netherlands-2026, ev-news-2026-06-22, ev-news-2026-07-13-digitimes, ev-news-2026-07-14-16-electrive, ev-news-2026-07-21-22-digitimes, ev-news-2026-07-22-24-digitimes, ev-news-2026-07-22-23-electrive-en, ev-news-2026-07-28-digitimes, ev-news-2026-07-28-30-electrive-en, ev-news-2026-08-01-03-en, ev-news-2026-08-04-06-digitimes, ev-news-2026-08-03-06-electrive-en, ev-news-2026-08-06-07-electrive-en, ev-news-2026-08-07-10-electrive-en, ev-news-2026-08-17-18-electrive-en, ev-news-2026-08-20-digitimes, ev-news-2026-08-19-20-cn-misc, ev-news-2026-08-21-23-electrive-en, ev-news-2026-08-21-22-electrive-en, ev-news-2026-08-26-27-electrive-en, ev-news-2026-08-28-digitimes, ev-news-2026-09-04-electrive-en, ev-news-2026-09-07-08-digitimes, ev-news-2026-09-07-08-electrive-en, ev-news-2026-09-08-electrive-en, ev-news-2026-09-16-digitimes, ev-news-2026-09-17-digitimes, ev-news-2026-09-17-electrive-en, ev-news-2026-09-19-electrive-en, ev-news-2026-09-18-electrive-en, ev-news-2026-09-18-digitimes, ev-news-2026-09-21-electrive-en, ev-news-2026-09-18-digest, ev-news-2026-09-22-electrive-en, ev-news-2026-09-24-digitimes, ev-news-2026-10-06-digest, ev-news-2026-10-06-electrive-en, ev-news-2026-10-05-digitimes, ev-news-2026-10-07-electrive-en, ev-news-2026-10-07-digitimes, ev-news-2026-10-16-electrive-en, ev-news-2026-10-15-digitimes, ev-news-2026-10-19-digest, ev-news-2026-10-20-bus-digest, ev-news-2026-10-22-insideevs, ev-news-2026-10-27-digitimes, ev-news-2026-10-27-digitimes-tesla, ev-news-2026-10-29-electrive-en, ev-news-2026-11-02-digitimes, ev-news-2026-11-02-cn-misc, ev-news-2026-11-04-digitimes, ev-news-2026-11-04-insideevs, ev-news-2026-11-06-electrive-en, ev-news-2026-11-06-insideevs, ev-news-2026-11-06-digitimes, ev-news-2026-11-11-electrive-en, ev-news-2026-11-11-cn-misc, ev-news-2026-11-11b-insideevs, ev-news-2026-11-12-electrive-en, ev-news-2026-11-12-cn-misc, ev-news-2026-11-16-cn-misc, ev-news-2026-11-17-electrive-en, ev-news-2026-11-17-insideevs, ev-news-2026-11-17-digitimes]
-updated: 2026-11-17
+updated: 2026-11-18
 ---
 
 # Robotaxi（自動計程車）
 
 無人駕駛計程車服務，2026 年技術瓶頸已解除，核心挑戰轉為法規合規與商業獲利能力。
+
+## 簡報三段式（更新：2026-11-18）
+
+> 演講或簡報前的備課卡。依《高效演講》的「坡道—發現—甜點」結構整理本頁最新內容；講稿口吻依 [[templates/逐字稿專家口吻指南]]。數字引用前請查 [[待核對清單]]。
+
+### 坡道（開場：為什麼聽眾要在乎）
+- **開場鉤子（反常識）**：「現在你可以花 29,990 美元買一台沒有方向盤的車——比 Model 3 還便宜 7,000 美元。但沒有每月 299 美元的訂閱，它連動都不會動。」
+- **與聽眾的關係**：
+  - 零組件業者：Robotaxi 的單車成本是關鍵，May Mobility 目標把單車總成本降逾 50%，誰能降成本誰拿單。
+  - 政策單位：自駕上路的認證、識別燈與充電場站規畫，已經從技術問題變成都市治理問題。
+- **一句話主題**：Robotaxi 的技術門檻正在降低，接下來比的是成本、法規與營運。
+
+### 發現（主體：三個核心觀點）
+1. **規模化競賽：從千輛到萬輛**
+   - 數字：Waymo 以 50 億美元無擔保債擴車隊，目標由約 4,000 輛到 2027 年底 20,000 輛；May Mobility 2031 年前 1 萬輛自駕 ID. Buzz；Tesla 宣布格林海德 2029 年起年產最多 100 萬輛 Cybercab。
+   - 故事：Tesla 把德州廠 Cybertruck 產線拆掉讓位給 Cybercab，產能直接換跑道。
+   - So what：Robotaxi 不再是示範車隊，車廠開始用量產產能來規畫。
+   - 建議圖表：主要業者車隊規模與時程。
+   - 來源：本頁 2026-10、2026-11 動態彙整
+2. **商業模式分化：垂直整合 vs 輕資產**
+   - 數字：Waymo 2028-01 起退出奧斯汀與亞特蘭大的 Uber 合作、改走自家 App；豐田在高岡工廠產線直接安裝 Waymo 第六代硬體；小鵬與 May Mobility 則走賣技術、不自營車隊的輕資產路線。
+   - 故事：同一個市場，有人要「從造車到叫車全包」，有人只想當幕後的軟體供應商。
+   - So what：供應鏈要看清楚客戶是車廠、營運商還是平台。
+   - 建議圖表：垂直整合 vs 輕資產比較表。
+   - 來源：[[sources/ev-news-2026-11-06-digitimes]]、[[sources/ev-news-2026-11-17-electrive-en]]
+3. **規模化的外溢成本開始浮現**
+   - 數字：Waymo 在聖地牙哥營運後，公共快充出現 30–60 分鐘排隊；NHTSA 提案自駕專屬青色識別燈；NHTSA 也在調查 Cybercab 的聯邦安全標準自我認證程序。
+   - 故事：一般車主到充電站，發現 4 個樁位有 3 個被 Robotaxi 佔著。
+   - So what：場站、充電與識別規範會成為各城市導入 Robotaxi 的前置作業。
+   - 建議圖表：Robotaxi 導入的城市配套清單。
+   - 來源：[[sources/ev-news-2026-11-04-digitimes]]、[[sources/ev-news-2026-11-17-digitimes]]
+
+### 甜點（結尾：留下什麼）
+- **金句**：「Robotaxi 的瓶頸已經不在車上，而在城市裡。」
+- **追蹤指標**：12 月首批 Cybercab 個人交付與 NHTSA 調查結論；Waymo 2027 年 20,000 輛進度；台中水湳自駕巴士試乘成果。
+- **Q&A 預備**：
+  - 「一般人真的會買 Robotaxi 嗎？」→ 目前只限受邀客戶與服務區內使用，年訂閱約 3,600 美元另計，消費市場仍在試水溫。
+  - 「台灣什麼時候有？」→ 台中已有開放道路自駕巴士試乘，但乘用 Robotaxi 尚無時程，先從固定路線巴士開始。
 
 ## 現況
 - 賓士、Volkswagen、Waymo 等已在歐美上路

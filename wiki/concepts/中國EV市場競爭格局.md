@@ -1,12 +1,50 @@
 ---
 tags: [concept]
 sources: [china-ev-market-consolidation, chery-qq3-vs-byd-seagull, china-ev-market-q1-2026, mercedes-benz-china-q1-2026, china-nev-april-involution-2026, china-nev-april-2026, xpeng-physical-ai-pivot-2026, ev-news-digest-jun1-10-2026, china-ev-market-slowdown-jun2026, xiaomi-su7-2026-update, byd-great-han-2026, ev-news-2026-09-21-digitimes, ev-news-2026-09-18-digitimes, ev-news-2026-09-20-digest, ev-news-2026-09-22-electrive-en, ev-news-2026-09-22-digitimes, ev-news-2026-09-23-digitimes, ev-news-2026-09-24-digest, ev-news-2026-09-24-digitimes, ev-news-2026-10-01-digitimes, ev-news-2026-10-02-digitimes, ev-news-2026-10-01-electrive-en, ev-news-2026-10-05-digitimes, ev-news-2026-10-12-digitimes-2, ev-news-2026-10-19-electrive-en, ev-news-2026-10-20-electrive-en, ev-news-2026-10-22-digitimes, ev-news-2026-10-27-digest, ev-news-2026-10-27-electrive-en, ev-news-2026-10-29-electrive-en, ev-news-2026-10-29-digitimes, ev-news-2026-10-30-digitimes, ev-news-2026-11-02-cn-misc, ev-news-2026-11-04-cn-misc, ev-news-2026-11-09-cn-misc, ev-news-2026-11-11-electrive-en, ev-news-2026-11-12-digitimes, ev-news-2026-11-12-cn-misc, ev-news-2026-11-16-cn-misc, ev-news-2026-11-17-digitimes, ev-news-2026-11-17-electrive-en, ev-news-2026-11-17-cn-misc]
-updated: 2026-11-17
+updated: 2026-11-18
 ---
 
 # 中國 EV 市場競爭格局
 
 中國電動車市場歷經多年價格戰後，形成約 30 家核心廠商主導的「長期內捲」生態，整併速度遠低於外界預期。
+
+## 簡報三段式（更新：2026-11-18）
+
+> 演講或簡報前的備課卡。依《高效演講》的「坡道—發現—甜點」結構整理本頁最新內容；講稿口吻依 [[templates/逐字稿專家口吻指南]]。數字引用前請查 [[待核對清單]]。
+
+### 坡道（開場：為什麼聽眾要在乎）
+- **開場鉤子（反常識）**：「Tesla 上海廠 10 月交了將近 7 萬輛車，但真正賣在中國的只有 8,817 輛——87% 都運去海外了。」
+- **與聽眾的關係**：
+  - 零組件業者：中國內需萎縮、價格戰持續，中國供應鏈會更積極向海外搶單。
+  - 政策單位：外資品牌在中國被擠出的速度，是觀察中國車輸出全球的先行指標。
+- **一句話主題**：中國車市內需降溫，本土品牌靠海外與純電撐住，外資品牌被加速擠出。
+
+### 發現（主體：三個核心觀點）
+1. **內需急凍，零售年減近三成**
+   - 數字：2026-09 中國乘用車零售 161.8 萬輛（年減 28%）；10 月新能源車零售 110.9 萬輛（年減 13.7%）。
+   - 故事：購車補貼退場後，車市像被抽掉一層地板。
+   - So what：價格戰從國內延伸到出口市場。
+   - 建議圖表：月零售年增率折線圖。
+   - 來源：[[sources/ev-news-2026-11-02-cn-misc]]、[[sources/ev-news-2026-11-12-digitimes]]
+2. **外資分化：有人撤、有人用中國方法反攻**
+   - 數字：Tesla 中國 10 月內銷 8,817 輛（年減 66.1%），中國品牌包辦新能源銷量 1~17 名；現代＋起亞在中國合計市占僅 0.6%；福斯安徽 1~9 月 ID. UNYX 僅 1.13 萬輛、2027–28 年無新車；但福斯品牌 10 月 EV 交付逾 2.8 萬輛（年增近 350%）。
+   - 故事：同一個福斯集團，合資品牌停擺，另一款與小鵬合作的 ID. ERA 5X 卻以 9.99 萬元人民幣起殺進主流價格帶。
+   - So what：外資要在中國存活，必須採用中國的平台、軟體與成本結構。
+   - 建議圖表：外資品牌中國市占變化。
+   - 來源：[[sources/ev-news-2026-11-12-digitimes]]、[[sources/ev-news-2026-11-17-digitimes]]、[[sources/ev-news-2026-11-17-electrive-en]]
+3. **本土龍頭往兩端延伸：量與價**
+   - 數字：比亞迪 10 月純電 305,743 輛首破 30 萬輛；3Q26 淨利 100.2 億元人民幣（年增 28.1%），但存貨大增 60%；仰望 U9 Xtreme 測得 503.17 km/h、旗艦轎車 ALTIOR 於阿布達比首發。
+   - 故事：比亞迪一手在十萬元級車款衝量，一手用百萬元級超豪華車撐品牌。
+   - So what：中國品牌開始挑戰歐系豪華車的最後堡壘。
+   - 建議圖表：比亞迪產品價位分布。
+   - 來源：[[sources/ev-news-2026-11-04-cn-misc]]、[[sources/ev-news-2026-11-17-cn-misc]]
+
+### 甜點（結尾：留下什麼）
+- **金句**：「在中國，外資的對手已經不是其他外資，而是中國的成本曲線。」
+- **追蹤指標**：11–12 月 Tesla 中國內銷是否如往年反彈；小鵬、零跑 3Q 毛利率；福斯 ID. ERA 5X 月銷。
+- **Q&A 預備**：
+  - 「Tesla 在中國是不是不行了？」→ 有季節性：每季初優先出口、季末衝內銷，但 10 月內銷不到 1、4、7 月首月的一半，結構性放緩的疑慮確實升高。
+  - 「價格戰會結束嗎？」→ 約 30 家核心廠商的長期內捲，整併速度遠低於預期，短期看不到結束。
 
 ## 市場結構
 - 具實質影響力廠商：約 30 家（Rhodium Group）

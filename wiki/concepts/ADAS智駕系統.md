@@ -1,12 +1,50 @@
 ---
 tags: [concept]
 sources: [byd-dipilot-adas-2026, robotaxi-market-2026, toyota-adas-vs-fsd-subscription, hyundai-pleos-sdv-os, in-cabin-ai-sensing-2026, l2plus-adas-adoption-2026, rivian-lidar-china-partner-2026, hyundai-kia-atria-ai-gwangju-2026, hesai-color-lidar-2026, ev-news-digest-jun1-10-2026, ev-news-2026-06-27-29-en, ev-news-2026-06-30-07-01, ev-news-2026-06-29-zh, ev-news-2026-07-02, ev-news-2026-07-03-08, ev-news-2026-07-09, ev-news-2026-07-21-22-digitimes, ev-news-2026-07-22-23-electrive-en, ev-news-2026-08-24-digitimes, ev-news-2026-08-27-digitimes, ev-news-2026-08-28-digitimes, ev-news-2026-08-30-31-cn-misc, ev-news-2026-09-07-08-digitimes, ev-news-2026-09-08-electrive-en, ev-news-2026-09-09-digitimes, ev-news-2026-09-11-digitimes, ev-news-2026-09-15-digitimes, ev-news-2026-09-16-digitimes, ev-news-2026-09-18-digest, ev-news-2026-09-19-digest, ev-news-2026-09-18-electrive-en, ev-news-2026-09-22-digest, ev-news-2026-09-23-electrive-en, ev-news-2026-10-01-digitimes, ev-news-2026-10-01-electrive-en, ev-news-2026-10-05-digitimes, ev-news-2026-10-12-digitimes, ev-news-2026-10-16-digitimes, ev-news-2026-10-19-digest, ev-news-2026-10-20-digitimes, ev-news-2026-10-20-insideevs, ev-news-2026-10-22-digitimes, ev-news-2026-10-27-digitimes-tesla, ev-news-2026-10-27-digitimes, ev-news-2026-10-27-insideevs, ev-news-2026-10-29-electrive-en, ev-news-2026-10-29-insideevs, ev-news-2026-10-29-digitimes, ev-news-2026-10-30-electrive-en, ev-news-2026-10-30-digitimes, ev-news-2026-11-17-insideevs, ev-news-2026-11-17-digitimes, ev-news-2026-11-17-electrive-en]
-updated: 2026-11-17
+updated: 2026-11-18
 ---
 
 # ADAS 智駕系統（Advanced Driver Assistance System）
 
 先進駕駛輔助系統是 EV 差異化競爭的核心戰場，2026 年競爭重心從硬體部署轉向軟體能力與數據迭代效率。
+
+## 簡報三段式（更新：2026-11-18）
+
+> 演講或簡報前的備課卡。依《高效演講》的「坡道—發現—甜點」結構整理本頁最新內容；講稿口吻依 [[templates/逐字稿專家口吻指南]]。數字引用前請查 [[待核對清單]]。
+
+### 坡道（開場：為什麼聽眾要在乎）
+- **開場鉤子（反常識）**：「Tesla 為了進歐洲，連產品名字都改了——『全自動駕駛』在歐洲改叫『Tesla 輔助駕駛』。名字退一步，才換得到上路許可。」
+- **與聽眾的關係**：
+  - 零組件業者：感測器路線（純視覺 vs 雷達＋光達）決定你賣不賣得進去；GM 2028 年 Escalade IQ 改走雷達＋光達＋鏡頭。
+  - 政策單位：L2+ 的責任仍在駕駛，命名、認證與事故責任是監管第一關。
+- **一句話主題**：智駕的競爭已從「誰的硬體多」轉成「誰的軟體迭代快、誰先過法規」。
+
+### 發現（主體：三個核心觀點）
+1. **路線分歧仍未收斂**
+   - 數字：福斯中國 HyperSense 8（L2++）2026 年上七款新車、L3 2027、L4 2029；本田 2027 年左右 L4、2030 年前後以 AI 取代高精地圖。
+   - 故事：GM 產品長說捨棄雷達是「忽略物理」，正面挑戰 Tesla 純視覺。
+   - So what：供應商不必押單一路線，但要能同時支援多感測器融合。
+   - 建議圖表：主要車廠感測器配置對照表。
+   - 來源：本頁 2026-10 動態彙整
+2. **城市點對點輔助成為新戰場**
+   - 數字：賓士 MB.Drive Assist Pro 明年春季在 MB.OS 車款開賣（市區仍須手放方向盤）；福斯 ID. ERA 5X 以 192 線光達＋地平線 J6H 提供城市 L2++，限時 9.99 萬元人民幣起。
+   - 故事：同樣是城市輔助駕駛，賓士要你手放方向盤，Tesla 不用——差別就在責任怎麼劃。
+   - So what：中國價位帶已把光達與高算力晶片做進十萬元級車款，成本曲線比歐美快。
+   - 建議圖表：價位 vs 智駕等級散布圖。
+   - 來源：[[sources/ev-news-2026-11-17-insideevs]]、[[sources/ev-news-2026-11-17-electrive-en]]
+3. **商用車與在地化 ADAS 是台廠切入點**
+   - 數字：奇美車電把 AI 運算內建在攝影機，可前裝或後裝分階段導入，已與多家台灣電動巴士業者合作。
+   - 故事：大客車盲區大、成本敏感，先裝必要攝影機、再逐步加功能，比一次裝整套更容易賣。
+   - So what：乘用車智駕被大廠壟斷，商用車與後裝市場仍有空間。
+   - 建議圖表：商用車 ADAS 分階段導入示意。
+   - 來源：[[sources/ev-news-2026-11-17-digitimes]]
+
+### 甜點（結尾：留下什麼）
+- **金句**：「智駕比的不是看得多遠，而是誰先拿到那張上路許可。」
+- **追蹤指標**：2026 年 12 月歐盟對 Tesla 輔助駕駛的表決；賓士 Drive Assist Pro 定價；福斯中國 L3 2027 年落地。
+- **Q&A 預備**：
+  - 「純視覺會輸嗎？」→ 目前沒有定論，GM 與 Tesla 各押一邊；真正的分水嶺是 L3 責任歸屬的法規。
+  - 「台廠有機會嗎？」→ 乘用車主控晶片與演算法難切入，但攝影機模組、商用車與後裝市場已有實例。
 
 ## 技術路線
 | 路線 | 代表 | 特徵 |

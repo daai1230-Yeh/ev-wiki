@@ -1,12 +1,50 @@
 ---
 tags: [concept]
 sources: [gm-ford-q1-2026-sales, us-ev-battery-demand-mismatch, rivian-r2-range-specs, vw-id4-chattanooga-stop, tesla-25k-ev-us-price-parity, slate-auto-ev-pickup, ford-ev-restructure-doug-field, vw-id4-us-writedown, tesla-q1-2026-earnings, gm-ev-delay-detroit-three, nissan-mississippi-ev-abandonment, honda-canada-ev-freeze-2026, tesla-model-s-final-production, mazda-ev-delay-2029, ford-catl-michigan-factory-2026, honda-9b-loss-hybrid-pivot-2026, tesla-model-y-price-bump-2026, congress-ev-annual-fee-2026, rivian-r2-deliveries-2026, chevy-bolt-2027-review, 駐外新聞-美國-2025, ev-news-2026-09-18-digest, ev-news-2026-09-20-digest, ev-news-2026-09-22-electrive-en, ev-news-2026-09-26-electrive-en, ev-news-2026-09-28-digest, ev-news-2026-10-05-digitimes, ev-news-2026-10-07-electrive-en, ev-news-2026-10-22-insideevs, ev-news-2026-10-27-digitimes, ev-news-2026-10-27-electrive-en, ev-news-2026-10-27-insideevs, ev-news-2026-10-29-insideevs, ev-news-2026-10-30-electrive-en, ev-news-2026-10-30-insideevs, ev-news-2026-11-02-electrive-en, ev-news-2026-11-02-digitimes, ev-news-2026-11-04-insideevs, ev-news-2026-11-04-digitimes, ev-news-2026-11-06-insideevs, ev-news-2026-11-06-digitimes, ev-news-2026-11-09-cn-misc, ev-news-2026-11-11-electrive-en, ev-news-2026-11-11-digitimes, ev-news-2026-11-11-insideevs, ev-news-2026-11-11b-insideevs, ev-news-2026-11-11b-digitimes, ev-news-2026-11-12-digitimes, ev-news-2026-11-16-digitimes, ev-news-2026-11-16-cn-misc, ev-news-2026-11-17-electrive-en, ev-news-2026-11-17-digitimes]
-updated: 2026-11-17
+updated: 2026-11-18
 ---
 
 # 美國 EV 市場與政策
 
 美國 EV 市場在 Trump 2.0 政策下成長放緩，補貼縮減、傳統車廠下修投資，但豐田等品牌逆勢成長。EV 均價持續下滑，車商自行填補補貼缺口。
+
+## 簡報三段式（更新：2026-11-18）
+
+> 演講或簡報前的備課卡。依《高效演講》的「坡道—發現—甜點」結構整理本頁最新內容；講稿口吻依 [[templates/逐字稿專家口吻指南]]。數字引用前請查 [[待核對清單]]。
+
+### 坡道（開場：為什麼聽眾要在乎）
+- **開場鉤子（反常識）**：「美國取消電動車稅額抵免後，消費者沒有回去買燃油車，而是轉去買油電車——油電車市佔創新高 16.3%，本田甚至宣布下一代 CR-V 不再賣純汽油版。」
+- **與聽眾的關係**：
+  - 零組件業者：美國電動化重心從純電轉向混動，HEV 零件、電池在地化與「非中國供應鏈」是接單關鍵。
+  - 政策單位：美國政策在白宮與國會之間拉鋸，台廠赴美投資要評估政策反轉風險。
+- **一句話主題**：美國不是不電動化，而是改走「混動先行、純電等待政策」的路。
+
+### 發現（主體：三個核心觀點）
+1. **混動接手純電退潮**
+   - 數字：油電車市佔 2026 年 2Q 末 16.3%（前一年 13%）；Hyundai 10 月混動占比 29%；工研院預估混動在美國電動車（含 HEV）銷量占比由 57% 升至約 70%；福斯 Q3 美國只賣 1,421 輛 EV（年減 90%）。
+   - 故事：本田花 30 億美元在俄亥俄蓋新廠，主力是 HEV，但廠房預留了將來改產 EV 的空間。
+   - So what：車廠用「彈性產線」對沖政策不確定性。
+   - 建議圖表：美國動力系統市佔堆疊圖。
+   - 來源：[[sources/ev-news-2026-11-16-cn-misc]]、[[sources/ev-news-2026-11-11b-digitimes]]
+2. **新車型與新創撐住純電**
+   - 數字：Rivian 3Q26 營收 21.55 億美元（年增 38%）、交車 19,248 輛（年增 46%）；Lucid 3Q 自由現金流流出較 2Q 減 30% 至 10.4 億美元，加計 PIF 追加後流動性 37.5 億美元；Ford Fathom 完成約 90% 驗證。
+   - 故事：Lucid 靠沙烏地主權基金續命，把中型車延到 2027 下半年。
+   - So what：純電市場靠少數新車型撐起，新創仍高度依賴資金。
+   - 建議圖表：美國純電新車型上市時程。
+   - 來源：[[sources/ev-news-2026-11-02-electrive-en]]、[[sources/ev-news-2026-11-17-electrive-en]]
+3. **在地製造持續落地，政策可能反轉**
+   - 數字：BMW Woodruff 電池組裝廠投產、福斯 Scout 開始試產（投資逾 20 億美元）、三星SDI 印第安納 LFP 取得 16 GWh 儲能訂單；期中選舉後民主黨取得參眾兩院多數，可能尋求恢復 7,500 美元稅額抵免，但須面對總統否決權。
+   - 故事：工廠照蓋，但產品組合隨時準備換。
+   - So what：美國在地供應鏈需求確定，產品別需求不確定。
+   - 建議圖表：美國新建 EV／電池廠地圖。
+   - 來源：[[sources/ev-news-2026-11-06-electrive-en]]、[[sources/ev-news-2026-11-17-electrive-en]]、[[sources/ev-news-2026-11-17-digitimes]]
+
+### 甜點（結尾：留下什麼）
+- **金句**：「美國的電動化沒有停，只是換了一條比較慢、比較混的路。」
+- **追蹤指標**：國會是否推動恢復稅額抵免；2027 年 CR-V HEV 銷量；Lucid、Rivian 中型車量產。
+- **Q&A 預備**：
+  - 「美國純電市場會崩嗎？」→ 北美 10 月年增 24% 是 2026 年首度年增，但主因是去年基期低，真正回溫要看新車型與政策。
+  - 「台廠該怎麼看？」→ 混動與純電共用的電控、熱管理與電池模組需求較穩，赴美要注意非中國供應鏈的合規要求。
 
 ## 政策環境（2025–2026）
 

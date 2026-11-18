@@ -1,12 +1,50 @@
 ---
 tags: [concept]
 sources: [cupra-raval-launch, vw-id4-id5-battery-update, mgs6-ev-first-drive, opel-peugeot-long-range-delay, europe-battery-capacity-cuts, byd-denza-europe-debut, germany-ev-incentive-2026, vw-id3-neo-premiere, honda-eny1-withdrawal-europe, nissan-chery-sunderland-plant, acea-eu-ev-q1-2026, vw-id-polo-launch, polestar-3-800v-upgrade, audi-q4-etron-facelift-2026, gwm-ora03-uk-exit, netherlands-ev-scrappage-2026, porsche-cayenne-coupe-electric, uk-ev-2million-2026, vw-gamechanger-production, zeekr-x-2026-europe, morrow-batteries-insolvency, citroen-china-ev-strategy-2026, jpmorgan-china-ev-europe-2028, eu-iaa-japan-auto-protest-2026, bmw-ix3-neue-klasse-2026, volvo-ex60-production-2026, audi-a2-etron-testing-2026, kia-ev2-first-drive-2026, stellantis-fastlane-2030, nordic-ev-april-2026, europe-v2g-bidirectional-2026, tesla-fsd-eu-expansion-2026, china-ev-europe-factory-takeover-2026, europe-ev-market-may2026, eu-battery-tariff-2027-delay-2026, citroen-15k-electric-2cv-2026, uk-zev-mandate-relaxation-2026, eu-automotive-package-2035-2026, vwcv-id-buzz-2026-update, opel-formula-e-gse27fe-2026, ev-news-2026-09-20-digest, ev-news-2026-09-18-electrive-en, ev-news-2026-09-22-digitimes, ev-news-2026-09-26-electrive-en, ev-news-2026-09-23-electrive-en, ev-news-2026-09-26-digest, ev-news-2026-10-05-electrive-en, ev-news-2026-10-06-electrive-en, ev-news-2026-10-05-digitimes, ev-news-2026-10-08-digitimes, ev-news-2026-10-10-electrive-en, ev-news-2026-10-12-digest, ev-news-2026-10-15-electrive-en, ev-news-2026-10-16-electrive-en, ev-news-2026-10-19-electrive-en, ev-news-2026-10-20-digest, ev-news-2026-10-20-bus-digest, ev-news-2026-10-27-electrive-en, ev-news-2026-10-27-digitimes, ev-news-2026-10-29-electrive-en, ev-news-2026-10-29-insideevs, ev-news-2026-10-30-electrive-en, ev-news-2026-11-02-electrive-en, ev-news-2026-11-02-cn-misc, ev-news-2026-11-02-sustainablebus, ev-news-2026-11-04-electrive-en, ev-news-2026-11-04-insideevs, ev-news-2026-11-04-cn-misc, ev-news-2026-11-06-electrive-en, ev-news-2026-11-06-cn-misc, ev-news-2026-11-06-digitimes, ev-news-2026-11-09-cn-misc, ev-news-2026-11-11-electrive-en, ev-news-2026-11-11b-digitimes, ev-news-2026-11-11b-electrive-en, ev-news-2026-11-12-electrive-en, ev-news-2026-11-16-electrive-en, ev-news-2026-11-16-cn-misc, ev-news-2026-11-17-electrive-en, ev-news-2026-11-17-cn-misc, ev-news-2026-11-17-digitimes]
-updated: 2026-11-17
+updated: 2026-11-18
 ---
 
 # 歐洲 EV 市場
 
 歐洲是中國電動車廠的核心海外戰場，也是歐系傳統車廠轉型的試煉場。2026 年歐洲 EV 市場以平價緊湊車型競爭升溫、中國高端品牌進入、電動巴士市場高速成長為主要主題。
+
+## 簡報三段式（更新：2026-11-18）
+
+> 演講或簡報前的備課卡。依《高效演講》的「坡道—發現—甜點」結構整理本頁最新內容；講稿口吻依 [[templates/逐字稿專家口吻指南]]。數字引用前請查 [[待核對清單]]。
+
+### 坡道（開場：為什麼聽眾要在乎）
+- **開場鉤子（反常識）**：「歐盟一邊討論放寬 2035 年的燃油車禁令，一邊卻看著純電市占從 16.1% 跳到 22.7%。政策在退，市場在衝。」
+- **與聽眾的關係**：
+  - 零組件業者：「歐洲製造」與英歐原產地規則會決定你的零件算不算在地，直接影響車廠採購。
+  - 政策單位：歐洲是台廠以外銷切入電動車供應鏈的主戰場，也是規則變動最頻繁的市場。
+- **一句話主題**：歐洲電動車需求持續擴大，但受益者正轉向中國品牌與小型車，在地化規則成為新門檻。
+
+### 發現（主體：三個核心觀點）
+1. **需求在長，贏家換人**
+   - 數字：歐盟前 9 月純電市占 22.7%（上年 16.1%）；比亞迪前 9 月歐盟登記 206,002 輛（年增 154.4%）、市占 2.4%，超過 Tesla 的 2.2%；10 月歐洲電動車約 51 萬輛（年增 36%）。
+   - 故事：2027 歐洲年度風雲車決選 7 款首次全為純電，卻沒有一款中國品牌。
+   - So what：歐洲消費者接受電動車，但品牌忠誠正在鬆動。
+   - 建議圖表：歐盟純電市占月趨勢＋品牌份額。
+   - 來源：[[sources/ev-news-2026-11-02-cn-misc]]、[[sources/ev-news-2026-11-17-digitimes]]
+2. **在地化規則成為門檻**
+   - 數字：英歐 2027-01 原產地規則（整車 55%、電芯 65%、電池包 70%），ACEA 估 82%（約 42.6 萬輛）歐盟輸英 EV 不達標、額外關稅約 14.7 億歐元，雙方正研議延一年或兩年；IAA「Made in EU」門檻促使本田重新評估歐洲生產。
+   - 故事：規則原本是要保護歐洲產業，結果歐英兩邊的車廠都達不到，反而變成自己的緊箍咒。
+   - So what：電池在地化進度決定歐洲車廠的成本，也是台廠電池材料的切入點。
+   - 建議圖表：原產地規則門檻與達標率。
+   - 來源：[[sources/ev-news-2026-11-11b-digitimes]]、[[sources/ev-news-2026-11-16-electrive-en]]
+3. **德國製造成本危機**
+   - 數字：舍弗勒歐洲裁 3,460 人、關 5 據點；賓士董事會暫停德國新投資，稱德國每小時人力成本部分達東歐 5 倍；同一週 Tesla 宣布格林海德擴建 30 億歐元。
+   - 故事：同一個國家，德國車廠在喊撤，美國車廠在加碼。
+   - So what：歐洲電動化的壓力已從車廠傳到供應鏈與就業。
+   - 建議圖表：德國主要車廠與供應商投資／裁員對照。
+   - 來源：[[sources/ev-news-2026-11-04-cn-misc]]、[[sources/ev-news-2026-11-17-electrive-en]]
+
+### 甜點（結尾：留下什麼）
+- **金句**：「歐洲沒有放棄電動車，它放棄的是『只靠歐洲自己做電動車』。」
+- **追蹤指標**：12 月歐洲議會對 2035 減排目標的全會表決（最終比例待確認）；英歐原產地規則是否延期；比亞迪匈牙利廠量產。
+- **Q&A 預備**：
+  - 「2035 禁售燃油車是不是取消了？」→ 環境委員會支持放寬，但仍須 12 月全會表決再與理事會協商，最終比例未定。
+  - 「中國車在歐洲會被擋下嗎？」→ 純電已有反補貼稅，PHEV 將設配額，但中國品牌以在地設廠回應，市占仍在升。
 
 ## 市場概況（2025~2026）
 
