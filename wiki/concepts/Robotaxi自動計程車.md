@@ -62,7 +62,11 @@ updated: 2026-11-17
 - Waymo 進入倫敦（2026 年 9 月）是歐洲競局重要變數
 - Verne 雖快速布局，但硬體與演算法均依賴中國合作夥伴
 
-## 台灣智駕：特殊場景策略（2026-04）
+## 2026-04 動態彙整
+
+> 本月逐批新增的動態；月底合併為一節 RRC 並更新頁首摘要與「簡報三段式」。
+
+### 台灣智駕：特殊場景策略（2026-04）
 
 主流 Robotaxi 路線（開放道路）以外，台灣智駕 CEO 沈大維提出「特殊場景優先」的差異化路徑：
 - 工廠（18hr 重複搬運）、港口、偏鄉、煉鋼廠 → 高勞動成本 + 缺工 + 危險環境
@@ -71,14 +75,14 @@ updated: 2026-11-17
 - 技術特點：AI 訓練 AI（生成式 AI 合成惡劣天候數據，解決長尾效應）
 - 參見：[[sources/taiwan-av-special-scenes]] | [[entities/台灣智駕]]
 
-## 日本 2030 自駕車目標（2026-04）
+### 日本 2030 自駕車目標（2026-04）
 
 日本成長戰略會議：2030 年代自駕車全球市佔目標 **25%**（與現在日本汽車市佔相當）：
 - 「預算不設限」戰略：美中領先 → 追趕不能省預算
 - 配套：垂直 AI 目標 15% 全球市佔（5 兆日圓）
 - 參見：[[sources/japan-2030-autonomous-ai-strategy]]
 
-## 巴黎 RATP × Karsan：L4 自駕巴士法規里程碑（2026-04）
+### 巴黎 RATP × Karsan：L4 自駕巴士法規里程碑（2026-04）
 
 | 指標 | 數值 |
 |------|------|
@@ -93,13 +97,47 @@ updated: 2026-11-17
 - **意義**：L4 自駕巴士在歐洲最複雜都市環境之一取得法規認可，是「可規模化技術」的有力論據
 - 參見：[[sources/ratp-karsan-autonomous-bus-paris]]
 
-## Waymo 美國擴張：Miami & Orlando（2026-04）
+### Waymo 美國擴張：Miami & Orlando（2026-04）
 - Waymo 向全體用戶開放邁阿密與奧蘭多服務
 - 意義：旅遊城市（非科技城市）開放 → 驗證更廣泛消費場景
 - Waymo 覆蓋版圖：Phoenix → San Francisco → Austin → Miami/Orlando（→ 倫敦 2026-09）
 - 參見：[[sources/waymo-miami-orlando-expansion]]
 
-## Waymo 收購蘋果亞利桑那測試場（2026-06）
+### 中國 Robotaxi 成本突破（2026-04，北京車展）
+
+| 企業 | 突破 | 數值 |
+|------|------|------|
+| **小馬智行** | Gen 7 總成本（車體+電池+AD）| **< RMB 23 萬（~$33,700）**，低於 Tesla Model 3 |
+| **小馬智行** | 2026 末車隊目標 | **3,000 輛** |
+| **文遠知行** | × 聯想合作 | 未來 5 年全球 **20 萬輛** |
+| **文遠知行** | 2026 末目標 | **2,600 輛** |
+| **文遠知行** | 第三代算力平台 | 降低 AD 系統成本 **50%** |
+
+成本優勢來源：中國電動車供應鏈完整性（電池/電機/電子全面本土化）
+參見：[[sources/china-robotaxi-cost-advantage]] | [[sources/beijing-auto-show-2026]]
+
+### Uber 自駕大單（2026-04）
+
+| 合作 | 投資 | 規模 | 時程 |
+|------|------|------|------|
+| Uber × Lucid | $5 億 | 35,000 輛 Gravity SUV | 2026 舊金山起 |
+| Uber × Rivian | 最高 $12.5 億 | 10,000 輛 R2 | 2028 起 25 城市 |
+
+參見：[[sources/uber-ev-infrastructure-investment]]
+
+### Rocsys M1：Robotaxi 場站自動充電（2026-04-30）
+
+- 一套系統服務最多 **10 個車位**同時自動插拔充電
+- 插拔成功率 **99.9%+**，相容所有 EV 車型與插頭
+- 2027 年計畫大規模部署；已簽重大 Robotaxi 客戶合約
+- 意義：Robotaxi 商業規模化後場站人力成本瓶頸的直接解法
+- 參見：[[sources/rocsys-m1-robotic-charging]]
+
+## 2026-06 動態彙整
+
+> 本月逐批新增的動態；月底合併為一節 RRC 並更新頁首摘要與「簡報三段式」。
+
+### Waymo 收購蘋果亞利桑那測試場（2026-06）
 
 Waymo 以 **$2.2 億美元**收購 Apple 位於亞利桑那州的 **5,500 英畝**自駕車測試場：
 
@@ -123,18 +161,98 @@ Waymo 以 **$2.2 億美元**收購 Apple 位於亞利桑那州的 **5,500 英畝
 → 5,500 英畝專用測試場難以複製，是 Waymo 鞏固技術領先優勢的基礎設施
 - 參見：[[sources/waymo-arizona-expansion-2026]]
 
-## 中國 Robotaxi 成本突破（2026-04，北京車展）
+### Tesla Robotaxi 德州現實：僅 42 輛（2026-06-02）
 
-| 企業 | 突破 | 數值 |
-|------|------|------|
-| **小馬智行** | Gen 7 總成本（車體+電池+AD）| **< RMB 23 萬（~$33,700）**，低於 Tesla Model 3 |
-| **小馬智行** | 2026 末車隊目標 | **3,000 輛** |
-| **文遠知行** | × 聯想合作 | 未來 5 年全球 **20 萬輛** |
-| **文遠知行** | 2026 末目標 | **2,600 輛** |
-| **文遠知行** | 第三代算力平台 | 降低 AD 系統成本 **50%** |
+德州 DMV 登記數據揭示 Tesla Robotaxi 規模遠低於承諾：
+- 德州登記：**42 輛**，Musk 曾承諾 1,000+ 輛（差距 ~24 倍）
+- 同期 Waymo 在 SF/Phoenix/Austin 運營約 700 輛
+- 凸顯 Tesla 純視覺（Camera-only）路線在商業規模化的挑戰
+- 參見：[[sources/tesla-robotaxi-texas-reality-2026]]
 
-成本優勢來源：中國電動車供應鏈完整性（電池/電機/電子全面本土化）
-參見：[[sources/china-robotaxi-cost-advantage]] | [[sources/beijing-auto-show-2026]]
+### 豐田入股 Tier IV：e-Palette 電動巴士 L4 自駕（FY2027）（2026-06）
+
+- 豐田透過 Toyota Investment Partners 以 **~¥10 億（$620 萬）**取得日本自駕新創 **Tier IV ~1% 股份**
+- 目標：FY2027 在 **e-Palette 電動接駁巴士**實現 **L4 自動駕駛**
+- 豐田的「多區域自駕」策略：美國（Waymo）× 中國（小馬智行）× 日本（Tier IV）
+- Tier IV：開源 Autoware 框架維護者，日本本土 L4 生態系核心
+- 參見：[[sources/toyota-tier-iv-l4-investment-2026]]
+
+### Tesla Cybercab EPA 正式規格確認（2026-06）
+
+EPA 申報文件揭露完整規格：
+
+| 規格 | 數值 |
+|------|------|
+| 重量 | **3,113 磅（~1,412 kg）** — 美國市場最輕 EV |
+| 驅動 | **前輪驅動（FWD）** — Tesla 史上首款前驅車 |
+| 馬達 | 169 馬力（163 kW）單前置永磁馬達 |
+| 電池 | **~48 kWh** |
+| EPA 預估續航 | **~293 英里（~472 km）** |
+
+- 原始設計**無方向盤、無踏板**（真正 Robotaxi 設計）
+- 生產已啟動；目標售價 <$30,000；上市「2026 年前」尚待落地
+- 超輕量化（媲美 Honda Civic）換來極低成本，Robotaxi 運營最優化設計
+- 參見：[[sources/tesla-cybercab-specs-2026]]
+
+### Mobileye 垂直整合：從技術供應商自建 Robotaxi 業務（2026-06）
+
+Mobileye 宣布成立垂直整合 Robotaxi 部門，從技術供應商轉型為直接營運者：
+
+| 階段 | 內容 |
+|------|------|
+| 2027 年 | 美國某主要城市上線，初始 **100 輛** |
+| 5 年內 | 擴展至 **17,000 輛** |
+
+- 技術架構：Mobileye Drive（自駕系統）+ Moovit（子公司，城市移動數據，3,500+ 城市 11.2 億用戶）
+- 不自製車輛：與外部製造商和車隊整合夥伴合作
+- **邊界難題**：Mobileye 同時為 VW ID.Buzz AD、Holon、Verne 等客戶提供技術，自建業務引發利益衝突疑慮
+- 2026 年 Lyft 達拉斯已採用 Mobileye 技術
+- 參見：[[sources/mobileye-robotaxi-2026]]
+
+### Uber × Stellantis × Wayve：三方 MOU 全球 Robotaxi（2026-06）
+
+| 公司 | 角色 |
+|------|------|
+| Stellantis | 提供車輛（L4 相容平台 + 感測器套件）|
+| **Wayve** | 自動駕駛軟體（**無地圖 AI**，6 攝影機 + 1 雷達）|
+| Uber | 整合至全球叫車網路 |
+
+- 目標：在「歐洲、北美及以外」城市部署無人 Robotaxi
+- Wayve 無地圖（Mapless）AI：透過觀察人類駕駛學習行為（倫敦街頭累積自 2018 年）
+- 協議性質：非約束性 MOU（意向書），落地時程未確定
+- 更廣背景：Uber 同步與 Lucid、Rivian、VW、Nissan、Zoox、WeRide 合作，已成業界最大 Robotaxi 平台整合商
+- 參見：[[sources/uber-stellantis-wayve-2026]]
+
+### Tesla FSD 荷蘭：40,000 輛監督模式（2026-06）
+
+- 荷蘭 RDW 核准 Tesla FSD（Supervised，SAE Level 2）：荷蘭 **40,000 輛** Tesla 啟用
+- 非完全自駕（駕駛仍須監看），但為歐洲最大單一國家 FSD 部署
+- 分階段向歐洲各國推進（立陶宛首批 → 比利時 → 荷蘭等）
+- 參見：[[sources/tesla-fsd-netherlands-2026]]
+
+### AmiGo：瑞士 L4 無人配送車（2026-06）
+
+- PostBus（瑞士）計劃在瑞士引入 **AmiGo 自動配送車**（L4，無司機）
+- 應用：末端物流配送，低速（< 25 km/h），城市道路
+- 目標：2026 年開始試點，後續商業化
+- 代表趨勢：L4 自駕從「大型 Robotaxi」向「小型配送」拓展新場景
+- 參見：[[sources/amigo-l4-switzerland-2026]]
+
+### 中國智駕供應鏈 2H26：實體 AI + 艙駕融合（2026-06）
+
+中國智駕產業在 2026 下半年迎來商用量產高峰，「實體 AI」與「艙駕融合」成兩大主題：
+
+| 廠商 | 里程碑 | 時程 |
+|------|--------|------|
+| **吉利** | Robotaxi 商業化啟動 | 2027 |
+| **小鵬** | GX 智駕旗艦 SUV 上市 | 2026 H2 |
+| **Momenta** | OEM 量產搭載累計 | 80 萬輛 |
+| **比亞迪** | 天神之眼 5.0（L4 架構） | 2026 旗艦車型 |
+
+- **實體 AI**：整合感知、規劃、控制的端到端 AI 系統，中國廠商以跨廠商規模快速疊代
+- **艙駕融合**：座艙互動（語音、視覺）與行車輔助系統深度整合，提升用戶黏著度
+- ADAS 供應鏈 2H26 爆發：高算力晶片（地平線、黑芝麻）+ 感知（大疆、速騰）+ 演算法（Momenta、Mobileye）需求激增
+- 參見：[[sources/ev-news-2026-06-22]]
 
 ## 自駕系統耗電分析（2026）
 
@@ -147,23 +265,6 @@ Waymo 以 **$2.2 億美元**收購 Apple 位於亞利桑那州的 **5,500 英畝
 
 MIT：若 1B 輛 AV 每日 1 小時以 840W 運行 → 等同 2023 年全球資料中心耗電量
 參見：[[sources/autonomous-driving-power-consumption]]
-
-## Uber 自駕大單（2026-04）
-
-| 合作 | 投資 | 規模 | 時程 |
-|------|------|------|------|
-| Uber × Lucid | $5 億 | 35,000 輛 Gravity SUV | 2026 舊金山起 |
-| Uber × Rivian | 最高 $12.5 億 | 10,000 輛 R2 | 2028 起 25 城市 |
-
-參見：[[sources/uber-ev-infrastructure-investment]]
-
-## Rocsys M1：Robotaxi 場站自動充電（2026-04-30）
-
-- 一套系統服務最多 **10 個車位**同時自動插拔充電
-- 插拔成功率 **99.9%+**，相容所有 EV 車型與插頭
-- 2027 年計畫大規模部署；已簽重大 Robotaxi 客戶合約
-- 意義：Robotaxi 商業規模化後場站人力成本瓶頸的直接解法
-- 參見：[[sources/rocsys-m1-robotic-charging]]
 
 ## 2026 自駕實體 AI 趨勢：2029 年市場爆發（Tech Forum 2026）
 
@@ -190,22 +291,6 @@ DIGITIMES 分析師余君濤系統分析：
 - 若無 EU 整體核准，跨境駕駛將面臨「法規拼布」問題
 - 參見：[[sources/tesla-fsd-eu-expansion-2026]]
 
-## Tesla Robotaxi 德州現實：僅 42 輛（2026-06-02）
-
-德州 DMV 登記數據揭示 Tesla Robotaxi 規模遠低於承諾：
-- 德州登記：**42 輛**，Musk 曾承諾 1,000+ 輛（差距 ~24 倍）
-- 同期 Waymo 在 SF/Phoenix/Austin 運營約 700 輛
-- 凸顯 Tesla 純視覺（Camera-only）路線在商業規模化的挑戰
-- 參見：[[sources/tesla-robotaxi-texas-reality-2026]]
-
-## 豐田入股 Tier IV：e-Palette 電動巴士 L4 自駕（FY2027）（2026-06）
-
-- 豐田透過 Toyota Investment Partners 以 **~¥10 億（$620 萬）**取得日本自駕新創 **Tier IV ~1% 股份**
-- 目標：FY2027 在 **e-Palette 電動接駁巴士**實現 **L4 自動駕駛**
-- 豐田的「多區域自駕」策略：美國（Waymo）× 中國（小馬智行）× 日本（Tier IV）
-- Tier IV：開源 Autoware 框架維護者，日本本土 L4 生態系核心
-- 參見：[[sources/toyota-tier-iv-l4-investment-2026]]
-
 ## Uber × WeRide：歐洲首個 Robotaxi（馬德里，2026-06）
 
 - 馬德里成為**歐洲第一個商業 Robotaxi 服務城市**（Uber+WeRide）
@@ -213,84 +298,11 @@ DIGITIMES 分析師余君濤系統分析：
 - WeRide（文遠知行）：廣州→新加坡→阿聯酋→西班牙→英國，歐洲擴張加速
 - 參見：[[sources/uber-robotaxi-europe-expansion-2026]]
 
-## Tesla Cybercab EPA 正式規格確認（2026-06）
+## 2026-07 動態彙整
 
-EPA 申報文件揭露完整規格：
+> 本月逐批新增的動態；月底合併為一節 RRC 並更新頁首摘要與「簡報三段式」。
 
-| 規格 | 數值 |
-|------|------|
-| 重量 | **3,113 磅（~1,412 kg）** — 美國市場最輕 EV |
-| 驅動 | **前輪驅動（FWD）** — Tesla 史上首款前驅車 |
-| 馬達 | 169 馬力（163 kW）單前置永磁馬達 |
-| 電池 | **~48 kWh** |
-| EPA 預估續航 | **~293 英里（~472 km）** |
-
-- 原始設計**無方向盤、無踏板**（真正 Robotaxi 設計）
-- 生產已啟動；目標售價 <$30,000；上市「2026 年前」尚待落地
-- 超輕量化（媲美 Honda Civic）換來極低成本，Robotaxi 運營最優化設計
-- 參見：[[sources/tesla-cybercab-specs-2026]]
-
-## Mobileye 垂直整合：從技術供應商自建 Robotaxi 業務（2026-06）
-
-Mobileye 宣布成立垂直整合 Robotaxi 部門，從技術供應商轉型為直接營運者：
-
-| 階段 | 內容 |
-|------|------|
-| 2027 年 | 美國某主要城市上線，初始 **100 輛** |
-| 5 年內 | 擴展至 **17,000 輛** |
-
-- 技術架構：Mobileye Drive（自駕系統）+ Moovit（子公司，城市移動數據，3,500+ 城市 11.2 億用戶）
-- 不自製車輛：與外部製造商和車隊整合夥伴合作
-- **邊界難題**：Mobileye 同時為 VW ID.Buzz AD、Holon、Verne 等客戶提供技術，自建業務引發利益衝突疑慮
-- 2026 年 Lyft 達拉斯已採用 Mobileye 技術
-- 參見：[[sources/mobileye-robotaxi-2026]]
-
-## Uber × Stellantis × Wayve：三方 MOU 全球 Robotaxi（2026-06）
-
-| 公司 | 角色 |
-|------|------|
-| Stellantis | 提供車輛（L4 相容平台 + 感測器套件）|
-| **Wayve** | 自動駕駛軟體（**無地圖 AI**，6 攝影機 + 1 雷達）|
-| Uber | 整合至全球叫車網路 |
-
-- 目標：在「歐洲、北美及以外」城市部署無人 Robotaxi
-- Wayve 無地圖（Mapless）AI：透過觀察人類駕駛學習行為（倫敦街頭累積自 2018 年）
-- 協議性質：非約束性 MOU（意向書），落地時程未確定
-- 更廣背景：Uber 同步與 Lucid、Rivian、VW、Nissan、Zoox、WeRide 合作，已成業界最大 Robotaxi 平台整合商
-- 參見：[[sources/uber-stellantis-wayve-2026]]
-
-## Tesla FSD 荷蘭：40,000 輛監督模式（2026-06）
-
-- 荷蘭 RDW 核准 Tesla FSD（Supervised，SAE Level 2）：荷蘭 **40,000 輛** Tesla 啟用
-- 非完全自駕（駕駛仍須監看），但為歐洲最大單一國家 FSD 部署
-- 分階段向歐洲各國推進（立陶宛首批 → 比利時 → 荷蘭等）
-- 參見：[[sources/tesla-fsd-netherlands-2026]]
-
-## AmiGo：瑞士 L4 無人配送車（2026-06）
-
-- PostBus（瑞士）計劃在瑞士引入 **AmiGo 自動配送車**（L4，無司機）
-- 應用：末端物流配送，低速（< 25 km/h），城市道路
-- 目標：2026 年開始試點，後續商業化
-- 代表趨勢：L4 自駕從「大型 Robotaxi」向「小型配送」拓展新場景
-- 參見：[[sources/amigo-l4-switzerland-2026]]
-
-## 中國智駕供應鏈 2H26：實體 AI + 艙駕融合（2026-06）
-
-中國智駕產業在 2026 下半年迎來商用量產高峰，「實體 AI」與「艙駕融合」成兩大主題：
-
-| 廠商 | 里程碑 | 時程 |
-|------|--------|------|
-| **吉利** | Robotaxi 商業化啟動 | 2027 |
-| **小鵬** | GX 智駕旗艦 SUV 上市 | 2026 H2 |
-| **Momenta** | OEM 量產搭載累計 | 80 萬輛 |
-| **比亞迪** | 天神之眼 5.0（L4 架構） | 2026 旗艦車型 |
-
-- **實體 AI**：整合感知、規劃、控制的端到端 AI 系統，中國廠商以跨廠商規模快速疊代
-- **艙駕融合**：座艙互動（語音、視覺）與行車輔助系統深度整合，提升用戶黏著度
-- ADAS 供應鏈 2H26 爆發：高算力晶片（地平線、黑芝麻）+ 感知（大疆、速騰）+ 演算法（Momenta、Mobileye）需求激增
-- 參見：[[sources/ev-news-2026-06-22]]
-
-## 美中同步鬆綁法規：Robotaxi 商業化障礙加速掃除（2026-07）
+### 美中同步鬆綁法規：Robotaxi 商業化障礙加速掃除（2026-07）
 
 > **結論**：美國 NHTSA 擬取消方向盤強制配置規定，中國同步建立 L3/L4 國家標準（2027-07 生效），兩大市場的法規進展被視為 Robotaxi「大航海時代」的關鍵轉折。
 
@@ -299,13 +311,13 @@ Mobileye 宣布成立垂直整合 Robotaxi 部門，從技術供應商轉型為�
 - 詳見：[[concepts/自動駕駛安全監管]]
 - 參見：[[sources/ev-news-2026-07-13-digitimes]]
 
-## UNECE 全自動駕駛國際框架 + Jacksonville NAVI 週年（2026-07）
+### UNECE 全自動駕駛國際框架 + Jacksonville NAVI 週年（2026-07）
 
 - UNECE 通過首部 ADS 國際協調法規框架（約一個月後生效），詳見 [[concepts/自動駕駛安全監管]]
 - Jacksonville NAVI（美國首個常設無人駕駛公共運輸服務）首年運送逾 15,200 人次，累計自駕里程逾 61,000 英里；JTA 執行長 Ford 任內促成 HOLON 美國首座自駕車製造廠（$2 億投資）
 - 參見：[[sources/ev-news-2026-07-14-16-electrive]]
 
-## 小鵬轉型Tier 1供應商模式：Robotaxi不自營車隊（2026-07）
+### 小鵬轉型Tier 1供應商模式：Robotaxi不自營車隊（2026-07）
 
 > **結論**：小鵬董事長何小鵬宣布未來10年轉型為實體AI供應商，Robotaxi業務採一級供應商（Tier 1）模式而非自營車隊，以GX大型SUV 2026~2027年於中國測試後推進歐洲。
 
@@ -318,7 +330,7 @@ Mobileye 宣布成立垂直整合 Robotaxi 部門，從技術供應商轉型為�
 
 - 參見：[[sources/ev-news-2026-07-21-22-digitimes]] | [[entities/小鵬汽車]] | [[entities/鴻海]]
 
-## 中國重啟Robotaxi牌照核發；Mobileye轉向自營Robotaxi（2026-07）
+### 中國重啟Robotaxi牌照核發；Mobileye轉向自營Robotaxi（2026-07）
 
 > **結論**：中國在百度Apollo Go武漢車隊3月故障事件後暫停新牌照4個月，6月底完成全行業安全審查後重啟核發（小馬智行率先取得深圳新牌照）；同期Mobileye創辦人卸任執行長轉向自營Robotaxi業務，目標2027年美國城市上路。
 
@@ -331,7 +343,7 @@ Mobileye 宣布成立垂直整合 Robotaxi 部門，從技術供應商轉型為�
 
 - 參見：[[sources/ev-news-2026-07-22-23-electrive-en]] | [[sources/ev-news-2026-07-22-24-digitimes]] | [[countries/中國]]
 
-## 日本Tier IV正式掛牌：開源自駕平台迎商業化考驗（2026-07）
+### 日本Tier IV正式掛牌：開源自駕平台迎商業化考驗（2026-07）
 
 > **結論**：日本自駕新創Tier IV於7月22日在東京證交所掛牌，社長加藤真平表示上市目的在籌資加速開源自駕生態圈發展，惟上市首日股價低於市場預期，公司尚未轉虧為盈。
 
@@ -343,7 +355,7 @@ Mobileye 宣布成立垂直整合 Robotaxi 部門，從技術供應商轉型為�
 
 - 參見：[[sources/ev-news-2026-07-28-digitimes]] | [[countries/日本]]
 
-## Zoox獲美國首張無方向盤Robotaxi商轉許可（2026-07）
+### Zoox獲美國首張無方向盤Robotaxi商轉許可（2026-07）
 
 > **結論**：NHTSA授予Amazon旗下Zoox臨時豁免，允許每年商業部署最多2,500輛無方向盤/踏板自駕計程車，是美國首次核准此類專用車型收費商轉，先於Tesla Cybercab取得同等監管地位。
 
@@ -355,7 +367,11 @@ Mobileye 宣布成立垂直整合 Robotaxi 部門，從技術供應商轉型為�
 
 - 參見：[[sources/ev-news-2026-07-28-30-electrive-en]] | [[entities/Tesla]] | [[countries/美國]]
 
-## Zoox 獲首張 purpose-built 商業豁免（2026-08）
+## 2026-08 動態彙整
+
+> 本月逐批新增的動態；月底合併為一節 RRC 並更新頁首摘要與「簡報三段式」。
+
+### Zoox 獲首張 purpose-built 商業豁免（2026-08）
 
 > **結論**：NHTSA 發出美國首張「無方向盤/踏板專用 robotaxi」商業收費豁免給 Zoox（限 2,500 輛/年×2 年），並同步啟動 AV 國家標準制定——美國 robotaxi 監管從個案測試走向制度化。
 
@@ -368,7 +384,7 @@ Mobileye 宣布成立垂直整合 Robotaxi 部門，從技術供應商轉型為�
 
 - 參見：[[sources/ev-news-2026-08-01-03-en]] | [[entities/Zoox]] | [[entities/Waymo]]
 
-## Waymo評估退出Uber合作，Momenta取得德國全境L4測試許可（2026-08）
+### Waymo評估退出Uber合作，Momenta取得德國全境L4測試許可（2026-08）
 
 > **結論**：Waymo正評估退出與Uber的Robotaxi合作、轉向自營Waymo App直接面對消費者，同期中國自駕業者Momenta取得德國全國性L4測試許可——顯示Robotaxi龍頭「自營化」與中國業者「歐洲擴張」兩條主線同步升溫。
 
@@ -382,7 +398,7 @@ Mobileye 宣布成立垂直整合 Robotaxi 部門，從技術供應商轉型為�
 
 - 參見：[[sources/ev-news-2026-08-04-06-digitimes]] | [[sources/ev-news-2026-08-03-06-electrive-en]] | [[entities/Tesla]] | [[countries/德國]]
 
-## Wayve×Uber倫敦Robotaxi項目通過監管關鍵關卡（2026-08）
+### Wayve×Uber倫敦Robotaxi項目通過監管關鍵關卡（2026-08）
 
 > **結論**：TfL已核發私人租賃車輛牌照給Wayve改裝的福特Mustang Mach-E自駕車隊，是Wayve×Uber倫敦Robotaxi計畫的重要里程碑，但完全無人商轉仍待更多監管核准，反映英國Robotaxi商轉路徑正逐步、分階段開放。
 
@@ -392,13 +408,13 @@ Mobileye 宣布成立垂直整合 Robotaxi 部門，從技術供應商轉型為�
 
 - 參見：[[sources/ev-news-2026-08-06-07-electrive-en]] | [[countries/英國]]
 
-## Moove融資2.5億美元擴大Robotaxi車隊布局（2026-08）
+### Moove融資2.5億美元擴大Robotaxi車隊布局（2026-08）
 
 自駕車隊營運商Moove完成C輪融資2.5億美元（估值21億美元，Mubadala領投、Toyota成長基金參與），資金用於擴大自駕車隊及興建「Nests」（自駕車充電維護場站）。核心策略夥伴為Waymo，已在鳳凰城、邁阿密提供服務，倫敦將成歐洲首個合作城市；Moove現於13國29城營運約4.2萬輛車，自稱Uber全球最大車隊夥伴，此輪融資反映Robotaxi基礎設施（車隊營運、充電、維護）正成為與自駕技術本身同等重要的投資焦點。
 
 - 參見：[[sources/ev-news-2026-08-07-10-electrive-en]]
 
-## Waymo取得加州最大規模擴張批准，自駕卡車同步在加州上路（2026-08）
+### Waymo取得加州最大規模擴張批准，自駕卡車同步在加州上路（2026-08）
 
 > **結論**：加州公用事業委員會核准Waymo史上最大範圍營運擴張（洛杉磯、舊金山區域可望擴大逾3倍），同期加州DMV首度發出自駕重型卡車路測許可（Aurora、Kodiak），凸顯Robotaxi與自駕貨運兩條主線同步在加州取得監管突破。
 
@@ -410,7 +426,7 @@ Mobileye 宣布成立垂直整合 Robotaxi 部門，從技術供應商轉型為�
 
 - 參見：[[sources/ev-news-2026-08-17-18-electrive-en]] | [[entities/Waymo]] | [[countries/美國]]
 
-## Tesla Cybercab傳德州奧斯汀公路載客首測（2026-08）
+### Tesla Cybercab傳德州奧斯汀公路載客首測（2026-08）
 
 > **結論**：Tesla傳將於8月底啟動Cybercab在奧斯汀公路的載客測試（已完成當地急救人員安全訓練），但相較Waymo已在多州大規模擴張並累積可觀行駛里程，Tesla此次測試規模仍屬起步階段，凸顯兩家業者在Robotaxi商業化進度上的量級差距。
 
@@ -421,7 +437,7 @@ Mobileye 宣布成立垂直整合 Robotaxi 部門，從技術供應商轉型為�
 
 - 參見：[[sources/ev-news-2026-08-20-digitimes]] | [[sources/ev-news-2026-08-19-20-cn-misc]] | [[entities/Tesla]]
 
-## 內華達核准Tesla、Waymo、Uber付費Robotaxi；Waymo新款Ojai廂型車開放付費載客（2026-08）
+### 內華達核准Tesla、Waymo、Uber付費Robotaxi；Waymo新款Ojai廂型車開放付費載客（2026-08）
 
 > **結論**：內華達州運輸管理局核准Tesla、Waymo、Uber在克拉克郡（含拉斯維加斯）部署逾5,000輛付費Robotaxi，Tesla取得最大配額（5,000輛）但實際目標僅2,500輛；同期Waymo新一代Zeekr代工Ojai廂型車已在舊金山、洛杉磯、鳳凰城開放付費載客，凸顯美國Robotaxi監管與車隊擴張同步加速，但業者間商業化節奏仍有落差。
 
@@ -436,7 +452,7 @@ Mobileye 宣布成立垂直整合 Robotaxi 部門，從技術供應商轉型為�
 
 **補充細節**：electrive報導確認內華達正式核准總額度實為8,000輛（Tesla 5,000+Uber 1,000+Waymo 1,000，報導未解釋為何官方稱8,000而非7,000），且Tesla此次為其6月申請的正式核准（此前僅先取得10輛拉斯維加斯大道限定臨時許可）；另外Amazon旗下Zoox已在內華達握有100輛自駕車網路營運許可，意味這場「Robotaxi四方混戰」競爭者已不只Tesla、Waymo、Uber三家。參見：[[sources/ev-news-2026-08-21-22-electrive-en]]
 
-## Waymo宣布2027年慕尼黑上路計畫，現代同步向Waymo交付Ioniq 5車隊（2026-08）
+### Waymo宣布2027年慕尼黑上路計畫，現代同步向Waymo交付Ioniq 5車隊（2026-08）
 
 > **結論**：Waymo宣布未來數週將在德國慕尼黑派出首批車輛進行道路測繪，2027年底前推出商用無人載客服務，若如期落地將是歐盟首個常態無人Robotaxi服務城市；同期現代汽車CEO投資人日證實Q4起將向Waymo交付Ioniq 5 Robotaxi車隊，凸顯傳統車廠正從單純供應車輛角色轉為Robotaxi生態系的關鍵夥伴。
 
@@ -450,7 +466,7 @@ Mobileye 宣布成立垂直整合 Robotaxi 部門，從技術供應商轉型為�
 
 **慕尼黑進度補充**：Digitimes報導確認Waymo慕尼黑為繼倫敦、東京後第三個海外據點，截至2026年3月累計全自駕里程近2.21億英里；除德國外已在法國、荷蘭、西班牙註冊營運實體為歐盟市場鋪路，惟歐洲競爭已白熱化——除英國Wayve外，百度與小馬智行也已在德國展開自駕測試，Uber亦攜手Autobrains規劃慕尼黑服務。參見：[[sources/ev-news-2026-08-28-digitimes]]
 
-## AI改寫自駕商業模式，NVIDIA從L2+到Robotaxi全面卡位；Tesla Cybercab發表活動將至（2026-08）
+### AI改寫自駕商業模式，NVIDIA從L2+到Robotaxi全面卡位；Tesla Cybercab發表活動將至（2026-08）
 
 > **結論**：AI技術正改變自駕產業競爭順序——車廠不再一味追逐更高自駕等級，轉而先將AI導入L2+讓駕駛獲得接近L3的體驗（責任仍歸屬駕駛人，無需等待法規到位即可商業化），同時累積道路數據反哺L4/Robotaxi發展；NVIDIA則同步布局DRIVE AV、DRIVE Hyperion、Alpamayo等產品對應L2+到Robotaxi全階段市場，而Tesla宣布下週於奧斯汀舉行Cybercab正式發表活動，但商轉規模（累計約38萬英里）仍遠落後Waymo（逾2億英里、每週50萬次付費乘車）。
 
@@ -462,6 +478,224 @@ Mobileye 宣布成立垂直整合 Robotaxi 部門，從技術供應商轉型為�
 **觀察**：NVIDIA合作夥伴陣容後續擴張規模；Tesla Cybercab奧斯汀發表活動公布的具體規格與售價。
 
 - 參見：[[sources/ev-news-2026-08-28-digitimes]] | [[sources/ev-news-2026-08-27-29-electrive-en]] | [[entities/Tesla]] | [[entities/Waymo]]
+
+## 2026-09 動態彙整
+
+> 本月逐批新增的動態；月底合併為一節 RRC 並更新頁首摘要與「簡報三段式」。
+
+### Wayve攜手Uber倫敦上路，供應商監督駕駛模式先行（2026-09）
+
+Wayve與Uber在倫敦推出自駕叫車服務（UberX、Uber Electric、Uber Comfort適用），採福特Mustang Mach-E電動車搭載Wayve AI Driver系統，惟現階段仍配置具倫敦交通局執照的安全駕駛監督與介入，屬「監督式自駕」而非全無人駕駛。倫敦是Wayve與Uber合作布局全球12個市場的首站，逾14萬名倫敦用戶已在App中啟用該選項；東京服務（採日產Leaf搭載NVIDIA Drive Hyperion架構）預計年底前上路。
+
+- 參見：[[sources/ev-news-2026-09-04-electrive-en]] | [[countries/歐洲]]
+
+### Uber裁員10%砸百億美元押注Robotaxi，Tesla Cybercab惹NHTSA調查（2026-09）
+
+> **結論**：Uber宣布裁員約3,300人（占全球員工約10%，為2020年以來最大裁員），同時宣布未來數年將投入逾100億美元發展Robotaxi業務，凸顯無人計程車崛起正壓縮其作為「人力駕駛媒合平台」的傳統獲利模式；同期Tesla悄然開放Cybercab公眾試乘，發布3天後NHTSA即啟動認證調查，LG Innotek則於Zoox相機模組量產後加碼招募自駕感測AI人才，顯示Robotaxi產業鏈上下游同步進入白熱化競爭階段。
+
+**主因**：
+- Uber商業模式轉型壓力：Waymo（美國最大Robotaxi營運商）已開始不透過Uber獨立進軍新市場，Tesla等競爭者同步加速拓展，意味Uber若僅作媒合平台恐失去議價權，故轉向重資產自駕布局並簡化管理層級（削減20%中間管理職）
+- Tesla監管風險升溫：NHTSA審查Tesla如何自行認定「特定FMVSS規範不適用於本車款」，調查恰發生在Cybercab開放公眾試乘僅3天後；Tesla目前僅獲准在德州營運45輛Cybercab
+- 感測器供應鏈同步升級：LG Innotek於8月量產Zoox專用Robotaxi相機模組後，隨即加碼招募多模態感測融合AI人才，將布局從硬體延伸至軟硬體整合方案，呼應Mobileye、Aptiv等業者的競爭模式
+
+**觀察**：Uber與Waymo既有合作關係是否因後者獨立擴張而生變；NHTSA調查結果是否影響Cybercab既有營運許可規模。
+
+- 參見：[[sources/ev-news-2026-09-07-08-digitimes]] | [[sources/ev-news-2026-09-07-08-electrive-en]] | [[entities/Tesla]] | [[countries/美國]] | [[countries/韓國]]
+
+**補充**：Uber裁員報導再剪輯版本補充：對比2020年5月疫情期間裁員6,700人（近全員1/4）的歷史基準，並首度明確點名「Uber與Waymo關係日益緊張」已令部分投資人感到擔憂。參見：[[sources/ev-news-2026-09-08-electrive-en]]
+
+### Waymo攜手日本交通GO東京推L4、日產橫濱擴大測試、Tesla Cybercab遭NHTSA質詢（2026-09）
+
+> **結論**：Waymo與日本叫車平台GO、東京最大計程車業者日本交通達成策略合作，目標2027年在東京推出日本首個L4完全無人駕駛商用服務（初期100輛捷豹路虎i-PACE），同期日產橫濱測試案10月起擴大規模朝2027年事業化邁進，兩案均反映日本Robotaxi產業正從路測階段邁向商轉倒數；美國Tesla Cybercab則遭NHTSA正式發函質詢FMVSS合規性，須9月30日前回覆，凸顯無方向盤/煞車踏板的purpose-built車型在美國自我認證體制下面臨的法規灰色地帶。
+
+**主因**：
+- 日本Robotaxi商業模式罕見由計程車業界主導：Waymo提供核心技術與車隊管理、GO負責叫車App、日本交通主導第一線營運，若採授權費模式恐侵蝕長期獲利；日本《道路運送法》對目的地多變計程車的L4法規仍待完善
+- 日產測試規模穩步擴大：橫濱測試車輛由5輛增至10輛、車站由26增至28，參與廠商精簡至KDDI、國際自動車、Premier Aid及Moplus，顯示技術與事業模式已逐步確立
+- Tesla面臨美國自我認證體制考驗：NHTSA問題清單涵蓋方向燈自動回正、後視鏡及煞車踏板要求，業界先例Zoox取得美國首例商用豁免，Tesla案件走向可能循此模式申請年度配額豁免
+
+**觀察**：Waymo東京服務2027年是否如期商轉；NHTSA對Tesla Cybercab調查結果是否影響其既有45輛營運許可規模。
+
+- 參見：[[sources/ev-news-2026-09-16-digitimes]] | [[sources/ev-news-2026-09-17-digitimes]] | [[sources/ev-news-2026-09-17-electrive-en]] | [[entities/Tesla]] | [[entities/日産]] | [[countries/日本]] | [[countries/美國]]
+
+### Lucid×Bolt、MOIA募資受挫、Grab擴車隊與Cybercab日中展示（2026-09）
+
+> **結論**：Robotaxi商業化資本門檻浮現——歐洲出現Lucid×Bolt（至少2.5萬輛、Nvidia Hyperion）的第三條路，但福斯MOIA因Uber與Lyft退出而募資受挫；東亞則由Tesla Cybercab展示與Grab／WeRide擴車隊帶動。
+
+**主因**：
+- 資本：MOIA需數億歐元起跳、計價與車型分歧使談判破局 → 車廠獨力承擔規模化成本困難，「叫車平台自持車隊」（Bolt）成為替代
+- 車隊規模：Grab新加坡由10輛擴至50輛（累計11萬公里、載客1.2萬人、候補逾1,000人），2030年目標東南亞數千輛
+- 法規：Cybercab在日本（9/11）與上海（9/17~21）只展不賣，美國已在7城營運；日本L4事業2027~2028年展開，Cybercab與FSD尚未通過認證；NHTSA對無方向盤合規質詢
+
+**觀察**：Bolt／Lucid首批上路時程；MOIA最終出路；日本FSD解禁時程。
+
+- 參見：[[sources/ev-news-2026-09-19-electrive-en]] | [[sources/ev-news-2026-09-18-electrive-en]] | [[sources/ev-news-2026-09-18-digitimes]] | [[sources/ev-news-2026-09-21-electrive-en]] | [[entities/Lucid]] | [[entities/Tesla]]
+
+### Cybercab導航問題延續Tesla老毛病（2026-09）
+
+InsideEVs整理乘客回報，Cybercab因限制行駛高速公路與平交道，一趟原10分鐘路程繞行至70分鐘；FSD導航「繞路」問題行之有年，但無人駕駛車隊無人可即時修正，凸顯規模化路權擴張的安全與體驗權衡，相對Waymo拓展高速公路載客前經逾一年純市區驗證更為審慎。
+
+- 參見：[[sources/ev-news-2026-09-22-electrive-en]] | [[entities/Tesla]] | [[countries/美國]]
+
+### May Mobility赴那斯達克IPO，豐田／NTT／Grab為股東，攜手曹操出行拓歐洲（2026-09）
+
+由豐田、NTT、Grab出資的美國自駕技術商May Mobility宣布透過SPAC合併赴那斯達克上市，估值約14億美元；與吉利旗下曹操出行簽署戰略合作，目標2030年在歐洲部署達100萬輛Robotaxi（曹操負責車輛持有派遣、May Mobility以DaaS模式提供技術）；在日本愛知縣、武藏野市分別以豐田Sienna、e-Palette進行實證。
+
+- 參見：[[sources/ev-news-2026-09-24-digitimes]] | [[entities/豐田]] | [[entities/吉利汽車]] | [[countries/日本]] | [[countries/歐洲]]
+
+## 2026-10 動態彙整
+
+> 本月逐批新增的動態；月底合併為一節 RRC 並更新頁首摘要與「簡報三段式」。
+
+### Cybercab德州車隊169輛、MOIA奧蘭多載客、Momenta拓杜拜歐洲（2026-10）
+
+Tesla Cybercab商用核准車輛增至169輛（NHTSA調查展延），警消要求無方向盤Robotaxi須提供接管方案；MOIA America與Beep在奧蘭多啟動ID. Buzz AD首次載客測試；Momenta目標2027年數千輛並拓展杜拜與歐洲。
+
+- 參見：[[sources/ev-news-2026-10-06-digest]] | [[sources/ev-news-2026-10-06-electrive-en]] | [[sources/ev-news-2026-10-05-digitimes]] | [[entities/Tesla]]
+
+### Waymo 2028年進新加坡；ChargePoint估北美Robotaxi 2030年達800萬輛（2026-10）
+
+Waymo將於2028年在新加坡提供全自動駕駛載客；ChargePoint預測2030年北美有800萬輛Robotaxi、占電動車用電35%以上，將放大充電基建壓力。
+
+- 參見：[[sources/ev-news-2026-10-07-electrive-en]] | [[sources/ev-news-2026-10-07-digitimes]] | [[entities/Waymo]] | [[countries/東南亞]]
+
+### INIT切入自駕車隊營運層（2026-10）
+
+德國INIT收購挪威Applied Autonomy 67.74%股權，xFlow平台負責整合多品牌自駕車、即時監控與遠端支援（不開發自駕技術），已用於Stavanger無安全員自駕電巴；INIT另主導BRAVE10k，目標2030年前讓德國大眾運輸整合逾1萬輛自駕車。顯示自駕價值鏈中「營運管理層」正獨立成形。
+
+- 參見：[[sources/ev-news-2026-10-13-14-electrive-en]] | [[concepts/電動巴士市場]] | [[countries/德國]]
+
+### Green SM美國首批電動計程車；e-Palette L4（2026-10）
+
+Green SM於洛杉磯以VinFast VF 8營運，為第九個市場；豐田e-Palette 2027年度導入L4。
+
+- 參見：[[sources/ev-news-2026-10-16-electrive-en]] | [[sources/ev-news-2026-10-15-digitimes]]
+
+### 台中水湳自駕巴士測試（2026-10）
+
+- 參見：[[sources/ev-news-2026-10-19-digest]] | [[concepts/電動巴士市場]]
+
+### 自駕巴士商業化：場站優先、遠端監控（2026-10）
+
+INIT收購Applied Autonomy 67.74%（xFlow平台用於挪威Stavanger無安全員運行、鹿特丹機場自駕巴士）；MAN MINGA 2026秋季慕尼黑搭安全員試行；德國BRAVE10k目標2030年逾10,000輛自駕公共運輸車。
+
+- 參見：[[sources/ev-news-2026-10-20-bus-digest]] | [[concepts/電動巴士市場]]
+
+### Waymo計畫2027年底20,000輛（2026-10）
+
+車隊由約4,000輛擴至20,000輛（14個月五倍），Tesla規模差距擴大；Hyundai與Zeekr為主要供車夥伴。
+
+- 參見：[[sources/ev-news-2026-10-22-insideevs]] | [[entities/Waymo]]
+
+### Waymo 2027年20,000輛、Tesla Cybercab、Bolt×Lucid（2026-10）
+
+> **結論**：Waymo以首次無擔保債券50億美元擴車隊（4,000→20,000輛），布局倫敦、東京、馬德里、多倫多；Tesla德州車隊362輛Model Y＋449輛Cybercab，營收2027年才貢獻；Bolt與NVIDIA、Lucid規劃歐洲25,000輛L4車款。
+
+**觀察**：歐洲L4法規與馬德里2027年測試；Cybercab安全調查。
+
+- 參見：[[sources/ev-news-2026-10-27-digitimes]] | [[sources/ev-news-2026-10-27-digitimes-tesla]]
+
+### 小鵬廣州L4示範許可，輕資產路線（2026-10）
+
+> **結論**：小鵬取得廣州全市L4 Robotaxi示範許可，重心從技術驗證轉向營運流程（叫車、派車、異常處理），並採不自營大車隊、賣車＋技術＋抽成的輕資產模式。
+
+**主因**：品牌Yoyo在10月上半月開放首批外部用戶註冊，初期以邀請碼逐步放量；福斯—小鵬合資亦取得收費載客許可（見福斯相關頁）；小鵬同步與歐洲出行平台洽談 → 中國Robotaxi商業化由城市許可驅動，車廠扮演供應商而非營運商。
+
+**觀察**：邀請碼放量速度與歐洲首個合作夥伴；中國商用Robotaxi城市數（IEA稱至2026-03中國11座、美國10座）。
+
+- 參見：[[sources/ev-news-2026-10-29-electrive-en]] | [[entities/小鵬汽車]] | [[entities/Waymo]] | [[countries/中國]]
+
+## 2026-11 動態彙整
+
+> 本月逐批新增的動態；月底合併為一節 RRC 並更新頁首摘要與「簡報三段式」。
+
+### Waymo×豐田bZ4X與日英擴張、NHTSA自駕青色識別燈（2026-11）
+
+> **結論**：Robotaxi進入「供應車款＋法規識別」階段——Waymo與豐田2027年在日本測試bZ4X L4 Robotaxi並延伸英國，NHTSA同時提案自駕專屬青色識別燈，為Cybercab、Waymo、Zoox鋪路。
+
+**主因**：
+- 供應鏈：豐田在高岡工廠生產bZ4X並加裝計程車設備、整合Waymo系統；Waymo選擇靠左行駛的日本、英國起步，東京已規劃約100輛（與日本交通／GO合作）、倫敦以Jaguar I-PACE測試數月 → 彌補Waymo車隊來源，並讓豐田取得Robotaxi車輛標準化角色。
+- 法規：NHTSA擬修FMVSS 108新增青色ADS識別燈（常亮、至少15英寸高度，需人類監督時須熄滅），並放寬無方向盤／踏板車輛的方向燈、警示燈與遠近光手動控制要求 → 對取消方向盤的Cybercab是必要法規鬆綁；L2的FSD（Supervised）不適用。
+
+**觀察**：2027日本測試地點與車數；NHTSA草案意見期與是否允許閃爍訊號；中國藍綠色識別燈標準（限L3以上）的定案。
+
+- 參見：[[sources/ev-news-2026-11-02-digitimes]] | [[sources/ev-news-2026-11-02-cn-misc]] | [[concepts/自動駕駛安全監管]] | [[entities/Waymo]] | [[entities/豐田]] | [[entities/Tesla]] | [[entities/NHTSA]] | [[countries/日本]] | [[countries/英國]] | [[countries/美國]]
+
+### Waymo佔用聖地牙哥公共快充、Hyundai供Ioniq 5 Robotaxi（2026-11）
+
+> **結論**：Robotaxi規模化的外溢成本浮現——Waymo在聖地牙哥營運後，公共快充出現30–60分鐘排隊，地方政府要求增設專用場站與更多管理權；供應端Hyundai則預告向Waymo供應數以萬計的Ioniq 5 Robotaxi。
+
+**主因**：Waymo已在美國15座城市服務，營運成熟前先借公共站，EVgo已提供120個專用車位，聖地牙哥市府稱18個月內增設逾50處場地、Waymo須付與一般人相同費用；加州有權監管但無權禁止上路。
+
+**觀察**：Waymo自建專用充電時程；Hyundai Ioniq 5 Robotaxi量產時間點。
+
+- 參見：[[sources/ev-news-2026-11-04-digitimes]] | [[sources/ev-news-2026-11-04-insideevs]] | [[concepts/充電基礎建設]] | [[concepts/自動駕駛安全監管]] | [[entities/Waymo]] | [[entities/現代汽車]] | [[countries/美國]]
+
+### Waymo退出Uber（2028-01）、豐田工廠內整合Gen 6、Waymo佔樁（2026-11）
+
+> **結論**：Robotaxi競爭由「聯盟」轉向「垂直整合」——Waymo將於2028-01退出奧斯汀與亞特蘭大的Uber合作並改走自家App，豐田則在高岡工廠產線直接安裝Waymo第六代硬體，兩者都在降低單車成本與提高體驗一致性。
+
+**主因**：
+- 平台：Waymo每週逾50萬趟付費載客、15城營運，Uber App無法保證全程無人駕駛（取決於附近Waymo數量，否則配人類司機），Waymo婉拒Uber專屬Robotaxi選項；Uber目標今年底700輛、2027年底2,000輛，並與Rivian、Lucid、Wayve簽約 → Uber轉為Waymo直接對手。
+- 製造：對照Jaguar I-Pace需麥格納斯泰爾二次改裝，豐田bZ4X直接在產線整合，降低成本並取得車規安全；豐田規劃2028年前後透過外部夥伴部署L4、2032年左右推自研L4乘用車。
+- 外溢成本：聖地牙哥等地車主排隊最長1小時，Waymo稱自建站需時間。
+- 自駕巴士：慕尼黑MAN自駕電巴11/17起載客試乘（安全駕駛在車）。
+
+**觀察**：Waymo 2028-01後自家App在兩市的叫車體驗；Waymo自建充電場站；MINGA載客數據。
+
+- 參見：[[sources/ev-news-2026-11-06-electrive-en]] | [[sources/ev-news-2026-11-06-insideevs]] | [[sources/ev-news-2026-11-06-digitimes]] | [[concepts/充電基礎建設]] | [[concepts/電動巴士市場]] | [[entities/Waymo]] | [[entities/豐田]] | [[countries/美國]] | [[countries/日本]]
+
+### Tesla停產Cybertruck、讓位Cybercab（2026-11）
+
+> **結論**：Tesla把德州廠產能由Cybertruck轉給Cybercab——馬斯克稱2027年中結束Cybertruck、6–7月拆線，Cybercab已於2026-09-03在奧斯汀投入Robotaxi載客。
+
+**主因**：Cybertruck 2025年美國銷量2.02萬輛（-48%）、年產約2萬輛僅占Tesla總產量1%；Tesla 3Q資料稱德州廠Cybertruck與Cybercab已建置年產能各逾12.5萬輛（已建置不等於實際產出）；Ford Fathom的組裝樹與Tesla Cybercab「unboxed」製程相似，顯示製造創新由Robotaxi與平價皮卡同步推進。
+
+**觀察**：Cybercab實際產量；其餘德州廠產能分配。
+
+- 參見：[[sources/ev-news-2026-11-11-electrive-en]] | [[sources/ev-news-2026-11-11-cn-misc]] | [[entities/Tesla]] | [[concepts/美國EV市場與政策]] | [[countries/美國]]
+
+### Lucid／Uber／Nuro與Bolt Robotaxi時程（2026-11）
+
+> **結論**：Lucid規畫與Uber、Nuro（美）及Bolt（歐）部署數萬輛Robotaxi，但灣區首批Gravity Robotaxi已由2026年底延至2027年1Q。
+
+**主因**：Gravity與中型EV雙平台Robotaxi → 延後顯示量產與認證節奏仍受限 → 對手Waymo、Tesla Cybercab先行。
+
+**觀察**：2027年1Q灣區Gravity Robotaxi是否上線。
+
+- 參見：[[sources/ev-news-2026-11-11b-insideevs]] | [[Lucid]] | [[Waymo]]
+
+### Verne進軍柏林、台中開放道路自駕巴士（2026-11）
+
+> **結論**：Verne（Rimac集團持股42%）確認在柏林建立營運團隊，台中則進入開放道路自駕巴士試乘，顯示歐洲與台灣均進入營運前期。
+
+**主因**：Verne已於2026年春在札格雷布上線，下一步英國與德國，自研無方向盤車仍在測試；台中示範路線7.7公里、31處路口。
+
+**觀察**：Verne德國上線日期；台中試乘後營運許可。
+
+- 參見：[[sources/ev-news-2026-11-12-electrive-en]] | [[sources/ev-news-2026-11-12-cn-misc]] | [[Waymo]] | [[countries/德國]]
+
+### Cybercab開放個人訂購（2026-11）
+
+> **結論**：Tesla向受邀客戶開放Cybercab個人訂購（約3萬美元、訂金1,000美元、須訂閱每月299美元），首批12月在德州5城交付，Cybercab生產優先於Cybertruck。
+
+**主因**：馬斯克稱299美元「太高」、目標約115美元/月；電池組未來可降至40 kWh；小鵬取得廣州L4 Robotaxi牌照。
+
+**觀察**：12月交付規模與法規審批。
+
+- 參見：[[sources/ev-news-2026-11-16-cn-misc]] | [[Tesla]] | [[小鵬汽車]]
+
+### Cybercab個人購買條件、Grünheide百萬輛產能與May Mobility（2026-11）
+
+> **結論**：Cybercab以29,990美元＋每月299美元訂閱開放受邀個人購買，但僅限Robotaxi服務區且NHTSA仍在調查；Tesla同時宣布格林海德2029年起年產最多100萬輛Cybercab，May Mobility則規畫2031年前1萬輛自駕ID. Buzz。
+
+**主因**：
+- 擁有成本：車價比Model 3低7,000美元，但訂閱年約3,600美元、保險保養另計 → 實際使用受限於服務區（electrive稱德州與佛州，前批鉅亨網稱德州5城，待核對）。
+- 產能：格林海德30億歐元擴建，2027年上半年動工 → Tesla把歐洲廠定位為Cybercab基地。
+- 輕資產路線：May Mobility採ECARX ADK、目標單車成本降逾50%，2028年交付外部車隊；日本NTT Mobility 2027年2月實證無高精地圖自駕巴士。
+
+**觀察**：12月首批Cybercab交付數與NHTSA調查結論；格林海德建照。
+
+- 參見：[[sources/ev-news-2026-11-17-electrive-en]] | [[sources/ev-news-2026-11-17-insideevs]] | [[sources/ev-news-2026-11-17-digitimes]] | [[Tesla]] | [[Volkswagen]] | [[concepts/自動駕駛安全監管]]
 
 ## Related
 - [[concepts/ADAS智駕系統]]
@@ -485,209 +719,3 @@ Mobileye 宣布成立垂直整合 Robotaxi 部門，從技術供應商轉型為�
 - [[sources/uber-stellantis-wayve-2026]]
 - [[sources/tesla-fsd-netherlands-2026]]
 - [[sources/amigo-l4-switzerland-2026]]
-
-## Wayve攜手Uber倫敦上路，供應商監督駕駛模式先行（2026-09）
-
-Wayve與Uber在倫敦推出自駕叫車服務（UberX、Uber Electric、Uber Comfort適用），採福特Mustang Mach-E電動車搭載Wayve AI Driver系統，惟現階段仍配置具倫敦交通局執照的安全駕駛監督與介入，屬「監督式自駕」而非全無人駕駛。倫敦是Wayve與Uber合作布局全球12個市場的首站，逾14萬名倫敦用戶已在App中啟用該選項；東京服務（採日產Leaf搭載NVIDIA Drive Hyperion架構）預計年底前上路。
-
-- 參見：[[sources/ev-news-2026-09-04-electrive-en]] | [[countries/歐洲]]
-
-## Uber裁員10%砸百億美元押注Robotaxi，Tesla Cybercab惹NHTSA調查（2026-09）
-
-> **結論**：Uber宣布裁員約3,300人（占全球員工約10%，為2020年以來最大裁員），同時宣布未來數年將投入逾100億美元發展Robotaxi業務，凸顯無人計程車崛起正壓縮其作為「人力駕駛媒合平台」的傳統獲利模式；同期Tesla悄然開放Cybercab公眾試乘，發布3天後NHTSA即啟動認證調查，LG Innotek則於Zoox相機模組量產後加碼招募自駕感測AI人才，顯示Robotaxi產業鏈上下游同步進入白熱化競爭階段。
-
-**主因**：
-- Uber商業模式轉型壓力：Waymo（美國最大Robotaxi營運商）已開始不透過Uber獨立進軍新市場，Tesla等競爭者同步加速拓展，意味Uber若僅作媒合平台恐失去議價權，故轉向重資產自駕布局並簡化管理層級（削減20%中間管理職）
-- Tesla監管風險升溫：NHTSA審查Tesla如何自行認定「特定FMVSS規範不適用於本車款」，調查恰發生在Cybercab開放公眾試乘僅3天後；Tesla目前僅獲准在德州營運45輛Cybercab
-- 感測器供應鏈同步升級：LG Innotek於8月量產Zoox專用Robotaxi相機模組後，隨即加碼招募多模態感測融合AI人才，將布局從硬體延伸至軟硬體整合方案，呼應Mobileye、Aptiv等業者的競爭模式
-
-**觀察**：Uber與Waymo既有合作關係是否因後者獨立擴張而生變；NHTSA調查結果是否影響Cybercab既有營運許可規模。
-
-- 參見：[[sources/ev-news-2026-09-07-08-digitimes]] | [[sources/ev-news-2026-09-07-08-electrive-en]] | [[entities/Tesla]] | [[countries/美國]] | [[countries/韓國]]
-
-**補充**：Uber裁員報導再剪輯版本補充：對比2020年5月疫情期間裁員6,700人（近全員1/4）的歷史基準，並首度明確點名「Uber與Waymo關係日益緊張」已令部分投資人感到擔憂。參見：[[sources/ev-news-2026-09-08-electrive-en]]
-
-## Waymo攜手日本交通GO東京推L4、日產橫濱擴大測試、Tesla Cybercab遭NHTSA質詢（2026-09）
-
-> **結論**：Waymo與日本叫車平台GO、東京最大計程車業者日本交通達成策略合作，目標2027年在東京推出日本首個L4完全無人駕駛商用服務（初期100輛捷豹路虎i-PACE），同期日產橫濱測試案10月起擴大規模朝2027年事業化邁進，兩案均反映日本Robotaxi產業正從路測階段邁向商轉倒數；美國Tesla Cybercab則遭NHTSA正式發函質詢FMVSS合規性，須9月30日前回覆，凸顯無方向盤/煞車踏板的purpose-built車型在美國自我認證體制下面臨的法規灰色地帶。
-
-**主因**：
-- 日本Robotaxi商業模式罕見由計程車業界主導：Waymo提供核心技術與車隊管理、GO負責叫車App、日本交通主導第一線營運，若採授權費模式恐侵蝕長期獲利；日本《道路運送法》對目的地多變計程車的L4法規仍待完善
-- 日產測試規模穩步擴大：橫濱測試車輛由5輛增至10輛、車站由26增至28，參與廠商精簡至KDDI、國際自動車、Premier Aid及Moplus，顯示技術與事業模式已逐步確立
-- Tesla面臨美國自我認證體制考驗：NHTSA問題清單涵蓋方向燈自動回正、後視鏡及煞車踏板要求，業界先例Zoox取得美國首例商用豁免，Tesla案件走向可能循此模式申請年度配額豁免
-
-**觀察**：Waymo東京服務2027年是否如期商轉；NHTSA對Tesla Cybercab調查結果是否影響其既有45輛營運許可規模。
-
-- 參見：[[sources/ev-news-2026-09-16-digitimes]] | [[sources/ev-news-2026-09-17-digitimes]] | [[sources/ev-news-2026-09-17-electrive-en]] | [[entities/Tesla]] | [[entities/日産]] | [[countries/日本]] | [[countries/美國]]
-
-## Lucid×Bolt、MOIA募資受挫、Grab擴車隊與Cybercab日中展示（2026-09）
-
-> **結論**：Robotaxi商業化資本門檻浮現——歐洲出現Lucid×Bolt（至少2.5萬輛、Nvidia Hyperion）的第三條路，但福斯MOIA因Uber與Lyft退出而募資受挫；東亞則由Tesla Cybercab展示與Grab／WeRide擴車隊帶動。
-
-**主因**：
-- 資本：MOIA需數億歐元起跳、計價與車型分歧使談判破局 → 車廠獨力承擔規模化成本困難，「叫車平台自持車隊」（Bolt）成為替代
-- 車隊規模：Grab新加坡由10輛擴至50輛（累計11萬公里、載客1.2萬人、候補逾1,000人），2030年目標東南亞數千輛
-- 法規：Cybercab在日本（9/11）與上海（9/17~21）只展不賣，美國已在7城營運；日本L4事業2027~2028年展開，Cybercab與FSD尚未通過認證；NHTSA對無方向盤合規質詢
-
-**觀察**：Bolt／Lucid首批上路時程；MOIA最終出路；日本FSD解禁時程。
-
-- 參見：[[sources/ev-news-2026-09-19-electrive-en]] | [[sources/ev-news-2026-09-18-electrive-en]] | [[sources/ev-news-2026-09-18-digitimes]] | [[sources/ev-news-2026-09-21-electrive-en]] | [[entities/Lucid]] | [[entities/Tesla]]
-
-## Cybercab導航問題延續Tesla老毛病（2026-09）
-
-InsideEVs整理乘客回報，Cybercab因限制行駛高速公路與平交道，一趟原10分鐘路程繞行至70分鐘；FSD導航「繞路」問題行之有年，但無人駕駛車隊無人可即時修正，凸顯規模化路權擴張的安全與體驗權衡，相對Waymo拓展高速公路載客前經逾一年純市區驗證更為審慎。
-
-- 參見：[[sources/ev-news-2026-09-22-electrive-en]] | [[entities/Tesla]] | [[countries/美國]]
-
-## May Mobility赴那斯達克IPO，豐田／NTT／Grab為股東，攜手曹操出行拓歐洲（2026-09）
-
-由豐田、NTT、Grab出資的美國自駕技術商May Mobility宣布透過SPAC合併赴那斯達克上市，估值約14億美元；與吉利旗下曹操出行簽署戰略合作，目標2030年在歐洲部署達100萬輛Robotaxi（曹操負責車輛持有派遣、May Mobility以DaaS模式提供技術）；在日本愛知縣、武藏野市分別以豐田Sienna、e-Palette進行實證。
-
-- 參見：[[sources/ev-news-2026-09-24-digitimes]] | [[entities/豐田]] | [[entities/吉利汽車]] | [[countries/日本]] | [[countries/歐洲]]
-
-## Cybercab德州車隊169輛、MOIA奧蘭多載客、Momenta拓杜拜歐洲（2026-10）
-
-Tesla Cybercab商用核准車輛增至169輛（NHTSA調查展延），警消要求無方向盤Robotaxi須提供接管方案；MOIA America與Beep在奧蘭多啟動ID. Buzz AD首次載客測試；Momenta目標2027年數千輛並拓展杜拜與歐洲。
-
-- 參見：[[sources/ev-news-2026-10-06-digest]] | [[sources/ev-news-2026-10-06-electrive-en]] | [[sources/ev-news-2026-10-05-digitimes]] | [[entities/Tesla]]
-
-## Waymo 2028年進新加坡；ChargePoint估北美Robotaxi 2030年達800萬輛（2026-10）
-
-Waymo將於2028年在新加坡提供全自動駕駛載客；ChargePoint預測2030年北美有800萬輛Robotaxi、占電動車用電35%以上，將放大充電基建壓力。
-
-- 參見：[[sources/ev-news-2026-10-07-electrive-en]] | [[sources/ev-news-2026-10-07-digitimes]] | [[entities/Waymo]] | [[countries/東南亞]]
-
-## INIT切入自駕車隊營運層（2026-10）
-
-德國INIT收購挪威Applied Autonomy 67.74%股權，xFlow平台負責整合多品牌自駕車、即時監控與遠端支援（不開發自駕技術），已用於Stavanger無安全員自駕電巴；INIT另主導BRAVE10k，目標2030年前讓德國大眾運輸整合逾1萬輛自駕車。顯示自駕價值鏈中「營運管理層」正獨立成形。
-
-- 參見：[[sources/ev-news-2026-10-13-14-electrive-en]] | [[concepts/電動巴士市場]] | [[countries/德國]]
-
-## Green SM美國首批電動計程車；e-Palette L4（2026-10）
-
-Green SM於洛杉磯以VinFast VF 8營運，為第九個市場；豐田e-Palette 2027年度導入L4。
-
-- 參見：[[sources/ev-news-2026-10-16-electrive-en]] | [[sources/ev-news-2026-10-15-digitimes]]
-
-## 台中水湳自駕巴士測試（2026-10）
-
-- 參見：[[sources/ev-news-2026-10-19-digest]] | [[concepts/電動巴士市場]]
-
-## 自駕巴士商業化：場站優先、遠端監控（2026-10）
-
-INIT收購Applied Autonomy 67.74%（xFlow平台用於挪威Stavanger無安全員運行、鹿特丹機場自駕巴士）；MAN MINGA 2026秋季慕尼黑搭安全員試行；德國BRAVE10k目標2030年逾10,000輛自駕公共運輸車。
-
-- 參見：[[sources/ev-news-2026-10-20-bus-digest]] | [[concepts/電動巴士市場]]
-
-## Waymo計畫2027年底20,000輛（2026-10）
-
-車隊由約4,000輛擴至20,000輛（14個月五倍），Tesla規模差距擴大；Hyundai與Zeekr為主要供車夥伴。
-
-- 參見：[[sources/ev-news-2026-10-22-insideevs]] | [[entities/Waymo]]
-
-## Waymo 2027年20,000輛、Tesla Cybercab、Bolt×Lucid（2026-10）
-
-> **結論**：Waymo以首次無擔保債券50億美元擴車隊（4,000→20,000輛），布局倫敦、東京、馬德里、多倫多；Tesla德州車隊362輛Model Y＋449輛Cybercab，營收2027年才貢獻；Bolt與NVIDIA、Lucid規劃歐洲25,000輛L4車款。
-
-**觀察**：歐洲L4法規與馬德里2027年測試；Cybercab安全調查。
-
-- 參見：[[sources/ev-news-2026-10-27-digitimes]] | [[sources/ev-news-2026-10-27-digitimes-tesla]]
-
-## 小鵬廣州L4示範許可，輕資產路線（2026-10）
-
-> **結論**：小鵬取得廣州全市L4 Robotaxi示範許可，重心從技術驗證轉向營運流程（叫車、派車、異常處理），並採不自營大車隊、賣車＋技術＋抽成的輕資產模式。
-
-**主因**：品牌Yoyo在10月上半月開放首批外部用戶註冊，初期以邀請碼逐步放量；福斯—小鵬合資亦取得收費載客許可（見福斯相關頁）；小鵬同步與歐洲出行平台洽談 → 中國Robotaxi商業化由城市許可驅動，車廠扮演供應商而非營運商。
-
-**觀察**：邀請碼放量速度與歐洲首個合作夥伴；中國商用Robotaxi城市數（IEA稱至2026-03中國11座、美國10座）。
-
-- 參見：[[sources/ev-news-2026-10-29-electrive-en]] | [[entities/小鵬汽車]] | [[entities/Waymo]] | [[countries/中國]]
-
-## Waymo×豐田bZ4X與日英擴張、NHTSA自駕青色識別燈（2026-11）
-
-> **結論**：Robotaxi進入「供應車款＋法規識別」階段——Waymo與豐田2027年在日本測試bZ4X L4 Robotaxi並延伸英國，NHTSA同時提案自駕專屬青色識別燈，為Cybercab、Waymo、Zoox鋪路。
-
-**主因**：
-- 供應鏈：豐田在高岡工廠生產bZ4X並加裝計程車設備、整合Waymo系統；Waymo選擇靠左行駛的日本、英國起步，東京已規劃約100輛（與日本交通／GO合作）、倫敦以Jaguar I-PACE測試數月 → 彌補Waymo車隊來源，並讓豐田取得Robotaxi車輛標準化角色。
-- 法規：NHTSA擬修FMVSS 108新增青色ADS識別燈（常亮、至少15英寸高度，需人類監督時須熄滅），並放寬無方向盤／踏板車輛的方向燈、警示燈與遠近光手動控制要求 → 對取消方向盤的Cybercab是必要法規鬆綁；L2的FSD（Supervised）不適用。
-
-**觀察**：2027日本測試地點與車數；NHTSA草案意見期與是否允許閃爍訊號；中國藍綠色識別燈標準（限L3以上）的定案。
-
-- 參見：[[sources/ev-news-2026-11-02-digitimes]] | [[sources/ev-news-2026-11-02-cn-misc]] | [[concepts/自動駕駛安全監管]] | [[entities/Waymo]] | [[entities/豐田]] | [[entities/Tesla]] | [[entities/NHTSA]] | [[countries/日本]] | [[countries/英國]] | [[countries/美國]]
-
-## Waymo佔用聖地牙哥公共快充、Hyundai供Ioniq 5 Robotaxi（2026-11）
-
-> **結論**：Robotaxi規模化的外溢成本浮現——Waymo在聖地牙哥營運後，公共快充出現30–60分鐘排隊，地方政府要求增設專用場站與更多管理權；供應端Hyundai則預告向Waymo供應數以萬計的Ioniq 5 Robotaxi。
-
-**主因**：Waymo已在美國15座城市服務，營運成熟前先借公共站，EVgo已提供120個專用車位，聖地牙哥市府稱18個月內增設逾50處場地、Waymo須付與一般人相同費用；加州有權監管但無權禁止上路。
-
-**觀察**：Waymo自建專用充電時程；Hyundai Ioniq 5 Robotaxi量產時間點。
-
-- 參見：[[sources/ev-news-2026-11-04-digitimes]] | [[sources/ev-news-2026-11-04-insideevs]] | [[concepts/充電基礎建設]] | [[concepts/自動駕駛安全監管]] | [[entities/Waymo]] | [[entities/現代汽車]] | [[countries/美國]]
-
-## Waymo退出Uber（2028-01）、豐田工廠內整合Gen 6、Waymo佔樁（2026-11）
-
-> **結論**：Robotaxi競爭由「聯盟」轉向「垂直整合」——Waymo將於2028-01退出奧斯汀與亞特蘭大的Uber合作並改走自家App，豐田則在高岡工廠產線直接安裝Waymo第六代硬體，兩者都在降低單車成本與提高體驗一致性。
-
-**主因**：
-- 平台：Waymo每週逾50萬趟付費載客、15城營運，Uber App無法保證全程無人駕駛（取決於附近Waymo數量，否則配人類司機），Waymo婉拒Uber專屬Robotaxi選項；Uber目標今年底700輛、2027年底2,000輛，並與Rivian、Lucid、Wayve簽約 → Uber轉為Waymo直接對手。
-- 製造：對照Jaguar I-Pace需麥格納斯泰爾二次改裝，豐田bZ4X直接在產線整合，降低成本並取得車規安全；豐田規劃2028年前後透過外部夥伴部署L4、2032年左右推自研L4乘用車。
-- 外溢成本：聖地牙哥等地車主排隊最長1小時，Waymo稱自建站需時間。
-- 自駕巴士：慕尼黑MAN自駕電巴11/17起載客試乘（安全駕駛在車）。
-
-**觀察**：Waymo 2028-01後自家App在兩市的叫車體驗；Waymo自建充電場站；MINGA載客數據。
-
-- 參見：[[sources/ev-news-2026-11-06-electrive-en]] | [[sources/ev-news-2026-11-06-insideevs]] | [[sources/ev-news-2026-11-06-digitimes]] | [[concepts/充電基礎建設]] | [[concepts/電動巴士市場]] | [[entities/Waymo]] | [[entities/豐田]] | [[countries/美國]] | [[countries/日本]]
-
-## Tesla停產Cybertruck、讓位Cybercab（2026-11）
-
-> **結論**：Tesla把德州廠產能由Cybertruck轉給Cybercab——馬斯克稱2027年中結束Cybertruck、6–7月拆線，Cybercab已於2026-09-03在奧斯汀投入Robotaxi載客。
-
-**主因**：Cybertruck 2025年美國銷量2.02萬輛（-48%）、年產約2萬輛僅占Tesla總產量1%；Tesla 3Q資料稱德州廠Cybertruck與Cybercab已建置年產能各逾12.5萬輛（已建置不等於實際產出）；Ford Fathom的組裝樹與Tesla Cybercab「unboxed」製程相似，顯示製造創新由Robotaxi與平價皮卡同步推進。
-
-**觀察**：Cybercab實際產量；其餘德州廠產能分配。
-
-- 參見：[[sources/ev-news-2026-11-11-electrive-en]] | [[sources/ev-news-2026-11-11-cn-misc]] | [[entities/Tesla]] | [[concepts/美國EV市場與政策]] | [[countries/美國]]
-
-## Lucid／Uber／Nuro與Bolt Robotaxi時程（2026-11）
-
-> **結論**：Lucid規畫與Uber、Nuro（美）及Bolt（歐）部署數萬輛Robotaxi，但灣區首批Gravity Robotaxi已由2026年底延至2027年1Q。
-
-**主因**：Gravity與中型EV雙平台Robotaxi → 延後顯示量產與認證節奏仍受限 → 對手Waymo、Tesla Cybercab先行。
-
-**觀察**：2027年1Q灣區Gravity Robotaxi是否上線。
-
-- 參見：[[sources/ev-news-2026-11-11b-insideevs]] | [[Lucid]] | [[Waymo]]
-
-## Verne進軍柏林、台中開放道路自駕巴士（2026-11）
-
-> **結論**：Verne（Rimac集團持股42%）確認在柏林建立營運團隊，台中則進入開放道路自駕巴士試乘，顯示歐洲與台灣均進入營運前期。
-
-**主因**：Verne已於2026年春在札格雷布上線，下一步英國與德國，自研無方向盤車仍在測試；台中示範路線7.7公里、31處路口。
-
-**觀察**：Verne德國上線日期；台中試乘後營運許可。
-
-- 參見：[[sources/ev-news-2026-11-12-electrive-en]] | [[sources/ev-news-2026-11-12-cn-misc]] | [[Waymo]] | [[countries/德國]]
-
-## Cybercab開放個人訂購（2026-11）
-
-> **結論**：Tesla向受邀客戶開放Cybercab個人訂購（約3萬美元、訂金1,000美元、須訂閱每月299美元），首批12月在德州5城交付，Cybercab生產優先於Cybertruck。
-
-**主因**：馬斯克稱299美元「太高」、目標約115美元/月；電池組未來可降至40 kWh；小鵬取得廣州L4 Robotaxi牌照。
-
-**觀察**：12月交付規模與法規審批。
-
-- 參見：[[sources/ev-news-2026-11-16-cn-misc]] | [[Tesla]] | [[小鵬汽車]]
-
-## Cybercab個人購買條件、Grünheide百萬輛產能與May Mobility（2026-11）
-
-> **結論**：Cybercab以29,990美元＋每月299美元訂閱開放受邀個人購買，但僅限Robotaxi服務區且NHTSA仍在調查；Tesla同時宣布格林海德2029年起年產最多100萬輛Cybercab，May Mobility則規畫2031年前1萬輛自駕ID. Buzz。
-
-**主因**：
-- 擁有成本：車價比Model 3低7,000美元，但訂閱年約3,600美元、保險保養另計 → 實際使用受限於服務區（electrive稱德州與佛州，前批鉅亨網稱德州5城，待核對）。
-- 產能：格林海德30億歐元擴建，2027年上半年動工 → Tesla把歐洲廠定位為Cybercab基地。
-- 輕資產路線：May Mobility採ECARX ADK、目標單車成本降逾50%，2028年交付外部車隊；日本NTT Mobility 2027年2月實證無高精地圖自駕巴士。
-
-**觀察**：12月首批Cybercab交付數與NHTSA調查結論；格林海德建照。
-
-- 參見：[[sources/ev-news-2026-11-17-electrive-en]] | [[sources/ev-news-2026-11-17-insideevs]] | [[sources/ev-news-2026-11-17-digitimes]] | [[Tesla]] | [[Volkswagen]] | [[concepts/自動駕駛安全監管]]

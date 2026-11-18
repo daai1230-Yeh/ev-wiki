@@ -52,7 +52,11 @@ updated: 2026-11-17
 ## 電動水翼船（延伸）
 - Candela P-12 電動水翼船訂單含 11 艘供孟買使用（跨類別電動交通延伸案例）
 
-## VinFast × 馬哈拉施特拉邦（2026-04）
+## 2026-04 動態彙整
+
+> 本月逐批新增的動態；月底合併為一節 RRC 並更新頁首摘要與「簡報三段式」。
+
+### VinFast × 馬哈拉施特拉邦（2026-04）
 
 - Vingroup（越南）簽署 MOU：總投資 $65 億美元，電動車相關 **$15 億美元**
 - 計畫組建 6 萬輛電動車隊（與 GSM India 合作）+ 充電設施
@@ -60,20 +64,20 @@ updated: 2026-11-17
 - 馬哈拉施特拉邦：印度 GDP 佔比 14%，孟買為經濟重心
 - 參見：[[sources/vinfast-india-investment]]
 
-## 電動商用車新動態（2026-04）
+### 電動商用車新動態（2026-04）
 
-### Switch Mobility 城際電動巴士（孟買—浦那）
+#### Switch Mobility 城際電動巴士（孟買—浦那）
 - **首次**：私人公司城際電動巴士委託（Purple Bus，25 輛 EiV12）
 - EiV12 規格：423kWh LFP，300km+ 續航，235kW 馬達，45 座
 - Switch Mobility 累計部署：2,500+ 電動巴士 + 2,500+ 電動輕型商用車
 
-### 現代汽車 × TVS Motor：電動三輪車（E3W）JDA
+#### 現代汽車 × TVS Motor：電動三輪車（E3W）JDA
 - 聯合開發協議簽署（2026-04-21）
 - 目標市場：印度城市「最後一哩路」配送
 - 背景：印度 2026 年延長電動二/三輪車補貼
 - 開放全球出口
 
-### SML Isuzu（前 SML Mahindra）：FY27 進入電動巴士市場
+#### SML Isuzu（前 SML Mahindra）：FY27 進入電動巴士市場
 - 加入競爭：Tata Motors、Olectra、Switch Mobility、PMI Electro
 - 參與 PM e-Bus Sewa 計畫（大規模政府採購），惟依商業回報評估是否投標
 
@@ -93,7 +97,11 @@ updated: 2026-11-17
 
 參見：[[sources/india-ev-fy2026-record]]
 
-## 2026 年 4 月 EV 銷量：史上第二高（2026-05-04）
+## 2026-05 動態彙整
+
+> 本月逐批新增的動態；月底合併為一節 RRC 並更新頁首摘要與「簡報三段式」。
+
+### 2026 年 4 月 EV 銷量：史上第二高（2026-05-04）
 
 | 品牌 | 4 月銷量 | YoY | 市占 |
 |------|---------|-----|------|
@@ -107,7 +115,7 @@ updated: 2026-11-17
 - VinFast 首次月銷突破 1,000 輛（2025-10 開始交車）
 - 參見：[[sources/india-ev-april-2026]]
 
-## 豐田印度三廠擴建（2026-05-01）
+### 豐田印度三廠擴建（2026-05-01）
 
 - 馬哈拉施特拉邦新建 **3 座整車廠**，投資 **~3,000 億日圓（~$19.1 億美元）**
 - 目標：2030 年代年產能達 **100 萬輛**（為現在 3 倍）
@@ -117,7 +125,7 @@ updated: 2026-11-17
 - 合作夥伴：鈴木（Maruti）
 - 參見：[[sources/toyota-india-3-plants]]
 
-## 印度電池 R&D 大規模投入：擺脫中國技術依賴（2026-05）
+### 印度電池 R&D 大規模投入：擺脫中國技術依賴（2026-05）
 
 Tata 和 JSW 兩大集團合計投資逾 **10 億美元**建立電池技術研發中心：
 
@@ -132,7 +140,7 @@ Tata 和 JSW 兩大集團合計投資逾 **10 億美元**建立電池技術研�
 - JSW 研發重點另含 SDV 軟體平台與聯網功能
 - 參見：[[sources/india-tata-jsw-battery-rd-2026]] | [[concepts/電池技術路線]]
 
-## Mahindra 加速擴張：2031 年 9 款 EV，產能+50%（2026-05）
+### Mahindra 加速擴張：2031 年 9 款 EV，產能+50%（2026-05）
 
 | 指標 | 現況 | 目標 |
 |------|------|------|
@@ -144,7 +152,7 @@ Tata 和 JSW 兩大集團合計投資逾 **10 億美元**建立電池技術研�
 - 2025-03 至 2026-04 已售出 55,000 輛 EV
 - 參見：[[sources/mahindra-ev-expansion-2026]]
 
-## Ather Energy EL 平台：進攻印度 ₹1 萬大眾 E2W 市場（2026-05）
+### Ather Energy EL 平台：進攻印度 ₹1 萬大眾 E2W 市場（2026-05）
 
 Ather Energy 推出 EL 平台，首次切入印度電動二輪車（E2W）主流量級市場：
 
@@ -176,28 +184,7 @@ Ather Energy 推出 EL 平台，首次切入印度電動二輪車（E2W）主流
 
 - 參見：[[sources/ather-energy-el-platform-2026]]
 
-## Related
-- [[entities/VinFast]]
-- [[entities/豐田]]
-- [[concepts/電動巴士市場]]
-- [[concepts/充電基礎建設]]
-- [[concepts/電池技術路線]]
-- [[sources/electric-bus-market-2025-global]]
-- [[sources/delhi-ev-policy-2026]]
-- [[sources/vinfast-india-investment]]
-- [[sources/india-ev-commercial-update-2026]]
-- [[sources/india-ev-fy2026-record]]
-- [[sources/india-ev-april-2026]]
-- [[sources/toyota-india-3-plants]]
-- [[sources/mahindra-ev-expansion-2026]]
-- [[sources/ather-energy-el-platform-2026]]
-- [[sources/india-2w-market-fy27-bifurcation-2026]]
-- [[sources/india-1bn-ev-commercial-incentives-2026]]
-- [[sources/tesla-india-factory-exit-2026]]
-- [[sources/honda-india-ev-hybrid-2026]]
-- [[sources/tata-stellantis-jeep-india-2026]]
-
-## 印度二輪車 FY27 展望：E2W +16–18%，踏板車領漲（2026-05）
+### 印度二輪車 FY27 展望：E2W +16–18%，踏板車領漲（2026-05）
 
 Crisil Ratings 分析（FY27 預測）：
 
@@ -214,7 +201,7 @@ Crisil Ratings 分析（FY27 預測）：
 - 出口：占行業 ~20%，FY27 維持中高雙位數成長（拉美、非洲、南亞）
 - 參見：[[sources/india-2w-market-fy27-bifurcation-2026]]
 
-## 印度研擬逾 $10 億美元私人電動商用車激勵（2026-05）
+### 印度研擬逾 $10 億美元私人電動商用車激勵（2026-05）
 
 政府考慮推出超過 $10 億美元方案，刺激私部門採購電動巴士與電動卡車：
 - 執行期限：約 10 年；主要對象：城際巴士業者（最大宗）
@@ -223,7 +210,7 @@ Crisil Ratings 分析（FY27 預測）：
 - 背景：現行補助主要集中在政府採購（PM e-Bus Sewa），私人 ECV 完全缺乏政策支持
 - 參見：[[sources/india-1bn-ev-commercial-incentives-2026]]
 
-## Honda 印度大反攻：6 款新車 + 本地製造 EV（2026-05）
+### Honda 印度大反攻：6 款新車 + 本地製造 EV（2026-05）
 
 Honda Cars India 啟動 FY2026-27 攻勢，目標雙位數成長止血市占：
 
@@ -236,7 +223,7 @@ Honda Cars India 啟動 FY2026-27 攻勢，目標雙位數成長止血市占：
 - 戰略轉型：從依賴進口 → 本地製造 EV；從汽油主打 → 混合動力核心
 - 參見：[[sources/honda-india-ev-hybrid-2026]]
 
-## Tata × Stellantis：共同開發全球 Jeep SUV，印度蘭揚加翁廠成全球製造樞紐（2026-05）
+### Tata × Stellantis：共同開發全球 Jeep SUV，印度蘭揚加翁廠成全球製造樞紐（2026-05）
 
 兩家公司深化 20 年合作，共同開發全球 Jeep SUV：
 
@@ -251,7 +238,7 @@ Honda Cars India 啟動 FY2026-27 攻勢，目標雙位數成長止血市占：
 - 與 [[sources/stellantis-fastlane-2030]] 的 FaSTLAne 2030 Jeep 全球策略高度吻合
 - 參見：[[sources/tata-stellantis-jeep-india-2026]]
 
-## Tesla 宣布終止印度設廠計畫（2026-05）
+### Tesla 宣布終止印度設廠計畫（2026-05）
 
 印度重工業部長 H.D. Kumaraswamy 2026-05-19 公開確認：**Tesla 已放棄在印度建廠**。
 
@@ -261,7 +248,7 @@ Honda Cars India 啟動 FY2026-27 攻勢，目標雙位數成長止血市占：
 - **外資信號**：印度「先建廠再降稅」立場堅持，其他外資車廠可能重新評估進入策略
 - 參見：[[sources/tesla-india-factory-exit-2026]]
 
-## 中國收緊電池技術出口：印度仍難擺脫依賴（2026-05）
+### 中國收緊電池技術出口：印度仍難擺脫依賴（2026-05）
 
 信實工業（Reliance Industries）x CATL 案例：
 - 信實希望技術轉移在古吉拉特邦本地生產電芯 → CATL **拒絕技術轉移**
@@ -287,7 +274,11 @@ Envirocatalysts 數據：德里 2026 年 1~5 月 EV 登記量創 7 年高：
 - 乘用 EV +96% 與印度 FY26 全年 +83.6% 趨勢一致，德里市場動能強勁
 - 參見：[[sources/delhi-ev-7year-high-2026]]
 
-## 南韓 Toptec 進軍印度整車廠：電池模組設備首次海外直供（2026-06）
+## 2026-06 動態彙整
+
+> 本月逐批新增的動態；月底合併為一節 RRC 並更新頁首摘要與「簡報三段式」。
+
+### 南韓 Toptec 進軍印度整車廠：電池模組設備首次海外直供（2026-06）
 
 電池設備廠商 Toptec 成功與印度大型整車集團（身份未公開）簽署供應合約：
 
@@ -306,7 +297,7 @@ Envirocatalysts 數據：德里 2026 年 1~5 月 EV 登記量創 7 年高：
 - Toptec 2026 Q1：營收 -28% 但營業利益轉正（電池事業結構性改善）
 - 參見：[[sources/toptec-india-battery-equipment-2026]]
 
-## Tata 引入奇瑞平台開發 Avinya 豪華 EV（2026-06）
+### Tata 引入奇瑞平台開發 Avinya 豪華 EV（2026-06）
 
 Tata Motors 採用奇瑞汽車 EV 平台技術開發旗下豪華品牌 **Avinya**：
 - 首款車預計 **2027 年**上市；背景：JLR Panthera 平台延遲，Tata 急需替代方案
@@ -314,37 +305,45 @@ Tata Motors 採用奇瑞汽車 EV 平台技術開發旗下豪華品牌 **Avinya*
 - 奇瑞同期藉 Nissan Sunderland 代工進英國，形成「平台出口」戰略版圖
 - 參見：[[sources/tata-chery-avinya-platform-2026]] | [[concepts/中國EV出海策略]]
 
-## VinFast改弦、ETAuto標題與電巴需求（2026-09）
+## 2026-09 動態彙整
+
+> 本月逐批新增的動態；月底合併為一節 RRC 並更新頁首摘要與「簡報三段式」。
+
+### VinFast改弦、ETAuto標題與電巴需求（2026-09）
 
 VinFast暫停VF 6／7／3在地化、改研發低於1.2萬美元的VF X；印度商用車8月批發年增30.7%（ICRA）；Ultraviolette交付183輛X-47給加爾各答警方；Montra押注重型電動卡車（2030年營收10億美元目標）。
 
 - 參見：[[sources/ev-news-2026-09-18-electrive-en]] | [[sources/ev-news-2026-09-20-india]] | [[sources/ev-news-2026-09-21-india]] | [[entities/VinFast]] | [[countries/印度]]
 
-## JSW Greentech以Ampstar品牌切入電動商用車（2026-09）
+### JSW Greentech以Ampstar品牌切入電動商用車（2026-09）
 
 JSW集團子公司發表電動商用車新品牌Ampstar，馬哈拉施特拉邦90英畝新廠年產能1.5萬輛（1萬巴士＋5千卡車），總投資約250億盧比，電控核心零件自主開發；目標卡車在地化率6個月內達50%；Ultraviolette另籌資8,500萬美元加速全球電動機車擴張、2027年進軍美國。
 
 - 參見：[[sources/ev-news-2026-09-24-electrive-en]] | [[sources/ev-news-2026-09-24-digest]] | [[concepts/電動商用車]] | [[countries/印度]]
 
-## 現代汽車印度1,000萬輛里程碑（2026-10）
+## 2026-10 動態彙整
+
+> 本月逐批新增的動態；月底合併為一節 RRC 並更新頁首摘要與「簡報三段式」。
+
+### 現代汽車印度1,000萬輛里程碑（2026-10）
 
 現代汽車印度累計988萬輛、SUV占67%、2030年產能逾110萬輛並以印度為出口樞紐（出口占比最高30%）。
 
 - 參見：[[sources/ev-news-2026-10-12-digest]] | [[entities/現代汽車]]
 
-## 現代汽車加碼155億美元（2026-10）
+### 現代汽車加碼155億美元（2026-10）
 
 現代汽車2032年前投資155億美元，印度為其第三大市場、2030年上看第二；顯示外資以在地製造因應印度關稅。
 
 - 參見：[[sources/ev-news-2026-10-15-digest]] | [[entities/現代汽車]]
 
-## 現代＋起亞印度市占18.7%（2026-10）
+### 現代＋起亞印度市占18.7%（2026-10）
 
 2025年現代與起亞在印度銷量852,164輛、市占18.7%；浦納廠投產後年產能140萬輛，將印度定位為新興市場生產與出口樞紐。
 
 - 參見：[[sources/ev-news-2026-10-19-digest]] | [[entities/現代汽車]]
 
-## Ultraviolette 100V架構與Amazon電動卡車（2026-10）
+### Ultraviolette 100V架構與Amazon電動卡車（2026-10）
 
 > **結論**：印度電動兩輪由低價通勤走向高性能與出口——Ultraviolette推VX-100架構與X-47 Venom（起價30萬盧比，約2,800歐元），Hosur新廠規劃25萬輛。
 
@@ -354,7 +353,11 @@ JSW集團子公司發表電動商用車新品牌Ampstar，馬哈拉施特拉邦9
 
 - 參見：[[sources/ev-news-2026-10-29-electrive-en]] | [[concepts/電動卡車市場]] | [[countries/印度]]
 
-## 古吉拉特220輛電巴GCC標案與塔塔收購Iveco（2026-11）
+## 2026-11 動態彙整
+
+> 本月逐批新增的動態；月底合併為一節 RRC 並更新頁首摘要與「簡報三段式」。
+
+### 古吉拉特220輛電巴GCC標案與塔塔收購Iveco（2026-11）
 
 > **結論**：印度電巴由「政府採購車輛」轉向「營運商12年總成本契約（GCC）」，Jakson Green拿下古吉拉特220輛；塔塔同時入主Iveco，擴大商用車全球版圖。
 
@@ -364,7 +367,7 @@ JSW集團子公司發表電動商用車新品牌Ampstar，馬哈拉施特拉邦9
 
 - 參見：[[sources/ev-news-2026-11-02-sustainablebus]] | [[concepts/電動巴士市場]] | [[concepts/電動商用車]] | [[countries/印度]]
 
-## 賓士電動GLC在浦那組裝：EV GST 5% vs 燃油40%（2026-11）
+### 賓士電動GLC在浦那組裝：EV GST 5% vs 燃油40%（2026-11）
 
 > **結論**：賓士在Chakan廠以CKD套件組裝電動GLC 400，售價785萬盧比僅比入門燃油GLC貴約2%，主因EV GST僅5%、燃油車40%，首36小時逾550筆預訂、總預訂逾1,000筆。
 
@@ -374,7 +377,7 @@ JSW集團子公司發表電動商用車新品牌Ampstar，馬哈拉施特拉邦9
 
 - 參見：[[sources/ev-news-2026-11-06-electrive-en]] | [[countries/印度]]
 
-## 電動三輪車9月滲透率逾50%（2026-11）
+### 電動三輪車9月滲透率逾50%（2026-11）
 
 > **結論**：印度9月新三輪車中電動占比突破50%（私家車8.5%、二輪11.6%），成為全球最大電動三輪車市場；GST調降讓購車成本約減一成。
 
@@ -384,7 +387,7 @@ JSW集團子公司發表電動商用車新品牌Ampstar，馬哈拉施特拉邦9
 
 - 參見：[[sources/ev-news-2026-11-09-cn-misc]] | [[concepts/電動商用車]] | [[countries/印度]]
 
-## Honda Alpha以印度為全球唯一生產基地、Blackbuck電動臥鋪客車（2026-11）
+### Honda Alpha以印度為全球唯一生產基地、Blackbuck電動臥鋪客車（2026-11）
 
 > **結論**：Honda把全球戰略純電休旅Alpha的唯一製造基地設在印度（12/2首演），顯示印度由銷售市場升級為出口製造樞紐；本土業者亦推出電動長途客車。
 
@@ -397,7 +400,7 @@ JSW集團子公司發表電動商用車新品牌Ampstar，馬哈拉施特拉邦9
 
 - 參見：[[sources/ev-news-2026-11-11b-cn-misc]] | [[sources/ev-news-2026-11-11b-sustainablebus]] | [[本田]] | [[countries/印度]] | [[countries/日本]]
 
-## Kia第二座印度廠、AI排擠車用晶片（2026-11）
+### Kia第二座印度廠、AI排擠車用晶片（2026-11）
 
 > **結論**：Kia投資約18億歐元在Anantapur建第二座廠（2030年、年產20萬輛ICE＋EV），印度產能升至60萬輛；但AI資料中心排擠晶片，印度車廠被迫加價搶貨。
 
@@ -406,3 +409,24 @@ JSW集團子公司發表電動商用車新品牌Ampstar，馬哈拉施特拉邦9
 **觀察**：印度EV晶片成本是否反映於售價。
 
 - 參見：[[sources/ev-news-2026-11-17-electrive-en]] | [[sources/ev-news-2026-11-17-cn-misc]] | [[起亞]] | [[countries/印度]]
+
+## Related
+- [[entities/VinFast]]
+- [[entities/豐田]]
+- [[concepts/電動巴士市場]]
+- [[concepts/充電基礎建設]]
+- [[concepts/電池技術路線]]
+- [[sources/electric-bus-market-2025-global]]
+- [[sources/delhi-ev-policy-2026]]
+- [[sources/vinfast-india-investment]]
+- [[sources/india-ev-commercial-update-2026]]
+- [[sources/india-ev-fy2026-record]]
+- [[sources/india-ev-april-2026]]
+- [[sources/toyota-india-3-plants]]
+- [[sources/mahindra-ev-expansion-2026]]
+- [[sources/ather-energy-el-platform-2026]]
+- [[sources/india-2w-market-fy27-bifurcation-2026]]
+- [[sources/india-1bn-ev-commercial-incentives-2026]]
+- [[sources/tesla-india-factory-exit-2026]]
+- [[sources/honda-india-ev-hybrid-2026]]
+- [[sources/tata-stellantis-jeep-india-2026]]

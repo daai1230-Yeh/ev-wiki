@@ -75,7 +75,11 @@ BMW 旗艦電動 SUV 全球首映，進入新能量密度區間：
 
 - BMW CLAR 平台：中國市場 iX1/i3/i5（CLAR 平台）2026-07 起廢除，Neue Klasse 接棒
 
-## AESC 46120 大圓柱電芯量產：iX5 首搭（2026-07）
+## 2026-07 動態彙整
+
+> 本月逐批新增的動態；月底合併為一節 RRC 並更新頁首摘要與「簡報三段式」。
+
+### AESC 46120 大圓柱電芯量產：iX5 首搭（2026-07）
 
 > **結論**：AESC 正式量產 46120 大圓柱電芯（首搭 BMW iX5），可用能量較舊格式提升近 30%，是 BMW 第六代 eDrive 電池技術落地的關鍵一步。
 
@@ -88,7 +92,7 @@ BMW 旗艦電動 SUV 全球首映，進入新能量密度區間：
 
 - 參見：[[sources/ev-news-2026-07-10-electrive-batch]]
 
-## H1 BEV 銷量年減 7.4%：新款 iX3 帶動歐洲 Q2 反彈（2026-07）
+### H1 BEV 銷量年減 7.4%：新款 iX3 帶動歐洲 Q2 反彈（2026-07）
 
 > **結論**：BMW（含 MINI、Rolls-Royce）H1 售出 20.4 萬輛 BEV，年減 7.4%，但 Q2 因新款 iX3 上市帶動歐洲銷量激增 38%，季增轉正 5.2%。
 
@@ -102,36 +106,13 @@ BMW 旗艦電動 SUV 全球首映，進入新能量密度區間：
 
 - 參見：[[sources/ev-news-2026-07-12-13-electrive]] | [[countries/德國]] | [[countries/中國]]
 
-## 突破200萬輛純電動車銷售，iX3扛起成長大旗（2026-08）
-
-> **結論**：BMW（含Mini）累計純電動車銷量突破200萬輛（第200萬輛為i5 M60 xDrive），若計入插電式混合動力車則累計電動化車輛達350萬輛，全球每4輛BMW即有逾1輛電動化；新世代Neue Klasse首發車型iX3訂單近10萬輛，成為當前歐洲市場成長的關鍵引擎。
-
-- 里程碑車型：第200萬輛純電BMW（i5 M60 xDrive）於Dingolfing廠生產、交付西班牙客戶，標誌自2013年i3上市13年來的階段性成果
-- iX3扛起歐洲成長：2026 Q2歐洲EV銷量年增38%達81,445輛多數受惠iX3訂單，上半年BEV佔歐洲銷量28%（其中1/3為iX3），X3車系訂單約半數已轉為iX3
-- 後續動能：去年全球EV銷量約44.2萬輛年增小幅提升，美國EV銷量今年雖疲軟但整體趨勢向上；即將推出i3（估計續航440英里）與iX5延續Neue Klasse世代動能
-
-**觀察**：i3、iX5上市後能否延續iX3的訂單熱度；美國市場EV銷量能否止跌回升。
-
-- 參見：[[sources/ev-news-2026-08-27-29-electrive-en]] | [[countries/歐洲]]
-
-## Related
-- [[entities/Volkswagen]]
-- [[entities/LGES]]
-- [[entities/三星SDI]]
-- [[concepts/電池技術路線]]
-- [[countries/德國]]
-- [[countries/美國]]
-- [[countries/歐洲]]
-- [[sources/lges-bmw-46series-order]]
-- [[sources/ev-news-2026-06-30-07-01]]
-
-## 英國iX1/iX2符合最高補貼級距；墨西哥廠2027量產i3/iX3（2026-07）
+### 英國iX1/iX2符合最高補貼級距；墨西哥廠2027量產i3/iX3（2026-07）
 
 BMW調降英國iX1/iX2售價使其符合£3,750電動車補貼（ECG）最高級距，成為首個達此門檻的德系豪華品牌；補貼後iX1 eDrive20 Sport起價£33,315，甚至低於同級燃油版X1。同時確認墨西哥San Luis Potosí廠將自2027年生產Neue Klasse i3與iX3並配建第六代高壓電池組裝中心（總投資€8億），為BMW全球四座Neue Klasse生產基地之一（另含匈牙利Debrecen、德國慕尼黑、中國瀋陽）。
 
 - 參見：[[sources/ev-news-2026-07-24-27-electrive-en]] | [[countries/英國]]
 
-## 兩階段化解FEOC供應風險；中國長軸版iX5亮相（2026-07）
+### 兩階段化解FEOC供應風險；中國長軸版iX5亮相（2026-07）
 
 > **結論**：BMW南卡州Woodruff電池廠透過「全球調撥電芯→在地供應」兩階段策略，成功化解電芯供應商遠景動力（AESC）因FEOC爭議一度暫停美國建廠帶來的斷料風險，同期為中國市場推出加長13公分軸距的專屬iX5版本，展現「全球製造彈性」與「在地產品客製化」雙軌並進。
 
@@ -144,7 +125,23 @@ BMW調降英國iX1/iX2售價使其符合£3,750電動車補貼（ECG）最高級
 
 - 參見：[[sources/ev-news-2026-07-29-31-digitimes]] | [[sources/ev-news-2026-07-28-30-electrive-en]] | [[countries/美國]] | [[countries/中國]]
 
-## Debrecen廠iX3改三班制，歐洲訂單10萬張（2026-09）
+## 突破200萬輛純電動車銷售，iX3扛起成長大旗（2026-08）
+
+> **結論**：BMW（含Mini）累計純電動車銷量突破200萬輛（第200萬輛為i5 M60 xDrive），若計入插電式混合動力車則累計電動化車輛達350萬輛，全球每4輛BMW即有逾1輛電動化；新世代Neue Klasse首發車型iX3訂單近10萬輛，成為當前歐洲市場成長的關鍵引擎。
+
+- 里程碑車型：第200萬輛純電BMW（i5 M60 xDrive）於Dingolfing廠生產、交付西班牙客戶，標誌自2013年i3上市13年來的階段性成果
+- iX3扛起歐洲成長：2026 Q2歐洲EV銷量年增38%達81,445輛多數受惠iX3訂單，上半年BEV佔歐洲銷量28%（其中1/3為iX3），X3車系訂單約半數已轉為iX3
+- 後續動能：去年全球EV銷量約44.2萬輛年增小幅提升，美國EV銷量今年雖疲軟但整體趨勢向上；即將推出i3（估計續航440英里）與iX5延續Neue Klasse世代動能
+
+**觀察**：i3、iX5上市後能否延續iX3的訂單熱度；美國市場EV銷量能否止跌回升。
+
+- 參見：[[sources/ev-news-2026-08-27-29-electrive-en]] | [[countries/歐洲]]
+
+## 2026-09 動態彙整
+
+> 本月逐批新增的動態；月底合併為一節 RRC 並更新頁首摘要與「簡報三段式」。
+
+### Debrecen廠iX3改三班制，歐洲訂單10萬張（2026-09）
 
 > **結論**：Neue Klasse首款iX3在匈牙利Debrecen廠9月起由兩班制改三班制，並稱歐洲已累計10萬張訂單，為BMW新廠最快爬坡（約8個月）。
 
@@ -153,37 +150,41 @@ BMW調降英國iX1/iX2售價使其符合£3,750電動車補貼（ECG）最高級
 
 - 參見：[[sources/ev-news-2026-09-18-electrive-en]] | [[countries/德國]] | [[entities/Volkswagen]]
 
-## 美國iX3提前交車；SiC元件首獲羅姆供應（2026-09）
+### 美國iX3提前交車；SiC元件首獲羅姆供應（2026-09）
 
 美國iX3因強勁需求提前交車（加州部分經銷商提前10天），起價61,500美元、EPA續航最長434英里；同時羅姆半導體SiC元件首度取得BMW訂單，用於第六代eDrive平台逆變器等電流管理元件，推測搭載於iX3（續航805公里、10分鐘增程372公里）。
 
 - 參見：[[sources/ev-news-2026-09-22-electrive-en]] | [[sources/ev-news-2026-09-22-digitimes]] | [[concepts/車用半導體供應鏈]] | [[countries/美國]] | [[countries/日本]]
 
-## i3美國提前開放預購、iX3高速公路實測效率居冠、SiC訂單持續（2026-09）
+### i3美國提前開放預購、iX3高速公路實測效率居冠、SiC訂單持續（2026-09）
 
 BMW i3美國預購提前至9月29日開放（原訂10月上半），首發i3 50 xDrive（463匹馬力、108.7kWh電池、EPA續航440英里），交車2027年Q1；iX3在InsideEVs高速公路實測中電耗19.4kWh/100km優於Mercedes GLC Electric（低4%）與Volvo EX60（低8%），續航544公里居冠；美國iX3同樣因強勁需求提前交車（見09-22）。
 
 - 參見：[[sources/ev-news-2026-09-24-electrive-en]] | [[countries/美國]] | [[countries/歐洲]]
 
-## 發表首款純電3系i3，WLTP續航912公里創同級新高（2026-09）
+### 發表首款純電3系i3，WLTP續航912公里創同級新高（2026-09）
 
 BMW發表首款純電3系i3，共用Neue Klasse平台與iX3同技術套件但續航更勝一籌——i3 50 xDrive搭載108.7kWh淨電池、WLTP續航912公里（較iX3多逾100公里），起價65,900歐元；入門i3 40 xDrive（82.8kWh、710公里）起價59,900歐元；慕尼黑主廠8月已開始量產，成為集團第二座純電專用廠（繼Debrecen後）。南韓市場稍早已傳新i7將加入下半年豪華電動車陣容（見09-28）。
 
 - 參見：[[sources/ev-news-2026-09-30-electrive-en]] | [[countries/歐洲]] | [[countries/德國]]
 
-## 美規i3初估EPA 468英里、資本市場日：iX3訂單破10萬、2028年再推入門Neue Klasse（2026-10）
+## 2026-10 動態彙整
+
+> 本月逐批新增的動態；月底合併為一節 RRC 並更新頁首摘要與「簡報三段式」。
+
+### 美規i3初估EPA 468英里、資本市場日：iX3訂單破10萬、2028年再推入門Neue Klasse（2026-10）
 
 美規i3 50 xDrive初估EPA續航468英里（Model 3 Long Range AWD 342英里）、NACS、起價61,500美元、2027年Q1交車；BMW資本市場日宣布年內發表純電iX4、2028年再推歐洲為主的入門Neue Klasse（外界推測i1）；iX3訂單逾10萬、交車逾3萬、訂單簿排至2027年Q2、利潤率與燃油車持平。
 
 - 參見：[[sources/ev-news-2026-10-01-electrive-en]] | [[sources/ev-news-2026-10-02-electrive-en]] | [[countries/美國]] | [[countries/歐洲]]
 
-## Irlbach-Straßkirchen電池廠量產Gen6、美規i3提前預購（2026-10）
+### Irlbach-Straßkirchen電池廠量產Gen6、美規i3提前預購（2026-10）
 
 BMW Irlbach-Straßkirchen電池廠（約10億歐元）量產第六代高壓電池，首供慕尼黑廠新i3、兩班制運轉；Gen6採800V與46mm圓柱電芯（能量密度較前代方形高約20%），i3 50 xDrive使用108.7kWh電池；2027年款i3美國預購9/29提前開放、起價61,500美元、2027年Q1交車；歐系豪華車廠（含BMW）全面將重心轉向美國，但美國參議院擬設車廠中資持股15%上限的法案影響賓士、Volvo。
 
 - 參見：[[sources/ev-news-2026-10-05-electrive-en]] | [[sources/ev-news-2026-10-04-digest]] | [[concepts/電池技術路線]] | [[countries/德國]] | [[countries/美國]]
 
-## Q3純電交車年增7.2%，歐洲+37.5%（2026-10）
+### Q3純電交車年增7.2%，歐洲+37.5%（2026-10）
 
 > **結論**：BMW Q3純電110,257輛，扭轉上半年年減7.4%；歐洲純電佔比34.7%，iX3一年歐洲訂單逾10萬輛；但集團Q3總量-6.3%，中國-24.8%。
 
@@ -191,13 +192,17 @@ BMW Irlbach-Straßkirchen電池廠（約10億歐元）量產第六代高壓電�
 
 - 參見：[[sources/ev-news-2026-10-13-14-electrive-en]] | [[concepts/歐洲EV市場]]
 
-## 美國BEV榜第11（2026-10）
+### 美國BEV榜第11（2026-10）
 
 BMW美國製造以燃油／混動為主，本土化BEV安排年底或2027年；為U-POWER獨家充電夥伴。
 
 - 參見：[[sources/ev-news-2026-10-27-digitimes]]
 
-## Neue Klasse選擇性導入LFP（2026-11）
+## 2026-11 動態彙整
+
+> 本月逐批新增的動態；月底合併為一節 RRC 並更新頁首摘要與「簡報三段式」。
+
+### Neue Klasse選擇性導入LFP（2026-11）
 
 > **結論**：BMW CEO確認Neue Klasse以NMC圓柱為主、LFP僅用於特定入門車型，中國iX3 30L已用LFP，歐洲首款LFP車型時間未說明。
 
@@ -207,7 +212,7 @@ BMW美國製造以燃油／混動為主，本土化BEV安排年底或2027年；�
 
 - 參見：[[sources/ev-news-2026-11-11-electrive-en]] | [[concepts/電池技術路線]] | [[countries/德國]]
 
-## Neue Klasse新增LGES、三星SDI（2026-11）
+### Neue Klasse新增LGES、三星SDI（2026-11）
 
 > **結論**：BMW將LGES、三星SDI納入Neue Klasse 46系列供應鏈，以多軌並進建立美洲與歐洲雙區域防線。
 
@@ -217,7 +222,7 @@ BMW美國製造以燃油／混動為主，本土化BEV安排年底或2027年；�
 
 - 參見：[[sources/ev-news-2026-11-11b-digitimes]] | [[LGES]] | [[三星SDI]] | [[寧德時代]]
 
-## i3充電實測與台灣iX3訂單（2026-11）
+### i3充電實測與台灣iX3訂單（2026-11）
 
 > **結論**：新i3以平均275 kW充電、總充電2小時46分跑完近5,900公里；台灣iX3累計訂單逾3,000張。
 
@@ -227,7 +232,7 @@ BMW美國製造以燃油／混動為主，本土化BEV安排年底或2027年；�
 
 - 參見：[[sources/ev-news-2026-11-12-electrive-en]] | [[sources/ev-news-2026-11-12-digitimes]] | [[concepts/充電基礎建設]]
 
-## Woodruff電池廠投產（2026-11）
+### Woodruff電池廠投產（2026-11）
 
 > **結論**：BMW南卡Woodruff Gen6電池組裝廠量產，首供iX5（141 kWh），2030年前Spartanburg至少6款純電車。
 
@@ -236,3 +241,14 @@ BMW美國製造以燃油／混動為主，本土化BEV安排年底或2027年；�
 **觀察**：iX5量產爬坡與電芯來源確認。
 
 - 參見：[[sources/ev-news-2026-11-17-electrive-en]] | [[sources/ev-news-2026-11-17-insideevs]] | [[sources/ev-news-2026-11-17-cn-misc]] | [[concepts/電池技術路線]] | [[LGES]]
+
+## Related
+- [[entities/Volkswagen]]
+- [[entities/LGES]]
+- [[entities/三星SDI]]
+- [[concepts/電池技術路線]]
+- [[countries/德國]]
+- [[countries/美國]]
+- [[countries/歐洲]]
+- [[sources/lges-bmw-46series-order]]
+- [[sources/ev-news-2026-06-30-07-01]]

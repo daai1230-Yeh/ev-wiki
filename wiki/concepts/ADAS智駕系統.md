@@ -30,7 +30,11 @@ updated: 2026-11-17
 - 技術成熟後的終極應用，目前成本 >$8/km，需降至 $0.8/km 才具商業競爭力
 - 見 [[concepts/Robotaxi自動計程車]]
 
-## 豐田 Corolla vs Tesla FSD 訂閱制爭議（2026-04）
+## 2026-04 動態彙整
+
+> 本月逐批新增的動態；月底合併為一節 RRC 並更新頁首摘要與「簡報三段式」。
+
+### 豐田 Corolla vs Tesla FSD 訂閱制爭議（2026-04）
 
 - 豐田 Corolla 標配車道置中 + 自適應巡航（**免費**）
 - Tesla 2026-01 起，同類功能併入 FSD 訂閱（**$99/月**）
@@ -39,7 +43,7 @@ updated: 2026-11-17
 - 對 Tesla 的影響：FSD 訂閱是軟體收入支柱，Corolla 效應侵蝕其基礎需求理由
 - 參見：[[sources/toyota-adas-vs-fsd-subscription]]
 
-## 現代汽車 Pleos OS：SDV 軟體差異化策略（2026-04）
+### 現代汽車 Pleos OS：SDV 軟體差異化策略（2026-04）
 
 現代在 Ioniq 3 首搭「Pleos」作業系統，與 Tesla 全觸控路線形成鮮明對比：
 
@@ -55,6 +59,22 @@ updated: 2026-11-17
 - 同採 Android Automotive：Ford、Honda、BMW、Porsche
 - 未來：所有新款現代 EV 陸續搭載 Pleos
 - 參見：[[sources/hyundai-pleos-sdv-os]]
+
+### 禾賽 EXT：全球首款顏色辨識 LiDAR（2026-04）
+
+中國 LiDAR 大廠禾賽科技（Hesai）發布 EXT 感測器，標誌 LiDAR 競爭從成本轉向價值創新：
+
+| 項目 | 細節 |
+|------|------|
+| 核心晶片 | Picasso（自研）|
+| 技術突破 | 空間測距 + **顏色偵測**整合（全球首款）|
+| 關鍵應用 | 精準辨識紅綠燈顏色 → 提升自駕安全性 |
+| 量產時程 | **2027 年**旗艦車型 |
+| 中國市占 | **>40%**（理想汽車、小米、比亞迪、NVIDIA 供應）|
+
+- 禾賽 CEO：「若只追低價，將犧牲創造更高價值的創新機會」
+- LiDAR 必要性仍有爭議：Tesla/小鵬偏好純視覺；禾賽兼做人形機器人（Kosmo 手持設備）
+- 參見：[[sources/hesai-color-lidar-2026]]
 
 ## 車內感測 AI：DMS → 全艙多模態（Smart Eye，2026-04）
 
@@ -92,7 +112,11 @@ updated: 2026-11-17
 - **對車廠意義**：L2+ 成為「持續性收入（recurring revenue）」的關鍵
 - 參見：[[sources/l2plus-adas-adoption-2026]]
 
-## Rivian：中國 LiDAR 技術 × 美國本土生產（2026-05）
+## 2026-05 動態彙整
+
+> 本月逐批新增的動態；月底合併為一節 RRC 並更新頁首摘要與「簡報三段式」。
+
+### Rivian：中國 LiDAR 技術 × 美國本土生產（2026-05）
 
 - Rivian R2 車款將搭載**小型 LiDAR**（非 Waymo 大型旋轉式）
 - 合格低成本 LiDAR 幾乎全來自中國（禾賽科技、速騰聚創）
@@ -100,23 +124,7 @@ updated: 2026-11-17
 - 其他美國車廠也表達對此模式的興趣
 - 參見：[[sources/rivian-lidar-china-partner-2026]]
 
-## 禾賽 EXT：全球首款顏色辨識 LiDAR（2026-04）
-
-中國 LiDAR 大廠禾賽科技（Hesai）發布 EXT 感測器，標誌 LiDAR 競爭從成本轉向價值創新：
-
-| 項目 | 細節 |
-|------|------|
-| 核心晶片 | Picasso（自研）|
-| 技術突破 | 空間測距 + **顏色偵測**整合（全球首款）|
-| 關鍵應用 | 精準辨識紅綠燈顏色 → 提升自駕安全性 |
-| 量產時程 | **2027 年**旗艦車型 |
-| 中國市占 | **>40%**（理想汽車、小米、比亞迪、NVIDIA 供應）|
-
-- 禾賽 CEO：「若只追低價，將犧牲創造更高價值的創新機會」
-- LiDAR 必要性仍有爭議：Tesla/小鵬偏好純視覺；禾賽兼做人形機器人（Kosmo 手持設備）
-- 參見：[[sources/hesai-color-lidar-2026]]
-
-## 韓國首次大規模自駕實證：現代 × 起亞 Atria AI（2026-05）
+### 韓國首次大規模自駕實證：現代 × 起亞 Atria AI（2026-05）
 
 - 地點：南韓光州廣域市（501 平方公里）
 - 規模：**約 200 輛**量產車改裝，2026 下半啟動，2027 年擴全市
@@ -127,7 +135,11 @@ updated: 2026-11-17
 - 意義：韓國整車廠以自有 E2E 技術正式切入大規模城市自駕場景，不依賴 Waymo/Mobileye
 - 參見：[[sources/hyundai-kia-atria-ai-gwangju-2026]]
 
-## 比亞迪 4 奈米智駕晶片（2026-06-05）
+## 2026-06 動態彙整
+
+> 本月逐批新增的動態；月底合併為一節 RRC 並更新頁首摘要與「簡報三段式」。
+
+### 比亞迪 4 奈米智駕晶片（2026-06-05）
 
 比亞迪發布自研 **4 奈米製程智駕晶片**：
 - 達到高通 Snapdragon 8295（4nm）同等製程等級
@@ -136,7 +148,7 @@ updated: 2026-11-17
 - 中國車廠自研晶片趨勢：蔚來（NX9031「神璣」）、小鵬（XPILOT 系列）、比亞迪（本次）
 - 參見：[[sources/ev-news-digest-jun1-10-2026]] | [[concepts/中國EV市場競爭格局]]
 
-## Tesla FSD 七國歐洲上線（2026-06）
+### Tesla FSD 七國歐洲上線（2026-06）
 
 Tesla 以 **v14 軟體**在歐洲七國同步啟動 FSD（Full Self-Driving，仍屬 SAE L2 監督模式）：
 
@@ -150,6 +162,49 @@ Tesla 以 **v14 軟體**在歐洲七國同步啟動 FSD（Full Self-Driving，�
 | 分類 | SAE Level 2（駕駛須全程監看）|
 
 參見：[[sources/ev-news-2026-06-29]] | [[entities/Tesla]]
+
+### VW × Bosch L3 自動駕駛聯盟：解體評估（2026-06）
+
+VW 與 Bosch 於 2022 年成立的 L3 自動駕駛合作聯盟傳出解體討論：
+| 項目 | 細節 |
+|------|------|
+| 聯盟成立 | **2022 年**，VW 與 Bosch 共同開發 L2++ → L3 系統 |
+| 傳聞狀態 | 雙方均**否認**（both sides deny splitting），但市場高度懷疑 |
+| 分歧根源 | VW 在中國已與**地平線機器人（Horizon Robotics）**深度合作 L2 智駕；歐洲路線與中國路線發生策略衝突 |
+
+- VW 立場：「在中國、為中國」智駕策略由地平線主導，歐洲是否需要另一套獨立系統成問題
+- Bosch 立場：仍期望維持聯盟，但缺乏 VW 長期承諾
+- 意義：若解體確認，歐洲最大車廠與最大 Tier-1 零件商在 L3 路線上的分道揚鑣，將對歐洲自動駕駛生態造成深遠影響
+- 參見：[[sources/ev-news-2026-06-30-07-01]] | [[entities/Volkswagen]] | [[countries/德國]]
+
+### Tesla Cybercab：無方向盤版本上路測試（2026-06-30）
+
+Tesla Cybercab 在德州奧斯汀進行道路測試，確認無方向盤設計：
+| 項目 | 細節 |
+|------|------|
+| 測試時間 | 2026-06-30（公開目擊報告）|
+| 車輛設計 | **無方向盤、無油門/煞車踏板**（無駕駛控制介面）|
+| 安全監督員 | 坐在右側後方（非駕駛位），可能有遠端介入能力 |
+| 2027 目標 | 若計畫不變，應在 **2027 年前**完成監管許可並商業化 |
+
+- 挑戰：Tesla Cybercab 擬採私人所有制（vs Waymo/Zoox 的車隊運營模式），監管路徑差異大
+- Waymo/Zoox 模式：車隊集中管控 + 遠端監控，監管較易核准
+- Tesla 模式：個人車輛自動駕駛＋FSD 訂閱，規制框架尚不清晰
+- 參見：[[sources/ev-news-2026-06-30-07-01]] | [[entities/Tesla]] | [[countries/美國]]
+
+### Micron：L2+ 自駕車記憶體需求為普通車 5 倍，人形機器人為自駕車 10 倍（2026-06）
+
+美光（Micron）CEO 揭示自動駕駛記憶體需求的量化數據：
+| 應用 | 記憶體需求倍率 |
+|------|-------------|
+| 普通汽車 | 基準 1× |
+| **L2+ 自駕車** | **>5×** |
+| **人形機器人** | 約 **10×** L2+ 自駕車（即 >50× 普通車）|
+
+- HBM4（高頻寬記憶體第 4 代）出貨累計 **>$10 億**，12 層堆疊量產速度比 HBM3E 快 2 倍
+- 2026 年 HBM 產能**基本售罄**，預期緊缺延伸至 2027 年後
+- 意義：AI → 邊緣 AI → 實體 AI（自駕、機器人）形成數十年半導體超級週期
+- 參見：[[sources/ev-news-2026-06-29-zh]] | [[concepts/自動駕駛]]
 
 ## 中國 L3/L4 強制安全國家標準（2027-07 實施）
 
@@ -165,21 +220,11 @@ Tesla 以 **v14 軟體**在歐洲七國同步啟動 FSD（Full Self-Driving，�
 
 參見：[[sources/ev-news-2026-06-24]] | [[concepts/自動駕駛安全監管]]
 
-## VW × Bosch L3 自動駕駛聯盟：解體評估（2026-06）
+## 2026-07 動態彙整
 
-VW 與 Bosch 於 2022 年成立的 L3 自動駕駛合作聯盟傳出解體討論：
-| 項目 | 細節 |
-|------|------|
-| 聯盟成立 | **2022 年**，VW 與 Bosch 共同開發 L2++ → L3 系統 |
-| 傳聞狀態 | 雙方均**否認**（both sides deny splitting），但市場高度懷疑 |
-| 分歧根源 | VW 在中國已與**地平線機器人（Horizon Robotics）**深度合作 L2 智駕；歐洲路線與中國路線發生策略衝突 |
+> 本月逐批新增的動態；月底合併為一節 RRC 並更新頁首摘要與「簡報三段式」。
 
-- VW 立場：「在中國、為中國」智駕策略由地平線主導，歐洲是否需要另一套獨立系統成問題
-- Bosch 立場：仍期望維持聯盟，但缺乏 VW 長期承諾
-- 意義：若解體確認，歐洲最大車廠與最大 Tier-1 零件商在 L3 路線上的分道揚鑣，將對歐洲自動駕駛生態造成深遠影響
-- 參見：[[sources/ev-news-2026-06-30-07-01]] | [[entities/Volkswagen]] | [[countries/德國]]
-
-## 本田 × 日産 × 三菱：SDV ECU 共通化（2026-07，最早 2029 年車款）
+### 本田 × 日産 × 三菱：SDV ECU 共通化（2026-07，最早 2029 年車款）
 
 三菱 UFJ 銀行調停下，三家日本車廠確認共同開發 SDV（軟體定義車輛）架構：
 | 項目 | 細節 |
@@ -193,36 +238,7 @@ VW 與 Bosch 於 2022 年成立的 L3 自動駕駛合作聯盟傳出解體討論
 - 背景：本田 × 日産合並談判已中止，但技術合作層面維持（不需要合并即可共享 ECU 規格）
 - 參見：[[sources/ev-news-2026-06-30-07-01]] | [[entities/本田]] | [[entities/日産]] | [[countries/日本]]
 
-## Tesla Cybercab：無方向盤版本上路測試（2026-06-30）
-
-Tesla Cybercab 在德州奧斯汀進行道路測試，確認無方向盤設計：
-| 項目 | 細節 |
-|------|------|
-| 測試時間 | 2026-06-30（公開目擊報告）|
-| 車輛設計 | **無方向盤、無油門/煞車踏板**（無駕駛控制介面）|
-| 安全監督員 | 坐在右側後方（非駕駛位），可能有遠端介入能力 |
-| 2027 目標 | 若計畫不變，應在 **2027 年前**完成監管許可並商業化 |
-
-- 挑戰：Tesla Cybercab 擬採私人所有制（vs Waymo/Zoox 的車隊運營模式），監管路徑差異大
-- Waymo/Zoox 模式：車隊集中管控 + 遠端監控，監管較易核准
-- Tesla 模式：個人車輛自動駕駛＋FSD 訂閱，規制框架尚不清晰
-- 參見：[[sources/ev-news-2026-06-30-07-01]] | [[entities/Tesla]] | [[countries/美國]]
-
-## Micron：L2+ 自駕車記憶體需求為普通車 5 倍，人形機器人為自駕車 10 倍（2026-06）
-
-美光（Micron）CEO 揭示自動駕駛記憶體需求的量化數據：
-| 應用 | 記憶體需求倍率 |
-|------|-------------|
-| 普通汽車 | 基準 1× |
-| **L2+ 自駕車** | **>5×** |
-| **人形機器人** | 約 **10×** L2+ 自駕車（即 >50× 普通車）|
-
-- HBM4（高頻寬記憶體第 4 代）出貨累計 **>$10 億**，12 層堆疊量產速度比 HBM3E 快 2 倍
-- 2026 年 HBM 產能**基本售罄**，預期緊缺延伸至 2027 年後
-- 意義：AI → 邊緣 AI → 實體 AI（自駕、機器人）形成數十年半導體超級週期
-- 參見：[[sources/ev-news-2026-06-29-zh]] | [[concepts/自動駕駛]]
-
-## 日本 Robotaxi 商業化：GO 上市 + Tier IV IPO（2026-07）
+### 日本 Robotaxi 商業化：GO 上市 + Tier IV IPO（2026-07）
 
 日本 Robotaxi 市場出現兩大里程碑事件：
 
@@ -247,7 +263,7 @@ Tesla Cybercab 在德州奧斯汀進行道路測試，確認無方向盤設計�
 - Tier IV 估值比 2025 年高峰下調 35%，顯示市場對自動駕駛技術的商業化預期趨於保守
 - 參見：[[sources/ev-news-2026-07-02]] | [[countries/日本]]
 
-## GM × Micron 供應協議：DRAM +70%，汽車記憶體升級（2026-07）
+### GM × Micron 供應協議：DRAM +70%，汽車記憶體升級（2026-07）
 
 GM 與美光（Micron）簽署 **第 16 份供應協議（SCA）**，涵蓋汽車最新記憶體規格：
 
@@ -263,7 +279,7 @@ GM 與美光（Micron）簽署 **第 16 份供應協議（SCA）**，涵蓋汽�
 - 意義：ADAS/IVI 的記憶體需求持續擴張，L2+ 自駕車需求量是普通車 **5 倍以上**（見 Micron CEO 揭示數據）
 - 參見：[[sources/ev-news-2026-07-02]] | [[concepts/儲能市場]]
 
-## 電動車「電吸門」安全隱患：中國事故頻傳（2026-07）
+### 電動車「電吸門」安全隱患：中國事故頻傳（2026-07）
 
 中國電動車「電吸門（電動門吸）」設計安全爭議：
 | 指標 | 數值 |
@@ -282,7 +298,7 @@ GM 與美光（Micron）簽署 **第 16 份供應協議（SCA）**，涵蓋汽�
 - 意義：隨電動車電吸門從豪車標配下沉至大眾 NEV，安全標準制定成為迫切課題
 - 參見：[[sources/ev-news-2026-07-02]]
 
-## Ford × Micron 車用記憶體長約：車廠搶佔 DRAM 產能（2026-07）
+### Ford × Micron 車用記憶體長約：車廠搶佔 DRAM 產能（2026-07）
 
 > **結論**：繼 GM 之後，Ford 亦與美光敲定車用記憶體長期合約（LPDRAM/NOR Flash/UFS NAND），車廠「提前鎖定記憶體」從個案變成產業標配動作。
 
@@ -290,7 +306,7 @@ GM 與美光（Micron）簽署 **第 16 份供應協議（SCA）**，涵蓋汽�
 - 意涵：記憶體正式加入「車用晶片戰略物資」清單，SCA（戰略供應協議）模式從 SiC、稀土擴展至記憶體
 - 參見：[[sources/ev-news-2026-07-03-08]] | [[entities/福特]] | [[entities/通用汽車]]
 
-## AIDV 論述與 Tesla 的缺席（2026-07）
+### AIDV 論述與 Tesla 的缺席（2026-07）
 
 > **結論**：供應鏈指出 Tesla 從不談 AIDV（AI 定義汽車）的原因——其品牌本身就是 SDV/智駕的代名詞；AIDV 更像是其他車廠重新定位的敘事工具，商業價值尚無市場共識。
 
@@ -304,7 +320,7 @@ GM 與美光（Micron）簽署 **第 16 份供應協議（SCA）**，涵蓋汽�
 
 - 參見：[[sources/ev-news-2026-07-09]] | [[entities/Tesla]]
 
-## Stellantis × Mobileye：雲端REM平台強化免手動駕駛（2026-07）
+### Stellantis × Mobileye：雲端REM平台強化免手動駕駛（2026-07）
 
 > **結論**：Mobileye將向Stellantis供應雲端驅動ADAS技術，是全球十大車廠中第5家與Mobileye道路體驗管理（REM）平台合作的企業，2027年起導入車道維持與免手動駕駛功能。
 
@@ -317,7 +333,7 @@ GM 與美光（Micron）簽署 **第 16 份供應協議（SCA）**，涵蓋汽�
 
 - 參見：[[sources/ev-news-2026-07-21-22-digitimes]] | [[entities/Stellantis]]
 
-## VW×地平線Carizon目標2027下半年中國L3量產（2026-07）
+### VW×地平線Carizon目標2027下半年中國L3量產（2026-07）
 
 > **結論**：福斯與地平線機器人合資公司Carizon目標2027下半年在中國量產首款L3自駕系統，全場景ADAS已進入量產階段，2026 Q3起於3家中國合資企業7款電動車型部署。
 
@@ -325,13 +341,17 @@ GM 與美光（Micron）簽署 **第 16 份供應協議（SCA）**，涵蓋汽�
 - 產業背景：中國上半年逾30%新車配備進階領航輔助駕駛，國際車廠加速借助中國科技公司開發智駕能力（Stellantis×小馬智行歐洲Robotaxi、賓士×Momenta阿布達比Robotaxi）
 - 參見：[[sources/ev-news-2026-07-22-23-electrive-en]] | [[entities/Volkswagen]] | [[countries/中國]]
 
-## 印度ADAS民主化：單鏡頭方案降低導入門檻（2026-07）
+### 印度ADAS民主化：單鏡頭方案降低導入門檻（2026-07）
 
 第7屆ETAuto科技高峰會，Tata Motors與Mobileye就印度ADAS普及化展開討論：成本優化是關鍵，單一鏡頭搭配具成本效益晶片即可提供有效ADAS，降低價格敏感市場門檻；人類駕駛行為與接受度是印度路況下ADAS真正發揮效用的關鍵變數。Mobileye ADAS已獲Mahindra、Tata Motors採用，預測2027年前印度乘用車市場免持駕駛採用率將增加28%；與談者將2026年視為執行年，2027年隨法規演進迎來更廣泛部署。
 
 - 參見：[[sources/ev-news-2026-07-22-23-electrive-en]] | [[countries/印度]]
 
-## 日產、本田加速轉向E2E自動駕駛技術，結盟外部AI夥伴追趕美中車廠（2026-08）
+## 2026-08 動態彙整
+
+> 本月逐批新增的動態；月底合併為一節 RRC 並更新頁首摘要與「簡報三段式」。
+
+### 日產、本田加速轉向E2E自動駕駛技術，結盟外部AI夥伴追趕美中車廠（2026-08）
 
 > **結論**：日經新聞報導，日產、本田正加速轉向端到端（E2E）自動駕駛技術，並透過結盟外部AI新創/軟體/晶片業者的模式追趕已量產E2E的美中車廠，日產社長警告若日系車廠未來1~2年內無法搶先推出新型E2E自駕車，恐面臨被邊緣化、淪為單純汽車組裝廠的危機。
 
@@ -343,7 +363,7 @@ GM 與美光（Micron）簽署 **第 16 份供應協議（SCA）**，涵蓋汽�
 
 - 參見：[[sources/ev-news-2026-08-24-digitimes]] | [[countries/日本]] | [[concepts/Robotaxi自動計程車]]
 
-## 福特攜手蘋果Apple Maps，中國擬修法L3責任歸屬車廠（2026-08）
+### 福特攜手蘋果Apple Maps，中國擬修法L3責任歸屬車廠（2026-08）
 
 > **結論**：福特採用蘋果MapKit for Automotive套件開發新一代BlueCruise ADAS，標誌車廠與科技巨頭關係從CarPlay時代對立轉向務實合作；同期中國《道路交通安全法修訂草案》首次提請審議，傾向L3及以上自駕功能啟用期間發生事故由車廠承擔責任，終結全球車廠對中國成為L3法規鬆綁突破口的期待，兩則新聞共同指向自駕技術正從「單純賣點」邁向「須承擔法律與供應鏈責任的產品」新階段。
 
@@ -354,7 +374,7 @@ GM 與美光（Micron）簽署 **第 16 份供應協議（SCA）**，涵蓋汽�
 
 - 參見：[[sources/ev-news-2026-08-27-digitimes]] | [[entities/福特]] | [[countries/中國]]
 
-## 豐田發表L2++乘用車普及藍圖，規則導向+E2E混合模式差異化（2026-08）
+### 豐田發表L2++乘用車普及藍圖，規則導向+E2E混合模式差異化（2026-08）
 
 > **結論**：豐田宣布2028年將AI自動駕駛系統（端到端E2E技術，實現市區放手駕駛的L2++等級）推向市場、2030年起擴大搭載普及化，同時規劃2030年左右開發L4商用接駁車款，採取「規則導向（Rule-based）+ E2E AI」混合模式與Tesla及中國新興車廠的純E2E路線形成差異化。
 
@@ -366,7 +386,7 @@ GM 與美光（Micron）簽署 **第 16 份供應協議（SCA）**，涵蓋汽�
 
 - 參見：[[sources/ev-news-2026-08-28-digitimes]] | [[entities/豐田]] | [[countries/日本]]
 
-## 中國道交法修正案正式通過，L3自駕舉證責任倒置（2026-08）
+### 中國道交法修正案正式通過，L3自駕舉證責任倒置（2026-08）
 
 > **結論**：全國人大常委會8月28日正式通過《道路交通安全法修正案》，較8月25日首次提請審議僅隔3天，修法推進速度快於預期；正式條文明確「舉證責任倒置」——企業若認為違法行為與自駕功能無關，須自行承擔舉證責任，較先前草案更進一步保護消費者，象徵中國自駕監理正式從審議進入立法生效階段。
 
@@ -378,26 +398,11 @@ GM 與美光（Micron）簽署 **第 16 份供應協議（SCA）**，涵蓋汽�
 
 - 參見：[[sources/ev-news-2026-08-30-31-cn-misc]] | [[countries/中國]]
 
-## Related
-- [[entities/Tesla]]
-- [[entities/比亞迪]]
-- [[entities/豐田]]
-- [[entities/蔚來]]
-- [[entities/Rivian]]
-- [[concepts/自動駕駛安全監管]]
-- [[concepts/Robotaxi自動計程車]]
-- [[sources/byd-dipilot-adas-2026]]
-- [[sources/toyota-adas-vs-fsd-subscription]]
-- [[sources/nio-self-chip-denvidia]]
-- [[sources/hyundai-pleos-sdv-os]]
-- [[sources/in-cabin-ai-sensing-2026]]
-- [[sources/l2plus-adas-adoption-2026]]
-- [[sources/rivian-lidar-china-partner-2026]]
-- [[sources/hyundai-kia-atria-ai-gwangju-2026]]
-- [[sources/hesai-color-lidar-2026]]
-- [[sources/ev-news-2026-07-02]]
+## 2026-09 動態彙整
 
-## 中國智駕晶片開進深水區，量產、成本、自主研發成三大瓶頸（2026-09）
+> 本月逐批新增的動態；月底合併為一節 RRC 並更新頁首摘要與「簡報三段式」。
+
+### 中國智駕晶片開進深水區，量產、成本、自主研發成三大瓶頸（2026-09）
 
 > **結論**：地平線與黑芝麻智能最新半年報顯示，中國智駕晶片競爭已從「TOPS規格大戰」轉向更現實的量產轉化、成本控制與車廠自主研發三大瓶頸——地平線雖取得近500款車型專案，晶片毛利率卻由44.2%降至36.2%，反映高算力晶片商業模式的結構性壓力正逐漸浮現。
 
@@ -420,53 +425,57 @@ GM 與美光（Micron）簽署 **第 16 份供應協議（SCA）**，涵蓋汽�
 
 **補充**：Tier IV宣布開源自駕AI晶片設計劍指NVIDIA主導地位（「軟體定義SoC」概念），惟豐田Level 2++已採用NVIDIA「DRIVE AGX」；豐田同步跟隨日產、本田公開E2E AI自駕規畫，私家車Level 2++與商用車Level 4共用混合規則導向架構，2028年量產、2030年推廣商用車。參見：[[sources/ev-news-2026-09-16-digitimes]] | [[entities/豐田]]
 
-## ARTC自研DMS視線追蹤與橫向主動安全導入L3電巴；小鵬輸出智駕（2026-09）
+### ARTC自研DMS視線追蹤與橫向主動安全導入L3電巴；小鵬輸出智駕（2026-09）
 
 台灣ARTC在2026 TIE展出兩項自研技術並導入國內首輛L3自駕電巴：AI駕駛視線追蹤（口罩、墨鏡、逆光皆可辨識，約10 TOPS即可運行，對應UN R171／R157）與橫向主動安全系統（緊急避障、主動換道、最小風險管理，無需光達、可降約20%側撞與追撞、產值約30億元）；小鵬另計畫將智慧座艙、Turing晶片與ADAS軟體授權至VW以外車廠。意涵：法規導向的DMS與MRM成為L3落地的必要條件，台灣以低成本感測（影像＋雷達）路線切入。
 
 - 參見：[[sources/ev-news-2026-09-18-digest]] | [[sources/ev-news-2026-09-19-digest]] | [[sources/ev-news-2026-09-18-electrive-en]] | [[entities/小鵬汽車]] | [[countries/台灣]]
 
-## ARTC視線追蹤與橫向主動安全補充：王正健談SDV下的AI競爭核心（2026-09）
+### ARTC視線追蹤與橫向主動安全補充：王正健談SDV下的AI競爭核心（2026-09）
 
 第三度補充ARTC L3電巴技術報導：董事長王正健強調SDV趨勢下競爭核心在AI能力，車輛中心正布建「AI智慧移動載具測試場域」、「次世代車電研測大樓」與「車電資安中心」，整合既有14個實驗室群提供系統級開發測試、法規驗證與虛實整合服務。
 
 - 參見：[[sources/ev-news-2026-09-22-digest]] | [[sources/ev-news-2026-09-18-digest]] | [[countries/台灣]]
 
-## Tesla FSD捷克過關，歐盟全境表決最快10/6登場（2026-09）
+### Tesla FSD捷克過關，歐盟全境表決最快10/6登場（2026-09）
 
 捷克成為第7個承認荷蘭RDW臨時型式認證的歐盟成員國，歐盟技術委員會（TCMV）對此認證的全歐盟表決最快10月6日登場（需27國中15國、涵蓋65%人口的多數決通過）；Tesla另建置儀表板揭露FSD里程與事故數據，現於歐盟分類為SAE Level 2進階駕駛輔助。
 
 - 參見：[[sources/ev-news-2026-09-23-electrive-en]] | [[entities/Tesla]] | [[countries/歐洲]]
 
-## FSD歐盟表決延至年底、Rivian光達2026僅限員工、日產英國自駕研究（2026-10）
+## 2026-10 動態彙整
+
+> 本月逐批新增的動態；月底合併為一節 RRC 並更新頁首摘要與「簡報三段式」。
+
+### FSD歐盟表決延至年底、Rivian光達2026僅限員工、日產英國自駕研究（2026-10）
 
 Tesla FSD（Supervised）歐盟全境表決原訂10月、據路透確定延至2026年底；Rivian R2自研RAP1晶片與光達2026年底僅提供員工、2027年才供一般客戶；Xiaomi Sky Nomad全系搭載Nvidia Drive Thor（700 TOPS）；日產英國「ADventure」計畫在劍橋測試自駕客運。
 
 - 參見：[[sources/ev-news-2026-10-01-digitimes]] | [[sources/ev-news-2026-10-01-electrive-en]] | [[entities/Tesla]] | [[entities/Rivian]] | [[countries/歐洲]] | [[countries/英國]]
 
-## GM、Ford導入Google AI助理，Momenta NOA市佔64.5%（2026-10）
+### GM、Ford導入Google AI助理，Momenta NOA市佔64.5%（2026-10）
 
 GM以OTA將Gemini導入約400萬輛車、Ford先由手機App導入AI助理；Momenta城市NOA市佔64.5%、與全球前十大車廠中9家合作，並於7月取得德國全境L4城市道路測試核可。
 
 - 參見：[[sources/ev-news-2026-10-05-digitimes]] | [[entities/通用汽車]] | [[entities/福特]]
 
-## 德國力挺放行FSD、Applied Intuition助日廠SDV（2026-10）
+### 德國力挺放行FSD、Applied Intuition助日廠SDV（2026-10）
 
 德國交通部長力挺歐盟核准Tesla FSD，若卡關擬以國家方案認可荷蘭核准，歐盟表決延至12月；Applied Intuition與本田（Vehicle OS）、日產（車載OS與AI工具）合作加速SDV。
 
 - 參見：[[sources/ev-news-2026-10-12-digitimes]] | [[entities/Tesla]] | [[entities/本田]] | [[entities/日産]]
 
-## 日本：E2E與車路協同並行（2026-10）
+### 日本：E2E與車路協同並行（2026-10）
 
 日產AI Drive（Wayve）、速霸陸路車協調、豐田智慧燈桿；中國推車路雲一體化，Waymo偏E2E。
 
 - 參見：[[sources/ev-news-2026-10-16-digitimes]]
 
-## Tesla FSD集體訴訟遭駁回（2026-10）
+### Tesla FSD集體訴訟遭駁回（2026-10）
 
 - 參見：[[sources/ev-news-2026-10-19-digest]] | [[entities/Tesla]]
 
-## Volvo×NVIDIA；華為乾崑×寧德換電；Subaru自研ECU（2026-10）
+### Volvo×NVIDIA；華為乾崑×寧德換電；Subaru自研ECU（2026-10）
 
 - Volvo擴大與NVIDIA合作（Hyperion／Alpamayo／Halos），2030年前搭載、排除中國市場。
 - 華為乾崑智駕結合寧德巧克力換電，99秒全自動換電。
@@ -474,19 +483,19 @@ GM以OTA將Gemini導入約400萬輛車、Ford先由手機App導入AI助理；Mom
 
 - 參見：[[sources/ev-news-2026-10-20-digitimes]] | [[sources/ev-news-2026-10-20-insideevs]]
 
-## 鴻海×三菱電機：DMS與L4基礎（2026-10）
+### 鴻海×三菱電機：DMS與L4基礎（2026-10）
 
 Mitsubishi Electric Mobility的ADAS／SDV軟體與DMS將融入鴻海EV平台。
 
 - 參見：[[sources/ev-news-2026-10-22-digitimes]]
 
-## Tesla自研地圖、NVIDIA Hyperion與Alpamayo擴張（2026-10）
+### Tesla自研地圖、NVIDIA Hyperion與Alpamayo擴張（2026-10）
 
 Tesla計畫與FSD v15同步上線自研AI地圖；NVIDIA Hyperion／Alpamayo夥伴擴及Bolt、Lucid、賓士（MB.DRIVE ASSIST PRO德國將核准）、福斯商旅、Volvo；GM第四代平台的中央運算2028年支援首套eyes-off系統。
 
 - 參見：[[sources/ev-news-2026-10-27-digitimes-tesla]] | [[sources/ev-news-2026-10-27-digitimes]] | [[sources/ev-news-2026-10-27-insideevs]]
 
-## 多感測器 vs 純視覺；福斯中國L3與軟體換血；哈曼蘇州（2026-10）
+### 多感測器 vs 純視覺；福斯中國L3與軟體換血；哈曼蘇州（2026-10）
 
 > **結論**：Tesla純視覺路線再遭挑戰——GM產品長稱捨棄雷達「忽略物理」，GM 2028年Escalade IQ超級巡航強化版將採雷達＋光達＋鏡頭；福斯則在中國取得合肥L3測試許可並考慮把中國軟體架構導入歐洲。
 
@@ -499,7 +508,7 @@ Tesla計畫與FSD v15同步上線自研AI地圖；NVIDIA Hyperion／Alpamayo夥�
 
 - 參見：[[sources/ev-news-2026-10-29-electrive-en]] | [[sources/ev-news-2026-10-29-insideevs]] | [[sources/ev-news-2026-10-29-digitimes]] | [[concepts/Robotaxi自動計程車]] | [[entities/通用汽車]] | [[entities/Volkswagen]] | [[entities/小鵬汽車]] | [[countries/中國]] | [[countries/韓國]]
 
-## 福斯VEGA與L4路線圖；本田2027年L4；鴻海Model A+預留L4（2026-10）
+### 福斯VEGA與L4路線圖；本田2027年L4；鴻海Model A+預留L4（2026-10）
 
 > **結論**：福斯中國自研L2++ HyperSense 8於2026年量產上車七款新車，L3 2027年、L4 2029年；本田亦宣示2027年左右L4、2030年前後以AI取代高精地圖。
 
@@ -521,3 +530,22 @@ Tesla計畫與FSD v15同步上線自研AI地圖；NVIDIA Hyperion／Alpamayo夥�
 **觀察**：賓士加州Beta測試；Drive Assist Pro定價。
 
 - 參見：[[sources/ev-news-2026-11-17-insideevs]] | [[sources/ev-news-2026-11-17-digitimes]] | [[sources/ev-news-2026-11-17-electrive-en]] | [[concepts/自動駕駛安全監管]] | [[Volkswagen]]
+
+## Related
+- [[entities/Tesla]]
+- [[entities/比亞迪]]
+- [[entities/豐田]]
+- [[entities/蔚來]]
+- [[entities/Rivian]]
+- [[concepts/自動駕駛安全監管]]
+- [[concepts/Robotaxi自動計程車]]
+- [[sources/byd-dipilot-adas-2026]]
+- [[sources/toyota-adas-vs-fsd-subscription]]
+- [[sources/nio-self-chip-denvidia]]
+- [[sources/hyundai-pleos-sdv-os]]
+- [[sources/in-cabin-ai-sensing-2026]]
+- [[sources/l2plus-adas-adoption-2026]]
+- [[sources/rivian-lidar-china-partner-2026]]
+- [[sources/hyundai-kia-atria-ai-gwangju-2026]]
+- [[sources/hesai-color-lidar-2026]]
+- [[sources/ev-news-2026-07-02]]

@@ -2513,3 +2513,10 @@ Pages 375 → 406，Sources 315 → 346
 - New pages created: 無
 - Key additions: Tesla格林海德30億歐元擴建（2029年Cybercab）；賓士暫停德國新投資；Cybercab 29,990美元＋299美元／月個人購買；TAD歐盟十國批准、12月TCMV需15國＋65%人口；鴻華ASX VR-e首批出海澳紐；三星SDI Jupiter Power 16 GWh LFP；韓國10月汽車出口65.5億美元；全球EV 10月年增約8%；寧德時代換電2027年6,000座；加拿大ZEVIP續編5.87億加元
 - 備註: Digitimes剪輯檔無單篇網址，已於來源頁註明；BMW iX5電芯來源（LGES vs AESC vs 中國供應）、Cybercab服務區（德州5城 vs 德州與佛州）、TAD批准國數（十國 vs 近12國）待核對；InsideEVs Model 3保養指南為贊助內容；Dacia電動Sandero屬傳聞；多篇為前批事件之補充來源（Cybercab、Model Y、理想、BMW電池供應）
+
+## [2026-11-18] maintenance | ingest 流程優化與簡報三段式
+- 工具：新增 tools/ingest/（dedupe.py：標題＋原文網址去重、同一事件提示、贊助／AI稿／新聞稿標記；wikiupd.py：來源頁、月份區塊寫入、待核對登錄；consolidate.py：月份章節收攏）
+- 結構：82 個 concept／entity／country 頁的 1,739 個帶月份章節收進「## YYYY-MM 動態彙整」（降一級標題、內容逐行比對零遺失，重複 Related 合併）；Tesla 頁頂層章節 69→18
+- New pages created: [[待核對清單]]（27 筆未結案，10–11 月來源頁彙整）、[[templates/簡報三段式模板]]
+- Pages updated: [[concepts/台灣EV市場]]（頁首摘要更新：Tesla 市占 >75% 已過時→1~10月約54%；新增「簡報三段式」示範）
+- 備註: Digitimes CarTech 剪輯檔的產生程式尚未確認（非 news-clipper），網址問題待使用者說明剪輯方式

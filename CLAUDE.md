@@ -122,11 +122,14 @@ When the user says "ingest [source]" or drops a file into `raw/`:
 3. Create `wiki/sources/[source-name].md` — a structured summary page.
    - **必填**：frontmatter 的 `sources:` 欄位必須填入對應的 `raw/assets/` 檔名。
    - 格式：`sources: [filename.md]`（可多個，逗號分隔）
-4. Identify 5–15 existing wiki pages that need updating based on new info.
+4. Identify the existing wiki pages that gain **substantive new data or judgments** (quality over count; do not update a page just to touch it).
 5. Update those pages: revise claims, add cross-references, note contradictions.
    **新增/大改章節一律採 RRC 三層結構＋數字敘事，並使用 DIGITIMES 專業用語（見 Page Conventions）。**
-   5a. **國家頁面**：同步更新 `wiki/countries/` 下對應的國家/地區頁面（政策、市場、產業動態）。
-6. If a key entity or concept has no page, create one.
+   - 逐批新增的章節放進該頁「## YYYY-MM 動態彙整」（`tools/ingest/wikiupd.py` 的 `Batch.add()` 會自動處理）；月底再合併成一節月度總結並更新頁首摘要。
+   - 數字矛盾或未證實消息：來源頁標「待核對」，並登錄 `wiki/待核對清單.md`。
+   5a. **國家頁面**：有實質新數據時同步更新 `wiki/countries/` 下對應的國家/地區頁面。
+6. If a key entity or concept has no page, create one（同一公司或機構出現在 ≥3 個來源頁即建實體頁）。
+   6a. **簡報三段式**：concept 頁頁首摘要後的「## 簡報三段式」（格式見 `wiki/templates/簡報三段式模板.md`）每月重寫一次；新資料推翻其中某點時即時修正。
 7. Update `wiki/index.md` — add the new source summary and any new pages.
 8. Append to `wiki/log.md`:
    ```

@@ -25,7 +25,11 @@ updated: 2026-11-11
 | **Renault 4**（R4）| 52 kWh（Comfort）| 409 km | ~€28,000 |
 | **Renault Twingo** | ~35 kWh | ~300 km | ~€18,000（預估）|
 
-## R4 / R5 Gen2 動力系統升級（2026-06）
+## 2026-06 動態彙整
+
+> 本月逐批新增的動態；月底合併為一節 RRC 並更新頁首摘要與「簡報三段式」。
+
+### R4 / R5 Gen2 動力系統升級（2026-06）
 
 Renault 宣布改良 AmpR Small 平台 Gen2（第二代）動力系統：
 | 項目 | 細節 |
@@ -39,6 +43,14 @@ Renault 宣布改良 AmpR Small 平台 Gen2（第二代）動力系統：
 - 競爭壓力：VW ID. Polo（155kW/454km）、Škoda Epiq（155kW/440km+）價格競爭力強
 - 參見：[[sources/ev-news-2026-06-27-29-en]] | [[concepts/電池技術路線]]
 
+### Flexis：電動廂型車全資收購（2026-06）
+
+Renault 宣布全資收購 **Flexis** 電動廂型車合資公司：
+- Flexis 原為 Renault + Volvo + Schneider Electric 三方合資
+- 全資收購後，Renault 完全掌控電動商用廂型車業務
+- 意義：加速電動 LCV（輕型商用車）產品線，與 Stellantis 在歐洲商用 EV 市場競爭
+- 參見：[[sources/renault-flexis-acquisition-2026]]
+
 ## 法國 EV 社會租賃計畫受益
 
 法國 EV 社會租賃計畫前三輪均有 Renault 車型入選：
@@ -51,14 +63,6 @@ Renault 宣布改良 AmpR Small 平台 Gen2（第二代）動力系統：
 - Renault 是法國 EV 社會租賃計畫的最大受益車廠，符合歐洲製造（CO₂ 足跡）門檻
 - 第三輪目標 5 萬輛；Renault 車型預計為主要熱門選項
 - 參見：[[concepts/充電基礎建設]] | [[countries/歐洲]]
-
-## Flexis：電動廂型車全資收購（2026-06）
-
-Renault 宣布全資收購 **Flexis** 電動廂型車合資公司：
-- Flexis 原為 Renault + Volvo + Schneider Electric 三方合資
-- 全資收購後，Renault 完全掌控電動商用廂型車業務
-- 意義：加速電動 LCV（輕型商用車）產品線，與 Stellantis 在歐洲商用 EV 市場競爭
-- 參見：[[sources/renault-flexis-acquisition-2026]]
 
 ## 電動馬達製造：法國 Cléon 廠
 
@@ -79,56 +83,55 @@ Renault 宣布全資收購 **Flexis** 電動廂型車合資公司：
 
 - 參見：[[sources/ev-news-2026-07-09]] | [[entities/比亞迪]] | [[entities/吉利汽車]]
 
-## Related
-- [[entities/Volkswagen]]
-- [[concepts/電池技術路線]]
-- [[concepts/充電基礎建設]]
-- [[countries/歐洲]]
-- [[countries/法國]]
-- [[sources/renault-flexis-acquisition-2026]]
-- [[sources/ev-news-2026-06-27-29-en]]
+## 2026-09 動態彙整
 
-## R5 E-Tech英國更新開賣、R8 Gordini純電復刻概念車（2026-09）
+> 本月逐批新增的動態；月底合併為一節 RRC 並更新頁首摘要與「簡報三段式」。
+
+### R5 E-Tech英國更新開賣、R8 Gordini純電復刻概念車（2026-09）
 
 英國開放預購改款R5 E-Tech，售價不變、續航微增（40kWh版315公里、52kWh版430公里）；巴黎香榭麗舍展廳發表R8 Gordini純電復刻概念車（單一原型，200kW馬達），延續Showcar R17 Electric Restomod、R5 Diamant復古系列，10月巴黎車展同步展出。
 
 - 參見：[[sources/ev-news-2026-09-26-electrive-en]] | [[countries/英國]] | [[countries/歐洲]]
 
-## 西班牙投資6億歐元，新RGEV Medium 2.0平台生產C級距電動車（2026-09）
+### 西班牙投資6億歐元，新RGEV Medium 2.0平台生產C級距電動車（2026-09）
 
 雷諾宣布2030年前投資6億歐元升級Valladolid與Palencia兩廠，生產5款新車型（含2款C級距電動車），新增電池組裝線；新車採800V架構「RGEV Medium 2.0」平台，WLTP續航上看750公里（增程版1,400公里）、快充10分鐘可用。Dacia Hipster微型電動車傳2027年沿用中國eGT合資產線量產，L7e級距可能規避歐盟對中國製M1級電動車關稅。
 
 - 參見：[[sources/ev-news-2026-09-28-electrive-en]] | [[sources/ev-news-2026-09-29-electrive-en]] | [[countries/歐洲]] | [[countries/中國]]
 
-## 更新版Scenic／Megane E-Tech英國開賣（2026-10）
+## 2026-10 動態彙整
+
+> 本月逐批新增的動態；月底合併為一節 RRC 並更新頁首摘要與「簡報三段式」。
+
+### 更新版Scenic／Megane E-Tech英國開賣（2026-10）
 
 Scenic E-Tech 89kWh版WLTP 642公里、15-80%由37分縮至28分鐘（英國33,245英鎊起）；Megane E-Tech改採67kWh LFP電池、WLTP 493公里、DC 165kW（28,245英鎊起）；德國Megane 34,990歐元、Scenic 42,590歐元。
 
 - 參見：[[sources/ev-news-2026-10-05-electrive-en]] | [[countries/英國]]
 
-## 法國投資逾100億歐元、阿根廷新皮卡、平價電動車熱銷（2026-10）
+### 法國投資逾100億歐元、阿根廷新皮卡、平價電動車熱銷（2026-10）
 
 Renault執行長Provost表示未來五年擬在法國投資逾100億歐元（以政治社會條件為前提）；futuREady計畫2030年在歐洲推22款新車（16款純電）；Renault上半年電動車銷量+63.2%（5 E-Tech、Twingo熱賣）、德國補貼核准第六；9月宣布在阿根廷哥多華廠生產新皮卡。
 
 - 參見：[[sources/ev-news-2026-10-06-electrive-en]] | [[sources/ev-news-2026-10-05-digitimes]] | [[concepts/平價電動車市場]] | [[countries/歐洲]]
 
-## Renault Trucks與Volvo獲Geodis 110輛電動重卡訂單（2026-10）
+### Renault Trucks與Volvo獲Geodis 110輛電動重卡訂單（2026-10）
 
 Geodis向Renault Trucks與Volvo Trucks確定訂購110輛44噸純電卡車（2027年5月前交車，主要在法國），電動卡車合計達190輛，並規劃每250~500公里的電動走廊（2030年逾200個充電點）。
 
 - 參見：[[sources/ev-news-2026-10-07-electrive-en]] | [[concepts/電動卡車市場]] | [[countries/歐洲]]
 
-## 與EDF推V2G方案、E-Space概念車（2026-10）
+### 與EDF推V2G方案、E-Space概念車（2026-10）
 
 Renault集團與EDF明年夏季在法國推出雙向充電套裝（車＋壁掛充電樁＋智慧管理），Renault、Alpine、Dacia車主可回送電網；巴黎車展發表致敬Espace的E-Space純電MPV概念車。
 
 - 參見：[[sources/ev-news-2026-10-13-14-electrive-en]] | [[concepts/充電基礎建設]]
 
-## 巴黎車展電動Espace／R4（2026-10）
+### 巴黎車展電動Espace／R4（2026-10）
 
 - 參見：[[sources/ev-news-2026-10-15-electrive-en]]
 
-## 傳考慮5年投資100億歐元擴小型純電車（2026-10）
+### 傳考慮5年投資100億歐元擴小型純電車（2026-10）
 
 日經中文網稱歐洲EV有300萬輛電池缺口；雷諾考慮5年內投資100億歐元（Google快訊摘錄，未查證全文）。
 
@@ -143,3 +146,12 @@ Renault集團與EDF明年夏季在法國推出雙向充電套裝（車＋壁掛�
 **觀察**：Dacia正式宣布與歐洲生產地。
 
 - 參見：[[sources/ev-news-2026-11-11-electrive-en]] | [[concepts/歐洲EV市場]] | [[countries/印度]] | [[countries/歐洲]]
+
+## Related
+- [[entities/Volkswagen]]
+- [[concepts/電池技術路線]]
+- [[concepts/充電基礎建設]]
+- [[countries/歐洲]]
+- [[countries/法國]]
+- [[sources/renault-flexis-acquisition-2026]]
+- [[sources/ev-news-2026-06-27-29-en]]

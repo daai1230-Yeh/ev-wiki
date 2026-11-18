@@ -54,7 +54,11 @@ Waymo 以 **$2.2 億美元**收購 Apple 位於亞利桑那州的 **5,500 英畝
 
 - 參見：[[sources/ev-news-2026-08-30-31-cn-misc]] | [[sources/ev-news-2026-08-31-digitimes]] | [[entities/現代汽車]] | [[entities/豐田]]
 
-## 全自動駕駛2億英里報告，十大啟示暗批Tesla三隱患（2026-09）
+## 2026-09 動態彙整
+
+> 本月逐批新增的動態；月底合併為一節 RRC 並更新頁首摘要與「簡報三段式」。
+
+### 全自動駕駛2億英里報告，十大啟示暗批Tesla三隱患（2026-09）
 
 > **結論**：Waymo AI基礎部門主管Srikanth Thirumalai根據旗下車輛累積逾2億英里全自駕里程，發布十項自駕AI安全啟示，其中三項未點名但明顯針對Tesla現行純視覺+端到端FSD策略提出質疑，凸顯兩家業者在技術路線與商業化規模上的根本分歧。
 
@@ -66,28 +70,23 @@ Waymo 以 **$2.2 億美元**收購 Apple 位於亞利桑那州的 **5,500 英畝
 
 - 參見：[[sources/ev-news-2026-09-01-digitimes]] | [[entities/Tesla]] | [[concepts/Robotaxi自動計程車]]
 
-## Related
-- [[concepts/Robotaxi自動計程車]]
-- [[concepts/ADAS智駕系統]]
-- [[countries/美國]]
-- [[entities/Tesla]]
-- [[sources/waymo-arizona-expansion-2026]]
-- [[sources/waymo-miami-orlando-expansion]]
-- [[sources/waymo-battery-secondlife-colorado-recycling-2026]]
-
-## 擴至丹佛/聖地牙哥/坦帕，首度挑戰降雪常態化城市（2026-09）
+### 擴至丹佛/聖地牙哥/坦帕，首度挑戰降雪常態化城市（2026-09）
 
 Waymo新開放丹佛、聖地牙哥、坦帕三城市無安全員自駕載客服務，其中丹佛（年均降雪56英寸）是Waymo首個常態性降雪城市部署，遠超此前最冷據點納什維爾（年均不到5英寸），標誌Waymo自駕運營範圍首度由溫帶氣候城市延伸至冬季氣候更嚴苛的地區。聖地牙哥與丹佛率先導入新款Zeekr Ojai車型；官方安全部落格強調惡劣天氣（暴雨、沙塵暴）下車輛會自動安全停車而非強行運行，尚未明確說明降雪天候下的具體運營限制。Waymo此前已在密西根州Novi、紐約州Buffalo進行降雪測試，並曾規劃底特律、紐約市服務（紐約因當地法規受阻），顯示其正逐步累積應對降雪環境的技術準備。
 
 - 參見：[[sources/ev-news-2026-09-02-electrive-en]] | [[countries/美國]] | [[concepts/Robotaxi自動計程車]]
 
-## 宣布2028年進軍新加坡（2026-10）
+## 2026-10 動態彙整
+
+> 本月逐批新增的動態；月底合併為一節 RRC 並更新頁首摘要與「簡報三段式」。
+
+### 宣布2028年進軍新加坡（2026-10）
 
 Waymo與新加坡MOT與LTA合作，2027年起測試、2028年向公眾提供全自動駕駛服務，為東南亞首站；新加坡現有16輛自駕乘用車，預期Waymo加入後增至數百輛，與ComfortDelGro、Grab同場競爭。
 
 - 參見：[[sources/ev-news-2026-10-07-electrive-en]] | [[concepts/Robotaxi自動計程車]] | [[countries/東南亞]]
 
-## 2027年底車隊20,000輛計畫（2026-10）
+### 2027年底車隊20,000輛計畫（2026-10）
 
 > **結論**：Semafor報導，2026年底8,000輛、2027年底20,000輛；已取得50億美元債務融資，15城、每週逾50萬次付費行程；倫敦、東京測試，加拿大、新加坡、西班牙已宣布。
 
@@ -96,13 +95,17 @@ Waymo與新加坡MOT與LTA合作，2027年起測試、2028年向公眾提供全�
 
 - 參見：[[sources/ev-news-2026-10-22-insideevs]] | [[concepts/Robotaxi自動計程車]]
 
-## 首次發行債券、擴張海外（2026-10）
+### 首次發行債券、擴張海外（2026-10）
 
 50億美元債務可證券化租賃合約；累計逾2,000萬趟付費行程；馬德里、東京、倫敦、多倫多時程；文遠知行×Uber已取得西班牙全國測試許可。
 
 - 參見：[[sources/ev-news-2026-10-27-digitimes]]
 
-## 與豐田合作日英Robotaxi、NHTSA識別燈（2026-11）
+## 2026-11 動態彙整
+
+> 本月逐批新增的動態；月底合併為一節 RRC 並更新頁首摘要與「簡報三段式」。
+
+### 與豐田合作日英Robotaxi、NHTSA識別燈（2026-11）
 
 > **結論**：Waymo與豐田2027年在日本測試bZ4X Robotaxi，先從靠左行駛的日本、英國起步；NHTSA提案的青色自駕識別燈讓Waymo車隊可依規格選配。
 
@@ -112,7 +115,7 @@ Waymo與新加坡MOT與LTA合作，2027年起測試、2028年向公眾提供全�
 
 - 參見：[[sources/ev-news-2026-11-02-digitimes]] | [[sources/ev-news-2026-11-02-cn-misc]] | [[concepts/Robotaxi自動計程車]] | [[entities/豐田]] | [[entities/NHTSA]] | [[countries/日本]] | [[countries/英國]]
 
-## 聖地牙哥佔用公共快充；Hyundai供應Ioniq 5 Robotaxi（2026-11）
+### 聖地牙哥佔用公共快充；Hyundai供應Ioniq 5 Robotaxi（2026-11）
 
 > **結論**：Waymo在聖地牙哥的車隊使公共快充排隊30–60分鐘，地方要求更多管理權；Waymo稱營運成熟後自建專用站；Hyundai預告供應數以萬計Ioniq 5 Robotaxi。
 
@@ -122,7 +125,7 @@ Waymo與新加坡MOT與LTA合作，2027年起測試、2028年向公眾提供全�
 
 - 參見：[[sources/ev-news-2026-11-04-digitimes]] | [[sources/ev-news-2026-11-04-insideevs]] | [[concepts/Robotaxi自動計程車]] | [[concepts/充電基礎建設]] | [[entities/現代汽車]] | [[countries/美國]]
 
-## 退出Uber（2028-01）、豐田產線整合、佔用公共快充（2026-11）
+### 退出Uber（2028-01）、豐田產線整合、佔用公共快充（2026-11）
 
 > **結論**：Waymo將於2028-01在奧斯汀與亞特蘭大退出Uber、改走自家App；與豐田合作改在高岡工廠產線整合Gen 6；公共快充占用爭議持續。
 
@@ -131,3 +134,12 @@ Waymo與新加坡MOT與LTA合作，2027年起測試、2028年向公眾提供全�
 **觀察**：2028-01自家App體驗；新增12城名單。
 
 - 參見：[[sources/ev-news-2026-11-06-electrive-en]] | [[sources/ev-news-2026-11-06-insideevs]] | [[sources/ev-news-2026-11-06-digitimes]] | [[concepts/Robotaxi自動計程車]] | [[concepts/充電基礎建設]] | [[entities/豐田]] | [[countries/美國]]
+
+## Related
+- [[concepts/Robotaxi自動計程車]]
+- [[concepts/ADAS智駕系統]]
+- [[countries/美國]]
+- [[entities/Tesla]]
+- [[sources/waymo-arizona-expansion-2026]]
+- [[sources/waymo-miami-orlando-expansion]]
+- [[sources/waymo-battery-secondlife-colorado-recycling-2026]]

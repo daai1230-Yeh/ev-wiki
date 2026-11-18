@@ -45,13 +45,11 @@ VinFast 是越南最大企業集團 Vingroup 旗下的電動車品牌，被稱�
 
 - 參見：[[sources/ev-news-2026-07-20-21-electrive-en]] | [[countries/東南亞]]
 
-## Related
-- [[concepts/地理市場/印度EV市場]]
-- [[concepts/地理市場/東南亞EV市場]]
-- [[sources/vinfast-india-investment]]
-- [[sources/ev-news-2026-07-20-21-electrive-en]]
+## 2026-09 動態彙整
 
-## 印度策略改為市場專屬車款（2026-09）
+> 本月逐批新增的動態；月底合併為一節 RRC 並更新頁首摘要與「簡報三段式」。
+
+### 印度策略改為市場專屬車款（2026-09）
 
 > **結論**：VinFast承認全球車款在印度無法達成在地製造成本目標，暫停VF 6／7／3的在地化開發，改評估代號VF X（目標低於1.2萬美元，對標Tata Punch.ev／Nexon.ev）與VF Y。
 
@@ -60,32 +58,42 @@ VinFast 是越南最大企業集團 Vingroup 旗下的電動車品牌，被稱�
 
 - 參見：[[sources/ev-news-2026-09-18-electrive-en]] | [[countries/印度]] | [[concepts/印度EV市場]]
 
-## Green SM印尼推電動計程車，新韓金融擴大越南資本市場合作（2026-09）
+### Green SM印尼推電動計程車，新韓金融擴大越南資本市場合作（2026-09）
 
 VinFast叫車子公司Green SM在印尼推出500輛Limo Green電動計程車（NEDC續航450公里）與電動機車租賃計畫；韓國新韓金融集團同步將與越南母公司Vingroup的合作由汽車金融延伸至資本市場，取得Vingroup首次阿里郎債券獨家主辦業務（目標2026年Q4發行），此前新韓越南銀行已為VinFast購車客戶累計承作1億美元貸款、上半年為約1.4萬輛VinFast電動機車提供150億韓元分期融資。越南2025年電動車市佔近四成，躍居東南亞最大電動車市場，VinFast旗下V-Green為越南最大充電網（逾15萬樁）。
 
 - 參見：[[sources/ev-news-2026-09-22-electrive-en]] | [[sources/ev-news-2026-09-22-digest]] | [[countries/東南亞]] | [[countries/韓國]]
 
-## VF Wild：越南首款EREV皮卡發表（2026-09）
+### VF Wild：越南首款EREV皮卡發表（2026-09）
 
 量產版VF Wild改採增程式電動車（原2024年概念車為純電），160kW馬達＋46.4kWh LFP電池純電續航逾250公里（NEDC）、綜合續航逾1,000公里；越南售價860萬~872萬越南盾（約2.8萬~2.9萬歐元），9月25~30日預購享折扣。呼應同週豐田、本田等日系車廠集體轉向EREV的趨勢。
 
 - 參見：[[sources/ev-news-2026-09-23-electrive-en]] | [[countries/東南亞]]
 
-## 越南新創Dat Bike挑戰換電龍頭地位，主張不需複雜生態系（2026-09）
+### 越南新創Dat Bike挑戰換電龍頭地位，主張不需複雜生態系（2026-09）
 
 越南新創Dat Bike發表家庭用電動機車ERA（整合式充電器直接嵌入動力系統），創辦人主張電動機車不需仰賴龐大換電網路即可取代燃油車；相對VinFast以406,453輛（近2024年5倍）穩居越南龍頭，已鋪設4,500座換電站並計劃2026年Q1前建成4.5萬座電池櫃。
 
 - 參見：[[sources/ev-news-2026-09-29-digitimes]] | [[countries/東南亞]]
 
-## Green SM洛杉磯電動計程車（2026-10）
+## 2026-10 動態彙整
+
+> 本月逐批新增的動態；月底合併為一節 RRC 並更新頁首摘要與「簡報三段式」。
+
+### Green SM洛杉磯電動計程車（2026-10）
 
 Green SM進歐約一個月後於10月13日在洛杉磯部署首批電動計程車（VF 8，起價39,900美元）。
 
 - 參見：[[sources/ev-news-2026-10-16-electrive-en]] | [[countries/美國]]
 
-## 河內53輛電動巴士；進軍美國巴士市場（2026-10）
+### 河內53輛電動巴士；進軍美國巴士市場（2026-10）
 
 Transerco導入28輛Green Bus與25輛EB8；VinFast巴士年產能3,000輛，APTA期間宣布經NexMove進入美國電動巴士市場。
 
 - 參見：[[sources/ev-news-2026-10-20-bus-digest]] | [[concepts/電動巴士市場]]
+
+## Related
+- [[concepts/地理市場/印度EV市場]]
+- [[concepts/地理市場/東南亞EV市場]]
+- [[sources/vinfast-india-investment]]
+- [[sources/ev-news-2026-07-20-21-electrive-en]]

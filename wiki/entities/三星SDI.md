@@ -47,7 +47,11 @@ updated: 2026-11-17
 - LGES / SK On 固態電池目標量產：2029 年（三星SDI 早約 2 年）
 - 參見：[[sources/samsung-sdi-solid-state-production-2026]]
 
-## 全固態電池獲客戶肯定：2027H2 量產有譜（2026-07）
+## 2026-07 動態彙整
+
+> 本月逐批新增的動態；月底合併為一節 RRC 並更新頁首摘要與「簡報三段式」。
+
+### 全固態電池獲客戶肯定：2027H2 量產有譜（2026-07）
 
 > **結論**：三星SDI 首度由高階主管公開全固態電池進度，樣品獲全球客戶正面評價，2027 下半量產目標維持不變——與放慢腳步的寧德時代形成鮮明對比。
 
@@ -63,7 +67,7 @@ updated: 2026-11-17
 
 - 參見：[[sources/ev-news-2026-07-03-08]] | [[concepts/電池技術路線]]
 
-## 美國產線傳供 Tesla ESS：第二家美國本土供應商（2026-07）
+### 美國產線傳供 Tesla ESS：第二家美國本土供應商（2026-07）
 
 > **結論**：三星SDI 傳於 StarPlus Energy 第一廠建置 300Ah 級 LFP 產線供應 Tesla ESS，成為繼 LGES 密西根蘭辛廠後第二座在美供應 Tesla ESS 電池的產地。
 
@@ -71,46 +75,45 @@ updated: 2026-11-17
 - 2026-01 已公告合約規模約 3~5 兆韓元（$20.1~33.6 億），業界推估主要客戶即為 Tesla，此為首次正式供貨
 - 參見：[[sources/ev-news-2026-07-14-16-digitimes]] | [[entities/Tesla]] | [[concepts/儲能市場]]
 
-## Related
-- [[entities/LGES]]
-- [[entities/SK On]]
-- [[concepts/電池與技術/電池技術路線]]
-- [[concepts/地理市場/歐洲EV市場]]
-- [[sources/samsung-sdi-mercedes-battery-deal]]
-- [[sources/samsung-sdi-mercedes-confirmed-deal]]
-- [[sources/samsung-sdi-solid-state-production-2026]]
+## 2026-09 動態彙整
 
-## 全固態電池量產倒數，採購團隊赴中國布局電解質供應鏈（2026-09）
+> 本月逐批新增的動態；月底合併為一節 RRC 並更新頁首摘要與「簡報三段式」。
+
+### 全固態電池量產倒數，採購團隊赴中國布局電解質供應鏈（2026-09）
 
 三星SDI採購團隊傳於2026年8月中旬造訪中國電解液龍頭天賜材料生產基地，延續自2025年以來的既有供應合作，此舉受中國業界高度關注，主因三星SDI相對積極的全固態電池量產時程——規劃2027年商業化，投資16兆韓元（約118億美元）於南韓蔚山廠建置全球首座全固態電池量產線，較寧德時代（2027年小量生產、2030年目標大規模量產）更為積極。天賜材料已於2026年在硫化物系固態電解質試產線上開始試產；三星SDI同時與南韓EcoPro BM等本土材料商就固態電解質供應展開協商。三星SDI計劃先將全固態電池應用於人形機器人等實體AI（Physical AI）領域，再逐步擴大至電動車應用。
 
 - 參見：[[sources/ev-news-2026-09-04-digitimes]] | [[concepts/電池技術路線]] | [[countries/韓國]]
 
-## 重啟美國Synergy Cells投資，轉攻ESS用LFP、Tesla可望成客戶（2026-09）
+### 重啟美國Synergy Cells投資，轉攻ESS用LFP、Tesla可望成客戶（2026-09）
 
 結束與GM合資後，將原規劃電動車用NCA電池廠Synergy Cells（印第安納州）轉為獨資，優先建置ESS用LFP電池產線，市場傳最終客戶為Tesla，量產時程可能較原訂2028年底提前約一季；投資規模達數兆韓元，部分資金料來自出售三星顯示器約33%股權（約4.45兆韓元）。
 
 - 參見：[[sources/ev-news-2026-09-24-digitimes]] | [[entities/Tesla]] | [[concepts/儲能市場]] | [[countries/韓國]] | [[countries/美國]]
 
-## Mercedes多元化電池供應：三星SDI高鎳NCM、LGES 46100（2026-10）
+## 2026-10 動態彙整
+
+> 本月逐批新增的動態；月底合併為一節 RRC 並更新頁首摘要與「簡報三段式」。
+
+### Mercedes多元化電池供應：三星SDI高鎳NCM、LGES 46100（2026-10）
 
 三星SDI於2026年4月與Mercedes簽訂多年期高鎳NCM供應合約；同期傳LGES為Mercedes規劃46100圓柱電池，顯示Mercedes多元化電池規格與供應來源。
 
 - 參見：[[sources/ev-news-2026-10-02-digitimes]] | [[entities/LGES]]
 
-## Mercedes多元供應：四月首份長約之後LGES 46100也加入（2026-10）
+### Mercedes多元供應：四月首份長約之後LGES 46100也加入（2026-10）
 
 Mercedes今年4月與三星SDI簽首份長期電池供應合約，並同步引入LGES 46100圓柱電芯（2028年供貨）、CATL，過往也向SK On與Farasis採購。
 
 - 參見：[[sources/ev-news-2026-10-05-electrive-en]] | [[entities/LGES]]
 
-## 評估鈉離子電池量產，預期2027年公布計畫（2026-10）
+### 評估鈉離子電池量產，預期2027年公布計畫（2026-10）
 
 三星SDI正評估鈉離子電池量產、預期2027年公布量產計畫；SK On目標2027年完成鈉電池原型；南韓政府2027~2031年投入約4,000億韓元研發。
 
 - 參見：[[sources/ev-news-2026-10-07-digitimes]] | [[entities/LGES]] | [[concepts/鈉離子電池]]
 
-## BBU用圓柱型LFP電池（2026-10）
+### BBU用圓柱型LFP電池（2026-10）
 
 > **結論**：最快2027年6月於馬來西亞芙蓉第二廠量產，為南韓電池業首例將LFP導入圓柱型備援電池。
 
@@ -119,17 +122,17 @@ Mercedes今年4月與三星SDI簽首份長期電池供應合約，並同步引�
 
 - 參見：[[sources/ev-news-2026-10-15-digitimes]] | [[concepts/儲能市場]] | [[concepts/電池技術路線]] | [[countries/東南亞]]
 
-## 馬來西亞2170 LFP（BBU）目標2027Q2量產（2026-10）
+### 馬來西亞2170 LFP（BBU）目標2027Q2量產（2026-10）
 
 - 參見：[[sources/ev-news-2026-10-27-digitimes]]
 
-## 美國ESS追加1GWh（2026-10）
+### 美國ESS追加1GWh（2026-10）
 
 > **結論**：三星SDI與AOP簽1GWh追加合約（累計1.5GWh），NCA方形SBB 1.7由印第安納州StarPlus廠生產。
 
 - 參見：[[sources/ev-news-2026-10-29-digitimes]] | [[concepts/儲能市場]]
 
-## 3Q26營益創12季新高（2026-10）
+### 3Q26營益創12季新高（2026-10）
 
 > **結論**：三星SDI 3Q26營業利益4,078億韓元，轉虧為盈並創12季新高，ESS與LFP、全固態樣品為重點。
 
@@ -137,7 +140,11 @@ Mercedes今年4月與三星SDI簽首份長期電池供應合約，並同步引�
 
 - 參見：[[sources/ev-news-2026-10-30-digitimes]] | [[concepts/儲能市場]] | [[concepts/電池技術路線]]
 
-## 傳取得Atlas初期電池供貨（2026-11）
+## 2026-11 動態彙整
+
+> 本月逐批新增的動態；月底合併為一節 RRC 並更新頁首摘要與「簡報三段式」。
+
+### 傳取得Atlas初期電池供貨（2026-11）
 
 > **結論**：韓媒稱三星SDI將承接現代Atlas初期多數電池、短期可能獨家；並擴大無極耳設計，但Atlas電芯是否採用未證實。
 
@@ -145,7 +152,7 @@ Mercedes今年4月與三星SDI簽首份長期電池供應合約，並同步引�
 
 - 參見：[[sources/ev-news-2026-11-11-digitimes]] | [[concepts/人形機器人]] | [[entities/現代汽車]]
 
-## 卡位BMW Neue Klasse（2026-11）
+### 卡位BMW Neue Klasse（2026-11）
 
 > **結論**：三星SDI以匈牙利Göd廠（目標2028年量產）供應BMW 46系列，降低歐洲供應對中國的依賴。
 
@@ -155,7 +162,7 @@ Mercedes今年4月與三星SDI簽首份長期電池供應合約，並同步引�
 
 - 參見：[[sources/ev-news-2026-11-11b-digitimes]] | [[BMW]] | [[LGES]]
 
-## 與現代集團固態專利、機器人電池（2026-11）
+### 與現代集團固態專利、機器人電池（2026-11）
 
 > **結論**：三星SDI與現代／起亞合作由供貨延伸至電池組共同設計與固態量產製程，3Q營業利益4,078億韓元（去年同期虧5,913億）。
 
@@ -165,7 +172,7 @@ Mercedes今年4月與三星SDI簽首份長期電池供應合約，並同步引�
 
 - 參見：[[sources/ev-news-2026-11-12-cn-misc]] | [[現代汽車]] | [[concepts/電池技術路線]]
 
-## 21700 LFP圓柱（2026-11）
+### 21700 LFP圓柱（2026-11）
 
 > **結論**：三星SDI同期推21700 LFP圓柱電池，自高鎳三元擴至LFP。
 
@@ -175,7 +182,7 @@ Mercedes今年4月與三星SDI簽首份長期電池供應合約，並同步引�
 
 - 參見：[[sources/ev-news-2026-11-16-digitimes]] | [[LGES]] | [[concepts/儲能市場]]
 
-## Jupiter Power 16 GWh LFP（2026-11）
+### Jupiter Power 16 GWh LFP（2026-11）
 
 > **結論**：三星SDI自2029年起3年供Jupiter Power 16 GWh LFP（約3兆~4兆韓元），累計約27 GWh。
 
@@ -184,3 +191,12 @@ Mercedes今年4月與三星SDI簽首份長期電池供應合約，並同步引�
 **觀察**：StarPlus產能。
 
 - 參見：[[sources/ev-news-2026-11-17-digitimes]] | [[concepts/儲能市場]]
+
+## Related
+- [[entities/LGES]]
+- [[entities/SK On]]
+- [[concepts/電池與技術/電池技術路線]]
+- [[concepts/地理市場/歐洲EV市場]]
+- [[sources/samsung-sdi-mercedes-battery-deal]]
+- [[sources/samsung-sdi-mercedes-confirmed-deal]]
+- [[sources/samsung-sdi-solid-state-production-2026]]

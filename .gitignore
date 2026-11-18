@@ -16,3 +16,6 @@ __pycache__/
 # Editor
 .vscode/
 *.swp
+
+# ingest tool outputs
+tools/ingest/out/

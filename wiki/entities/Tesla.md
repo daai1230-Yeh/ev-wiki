@@ -109,7 +109,11 @@ updated: 2026-11-17
 
 參見：[[sources/駐外新聞-美國-2025]] | [[entities/寧德時代]]
 
-## FSD 歐洲七國上線（2026-06）
+## 2026-06 動態彙整
+
+> 本月逐批新增的動態；月底合併為一節 RRC 並更新頁首摘要與「簡報三段式」。
+
+### FSD 歐洲七國上線（2026-06）
 
 Tesla FSD（Full Self-Driving，SAE Level 2 監督模式）以 **v14 軟體**擴展至歐洲七國：
 
@@ -125,11 +129,7 @@ v14 架構升級強化神經網路感知，歐洲大規模收集訓練數據。
 
 參見：[[sources/ev-news-2026-06-29]] | [[concepts/ADAS智駕系統]] | [[countries/歐洲]]
 
-## 競爭壓力
-- 小米 2027 年目標進軍歐洲，大量從 Tesla 德國團隊挖角
-- Rivian R2 能效超越 Tesla Model Y Performance
-
-## Cybercab：無方向盤版本德州路測（2026-06-30）
+### Cybercab：無方向盤版本德州路測（2026-06-30）
 
 Tesla Cybercab 在德州奧斯汀進行公路測試，確認無方向盤設計：
 | 項目 | 細節 |
@@ -144,7 +144,15 @@ Tesla Cybercab 在德州奧斯汀進行公路測試，確認無方向盤設計�
 - 實際進度落後：德州登記數量僅 42 輛（vs Musk 承諾 1,000+）
 - 參見：[[sources/ev-news-2026-06-30-07-01]] | [[concepts/ADAS智駕系統]] | [[countries/美國]]
 
-## 電池健康度案例：展示車車齡效應（2026-07）
+## 競爭壓力
+- 小米 2027 年目標進軍歐洲，大量從 Tesla 德國團隊挖角
+- Rivian R2 能效超越 Tesla Model Y Performance
+
+## 2026-07 動態彙整
+
+> 本月逐批新增的動態；月底合併為一節 RRC 並更新頁首摘要與「簡報三段式」。
+
+### 電池健康度案例：展示車車齡效應（2026-07）
 
 一輛 2022 年 Tesla Model 3 Performance（前展示車）的實測電池健康度揭示展示車歷史的影響：
 
@@ -161,7 +169,7 @@ Tesla Cybercab 在德州奧斯汀進行公路測試，確認無方向盤設計�
 - Tesla 保固標準：電池容量低於 70% 在 8 年或里程保固內才觸發換電
 - 參見：[[sources/ev-news-2026-07-02]]
 
-## Q2 2026 全球交車 48 萬輛：年增 25% 回神（2026-07）
+### Q2 2026 全球交車 48 萬輛：年增 25% 回神（2026-07）
 
 > **結論**：Tesla Q2 2026 交車 480,126 輛，大幅優於市場預期，但全球 BEV 冠軍仍由比亞迪蟬聯。
 
@@ -174,7 +182,7 @@ Tesla Cybercab 在德州奧斯汀進行公路測試，確認無方向盤設計�
 
 - 參見：[[sources/ev-news-2026-07-03-08]]
 
-## 韓國 H1 2026：市佔 28.2% 狠甩現代汽車（2026-07）
+### 韓國 H1 2026：市佔 28.2% 狠甩現代汽車（2026-07）
 
 > **結論**：Tesla 上半年在韓售出約 5.6 萬輛，與現代汽車差距擴大至 1.4 倍，全年上看 10 萬輛。
 
@@ -187,7 +195,7 @@ Tesla Cybercab 在德州奧斯汀進行公路測試，確認無方向盤設計�
 
 - 參見：[[sources/ev-news-2026-07-09]] | [[countries/韓國]]
 
-## 德國 Grünheide：電芯量產 18 GWh + Cell Giga Challenge（2026-07）
+### 德國 Grünheide：電芯量產 18 GWh + Cell Giga Challenge（2026-07）
 
 > **結論**：Tesla 將柏林廠電芯產能規劃由 8 GWh 上修至 18 GWh，並首開先例讓新創進入產線實測技術。
 
@@ -199,14 +207,14 @@ Tesla Cybercab 在德州奧斯汀進行公路測試，確認無方向盤設計�
 
 - 參見：[[sources/ev-news-2026-07-09]] | [[countries/德國]]
 
-## 台灣 6 月：進口車全品牌冠軍（2026-07）
+### 台灣 6 月：進口車全品牌冠軍（2026-07）
 
 > **結論**：Tesla 6 月在台掛牌 4,369 輛創歷史新高，登進口車全品牌榜首，在台車主突破 8 萬人。
 
 - 全台 **70% 以上超充站**同步改採新優惠費率 → 以充電成本優勢鞏固市佔
 - 參見：[[sources/ev-news-2026-07-03-08]] | [[countries/台灣]]
 
-## 中國 EV 保值率榜首：三年車齡 61.2%（2026-07）
+### 中國 EV 保值率榜首：三年車齡 61.2%（2026-07）
 
 > **結論**：中汽協三年車齡 BEV 保值率榜，Tesla 包辦前三名，大幅領先中國本土品牌約 10~14 個百分點。
 
@@ -214,7 +222,7 @@ Tesla Cybercab 在德州奧斯汀進行公路測試，確認無方向盤設計�
 - 核心差異：二手流通管道完善 + 改款節奏穩定；中國品牌迭代過快反而壓縮舊車殘值 → 「內捲」的隱性代價浮現
 - 參見：[[sources/ev-news-2026-07-03-08]] | [[countries/中國]]
 
-## 紐澤西擬立法禁純視覺 Robotaxi 技術（2026-07）
+### 紐澤西擬立法禁純視覺 Robotaxi 技術（2026-07）
 
 > **結論**：紐澤西州法案要求自駕車須配備攝影機以外兩種獨立感測技術，直接挑戰 Tesla 純視覺自駕路線的合法性，紐約州亦有類似草案研擬中。
 
@@ -227,7 +235,7 @@ Tesla Cybercab 在德州奧斯汀進行公路測試，確認無方向盤設計�
 
 - 參見：[[sources/ev-news-2026-07-10-insideevs-batch]] | [[concepts/自動駕駛安全監管]]
 
-## Q2 分市場解讀：歐洲強、美國穩、中國緩跌（2026-07）
+### Q2 分市場解讀：歐洲強、美國穩、中國緩跌（2026-07）
 
 > **結論**：Tesla Q2 全球交車 48 萬輛的成長主要由歐洲插電車市場整體 booming 帶動，而非單靠品牌力回升，美國本土與中國市場實際仍呈現下滑。
 
@@ -241,7 +249,7 @@ Tesla Cybercab 在德州奧斯汀進行公路測試，確認無方向盤設計�
 
 - 參見：[[sources/ev-news-2026-07-11]] | [[countries/美國]] | [[countries/歐洲]]
 
-## Q2 交付創高但股價重挫；LGES 擴大供應（2026-07）
+### Q2 交付創高但股價重挫；LGES 擴大供應（2026-07）
 
 > **結論**：Tesla Q2 交付創紀錄 48 萬輛，財報發布後股價卻重挫 8%，LGES 同步擴大南京廠圓柱電芯產能以支應成長訂單。
 
@@ -255,7 +263,7 @@ Tesla Cybercab 在德州奧斯汀進行公路測試，確認無方向盤設計�
 
 - 參見：[[sources/ev-news-2026-07-12-13-digest]] | [[sources/ev-news-2026-07-12-13-electrive]] | [[sources/ev-news-2026-07-13-digitimes]] | [[entities/LGES]]
 
-## NTSB 證實德州撞民宅致死案為駕駛人為超速（2026-07）
+### NTSB 證實德州撞民宅致死案為駕駛人為超速（2026-07）
 
 > **結論**：NTSB 調查證實德州 Katy 撞民宅致死案駕駛啟動 FSD 後手動介入將油門踩到底，時速飆至 70 英里（限速僅 30 英里），支持 Tesla「駕駛個人行為主因」的主張。
 
@@ -263,14 +271,14 @@ Tesla Cybercab 在德州奧斯汀進行公路測試，確認無方向盤設計�
 - 背景：NHTSA 自 2016 年來已對疑似涉及自動輔助駕駛的 Tesla 車禍展開近 50 起特別調查，通報約 24 起死亡案例
 - 參見：[[sources/ev-news-2026-07-14-16-insideevs]] | [[concepts/自動駕駛安全監管]]
 
-## 美國充電市佔跌破 50%；LGES/三星SDI 供應南京擴產（2026-07）
+### 美國充電市佔跌破 50%；LGES/三星SDI 供應南京擴產（2026-07）
 
 - 美國 Q2 新建充電埠 Tesla 市佔首次跌破 **50%**（僅佔 27%），Walmart、ChargePoint 急起直追
 - LGES 南京第九廠首度投產供應 Tesla 圓柱電池；三星SDI 傳於美國 StarPlus Energy 廠建置 ESS 產線供應 Tesla
 - 詳見：[[entities/LGES]] | [[entities/三星SDI]] | [[concepts/充電基礎建設]]
 - 參見：[[sources/ev-news-2026-07-14-16-insideevs]] | [[sources/ev-news-2026-07-14-16-digitimes]]
 
-## Optimus人形機器人7月底量產：電動車共用平台優勢（2026-07）
+### Optimus人形機器人7月底量產：電動車共用平台優勢（2026-07）
 
 > **結論**：Tesla人形機器人Optimus將於7月底正式啟動量產，DIGITIMES Research分析認為Tesla憑藉電動車累積的技術平台（電池、AI晶片、E2E神經網路）具備規模化生產人形機器人的獨特優勢。
 
@@ -284,7 +292,7 @@ Tesla Cybercab 在德州奧斯汀進行公路測試，確認無方向盤設計�
 
 - 參見：[[sources/ev-news-2026-07-21-22-digitimes]] | [[concepts/人形機器人]]
 
-## 德國Grünheide：2025財報淨利成長但產量下滑，電芯擴產至18GWh（2026-07）
+### 德國Grünheide：2025財報淨利成長但產量下滑，電芯擴產至18GWh（2026-07）
 
 > **結論**：Tesla德國子公司Tesla Manufacturing Brandenburg SE 2025財年淨利成長至€7,710萬（前一年€5,680萬），但產量與營收雙雙下滑，同時規劃2026年大幅提升產能並擴大電芯自製規模。
 
@@ -297,7 +305,7 @@ Tesla Cybercab 在德州奧斯汀進行公路測試，確認無方向盤設計�
 
 - 參見：[[sources/ev-news-2026-07-20-21-electrive-en]] | [[countries/德國]]
 
-## Q2 2026財報：交車創紀錄但獲利承壓、自由現金流轉負（2026-07）
+### Q2 2026財報：交車創紀錄但獲利承壓、自由現金流轉負（2026-07）
 
 > **結論**：Tesla Q2交車480,126輛創歷史新高（+25% YoY），營收282.4億美元優於預期，但淨利年減5%、毛利率降至16.8%，自由現金流兩年多來首次轉負（-11億美元），資本支出年增142%達57.9億美元反映AI/機器人投入全面加速。
 
@@ -310,19 +318,19 @@ Tesla Cybercab 在德州奧斯汀進行公路測試，確認無方向盤設計�
 
 - 參見：[[sources/ev-news-2026-07-22-24-digitimes]] | [[sources/ev-news-2026-07-22-23-electrive-en]]
 
-## Grünheide員工背包攝影機訓練Optimus；Reutlingen擴大機器人零件開發（2026-07）
+### Grünheide員工背包攝影機訓練Optimus；Reutlingen擴大機器人零件開發（2026-07）
 
 Tesla將在德國Grünheide廠讓部分員工配戴背包式攝影機記錄組裝動作，用以訓練人形機器人Optimus（美國已有「數據收集操作員」採用類似方式）；同時在Reutlingen（2025年向破產機械廠Manz收購部分廠址）擴大機器人業務，招募專才開發感測器、齒輪箱、致動器等零件及量產設備。據《Handelsblatt》報導，此計畫尚未與員工工會討論，德國勞動法下監控員工行為/績效的技術系統可能須經共同決定程序。Tesla目前僅在加州Fremont廠中試產線生產Optimus，未公開產量，長期目標為年產能100萬台工廠。
 
 - 參見：[[sources/ev-news-2026-07-22-23-electrive-en]] | [[concepts/人形機器人]] | [[countries/德國]]
 
-## 加州開設首座公共1.2MW Megacharger（2026-07）
+### 加州開設首座公共1.2MW Megacharger（2026-07）
 
 Tesla在加州Bloomington開設首座全規模公共Semi兆瓦充電站，6個充電位、每位最高1.2MW，支援新MC2接頭（30分鐘充至60%）。此前一座較小規模站（2位、第一代MC1接頭、最高750kW）原被視為首座公共Megacharger站。Tesla目標北美至少64個據點，未來或擴展加拿大。
 
 - 參見：[[sources/ev-news-2026-07-22-23-electrive-en]] | [[concepts/充電基礎建設]] | [[concepts/電動卡車市場]]
 
-## 股價單週重挫18%：市場質疑250億資本支出回報時程（2026-07）
+### 股價單週重挫18%：市場質疑250億資本支出回報時程（2026-07）
 
 > **結論**：Tesla Q2財報後股價單週重挫18%（約330美元跌至313美元附近），市場並非質疑營收（優於預期），而是質疑EPS疲弱+資本支出加碼（250億美元）的燒錢速度能否被Robotaxi/FSD商業化進度跟上。
 
@@ -331,7 +339,7 @@ Tesla在加州Bloomington開設首座全規模公共Semi兆瓦充電站，6個�
 
 - 參見：[[sources/ev-news-2026-07-25-27-digitimes]] | [[countries/台灣]]
 
-## AI資本支出「與Big Tech反向脫節」：250億美元執行進度落後（2026-07）
+### AI資本支出「與Big Tech反向脫節」：250億美元執行進度落後（2026-07）
 
 > **結論**：相較Alphabet、Amazon、Meta、微軟2026資本支出預測合計7,250億美元，Tesla原定250億美元已顯保守，但上半兩季實際僅執行83億美元，市場質疑「支出過少不可能實現目標」——沒有支出就沒有成長。
 
@@ -345,13 +353,17 @@ Tesla在加州Bloomington開設首座全規模公共Semi兆瓦充電站，6個�
 
 - 參見：[[sources/ev-news-2026-07-28-digitimes]] | [[concepts/人形機器人]] | [[concepts/Robotaxi自動計程車]]
 
-## 累計產量突破1,000萬輛：距Musk薪酬方案里程碑僅過半（2026-07）
+### 累計產量突破1,000萬輛：距Musk薪酬方案里程碑僅過半（2026-07）
 
 Tesla本週在Fremont廠達成累計生產1,000萬輛電動車，自2020年達成第100萬輛以來僅費時6年，是全球首家達成八位數產量的專業電動車製造商（比亞迪2024年已達1,000萬輛新能源車銷量但含PHEV）。此數字也是Musk約1兆美元薪酬方案中2,000萬輛營運里程碑的一半，須達2,000萬輛才能解鎖該筆分期。惟近兩年成長明顯停滯：2023年交車創紀錄181萬輛後連兩年下滑，Cybertruck未達預期銷量、Robotaxi推展緩慢；Q2交車年增25%為正面訊號（歐洲高油價推升需求），美國本月推出加長版Model Y L，據報也在開發Bolt級距小型EV。汽車業務仍是資助AI/機器人/自駕投資的資金來源，維持投資需賣出遠超1,000萬輛的規模。
 
 - 參見：[[sources/ev-news-2026-07-28-30-electrive-en]] | [[concepts/人形機器人]]
 
-## 累計產量破千萬＋中國分拆傳聞＋懸吊調查（2026-08）
+## 2026-08 動態彙整
+
+> 本月逐批新增的動態；月底合併為一節 RRC 並更新頁首摘要與「簡報三段式」。
+
+### 累計產量破千萬＋中國分拆傳聞＋懸吊調查（2026-08）
 
 > **結論**：累計產量破 1,000 萬輛、成首家達標的純電車廠，但同週面臨 WSJ 中國分拆報導與 NHTSA 120 萬輛懸吊調查——規模里程碑與地緣、品質風險並存。
 
@@ -364,7 +376,7 @@ Tesla本週在Fremont廠達成累計生產1,000萬輛電動車，自2020年達�
 
 - 參見：[[sources/ev-news-2026-08-01-03-en]] | [[sources/ev-news-2026-08-01-03-cn]] | [[entities/NHTSA]]
 
-## 累計產量破1,000萬輛，但FSD歐洲受挫、HW3過熱爭議浮現（2026-08）
+### 累計產量破1,000萬輛，但FSD歐洲受挫、HW3過熱爭議浮現（2026-08）
 
 > **結論**：Tesla累計產量達1,000萬輛純電車里程碑，但增長動能已連兩年下滑；FSD在法國遭正式拒絕核准，加上部分HW3車主反映V14 Lite更新後電腦過熱，顯示Tesla「賣車動能停滯、轉押Robotaxi/Optimus」的策略正面臨多重技術與監管考驗。
 
@@ -378,7 +390,7 @@ Tesla本週在Fremont廠達成累計生產1,000萬輛電動車，自2020年達�
 
 - 參見：[[sources/ev-news-2026-08-04-06-digitimes]] | [[sources/ev-news-2026-08-03-06-electrive-en]] | [[sources/ev-news-2026-08-04-06-cn-misc]] | [[concepts/Robotaxi自動計程車]]
 
-## Terafab AI晶片基地首投資168億美元，特斯拉/SpaceX市值蒸發1.4兆美元（2026-08）
+### Terafab AI晶片基地首投資168億美元，特斯拉/SpaceX市值蒸發1.4兆美元（2026-08）
 
 > **結論**：SpaceX×Tesla啟動德州Terafab半導體園區（首期168億美元），為Musk打造晶片-能源-AI-太空垂直整合版圖鋪路；但同期特斯拉+SpaceX合計市值已蒸發約1.4兆美元，凸顯「整併敘事」尚未獲市場買單。
 
@@ -396,19 +408,19 @@ Tesla本週在Fremont廠達成累計生產1,000萬輛電動車，自2020年達�
 
 - 參見：[[sources/ev-news-2026-08-06-10-cn-misc]]
 
-## FSD硬體世代反應時間實測：HW4比HW3快近6成（2026-08）
+### FSD硬體世代反應時間實測：HW4比HW3快近6成（2026-08）
 
 YouTuber實測顯示，搭載HW4與最新FSD v14.3.4的車輛反應時間0.450秒，較搭載HW3且執行舊版v12.6.4的車輛（1.065秒）快57.8%；同為HW3但升級至v14 Lite後反應時間降至0.675秒，較舊軟體快36.6%，顯示軟體升級可大幅改善舊硬體表現但仍不及新硬體。Tesla計劃為新一代HW4倍增記憶體，並開發更強大的AI5晶片以支援更密集的推論模型。
 
 - 參見：[[sources/ev-news-2026-08-07-10-electrive-en]]
 
-## 「飛行版」二代Roadster傳本月發表，搭載SpaceX推進器（2026-08）
+### 「飛行版」二代Roadster傳本月發表，搭載SpaceX推進器（2026-08）
 
 第二代Roadster自2017年首度發表以來歷經多次延遲，傳將於SpaceX德州McGregor測試場展示搭載SpaceX冷氣推進器技術的限量版本（不具道路合法性、遙控演示，售價恐達數十萬至百萬美元），同場並展示標準版Roadster。
 
 - 參見：[[sources/ev-news-2026-08-13-15-electrive-en]]
 
-## 資本支出翻倍至58億美元，重金壓注AI與Robotaxi擺脫傳統車廠定位（2026-08）
+### 資本支出翻倍至58億美元，重金壓注AI與Robotaxi擺脫傳統車廠定位（2026-08）
 
 > **結論**：Cybercab傳最快8月啟動美國公開道路載客測試，Tesla資本支出較去年翻倍達近58億美元、絕大部分投入AI專案，凸顯Musk正押注全公司資源將Tesla重新定位為AI/自駕企業而非傳統車廠，但Robotaxi累計無人駕駛里程（38萬英里）仍與Waymo（逾2.2億英里）差距懸殊。
 
@@ -425,7 +437,7 @@ YouTuber實測顯示，搭載HW4與最新FSD v14.3.4的車輛反應時間0.450�
 
 - 參見：[[sources/ev-news-2026-08-20-digitimes]] | [[sources/ev-news-2026-08-19-20-cn-misc]]
 
-## Semi歐洲進軍9月IAA公布規格；內華達取得5,000輛Robotaxi配額（2026-08）
+### Semi歐洲進軍9月IAA公布規格；內華達取得5,000輛Robotaxi配額（2026-08）
 
 > **結論**：Tesla商用與自駕兩條業務線同步取得進展——Semi電動卡車確認將於9月漢諾威IAA Transportation公布歐洲市場規格與上市細節（緊接瑞典物流商Einride採購500輛Semi的史上最大訂單），同時內華達州核准Tesla在克拉克郡（拉斯維加斯所在地）部署最高5,000輛付費Robotaxi，配額規模為Waymo、Uber的5倍。
 
@@ -438,7 +450,7 @@ YouTuber實測顯示，搭載HW4與最新FSD v14.3.4的車輛反應時間0.450�
 
 - 參見：[[sources/ev-news-2026-08-21-digitimes]] | [[sources/ev-news-2026-08-21-23-electrive-en]] | [[concepts/電動卡車市場]] | [[concepts/Robotaxi自動計程車]]
 
-## Musk力推自研AI5晶片：效能看齊NVIDIA、成本僅一成，整合Dojo資源（2026-08）
+### Musk力推自研AI5晶片：效能看齊NVIDIA、成本僅一成，整合Dojo資源（2026-08）
 
 > **結論**：Musk表示Tesla自研AI5推論晶片每瓦效能可望比NVIDIA高2~3倍、成本僅約對手一成，並將原本獨立推進的Dojo超級電腦計畫整合進AI5平台，策略聚焦自駕車與Optimus機器人等長時間運作、受限功耗與成本的終端推論市場，而非正面挑戰NVIDIA在資料中心訓練市場的主導地位。
 
@@ -452,7 +464,7 @@ YouTuber實測顯示，搭載HW4與最新FSD v14.3.4的車輛反應時間0.450�
 
 **補充細節**：Musk於與避險基金經理人Ron Baron對談中補充，Tesla需在AI推論運算領域同時與NVIDIA及AMD競爭（此前僅提及NVIDIA），並於X平台證實AI5晶片設計團隊已完成「流片」（tape out），AI6、Dojo3等後續晶片也正同步研發中。同期Tesla在美國第二度調漲Cybertruck售價：雙馬達AWD版再漲5,000美元至74,990美元（較2月上市價累計漲25%），Premium AWD同步漲至84,990美元，惟美國Cybertruck銷量Q1年減45.1%，漲價與需求疲軟並存的矛盾處境持續。參見：[[sources/ev-news-2026-08-21-26-cn-misc]] | [[sources/ev-news-2026-08-26-27-electrive-en]]
 
-## 歐洲門把手召回進度：RDW調查未決；Cybercab奧斯汀正式發表活動將至（2026-08）
+### 歐洲門把手召回進度：RDW調查未決；Cybercab奧斯汀正式發表活動將至（2026-08）
 
 > **結論**：中國門把手召回擴大至430萬輛（含Tesla近298萬輛）之際，歐洲監管機關仍謹慎觀望——荷蘭RDW（歐盟型式認證主管機關）針對德國Schwerte造成3人死亡的Tesla事故調查仍未有結論，尚無召回但未排除；同期Tesla宣布下週四於奧斯汀舉行Cybercab正式發表活動，惟其Robotaxi商轉規模（累計約38萬英里）仍遠落後Waymo（逾2億英里、每週50萬次付費乘車）。
 
@@ -465,6 +477,277 @@ YouTuber實測顯示，搭載HW4與最新FSD v14.3.4的車輛反應時間0.450�
 - 參見：[[sources/ev-news-2026-08-27-29-electrive-en]] | [[countries/歐洲]] | [[concepts/Robotaxi自動計程車]]
 
 **補充動態**：SpaceX與Tesla計劃在德州休士頓郊區建造巨型晶圓廠Terafab（總投資上看1,190億美元、規模達全球最大建築物5倍），已與英特爾建立合作關係，晶片將自用於Optimus機器人、自駕車及SpaceX太空資料中心，惟業內專家質疑自行設計製造晶片的整合模式違反產業經濟法則，恐重蹈英特爾覆轍。Musk同期於Joe Rogan Experience節目重申日常充電上限建議80%（鋰離子電池80%以上充電速度明顯放慢），並強調「續航力不是問題，成本才是關鍵」；歐洲市場同步進行Model 3/Y小改款（換新胎使Model 3 RWD WLTP續航提升7%達572公里、Model Y Premium新增「禪灰」內裝）。參見：[[sources/ev-news-2026-08-30-31-cn-misc]]
+
+## 2026-09 動態彙整
+
+> 本月逐批新增的動態；月底合併為一節 RRC 並更新頁首摘要與「簡報三段式」。
+
+### Cybercab悄然開放公眾試乘，NHTSA隨即啟動認證調查（2026-09）
+
+> **結論**：Tesla未經任何造勢宣傳悄然在奧斯汀開放Cybercab機器人計程車App預約載客，這是Tesla首度公開使用量產版Cybercab車型載客；發布3天後美國國家公路交通安全管理局（NHTSA）宣布啟動調查，審查Tesla自我認證Cybercab符合聯邦機動車安全標準的流程與技術數據。
+
+**主因**：
+- 低調發布策略：Tesla目前在德州僅獲准營運45輛Cybercab，無方向盤與煞車踏板的雙座無人車自今年4月於Giga Texas量產，此次是首度供公眾實際搭乘量產版本；Tesla與Waymo、Zoox相同，仍配置遠端指揮中心介入監控，並非完全無人監督
+- 監管介入時點敏感：NHTSA審查重點是Tesla如何自行認定「特定FMVSS規範不適用於本車款」的判斷依據，調查恰發生在Cybercab開放公眾試乘僅3天後，凸顯監管機構對Tesla自我認證流程的關注升溫
+- 規格細節：依美國EPA認證文件，Cybercab搭載約48kWh鋰電池、前驅163kW馬達，整備重量1,412公斤，綜合續航約673公里，目標定價低於3萬美元、每英里營運成本控制在0.2美元內，並整合Starlink V5衛星網路
+
+**觀察**：NHTSA調查結果是否影響Cybercab既有45輛營運許可或後續擴大規模的時程；Tesla是否公開回應認證流程細節。
+
+- 參見：[[sources/ev-news-2026-09-07-08-electrive-en]] | [[sources/ev-news-2026-09-07-08-digest]] | [[concepts/Robotaxi自動計程車]] | [[countries/美國]]
+
+### 加拿大關稅配額意外最大贏家、Cybercab不用稀土新驅動單元、隱藏搖桿控制曝光（2026-09）
+
+> **結論**：加拿大對中國製電動車6.1%優惠關稅配額（原稅率106.1%）因規則鎖定「中國製造」而非「中國車廠」，使Tesla成為最大受益者——自5月起恢復自上海超級工廠對加拿大出口，前6個月配額15,603輛進口中Tesla貢獻主力，比亞迪等中國車廠年底前仍未進入加拿大市場；同期Tesla揭露Cybercab全新驅動單元完全不含稀土磁性材料（體積縮小18%、重量減輕25%），並曝光車內隱藏觸控搖桿手動移車介面。
+
+**主因**：
+- 加拿大關稅規則漏洞：優惠關稅適用「中國製造的電動車」而非「中國車廠」，使Tesla、Lotus、Polestar、GM Lincoln等非中資品牌的中國產車型均可受惠，上海廠生產成本顯著低於美國/德國廠的優勢重新開啟套利空間；未用完配額8,897輛已展延至9月-2月第二階段（總額擴大至33,397輛）
+- 稀土去依賴技術突破：新驅動單元採扁線繞組定子與簡化潤滑系統（單次生產週期低於10秒），馬斯克證實在不用稀土前提下仍維持相同續航表現，惟坦言技術難度極高；若延伸至更多車型或被其他車廠採用，有望降低全球電動車產業對中國稀土供應鏈的依賴
+- Cybercab手動控制介面曝光：乘客意外發現車內隱藏服務選單搭載虛擬搖桿可低速（最高7mph）手動操控車輛，官方急救指南證實此為第一線救援人員刷卡認證啟用的機制，惟一般乘客誤觸的安全防護措施尚不明朗
+
+**觀察**：比亞迪等中國車廠年底進入加拿大市場後第二階段配額爭奪態勢；Tesla稀土去依賴驅動單元是否延伸至其他車型。
+
+- 參見：[[sources/ev-news-2026-09-09-electrive-en]] | [[sources/ev-news-2026-09-09-digest]] | [[concepts/北美EV關稅與政策]] | [[countries/美國]]
+
+### 美國市佔重返52%惟屬「剩者為王」，10月1日預告發表次世代Roadster（2026-09）
+
+> **結論**：Tesla今年1-8月美國電動車市佔率由去年43%回升至52%，惟銷量本身仍年減16%至32萬5,351輛（整體電動車市場萎縮30%），凸顯此成長並非需求復甦，而是傳統車廠（福特、通用等）縮減虧損電動車業務（含停產本田Prologue、福特F-150 Lightning）讓出市場份額所致，Model Y貢獻約1/3美國電動車購買量；同期Tesla預告10月1日「準備發射」活動將展示歷經多次延宕的第二代Roadster，傳配備SpaceX合作研發冷氣體推進器，甚至可能實現短暫懸浮飛行等突破性功能，地點傳在德州韋科（鄰近SpaceX火箭測試基地）。
+
+**主因**：
+- 市佔提升源於對手退場：聯邦補貼到期後傳統車廠對電動車投資轉趨謹慎，Tesla相對韌性（Model Y僅年減2%）使其市佔被動提升，而非自身需求顯著改善
+- Roadster延宕多年終見曙光：2017年首度亮相、財報會議中確認仍處「設計研發」階段，此次活動命名呼應SpaceX發射任務，進一步強化市場對Tesla與SpaceX合併的揣測
+- 未來挑戰仍待克服：分析師認為Tesla要應對更強勁市場挑戰，需要更便宜的電池技術、更新法規支援或消費者需求顯著改善
+
+**觀察**：福特、通用等傳統車廠電動車業務縮減是否持續深化Tesla的市佔優勢；10月1日Roadster發表會實際規格與量產時程。
+
+- 參見：[[sources/ev-news-2026-09-14-digest]] | [[sources/ev-news-2026-09-14-digitimes]] | [[countries/美國]]
+
+### 歐洲版Semi規格公布、越南子公司成立、美國市佔補充分析（2026-09）
+
+Tesla於IAA Transportation公布歐洲版Semi規格：採標準版電池（推測548kWh，沿用美規4680圓柱電芯）、550km續航、800kW MCS超充（30分鐘增添60%電量），較Volvo FH Aero Electric（700km）、雷諾E-Tech T780（660km）續航略遜，但酬載能力較佳（歐規40噸限制下約24.6-26.6噸），2027年開始交車，規劃歐洲專屬Megacharger超充網路。同期Tesla於胡志明市註冊成立越南子公司（資本額300萬美元），越南2026上半純電銷量近11.6萬輛（年增71%）已成東南亞最大純電市場，惟由VinFast主導（VF系列售價僅1.8-2.7萬美元，遠低於Tesla美國售價），Tesla初期客群定位料與VinFast親民路線區隔。另補充美國市佔52%回升分析——投資分析師指出Model Y全面改款是關鍵功臣之一，Cox Automotive估計市佔實際略高達55%。
+
+- 參見：[[sources/ev-news-2026-09-15-electrive-en]] | [[sources/ev-news-2026-09-15-digitimes]] | [[sources/ev-news-2026-09-15-digest]] | [[concepts/電動卡車市場]] | [[countries/歐洲]] | [[countries/東南亞]] | [[countries/美國]]
+
+### Cybercab遭NHTSA正式發函質詢合規性、歐洲貨卡超充網路首階段21站（2026-09）
+
+美國國家公路交通安全管理局（NHTSA）向Tesla發出詳細問題清單，要求說明Cybercab如何符合聯邦機動車安全標準（FMVSS）自我認證流程，須於9月30日前回覆，問題涵蓋方向燈自動回正機制（Cybercab無方向盤故不具備）、後視鏡及煞車踏板要求（僅具電子致動煞車、無踏板）；業界先例參照Amazon旗下Zoox同樣自我認證無方向盤車型遭調查後取得美國首例商用豁免，Tesla案件走向可能循此模式申請年度配額豁免。同期Tesla於IAA Transportation公布歐洲貨卡超充網路首階段21站規劃（逾100個MCS充電點，英國2站、瑞典3站，多數集中德法荷比），Megacharger最高輸出達1.2MW（與北美同規，暗示未來可能引入長續航版Semi），2027年中隨歐洲版Semi交車同步啟用。
+
+- 參見：[[sources/ev-news-2026-09-17-electrive-en]] | [[concepts/北美EV關稅與政策]] | [[concepts/電動卡車市場]] | [[countries/美國]] | [[countries/歐洲]]
+
+### Cybercab東京／上海展示、歐洲Megacharger、Optimus赴中審廠與Terafab（2026-09）
+
+> **結論**：Tesla同週在四條線推進——Cybercab於東京（9/11）與上海（9/17~21）靜態展出、Semi歐洲Megacharger首波逾100座、Optimus赴中量產審廠並新增約5,000台訂單、馬斯克以「台灣晶片風險」說明自建Terafab。
+
+**主因**：
+- Cybercab：已於美國7城營運（德州9/3起載客），日本與中國僅展示、不銷售，目的在推動FSD與L4法規放行；純視覺（8鏡頭）配置與無方向盤設計面臨NHTSA合規質詢，是規模化最大變數
+- 充電：Megacharger最高1.2MW、30分鐘充至60%，雙座組合價16.3萬歐元；Forum Mobility加州擴充中，Tesla將營運3個公共站，Semi已有逾330輛訂單（Rancho Dominguez）
+- Optimus：2026年目標約5萬台，參照車規要求單台成本收斂至2萬美元內，並將部分製造由美國轉移至中國供應鏈（均勝電子漲停、拓普＋4.36%、三花＋2.70%）；Terafab預估2027年底前製出可用晶片
+
+**觀察**：NHTSA對Cybercab的回覆（9月30日期限，見09-17前期）與日本是否鬆綁FSD；Optimus Gen3量產節點與中國供應鏈占比。
+
+- 參見：[[sources/ev-news-2026-09-18-digitimes]] | [[sources/ev-news-2026-09-18-electrive-en]] | [[sources/ev-news-2026-09-18-digest]] | [[sources/ev-news-2026-09-19-electrive-en]] | [[sources/ev-news-2026-09-20-digest]] | [[entities/NHTSA]] | [[concepts/人形機器人]]
+
+### Cybercab導航「繼承」Tesla老毛病（2026-09）
+
+InsideEVs整理乘客回報，Cybercab因限制行駛高速公路與平交道，德州奧斯汀一趟原10分鐘路程繞行至70分鐘，凸顯FSD導航「繞路」問題延續到無人駕駛車隊、且無人可即時修正；相較Waymo拓展高速公路載客前經逾一年純市區驗證，Tesla策略更為激進。
+
+- 參見：[[sources/ev-news-2026-09-22-electrive-en]] | [[concepts/Robotaxi自動計程車]] | [[countries/美國]]
+
+### FSD捷克過關、Semi獲2,500輛大單與試乘扭轉懷疑論（2026-09）
+
+> **結論**：Tesla FSD（Supervised）成為第7個獲歐盟成員國（捷克）承認的臨時型式認證案例，歐盟全境表決最快10月6日登場；Semi同週傳出2,500輛美國採購聯盟大單（近乎翻倍美國電動Class 8車隊）及Top Gear試乘後好評，商用車業務動能加速。
+
+**主因**：
+- FSD：捷克跟進荷蘭RDW臨時認證（繼立陶宛、愛沙尼亞、丹麥、比利時、斯洛維尼亞），Tesla另建置公開儀表板揭露里程與事故數據爭取信任；歐盟現分類FSD為SAE Level 2
+- Semi訂單：ZET SCALE聯盟（Catalyst Mobility與Smart Freight Centre發起，創始成員含Microsoft、PepsiCo）選定Tesla為主要供應商，車輛分配至10個美國貨運樞紐；疊加Einride 500輛與IMC Logistics 50輛訂單
+- 產品體驗：Top Gear記者實地試乘＋內華達廠參觀後由懷疑轉為肯定，內華達廠設計年產能5萬輛；但Cybercab導航問題（見09-22）與此形成對比，顯示Tesla商用車與Robotaxi業務進展不同步
+
+**觀察**：10月6日歐盟表決結果；2,500輛Semi實際交車時間表（聯盟未公布）。
+
+- 參見：[[sources/ev-news-2026-09-23-electrive-en]] | [[sources/ev-news-2026-09-24-electrive-en]] | [[concepts/電動卡車市場]] | [[countries/歐洲]] | [[countries/美國]]
+
+### Semi正式量產交車、Optimus借力中國製造、Roadster期權冷靜、i3提前預購（2026-09）
+
+> **結論**：Tesla本週商用車與機器人兩線並進——Semi在內華達廠啟動量產交付（PepsiCo、DHL等加入客戶名單），Optimus赴中國寧波審廠、週產量已破百台（較Q2躍升10倍），但硬體組裝精度與軟體自主性仍是量產瓶頸，早期機型傳採「只租不售」策略。
+
+**主因**：Semi工廠年產能5萬輛，未透露具體產量與售價，訂單壓力隨ZET SCALE 2,500輛標案持續攀升；Optimus供應鏈複製EV借力中國模式（審查均勝電子、拓普集團、三花汽配），但Robotaxi與人形機器人領域中國業者進展迅速，Tesla技術領先窗口恐較EV時期更短；Roadster 10月1日發布前期權市場隱含波動率僅處歷史區間第36百分位，反應平淡；BMW i3美國提前預購對Tesla構成新一波豪華電動車競爭壓力。
+**觀察**：Optimus年底週產千台目標達成度；Roadster正式售價與規格。
+
+- 參見：[[sources/ev-news-2026-09-26-digest]] | [[sources/ev-news-2026-09-28-electrive-en]] | [[sources/ev-news-2026-09-29-digitimes]] | [[concepts/電動卡車市場]] | [[concepts/人形機器人]] | [[countries/中國]] | [[countries/美國]]
+
+## 2026-10 動態彙整
+
+> 本月逐批新增的動態；月底合併為一節 RRC 並更新頁首摘要與「簡報三段式」。
+
+### Roadster發布延至10/15、FSD歐盟表決延至年底（2026-10）
+
+Tesla Roadster 10月1日發布會以天候為由延至10月15日；歐盟全境對FSD（Supervised）的表決原訂10月、據路透確定延至2026年底；瑞銀警示中系車輸歐速度近當地註冊量2倍，Tesla被視為最有機會在歐洲與中系抗衡者。
+
+- 參見：[[sources/ev-news-2026-10-01-electrive-en]] | [[sources/ev-news-2026-10-01-digitimes]] | [[concepts/ADAS智駕系統]] | [[countries/歐洲]]
+
+### Q3交付48.65萬輛、中國製Model 3受惠加拿大新關稅、Emergency Drive Away（2026-10）
+
+Tesla Q3生產464,000輛（年增3.7%）、交付486,532輛（較去年Q3近50萬輛略低）、儲能13.7GWh，財報10月21日公布；加拿大允許每年4.9萬輛中國製電動車以6.1%關稅進口（原100%），中國製Model 3在加拿大第三季銷量增加、Tesla定價部分車款較美國低約25%；新增僅限美國的「Emergency Drive Away」功能（軟體2026.38.3），可在充電線連接時緊急駛離。
+
+- 參見：[[sources/ev-news-2026-10-05-electrive-en]] | [[sources/ev-news-2026-10-04-digest]] | [[countries/加拿大]] | [[countries/中國]] | [[countries/美國]]
+
+### Cybercab德州車隊增至169輛、德國補貼核准居冠（2026-10）
+
+Cybercab獲德州商用核准車輛由45輛增至169輛（另420輛搭載Tesla自駕系統的Model Y），NHTSA審計調查回覆期限已獲展延；德國電動車補貼首批核准中Tesla 12,155件居冠（Model Y 8,297、Model 3 3,845）；英國9月BEV銷冠為Model 3（9,929輛）。
+
+- 參見：[[sources/ev-news-2026-10-06-digest]] | [[sources/ev-news-2026-10-06-electrive-en]] | [[entities/NHTSA]] | [[concepts/Robotaxi自動計程車]] | [[countries/德國]] | [[countries/美國]]
+
+### 台灣Megapack 1GWh大單、德國力挺FSD、LGES供應LFP儲能（2026-10）
+
+台灣阿波羅電力採購260台Megapack 2 XL（約1GWh，2028年上線，相當500MW虛擬電廠）；德國交通部長力挺歐盟放行FSD，若卡關擬以國家方案認可荷蘭RDW核准（歐盟表決延至12月）；Tesla柏林廠9月德國掛牌彈升逾3倍至12,552輛；LGES蘭辛廠生產Tesla用LFP儲能電池；Tesla Energy全球儲能部署逾50GWh。
+
+- 參見：[[sources/ev-news-2026-10-08-digitimes]] | [[sources/ev-news-2026-10-12-digitimes]] | [[sources/ev-news-2026-10-09-electrive-en]] | [[concepts/ADAS智駕系統]] | [[concepts/儲能市場]] | [[countries/台灣]] | [[countries/德國]]
+
+### 台灣9月交車5,554輛、美國快充新增仍居首（2026-10）
+
+Tesla 9月在台交車5,554輛、前9月18,632輛，僅次於Toyota與Lexus；美國Q3新增1,287個快充埠（比去年少533）仍居首，V4 500 kW機櫃已有42處、487埠。
+
+- 參見：[[sources/ev-news-2026-10-12-14-digitimes]] | [[sources/ev-news-2026-10-13-14-insideevs]]
+
+### 新款Roadster發表（2026-10）
+
+> **結論**：10月15日於德州SpaceX場地發表，冷氣推進器可騰空翻轉、0-60mph不到1秒，2028年量產，無售價；馬斯克稱「最後一款人類駕駛車」。
+
+**觀察**：10月21日Q3財報說明。
+
+- 參見：[[sources/ev-news-2026-10-16-digitimes]]
+
+### Roadster細節、韓國供應鏈議價與FSD訴訟（2026-10）
+
+> **結論**：Roadster分Performance／Thrust／Rocket三版，僅Rocket版可「飛行」（0-60mph約0.81秒、續航逾483公里）；同週Tesla越級向南韓三、四級供應商直接議價，且第九巡迴法院駁回FSD加州集體訴訟認證。
+
+**主因**：
+- Roadster：與SpaceX共同研發，Tesla–SpaceX合併僅為市場臆測；展示對實際駕駛無實質效益 → 品牌展示大於營收貢獻。
+- 供應鏈：自2026年起直接談價，部分供應商被壓到零利潤、並被指定材料與電池客戶 → 成本掌控升高，但供應商毛利承壓。
+- 訴訟：集體訴訟認證遭撤銷（買家所見宣傳個案差異過大），實體不實廣告訴訟仍在審理 → 短期降低集體賠償風險。
+**觀察**：10月21日Q3財報；南韓供應商毛利率；FSD實體訴訟進展。
+
+- 參見：[[sources/ev-news-2026-10-19-digitimes]] | [[sources/ev-news-2026-10-19-digest]] | [[sources/ev-news-2026-10-16-digitimes]] | [[countries/韓國]] | [[countries/美國]]
+
+### 輿論：Roadster 「飛天」評價（2026-10）
+
+《大西洋月刊》評論潑冷水（Google快訊摘錄）；中國官網上架1,399元兒童平衡車。
+
+- 參見：[[sources/ev-news-2026-10-20-digest]]
+
+### 與SpaceX成立特別委員會評估合併（2026-10）
+
+> **結論**：馬斯克10月20日證實Tesla與SpaceX已各成立獨立董事特別委員會評估合併，條件未定、非必然；Tesla須獲全體流通股至少50%支持，合併後規模約3.5兆美元。
+
+**主因**：兩家合作Terafab晶片（2028Q3量產），潛在協同含AI、晶片、機器人、資料中心與衛星通訊 → 由EV公司轉向「晶片＋算力＋自主裝置」整合體。
+**觀察**：委員會結論、監管審查；Waymo車隊擴張下Tesla Robotaxi的追趕壓力。
+
+- 參見：[[sources/ev-news-2026-10-22-digitimes]] | [[sources/ev-news-2026-10-22-digest]] | [[sources/ev-news-2026-10-22-insideevs]]
+
+### Q3財報：車業疲弱、資本支出下修、Cybercab與自研地圖（2026-10）
+
+> **結論**：Q3營收280億美元持平、汽車營收205.6億美元（年減3%）；資本支出47.3億美元（低於預期79.5億），全年目標由逾250億降至200億美元；2030年銷量目標下修至500萬輛；Optimus量產恐延至2027年底；CAM創新排名十年來首度跌出前十（第11）。
+
+**主因**：
+- 平均售價下滑、電池供應限制，積壓訂單創4年新高；監管積分收入由4.17億降至1.13億美元。
+- Robotaxi：德州362輛Model Y＋449輛Cybercab；Cybercab 2026年底前對客戶銷售、2027年貢獻營收；預告拓展至鳳凰城等四城。
+- 產品：Roadster（2027~2028年Giga Texas投產）、Cybertruck取消澳紐上市；自研AI地圖隨FSD v15上線；與Turo合作推FSD試用。
+**觀察**：Cybercab安全調查結果；SpaceX合併特別委員會結論；FSD訂閱滲透。
+
+- 參見：[[sources/ev-news-2026-10-27-digitimes-tesla]] | [[sources/ev-news-2026-10-27-electrive-en]] | [[sources/ev-news-2026-10-27-insideevs]] | [[concepts/Robotaxi自動計程車]] | [[concepts/人形機器人]]
+
+### SpaceX合併審查的治理疑慮；二手Model S殘值（2026-10）
+
+> **結論**：Musk稱SpaceX與Tesla各成立獨立董事特別委員會評估合併，但多位候選董事與Musk有商業或投資往來，獨立性受檢驗；另Edmunds測試顯示高里程Model S仍有221英里續航。
+
+**主因**：Tesla潛在成員含Denholm、Hartung、Straubel（Redwood與Tesla有協議）、Gebbia、Wilson-Thompson；二手Model S（13.5萬英里）0–60約5秒、10–80%充電約47分鐘。
+
+**觀察**：委員會成員、架構與時程公布；Edmunds後續維修成本。
+
+- 參見：[[sources/ev-news-2026-10-29-insideevs]] | [[sources/ev-news-2026-10-29-digitimes]] | [[concepts/ADAS智駕系統]]
+
+## 2026-11 動態彙整
+
+> 本月逐批新增的動態；月底合併為一節 RRC 並更新頁首摘要與「簡報三段式」。
+
+### 歐盟被比亞迪超車、Cybercab受惠NHTSA草案（2026-11）
+
+> **結論**：Tesla前9月歐盟登記188,035輛、市占2.2%，已低於比亞迪的2.4%；NHTSA草案則為取消方向盤與踏板的Cybercab放寬燈光手動控制要求。
+
+**主因**：Tesla 9月單月45,866輛仍高於比亞迪28,309輛，但累計被超車；一般FSD（Supervised）屬L2，不適用青色識別燈。
+
+**觀察**：Cybercab聯邦認證進度；歐盟10月登記差距。
+
+- 參見：[[sources/ev-news-2026-11-02-cn-misc]] | [[entities/比亞迪]] | [[concepts/Robotaxi自動計程車]] | [[entities/NHTSA]]
+
+### 上海廠10月67,829輛連12個月成長；台灣空窗月（2026-11）
+
+> **結論**：Tesla上海廠10月交付67,829輛（+10.3%，連續12個月年增，較9月-28.9%）；台灣10月僅Model Y 16輛掛牌，累計18,648輛、市占54%。
+
+**主因**：出口約每5輛就有1輛銷往南韓（前9月）；歐洲多市場10月掛牌大增；全年資本支出下修約兩成，第三季意外錄得正自由現金流；與SpaceX潛在合併若推進將面臨美中審查。台灣榜單隨船期起落。
+
+**觀察**：11月台灣到貨量；SpaceX合併案審查動向。
+
+- 參見：[[sources/ev-news-2026-11-04-cn-misc]] | [[sources/ev-news-2026-11-04-digitimes]] | [[concepts/中國EV市場競爭格局]] | [[concepts/台灣EV市場]] | [[countries/中國]] | [[countries/台灣]] | [[countries/韓國]]
+
+### 柏林工程中心、EVgo採Supercharger硬體、期中選舉風險（2026-11）
+
+> **結論**：Tesla歐洲與充電策略同時外擴——柏林Köpenick工程中心（約1億歐元、初期250人，二期擴至約500人）成為繼Fremont、上海後第三個研發樞紐；EVgo開出首座採Tesla V4硬體的站；但期中選舉使德州大本營的Tesla與SpaceX面臨更嚴格監管風險。
+
+**主因**：BTEC整合4處研發據點、30間實驗室，成果回饋Grünheide工廠；V4機櫃最高500 kW，開放商業客戶採購，Tesla車內導航顯示EVgo樁；二手Model S／X價格+22%／+18%（所有二手車最高），可能抑制二手Tesla成交。
+
+**觀察**：BTEC二期核准；EVgo後續站數；新國會對Tesla／SpaceX的調查。
+
+- 參見：[[sources/ev-news-2026-11-06-electrive-en]] | [[sources/ev-news-2026-11-06-digitimes]] | [[sources/ev-news-2026-11-06-insideevs]] | [[concepts/充電基礎建設]] | [[concepts/美國EV市場與政策]] | [[countries/德國]] | [[countries/美國]]
+
+### 馬斯克稱「愛中國」；中國前7月-12.4%、高管流動（2026-11）
+
+> **結論**：馬斯克在巴倫投資會議稱上海產Model Y為中國最暢銷電動車並稱中國車廠「非常厲害」；Tesla中國前7個月銷量約26.6萬輛（-12.4%），中國區高管陸續流向小米（部分為傳聞）。
+
+**主因**：比亞迪、小米、理想圍攻；2026-04小米被曝挖走Tesla中國區兩位高管。
+
+**觀察**：新任中國區銷售負責人（未證實）。
+
+- 參見：[[sources/ev-news-2026-11-09-cn-misc]] | [[concepts/中國EV市場競爭格局]] | [[countries/中國]]
+
+### 2027年中結束Cybertruck、EVgo採Supercharger（2026-11）
+
+> **結論**：馬斯克11/6宣布2027年中逐步結束德州Cybertruck（4年），6–7月拆線讓位Cybercab，並稱將向部分客戶退還訂金；EVgo開出首座Tesla V4 Supercharger站。
+
+**主因**：Cybertruck 2025年美國銷量2.02萬輛（-48%）、現年產約2萬輛（約占總產量1%）；入門AWD降至59,990美元、Cyberbeast降1.5萬美元；馬斯克稱訂單遠超產能（訂單數未公布，與疲弱需求說法並存，待核對）；Cybercab 2026-09-03起載客。
+
+**觀察**：訂金退還規模；Cybertruck是否移至他廠；德州廠Cybercab產量。
+
+- 參見：[[sources/ev-news-2026-11-11-electrive-en]] | [[sources/ev-news-2026-11-11-cn-misc]] | [[sources/ev-news-2026-11-11-digitimes]] | [[concepts/Robotaxi自動計程車]] | [[concepts/美國EV市場與政策]] | [[concepts/充電基礎建設]] | [[countries/美國]]
+
+### 中國內銷跌破1萬輛與Cybertruck、Terafab（2026-11）
+
+> **結論**：Tesla中國10月內銷8,817輛、年減66.1%，87%產量出口；Cybertruck買氣據報不到25萬輛年目標的一成。
+
+**主因**：中國品牌低價對標；Cybertruck說法並存（馬斯克稱訂單高於可生產量）待核對；Terafab傳月產100萬片晶圓。
+
+**觀察**：11–12月內銷。
+
+- 參見：[[sources/ev-news-2026-11-12-digitimes]] | [[sources/ev-news-2026-11-12-cn-misc]] | [[concepts/中國EV市場競爭格局]]
+
+### 與SpaceX合併傳聞、Cybercab、FSD芬蘭與Model Y精簡（2026-11）
+
+> **結論**：Tesla與SpaceX傳最快12月宣布合併（轉述、未證實），同時Cybercab開放個人訂購、Model Y再精簡、FSD以TAD名稱在芬蘭獲臨時批准。
+
+**主因**：SpaceX估值逾3,500億美元、Tesla逾1兆美元；談判歧見在架構、人事、股權與中國業務；Tesla年度股東會12/3。Cybercab約3萬美元＋299美元月訂閱。
+
+**觀察**：12/3股東會；歐盟12月FSD表決。
+
+- 參見：[[sources/ev-news-2026-11-16-digitimes]] | [[sources/ev-news-2026-11-16-cn-misc]] | [[concepts/Robotaxi自動計程車]] | [[concepts/自動駕駛安全監管]]
+
+### Cybercab個人購買細節與格林海德30億歐元擴建（2026-11）
+
+> **結論**：Tesla把Cybercab同時推向個人購買（29,990美元＋299美元月訂閱）與大規模製造（格林海德2029年起年產最多100萬輛），但NHTSA調查與歐盟TAD表決仍是兩大監管變數。
+
+**主因**：格林海德近月新招2,000人使電池產能翻倍、員工約1.26萬人；10月德國掛牌年增291%（市佔1.2%）；美國Model Y入門AWD下架。
+
+**觀察**：12月Cybercab交付、12/3股東會、歐盟TAD表決。
+
+- 參見：[[sources/ev-news-2026-11-17-electrive-en]] | [[sources/ev-news-2026-11-17-insideevs]] | [[sources/ev-news-2026-11-17-digitimes]] | [[sources/ev-news-2026-11-17-cn-misc]] | [[concepts/Robotaxi自動計程車]] | [[countries/德國]]
 
 ## Related
 - [[entities/NHTSA]]
@@ -484,262 +767,3 @@ YouTuber實測顯示，搭載HW4與最新FSD v14.3.4的車輛反應時間0.450�
 - [[sources/tesla-india-model-y-l]]
 - [[sources/ev-news-2026-06-30-07-01]]
 - [[concepts/電池與技術/電池技術路線]]
-
-## Cybercab悄然開放公眾試乘，NHTSA隨即啟動認證調查（2026-09）
-
-> **結論**：Tesla未經任何造勢宣傳悄然在奧斯汀開放Cybercab機器人計程車App預約載客，這是Tesla首度公開使用量產版Cybercab車型載客；發布3天後美國國家公路交通安全管理局（NHTSA）宣布啟動調查，審查Tesla自我認證Cybercab符合聯邦機動車安全標準的流程與技術數據。
-
-**主因**：
-- 低調發布策略：Tesla目前在德州僅獲准營運45輛Cybercab，無方向盤與煞車踏板的雙座無人車自今年4月於Giga Texas量產，此次是首度供公眾實際搭乘量產版本；Tesla與Waymo、Zoox相同，仍配置遠端指揮中心介入監控，並非完全無人監督
-- 監管介入時點敏感：NHTSA審查重點是Tesla如何自行認定「特定FMVSS規範不適用於本車款」的判斷依據，調查恰發生在Cybercab開放公眾試乘僅3天後，凸顯監管機構對Tesla自我認證流程的關注升溫
-- 規格細節：依美國EPA認證文件，Cybercab搭載約48kWh鋰電池、前驅163kW馬達，整備重量1,412公斤，綜合續航約673公里，目標定價低於3萬美元、每英里營運成本控制在0.2美元內，並整合Starlink V5衛星網路
-
-**觀察**：NHTSA調查結果是否影響Cybercab既有45輛營運許可或後續擴大規模的時程；Tesla是否公開回應認證流程細節。
-
-- 參見：[[sources/ev-news-2026-09-07-08-electrive-en]] | [[sources/ev-news-2026-09-07-08-digest]] | [[concepts/Robotaxi自動計程車]] | [[countries/美國]]
-
-## 加拿大關稅配額意外最大贏家、Cybercab不用稀土新驅動單元、隱藏搖桿控制曝光（2026-09）
-
-> **結論**：加拿大對中國製電動車6.1%優惠關稅配額（原稅率106.1%）因規則鎖定「中國製造」而非「中國車廠」，使Tesla成為最大受益者——自5月起恢復自上海超級工廠對加拿大出口，前6個月配額15,603輛進口中Tesla貢獻主力，比亞迪等中國車廠年底前仍未進入加拿大市場；同期Tesla揭露Cybercab全新驅動單元完全不含稀土磁性材料（體積縮小18%、重量減輕25%），並曝光車內隱藏觸控搖桿手動移車介面。
-
-**主因**：
-- 加拿大關稅規則漏洞：優惠關稅適用「中國製造的電動車」而非「中國車廠」，使Tesla、Lotus、Polestar、GM Lincoln等非中資品牌的中國產車型均可受惠，上海廠生產成本顯著低於美國/德國廠的優勢重新開啟套利空間；未用完配額8,897輛已展延至9月-2月第二階段（總額擴大至33,397輛）
-- 稀土去依賴技術突破：新驅動單元採扁線繞組定子與簡化潤滑系統（單次生產週期低於10秒），馬斯克證實在不用稀土前提下仍維持相同續航表現，惟坦言技術難度極高；若延伸至更多車型或被其他車廠採用，有望降低全球電動車產業對中國稀土供應鏈的依賴
-- Cybercab手動控制介面曝光：乘客意外發現車內隱藏服務選單搭載虛擬搖桿可低速（最高7mph）手動操控車輛，官方急救指南證實此為第一線救援人員刷卡認證啟用的機制，惟一般乘客誤觸的安全防護措施尚不明朗
-
-**觀察**：比亞迪等中國車廠年底進入加拿大市場後第二階段配額爭奪態勢；Tesla稀土去依賴驅動單元是否延伸至其他車型。
-
-- 參見：[[sources/ev-news-2026-09-09-electrive-en]] | [[sources/ev-news-2026-09-09-digest]] | [[concepts/北美EV關稅與政策]] | [[countries/美國]]
-
-## 美國市佔重返52%惟屬「剩者為王」，10月1日預告發表次世代Roadster（2026-09）
-
-> **結論**：Tesla今年1-8月美國電動車市佔率由去年43%回升至52%，惟銷量本身仍年減16%至32萬5,351輛（整體電動車市場萎縮30%），凸顯此成長並非需求復甦，而是傳統車廠（福特、通用等）縮減虧損電動車業務（含停產本田Prologue、福特F-150 Lightning）讓出市場份額所致，Model Y貢獻約1/3美國電動車購買量；同期Tesla預告10月1日「準備發射」活動將展示歷經多次延宕的第二代Roadster，傳配備SpaceX合作研發冷氣體推進器，甚至可能實現短暫懸浮飛行等突破性功能，地點傳在德州韋科（鄰近SpaceX火箭測試基地）。
-
-**主因**：
-- 市佔提升源於對手退場：聯邦補貼到期後傳統車廠對電動車投資轉趨謹慎，Tesla相對韌性（Model Y僅年減2%）使其市佔被動提升，而非自身需求顯著改善
-- Roadster延宕多年終見曙光：2017年首度亮相、財報會議中確認仍處「設計研發」階段，此次活動命名呼應SpaceX發射任務，進一步強化市場對Tesla與SpaceX合併的揣測
-- 未來挑戰仍待克服：分析師認為Tesla要應對更強勁市場挑戰，需要更便宜的電池技術、更新法規支援或消費者需求顯著改善
-
-**觀察**：福特、通用等傳統車廠電動車業務縮減是否持續深化Tesla的市佔優勢；10月1日Roadster發表會實際規格與量產時程。
-
-- 參見：[[sources/ev-news-2026-09-14-digest]] | [[sources/ev-news-2026-09-14-digitimes]] | [[countries/美國]]
-
-## 歐洲版Semi規格公布、越南子公司成立、美國市佔補充分析（2026-09）
-
-Tesla於IAA Transportation公布歐洲版Semi規格：採標準版電池（推測548kWh，沿用美規4680圓柱電芯）、550km續航、800kW MCS超充（30分鐘增添60%電量），較Volvo FH Aero Electric（700km）、雷諾E-Tech T780（660km）續航略遜，但酬載能力較佳（歐規40噸限制下約24.6-26.6噸），2027年開始交車，規劃歐洲專屬Megacharger超充網路。同期Tesla於胡志明市註冊成立越南子公司（資本額300萬美元），越南2026上半純電銷量近11.6萬輛（年增71%）已成東南亞最大純電市場，惟由VinFast主導（VF系列售價僅1.8-2.7萬美元，遠低於Tesla美國售價），Tesla初期客群定位料與VinFast親民路線區隔。另補充美國市佔52%回升分析——投資分析師指出Model Y全面改款是關鍵功臣之一，Cox Automotive估計市佔實際略高達55%。
-
-- 參見：[[sources/ev-news-2026-09-15-electrive-en]] | [[sources/ev-news-2026-09-15-digitimes]] | [[sources/ev-news-2026-09-15-digest]] | [[concepts/電動卡車市場]] | [[countries/歐洲]] | [[countries/東南亞]] | [[countries/美國]]
-
-## Cybercab遭NHTSA正式發函質詢合規性、歐洲貨卡超充網路首階段21站（2026-09）
-
-美國國家公路交通安全管理局（NHTSA）向Tesla發出詳細問題清單，要求說明Cybercab如何符合聯邦機動車安全標準（FMVSS）自我認證流程，須於9月30日前回覆，問題涵蓋方向燈自動回正機制（Cybercab無方向盤故不具備）、後視鏡及煞車踏板要求（僅具電子致動煞車、無踏板）；業界先例參照Amazon旗下Zoox同樣自我認證無方向盤車型遭調查後取得美國首例商用豁免，Tesla案件走向可能循此模式申請年度配額豁免。同期Tesla於IAA Transportation公布歐洲貨卡超充網路首階段21站規劃（逾100個MCS充電點，英國2站、瑞典3站，多數集中德法荷比），Megacharger最高輸出達1.2MW（與北美同規，暗示未來可能引入長續航版Semi），2027年中隨歐洲版Semi交車同步啟用。
-
-- 參見：[[sources/ev-news-2026-09-17-electrive-en]] | [[concepts/北美EV關稅與政策]] | [[concepts/電動卡車市場]] | [[countries/美國]] | [[countries/歐洲]]
-
-## Cybercab東京／上海展示、歐洲Megacharger、Optimus赴中審廠與Terafab（2026-09）
-
-> **結論**：Tesla同週在四條線推進——Cybercab於東京（9/11）與上海（9/17~21）靜態展出、Semi歐洲Megacharger首波逾100座、Optimus赴中量產審廠並新增約5,000台訂單、馬斯克以「台灣晶片風險」說明自建Terafab。
-
-**主因**：
-- Cybercab：已於美國7城營運（德州9/3起載客），日本與中國僅展示、不銷售，目的在推動FSD與L4法規放行；純視覺（8鏡頭）配置與無方向盤設計面臨NHTSA合規質詢，是規模化最大變數
-- 充電：Megacharger最高1.2MW、30分鐘充至60%，雙座組合價16.3萬歐元；Forum Mobility加州擴充中，Tesla將營運3個公共站，Semi已有逾330輛訂單（Rancho Dominguez）
-- Optimus：2026年目標約5萬台，參照車規要求單台成本收斂至2萬美元內，並將部分製造由美國轉移至中國供應鏈（均勝電子漲停、拓普＋4.36%、三花＋2.70%）；Terafab預估2027年底前製出可用晶片
-
-**觀察**：NHTSA對Cybercab的回覆（9月30日期限，見09-17前期）與日本是否鬆綁FSD；Optimus Gen3量產節點與中國供應鏈占比。
-
-- 參見：[[sources/ev-news-2026-09-18-digitimes]] | [[sources/ev-news-2026-09-18-electrive-en]] | [[sources/ev-news-2026-09-18-digest]] | [[sources/ev-news-2026-09-19-electrive-en]] | [[sources/ev-news-2026-09-20-digest]] | [[entities/NHTSA]] | [[concepts/人形機器人]]
-
-## Cybercab導航「繼承」Tesla老毛病（2026-09）
-
-InsideEVs整理乘客回報，Cybercab因限制行駛高速公路與平交道，德州奧斯汀一趟原10分鐘路程繞行至70分鐘，凸顯FSD導航「繞路」問題延續到無人駕駛車隊、且無人可即時修正；相較Waymo拓展高速公路載客前經逾一年純市區驗證，Tesla策略更為激進。
-
-- 參見：[[sources/ev-news-2026-09-22-electrive-en]] | [[concepts/Robotaxi自動計程車]] | [[countries/美國]]
-
-## FSD捷克過關、Semi獲2,500輛大單與試乘扭轉懷疑論（2026-09）
-
-> **結論**：Tesla FSD（Supervised）成為第7個獲歐盟成員國（捷克）承認的臨時型式認證案例，歐盟全境表決最快10月6日登場；Semi同週傳出2,500輛美國採購聯盟大單（近乎翻倍美國電動Class 8車隊）及Top Gear試乘後好評，商用車業務動能加速。
-
-**主因**：
-- FSD：捷克跟進荷蘭RDW臨時認證（繼立陶宛、愛沙尼亞、丹麥、比利時、斯洛維尼亞），Tesla另建置公開儀表板揭露里程與事故數據爭取信任；歐盟現分類FSD為SAE Level 2
-- Semi訂單：ZET SCALE聯盟（Catalyst Mobility與Smart Freight Centre發起，創始成員含Microsoft、PepsiCo）選定Tesla為主要供應商，車輛分配至10個美國貨運樞紐；疊加Einride 500輛與IMC Logistics 50輛訂單
-- 產品體驗：Top Gear記者實地試乘＋內華達廠參觀後由懷疑轉為肯定，內華達廠設計年產能5萬輛；但Cybercab導航問題（見09-22）與此形成對比，顯示Tesla商用車與Robotaxi業務進展不同步
-
-**觀察**：10月6日歐盟表決結果；2,500輛Semi實際交車時間表（聯盟未公布）。
-
-- 參見：[[sources/ev-news-2026-09-23-electrive-en]] | [[sources/ev-news-2026-09-24-electrive-en]] | [[concepts/電動卡車市場]] | [[countries/歐洲]] | [[countries/美國]]
-
-## Semi正式量產交車、Optimus借力中國製造、Roadster期權冷靜、i3提前預購（2026-09）
-
-> **結論**：Tesla本週商用車與機器人兩線並進——Semi在內華達廠啟動量產交付（PepsiCo、DHL等加入客戶名單），Optimus赴中國寧波審廠、週產量已破百台（較Q2躍升10倍），但硬體組裝精度與軟體自主性仍是量產瓶頸，早期機型傳採「只租不售」策略。
-
-**主因**：Semi工廠年產能5萬輛，未透露具體產量與售價，訂單壓力隨ZET SCALE 2,500輛標案持續攀升；Optimus供應鏈複製EV借力中國模式（審查均勝電子、拓普集團、三花汽配），但Robotaxi與人形機器人領域中國業者進展迅速，Tesla技術領先窗口恐較EV時期更短；Roadster 10月1日發布前期權市場隱含波動率僅處歷史區間第36百分位，反應平淡；BMW i3美國提前預購對Tesla構成新一波豪華電動車競爭壓力。
-**觀察**：Optimus年底週產千台目標達成度；Roadster正式售價與規格。
-
-- 參見：[[sources/ev-news-2026-09-26-digest]] | [[sources/ev-news-2026-09-28-electrive-en]] | [[sources/ev-news-2026-09-29-digitimes]] | [[concepts/電動卡車市場]] | [[concepts/人形機器人]] | [[countries/中國]] | [[countries/美國]]
-
-## Roadster發布延至10/15、FSD歐盟表決延至年底（2026-10）
-
-Tesla Roadster 10月1日發布會以天候為由延至10月15日；歐盟全境對FSD（Supervised）的表決原訂10月、據路透確定延至2026年底；瑞銀警示中系車輸歐速度近當地註冊量2倍，Tesla被視為最有機會在歐洲與中系抗衡者。
-
-- 參見：[[sources/ev-news-2026-10-01-electrive-en]] | [[sources/ev-news-2026-10-01-digitimes]] | [[concepts/ADAS智駕系統]] | [[countries/歐洲]]
-
-## Q3交付48.65萬輛、中國製Model 3受惠加拿大新關稅、Emergency Drive Away（2026-10）
-
-Tesla Q3生產464,000輛（年增3.7%）、交付486,532輛（較去年Q3近50萬輛略低）、儲能13.7GWh，財報10月21日公布；加拿大允許每年4.9萬輛中國製電動車以6.1%關稅進口（原100%），中國製Model 3在加拿大第三季銷量增加、Tesla定價部分車款較美國低約25%；新增僅限美國的「Emergency Drive Away」功能（軟體2026.38.3），可在充電線連接時緊急駛離。
-
-- 參見：[[sources/ev-news-2026-10-05-electrive-en]] | [[sources/ev-news-2026-10-04-digest]] | [[countries/加拿大]] | [[countries/中國]] | [[countries/美國]]
-
-## Cybercab德州車隊增至169輛、德國補貼核准居冠（2026-10）
-
-Cybercab獲德州商用核准車輛由45輛增至169輛（另420輛搭載Tesla自駕系統的Model Y），NHTSA審計調查回覆期限已獲展延；德國電動車補貼首批核准中Tesla 12,155件居冠（Model Y 8,297、Model 3 3,845）；英國9月BEV銷冠為Model 3（9,929輛）。
-
-- 參見：[[sources/ev-news-2026-10-06-digest]] | [[sources/ev-news-2026-10-06-electrive-en]] | [[entities/NHTSA]] | [[concepts/Robotaxi自動計程車]] | [[countries/德國]] | [[countries/美國]]
-
-## 台灣Megapack 1GWh大單、德國力挺FSD、LGES供應LFP儲能（2026-10）
-
-台灣阿波羅電力採購260台Megapack 2 XL（約1GWh，2028年上線，相當500MW虛擬電廠）；德國交通部長力挺歐盟放行FSD，若卡關擬以國家方案認可荷蘭RDW核准（歐盟表決延至12月）；Tesla柏林廠9月德國掛牌彈升逾3倍至12,552輛；LGES蘭辛廠生產Tesla用LFP儲能電池；Tesla Energy全球儲能部署逾50GWh。
-
-- 參見：[[sources/ev-news-2026-10-08-digitimes]] | [[sources/ev-news-2026-10-12-digitimes]] | [[sources/ev-news-2026-10-09-electrive-en]] | [[concepts/ADAS智駕系統]] | [[concepts/儲能市場]] | [[countries/台灣]] | [[countries/德國]]
-
-## 台灣9月交車5,554輛、美國快充新增仍居首（2026-10）
-
-Tesla 9月在台交車5,554輛、前9月18,632輛，僅次於Toyota與Lexus；美國Q3新增1,287個快充埠（比去年少533）仍居首，V4 500 kW機櫃已有42處、487埠。
-
-- 參見：[[sources/ev-news-2026-10-12-14-digitimes]] | [[sources/ev-news-2026-10-13-14-insideevs]]
-
-## 新款Roadster發表（2026-10）
-
-> **結論**：10月15日於德州SpaceX場地發表，冷氣推進器可騰空翻轉、0-60mph不到1秒，2028年量產，無售價；馬斯克稱「最後一款人類駕駛車」。
-
-**觀察**：10月21日Q3財報說明。
-
-- 參見：[[sources/ev-news-2026-10-16-digitimes]]
-
-## Roadster細節、韓國供應鏈議價與FSD訴訟（2026-10）
-
-> **結論**：Roadster分Performance／Thrust／Rocket三版，僅Rocket版可「飛行」（0-60mph約0.81秒、續航逾483公里）；同週Tesla越級向南韓三、四級供應商直接議價，且第九巡迴法院駁回FSD加州集體訴訟認證。
-
-**主因**：
-- Roadster：與SpaceX共同研發，Tesla–SpaceX合併僅為市場臆測；展示對實際駕駛無實質效益 → 品牌展示大於營收貢獻。
-- 供應鏈：自2026年起直接談價，部分供應商被壓到零利潤、並被指定材料與電池客戶 → 成本掌控升高，但供應商毛利承壓。
-- 訴訟：集體訴訟認證遭撤銷（買家所見宣傳個案差異過大），實體不實廣告訴訟仍在審理 → 短期降低集體賠償風險。
-**觀察**：10月21日Q3財報；南韓供應商毛利率；FSD實體訴訟進展。
-
-- 參見：[[sources/ev-news-2026-10-19-digitimes]] | [[sources/ev-news-2026-10-19-digest]] | [[sources/ev-news-2026-10-16-digitimes]] | [[countries/韓國]] | [[countries/美國]]
-
-## 輿論：Roadster 「飛天」評價（2026-10）
-
-《大西洋月刊》評論潑冷水（Google快訊摘錄）；中國官網上架1,399元兒童平衡車。
-
-- 參見：[[sources/ev-news-2026-10-20-digest]]
-
-## 與SpaceX成立特別委員會評估合併（2026-10）
-
-> **結論**：馬斯克10月20日證實Tesla與SpaceX已各成立獨立董事特別委員會評估合併，條件未定、非必然；Tesla須獲全體流通股至少50%支持，合併後規模約3.5兆美元。
-
-**主因**：兩家合作Terafab晶片（2028Q3量產），潛在協同含AI、晶片、機器人、資料中心與衛星通訊 → 由EV公司轉向「晶片＋算力＋自主裝置」整合體。
-**觀察**：委員會結論、監管審查；Waymo車隊擴張下Tesla Robotaxi的追趕壓力。
-
-- 參見：[[sources/ev-news-2026-10-22-digitimes]] | [[sources/ev-news-2026-10-22-digest]] | [[sources/ev-news-2026-10-22-insideevs]]
-
-## Q3財報：車業疲弱、資本支出下修、Cybercab與自研地圖（2026-10）
-
-> **結論**：Q3營收280億美元持平、汽車營收205.6億美元（年減3%）；資本支出47.3億美元（低於預期79.5億），全年目標由逾250億降至200億美元；2030年銷量目標下修至500萬輛；Optimus量產恐延至2027年底；CAM創新排名十年來首度跌出前十（第11）。
-
-**主因**：
-- 平均售價下滑、電池供應限制，積壓訂單創4年新高；監管積分收入由4.17億降至1.13億美元。
-- Robotaxi：德州362輛Model Y＋449輛Cybercab；Cybercab 2026年底前對客戶銷售、2027年貢獻營收；預告拓展至鳳凰城等四城。
-- 產品：Roadster（2027~2028年Giga Texas投產）、Cybertruck取消澳紐上市；自研AI地圖隨FSD v15上線；與Turo合作推FSD試用。
-**觀察**：Cybercab安全調查結果；SpaceX合併特別委員會結論；FSD訂閱滲透。
-
-- 參見：[[sources/ev-news-2026-10-27-digitimes-tesla]] | [[sources/ev-news-2026-10-27-electrive-en]] | [[sources/ev-news-2026-10-27-insideevs]] | [[concepts/Robotaxi自動計程車]] | [[concepts/人形機器人]]
-
-## SpaceX合併審查的治理疑慮；二手Model S殘值（2026-10）
-
-> **結論**：Musk稱SpaceX與Tesla各成立獨立董事特別委員會評估合併，但多位候選董事與Musk有商業或投資往來，獨立性受檢驗；另Edmunds測試顯示高里程Model S仍有221英里續航。
-
-**主因**：Tesla潛在成員含Denholm、Hartung、Straubel（Redwood與Tesla有協議）、Gebbia、Wilson-Thompson；二手Model S（13.5萬英里）0–60約5秒、10–80%充電約47分鐘。
-
-**觀察**：委員會成員、架構與時程公布；Edmunds後續維修成本。
-
-- 參見：[[sources/ev-news-2026-10-29-insideevs]] | [[sources/ev-news-2026-10-29-digitimes]] | [[concepts/ADAS智駕系統]]
-
-## 歐盟被比亞迪超車、Cybercab受惠NHTSA草案（2026-11）
-
-> **結論**：Tesla前9月歐盟登記188,035輛、市占2.2%，已低於比亞迪的2.4%；NHTSA草案則為取消方向盤與踏板的Cybercab放寬燈光手動控制要求。
-
-**主因**：Tesla 9月單月45,866輛仍高於比亞迪28,309輛，但累計被超車；一般FSD（Supervised）屬L2，不適用青色識別燈。
-
-**觀察**：Cybercab聯邦認證進度；歐盟10月登記差距。
-
-- 參見：[[sources/ev-news-2026-11-02-cn-misc]] | [[entities/比亞迪]] | [[concepts/Robotaxi自動計程車]] | [[entities/NHTSA]]
-
-## 上海廠10月67,829輛連12個月成長；台灣空窗月（2026-11）
-
-> **結論**：Tesla上海廠10月交付67,829輛（+10.3%，連續12個月年增，較9月-28.9%）；台灣10月僅Model Y 16輛掛牌，累計18,648輛、市占54%。
-
-**主因**：出口約每5輛就有1輛銷往南韓（前9月）；歐洲多市場10月掛牌大增；全年資本支出下修約兩成，第三季意外錄得正自由現金流；與SpaceX潛在合併若推進將面臨美中審查。台灣榜單隨船期起落。
-
-**觀察**：11月台灣到貨量；SpaceX合併案審查動向。
-
-- 參見：[[sources/ev-news-2026-11-04-cn-misc]] | [[sources/ev-news-2026-11-04-digitimes]] | [[concepts/中國EV市場競爭格局]] | [[concepts/台灣EV市場]] | [[countries/中國]] | [[countries/台灣]] | [[countries/韓國]]
-
-## 柏林工程中心、EVgo採Supercharger硬體、期中選舉風險（2026-11）
-
-> **結論**：Tesla歐洲與充電策略同時外擴——柏林Köpenick工程中心（約1億歐元、初期250人，二期擴至約500人）成為繼Fremont、上海後第三個研發樞紐；EVgo開出首座採Tesla V4硬體的站；但期中選舉使德州大本營的Tesla與SpaceX面臨更嚴格監管風險。
-
-**主因**：BTEC整合4處研發據點、30間實驗室，成果回饋Grünheide工廠；V4機櫃最高500 kW，開放商業客戶採購，Tesla車內導航顯示EVgo樁；二手Model S／X價格+22%／+18%（所有二手車最高），可能抑制二手Tesla成交。
-
-**觀察**：BTEC二期核准；EVgo後續站數；新國會對Tesla／SpaceX的調查。
-
-- 參見：[[sources/ev-news-2026-11-06-electrive-en]] | [[sources/ev-news-2026-11-06-digitimes]] | [[sources/ev-news-2026-11-06-insideevs]] | [[concepts/充電基礎建設]] | [[concepts/美國EV市場與政策]] | [[countries/德國]] | [[countries/美國]]
-
-## 馬斯克稱「愛中國」；中國前7月-12.4%、高管流動（2026-11）
-
-> **結論**：馬斯克在巴倫投資會議稱上海產Model Y為中國最暢銷電動車並稱中國車廠「非常厲害」；Tesla中國前7個月銷量約26.6萬輛（-12.4%），中國區高管陸續流向小米（部分為傳聞）。
-
-**主因**：比亞迪、小米、理想圍攻；2026-04小米被曝挖走Tesla中國區兩位高管。
-
-**觀察**：新任中國區銷售負責人（未證實）。
-
-- 參見：[[sources/ev-news-2026-11-09-cn-misc]] | [[concepts/中國EV市場競爭格局]] | [[countries/中國]]
-
-## 2027年中結束Cybertruck、EVgo採Supercharger（2026-11）
-
-> **結論**：馬斯克11/6宣布2027年中逐步結束德州Cybertruck（4年），6–7月拆線讓位Cybercab，並稱將向部分客戶退還訂金；EVgo開出首座Tesla V4 Supercharger站。
-
-**主因**：Cybertruck 2025年美國銷量2.02萬輛（-48%）、現年產約2萬輛（約占總產量1%）；入門AWD降至59,990美元、Cyberbeast降1.5萬美元；馬斯克稱訂單遠超產能（訂單數未公布，與疲弱需求說法並存，待核對）；Cybercab 2026-09-03起載客。
-
-**觀察**：訂金退還規模；Cybertruck是否移至他廠；德州廠Cybercab產量。
-
-- 參見：[[sources/ev-news-2026-11-11-electrive-en]] | [[sources/ev-news-2026-11-11-cn-misc]] | [[sources/ev-news-2026-11-11-digitimes]] | [[concepts/Robotaxi自動計程車]] | [[concepts/美國EV市場與政策]] | [[concepts/充電基礎建設]] | [[countries/美國]]
-
-## 中國內銷跌破1萬輛與Cybertruck、Terafab（2026-11）
-
-> **結論**：Tesla中國10月內銷8,817輛、年減66.1%，87%產量出口；Cybertruck買氣據報不到25萬輛年目標的一成。
-
-**主因**：中國品牌低價對標；Cybertruck說法並存（馬斯克稱訂單高於可生產量）待核對；Terafab傳月產100萬片晶圓。
-
-**觀察**：11–12月內銷。
-
-- 參見：[[sources/ev-news-2026-11-12-digitimes]] | [[sources/ev-news-2026-11-12-cn-misc]] | [[concepts/中國EV市場競爭格局]]
-
-## 與SpaceX合併傳聞、Cybercab、FSD芬蘭與Model Y精簡（2026-11）
-
-> **結論**：Tesla與SpaceX傳最快12月宣布合併（轉述、未證實），同時Cybercab開放個人訂購、Model Y再精簡、FSD以TAD名稱在芬蘭獲臨時批准。
-
-**主因**：SpaceX估值逾3,500億美元、Tesla逾1兆美元；談判歧見在架構、人事、股權與中國業務；Tesla年度股東會12/3。Cybercab約3萬美元＋299美元月訂閱。
-
-**觀察**：12/3股東會；歐盟12月FSD表決。
-
-- 參見：[[sources/ev-news-2026-11-16-digitimes]] | [[sources/ev-news-2026-11-16-cn-misc]] | [[concepts/Robotaxi自動計程車]] | [[concepts/自動駕駛安全監管]]
-
-## Cybercab個人購買細節與格林海德30億歐元擴建（2026-11）
-
-> **結論**：Tesla把Cybercab同時推向個人購買（29,990美元＋299美元月訂閱）與大規模製造（格林海德2029年起年產最多100萬輛），但NHTSA調查與歐盟TAD表決仍是兩大監管變數。
-
-**主因**：格林海德近月新招2,000人使電池產能翻倍、員工約1.26萬人；10月德國掛牌年增291%（市佔1.2%）；美國Model Y入門AWD下架。
-
-**觀察**：12月Cybercab交付、12/3股東會、歐盟TAD表決。
-
-- 參見：[[sources/ev-news-2026-11-17-electrive-en]] | [[sources/ev-news-2026-11-17-insideevs]] | [[sources/ev-news-2026-11-17-digitimes]] | [[sources/ev-news-2026-11-17-cn-misc]] | [[concepts/Robotaxi自動計程車]] | [[countries/德國]]
