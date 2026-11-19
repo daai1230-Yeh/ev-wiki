@@ -1,7 +1,7 @@
 ---
 tags: [concept]
-sources: [tesla-canada-model3-2026, nissan-mississippi-ev-abandonment, china-evs-canada-chery-geely-2026, ford-catl-michigan-factory-2026, china-ev-us-market-2026, nissan-canada-dongfeng-ev-quota-2026, ev-news-2026-09-07-08-electrive-en, ev-news-2026-09-09-electrive-en, ev-news-2026-09-14-digest, ev-news-2026-09-11-digitimes, ev-news-2026-09-14-digitimes, ev-news-2026-09-17-digitimes, ev-news-2026-09-17-digest, ev-news-2026-09-17-electrive-en, ev-news-2026-09-20-digest, ev-news-2026-09-18-digest, ev-news-2026-09-25-digest, ev-news-2026-09-28-digest, ev-news-2026-09-30-digitimes, ev-news-2026-10-01-electrive-en, ev-news-2026-10-02-digitimes, ev-news-2026-10-04-digest, ev-news-2026-10-09-electrive-en, ev-news-2026-10-16-digitimes, ev-news-2026-10-19-digitimes, ev-news-2026-10-27-insideevs, ev-news-2026-10-27-digest]
-updated: 2026-11-18
+sources: [tesla-canada-model3-2026, nissan-mississippi-ev-abandonment, china-evs-canada-chery-geely-2026, ford-catl-michigan-factory-2026, china-ev-us-market-2026, nissan-canada-dongfeng-ev-quota-2026, ev-news-2026-09-07-08-electrive-en, ev-news-2026-09-09-electrive-en, ev-news-2026-09-14-digest, ev-news-2026-09-11-digitimes, ev-news-2026-09-14-digitimes, ev-news-2026-09-17-digitimes, ev-news-2026-09-17-digest, ev-news-2026-09-17-electrive-en, ev-news-2026-09-20-digest, ev-news-2026-09-18-digest, ev-news-2026-09-25-digest, ev-news-2026-09-28-digest, ev-news-2026-09-30-digitimes, ev-news-2026-10-01-electrive-en, ev-news-2026-10-02-digitimes, ev-news-2026-10-04-digest, ev-news-2026-10-09-electrive-en, ev-news-2026-10-16-digitimes, ev-news-2026-10-19-digitimes, ev-news-2026-10-27-insideevs, ev-news-2026-10-27-digest, ev-news-2026-11-19-cn-misc]
+updated: 2026-11-19
 ---
 
 # 北美 EV 關稅與政策
@@ -273,6 +273,22 @@ Polestar自6月遭商務部聯網車規定禁售（申請豁免遭拒，Volvo獲
 加拿大49,000輛/年低稅額度；美國聯網車禁令使Chery尋求夥伴；現代Palisade Hybrid赴美產量降63%。
 
 - 參見：[[sources/ev-news-2026-10-27-insideevs]] | [[sources/ev-news-2026-10-27-digest]]
+
+## 2026-11 動態彙整
+
+> 本月逐批新增的動態；月底合併為一節 RRC 並更新頁首摘要與「簡報三段式」。
+
+### 期中選舉後去中化不變，台廠加速墨西哥與美國設廠（2026-11）
+
+> **結論**：民主黨期中選舉大勝後，美國汽車業的去中化要求並未改變：GM要求數千家供應商找中國以外來源、部分2027年起停止中國採購，台廠因此加速墨西哥與美國布局。
+
+**主因**：
+- 客戶要求：業者稱客戶直言「沒有中國以外的製造選項，就不會給訂單」，USMCA也拉高原產地門檻。
+- 台廠布局：聯嘉墨西哥一期今年底投產、2028年底滿單、產值約2億美元（二廠後達5億美元）；華勝-KY獲GM主力車款大單、明年下半年量產；皇田、麗清赴墨西哥，世德直接赴美設廠。
+
+**觀察**：民主黨是否推動電動車政策回溫（業者「有期待但不敢過度推論」）；USMCA檢討。
+
+- 參見：[[sources/ev-news-2026-11-19-cn-misc]] | [[countries/台灣]] | [[countries/美國]]
 
 ## Related
 - [[concepts/美國EV市場與政策]]

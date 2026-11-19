@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [renault-flexis-acquisition-2026, ev-news-2026-06-27-29-en, ev-news-2026-07-09, ev-news-2026-09-26-electrive-en, ev-news-2026-09-28-electrive-en, ev-news-2026-09-29-electrive-en, ev-news-2026-10-05-electrive-en, ev-news-2026-10-06-electrive-en, ev-news-2026-10-05-digitimes, ev-news-2026-10-07-electrive-en, ev-news-2026-10-15-electrive-en, ev-news-2026-10-20-digest, ev-news-2026-11-11-electrive-en]
-updated: 2026-11-11
+sources: [renault-flexis-acquisition-2026, ev-news-2026-06-27-29-en, ev-news-2026-07-09, ev-news-2026-09-26-electrive-en, ev-news-2026-09-28-electrive-en, ev-news-2026-09-29-electrive-en, ev-news-2026-10-05-electrive-en, ev-news-2026-10-06-electrive-en, ev-news-2026-10-05-digitimes, ev-news-2026-10-07-electrive-en, ev-news-2026-10-15-electrive-en, ev-news-2026-10-20-digest, ev-news-2026-11-11-electrive-en, ev-news-2026-11-19-electrive-en]
+updated: 2026-11-19
 ---
 
 # Renault（雷諾）
@@ -146,6 +146,20 @@ Renault集團與EDF明年夏季在法國推出雙向充電套裝（車＋壁掛�
 **觀察**：Dacia正式宣布與歐洲生產地。
 
 - 參見：[[sources/ev-news-2026-11-11-electrive-en]] | [[concepts/歐洲EV市場]] | [[countries/印度]] | [[countries/歐洲]]
+
+## 2026-11 動態彙整
+
+> 本月逐批新增的動態；月底合併為一節 RRC 並更新頁首摘要與「簡報三段式」。
+
+### 法國增聘2,000名生產人員（2026-11）
+
+> **結論**：Renault 2028年前在法國新增約2,000個生產職缺、Douai廠擴至3班，同時以自願離職削減最多1,000個行政職。
+
+**主因**：R5、Scénic等純電車款需求。
+
+**觀察**：法國工廠產量。
+
+- 參見：[[sources/ev-news-2026-11-19-electrive-en]] | [[concepts/歐洲EV市場]]
 
 ## Related
 - [[entities/Volkswagen]]

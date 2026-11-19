@@ -1,7 +1,7 @@
 ---
 tags: [concept]
-sources: [electric-bus-market-2025-global, delhi-ev-policy-2026, vinfast-india-investment, india-ev-commercial-update-2026, india-tata-jsw-battery-rd-2026, mahindra-ev-expansion-2026, ather-energy-el-platform-2026, india-2w-market-fy27-bifurcation-2026, india-1bn-ev-commercial-incentives-2026, china-catl-battery-tech-export-2026, tesla-india-factory-exit-2026, honda-india-ev-hybrid-2026, tata-stellantis-jeep-india-2026, india-electric-bus-market-2025, tata-chery-avinya-platform-2026, delhi-ev-7year-high-2026, toptec-india-battery-equipment-2026, ev-news-2026-09-18-electrive-en, ev-news-2026-09-20-india, ev-news-2026-09-21-india, ev-news-2026-09-24-electrive-en, ev-news-2026-09-24-digest, ev-news-2026-10-12-digest, ev-news-2026-10-15-digest, ev-news-2026-10-19-digest, ev-news-2026-10-29-electrive-en, ev-news-2026-11-02-sustainablebus, ev-news-2026-11-06-electrive-en, ev-news-2026-11-09-cn-misc, ev-news-2026-11-11b-cn-misc, ev-news-2026-11-11b-sustainablebus, ev-news-2026-11-17-electrive-en, ev-news-2026-11-17-cn-misc]
-updated: 2026-11-18
+sources: [electric-bus-market-2025-global, delhi-ev-policy-2026, vinfast-india-investment, india-ev-commercial-update-2026, india-tata-jsw-battery-rd-2026, mahindra-ev-expansion-2026, ather-energy-el-platform-2026, india-2w-market-fy27-bifurcation-2026, india-1bn-ev-commercial-incentives-2026, china-catl-battery-tech-export-2026, tesla-india-factory-exit-2026, honda-india-ev-hybrid-2026, tata-stellantis-jeep-india-2026, india-electric-bus-market-2025, tata-chery-avinya-platform-2026, delhi-ev-7year-high-2026, toptec-india-battery-equipment-2026, ev-news-2026-09-18-electrive-en, ev-news-2026-09-20-india, ev-news-2026-09-21-india, ev-news-2026-09-24-electrive-en, ev-news-2026-09-24-digest, ev-news-2026-10-12-digest, ev-news-2026-10-15-digest, ev-news-2026-10-19-digest, ev-news-2026-10-29-electrive-en, ev-news-2026-11-02-sustainablebus, ev-news-2026-11-06-electrive-en, ev-news-2026-11-09-cn-misc, ev-news-2026-11-11b-cn-misc, ev-news-2026-11-11b-sustainablebus, ev-news-2026-11-17-electrive-en, ev-news-2026-11-17-cn-misc, ev-news-2026-11-19-electrive-en]
+updated: 2026-11-19
 ---
 
 # 印度 EV 市場
@@ -455,6 +455,16 @@ JSW集團子公司發表電動商用車新品牌Ampstar，馬哈拉施特拉邦9
 **觀察**：印度EV晶片成本是否反映於售價。
 
 - 參見：[[sources/ev-news-2026-11-17-electrive-en]] | [[sources/ev-news-2026-11-17-cn-misc]] | [[起亞]] | [[countries/印度]]
+
+### 騰勢進入印度（2026-11）
+
+> **結論**：比亞迪高端品牌騰勢以CBU進口進入印度六城，D9 MPV 900萬盧比、Z9 GT 1,568萬盧比，皆僅提供純電版；但D9 9分鐘閃充在印度沒有對應充電站。
+
+**主因**：中國品牌以高端車款試探印度豪華市場 → 進口車稅負高，定價接近歐洲 → 銷量規模有限。
+
+**觀察**：騰勢印度銷量；比亞迪是否在印度建閃充站。
+
+- 參見：[[sources/ev-news-2026-11-19-electrive-en]] | [[比亞迪]] | [[countries/印度]]
 
 ## Related
 - [[entities/VinFast]]

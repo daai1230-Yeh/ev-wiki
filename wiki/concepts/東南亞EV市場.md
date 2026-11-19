@@ -1,7 +1,7 @@
 ---
 tags: [concept]
-sources: [thailand-ev-market-2026, china-autonomous-driving-overseas, foxconn-mitsubishi-fuso-electric-bus, byd-malaysia-factory-negotiation, byd-malaysia-factory-update-2026, malaysia-cbv-ev-regulation-2026, gwm-ora5-thailand-2026, geely-thailand-pickup-2026, mitsubishi-motors-middle-east-routes-2026, mitsubishi-hev-japan-2028, lges-honda-vietnam-bss-2026, volvo-ex30-thailand-fire-2026, hanoi-1000-bss-2026, ev-news-digest-jun1-10-2026, ev-news-2026-09-18-digest, ev-news-2026-09-18-digitimes, ev-news-2026-09-19-electrive-en, ev-news-2026-09-22-digest, ev-news-2026-09-22-electrive-en, ev-news-2026-09-28-digest, ev-news-2026-09-29-digitimes, ev-news-2026-10-01-digitimes, ev-news-2026-10-06-digest, ev-news-2026-10-22-digest, ev-news-2026-10-22-electrive-en, ev-news-2026-10-27-electrive-en, ev-news-2026-10-29-electrive-en, ev-news-2026-11-04-cn-misc, ev-news-2026-11-06-cn-misc, ev-news-2026-11-09-cn-misc, ev-news-2026-11-11b-cn-misc, ev-news-2026-11-11b-digitimes]
-updated: 2026-11-18
+sources: [thailand-ev-market-2026, china-autonomous-driving-overseas, foxconn-mitsubishi-fuso-electric-bus, byd-malaysia-factory-negotiation, byd-malaysia-factory-update-2026, malaysia-cbv-ev-regulation-2026, gwm-ora5-thailand-2026, geely-thailand-pickup-2026, mitsubishi-motors-middle-east-routes-2026, mitsubishi-hev-japan-2028, lges-honda-vietnam-bss-2026, volvo-ex30-thailand-fire-2026, hanoi-1000-bss-2026, ev-news-digest-jun1-10-2026, ev-news-2026-09-18-digest, ev-news-2026-09-18-digitimes, ev-news-2026-09-19-electrive-en, ev-news-2026-09-22-digest, ev-news-2026-09-22-electrive-en, ev-news-2026-09-28-digest, ev-news-2026-09-29-digitimes, ev-news-2026-10-01-digitimes, ev-news-2026-10-06-digest, ev-news-2026-10-22-digest, ev-news-2026-10-22-electrive-en, ev-news-2026-10-27-electrive-en, ev-news-2026-10-29-electrive-en, ev-news-2026-11-04-cn-misc, ev-news-2026-11-06-cn-misc, ev-news-2026-11-09-cn-misc, ev-news-2026-11-11b-cn-misc, ev-news-2026-11-11b-digitimes, ev-news-2026-11-19-cn-misc, ev-news-2026-11-19-electrive-en]
+updated: 2026-11-19
 ---
 
 # 東南亞 EV 市場
@@ -369,6 +369,19 @@ updated: 2026-11-18
 **觀察**：理想MEGA泰國售價與首批交車；三菱汽車以Pajero與鴻海EV合作能否止跌。
 
 - 參見：[[sources/ev-news-2026-11-11b-cn-misc]] | [[sources/ev-news-2026-11-11b-digitimes]] | [[理想汽車]] | [[三菱汽車]] | [[countries/東南亞]]
+
+### 泰國增程式同步調至35%、EA曼谷1,520輛電巴、Kia印尼在地組裝（2026-11）
+
+> **結論**：泰國2027-01起連增程式電動車消費稅也由15%調至35%，前9月電動車登記仍年增83%至191,273輛；在地組裝成為進入東協的共同解法，從泰國EA電巴到Kia在印尼的CKD組裝皆然。
+
+**主因**：
+- 稅制：中國車廠高層估部分進口EV售價最多漲10%，Tesla、Volvo、Porsche、Audi受影響最大，比亞迪支持、零跑考慮在泰組裝 → 依在地零件比例分級課稅 → 打入在地供應鏈決定接單。
+- 電巴：EA子公司AAB自由區廠年組裝約3,000輛，曼谷大眾運輸局1,520輛已組裝逾200輛、2027年1Q末起交車，在地含量40%；零件主要由中車（CRRC）供應。
+- 印尼：Kia Carens EV以印度Anantapur出口的CKD套件，由現代Cikarang廠組裝，在地含量80%，電芯來自現代×LGES合資廠。
+
+**觀察**：泰國財長11/18–20赴日招商的分級稅制細節；進口商用車稅率（BOI未公布，已列待核對）。
+
+- 參見：[[sources/ev-news-2026-11-19-cn-misc]] | [[sources/ev-news-2026-11-19-electrive-en]] | [[起亞]] | [[countries/東南亞]]
 
 ## Related
 - [[entities/比亞迪]]

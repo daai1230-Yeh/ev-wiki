@@ -1,7 +1,7 @@
 ---
 tags: [concept]
-sources: [china-ev-market-consolidation, chery-qq3-vs-byd-seagull, china-ev-market-q1-2026, mercedes-benz-china-q1-2026, china-nev-april-involution-2026, china-nev-april-2026, xpeng-physical-ai-pivot-2026, ev-news-digest-jun1-10-2026, china-ev-market-slowdown-jun2026, xiaomi-su7-2026-update, byd-great-han-2026, ev-news-2026-09-21-digitimes, ev-news-2026-09-18-digitimes, ev-news-2026-09-20-digest, ev-news-2026-09-22-electrive-en, ev-news-2026-09-22-digitimes, ev-news-2026-09-23-digitimes, ev-news-2026-09-24-digest, ev-news-2026-09-24-digitimes, ev-news-2026-10-01-digitimes, ev-news-2026-10-02-digitimes, ev-news-2026-10-01-electrive-en, ev-news-2026-10-05-digitimes, ev-news-2026-10-12-digitimes-2, ev-news-2026-10-19-electrive-en, ev-news-2026-10-20-electrive-en, ev-news-2026-10-22-digitimes, ev-news-2026-10-27-digest, ev-news-2026-10-27-electrive-en, ev-news-2026-10-29-electrive-en, ev-news-2026-10-29-digitimes, ev-news-2026-10-30-digitimes, ev-news-2026-11-02-cn-misc, ev-news-2026-11-04-cn-misc, ev-news-2026-11-09-cn-misc, ev-news-2026-11-11-electrive-en, ev-news-2026-11-12-digitimes, ev-news-2026-11-12-cn-misc, ev-news-2026-11-16-cn-misc, ev-news-2026-11-17-digitimes, ev-news-2026-11-17-electrive-en, ev-news-2026-11-17-cn-misc]
-updated: 2026-11-18
+sources: [china-ev-market-consolidation, chery-qq3-vs-byd-seagull, china-ev-market-q1-2026, mercedes-benz-china-q1-2026, china-nev-april-involution-2026, china-nev-april-2026, xpeng-physical-ai-pivot-2026, ev-news-digest-jun1-10-2026, china-ev-market-slowdown-jun2026, xiaomi-su7-2026-update, byd-great-han-2026, ev-news-2026-09-21-digitimes, ev-news-2026-09-18-digitimes, ev-news-2026-09-20-digest, ev-news-2026-09-22-electrive-en, ev-news-2026-09-22-digitimes, ev-news-2026-09-23-digitimes, ev-news-2026-09-24-digest, ev-news-2026-09-24-digitimes, ev-news-2026-10-01-digitimes, ev-news-2026-10-02-digitimes, ev-news-2026-10-01-electrive-en, ev-news-2026-10-05-digitimes, ev-news-2026-10-12-digitimes-2, ev-news-2026-10-19-electrive-en, ev-news-2026-10-20-electrive-en, ev-news-2026-10-22-digitimes, ev-news-2026-10-27-digest, ev-news-2026-10-27-electrive-en, ev-news-2026-10-29-electrive-en, ev-news-2026-10-29-digitimes, ev-news-2026-10-30-digitimes, ev-news-2026-11-02-cn-misc, ev-news-2026-11-04-cn-misc, ev-news-2026-11-09-cn-misc, ev-news-2026-11-11-electrive-en, ev-news-2026-11-12-digitimes, ev-news-2026-11-12-cn-misc, ev-news-2026-11-16-cn-misc, ev-news-2026-11-17-digitimes, ev-news-2026-11-17-electrive-en, ev-news-2026-11-17-cn-misc, ev-news-2026-11-19-electrive-en]
+updated: 2026-11-19
 ---
 
 # 中國 EV 市場競爭格局
@@ -419,6 +419,18 @@ DIGITIMES Research：2026上半全球電動車約980萬輛（年增2%），前15
 **觀察**：ID. ERA 5X 12月起月銷；福斯中國30款新能源車節奏。
 
 - 參見：[[sources/ev-news-2026-11-17-digitimes]] | [[sources/ev-news-2026-11-17-electrive-en]] | [[sources/ev-news-2026-11-17-cn-misc]] | [[Volkswagen]] | [[日産]] | [[countries/中國]]
+
+### 小鵬3Q營收年增19.1%、福斯ID. Aura L5（2026-11）
+
+> **結論**：小鵬3Q26營收約31億歐元、年增19.1%，高於財報前共識的13.94%，但仍虧損；福斯則以與小鵬共同開發的CEA 1.4架構推出ID. Aura L5，顯示外資在中國越來越依賴本土技術夥伴。
+
+**主因**：
+- 小鵬：交付118,390輛（年增2.1%、季增14.6%），汽車業務營收216.3億元人民幣（年增19.8%）→ 成長主要來自均價提升與車型組合，而非量 → 價格戰下仍以產品組合拉毛利。
+- 福斯：ID. Aura L5（CMP平台、CLTC 580 km）為一汽-大眾首款搭CEA 1.4的車款；小鵬也從福斯技術合作取得營收 → 技術授權成為中國新勢力的第二收入來源。
+
+**觀察**：小鵬4Q是否轉盈；ID. Aura L5上市定價。
+
+- 參見：[[sources/ev-news-2026-11-19-electrive-en]] | [[小鵬汽車]] | [[Volkswagen]]
 
 ## Related
 - [[entities/比亞迪]]

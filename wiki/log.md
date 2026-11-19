@@ -2537,3 +2537,13 @@ Pages 375 → 406，Sources 315 → 346
 ## [2026-11-18] maintenance | 簡報三段式聽眾改為業界人士與新人
 - Pages updated: 24 個 concept 頁與 14 個國家頁的「坡道」段落改寫為對「想了解市場的業界人士」與「剛入行的新人」說話；每張卡片末尾新增「名詞速懂（給新人）」3–4 則白話名詞解釋
 - 模板：[[templates/簡報三段式模板]] 加入預設聽眾規則與名詞速懂格式；tools/ingest/briefing.py 新增 set_ramp()、set_glossary()
+
+## [2026-11-19] ingest | EV News 2026-11-10~18 批次（37篇原文，4個來源摘要頁）
+- Summary pages: [[sources/ev-news-2026-11-19-electrive-en]], [[sources/ev-news-2026-11-19-insideevs]], [[sources/ev-news-2026-11-19-sustainablebus]], [[sources/ev-news-2026-11-19-cn-misc]]
+- Raw assets: raw/assets/2026-11-18-*.md（37篇；其餘33個標點／全形變體與「HHTD 26」前綴重複檔不重複 ingest）
+- Pages updated (concepts): 中國EV市場競爭格局、東南亞EV市場、電動巴士市場、電動商用車、電動卡車市場、ADAS智駕系統、充電基礎建設、北美EV關稅與政策、印度EV市場、歐洲EV市場
+- Pages updated (entities): 小鵬汽車、Volkswagen、比亞迪、起亞、現代汽車、Renault、豐田、通用汽車、寧德時代
+- Countries updated: [[countries/韓國]], [[countries/東南亞]], [[countries/台灣]], [[countries/澳洲]], [[countries/巴西]]
+- New pages created: [[entities/Zenobē]], [[entities/Wrightbus]], [[entities/Daimler-Buses]]（依「≥3個來源頁即建實體頁」規則）
+- Key additions: 小鵬3Q營收年增19.1%（高於共識13.94%）；台廠因GM去中化加速墨西哥設廠（聯嘉、華勝-KY等）；中國製電動車對韓出口1–9月33.6億美元（年增99.2%）；泰國增程式消費稅同步升至35%、前9月EV登記年增83%；中車經銷商YES-EU擬在都靈設電巴廠；Renault法國增聘2,000人
+- 備註: 本批無 Digitimes 剪輯檔；Sustainable Bus 2 篇為贊助內容（Higer、Autonomous Systems），未用於更新 concept 頁；eCitaro、Driventic、台南電巴、泰國35%、Euro Bus Expo 為前批同一事件之補充；待核對新增：泰國進口商用車消費稅；其餘符合建頁門檻的候選：Ionna、Electra、Kempower、Alexander Dennis、May Mobility
