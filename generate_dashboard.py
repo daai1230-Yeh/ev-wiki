@@ -317,7 +317,6 @@ HTML_TEMPLATE = r'''<!DOCTYPE html>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>電動車產業知識庫 Dashboard</title>
 <script src="https://cdn.tailwindcss.com"></script>
-<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/marked@12.0.0/marked.min.js"></script>
 <style>
   ::-webkit-scrollbar{width:5px;height:5px}
@@ -344,9 +343,6 @@ HTML_TEMPLATE = r'''<!DOCTYPE html>
   .tip{display:none;position:absolute;bottom:125%;left:50%;transform:translateX(-50%);
        background:#0f172a;border:1px solid #334155;color:#e2e8f0;font-size:.7rem;
        padding:4px 8px;border-radius:6px;white-space:nowrap;z-index:50}
-  .chart-wrap{position:relative;width:100%;height:220px}
-  .chart-wrap-tall{position:relative;width:100%;height:280px}
-  .chart-wrap-donut{position:relative;width:100%;height:220px}
   .clickable{cursor:pointer}
 
   /* ── Detail subpage (slide-over) ── */
@@ -382,9 +378,6 @@ HTML_TEMPLATE = r'''<!DOCTYPE html>
   .md-body tr:nth-child(even){background:rgba(30,41,59,.4)}
   .md-body blockquote{border-left:3px solid #475569;padding-left:1em;color:#94a3b8;margin:.8em 0}
   .md-body hr{border:0;border-top:1px solid #1e293b;margin:1.4em 0}
-
-  /* ── compact chart strip ── */
-  .chart-wrap-mini{position:relative;width:100%;height:170px}
 
   /* ── 坡道 / 發現 / 甜點 narrative ── */
   .narr-zone{border-radius:14px;padding:16px 18px;margin-bottom:14px;border:1px solid}
@@ -460,24 +453,6 @@ HTML_TEMPLATE = r'''<!DOCTYPE html>
     </div>
 
     <div class="px-6 py-6 space-y-14 max-w-screen-xl">
-
-      <!-- ── Insights strip (compact charts) ── -->
-      <section id="insights">
-        <div class="grid grid-cols-1 lg:grid-cols-3 gap-4">
-          <div class="bg-slate-800 rounded-2xl border border-slate-700 p-4">
-            <div class="text-xs text-slate-400 mb-2 font-medium">📅 月度新增來源數</div>
-            <div class="chart-wrap-mini"><canvas id="chart-monthly"></canvas></div>
-          </div>
-          <div class="bg-slate-800 rounded-2xl border border-slate-700 p-4">
-            <div class="text-xs text-slate-400 mb-2 font-medium">🗂️ 來源分類分布</div>
-            <div class="chart-wrap-mini"><canvas id="chart-donut"></canvas></div>
-          </div>
-          <div class="bg-slate-800 rounded-2xl border border-slate-700 p-4">
-            <div class="text-xs text-slate-400 mb-2 font-medium">📖 概念引用來源數 Top 8</div>
-            <div class="chart-wrap-mini"><canvas id="chart-concepts"></canvas></div>
-          </div>
-        </div>
-      </section>
 
       <!-- ── Recent Activity ── -->
       <section id="activity">
@@ -751,83 +726,6 @@ function renderStats(){
      <span class="text-teal-400 font-semibold">${s.countries||0}</span> 國家 ·
      <span class="text-amber-400 font-semibold">${s.entities}</span> 車廠 ·
      最後更新 <span class="text-slate-300">${s.last_updated}</span>`;
-}
-
-// ── Render: Charts (dataviz validated dark palette) ───────────────────────────
-const VIZ = {
-  blue:'#3987e5', orange:'#d95926', aqua:'#199e70', yellow:'#c98500',
-  magenta:'#d55181', green:'#0ca30c', violet:'#9085e9', red:'#e66767',
-  ink:'#f0efec', muted:'#898781', grid:'rgba(137,135,129,.18)', surface:'#1e293b',
-};
-function renderCharts(){
-  const ch = D.charts;
-  const gridColor = VIZ.grid, tickColor = VIZ.muted;
-  const tip = {backgroundColor:'#0f172a', borderColor:'#334155', borderWidth:1,
-               titleColor:VIZ.ink, bodyColor:'#cbd5e1', padding:10, cornerRadius:8};
-
-  // Monthly bar — single series, single hue (blue), magnitude over time
-  new Chart($('chart-monthly').getContext('2d'), {
-    type: 'bar',
-    data: {
-      labels: ch.monthly.labels.map(l => l.replace(/^20\d\d-/,'')), // show MM only
-      datasets: [{
-        data: ch.monthly.data,
-        backgroundColor: VIZ.blue, hoverBackgroundColor:'#5598e7',
-        borderWidth: 0, borderRadius: 4, maxBarThickness: 26,
-      }]
-    },
-    options: {
-      responsive: true, maintainAspectRatio: false,
-      plugins: {legend:{display:false}, tooltip:{...tip,
-        callbacks:{ title: items => ch.monthly.labels[items[0].dataIndex], label: i => ` 新增 ${i.raw} 筆` }
-      }},
-      scales: {
-        x: {grid:{display:false}, ticks:{color:tickColor, maxRotation:0, font:{size:10}}},
-        y: {grid:{color:gridColor}, ticks:{color:tickColor, font:{size:10}}, beginAtZero:true}
-      }
-    }
-  });
-
-  // Donut — categorical identity, fixed-order validated palette, legend present
-  new Chart($('chart-donut').getContext('2d'), {
-    type: 'doughnut',
-    data: {
-      labels: ch.categories.labels,
-      datasets: [{data: ch.categories.data, backgroundColor: ch.categories.colors,
-                  borderColor:VIZ.surface, borderWidth:2, hoverOffset:6}]
-    },
-    options: {
-      responsive: true, maintainAspectRatio: false, cutout: '60%',
-      plugins: {
-        legend:{position:'bottom', labels:{color:'#cbd5e1', boxWidth:9, padding:7, font:{size:9}}},
-        tooltip:{...tip, callbacks:{label: i => ` ${i.label}：${i.raw} 筆`}}
-      }
-    }
-  });
-
-  // Top concepts — magnitude ranking, single series → single hue (blue)
-  const top = [...D.concepts].slice(0, 8);
-  new Chart($('chart-concepts').getContext('2d'), {
-    type: 'bar',
-    data: {
-      labels: top.map(c => c.title),
-      datasets: [{
-        data: top.map(c => c.source_count),
-        backgroundColor: VIZ.blue, hoverBackgroundColor:'#5598e7',
-        borderRadius: 4, maxBarThickness: 16,
-      }]
-    },
-    options: {
-      indexAxis: 'y', responsive: true, maintainAspectRatio: false,
-      plugins:{legend:{display:false}, tooltip:{...tip,
-        callbacks:{label: i => ` 引用 ${i.raw} 個來源`}
-      }},
-      scales:{
-        x:{grid:{color:gridColor}, ticks:{color:tickColor, font:{size:10}}},
-        y:{grid:{display:false}, ticks:{color:'#cbd5e1', font:{size:10}}}
-      }
-    }
-  });
 }
 
 // ── Render: Activity Timeline (坡道 / 發現 / 甜點) ─────────────────────────────
@@ -1120,7 +1018,6 @@ function setupScrollspy(){
 
 // ── Boot ─────────────────────────────────────────────────────────────────────
 renderStats();
-renderCharts();
 renderActivity();
 renderConceptFilters();
 renderConcepts();
@@ -1149,7 +1046,6 @@ def generate():
     countries        = parse_countries()
     entities         = parse_entities()
     source_pages     = parse_sources_full()
-    charts           = build_charts(sections)
 
     entity_count = len(entities)
 
@@ -1162,7 +1058,6 @@ def generate():
         'entities':     entities,
         'sections':     sections,
         'source_pages': source_pages,
-        'charts':       charts,
         'generated_at': datetime.now().strftime('%Y-%m-%d %H:%M'),
     }
 
