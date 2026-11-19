@@ -1,6 +1,6 @@
 # Wiki Index
 
-Last updated: 2026-11-19 | Pages: 505 | Sources: 624
+Last updated: 2026-11-19 | Pages: 506 | Sources: 624
 
 ---
 
@@ -714,6 +714,7 @@ Last updated: 2026-11-19 | Pages: 505 | Sources: 624
 - [[entities/Daimler-Buses]] — 賓士巴士事業，eCitaro 累計逾 4,600 輛，第二代 2028 年改 LFP 專用平台。
 
 ## Concepts（概念）
+- [[concepts/台灣電動車供應鏈廠商]] — 打入電動車 Tier 1／2 的台廠與台灣整車廠：交貨產品、對象、上市櫃別（ARTC 名單）、✅確定交貨／🟡已獲訂單／⚪合作標示。
 
 ### 地理市場／
 - [[concepts/地理市場/歐洲EV市場]] — EU Q1 +32.5%；5 月德國 25%/英國 27.3%；Citroën <€15K 電動 2CV 確認；歐洲電池成本高中國 30%；中國品牌接管閒置工廠。

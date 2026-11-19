@@ -2582,3 +2582,14 @@ Pages 375 → 406，Sources 315 → 346
 ## [2026-11-19] query | 機車油電平權是什麼政策
 - Pages consulted: [[concepts/台灣EV市場]], [[countries/台灣]], [[sources/taiwan-ev-electrification-progress-2026]]
 - Filed back: 無（知識庫僅有提及、無定義與時間軸，已向使用者提議補查）
+
+## [2026-11-19] query | 掃描知識庫中的台灣電動車 Tier 1／Tier 2 供應商
+- Pages consulted: wiki/sources/*（全文掃描）、raw/assets 台灣媒體剪輯、[[entities/鴻海]]、[[entities/輝能科技]]、[[entities/台灣智駕]]、[[concepts/台灣EV市場]]
+- Filed back: 待使用者確認後建立 concept 頁「台灣電動車供應鏈廠商」
+
+## [2026-11-19] create | 新增概念頁：台灣電動車供應鏈廠商
+- New pages created: [[concepts/台灣電動車供應鏈廠商]]
+- 內容：全庫掃描（wiki/sources、raw/assets 台灣媒體）擷取 11 家 ✅ 確定交貨、5 項 🟡 已獲訂單、12 家 ⚪ 合作／潛在，另 6 家觀察名單；分零組件（乘用車／商用車／機車／自行車）與整車廠兩部分
+- 上市櫃別：依 ARTC `UniverseforARTC.xlsx`（2026-11 版，TWSE 1,079／OTC 877），查無者列非上市櫃
+- 來源：每列附原文超連結與知識庫來源頁；原文網址缺者註明
+- 後續：wiki-batch-ingest 每次 ingest 自動新增／升級台廠列（🟡→✅）
