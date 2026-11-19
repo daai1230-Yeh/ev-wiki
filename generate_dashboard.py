@@ -417,7 +417,7 @@ HTML_TEMPLATE = r'''<!DOCTYPE html>
 <div class="flex h-screen overflow-hidden">
 
   <!-- ── Sidebar ── -->
-  <aside class="w-52 bg-slate-800 border-r border-slate-700 flex-shrink-0 flex flex-col overflow-y-auto">
+  <aside class="w-44 bg-slate-800 border-r border-slate-700 flex-shrink-0 flex flex-col overflow-y-auto">
     <div class="p-4 border-b border-slate-700">
       <div class="text-emerald-400 font-bold text-base leading-tight">🚗 EV 知識庫</div>
       <div class="text-slate-400 text-xs mt-0.5">產業動態 Dashboard</div>
