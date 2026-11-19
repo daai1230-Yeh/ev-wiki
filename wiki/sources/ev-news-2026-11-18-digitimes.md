@@ -38,7 +38,7 @@ updated: 2026-11-19
 - 原文：https://www.digitimes.com.tw/tech/dt/n/shwnws.asp?CnlId=1&id=0000775031_BEAL0S4V4CZ7QK020EKG4（楊智家，2026-11-18）
 - 同一事件見 [[sources/ev-news-2026-11-17-electrive-en]]：2026年底前申請建照、2027年上半動工、2029年投產、年產100萬輛Cybercab；建成後產能可望超越福斯Wolfsburg總部。
 - 本篇補充：柏林廠2027年中啟動電池生產；奧斯汀廠Cybertruck於2027年夏季結束時停產以騰出產能；IG Metall與環保團體質疑。
-- **待核對**：本篇寫「3億歐元（約33億美元）」，electrive 為30億歐元；33億美元與30億歐元相符，研判「3億」為筆誤（已登錄 [[待核對清單]]）。
+- **已核對**：擴建金額為30億歐元（約33億美元），本篇「3億歐元」為筆誤（使用者確認，見 [[待核對清單]] 已結案）。
 
 ### Honda在美阿拉巴馬州打造HEV引擎基地　再砸4.62億美元增聘200人
 - 原文：https://www.digitimes.com.tw/tech/dt/n/shwnws.asp?CnlId=1&id=0000775177_RDD29KOI6U1P8G86TKS9J（江仁傑，2026-11-18）
