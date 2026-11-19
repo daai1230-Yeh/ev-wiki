@@ -129,7 +129,7 @@ When the user says "ingest [source]" or drops a file into `raw/`:
    - 數字矛盾或未證實消息：來源頁標「待核對」，並登錄 `wiki/待核對清單.md`。
    5a. **國家頁面**：有實質新數據時同步更新 `wiki/countries/` 下對應的國家/地區頁面。
 6. If a key entity or concept has no page, create one（同一公司或機構出現在 ≥3 個來源頁即建實體頁）。
-   6a. **簡報三段式**：concept 頁頁首摘要後的「## 簡報三段式」（格式見 `wiki/templates/簡報三段式模板.md`）每月重寫一次；新資料推翻其中某點時即時修正。
+   6a. **簡報三段式**：concept 頁頁首摘要後的「## 簡報三段式」（格式見 `wiki/templates/簡報三段式模板.md`）每週五刷新本週有新章節的 concept／國家頁卡片（最多 15 頁，`python3 tools/ingest/briefing.py YYYY-MM-DD` 選頁），月底合併時全部重寫；新資料推翻其中某點時即時修正。
 7. Update `wiki/index.md` — add the new source summary and any new pages.
 8. Append to `wiki/log.md`:
    ```
