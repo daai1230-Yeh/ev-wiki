@@ -1,7 +1,7 @@
 ---
 tags: [concept]
-sources: [gm-ford-q1-2026-sales, us-ev-battery-demand-mismatch, rivian-r2-range-specs, vw-id4-chattanooga-stop, tesla-25k-ev-us-price-parity, slate-auto-ev-pickup, ford-ev-restructure-doug-field, vw-id4-us-writedown, tesla-q1-2026-earnings, gm-ev-delay-detroit-three, nissan-mississippi-ev-abandonment, honda-canada-ev-freeze-2026, tesla-model-s-final-production, mazda-ev-delay-2029, ford-catl-michigan-factory-2026, honda-9b-loss-hybrid-pivot-2026, tesla-model-y-price-bump-2026, congress-ev-annual-fee-2026, rivian-r2-deliveries-2026, chevy-bolt-2027-review, 駐外新聞-美國-2025, ev-news-2026-09-18-digest, ev-news-2026-09-20-digest, ev-news-2026-09-22-electrive-en, ev-news-2026-09-26-electrive-en, ev-news-2026-09-28-digest, ev-news-2026-10-05-digitimes, ev-news-2026-10-07-electrive-en, ev-news-2026-10-22-insideevs, ev-news-2026-10-27-digitimes, ev-news-2026-10-27-electrive-en, ev-news-2026-10-27-insideevs, ev-news-2026-10-29-insideevs, ev-news-2026-10-30-electrive-en, ev-news-2026-10-30-insideevs, ev-news-2026-11-02-electrive-en, ev-news-2026-11-02-digitimes, ev-news-2026-11-04-insideevs, ev-news-2026-11-04-digitimes, ev-news-2026-11-06-insideevs, ev-news-2026-11-06-digitimes, ev-news-2026-11-09-cn-misc, ev-news-2026-11-11-electrive-en, ev-news-2026-11-11-digitimes, ev-news-2026-11-11-insideevs, ev-news-2026-11-11b-insideevs, ev-news-2026-11-11b-digitimes, ev-news-2026-11-12-digitimes, ev-news-2026-11-16-digitimes, ev-news-2026-11-16-cn-misc, ev-news-2026-11-17-electrive-en, ev-news-2026-11-17-digitimes]
-updated: 2026-11-18
+sources: [gm-ford-q1-2026-sales, us-ev-battery-demand-mismatch, rivian-r2-range-specs, vw-id4-chattanooga-stop, tesla-25k-ev-us-price-parity, slate-auto-ev-pickup, ford-ev-restructure-doug-field, vw-id4-us-writedown, tesla-q1-2026-earnings, gm-ev-delay-detroit-three, nissan-mississippi-ev-abandonment, honda-canada-ev-freeze-2026, tesla-model-s-final-production, mazda-ev-delay-2029, ford-catl-michigan-factory-2026, honda-9b-loss-hybrid-pivot-2026, tesla-model-y-price-bump-2026, congress-ev-annual-fee-2026, rivian-r2-deliveries-2026, chevy-bolt-2027-review, 駐外新聞-美國-2025, ev-news-2026-09-18-digest, ev-news-2026-09-20-digest, ev-news-2026-09-22-electrive-en, ev-news-2026-09-26-electrive-en, ev-news-2026-09-28-digest, ev-news-2026-10-05-digitimes, ev-news-2026-10-07-electrive-en, ev-news-2026-10-22-insideevs, ev-news-2026-10-27-digitimes, ev-news-2026-10-27-electrive-en, ev-news-2026-10-27-insideevs, ev-news-2026-10-29-insideevs, ev-news-2026-10-30-electrive-en, ev-news-2026-10-30-insideevs, ev-news-2026-11-02-electrive-en, ev-news-2026-11-02-digitimes, ev-news-2026-11-04-insideevs, ev-news-2026-11-04-digitimes, ev-news-2026-11-06-insideevs, ev-news-2026-11-06-digitimes, ev-news-2026-11-09-cn-misc, ev-news-2026-11-11-electrive-en, ev-news-2026-11-11-digitimes, ev-news-2026-11-11-insideevs, ev-news-2026-11-11b-insideevs, ev-news-2026-11-11b-digitimes, ev-news-2026-11-12-digitimes, ev-news-2026-11-16-digitimes, ev-news-2026-11-16-cn-misc, ev-news-2026-11-17-electrive-en, ev-news-2026-11-17-digitimes, ev-news-2026-11-19b-insideevs, ev-news-2026-11-19b-cn-misc, ev-news-2026-11-19-digitimes]
+updated: 2026-11-19
 ---
 
 # 美國 EV 市場與政策
@@ -621,6 +621,19 @@ Q3美國BEV銷量年減39.5%（Cox／KBB）；德系車8月BEV榜名次落後；
 **觀察**：Scout量產時程；Lucid Cosmos 2027下半年。
 
 - 參見：[[sources/ev-news-2026-11-17-electrive-en]] | [[sources/ev-news-2026-11-17-digitimes]] | [[Lucid]] | [[BMW]] | [[countries/美國]]
+
+### BMW iX5 美國量產但下修目標、現代日產押 HEV／EREV（2026-11）
+
+> **結論**：BMW 美國首款量產 EV iX5 在 Spartanburg 下線，但 2027 年產量目標由 10 萬輛下修至 6 萬輛；現代汽車投資近 4.5 億美元擴建阿拉巴馬引擎產能支援 HEV／EREV，美國車市「電動化放緩、混動加速」持續。
+
+**主因**：
+- BMW 保守排產：日產約 70 輛、EV 占 X5 約 20–25%，目標下修 40% → 稅抵取消後美國豪華 EV 需求不足，車廠以共線生產保留彈性。
+- 現代轉向混動與增程：Santa Fe EREV 2027 上半年到店、續航逾 600 英里，HEV 已占其北美銷量一半、2030 年前推逾 10 款 HEV，北美零件採購目標提高至 80% → 以混動承接需求、以在地採購對沖關稅。
+- 日系分化：豐田 RAV4／Camry／Sienna 已只賣 HEV、本田 2027 年 CR-V 全面 HEV，日產則延至 2030 年代初、受年利息逾 1,000 億日圓拖累 → 財務體質決定電動化路線速度。
+
+**觀察**：BMW 2027 年實際 iX5 產量；Santa Fe EREV 定價與 Tesla Cybertruck 停產傳聞的官方確認。
+
+- 參見：[[sources/ev-news-2026-11-19b-insideevs]] | [[sources/ev-news-2026-11-19b-cn-misc]] | [[sources/ev-news-2026-11-19-digitimes]] | [[entities/BMW]] | [[entities/現代汽車]] | [[entities/日産]] | [[countries/美國]]
 
 ## Related
 - [[entities/豐田]]

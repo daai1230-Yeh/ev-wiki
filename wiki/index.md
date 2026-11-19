@@ -1,6 +1,6 @@
 # Wiki Index
 
-Last updated: 2026-11-19 | Pages: 506 | Sources: 624
+Last updated: 2026-11-19 | Pages: 512 | Sources: 628
 
 ---
 
@@ -97,6 +97,10 @@ Last updated: 2026-11-19 | Pages: 506 | Sources: 624
 - [[sources/ev-news-2026-10-12-digest]] — 中文財經批次8篇：陸混動車輸歐恐砍半、豐田泰國殘值貸款、現代印度1,000萬輛、華德電巴、桃園A21、雙層客運補助縮水、Starlink印度。(2026-10-12)
 - [[sources/ev-news-2026-10-12-digitimes-2]] — Digitimes CarTech補充2篇：豐田、廣汽、一汽三方協議正式簽署、麗升跨足充電樁（註：剪輯檔無單篇網址）。(2026-10-12)
 - [[sources/ev-news-2026-10-12-14-digitimes]] — Digitimes CarTech 9篇：中國新能源車出口退稅2027-04起由13%降至9%（含評析）、歐盟HEV／PHEV年35萬輛配額、LGES大進機械轉單與L&F LFP長約、台灣能管法帶動儲能、寰聖／桓鼎、裕日車估車市42萬輛（全數附原文網址）。(2026-10-14)
+- [[sources/ev-news-2026-11-19b-cn-misc]] — CnEVPost＋中文媒體18篇：乘聯會11月上半月NEV零售年減13%／滲透率73.2%、比亞迪1–10月出口年增93.75%、Ford寧德時代授權LFP電芯出貨、北汽出售112座換電站、Momenta×Uber慕尼黑、黃仁勳辭任NVIDIA執行長、Cybertruck停產傳聞（單一來源）、泰國工業區與BEV 53.96萬輛。(2026-11-19)
+- [[sources/ev-news-2026-11-19b-electrive-en]] — electrive批次b 11篇：歐盟電網套案充電站審批門檻100→200 kW、歐盟電動卡車占比7.7%／曳引車1.6%、VW ID. UP商標與2027 Q4量產、VinFast VF 5/6小改款、Cylib獲SPRIND入股、BMZ電池護照、Volgren交雪梨95輛電巴。(2026-11-19)
+- [[sources/ev-news-2026-11-19b-insideevs]] — InsideEVs批次b 4篇：BMW iX5美國量產（2027目標10萬→6萬、電芯AESC→LGES）、Ionna 224站與500 kW、Waymo撤出全美高速公路、全球EV車主調查。(2026-11-19)
+- [[sources/ev-news-2026-11-19-digitimes]] — Digitimes 2篇：賓士率歐美車廠圍剿Tesla L2+訂閱（FSD 174萬用戶、21億美元）與美國眾院中資持股審查、日產純HEV延至2030年代初。(2026-11-19)
 - [[sources/ev-news-2026-11-18-digitimes]] — Digitimes 5篇（補收）：寧德時代換電9個月1,020→2,520座、比亞迪南韓1~10月2.17萬輛（年增473%）與售後據點翻倍、APEC王傳福泰國廠在地化逾50%、本田阿拉巴馬4.62億美元HEV引擎、Tesla柏林廠補充。(2026-11-19)
 - [[sources/ev-news-2026-11-19-electrive-en]] — electrive批次16篇：小鵬3Q營收年增19.1%、福斯ID. Aura L5、Renault法國增聘2,000人、賓士130 km/h放手駕駛、Kia印尼在地組裝、Delhivery 2,000輛電動小貨車、eActros 600進巴西、豐田C-HR+召回。(2026-11-19)
 - [[sources/ev-news-2026-11-19-insideevs]] — InsideEVs批次3篇：GM Plug & Charge擴及Electrify America、電動車馬達類型科普、REO vs Slate平價皮卡。(2026-11-19)
@@ -659,6 +663,8 @@ Last updated: 2026-11-19 | Pages: 506 | Sources: 624
 - [[entities/長城汽車]] — 長城（GWM）首座歐洲廠落腳保加利亞Bahovitsa，年產5萬輛，目標2029年歐洲30萬輛。
 - [[entities/三菱汽車]] — 日本車廠，東南亞市場遭中國BEV品牌搶市（銷量年減8%），加碼投資泰國160億泰銖鎖定電動化SUV/皮卡出口基地。
 - [[entities/台灣智駕]] — 台灣自動駕駛新創，特殊封閉場景策略，日本鋼鐵廠 + 沖繩港口落地實績。
+- [[entities/賓士]] — 德國豪華車廠，L2+「高速脫手、城區單手」智駕路線、VLE於福建賓士量產；北汽與李書福各持近10%股權，2026-11遭美國眾院國安審查。(2026-11-19)
+- [[entities/NVIDIA]] — 車用Thor／Hyperion／Alpamayo平台供應商，車用營收占1.1%；2026-11-12黃仁勳辭任執行長、12月眾院聽證。(2026-11-19)
 - [[entities/蔚來]] — 中國高端 EV 品牌，自研晶片 55 萬顆出貨，推動去 NVIDIA 化垂直整合。
 - [[entities/吉利汽車]] — 中國第三大車廠，i-HEV 平台 2.22 L/100km 超越豐田 Prius，2025 年全球第 8。
 - [[entities/VinFast]] — 越南「Tesla」，印度投資 $15 億美元，東南亞 EV 擴張加速。

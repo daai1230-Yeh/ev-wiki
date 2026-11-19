@@ -1,6 +1,6 @@
 ---
 tags: [concept]
-sources: [china-ev-market-consolidation, chery-qq3-vs-byd-seagull, china-ev-market-q1-2026, mercedes-benz-china-q1-2026, china-nev-april-involution-2026, china-nev-april-2026, xpeng-physical-ai-pivot-2026, ev-news-digest-jun1-10-2026, china-ev-market-slowdown-jun2026, xiaomi-su7-2026-update, byd-great-han-2026, ev-news-2026-09-21-digitimes, ev-news-2026-09-18-digitimes, ev-news-2026-09-20-digest, ev-news-2026-09-22-electrive-en, ev-news-2026-09-22-digitimes, ev-news-2026-09-23-digitimes, ev-news-2026-09-24-digest, ev-news-2026-09-24-digitimes, ev-news-2026-10-01-digitimes, ev-news-2026-10-02-digitimes, ev-news-2026-10-01-electrive-en, ev-news-2026-10-05-digitimes, ev-news-2026-10-12-digitimes-2, ev-news-2026-10-19-electrive-en, ev-news-2026-10-20-electrive-en, ev-news-2026-10-22-digitimes, ev-news-2026-10-27-digest, ev-news-2026-10-27-electrive-en, ev-news-2026-10-29-electrive-en, ev-news-2026-10-29-digitimes, ev-news-2026-10-30-digitimes, ev-news-2026-11-02-cn-misc, ev-news-2026-11-04-cn-misc, ev-news-2026-11-09-cn-misc, ev-news-2026-11-11-electrive-en, ev-news-2026-11-12-digitimes, ev-news-2026-11-12-cn-misc, ev-news-2026-11-16-cn-misc, ev-news-2026-11-17-digitimes, ev-news-2026-11-17-electrive-en, ev-news-2026-11-17-cn-misc, ev-news-2026-11-19-electrive-en]
+sources: [china-ev-market-consolidation, chery-qq3-vs-byd-seagull, china-ev-market-q1-2026, mercedes-benz-china-q1-2026, china-nev-april-involution-2026, china-nev-april-2026, xpeng-physical-ai-pivot-2026, ev-news-digest-jun1-10-2026, china-ev-market-slowdown-jun2026, xiaomi-su7-2026-update, byd-great-han-2026, ev-news-2026-09-21-digitimes, ev-news-2026-09-18-digitimes, ev-news-2026-09-20-digest, ev-news-2026-09-22-electrive-en, ev-news-2026-09-22-digitimes, ev-news-2026-09-23-digitimes, ev-news-2026-09-24-digest, ev-news-2026-09-24-digitimes, ev-news-2026-10-01-digitimes, ev-news-2026-10-02-digitimes, ev-news-2026-10-01-electrive-en, ev-news-2026-10-05-digitimes, ev-news-2026-10-12-digitimes-2, ev-news-2026-10-19-electrive-en, ev-news-2026-10-20-electrive-en, ev-news-2026-10-22-digitimes, ev-news-2026-10-27-digest, ev-news-2026-10-27-electrive-en, ev-news-2026-10-29-electrive-en, ev-news-2026-10-29-digitimes, ev-news-2026-10-30-digitimes, ev-news-2026-11-02-cn-misc, ev-news-2026-11-04-cn-misc, ev-news-2026-11-09-cn-misc, ev-news-2026-11-11-electrive-en, ev-news-2026-11-12-digitimes, ev-news-2026-11-12-cn-misc, ev-news-2026-11-16-cn-misc, ev-news-2026-11-17-digitimes, ev-news-2026-11-17-electrive-en, ev-news-2026-11-17-cn-misc, ev-news-2026-11-19-electrive-en, ev-news-2026-11-19b-cn-misc]
 updated: 2026-11-19
 ---
 
@@ -431,6 +431,19 @@ DIGITIMES Research：2026上半全球電動車約980萬輛（年增2%），前15
 **觀察**：小鵬4Q是否轉盈；ID. Aura L5上市定價。
 
 - 參見：[[sources/ev-news-2026-11-19-electrive-en]] | [[小鵬汽車]] | [[Volkswagen]]
+
+### 11月上半月零售年減13%、滲透率73.2%：批發與零售背離（2026-11）
+
+> **結論**：乘聯會 11 月 1–15 日 NEV 零售 44.7 萬輛、年減 13%，但滲透率衝上 73.2%；批發年增 3%、零售年減 13%，顯示車廠壓庫、終端需求仍弱。
+
+**主因**：
+- 滲透率創高靠燃油車更弱：整體乘用車零售 61.1 萬輛、年減 25%，跌幅大於 NEV 的 13% → 滲透率由 10 月全月紀錄 67.5% 升到 73.2% → 「滲透率創高」不等於電動車需求回溫。
+- 批發零售背離：NEV 批發 59.2 萬輛（年增 3%、批發滲透率 82%）vs 零售年減 13% → 車廠為年度目標把庫存推給經銷商 → 乘聯會警告經銷商現金流與庫存承壓，後續批發成長將受零售拖累。
+- 比亞迪內外分化：1–10 月內銷 210.9 萬輛、年減 27.81%，出口 151.3 萬輛、年增 93.75% → 全球 362.2 萬輛僅年減 2.16% → 龍頭靠出海抵銷內需萎縮。
+
+**觀察**：11-27 開幕的廣州車展（115 款新車）帶客效果；年底以舊換新補貼到期前的提前購車力道與 12 月零售。
+
+- 參見：[[sources/ev-news-2026-11-19b-cn-misc]] | [[countries/中國]] | [[entities/比亞迪]]
 
 ## Related
 - [[entities/比亞迪]]

@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [lges-bmw-46series-order, ev-news-2026-06-30-07-01, ev-news-2026-07-10-electrive-batch, ev-news-2026-07-12-13-electrive, ev-news-2026-07-24-27-electrive-en, ev-news-2026-07-29-31-digitimes, ev-news-2026-07-28-30-electrive-en, ev-news-2026-08-27-29-electrive-en, ev-news-2026-09-18-electrive-en, ev-news-2026-09-22-electrive-en, ev-news-2026-09-22-digitimes, ev-news-2026-09-24-electrive-en, ev-news-2026-09-30-electrive-en, ev-news-2026-10-01-electrive-en, ev-news-2026-10-02-electrive-en, ev-news-2026-10-05-electrive-en, ev-news-2026-10-04-digest, ev-news-2026-10-27-digitimes, ev-news-2026-11-11-electrive-en, ev-news-2026-11-11b-digitimes, ev-news-2026-11-12-electrive-en, ev-news-2026-11-12-digitimes, ev-news-2026-11-17-electrive-en, ev-news-2026-11-17-insideevs, ev-news-2026-11-17-cn-misc]
-updated: 2026-11-17
+sources: [lges-bmw-46series-order, ev-news-2026-06-30-07-01, ev-news-2026-07-10-electrive-batch, ev-news-2026-07-12-13-electrive, ev-news-2026-07-24-27-electrive-en, ev-news-2026-07-29-31-digitimes, ev-news-2026-07-28-30-electrive-en, ev-news-2026-08-27-29-electrive-en, ev-news-2026-09-18-electrive-en, ev-news-2026-09-22-electrive-en, ev-news-2026-09-22-digitimes, ev-news-2026-09-24-electrive-en, ev-news-2026-09-30-electrive-en, ev-news-2026-10-01-electrive-en, ev-news-2026-10-02-electrive-en, ev-news-2026-10-05-electrive-en, ev-news-2026-10-04-digest, ev-news-2026-10-27-digitimes, ev-news-2026-11-11-electrive-en, ev-news-2026-11-11b-digitimes, ev-news-2026-11-12-electrive-en, ev-news-2026-11-12-digitimes, ev-news-2026-11-17-electrive-en, ev-news-2026-11-17-insideevs, ev-news-2026-11-17-cn-misc, ev-news-2026-11-19b-insideevs, ev-news-2026-11-19b-electrive-en]
+updated: 2026-11-19
 ---
 
 # BMW（寶馬）
@@ -241,6 +241,16 @@ BMW美國製造以燃油／混動為主，本土化BEV安排年底或2027年；�
 **觀察**：iX5量產爬坡與電芯來源確認。
 
 - 參見：[[sources/ev-news-2026-11-17-electrive-en]] | [[sources/ev-news-2026-11-17-insideevs]] | [[sources/ev-news-2026-11-17-cn-misc]] | [[concepts/電池技術路線]] | [[LGES]]
+
+### iX5 美國量產、V2G 擴至 4 車型（2026-11）
+
+> **結論**：iX5 成為 BMW 首款美國量產 EV（Spartanburg 日產約 70 輛），但 2027 年目標由 10 萬輛下修至 6 萬輛；E.ON V2G 套餐擴及 i3／iX4／iX5。
+
+**主因**：電芯初期由 AESC 中國廠供應、十年末轉 LGES 美國在地（解答先前三方說法差異）；2030 年前美國 6 款 EV；V2G 每回送 1 kWh 付 0.42 歐元 → 以能源服務強化 Neue Klasse 賣點。
+
+**觀察**：iX5 2027 年實際產量；BMW 城區點對點導航 2027 年初德國監管核准。
+
+- 參見：[[sources/ev-news-2026-11-19b-insideevs]] | [[sources/ev-news-2026-11-19b-electrive-en]]
 
 ## Related
 - [[entities/Volkswagen]]

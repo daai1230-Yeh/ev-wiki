@@ -1,6 +1,6 @@
 ---
 tags: [concept]
-sources: [byd-dipilot-adas-2026, robotaxi-market-2026, toyota-adas-vs-fsd-subscription, hyundai-pleos-sdv-os, in-cabin-ai-sensing-2026, l2plus-adas-adoption-2026, rivian-lidar-china-partner-2026, hyundai-kia-atria-ai-gwangju-2026, hesai-color-lidar-2026, ev-news-digest-jun1-10-2026, ev-news-2026-06-27-29-en, ev-news-2026-06-30-07-01, ev-news-2026-06-29-zh, ev-news-2026-07-02, ev-news-2026-07-03-08, ev-news-2026-07-09, ev-news-2026-07-21-22-digitimes, ev-news-2026-07-22-23-electrive-en, ev-news-2026-08-24-digitimes, ev-news-2026-08-27-digitimes, ev-news-2026-08-28-digitimes, ev-news-2026-08-30-31-cn-misc, ev-news-2026-09-07-08-digitimes, ev-news-2026-09-08-electrive-en, ev-news-2026-09-09-digitimes, ev-news-2026-09-11-digitimes, ev-news-2026-09-15-digitimes, ev-news-2026-09-16-digitimes, ev-news-2026-09-18-digest, ev-news-2026-09-19-digest, ev-news-2026-09-18-electrive-en, ev-news-2026-09-22-digest, ev-news-2026-09-23-electrive-en, ev-news-2026-10-01-digitimes, ev-news-2026-10-01-electrive-en, ev-news-2026-10-05-digitimes, ev-news-2026-10-12-digitimes, ev-news-2026-10-16-digitimes, ev-news-2026-10-19-digest, ev-news-2026-10-20-digitimes, ev-news-2026-10-20-insideevs, ev-news-2026-10-22-digitimes, ev-news-2026-10-27-digitimes-tesla, ev-news-2026-10-27-digitimes, ev-news-2026-10-27-insideevs, ev-news-2026-10-29-electrive-en, ev-news-2026-10-29-insideevs, ev-news-2026-10-29-digitimes, ev-news-2026-10-30-electrive-en, ev-news-2026-10-30-digitimes, ev-news-2026-11-17-insideevs, ev-news-2026-11-17-digitimes, ev-news-2026-11-17-electrive-en, ev-news-2026-11-19-electrive-en]
+sources: [byd-dipilot-adas-2026, robotaxi-market-2026, toyota-adas-vs-fsd-subscription, hyundai-pleos-sdv-os, in-cabin-ai-sensing-2026, l2plus-adas-adoption-2026, rivian-lidar-china-partner-2026, hyundai-kia-atria-ai-gwangju-2026, hesai-color-lidar-2026, ev-news-digest-jun1-10-2026, ev-news-2026-06-27-29-en, ev-news-2026-06-30-07-01, ev-news-2026-06-29-zh, ev-news-2026-07-02, ev-news-2026-07-03-08, ev-news-2026-07-09, ev-news-2026-07-21-22-digitimes, ev-news-2026-07-22-23-electrive-en, ev-news-2026-08-24-digitimes, ev-news-2026-08-27-digitimes, ev-news-2026-08-28-digitimes, ev-news-2026-08-30-31-cn-misc, ev-news-2026-09-07-08-digitimes, ev-news-2026-09-08-electrive-en, ev-news-2026-09-09-digitimes, ev-news-2026-09-11-digitimes, ev-news-2026-09-15-digitimes, ev-news-2026-09-16-digitimes, ev-news-2026-09-18-digest, ev-news-2026-09-19-digest, ev-news-2026-09-18-electrive-en, ev-news-2026-09-22-digest, ev-news-2026-09-23-electrive-en, ev-news-2026-10-01-digitimes, ev-news-2026-10-01-electrive-en, ev-news-2026-10-05-digitimes, ev-news-2026-10-12-digitimes, ev-news-2026-10-16-digitimes, ev-news-2026-10-19-digest, ev-news-2026-10-20-digitimes, ev-news-2026-10-20-insideevs, ev-news-2026-10-22-digitimes, ev-news-2026-10-27-digitimes-tesla, ev-news-2026-10-27-digitimes, ev-news-2026-10-27-insideevs, ev-news-2026-10-29-electrive-en, ev-news-2026-10-29-insideevs, ev-news-2026-10-29-digitimes, ev-news-2026-10-30-electrive-en, ev-news-2026-10-30-digitimes, ev-news-2026-11-17-insideevs, ev-news-2026-11-17-digitimes, ev-news-2026-11-17-electrive-en, ev-news-2026-11-19-electrive-en, ev-news-2026-11-19-digitimes, ev-news-2026-11-19b-cn-misc]
 updated: 2026-11-19
 ---
 
@@ -590,6 +590,19 @@ Tesla計畫與FSD v15同步上線自研AI地圖；NVIDIA Hyperion／Alpamayo夥�
 **觀察**：德國上路後的實際限制條件；美國定價。
 
 - 參見：[[sources/ev-news-2026-11-19-electrive-en]] | [[concepts/自動駕駛安全監管]]
+
+### L2+ 訂閱戰：Tesla FSD 174 萬用戶、賓士 BMW Ford 分區突圍；禾賽季出貨 73 萬顆（2026-11）
+
+> **結論**：歐美車廠棄守 L3、轉攻可訂閱的 L2+；Tesla 監督版 FSD 全球約 174 萬用戶、創造約 21 億美元訂閱營收，成為各家對標的商業模式。
+
+**主因**：
+- 三條路線：賓士「高速脫手、城區單手」（130 km/h 脫手變道年底登陸德國，點對點導航 2027 上半年推向德美，成首家三大市場同步者）；BMW 城區點對點 2027 年初德國；Ford BlueCruise 全歐盟批准、16 國約 13.5 萬公里高速路網 → 主流車廠以分區法遵換取上市速度。
+- 感測硬體：禾賽第三季 LiDAR 出貨 729,673 顆、營收年增 34.3%、連續 6 季獲利，但港股距歷史低點僅 9.4%、宣布最高 1 億美元回購 → 量增但市場對價格戰下的獲利持續性存疑。
+- 算力供應：NVIDIA 車用營收 2025 年約 24 億美元、僅占總營收 1.1%，但賓士、現代、福斯等押注 Thor 平台；黃仁勳辭任執行長後，賓士與 Volvo 證實合作照常 → 車廠關注供應穩定多於短期營運衝擊。
+
+**觀察**：賓士 Drive Assist 德國上線後訂閱定價；禾賽第四季出貨與毛利率。
+
+- 參見：[[sources/ev-news-2026-11-19-digitimes]] | [[sources/ev-news-2026-11-19b-cn-misc]] | [[entities/賓士]] | [[entities/NVIDIA]] | [[entities/Tesla]] | [[entities/福特]]
 
 ## Related
 - [[entities/Tesla]]

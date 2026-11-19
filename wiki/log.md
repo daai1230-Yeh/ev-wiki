@@ -2593,3 +2593,19 @@ Pages 375 → 406，Sources 315 → 346
 - 上市櫃別：依 ARTC `UniverseforARTC.xlsx`（2026-11 版，TWSE 1,079／OTC 877），查無者列非上市櫃
 - 來源：每列附原文超連結與知識庫來源頁；原文網址缺者註明
 - 後續：wiki-batch-ingest 每次 ingest 自動新增／升級台廠列（🟡→✅）
+
+## [2026-11-19] ingest | EV News 2026-11-17~19 批次 b（35篇原文，4個來源摘要頁）
+- Summary pages: [[sources/ev-news-2026-11-19b-electrive-en]]、[[sources/ev-news-2026-11-19b-insideevs]]、[[sources/ev-news-2026-11-19-digitimes]]、[[sources/ev-news-2026-11-19b-cn-misc]]
+- Raw assets: raw/assets/2026-11-18-*（CnEVPost 5篇）、raw/assets/2026-11-19-*（30篇），清單見 tools/ingest/out/new.json
+- Pages updated (concepts): [[concepts/中國EV市場競爭格局]]、[[concepts/中國EV出海策略]]、[[concepts/電池技術路線]]、[[concepts/電池回收]]、[[concepts/充電基礎建設]]、[[concepts/電動卡車市場]]、[[concepts/電動巴士市場]]、[[concepts/Robotaxi自動計程車]]、[[concepts/自動駕駛安全監管]]、[[concepts/ADAS智駕系統]]、[[concepts/車用半導體供應鏈]]、[[concepts/美國EV市場與政策]]、[[concepts/平價電動車市場]]、[[concepts/東南亞EV市場]]
+- Pages updated (entities): [[entities/BMW]]、[[entities/Tesla]]、[[entities/比亞迪]]、[[entities/福特]]、[[entities/寧德時代]]、[[entities/現代汽車]]、[[entities/日産]]、[[entities/小鵬汽車]]、[[entities/VinFast]]、[[entities/Volkswagen]]、[[entities/Waymo]]
+- Countries updated: [[countries/中國]]、[[countries/美國]]、[[countries/加拿大]]、[[countries/澳洲]]、[[countries/德國]]、[[countries/東南亞]]
+- New pages created: [[entities/賓士]]、[[entities/NVIDIA]]
+- Key additions: 乘聯會11/1–15 NEV零售44.7萬輛（年減13%）、滲透率73.2%、批發年增3%；比亞迪1–10月出口151.3萬輛（年增93.75%）；Ford Marshall寧德時代授權LFP電芯出貨（20 GWh、每分鐘40顆）；BMW iX5美國量產、2027目標10萬→6萬；歐盟充電站審批門檻100→200 kW；歐盟2025電動卡車7.7%／曳引車1.6%；Waymo撤出全美高速公路；Tesla FSD 174萬用戶／21億美元；黃仁勳辭任NVIDIA執行長。
+- 待核對: 新增「中國1–10月新能源車年增率」（乘聯會零售 vs 中汽協口徑）、「Cybertruck 2027年中停產」（單一來源）；更新「Tesla TAD 歐盟批准國數」（Digitimes 11-19稱8國）；結案「BMW iX5 電芯供應商」（初期AESC中國→十年末LGES美國）。
+- 備註: 本日第二批，來源頁加 b；GM Plug & Charge（electrive）與 11-19 InsideEVs 為同一事件，只補新資訊；Cybertruck 停產稿 dedupe 標為觀點稿且屬單一來源，未用於 concept 頁數字；倍耐力專訪、三立法人展望屬觀點／券商稿，僅建來源頁；本批無台灣廠商確定打入電動車供應鏈的新消息，台灣電動車供應鏈廠商頁未更新。28 篇重複檔未 ingest；raw/ 既有檔（剪輯器就地改寫）未 stage。賓士、NVIDIA 符合 ≥3 來源頁門檻故建實體頁；極氪、Momenta、Ionna、Electrify America、Cylib、北汽、禾賽亦已達門檻，留待後續建頁。
+- 坡道: 中國11月上半月電動車滲透率衝到73.2%，聽起來是電動車大勝，但同期電動車零售其實年減13%——滲透率創高是因為燃油車跌得更兇（年減25%）；看中國市場，得先分清楚「占比」和「實際賣了多少」。
+- 發現: 乘聯會11月1–15日NEV零售44.7萬輛、年減13%，批發卻年增3%、批發滲透率82%；車廠為衝年度目標把庫存推給經銷商，乘聯會警告經銷商現金流與庫存承壓，後續批發成長會被疲弱零售拖住。
+- 發現: 比亞迪1–10月內銷年減27.81%，出口151.3萬輛、年增93.75%，出口已占全球銷量約42%，靠泰國年產15萬輛的工廠、巴西廠與8艘滾裝船撐起；中國龍頭的成長引擎已經從國內換到海外。
+- 發現: Ford密西根Marshall廠以寧德時代授權技術量產LFP電芯、每分鐘40顆，投資從35億美元縮到20億美元仍如期出貨；「中國技術授權＋美國車廠自有工廠」成為繞過美國政治審查的可行模式，BMW iX5則以「先中國AESC、後美國LGES」分段在地化。
+- 甜點: 美國電池在地化從「蓋廠」走到「出貨」，但多半仍依賴中國技術或中國電芯過渡；台灣電池材料與模組廠可留意美系車廠第二供應來源的切入機會。接下來追蹤11-27開幕的廣州車展新車訂單、年底以舊換新補貼到期前的中國12月零售，以及12月1–2日賓士與NVIDIA的美國眾院聽證。

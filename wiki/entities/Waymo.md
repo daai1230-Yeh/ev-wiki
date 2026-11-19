@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [waymo-arizona-expansion-2026, ev-news-2026-06-25, ev-news-2026-08-30-31-cn-misc, ev-news-2026-08-31-digitimes, ev-news-2026-09-01-digitimes, ev-news-2026-09-02-electrive-en, ev-news-2026-10-07-electrive-en, ev-news-2026-10-22-insideevs, ev-news-2026-10-27-digitimes, ev-news-2026-11-02-digitimes, ev-news-2026-11-02-cn-misc, ev-news-2026-11-04-digitimes, ev-news-2026-11-04-insideevs, ev-news-2026-11-06-electrive-en, ev-news-2026-11-06-insideevs, ev-news-2026-11-06-digitimes]
-updated: 2026-11-06
+sources: [waymo-arizona-expansion-2026, ev-news-2026-06-25, ev-news-2026-08-30-31-cn-misc, ev-news-2026-08-31-digitimes, ev-news-2026-09-01-digitimes, ev-news-2026-09-02-electrive-en, ev-news-2026-10-07-electrive-en, ev-news-2026-10-22-insideevs, ev-news-2026-10-27-digitimes, ev-news-2026-11-02-digitimes, ev-news-2026-11-02-cn-misc, ev-news-2026-11-04-digitimes, ev-news-2026-11-04-insideevs, ev-news-2026-11-06-electrive-en, ev-news-2026-11-06-insideevs, ev-news-2026-11-06-digitimes, ev-news-2026-11-19b-insideevs]
+updated: 2026-11-19
 ---
 
 # Waymo
@@ -134,6 +134,16 @@ Waymo與新加坡MOT與LTA合作，2027年起測試、2028年向公眾提供全�
 **觀察**：2028-01自家App體驗；新增12城名單。
 
 - 參見：[[sources/ev-news-2026-11-06-electrive-en]] | [[sources/ev-news-2026-11-06-insideevs]] | [[sources/ev-news-2026-11-06-digitimes]] | [[concepts/Robotaxi自動計程車]] | [[concepts/充電基礎建設]] | [[entities/豐田]] | [[countries/美國]]
+
+### 加州禁令後撤出全美高速公路（2026-11）
+
+> **結論**：加州 DMV 以多起駛入施工封閉車道事件，禁止 Waymo 無人駕駛上州內高速公路；Waymo 擴大為全美暫停 freeway 載客，15 城市區服務照常。
+
+**主因**：今年第二次撤出高速公路（6 月召回 3,871 輛）；近期另試圖超越 I-280 警方管制車隊；NHTSA 調查校車軟體修正 → 高速場景長尾事件拖慢擴區。
+
+**觀察**：與加州 DMV 協商結果；倫敦、東京等海外擴張時程是否受影響。
+
+- 參見：[[sources/ev-news-2026-11-19b-insideevs]] | [[concepts/Robotaxi自動計程車]]
 
 ## Related
 - [[concepts/Robotaxi自動計程車]]

@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [vinfast-india-investment, ev-news-2026-07-20-21-electrive-en, ev-news-2026-09-18-electrive-en, ev-news-2026-09-22-electrive-en, ev-news-2026-09-22-digest, ev-news-2026-09-23-electrive-en, ev-news-2026-09-29-digitimes, ev-news-2026-10-16-electrive-en, ev-news-2026-10-20-bus-digest]
-updated: 2026-10-20
+sources: [vinfast-india-investment, ev-news-2026-07-20-21-electrive-en, ev-news-2026-09-18-electrive-en, ev-news-2026-09-22-electrive-en, ev-news-2026-09-22-digest, ev-news-2026-09-23-electrive-en, ev-news-2026-09-29-digitimes, ev-news-2026-10-16-electrive-en, ev-news-2026-10-20-bus-digest, ev-news-2026-11-19b-electrive-en]
+updated: 2026-11-19
 ---
 
 # VinFast
@@ -91,6 +91,20 @@ Green SM進歐約一個月後於10月13日在洛杉磯部署首批電動計程�
 Transerco導入28輛Green Bus與25輛EB8；VinFast巴士年產能3,000輛，APTA期間宣布經NexMove進入美國電動巴士市場。
 
 - 參見：[[sources/ev-news-2026-10-20-bus-digest]] | [[concepts/電動巴士市場]]
+
+## 2026-11 動態彙整
+
+> 本月逐批新增的動態；月底合併為一節 RRC 並更新頁首摘要與「簡報三段式」。
+
+### VF 5／VF 6 小改款：VF 5 約 1.9 萬歐元、續航增 44 km（2026-11）
+
+> **結論**：VinFast 小改款 VF 5 換 43 kWh 電池、NEDC 370 km（+44 km），Premium 約 1.9 萬歐元；VF 6 60 kWh、510 km，2027-02 越南交車、可能 2027 年第二季出口歐盟。
+
+**主因**：以續航與配備升級在越南本土對抗中國品牌；商用 Green 版沿用 37.23 kWh LFP、快充時間由 33 分鐘縮至 25 分鐘。
+
+**觀察**：VF 6 歐盟出口實際時程與定價。
+
+- 參見：[[sources/ev-news-2026-11-19b-electrive-en]] | [[concepts/平價電動車市場]]
 
 ## Related
 - [[concepts/地理市場/印度EV市場]]

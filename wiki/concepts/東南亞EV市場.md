@@ -1,6 +1,6 @@
 ---
 tags: [concept]
-sources: [thailand-ev-market-2026, china-autonomous-driving-overseas, foxconn-mitsubishi-fuso-electric-bus, byd-malaysia-factory-negotiation, byd-malaysia-factory-update-2026, malaysia-cbv-ev-regulation-2026, gwm-ora5-thailand-2026, geely-thailand-pickup-2026, mitsubishi-motors-middle-east-routes-2026, mitsubishi-hev-japan-2028, lges-honda-vietnam-bss-2026, volvo-ex30-thailand-fire-2026, hanoi-1000-bss-2026, ev-news-digest-jun1-10-2026, ev-news-2026-09-18-digest, ev-news-2026-09-18-digitimes, ev-news-2026-09-19-electrive-en, ev-news-2026-09-22-digest, ev-news-2026-09-22-electrive-en, ev-news-2026-09-28-digest, ev-news-2026-09-29-digitimes, ev-news-2026-10-01-digitimes, ev-news-2026-10-06-digest, ev-news-2026-10-22-digest, ev-news-2026-10-22-electrive-en, ev-news-2026-10-27-electrive-en, ev-news-2026-10-29-electrive-en, ev-news-2026-11-04-cn-misc, ev-news-2026-11-06-cn-misc, ev-news-2026-11-09-cn-misc, ev-news-2026-11-11b-cn-misc, ev-news-2026-11-11b-digitimes, ev-news-2026-11-19-cn-misc, ev-news-2026-11-19-electrive-en, ev-news-2026-11-18-digitimes]
+sources: [thailand-ev-market-2026, china-autonomous-driving-overseas, foxconn-mitsubishi-fuso-electric-bus, byd-malaysia-factory-negotiation, byd-malaysia-factory-update-2026, malaysia-cbv-ev-regulation-2026, gwm-ora5-thailand-2026, geely-thailand-pickup-2026, mitsubishi-motors-middle-east-routes-2026, mitsubishi-hev-japan-2028, lges-honda-vietnam-bss-2026, volvo-ex30-thailand-fire-2026, hanoi-1000-bss-2026, ev-news-digest-jun1-10-2026, ev-news-2026-09-18-digest, ev-news-2026-09-18-digitimes, ev-news-2026-09-19-electrive-en, ev-news-2026-09-22-digest, ev-news-2026-09-22-electrive-en, ev-news-2026-09-28-digest, ev-news-2026-09-29-digitimes, ev-news-2026-10-01-digitimes, ev-news-2026-10-06-digest, ev-news-2026-10-22-digest, ev-news-2026-10-22-electrive-en, ev-news-2026-10-27-electrive-en, ev-news-2026-10-29-electrive-en, ev-news-2026-11-04-cn-misc, ev-news-2026-11-06-cn-misc, ev-news-2026-11-09-cn-misc, ev-news-2026-11-11b-cn-misc, ev-news-2026-11-11b-digitimes, ev-news-2026-11-19-cn-misc, ev-news-2026-11-19-electrive-en, ev-news-2026-11-18-digitimes, ev-news-2026-11-19b-cn-misc, ev-news-2026-11-19b-electrive-en]
 updated: 2026-11-19
 ---
 
@@ -394,6 +394,19 @@ updated: 2026-11-19
 **觀察**：2027-01泰國新稅率生效後，CBU進口車（含非比亞迪中國品牌）掛牌是否下滑。
 
 - 參見：[[sources/ev-news-2026-11-18-digitimes]] | [[entities/比亞迪]] | [[countries/東南亞]]
+
+### 泰國工業區擴至 84 處、BEV 累計 53.96 萬輛（2026-11）
+
+> **結論**：泰國 IEAT 工業區由 2024-09 的 69 處增至 2026-09 的 84 處、目標 2–3 年內破百，汽車及零組件仍是第一大投資產業；BEV 累計註冊截至 8 月達 539,630 輛。
+
+**主因**：
+- 投資轉移：工業區內 5,926 家工廠、累計投資 11.58 兆泰銖，投資來源前五為日、中、新、港、美，EV 與資料中心是新增動能 → 供應鏈重組下泰國持續吸納中日車廠與零組件廠。
+- 後市場議題：BEV 保有量逾 53 萬輛，FTI 提議數位產品護照與 BCG 回收投資 → 電池回收將成下一個投資題目。
+- 越南：VinFast 小改款 VF 5／VF 6 先在越南上市、2027-02 交車 → 本土品牌以產品更新應對中國品牌進入。
+
+**觀察**：2027-01 泰國進口 EV 消費稅升至 35% 後的在地生產比例；泰國電子廢棄物主責機關的指定。
+
+- 參見：[[sources/ev-news-2026-11-19b-cn-misc]] | [[sources/ev-news-2026-11-19b-electrive-en]] | [[countries/東南亞]] | [[entities/VinFast]]
 
 ## Related
 - [[entities/比亞迪]]
