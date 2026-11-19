@@ -733,14 +733,21 @@ function renderStats(){
 function inlineMd(s){
   return esc(s).replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>');
 }
-const ACTIVITY_LIMIT = 3;   // 最新動態只顯示最近 N 則每日 ingest
+const ACTIVITY_DAYS = 3;   // 最新動態：最新 ingest 日往前 N 個日曆日內的全部 ingest（同日多批都列出）
+const ACTIVITY_MIN  = 3;   // 若不足 N 則（如週末無 ingest），以更早的 ingest 補足
 
 function renderActivity(){
   const el = $('activity-list');
-  // 以原始索引配對，過濾出 ingest（若無則退回全部），取最新 N 則
+  // 以原始索引配對，過濾出 ingest（若無則退回全部），取最近 N 個日期
   let rows = D.log.map((e, i) => ({e, i}));
   const ingests = rows.filter(r => r.e.type === 'ingest');
-  rows = (ingests.length ? ingests : rows).slice(0, ACTIVITY_LIMIT);
+  rows = ingests.length ? ingests : rows;
+  if (rows.length) {
+    const newest = new Date(rows[0].e.date);
+    const cutoff = new Date(newest.getTime() - (ACTIVITY_DAYS - 1) * 86400000).toISOString().slice(0, 10);
+    const inWindow = rows.filter(r => r.e.date >= cutoff);
+    rows = inWindow.length >= ACTIVITY_MIN ? inWindow : rows.slice(0, ACTIVITY_MIN);
+  }
 
   el.innerHTML = rows.map(({e, i}) => {
     const icon  = TYPE_ICONS[e.type] || '📌';
