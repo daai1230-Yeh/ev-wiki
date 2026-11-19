@@ -33,7 +33,11 @@ def read(path):
 def url_of(text):
     m = re.search(r'^source:\s*"?(https?://[^\s"]+)', text, re.M)
     if not m: return None
-    u = m.group(1).split('#')[0].split('?')[0].rstrip('/')
+    base, _, q = m.group(1).split('#')[0].partition('?')
+    # Keep article-identifying query params (e.g. Digitimes shwnws.asp?id=...);
+    # drop tracking params like utm_*.
+    ident = re.search(r'(?:^|&)id=([^&]+)', q, re.I)
+    u = base.rstrip('/') + (f'?id={ident.group(1)}' if ident else '')
     return u.lower()
 
 ENT = None
