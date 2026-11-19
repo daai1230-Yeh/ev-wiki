@@ -2547,3 +2547,7 @@ Pages 375 → 406，Sources 315 → 346
 - New pages created: [[entities/Zenobē]], [[entities/Wrightbus]], [[entities/Daimler-Buses]]（依「≥3個來源頁即建實體頁」規則）
 - Key additions: 小鵬3Q營收年增19.1%（高於共識13.94%）；台廠因GM去中化加速墨西哥設廠（聯嘉、華勝-KY等）；中國製電動車對韓出口1–9月33.6億美元（年增99.2%）；泰國增程式消費稅同步升至35%、前9月EV登記年增83%；中車經銷商YES-EU擬在都靈設電巴廠；Renault法國增聘2,000人
 - 備註: 本批無 Digitimes 剪輯檔；Sustainable Bus 2 篇為贊助內容（Higer、Autonomous Systems），未用於更新 concept 頁；eCitaro、Driventic、台南電巴、泰國35%、Euro Bus Expo 為前批同一事件之補充；待核對新增：泰國進口商用車消費稅；其餘符合建頁門檻的候選：Ionna、Electra、Kempower、Alexander Dennis、May Mobility
+
+## [2026-11-19] maintenance | 待核對結案：泰國進口電動車消費稅
+- 結案：泰國進口電動車消費稅（使用者確認說法 A；依泰國內閣 2026-11-03 決議）——2027-01-01 起，未在泰國設廠生產、未使用在地零組件的整車進口（CBU）電動車，純電 10%→35%、增程式 15%→35%，目的為保護已在泰設廠業者、鼓勵在地生產
+- Pages updated: [[待核對清單]]、[[sources/ev-news-2026-11-19-cn-misc]]、[[concepts/東南亞EV市場]]
