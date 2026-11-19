@@ -733,37 +733,67 @@ function renderStats(){
 function inlineMd(s){
   return esc(s).replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>');
 }
+const ACTIVITY_LIMIT = 3;   // 最新動態只顯示最近 N 則每日 ingest
+
 function renderActivity(){
   const el = $('activity-list');
-  el.innerHTML = D.log.map((e, i) => {
+  // 以原始索引配對，過濾出 ingest（若無則退回全部），取最新 N 則
+  let rows = D.log.map((e, i) => ({e, i}));
+  const ingests = rows.filter(r => r.e.type === 'ingest');
+  rows = (ingests.length ? ingests : rows).slice(0, ACTIVITY_LIMIT);
+
+  el.innerHTML = rows.map(({e, i}) => {
     const icon  = TYPE_ICONS[e.type] || '📌';
     const cls   = `type-${e.type}`;
     const label = TYPE_LABELS[e.type] || e.type;
-    const disc = (e.discoveries || []).slice(0,3).map(d =>
-      `<li>${inlineMd(d.length > 110 ? d.slice(0,110)+'…' : d)}</li>`).join('');
-    const nMore = (e.discoveries||[]).length - 3;
+
+    // 🔍 發現：卡片最多 6 項，其餘進詳情頁
+    const DISC_CAP = 6;
+    const disc = (e.discoveries || []).slice(0, DISC_CAP).map(d =>
+      `<li>${inlineMd(d)}</li>`).join('');
+    const nMore = (e.discoveries || []).length - DISC_CAP;
+    // 🍰 甜點
+    const dess = (e.dessert || []).map(d => `<li>${inlineMd(d)}</li>`).join('');
+    // 本批更新計數
     const counts = [];
     if ((e.concepts||[]).length)  counts.push(`${e.concepts.length} 概念`);
     if ((e.countries||[]).length) counts.push(`${e.countries.length} 國家`);
     if ((e.entities||[]).length)  counts.push(`${e.entities.length} 車廠`);
+    if ((e.sources||[]).length)   counts.push(`${e.sources.length} 來源`);
+
     return `
       <div class="relative fade-in">
         <div class="absolute -left-9 top-1 w-4 h-4 rounded-full bg-slate-700 border-2 border-slate-600 flex items-center justify-center text-xs">
           <span class="${cls}">${icon}</span>
         </div>
         <div class="bg-slate-800/60 rounded-xl border border-slate-700/60 p-4 clickable hover:border-emerald-500/50 transition" data-log="${i}">
-          <div class="flex items-center gap-2 mb-2">
+          <div class="flex items-center gap-2 mb-3">
             <span class="text-xs font-mono text-slate-500">${e.date}</span>
             <span class="tag ${cls} border-current opacity-70">${label}</span>
             <span class="ml-auto text-[11px] text-emerald-400/70">看完整敘事 →</span>
           </div>
-          <div class="narr-ramp-text text-slate-200 mb-2" style="font-size:.9rem">🛝 ${inlineMd(e.ramp || e.title)}</div>
-          ${disc ? `<ul class="narr-list" style="gap:6px">${disc}</ul>` : ''}
-          ${nMore > 0 ? `<div class="text-[11px] text-slate-500 mt-2">…還有 ${nMore} 項發現</div>` : ''}
-          ${counts.length ? `<div class="text-[11px] text-slate-500 mt-2">本批更新 ${counts.join('、')}</div>` : ''}
+
+          <div class="narr-zone narr-ramp">
+            <div class="narr-label">🛝 坡道 · 為何值得看</div>
+            <div class="narr-ramp-text">${inlineMd(e.ramp || e.title)}</div>
+          </div>
+
+          ${disc ? `<div class="narr-zone narr-disc">
+            <div class="narr-label">🔍 發現 · 核心重點</div>
+            <ul class="narr-list">${disc}</ul>
+            ${nMore > 0 ? `<div class="text-[11px] text-slate-500 mt-1">…點開看其餘 ${nMore} 項發現</div>` : ''}
+          </div>` : ''}
+
+          ${dess ? `<div class="narr-zone narr-dess">
+            <div class="narr-label">🍰 甜點 · 下一步追蹤 / 待核對</div>
+            <ul class="narr-list">${dess}</ul>
+          </div>` : ''}
+
+          ${counts.length ? `<div class="text-[11px] text-slate-500 mt-2">本批更新 ${counts.join('、')} · 點擊看可跳頁連結</div>` : ''}
         </div>
       </div>`;
   }).join('');
+
   el.onclick = ev => {
     const card = ev.target.closest('[data-log]');
     if (card) openActivity(+card.dataset.log);
