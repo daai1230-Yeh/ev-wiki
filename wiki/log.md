@@ -2551,3 +2551,13 @@ Pages 375 → 406，Sources 315 → 346
 ## [2026-11-19] maintenance | 待核對結案：泰國進口電動車消費稅
 - 結案：泰國進口電動車消費稅（使用者確認說法 A；依泰國內閣 2026-11-03 決議）——2027-01-01 起，未在泰國設廠生產、未使用在地零組件的整車進口（CBU）電動車，純電 10%→35%、增程式 15%→35%，目的為保護已在泰設廠業者、鼓勵在地生產
 - Pages updated: [[待核對清單]]、[[sources/ev-news-2026-11-19-cn-misc]]、[[concepts/東南亞EV市場]]
+
+## [2026-11-19] ingest | Digitimes 2026-11-18 補收（5篇）
+- Summary page: [[sources/ev-news-2026-11-18-digitimes]]
+- Raw assets: raw/assets/2026-11-18-{寧德時代押注換電…, 曾毓群、王傳福談新能源全球化…, 比亞迪南韓售後服務據點…, Tesla逆勢投資德國柏林廠…, Honda在美阿拉巴馬州…}.md
+- Pages updated (concepts): [[concepts/充電基礎建設]]、[[concepts/東南亞EV市場]]
+- Pages updated (entities): [[entities/寧德時代]]、[[entities/比亞迪]]、[[entities/本田]]
+- Countries updated: [[countries/韓國]]
+- New pages created: 無
+- Key additions: 寧德時代換電站2025底1,020→2026-09底2,520座、單站人民幣140萬元／日均60次損益兩平；比亞迪南韓1~10月2.17萬輛（年增473.2%）、服務中心11→21處超越Tesla；泰國廠在地化率逾50%（對照2027年CBU加稅）；本田阿拉巴馬4.62億美元HEV引擎線
+- 備註: 前一筆 ingest 記錄「本批無 Digitimes 剪輯檔」有誤——dedupe.py 比對網址時刪除查詢字串，所有 Digitimes `shwnws.asp?id=` 網址被視為同一網址而誤判重複；已修正（commit e51698b）。Tesla、寧德時代6,000座為 11-17 electrive 同一事件，僅補新資訊；待核對新增：Tesla格林海德擴建金額（3億 vs 30億歐元）

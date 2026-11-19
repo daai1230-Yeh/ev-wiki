@@ -1,6 +1,6 @@
 ---
 tags: [concept]
-sources: [thailand-ev-market-2026, china-autonomous-driving-overseas, foxconn-mitsubishi-fuso-electric-bus, byd-malaysia-factory-negotiation, byd-malaysia-factory-update-2026, malaysia-cbv-ev-regulation-2026, gwm-ora5-thailand-2026, geely-thailand-pickup-2026, mitsubishi-motors-middle-east-routes-2026, mitsubishi-hev-japan-2028, lges-honda-vietnam-bss-2026, volvo-ex30-thailand-fire-2026, hanoi-1000-bss-2026, ev-news-digest-jun1-10-2026, ev-news-2026-09-18-digest, ev-news-2026-09-18-digitimes, ev-news-2026-09-19-electrive-en, ev-news-2026-09-22-digest, ev-news-2026-09-22-electrive-en, ev-news-2026-09-28-digest, ev-news-2026-09-29-digitimes, ev-news-2026-10-01-digitimes, ev-news-2026-10-06-digest, ev-news-2026-10-22-digest, ev-news-2026-10-22-electrive-en, ev-news-2026-10-27-electrive-en, ev-news-2026-10-29-electrive-en, ev-news-2026-11-04-cn-misc, ev-news-2026-11-06-cn-misc, ev-news-2026-11-09-cn-misc, ev-news-2026-11-11b-cn-misc, ev-news-2026-11-11b-digitimes, ev-news-2026-11-19-cn-misc, ev-news-2026-11-19-electrive-en]
+sources: [thailand-ev-market-2026, china-autonomous-driving-overseas, foxconn-mitsubishi-fuso-electric-bus, byd-malaysia-factory-negotiation, byd-malaysia-factory-update-2026, malaysia-cbv-ev-regulation-2026, gwm-ora5-thailand-2026, geely-thailand-pickup-2026, mitsubishi-motors-middle-east-routes-2026, mitsubishi-hev-japan-2028, lges-honda-vietnam-bss-2026, volvo-ex30-thailand-fire-2026, hanoi-1000-bss-2026, ev-news-digest-jun1-10-2026, ev-news-2026-09-18-digest, ev-news-2026-09-18-digitimes, ev-news-2026-09-19-electrive-en, ev-news-2026-09-22-digest, ev-news-2026-09-22-electrive-en, ev-news-2026-09-28-digest, ev-news-2026-09-29-digitimes, ev-news-2026-10-01-digitimes, ev-news-2026-10-06-digest, ev-news-2026-10-22-digest, ev-news-2026-10-22-electrive-en, ev-news-2026-10-27-electrive-en, ev-news-2026-10-29-electrive-en, ev-news-2026-11-04-cn-misc, ev-news-2026-11-06-cn-misc, ev-news-2026-11-09-cn-misc, ev-news-2026-11-11b-cn-misc, ev-news-2026-11-11b-digitimes, ev-news-2026-11-19-cn-misc, ev-news-2026-11-19-electrive-en, ev-news-2026-11-18-digitimes]
 updated: 2026-11-19
 ---
 
@@ -382,6 +382,18 @@ updated: 2026-11-19
 **觀察**：泰國財長11/18–20赴日招商的分級稅制細節。稅率已確認：2027-01-01起，未在泰國生產、未用在地零組件的CBU純電車10%→35%、增程式15%→35%（泰國內閣決議，見[[待核對清單]]已結案）。
 
 - 參見：[[sources/ev-news-2026-11-19-cn-misc]] | [[sources/ev-news-2026-11-19-electrive-en]] | [[起亞]] | [[countries/東南亞]]
+
+### 比亞迪泰國、印尼在地化數字（2026-11）
+
+> **結論**：比亞迪稱泰國廠年產能約15萬輛、在地化率逾50%，正好落在泰國2027年起「未在地生產、未用在地零組件的CBU電動車」加稅範圍之外，在地化已成在東協賣車的入場券。
+
+**主因**（企業說法，APEC 2026-11-17）：
+- 泰國：年產能約15萬輛、帶動約6,000人就業（泰籍逾95%），在地化率逾50% → 對比CBU純電車2027年起消費稅10%→35%，本地生產可避開25個百分點的稅差。
+- 印尼：約6,000名當地員工（逾95%） → 呼應印尼以在地化率換取優惠的政策。
+
+**觀察**：2027-01泰國新稅率生效後，CBU進口車（含非比亞迪中國品牌）掛牌是否下滑。
+
+- 參見：[[sources/ev-news-2026-11-18-digitimes]] | [[entities/比亞迪]] | [[countries/東南亞]]
 
 ## Related
 - [[entities/比亞迪]]

@@ -1,6 +1,6 @@
 # Wiki Index
 
-Last updated: 2026-11-19 | Pages: 504 | Sources: 623
+Last updated: 2026-11-19 | Pages: 505 | Sources: 624
 
 ---
 
@@ -97,6 +97,7 @@ Last updated: 2026-11-19 | Pages: 504 | Sources: 623
 - [[sources/ev-news-2026-10-12-digest]] — 中文財經批次8篇：陸混動車輸歐恐砍半、豐田泰國殘值貸款、現代印度1,000萬輛、華德電巴、桃園A21、雙層客運補助縮水、Starlink印度。(2026-10-12)
 - [[sources/ev-news-2026-10-12-digitimes-2]] — Digitimes CarTech補充2篇：豐田、廣汽、一汽三方協議正式簽署、麗升跨足充電樁（註：剪輯檔無單篇網址）。(2026-10-12)
 - [[sources/ev-news-2026-10-12-14-digitimes]] — Digitimes CarTech 9篇：中國新能源車出口退稅2027-04起由13%降至9%（含評析）、歐盟HEV／PHEV年35萬輛配額、LGES大進機械轉單與L&F LFP長約、台灣能管法帶動儲能、寰聖／桓鼎、裕日車估車市42萬輛（全數附原文網址）。(2026-10-14)
+- [[sources/ev-news-2026-11-18-digitimes]] — Digitimes 5篇（補收）：寧德時代換電9個月1,020→2,520座、比亞迪南韓1~10月2.17萬輛（年增473%）與售後據點翻倍、APEC王傳福泰國廠在地化逾50%、本田阿拉巴馬4.62億美元HEV引擎、Tesla柏林廠補充。(2026-11-19)
 - [[sources/ev-news-2026-11-19-electrive-en]] — electrive批次16篇：小鵬3Q營收年增19.1%、福斯ID. Aura L5、Renault法國增聘2,000人、賓士130 km/h放手駕駛、Kia印尼在地組裝、Delhivery 2,000輛電動小貨車、eActros 600進巴西、豐田C-HR+召回。(2026-11-19)
 - [[sources/ev-news-2026-11-19-insideevs]] — InsideEVs批次3篇：GM Plug & Charge擴及Electrify America、電動車馬達類型科普、REO vs Slate平價皮卡。(2026-11-19)
 - [[sources/ev-news-2026-11-19-sustainablebus]] — Sustainable Bus批次9篇：中車經銷商YES-EU擬收購都靈前瑪莎拉蒂廠產電巴、伯斯電巴逾200輛、米蘭PPP遭駁回、第二代eCitaro補充（含2篇贊助內容）。(2026-11-19)
