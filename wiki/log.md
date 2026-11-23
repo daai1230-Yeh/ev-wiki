@@ -2647,3 +2647,8 @@ Pages 375 → 406，Sources 315 → 346
 ## [2026-11-23] create | 新增實體頁：乘聯會
 - New pages created: [[entities/乘聯會]]（10 個來源頁提及，達 ≥3 門檻）
 - Key additions: 乘聯會 vs 中汽協口徑對照表（銷量、滲透率、出口、頻率）；11 月預估滲透率 70.6%；2026 年車市年減 22%／海外逾 1,200 萬輛預估；歷次背景事件。
+
+## [2026-11-23] create | 新增實體頁：極氪、Momenta、禾賽
+- New pages created: [[entities/極氪]]（21 個來源頁）、[[entities/Momenta]]（6 個來源頁）、[[entities/禾賽]]（4 個來源頁）
+- Key additions: 極氪 7X 1–10 月 97,165 輛、快充與 Waymo Ojai 代工；Momenta 慕尼黑 Uber 試營運、德國 KBA 全國 L4 許可、上車逾 140 萬輛；禾賽 3Q26 出貨 729,673 顆、1 億美元回購、EXT 顏色辨識 LiDAR。
+- 待核對: 新增「Waymo 與極氪 Ojai 合作是否中止」（TechNews AI 稿 vs InsideEVs／Digitimes）。

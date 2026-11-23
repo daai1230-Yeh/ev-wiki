@@ -1,6 +1,6 @@
 # Wiki Index
 
-Last updated: 2026-11-23 | Pages: 516 | Sources: 629
+Last updated: 2026-11-23 | Pages: 519 | Sources: 629
 
 ---
 
@@ -688,6 +688,9 @@ Last updated: 2026-11-23 | Pages: 516 | Sources: 629
 - [[entities/Slate Auto]] — 美國電動皮卡新創，$24,950 採 Gotion LFP，主打美國最平價量產電動皮卡。
 - [[entities/Lucid]] — 美國豪華電動車新創，Newark CA 總部，PIF 主要股東，Cosmos ~$50K 中型 SUV 2026 底量產。
 - [[entities/Zoox]] — Amazon 旗下 Purpose-built Robotaxi，已在拉斯維加斯/舊金山商業運營，Hayward 工廠進入系列生產。
+- [[entities/極氪]] — 吉利高端純電品牌，900V＋兆瓦快充，7X 占銷量三成，為 Waymo 代工 Ojai 車體。
+- [[entities/Momenta]] — 中國智駕軟體商，城市 NOA 市佔約 64.5%、上車逾 140 萬輛，與 Uber 在慕尼黑開跑 Robotaxi。
+- [[entities/禾賽]] — 中國最大車用 LiDAR 廠，3Q26 出貨 73 萬顆、連 6 季獲利，港股近歷史低點。
 
 ### 電池廠
 - [[entities/三星SDI]] — 韓國電池廠（三星集團），高鎳 NMC 電池，已供應 BMW/VW，**2026-04-20 正式簽署賓士合約**（€58 億，MMA 平台，2028）。
