@@ -1,7 +1,7 @@
 ---
 tags: [concept]
-sources: [gm-ford-q1-2026-sales, us-ev-battery-demand-mismatch, rivian-r2-range-specs, vw-id4-chattanooga-stop, tesla-25k-ev-us-price-parity, slate-auto-ev-pickup, ford-ev-restructure-doug-field, vw-id4-us-writedown, tesla-q1-2026-earnings, gm-ev-delay-detroit-three, nissan-mississippi-ev-abandonment, honda-canada-ev-freeze-2026, tesla-model-s-final-production, mazda-ev-delay-2029, ford-catl-michigan-factory-2026, honda-9b-loss-hybrid-pivot-2026, tesla-model-y-price-bump-2026, congress-ev-annual-fee-2026, rivian-r2-deliveries-2026, chevy-bolt-2027-review, 駐外新聞-美國-2025, ev-news-2026-09-18-digest, ev-news-2026-09-20-digest, ev-news-2026-09-22-electrive-en, ev-news-2026-09-26-electrive-en, ev-news-2026-09-28-digest, ev-news-2026-10-05-digitimes, ev-news-2026-10-07-electrive-en, ev-news-2026-10-22-insideevs, ev-news-2026-10-27-digitimes, ev-news-2026-10-27-electrive-en, ev-news-2026-10-27-insideevs, ev-news-2026-10-29-insideevs, ev-news-2026-10-30-electrive-en, ev-news-2026-10-30-insideevs, ev-news-2026-11-02-electrive-en, ev-news-2026-11-02-digitimes, ev-news-2026-11-04-insideevs, ev-news-2026-11-04-digitimes, ev-news-2026-11-06-insideevs, ev-news-2026-11-06-digitimes, ev-news-2026-11-09-cn-misc, ev-news-2026-11-11-electrive-en, ev-news-2026-11-11-digitimes, ev-news-2026-11-11-insideevs, ev-news-2026-11-11b-insideevs, ev-news-2026-11-11b-digitimes, ev-news-2026-11-12-digitimes, ev-news-2026-11-16-digitimes, ev-news-2026-11-16-cn-misc, ev-news-2026-11-17-electrive-en, ev-news-2026-11-17-digitimes, ev-news-2026-11-19b-insideevs, ev-news-2026-11-19b-cn-misc, ev-news-2026-11-19-digitimes]
-updated: 2026-11-19
+sources: [gm-ford-q1-2026-sales, us-ev-battery-demand-mismatch, rivian-r2-range-specs, vw-id4-chattanooga-stop, tesla-25k-ev-us-price-parity, slate-auto-ev-pickup, ford-ev-restructure-doug-field, vw-id4-us-writedown, tesla-q1-2026-earnings, gm-ev-delay-detroit-three, nissan-mississippi-ev-abandonment, honda-canada-ev-freeze-2026, tesla-model-s-final-production, mazda-ev-delay-2029, ford-catl-michigan-factory-2026, honda-9b-loss-hybrid-pivot-2026, tesla-model-y-price-bump-2026, congress-ev-annual-fee-2026, rivian-r2-deliveries-2026, chevy-bolt-2027-review, 駐外新聞-美國-2025, ev-news-2026-09-18-digest, ev-news-2026-09-20-digest, ev-news-2026-09-22-electrive-en, ev-news-2026-09-26-electrive-en, ev-news-2026-09-28-digest, ev-news-2026-10-05-digitimes, ev-news-2026-10-07-electrive-en, ev-news-2026-10-22-insideevs, ev-news-2026-10-27-digitimes, ev-news-2026-10-27-electrive-en, ev-news-2026-10-27-insideevs, ev-news-2026-10-29-insideevs, ev-news-2026-10-30-electrive-en, ev-news-2026-10-30-insideevs, ev-news-2026-11-02-electrive-en, ev-news-2026-11-02-digitimes, ev-news-2026-11-04-insideevs, ev-news-2026-11-04-digitimes, ev-news-2026-11-06-insideevs, ev-news-2026-11-06-digitimes, ev-news-2026-11-09-cn-misc, ev-news-2026-11-11-electrive-en, ev-news-2026-11-11-digitimes, ev-news-2026-11-11-insideevs, ev-news-2026-11-11b-insideevs, ev-news-2026-11-11b-digitimes, ev-news-2026-11-12-digitimes, ev-news-2026-11-16-digitimes, ev-news-2026-11-16-cn-misc, ev-news-2026-11-17-electrive-en, ev-news-2026-11-17-digitimes, ev-news-2026-11-19b-insideevs, ev-news-2026-11-19b-cn-misc, ev-news-2026-11-19-digitimes, ev-news-2026-11-23b-cn-misc, ev-news-2026-11-23-digitimes]
+updated: 2026-11-23
 ---
 
 # 美國 EV 市場與政策
@@ -634,6 +634,19 @@ Q3美國BEV銷量年減39.5%（Cox／KBB）；德系車8月BEV榜名次落後；
 **觀察**：BMW 2027 年實際 iX5 產量；Santa Fe EREV 定價與 Tesla Cybertruck 停產傳聞的官方確認。
 
 - 參見：[[sources/ev-news-2026-11-19b-insideevs]] | [[sources/ev-news-2026-11-19b-cn-misc]] | [[sources/ev-news-2026-11-19-digitimes]] | [[entities/BMW]] | [[entities/現代汽車]] | [[entities/日産]] | [[countries/美國]]
+
+### 10 月銷量回溫但庫存見底；國會推中資 15% 門檻禁令（2026-11）
+
+> **結論**：美國 10 月 EV 銷量年增 11% 至 8.33 萬輛、為一年來首見成長，但車廠在抵減到期後減產，經銷商庫存年減 38%、不到三個月就會賣完——需求回溫碰上供給緊縮。
+
+**主因**：
+- 需求回溫：油價高漲帶動 10 月銷量 8.33 萬輛（年增 11%），Cox 稱近兩個月 EV 周轉快於汽油車 → 抵減到期後的「需求崩盤」敘事需修正。
+- 供給緊縮：S&P Global 10 月經銷商 EV 庫存約 6.5 萬輛（年減 38%），F-150 Lightning 去年 12 月停產 → 2027 年上半年新車（如 Fathom 要到 2027 年 4Q）到位前，銷量上限受庫存限制。
+- 中國車防線升級：國會擬禁中資持股逾 15% 且具資料傳輸的車輛；中國 FullGood 嘗試零件出口＋美國組裝＋替換軟體 → 監管焦點從整車進口延伸到 CKD／軟體來源。
+
+**觀察**：11–12 月銷量與庫存天數；國會 12 月表決中國車禁售法案。
+
+- 參見：[[sources/ev-news-2026-11-23b-cn-misc]] | [[sources/ev-news-2026-11-23-digitimes]] | [[concepts/北美EV關稅與政策]] | [[entities/福特]]
 
 ## Related
 - [[entities/豐田]]

@@ -1,6 +1,6 @@
 ---
 tags: [concept]
-sources: [tesla-canada-model3-2026, nissan-mississippi-ev-abandonment, china-evs-canada-chery-geely-2026, ford-catl-michigan-factory-2026, china-ev-us-market-2026, nissan-canada-dongfeng-ev-quota-2026, ev-news-2026-09-07-08-electrive-en, ev-news-2026-09-09-electrive-en, ev-news-2026-09-14-digest, ev-news-2026-09-11-digitimes, ev-news-2026-09-14-digitimes, ev-news-2026-09-17-digitimes, ev-news-2026-09-17-digest, ev-news-2026-09-17-electrive-en, ev-news-2026-09-20-digest, ev-news-2026-09-18-digest, ev-news-2026-09-25-digest, ev-news-2026-09-28-digest, ev-news-2026-09-30-digitimes, ev-news-2026-10-01-electrive-en, ev-news-2026-10-02-digitimes, ev-news-2026-10-04-digest, ev-news-2026-10-09-electrive-en, ev-news-2026-10-16-digitimes, ev-news-2026-10-19-digitimes, ev-news-2026-10-27-insideevs, ev-news-2026-10-27-digest, ev-news-2026-11-19-cn-misc, ev-news-2026-11-23-cn-misc]
+sources: [tesla-canada-model3-2026, nissan-mississippi-ev-abandonment, china-evs-canada-chery-geely-2026, ford-catl-michigan-factory-2026, china-ev-us-market-2026, nissan-canada-dongfeng-ev-quota-2026, ev-news-2026-09-07-08-electrive-en, ev-news-2026-09-09-electrive-en, ev-news-2026-09-14-digest, ev-news-2026-09-11-digitimes, ev-news-2026-09-14-digitimes, ev-news-2026-09-17-digitimes, ev-news-2026-09-17-digest, ev-news-2026-09-17-electrive-en, ev-news-2026-09-20-digest, ev-news-2026-09-18-digest, ev-news-2026-09-25-digest, ev-news-2026-09-28-digest, ev-news-2026-09-30-digitimes, ev-news-2026-10-01-electrive-en, ev-news-2026-10-02-digitimes, ev-news-2026-10-04-digest, ev-news-2026-10-09-electrive-en, ev-news-2026-10-16-digitimes, ev-news-2026-10-19-digitimes, ev-news-2026-10-27-insideevs, ev-news-2026-10-27-digest, ev-news-2026-11-19-cn-misc, ev-news-2026-11-23-cn-misc, ev-news-2026-11-23b-cn-misc]
 updated: 2026-11-23
 ---
 
@@ -302,6 +302,18 @@ Polestar自6月遭商務部聯網車規定禁售（申請豁免遭拒，Volvo獲
 **觀察**：12 月國會是否表決通過；豁免條款是否同樣適用 Volvo、Polestar 等吉利系品牌。
 
 - 參見：[[sources/ev-news-2026-11-23-cn-misc]] | [[entities/賓士]] | [[countries/美國]] | [[countries/加拿大]]
+
+### 加拿大研議中國 EV 禁入軍事基地；中國車企試探 CKD 繞道（2026-11）
+
+> **結論**：加拿大 11 月初延長每年 4.9 萬輛中國 EV 優惠關稅進口，卻同步研議限制其進入軍事基地與政府設施；美國這邊則出現中國車企以「零件出口＋在美組裝＋換軟體」試探法規邊界。
+
+**主因**：
+- 加拿大「開市場、管場域」：配額延長的同時，交通部與公共安全部門研究場域限制，比照德、英、波、捷與美國空軍嘉手納基地（10 月禁比亞迪）→ 國安限制將從關稅轉向使用場域，影響政府與國防車隊採購。
+- 美國 CKD 繞道：FullGood（年產能約 10 萬輛）擬保留底盤動力總成、替換車載軟體以符合商務部聯網車規則 → 15% 中資門檻法案若通過，掛美國夥伴品牌的模式也可能被涵蓋。
+
+**觀察**：加拿大限制命令正式公告；美國法案對「零件進口＋本地組裝」的定義。
+
+- 參見：[[sources/ev-news-2026-11-23b-cn-misc]] | [[countries/加拿大]] | [[countries/美國]]
 
 ## Related
 - [[concepts/美國EV市場與政策]]

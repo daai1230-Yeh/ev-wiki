@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [sk-on-hungary-utilization, sk-on-nissan-battery-doubt-2026, ski-q1-2026-results, sk-on-erev-battery-hyundai-2027, ev-news-2026-09-22-digitimes, ev-news-2026-09-29-digitimes, ev-news-2026-10-07-digitimes]
-updated: 2026-10-07
+sources: [sk-on-hungary-utilization, sk-on-nissan-battery-doubt-2026, ski-q1-2026-results, sk-on-erev-battery-hyundai-2027, ev-news-2026-09-22-digitimes, ev-news-2026-09-29-digitimes, ev-news-2026-10-07-digitimes, ev-news-2026-11-23-digitimes]
+updated: 2026-11-23
 ---
 
 # SK On
@@ -79,6 +79,22 @@ SK On 完成對中國**江蘇鹽城**電池廠的完全控股收購：
 SK On已投入鈉電池研發，目標2027年完成原型，並規劃在ESS產品組合（現有LFP與釩離子電池）中加入鈉電池。
 
 - 參見：[[sources/ev-news-2026-10-07-digitimes]] | [[concepts/鈉離子電池]] | [[concepts/儲能市場]]
+
+## 2026-11 動態彙整
+
+> 本月逐批新增的動態；月底合併為一節 RRC 並更新頁首摘要與「簡報三段式」。
+
+### 3Q26 稼動率跌至 36.4%（2026-11）
+
+> **結論**：SK On 2026 年 3Q 中大型電池平均稼動率 36.4%，較 2025 年全年 48.7% 下滑 12.3 個百分點，與 LGES（57.1%）、三星SDI（78%）回升形成反差。
+
+**主因**：
+- 過度依賴 EV：缺乏既有 ESS 產線，美國 ESS 轉單紅利有限 → 擬將低需求 EV 產線轉 ESS，已獲 Flatiron、NeoVolta Power 訂單。
+- 詢價能否轉單仍待驗證 → 產線轉換期的獲利是主要風險。
+
+**觀察**：ESS 產線轉換時程與首批量產；4Q 稼動率。
+
+- 參見：[[sources/ev-news-2026-11-23-digitimes]] | [[entities/LGES]] | [[concepts/儲能市場]]
 
 ## Related
 - [[entities/LGES]]

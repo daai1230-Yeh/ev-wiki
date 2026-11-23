@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [zenobe-funding-2026, zenobe-go-ahead-ebus-framework-2026, ebus-global-jun2026, electrive-commercial-jun18-2026, ev-news-2026-07-10-electrive-batch, ev-news-2026-10-20-electrive-en, ev-news-2026-10-20-bus-digest, ev-news-2026-11-11b-electrive-en, ev-news-2026-11-16-sustainablebus]
-updated: 2026-11-19
+sources: [zenobe-funding-2026, zenobe-go-ahead-ebus-framework-2026, ebus-global-jun2026, electrive-commercial-jun18-2026, ev-news-2026-07-10-electrive-batch, ev-news-2026-10-20-electrive-en, ev-news-2026-10-20-bus-digest, ev-news-2026-11-11b-electrive-en, ev-news-2026-11-16-sustainablebus, ev-news-2026-11-23-electrive-en]
+updated: 2026-11-23
 ---
 
 # Zenobē
@@ -26,6 +26,22 @@ updated: 2026-11-19
 ## 觀察
 - 融資商讓營運商把電動化成本攤到營運期間，是英國電巴普及的推手之一；可對照台灣電巴以中央補助為主的模式。
 - 待追蹤：9.8 億英鎊資金的部署進度、澳洲與歐陸擴張。
+
+## 2026-11 動態彙整
+
+> 本月逐批新增的動態；月底合併為一節 RRC 並更新頁首摘要與「簡報三段式」。
+
+### 進軍德國：€3.25 億融資、收購 sdp energie（2026-11）
+
+> **結論**：Zenobē 以 €3.25 億銀團融資進軍德國，收購慕尼黑 sdp energie（1.75 GW 併網儲能管線），鎖定巴士、卡車、物流與最後一哩車隊，首批合作數月內公布。
+
+**主因**：
+- 規模：7 國逾 150 座場站、逾 3,500 輛 EV，英國 BESS 2.5 GWh；6 月英愛平台獲 £9.8 億、3 年購逾 1,200 輛電動巴士 → 已具跨國複製的資本與營運能力。
+- 德國時機：柴油價格創高、車隊補助退場、併網排隊數年 → 自帶資本與電網專長是賣點。
+
+**觀察**：德國首批客戶公告；與 Einride 等 ETaaS 業者競爭。
+
+- 參見：[[sources/ev-news-2026-11-23-electrive-en]] | [[concepts/電動巴士市場]] | [[concepts/儲能市場]]
 
 ## Related
 - [[concepts/電動巴士市場]]

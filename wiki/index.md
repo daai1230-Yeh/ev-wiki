@@ -1,6 +1,6 @@
 # Wiki Index
 
-Last updated: 2026-11-23 | Pages: 519 | Sources: 629
+Last updated: 2026-11-23 | Pages: 524 | Sources: 632
 
 ---
 
@@ -97,6 +97,9 @@ Last updated: 2026-11-23 | Pages: 519 | Sources: 629
 - [[sources/ev-news-2026-10-12-digest]] — 中文財經批次8篇：陸混動車輸歐恐砍半、豐田泰國殘值貸款、現代印度1,000萬輛、華德電巴、桃園A21、雙層客運補助縮水、Starlink印度。(2026-10-12)
 - [[sources/ev-news-2026-10-12-digitimes-2]] — Digitimes CarTech補充2篇：豐田、廣汽、一汽三方協議正式簽署、麗升跨足充電樁（註：剪輯檔無單篇網址）。(2026-10-12)
 - [[sources/ev-news-2026-10-12-14-digitimes]] — Digitimes CarTech 9篇：中國新能源車出口退稅2027-04起由13%降至9%（含評析）、歐盟HEV／PHEV年35萬輛配額、LGES大進機械轉單與L&F LFP長約、台灣能管法帶動儲能、寰聖／桓鼎、裕日車估車市42萬輛（全數附原文網址）。(2026-10-14)
+- [[sources/ev-news-2026-11-23-digitimes]] — Digitimes 10篇：福特Marshall LFP 20 GWh投產（原規劃40 GWh）、美國LFP自製版圖（Tesla正極由立凱電技轉、AESC售田納西廠）；LGES稼動率57.1%／三星SDI 78%／SK On 36.4%；寧德時代籲歐盟廢電池回中國精煉、拉美儲能逾15 GWh；本田Avancier HEV；方程豹折疊方向盤；江申電巴2027上看千輛。(2026-11-23)
+- [[sources/ev-news-2026-11-23-electrive-en]] — electrive 13篇：Twingo英國補助後£14,745、ID. Cross £26,985、ID. Polo GTI Clubsport；紅旗EHS4（零跑LEAP 3.5）€35,900；SC01義大利組裝；印度EIM 500輛換電重卡；Ford Otosan電池護照；Zenobē €3.25億進德國；拉哥斯電巴；onsemi EliteSiC M4。(2026-11-23)
+- [[sources/ev-news-2026-11-23b-cn-misc]] — 中文綜合18篇：美國10月EV銷量年增11%、庫存年減38%；韓國對中汽車逆差42.3億美元（年增92.7%）；泰國進口BEV貨物稅2027起35%；歐盟–印尼CEPA；FSD V15、義大利核准Tesla輔助駕駛；Opel–零跑C-SUV；ID. Tiguan量產、ID. Polo奪德國年度風雲車；中國充電樁2,539萬、退役電池2030逾百萬噸。(2026-11-23)
 - [[sources/ev-news-2026-11-23-cn-misc]] — CnEVPost 10篇：乘聯會預估11月NEV零售115萬輛、滲透率70.6%首破七成；10月動力電池裝機99.4 GWh創高、LFP占86.9%、寧德時代40.00%／比亞迪21.36%；Tesla上海廠出口占87%；零跑第200萬輛；方程豹鈦9、iCar V25、Lafa 5改款；美國中國車禁售法案擬豁免賓士。(2026-11-23)
 - [[sources/ev-news-2026-11-19b-cn-misc]] — CnEVPost＋中文媒體18篇：乘聯會11月上半月NEV零售年減13%／滲透率73.2%、比亞迪1–10月出口年增93.75%、Ford寧德時代授權LFP電芯出貨、北汽出售112座換電站、Momenta×Uber慕尼黑、黃仁勳辭任NVIDIA執行長、Cybertruck停產傳聞（單一來源）、泰國工業區與BEV 53.96萬輛。(2026-11-19)
 - [[sources/ev-news-2026-11-19b-electrive-en]] — electrive批次b 11篇：歐盟電網套案充電站審批門檻100→200 kW、歐盟電動卡車占比7.7%／曳引車1.6%、VW ID. UP商標與2027 Q4量產、VinFast VF 5/6小改款、Cylib獲SPRIND入股、BMZ電池護照、Volgren交雪梨95輛電巴。(2026-11-19)
@@ -699,6 +702,8 @@ Last updated: 2026-11-23 | Pages: 519 | Sources: 629
 - [[entities/國軒高科]] — 福斯入股的中國LFP電池廠，2026-10國內市佔6.05%升至第四，摩洛哥、斯洛伐克、西班牙出海布局。
 - [[entities/寧德時代]] — 全球最大動力電池廠，主導鈉電池量產，技術授權至美國。
 - [[entities/Northvolt]] — 瑞典電池廠，2024 年破產，德國 Heide 廠 €6,000 萬賤賣給 Lyten（資產原值 >€3.6 億）。
+- [[entities/AESC]] — 遠景動力，日系技術＋中資控股，BMW iX5 46120電芯供應商；2026-04將田納西廠多數股權售予Fixx Energy以符FEOC。
+- [[entities/立凱電]] — 台灣LFP正極材料廠（上櫃5227），Tesla美國LFP前驅體20年長約、台南前驅體＋美國後段加工，2027-07供貨。
 - [[entities/輝能科技]] — 台灣固態電池專家（ProLogium），2026-09 啟動Gen 3.5鋰陶瓷電池量產，TÜV認證能量密度381Wh/kg，法國敦克爾克廠同步布局。
 
 ### 傳統車廠（轉型中）

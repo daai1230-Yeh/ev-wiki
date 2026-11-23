@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [samsung-sdi-mercedes-battery-deal, samsung-sdi-mercedes-confirmed-deal, samsung-sdi-solid-state-production-2026, ev-news-2026-07-03-08, ev-news-2026-07-14-16-digitimes, ev-news-2026-09-04-digitimes, ev-news-2026-09-24-digitimes, ev-news-2026-10-02-digitimes, ev-news-2026-10-05-electrive-en, ev-news-2026-10-07-digitimes, ev-news-2026-10-15-digitimes, ev-news-2026-10-27-digitimes, ev-news-2026-10-29-digitimes, ev-news-2026-10-30-digitimes, ev-news-2026-11-11-digitimes, ev-news-2026-11-11b-digitimes, ev-news-2026-11-12-cn-misc, ev-news-2026-11-16-digitimes, ev-news-2026-11-17-digitimes]
-updated: 2026-11-17
+sources: [samsung-sdi-mercedes-battery-deal, samsung-sdi-mercedes-confirmed-deal, samsung-sdi-solid-state-production-2026, ev-news-2026-07-03-08, ev-news-2026-07-14-16-digitimes, ev-news-2026-09-04-digitimes, ev-news-2026-09-24-digitimes, ev-news-2026-10-02-digitimes, ev-news-2026-10-05-electrive-en, ev-news-2026-10-07-digitimes, ev-news-2026-10-15-digitimes, ev-news-2026-10-27-digitimes, ev-news-2026-10-29-digitimes, ev-news-2026-10-30-digitimes, ev-news-2026-11-11-digitimes, ev-news-2026-11-11b-digitimes, ev-news-2026-11-12-cn-misc, ev-news-2026-11-16-digitimes, ev-news-2026-11-17-digitimes, ev-news-2026-11-23-digitimes]
+updated: 2026-11-23
 ---
 
 # 三星 SDI（Samsung SDI）
@@ -191,6 +191,18 @@ Mercedes今年4月與三星SDI簽首份長期電池供應合約，並同步引�
 **觀察**：StarPlus產能。
 
 - 參見：[[sources/ev-news-2026-11-17-digitimes]] | [[concepts/儲能市場]]
+
+### 3Q26 小型電池稼動率 78%（2026-11）
+
+> **結論**：三星SDI 小型電池（圓柱、袋型）2026 年 3Q 稼動率 78%，較 2025 年全年 50% 大增 28 個百分點，ESS 與 BBU 需求帶動。
+
+**主因**：
+- 規劃產線買家已確定未來數年產量，正洽後續訂單 → 稼動率可望在 4Q 續升。
+- 對比 SK On 36.4% → 韓系電池廠分化由產品組合決定。
+
+**觀察**：2Q27 LFP 量產（見前述）與稼動率走勢。
+
+- 參見：[[sources/ev-news-2026-11-23-digitimes]] | [[entities/LGES]] | [[concepts/儲能市場]]
 
 ## Related
 - [[entities/LGES]]

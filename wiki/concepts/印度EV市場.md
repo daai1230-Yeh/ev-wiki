@@ -1,6 +1,6 @@
 ---
 tags: [concept]
-sources: [electric-bus-market-2025-global, delhi-ev-policy-2026, vinfast-india-investment, india-ev-commercial-update-2026, india-tata-jsw-battery-rd-2026, mahindra-ev-expansion-2026, ather-energy-el-platform-2026, india-2w-market-fy27-bifurcation-2026, india-1bn-ev-commercial-incentives-2026, china-catl-battery-tech-export-2026, tesla-india-factory-exit-2026, honda-india-ev-hybrid-2026, tata-stellantis-jeep-india-2026, india-electric-bus-market-2025, tata-chery-avinya-platform-2026, delhi-ev-7year-high-2026, toptec-india-battery-equipment-2026, ev-news-2026-09-18-electrive-en, ev-news-2026-09-20-india, ev-news-2026-09-21-india, ev-news-2026-09-24-electrive-en, ev-news-2026-09-24-digest, ev-news-2026-10-12-digest, ev-news-2026-10-15-digest, ev-news-2026-10-19-digest, ev-news-2026-10-29-electrive-en, ev-news-2026-11-02-sustainablebus, ev-news-2026-11-06-electrive-en, ev-news-2026-11-09-cn-misc, ev-news-2026-11-11b-cn-misc, ev-news-2026-11-11b-sustainablebus, ev-news-2026-11-17-electrive-en, ev-news-2026-11-17-cn-misc, ev-news-2026-11-19-electrive-en]
+sources: [electric-bus-market-2025-global, delhi-ev-policy-2026, vinfast-india-investment, india-ev-commercial-update-2026, india-tata-jsw-battery-rd-2026, mahindra-ev-expansion-2026, ather-energy-el-platform-2026, india-2w-market-fy27-bifurcation-2026, india-1bn-ev-commercial-incentives-2026, china-catl-battery-tech-export-2026, tesla-india-factory-exit-2026, honda-india-ev-hybrid-2026, tata-stellantis-jeep-india-2026, india-electric-bus-market-2025, tata-chery-avinya-platform-2026, delhi-ev-7year-high-2026, toptec-india-battery-equipment-2026, ev-news-2026-09-18-electrive-en, ev-news-2026-09-20-india, ev-news-2026-09-21-india, ev-news-2026-09-24-electrive-en, ev-news-2026-09-24-digest, ev-news-2026-10-12-digest, ev-news-2026-10-15-digest, ev-news-2026-10-19-digest, ev-news-2026-10-29-electrive-en, ev-news-2026-11-02-sustainablebus, ev-news-2026-11-06-electrive-en, ev-news-2026-11-09-cn-misc, ev-news-2026-11-11b-cn-misc, ev-news-2026-11-11b-sustainablebus, ev-news-2026-11-17-electrive-en, ev-news-2026-11-17-cn-misc, ev-news-2026-11-19-electrive-en, ev-news-2026-11-23-electrive-en, ev-news-2026-11-23b-cn-misc]
 updated: 2026-11-23
 ---
 
@@ -465,6 +465,18 @@ JSW集團子公司發表電動商用車新品牌Ampstar，馬哈拉施特拉邦9
 **觀察**：騰勢印度銷量；比亞迪是否在印度建閃充站。
 
 - 參見：[[sources/ev-news-2026-11-19-electrive-en]] | [[比亞迪]] | [[countries/印度]]
+
+### 換電重卡與大型電動三輪（2026-11）
+
+> **結論**：印度商用電動化在重卡與三輪兩端同時推進：EIM 獲 500 輛換電重卡 MOU、2027-01 起月產 200 輛；Terra Motors 推 6 人座電動三輪 L4（約 37 萬日圓、續航約 120 km）。
+
+**主因**：
+- 重卡 CKD 化：EIM 以福田 eAuman 為基礎改 CKD 組裝，換電站 2027-03 擴至 40 座 → 降低進口關稅並建立能源服務收入。
+- 三輪大型化：L4 載客 4→6 人（1.5 倍），L3 等累計逾 10 萬台；標配 IoT 結合自營金融降低壞帳 → 金融＋IoT 成為三輪市場的競爭關鍵。
+
+**觀察**：EIM 月產爬坡；印度 PM E-DRIVE 對電動卡車補助撥付。
+
+- 參見：[[sources/ev-news-2026-11-23-electrive-en]] | [[sources/ev-news-2026-11-23b-cn-misc]] | [[countries/印度]] | [[concepts/電動卡車市場]]
 
 ## Related
 - [[entities/VinFast]]

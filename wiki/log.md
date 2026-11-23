@@ -2652,3 +2652,19 @@ Pages 375 → 406，Sources 315 → 346
 - New pages created: [[entities/極氪]]（21 個來源頁）、[[entities/Momenta]]（6 個來源頁）、[[entities/禾賽]]（4 個來源頁）
 - Key additions: 極氪 7X 1–10 月 97,165 輛、快充與 Waymo Ojai 代工；Momenta 慕尼黑 Uber 試營運、德國 KBA 全國 L4 許可、上車逾 140 萬輛；禾賽 3Q26 出貨 729,673 顆、1 億美元回購、EXT 顏色辨識 LiDAR。
 - 待核對: 新增「Waymo 與極氪 Ojai 合作是否中止」（TechNews AI 稿 vs InsideEVs／Digitimes）。
+
+## [2026-11-23] ingest | EV News 2026-11-20~23 批次 b（41篇原文，3個來源摘要頁）
+- Summary pages: [[sources/ev-news-2026-11-23-digitimes]]、[[sources/ev-news-2026-11-23-electrive-en]]、[[sources/ev-news-2026-11-23b-cn-misc]]
+- Raw assets: raw/assets/2026-11-20-*（Digitimes 4篇）、raw/assets/2026-11-23-*（37篇），清單見 tools/ingest/out/new.json
+- Pages updated (concepts): [[concepts/電池技術路線]]、[[concepts/儲能市場]]、[[concepts/電池回收]]、[[concepts/美國EV市場與政策]]、[[concepts/北美EV關稅與政策]]、[[concepts/東南亞EV市場]]、[[concepts/歐洲EV市場]]、[[concepts/平價電動車市場]]、[[concepts/中國EV出海策略]]、[[concepts/ADAS智駕系統]]、[[concepts/自動駕駛安全監管]]、[[concepts/電動巴士市場]]、[[concepts/電動卡車市場]]、[[concepts/印度EV市場]]、[[concepts/車用半導體供應鏈]]、[[concepts/充電基礎建設]]、[[concepts/電動商用車]]、[[concepts/台灣電動車供應鏈廠商]]
+- Pages updated (entities): [[entities/福特]]、[[entities/寧德時代]]、[[entities/LGES]]、[[entities/SK On]]、[[entities/三星SDI]]、[[entities/Tesla]]、[[entities/Volkswagen]]、[[entities/零跑汽車]]、[[entities/本田]]、[[entities/Zenobē]]
+- Countries updated: [[countries/加拿大]]、[[countries/韓國]]、[[countries/東南亞]]、[[countries/台灣]]、[[countries/印度]]、[[countries/中國]]
+- New pages created: [[entities/AESC]]、[[entities/立凱電]]
+- Key additions: 福特Marshall寧德時代授權LFP 20 GWh投產（原規劃最高40 GWh）、Fathom 2027年4Q上市；GM–LGES車用LFP 2027年底、現代汽車2027年量產；Tesla美國LFP正極由立凱電授權技轉；AESC 4月售田納西廠多數股權予Fixx Energy；3Q26稼動率LGES 57.1%／三星SDI 78%／SK On 36.4%；寧德時代籲歐盟廢電池回中國精煉、拉美儲能逾15 GWh、股價較5月高點跌逾50%；中國退役電池2026年40.9萬噸、2030年逾100萬噸、回收市場222→527億元；中國充電設施2,539.1萬個（年增36.2%）；美國10月EV銷量8.33萬輛（年增11%）、庫存6.5萬輛（年減38%）；韓國1–10月對中汽車逆差42.3億美元（年增92.7%）；泰國進口BEV貨物稅2027-01-01起10%→35%；歐盟–印尼CEPA CKD立即免稅、CBU 5年歸零；義大利核准Tesla輔助駕駛（至2029-04-10）；FSD V15約100億參數、僅HW4；ID. Polo奪2027德國年度風雲車、歐洲年度風雲車7強全為純電；Twingo英國補助後£14,745；紅旗EHS4採零跑平台；Opel–零跑C-SUV 2028年Zaragoza；印度EIM 500輛換電重卡MOU；江申電巴前3季車架營收年增59%、2027上看1,000輛；台灣前3季巴士領牌859輛（年增170%）。
+- 待核對: 新增「Ford Marshall LFP 廠投資額與原始產能」（30億美元／40 GWh vs 本庫20億美元／35 GWh）、「Tesla TAD 歐盟批准國數（續）」（中央社稱義大利第12國但僅列10國）、「Tesla 1–10 月韓國新登記數」（原文「9萬8313萬輛」誤植）。
+- 備註: 今日第二批（第一批為 CnEVPost），中文綜合頁 slug 加 b。dedupe「~」：馬斯克訪上海與今日 CnEVPost 同一事件，只補累計出口占比51.9%；福特LFP與11-19b同一事件，補產能下修與同業對照；Zenobē與既有 Transport UK 頁相關。「!」一夜自動停車868次為趣聞／觀點稿、GTA VI為行銷話題、五十鈴MU-X為柴油車，均只建來源頁不更新數字。28篇重複檔未 ingest；raw/ 既有被覆寫檔未 stage。onsemi、紅旗、Opel、Aptera 亦達 ≥3 來源頁門檻，本批優先建 AESC、立凱電（與本批實質內容相關），其餘留待後續。台灣電動車供應鏈廠商頁：江申（✅電巴車架）補2026–2027出貨數字、立凱電（🟡 Tesla）補正極技轉說法，狀態未升級。今日為週一，非週五，且今日稍早已執行每週卡片刷新，本批不再刷新。
+- 坡道: 三星SDI小型電池廠稼動率一年內從50%衝到78%，同是韓國電池廠的SK On卻跌到36.4%——差別只在有沒有儲能產線；美國把中國儲能電池關稅拉到25%之後，「非中國製電芯」已經變成賣方市場，這是看懂北美電池供應鏈的最新座標。
+- 發現: 韓系電池廠稼動率大分化：2026年3Q LGES 57.1%（較2025年47.6%升9.5個百分點）、三星SDI 78%（升28個百分點）、SK On 36.4%（降12.3個百分點）；主因美國ESS業者棄用中國電芯，LGES與三星SDI規劃產線已訂滿未來數年，SK On只能把閒置EV產線轉ESS——儲能而非電動車，正在決定電池廠的獲利排名。
+- 發現: 福特密西根Marshall廠10月以寧德時代授權技術量產LFP電芯，年產能20 GWh、只有原規劃最高40 GWh的一半，供2027年4Q上市、起售價2.8萬美元的Fathom皮卡；同業GM–LGES車用LFP要到2027年底、現代汽車2027年才量產，加上Tesla與韓廠電芯多自用、惜售，美國LFP電芯缺口至少延續到2027年底。
+- 發現: 東南亞用稅制逼車廠在地組裝：泰國2027-01-01起未在泰生產的進口純電車貨物稅由10%升到35%、增程車由15%升到35%，財長親赴日本向6家日系車廠說明；印尼與歐盟簽CEPA，電動車CKD散件適用即免稅、整車進口要分6階段5年才歸零——進口換生產的過渡期結束，零組件在地化比例成為下一個戰場。
+- 甜點: 對台灣而言，立凱電被點名為Tesla美國LFP正極的授權與技轉方，江申預估2027年電巴出貨由約800輛增至1,000輛，台廠在「非中國電池材料」與國內電巴兩條線都有實單；泰國在地零組件門檻也是台廠打入日系東南亞供應鏈的機會。接下來追蹤12月台灣電巴補助撥付後交車恢復幅度、12-21立凱電台南廠法說會，以及2027-01-01泰國新稅制上路前的日系車廠投資表態。
