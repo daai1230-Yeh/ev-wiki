@@ -1,6 +1,6 @@
 # Wiki Index
 
-Last updated: 2026-11-23 | Pages: 515 | Sources: 629
+Last updated: 2026-11-23 | Pages: 516 | Sources: 629
 
 ---
 
@@ -715,6 +715,7 @@ Last updated: 2026-11-23 | Pages: 515 | Sources: 629
 
 ### 監管機構
 - [[entities/NHTSA]] — 美國聯邦車輛安全監管機構，主導自動駕駛功能調查。
+- [[entities/乘聯會]] — 中國乘用車市場信息聯席會（CPCA），每週公布零售／批發／滲透率；附與中汽協的口徑對照。
 
 ---
 
