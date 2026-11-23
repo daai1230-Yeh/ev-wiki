@@ -1,58 +1,58 @@
 ---
 tags: [concept]
-sources: [stellantis-leapmotor-canada-rejected, xiaomi-ev-europe-2027, foxconn-mitsubishi-fuso-electric-bus, xpeng-mexico-launch, byd-denza-europe-debut, china-autonomous-driving-overseas, stellantis-opel-leapmotor-suv, thailand-ev-market-2026, china-ev-export-record-march-2026, byd-malaysia-factory-negotiation, europe-robotaxi-verne-ponyai, byd-april-exports-q1-2026, leapmotor-t03-germany-2026, malaysia-cbv-ev-regulation-2026, china-ev-europe-challenges-2026, china-nev-april-2026, china-evs-canada-chery-geely-2026, jpmorgan-china-ev-europe-2028, china-nev-april-involution-2026, geely-thailand-pickup-2026, byd-korea-10k-record-2026, china-ev-us-market-2026, osaka-expo-chinese-ebus-defect-2026, global-ev-demand-may2026, stellantis-china-ev-europe-factories-2026, xpeng-vw-europe-factory-2026, china-k-car-micro-ev-concept-2026, china-ev-europe-factory-takeover-2026, mg-saic-spain-factory-2026, nissan-chery-sunderland-deal-2026, tata-chery-avinya-platform-2026, byd-dod-military-list-2026, australia-china-ev-milestone-2026, byd-hungary-labour-report-2026, ev-news-digest-jun1-10-2026, byd-flash-charging-europe-2026, ev-news-2026-07-03-08, ev-news-2026-07-09, ev-news-2026-07-14-16-electrive, ev-news-2026-07-17-20-digitimes, ev-news-2026-07-21-22-digitimes, ev-news-2026-08-07-digitimes, ev-news-2026-08-06-07-cn-misc, ev-news-2026-09-04-electrive-en, ev-news-2026-09-04-digitimes, ev-news-2026-09-09-digitimes, ev-news-2026-09-09-electrive-en, ev-news-2026-09-11-digitimes, ev-news-2026-09-14-digest, ev-news-2026-09-16-digitimes, ev-news-2026-09-17-electrive-en, ev-news-2026-09-18-digest, ev-news-2026-09-18-electrive-en, ev-news-2026-09-18-digitimes, ev-news-2026-09-20-digest, ev-news-2026-09-21-digitimes, ev-news-2026-09-23-electrive-en, ev-news-2026-09-24-digitimes, ev-news-2026-09-24-digest, ev-news-2026-09-26-electrive-en, ev-news-2026-09-25-digest, ev-news-2026-10-01-digitimes, ev-news-2026-10-01-electrive-en, ev-news-2026-10-02-electrive-en, ev-news-2026-10-02-digitimes, ev-news-2026-10-05-electrive-en, ev-news-2026-10-04-digest, ev-news-2026-10-05-digitimes, ev-news-2026-10-06-electrive-en, ev-news-2026-10-07-digitimes, ev-news-2026-10-07-electrive-en, ev-news-2026-10-12-digest, ev-news-2026-10-12-digitimes, ev-news-2026-10-10-electrive-en, ev-news-2026-10-09-electrive-en, ev-news-2026-10-15-electrive-en, ev-news-2026-10-15-digest, ev-news-2026-10-15-digitimes, ev-news-2026-10-16-digitimes, ev-news-2026-10-20-digitimes, ev-news-2026-10-20-digest, ev-news-2026-10-22-digest, ev-news-2026-10-22-electrive-en, ev-news-2026-10-27-digest, ev-news-2026-10-27-electrive-en, ev-news-2026-10-27-digitimes, ev-news-2026-10-29-electrive-en, ev-news-2026-10-29-insideevs, ev-news-2026-10-30-digitimes, ev-news-2026-11-02-cn-misc, ev-news-2026-11-02-electrive-en, ev-news-2026-11-04-cn-misc, ev-news-2026-11-06-digitimes, ev-news-2026-11-06-cn-misc, ev-news-2026-11-09-digitimes, ev-news-2026-11-11b-electrive-en, ev-news-2026-11-11b-cn-misc, ev-news-2026-11-11b-digitimes, ev-news-2026-11-12-electrive-en, ev-news-2026-11-16-digitimes, ev-news-2026-11-16-cn-misc, ev-news-2026-11-19b-cn-misc, ev-news-2026-11-19b-electrive-en]
-updated: 2026-11-19
+sources: [stellantis-leapmotor-canada-rejected, xiaomi-ev-europe-2027, foxconn-mitsubishi-fuso-electric-bus, xpeng-mexico-launch, byd-denza-europe-debut, china-autonomous-driving-overseas, stellantis-opel-leapmotor-suv, thailand-ev-market-2026, china-ev-export-record-march-2026, byd-malaysia-factory-negotiation, europe-robotaxi-verne-ponyai, byd-april-exports-q1-2026, leapmotor-t03-germany-2026, malaysia-cbv-ev-regulation-2026, china-ev-europe-challenges-2026, china-nev-april-2026, china-evs-canada-chery-geely-2026, jpmorgan-china-ev-europe-2028, china-nev-april-involution-2026, geely-thailand-pickup-2026, byd-korea-10k-record-2026, china-ev-us-market-2026, osaka-expo-chinese-ebus-defect-2026, global-ev-demand-may2026, stellantis-china-ev-europe-factories-2026, xpeng-vw-europe-factory-2026, china-k-car-micro-ev-concept-2026, china-ev-europe-factory-takeover-2026, mg-saic-spain-factory-2026, nissan-chery-sunderland-deal-2026, tata-chery-avinya-platform-2026, byd-dod-military-list-2026, australia-china-ev-milestone-2026, byd-hungary-labour-report-2026, ev-news-digest-jun1-10-2026, byd-flash-charging-europe-2026, ev-news-2026-07-03-08, ev-news-2026-07-09, ev-news-2026-07-14-16-electrive, ev-news-2026-07-17-20-digitimes, ev-news-2026-07-21-22-digitimes, ev-news-2026-08-07-digitimes, ev-news-2026-08-06-07-cn-misc, ev-news-2026-09-04-electrive-en, ev-news-2026-09-04-digitimes, ev-news-2026-09-09-digitimes, ev-news-2026-09-09-electrive-en, ev-news-2026-09-11-digitimes, ev-news-2026-09-14-digest, ev-news-2026-09-16-digitimes, ev-news-2026-09-17-electrive-en, ev-news-2026-09-18-digest, ev-news-2026-09-18-electrive-en, ev-news-2026-09-18-digitimes, ev-news-2026-09-20-digest, ev-news-2026-09-21-digitimes, ev-news-2026-09-23-electrive-en, ev-news-2026-09-24-digitimes, ev-news-2026-09-24-digest, ev-news-2026-09-26-electrive-en, ev-news-2026-09-25-digest, ev-news-2026-10-01-digitimes, ev-news-2026-10-01-electrive-en, ev-news-2026-10-02-electrive-en, ev-news-2026-10-02-digitimes, ev-news-2026-10-05-electrive-en, ev-news-2026-10-04-digest, ev-news-2026-10-05-digitimes, ev-news-2026-10-06-electrive-en, ev-news-2026-10-07-digitimes, ev-news-2026-10-07-electrive-en, ev-news-2026-10-12-digest, ev-news-2026-10-12-digitimes, ev-news-2026-10-10-electrive-en, ev-news-2026-10-09-electrive-en, ev-news-2026-10-15-electrive-en, ev-news-2026-10-15-digest, ev-news-2026-10-15-digitimes, ev-news-2026-10-16-digitimes, ev-news-2026-10-20-digitimes, ev-news-2026-10-20-digest, ev-news-2026-10-22-digest, ev-news-2026-10-22-electrive-en, ev-news-2026-10-27-digest, ev-news-2026-10-27-electrive-en, ev-news-2026-10-27-digitimes, ev-news-2026-10-29-electrive-en, ev-news-2026-10-29-insideevs, ev-news-2026-10-30-digitimes, ev-news-2026-11-02-cn-misc, ev-news-2026-11-02-electrive-en, ev-news-2026-11-04-cn-misc, ev-news-2026-11-06-digitimes, ev-news-2026-11-06-cn-misc, ev-news-2026-11-09-digitimes, ev-news-2026-11-11b-electrive-en, ev-news-2026-11-11b-cn-misc, ev-news-2026-11-11b-digitimes, ev-news-2026-11-12-electrive-en, ev-news-2026-11-16-digitimes, ev-news-2026-11-16-cn-misc, ev-news-2026-11-19b-cn-misc, ev-news-2026-11-19b-electrive-en, ev-news-2026-11-23-cn-misc]
+updated: 2026-11-23
 ---
 
 # 中國 EV 出海策略
 
 中國電動車廠以不同路徑進入海外市場，面對關稅壁壘、本地化壓力與品牌認知等挑戰。
 
-## 簡報三段式（更新：2026-11-18）
+## 簡報三段式（更新：2026-11-23）
 
 > 演講或簡報前的備課卡，依《高效演講》的「坡道—發現—甜點」結構，以可直接講出口的段落寫成；講稿口吻依 [[templates/逐字稿專家口吻指南]]。數字引用前請查 [[待核對清單]]。
 
 ### 坡道（開場：為什麼聽眾要在乎）
 
-比亞迪 10 月在海外賣的車比去年多了一倍，但因為人民幣升值，它的現金部位反而少了 11.4 億元人民幣。賣得越多，不一定賺得越多。對已經在業界的朋友來說，中國車廠出海正從「拚量出口」轉向「在海外設廠」，這會改變你在歐洲、東協、拉美的客戶結構和競爭對手。對剛入行的新人來說，先抓住一個主軸：中國國內車市在萎縮，所以車廠必須往外走，而各國則用關稅、配額、消費稅來擋。
+依中汽協口徑，中國 10 月新能源車出口 60.6 萬輛、年增 140%，同月內銷卻年減 8.6%；同一個月，中國電池出口也創下 46.1 GWh 的新高。對業界朋友來說，出海已經不是選項，而是中國車廠與電池廠消化產能的唯一出口，各國的反應是一道道新的牆。對新人來說，先記住：出海有三個階段——整車出口、海外組裝、在地生產。
 
 **一句話主題**：中國電動車出海已經從「拚量出口」進入「拚值與在地化」的第二階段。
 
 ### 發現（主體：三個核心觀點）
 
-#### 一、內冷外熱：出口成為主要增量
+#### 一、內冷外熱：整車與電池一起往外推
 
-先看大盤。乘聯分會統計中國前 9 個月國內銷量 1,506.6 萬輛、年減 22.4%，出口 820.5 萬輛、年增 65.8%；10 月中國品牌純電加插混的海外銷量達 58.2 萬輛，年增 144.7%（乘聯會口徑）。比亞迪海外占比已經到 42%，但在途存貨也推升到 2,215.8 億元人民幣。出口放量的同時，營運資金和匯率風險也一起放大，獲利不一定同步。
+中汽協口徑 10 月新能源車出口 60.6 萬輛、年增 140%，占批發總量 31.2%（乘聯會「中國品牌 BEV＋PHEV 海外銷量」口徑為 58.2 萬輛）。比亞迪 1 到 10 月出口 151.3 萬輛、年增 93.75%；Tesla 上海廠 1 到 10 月出口 42.1 萬輛、年增 101.28%。電池也一起出海：10 月動力與儲能電池出口 46.1 GWh、年增 63.4%，占銷量 20%。
 
-- 建議圖表：內銷 vs 出口雙軸折線圖｜來源：[[sources/ev-news-2026-11-16-digitimes]]、本頁 2026-10 動態彙整
+- 建議圖表：中國新能源車出口 vs 內銷年增率｜來源：[[sources/ev-news-2026-11-12-electrive-en]]、[[sources/ev-news-2026-11-23-cn-misc]]
 
-#### 二、各國築牆：從關稅到消費稅與配額
+#### 二、各國築牆：從關稅到立法、消費稅與配額
 
-第二個變化是各國的防線越來越多樣。中國自己從 2027 年 4 月 1 日起把新能源車出口退稅由 13% 降到 9%；歐盟對油電與插混設年 35 萬輛的配額；泰國受自由貿易協定約束不能直接加關稅，乾脆把全進口電動車的消費稅從 10% 調到 35%，2027 年 1 月上路。純出口模式的成本正在上升，有海外工廠的車廠會拉開差距。
+美國國會擬在年底前通過中國車禁售法案，把 100% 關稅與聯網車禁令升級為法律；泰國 2027 年起對整車進口電動車課 35% 消費稅；歐盟與中國達成限制混動車進口的協議。也有市場開門：加拿大每年開放 4.9 萬輛中國電動車以 6.1% 關稅進口。出海的路越來越分化，「去哪裡」比「出多少」更重要。
 
-- 建議圖表：各國對中國 EV 的貿易工具一覽表｜來源：[[sources/ev-news-2026-11-04-cn-misc]]、本頁 2026-10 動態彙整
+- 建議圖表：各國對中國電動車進口措施一覽｜來源：[[sources/ev-news-2026-11-23-cn-misc]]、本頁 2026-11 動態彙整
 
-#### 三、在地化：從 SKD 組裝到歐洲設廠
+#### 三、在地化與價值鏈延伸，但匯率吃掉獲利
 
-所以中國車廠開始把工廠搬過去。比亞迪在巴西今年到 10 月登記 19.32 萬輛、年增 120%，10 月市占達 9.7%；匈牙利塞格德廠第四季開始大規模生產；長城則選在保加利亞組裝，2027 年起年產 5 萬輛。泰國的經驗告訴我們，「整車加設廠」4 年內可以拿下八成以上的電動車市占，但當地供應鏈也會受衝擊。第三地市場的在地供應，對台廠來說是機會，也是威脅。
+比亞迪泰國廠年產能約 15 萬輛、在地化率逾 50%，巴西 10 月市佔 9.7%（去年 4.2%）；Momenta 與 Uber 在慕尼黑試營運，中國出口的東西從車延伸到智駕技術。但量增不等於利增：人民幣年初至今升值 4.6%，比亞迪、吉利出現匯損。
 
-- 建議圖表：中國車廠海外工廠地圖｜來源：[[sources/ev-news-2026-11-06-digitimes]]、本頁 2026-10 動態彙整
+- 建議圖表：比亞迪海外主要市場市佔與工廠布局｜來源：本頁 2026-11 動態彙整
 
 ### 甜點（結尾：留下什麼）
 
-中國電動車出海的故事已經不只是「便宜的車賣到全世界」，而是匯率、稅制和工廠布局的綜合考驗。接下來要看三件事：2027 年 4 月出口退稅降到 9% 之後的出口變化、歐盟插混配額正式實施，以及比亞迪第二座歐洲整車廠選在哪裡。
+三個發現收成一個判斷：中國出海的第二階段是「在當地造、賣技術、躲關稅」，量會繼續長，但每一輛車的利潤會被關稅、匯率和在地化成本吃掉一部分。對台灣的意涵是：中國品牌在東南亞、歐洲、南美設廠，需要在地零件，台廠可以選擇合作，也要準備在第三地市場與中國供應商正面競爭。接下來要追：12 月美國法案表決、2027 年 1 月泰國新稅制、2027 年 4 月中國出口退稅下修。
 
-**金句**：「中國電動車出海的下一關，不是關稅，是匯率和工廠。」
+**金句**：「中國車出海，已經從「把車運出去」變成「把工廠搬出去」。」
 
 **Q&A 預備**
-- **問：**為什麼各家的出口數字都不一樣？ **答：**乘聯會和中汽協的口徑不同，一個算中國品牌乘用車，一個含商用車批發，引用時一定要寫清楚是哪個機構。
-- **問：**中國車會打進美國嗎？ **答：**美國用高關稅、NDAA 清單和聯網車禁令把門關住，短期內中國品牌在美市佔幾乎是零。
+- **問：**中國出口這麼多，為什麼車廠還有匯損？ **答：**出口以外幣計價，人民幣升值時換回的人民幣變少；比亞迪、吉利都受影響。
+- **問：**台廠該跟中國品牌合作出海嗎？ **答：**要看市場：在美國有去中化風險，在東南亞與南美則可藉其工廠需求切入，但要注意股權與資料合規。
 
 **名詞速懂（給新人）**
-- **乘聯會／中汽協**：中國兩個主要汽車統計機構，口徑不同，數字常不一樣，引用要註明。
-- **SKD／CKD**：半散裝／全散裝組裝，把零件運到當地再組成整車，用來符合在地化或降低關稅。
-- **出口退稅**：中國對出口商品退還部分增值稅，降低後等於出口成本上升。
-- **配額**：限制每年可進口的數量，超過就課較高關稅。
+- **中汽協（CAAM）**：中國汽車工業協會，統計批發與出口。
+- **乘聯會（CPCA）**：中國乘用車市場信息聯席會，統計口徑與中汽協不同。
+- **SKD／CKD**：半散裝／全散裝零件出口、在當地組裝。
+- **匯損**：匯率變動造成的帳面損失。
 
 ## 主要路徑
 
@@ -740,6 +740,19 @@ MG Motor（上汽 SAIC 旗下）在西班牙加利西亞建設歐盟首座中國
 **觀察**：Momenta 慕尼黑試營運轉商業收費時程；加拿大對中國電動車行駛區域審查結果（見 [[countries/加拿大]]）。
 
 - 參見：[[sources/ev-news-2026-11-19b-cn-misc]] | [[sources/ev-news-2026-11-19b-electrive-en]] | [[entities/比亞迪]] | [[entities/小鵬汽車]]
+
+### 電池與整車同步出海：10 月電池出口 46.1 GWh、Tesla 上海廠出口倍增（2026-11）
+
+> **結論**：中國 10 月動力＋儲能電池出口 46.1 GWh（年增 63.4%）創新高、占銷量 20.0%；整車端 Tesla 上海廠 1–10 月出口 42.1 萬輛（年增 101.28%）——在內需年減下，「出口」已是中國電池與整車產能去化的共同出路；但美國擬將中國車禁售入法，主戰場持續集中在歐洲、東南亞、南美。
+
+**主因**：
+- 電池出口：動力電池出口 29.0 GWh（年增 49.4%）、1–10 月 228.7 GWh（年增 54.0%）→ 隨中國整車出口與海外組裝廠一起外溢。
+- 外資出口基地：Tesla 上海廠 10 月出口占批發 87%、在地化率 98% → 外資車廠亦成為中國供應鏈出海管道。
+- 市場封鎖：美國國會擬年底前通過中國車禁售法案；加拿大則開放 4.9 萬輛配額 → 北美呈「美封加開」。
+
+**觀察**：12 月美國法案表決；iCar（iCaur）2027 年初進入英國等新品牌出海節奏。
+
+- 參見：[[sources/ev-news-2026-11-23-cn-misc]] | [[countries/中國]] | [[concepts/北美EV關稅與政策]]
 
 ## Related
 - [[entities/比亞迪]]

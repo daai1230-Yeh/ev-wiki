@@ -1,58 +1,58 @@
 ---
 tags: [concept]
 sources: [robotaxi-market-2026, china-autonomous-driving-overseas, europe-robotaxi-verne-ponyai, waymo-miami-orlando-expansion, taiwan-av-special-scenes, japan-2030-autonomous-ai-strategy, ratp-karsan-autonomous-bus-paris, av-physical-ai-trends-2026, tesla-fsd-eu-expansion-2026, tesla-robotaxi-texas-reality-2026, uber-robotaxi-europe-expansion-2026, waymo-battery-secondlife-colorado-recycling-2026, toyota-tier-iv-l4-investment-2026, waymo-arizona-expansion-2026, tesla-cybercab-specs-2026, mobileye-robotaxi-2026, tesla-fsd-netherlands-2026, ev-news-2026-06-22, ev-news-2026-07-13-digitimes, ev-news-2026-07-14-16-electrive, ev-news-2026-07-21-22-digitimes, ev-news-2026-07-22-24-digitimes, ev-news-2026-07-22-23-electrive-en, ev-news-2026-07-28-digitimes, ev-news-2026-07-28-30-electrive-en, ev-news-2026-08-01-03-en, ev-news-2026-08-04-06-digitimes, ev-news-2026-08-03-06-electrive-en, ev-news-2026-08-06-07-electrive-en, ev-news-2026-08-07-10-electrive-en, ev-news-2026-08-17-18-electrive-en, ev-news-2026-08-20-digitimes, ev-news-2026-08-19-20-cn-misc, ev-news-2026-08-21-23-electrive-en, ev-news-2026-08-21-22-electrive-en, ev-news-2026-08-26-27-electrive-en, ev-news-2026-08-28-digitimes, ev-news-2026-09-04-electrive-en, ev-news-2026-09-07-08-digitimes, ev-news-2026-09-07-08-electrive-en, ev-news-2026-09-08-electrive-en, ev-news-2026-09-16-digitimes, ev-news-2026-09-17-digitimes, ev-news-2026-09-17-electrive-en, ev-news-2026-09-19-electrive-en, ev-news-2026-09-18-electrive-en, ev-news-2026-09-18-digitimes, ev-news-2026-09-21-electrive-en, ev-news-2026-09-18-digest, ev-news-2026-09-22-electrive-en, ev-news-2026-09-24-digitimes, ev-news-2026-10-06-digest, ev-news-2026-10-06-electrive-en, ev-news-2026-10-05-digitimes, ev-news-2026-10-07-electrive-en, ev-news-2026-10-07-digitimes, ev-news-2026-10-16-electrive-en, ev-news-2026-10-15-digitimes, ev-news-2026-10-19-digest, ev-news-2026-10-20-bus-digest, ev-news-2026-10-22-insideevs, ev-news-2026-10-27-digitimes, ev-news-2026-10-27-digitimes-tesla, ev-news-2026-10-29-electrive-en, ev-news-2026-11-02-digitimes, ev-news-2026-11-02-cn-misc, ev-news-2026-11-04-digitimes, ev-news-2026-11-04-insideevs, ev-news-2026-11-06-electrive-en, ev-news-2026-11-06-insideevs, ev-news-2026-11-06-digitimes, ev-news-2026-11-11-electrive-en, ev-news-2026-11-11-cn-misc, ev-news-2026-11-11b-insideevs, ev-news-2026-11-12-electrive-en, ev-news-2026-11-12-cn-misc, ev-news-2026-11-16-cn-misc, ev-news-2026-11-17-electrive-en, ev-news-2026-11-17-insideevs, ev-news-2026-11-17-digitimes, ev-news-2026-11-19b-insideevs, ev-news-2026-11-19b-cn-misc]
-updated: 2026-11-19
+updated: 2026-11-23
 ---
 
 # Robotaxi（自動計程車）
 
 無人駕駛計程車服務，2026 年技術瓶頸已解除，核心挑戰轉為法規合規與商業獲利能力。
 
-## 簡報三段式（更新：2026-11-18）
+## 簡報三段式（更新：2026-11-23）
 
 > 演講或簡報前的備課卡，依《高效演講》的「坡道—發現—甜點」結構，以可直接講出口的段落寫成；講稿口吻依 [[templates/逐字稿專家口吻指南]]。數字引用前請查 [[待核對清單]]。
 
 ### 坡道（開場：為什麼聽眾要在乎）
 
-現在你可以花 29,990 美元買一台沒有方向盤的車，比 Model 3 還便宜 7,000 美元。但有個條件：沒有每月 299 美元的訂閱，它連動都不會動。對已經在業界的朋友來說，這是 Robotaxi 從示範走向商業化的訊號，接下來要看的是單車成本、車隊規模和各城市的法規配套。對剛入行的新人來說，先記住 Robotaxi 的兩種商業模式：一種是像 Waymo 從車到叫車服務全包，另一種是只賣技術、讓別人經營車隊。
+加州車管局以「迫切危害公共安全」為由，禁止 Waymo 無人車上高速公路，Waymo 乾脆撤出全美的高速路段；同一個月，Momenta 和 Uber 在德國慕尼黑開跑自駕試營運。對業界朋友來說，Robotaxi 的瓶頸已經從技術轉到監管與營運成本，美國在收緊、歐洲在開門。對新人來說，先記住：Robotaxi 是沒有安全駕駛員、按趟收費的無人計程車。
 
-**一句話主題**：Robotaxi 的技術門檻正在降低，接下來比的是成本、法規與營運。
+**一句話主題**：Robotaxi 的技術門檻正在降低，接下來比的是法規、車輛成本與營運模式。
 
 ### 發現（主體：三個核心觀點）
 
-#### 一、規模化競賽：從千輛到萬輛
+#### 一、監管鬆緊在美歐出現反差
 
-Waymo 發了 50 億美元的無擔保債，要把車隊從約 4,000 輛擴到 2027 年底的 20,000 輛；May Mobility 規畫 2031 年前部署 1 萬輛自駕 ID. Buzz；Tesla 更直接，把德州廠的 Cybertruck 產線拆掉讓位給 Cybercab，還宣布德國格林海德廠 2029 年起每年最多生產 100 萬輛。Robotaxi 已經不是示範車隊，車廠開始用量產產能來規畫它。
+加州車管局禁止 Waymo 無人駕駛上高速公路後，Waymo 主動撤出全美 freeway 路段；美國聯邦層級則由 NHTSA 提案自駕專屬的青色識別燈，為 Cybercab、Waymo、Zoox 鋪路。歐洲反而在開門：Momenta 與 Uber 在慕尼黑開跑德國首個 Uber 自駕試營運，Rimac 集團持股 42% 的 Verne 也確認在柏林建立營運團隊。
 
-- 建議圖表：主要業者車隊規模與時程｜來源：本頁 2026-10、2026-11 動態彙整
+- 建議圖表：美國 vs 歐洲 Robotaxi 監管動態對照｜來源：[[sources/ev-news-2026-11-19b-insideevs]]、[[sources/ev-news-2026-11-19b-cn-misc]]
 
-#### 二、商業模式分化：垂直整合 vs 輕資產
+#### 二、從聯盟走向垂直整合
 
-同一個市場出現兩種做法。Waymo 在 2028 年 1 月後會退出奧斯汀和亞特蘭大的 Uber 合作，改用自家 App，豐田更直接在高岡工廠的產線上安裝 Waymo 第六代硬體——這是「從造車到叫車全包」。另一邊，小鵬和 May Mobility 走輕資產，不自己經營車隊，只賣技術、收分潤。對供應鏈來說，要先搞清楚你的客戶是車廠、營運商還是平台。
+Waymo 將在 2028 年 1 月退出奧斯汀與亞特蘭大的 Uber 合作，改走自家 App；豐田在高岡工廠的產線上直接安裝 Waymo 第六代硬體，2027 年在日本測試 bZ4X L4 Robotaxi；Hyundai 預告向 Waymo 供應數以萬計的 Ioniq 5。Robotaxi 業者想自己掌握乘客介面，同時讓車廠在出廠時就裝好感測器，把單車成本壓下來。
 
-- 建議圖表：垂直整合 vs 輕資產比較表｜來源：[[sources/ev-news-2026-11-06-digitimes]]、[[sources/ev-news-2026-11-17-electrive-en]]
+- 建議圖表：Waymo 合作夥伴與車輛供應鏈圖｜來源：本頁 2026-11 動態彙整
 
-#### 三、規模化的外溢成本開始浮現
+#### 三、Tesla Cybercab：個人購買與百萬輛產能
 
-車多了，城市開始感受到壓力。Waymo 在聖地牙哥營運後，一般車主到公共快充站常常要等 30 到 60 分鐘，4 個樁位有 3 個被 Robotaxi 佔著；美國 NHTSA 提案自駕車專用的青色識別燈，同時也在調查 Cybercab 怎麼自我認證聯邦安全標準。場站、充電和識別規範，會成為每個城市導入 Robotaxi 前必須先做的功課。
+Tesla 向受邀客戶開放 Cybercab 個人購買，29,990 美元加每月 299 美元訂閱，但只能在 Robotaxi 服務區使用，NHTSA 仍在調查；Tesla 同時宣布德國格林海德 2029 年起最多年產 100 萬輛 Cybercab。對手時程則在延後：Lucid 灣區首批 Gravity Robotaxi 由 2026 年底延到 2027 年第一季。
 
-- 建議圖表：Robotaxi 導入的城市配套清單｜來源：[[sources/ev-news-2026-11-04-digitimes]]、[[sources/ev-news-2026-11-17-digitimes]]
+- 建議圖表：Cybercab 價格與產能規劃｜來源：本頁 2026-11 動態彙整
 
 ### 甜點（結尾：留下什麼）
 
-總結來說，Robotaxi 已經從「做不做得到」走到「划不划算、城市接不接得住」。接下來要看：12 月首批 Cybercab 個人交付的規模和 NHTSA 的調查結論、Waymo 能不能如期在 2027 年做到 2 萬輛，以及台中水湳自駕巴士試乘的成果。
+三個發現收成一個判斷：Robotaxi 已經進入拚營運的階段，誰能在法規允許的範圍內把單車成本和每公里成本降下來，誰就能規模化。接下來要追：Waymo 是否在其他州也調整高速路段、Momenta 德國試營運的數據，以及 NHTSA 對 Cybercab 調查的結論。
 
-**金句**：「Robotaxi 的瓶頸已經不在車上，而在城市裡。」
+**金句**：「Robotaxi 的下一個門檻不是技術，而是監管機關點不點頭。」
 
 **Q&A 預備**
-- **問：**一般人真的會買 Robotaxi 嗎？ **答：**目前只開放受邀客戶，而且只能在服務區內用，光訂閱一年就約 3,600 美元，保險保養另計，消費市場還在試水溫。
-- **問：**台灣什麼時候會有？ **答：**台中已經有開放道路的自駕巴士試乘，但乘用 Robotaxi 還沒有時程，會先從固定路線巴士開始。
+- **問：**Robotaxi 什麼時候會來台灣？ **答：**台中已有開放道路自駕巴士試乘，但無人計程車需要法規與保險制度配套，短期仍以特定路線示範為主。
+- **問：**Tesla 個人買 Cybercab 能自己開嗎？ **答：**不能隨意使用，只能在 Robotaxi 服務區運作，且需訂閱；本質上是讓個人出資參與 Tesla 的車隊。
 
 **名詞速懂（給新人）**
-- **Robotaxi**：不需要司機的自動駕駛計程車服務，通常是 L4 等級。
-- **L4**：在特定區域內完全由系統駕駛、不需要人監督。
-- **垂直整合 vs 輕資產**：垂直整合是自己造車、營運、做 App；輕資產是只提供技術，由合作夥伴經營車隊。
-- **NHTSA**：美國國家公路交通安全管理局，負責車輛安全標準與調查。
+- **Robotaxi**：無安全駕駛員、按趟收費的自動駕駛計程車。
+- **L4**：特定區域與條件下完全由系統駕駛，不需人類接手。
+- **NHTSA**：美國國家公路交通安全管理局。
+- **垂直整合**：同一家公司掌握車輛、軟體與乘客 App。
 
 ## 現況
 - 賓士、Volkswagen、Waymo 等已在歐美上路

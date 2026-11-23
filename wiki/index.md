@@ -1,6 +1,6 @@
 # Wiki Index
 
-Last updated: 2026-11-19 | Pages: 512 | Sources: 628
+Last updated: 2026-11-23 | Pages: 515 | Sources: 629
 
 ---
 
@@ -97,6 +97,7 @@ Last updated: 2026-11-19 | Pages: 512 | Sources: 628
 - [[sources/ev-news-2026-10-12-digest]] — 中文財經批次8篇：陸混動車輸歐恐砍半、豐田泰國殘值貸款、現代印度1,000萬輛、華德電巴、桃園A21、雙層客運補助縮水、Starlink印度。(2026-10-12)
 - [[sources/ev-news-2026-10-12-digitimes-2]] — Digitimes CarTech補充2篇：豐田、廣汽、一汽三方協議正式簽署、麗升跨足充電樁（註：剪輯檔無單篇網址）。(2026-10-12)
 - [[sources/ev-news-2026-10-12-14-digitimes]] — Digitimes CarTech 9篇：中國新能源車出口退稅2027-04起由13%降至9%（含評析）、歐盟HEV／PHEV年35萬輛配額、LGES大進機械轉單與L&F LFP長約、台灣能管法帶動儲能、寰聖／桓鼎、裕日車估車市42萬輛（全數附原文網址）。(2026-10-14)
+- [[sources/ev-news-2026-11-23-cn-misc]] — CnEVPost 10篇：乘聯會預估11月NEV零售115萬輛、滲透率70.6%首破七成；10月動力電池裝機99.4 GWh創高、LFP占86.9%、寧德時代40.00%／比亞迪21.36%；Tesla上海廠出口占87%；零跑第200萬輛；方程豹鈦9、iCar V25、Lafa 5改款；美國中國車禁售法案擬豁免賓士。(2026-11-23)
 - [[sources/ev-news-2026-11-19b-cn-misc]] — CnEVPost＋中文媒體18篇：乘聯會11月上半月NEV零售年減13%／滲透率73.2%、比亞迪1–10月出口年增93.75%、Ford寧德時代授權LFP電芯出貨、北汽出售112座換電站、Momenta×Uber慕尼黑、黃仁勳辭任NVIDIA執行長、Cybertruck停產傳聞（單一來源）、泰國工業區與BEV 53.96萬輛。(2026-11-19)
 - [[sources/ev-news-2026-11-19b-electrive-en]] — electrive批次b 11篇：歐盟電網套案充電站審批門檻100→200 kW、歐盟電動卡車占比7.7%／曳引車1.6%、VW ID. UP商標與2027 Q4量產、VinFast VF 5/6小改款、Cylib獲SPRIND入股、BMZ電池護照、Volgren交雪梨95輛電巴。(2026-11-19)
 - [[sources/ev-news-2026-11-19b-insideevs]] — InsideEVs批次b 4篇：BMW iX5美國量產（2027目標10萬→6萬、電芯AESC→LGES）、Ionna 224站與500 kW、Waymo撤出全美高速公路、全球EV車主調查。(2026-11-19)
@@ -691,6 +692,8 @@ Last updated: 2026-11-19 | Pages: 512 | Sources: 628
 ### 電池廠
 - [[entities/三星SDI]] — 韓國電池廠（三星集團），高鎳 NMC 電池，已供應 BMW/VW，**2026-04-20 正式簽署賓士合約**（€58 億，MMA 平台，2028）。
 - [[entities/SK On]] — 韓國第二大電池廠，匈牙利廠 2026 年產能利用率 85%，為 VW/Ford 供應 NCM 電池。
+- [[entities/中創新航]] — 中國第三大動力電池廠（CALB），2026-10國內市佔8.64%、三元市佔19.50%，去寧化主要受惠者。
+- [[entities/國軒高科]] — 福斯入股的中國LFP電池廠，2026-10國內市佔6.05%升至第四，摩洛哥、斯洛伐克、西班牙出海布局。
 - [[entities/寧德時代]] — 全球最大動力電池廠，主導鈉電池量產，技術授權至美國。
 - [[entities/Northvolt]] — 瑞典電池廠，2024 年破產，德國 Heide 廠 €6,000 萬賤賣給 Lyten（資產原值 >€3.6 億）。
 - [[entities/輝能科技]] — 台灣固態電池專家（ProLogium），2026-09 啟動Gen 3.5鋰陶瓷電池量產，TÜV認證能量密度381Wh/kg，法國敦克爾克廠同步布局。
