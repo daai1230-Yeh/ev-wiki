@@ -2687,3 +2687,12 @@ Pages 375 → 406，Sources 315 → 346
 - New pages created: [[entities/Cybercab]]（規格、時間軸、2026-11 RRC、簡報三段式、供應鏈）
 - Pages updated: [[entities/Tesla]]、[[concepts/Robotaxi自動計程車]]（Related 加連結）、[[index]]、[[待核對清單]]
 - 待核對新增：Cybercab 續航口徑（472 vs 673 km）、量產起點（2026-02 vs 04）
+
+## [2026-11-24] query | Waymo 現況整理
+- Pages consulted: [[entities/Waymo]], [[concepts/Robotaxi自動計程車]], [[entities/Cybercab]], [[待核對清單]], [[sources/ev-news-2026-10-22-insideevs]], [[sources/ev-news-2026-11-02-digitimes]], [[sources/ev-news-2026-11-04-digitimes]], [[sources/ev-news-2026-11-06-insideevs]], [[sources/ev-news-2026-11-06-digitimes]], [[sources/ev-news-2026-11-19b-insideevs]]
+- 發現：Waymo 頁首摘要與「現況」表停在 2026-06（4,000 輛、10+ 城），已落後；頁面尚無簡報三段式
+- Filed back: 未（已提議更新頁首與加簡報三段式）
+
+## [2026-11-24] maintenance | Waymo／Cybercab 頁首與簡報三段式
+- Pages updated: [[entities/Waymo]]（頁首摘要改為 2026-11 數字；新增「現況（2026-11）」對照表；新增簡報三段式卡片；Related 加 Cybercab、Zoox）、[[entities/Cybercab]]（簡報三段式改為模板格式）、[[index]]
+- 卡片三發現（Waymo）：車隊一年半放大五倍、車源交給車廠／先攻靠左行駛市場／撤出高速公路與退出 Uber

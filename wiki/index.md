@@ -688,7 +688,7 @@ Last updated: 2026-11-24 | Pages: 525 | Sources: 632
 - [[entities/Polestar]] — 瑞典吉利旗下電動車品牌，2027年式起美國禁售（Connected Vehicle Rule），業務重心轉歐洲。
 - [[entities/現代汽車]] — 韓國最大整車廠，Pleos SDV OS、Atria AI 自駕；2026 H1 南韓 EV 市場跌至第三（被 Tesla/起亞超越）。
 - [[entities/起亞]] — 現代集團旗下品牌，南韓 EV 本土龍頭（H1 2026 市佔 36.2%），中國產能 68% 出口 89 國。
-- [[entities/Waymo]] — Alphabet 旗下 Robotaxi 領先者，4,000 輛/10+ 城市/50 萬次週服務，$2.2 億收購 Apple Titan 場地。
+- [[entities/Waymo]] — Alphabet 旗下 Robotaxi 領先者：美國 15 城、每週逾 50 萬趟、2027 年底 2 萬輛規劃；2026-11 暫停高速公路、2028 退出 Uber。
 - [[entities/Slate Auto]] — 美國電動皮卡新創，$24,950 採 Gotion LFP，主打美國最平價量產電動皮卡。
 - [[entities/Lucid]] — 美國豪華電動車新創，Newark CA 總部，PIF 主要股東，Cosmos ~$50K 中型 SUV 2026 底量產。
 - [[entities/Zoox]] — Amazon 旗下 Purpose-built Robotaxi，已在拉斯維加斯/舊金山商業運營，Hayward 工廠進入系列生產。
