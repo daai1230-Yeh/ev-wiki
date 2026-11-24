@@ -785,6 +785,7 @@ Tesla 9月在台交車5,554輛、前9月18,632輛，僅次於Toyota與Lexus；�
 - 參見：[[sources/ev-news-2026-11-23b-cn-misc]] | [[sources/ev-news-2026-11-23-digitimes]] | [[concepts/ADAS智駕系統]] | [[countries/韓國]]
 
 ## Related
+- [[entities/Cybercab]]
 - [[entities/NHTSA]]
 - [[entities/小米汽車]]
 - [[entities/Rivian]]

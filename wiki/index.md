@@ -1,6 +1,6 @@
 # Wiki Index
 
-Last updated: 2026-11-23 | Pages: 524 | Sources: 632
+Last updated: 2026-11-24 | Pages: 525 | Sources: 632
 
 ---
 
@@ -678,6 +678,7 @@ Last updated: 2026-11-23 | Pages: 524 | Sources: 632
 - [[entities/本田]] — 日本第二大車廠，2026 年大幅修正 EV 策略，取消多個北美電動車計畫。
 - [[entities/LGES]] — 韓國最大電池廠，首度連續兩季虧損，積極轉型 ESS 業務。
 - [[entities/億緯鋰能]] — 中國第二梯隊電池廠，圓柱電池與 ESS 為差異化利基。
+- [[entities/Cybercab]] — Tesla 專用 Robotaxi（無方向盤、48kWh、29,990 美元）；德州車隊、個人購買、格林海德百萬輛產能與 NHTSA 調查。
 - [[entities/Tesla]] — 美國電動乘用車製造商，純視覺自動駕駛路線代表；台灣市場霸主。
 - [[entities/Rivian]] — 美國電動車新創，R2 系列進入大眾市場，能效超越 Tesla Model Y。
 - [[entities/小米汽車]] — 中國科技巨頭旗下 EV 品牌，2027 年目標進軍歐洲。

@@ -2668,3 +2668,22 @@ Pages 375 → 406，Sources 315 → 346
 - 發現: 福特密西根Marshall廠10月以寧德時代授權技術量產LFP電芯，年產能20 GWh、只有原規劃最高40 GWh的一半，供2027年4Q上市、起售價2.8萬美元的Fathom皮卡；同業GM–LGES車用LFP要到2027年底、現代汽車2027年才量產，加上Tesla與韓廠電芯多自用、惜售，美國LFP電芯缺口至少延續到2027年底。
 - 發現: 東南亞用稅制逼車廠在地組裝：泰國2027-01-01起未在泰生產的進口純電車貨物稅由10%升到35%、增程車由15%升到35%，財長親赴日本向6家日系車廠說明；印尼與歐盟簽CEPA，電動車CKD散件適用即免稅、整車進口要分6階段5年才歸零——進口換生產的過渡期結束，零組件在地化比例成為下一個戰場。
 - 甜點: 對台灣而言，立凱電被點名為Tesla美國LFP正極的授權與技轉方，江申預估2027年電巴出貨由約800輛增至1,000輛，台廠在「非中國電池材料」與國內電巴兩條線都有實單；泰國在地零組件門檻也是台廠打入日系東南亞供應鏈的機會。接下來追蹤12月台灣電巴補助撥付後交車恢復幅度、12-21立凱電台南廠法說會，以及2027-01-01泰國新稅制上路前的日系車廠投資表態。
+
+## [2026-11-24] query | 全球電動車馬達中國生產比例與數據來源
+- Pages consulted: [[sources/nissan-rare-earth-reduction-2026]], [[countries/日本]], [[entities/日産]], [[concepts/電動卡車市場]]（知識庫無馬達產地份額數據，僅稀土／磁鐵）
+- External: IEA Global EV Outlook 2026（中國約75%電動車產量）、IEA 稀土報告（永磁約95%）、Adamas Intelligence（中國占全球乘用EV新部署馬達功率56%，1H25）、CPCA（弗迪動力1–7月27.3%）
+- Filed back: 待使用者決定
+
+## [2026-11-24] query | 是否只有BMW使用非（重）稀土馬達
+- Pages consulted: [[sources/bmw-i7-neue-klasse-2027]], [[sources/ev-news-2026-09-30-electrive-en]], [[sources/ev-news-2026-09-09-electrive-en]], [[sources/nissan-rare-earth-reduction-2026]], [[sources/ev-news-2026-06-29]], [[sources/ev-news-2026-09-18-electrive-en]], [[concepts/電動卡車市場]], [[countries/日本]]；raw: 2026-11-18 InsideEVs《Every EV Motor Type Explained》
+- Filed back: 待使用者決定（可與上一題併成「電動車馬達與稀土供應鏈」頁）
+
+## [2026-11-24] query | Cybercab 現況整理
+- Pages consulted: [[concepts/Robotaxi自動計程車]], [[entities/Tesla]], [[countries/美國]], [[concepts/自動駕駛安全監管]], [[concepts/ADAS智駕系統]], [[sources/tesla-cybercab-specs-2026]], [[sources/ev-news-2026-11-17-insideevs]], [[sources/ev-news-2026-11-18-digitimes]], [[sources/ev-news-2026-11-19b-cn-misc]], [[待核對清單]]
+- 發現口徑不一：續航 472 km（EPA×0.7）vs 673 km（實驗室值換算）；量產起點 2026-02 / 04 / 06「已啟動」
+- Filed back: 未（已提議建立 entities/Cybercab 或併入 Tesla 頁）
+
+## [2026-11-24] create | entities/Cybercab
+- New pages created: [[entities/Cybercab]]（規格、時間軸、2026-11 RRC、簡報三段式、供應鏈）
+- Pages updated: [[entities/Tesla]]、[[concepts/Robotaxi自動計程車]]（Related 加連結）、[[index]]、[[待核對清單]]
+- 待核對新增：Cybercab 續航口徑（472 vs 673 km）、量產起點（2026-02 vs 04）

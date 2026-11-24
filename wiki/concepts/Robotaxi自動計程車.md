@@ -757,6 +757,7 @@ INIT收購Applied Autonomy 67.74%（xFlow平台用於挪威Stavanger無安全員
 - 參見：[[sources/ev-news-2026-11-19b-insideevs]] | [[sources/ev-news-2026-11-19b-cn-misc]] | [[entities/Waymo]] | [[entities/Tesla]] | [[concepts/自動駕駛安全監管]]
 
 ## Related
+- [[entities/Cybercab]]
 - [[concepts/ADAS智駕系統]]
 - [[concepts/自動駕駛安全監管]]
 - [[concepts/東南亞EV市場]]
