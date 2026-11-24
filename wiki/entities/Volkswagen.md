@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [vw-restructure-china-offensive-2026, ev-news-2026-06-27-29-en, ev-news-2026-06-30-07-01, ev-news-2026-07-02, ev-news-2026-07-03-08, ev-news-2026-07-10-supplement, ev-news-2026-07-12-13-electrive, ev-news-2026-07-14-16-electrive, ev-news-2026-07-17-20-digitimes, ev-news-2026-07-20-21-electrive-en, ev-news-2026-07-22-23-electrive-en, ev-news-2026-07-25-27-digitimes, ev-news-2026-07-24-27-electrive-en, ev-news-2026-07-24-28-electrive-en, ev-news-2026-07-29-31-digitimes, ev-news-2026-07-28-30-electrive-en, ev-news-2026-08-04-06-digitimes, ev-news-2026-08-03-06-electrive-en, ev-news-2026-08-07-10-electrive-en, ev-news-2026-08-13-digitimes, ev-news-2026-08-14-17-digitimes, ev-news-2026-08-18-digitimes, ev-news-2026-07-23-08-24-etauto-india, ev-news-2026-09-07-08-electrive-en, ev-news-2026-09-07-08-digest, ev-news-2026-09-08-electrive-en, ev-news-2026-09-09-electrive-en, ev-news-2026-09-09-10-etauto-india, ev-news-2026-09-11-electrive-en, ev-news-2026-09-15-electrive-en, ev-news-2026-09-17-electrive-en, ev-news-2026-09-18-electrive-en, ev-news-2026-09-22-electrive-en, ev-news-2026-09-22-digitimes, ev-news-2026-09-23-electrive-en, ev-news-2026-09-23-digitimes, ev-news-2026-09-24-electrive-en, ev-news-2026-09-26-electrive-en, ev-news-2026-09-28-electrive-en, ev-news-2026-09-29-electrive-en, ev-news-2026-09-30-digitimes, ev-news-2026-10-01-electrive-en, ev-news-2026-10-05-digitimes, ev-news-2026-10-06-electrive-en, ev-news-2026-10-10-electrive-en, ev-news-2026-10-15-electrive-en, ev-news-2026-10-19-electrive-en, ev-news-2026-10-20-electrive-en, ev-news-2026-10-20-digitimes, ev-news-2026-10-27-electrive-en, ev-news-2026-10-27-digest, ev-news-2026-10-27-digitimes, ev-news-2026-10-29-electrive-en, ev-news-2026-10-29-digitimes, ev-news-2026-10-30-electrive-en, ev-news-2026-10-30-insideevs, ev-news-2026-11-02-electrive-en, ev-news-2026-11-02-cn-misc, ev-news-2026-11-04-electrive-en, ev-news-2026-11-12-electrive-en, ev-news-2026-11-12-cn-misc, ev-news-2026-11-16-electrive-en, ev-news-2026-11-17-electrive-en, ev-news-2026-11-17-digitimes, ev-news-2026-11-19-electrive-en, ev-news-2026-11-19b-electrive-en, ev-news-2026-11-23b-cn-misc, ev-news-2026-11-23-electrive-en]
-updated: 2026-11-23
+sources: [vw-restructure-china-offensive-2026, ev-news-2026-06-27-29-en, ev-news-2026-06-30-07-01, ev-news-2026-07-02, ev-news-2026-07-03-08, ev-news-2026-07-10-supplement, ev-news-2026-07-12-13-electrive, ev-news-2026-07-14-16-electrive, ev-news-2026-07-17-20-digitimes, ev-news-2026-07-20-21-electrive-en, ev-news-2026-07-22-23-electrive-en, ev-news-2026-07-25-27-digitimes, ev-news-2026-07-24-27-electrive-en, ev-news-2026-07-24-28-electrive-en, ev-news-2026-07-29-31-digitimes, ev-news-2026-07-28-30-electrive-en, ev-news-2026-08-04-06-digitimes, ev-news-2026-08-03-06-electrive-en, ev-news-2026-08-07-10-electrive-en, ev-news-2026-08-13-digitimes, ev-news-2026-08-14-17-digitimes, ev-news-2026-08-18-digitimes, ev-news-2026-07-23-08-24-etauto-india, ev-news-2026-09-07-08-electrive-en, ev-news-2026-09-07-08-digest, ev-news-2026-09-08-electrive-en, ev-news-2026-09-09-electrive-en, ev-news-2026-09-09-10-etauto-india, ev-news-2026-09-11-electrive-en, ev-news-2026-09-15-electrive-en, ev-news-2026-09-17-electrive-en, ev-news-2026-09-18-electrive-en, ev-news-2026-09-22-electrive-en, ev-news-2026-09-22-digitimes, ev-news-2026-09-23-electrive-en, ev-news-2026-09-23-digitimes, ev-news-2026-09-24-electrive-en, ev-news-2026-09-26-electrive-en, ev-news-2026-09-28-electrive-en, ev-news-2026-09-29-electrive-en, ev-news-2026-09-30-digitimes, ev-news-2026-10-01-electrive-en, ev-news-2026-10-05-digitimes, ev-news-2026-10-06-electrive-en, ev-news-2026-10-10-electrive-en, ev-news-2026-10-15-electrive-en, ev-news-2026-10-19-electrive-en, ev-news-2026-10-20-electrive-en, ev-news-2026-10-20-digitimes, ev-news-2026-10-27-electrive-en, ev-news-2026-10-27-digest, ev-news-2026-10-27-digitimes, ev-news-2026-10-29-electrive-en, ev-news-2026-10-29-digitimes, ev-news-2026-10-30-electrive-en, ev-news-2026-10-30-insideevs, ev-news-2026-11-02-electrive-en, ev-news-2026-11-02-cn-misc, ev-news-2026-11-04-electrive-en, ev-news-2026-11-12-electrive-en, ev-news-2026-11-12-cn-misc, ev-news-2026-11-16-electrive-en, ev-news-2026-11-17-electrive-en, ev-news-2026-11-17-digitimes, ev-news-2026-11-19-electrive-en, ev-news-2026-11-19b-electrive-en, ev-news-2026-11-23b-cn-misc, ev-news-2026-11-23-electrive-en, ev-news-2026-11-24-electrive-en]
+updated: 2026-11-24
 ---
 
 # Volkswagen（福斯集團）
@@ -569,6 +569,19 @@ VW集團5款PHEV約90%的利用係數修正增量被加大電池抵銷，官方�
 **觀察**：2027-01-08 歐洲年度風雲車；ID. Tiguan 2027 年初交車量。
 
 - 參見：[[sources/ev-news-2026-11-23b-cn-misc]] | [[sources/ev-news-2026-11-23-electrive-en]] | [[concepts/歐洲EV市場]] | [[concepts/平價電動車市場]]
+
+### ID. Polo 交車等待逾一年、Martorell 電芯短缺（2026-11）
+
+> **結論**：Electric Urban Car Family 9 月底約 15 萬筆訂單，遠超預期；ID. Polo 最長等 21 個月，產能與電芯（國軒高科等外購）成瓶頸。
+
+**主因**：
+- 訂單：ID. Polo 約 5.3 萬、Cupra Raval 逾 5.2 萬、Škoda Epiq 逾 8 萬 → 2.5 萬歐元級需求強勁。
+- 產能：Martorell 日產 1,000 輛、2027 上半年三班 1,200 輛（年約 30 萬）；Seat 增聘近 1,000 人；Pamplona 2027 年 36 萬輛。
+- 電芯：10 月停線少產約 1,900 輛，PowerCo Sagunto 2027 上半年才穩定量產。
+
+**觀察**：2027 1H 三班制落地；交車等待是否縮短至半年內。
+
+- 參見：[[sources/ev-news-2026-11-24-electrive-en]] | [[國軒高科]]
 
 ## Related
 - [[entities/BMW]]

@@ -1,6 +1,6 @@
 # Wiki Index
 
-Last updated: 2026-11-24 | Pages: 525 | Sources: 632
+Last updated: 2026-11-24 | Pages: 531 | Sources: 636
 
 ---
 
@@ -97,6 +97,10 @@ Last updated: 2026-11-24 | Pages: 525 | Sources: 632
 - [[sources/ev-news-2026-10-12-digest]] — 中文財經批次8篇：陸混動車輸歐恐砍半、豐田泰國殘值貸款、現代印度1,000萬輛、華德電巴、桃園A21、雙層客運補助縮水、Starlink印度。(2026-10-12)
 - [[sources/ev-news-2026-10-12-digitimes-2]] — Digitimes CarTech補充2篇：豐田、廣汽、一汽三方協議正式簽署、麗升跨足充電樁（註：剪輯檔無單篇網址）。(2026-10-12)
 - [[sources/ev-news-2026-10-12-14-digitimes]] — Digitimes CarTech 9篇：中國新能源車出口退稅2027-04起由13%降至9%（含評析）、歐盟HEV／PHEV年35萬輛配額、LGES大進機械轉單與L&F LFP長約、台灣能管法帶動儲能、寰聖／桓鼎、裕日車估車市42萬輛（全數附原文網址）。(2026-10-14)
+- [[sources/ev-news-2026-11-24-electrive-en]] — electrive 15篇：歐盟理事會放棄企業車隊EV強制配額；EREV不受35萬輛混動配額限制（繳最高35.3%反補貼稅）；歐盟–印尼FTA每年省約6億歐元；ID. Polo等待逾一年、四車訂單約15萬；Opel–零跑C-SUV；BMW iX4量產；海牙法院禁Ti7歐盟銷售；賓士KBA點對點L2核准；Cylib收購BASF回收；Adani 410輛電動重卡；TruckCharge併Milence；Electra儲能；Siemens MW直流接觸器；Solaris氫巴。(2026-11-24)
+- [[sources/ev-news-2026-11-24-insideevs]] — InsideEVs 4篇：FSD V15 Reality View（25倍為原廠宣稱）；BMW iX5 0%後再跑21.8英里（可用144 kWh）；賓士GLA Electric 85 kWh、WLTP 657 km；Ioniq 5保養（贊助內容）。(2026-11-24)
+- [[sources/ev-news-2026-11-24-digitimes]] — Digitimes 2篇：小鵬2027海外目標約20萬輛、歐洲占五成；記憶體漲逾400%、Tesla AI4車載電腦成本翻倍。(2026-11-24)
+- [[sources/ev-news-2026-11-24-cn-misc]] — 中文綜合14篇：中國車占韓國EV市場33.9%、RCA首超韓國；韓副總理稅額扣抵重「共生」；泰國BOI日系6車廠1,340億泰銖；小鵬G9L東南亞；Kia PV7；BMW iX5 Spartanburg日產70輛；Varta破產核實；印度BESS VGF 135.8 GWh。(2026-11-24)
 - [[sources/ev-news-2026-11-23-digitimes]] — Digitimes 10篇：福特Marshall LFP 20 GWh投產（原規劃40 GWh）、美國LFP自製版圖（Tesla正極由立凱電技轉、AESC售田納西廠）；LGES稼動率57.1%／三星SDI 78%／SK On 36.4%；寧德時代籲歐盟廢電池回中國精煉、拉美儲能逾15 GWh；本田Avancier HEV；方程豹折疊方向盤；江申電巴2027上看千輛。(2026-11-23)
 - [[sources/ev-news-2026-11-23-electrive-en]] — electrive 13篇：Twingo英國補助後£14,745、ID. Cross £26,985、ID. Polo GTI Clubsport；紅旗EHS4（零跑LEAP 3.5）€35,900；SC01義大利組裝；印度EIM 500輛換電重卡；Ford Otosan電池護照；Zenobē €3.25億進德國；拉哥斯電巴；onsemi EliteSiC M4。(2026-11-23)
 - [[sources/ev-news-2026-11-23b-cn-misc]] — 中文綜合18篇：美國10月EV銷量年增11%、庫存年減38%；韓國對中汽車逆差42.3億美元（年增92.7%）；泰國進口BEV貨物稅2027起35%；歐盟–印尼CEPA；FSD V15、義大利核准Tesla輔助駕駛；Opel–零跑C-SUV；ID. Tiguan量產、ID. Polo奪德國年度風雲車；中國充電樁2,539萬、退役電池2030逾百萬噸。(2026-11-23)
@@ -661,6 +665,8 @@ Last updated: 2026-11-24 | Pages: 525 | Sources: 632
 ---
 
 ## Entities（實體）
+- [[entities/Solaris]] — 波蘭巴士廠（CAF 集團），歐洲電巴前三，純電／氫巴／無軌電車三路線，歐洲逾 900 輛氫巴。
+- [[entities/Cylib]] — 德國亞琛電池回收新創，水基製程回收約 90%，2026-11 收購 BASF 歐美回收業務。
 
 ### 電動乘用車廠
 - [[entities/Audi]] — 奧迪中國「兩品牌、兩夥伴」重組（上汽專攻AUDI、一汽承接四環）與美國Q4 e-tron召回9,048輛。

@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [lges-bmw-46series-order, ev-news-2026-06-30-07-01, ev-news-2026-07-10-electrive-batch, ev-news-2026-07-12-13-electrive, ev-news-2026-07-24-27-electrive-en, ev-news-2026-07-29-31-digitimes, ev-news-2026-07-28-30-electrive-en, ev-news-2026-08-27-29-electrive-en, ev-news-2026-09-18-electrive-en, ev-news-2026-09-22-electrive-en, ev-news-2026-09-22-digitimes, ev-news-2026-09-24-electrive-en, ev-news-2026-09-30-electrive-en, ev-news-2026-10-01-electrive-en, ev-news-2026-10-02-electrive-en, ev-news-2026-10-05-electrive-en, ev-news-2026-10-04-digest, ev-news-2026-10-27-digitimes, ev-news-2026-11-11-electrive-en, ev-news-2026-11-11b-digitimes, ev-news-2026-11-12-electrive-en, ev-news-2026-11-12-digitimes, ev-news-2026-11-17-electrive-en, ev-news-2026-11-17-insideevs, ev-news-2026-11-17-cn-misc, ev-news-2026-11-19b-insideevs, ev-news-2026-11-19b-electrive-en]
-updated: 2026-11-19
+sources: [lges-bmw-46series-order, ev-news-2026-06-30-07-01, ev-news-2026-07-10-electrive-batch, ev-news-2026-07-12-13-electrive, ev-news-2026-07-24-27-electrive-en, ev-news-2026-07-29-31-digitimes, ev-news-2026-07-28-30-electrive-en, ev-news-2026-08-27-29-electrive-en, ev-news-2026-09-18-electrive-en, ev-news-2026-09-22-electrive-en, ev-news-2026-09-22-digitimes, ev-news-2026-09-24-electrive-en, ev-news-2026-09-30-electrive-en, ev-news-2026-10-01-electrive-en, ev-news-2026-10-02-electrive-en, ev-news-2026-10-05-electrive-en, ev-news-2026-10-04-digest, ev-news-2026-10-27-digitimes, ev-news-2026-11-11-electrive-en, ev-news-2026-11-11b-digitimes, ev-news-2026-11-12-electrive-en, ev-news-2026-11-12-digitimes, ev-news-2026-11-17-electrive-en, ev-news-2026-11-17-insideevs, ev-news-2026-11-17-cn-misc, ev-news-2026-11-19b-insideevs, ev-news-2026-11-19b-electrive-en, ev-news-2026-11-24-electrive-en, ev-news-2026-11-24-insideevs, ev-news-2026-11-24-cn-misc]
+updated: 2026-11-24
 ---
 
 # BMW（寶馬）
@@ -251,6 +251,19 @@ BMW美國製造以燃油／混動為主，本土化BEV安排年底或2027年；�
 **觀察**：iX5 2027 年實際產量；BMW 城區點對點導航 2027 年初德國監管核准。
 
 - 參見：[[sources/ev-news-2026-11-19b-insideevs]] | [[sources/ev-news-2026-11-19b-electrive-en]]
+
+### iX4 Debrecen 量產、iX5 Spartanburg 日產約 70 輛（2026-11）
+
+> **結論**：Neue Klasse 六款中已四款量產（iX3、iX4、i3、iX5），但 iX5 美國產量規劃傳由 10 萬輛下修至約 6 萬輛（待核對），高價大型 EV 需求成為 2027 年考驗。
+
+**主因**：
+- iX4：Debrecen（投資逾 20 億歐元、約 5,000 人）11 月初量產，€70,900 起、WLTP 最高 828 km、DC 400 kW，2027-03 交車。
+- iX5：Spartanburg 17 億美元轉型（10 億組裝、7 億 Woodruff 電池廠），日產約 70 輛、2027 1Q 到店，79,800 美元；電芯現由 AESC 自中國供應、本世代後期改 LGES 亞利桑那 → 在地化停在電池組層級。
+- 實測：可用 144 kWh、0% 後再跑 21.8 英里（推估總容量約 151 kWh），70 mph 實測 411 英里領先 Gravity、R1S → 產品力強但價格高。
+
+**觀察**：2027 年 iX5 實際產量與美國交車；電芯轉向 LGES 亞利桑那的時點。
+
+- 參見：[[sources/ev-news-2026-11-24-electrive-en]] | [[sources/ev-news-2026-11-24-insideevs]] | [[sources/ev-news-2026-11-24-cn-misc]] | [[AESC]] | [[LGES]]
 
 ## Related
 - [[entities/Volkswagen]]

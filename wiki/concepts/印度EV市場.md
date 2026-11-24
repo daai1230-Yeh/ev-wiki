@@ -1,7 +1,7 @@
 ---
 tags: [concept]
-sources: [electric-bus-market-2025-global, delhi-ev-policy-2026, vinfast-india-investment, india-ev-commercial-update-2026, india-tata-jsw-battery-rd-2026, mahindra-ev-expansion-2026, ather-energy-el-platform-2026, india-2w-market-fy27-bifurcation-2026, india-1bn-ev-commercial-incentives-2026, china-catl-battery-tech-export-2026, tesla-india-factory-exit-2026, honda-india-ev-hybrid-2026, tata-stellantis-jeep-india-2026, india-electric-bus-market-2025, tata-chery-avinya-platform-2026, delhi-ev-7year-high-2026, toptec-india-battery-equipment-2026, ev-news-2026-09-18-electrive-en, ev-news-2026-09-20-india, ev-news-2026-09-21-india, ev-news-2026-09-24-electrive-en, ev-news-2026-09-24-digest, ev-news-2026-10-12-digest, ev-news-2026-10-15-digest, ev-news-2026-10-19-digest, ev-news-2026-10-29-electrive-en, ev-news-2026-11-02-sustainablebus, ev-news-2026-11-06-electrive-en, ev-news-2026-11-09-cn-misc, ev-news-2026-11-11b-cn-misc, ev-news-2026-11-11b-sustainablebus, ev-news-2026-11-17-electrive-en, ev-news-2026-11-17-cn-misc, ev-news-2026-11-19-electrive-en, ev-news-2026-11-23-electrive-en, ev-news-2026-11-23b-cn-misc]
-updated: 2026-11-23
+sources: [electric-bus-market-2025-global, delhi-ev-policy-2026, vinfast-india-investment, india-ev-commercial-update-2026, india-tata-jsw-battery-rd-2026, mahindra-ev-expansion-2026, ather-energy-el-platform-2026, india-2w-market-fy27-bifurcation-2026, india-1bn-ev-commercial-incentives-2026, china-catl-battery-tech-export-2026, tesla-india-factory-exit-2026, honda-india-ev-hybrid-2026, tata-stellantis-jeep-india-2026, india-electric-bus-market-2025, tata-chery-avinya-platform-2026, delhi-ev-7year-high-2026, toptec-india-battery-equipment-2026, ev-news-2026-09-18-electrive-en, ev-news-2026-09-20-india, ev-news-2026-09-21-india, ev-news-2026-09-24-electrive-en, ev-news-2026-09-24-digest, ev-news-2026-10-12-digest, ev-news-2026-10-15-digest, ev-news-2026-10-19-digest, ev-news-2026-10-29-electrive-en, ev-news-2026-11-02-sustainablebus, ev-news-2026-11-06-electrive-en, ev-news-2026-11-09-cn-misc, ev-news-2026-11-11b-cn-misc, ev-news-2026-11-11b-sustainablebus, ev-news-2026-11-17-electrive-en, ev-news-2026-11-17-cn-misc, ev-news-2026-11-19-electrive-en, ev-news-2026-11-23-electrive-en, ev-news-2026-11-23b-cn-misc, ev-news-2026-11-24-electrive-en, ev-news-2026-11-24-cn-misc]
+updated: 2026-11-24
 ---
 
 # 印度 EV 市場
@@ -477,6 +477,18 @@ JSW集團子公司發表電動商用車新品牌Ampstar，馬哈拉施特拉邦9
 **觀察**：EIM 月產爬坡；印度 PM E-DRIVE 對電動卡車補助撥付。
 
 - 參見：[[sources/ev-news-2026-11-23-electrive-en]] | [[sources/ev-news-2026-11-23b-cn-misc]] | [[countries/印度]] | [[concepts/電動卡車市場]]
+
+### Adani 410 輛電動重卡、儲能補助 135.8 GWh（2026-11）
+
+> **結論**：印度電動化由兩輪三輪擴至重卡與電網儲能——Adani Cement 410 輛電動重卡（2030 年逾 2,000 輛）與 135.8 GWh 儲能補助，顯示大型集團與政策共同推動商用與能源端。
+
+**主因**：
+- 重卡：三一 55 噸車型、年省柴油 1,100 萬公升、目標承擔 10% 公路貨運 → 中國車廠切入印度重卡（見 [[concepts/電動卡車市場]]）。
+- 儲能：三輪 VGF 135.8 GWh，償債備付率 1.17–1.27 倍（見 [[concepts/儲能市場]]）。
+
+**觀察**：Adani 410 輛 2027-03 到位；印度是否對中國電動重卡設在地化門檻。
+
+- 參見：[[sources/ev-news-2026-11-24-electrive-en]] | [[sources/ev-news-2026-11-24-cn-misc]] | [[countries/印度]]
 
 ## Related
 - [[entities/VinFast]]

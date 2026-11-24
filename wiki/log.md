@@ -2696,3 +2696,24 @@ Pages 375 → 406，Sources 315 → 346
 ## [2026-11-24] maintenance | Waymo／Cybercab 頁首與簡報三段式
 - Pages updated: [[entities/Waymo]]（頁首摘要改為 2026-11 數字；新增「現況（2026-11）」對照表；新增簡報三段式卡片；Related 加 Cybercab、Zoox）、[[entities/Cybercab]]（簡報三段式改為模板格式）、[[index]]
 - 卡片三發現（Waymo）：車隊一年半放大五倍、車源交給車廠／先攻靠左行駛市場／撤出高速公路與退出 Uber
+
+## [2026-11-24] query | 自駕車隊策略：Tesla 全視覺 vs Waymo 多感測，美歐法規模式差異（主管觀點檢核）
+- Pages consulted: [[concepts/自動駕駛安全監管]], [[concepts/Robotaxi自動計程車]], [[entities/Tesla]], [[entities/Waymo]], [[entities/Cybercab]], [[concepts/ADAS智駕系統]], [[countries/德國]]
+- 結論：「美國負面表列、歐洲正面表列」大方向成立（聯邦自我認證＋事後調查 vs 歐盟事前型式認證＋TCMV 表決），但美國州層級（加州 DMV／CPUC）仍採事前許可；感測器種類非法定要求，Waymo 多感測仍遭加州高速公路禁令；Tesla 非只在奧斯汀（美國 7 城、內華達 5,000 輛配額）
+- Filed back: 未（已提議建立 syntheses 比較頁）
+
+## [2026-11-24] ingest | EV News 2026-11-23~24 批次（35篇原文，4個來源摘要頁）
+- Summary pages: [[sources/ev-news-2026-11-24-electrive-en]]、[[sources/ev-news-2026-11-24-insideevs]]、[[sources/ev-news-2026-11-24-digitimes]]、[[sources/ev-news-2026-11-24-cn-misc]]
+- Raw assets: raw/assets/2026-11-24-*（32篇）、raw/assets/2026-11-23-*（Digitimes 2篇補收）、raw/assets/2026-11-19-又一百年巨頭破產！歐洲電池工業完蛋了？.md，清單見 tools/ingest/out/new.json
+- Pages updated (concepts): [[concepts/歐洲EV市場]]、[[concepts/中國EV出海策略]]、[[concepts/ADAS智駕系統]]、[[concepts/車用半導體供應鏈]]、[[concepts/電池回收]]、[[concepts/電動卡車市場]]、[[concepts/充電基礎建設]]、[[concepts/氫燃料電池商用車]]、[[concepts/東南亞EV市場]]、[[concepts/儲能市場]]、[[concepts/印度EV市場]]
+- Pages updated (entities): [[entities/BMW]]、[[entities/小鵬汽車]]、[[entities/比亞迪]]、[[entities/Volkswagen]]、[[entities/賓士]]、[[entities/Tesla]]、[[entities/零跑汽車]]、[[entities/豐田]]
+- Countries updated: [[countries/韓國]]、[[countries/德國]]、[[countries/東南亞]]、[[countries/印度]]
+- New pages created: [[entities/Solaris]]、[[entities/Cylib]]
+- Key additions: 歐盟理事會跟進議會放棄企業車隊EV強制配額；EREV歸BEV稅號、不受歐中35萬輛混動配額限制但繳最高35.3%反補貼稅；福斯小型電動車家族約15萬筆訂單、ID. Polo最長等21個月、Martorell電芯短缺；海牙法院假處分禁比亞迪Ti7歐盟銷售與匈牙利生產；賓士獲KBA首個UN R171點對點L2核准；Tesla AI4車載電腦因記憶體漲價成本翻倍；小鵬2027海外目標約20萬輛；中國車占韓國EV市場33.9%；泰國BOI日系6車廠1,340億泰銖；Cylib收購BASF Schwarzheide黑粉廠；Adani 410輛三一電動重卡；印度BESS VGF 135.8 GWh。
+- 待核對: 新增「Varta 破產時點與範圍」（鉅亨號 vs pv magazine／Euronews）、「BMW iX5 2027 年產量規劃」（傳6萬輛 vs 原10萬輛，BMW未證實）。Tesla TAD 批准國數沿用既有項。
+- 備註: dedupe「~」：FSD V15、Opel–零跑、歐盟–印尼FTA、韓國對中逆差與 11-23b 同一事件，只補新資訊；BMW iX5 與 11-17 Woodruff 電池廠同一事件。「!」：鉅亨號 Varta 文為觀點稿，以一手核實稿為準。Ioniq 5 保養為贊助內容、CMoney 大阪電巴為觀點稿、SiCAR Hilux 為 2025-11 舊文重推、Innova Hycross 為預告稿，均不作 concept 數字來源。新實體：Solaris（16 個來源頁）、Cylib（7 個）；Milence（6）、Electra（7）、三一（7）亦達門檻，列為下次建頁候選。被覆寫的舊 raw 檔不 stage。
+- 坡道: 福斯一台兩萬五千歐元的小電動車 ID. Polo，客人最久要等 21 個月才拿得到車——歐洲平價電動車的問題已經不是「沒人買」，而是「做不出來」，卡住的是從中國運來的電芯；同一天歐盟又把企業車隊電動化配額從強制改成自願，需求端政策在退、供給端卻在塞車。
+- 發現: 福斯 Electric Urban Car Family 四款車 9 月底累計約 15 萬筆訂單（ID. Polo 約 5.3 萬、Cupra Raval 逾 5.2 萬、Škoda Epiq 逾 8 萬），等待由 9 月的 10 個月拉長到逾一年；Martorell 日產 1,000 輛、2027 上半年才到 1,200 輛，10 月電芯短缺停線少產約 1,900 輛——歐系「歐洲組裝、中國電芯」模式的瓶頸浮現，PowerCo 自製電芯 2027 上半年前難以救急。
+- 發現: 中國增程車找到進歐「快車道」：歐中 10 月談定的混動配額首年 35 萬輛、年增 6%，但增程車依 2024/2754 歸入純電稅號，不受數量上限、只繳最高 35.3% 反補貼稅；零跑 B10／C10、小鵬 L03 Reev、極氪 9X 已在德國布局，而比亞迪 Ti7 同時遭海牙法院假處分禁止在歐盟銷售與匈牙利生產——中國車進歐的門檻正由關稅轉向配額口徑與智財權。
+- 發現: 智駕法規與成本兩頭變化：賓士 MB.Drive Assist Pro 獲德國 KBA 依 UN R171 核准，成為德國首個點對點 L2，比 BMW 城市版（2027 年初）早、Tesla 至今未獲德國承認；另一端 Musk 證實記憶體自 2024 年初漲逾 400%，讓 Tesla AI4 車載電腦物料成本翻倍——智駕模型越大，記憶體成本越吃毛利。
+- 甜點: 對台灣而言，記憶體漲價讓車載運算成本壓力由晶片轉到 DRAM／NAND，十銓等模組廠警告 2027 年短缺更嚴峻，車規記憶體與長約供貨是台廠可切入的縫隙；泰國同步推泰日功率半導體與感測器合作，接下來要追 12 月歐洲議會 CO2 法規表決、2027-01 R171 生效後各國核准節奏，以及 ID. Polo 三班制能否在 2027 上半年把等待縮回半年內。

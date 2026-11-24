@@ -1,7 +1,7 @@
 ---
 tags: [concept]
-sources: [byd-dipilot-adas-2026, robotaxi-market-2026, toyota-adas-vs-fsd-subscription, hyundai-pleos-sdv-os, in-cabin-ai-sensing-2026, l2plus-adas-adoption-2026, rivian-lidar-china-partner-2026, hyundai-kia-atria-ai-gwangju-2026, hesai-color-lidar-2026, ev-news-digest-jun1-10-2026, ev-news-2026-06-27-29-en, ev-news-2026-06-30-07-01, ev-news-2026-06-29-zh, ev-news-2026-07-02, ev-news-2026-07-03-08, ev-news-2026-07-09, ev-news-2026-07-21-22-digitimes, ev-news-2026-07-22-23-electrive-en, ev-news-2026-08-24-digitimes, ev-news-2026-08-27-digitimes, ev-news-2026-08-28-digitimes, ev-news-2026-08-30-31-cn-misc, ev-news-2026-09-07-08-digitimes, ev-news-2026-09-08-electrive-en, ev-news-2026-09-09-digitimes, ev-news-2026-09-11-digitimes, ev-news-2026-09-15-digitimes, ev-news-2026-09-16-digitimes, ev-news-2026-09-18-digest, ev-news-2026-09-19-digest, ev-news-2026-09-18-electrive-en, ev-news-2026-09-22-digest, ev-news-2026-09-23-electrive-en, ev-news-2026-10-01-digitimes, ev-news-2026-10-01-electrive-en, ev-news-2026-10-05-digitimes, ev-news-2026-10-12-digitimes, ev-news-2026-10-16-digitimes, ev-news-2026-10-19-digest, ev-news-2026-10-20-digitimes, ev-news-2026-10-20-insideevs, ev-news-2026-10-22-digitimes, ev-news-2026-10-27-digitimes-tesla, ev-news-2026-10-27-digitimes, ev-news-2026-10-27-insideevs, ev-news-2026-10-29-electrive-en, ev-news-2026-10-29-insideevs, ev-news-2026-10-29-digitimes, ev-news-2026-10-30-electrive-en, ev-news-2026-10-30-digitimes, ev-news-2026-11-17-insideevs, ev-news-2026-11-17-digitimes, ev-news-2026-11-17-electrive-en, ev-news-2026-11-19-electrive-en, ev-news-2026-11-19-digitimes, ev-news-2026-11-19b-cn-misc, ev-news-2026-11-23b-cn-misc, ev-news-2026-11-23-digitimes]
-updated: 2026-11-23
+sources: [byd-dipilot-adas-2026, robotaxi-market-2026, toyota-adas-vs-fsd-subscription, hyundai-pleos-sdv-os, in-cabin-ai-sensing-2026, l2plus-adas-adoption-2026, rivian-lidar-china-partner-2026, hyundai-kia-atria-ai-gwangju-2026, hesai-color-lidar-2026, ev-news-digest-jun1-10-2026, ev-news-2026-06-27-29-en, ev-news-2026-06-30-07-01, ev-news-2026-06-29-zh, ev-news-2026-07-02, ev-news-2026-07-03-08, ev-news-2026-07-09, ev-news-2026-07-21-22-digitimes, ev-news-2026-07-22-23-electrive-en, ev-news-2026-08-24-digitimes, ev-news-2026-08-27-digitimes, ev-news-2026-08-28-digitimes, ev-news-2026-08-30-31-cn-misc, ev-news-2026-09-07-08-digitimes, ev-news-2026-09-08-electrive-en, ev-news-2026-09-09-digitimes, ev-news-2026-09-11-digitimes, ev-news-2026-09-15-digitimes, ev-news-2026-09-16-digitimes, ev-news-2026-09-18-digest, ev-news-2026-09-19-digest, ev-news-2026-09-18-electrive-en, ev-news-2026-09-22-digest, ev-news-2026-09-23-electrive-en, ev-news-2026-10-01-digitimes, ev-news-2026-10-01-electrive-en, ev-news-2026-10-05-digitimes, ev-news-2026-10-12-digitimes, ev-news-2026-10-16-digitimes, ev-news-2026-10-19-digest, ev-news-2026-10-20-digitimes, ev-news-2026-10-20-insideevs, ev-news-2026-10-22-digitimes, ev-news-2026-10-27-digitimes-tesla, ev-news-2026-10-27-digitimes, ev-news-2026-10-27-insideevs, ev-news-2026-10-29-electrive-en, ev-news-2026-10-29-insideevs, ev-news-2026-10-29-digitimes, ev-news-2026-10-30-electrive-en, ev-news-2026-10-30-digitimes, ev-news-2026-11-17-insideevs, ev-news-2026-11-17-digitimes, ev-news-2026-11-17-electrive-en, ev-news-2026-11-19-electrive-en, ev-news-2026-11-19-digitimes, ev-news-2026-11-19b-cn-misc, ev-news-2026-11-23b-cn-misc, ev-news-2026-11-23-digitimes, ev-news-2026-11-24-electrive-en, ev-news-2026-11-24-insideevs, ev-news-2026-11-24-digitimes]
+updated: 2026-11-24
 ---
 
 # ADAS 智駕系統（Advanced Driver Assistance System）
@@ -615,6 +615,20 @@ Tesla計畫與FSD v15同步上線自研AI地圖；NVIDIA Hyperion／Alpamayo夥�
 **觀察**：12 月 FSD V15 全量推送；其他中國車廠跟進線控轉向量產的時程。
 
 - 參見：[[sources/ev-news-2026-11-23b-cn-misc]] | [[sources/ev-news-2026-11-23-digitimes]] | [[entities/Tesla]] | [[entities/比亞迪]] | [[concepts/自動駕駛安全監管]]
+
+### 賓士獲 KBA 點對點 L2 核准、FSD V15 與 AI4 成本翻倍（2026-11）
+
+> **結論**：歐洲城市級 L2 進入「法規核准」階段——賓士 MB.Drive Assist Pro 成為德國首個依 UN R171 核准的點對點輔助駕駛，早於 BMW（2027 年初）與尚未獲德國承認的 Tesla；同時記憶體漲價讓智駕硬體成本壓力浮上檯面。
+
+**主因**：
+- 法規：R171（DCAS）協調框架 2027-01 生效；賓士 27 感測器、254 TOPS、12 月斯圖加特與慕尼黑 early access、2027 上半年上市；BMW 2025-11 僅取得高速公路 130 km/h 免手 → 德系以「先取證、再擴城市」對抗 Tesla 純視覺路線。
+- 中國品牌：小鵬 11-23 巴黎門市開放 NGP 試乘、2027 上半年交付 → 歐洲城市 L2 競爭者由德美擴及中國。
+- 成本：Musk 證實 DRAM／NAND 漲價使 AI4 車載電腦成本高出 1 倍（記憶體自 2024 年初漲逾 400%）；FSD V15 參數約 100 億、僅支援 HW4 → 大模型上車將放大記憶體成本占比，可能反映在選配或訂閱價。
+- Tesla 稱 V15 關鍵介入「改善 25 倍」但未提供基準，屬原廠宣稱。
+
+**觀察**：2027-01 R171 生效後各國核准節奏；Tesla 是否因 AI4 成本調整 FSD 訂閱價；賓士 Drive Assist Pro 德國定價。
+
+- 參見：[[sources/ev-news-2026-11-24-electrive-en]] | [[sources/ev-news-2026-11-24-insideevs]] | [[sources/ev-news-2026-11-24-digitimes]] | [[賓士]] | [[Tesla]] | [[小鵬汽車]]
 
 ## Related
 - [[entities/Tesla]]

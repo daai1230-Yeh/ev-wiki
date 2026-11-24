@@ -1,7 +1,7 @@
 ---
 tags: [concept]
-sources: [thailand-ev-market-2026, china-autonomous-driving-overseas, foxconn-mitsubishi-fuso-electric-bus, byd-malaysia-factory-negotiation, byd-malaysia-factory-update-2026, malaysia-cbv-ev-regulation-2026, gwm-ora5-thailand-2026, geely-thailand-pickup-2026, mitsubishi-motors-middle-east-routes-2026, mitsubishi-hev-japan-2028, lges-honda-vietnam-bss-2026, volvo-ex30-thailand-fire-2026, hanoi-1000-bss-2026, ev-news-digest-jun1-10-2026, ev-news-2026-09-18-digest, ev-news-2026-09-18-digitimes, ev-news-2026-09-19-electrive-en, ev-news-2026-09-22-digest, ev-news-2026-09-22-electrive-en, ev-news-2026-09-28-digest, ev-news-2026-09-29-digitimes, ev-news-2026-10-01-digitimes, ev-news-2026-10-06-digest, ev-news-2026-10-22-digest, ev-news-2026-10-22-electrive-en, ev-news-2026-10-27-electrive-en, ev-news-2026-10-29-electrive-en, ev-news-2026-11-04-cn-misc, ev-news-2026-11-06-cn-misc, ev-news-2026-11-09-cn-misc, ev-news-2026-11-11b-cn-misc, ev-news-2026-11-11b-digitimes, ev-news-2026-11-19-cn-misc, ev-news-2026-11-19-electrive-en, ev-news-2026-11-18-digitimes, ev-news-2026-11-19b-cn-misc, ev-news-2026-11-19b-electrive-en, ev-news-2026-11-23b-cn-misc]
-updated: 2026-11-23
+sources: [thailand-ev-market-2026, china-autonomous-driving-overseas, foxconn-mitsubishi-fuso-electric-bus, byd-malaysia-factory-negotiation, byd-malaysia-factory-update-2026, malaysia-cbv-ev-regulation-2026, gwm-ora5-thailand-2026, geely-thailand-pickup-2026, mitsubishi-motors-middle-east-routes-2026, mitsubishi-hev-japan-2028, lges-honda-vietnam-bss-2026, volvo-ex30-thailand-fire-2026, hanoi-1000-bss-2026, ev-news-digest-jun1-10-2026, ev-news-2026-09-18-digest, ev-news-2026-09-18-digitimes, ev-news-2026-09-19-electrive-en, ev-news-2026-09-22-digest, ev-news-2026-09-22-electrive-en, ev-news-2026-09-28-digest, ev-news-2026-09-29-digitimes, ev-news-2026-10-01-digitimes, ev-news-2026-10-06-digest, ev-news-2026-10-22-digest, ev-news-2026-10-22-electrive-en, ev-news-2026-10-27-electrive-en, ev-news-2026-10-29-electrive-en, ev-news-2026-11-04-cn-misc, ev-news-2026-11-06-cn-misc, ev-news-2026-11-09-cn-misc, ev-news-2026-11-11b-cn-misc, ev-news-2026-11-11b-digitimes, ev-news-2026-11-19-cn-misc, ev-news-2026-11-19-electrive-en, ev-news-2026-11-18-digitimes, ev-news-2026-11-19b-cn-misc, ev-news-2026-11-19b-electrive-en, ev-news-2026-11-23b-cn-misc, ev-news-2026-11-24-electrive-en, ev-news-2026-11-24-cn-misc]
+updated: 2026-11-24
 ---
 
 # 東南亞 EV 市場
@@ -419,6 +419,19 @@ updated: 2026-11-23
 **觀察**：泰國在地零組件門檻與新投資特別稅率細則；CEPA 2027 年初暫行適用日期。
 
 - 參見：[[sources/ev-news-2026-11-23b-cn-misc]] | [[countries/東南亞]]
+
+### 泰國 BOI 日系 1,340 億泰銖、歐盟–印尼 FTA 細節（2026-11）
+
+> **結論**：泰國以貨物稅改制（進口 BEV 2027 年升至 35%）搭配招商，換得 6 家日系車廠 2026–2030 年逾 1,340 億泰銖投資承諾，日系在泰「EV＋HEV 並進」守住生產基地；印尼則以歐盟 FTA 換取鎳鈷下游投資。
+
+**主因**：
+- 泰國：豐田、本田、五十鈴、三菱、馬自達、日產投資涵蓋 EV、HEV、生質燃料與零件在地化；BOI 說明新貨物稅偏向在地零件 → 回應中國品牌進逼，日系承諾以多元動力而非純電為主。
+- 中國品牌：小鵬 G9L 在泰、印尼約 7.06 萬美元上市，年底門市擴至 30／25 家 → 中國品牌往高價旗艦延伸。
+- 印尼：歐盟 FTA 完全實施後 98.5% 稅目免稅、歐洲車最高 50% 關稅 5 年歸零，歐盟每年省約 6 億歐元；寧德時代–IBC 電芯廠據報本月投產 → 印尼「鎳→電芯→整車」垂直鏈加速。
+
+**觀察**：2027-01 泰國 35% 進口 BEV 貨物稅生效後日系 BEV 在地生產時程；歐盟–印尼 FTA 2027 年初暫行適用。
+
+- 參見：[[sources/ev-news-2026-11-24-electrive-en]] | [[sources/ev-news-2026-11-24-cn-misc]] | [[countries/東南亞]] | [[豐田]] | [[小鵬汽車]]
 
 ## Related
 - [[entities/比亞迪]]
