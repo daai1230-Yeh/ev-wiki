@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [stellantis-leapmotor-canada-rejected, us-ev-battery-demand-mismatch, europe-battery-capacity-cuts, stellantis-opel-leapmotor-suv, opel-peugeot-long-range-delay, ev-news-2026-10-02-digitimes, ev-news-2026-10-08-digitimes, ev-news-2026-10-15-electrive-en, ev-news-2026-10-16-electrive-en, ev-news-2026-10-19-electrive-en, ev-news-2026-10-27-digitimes, ev-news-2026-10-27-electrive-en, ev-news-2026-10-29-electrive-en]
-updated: 2026-10-29
+sources: [stellantis-leapmotor-canada-rejected, us-ev-battery-demand-mismatch, europe-battery-capacity-cuts, stellantis-opel-leapmotor-suv, opel-peugeot-long-range-delay, ev-news-2026-10-02-digitimes, ev-news-2026-10-08-digitimes, ev-news-2026-10-15-electrive-en, ev-news-2026-10-16-electrive-en, ev-news-2026-10-19-electrive-en, ev-news-2026-10-27-digitimes, ev-news-2026-10-27-electrive-en, ev-news-2026-10-29-electrive-en, ev-news-2026-11-24b-electrive-en]
+updated: 2026-11-25
 ---
 
 # 斯特蘭蒂斯（Stellantis）
@@ -99,6 +99,22 @@ Bolt與Pony.ai及Stellantis合作；CAM創新排名第10。
 > **結論**：Stellantis E-Cars（Citroën Duck、Fiat Koala，2028年、約1.5萬歐元）之後，Opel可能推出Agila，未獲證實。
 
 - 參見：[[sources/ev-news-2026-10-29-electrive-en]] | [[concepts/歐洲EV市場]]
+
+## 2026-11 動態彙整
+
+> 本月逐批新增的動態；月底合併為一節 RRC 並更新頁首摘要與「簡報三段式」。
+
+### 退出廠隊賽車（2026-11）
+
+> **結論**：Stellantis 退出 Formula E 與 WEC 廠隊（Opel、Citroën 打完 2026/27 季、Peugeot 不報名 2027 WEC），以配合 Fastlane 2030 五年約 600 億歐元投資、2028 年每年省 60 億歐元成本的目標。
+
+**主因**：
+- 成本：提前退出 Formula E（原承諾至 2029/30）仍需協商違約金，WEC 以不報名避開違約 → 顯示集團寧可付退出成本也要縮減非核心支出。
+- 保留：客戶賽車（Rally2／Rally4、Mokka GSE Rally）與高性能街車衍生 → 品牌行銷改走低成本路線。
+
+**觀察**：Formula E 違約金協商結果；Fastlane 2030 成本節省進度。
+
+- 參見：[[sources/ev-news-2026-11-24b-electrive-en]]
 
 ## Related
 - [[entities/零跑汽車]]

@@ -1,6 +1,6 @@
 # Wiki Index
 
-Last updated: 2026-11-24 | Pages: 531 | Sources: 636
+Last updated: 2026-11-25 | Pages: 536 | Sources: 640
 
 ---
 
@@ -97,6 +97,10 @@ Last updated: 2026-11-24 | Pages: 531 | Sources: 636
 - [[sources/ev-news-2026-10-12-digest]] — 中文財經批次8篇：陸混動車輸歐恐砍半、豐田泰國殘值貸款、現代印度1,000萬輛、華德電巴、桃園A21、雙層客運補助縮水、Starlink印度。(2026-10-12)
 - [[sources/ev-news-2026-10-12-digitimes-2]] — Digitimes CarTech補充2篇：豐田、廣汽、一汽三方協議正式簽署、麗升跨足充電樁（註：剪輯檔無單篇網址）。(2026-10-12)
 - [[sources/ev-news-2026-10-12-14-digitimes]] — Digitimes CarTech 9篇：中國新能源車出口退稅2027-04起由13%降至9%（含評析）、歐盟HEV／PHEV年35萬輛配額、LGES大進機械轉單與L&F LFP長約、台灣能管法帶動儲能、寰聖／桓鼎、裕日車估車市42萬輛（全數附原文網址）。(2026-10-14)
+- [[sources/ev-news-2026-11-24b-electrive-en]] — electrive 第二批14篇：ACEA 10月歐盟BEV 279,799輛（+61.4%、市佔29.8%）；歐盟混動配額12-01起200天、中國191,780輛（EREV除外）；Stellantis退出Formula E／WEC；奇瑞Lepas泰國CKD；BASF對寧德時代供正極；Fortum回收樣品（歐洲回收每公斤虧1.90歐元）；Infineon商用車SiC模組；長軸ID. Buzz Cargo量產；Škoda巴士獨立；瑞士VMCV宇通47輛、國道卡車充電82站決標；Exicom擬8,500萬美元售Tritium；福斯€1,995 V2G。(2026-11-24)
+- [[sources/ev-news-2026-11-02-24-sustainablebus]] — Sustainable Bus 11月補錄25篇：德國2027電巴補助4.03→1.3億歐元確認；Karsan首張無軌電車單（Bologna 35+35）、Rampini×申沃；Frankfurt零排放26%、營運成本低40%；BYD C12 DUO；JBM新加坡亞太總部；Verona無軌電車通電測試；SONGZ贊助稿。(2026-11-25)
+- [[sources/ev-news-2026-10-01-30-sustainablebus]] — Sustainable Bus 10月補錄48篇：McKinsey歐洲市區公車零排放51%、中國約28%；ACEA中國品牌32%、巴士逆差29億歐元；Solaris／VinFast／COR Transit／ZAVIR卡位美國；JBM FY上半年892輛（約24%）；米蘭ATM 110輛Karsan；Fuso Bus（鴻海50%）營運；晶睿APTA聯展。(2026-11-25)
+- [[sources/ev-news-2026-09-01-30-sustainablebus]] — Sustainable Bus 9月補錄46篇：Switch Mobility孟買浦那650輛＋德里840輛、印度上半年電巴2,944輛（+40%）；LA Metro×ENC 220輛3.377億美元；歐盟公共採購「歐洲優先」草案；宇通U18 BRT與挪威服務中心；美國零排放公車8,116輛（+16%）；TSA贊助稿。(2026-11-25)
 - [[sources/ev-news-2026-11-24-electrive-en]] — electrive 15篇：歐盟理事會放棄企業車隊EV強制配額；EREV不受35萬輛混動配額限制（繳最高35.3%反補貼稅）；歐盟–印尼FTA每年省約6億歐元；ID. Polo等待逾一年、四車訂單約15萬；Opel–零跑C-SUV；BMW iX4量產；海牙法院禁Ti7歐盟銷售；賓士KBA點對點L2核准；Cylib收購BASF回收；Adani 410輛電動重卡；TruckCharge併Milence；Electra儲能；Siemens MW直流接觸器；Solaris氫巴。(2026-11-24)
 - [[sources/ev-news-2026-11-24-insideevs]] — InsideEVs 4篇：FSD V15 Reality View（25倍為原廠宣稱）；BMW iX5 0%後再跑21.8英里（可用144 kWh）；賓士GLA Electric 85 kWh、WLTP 657 km；Ioniq 5保養（贊助內容）。(2026-11-24)
 - [[sources/ev-news-2026-11-24-digitimes]] — Digitimes 2篇：小鵬2027海外目標約20萬輛、歐洲占五成；記憶體漲逾400%、Tesla AI4車載電腦成本翻倍。(2026-11-24)
@@ -690,6 +694,7 @@ Last updated: 2026-11-24 | Pages: 531 | Sources: 636
 - [[entities/小米汽車]] — 中國科技巨頭旗下 EV 品牌，2027 年目標進軍歐洲。
 - [[entities/比亞迪]] — 中國最大 NEV 廠，全球電動巴士最大生產商，海鷗為出口主力。
 - [[entities/奇瑞]] — 中國老牌自主車廠，QQ3 直接挑戰比亞迪海鷗。
+- [[entities/宇通]] — 中國客車廠，歐洲最大純電巴士供應商（2026上半年1,636輛），挪威設歐洲服務中心、瑞士VMCV 47輛框架。
 - [[entities/零跑汽車]] — 中國 EV 新創，Stellantis 持股 20%，嘗試借道進入北美。
 - [[entities/Polestar]] — 瑞典吉利旗下電動車品牌，2027年式起美國禁售（Connected Vehicle Rule），業務重心轉歐洲。
 - [[entities/現代汽車]] — 韓國最大整車廠，Pleos SDV OS、Atria AI 自駕；2026 H1 南韓 EV 市場跌至第三（被 Tesla/起亞超越）。

@@ -2717,3 +2717,19 @@ Pages 375 → 406，Sources 315 → 346
 - 發現: 中國增程車找到進歐「快車道」：歐中 10 月談定的混動配額首年 35 萬輛、年增 6%，但增程車依 2024/2754 歸入純電稅號，不受數量上限、只繳最高 35.3% 反補貼稅；零跑 B10／C10、小鵬 L03 Reev、極氪 9X 已在德國布局，而比亞迪 Ti7 同時遭海牙法院假處分禁止在歐盟銷售與匈牙利生產——中國車進歐的門檻正由關稅轉向配額口徑與智財權。
 - 發現: 智駕法規與成本兩頭變化：賓士 MB.Drive Assist Pro 獲德國 KBA 依 UN R171 核准，成為德國首個點對點 L2，比 BMW 城市版（2027 年初）早、Tesla 至今未獲德國承認；另一端 Musk 證實記憶體自 2024 年初漲逾 400%，讓 Tesla AI4 車載電腦物料成本翻倍——智駕模型越大，記憶體成本越吃毛利。
 - 甜點: 對台灣而言，記憶體漲價讓車載運算成本壓力由晶片轉到 DRAM／NAND，十銓等模組廠警告 2027 年短缺更嚴峻，車規記憶體與長約供貨是台廠可切入的縫隙；泰國同步推泰日功率半導體與感測器合作，接下來要追 12 月歐洲議會 CO2 法規表決、2027-01 R171 生效後各國核准節奏，以及 ID. Polo 三班制能否在 2027 上半年把等待縮回半年內。
+
+## [2026-11-25] ingest | EV News 2026-11-24 electrive 第二批＋Sustainable Bus 9–11 月補錄（133篇原文，4個來源摘要頁）
+- Summary pages: [[sources/ev-news-2026-11-24b-electrive-en]]、[[sources/ev-news-2026-09-01-30-sustainablebus]]、[[sources/ev-news-2026-10-01-30-sustainablebus]]、[[sources/ev-news-2026-11-02-24-sustainablebus]]
+- Raw assets: raw/assets/2026-11-24-*（electrive 14篇）、raw/assets/2026-09-01～2026-11-24 Sustainable Bus 摘要索引檔 118 篇＋Verona 全文 1 篇，清單見 tools/ingest/out/new.json
+- Pages updated (concepts): [[concepts/歐洲EV市場]]、[[concepts/中國EV出海策略]]、[[concepts/電動巴士市場]]、[[concepts/充電基礎建設]]、[[concepts/電動卡車市場]]、[[concepts/電池回收]]、[[concepts/車用半導體供應鏈]]、[[concepts/電動商用車]]、[[concepts/自動駕駛安全監管]]、[[concepts/台灣電動車供應鏈廠商]]
+- Pages updated (entities): [[entities/Stellantis]]、[[entities/Volkswagen]]、[[entities/奇瑞]]、[[entities/比亞迪]]、[[entities/寧德時代]]、[[entities/Solaris]]
+- Countries updated: [[countries/歐洲]]、[[countries/德國]]、[[countries/英國]]、[[countries/東南亞]]、[[countries/印度]]、[[countries/美國]]
+- New pages created: [[entities/宇通]]（已出現在 16 個來源頁）
+- Key additions: ACEA 10 月歐盟 BEV 279,799 輛（+61.4%、29.8%）；歐盟混動配額 12-01 起 200 天、中國 191,780 輛並適用日韓土墨；泰國 CKD（奇瑞 Lepas）；瑞士國道卡車充電 32 處 82 站；Fortum 回收與 Safeloop 每公斤虧 1.90 歐元；Infineon 300 mm SiC；歐洲電巴中國品牌約三成與「歐洲優先」採購草案；印度 Switch／JBM 雙強；美國公車回到多動力；德國 2027 電巴補助 -68% 確認；台灣供應鏈頁鴻海列更新 Fuso Bus 11-02 營運、觀察名單新增晶睿（APTA 聯展）。
+- 待核對: 新增「歐洲電動巴士中國品牌占比（2025）」（McKinsey 約 28% vs ACEA 32%，口徑差異）、「上汽（MG）歐盟掛牌月份」（疑誤植）。
+- 備註: Sustainable Bus 118 篇為 11-25 補抓的 9–11 月摘要索引檔，其中十餘則已由 electrive／bus digest 收錄（LA Metro、FlixBus、Bee Network、Fuso Bus、塔塔 Iveco、BYD C12、MINGA、Pescara、維爾紐斯機場、Volgren、Zenobē 德國），來源頁已標「同一事件見」，只補新資訊。「!」：TSA、SONGZ 為贊助內容，Otokar Alpbach 為廠商展示稿，Arriva 執行長投書為觀點稿，均未用於 concept 數字。dedupe「D」35 篇重複未 ingest；晶睿上市櫃別 ARTC 名單查無，已註記待核對。
+- 坡道: 歐盟 10 月每 10 輛新車就有 3 輛是純電，279,799 輛、年增 61.4%——但同一週，歐盟也正式關上中國油電車的大門：12 月 1 日起 200 天只放 191,780 輛。電動放行、混動設限，歐洲車市的進口規則正在重劃。
+- 發現: 歐盟 10 月 BEV 市佔 29.8%、年增 61.4%，明顯快於年初至今的 +50%；汽柴油合計市佔由去年 36.5% 降至 27.7%，德法兩國 BEV 各年增約六成與八成 → 純電吃下的主要是燃油車的份額，歐洲車廠 CO2 合規壓力可望緩解。
+- 發現: 混動配額 12-01 上路，中國 200 天上限 191,780 輛（由年 35 萬輛折算），涵蓋 PHEV、HEV、MHEV，並一體適用日本、韓國、土耳其、墨西哥；增程車仍歸純電稅號、不受數量限制 → 10 月比亞迪（+128%）、奇瑞（+185%）的高成長得轉向純電與增程車延續，日系油電車進口也受牽制。
+- 發現: 歐洲電動巴士：McKinsey 估市區公車零排放已占 51%、中國車廠約三成，宇通上半年 1,636 輛居冠並在挪威設服務中心、瑞士再拿下最多 47 輛框架；歐盟則以公共採購法草案納入「歐洲優先」反制，但德國 2027 年電巴補助由 4.03 億砍到 1.3 億歐元（-68%）→ 歐洲本土需求放緩與中國品牌在地化同時發生。
+- 甜點: 對台灣而言，歐洲巴士市場正在拉高「在地服務與歐洲製造」門檻，國產電巴若要出海，鴻海與三菱扶桑各半持股、11 月 2 日營運的 Fuso Bus 是第一個實際落地的合資樣板；接下來追蹤 12 月下旬 ACEA 11 月數據能否守住三成，以及配額首期中國 PHEV 進歐是否降溫。
