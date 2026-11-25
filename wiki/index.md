@@ -1,6 +1,6 @@
 # Wiki Index
 
-Last updated: 2026-11-25 | Pages: 536 | Sources: 640
+Last updated: 2026-11-25 | Pages: 539 | Sources: 643
 
 ---
 
@@ -97,6 +97,9 @@ Last updated: 2026-11-25 | Pages: 536 | Sources: 640
 - [[sources/ev-news-2026-10-12-digest]] — 中文財經批次8篇：陸混動車輸歐恐砍半、豐田泰國殘值貸款、現代印度1,000萬輛、華德電巴、桃園A21、雙層客運補助縮水、Starlink印度。(2026-10-12)
 - [[sources/ev-news-2026-10-12-digitimes-2]] — Digitimes CarTech補充2篇：豐田、廣汽、一汽三方協議正式簽署、麗升跨足充電樁（註：剪輯檔無單篇網址）。(2026-10-12)
 - [[sources/ev-news-2026-10-12-14-digitimes]] — Digitimes CarTech 9篇：中國新能源車出口退稅2027-04起由13%降至9%（含評析）、歐盟HEV／PHEV年35萬輛配額、LGES大進機械轉單與L&F LFP長約、台灣能管法帶動儲能、寰聖／桓鼎、裕日車估車市42萬輛（全數附原文網址）。(2026-10-14)
+- [[sources/ev-news-2026-11-25-digitimes]] — Digitimes 6篇：比亞迪洽購英力士法國Hambach廠（近900人）；歐盟IAA修正案擴及英瑞EEA仍排除日製EV；中國ESS規劃產能近2,000 GWh、海外訂單2025年366 GWh（+144%）、電池出口退稅9%→6%→0；SpaceX–Tesla 5名獨立董事談判、Tesla須逾半數票；南韓FKI估2030年EV出口減2.2兆韓元；比亞迪南韓售後（AI協作稿、同一事件）。(2026-11-25)
+- [[sources/ev-news-2026-11-25-insideevs]] — InsideEVs 3篇：紐約州禁止內建硬體訂閱收費（FSD除外）；黑色星期五EV折扣（Polestar 3／4折2.5萬美元）；感恩節充電建議。(2026-11-25)
+- [[sources/ev-news-2026-11-25-sustainablebus]] — Sustainable Bus 2篇：比亞迪C12 DUO英國目標3年TCO低於柴油、12張訂單2027-04交車；ABB收購Ziehl-Abegg（ZAwheel輪轂電驅）。(2026-11-25)
 - [[sources/ev-news-2026-11-24b-electrive-en]] — electrive 第二批14篇：ACEA 10月歐盟BEV 279,799輛（+61.4%、市佔29.8%）；歐盟混動配額12-01起200天、中國191,780輛（EREV除外）；Stellantis退出Formula E／WEC；奇瑞Lepas泰國CKD；BASF對寧德時代供正極；Fortum回收樣品（歐洲回收每公斤虧1.90歐元）；Infineon商用車SiC模組；長軸ID. Buzz Cargo量產；Škoda巴士獨立；瑞士VMCV宇通47輛、國道卡車充電82站決標；Exicom擬8,500萬美元售Tritium；福斯€1,995 V2G。(2026-11-24)
 - [[sources/ev-news-2026-11-02-24-sustainablebus]] — Sustainable Bus 11月補錄25篇：德國2027電巴補助4.03→1.3億歐元確認；Karsan首張無軌電車單（Bologna 35+35）、Rampini×申沃；Frankfurt零排放26%、營運成本低40%；BYD C12 DUO；JBM新加坡亞太總部；Verona無軌電車通電測試；SONGZ贊助稿。(2026-11-25)
 - [[sources/ev-news-2026-10-01-30-sustainablebus]] — Sustainable Bus 10月補錄48篇：McKinsey歐洲市區公車零排放51%、中國約28%；ACEA中國品牌32%、巴士逆差29億歐元；Solaris／VinFast／COR Transit／ZAVIR卡位美國；JBM FY上半年892輛（約24%）；米蘭ATM 110輛Karsan；Fuso Bus（鴻海50%）營運；晶睿APTA聯展。(2026-11-25)

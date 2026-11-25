@@ -1,7 +1,7 @@
 ---
 tags: [concept]
-sources: [gm-ford-q1-2026-sales, us-ev-battery-demand-mismatch, rivian-r2-range-specs, vw-id4-chattanooga-stop, tesla-25k-ev-us-price-parity, slate-auto-ev-pickup, ford-ev-restructure-doug-field, vw-id4-us-writedown, tesla-q1-2026-earnings, gm-ev-delay-detroit-three, nissan-mississippi-ev-abandonment, honda-canada-ev-freeze-2026, tesla-model-s-final-production, mazda-ev-delay-2029, ford-catl-michigan-factory-2026, honda-9b-loss-hybrid-pivot-2026, tesla-model-y-price-bump-2026, congress-ev-annual-fee-2026, rivian-r2-deliveries-2026, chevy-bolt-2027-review, 駐外新聞-美國-2025, ev-news-2026-09-18-digest, ev-news-2026-09-20-digest, ev-news-2026-09-22-electrive-en, ev-news-2026-09-26-electrive-en, ev-news-2026-09-28-digest, ev-news-2026-10-05-digitimes, ev-news-2026-10-07-electrive-en, ev-news-2026-10-22-insideevs, ev-news-2026-10-27-digitimes, ev-news-2026-10-27-electrive-en, ev-news-2026-10-27-insideevs, ev-news-2026-10-29-insideevs, ev-news-2026-10-30-electrive-en, ev-news-2026-10-30-insideevs, ev-news-2026-11-02-electrive-en, ev-news-2026-11-02-digitimes, ev-news-2026-11-04-insideevs, ev-news-2026-11-04-digitimes, ev-news-2026-11-06-insideevs, ev-news-2026-11-06-digitimes, ev-news-2026-11-09-cn-misc, ev-news-2026-11-11-electrive-en, ev-news-2026-11-11-digitimes, ev-news-2026-11-11-insideevs, ev-news-2026-11-11b-insideevs, ev-news-2026-11-11b-digitimes, ev-news-2026-11-12-digitimes, ev-news-2026-11-16-digitimes, ev-news-2026-11-16-cn-misc, ev-news-2026-11-17-electrive-en, ev-news-2026-11-17-digitimes, ev-news-2026-11-19b-insideevs, ev-news-2026-11-19b-cn-misc, ev-news-2026-11-19-digitimes, ev-news-2026-11-23b-cn-misc, ev-news-2026-11-23-digitimes]
-updated: 2026-11-23
+sources: [gm-ford-q1-2026-sales, us-ev-battery-demand-mismatch, rivian-r2-range-specs, vw-id4-chattanooga-stop, tesla-25k-ev-us-price-parity, slate-auto-ev-pickup, ford-ev-restructure-doug-field, vw-id4-us-writedown, tesla-q1-2026-earnings, gm-ev-delay-detroit-three, nissan-mississippi-ev-abandonment, honda-canada-ev-freeze-2026, tesla-model-s-final-production, mazda-ev-delay-2029, ford-catl-michigan-factory-2026, honda-9b-loss-hybrid-pivot-2026, tesla-model-y-price-bump-2026, congress-ev-annual-fee-2026, rivian-r2-deliveries-2026, chevy-bolt-2027-review, 駐外新聞-美國-2025, ev-news-2026-09-18-digest, ev-news-2026-09-20-digest, ev-news-2026-09-22-electrive-en, ev-news-2026-09-26-electrive-en, ev-news-2026-09-28-digest, ev-news-2026-10-05-digitimes, ev-news-2026-10-07-electrive-en, ev-news-2026-10-22-insideevs, ev-news-2026-10-27-digitimes, ev-news-2026-10-27-electrive-en, ev-news-2026-10-27-insideevs, ev-news-2026-10-29-insideevs, ev-news-2026-10-30-electrive-en, ev-news-2026-10-30-insideevs, ev-news-2026-11-02-electrive-en, ev-news-2026-11-02-digitimes, ev-news-2026-11-04-insideevs, ev-news-2026-11-04-digitimes, ev-news-2026-11-06-insideevs, ev-news-2026-11-06-digitimes, ev-news-2026-11-09-cn-misc, ev-news-2026-11-11-electrive-en, ev-news-2026-11-11-digitimes, ev-news-2026-11-11-insideevs, ev-news-2026-11-11b-insideevs, ev-news-2026-11-11b-digitimes, ev-news-2026-11-12-digitimes, ev-news-2026-11-16-digitimes, ev-news-2026-11-16-cn-misc, ev-news-2026-11-17-electrive-en, ev-news-2026-11-17-digitimes, ev-news-2026-11-19b-insideevs, ev-news-2026-11-19b-cn-misc, ev-news-2026-11-19-digitimes, ev-news-2026-11-23b-cn-misc, ev-news-2026-11-23-digitimes, ev-news-2026-11-25-insideevs]
+updated: 2026-11-25
 ---
 
 # 美國 EV 市場與政策
@@ -647,6 +647,18 @@ Q3美國BEV銷量年減39.5%（Cox／KBB）；德系車8月BEV榜名次落後；
 **觀察**：11–12 月銷量與庫存天數；國會 12 月表決中國車禁售法案。
 
 - 參見：[[sources/ev-news-2026-11-23b-cn-misc]] | [[sources/ev-news-2026-11-23-digitimes]] | [[concepts/北美EV關稅與政策]] | [[entities/福特]]
+
+### 黑色星期五五位數折扣、紐約禁止硬體訂閱（2026-11）
+
+> **結論**：聯邦抵免取消後首個年終檔期，車廠改以自有資金給出最高 2.5 萬美元現金折扣去化 EV 庫存；紐約州同時立法限制「已內建硬體」的訂閱收費，壓縮車廠軟體加值營收。
+
+**主因**：
+- 折扣深度：Polestar 3／4（2025 年款）折 2.5 萬美元、Lucid Gravity 1.5 萬美元、Kia EV9／Niro EV、福斯 ID.4 各 1 萬美元，相當於過去 7,500 美元聯邦抵免的 1.3–3.3 倍 → 2025 年款仍在折價，顯示庫存去化壓力，車廠毛利承壓。
+- 訂閱法規：紐約禁止對無持續成本的內建硬體收週期費，排除駕駛輔助、連網、導航更新等 → 座椅加熱類解鎖收費退場，SDV 營收須轉向真正有服務成本的項目。
+
+**觀察**：4Q26 美國 EV 交車量與平均成交價（Cox／KBB 12 月數據）；其他州是否跟進紐約法案。
+
+- 參見：[[sources/ev-news-2026-11-25-insideevs]] | [[countries/美國]] | [[entities/Polestar]] | [[entities/Lucid]]
 
 ## Related
 - [[entities/豐田]]
