@@ -1,6 +1,6 @@
 # Wiki Index
 
-Last updated: 2026-11-25 | Pages: 539 | Sources: 643
+Last updated: 2026-11-27 | Pages: 542 | Sources: 645
 
 ---
 
@@ -97,6 +97,8 @@ Last updated: 2026-11-25 | Pages: 539 | Sources: 643
 - [[sources/ev-news-2026-10-12-digest]] — 中文財經批次8篇：陸混動車輸歐恐砍半、豐田泰國殘值貸款、現代印度1,000萬輛、華德電巴、桃園A21、雙層客運補助縮水、Starlink印度。(2026-10-12)
 - [[sources/ev-news-2026-10-12-digitimes-2]] — Digitimes CarTech補充2篇：豐田、廣汽、一汽三方協議正式簽署、麗升跨足充電樁（註：剪輯檔無單篇網址）。(2026-10-12)
 - [[sources/ev-news-2026-10-12-14-digitimes]] — Digitimes CarTech 9篇：中國新能源車出口退稅2027-04起由13%降至9%（含評析）、歐盟HEV／PHEV年35萬輛配額、LGES大進機械轉單與L&F LFP長約、台灣能管法帶動儲能、寰聖／桓鼎、裕日車估車市42萬輛（全數附原文網址）。(2026-10-14)
+- [[sources/ev-news-2026-11-25-cn-misc]] — CnEVPost 10篇：乘聯會11/1–22 NEV零售70.2萬輛（年減13%）、滲透率71.3%；理想3Q26營收288億元優於指引、預期4Q轉盈、改款週期拉長至2年；蔚來NWM 3.0與2030萬座換電站；小鵬VLA 3.0、Iron 2027-01量產、2Q27智駕訂閱；比亞迪第三代唐18.79萬元起、方程豹鈦12-02上市；吉利銀河M8預售；歐盟混動配額日本170,889輛。(2026-11-25)
+- [[sources/ev-news-2026-11-26-sustainablebus]] — Sustainable Bus 2篇：Iveco Bus新一代NMC電池單包69→80 kWh、續航+100 km、2Q27交車；Solaris城際零排放平台定名Internova、延至2027秋Busworld首發。(2026-11-26)
 - [[sources/ev-news-2026-11-25-digitimes]] — Digitimes 6篇：比亞迪洽購英力士法國Hambach廠（近900人）；歐盟IAA修正案擴及英瑞EEA仍排除日製EV；中國ESS規劃產能近2,000 GWh、海外訂單2025年366 GWh（+144%）、電池出口退稅9%→6%→0；SpaceX–Tesla 5名獨立董事談判、Tesla須逾半數票；南韓FKI估2030年EV出口減2.2兆韓元；比亞迪南韓售後（AI協作稿、同一事件）。(2026-11-25)
 - [[sources/ev-news-2026-11-25-insideevs]] — InsideEVs 3篇：紐約州禁止內建硬體訂閱收費（FSD除外）；黑色星期五EV折扣（Polestar 3／4折2.5萬美元）；感恩節充電建議。(2026-11-25)
 - [[sources/ev-news-2026-11-25-sustainablebus]] — Sustainable Bus 2篇：比亞迪C12 DUO英國目標3年TCO低於柴油、12張訂單2027-04交車；ABB收購Ziehl-Abegg（ZAwheel輪轂電驅）。(2026-11-25)
@@ -672,6 +674,7 @@ Last updated: 2026-11-25 | Pages: 539 | Sources: 643
 ---
 
 ## Entities（實體）
+- [[entities/Iveco]] — 義大利商用車集團，Iveco Bus／Heuliez 歐洲電巴第二大；2026-10 塔塔取得約89.42%；2026-11 電池單包升至80 kWh。
 - [[entities/Solaris]] — 波蘭巴士廠（CAF 集團），歐洲電巴前三，純電／氫巴／無軌電車三路線，歐洲逾 900 輛氫巴。
 - [[entities/Cylib]] — 德國亞琛電池回收新創，水基製程回收約 90%，2026-11 收購 BASF 歐美回收業務。
 

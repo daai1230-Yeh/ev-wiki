@@ -1,7 +1,7 @@
 ---
 tags: [entity]
-sources: [ev-news-2026-11-24-electrive-en, ev-news-ebus-2026-06-17-30, ev-news-2026-09-01-electrive-en, ev-news-2026-09-02-electrive-en, ebus-global-jun2026, ev-news-2026-10-01-30-sustainablebus, ev-news-2026-11-02-24-sustainablebus]
-updated: 2026-11-25
+sources: [ev-news-2026-11-24-electrive-en, ev-news-ebus-2026-06-17-30, ev-news-2026-09-01-electrive-en, ev-news-2026-09-02-electrive-en, ebus-global-jun2026, ev-news-2026-10-01-30-sustainablebus, ev-news-2026-11-02-24-sustainablebus, ev-news-2026-11-26-sustainablebus]
+updated: 2026-11-27
 ---
 
 # Solaris
@@ -42,6 +42,18 @@ updated: 2026-11-25
 **觀察**：11-26 城際車規格；Elmira 在地化投資公告。
 
 - 參見：[[sources/ev-news-2026-10-01-30-sustainablebus]] | [[sources/ev-news-2026-11-02-24-sustainablebus]] | [[電動巴士市場]] | [[countries/美國]]
+
+### 城際零排放平台定名 Internova、延至 2027 秋首發（2026-11）
+
+> **結論**：Solaris 新城際平台定名 Internova（接替 Interurbino），純電＋氫燃料電池雙動力、三種車長，但上市由原訂 2026 年延至 2027 秋 Busworld，城際新廠 2029 年才投產。
+
+**主因**：
+- 規模：2025 年交車 1,631 輛、營收 11.8 億歐元 → 城際平台是其由市區巴士延伸至區域運輸的成長引擎。
+- 競爭：Iveco 城際市佔約 65%，且 Crossway Elec 已升級 80 kWh 電池包 → Internova 晚一年進場，須以雙動力與無障礙／行李艙雙車身配置差異化。
+
+**觀察**：Busworld 2027 公布的電池容量、儲氫量與續航；Środa Wielkopolska 新廠投資金額。
+
+- 參見：[[sources/ev-news-2026-11-26-sustainablebus]] | [[concepts/電動巴士市場]] | [[Iveco]]
 
 ## Related
 - [[concepts/電動巴士市場]]

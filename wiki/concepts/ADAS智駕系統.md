@@ -1,58 +1,58 @@
 ---
 tags: [concept]
-sources: [byd-dipilot-adas-2026, robotaxi-market-2026, toyota-adas-vs-fsd-subscription, hyundai-pleos-sdv-os, in-cabin-ai-sensing-2026, l2plus-adas-adoption-2026, rivian-lidar-china-partner-2026, hyundai-kia-atria-ai-gwangju-2026, hesai-color-lidar-2026, ev-news-digest-jun1-10-2026, ev-news-2026-06-27-29-en, ev-news-2026-06-30-07-01, ev-news-2026-06-29-zh, ev-news-2026-07-02, ev-news-2026-07-03-08, ev-news-2026-07-09, ev-news-2026-07-21-22-digitimes, ev-news-2026-07-22-23-electrive-en, ev-news-2026-08-24-digitimes, ev-news-2026-08-27-digitimes, ev-news-2026-08-28-digitimes, ev-news-2026-08-30-31-cn-misc, ev-news-2026-09-07-08-digitimes, ev-news-2026-09-08-electrive-en, ev-news-2026-09-09-digitimes, ev-news-2026-09-11-digitimes, ev-news-2026-09-15-digitimes, ev-news-2026-09-16-digitimes, ev-news-2026-09-18-digest, ev-news-2026-09-19-digest, ev-news-2026-09-18-electrive-en, ev-news-2026-09-22-digest, ev-news-2026-09-23-electrive-en, ev-news-2026-10-01-digitimes, ev-news-2026-10-01-electrive-en, ev-news-2026-10-05-digitimes, ev-news-2026-10-12-digitimes, ev-news-2026-10-16-digitimes, ev-news-2026-10-19-digest, ev-news-2026-10-20-digitimes, ev-news-2026-10-20-insideevs, ev-news-2026-10-22-digitimes, ev-news-2026-10-27-digitimes-tesla, ev-news-2026-10-27-digitimes, ev-news-2026-10-27-insideevs, ev-news-2026-10-29-electrive-en, ev-news-2026-10-29-insideevs, ev-news-2026-10-29-digitimes, ev-news-2026-10-30-electrive-en, ev-news-2026-10-30-digitimes, ev-news-2026-11-17-insideevs, ev-news-2026-11-17-digitimes, ev-news-2026-11-17-electrive-en, ev-news-2026-11-19-electrive-en, ev-news-2026-11-19-digitimes, ev-news-2026-11-19b-cn-misc, ev-news-2026-11-23b-cn-misc, ev-news-2026-11-23-digitimes, ev-news-2026-11-24-electrive-en, ev-news-2026-11-24-insideevs, ev-news-2026-11-24-digitimes]
-updated: 2026-11-24
+sources: [byd-dipilot-adas-2026, robotaxi-market-2026, toyota-adas-vs-fsd-subscription, hyundai-pleos-sdv-os, in-cabin-ai-sensing-2026, l2plus-adas-adoption-2026, rivian-lidar-china-partner-2026, hyundai-kia-atria-ai-gwangju-2026, hesai-color-lidar-2026, ev-news-digest-jun1-10-2026, ev-news-2026-06-27-29-en, ev-news-2026-06-30-07-01, ev-news-2026-06-29-zh, ev-news-2026-07-02, ev-news-2026-07-03-08, ev-news-2026-07-09, ev-news-2026-07-21-22-digitimes, ev-news-2026-07-22-23-electrive-en, ev-news-2026-08-24-digitimes, ev-news-2026-08-27-digitimes, ev-news-2026-08-28-digitimes, ev-news-2026-08-30-31-cn-misc, ev-news-2026-09-07-08-digitimes, ev-news-2026-09-08-electrive-en, ev-news-2026-09-09-digitimes, ev-news-2026-09-11-digitimes, ev-news-2026-09-15-digitimes, ev-news-2026-09-16-digitimes, ev-news-2026-09-18-digest, ev-news-2026-09-19-digest, ev-news-2026-09-18-electrive-en, ev-news-2026-09-22-digest, ev-news-2026-09-23-electrive-en, ev-news-2026-10-01-digitimes, ev-news-2026-10-01-electrive-en, ev-news-2026-10-05-digitimes, ev-news-2026-10-12-digitimes, ev-news-2026-10-16-digitimes, ev-news-2026-10-19-digest, ev-news-2026-10-20-digitimes, ev-news-2026-10-20-insideevs, ev-news-2026-10-22-digitimes, ev-news-2026-10-27-digitimes-tesla, ev-news-2026-10-27-digitimes, ev-news-2026-10-27-insideevs, ev-news-2026-10-29-electrive-en, ev-news-2026-10-29-insideevs, ev-news-2026-10-29-digitimes, ev-news-2026-10-30-electrive-en, ev-news-2026-10-30-digitimes, ev-news-2026-11-17-insideevs, ev-news-2026-11-17-digitimes, ev-news-2026-11-17-electrive-en, ev-news-2026-11-19-electrive-en, ev-news-2026-11-19-digitimes, ev-news-2026-11-19b-cn-misc, ev-news-2026-11-23b-cn-misc, ev-news-2026-11-23-digitimes, ev-news-2026-11-24-electrive-en, ev-news-2026-11-24-insideevs, ev-news-2026-11-24-digitimes, ev-news-2026-11-25-cn-misc]
+updated: 2026-11-27
 ---
 
 # ADAS 智駕系統（Advanced Driver Assistance System）
 
 先進駕駛輔助系統是 EV 差異化競爭的核心戰場，2026 年競爭重心從硬體部署轉向軟體能力與數據迭代效率。
 
-## 簡報三段式（更新：2026-11-23）
+## 簡報三段式（更新：2026-11-27）
 
 > 演講或簡報前的備課卡，依《高效演講》的「坡道—發現—甜點」結構，以可直接講出口的段落寫成；講稿口吻依 [[templates/逐字稿專家口吻指南]]。數字引用前請查 [[待核對清單]]。
 
 ### 坡道（開場：為什麼聽眾要在乎）
 
-Tesla 監督版 FSD 全球大約 174 萬用戶、創造約 21 億美元訂閱營收——歐美車廠因此紛紛放棄 L3，改打可以收月費的 L2+。同一時間在中國，LiDAR 加城區導航已經配到 12 萬元人民幣的增程 SUV 上。對業界朋友來說，智駕的商業模式正在定型：高階市場賣訂閱，中國市場把硬體做成標配。對新人來說，先分清楚 L2+ 和 L3：差別在出事時責任歸誰。
+智駕過去比的是誰的光達多、算力大，但本週小鵬宣布 2Q27 起全球新車主要付費訂閱智駕——依據是上線首月輔助駕駛里程占比已超過五成。當消費者真的在用，智駕就從購車附贈變成可以收錢的軟體。業界要看的是軟體收入能否撐起毛利；新人先記住：L2 和 L3 的差別在「出事誰負責」，而不是功能多寡。
 
-**一句話主題**：智駕的競爭已經從「誰的硬體多」轉成「誰的軟體能收費、誰能把硬體成本壓到標配」。
+**一句話主題**：智駕競爭已從「誰的硬體多」轉成「誰的軟體能收費、誰能把成本壓下來」。
 
 ### 發現（主體：三個核心觀點）
 
-#### 一、L2+ 訂閱戰：歐美車廠棄守 L3
+#### 一、中國新勢力：比效率、比變現
 
-FSD 約 174 萬用戶、約 21 億美元訂閱營收，成為各家對標的商業模式。賓士把 Drive Assist 拆成兩段：時速 130 公里以下的高速公路放手駕駛加主動變換車道，2026 年底德國、2027 年美國上市；城市點對點的 MB.DRIVE ASSIST PRO 則在 2027 年。重點是責任仍在駕駛——這是 L2+，不是 L3，車廠用它換取更快上市與更低法律風險。
+蔚來 NWM 3.0 把注意力運算需求降 36 倍、接管次數降 40%，12 月起送審；小鵬 VLA 2.0 上線後中國事故理賠率降 13.93%，2Q27 起改付費訂閱，並把蒸餾版推送到雙 Orin-X 舊車。智駕軟體開始延長硬體壽命、也開始收錢。
 
-- 建議圖表：Tesla FSD vs 賓士 Drive Assist 功能與上市時程｜來源：本頁 2026-11 動態彙整、[[sources/ev-news-2026-11-19-digitimes]]
+- 建議圖表：中國新勢力智駕收費模式對照表｜來源：[[sources/ev-news-2026-11-25-cn-misc]]
 
-#### 二、中國把 LiDAR 與城區導航做成平價標配
+#### 二、歐美：以法規核准對抗純視覺
 
-奇瑞 iCar V25 限時 11.98 萬元人民幣起，配 1 顆 LiDAR 和地平線征程 6P 晶片（560 TOPS），支援城區與高速導航輔助；零跑 Lafa 5 改款 10.58 萬元起，配 LiDAR 加高通 8650；比亞迪方程豹鈦 9 全系標配 LiDAR。上游的禾賽第三季 LiDAR 出貨 729,673 顆、營收年增 34.3%，連 6 季獲利，但港股仍接近歷史低點——量起來了，價格壓力也跟著來。
+賓士 MB.Drive Assist Pro 成為德國首個依 UN R171 核准的點對點輔助駕駛，早於 BMW（2027 年初）；Tesla FSD V15 參數擴至約 100 億、僅支援 HW4（改善倍數為原廠宣稱）。小鵬 11 月巴黎門市開放 NGP 試乘，歐洲城市 L2 競爭擴及中國品牌。
 
-- 建議圖表：中國 10–15 萬元車款智駕配置比較｜來源：[[sources/ev-news-2026-11-23-cn-misc]]、[[sources/ev-news-2026-11-19b-cn-misc]]
+- 建議圖表：R171 核准時程比較（賓士／BMW／Tesla／小鵬）｜來源：[[sources/ev-news-2026-11-24-electrive-en]]、[[sources/ev-news-2026-11-24-insideevs]]
 
-#### 三、商用車與在地化 ADAS 是台廠切入點
+#### 三、成本：記憶體與線控底盤成新變數
 
-乘用車的主控晶片和演算法，台廠很難切進去，但商用車是另一回事。奇美車電把 AI 運算直接做進攝影機，不用另外裝大型電腦，車隊可以先裝法規要求的必要攝影機，再依預算逐步加功能，前裝後裝都可以；目前已經和多家台灣電動巴士業者合作，海外鎖定德國後裝和北美、日本商用車。大客車盲區大、對成本敏感，分階段導入比一次裝整套更容易賣。
+Musk 證實記憶體漲價使 AI4 車載電腦成本高出一倍（記憶體自 2024 年初漲逾 400%）；比亞迪方程豹量產折疊方向盤、第三代唐首搭線控轉向與線控煞車，中國新國標 2026-07 起放寬機械連結。智駕成本正從晶片擴散到記憶體與底盤。
 
-- 建議圖表：商用車 ADAS 分階段導入示意｜來源：[[sources/ev-news-2026-11-17-digitimes]]
+- 建議圖表：車載運算 BOM 中記憶體占比示意｜來源：[[sources/ev-news-2026-11-24-digitimes]]、[[sources/ev-news-2026-11-23b-cn-misc]]
 
 ### 甜點（結尾：留下什麼）
 
-把三個發現放在一起：歐美賣軟體、中國賣硬體標配，兩條路都在把智駕推向大眾市場，而真正的差異化會落在法規通過與軟體迭代速度。接下來要追：賓士高速放手功能 2026 年底在德國的實際上市、中國城區導航輔助下放到 10 萬元級後的事故與監管反應，以及 LiDAR 單價還能降多少。
+智駕的下一場仗是商業模式：誰能收費、誰能降本。接下來看 2027-01 R171 生效後各國核准、NWM 3.0 送審結果，以及小鵬訂閱制的付費率。對台灣而言，車規記憶體與線控底盤零組件是新的切入點。
 
-**金句**：「歐美把智駕當訂閱賣，中國把智駕當標配送。」
+**金句**：智駕不再是送給你的配備，而是每個月要付費的服務。
 
 **Q&A 預備**
-- **問：**L2+ 和 L3 到底差在哪？ **答：**L2+ 駕駛仍需負責、要隨時接手；L3 在限定條件下由系統負責。歐美車廠多數暫緩 L3，就是因為責任與保險問題。
-- **問：**LiDAR 會變成必備嗎？ **答：**在中國中價位車款幾乎已是標配；Tesla 仍堅持純視覺，兩條路線短期不會收斂。
+- **問：**付費訂閱消費者會買單嗎？ **答：**Tesla FSD 已證明部分車主願付費，但中國價格敏感；小鵬保留「之前下訂者終身使用」，顯示仍在試水溫。
+- **問：**台廠的機會在哪？ **答：**線控轉向的感測器與冗餘控制器、車規 DRAM 與模組，以及商用車 ADAS 在地化。
 
 **名詞速懂（給新人）**
-- **L2+**：進階駕駛輔助，駕駛仍負全責，但系統可處理變換車道、導航等。
-- **NOA（導航輔助駕駛）**：依導航路線自動行駛高速或城區道路的輔助功能。
-- **LiDAR**：光學雷達，用雷射測距建立 3D 環境地圖。
-- **TOPS**：每秒兆次運算，用來比較智駕晶片算力。
+- **L2／L3**：L2 駕駛須全程監控；L3 在特定條件下系統負責
+- **UN R171（DCAS）**：聯合國駕駛控制輔助系統法規，2027-01 協調框架生效
+- **VLA**：視覺—語言—行動模型，讓車輛理解場景並決策
+- **線控轉向**：方向盤與車輪無機械連結，以電訊號控制
 
 ## 技術路線
 | 路線 | 代表 | 特徵 |
@@ -629,6 +629,19 @@ Tesla計畫與FSD v15同步上線自研AI地圖；NVIDIA Hyperion／Alpamayo夥�
 **觀察**：2027-01 R171 生效後各國核准節奏；Tesla 是否因 AI4 成本調整 FSD 訂閱價；賓士 Drive Assist Pro 德國定價。
 
 - 參見：[[sources/ev-news-2026-11-24-electrive-en]] | [[sources/ev-news-2026-11-24-insideevs]] | [[sources/ev-news-2026-11-24-digitimes]] | [[賓士]] | [[Tesla]] | [[小鵬汽車]]
+
+### 蔚來 NWM 3.0、小鵬 VLA 3.0 與智駕改訂閱制（2026-11）
+
+> **結論**：中國新勢力智駕競爭由「比功能」轉向「比效率與商業模式」——蔚來 NWM 3.0 把注意力運算需求降 36 倍，小鵬則宣布 2Q27 起全球新車主改付費訂閱，智駕開始從購車附贈變成可持續收費的軟體服務。
+
+**主因**：
+- 效率：NWM 3.0 底盤控制延遲降 78%、接管次數較前代降 40%，12 月起送審 → 降低對高階晶片算力的依賴，有利舊平台延壽與成本控制。
+- 變現：小鵬 VLA 2.0 上線首月輔助駕駛里程占比逾 50%、中國事故理賠率降 13.93%，以此支撐 2Q27 起訂閱收費 → 與 Tesla FSD 訂閱模式趨同，智駕成為新勢力毛利來源之一。
+- 下放：VLA 2.0 Lite 以蒸餾版推送至雙 Orin-X 舊車（12 月首批 6 款）→ 以軟體延長硬體生命週期，NVIDIA 舊平台客戶仍可共享新模型。
+
+**觀察**：NWM 3.0 與 NOMI 4.0 送審通過時點；小鵬 NGP 1H27 歐洲首交的法規進度；訂閱制實施後的付費率。
+
+- 參見：[[sources/ev-news-2026-11-25-cn-misc]] | [[蔚來]] | [[小鵬汽車]] | [[concepts/Robotaxi自動計程車]]
 
 ## Related
 - [[entities/Tesla]]
